@@ -1,0 +1,33 @@
+@CHARSET "UTF-8";
+
+.resource {
+	background-color: #E2F1F6;
+}
+
+.conceptual {
+	background-color: #FFFFEC;
+}
+
+.nav-list ul {
+	padding-left: 20px;
+}
+
+.h4-definition {
+	font-size: 14px;
+	background-color: lightgray;
+	padding: 2px;
+}
+
+.dl-definition dt {
+	text-align: right;
+	width: 10em;
+	padding-right: 1em;
+}
+
+.dl-definition dd {
+	margin-left: 10em;
+}
+
+.dl-definition dt, dd {
+	padding-bottom: 2px;
+}
