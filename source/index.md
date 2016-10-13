@@ -51,3 +51,8 @@ Relationship to Other ClinGen Models
 ------------------------------------
 
 The interpretation model is versioned separately from the ClinGen allele model, but depends on entities defined by that model, including Contextual and Canonical Allele, Gene, Reference Sequence, and others.
+
+Roadmap
+-------
+
+TODO
