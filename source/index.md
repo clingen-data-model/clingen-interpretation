@@ -1,7 +1,6 @@
 ---
 title: Interpretation Model
 model: interpretation
-layout: model
 alias: interpretation/discussion/
 
 ---
