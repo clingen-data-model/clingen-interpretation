@@ -12,3 +12,6 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 
 # Windows does not come with time zone data
 gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
+
+# To process xlsx files (like the examples spreadsheet)
+gem "rubyXL", "~>3.3.21"

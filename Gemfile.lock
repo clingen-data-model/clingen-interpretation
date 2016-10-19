@@ -103,6 +103,10 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    rubyXL (3.3.22)
+      nokogiri (>= 1.4.4)
+      rubyzip (>= 1.1.6)
+    rubyzip (1.2.0)
     sass (3.4.22)
     sprockets (2.12.4)
       hike (~> 1.2)
@@ -132,8 +136,9 @@ PLATFORMS
 DEPENDENCIES
   middleman (~> 3.4.1)
   middleman-livereload (~> 3.3.0)
+  rubyXL (~> 3.3.21)
   tzinfo-data
   wdm (~> 0.1.0)
 
 BUNDLED WITH
-   1.11.2
+   1.13.5
