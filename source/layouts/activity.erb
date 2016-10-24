@@ -1,0 +1,27 @@
+<% wrap_layout :layout  do %>
+
+    <%= yield %>
+
+    <h2>Attributes</h2>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Cardinality</th>
+                <th>Description</th>
+            </tr>
+            <% data.interpretations.Attribute.select{|a| a.evidenceTypeId=="E29"}.each do |att| %>
+                <tr>
+                    <td><%= att.name %></td>
+                    <td><%= att.dataType %></td>
+                    <td><%= att.cardinality %></td>
+                    <td><%= att.evidenceTypeId %></td>
+                </tr>
+            <% end %>
+        </table>
+
+
+    <h2>Examples</h2>
+
+
+<% end %>
