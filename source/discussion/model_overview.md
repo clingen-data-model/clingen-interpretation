@@ -1,7 +1,6 @@
 ---
 title: Interpretation Model Overview
 description: The overall structure of ClinGen interpretations, and the use of W3C-Prov.
-layout: model
 model: interpretation
 
 ---

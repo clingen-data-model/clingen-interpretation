@@ -1,7 +1,6 @@
 ---
 title: SEPIO
 model: interpretation
-layout: model
 summary: The relationship between ClinGen interpretation and SEPIO
 
 ---

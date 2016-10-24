@@ -89,7 +89,8 @@ helpers do
   
   def discussion_link_with_local_index(text)
     model = current_page.data.model
-    resource = sitemap.find_resource_by_path("#{model}/discussion/index.html")
+    #resource = sitemap.find_resource_by_path("#{model}/discussion/index.html")
+    resource = sitemap.find_resource_by_path("discussion/index.html")
     # Count index of model page as a discussion page
     if (path_depth(current_page.url) == 1 ||
         current_page.url.include?('/discussion/'))
@@ -106,7 +107,8 @@ helpers do
   # when using relative links (also because were playing games with the
   # links from the discusison page
   def discussion_index
-    resource = sitemap.            find_resource_by_path("/#{current_page.data.model}/discussion/index.html")
+    #resource = sitemap.find_resource_by_path("/#{current_page.data.model}/discussion/index.html")
+    resource = sitemap.find_resource_by_path("discussion/index.html")
     return "" if resource.children.size == 0
     resource.children.each { |e| "<li>#{link_to e.data.title, e.url}</li>" }
     index = resource.children.reduce("") { |a, e| a + "<li>#{link_to e.data.title, e.url}</li>" }
@@ -117,6 +119,8 @@ helpers do
   # based on selected page
   def link_with_local_index(text, path)
     resource = sitemap.find_resource_by_path(path)
+    "<li> blah </li>"
+    "<li> #{path} </li>"
     output = link_to(text, resource)
     if resource && current_page.url.include?(resource.url)
       index = local_index(current_page.url)
