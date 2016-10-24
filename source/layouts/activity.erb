@@ -10,7 +10,7 @@
                 <th>Cardinality</th>
                 <th>Description</th>
             </tr>
-            <% data.interpretations.Attribute.select{|a| a.evidenceTypeId=="E29"}.each do |att| %>
+            <% data.interpretations.Attribute.select{|a| a.evidenceTypeId==current_page.data.id}.each do |att| %>
                 <tr>
                     <td><%= att.name %></td>
                     <td><%= att.dataType %></td>
