@@ -1,0 +1,245 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Set Syntax: XML"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Volumes/Venman, Tom’s Public Folder/run.properties",
+		"/Users/babbl/Development/clingen/allele/config.rb",
+		"/Users/babbl/Development/clingen/sandbox/config.rb",
+		"/Users/babbl/Development/clingen/interpretation/source/vampi/activities/capture_evidence_statement.md",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/primary-code-setting.sql",
+		"/Users/babbl/Documents/operations/sqlplus-connections.xml",
+		"/Users/babbl/Development/clingen/sandbox/source/stylesheets/all.css",
+		"/Users/babbl/Development/clingen/interpretation/data/current_release.yml",
+		"/Users/babbl/Development/clingen/interpretation/data/versions.yml",
+		"/Users/babbl/Development/clingen/interpretation/config.rb",
+		"/Users/babbl/Development/clingen/interpretation/get_examples.rb",
+		"/Users/babbl/Development/clingen/sandbox/source/javascripts/all.js",
+		"/Users/babbl/Downloads/onelogin_metadata_549812.xml",
+		"/Users/babbl/Downloads/emerge-export/logging.properties",
+		"/Users/babbl/Documents/emerge/sync-disease-code-system-n-concepts.sql",
+		"/Users/babbl/Documents/emerge/reset-disease-code-procs.sql",
+		"/Users/babbl/Development/clingen/data-model-docs/.git/COMMIT_EDITMSG",
+		"/Users/babbl/Documents/emerge/replace-disease-codes.sql",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/negative_generic_TTRI.xml",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/negative_generic_TTRI[2].xml",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/VarInterp001[1].json",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/negative_generic_TTRI[1].xml",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/negative_generic_TTRI[3].xml",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/negative_generic_TR[1].xml",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/negative_generic_TR.xml",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/VarInterp001.json",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/negative_generic_TR[2].xml",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/Inbound XML.xml",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/sampleIncoming.xml",
+		"/Users/babbl/Development/geneinsight-suite/build/src/main/resources/gis/database/install/extinst_data_mgmt_procs.sql",
+		"/Users/babbl/Documents/operations/lmm-emerge-interp-diseases.sql",
+		"/Users/babbl/Development/geneinsight-as/build/src/main/resources/base/database/install/cfg-mgmt-procs.sql",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/forGary.sql",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/transmitReport4_addVariantInfoFromTemplate_2.xml",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/mcc-brca-report.xhtml",
+		"/Users/babbl/Documents/catalog-v001.xml",
+		"/Users/babbl/Documents/operations/print_clob_xml.sql",
+		"/Users/babbl/Documents/operations/report-data-and-sections-export-soap[1].xml",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/report-data-and-sections-export-soap.xml",
+		"/Users/babbl/Documents/operations/fast-client-example/src/main/java/com/geneinsight/fast/example/DataLoadExample.java",
+		"/Users/babbl/Documents/emerge/sq.prd...emerge_baylor_lab_prod~2.sql",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/GILabTestInformationSource.java",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/DataExportClient.java",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/criterionAssessments.json",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/criterionAssessments[1].json",
+		"/Users/babbl/Downloads/ClinVarFullRelease_00-latest.xml",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/sample_criteria_assessment.yml",
+		"/Users/babbl/tenant-logs/EMERGE-BAYLOR-LAB-TEST-00000003-in.xml",
+		"/Users/babbl/Development/geneinsight-as/build/src/main/resources/bin/run-remote-server-client.sh",
+		"/Users/babbl/Documents/operations/loinc-code-config-setup.sql",
+		"/Users/babbl/Downloads/RefSeqGenomeAli_0.6.docs.json",
+		"/Users/babbl/Documents/sqldeveloper/create_user.sql",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/alerts 2016-03-22 16-51-26.xml",
+		"/Users/babbl/Development/oms/build/src/main/resources/oms/database/elastic-search-setup.sh",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/report-P2346541132[1].xml",
+		"/Users/babbl/Documents/operations/msg_export.xml",
+		"/Users/babbl/Downloads/onelogin_metadata_551814.xml",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/DataLoadExample[2].java",
+		"/Users/babbl/Documents/gi_sig.html",
+		"/Users/babbl/Development/geneinsight-as/build/src/main/resources/base/database/install/list_distinct.sql",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/DataLoadExample.java",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/variation_archive[1].xsd",
+		"/Users/babbl/Projects/config/env.sh",
+		"/Users/babbl/.zshrc",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/report-P2346541132.xml",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/pom_Before_9cd5d9b4d8e10aa288eae7f1f9b4723cc2df62dc.xml",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/DiseaseUpload[4].properties",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/DiseaseUpload[1].properties",
+		"/private/var/folders/h2/czpnhh2s5h9653b95h7tb1h009lytp/T/com.microsoft.Outlook/Outlook Temp/DiseaseUpload.properties",
+		"/Users/babbl/Downloads/settings.xml",
+		"/Users/babbl/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"relative_assets",
+			"dataExportReq",
+			"ReviewStatus",
+			"python"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "interpretation.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,287 @@
+[
+  {
+    "id": "E01",
+    "name": "EvidenceStatement",
+    "link": "EvStmt"
+  },
+  {
+    "id": "E02",
+    "name": "MolecularConsequence",
+    "parentEntityTypeId": "E01",
+    "link": "MolCon"
+  },
+  {
+    "id": "E03",
+    "name": "ConditionMechanism",
+    "parentEntityTypeId": "E01",
+    "link": "CondMech"
+  },
+  {
+    "id": "E04",
+    "name": "Criterion",
+    "link": "Crit"
+  },
+  {
+    "id": "E05",
+    "name": "CanonicalAllele",
+    "link": "CanAll"
+  },
+  {
+    "id": "E06",
+    "name": "ContextualAllele",
+    "link": "CtxAll"
+  },
+  {
+    "id": "E07",
+    "name": "Gene",
+    "link": "G"
+  },
+  {
+    "id": "E08",
+    "name": "EvidenceStatementAttribute",
+    "link": "ESA"
+  },
+  {
+    "id": "E09",
+    "name": "CriterionAssessment",
+    "link": "CritAssess"
+  },
+  {
+    "id": "E10",
+    "name": "Activity",
+    "link": "Act"
+  },
+  {
+    "id": "E11",
+    "name": "AssessCriterion",
+    "parentEntityTypeId": "E10",
+    "link": "AssessCrit"
+  },
+  {
+    "id": "E12",
+    "name": "Agent",
+    "link": "Agent"
+  },
+  {
+    "id": "E13",
+    "name": "Example",
+    "link": "Ex"
+  },
+  {
+    "id": "E14",
+    "name": "Condition",
+    "link": "Cond"
+  },
+  {
+    "id": "E15",
+    "name": "MendelianDiseaseVariantInterpretation",
+    "parentEntityTypeId": "E01",
+    "link": "MenDisVarInterp"
+  },
+  {
+    "id": "E16",
+    "name": "Individual",
+    "link": "Indiv"
+  },
+  {
+    "id": "E17",
+    "name": "IndividualCondition",
+    "parentEntityTypeId": "E01",
+    "link": "IndCond"
+  },
+  {
+    "id": "E18",
+    "name": "FamilyHistory",
+    "parentEntityTypeId": "E01",
+    "link": "FamHist"
+  },
+  {
+    "id": "E19",
+    "name": "DeNovoAllele",
+    "parentEntityTypeId": "E01",
+    "link": "DeNovo"
+  },
+  {
+    "id": "E20",
+    "name": "FunctionalData",
+    "parentEntityTypeId": "E01",
+    "link": "Func"
+  },
+  {
+    "id": "E21",
+    "name": "CaseControl",
+    "parentEntityTypeId": "E01",
+    "link": "CaseCtrl"
+  },
+  {
+    "id": "E22",
+    "name": "GroupAlleleFrequency",
+    "parentEntityTypeId": "E01",
+    "link": "GAF"
+  },
+  {
+    "id": "E23",
+    "name": "PopulationAlleleFrequency",
+    "parentEntityTypeId": "E01",
+    "link": "PAF"
+  },
+  {
+    "id": "E24",
+    "name": "RegionAnnotation",
+    "parentEntityTypeId": "E01",
+    "link": "RegAnno"
+  },
+  {
+    "id": "E25",
+    "name": "ContextualRegion",
+    "link": "CtxReg"
+  },
+  {
+    "id": "E26",
+    "name": "ReferenceSequence",
+    "link": "RefSeq"
+  },
+  {
+    "id": "E27",
+    "name": "ConditionInheritance",
+    "parentEntityTypeId": "E01",
+    "link": "CondInh"
+  },
+  {
+    "id": "E28",
+    "name": "IndividualAllele",
+    "parentEntityTypeId": "E01",
+    "link": "IndAll"
+  },
+  {
+    "id": "E29",
+    "name": "CaptureEvidenceStatement",
+    "parentEntityTypeId": "E10",
+    "link": "CaptureEv"
+  },
+  {
+    "id": "E30",
+    "name": "GenerateVariantInterpretation",
+    "parentEntityTypeId": "E10",
+    "link": "GenVarInterp"
+  },
+  {
+    "id": "E31",
+    "name": "PublishVariantInterpretation",
+    "parentEntityTypeId": "E10",
+    "link": "PubVarInterp"
+  },
+  {
+    "id": "E32",
+    "name": "CriterionSet",
+    "link": "CritSet"
+  },
+  {
+    "id": "E33",
+    "name": "CriterionSetAlgorithm",
+    "link": "CritSetAlg"
+  },
+  {
+    "id": "E34",
+    "name": "EvidenceStatementAttribute",
+    "link": "ESA"
+  },
+  {
+    "id": "E35",
+    "name": "VariantInterpretation",
+    "link": "VarInterp"
+  },
+  {
+    "id": "E36",
+    "name": "EvidenceStatementSource",
+    "link": "Source"
+  },
+  {
+    "id": "E37",
+    "name": "PublicationStatus",
+    "link": "PubStat"
+  },
+  {
+    "id": "E38",
+    "name": "Capturer",
+    "parentEntityTypeId": "E12",
+    "link": "Capturer"
+  },
+  {
+    "id": "E39",
+    "name": "Assessor",
+    "parentEntityTypeId": "E12",
+    "link": "Assessor"
+  },
+  {
+    "id": "E40",
+    "name": "Generator",
+    "parentEntityTypeId": "E12",
+    "link": "Generator"
+  },
+  {
+    "id": "E41",
+    "name": "Publisher",
+    "parentEntityTypeId": "E12",
+    "link": "Publisher"
+  },
+  {
+    "id": "E42",
+    "name": "RegionContainsAllele",
+    "parentEntityTypeId": "E01",
+    "link": "RegAll"
+  },
+  {
+    "id": "E43",
+    "name": "BenignMissenseVariationRate",
+    "parentEntityTypeId": "E01",
+    "link": "BMVR"
+  },
+  {
+    "id": "E44",
+    "name": "Family",
+    "link": "F"
+  },
+  {
+    "id": "E45",
+    "name": "FamilySegregationData",
+    "parentEntityTypeId": "E01",
+    "link": "FamSegData"
+  },
+  {
+    "id": "E46",
+    "name": "AggregationSegregationData",
+    "parentEntityTypeId": "E01",
+    "link": "AggSegData"
+  },
+  {
+    "id": "E47",
+    "name": "InSilicoPrediction",
+    "parentEntityTypeId": "E01",
+    "link": "InSilicoPred"
+  },
+  {
+    "id": "E48",
+    "name": "ConditionEtiology",
+    "parentEntityTypeId": "E01",
+    "link": "CondEtiol"
+  },
+  {
+    "id": "E49",
+    "name": "ConditionPrevelance",
+    "parentEntityTypeId": "E01",
+    "link": "CondPrev"
+  },
+  {
+    "id": "E50",
+    "name": "ConditionPenetrance",
+    "parentEntityTypeId": "E01",
+    "link": "CondPenet"
+  },
+  {
+    "id": "E51",
+    "name": "Conservation",
+    "parentEntityTypeId": "E01",
+    "link": "Conserv"
+  }
+]
