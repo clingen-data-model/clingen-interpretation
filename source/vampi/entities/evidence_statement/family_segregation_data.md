@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: FamilySegregationData
 layout: entity
 model: interpretation
-id: E00
-
+id: E45
 ---
-
-Overview
---------

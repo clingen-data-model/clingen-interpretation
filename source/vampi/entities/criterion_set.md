@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: CriterionSet
 layout: entity
 model: interpretation
-id: E00
-
+id: E32
 ---
-
-Overview
---------

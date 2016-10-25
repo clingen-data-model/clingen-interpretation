@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: FamilyHistory
 layout: entity
 model: interpretation
-id: E00
-
+id: E18
 ---
-
-Overview
---------

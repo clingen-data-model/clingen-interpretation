@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: RegionContainsAllele
 layout: entity
 model: interpretation
-id: E00
-
+id: E42
 ---
-
-Overview
---------

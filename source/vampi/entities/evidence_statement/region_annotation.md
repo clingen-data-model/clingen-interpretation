@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: RegionAnnotation
 layout: entity
 model: interpretation
-id: E00
-
+id: E24
 ---
-
-Overview
---------

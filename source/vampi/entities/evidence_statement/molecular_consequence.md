@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: MolecularConsequence
 layout: entity
 model: interpretation
-id: E00
-
+id: E02
 ---
-
-Overview
---------

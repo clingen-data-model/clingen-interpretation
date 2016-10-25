@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: ConditionPrevelance
 layout: entity
 model: interpretation
-id: E00
-
+id: E49
 ---
-
-Overview
---------

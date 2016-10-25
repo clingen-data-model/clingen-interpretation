@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: GroupAlleleFrequency
 layout: entity
 model: interpretation
-id: E00
-
+id: E22
 ---
-
-Overview
---------

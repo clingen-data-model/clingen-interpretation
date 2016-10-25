@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: ConditionInheritance
 layout: entity
 model: interpretation
-id: E00
-
+id: E27
 ---
-
-Overview
---------

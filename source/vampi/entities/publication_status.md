@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: PublicationStatus
 layout: entity
 model: interpretation
-id: E00
-
+id: E37
 ---
-
-Overview
---------

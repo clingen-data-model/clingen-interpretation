@@ -1,7 +1,8 @@
 ---
 title: Activities
-layout: model
+layout: activity
 model: interpretation
+id: E10
 
 ---
 

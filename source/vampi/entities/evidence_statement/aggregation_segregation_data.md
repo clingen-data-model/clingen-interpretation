@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: AggregationSegregationData
 layout: entity
 model: interpretation
-id: E00
-
+id: E46
 ---
-
-Overview
---------

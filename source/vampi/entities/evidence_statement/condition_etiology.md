@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: ConditionEtiology
 layout: entity
 model: interpretation
-id: E00
-
+id: E48
 ---
-
-Overview
---------

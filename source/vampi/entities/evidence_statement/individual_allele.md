@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: IndividualAllele
 layout: entity
 model: interpretation
-id: E00
-
+id: E28
 ---
-
-Overview
---------

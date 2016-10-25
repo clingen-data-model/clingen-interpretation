@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: ContextualRegion
 layout: entity
 model: interpretation
-id: E00
-
+id: E25
 ---
-
-Overview
---------

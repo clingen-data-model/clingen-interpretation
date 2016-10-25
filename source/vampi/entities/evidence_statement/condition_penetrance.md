@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: ConditionPenetrance
 layout: entity
 model: interpretation
-id: E00
-
+id: E50
 ---
-
-Overview
---------

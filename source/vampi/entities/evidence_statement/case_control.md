@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: CaseControl
 layout: entity
 model: interpretation
-id: E00
-
+id: E21
 ---
-
-Overview
---------

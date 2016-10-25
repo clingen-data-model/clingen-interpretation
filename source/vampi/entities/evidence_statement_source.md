@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: EvidenceStatementSource
 layout: entity
 model: interpretation
-id: E00
-
+id: E36
 ---
-
-Overview
---------

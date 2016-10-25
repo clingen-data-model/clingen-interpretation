@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: DeNovoAllele
 layout: entity
 model: interpretation
-id: E00
-
+id: E19
 ---
-
-Overview
---------

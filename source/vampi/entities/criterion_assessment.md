@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: CriterionAssessment
 layout: entity
 model: interpretation
-id: E00
-
+id: E09
 ---
-
-Overview
---------

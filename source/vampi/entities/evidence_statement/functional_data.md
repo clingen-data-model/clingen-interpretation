@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: FunctionalData
 layout: entity
 model: interpretation
-id: E00
-
+id: E20
 ---
-
-Overview
---------

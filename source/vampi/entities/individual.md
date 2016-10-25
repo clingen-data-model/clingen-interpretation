@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: Individual
 layout: entity
 model: interpretation
-id: E00
-
+id: E16
 ---
-
-Overview
---------

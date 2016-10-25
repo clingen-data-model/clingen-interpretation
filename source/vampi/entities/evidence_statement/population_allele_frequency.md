@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: PopulationAlleleFrequency
 layout: entity
 model: interpretation
-id: E00
-
+id: E23
 ---
-
-Overview
---------

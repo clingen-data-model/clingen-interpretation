@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: ConditionMechanism
 layout: entity
 model: interpretation
-id: E00
-
+id: E03
 ---
-
-Overview
---------

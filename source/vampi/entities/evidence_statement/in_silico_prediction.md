@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: InSilicoPrediction
 layout: entity
 model: interpretation
-id: E00
-
+id: E47
 ---
-
-Overview
---------

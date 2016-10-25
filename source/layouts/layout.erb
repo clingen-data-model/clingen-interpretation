@@ -94,8 +94,10 @@
             </li>
             <%= discussion_link_with_local_index "Discussion" %>
             <%= link_with_local_index "Activities", "vampi/activities/index.html" %>
-            <%= link_with_local_index "Entities", "/#{current_page.data.model}/vampi/entities/index.html" %>
-            <%= link_with_local_index "Agents", "/#{current_page.data.model}/vampi/agents/index.html" %>
+            <%= link_with_local_index "Entities", "vampi/entities/index.html" %>
+            <%= link_with_local_index "Agents", "vampi/agents/index.html" %>
+            <!-- Old style.  We might still need the model here? -->
+            <!--%= link_with_local_index "Entities", "/#{current_page.data.model}/vampi/entities/index.html" %-->
           </ul>
         </div>
         <div class="col-sm-8 col-sm-offset-4 col-md-9 col-md-offset-3 main">

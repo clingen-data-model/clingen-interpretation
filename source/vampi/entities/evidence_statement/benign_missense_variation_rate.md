@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: BenignMissenseVariationRate
 layout: entity
 model: interpretation
-id: E00
-
+id: E43
 ---
-
-Overview
---------

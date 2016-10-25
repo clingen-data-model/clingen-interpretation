@@ -1,10 +1,6 @@
 ---
-title: Entities
+title: IndividualCondition
 layout: entity
 model: interpretation
-id: E00
-
+id: E17
 ---
-
-Overview
---------
