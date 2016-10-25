@@ -3,6 +3,7 @@ require 'net/http'
 require 'uri'
 require 'json'
 
+
 GOOGLE_DATA_FOLDER = "data/google"
 ACMG_EXAMPLE_DATA_SHEET = "ACMG Rule Examples Data.xlsx"
 ACMG_CRITERION_ASSESS_EXAMPLES = "Criterion Assessment Examples.docx"
@@ -42,9 +43,10 @@ wb.worksheets.each do |ws|
 			.delete_if { |k, v| k.nil? || k.empty? || v.nil? }
 		sheet_data << row_data
 	end
-	raw_examples[ws.sheet_name] = sheet_data
+        sheet_hash = sheet_data.reduce({}) { |acc, r| acc.merge({r['id'] => r})}
+	raw_examples[ws.sheet_name] = sheet_hash
 	json_file = File.open(GOOGLE_DATA_FOLDER+"/"+ws.sheet_name+".json", "w")
-	json_file.write(JSON.pretty_generate(sheet_data))
+	json_file.write(JSON.pretty_generate(sheet_hash))
 	json_file.close
 
 end
