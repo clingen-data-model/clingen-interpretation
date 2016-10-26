@@ -1,7 +1,7 @@
 ---
 title: Supported queries
 description: Use cases for queries to be supported by the allele model.
-model: assertion
+model: interpretation
 
 ---
 

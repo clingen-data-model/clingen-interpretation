@@ -1,6 +1,6 @@
 ---
 title: Evidence Ontology (ECO)
-model: assertion
+model: interpretation
 summary: discussion on the use and extention of the Evidence Ontology (ECO) in the ClinGen assertion model.
 
 ---

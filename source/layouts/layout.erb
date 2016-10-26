@@ -92,16 +92,30 @@
             <li class='nav-sidebar-title'>
               <%= image_tag 'clingen-doc-logo.png', width: "438", height: "108", alt: "ClinGen Documentation", class: "img-responsive" %>
             </li>
-            <%= discussion_link_with_local_index "Discussion" %>
-            <%= link_with_local_index "Activities", "vampi/activities/index.html" %>
-            <%= link_with_local_index "Entities", "vampi/entities/index.html" %>
-            <%= link_with_local_index "Agents", "vampi/agents/index.html" %>
+
+            <%= link_with_local_index "Welcome", "welcome/index.html" %>
+            <%= link_with_local_index "User Guide", "user/index.html" %>
+            <%= link_with_local_index "Technical Reference", "tech/index.html" %>
             <!-- Old style.  We might still need the model here? -->
             <!--%= link_with_local_index "Entities", "/#{current_page.data.model}/vampi/entities/index.html" %-->
           </ul>
         </div>
         <div class="col-sm-8 col-sm-offset-4 col-md-9 col-md-offset-3 main">
           <article>
+            
+            <% if current_page.data.id?(nil) %>
+              <%- title = current_page.data.title %>
+              <%- description = current_page.data.description %>
+            <% else %>
+              <%- entity = data.google.Entity[current_page.data.id] %>
+              <%- title = data.google.Entity[current_page.data.id].name %>
+              <%- description = data.google.Entity[current_page.data.id].description %>
+            <% end %>
+            
+            <h1><%= title %></h1>
+            <p><%= description %></p>
+            <hr class='col-sm-12' />
+
             <%= yield %>
           </article>
         </div>

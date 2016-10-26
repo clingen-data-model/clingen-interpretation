@@ -87,14 +87,13 @@ helpers do
     li
   end
   
-  def discussion_link_with_local_index(text)
-    model = current_page.data.model
+  def expanded_link_with_local_index(text, path)
     #resource = sitemap.find_resource_by_path("#{model}/discussion/index.html")
-    resource = sitemap.find_resource_by_path("discussion/index.html")
-    # Count index of model page as a discussion page
+    resource = sitemap.find_resource_by_path("#{path}/index.html")
+    # Count the child folders
     if (path_depth(current_page.url) == 1 ||
-        current_page.url.include?('/discussion/'))
-      index = discussion_index
+        current_page.url.include?('/#{path}/'))
+      index = child_index(path)
       %(<li class="active">#{link_to(text, resource)}</li>#{index})
     # elsif current_page.url.include?('/discussion/')
     #   link_with_local_index(text,path)
@@ -106,9 +105,8 @@ helpers do
   # This is a special case needed because of bugs in the link_to method
   # when using relative links (also because were playing games with the
   # links from the discusison page
-  def discussion_index
-    #resource = sitemap.find_resource_by_path("/#{current_page.data.model}/discussion/index.html")
-    resource = sitemap.find_resource_by_path("discussion/index.html")
+  def child_index(path)
+    resource = sitemap.find_resource_by_path("#{path}/index.html")
     return "" if resource.children.size == 0
     resource.children.each { |e| "<li>#{link_to e.data.title, e.url}</li>" }
     index = resource.children.reduce("") { |a, e| a + "<li>#{link_to e.data.title, e.url}</li>" }
@@ -119,8 +117,7 @@ helpers do
   # based on selected page
   def link_with_local_index(text, path)
     resource = sitemap.find_resource_by_path(path)
-    "<li> blah </li>"
-    "<li> #{path} </li>"
+    # "<li> #{path} </li>"
     output = link_to(text, resource)
     if resource && current_page.url.include?(resource.url)
       index = local_index(current_page.url)

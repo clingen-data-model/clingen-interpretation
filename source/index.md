@@ -1,7 +1,6 @@
 ---
 title: Interpretation Model
 model: interpretation
-alias: interpretation/discussion/
 
 ---
 
