@@ -1,5 +1,5 @@
-[
-  {
+{
+  "Ex001": {
     "id": "Ex001",
     "Criterion": "PVS1",
     "index": 1.0,
@@ -9,7 +9,7 @@
     "description": "Variant: NM_031844.2(HNRNPU):c.2304_2305del (p.Gly769Glufs*83)\nVariant is frameshift which would be LOF however PVS1 is not applicable because:\na. LOF is not an established disease mechanism for HNRNPU\nb. Protein ends at p.826 and this frameshift would create stop at p.852 (769+83) thus NMD would not occur. Instead an elongated protein",
     "displayNum": "PVS1 - #1"
   },
-  {
+  "Ex002": {
     "id": "Ex002",
     "Criterion": "PVS1",
     "index": 2.0,
@@ -19,7 +19,7 @@
     "description": "Variant: NM_031844.2(HNRNPU):c.2304_2305del (p.Gly769Glufs*83)\nVariant is frameshift which would be LOF however PVS1 is not applicable because:\na. LOF is not an established disease mechanism for HNRNPU\nb. Protein ends at p.826 and this frameshift would create stop at p.852 (769+83) thus NMD would not occur. Instead an elongated protein",
     "displayNum": "PVS1 - #2"
   },
-  {
+  "Ex003": {
     "id": "Ex003",
     "Criterion": "PVS1",
     "index": 3.0,
@@ -29,7 +29,7 @@
     "description": "Variant: NM_133437.4(TTN):c.10670dupG (p.Leu3558Thrfs)\na. TTN - LOF is an established disease mechanism for dilated cardiomyopathy\nb. However variant occurs in an alternate transcript of the TTN gene - this exon is only included in 4% of TTN transcripts\nSo PVS1 is not applicable",
     "displayNum": "PVS1 - #3"
   },
-  {
+  "Ex004": {
     "id": "Ex004",
     "Criterion": "PS1",
     "index": 1.0,
@@ -39,7 +39,7 @@
     "description": "Assessed variant: PTPN11 - NM_002834.3:c.855T>G - p.Phe285Leu\nIf assessing this variant, PS1 could be applied based on PTPN11 variant c.853T>C which also encodes Phe285Leu and is established as Pathogenic",
     "displayNum": "PS1 - #1"
   },
-  {
+  "Ex005": {
     "id": "Ex005",
     "Criterion": "PS1",
     "index": 2.0,
@@ -49,7 +49,7 @@
     "description": "Assessed variant: DNAH5 - NM_001369.2:c.6249G>C - p.Met2083Ile\nA different variant creating the same AA change is pathogenic (c.6249G>A - p.Met2083Ile) but that change is pathogenic because it has been shown to disrupt splicing and create a premature stop codon. Prediction tools do not suggest c.6429G>C disrupts splicing so applying PS1 (as met by c.6429G>A) is likely not appropriate.\nG>C Predictions:\nWT seq. SpliceSiteFinder score, Alamut.wtSSFScore, 86.1635\nWT seq. MaxEntScan score, Alamut.wtMaxEntScore, 9.33191\nWT seq. NNSPLICE score, Alamut.wtNNSScore, 0.995916\nWT seq. GeneSplicer score, Alamut.wtGSScore, 1.40526\nWT seq. HumanSpliceFinder score, Alamut.wtHSFScore, 92.362\nVariant seq. SpliceSiteFinder score, Alamut.wtSSFScore, 74.0274\nVariant seq. MaxEntScan score, Alamut.wtMaxEntScore, 4.33035\nVariant seq. NNSPLICE score, Alamut.wtNNSScore, 0.908774\nVariant seq. GeneSplicer score, Alamut.wtGSScore, -\nVariant seq. HumanSpliceFinder score, Alamut.wtHSFScore, 81.784\nAverage change at nearest splice site, Alamut.nearestSSChange, -0.245997\nG>A Predictions:\nWT seq. SpliceSiteFinder score, Alamut.wtSSFScore, 86.1635\nWT seq. MaxEntScan score, Alamut.wtMaxEntScore, 9.33191\nWT seq. NNSPLICE score, Alamut.wtNNSScore, 0.995916\nWT seq. GeneSplicer score, Alamut.wtGSScore, 1.40526\nWT seq. HumanSpliceFinder score, Alamut.wtHSFScore, 92.362\nVariant seq. SpliceSiteFinder score, Alamut.wtSSFScore, 72.8524\nVariant seq. MaxEntScan score, Alamut.wtMaxEntScore, 5.84455\nVariant seq. NNSPLICE score, Alamut.wtNNSScore, 0.918151\nVariant seq. GeneSplicer score, Alamut.wtGSScore, -\nVariant seq. HumanSpliceFinder score, Alamut.wtHSFScore, 81.349\nAverage change at nearest splice site, Alamut.nearestSSChange, -0.190341\n",
     "displayNum": "PS1 - #2"
   },
-  {
+  "Ex006": {
     "id": "Ex006",
     "Criterion": "PS1",
     "index": 3.0,
@@ -59,7 +59,7 @@
     "description": "The Noonan WG decided PS1 was applicable for the same analogous residue positions/regions in highly analogous grouping (HRAS/KRAS/NRAS and MAP2K1/MAP2K2).  So HRAS c.173C>T - p.Thr58Ile [g.533883G>A (chr11, GRCh37)] could use KRAS c.173C>T - p.Thr58Ile [g.25380285G>A (chr12, GRCh37)] and vice versa",
     "displayNum": "PS1 - #3"
   },
-  {
+  "Ex007": {
     "id": "Ex007",
     "Criterion": "PS2",
     "index": 1.0,
@@ -69,7 +69,7 @@
     "description": "Assessed variant: NM_000257.2:c.5740G>A (p.Glu1914Lys)\nAccording to PMID:24664454, this variant was identified de novo in an affected (cardiomyopathy) case and\na. There was no family history of the disease\nb. The variant was proven to be de novo by showing both parents did not carry the variant\nc. Haplotyping confirmed they were the parents",
     "displayNum": "PS2 - #1"
   },
-  {
+  "Ex008": {
     "id": "Ex008",
     "Criterion": "PS2",
     "index": 2.0,
@@ -79,7 +79,7 @@
     "description": "Assessed variant: NM_001927.3:c.1216C>T (p.Arg406Trp)\nAccording to PMID: 10717012 & 10905661 (same case) this variant was identified de novo in an affected (desmin related myopathy) case and\na. Patient's parents are unaffected\nb. Non-paternity was excluded by assessment with microsatellites\nc. De novo variant occurred on haplotype inherited from the father\n \nMaternity no explicitly confirmed - but if variant occurred on haplotype inherited from the father, then confirmation of maternity not required.",
     "displayNum": "PS2 - #2"
   },
-  {
+  "Ex009": {
     "id": "Ex009",
     "Criterion": "PS2",
     "index": 3.0,
@@ -89,7 +89,7 @@
     "description": "Assessed variant: NM_000833 (GRIN2A):c.4375T>C (p.Ser1459Gly)\n \n(From CSER bakeoff) - as variant was identified via trio WES, group assumes paternity and maternity were confirmed and thus PS2 is applicable.\nProband affected with epilepsy with mental retardation - both parents unaffected",
     "displayNum": "PS2 - #3"
   },
-  {
+  "Ex010": {
     "id": "Ex010",
     "Criterion": "PS3",
     "index": 1.0,
@@ -98,7 +98,7 @@
     "description": "Assessed variant: NM_001001431(TNNT2):c.391C>T (p.Arg131Trp)\nPMID-17932326: the mutation lowered the Ca2+  affinity of the reconstituted thin filaments; PMID-15923195: reduced Ca2 sensitivity of activation in ATPase and motility assays; PMID-22675533: the mutation desensitized Ca2+ binding to the thin filament.\n\nCSER Bakeoff variant - There was some debate as to whether this rule should be applied or not - 2 sites invoked this rule and one called it weak",
     "displayNum": "PS3 - #1"
   },
-  {
+  "Ex011": {
     "id": "Ex011",
     "Criterion": "PS3",
     "index": 2.0,
@@ -107,7 +107,7 @@
     "description": "Assessed variant: NM_003119.23 (SPG7):c.1529C>T (p.Ala510Val)\nPMID:20186691- yeast complementation assay \n\nCSER Bakeoff variant - Some sites invoked this rule and others did not → one group bumped this evidence to Moderate",
     "displayNum": "PS3 - #2"
   },
-  {
+  "Ex012": {
     "id": "Ex012",
     "Criterion": "PS3",
     "index": 3.0,
@@ -116,7 +116,7 @@
     "description": "Assessed variant: NM_004333.4(BRAF):c.1787G>T (p.Gly596Val)  \nThe RASopathy group decided for BRAF both MEK activation and ERK activation assays (in which the variant results in abnormal pattern of pERK/ERK or pMEK/MEK) is a validated assay.\nPMID:16439621 shows that Gly596Val results in abnormal/decreased MEK and ERK activiation so PS3 is applicable for this variant ",
     "displayNum": "PS3 - #3"
   },
-  {
+  "Ex013": {
     "id": "Ex013",
     "Criterion": "PS4",
     "index": 1.0,
@@ -126,7 +126,7 @@
     "description": "Assessed variant: SLC26A4 NM_000441.1:c.1003T>C (p.Phe335Leu)\n \nAcross all published data (and LMM data) the c.1003T>C variant has been identified in 32 chromosomes with hearing loss of 4076 total hearing loss chromosomes assayed (32+ ; 4044-). In ExAC (http://exac.broadinstitute.org/variant/7-107329499-T-C) this variant is found in 105 / 121336 total chromosomes.\n \nCase control comparison shows statistically significant difference between affects and unaffected (OR 9.1361 99%CI: 6.1425 - 13.5889)",
     "displayNum": "PS4 - #1"
   },
-  {
+  "Ex014": {
     "id": "Ex014",
     "Criterion": "PS4",
     "index": 2.0,
@@ -135,7 +135,7 @@
     "description": "Assessed variant: NM_000540.2 (RYR1):c.1840C>T (p.Arg614Cys)\n \nAcross publications, this variant is thought to account for 2%-10% of patients with Malignant hyperthermia. But variant is also only found in 9/66740 Europeans in ExAC (.01%). Based on these differences, groups applied PS4 to this variant classification (without a formal OR analysis).",
     "displayNum": "PS4 - #2"
   },
-  {
+  "Ex015": {
     "id": "Ex015",
     "Criterion": "PS4",
     "index": 3.0,
@@ -144,7 +144,7 @@
     "description": "Assessed variant: NM_006208.2 (ENPP1):c.517A>C (p.Lys173Gln)\n\nIn a case control study (PMID 23633196), authors compared incidence of C allele (Gln) in individuals affected with abnormal glucose homeostasis vs normal controls. This analysis gave OR 1.06 (95% CI: 0.96-1.18; p value 0.24). With an OR so close to 1.00 and CI that dips below 1.00, different between cases and controls is not significant and thus PS4 is not applicable.",
     "displayNum": "PS4 - #3"
   },
-  {
+  "Ex016": {
     "id": "Ex016",
     "Criterion": "PM1",
     "index": 1.0,
@@ -153,7 +153,7 @@
     "description": "Assessed variant: NM_005228.3(EGFR):c.2369C>T(p.Thr790Met)\nVariant is located within the kinase domain (where multiple other pathogenic variants are located)\n\nCSER bakeoff - 7/10 sites agreed on this rule",
     "displayNum": "PM1 - #1"
   },
-  {
+  "Ex017": {
     "id": "Ex017",
     "Criterion": "PM1",
     "index": 2.0,
@@ -162,7 +162,7 @@
     "description": "Assessed variant: NM_004333.4(BRAF):c.1789C>G (p.Leu597Val)\nRASopathy group decided that exon 15 of BRAF, which encodes the serine-threonine-protein kinase catalytic domain, is an established functional domain for BRAF. Thus, in assessing c.1789C>G, which falls in exon 15, applying PM1 is appropriate",
     "displayNum": "PM1 - #2"
   },
-  {
+  "Ex018": {
     "id": "Ex018",
     "Criterion": "PM1",
     "index": 3.0,
@@ -171,7 +171,7 @@
     "description": "Assessed variant: GLA c.902G>C (p.Arg301Pro)\nThis rule can also be met by a mutational hotspot as the ACMG papers says are “hotspots in less well-characterized regions of genes are reported, in which\npathogenic variants in one or several nearby residues have been observed with greater frequency.”\nSo for variant GLA c.902G>C (p.Arg301Pro), PM1 is applicable as the following surrounding variants are pathogenic: c.886A>G (p.Met296Val) ; c.890C>T (p.Ser297Phe) ; c.899T>C (p.Leu300Pro) ; c.902G>A (p.Arg301Gln)",
     "displayNum": "PM1 - #3"
   },
-  {
+  "Ex019": {
     "id": "Ex019",
     "Criterion": "PM2",
     "index": 1.0,
@@ -180,7 +180,7 @@
     "description": "Variant assessed: NM_000257.2 (MYH) c.5135G>A (p.Arg1712Gln)\nVariant is not completely absent from ExAC: http://exac.broadinstitute.org/variant/14-23884860-C-T\nVariant found in 1/121366 total chr and specifically 1/66706 European chr. \n\n1, # variant alleles\n66706, # total alleles tested\n95, desired CI (99.9 or 95)\n\n0.00%, population proportion\n0.00%, CI - lower\n0.01%, CI - upper\n\nPM2 is applicable as even though variant is not 100% absent, it is practically absent (using rules in Issues below)\n",
     "displayNum": "PM2 - #1"
   },
-  {
+  "Ex020": {
     "id": "Ex020",
     "Criterion": "PM2",
     "index": 2.0,
@@ -189,7 +189,7 @@
     "description": "Variant assessed: MUTYH c.64G>A (p,Val22Met)\nVariant is very frequent in ExAC:\nhttp://exac.broadinstitute.org/variant/1-45800156-C-T\n\nGlobal MAF 4.9% (5967/121406) and specifically European MAF 7.8% (514/6614) thus variant is too common to be disease causing and PM2 is not applicable",
     "displayNum": "PM2 - #2"
   },
-  {
+  "Ex021": {
     "id": "Ex021",
     "Criterion": "PM2",
     "index": 3.0,
@@ -198,7 +198,7 @@
     "description": "Variant assessed: NM_001399.4 (EDA) c.676C>T (p.Gln226X)\nVariant is absent from ExAC (and all other pop databases):\nhttp://exac.broadinstitute.org/variant/X-69247856-C-T\n\nHowever, median coverage at this position is 10X. Typically, for coverage <20X, we don’t say “absent”. So PM2 is not applicable ",
     "displayNum": "PM2 - #3"
   },
-  {
+  "Ex022": {
     "id": "Ex022",
     "Criterion": "PM3",
     "index": 1.0,
@@ -207,7 +207,7 @@
     "description": "Variant assessed: DNAH5  - NM_001369.2:c.7468_7488del (p.Trp2490_Leu2496del)\n \nLMM data - In an affected proband with recessive Primary Ciliary Dyskinesia, the two DNA5 variants were identified:\nc.7468_7488del (p.Trp2490_Leu2496del)\nc.9449delG (p.Gly3150AlafsX24)\n \nThis case can be used for PM3 because:\na. Second variant c.9449delG is pathogenic as LOF variants in DNAH5 are associated with autosomal recessive primary ciliary dyskinesia (PCD) with outer dynein arm (ODA) defects (Olbrich 2002, Hornef 2006, Ferkol 2013)\nb. Father was het for c.9449delG variant and negative for c.7468_7488del variant. Mother was het for c.7468_7488del variant and negative for c.9449delG variant. Thus, variants are in trans in this proband.",
     "displayNum": "PM3 - #1"
   },
-  {
+  "Ex023": {
     "id": "Ex023",
     "Criterion": "PM3",
     "index": 2.0,
@@ -216,7 +216,7 @@
     "description": "Variant assessed: NM_133261.2 (GIPC3):c.298G>A (p.Asp100Asn)\n\nThis variant was found in a case with nonsyndromic hearing loss and who also carried Pathogenic GIPC3 variant c.411+1G>A (called Pathogenic internally at LMM). Based on the NGS data, we are able to determine that c.298G>A and c.411+1G>A are in trans as no NGS reads carry both variants. Thus PM3 is applicable without having to confirm trans by doing parental testing. ",
     "displayNum": "PM3 - #2"
   },
-  {
+  "Ex024": {
     "id": "Ex024",
     "Criterion": "PM3",
     "index": 3.0,
@@ -225,7 +225,7 @@
     "description": "Variant assessed: NM_000391.3(TPP1):c.1678_1679delCT (p.Leu560ThrfsX47)\n \nFrom CSER Bakeoff: Two sites applied PM3 to this variant - however variant has only been described in 1 publication in 1 individual with neuronal ceroid lipofuscinosis. However, individual was homozygous for the c.1678_1679delCT variant. So applicable of PM3 is incorrect as the variant in trans is not pathogenic (same variant).",
     "displayNum": "PM3 - #3"
   },
-  {
+  "Ex025": {
     "id": "Ex025",
     "Criterion": "PM4",
     "index": 1.0,
@@ -234,7 +234,7 @@
     "description": "Assessed variant: NM_001369.2(DNAH5):c.7468_7488del (p.Trp2490_Leu2496del)\nThe Trp2490_Leu2496del variant in DNAH5 leads to an in-frame deletion of 7 amino acids (not repeat region). \n<<insert image here>>\nCSER Bakeoff",
     "displayNum": "PM4 - #1"
   },
-  {
+  "Ex026": {
     "id": "Ex026",
     "Criterion": "PM4",
     "index": 2.0,
@@ -243,7 +243,7 @@
     "description": "Assessed variant: NM_015560(OPA1):c.113_130del18(p.R38_S43del)\nThis variant results in the deletion of 5 amino acids not in repeat region (this variant does however have lower site quality in ExAC)\n\nCSER Bakeoff\n<<insert image here>>>",
     "displayNum": "PM4 - #2"
   },
-  {
+  "Ex027": {
     "id": "Ex027",
     "Criterion": "PM4",
     "index": 3.0,
@@ -252,7 +252,7 @@
     "description": "Assessed variant: NM_003924.3(PHOX2B):c.753_767dup (p.Ala260_Gly261insAlaAlaAlaAlaAla)\n\nThis 15bp duplication variant results in an expansion of a 20 residue polyalanine tract to a 25 residue polyalanine tract. While this variant is well established as pathogenic for central hypoventilation syndrome, PM2 would not be applicable as this rule is for inframe length changing variants in a nonrepeat region",
     "displayNum": "PM4 - #3"
   },
-  {
+  "Ex028": {
     "id": "Ex028",
     "Criterion": "PM5",
     "index": 1.0,
@@ -261,7 +261,7 @@
     "description": "Variant assessed: NM_000363.4(TNNI3):c.485G>A (p.Arg162Gln)\nCSER variant. From ClinVar: Doolan et al. (2005) (PMID:15698845) reported mutations at the same residue (R162P) in patients with HCM, supporting the functional importance of this residue in the protein. This rare R162P variant observed multiple times in is Likely Pathogenic in ClinVar with 1 star assertion.  Other variants in the same residue R162W has conflicting evidence of pathogenicity(Path by GeneDx : SCV000209174.2 and VUS by LMM:SCV000203864.2). Considered these two only as they have provided assertion criteria.Perhaps requires curation of this variant combining the entire body of evidence before using PM5 .",
     "displayNum": "PM5 - #1"
   },
-  {
+  "Ex029": {
     "id": "Ex029",
     "Criterion": "PM5",
     "index": 2.0,
@@ -270,7 +270,7 @@
     "description": "Assessed variant: NM_000531(OTC):c.118C>T(p.R40C) CSER variant\nOther pathogenic variants at the same residue per ClinVar : NM_000531.5(OTC):c.119G>A (p.Arg40His) However no assertion criteria is provided for these variants. So pathogenicity needs to be determined by literature search. PMID: 7951259,11768581,11260212",
     "displayNum": "PM5 - #2"
   },
-  {
+  "Ex030": {
     "id": "Ex030",
     "Criterion": "PM5",
     "index": 3.0,
@@ -279,7 +279,7 @@
     "description": "Assessed variant: NM_007294.3(BRCA1):c.5290C>A (p.Leu1764Ile)\nAnother variant at this position, but different AA change, has been observed and called pathogenic for breast ovarian cancer by ENIGMA expert panel: NM_007294.3(BRCA1):c.5291T>C (p.Leu1764Pro)",
     "displayNum": "PM5 - #3"
   },
-  {
+  "Ex031": {
     "id": "Ex031",
     "Criterion": "PM2",
     "index": 4.0,
@@ -288,7 +288,7 @@
     "description": "(CSER var#72,classifier#3) \nNM_001369.2(DNAH5):c.7468_7488del (p.Trp2490_Leu2496del)\n\nVariant is absent from ExAC (http://exac.broadinstitute.org/region/5-13810280-13810320) however:\nVery low coverage across this region (~5X) and usually 20X is used as a cut-off to say “absent”\nVariant is 21 nt deletion - databases may not be able to call a variant of that size (I rarely see an indel of this size in ExAC)\n\nSo you can’t really say this variant is “absent” (PM2) - so I would argue PM2 is not applicable for this variant",
     "displayNum": "PM2 - #4"
   },
-  {
+  "Ex032": {
     "id": "Ex032",
     "Criterion": "PM6",
     "index": 1.0,
@@ -297,7 +297,7 @@
     "description": "(CSER variant)\nVariant assessed:NM_144997.5(FLCN):c.1285dupC (p.His429Profs)   \nEvidence obtained via literature search: PMIDs: 12471204,18505456",
     "displayNum": "PM6 - #1"
   },
-  {
+  "Ex033": {
     "id": "Ex033",
     "Criterion": "PM6",
     "index": 2.0,
@@ -306,7 +306,7 @@
     "description": "Assessed variant: NM_002755.3(MAP2K1):c.158T>C (p.Phe53Ser)\n\nFrom PMID:16439621, affected child with CFC was found to carry c.158T>C. Both parents are unaffected and from Sanger seq neither parent was found to carry c.158T>C variant - so authors conclude variant occurred de novo. Since there was no mention of parental confirmation, PS2 cannot be used but PM6 is applicable.",
     "displayNum": "PM6 - #2"
   },
-  {
+  "Ex034": {
     "id": "Ex034",
     "Criterion": "PM6",
     "index": 3.0,
@@ -315,7 +315,7 @@
     "description": "Assessed variant: NM_004333.4(BRAF):c.1741A>G (p.Asn581Asp)\n\nFrom 2 publications (PMID 22876591 & 16439621), 3 unrelated probands with CFC were found to carry c.1741A>G variant. There is no family history of CFC in any family and all three sets of parents were confirmed to not have the variant. Since there was no mention of parental confirmation, PS2 cannot be used but PM6 is applicable. However, since there are 3 de novo observations, many groups (including Noonan and MYH7) would allow PM6 to be upgraded to Strong (PM6_S)",
     "displayNum": "PM6 - #3"
   },
-  {
+  "Ex035": {
     "id": "Ex035",
     "Criterion": "PP1",
     "index": 1.0,
@@ -324,7 +324,7 @@
     "description": "Variant assessed: MYBPC3 c.1351+1G>A\n\nIn PMID:17081393, variant c.1351+1G>A was identified in 1 individual with HCM. Segregation analysis determined 5 other members of the family also carried this variant. However, only 3 of those family members had HCM (aged 48-75). The 2 other family members were young and asymptomatic. So from this paper, only count 3 segregations \n \nIn LMM internal family, c.1351+1G>A was identified in 1 individual with HCM. Variant also found in individual’s sister - who also had clinical dx of HCM. So 1 segregation from this family\n\nCan add segregations together - so in total have 4 segregations from 2 families\nMYBPC1 well established as causal for HCM (dominant)",
     "displayNum": "PP1 - #1"
   },
-  {
+  "Ex036": {
     "id": "Ex036",
     "Criterion": "PP1",
     "index": 2.0,
@@ -333,7 +333,7 @@
     "description": "Variant assessed: USH2A c.1000C>T (Arg334Trp)\n\nFamily 1: c.1000C>T identified in the homozygous state in 1 individual with Usher syndrome. 5 affected family members also homozygous for the variant. So 5 segs\n\nFamily 2: c.1000C>T identified in het state in 1 individual with Usher. Individual compound het with Gly1840Val USH2A variant - confirmed in trans. Gly1840Val called Pathogenic. Individual has 3 affected sibs all of whom are compound het with 1000C>T & Gly1840Val. One additional sib only carried 1000C>T and is unaffected. So 3 segs\n    \nIn total, 8 segs from 2 families (can combine hom segs and compound het segs). Most groups would allow this to be shifted up the Moderate (PP1_M)\n \nUSH2A well established as causal for Usher (recessive)",
     "displayNum": "PP1 - #2"
   },
-  {
+  "Ex037": {
     "id": "Ex037",
     "Criterion": "PP1",
     "index": 3.0,
@@ -342,7 +342,7 @@
     "description": "Assessed variant: NM_000059.3(BRCA2):c.1832C>G (p.Ser611X)\n\nFrom PMID 24156927, variant was found in patient with breast ovarian cancer. Variant was also found in one relative also affected with breast ovarian cancer. Relationship to the proband unknown. BRCA2 is well established for breast ovarian cancer (dominant), however as PP1 is for “Co-segregation with disease in multiple affected family members” PP1 is not applicable for this variant because it’s only a single segregation.",
     "displayNum": "PP1 - #3"
   },
-  {
+  "Ex038": {
     "id": "Ex038",
     "Criterion": "PP1",
     "index": 4.0,
@@ -351,7 +351,7 @@
     "description": "Assessed Variant: NM_001001430.2(TNNT2):c.629_631delAGA\n\n2 families with segregation of this variant  (PMID  20031601)",
     "displayNum": "PP1 - #4"
   },
-  {
+  "Ex039": {
     "id": "Ex039",
     "Criterion": "PP2",
     "index": 1.0,
@@ -360,7 +360,7 @@
     "description": "MYH7 example \nMYH7 has a missense Z score of 6.54 - which is in the top 0.2% of missense Z scores - suggesting it is intolerant of missense changes\n\nNM_000257.3(MYH7):c.5401G>A (p.Glu1801Lys)\nhttp://www.ncbi.nlm.nih.gov/clinvar/variation/43069/",
     "displayNum": "PP2 - #1"
   },
-  {
+  "Ex040": {
     "id": "Ex040",
     "Criterion": "PP3",
     "index": 1.0,
@@ -369,7 +369,7 @@
     "description": "Assessed variant: NM_005228.3(EGFR):c.2369C>T (p.Thr790Met) /rs121434569\nCSER variant. \nSIFT: Damaging, Polyphen: Probably damaging, FATHMM: Tolerated, LRT: Damaging, MetaSVM:Tolerated, Mutation assessor:Tolerated, MutationTaster: Disease-causing,Provean: Damaging and Condel :deleterious\n\nPredictions obtained via dbNSFP and VEP. with transcript NM_005228.3\nNote: Does not quite fit the strict ACMG guideline of complete concordance. ",
     "displayNum": "PP3 - #1"
   },
-  {
+  "Ex041": {
     "id": "Ex041",
     "Criterion": "PP3",
     "index": 2.0,
@@ -378,7 +378,7 @@
     "description": "Assessed variant rs61755320\nSIFT: Deleterious, Polyphen: Probably damaging, FATHMM: Damaging, LRT: Damaging, MetaSVM:Damaging, Mutation assessor: Medium functional impact, MutationTaster: Disease-causing,Provean: Damaging and Condel :Deleterious\n\n Predictions obtained via dbNSFP and VEP on ENST00000566221.",
     "displayNum": "PP3 - #2"
   },
-  {
+  "Ex042": {
     "id": "Ex042",
     "Criterion": "PP3",
     "index": 3.0,
@@ -387,7 +387,7 @@
     "description": "(Wanted to include a splicing example too)\n\nVariant: NM_000363.4(TNNI3):c.592C>G (p.Leu198Val)\n\nOverall the in silico predictions do not predict an impact:\nAlignGVGD: C0 (benign)\nPolyPhen2: benign\nMAPP: good (benign)\nSIFT: Tolerated\nMutationTaster: disease-causing\n \nHowever, nucleotide is somewhat conserved:\nG nucleotide at this position not observed in any species\npyloP: 1.255\nPhastCons: 0.992\n\nVariant is predicted to create a new donor splice site at position c.591\nAll 5 splicing tools used predict an impact\n\nSo even though the computational tools for AA changes are NOT predicting an impact, splicing tools are predicting an impact - so PP3 is applicable",
     "displayNum": "PP3 - #3"
   },
-  {
+  "Ex043": {
     "id": "Ex043",
     "Criterion": "PP4",
     "index": 1.0,
@@ -396,7 +396,7 @@
     "description": "Assessed variant: NM_000060.3(BTD):c.1330G>C (p.Asp444His)\nPMIDs: 10206677; 9654207",
     "displayNum": "PP4 - #1"
   },
-  {
+  "Ex044": {
     "id": "Ex044",
     "Criterion": "PP4",
     "index": 2.0,
@@ -405,7 +405,7 @@
     "description": "Variant: NM_001114753.1(ENG):c.818C>T (p.Thr273Ile)\n\nVariant found in a case with clinical symptoms matching  Hereditary Hemorrhagic Telangiectasia (HHT) Type 1. HHT type 1 is only known to be caused by variants in ENG - so PP4 is applicable  \n (CSER example)",
     "displayNum": "PP4 - #2"
   },
-  {
+  "Ex045": {
     "id": "Ex045",
     "Criterion": "PP4",
     "index": 3.0,
@@ -414,7 +414,7 @@
     "description": "Variant: NM_000257.2(MYH7):c.1822T>G (Leu608Val)\n\nVariant found in a case with clinical diagnosis of hypertrophic cardiomyopathy. However….\nOnly ~50% of HCM is genetic (can be caused by environment)\nMore than 10 genes can cause HCM (specifically 9 sarcomere genes)\nhttp://omim.org/phenotypicSeries/PS192600\n\nPP4 not applicable for this variant/condition because HCM does not have a single genetic etiology ",
     "displayNum": "PP4 - #3"
   },
-  {
+  "Ex046": {
     "id": "Ex046",
     "Criterion": "PP5",
     "index": 1.0,
@@ -423,7 +423,7 @@
     "description": "Variant: NM_000059.3(BRCA2):c.3G>T (p.Met1Ile)\n\nVariant has been classified as “Pathogenic” by Sharing Clinical Reports Project (SCV000054057.3): http://www.ncbi.nlm.nih.gov/clinvar/variation/37871/\n\nSharing Clinical Reports Project are reports from Myriad - who are considered experts in this field but do not share their evidence - only their interpretation. \n\n(Note: this is the exact scenarios this rule was written for - but people are being very liberal in applying this rule) \n",
     "displayNum": "PP5 - #1"
   },
-  {
+  "Ex047": {
     "id": "Ex047",
     "Criterion": "PP5",
     "index": 2.0,
@@ -432,7 +432,7 @@
     "description": "Variant: NM_001458.4(FLNC):c.577G>A (p.Ala193Thr)\n\nVariant has been classified as “Pathogenic” by OMIM (SCV000043718.1):\nhttp://www.ncbi.nlm.nih.gov/clinvar/variation/29592/\n\nPP5 is not applicable for this variant because\nOMIM is not considered an expert or reputable source for variant interpretations\nOMIM’s evidence for this pathogenic call is available (the publication link - PMID:21620354 - and free text summary) so people should use the evidence from OMIM in their assessment NOT OMIM’s interpretation\n",
     "displayNum": "PP5 - #2"
   },
-  {
+  "Ex048": {
     "id": "Ex048",
     "Criterion": "PP5",
     "index": 3.0,
@@ -441,7 +441,7 @@
     "description": "Variant: NM_000492.3(CFTR):c.2053dupC (p.Gln685Profs)\n\nVariant has been called Pathogenic by Expert panel CFTR (SCV000245981.1)\nhttp://www.ncbi.nlm.nih.gov/clinvar/variation/209066/\n\nMany groups/labs are letting expert panel pathogenic interpretations count as “reputable sources” - so PP5 is met\n",
     "displayNum": "PP5 - #3"
   },
-  {
+  "Ex049": {
     "id": "Ex049",
     "Criterion": "BA1",
     "index": 1.0,
@@ -450,7 +450,7 @@
     "description": "Variant assessed: NM_000057.2 (BLM):c.2603C>T (p.P868L )",
     "displayNum": "BA1 - #1"
   },
-  {
+  "Ex050": {
     "id": "Ex050",
     "Criterion": "BA1",
     "index": 2.0,
@@ -459,7 +459,7 @@
     "description": " Variant: NM_004004.5(GJB2):c.79G>A (p.Val27Ile)\nhttp://exac.broadinstitute.org/variant/13-20763642-C-T\nGlobally, this variant has a MAF of 0.0454 (4.5%) which would put it under the 5% rule and thus BA1 would not be applicable. \n\nHowever, variant is enriched in East Asian population - 29% MAF - so way over the 5% cut-off. So now BA1 is applicable ",
     "displayNum": "BA1 - #2"
   },
-  {
+  "Ex051": {
     "id": "Ex051",
     "Criterion": "PM2",
     "index": 5.0,
@@ -468,7 +468,7 @@
     "description": "RECESSIVE EXAMPLE:\nNM_023036.4(DNAI2):c.1304G>A (p.Trp435Ter)\nhttp://exac.broadinstitute.org/variant/17-72305484-G-A\n\nVariant occurs in DNAI2 which is known to cause autosomal recessive Primary Ciliary Dyskinesia. \nVariant global MAF is 0.01% and 0.02% in European chr (14/66582). Although this variant has been seen in the general population, its frequency is low enough to be consistent with a recessive carrier frequency. So this variant is “nearly” absent enough that PM2 is applicable.",
     "displayNum": "PM2 - #5"
   },
-  {
+  "Ex052": {
     "id": "Ex052",
     "Criterion": "BS1",
     "index": 1.0,
@@ -477,7 +477,7 @@
     "description": "Assessed variant: NM_000138.4(FBN1):c.8176C>T (p.Arg2726Trp)\nMax Allele frequency: 0.2% (ExAC/Latino) 0.07%(ExAC/overall) WITH 1 HOMOZYGOTE.\nCondition prevalence: Marfan prevalence 0.0007 – 0.00017\nPMID:25637381 Allele frequency was less than a disease-specific maximum frequency.",
     "displayNum": "BS1 - #1"
   },
-  {
+  "Ex053": {
     "id": "Ex053",
     "Criterion": "BS1",
     "index": 2.0,
@@ -486,7 +486,7 @@
     "description": "CSER variant : NM_004541.3(NDUFA1):c.94G>C (p.Gly32Arg)\nMax Allele frequency: 0.9% (ExAC/NFE) 0.6%(ExAC/overall) (with 1 homozygote with the same amino acid change but different codon G>A).\nNDUFA1 is associated with Mitochondrial complex 1 deficiency as obtained from Medgen search. http://www.ncbi.nlm.nih.gov/medgen/?term=NDUFA1\nCondition prevalence:  prevalence of all mitochondrial disease per Gene Reviews, 2014 is estimated around 1 in 8500",
     "displayNum": "BS1 - #2"
   },
-  {
+  "Ex054": {
     "id": "Ex054",
     "Criterion": "BS1",
     "index": 3.0,
@@ -495,7 +495,7 @@
     "description": "Variant: NM_000414.3(HSD17B4):c.56C>G (p.Ala19Gly) \n** BS1 does not apply\n\nVariants in HSD17B4 are associated with Perrault syndrome. However, BS1 does not apply because this disease is so rare that it does not have an accurate prevalence. Only 100 cases have ever been reported. See the “prevalence” section in GeneReviews: http://www.ncbi.nlm.nih.gov/books/NBK242617/ \n\nAllele frequency in ExAC: ",
     "displayNum": "BS1 - #3"
   },
-  {
+  "Ex055": {
     "id": "Ex055",
     "Criterion": "BS2",
     "index": 1.0,
@@ -504,7 +504,7 @@
     "description": "Variant: NM_001197104(KMT2A):c.6572G>A(p.R2191Q)\n\nKMT2A is associated with Wiedemann-Steiner syndrome which is a dominant disorder \nAccording to Baylor internal data on this variant, it has been observed multiple times in asymptomatic parents internally and in controls and observed once as a homozygotes internally in unaffected",
     "displayNum": "BS2 - #1"
   },
-  {
+  "Ex056": {
     "id": "Ex056",
     "Criterion": "BS2",
     "index": 2.0,
@@ -513,7 +513,7 @@
     "description": "Variant: NM_000038.5(APC ):c.3386T>C(p.Leu1129Ser)\n\nAPC is associated with Familial Adenomatous Polyposis, which is a dominant disorder. \n\nThis variant was observed in unaffected healthy control chromosomes. PMIDs: 15122587, 18199528, 22703879, 24728327\n\nNote: CSER Variant",
     "displayNum": "BS2 - #2"
   },
-  {
+  "Ex057": {
     "id": "Ex057",
     "Criterion": "BS2",
     "index": 3.0,
@@ -522,7 +522,7 @@
     "description": "Variant: NM_000138.4(FBN1 ):c.2956G>A (p.Ala986Thr)\n\nFBN1 is associated with Marfan Syndrome which is a dominant disorder. Although this variant was found in 5 individuals with Marfan Syndrome, it was identified in 2 unaffected relatives from two separate families. PMID: 12402346\n\nNote: CSER Variant\n",
     "displayNum": "BS2 - #3"
   },
-  {
+  "Ex058": {
     "id": "Ex058",
     "Criterion": "BS3",
     "index": 1.0,
@@ -531,7 +531,7 @@
     "description": "Variant: NM_000218.2(KCNQ1):c.1179G>T (p.Lys393Asn)\n\n(TODO)",
     "displayNum": "BS3 - #1"
   },
-  {
+  "Ex059": {
     "id": "Ex059",
     "Criterion": "BS3",
     "index": 2.0,
@@ -540,7 +540,7 @@
     "description": "Variant: NM_000441.1(SLC26A4): c.349C>T (p.Leu117Phe)\n\nSLC26A4 encodes Pendrin, an anion transporter. Variants in SLC26A4 are associated with Pendred syndrome. A common functional assay for transporters is to measure channel function in vitro. It is also common to measure cellular localization of the transporter, as it will not function properly if it’s mislocalized. When this variant was expressed as a GFP-tagged construct in HEK 293 cells and imaged, it localized to the apical membrane as wild type protein does. Additionally, iodide efflux, a speculated function of the channel, was unchanged in cells expressing the channel variant. The PMID for this paper is  1193231.",
     "displayNum": "BS3 - #2"
   },
-  {
+  "Ex060": {
     "id": "Ex060",
     "Criterion": "BS3",
     "index": 3.0,
@@ -549,7 +549,7 @@
     "description": "Variant: NM_152594.2(SPRED1): c.587C>T (p.Thr196Ile)\n\nVariants in SPRED1 are associated with café au lait macules (CALMs), axillary freckling, and macrocephaly. Research has demonstrated that the protein is phosphorylated and inhibits differentiation in neurons by inhibiting Map Kinase.  1) A construct with the variant was transfected into PC12 cells and they were treated with nerve growth factor to stimulated neurite outgrowth. The variant did not reduce or alter neurite outgrowth. 2) Elk1 phosphorylation, a downstream readout of Map kinase activation, was also measured by a luciferase assay and found to be unchanged. The PMID for this is: 19920235.",
     "displayNum": "BS3 - #3"
   },
-  {
+  "Ex061": {
     "id": "Ex061",
     "Criterion": "BS4",
     "index": 1.0,
@@ -558,7 +558,7 @@
     "description": "NM_00527.4(LDLR):c.313+2T>C\n\nPMID:26036859\n\nVariant 313+2T>C was observed in one case diagnosed with Familial Hypercholesterolemia, characterized by elevated LDLC levels. Two additional family members also have elevated LDLC levels but neither carry the 313+2T>C variant.\n\nBS4 would be applicable for this variant",
     "displayNum": "BS4 - #1"
   },
-  {
+  "Ex062": {
     "id": "Ex062",
     "Criterion": "BS4",
     "index": 2.0,
@@ -567,7 +567,7 @@
     "description": " NM_000256.3(MYBPC3):c.1624+4A>T\n\nInternal Data: Variant 1624+4A>T was found in one individual with HCM and segregated with disease in 3 additional relatives. The variant was not found in one additional family member who also had HCM. However, BS4 would not be applicable for this family because this non-segregation is likely to be a phenocopy explained by environmental factors (obese, alcohol).",
     "displayNum": "BS4 - #2"
   },
-  {
+  "Ex063": {
     "id": "Ex063",
     "Criterion": "BS4",
     "index": 3.0,
@@ -576,7 +576,7 @@
     "description": "NM_001103.3(ACTN2):c.1484C>T (p.Thr495Met)\n\nIn a family tested by the LMM, the c.1484C>T variant was identified in a proband with clinical diagnosis of HCM. This proband has two relatives that also have clinical diagnosis of HCM however never relative carries the c.1484C>T variant. \n\nBS4 is applicable for this variant - especially since there are two non-segregations in this family\n\n(As a sidenote, this variant would be a good one to use in the interface or to test rule application, because there is segregation in another family - so theoretically PP1 and BS4 could be used)",
     "displayNum": "BS4 - #3"
   },
-  {
+  "Ex064": {
     "id": "Ex064",
     "Criterion": "BP1",
     "index": "1a",
@@ -585,7 +585,7 @@
     "description": "Assessed variant: NM_000059.3(BRCA2) :c.4779A>C (p.Glu1593Asp)\nMonoallelic truncating mutations in BRCA2 confers high risk of HBOC and biallellic truncating mutations are largely responsible for Fanconi Anemia. This was identified through literature search.\nhttp://hmg.oxfordjournals.org/content/16/R1/R60.full\nNote : would be nice to have a list of genes where primarily truncating mutations results in disease.",
     "displayNum": "BP1 - #1a"
   },
-  {
+  "Ex065": {
     "id": "Ex065",
     "Criterion": "BP1",
     "index": "1b",
@@ -594,7 +594,7 @@
     "description": "(same as previous - this is a compound example)\nAssessed variant: NM_000059.3(BRCA2) :c.4779A>C (p.Glu1593Asp)\nMonoallelic truncating mutations in BRCA2 confers high risk of HBOC and biallellic truncating mutations are largely responsible for Fanconi Anemia. This was identified through literature search.\nhttp://hmg.oxfordjournals.org/content/16/R1/R60.full\n Note : would be nice to have a list of genes where primarily truncating mutations results in disease.",
     "displayNum": "BP1 - #1b"
   },
-  {
+  "Ex066": {
     "id": "Ex066",
     "Criterion": "BP1",
     "index": 2.0,
@@ -603,7 +603,7 @@
     "description": "NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His)\n\nHomozygous truncating variants in LOXHD1 are associated with autosomal recessive hearing loss. This was demonstrated by both identification in human patients and a mouse model. (I used the OMIM entry as a source, but you could also directly use the papers.)\n\nhttp://omim.org/entry/613072?search=LOXHD1&highlight=loxhd1\n\nNote: CSER variant",
     "displayNum": "BP1 - #2"
   },
-  {
+  "Ex067": {
     "id": "Ex067",
     "Criterion": "BP1",
     "index": 3.0,
@@ -612,7 +612,7 @@
     "description": "NM_1333378.4(TTN): c.2926T>C (p.Trp976Arg) Example where rule does not apply.\n\nTruncating variants in TTN are associated with DCM. However, if missense variants are located in the A-band, impact the A-band, or are in a highly expressed region, they can also be associated with DCM. This variant is pathogenic for DCM. (It also segregates with disease in patients).\n\nSource for TTN truncations/the A-band rule: PMID 22335739",
     "displayNum": "BP1 - #3"
   },
-  {
+  "Ex068": {
     "id": "Ex068",
     "Criterion": "BP2",
     "index": 1.0,
@@ -621,7 +621,7 @@
     "description": "Variant: NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser)\n\nVariants in USH2A can be associated with Retinitis Pigmentosa, which is a recessive disease. BP2 can be applied because this variant was observed in cis with a very common pathogenic variant in USH2A (Cys759Phe) in 2 individuals (LMM internal data). A publication supporting the claim that the Cys759Phe variant is a common pathogenic variant can be found here: 10775529",
     "displayNum": "BP2 - #1"
   },
-  {
+  "Ex069": {
     "id": "Ex069",
     "Criterion": "BP2",
     "index": 2.0,
@@ -630,7 +630,7 @@
     "description": "Variant: NM_000492.3(CFTR): c.2002C>T (p.Arg668Cys)\n\n Variants in CFTR are associated with a range of recessive conditions, including Cystic Fibrosis, CBAVD, and ideopathic pancreatisis. This variant has been identified in cis with pathogenic variants in patients with CBAVD (PMID: 9272157), supporting the interpretation that this variant is benign for CBAVD.  The using a different patient, the same argument could be made for cystic fibrosis (PMID:22678879) but this is not modeled here.. ",
     "displayNum": "BP2 - #2"
   },
-  {
+  "Ex070": {
     "id": "Ex070",
     "Criterion": "BP2",
     "index": 3.0,
@@ -639,7 +639,7 @@
     "description": "Variant: NM_000257.2(MYH7): c.2559G>A (p.Glu867Lys)\nInternal LMM data: BP2 does not apply because, although this variant was found in trans with another variant in the same gene, that variant is VUS and not an established pathogenic variant and cardiomyopathies can be variable in penetrance. The trans variant is c.2537A>G (p.Glu846Gly). ",
     "displayNum": "BP2 - #3"
   },
-  {
+  "Ex071": {
     "id": "Ex071",
     "Criterion": "BP3",
     "index": 1.0,
@@ -648,7 +648,7 @@
     "description": "Variant: NM_001271208.1(NEB):c.169_183delCTGGCACAGCCAGCA\n\nThis variant is an in-frame deletion of 15 bp. EGL has classified it in ClinVar as likely benign. The ClinVar entry can be found here: http://www.ncbi.nlm.nih.gov/clinvar/variation/95115/#clinical-assertions\n\nNEB is a gene with a lot of repetitive regions with unknown function. There are two parts in the gene that are 99% identical and thought to be duplications. Used the OMIM gene entry as a source (http://omim.org/entry/161650?search=NEB&highlight=neb) and the paper for the gene description: Donner 2004 PMID: 15266303\n\nHere is a screenshot from Alamut to show that this is a repeat region (deletion marked in green rectangle):",
     "displayNum": "BP3 - #1"
   },
-  {
+  "Ex072": {
     "id": "Ex072",
     "Criterion": "BP3",
     "index": 2.0,
@@ -656,7 +656,7 @@
     "description": "NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC (p.Thr8918CysfsX3)\nThis variant is classified as likely pathogenic by LMM for DCM. The ClinVar entry can be found here:\nhttp://www.ncbi.nlm.nih.gov/clinvar/RCV000155429/\n BP3 does not apply for this variant because it is not an in-frame deletion (it's a deletion of 10 bp) and, although the I Band is a repetitive region that contains tandem arrays of immunoglobulin domains, these folds may be an important component for TTN's elasticity. Source for I-band information: PMID: 10573426.",
     "displayNum": "BP3 - #2"
   },
-  {
+  "Ex073": {
     "id": "Ex073",
     "Criterion": "BP3",
     "index": 3.0,
@@ -665,7 +665,7 @@
     "description": "Variant: NM_147196.2(TMIE):c.391_393dupAAG (p.Lys131_Asp132insLys)\n\nThis variant is an in-frame duplication (3bp) that results in the addition of a Lysine in a repetitive region of 9 lysines. The ClinVar entry can be found here: http://www.ncbi.nlm.nih.gov/clinvar/variation/179307/\n\nI’ve also included the Alamut screenshot below to demonstrate the repetitive region. The duplication is the small green dot in the bottom right corner. ",
     "displayNum": "BP3 - #3"
   },
-  {
+  "Ex074": {
     "id": "Ex074",
     "Criterion": "BP4",
     "index": 1.0,
@@ -674,7 +674,7 @@
     "description": "Assessed variant: NM_000059.3(BRCA2):c.4779A>C (p.Glu1593Asp)\nCSER variant. \nAll (SIFT,FATHMM,LRT,MetaSVM,MutationAssessor,Mutationtaster,Provean) but Polyphen and Condel predicts benign.\n Predictions obtained via dbNSFP and VEP on rs80358703.",
     "displayNum": "BP4 - #1"
   },
-  {
+  "Ex075": {
     "id": "Ex075",
     "Criterion": "BP4",
     "index": 2.0,
@@ -683,7 +683,7 @@
     "description": "Variant assessed: NM_017636.3(TRPM4):c.2531G>A (p.Gly844Asp)\nAll (SIFT,FATHMM,MetaSVM,MutationAssessor,Mutationtaster,Provean) but Polyphen and Condel predicts benign.\n Predictions obtained via dbNSFP and VEP on rs200038418.",
     "displayNum": "BP4 - #2"
   },
-  {
+  "Ex076": {
     "id": "Ex076",
     "Criterion": "BP4",
     "index": 3.0,
@@ -692,7 +692,7 @@
     "description": "Variant:NM_133379.3(TTN) : c.15283T>C (p.Tyr5095His) BP4 does not apply\n BP4 does not apply for this variant because it is located in exon 45A of TTN, which is difficult to sequence and in silico tools do not offer accurate predictions for it.\n\nAlignGVGD, MAPP, SIFT, and MutationTaster do not have predictions for this variant. However, PolyPhen-2 HumVar predicts that it is “possibly damaging” and HumDiv predicts that it is “Probably damaging”. These predictions cannot be trusted because of the sequencing difficulties. SIFT gives a prediction of “tolerated”.",
     "displayNum": "BP4 - #3"
   },
-  {
+  "Ex077": {
     "id": "Ex077",
     "Criterion": "BP5",
     "index": 1.0,
@@ -701,7 +701,7 @@
     "description": "Variant: NM_000256.3(MYBPC3): c.2497G>A (p.Ala833Thr)\n\nThis variant was identified in multiple individuals with pathogenic variants in other genes. This was observed in internal LMM data (>5 patients have likely pathogenic/pathogenic alleles in other genes)  and in the literature in Van Driest et al (PMID: 15519027) The proband with HCM in this article had a likely pathogenic variant in TNNT2.\nhttp://www.ncbi.nlm.nih.gov/clinvar/variation/43677/ (TNNT2 variant)",
     "displayNum": "BP5 - #1"
   },
-  {
+  "Ex078": {
     "id": "Ex078",
     "Criterion": "BP5",
     "index": "2a",
@@ -710,7 +710,7 @@
     "description": "Variant: NM_022124.5(CDH23):c.5660C>T (p.Thr1887Ile)\n\nPathogenic variants in CDH23 are associated with Usher Syndrome Type 1, which is recessive.\n\nThis variant was identified in multiple individuals with pathogenic variants in other genes. Internal LMM data: The variant was identified in 10 probands and 2 of those probands had other pathogenic variants. One proband was had a (trans) pair of GJB2 (c.71G>A (p.Trp24x) ; c.231G>A (p.Trp77x) )\ntruncation variants and the other was homozygous for DFNB31 (now WHRN) (c.643delG (p.Val215fs)) truncating variants. \nThe proband with the GJB2 variants just had profound sensorineural hearing loss. The proband with the DFNB31/WHRN variants did have Usher Syndrome. WHRN is associated with Type 2D.",
     "displayNum": "BP5 - #2a"
   },
-  {
+  "Ex079": {
     "id": "Ex079",
     "Criterion": "BP5",
     "index": "2b",
@@ -719,7 +719,7 @@
     "description": "Variant: NM_022124.5(CDH23):c.5660C>T (p.Thr1887Ile)\n\nPathogenic variants in CDH23 are associated with Usher Syndrome Type 1, which is recessive.\n\nThis variant was identified in multiple individuals with pathogenic variants in other genes. Internal LMM data: The variant was identified in 10 probands and 2 of those probands had other pathogenic variants. One proband was had a (trans) pair of GJB2 (c.71G>A (p.Trp24x) ; c.231G>A (p.Trp77x) )\ntruncation variants and the other was homozygous for DFNB31 (now WHRN) (c.643delG (p.Val215fs)) truncating variants. \nThe proband with the GJB2 variants just had profound sensorineural hearing loss. The proband with the DFNB31/WHRN variants did have Usher Syndrome. WHRN is associated with Type 2D.",
     "displayNum": "BP5 - #2b"
   },
-  {
+  "Ex080": {
     "id": "Ex080",
     "Criterion": "BP5",
     "index": 3.0,
@@ -727,7 +727,7 @@
     "description": "Variant: NM_001844.4(COL2A1):c.4316C>T (p.Thr1439Met)       BP5 does not apply\n\nVariants in COL2A1 are associated with dominant spondyloepiphyseal dysplasia congenita. This variant was identified in a proband with another pathogenic variant: NM_000095.2(COMP):c.1042T>C (p.Cys348Arg). Variants in COMP are associated with dominant Pseudoachondroplasia. However, BP5 does not apply because the combination of these two variants results in a more severe phenotype with a different condition name (Pseudoachondroplastic spondyloepiphyseal dysplasia syndrome). The pubmed ID for the reference is: 11746045",
     "displayNum": "BP5 - #3"
   },
-  {
+  "Ex081": {
     "id": "Ex081",
     "Criterion": "BP6",
     "index": 1.0,
@@ -735,7 +735,7 @@
     "description": "Variant: NM_007294.3(BRCA1):c.6207C>T\n\nPathogenic variants in BRCA1 are associated with hereditary breast and ovarian cancer. This variant is classified as benign by ENIGMA (Evidence-based Network for the Interpretation of Germline Mutant Alleles), which is a ClinVar expert panel. Many labs are using the classifications of ClinGen expert panels for their variant interpretations, so BP6 is met.\n(SCV000244500.1)\nhttp://www.ncbi.nlm.nih.gov/clinvar/variation/209219/",
     "displayNum": "BP6 - #1"
   },
-  {
+  "Ex082": {
     "id": "Ex082",
     "Criterion": "BP6",
     "index": 2.0,
@@ -743,7 +743,7 @@
     "description": "Variant: NM_000059.3(BRCA2):c.-26G>A\n\nVariant has been classified as “Benign” by Sharing Clinical Reports Project (SCV000189291.1)\n\nhttp://www.ncbi.nlm.nih.gov/clinvar/variation/125965/#clinical-assertions\n\nSharing Clinical Reports Project are reports from Myriad - who are considered experts in this field but do not share their evidence - only their interpretation. \n\n(Note: this is the exact scenarios this rule was written for - but people are being very liberal in applying this rule) ",
     "displayNum": "BP6 - #2"
   },
-  {
+  "Ex083": {
     "id": "Ex083",
     "Criterion": "BP6",
     "index": 3.0,
@@ -751,7 +751,7 @@
     "description": "Variant: NM_000274.3(OAT):c.1311G>C (p.Leu437Phe)\n\nVariant has been classified as “Benign” by by OMIM (SCV000020324.2)\n\nhttp://www.ncbi.nlm.nih.gov/clinvar/variation/158/\n \nBP6 is not applicable for this variant because\n1. OMIM is not considered an expert or reputable source for variant interpretations\n2. OMIM’s evidence for this benign call is available (the publication link - PMID:1737786- and free text summary) so people should use the evidence from OMIM in their assessment NOT OMIM’s interpretation.\n",
     "displayNum": "BP6 - #3"
   },
-  {
+  "Ex084": {
     "id": "Ex084",
     "Criterion": "BP7",
     "index": 1.0,
@@ -759,7 +759,7 @@
     "description": "Variant: NM_138691.2 (TMC1): c.684C>T (p.Thr228Thr)\n\nThis is a synonymous variant with little conservation and no predicted impact on splicing. Conservation and splicing algorithm values are listed below.\n\nConservation:\nphyloP: -2.297\nPhastCons: 0.039\n\nSplicing:",
     "displayNum": "BP7 - #1"
   },
-  {
+  "Ex085": {
     "id": "Ex085",
     "Criterion": "BP7",
     "index": 2.0,
@@ -767,7 +767,7 @@
     "description": "Variant: NM_000257.2(MYH7):c.327C>T (p.Tyr109Tyr) Note: CSER Bakeoff Variant\n \nThis is a synonymous variant with little conservation and no predicted impact on splicing. Conservation and splicing algorithm values are listed below.\n \nConservation:\nphyloP: -0.76\nPhastCons: 0.63",
     "displayNum": "BP7 - #2"
   },
-  {
+  "Ex086": {
     "id": "Ex086",
     "Criterion": "BP7",
     "index": 3.0,
@@ -775,4 +775,4 @@
     "description": " Variant: NM_002880.3(RAF1):c.321T>C (p.Gly107Gly) BP7 does not apply\n\nThis variant is a silent variant that does not result in an amino acid change. It is not very conserved and splicing tools suggest no change. However, BP7 does not apply because the variant is located in the first base of exon 4 of RAF1, which is part of the 3’ splice region of the exon. For that reason, we can’t fully trust computational tools. Functional assays would have to confirm that this variant truly does not alter splicing.\n\nConvervation: \nPhyloP: 0.45\nPhastCons: 1.00",
     "displayNum": "BP7 - #3"
   }
-]
+}

@@ -1,23 +1,39 @@
 <% wrap_layout :layout  do %>
+    
+    <%- entity = data.google.Entity[current_page.data.id] %>
 
+    <h1><%= entity.name %></h1>
+    <%= entity.description %>
+    <hr class='col-sm-12' />
+
+
+    <!-- this is primarily the Scope and Usage section -->
     <%= yield %>
 
+    <!-- image here if available -->
+  
+
     <h2>Attributes</h2>
-        <table>
+
+        <table class="table table-striped table-bordered" cellspacing="0" width="100%">
+            <thead>
             <tr>
                 <th>Name</th>
                 <th>Type</th>
                 <th>Cardinality</th>
                 <th>Description</th>
             </tr>
-            <% data.google.Attribute.select{|a| a.evidenceTypeId==current_page.data.id}.each do |att| %>
-                <tr>
-                    <td><%= att.name %></td>
-                    <td><%= att.dataType %></td>
-                    <td><%= att.cardinality %></td>
-                    <td></td>
-                </tr>
-            <% end %>
+            </thead>
+            <tbody>
+        <% attributes_by_entity(current_page.data.id).each do |a| %>
+            <tr>
+                <td><%= a.name %></td>
+                <td><%= a.dataType %></td>
+                <td><%= a.cardinality %></td>
+                <td><%= a.description %></td>
+            </tr>
+        <% end %>
+            </tbody>
         </table>
 
 

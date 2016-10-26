@@ -1,5 +1,5 @@
-[
-  {
+{
+  "Cond001": {
     "id": "Cond001",
     "code": "DOID:5683",
     "name": "Breast Ovarian Cancer",
@@ -8,7 +8,7 @@
     "from doc": "C1",
     "used in example": "PVS1.2-BRCA2"
   },
-  {
+  "Cond002": {
     "id": "Cond002",
     "code": "DOID:12930",
     "name": "Dilated Cardiomyopathy",
@@ -17,7 +17,7 @@
     "from doc": "C2",
     "used in example": "PVS1.3-TTN"
   },
-  {
+  "Cond003": {
     "id": "Cond003",
     "code": "DOID:3490",
     "name": "Noonan Syndrome 1",
@@ -26,7 +26,7 @@
     "from doc": "C3",
     "used in example": "PS1.1-PTPN11"
   },
-  {
+  "Cond004": {
     "id": "Cond004",
     "code": "DOID:9562",
     "name": "Primary Ciliary Dyskenisia 3",
@@ -36,7 +36,7 @@
     "from doc": "C4",
     "used in example": "PS1.2-DNAH5"
   },
-  {
+  "Cond005": {
     "id": "Cond005",
     "code": "DOID:0050469",
     "name": "Costello Syndrome",
@@ -45,20 +45,20 @@
     "from doc": "C5",
     "used in example": "PS1.3-HRAS"
   },
-  {
+  "Cond006": {
     "id": "Cond006",
     "name": "Noonan syndrome and Noonan-related syndrome",
     "monarch code": "Orphanet:98733",
     "from doc": "C6"
   },
-  {
+  "Cond007": {
     "id": "Cond007",
     "name": "Cardiomyopathy",
     "monarch code": "Orphanet:167848",
     "notes": "cardiomyopathy",
     "from doc": "C7"
   },
-  {
+  "Cond008": {
     "id": "Cond008",
     "code": "DOID:0080092",
     "name": "Myofibrillar myopathy 1",
@@ -66,7 +66,7 @@
     "omim ps?": "PS115200",
     "from doc": "C8"
   },
-  {
+  "Cond009": {
     "id": "Cond009",
     "code": "DOID:2538",
     "name": "Epilepsy with Mental Retardation",
@@ -76,7 +76,7 @@
     "from doc": "C10",
     "used in example": "PS2.3-GRIN2A"
   },
-  {
+  "Cond010": {
     "id": "Cond010",
     "code": "MESH:D034381",
     "name": "Hearing Loss (autosomal recessive nonsyndromic deafness)",
@@ -87,7 +87,7 @@
     "from doc": "C7",
     "used in example": "PS4.1"
   },
-  {
+  "Cond011": {
     "id": "Cond011",
     "name": "Malignant Hyperthermia",
     "monarch code": "DOID:8545",
@@ -97,7 +97,7 @@
     "from doc": "C8",
     "used in example": "PS4.2"
   },
-  {
+  "Cond012": {
     "id": "Cond012",
     "code": "HP:0011014",
     "name": "Abnormal glucose homeostasis",
@@ -105,155 +105,155 @@
     "from doc": "C9",
     "used in example": "PS4.3-ENPP1"
   },
-  {
+  "Cond013": {
     "id": "Cond013",
     "name": "primary ciliary dyskinesia (PCD) with outer dynein arm (ODA) defects",
     "from doc": "C10",
     "used in example": "PM3.1"
   },
-  {
+  "Cond014": {
     "id": "Cond014",
     "code": "DO:305100",
     "name": "Ectodermal dysplasia 1",
     "from doc": "C11",
     "used in example": "PM3.1"
   },
-  {
+  "Cond015": {
     "id": "Cond015",
     "name": "Nonsyndromic Hearing Loss",
     "from doc": "C12",
     "used in example": "PM3.2"
   },
-  {
+  "Cond016": {
     "id": "Cond016",
     "name": "neuronal ceroid lipofuscinosis",
     "from doc": "C13"
   },
-  {
+  "Cond017": {
     "id": "Cond017",
     "name": "Primary familial hypertrophic cardiomyopathy",
     "from doc": "C14"
   },
-  {
+  "Cond018": {
     "id": "Cond018",
     "name": "Ornithine carbamoyltransferase deficiency",
     "from doc": "C15"
   },
-  {
+  "Cond019": {
     "id": "Cond019",
     "name": "Birt-Hogg-Dube Syndrome",
     "from doc": "CX",
     "used in example": "PM6.1"
   },
-  {
+  "Cond020": {
     "id": "Cond020",
     "name": "Cardio-facio-cutaneous (CFC) syndrome",
     "from doc": "CX",
     "used in example": "PM6.2,PM6.3"
   },
-  {
+  "Cond021": {
     "id": "Cond021",
     "name": "Usher syndrome",
     "from doc": "CX",
     "used in example": "PP1.2"
   },
-  {
+  "Cond022": {
     "id": "Cond022",
     "name": "Fabry Disease",
     "from doc": "CX",
     "used in example": "PM1.3"
   },
-  {
+  "Cond023": {
     "id": "Cond023",
     "name": "Hypertrophic Cardiomyopathy"
   },
-  {
+  "Cond024": {
     "id": "Cond024",
     "name": "Hereditary Hemorrhagic Telangiectasia Type 1"
   },
-  {
+  "Cond025": {
     "id": "Cond025",
     "name": "Breast-ovarian cancer, familial 2"
   },
-  {
+  "Cond026": {
     "id": "Cond026",
     "name": "Cystic Fibrosis"
   },
-  {
+  "Cond027": {
     "id": "Cond027",
     "name": "Myopathy, distal, 4"
   },
-  {
+  "Cond028": {
     "id": "Cond028",
     "name": "Marfan Syndrome"
   },
-  {
+  "Cond029": {
     "id": "Cond029",
     "name": "Mitochondrial complex 1 deficiency"
   },
-  {
+  "Cond030": {
     "id": "Cond030",
     "name": "Perrault Syndrome"
   },
-  {
+  "Cond031": {
     "id": "Cond031",
     "name": "Wiedemann-Steiner syndrome",
     "used in example": "BS2.1"
   },
-  {
+  "Cond032": {
     "id": "Cond032",
     "name": "Familial Adenomatous Polyposis",
     "used in example": "BS2.2"
   },
-  {
+  "Cond033": {
     "id": "Cond033",
     "name": "Familial Hypercholesterolemia"
   },
-  {
+  "Cond034": {
     "id": "Cond034",
     "name": "Hereditary Breast and Ovarian Cancer",
     "used in example": "BP.1"
   },
-  {
+  "Cond035": {
     "id": "Cond035",
     "name": "Fanconi Anemia",
     "used in example": "BP.1"
   },
-  {
+  "Cond036": {
     "id": "Cond036",
     "name": "Retinitis Pigmentosa"
   },
-  {
+  "Cond037": {
     "id": "Cond037",
     "name": "Congenital Absence of the Vas Deferens"
   },
-  {
+  "Cond038": {
     "id": "Cond038",
     "name": "Cardiomyopathy"
   },
-  {
+  "Cond039": {
     "id": "Cond039",
     "name": "Primary bone dysplasia"
   },
-  {
+  "Cond040": {
     "id": "Cond040",
     "name": "Pseudoachondroplasia"
   },
-  {
+  "Cond041": {
     "id": "Cond041",
     "name": "Pseudoachondroplastic spondyloepiphyseal dysplasia syndrome"
   },
-  {
+  "Cond042": {
     "id": "Cond042",
     "name": "Familial Cancer of Breast"
   },
-  {
+  "Cond043": {
     "id": "Cond043",
     "name": "Gyrate atrophy of choroid and retina"
   },
-  {
+  "Cond044": {
     "id": "Cond044",
     "name": "Noonan Syndrome 3",
     "best omim code": "OMIM:609942 (KRAS)"
   }
-]
+}

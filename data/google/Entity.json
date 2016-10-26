@@ -1,287 +1,420 @@
-[
-  {
+{
+  "E01": {
     "id": "E01",
-    "name": "EvidenceStatement",
-    "link": "EvStmt"
+    "name": "EvidenceData",
+    "parentEntityTypeId": "E52",
+    "link": "EvData",
+    "description": "The structured supporting data that can be used to assess criterion in the context of a given interpretation guideline.",
+    "groupName": "#N/A"
   },
-  {
+  "E02": {
     "id": "E02",
     "name": "MolecularConsequence",
     "parentEntityTypeId": "E01",
-    "link": "MolCon"
+    "link": "MolCon",
+    "description": "The molecular consequence is ...",
+    "group": "Grp008",
+    "groupName": "Evidence Data>MolecularConsequence"
   },
-  {
+  "E03": {
     "id": "E03",
     "name": "ConditionMechanism",
     "parentEntityTypeId": "E01",
-    "link": "CondMech"
+    "link": "CondMech",
+    "group": "Grp008",
+    "groupName": "Evidence Data>ConditionMechanism"
   },
-  {
+  "E04": {
     "id": "E04",
     "name": "Criterion",
-    "link": "Crit"
+    "parentEntityTypeId": "E52",
+    "link": "Crit",
+    "group": "Grp007",
+    "groupName": "Guidelines>Criterion"
   },
-  {
+  "E05": {
     "id": "E05",
     "name": "CanonicalAllele",
-    "link": "CanAll"
+    "parentEntityTypeId": "E52",
+    "link": "CanAll",
+    "group": "Grp009",
+    "groupName": "Core Concepts>CanonicalAllele"
   },
-  {
+  "E06": {
     "id": "E06",
     "name": "ContextualAllele",
-    "link": "CtxAll"
+    "parentEntityTypeId": "E52",
+    "link": "CtxAll",
+    "group": "Grp009",
+    "groupName": "Core Concepts>ContextualAllele"
   },
-  {
+  "E07": {
     "id": "E07",
     "name": "Gene",
-    "link": "G"
+    "parentEntityTypeId": "E52",
+    "link": "G",
+    "group": "Grp009",
+    "groupName": "Core Concepts>Gene"
   },
-  {
+  "E08": {
     "id": "E08",
-    "name": "EvidenceStatementAttribute",
-    "link": "ESA"
+    "name": "EvidenceDataAttribute",
+    "link": "EDA",
+    "groupName": "#N/A"
   },
-  {
+  "E09": {
     "id": "E09",
     "name": "CriterionAssessment",
-    "link": "CritAssess"
+    "parentEntityTypeId": "E52",
+    "link": "CritAssess",
+    "group": "Grp005",
+    "groupName": "Entities>CriterionAssessment"
   },
-  {
+  "E10": {
     "id": "E10",
     "name": "Activity",
-    "link": "Act"
+    "link": "Act",
+    "imageFile": "activities.svg",
+    "description": "W3C Provenance activity conceptual class.",
+    "groupName": "#N/A"
   },
-  {
+  "E11": {
     "id": "E11",
     "name": "AssessCriterion",
     "parentEntityTypeId": "E10",
-    "link": "AssessCrit"
+    "link": "AssessCrit",
+    "imageFile": "assess_criterion.svg",
+    "group": "Grp004",
+    "groupName": "Activities>AssessCriterion"
   },
-  {
+  "E12": {
     "id": "E12",
     "name": "Agent",
-    "link": "Agent"
+    "link": "Agent",
+    "imageFile": "agents.svg",
+    "description": "W3C Provenance agent conceptual class.",
+    "groupName": "#N/A"
   },
-  {
+  "E13": {
     "id": "E13",
     "name": "Example",
-    "link": "Ex"
+    "link": "Ex",
+    "groupName": "#N/A"
   },
-  {
+  "E14": {
     "id": "E14",
     "name": "Condition",
-    "link": "Cond"
+    "parentEntityTypeId": "E52",
+    "link": "Cond",
+    "group": "Grp009",
+    "groupName": "Core Concepts>Condition"
   },
-  {
+  "E15": {
     "id": "E15",
-    "name": "MendelianDiseaseVariantInterpretation",
+    "name": "MendelianDiseaseVariantPathogenicityInterpretation",
     "parentEntityTypeId": "E01",
-    "link": "MenDisVarInterp"
+    "link": "MenDisVarInterp",
+    "group": "Grp008",
+    "groupName": "Evidence Data>MendelianDiseaseVariantPathogenicityInterpretation"
   },
-  {
+  "E16": {
     "id": "E16",
     "name": "Individual",
-    "link": "Indiv"
+    "link": "Indiv",
+    "group": " ",
+    "groupName": "#N/A"
   },
-  {
+  "E17": {
     "id": "E17",
     "name": "IndividualCondition",
     "parentEntityTypeId": "E01",
-    "link": "IndCond"
+    "link": "IndCond",
+    "group": "Grp008",
+    "groupName": "Evidence Data>IndividualCondition"
   },
-  {
+  "E18": {
     "id": "E18",
     "name": "FamilyHistory",
     "parentEntityTypeId": "E01",
-    "link": "FamHist"
+    "link": "FamHist",
+    "group": "Grp008",
+    "groupName": "Evidence Data>FamilyHistory"
   },
-  {
+  "E19": {
     "id": "E19",
     "name": "DeNovoAllele",
     "parentEntityTypeId": "E01",
-    "link": "DeNovo"
+    "link": "DeNovo",
+    "group": "Grp008",
+    "groupName": "Evidence Data>DeNovoAllele"
   },
-  {
+  "E20": {
     "id": "E20",
     "name": "FunctionalData",
     "parentEntityTypeId": "E01",
-    "link": "Func"
+    "link": "Func",
+    "group": "Grp008",
+    "groupName": "Evidence Data>FunctionalData"
   },
-  {
+  "E21": {
     "id": "E21",
     "name": "CaseControl",
     "parentEntityTypeId": "E01",
-    "link": "CaseCtrl"
+    "link": "CaseCtrl",
+    "group": "Grp008",
+    "groupName": "Evidence Data>CaseControl"
   },
-  {
+  "E22": {
     "id": "E22",
     "name": "GroupAlleleFrequency",
     "parentEntityTypeId": "E01",
-    "link": "GAF"
+    "link": "GAF",
+    "group": "Grp008",
+    "groupName": "Evidence Data>GroupAlleleFrequency"
   },
-  {
+  "E23": {
     "id": "E23",
     "name": "PopulationAlleleFrequency",
     "parentEntityTypeId": "E01",
-    "link": "PAF"
+    "link": "PAF",
+    "group": "Grp008",
+    "groupName": "Evidence Data>PopulationAlleleFrequency"
   },
-  {
+  "E24": {
     "id": "E24",
     "name": "RegionAnnotation",
     "parentEntityTypeId": "E01",
-    "link": "RegAnno"
+    "link": "RegAnno",
+    "group": "Grp008",
+    "groupName": "Evidence Data>RegionAnnotation"
   },
-  {
+  "E25": {
     "id": "E25",
     "name": "ContextualRegion",
-    "link": "CtxReg"
+    "link": "CtxReg",
+    "groupName": "#N/A"
   },
-  {
+  "E26": {
     "id": "E26",
     "name": "ReferenceSequence",
-    "link": "RefSeq"
+    "link": "RefSeq",
+    "group": "Grp009",
+    "groupName": "Core Concepts>ReferenceSequence"
   },
-  {
+  "E27": {
     "id": "E27",
     "name": "ConditionInheritance",
     "parentEntityTypeId": "E01",
-    "link": "CondInh"
+    "link": "CondInh",
+    "group": "Grp008",
+    "groupName": "Evidence Data>ConditionInheritance"
   },
-  {
+  "E28": {
     "id": "E28",
     "name": "IndividualAllele",
     "parentEntityTypeId": "E01",
-    "link": "IndAll"
+    "link": "IndAll",
+    "group": "Grp008",
+    "groupName": "Evidence Data>IndividualAllele"
   },
-  {
+  "E29": {
     "id": "E29",
-    "name": "CaptureEvidenceStatement",
+    "name": "CaptureEvidenceData",
     "parentEntityTypeId": "E10",
-    "link": "CaptureEv"
+    "link": "CaptureEv",
+    "imageFile": "capture_evidence_data.svg",
+    "group": "Grp004",
+    "groupName": "Activities>CaptureEvidenceData"
   },
-  {
+  "E30": {
     "id": "E30",
     "name": "GenerateVariantInterpretation",
     "parentEntityTypeId": "E10",
-    "link": "GenVarInterp"
+    "link": "GenVarInterp",
+    "imageFile": "generate_variant_interpretation.svg",
+    "group": "Grp004",
+    "groupName": "Activities>GenerateVariantInterpretation"
   },
-  {
+  "E31": {
     "id": "E31",
     "name": "PublishVariantInterpretation",
     "parentEntityTypeId": "E10",
-    "link": "PubVarInterp"
+    "link": "PubVarInterp",
+    "imageFile": "publish_variant_interpretation.svg",
+    "group": "Grp004",
+    "groupName": "Activities>PublishVariantInterpretation"
   },
-  {
+  "E32": {
     "id": "E32",
-    "name": "CriterionSet",
-    "link": "CritSet"
+    "name": "Guideline",
+    "link": "Guide",
+    "group": "Grp007",
+    "groupName": "Guidelines>Guideline"
   },
-  {
+  "E33": {
     "id": "E33",
-    "name": "CriterionSetAlgorithm",
-    "link": "CritSetAlg"
+    "name": "GuidelineAlgorithm",
+    "link": "GuideAlg",
+    "group": "Grp007",
+    "groupName": "Guidelines>GuidelineAlgorithm"
   },
-  {
+  "E34": {
     "id": "E34",
-    "name": "EvidenceStatementAttribute",
-    "link": "ESA"
+    "name": "EvidenceDataAttribute",
+    "link": "EDA",
+    "groupName": "#N/A"
   },
-  {
+  "E35": {
     "id": "E35",
     "name": "VariantInterpretation",
-    "link": "VarInterp"
+    "link": "VarInterp",
+    "group": "Grp005",
+    "groupName": "Entities>VariantInterpretation"
   },
-  {
+  "E36": {
     "id": "E36",
-    "name": "EvidenceStatementSource",
-    "link": "Source"
+    "name": "EvidenceDataSource",
+    "link": "Source",
+    "group": "Grp005",
+    "groupName": "Entities>EvidenceDataSource"
   },
-  {
+  "E37": {
     "id": "E37",
     "name": "PublicationStatus",
-    "link": "PubStat"
+    "link": "PubStat",
+    "group": "Grp005",
+    "groupName": "Entities>PublicationStatus"
   },
-  {
+  "E38": {
     "id": "E38",
     "name": "Capturer",
     "parentEntityTypeId": "E12",
-    "link": "Capturer"
+    "link": "Capturer",
+    "group": "Grp006",
+    "groupName": "Agents>Capturer"
   },
-  {
+  "E39": {
     "id": "E39",
     "name": "Assessor",
     "parentEntityTypeId": "E12",
-    "link": "Assessor"
+    "link": "Assessor",
+    "group": "Grp006",
+    "groupName": "Agents>Assessor"
   },
-  {
+  "E40": {
     "id": "E40",
     "name": "Generator",
     "parentEntityTypeId": "E12",
-    "link": "Generator"
+    "link": "Generator",
+    "group": "Grp006",
+    "groupName": "Agents>Generator"
   },
-  {
+  "E41": {
     "id": "E41",
     "name": "Publisher",
     "parentEntityTypeId": "E12",
-    "link": "Publisher"
+    "link": "Publisher",
+    "group": "Grp006",
+    "groupName": "Agents>Publisher"
   },
-  {
+  "E42": {
     "id": "E42",
     "name": "RegionContainsAllele",
     "parentEntityTypeId": "E01",
-    "link": "RegAll"
+    "link": "RegAll",
+    "group": "Grp008",
+    "groupName": "Evidence Data>RegionContainsAllele"
   },
-  {
+  "E43": {
     "id": "E43",
     "name": "BenignMissenseVariationRate",
     "parentEntityTypeId": "E01",
-    "link": "BMVR"
+    "link": "BMVR",
+    "group": "Grp008",
+    "groupName": "Evidence Data>BenignMissenseVariationRate"
   },
-  {
+  "E44": {
     "id": "E44",
     "name": "Family",
-    "link": "F"
+    "link": "F",
+    "groupName": "#N/A"
   },
-  {
+  "E45": {
     "id": "E45",
     "name": "FamilySegregationData",
     "parentEntityTypeId": "E01",
-    "link": "FamSegData"
+    "link": "FamSegData",
+    "group": "Grp008",
+    "groupName": "Evidence Data>FamilySegregationData"
   },
-  {
+  "E46": {
     "id": "E46",
     "name": "AggregationSegregationData",
     "parentEntityTypeId": "E01",
-    "link": "AggSegData"
+    "link": "AggSegData",
+    "group": "Grp008",
+    "groupName": "Evidence Data>AggregationSegregationData"
   },
-  {
+  "E47": {
     "id": "E47",
     "name": "InSilicoPrediction",
     "parentEntityTypeId": "E01",
-    "link": "InSilicoPred"
+    "link": "InSilicoPred",
+    "group": "Grp008",
+    "groupName": "Evidence Data>InSilicoPrediction"
   },
-  {
+  "E48": {
     "id": "E48",
     "name": "ConditionEtiology",
     "parentEntityTypeId": "E01",
-    "link": "CondEtiol"
+    "link": "CondEtiol",
+    "group": "Grp008",
+    "groupName": "Evidence Data>ConditionEtiology"
   },
-  {
+  "E49": {
     "id": "E49",
     "name": "ConditionPrevelance",
     "parentEntityTypeId": "E01",
-    "link": "CondPrev"
+    "link": "CondPrev",
+    "group": "Grp008",
+    "groupName": "Evidence Data>ConditionPrevelance"
   },
-  {
+  "E50": {
     "id": "E50",
     "name": "ConditionPenetrance",
     "parentEntityTypeId": "E01",
-    "link": "CondPenet"
+    "link": "CondPenet",
+    "group": "Grp008",
+    "groupName": "Evidence Data>ConditionPenetrance"
   },
-  {
+  "E51": {
     "id": "E51",
     "name": "Conservation",
     "parentEntityTypeId": "E01",
-    "link": "Conserv"
+    "link": "Conserv",
+    "group": "Grp008",
+    "groupName": "Evidence Data>Conservation"
+  },
+  "E52": {
+    "id": "E52",
+    "name": "Entity",
+    "link": "Entity",
+    "imageFile": "entities.svg",
+    "description": "W3C Provenance entity conceptual class.",
+    "groupName": "#N/A"
+  },
+  "E53": {
+    "id": "E53",
+    "name": "Group",
+    "link": "Grp",
+    "groupName": "#N/A"
+  },
+  "E54": {
+    "id": "E54",
+    "name": "Other",
+    "parentEntityTypeId": "E01",
+    "link": "Other",
+    "group": "Grp008",
+    "groupName": "Evidence Data>Other"
   }
-]
+}

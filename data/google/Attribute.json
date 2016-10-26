@@ -1,1033 +1,1204 @@
-[
-  {
+{
+  "A001": {
     "id": "A001",
-    "evidenceTypeId": "E02",
+    "entityId": "E02",
     "name": "consequence",
     "dataType": "MolecularConsequenceType",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "notes": "SO Term",
     "fullyQualifiedName": "MolecularConsequence.consequence"
   },
-  {
+  "A002": {
     "id": "A002",
-    "evidenceTypeId": "E03",
+    "entityId": "E03",
     "name": "mechanism",
     "dataType": "MechanismType",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "notes": "SO Term",
     "fullyQualifiedName": "ConditionMechanism.mechanism"
   },
-  {
+  "A003": {
     "id": "A003",
-    "evidenceTypeId": "E03",
+    "entityId": "E03",
     "name": "established",
     "dataType": "boolean",
     "cardinality": "0..1",
     "defaultValue": "null",
-    "fullyQualifiedName": "ConditionMechanism.established",
-    "datamodel revisit": "???"
+    "precedence": 4.0,
+    "fullyQualifiedName": "ConditionMechanism.established"
   },
-  {
+  "A004": {
     "id": "A004",
-    "evidenceTypeId": "E03",
+    "entityId": "E03",
     "name": "primary",
     "dataType": "boolean",
     "cardinality": "0..1",
     "defaultValue": "null",
-    "fullyQualifiedName": "ConditionMechanism.primary",
-    "datamodel revisit": "???"
+    "precedence": 5.0,
+    "fullyQualifiedName": "ConditionMechanism.primary"
   },
-  {
+  "A005": {
     "id": "A005",
-    "evidenceTypeId": "E03",
+    "entityId": "E03",
     "name": "suggested",
     "dataType": "boolean",
     "cardinality": "0..1",
     "defaultValue": "null",
-    "fullyQualifiedName": "ConditionMechanism.suggested",
-    "datamodel revisit": "???"
+    "precedence": 6.0,
+    "fullyQualifiedName": "ConditionMechanism.suggested"
   },
-  {
+  "A006": {
     "id": "A006",
-    "evidenceTypeId": "E11",
-    "name": "usedEvidenceStatement",
-    "dataType": "EvidenceStatement",
+    "entityId": "E11",
+    "name": "usedEvidenceData",
+    "dataType": "EvidenceData",
     "cardinality": "0..*",
     "defaultValue": "null",
+    "precedence": 4.0,
     "notes": "MolecularConsequence, ConditionMechanism",
-    "fullyQualifiedName": "AssessCriterion.usedEvidenceStatement"
+    "fullyQualifiedName": "AssessCriterion.usedEvidenceData"
   },
-  {
+  "A007": {
     "id": "A007",
-    "evidenceTypeId": "E11",
+    "entityId": "E11",
     "name": "usedCriterion",
     "dataType": "Criterion",
     "cardinality": "1..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "AssessCriterion.usedCriterion"
   },
-  {
+  "A008": {
     "id": "A008",
-    "evidenceTypeId": "E11",
+    "entityId": "E11",
     "name": "usedCanonicalAllele",
     "dataType": "CanonicalAllele",
     "cardinality": "1..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "AssessCriterion.usedCanonicalAllele"
   },
-  {
+  "A009": {
     "id": "A009",
-    "evidenceTypeId": "E02",
+    "entityId": "E02",
     "name": "contextualAllele",
     "dataType": "ContextualAllele",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "MolecularConsequence.contextualAllele"
   },
-  {
+  "A010": {
     "id": "A010",
-    "evidenceTypeId": "E02",
+    "entityId": "E02",
     "name": "lof",
     "dataType": "yes/no/maybe",
     "cardinality": "1..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "MolecularConsequence.lof"
   },
-  {
+  "A011": {
     "id": "A011",
-    "evidenceTypeId": "E03",
+    "entityId": "E03",
     "name": "gene",
     "dataType": "Gene",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "ConditionMechanism.gene"
   },
-  {
+  "A012": {
     "id": "A012",
-    "evidenceTypeId": "E03",
+    "entityId": "E03",
     "name": "condition",
     "dataType": "Condition",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "ConditionMechanism.condition"
   },
-  {
+  "A013": {
     "id": "A013",
-    "evidenceTypeId": "E15",
+    "entityId": "E15",
     "name": "canonicalAllele",
     "dataType": "CanonicalAllele",
     "cardinality": "0..1",
     "defaultValue": "null",
-    "fullyQualifiedName": "MendelianDiseaseVariantInterpretation.canonicalAllele"
+    "precedence": 1.0,
+    "fullyQualifiedName": "MendelianDiseaseVariantPathogenicityInterpretation.canonicalAllele"
   },
-  {
+  "A014": {
     "id": "A014",
-    "evidenceTypeId": "E15",
+    "entityId": "E15",
     "name": "condition",
     "dataType": "Condition",
     "cardinality": "0..1",
     "defaultValue": "null",
-    "fullyQualifiedName": "MendelianDiseaseVariantInterpretation.condition"
+    "precedence": 2.0,
+    "fullyQualifiedName": "MendelianDiseaseVariantPathogenicityInterpretation.condition"
   },
-  {
+  "A015": {
     "id": "A015",
-    "evidenceTypeId": "E15",
+    "entityId": "E15",
     "name": "clinicalSignificance",
     "dataType": "ClinicalSignificanceType",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "notes": "LOINC Term",
-    "fullyQualifiedName": "MendelianDiseaseVariantInterpretation.clinicalSignificance"
+    "fullyQualifiedName": "MendelianDiseaseVariantPathogenicityInterpretation.clinicalSignificance"
   },
-  {
+  "A016": {
     "id": "A016",
-    "evidenceTypeId": "E17",
+    "entityId": "E17",
     "name": "individual",
     "dataType": "Individual",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "IndividualCondition.individual"
   },
-  {
+  "A017": {
     "id": "A017",
-    "evidenceTypeId": "E17",
+    "entityId": "E17",
     "name": "condition",
     "dataType": "Condition",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "IndividualCondition.condition"
   },
-  {
+  "A018": {
     "id": "A018",
-    "evidenceTypeId": "E17",
+    "entityId": "E17",
     "name": "hasCondition",
     "dataType": "boolean",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "IndividualCondition.hasCondition"
   },
-  {
+  "A019": {
     "id": "A019",
-    "evidenceTypeId": "E18",
+    "entityId": "E18",
     "name": "proband",
     "dataType": "Individual",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "FamilyHistory.proband"
   },
-  {
+  "A020": {
     "id": "A020",
-    "evidenceTypeId": "E18",
+    "entityId": "E18",
     "name": "condition",
     "dataType": "Condition",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "FamilyHistory.condition"
   },
-  {
+  "A021": {
     "id": "A021",
-    "evidenceTypeId": "E18",
+    "entityId": "E18",
     "name": "familyHasCondition",
     "dataType": "boolean",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "FamilyHistory.familyHasCondition"
   },
-  {
+  "A022": {
     "id": "A022",
-    "evidenceTypeId": "E19",
+    "entityId": "E19",
     "name": "canonicalAllele",
     "dataType": "CanonicalAllele",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "DeNovoAllele.canonicalAllele"
   },
-  {
+  "A023": {
     "id": "A023",
-    "evidenceTypeId": "E19",
+    "entityId": "E19",
     "name": "individual",
     "dataType": "Individual",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "DeNovoAllele.individual"
   },
-  {
+  "A024": {
     "id": "A024",
-    "evidenceTypeId": "E19",
+    "entityId": "E19",
     "name": "maternityConfirmed",
     "dataType": "boolean",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "notes": "FALSE means that we did not confirm maternity, not that the maternity was confirmed to be wrong. ",
     "fullyQualifiedName": "DeNovoAllele.maternityConfirmed"
   },
-  {
+  "A025": {
     "id": "A025",
-    "evidenceTypeId": "E19",
+    "entityId": "E19",
     "name": "paternityConfirmed",
     "dataType": "boolean",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 4.0,
     "notes": "FALSE means that we did not confirm paternity, not that the paternity was confirmed to be wrong. ",
     "fullyQualifiedName": "DeNovoAllele.paternityConfirmed"
   },
-  {
+  "A026": {
     "id": "A026",
-    "evidenceTypeId": "E20",
+    "entityId": "E20",
     "name": "result",
     "dataType": "String",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "FunctionalData.result"
   },
-  {
+  "A027": {
     "id": "A027",
-    "evidenceTypeId": "E20",
+    "entityId": "E20",
     "name": "dataType",
     "dataType": "CodeableConcept",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 4.0,
     "notes": "?",
     "fullyQualifiedName": "FunctionalData.dataType"
   },
-  {
+  "A028": {
     "id": "A028",
-    "evidenceTypeId": "E20",
+    "entityId": "E20",
     "name": "contextualAllele",
     "dataType": "ContextualAllele",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "FunctionalData.contextualAllele"
   },
-  {
+  "A029": {
     "id": "A029",
-    "evidenceTypeId": "E20",
+    "entityId": "E20",
     "name": "gene",
     "dataType": "Gene",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "FunctionalData.gene"
   },
-  {
+  "A030": {
     "id": "A030",
-    "evidenceTypeId": "E23",
+    "entityId": "E23",
     "name": "ascertainment",
     "dataType": "CodeableConcept",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "PopulationAlleleFrequency.ascertainment"
   },
-  {
+  "A031": {
     "id": "A031",
-    "evidenceTypeId": "E23",
+    "entityId": "E23",
     "name": "contextualAllele",
     "dataType": "ContextualAllele",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "PopulationAlleleFrequency.contextualAllele"
   },
-  {
+  "A032": {
     "id": "A032",
-    "evidenceTypeId": "E23",
+    "entityId": "E23",
     "name": "alleleCount",
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 5.0,
     "fullyQualifiedName": "PopulationAlleleFrequency.alleleCount"
   },
-  {
+  "A033": {
     "id": "A033",
-    "evidenceTypeId": "E23",
+    "entityId": "E23",
     "name": "alleleNumber",
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 6.0,
     "fullyQualifiedName": "PopulationAlleleFrequency.alleleNumber"
   },
-  {
+  "A034": {
     "id": "A034",
-    "evidenceTypeId": "E22",
+    "entityId": "E22",
     "name": "ascertainment",
     "dataType": "CodeableConcept",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "GroupAlleleFrequency.ascertainment"
   },
-  {
+  "A035": {
     "id": "A035",
-    "evidenceTypeId": "E22",
+    "entityId": "E22",
     "name": "contextualAllele",
     "dataType": "ContextualAllele",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "GroupAlleleFrequency.contextualAllele"
   },
-  {
+  "A036": {
     "id": "A036",
-    "evidenceTypeId": "E22",
+    "entityId": "E22",
     "name": "alleleCount",
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 4.0,
     "fullyQualifiedName": "GroupAlleleFrequency.alleleCount"
   },
-  {
+  "A037": {
     "id": "A037",
-    "evidenceTypeId": "E22",
+    "entityId": "E22",
     "name": "alleleNumber",
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 5.0,
     "fullyQualifiedName": "GroupAlleleFrequency.alleleNumber"
   },
-  {
+  "A038": {
     "id": "A038",
-    "evidenceTypeId": "E21",
+    "entityId": "E21",
     "name": "canonicalAllele",
     "dataType": "CanonicalAllele",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "CaseControl.canonicalAllele"
   },
-  {
+  "A039": {
     "id": "A039",
-    "evidenceTypeId": "E21",
+    "entityId": "E21",
     "name": "condition",
     "dataType": "Condition",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "CaseControl.condition"
   },
-  {
+  "A040": {
     "id": "A040",
-    "evidenceTypeId": "E21",
+    "entityId": "E21",
     "name": "oddsRatio",
     "dataType": "float",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 5.0,
     "fullyQualifiedName": "CaseControl.oddsRatio"
   },
-  {
+  "A041": {
     "id": "A041",
-    "evidenceTypeId": "E21",
+    "entityId": "E21",
     "name": "confidenceInterval",
     "dataType": "String",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 6.0,
     "fullyQualifiedName": "CaseControl.confidenceInterval"
   },
-  {
+  "A042": {
     "id": "A042",
-    "evidenceTypeId": "E21",
+    "entityId": "E21",
     "name": "caseGroup",
     "dataType": "GroupAlleleFrequency",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "CaseControl.caseGroup"
   },
-  {
+  "A043": {
     "id": "A043",
-    "evidenceTypeId": "E21",
+    "entityId": "E21",
     "name": "controlGroup",
     "dataType": "PopulationAlleleFrequency",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 4.0,
     "fullyQualifiedName": "CaseControl.controlGroup"
   },
-  {
+  "A044": {
     "id": "A044",
-    "evidenceTypeId": "E22",
+    "entityId": "E22",
     "name": "individualCount",
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 6.0,
     "fullyQualifiedName": "GroupAlleleFrequency.individualCount"
   },
-  {
+  "A045": {
     "id": "A045",
-    "evidenceTypeId": "E22",
+    "entityId": "E22",
     "name": "homozygousAlleleIndividualCount",
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 7.0,
     "fullyQualifiedName": "GroupAlleleFrequency.homozygousAlleleIndividualCount"
   },
-  {
+  "A046": {
     "id": "A046",
-    "evidenceTypeId": "E22",
+    "entityId": "E22",
     "name": "heterozygousAlleleIndividualCount",
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 8.0,
     "fullyQualifiedName": "GroupAlleleFrequency.heterozygousAlleleIndividualCount"
   },
-  {
+  "A047": {
     "id": "A047",
-    "evidenceTypeId": "E22",
+    "entityId": "E22",
     "name": "raceOrEthnicity",
     "dataType": "CodeableConcept",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "GroupAlleleFrequency.raceOrEthnicity"
   },
-  {
+  "A048": {
     "id": "A048",
-    "evidenceTypeId": "E21",
+    "entityId": "E21",
     "name": "confidenceIntervalLower",
     "dataType": "float",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 7.0,
     "fullyQualifiedName": "CaseControl.confidenceIntervalLower"
   },
-  {
+  "A049": {
     "id": "A049",
-    "evidenceTypeId": "E21",
+    "entityId": "E21",
     "name": "confidenceIntervalUpper",
     "dataType": "float",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 8.0,
     "fullyQualifiedName": "CaseControl.confidenceIntervalUpper"
   },
-  {
+  "A050": {
     "id": "A050",
+    "precedence": 0.0,
     "fullyQualifiedName": "#N/A"
   },
-  {
+  "A051": {
     "id": "A051",
-    "evidenceTypeId": "E23",
+    "entityId": "E23",
     "name": "hemizygousAlleleIndividualCount",
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 7.0,
     "fullyQualifiedName": "PopulationAlleleFrequency.hemizygousAlleleIndividualCount"
   },
-  {
+  "A052": {
     "id": "A052",
-    "evidenceTypeId": "E25",
+    "entityId": "E25",
     "name": "referenceSequence",
     "dataType": "ReferenceSequence",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "ContextualRegion.referenceSequence"
   },
-  {
+  "A053": {
     "id": "A053",
-    "evidenceTypeId": "E25",
+    "entityId": "E25",
     "name": "start",
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "ContextualRegion.start"
   },
-  {
+  "A054": {
     "id": "A054",
-    "evidenceTypeId": "E25",
+    "entityId": "E25",
     "name": "stop",
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "ContextualRegion.stop"
   },
-  {
+  "A055": {
     "id": "A055",
-    "evidenceTypeId": "E24",
+    "entityId": "E24",
     "name": "region",
     "dataType": "ContextualRegion",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "RegionAnnotation.region"
   },
-  {
+  "A056": {
     "id": "A056",
-    "evidenceTypeId": "E24",
+    "entityId": "E24",
     "name": "value",
     "dataType": "boolean",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "RegionAnnotation.value"
   },
-  {
+  "A057": {
     "id": "A057",
-    "evidenceTypeId": "E24",
+    "entityId": "E24",
     "name": "type",
     "dataType": "RegionType",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "RegionAnnotation.type"
   },
-  {
+  "A058": {
     "id": "A058",
-    "evidenceTypeId": "E24",
+    "entityId": "E24",
     "name": "containedAlleles",
     "dataType": "CanonicalAllele",
     "cardinality": "0..*",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "RegionAnnotation.containedAlleles"
   },
-  {
+  "A059": {
     "id": "A059",
-    "evidenceTypeId": "E23",
+    "entityId": "E23",
     "name": "raceOrEthnicity",
     "dataType": "CodeableConcept",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "PopulationAlleleFrequency.raceOrEthnicity"
   },
-  {
+  "A060": {
     "id": "A060",
-    "evidenceTypeId": "E23",
+    "entityId": "E23",
     "name": "alleleFrequency",
     "dataType": "float",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 4.0,
     "fullyQualifiedName": "PopulationAlleleFrequency.alleleFrequency"
   },
-  {
+  "A061": {
     "id": "A061",
-    "evidenceTypeId": "E23",
+    "entityId": "E23",
     "name": "homozygousAlleleIndividualCount",
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 8.0,
     "fullyQualifiedName": "PopulationAlleleFrequency.homozygousAlleleIndividualCount"
   },
-  {
+  "A062": {
     "id": "A062",
-    "evidenceTypeId": "E23",
+    "entityId": "E23",
     "name": "medianCoverage",
     "dataType": "float",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 9.0,
     "fullyQualifiedName": "PopulationAlleleFrequency.medianCoverage"
   },
-  {
+  "A063": {
     "id": "A063",
-    "evidenceTypeId": "E27",
+    "entityId": "E27",
     "name": "condition",
     "dataType": "Condition",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "ConditionInheritance.condition"
   },
-  {
+  "A064": {
     "id": "A064",
-    "evidenceTypeId": "E27",
+    "entityId": "E27",
     "name": "modeOfInheritance",
     "dataType": "InheritanceModeType",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "ConditionInheritance.modeOfInheritance"
   },
-  {
+  "A065": {
     "id": "A065",
-    "evidenceTypeId": "E28",
+    "entityId": "E28",
     "name": "individual",
     "dataType": "Individual",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "IndividualAllele.individual"
   },
-  {
+  "A066": {
     "id": "A066",
-    "evidenceTypeId": "E28",
+    "entityId": "E28",
     "name": "primaryAllele",
     "dataType": "CanonicalAllele",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "IndividualAllele.primaryAllele"
   },
-  {
+  "A067": {
     "id": "A067",
-    "evidenceTypeId": "E28",
+    "entityId": "E28",
     "name": "secondaryAllele",
     "dataType": "CanonicalAllele",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 4.0,
     "fullyQualifiedName": "IndividualAllele.secondaryAllele"
   },
-  {
+  "A068": {
     "id": "A068",
-    "evidenceTypeId": "E28",
+    "entityId": "E28",
     "name": "primaryZygosity",
     "dataType": "AllelicStateType",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "IndividualAllele.primaryZygosity"
   },
-  {
+  "A069": {
     "id": "A069",
-    "evidenceTypeId": "E28",
+    "entityId": "E28",
     "name": "secondaryZygosity",
     "dataType": "AllelicStateType",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 5.0,
     "fullyQualifiedName": "IndividualAllele.secondaryZygosity"
   },
-  {
+  "A070": {
     "id": "A070",
-    "evidenceTypeId": "E28",
+    "entityId": "E28",
     "name": "phase",
     "dataType": "PhaseType",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 6.0,
     "fullyQualifiedName": "IndividualAllele.phase"
   },
-  {
+  "A071": {
     "id": "A071",
-    "evidenceTypeId": "E27",
+    "entityId": "E27",
     "name": "gene",
     "dataType": "Gene",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "ConditionInheritance.gene"
   },
-  {
+  "A072": {
     "id": "A072",
-    "evidenceTypeId": "E11",
+    "entityId": "E11",
     "name": "assessor",
     "dataType": "Agent",
     "cardinality": "1..n",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "AssessCriterion.assessor"
   },
-  {
+  "A073": {
     "id": "A073",
-    "evidenceTypeId": "E29",
+    "entityId": "E29",
     "name": "capturer",
     "dataType": "Agent",
     "cardinality": "1..n",
     "defaultValue": "null",
-    "fullyQualifiedName": "CaptureEvidenceStatement.capturer"
+    "precedence": 1.0,
+    "fullyQualifiedName": "CaptureEvidenceData.capturer"
   },
-  {
+  "A074": {
     "id": "A074",
-    "evidenceTypeId": "E30",
+    "entityId": "E30",
     "name": "generator",
     "dataType": "Agent",
     "cardinality": "1..n",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "GenerateVariantInterpretation.generator"
   },
-  {
+  "A075": {
     "id": "A075",
-    "evidenceTypeId": "E31",
+    "entityId": "E31",
     "name": "publisher",
     "dataType": "Agent",
     "cardinality": "1..n",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "PublishVariantInterpretation.publisher"
   },
-  {
+  "A076": {
     "id": "A076",
-    "evidenceTypeId": "E42",
+    "entityId": "E42",
     "name": "contextualRegion",
     "dataType": "ContextualRegion",
     "cardinality": "1..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "RegionContainsAllele.contextualRegion"
   },
-  {
+  "A077": {
     "id": "A077",
-    "evidenceTypeId": "E42",
+    "entityId": "E42",
     "name": "contextualAllele",
     "dataType": "ContextualAllele",
     "cardinality": "1..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "RegionContainsAllele.contextualAllele"
   },
-  {
+  "A078": {
     "id": "A078",
-    "evidenceTypeId": "E42",
+    "entityId": "E42",
     "name": "value",
     "dataType": "boolean",
     "cardinality": "1..1",
     "defaultValue": 1,
+    "precedence": 3.0,
     "fullyQualifiedName": "RegionContainsAllele.value"
   },
-  {
+  "A079": {
     "id": "A079",
-    "evidenceTypeId": "E43",
+    "entityId": "E43",
     "name": "region",
     "dataType": "ContextualRegion",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "BenignMissenseVariationRate.region"
   },
-  {
+  "A080": {
     "id": "A080",
-    "evidenceTypeId": "E43",
+    "entityId": "E43",
     "name": "value",
     "dataType": "CodeableConcept",
     "cardinality": "1..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "BenignMissenseVariationRate.value"
   },
-  {
+  "A081": {
     "id": "A081",
-    "evidenceTypeId": "E45",
+    "entityId": "E45",
     "name": "condition",
     "dataType": "Condition",
     "cardinality": "1..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "FamilySegregationData.condition"
   },
-  {
+  "A082": {
     "id": "A082",
-    "evidenceTypeId": "E45",
+    "entityId": "E45",
     "name": "canonicalAllele",
     "dataType": "CanonicalAllele",
     "cardinality": "1..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "FamilySegregationData.canonicalAllele"
   },
-  {
+  "A083": {
     "id": "A083",
-    "evidenceTypeId": "E45",
+    "entityId": "E45",
     "name": "family",
     "dataType": "Family",
     "cardinality": "1..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "FamilySegregationData.family"
   },
-  {
+  "A084": {
     "id": "A084",
-    "evidenceTypeId": "E45",
+    "entityId": "E45",
     "name": "phenotypePositiveAllelePositive",
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 4.0,
     "fullyQualifiedName": "FamilySegregationData.phenotypePositiveAllelePositive"
   },
-  {
+  "A085": {
     "id": "A085",
-    "evidenceTypeId": "E45",
+    "entityId": "E45",
     "name": "phenotypeNegativeAllelePositive",
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 5.0,
     "fullyQualifiedName": "FamilySegregationData.phenotypeNegativeAllelePositive"
   },
-  {
+  "A086": {
     "id": "A086",
-    "evidenceTypeId": "E46",
+    "entityId": "E46",
     "name": "condition",
     "dataType": "Condition",
     "cardinality": "1..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "AggregationSegregationData.condition"
   },
-  {
+  "A087": {
     "id": "A087",
-    "evidenceTypeId": "E46",
+    "entityId": "E46",
     "name": "canonicalAllele",
     "dataType": "CanonicalAllele",
     "cardinality": "1..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "AggregationSegregationData.canonicalAllele"
   },
-  {
+  "A088": {
     "id": "A088",
-    "evidenceTypeId": "E46",
-    "name": "famlySegregationData",
+    "entityId": "E46",
+    "name": "familySegregationData",
     "dataType": "FamilySegregationData",
     "cardinality": "0..*",
     "defaultValue": "null",
-    "fullyQualifiedName": "AggregationSegregationData.famlySegregationData"
+    "precedence": 4.0,
+    "fullyQualifiedName": "AggregationSegregationData.familySegregationData"
   },
-  {
+  "A089": {
     "id": "A089",
-    "evidenceTypeId": "E46",
+    "entityId": "E46",
     "name": "totalNumberOfSegregations",
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "AggregationSegregationData.totalNumberOfSegregations"
   },
-  {
+  "A090": {
     "id": "A090",
-    "evidenceTypeId": "E45",
+    "entityId": "E45",
     "name": "columns",
     "dataType": "String",
     "cardinality": "0..*",
     "defaultValue": "null",
+    "precedence": 6.0,
     "fullyQualifiedName": "FamilySegregationData.columns"
   },
-  {
+  "A091": {
     "id": "A091",
-    "evidenceTypeId": "E45",
+    "entityId": "E45",
     "name": "affectedValues",
     "dataType": "String",
     "cardinality": "0..*",
     "defaultValue": "null",
+    "precedence": 7.0,
     "fullyQualifiedName": "FamilySegregationData.affectedValues"
   },
-  {
+  "A092": {
     "id": "A092",
-    "evidenceTypeId": "E45",
+    "entityId": "E45",
     "name": "genotypeValues",
     "dataType": "String",
     "cardinality": "0..*",
     "defaultValue": "null",
+    "precedence": 8.0,
     "fullyQualifiedName": "FamilySegregationData.genotypeValues"
   },
-  {
+  "A093": {
     "id": "A093",
-    "evidenceTypeId": "E45",
+    "entityId": "E45",
     "name": "pedigree",
     "dataType": "String",
     "cardinality": "0..*",
     "defaultValue": "null",
+    "precedence": 9.0,
     "fullyQualifiedName": "FamilySegregationData.pedigree"
   },
-  {
+  "A094": {
     "id": "A094",
-    "evidenceTypeId": "E43",
+    "entityId": "E43",
     "name": "gene",
     "dataType": "Gene",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "BenignMissenseVariationRate.gene"
   },
-  {
+  "A095": {
     "id": "A095",
-    "evidenceTypeId": "E03",
+    "entityId": "E03",
     "name": "common",
     "dataType": "boolean",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 7.0,
     "fullyQualifiedName": "ConditionMechanism.common"
   },
-  {
+  "A096": {
     "id": "A096",
-    "evidenceTypeId": "E47",
+    "entityId": "E47",
     "name": "contextualAllele",
     "dataType": "ContextualAllele",
     "cardinality": "1..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "InSilicoPrediction.contextualAllele"
   },
-  {
+  "A097": {
     "id": "A097",
-    "evidenceTypeId": "E47",
+    "entityId": "E47",
     "name": "type",
     "dataType": "PredictionType",
     "cardinality": "1..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "InSilicoPrediction.type"
   },
-  {
+  "A098": {
     "id": "A098",
-    "evidenceTypeId": "E47",
+    "entityId": "E47",
     "name": "tool",
     "dataType": "String",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "InSilicoPrediction.tool"
   },
-  {
+  "A099": {
     "id": "A099",
-    "evidenceTypeId": "E47",
+    "entityId": "E47",
     "name": "value",
     "dataType": "String",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 4.0,
     "fullyQualifiedName": "InSilicoPrediction.value"
   },
-  {
+  "A100": {
     "id": "A100",
-    "evidenceTypeId": "E48",
+    "entityId": "E48",
     "name": "condition",
     "dataType": "Condition",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "ConditionEtiology.condition"
   },
-  {
+  "A101": {
     "id": "A101",
-    "evidenceTypeId": "E48",
+    "entityId": "E48",
     "name": "gene",
     "dataType": "Gene",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "ConditionEtiology.gene"
   },
-  {
+  "A102": {
     "id": "A102",
-    "evidenceTypeId": "E48",
+    "entityId": "E48",
     "name": "specificity",
     "dataType": "String",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "ConditionEtiology.specificity"
   },
-  {
+  "A103": {
     "id": "A103",
-    "evidenceTypeId": "E49",
+    "entityId": "E49",
     "name": "condition",
     "dataType": "Condition",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "ConditionPrevelance.condition"
   },
-  {
+  "A104": {
     "id": "A104",
-    "evidenceTypeId": "E49",
+    "entityId": "E49",
     "name": "minimum",
     "dataType": "float",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "ConditionPrevelance.minimum"
   },
-  {
+  "A105": {
     "id": "A105",
-    "evidenceTypeId": "E49",
+    "entityId": "E49",
     "name": "maximum",
     "dataType": "float",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 4.0,
     "fullyQualifiedName": "ConditionPrevelance.maximum"
   },
-  {
+  "A106": {
     "id": "A106",
-    "evidenceTypeId": "E49",
+    "entityId": "E49",
     "name": "population",
     "dataType": "PopulationType",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "ConditionPrevelance.population"
   },
-  {
+  "A107": {
     "id": "A107",
-    "evidenceTypeId": "E50",
+    "entityId": "E50",
     "name": "condition",
     "dataType": "Condition",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "ConditionPenetrance.condition"
   },
-  {
+  "A108": {
     "id": "A108",
-    "evidenceTypeId": "E50",
+    "entityId": "E50",
     "name": "penetrance",
     "dataType": "PenetranceType",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "ConditionPenetrance.penetrance"
   },
-  {
+  "A109": {
     "id": "A109",
-    "evidenceTypeId": "E49",
+    "entityId": "E49",
     "name": "value",
     "dataType": "float",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 5.0,
     "fullyQualifiedName": "ConditionPrevelance.value"
   },
-  {
+  "A110": {
     "id": "A110",
-    "evidenceTypeId": "E45",
+    "entityId": "E45",
     "name": "anyInconsistentSegregations",
     "dataType": "boolean",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 10.0,
     "fullyQualifiedName": "FamilySegregationData.anyInconsistentSegregations"
   },
-  {
+  "A111": {
     "id": "A111",
-    "evidenceTypeId": "E51",
+    "entityId": "E51",
     "name": "allele",
     "dataType": "CanonicalAllele",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 1.0,
     "fullyQualifiedName": "Conservation.allele"
   },
-  {
+  "A112": {
     "id": "A112",
-    "evidenceTypeId": "E51",
+    "entityId": "E51",
     "name": "conserved",
     "dataType": "boolean",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 4.0,
     "fullyQualifiedName": "Conservation.conserved"
   },
-  {
+  "A113": {
     "id": "A113",
-    "evidenceTypeId": "E51",
+    "entityId": "E51",
     "name": "method",
     "dataType": "String",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 2.0,
     "fullyQualifiedName": "Conservation.method"
   },
-  {
+  "A114": {
     "id": "A114",
-    "evidenceTypeId": "E51",
+    "entityId": "E51",
     "name": "score",
     "dataType": "float",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "precedence": 3.0,
     "fullyQualifiedName": "Conservation.score"
+  },
+  "A115": {
+    "id": "A115",
+    "entityId": "E09",
+    "name": "criterion",
+    "dataType": "Criterion",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "precedence": 1.0,
+    "fullyQualifiedName": "CriterionAssessment.criterion"
+  },
+  "A116": {
+    "id": "A116",
+    "entityId": "E09",
+    "name": "outcome",
+    "dataType": "CodeableConcept",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "precedence": 4.0,
+    "fullyQualifiedName": "CriterionAssessment.outcome"
+  },
+  "A117": {
+    "id": "A117",
+    "entityId": "E09",
+    "name": "variant",
+    "dataType": "CanonicalAllele",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "precedence": 2.0,
+    "fullyQualifiedName": "CriterionAssessment.variant"
+  },
+  "A118": {
+    "id": "A118",
+    "entityId": "E09",
+    "name": "condition",
+    "dataType": "Condition",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "precedence": 3.0,
+    "fullyQualifiedName": "CriterionAssessment.condition"
+  },
+  "A119": {
+    "id": "A119",
+    "entityId": "E52",
+    "name": "wasGeneratedBy",
+    "dataType": "Agent",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "precedence": 98.0,
+    "fullyQualifiedName": "Entity.wasGeneratedBy"
+  },
+  "A120": {
+    "id": "A120",
+    "entityId": "E52",
+    "name": "explanation",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "precedence": 99.0,
+    "fullyQualifiedName": "Entity.explanation"
   }
-]
+}

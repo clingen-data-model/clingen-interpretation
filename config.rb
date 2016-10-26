@@ -187,6 +187,12 @@ helpers do
     return output + "</ul>\n"
   end  
 
+  def attributes_by_entity(entityId)  
+    data.google.Attribute.select do |k,v|
+      entityId == v.entityId
+    end.map{|k,v| v}.sort_by { |a| a.precdedence }
+  end
+
   # def example_path(example_id)
   #   "/allele/implementation/examples/#{example_id}.html"
   # end
