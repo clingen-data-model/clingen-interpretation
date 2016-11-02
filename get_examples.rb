@@ -2,9 +2,11 @@ require 'rubyXL'
 require 'net/http'
 require 'uri'
 require 'json'
+require 'fileutils'
 
 
-GOOGLE_DATA_FOLDER = "data/google"
+FLAT_DATA_DIR = "data/flattened"
+DOCS_DIR = "docs"
 ACMG_EXAMPLE_DATA_SHEET = "ACMG Rule Examples Data.xlsx"
 ACMG_CRITERION_ASSESS_EXAMPLES = "Criterion Assessment Examples.docx"
 ACMG_EXAMPLE_DATA_URL = "https://docs.google.com/spreadsheets/d/1fL3naWSpL_iDxkCN51g1CSLhXU6uAd1vwxZ0m1I4Zeg/pub?output=xlsx"
@@ -15,13 +17,15 @@ if ARGV[0] then
 	STDERR.puts "For a snapshot of the latest data, omit the static filename and it will download from the source GoogleSheet."
 	wb = RubyXL::Parser.parse(ARGV[0])
 else
-	STDERR.puts "Downloading from #{ACMG_EXAMPLE_DATA_URL} and writing to folder #{GOOGLE_DATA_FOLDER}"
+	STDERR.puts "Downloading from #{ACMG_EXAMPLE_DATA_URL} and writing to folder #{DOCS_DIR}"
 	STDERR.puts "For repetitive testing, you can download this manually and add the file as an argument to this script"
+	FileUtils.makedirs(DOCS_DIR)
+	FileUtils.makedirs(FLAT_DATA_DIR)
 	wb = RubyXL::Parser.parse_buffer(Net::HTTP.get(URI.parse(ACMG_EXAMPLE_DATA_URL)))
-	wb.write(GOOGLE_DATA_FOLDER+"/"+ACMG_EXAMPLE_DATA_SHEET)
+	wb.write(DOCS_DIR+"/"+ACMG_EXAMPLE_DATA_SHEET)
 
 	doc = Net::HTTP.get(URI.parse(ACMG_CRITERION_ASSESS_EXAMPLES_URL))
-	f = File.open(GOOGLE_DATA_FOLDER+"/"+ACMG_CRITERION_ASSESS_EXAMPLES, "w")
+	f = File.open(DOCS_DIR+"/"+ACMG_CRITERION_ASSESS_EXAMPLES, "w")
 	f.write(doc)
 	f.close
 end
@@ -31,10 +35,8 @@ raw_examples = {}
 wb.worksheets.each do |ws|
 	headers = []
 	sheet_data = []
-	header_index = (ws.sheet_name.start_with? 'VS-') ? 1 : 0
 	ws.each_with_index do |row, index|
-		next if index < header_index
-		if index == header_index then
+		if index == 0 then
 			headers = row.cells.map { |c| c && c.value }
 			next
 		end
@@ -45,7 +47,7 @@ wb.worksheets.each do |ws|
 	end
         sheet_hash = sheet_data.reduce({}) { |acc, r| acc.merge({r['id'] => r})}
 	raw_examples[ws.sheet_name] = sheet_hash
-	json_file = File.open(GOOGLE_DATA_FOLDER+"/"+ws.sheet_name+".json", "w")
+	json_file = File.open(FLAT_DATA_DIR+"/"+ws.sheet_name+".json", "w")
 	json_file.write(JSON.pretty_generate(sheet_hash))
 	json_file.close
 

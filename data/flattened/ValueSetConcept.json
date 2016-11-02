@@ -1,0 +1,612 @@
+{
+  "VSC001": {
+    "id": "VSC001",
+    "valueSet": "VS001",
+    "valueSetName": "EvidenceDataSourceType",
+    "code": "lit",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:lit",
+    "text": "literature",
+    "authority": "ClinGen",
+    "examples": "PMID, journals, urls, ..."
+  },
+  "VSC002": {
+    "id": "VSC002",
+    "valueSet": "VS001",
+    "valueSetName": "EvidenceDataSourceType",
+    "code": "db",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:db",
+    "text": "database",
+    "authority": "ClinGen",
+    "examples": "clinvar, EXEC, private, internal, commercial, ..."
+  },
+  "VSC003": {
+    "id": "VSC003",
+    "valueSet": "VS001",
+    "valueSetName": "EvidenceDataSourceType",
+    "code": "app",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:app",
+    "text": "application",
+    "authority": "ClinGen",
+    "examples": "public, private, custom, ..."
+  },
+  "VSC004": {
+    "id": "VSC004",
+    "valueSet": "VS002",
+    "valueSetName": "MolecularConsequence",
+    "code": "0001589",
+    "codeSystem": "SO",
+    "qualifiedCode": "SO:0001589",
+    "text": "frameshift variant",
+    "authority": "Sequence Ontology"
+  },
+  "VSC005": {
+    "id": "VSC005",
+    "valueSet": "VS002",
+    "valueSetName": "MolecularConsequence",
+    "code": "0000191",
+    "codeSystem": "SO",
+    "qualifiedCode": "SO:0000191",
+    "text": "interior intron",
+    "authority": "Sequence Ontology"
+  },
+  "VSC006": {
+    "id": "VSC006",
+    "valueSet": "VS002",
+    "valueSetName": "MolecularConsequence",
+    "code": "0001825",
+    "codeSystem": "SO",
+    "qualifiedCode": "SO:0001825",
+    "text": "Conservative Inframe Deletion",
+    "authority": "Sequence Ontology"
+  },
+  "VSC007": {
+    "id": "VSC007",
+    "valueSet": "VS002",
+    "valueSetName": "MolecularConsequence",
+    "code": "0001823",
+    "codeSystem": "SO",
+    "qualifiedCode": "SO:0001823",
+    "text": "Conservative Inframe Insertion",
+    "authority": "Sequence Ontology"
+  },
+  "VSC008": {
+    "id": "VSC008",
+    "valueSet": "VS002",
+    "valueSetName": "MolecularConsequence",
+    "code": "0001583",
+    "codeSystem": "SO",
+    "qualifiedCode": "SO:0001583",
+    "text": "missense variant",
+    "authority": "Sequence Ontology"
+  },
+  "VSC009": {
+    "id": "VSC009",
+    "valueSet": "VS002",
+    "valueSetName": "MolecularConsequence",
+    "code": "0001819",
+    "codeSystem": "SO",
+    "qualifiedCode": "SO:0001819",
+    "text": "synonymous variant",
+    "authority": "Sequence Ontology"
+  },
+  "VSC010": {
+    "id": "VSC010",
+    "valueSet": "VS003",
+    "valueSetName": "Significance",
+    "code": "LA6668-3",
+    "codeSystem": "LN",
+    "qualifiedCode": "LN:LA6668-3",
+    "text": "Pathogenic",
+    "authority": "Regenstrief Institute"
+  },
+  "VSC011": {
+    "id": "VSC011",
+    "valueSet": "VS003",
+    "valueSetName": "Significance",
+    "code": "LA6669-1",
+    "codeSystem": "LN",
+    "qualifiedCode": "LN:LA6669-1",
+    "text": "Likely Pathogenic",
+    "authority": "Regenstrief Institute"
+  },
+  "VSC012": {
+    "id": "VSC012",
+    "valueSet": "VS003",
+    "valueSetName": "Significance",
+    "code": "LA6682-4",
+    "codeSystem": "LN",
+    "qualifiedCode": "LN:LA6682-4",
+    "text": "Uncertain Signficance",
+    "authority": "Regenstrief Institute"
+  },
+  "VSC013": {
+    "id": "VSC013",
+    "valueSet": "VS003",
+    "valueSetName": "Significance",
+    "code": "LA6674-1",
+    "codeSystem": "LN",
+    "qualifiedCode": "LN:LA6674-1",
+    "text": "Likely Benign",
+    "authority": "Regenstrief Institute"
+  },
+  "VSC014": {
+    "id": "VSC014",
+    "valueSet": "VS003",
+    "valueSetName": "Significance",
+    "code": "LA6675-8",
+    "codeSystem": "LN",
+    "qualifiedCode": "LN:LA6675-8",
+    "text": "Benign",
+    "authority": "Regenstrief Institute"
+  },
+  "VSC015": {
+    "id": "VSC015",
+    "valueSet": "VS004",
+    "valueSetName": "RegionAnnotationType",
+    "code": "repeat",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:repeat",
+    "text": "Repeat",
+    "authority": "ClinGen"
+  },
+  "VSC016": {
+    "id": "VSC016",
+    "valueSet": "VS004",
+    "valueSetName": "RegionAnnotationType",
+    "code": "functional",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:functional",
+    "text": "Functional",
+    "authority": "ClinGen"
+  },
+  "VSC017": {
+    "id": "VSC017",
+    "valueSet": "VS004",
+    "valueSetName": "RegionAnnotationType",
+    "code": "hotspot",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:hotspot",
+    "text": "Mutational Hotspot",
+    "authority": "ClinGen"
+  },
+  "VSC018": {
+    "id": "VSC018",
+    "valueSet": "VS005",
+    "valueSetName": "Phase",
+    "code": "cis",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:cis",
+    "text": "in cis",
+    "authority": "ClinGen"
+  },
+  "VSC019": {
+    "id": "VSC019",
+    "valueSet": "VS005",
+    "valueSetName": "Phase",
+    "code": "trans",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:trans",
+    "text": "in trans",
+    "authority": "ClinGen"
+  },
+  "VSC020": {
+    "id": "VSC020",
+    "valueSet": "VS006",
+    "valueSetName": "AllelicState",
+    "code": "het",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:het",
+    "text": "heterozygous",
+    "authority": "ClinGen"
+  },
+  "VSC021": {
+    "id": "VSC021",
+    "valueSet": "VS006",
+    "valueSetName": "AllelicState",
+    "code": "hom",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:hom",
+    "text": "homozygous",
+    "authority": "ClinGen"
+  },
+  "VSC022": {
+    "id": "VSC022",
+    "valueSet": "VS007",
+    "valueSetName": "ModeOfInheritance",
+    "code": "0000007",
+    "codeSystem": "HP",
+    "qualifiedCode": "HP:0000007",
+    "text": "Autosomal Recessive",
+    "authority": "Human Phenotype Ontology"
+  },
+  "VSC023": {
+    "id": "VSC023",
+    "valueSet": "VS007",
+    "valueSetName": "ModeOfInheritance",
+    "code": "0000006",
+    "codeSystem": "HP",
+    "qualifiedCode": "HP:0000006",
+    "text": "Autosomal Dominant",
+    "authority": "Human Phenotype Ontology"
+  },
+  "VSC024": {
+    "id": "VSC024",
+    "valueSet": "VS007",
+    "valueSetName": "ModeOfInheritance",
+    "code": "0001423",
+    "codeSystem": "HP",
+    "qualifiedCode": "HP:0001423",
+    "text": "X-linked dominant inheritance",
+    "authority": "Human Phenotype Ontology"
+  },
+  "VSC025": {
+    "id": "VSC025",
+    "valueSet": "VS008",
+    "valueSetName": "ReferenceSequenceRelatedType",
+    "code": "0003000",
+    "codeSystem": "RO",
+    "qualifiedCode": "RO:0003000",
+    "text": "produces",
+    "authority": "OBO Relations Ontology"
+  },
+  "VSC026": {
+    "id": "VSC026",
+    "valueSet": "VS008",
+    "valueSetName": "ReferenceSequenceRelatedType",
+    "code": "0003001",
+    "codeSystem": "RO",
+    "qualifiedCode": "RO:0003001",
+    "text": "produced-by",
+    "authority": "OBO Relations Ontology"
+  },
+  "VSC027": {
+    "id": "VSC027",
+    "valueSet": "VS009",
+    "valueSetName": "Mechanism",
+    "code": "0002054",
+    "codeSystem": "SO",
+    "qualifiedCode": "SO:0002054",
+    "text": "loss of function variant",
+    "authority": "Sequence Ontology"
+  },
+  "VSC028": {
+    "id": "VSC028",
+    "valueSet": "VS009",
+    "valueSetName": "Mechanism",
+    "code": "0001583",
+    "codeSystem": "SO",
+    "qualifiedCode": "SO:0001583",
+    "text": "missense variant",
+    "authority": "Sequence Ontology"
+  },
+  "VSC029": {
+    "id": "VSC029",
+    "valueSet": "VS010",
+    "valueSetName": "PredictionType",
+    "code": "me",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:me",
+    "text": "missense effect",
+    "authority": "ClinGen"
+  },
+  "VSC030": {
+    "id": "VSC030",
+    "valueSet": "VS010",
+    "valueSetName": "PredictionType",
+    "code": "sp",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:sp",
+    "text": "splicing prediction",
+    "authority": "ClinGen"
+  },
+  "VSC031": {
+    "id": "VSC031",
+    "valueSet": "VS011",
+    "valueSetName": "AssessmentOutcome",
+    "code": "I",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:I",
+    "text": "Insufficient Evidence",
+    "authority": "ClinGen",
+    "description": "If assessor feels it should be reviewed again in the future."
+  },
+  "VSC032": {
+    "id": "VSC032",
+    "valueSet": "VS011",
+    "valueSetName": "AssessmentOutcome",
+    "code": "R",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:R",
+    "text": "Refuted",
+    "authority": "ClinGen",
+    "description": "If assessor feels its so strong that no one should ever look at it again."
+  },
+  "VSC033": {
+    "id": "VSC033",
+    "valueSet": "VS011",
+    "valueSetName": "AssessmentOutcome",
+    "code": "VS",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:VS",
+    "text": "Very Strong",
+    "authority": "ClinGen",
+    "description": "see ACMG guidelines"
+  },
+  "VSC034": {
+    "id": "VSC034",
+    "valueSet": "VS011",
+    "valueSetName": "AssessmentOutcome",
+    "code": "S",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:S",
+    "text": "Strong",
+    "authority": "ClinGen",
+    "description": "see ACMG guidelines"
+  },
+  "VSC035": {
+    "id": "VSC035",
+    "valueSet": "VS011",
+    "valueSetName": "AssessmentOutcome",
+    "code": "M",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:M",
+    "text": "Moderate",
+    "authority": "ClinGen",
+    "description": "see ACMG guidelines"
+  },
+  "VSC036": {
+    "id": "VSC036",
+    "valueSet": "VS011",
+    "valueSetName": "AssessmentOutcome",
+    "code": "P",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:P",
+    "text": "Supporting",
+    "authority": "ClinGen",
+    "description": "see ACMG guidelines"
+  },
+  "VSC037": {
+    "id": "VSC037",
+    "valueSet": "VS011",
+    "valueSetName": "AssessmentOutcome",
+    "code": "A",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:A",
+    "text": "Stand-Alone",
+    "authority": "ClinGen",
+    "description": "see ACMG guidelines"
+  },
+  "VSC038": {
+    "id": "VSC038",
+    "valueSet": "VS012",
+    "valueSetName": "FunctionalDataType",
+    "code": "binding",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:binding",
+    "text": "Binding assay?",
+    "authority": "ClinGen"
+  },
+  "VSC039": {
+    "id": "VSC039",
+    "valueSet": "VS012",
+    "valueSetName": "FunctionalDataType",
+    "code": "atpase",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:atpase",
+    "text": "ATPase assay?",
+    "authority": "ClinGen"
+  },
+  "VSC040": {
+    "id": "VSC040",
+    "valueSet": "VS012",
+    "valueSetName": "FunctionalDataType",
+    "code": "motility",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:motility",
+    "text": "motility assay?",
+    "authority": "ClinGen"
+  },
+  "VSC041": {
+    "id": "VSC041",
+    "valueSet": "VS012",
+    "valueSetName": "FunctionalDataType",
+    "code": "yeastcomp",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:yeastcomp",
+    "text": "Yeast complementation assay",
+    "authority": "ClinGen"
+  },
+  "VSC042": {
+    "id": "VSC042",
+    "valueSet": "VS012",
+    "valueSetName": "FunctionalDataType",
+    "code": "activation",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:activation",
+    "text": "Activation Assay",
+    "authority": "ClinGen"
+  },
+  "VSC043": {
+    "id": "VSC043",
+    "valueSet": "VS012",
+    "valueSetName": "FunctionalDataType",
+    "code": "iodeff",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:iodeff",
+    "text": "iodide efflux",
+    "authority": "ClinGen"
+  },
+  "VSC044": {
+    "id": "VSC044",
+    "valueSet": "VS012",
+    "valueSetName": "FunctionalDataType",
+    "code": "celloc",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:celloc",
+    "text": "cellular localization",
+    "authority": "ClinGen"
+  },
+  "VSC045": {
+    "id": "VSC045",
+    "valueSet": "VS012",
+    "valueSetName": "FunctionalDataType",
+    "code": "neuritegrowth",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:neuritegrowth",
+    "text": "neurite outgrowth",
+    "authority": "ClinGen"
+  },
+  "VSC046": {
+    "id": "VSC046",
+    "valueSet": "VS012",
+    "valueSetName": "FunctionalDataType",
+    "code": "elk1phosvialucif",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:elk1phosvialucif",
+    "text": "Elk1 pohsphorylation via luciferase assay",
+    "authority": "ClinGen"
+  },
+  "VSC047": {
+    "id": "VSC047",
+    "valueSet": "VS013",
+    "valueSetName": "PopulationType",
+    "code": "afr",
+    "codeSystem": "EX",
+    "qualifiedCode": "EX:afr",
+    "text": "African/African American",
+    "authority": "ExAC"
+  },
+  "VSC048": {
+    "id": "VSC048",
+    "valueSet": "VS013",
+    "valueSetName": "PopulationType",
+    "code": "amr",
+    "codeSystem": "EX",
+    "qualifiedCode": "EX:amr",
+    "text": "Latino",
+    "authority": "ExAC"
+  },
+  "VSC049": {
+    "id": "VSC049",
+    "valueSet": "VS013",
+    "valueSetName": "PopulationType",
+    "code": "eas",
+    "codeSystem": "EX",
+    "qualifiedCode": "EX:eas",
+    "text": "East Asian",
+    "authority": "ExAC"
+  },
+  "VSC050": {
+    "id": "VSC050",
+    "valueSet": "VS013",
+    "valueSetName": "PopulationType",
+    "code": "fin",
+    "codeSystem": "EX",
+    "qualifiedCode": "EX:fin",
+    "text": "Finnish",
+    "authority": "ExAC"
+  },
+  "VSC051": {
+    "id": "VSC051",
+    "valueSet": "VS013",
+    "valueSetName": "PopulationType",
+    "code": "nfe",
+    "codeSystem": "EX",
+    "qualifiedCode": "EX:nfe",
+    "text": "Non-Finnish European",
+    "authority": "ExAC"
+  },
+  "VSC052": {
+    "id": "VSC052",
+    "valueSet": "VS013",
+    "valueSetName": "PopulationType",
+    "code": "sas",
+    "codeSystem": "EX",
+    "qualifiedCode": "EX:sas",
+    "text": "South Asian",
+    "authority": "ExAC"
+  },
+  "VSC053": {
+    "id": "VSC053",
+    "valueSet": "VS013",
+    "valueSetName": "PopulationType",
+    "code": "oth",
+    "codeSystem": "EX",
+    "qualifiedCode": "EX:oth",
+    "text": "Other",
+    "authority": "ExAC"
+  },
+  "VSC054": {
+    "id": "VSC054",
+    "valueSet": "VS013",
+    "valueSetName": "PopulationType",
+    "code": "combined",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:combined",
+    "text": "Combined",
+    "authority": "ClinGen"
+  },
+  "VSC055": {
+    "id": "VSC055",
+    "valueSet": "VS013",
+    "valueSetName": "PopulationType",
+    "code": "overall",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:overall",
+    "text": "Overall",
+    "authority": "ClinGen"
+  },
+  "VSC056": {
+    "id": "VSC056",
+    "valueSet": "VS014",
+    "valueSetName": "BenignMissenseVariationRate",
+    "code": "low",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:low",
+    "text": "Low",
+    "authority": "ClinGen"
+  },
+  "VSC057": {
+    "id": "VSC057",
+    "valueSet": "VS014",
+    "valueSetName": "BenignMissenseVariationRate",
+    "code": "high",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:high",
+    "text": "High",
+    "authority": "ClinGen"
+  },
+  "VSC058": {
+    "id": "VSC058",
+    "valueSet": "VS015",
+    "valueSetName": "PenetranceType",
+    "code": "high",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:high",
+    "text": "High",
+    "authority": "ClinGen"
+  },
+  "VSC059": {
+    "id": "VSC059",
+    "valueSet": "VS015",
+    "valueSetName": "PenetranceType",
+    "code": "complete",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:complete",
+    "text": "Complete",
+    "authority": "ClinGen"
+  },
+  "VSC060": {
+    "id": "VSC060",
+    "valueSet": "VS015",
+    "valueSetName": "PenetranceType",
+    "code": "incomplete",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:incomplete",
+    "text": "Incomplete",
+    "authority": "ClinGen"
+  }
+}

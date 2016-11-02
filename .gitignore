@@ -21,3 +21,6 @@
 
 # Ignore gems installed in local directory
 /vendor/bundle/
+
+# Ignore downloaded docs (which are binary and versioned elsewhere)
+/docs

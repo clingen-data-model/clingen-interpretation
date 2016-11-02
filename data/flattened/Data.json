@@ -218,6 +218,13 @@
     "evidenceTypeId": "E42",
     "evidenceType": "RegionContainsAllele"
   },
+  "MenDisVarInterp042": {
+    "id": "MenDisVarInterp042",
+    "evidenceTypeId": "E15",
+    "explanation": "Uncertain Sig(not specified) NM_000363.4(TNNI3):c.484C>T (p.Arg162Trp)",
+    "wasGeneratedByActivityId": "CaptureEvXX",
+    "evidenceType": "MendelianDiseaseVariantPathogenicityInterpretation"
+  },
   "RegAnno043": {
     "id": "RegAnno043",
     "evidenceTypeId": "E24",
@@ -380,11 +387,13 @@
   "MenDisVarInterp078": {
     "id": "MenDisVarInterp078",
     "evidenceTypeId": "E15",
+    "wasGeneratedByActivityId": "CaptureEvXX",
     "evidenceType": "MendelianDiseaseVariantPathogenicityInterpretation"
   },
   "MenDisVarInterp079": {
     "id": "MenDisVarInterp079",
     "evidenceTypeId": "E15",
+    "wasGeneratedByActivityId": "CaptureEvXX",
     "evidenceType": "MendelianDiseaseVariantPathogenicityInterpretation"
   },
   "MenDisVarInterp080": {
@@ -1350,6 +1359,7 @@
   },
   "MenDisVarInterp270": {
     "id": "MenDisVarInterp270",
-    "evidenceTypeId": "E15"
+    "evidenceTypeId": "E15",
+    "explanation": "Pseudoachondroplastic spondyloepiphyseal dysplasia syndrome is caused by a combination of a pathogenic variant in COL2A1 and another in COMP.   So CA113 may be involved, but is not the sole cause."
   }
 }

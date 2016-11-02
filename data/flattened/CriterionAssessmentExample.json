@@ -16,7 +16,7 @@
     "author": "Agent001",
     "modeler": "Agent002",
     "exampleCriterionAssessmentId": "CritAssess002",
-    "description": "Variant: NM_031844.2(HNRNPU):c.2304_2305del (p.Gly769Glufs*83)\nVariant is frameshift which would be LOF however PVS1 is not applicable because:\na. LOF is not an established disease mechanism for HNRNPU\nb. Protein ends at p.826 and this frameshift would create stop at p.852 (769+83) thus NMD would not occur. Instead an elongated protein",
+    "description": "Variant: NM_000059.3(BRCA2):c.7762_7764delinsTT (p.I2588Ffs*60)\nPVS1 is applicable for this variant because\na. BRCA2 - LOF is an established disease mechanism for breast ovarian cancer\nb. LOF is predicted to occur as variant is >55bp from penultimate exon",
     "displayNum": "PVS1 - #2"
   },
   "Ex003": {
@@ -86,7 +86,7 @@
     "author": "Agent001",
     "modeler": "Agent002",
     "exampleCriterionAssessmentId": "CritAssess009",
-    "description": "Assessed variant: NM_000833 (GRIN2A):c.4375T>C (p.Ser1459Gly)\n \n(From CSER bakeoff) - as variant was identified via trio WES, group assumes paternity and maternity were confirmed and thus PS2 is applicable.\nProband affected with epilepsy with mental retardation - both parents unaffected",
+    "description": "Assessed variant: NM_000833.4 (GRIN2A):c.4375A>G (p.Ser1459Gly)\n \n(From CSER bakeoff) - as variant was identified via trio WES, group assumes paternity and maternity were confirmed and thus PS2 is applicable.\nProband affected with epilepsy with mental retardation - both parents unaffected",
     "displayNum": "PS2 - #3"
   },
   "Ex010": {
@@ -95,7 +95,7 @@
     "index": 1.0,
     "author": "Agent003",
     "exampleCriterionAssessmentId": "CritAssess010",
-    "description": "Assessed variant: NM_001001431(TNNT2):c.391C>T (p.Arg131Trp)\nPMID-17932326: the mutation lowered the Ca2+  affinity of the reconstituted thin filaments; PMID-15923195: reduced Ca2 sensitivity of activation in ATPase and motility assays; PMID-22675533: the mutation desensitized Ca2+ binding to the thin filament.\n\nCSER Bakeoff variant - There was some debate as to whether this rule should be applied or not - 2 sites invoked this rule and one called it weak",
+    "description": "Assessed variant: NM_001001431.2(TNNT2):c.391C>T (p.Arg131Trp)\nPMID-17932326: the mutation lowered the Ca2+  affinity of the reconstituted thin filaments; PMID-15923195: reduced Ca2 sensitivity of activation in ATPase and motility assays; PMID-22675533: the mutation desensitized Ca2+ binding to the thin filament.\n\nCSER Bakeoff variant - There was some debate as to whether this rule should be applied or not - 2 sites invoked this rule and one called it weak",
     "displayNum": "PS3 - #1"
   },
   "Ex011": {
@@ -104,7 +104,7 @@
     "index": 2.0,
     "author": "Agent003",
     "exampleCriterionAssessmentId": "CritAssess011",
-    "description": "Assessed variant: NM_003119.23 (SPG7):c.1529C>T (p.Ala510Val)\nPMID:20186691- yeast complementation assay \n\nCSER Bakeoff variant - Some sites invoked this rule and others did not → one group bumped this evidence to Moderate",
+    "description": "Assessed variant: NM_003119.2 (SPG7):c.1529C>T (p.Ala510Val)\nPMID:20186691- yeast complementation assay \n\nCSER Bakeoff variant - Some sites invoked this rule and others did not → one group bumped this evidence to Moderate",
     "displayNum": "PS3 - #2"
   },
   "Ex012": {
@@ -501,7 +501,7 @@
     "index": 1.0,
     "author": "Agent001",
     "exampleCriterionAssessmentId": "CritAssess055",
-    "description": "Variant: NM_001197104(KMT2A):c.6572G>A(p.R2191Q)\n\nKMT2A is associated with Wiedemann-Steiner syndrome which is a dominant disorder \nAccording to Baylor internal data on this variant, it has been observed multiple times in asymptomatic parents internally and in controls and observed once as a homozygotes internally in unaffected",
+    "description": "Variant: NM_001197104.1(KMT2A):c.6572G>A(p.R2191Q)\n\nKMT2A is associated with Wiedemann-Steiner syndrome which is a dominant disorder \nAccording to Baylor internal data on this variant, it has been observed multiple times in asymptomatic parents internally and in controls and observed once as a homozygotes internally in unaffected",
     "displayNum": "BS2 - #1"
   },
   "Ex056": {
@@ -555,7 +555,7 @@
     "index": 1.0,
     "author": "Agent001",
     "exampleCriterionAssessmentId": "CritAssess061",
-    "description": "NM_00527.4(LDLR):c.313+2T>C\n\nPMID:26036859\n\nVariant 313+2T>C was observed in one case diagnosed with Familial Hypercholesterolemia, characterized by elevated LDLC levels. Two additional family members also have elevated LDLC levels but neither carry the 313+2T>C variant.\n\nBS4 would be applicable for this variant",
+    "description": "NM_000527.4(LDLR):c.313+2T>C\n\nPMID:26036859\n\nVariant 313+2T>C was observed in one case diagnosed with Familial Hypercholesterolemia, characterized by elevated LDLC levels. Two additional family members also have elevated LDLC levels but neither carry the 313+2T>C variant.\n\nBS4 would be applicable for this variant",
     "displayNum": "BS4 - #1"
   },
   "Ex062": {
@@ -609,7 +609,7 @@
     "index": 3.0,
     "author": "Agent008",
     "exampleCriterionAssessmentId": "CritAssess067",
-    "description": "NM_1333378.4(TTN): c.2926T>C (p.Trp976Arg) Example where rule does not apply.\n\nTruncating variants in TTN are associated with DCM. However, if missense variants are located in the A-band, impact the A-band, or are in a highly expressed region, they can also be associated with DCM. This variant is pathogenic for DCM. (It also segregates with disease in patients).\n\nSource for TTN truncations/the A-band rule: PMID 22335739",
+    "description": "NM_133378.4(TTN): c.2926T>C (p.Trp976Arg) Example where rule does not apply.\n\nTruncating variants in TTN are associated with DCM. However, if missense variants are located in the A-band, impact the A-band, or are in a highly expressed region, they can also be associated with DCM. This variant is pathogenic for DCM. (It also segregates with disease in patients).\n\nSource for TTN truncations/the A-band rule: PMID 22335739",
     "displayNum": "BP1 - #3"
   },
   "Ex068": {
@@ -732,7 +732,7 @@
     "Criterion": "BP6",
     "index": 1.0,
     "exampleCriterionAssessmentId": "CritAssess081",
-    "description": "Variant: NM_007294.3(BRCA1):c.6207C>T\n\nPathogenic variants in BRCA1 are associated with hereditary breast and ovarian cancer. This variant is classified as benign by ENIGMA (Evidence-based Network for the Interpretation of Germline Mutant Alleles), which is a ClinVar expert panel. Many labs are using the classifications of ClinGen expert panels for their variant interpretations, so BP6 is met.\n(SCV000244500.1)\nhttp://www.ncbi.nlm.nih.gov/clinvar/variation/209219/",
+    "description": "Variant: NM_007294.3(BRCA1):c.*6207C>T\n\nPathogenic variants in BRCA1 are associated with hereditary breast and ovarian cancer. This variant is classified as benign by ENIGMA (Evidence-based Network for the Interpretation of Germline Mutant Alleles), which is a ClinVar expert panel. Many labs are using the classifications of ClinGen expert panels for their variant interpretations, so BP6 is met.\n(SCV000244500.1)\nhttp://www.ncbi.nlm.nih.gov/clinvar/variation/209219/",
     "displayNum": "BP6 - #1"
   },
   "Ex082": {

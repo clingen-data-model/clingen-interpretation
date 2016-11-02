@@ -1,68 +1,62 @@
 {
-  "Source001": {
-    "id": "Source001",
-    "evidenceSourceType": "literature",
+  "DataSrc001": {
+    "id": "DataSrc001",
+    "evidenceSourceType": "CG:lit",
     "externalIdentifier": "PMID:23633196",
     "linkedIRI": "http://www.ncbi.nlm.nih.gov/pubmed/23633196"
   },
-  "Source002": {
-    "id": "Source002",
-    "evidenceSourceType": "literature",
+  "DataSrc002": {
+    "id": "DataSrc002",
+    "evidenceSourceType": "CG:lit",
     "externalIdentifier": "PMID:17081393",
     "linkedIRI": "http://www.ncbi.nlm.nih.gov/pubmed/17081393"
   },
-  "Source003": {
-    "id": "Source003",
-    "evidenceSourceType": "database",
+  "DataSrc003": {
+    "id": "DataSrc003",
+    "evidenceSourceType": "CG:db",
     "externalIdentifier": "LMM-VARIANT:NM_000256.3(MYBPC3)c.1351+1G>A",
     "Notes": "For private sources - some registered oid would be highly recommended."
   },
-  "Source004": {
-    "id": "Source004",
-    "evidenceSourceType": "database",
+  "DataSrc004": {
+    "id": "DataSrc004",
+    "evidenceSourceType": "CG:db",
     "externalIdentifier": "OMIM:244400",
     "linkedIRI": "http://omim.org/entry/244400",
     "version": "alopez : 09/15/2016"
   },
-  "Source005": {
-    "id": "Source005",
-    "evidenceSourceType": "database",
+  "DataSrc005": {
+    "id": "DataSrc005",
+    "evidenceSourceType": "CG:db",
     "externalIdentifier": "LMM-CASE:CSER-SUBJECT-123"
   },
-  "Source006": {
-    "id": "Source006",
-    "evidenceSourceType": "database",
+  "DataSrc006": {
+    "id": "DataSrc006",
+    "evidenceSourceType": "CG:db",
     "externalIdentifier": "CLINVAR:SCV000205842.3",
     "linkedIRI": "https://www.ncbi.nlm.nih.gov/clinvar/SCV000205842.3"
   },
-  "Source007": {
-    "id": "Source007",
-    "evidenceSourceType": "application",
+  "DataSrc007": {
+    "id": "DataSrc007",
+    "evidenceSourceType": "CG:app",
     "externalIdentifier": "LMM:GENEINSIGHT-LAB v5.3.2",
     "linkedIRI": "https://geneinsight-lmm-test.partners.org"
   },
-  "Source008": {
-    "id": "Source008",
-    "evidenceSourceType": "application",
+  "DataSrc008": {
+    "id": "DataSrc008",
+    "evidenceSourceType": "CG:app",
     "externalIdentifier": "LMM:ALAMUT-PROD v123",
     "linkedIRI": "https://pcpgm.partners.org/lmm"
   },
-  "Source009": {
-    "id": "Source009",
-    "evidenceSourceType": "database",
+  "DataSrc009": {
+    "id": "DataSrc009",
+    "evidenceSourceType": "CG:db",
     "externalIdentifier": "EXAC v0.2",
     "linkedIRI": "ftp://ftp.broadinstitute.org/pub/ExAC_release/release0.2/"
   },
-  "Source010": {
-    "id": "Source010"
-  },
-  "Source011": {
-    "id": "Source011"
-  },
-  "Source012": {
-    "id": "Source012"
-  },
-  "Source013": {
-    "id": "Source013"
+  "DataSrc010": {
+    "id": "DataSrc010",
+    "evidenceSourceType": "CG:lit",
+    "externalIdentifier": "PMID:12698559",
+    "linkedIRI": "https://www.ncbi.nlm.nih.gov/pubmed/12698559"
   }
 }

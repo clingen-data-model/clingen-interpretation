@@ -1,9 +1,9 @@
 {
   "E01": {
     "id": "E01",
-    "name": "EvidenceData",
+    "name": "Data",
     "parentEntityTypeId": "E52",
-    "link": "EvData",
+    "link": "Data",
     "description": "The structured supporting data that can be used to assess criterion in the context of a given interpretation guideline.",
     "groupName": "#N/A"
   },
@@ -12,23 +12,25 @@
     "name": "MolecularConsequence",
     "parentEntityTypeId": "E01",
     "link": "MolCon",
-    "description": "The molecular consequence is ...",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>MolecularConsequence"
+    "groupName": "Data>MolecularConsequence"
   },
   "E03": {
     "id": "E03",
     "name": "ConditionMechanism",
     "parentEntityTypeId": "E01",
     "link": "CondMech",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>ConditionMechanism"
+    "groupName": "Data>ConditionMechanism"
   },
   "E04": {
     "id": "E04",
     "name": "Criterion",
     "parentEntityTypeId": "E52",
     "link": "Crit",
+    "description": "*TODO* short description needed",
     "group": "Grp007",
     "groupName": "Guidelines>Criterion"
   },
@@ -37,6 +39,7 @@
     "name": "CanonicalAllele",
     "parentEntityTypeId": "E52",
     "link": "CanAll",
+    "description": "*TODO* short description needed",
     "group": "Grp009",
     "groupName": "Core Concepts>CanonicalAllele"
   },
@@ -45,6 +48,7 @@
     "name": "ContextualAllele",
     "parentEntityTypeId": "E52",
     "link": "CtxAll",
+    "description": "*TODO* short description needed",
     "group": "Grp009",
     "groupName": "Core Concepts>ContextualAllele"
   },
@@ -53,20 +57,25 @@
     "name": "Gene",
     "parentEntityTypeId": "E52",
     "link": "G",
+    "description": "*TODO* short description needed",
     "group": "Grp009",
     "groupName": "Core Concepts>Gene"
   },
   "E08": {
     "id": "E08",
-    "name": "EvidenceDataAttribute",
-    "link": "EDA",
-    "groupName": "#N/A"
+    "name": "Other",
+    "parentEntityTypeId": "E01",
+    "link": "Oth",
+    "description": "*TODO* short description needed",
+    "group": "Grp008",
+    "groupName": "Data>Other"
   },
   "E09": {
     "id": "E09",
     "name": "CriterionAssessment",
     "parentEntityTypeId": "E52",
     "link": "CritAssess",
+    "description": "*TODO* short description needed",
     "group": "Grp005",
     "groupName": "Entities>CriterionAssessment"
   },
@@ -84,6 +93,7 @@
     "parentEntityTypeId": "E10",
     "link": "AssessCrit",
     "imageFile": "assess_criterion.svg",
+    "description": "*TODO* short description needed",
     "group": "Grp004",
     "groupName": "Activities>AssessCriterion"
   },
@@ -99,6 +109,7 @@
     "id": "E13",
     "name": "Example",
     "link": "Ex",
+    "description": "*TODO* short description needed",
     "groupName": "#N/A"
   },
   "E14": {
@@ -106,6 +117,7 @@
     "name": "Condition",
     "parentEntityTypeId": "E52",
     "link": "Cond",
+    "description": "*TODO* short description needed",
     "group": "Grp009",
     "groupName": "Core Concepts>Condition"
   },
@@ -114,13 +126,15 @@
     "name": "MendelianDiseaseVariantPathogenicityInterpretation",
     "parentEntityTypeId": "E01",
     "link": "MenDisVarInterp",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>MendelianDiseaseVariantPathogenicityInterpretation"
+    "groupName": "Data>MendelianDiseaseVariantPathogenicityInterpretation"
   },
   "E16": {
     "id": "E16",
     "name": "Individual",
     "link": "Indiv",
+    "description": "*TODO* short description needed",
     "group": " ",
     "groupName": "#N/A"
   },
@@ -129,75 +143,85 @@
     "name": "IndividualCondition",
     "parentEntityTypeId": "E01",
     "link": "IndCond",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>IndividualCondition"
+    "groupName": "Data>IndividualCondition"
   },
   "E18": {
     "id": "E18",
     "name": "FamilyHistory",
     "parentEntityTypeId": "E01",
     "link": "FamHist",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>FamilyHistory"
+    "groupName": "Data>FamilyHistory"
   },
   "E19": {
     "id": "E19",
     "name": "DeNovoAllele",
     "parentEntityTypeId": "E01",
     "link": "DeNovo",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>DeNovoAllele"
+    "groupName": "Data>DeNovoAllele"
   },
   "E20": {
     "id": "E20",
     "name": "FunctionalData",
     "parentEntityTypeId": "E01",
     "link": "Func",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>FunctionalData"
+    "groupName": "Data>FunctionalData"
   },
   "E21": {
     "id": "E21",
     "name": "CaseControl",
     "parentEntityTypeId": "E01",
     "link": "CaseCtrl",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>CaseControl"
+    "groupName": "Data>CaseControl"
   },
   "E22": {
     "id": "E22",
     "name": "GroupAlleleFrequency",
     "parentEntityTypeId": "E01",
     "link": "GAF",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>GroupAlleleFrequency"
+    "groupName": "Data>GroupAlleleFrequency"
   },
   "E23": {
     "id": "E23",
     "name": "PopulationAlleleFrequency",
     "parentEntityTypeId": "E01",
     "link": "PAF",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>PopulationAlleleFrequency"
+    "groupName": "Data>PopulationAlleleFrequency"
   },
   "E24": {
     "id": "E24",
     "name": "RegionAnnotation",
     "parentEntityTypeId": "E01",
     "link": "RegAnno",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>RegionAnnotation"
+    "groupName": "Data>RegionAnnotation"
   },
   "E25": {
     "id": "E25",
     "name": "ContextualRegion",
     "link": "CtxReg",
+    "description": "*TODO* short description needed",
     "groupName": "#N/A"
   },
   "E26": {
     "id": "E26",
     "name": "ReferenceSequence",
     "link": "RefSeq",
+    "description": "*TODO* short description needed",
     "group": "Grp009",
     "groupName": "Core Concepts>ReferenceSequence"
   },
@@ -206,25 +230,28 @@
     "name": "ConditionInheritance",
     "parentEntityTypeId": "E01",
     "link": "CondInh",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>ConditionInheritance"
+    "groupName": "Data>ConditionInheritance"
   },
   "E28": {
     "id": "E28",
     "name": "IndividualAllele",
     "parentEntityTypeId": "E01",
     "link": "IndAll",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>IndividualAllele"
+    "groupName": "Data>IndividualAllele"
   },
   "E29": {
     "id": "E29",
-    "name": "CaptureEvidenceData",
+    "name": "CaptureData",
     "parentEntityTypeId": "E10",
-    "link": "CaptureEv",
+    "link": "CapData",
     "imageFile": "capture_evidence_data.svg",
+    "description": "*TODO* A short description about capture evidence activity.",
     "group": "Grp004",
-    "groupName": "Activities>CaptureEvidenceData"
+    "groupName": "Activities>CaptureData"
   },
   "E30": {
     "id": "E30",
@@ -232,6 +259,7 @@
     "parentEntityTypeId": "E10",
     "link": "GenVarInterp",
     "imageFile": "generate_variant_interpretation.svg",
+    "description": "*TODO* A short description about generate variant interpretation activity.",
     "group": "Grp004",
     "groupName": "Activities>GenerateVariantInterpretation"
   },
@@ -241,6 +269,7 @@
     "parentEntityTypeId": "E10",
     "link": "PubVarInterp",
     "imageFile": "publish_variant_interpretation.svg",
+    "description": "*TODO* A short description about publish variant interpretation activity.",
     "group": "Grp004",
     "groupName": "Activities>PublishVariantInterpretation"
   },
@@ -248,6 +277,7 @@
     "id": "E32",
     "name": "Guideline",
     "link": "Guide",
+    "description": "*TODO* short description needed",
     "group": "Grp007",
     "groupName": "Guidelines>Guideline"
   },
@@ -255,33 +285,38 @@
     "id": "E33",
     "name": "GuidelineAlgorithm",
     "link": "GuideAlg",
+    "description": "*TODO* short description needed",
     "group": "Grp007",
     "groupName": "Guidelines>GuidelineAlgorithm"
   },
   "E34": {
     "id": "E34",
-    "name": "EvidenceDataAttribute",
-    "link": "EDA",
+    "name": "DataAttribute",
+    "link": "DataAttr",
+    "description": "*TODO* short description needed",
     "groupName": "#N/A"
   },
   "E35": {
     "id": "E35",
     "name": "VariantInterpretation",
     "link": "VarInterp",
+    "description": "*TODO* short description needed",
     "group": "Grp005",
     "groupName": "Entities>VariantInterpretation"
   },
   "E36": {
     "id": "E36",
-    "name": "EvidenceDataSource",
-    "link": "Source",
+    "name": "DataSource",
+    "link": "DataSrc",
+    "description": "*TODO* short description needed",
     "group": "Grp005",
-    "groupName": "Entities>EvidenceDataSource"
+    "groupName": "Entities>DataSource"
   },
   "E37": {
     "id": "E37",
     "name": "PublicationStatus",
     "link": "PubStat",
+    "description": "*TODO* short description needed",
     "group": "Grp005",
     "groupName": "Entities>PublicationStatus"
   },
@@ -290,6 +325,7 @@
     "name": "Capturer",
     "parentEntityTypeId": "E12",
     "link": "Capturer",
+    "description": "*TODO* short description needed",
     "group": "Grp006",
     "groupName": "Agents>Capturer"
   },
@@ -298,6 +334,7 @@
     "name": "Assessor",
     "parentEntityTypeId": "E12",
     "link": "Assessor",
+    "description": "*TODO* short description needed",
     "group": "Grp006",
     "groupName": "Agents>Assessor"
   },
@@ -306,6 +343,7 @@
     "name": "Generator",
     "parentEntityTypeId": "E12",
     "link": "Generator",
+    "description": "*TODO* short description needed",
     "group": "Grp006",
     "groupName": "Agents>Generator"
   },
@@ -314,6 +352,7 @@
     "name": "Publisher",
     "parentEntityTypeId": "E12",
     "link": "Publisher",
+    "description": "*TODO* short description needed",
     "group": "Grp006",
     "groupName": "Agents>Publisher"
   },
@@ -322,21 +361,24 @@
     "name": "RegionContainsAllele",
     "parentEntityTypeId": "E01",
     "link": "RegAll",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>RegionContainsAllele"
+    "groupName": "Data>RegionContainsAllele"
   },
   "E43": {
     "id": "E43",
     "name": "BenignMissenseVariationRate",
     "parentEntityTypeId": "E01",
     "link": "BMVR",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>BenignMissenseVariationRate"
+    "groupName": "Data>BenignMissenseVariationRate"
   },
   "E44": {
     "id": "E44",
     "name": "Family",
-    "link": "F",
+    "link": "Fam",
+    "description": "*TODO* short description needed",
     "groupName": "#N/A"
   },
   "E45": {
@@ -344,56 +386,63 @@
     "name": "FamilySegregationData",
     "parentEntityTypeId": "E01",
     "link": "FamSegData",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>FamilySegregationData"
+    "groupName": "Data>FamilySegregationData"
   },
   "E46": {
     "id": "E46",
     "name": "AggregationSegregationData",
     "parentEntityTypeId": "E01",
     "link": "AggSegData",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>AggregationSegregationData"
+    "groupName": "Data>AggregationSegregationData"
   },
   "E47": {
     "id": "E47",
     "name": "InSilicoPrediction",
     "parentEntityTypeId": "E01",
     "link": "InSilicoPred",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>InSilicoPrediction"
+    "groupName": "Data>InSilicoPrediction"
   },
   "E48": {
     "id": "E48",
     "name": "ConditionEtiology",
     "parentEntityTypeId": "E01",
     "link": "CondEtiol",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>ConditionEtiology"
+    "groupName": "Data>ConditionEtiology"
   },
   "E49": {
     "id": "E49",
     "name": "ConditionPrevelance",
     "parentEntityTypeId": "E01",
     "link": "CondPrev",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>ConditionPrevelance"
+    "groupName": "Data>ConditionPrevelance"
   },
   "E50": {
     "id": "E50",
     "name": "ConditionPenetrance",
     "parentEntityTypeId": "E01",
     "link": "CondPenet",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>ConditionPenetrance"
+    "groupName": "Data>ConditionPenetrance"
   },
   "E51": {
     "id": "E51",
     "name": "Conservation",
     "parentEntityTypeId": "E01",
     "link": "Conserv",
+    "description": "*TODO* short description needed",
     "group": "Grp008",
-    "groupName": "Evidence Data>Conservation"
+    "groupName": "Data>Conservation"
   },
   "E52": {
     "id": "E52",
@@ -407,14 +456,20 @@
     "id": "E53",
     "name": "Group",
     "link": "Grp",
+    "description": "*TODO* short description needed",
     "groupName": "#N/A"
   },
   "E54": {
     "id": "E54",
-    "name": "Other",
-    "parentEntityTypeId": "E01",
-    "link": "Other",
-    "group": "Grp008",
-    "groupName": "Evidence Data>Other"
+    "name": "ValueSet",
+    "link": "VS",
+    "description": "*TODO* short description needed",
+    "group": "Grp010"
+  },
+  "E55": {
+    "id": "E55",
+    "name": "ValueSetConcept",
+    "link": "VSC",
+    "description": "*TODO* short description needed"
   }
 }
