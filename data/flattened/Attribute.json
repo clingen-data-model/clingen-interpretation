@@ -1331,6 +1331,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "The rule describing how the data is being used",
     "fullyQualifiedName": "CriterionAssessment.criterion"
   },
   "A116": {
@@ -1343,6 +1344,7 @@
     "valueSetId": "VS011",
     "valueSetName": "AssessmentOutcome",
     "precedence": 4.0,
+    "description": "Result of assessing the data and criterion",
     "fullyQualifiedName": "CriterionAssessment.outcome"
   },
   "A117": {
@@ -1350,10 +1352,11 @@
     "entityId": "E09",
     "name": "variant",
     "dataType": "CanonicalAllele",
-    "cardinality": "0..1",
+    "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 2.0,
+    "description": "Variant about which the assemssment is made",
     "fullyQualifiedName": "CriterionAssessment.variant"
   },
   "A118": {
@@ -1365,6 +1368,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 3.0,
+    "description": "Condition for which the assessment is made",
     "fullyQualifiedName": "CriterionAssessment.condition"
   },
   "A119": {
@@ -1399,6 +1403,7 @@
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
+    "precedence": 1.0,
     "description": "The variant whose pathogenicity is being described",
     "fullyQualifiedName": "VariantInterpretation.variant"
   },
@@ -1410,6 +1415,7 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
+    "precedence": 2.0,
     "description": "The condition for which the variant's pathogenicity is described",
     "fullyQualifiedName": "VariantInterpretation.condition"
   },
@@ -1422,19 +1428,21 @@
     "defaultValue": "null",
     "valueSetId": "VS003",
     "valueSetName": "Significance",
+    "precedence": 3.0,
     "description": "The coded pathogenicity of the variant for the condition",
     "fullyQualifiedName": "VariantInterpretation.interpretationCode"
   },
   "A124": {
     "id": "A124",
     "entityId": "E35",
-    "name": "criteriaSet",
-    "dataType": "CriteriaSet",
+    "name": "guideline",
+    "dataType": "Guideline",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
+    "precedence": 4.0,
     "description": "The formal guideline that defines the methodology used in creating this interpretation.",
-    "fullyQualifiedName": "VariantInterpretation.criteriaSet"
+    "fullyQualifiedName": "VariantInterpretation.guideline"
   },
   "A125": {
     "id": "A125",
@@ -1444,6 +1452,7 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
+    "precedence": 5.0,
     "description": "A previous interpretation from which the current interpretation was derived",
     "fullyQualifiedName": "VariantInterpretation.wasDerivedFrom"
   },
@@ -1454,7 +1463,10 @@
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
-    "description": "The number of non-proband family members that have neither the allele nor the phenotype"
+    "valueSetName": "",
+    "precedence": 1.0,
+    "description": "The number of non-proband family members that have neither the allele nor the phenotype",
+    "fullyQualifiedName": "FamilySegregationData.phenotypeNegativeAlleleNegative"
   },
   "A127": {
     "id": "A127",
@@ -1462,6 +1474,339 @@
     "name": "interpretationText",
     "dataType": "String",
     "cardinality": "0..1",
-    "defaultValue": "null"
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 6.0,
+    "description": "A human-readable description of the reasoning behind the interpretation",
+    "fullyQualifiedName": "VariantInterpretation.interpretationText"
+  },
+  "A128": {
+    "id": "A128",
+    "entityId": "E36",
+    "name": "dataSourceType",
+    "dataType": "CodableConcept",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "valueSetId": "VS001",
+    "valueSetName": "DataSourceType",
+    "precedence": 1.0,
+    "fullyQualifiedName": "DataSource.dataSourceType"
+  },
+  "A129": {
+    "id": "A129",
+    "entityId": "E36",
+    "name": "externalIdentifier",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 2.0,
+    "fullyQualifiedName": "DataSource.externalIdentifier"
+  },
+  "A130": {
+    "id": "A130",
+    "entityId": "E36",
+    "name": "linkedIRI",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 3.0,
+    "fullyQualifiedName": "DataSource.linkedIRI"
+  },
+  "A131": {
+    "id": "A131",
+    "entityId": "E36",
+    "name": "version",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 4.0,
+    "fullyQualifiedName": "DataSource.version"
+  },
+  "A132": {
+    "id": "A132",
+    "entityId": "E10",
+    "name": "activityEntityId",
+    "dataType": "Entity",
+    "cardinality": "1..1",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "fullyQualifiedName": "Activity.activityEntityId"
+  },
+  "A133": {
+    "id": "A133",
+    "entityId": "E10",
+    "name": "when",
+    "dataType": "Date",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 2.0,
+    "fullyQualifiedName": "Activity.when"
+  },
+  "A134": {
+    "id": "A134",
+    "entityId": "E10",
+    "name": "wasAssociatedWith",
+    "dataType": "Agent",
+    "cardinality": "0..*",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 3.0,
+    "fullyQualifiedName": "Activity.wasAssociatedWith"
+  },
+  "A135": {
+    "id": "A135",
+    "entityId": "E05",
+    "name": "preferredCtxAllele",
+    "dataType": "ContextualAllele",
+    "cardinality": "1..1",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "fullyQualifiedName": "CanonicalAllele.preferredCtxAllele"
+  },
+  "A136": {
+    "id": "A136",
+    "entityId": "E05",
+    "name": "identifier",
+    "dataType": "String",
+    "cardinality": "1..1",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 2.0,
+    "fullyQualifiedName": "CanonicalAllele.identifier"
+  },
+  "A137": {
+    "id": "A137",
+    "entityId": "E06",
+    "name": "relatedCanonicalAllele",
+    "dataType": "CanonicalAllele",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "fullyQualifiedName": "ContextualAllele.relatedCanonicalAllele"
+  },
+  "A138": {
+    "id": "A138",
+    "entityId": "E06",
+    "name": "alleleName",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 2.0,
+    "fullyQualifiedName": "ContextualAllele.alleleName"
+  },
+  "A139": {
+    "id": "A139",
+    "entityId": "E06",
+    "name": "legacyNames",
+    "dataType": "String",
+    "cardinality": "0..*",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 3.0,
+    "fullyQualifiedName": "ContextualAllele.legacyNames"
+  },
+  "A140": {
+    "id": "A140",
+    "entityId": "E07",
+    "name": "symbol",
+    "dataType": "String",
+    "cardinality": "1..1",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "fullyQualifiedName": "Gene.symbol"
+  },
+  "A141": {
+    "id": "A141",
+    "entityId": "E25",
+    "name": "referenceSequence",
+    "dataType": "ReferenceSequence",
+    "cardinality": "1..1",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "fullyQualifiedName": "ContextualRegion.referenceSequence"
+  },
+  "A142": {
+    "id": "A142",
+    "entityId": "E25",
+    "name": "start",
+    "dataType": "int",
+    "cardinality": "0..1",
+    "valueSetName": "",
+    "precedence": 2.0,
+    "fullyQualifiedName": "ContextualRegion.start"
+  },
+  "A143": {
+    "id": "A143",
+    "entityId": "E25",
+    "name": "stop",
+    "dataType": "int",
+    "cardinality": "0..1",
+    "valueSetName": "",
+    "precedence": 3.0,
+    "fullyQualifiedName": "ContextualRegion.stop"
+  },
+  "A144": {
+    "id": "A144",
+    "entityId": "E26",
+    "name": "identifier",
+    "dataType": "String",
+    "cardinality": "1..1",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "fullyQualifiedName": "ReferenceSequence.identifier"
+  },
+  "A145": {
+    "id": "A145",
+    "entityId": "E16",
+    "name": "description",
+    "dataType": "String",
+    "cardinality": "1..1",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "fullyQualifiedName": "Individual.description"
+  },
+  "A146": {
+    "id": "A146",
+    "entityId": "E44",
+    "name": "label",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "fullyQualifiedName": "Family.label"
+  },
+  "A147": {
+    "id": "A147",
+    "entityId": "E44",
+    "name": "description",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "valueSetName": "",
+    "precedence": 2.0,
+    "fullyQualifiedName": "Family.description"
+  },
+  "A148": {
+    "id": "A148",
+    "entityId": "E12",
+    "name": "description",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "fullyQualifiedName": "Agent.description"
+  },
+  "A149": {
+    "id": "A149",
+    "entityId": "E12",
+    "name": "name",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "valueSetName": "",
+    "precedence": 2.0,
+    "fullyQualifiedName": "Agent.name"
+  },
+  "A150": {
+    "id": "A150",
+    "entityId": "E04",
+    "name": "description",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "fullyQualifiedName": "Criterion.description"
+  },
+  "A151": {
+    "id": "A151",
+    "entityId": "E04",
+    "name": "shortDescription",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "valueSetName": "",
+    "precedence": 2.0,
+    "fullyQualifiedName": "Criterion.shortDescription"
+  },
+  "A152": {
+    "id": "A152",
+    "entityId": "E04",
+    "name": "guideline",
+    "dataType": "Guideline",
+    "cardinality": "0..1",
+    "valueSetName": "",
+    "precedence": 3.0,
+    "fullyQualifiedName": "Criterion.guideline"
+  },
+  "A153": {
+    "id": "A153",
+    "entityId": "E04",
+    "name": "defaultOutcome",
+    "dataType": "CodeableConcept",
+    "cardinality": "0..1",
+    "valueSetId": "VS011",
+    "valueSetName": "AssessmentOutcome",
+    "precedence": 4.0,
+    "fullyQualifiedName": "Criterion.defaultOutcome"
+  },
+  "A154": {
+    "id": "A154",
+    "entityId": "E04",
+    "name": "targetInterpretation",
+    "dataType": "CodeableConcept",
+    "cardinality": "0..1",
+    "valueSetId": "VS003",
+    "valueSetName": "Significance",
+    "precedence": 5.0,
+    "fullyQualifiedName": "Criterion.targetInterpretation"
+  },
+  "A155": {
+    "id": "A155",
+    "entityId": "E32",
+    "name": "description",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "fullyQualifiedName": "Guideline.description"
+  },
+  "A156": {
+    "id": "A156",
+    "entityId": "E32",
+    "name": "url",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "valueSetName": "",
+    "precedence": 2.0,
+    "fullyQualifiedName": "Guideline.url"
+  },
+  "A157": {
+    "id": "A157",
+    "entityId": "E14",
+    "name": "name",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "fullyQualifiedName": "Condition.name"
+  },
+  "A158": {
+    "id": "A158",
+    "entityId": "E14",
+    "name": "code",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "fullyQualifiedName": "Condition.code"
+  },
+  "A159": {
+    "id": "A159",
+    "entityId": "E14",
+    "name": "monarchCode",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "fullyQualifiedName": "Condition.monarchCode"
   }
 }
