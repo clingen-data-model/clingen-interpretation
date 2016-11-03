@@ -565,7 +565,6 @@
   "FamSegData111": {
     "id": "FamSegData111",
     "evidenceTypeId": "E45",
-    "explanation": "variant was found in patient with breast ovarian cancer. Variant was also found in one relative also affected with breast ovarian cancer. Relationship to the proband unknown.",
     "evidenceType": "FamilySegregationData"
   },
   "CondInh112": {
@@ -1361,5 +1360,9 @@
     "id": "MenDisVarInterp270",
     "evidenceTypeId": "E15",
     "explanation": "Pseudoachondroplastic spondyloepiphyseal dysplasia syndrome is caused by a combination of a pathogenic variant in COL2A1 and another in COMP.   So CA113 may be involved, but is not the sole cause."
+  },
+  "FamSegData271": {
+    "id": "FamSegData271",
+    "evidenceTypeId": "E45"
   }
 }

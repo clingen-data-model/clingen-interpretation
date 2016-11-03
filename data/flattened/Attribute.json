@@ -599,6 +599,14 @@
     "description": "Upper bound of the confidence interval for the odds ratio",
     "fullyQualifiedName": "CaseControl.confidenceIntervalUpper"
   },
+  "A050": {
+    "id": "A050",
+    "entityId": "E45",
+    "name": "phenotypePositiveAlleleNegative",
+    "dataType": "int",
+    "cardinality": "0..1",
+    "defaultValue": "null"
+  },
   "A051": {
     "id": "A051",
     "entityId": "E23",
@@ -1386,36 +1394,74 @@
   "A121": {
     "id": "A121",
     "entityId": "E35",
-    "name": "attribute1",
+    "name": "variant",
+    "dataType": "CanonicalAllele",
+    "cardinality": "1..1",
+    "defaultValue": "null",
     "valueSetName": "",
-    "fullyQualifiedName": "VariantInterpretation.attribute1"
+    "description": "The variant whose pathogenicity is being described",
+    "fullyQualifiedName": "VariantInterpretation.variant"
   },
   "A122": {
     "id": "A122",
     "entityId": "E35",
-    "name": "attribute2",
+    "name": "condition",
+    "dataType": "Condition",
+    "cardinality": "0..1",
+    "defaultValue": "null",
     "valueSetName": "",
-    "fullyQualifiedName": "VariantInterpretation.attribute2"
+    "description": "The condition for which the variant's pathogenicity is described",
+    "fullyQualifiedName": "VariantInterpretation.condition"
   },
   "A123": {
     "id": "A123",
     "entityId": "E35",
-    "name": "attribute3",
-    "valueSetName": "",
-    "fullyQualifiedName": "VariantInterpretation.attribute3"
+    "name": "interpretationCode",
+    "dataType": "CodableConcept",
+    "cardinality": "1..1",
+    "defaultValue": "null",
+    "valueSetId": "VS003",
+    "valueSetName": "Significance",
+    "description": "The coded pathogenicity of the variant for the condition",
+    "fullyQualifiedName": "VariantInterpretation.interpretationCode"
   },
   "A124": {
     "id": "A124",
     "entityId": "E35",
-    "name": "attribute4",
+    "name": "criteriaSet",
+    "dataType": "CriteriaSet",
+    "cardinality": "0..1",
+    "defaultValue": "null",
     "valueSetName": "",
-    "fullyQualifiedName": "VariantInterpretation.attribute4"
+    "description": "The formal guideline that defines the methodology used in creating this interpretation.",
+    "fullyQualifiedName": "VariantInterpretation.criteriaSet"
   },
   "A125": {
     "id": "A125",
     "entityId": "E35",
-    "name": "attribute5",
+    "name": "wasDerivedFrom",
+    "dataType": "VariantInterpretation",
+    "cardinality": "0..1",
+    "defaultValue": "null",
     "valueSetName": "",
-    "fullyQualifiedName": "VariantInterpretation.attribute5"
+    "description": "A previous interpretation from which the current interpretation was derived",
+    "fullyQualifiedName": "VariantInterpretation.wasDerivedFrom"
+  },
+  "A126": {
+    "id": "A126",
+    "entityId": "E45",
+    "name": "phenotypeNegativeAlleleNegative",
+    "dataType": "int",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "description": "The number of non-proband family members that have neither the allele nor the phenotype"
+  },
+  "A127": {
+    "id": "A127",
+    "entityId": "E35",
+    "name": "interpretationText",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "defaultValue": "null"
   }
 }

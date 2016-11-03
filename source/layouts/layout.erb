@@ -114,7 +114,17 @@
             
             <h1><%= title %></h1>
             <p><%= description %></p>
+                      
+            <% if current_page.data.id != nil %>
+            <% parentid = data.flattened.Entity[current_page.data.id].parentEntityTypeId %>
+            <% if parentid == nil %>
+            <% else %>
+                <p>Descended from <%= data.flattened.Entity[parentid].name %></p>
+            <% end %>
+            <% end %>
+
             <hr class='col-sm-12' />
+
 
             <%= yield %>
           </article>

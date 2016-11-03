@@ -9,7 +9,7 @@
     "variant": "CanAll001",
     "condition": "-",
     "explanation": "Variant is not LOF and LOF is not a known mechanism of disease associated with this gene for any condition.",
-    "wasGeneratedByActivityId": "AssessCrit001",
+    "wasGeneratedBy": "AssessCrit001",
     "activity ": "2016-06-01T10:10:30+00:00"
   },
   "CritAssess002": {
@@ -21,7 +21,7 @@
     "met?": "Y",
     "variant": "CanAll002",
     "condition": "Cond001",
-    "wasGeneratedByActivityId": "AssessCrit002",
+    "wasGeneratedBy": "AssessCrit002",
     "activity ": "2016-06-02T12:15:00+00:00"
   },
   "CritAssess003": {
@@ -34,7 +34,7 @@
     "variant": "CanAll003",
     "condition": "Cond002",
     "explanation": "This variant only occurs as LOF in an uncommon transcript (NM_133437.4).  For most transcripts, the variant is intronic.",
-    "wasGeneratedByActivityId": "AssessCrit003",
+    "wasGeneratedBy": "AssessCrit003",
     "activity ": "2016-06-02T14:21:59+00:00"
   },
   "CritAssess004": {
@@ -47,7 +47,7 @@
     "variant": "CanAll004",
     "condition": "-",
     "explanation": "The assessed variant produces the same amino acid change (p.Phe285Leu) as known pathogenic variant c.853T>C",
-    "wasGeneratedByActivityId": "AssessCrit004",
+    "wasGeneratedBy": "AssessCrit004",
     "activity ": "2016-06-02T15:22:00+00:00"
   },
   "CritAssess005": {
@@ -60,7 +60,7 @@
     "variant": "CanAll007",
     "condition": "Cond004",
     "explanation": "The assessed variant produces the same amino acid change (p.Met2083Ile) as known pathogenic variant c.6249G>A.  But that change is pathogenic because it has been shown to disrupt splicing and create a premature stop codon. Prediction tools do not suggest c.6249G>C disrupts splicing.",
-    "wasGeneratedByActivityId": "AssessCrit005",
+    "wasGeneratedBy": "AssessCrit005",
     "activity ": "2016-06-02T16:21:59+00:00"
   },
   "CritAssess006": {
@@ -73,7 +73,7 @@
     "variant": "CanAll010",
     "condition": "Cond006",
     "explanation": "While the two amino acid changes are not identical, they are the same amino acid change in analagous residues of HRAS and KRAS.",
-    "wasGeneratedByActivityId": "AssessCrit006",
+    "wasGeneratedBy": "AssessCrit006",
     "activity ": "2016-06-02T17:21:59+00:00"
   },
   "CritAssess007": {
@@ -86,7 +86,7 @@
     "variant": "CanAll014",
     "condition": "Cond007",
     "explanation": "IC1: Individual has condition, FH1: No family history, DNA1: variant is denovo (parentage confirmed)",
-    "wasGeneratedByActivityId": "AssessCrit007",
+    "wasGeneratedBy": "AssessCrit007",
     "activity ": "2016-06-03T07:59:59+00:00"
   },
   "CritAssess008": {
@@ -99,7 +99,7 @@
     "variant": "CanAll015",
     "condition": "Cond008",
     "explanation": "De novo variant occurred on haplotype inherited from the father. Maternity no explicitly confirmed - but if variant occurred on haplotype inherited from the father, then confirmation of maternity not required.",
-    "wasGeneratedByActivityId": "AssessCrit008",
+    "wasGeneratedBy": "AssessCrit008",
     "activity ": "2016-06-03T09:17:20+00:00"
   },
   "CritAssess009": {
@@ -111,7 +111,7 @@
     "met?": "Y",
     "variant": "CanAll016",
     "condition": "Cond009",
-    "wasGeneratedByActivityId": "AssessCrit009",
+    "wasGeneratedBy": "AssessCrit009",
     "activity ": "2016-06-03T10:25:20+00:00"
   },
   "CritAssess010": {
@@ -123,7 +123,7 @@
     "met?": "Y",
     "variant": "CanAll017",
     "condition": "-",
-    "wasGeneratedByActivityId": "AssessCrit010",
+    "wasGeneratedBy": "AssessCrit010",
     "activity ": "2016-06-03T14:50:00+00:00"
   },
   "CritAssess011": {
@@ -135,7 +135,7 @@
     "met?": "Y",
     "variant": "CanAll019",
     "condition": "-",
-    "wasGeneratedByActivityId": "AssessCrit011",
+    "wasGeneratedBy": "AssessCrit011",
     "activity ": "2016-06-03T18:08:59+00:00"
   },
   "CritAssess012": {
@@ -148,7 +148,7 @@
     "variant": "CanAll020",
     "condition": "-",
     "explanation": "The RASopathy group considers MEK and ERK activation assays as well validated.",
-    "wasGeneratedByActivityId": "AssessCrit012",
+    "wasGeneratedBy": "AssessCrit012",
     "activity ": "2016-06-04T07:12:00+00:00"
   },
   "CritAssess013": {
@@ -161,7 +161,7 @@
     "variant": "CanAll022",
     "condition": "Cond010",
     "explanation": "statistically significant difference between affects and unaffecteds",
-    "wasGeneratedByActivityId": "AssessCrit013",
+    "wasGeneratedBy": "AssessCrit013",
     "activity ": "2016-06-05T10:23:59+00:00"
   },
   "CritAssess014": {
@@ -174,7 +174,7 @@
     "variant": "CanAll023",
     "condition": "Cond011",
     "explanation": "Across publications, this variant is thought to account for 2%-10% of patients with Malignant hyperthermia. But variant is also only found in 9/66740 Europeans in ExAC (.01%). Based on these differences, groups applied PS4 to this variant classification (without a formal OR analysis).",
-    "wasGeneratedByActivityId": "AssessCrit014",
+    "wasGeneratedBy": "AssessCrit014",
     "activity ": "2016-06-05T14:39:00+00:00"
   },
   "CritAssess015": {
@@ -186,7 +186,7 @@
     "met?": "N",
     "variant": "CanAll024",
     "condition": "Cond012",
-    "wasGeneratedByActivityId": "AssessCrit015",
+    "wasGeneratedBy": "AssessCrit015",
     "activity ": "2016-06-05T16:12:00+00:00"
   },
   "CritAssess016": {
@@ -199,7 +199,7 @@
     "variant": "CanAll025",
     "condition": "-",
     "explanation": "Variant is located within the kinase domain (where multiple other pathogenic variants are located)",
-    "wasGeneratedByActivityId": "AssessCrit016",
+    "wasGeneratedBy": "AssessCrit016",
     "activity ": "2016-06-06T08:12:00+00:00"
   },
   "CritAssess017": {
@@ -212,7 +212,7 @@
     "variant": "CanAll026",
     "condition": "-",
     "explanation": "Variant is located in exon 15, which the RASopathy group has decided is an established functional domain for BRAF",
-    "wasGeneratedByActivityId": "AssessCrit017",
+    "wasGeneratedBy": "AssessCrit017",
     "activity ": "2016-06-06T10:52:59+00:00"
   },
   "CritAssess018": {
@@ -225,7 +225,7 @@
     "variant": "CanAll027",
     "condition": "-",
     "explanation": "The variant is near 4 other pathogenic variants",
-    "wasGeneratedByActivityId": "AssessCrit018",
+    "wasGeneratedBy": "AssessCrit018",
     "activity ": "2016-06-03T07:23:59+00:00"
   },
   "CritAssess019": {
@@ -238,7 +238,7 @@
     "variant": "CanAll032",
     "condition": "-",
     "explanation": "PM2 is applicable as even though variant is not 100% absent, it is practically absent (a 95% CI for the population goes from 0.00% to 0.01%)",
-    "wasGeneratedByActivityId": "AssessCrit019",
+    "wasGeneratedBy": "AssessCrit019",
     "activity ": "2016-06-04T09:08:00+00:00"
   },
   "CritAssess020": {
@@ -250,7 +250,7 @@
     "met?": "N",
     "variant": "CanAll033",
     "condition": "-",
-    "wasGeneratedByActivityId": "AssessCrit020",
+    "wasGeneratedBy": "AssessCrit020",
     "activity ": "2016-06-05T15:13:00+00:00"
   },
   "CritAssess021": {
@@ -263,7 +263,7 @@
     "variant": "CanAll034",
     "condition": "-",
     "explanation": "while the variant is absent from exac, mean coverage (11X) is insufficient to be sure that variant was fully assayed.",
-    "wasGeneratedByActivityId": "AssessCrit021",
+    "wasGeneratedBy": "AssessCrit021",
     "activity ": "2016-06-06T11:28:00+00:00"
   },
   "CritAssess022": {
@@ -275,7 +275,7 @@
     "met?": "Y",
     "variant": "CanAll035",
     "condition": "Cond010",
-    "wasGeneratedByActivityId": "AssessCrit022",
+    "wasGeneratedBy": "AssessCrit022",
     "activity ": "2016-06-02T08:01:00+00:00"
   },
   "CritAssess023": {
@@ -287,7 +287,7 @@
     "met?": "Y",
     "variant": "CanAll037",
     "condition": "-",
-    "wasGeneratedByActivityId": "AssessCrit023",
+    "wasGeneratedBy": "AssessCrit023",
     "activity ": "2016-06-10T09:02:00+00:00"
   },
   "CritAssess024": {
@@ -300,7 +300,7 @@
     "variant": "CanAll039",
     "condition": "-",
     "explanation": "Application of PM3 is incorrect as the variant in trans is know known to be pathogenic (it is the same variant).",
-    "wasGeneratedByActivityId": "AssessCrit024",
+    "wasGeneratedBy": "AssessCrit024",
     "activity ": "2016-06-10T09:15:00+00:00"
   },
   "CritAssess025": {
@@ -313,7 +313,7 @@
     "variant": "CanAll035",
     "condition": "-",
     "explanation": "leads to an in-frame deletion of 7 amino acids (not repeat region).",
-    "wasGeneratedByActivityId": "AssessCrit025",
+    "wasGeneratedBy": "AssessCrit025",
     "activity ": "2016-06-12T07:30:00+00:00"
   },
   "CritAssess026": {
@@ -326,7 +326,7 @@
     "variant": "CanAll041",
     "condition": "-",
     "explanation": "leads to an in-frame deletion of 5 amino acids (not repeat region).",
-    "wasGeneratedByActivityId": "AssessCrit026",
+    "wasGeneratedBy": "AssessCrit026",
     "activity ": "2016-06-12T08:30:59+00:00"
   },
   "CritAssess027": {
@@ -339,7 +339,7 @@
     "variant": "CanAll043",
     "condition": "-",
     "explanation": "This 15bp duplication variant results in an expansion of a 20 residue polyalanine tract to a 25 residue polyalanine tract.",
-    "wasGeneratedByActivityId": "AssessCrit027",
+    "wasGeneratedBy": "AssessCrit027",
     "activity ": "2016-06-12T09:31:59+00:00"
   },
   "CritAssess028": {
@@ -352,7 +352,7 @@
     "variant": "CanAll045",
     "condition": "Cond017",
     "explanation": "From ClinVar: Doolan et al. (2005) (PMID:15698845) reported mutations at the same residue (R162P) in patients with HCM, supporting the functional importance of this residue in the protein. This rare R162P variant observed multiple times in is Likely Pathogenic in ClinVar with 1 star assertion.  Other variants in the same residue R162W has conflicting evidence of pathogenicity(Path by GeneDx : SCV000209174.2 and VUS by LMM:SCV000203864.2). Considered these two only as they have provided assertion criteria.",
-    "wasGeneratedByActivityId": "AssessCrit028",
+    "wasGeneratedBy": "AssessCrit028",
     "activity ": "2016-06-12T10:47:59+00:00"
   },
   "CritAssess029": {
@@ -365,7 +365,7 @@
     "variant": "CanAll051",
     "condition": "Cond018",
     "explanation": "Other pathogenic variants at the same residue per ClinVar : NM_000531.5(OTC):c.119G>A (p.Arg40His) However no assertion criteria is provided for these variants. So pathogenicity needs to be determined by literature search. \n\nSo PM5 is applicable when assessing p.Leu1764Il",
-    "wasGeneratedByActivityId": "AssessCrit029",
+    "wasGeneratedBy": "AssessCrit029",
     "activity ": "2016-06-12T11:03:00+00:00"
   },
   "CritAssess030": {
@@ -378,7 +378,7 @@
     "variant": "CanAll055",
     "condition": "Cond001",
     "explanation": "Another variant at this position, but different AA change, has been observed and called pathogenic for breast ovarian cancer by ENIGMA expert panel:",
-    "wasGeneratedByActivityId": "AssessCrit030",
+    "wasGeneratedBy": "AssessCrit030",
     "activity ": "2016-07-01T09:22:59+00:00"
   },
   "CritAssess031": {
@@ -391,7 +391,7 @@
     "variant": "CanAll035",
     "condition": "-",
     "explanation": "while the variant is absent from exac, however\n1) very low coverage across this region (~5X) and usually 20X is used as a cut-off to say “absent”\n2) variant is 21 nt deletion - databases may not be able to call a variant of that size (I rarely see an indel of this size in ExAC).",
-    "wasGeneratedByActivityId": "AssessCrit031",
+    "wasGeneratedBy": "AssessCrit031",
     "activity ": "2016-07-01T10:52:59+00:00"
   },
   "CritAssess032": {
@@ -404,7 +404,7 @@
     "variant": "CanAll059",
     "condition": "Cond019",
     "explanation": "Two sporadic cases of BHD contain this allele",
-    "wasGeneratedByActivityId": "AssessCrit034",
+    "wasGeneratedBy": "AssessCrit034",
     "activity ": "2016-07-20T07:21:59+00:00"
   },
   "CritAssess033": {
@@ -417,7 +417,7 @@
     "variant": "CanAll060",
     "condition": "Cond020",
     "explanation": "affected child with CFC was found to carry c.158T>C. Both parents are unaffected and from Sanger seq neither parent was found to carry c.158T>C variant - so authors conclude variant occurred de novo. Since there was no mention of parental confirmation, PS2 cannot be used but PM6 is applicable",
-    "wasGeneratedByActivityId": "AssessCrit035",
+    "wasGeneratedBy": "AssessCrit035",
     "activity ": "2016-07-20T07:48:59+00:00"
   },
   "CritAssess034": {
@@ -430,7 +430,7 @@
     "variant": "CanAll061",
     "condition": "Cond020",
     "explanation": "3 unrelated probands with CFC were found to carry c.1741A>G variant. There is no family history of CFC in any family and all three sets of parents were confirmed to not have the variant. Since there was no mention of parental confirmation, PS2 cannot be used but PM6 is applicable. However, since there are 3 de novo observations, many groups (including Noonan and MYH7) would allow PM6 to be upgraded to Strong (PM6_S)",
-    "wasGeneratedByActivityId": "AssessCrit036",
+    "wasGeneratedBy": "AssessCrit036",
     "activity ": "2016-07-20T08:01:59+00:00"
   },
   "CritAssess035": {
@@ -443,7 +443,7 @@
     "variant": "CanAll063",
     "condition": "Cond023",
     "explanation": "In total, 4 segs from 2 families",
-    "wasGeneratedByActivityId": "AssessCrit037",
+    "wasGeneratedBy": "AssessCrit037",
     "activity ": "2016-07-21T06:45:00+00:00"
   },
   "CritAssess036": {
@@ -456,7 +456,7 @@
     "variant": "CanAll062",
     "condition": "Cond021",
     "explanation": "In total, 8 segs from 2 families (can combine hom segs and compound het segs). Most groups would allow this to be shifted up the Moderate (PP1_M)",
-    "wasGeneratedByActivityId": "AssessCrit038",
+    "wasGeneratedBy": "AssessCrit038",
     "activity ": "2016-07-21T07:02:00+00:00"
   },
   "CritAssess037": {
@@ -469,7 +469,7 @@
     "variant": "CanAll064",
     "condition": "Cond001",
     "explanation": "PP1 is for “Co-segregation with disease in multiple affected family members” PP1 is not applicable for this variant because it’s only a single segregation.",
-    "wasGeneratedByActivityId": "AssessCrit039",
+    "wasGeneratedBy": "AssessCrit039",
     "activity ": "2016-07-21T07:38:59+00:00"
   },
   "CritAssess038": {
@@ -481,7 +481,7 @@
     "met?": "Y",
     "variant": "CanAll065",
     "condition": "Cond002",
-    "wasGeneratedByActivityId": "AssessCrit040",
+    "wasGeneratedBy": "AssessCrit040",
     "activity ": "2016-07-21T08:10:59+00:00"
   },
   "CritAssess039": {
@@ -493,7 +493,7 @@
     "met?": "Y",
     "variant": "CanAll066",
     "condition": "-",
-    "wasGeneratedByActivityId": "AssessCrit041",
+    "wasGeneratedBy": "AssessCrit041",
     "activity ": "2016-07-21T09:40:59+00:00"
   },
   "CritAssess040": {
@@ -505,7 +505,7 @@
     "met?": "Y",
     "variant": "CanAll067",
     "condition": "-",
-    "wasGeneratedByActivityId": "AssessCrit042",
+    "wasGeneratedBy": "AssessCrit042",
     "activity ": "2016-07-21T10:29:00+00:00"
   },
   "CritAssess041": {
@@ -517,7 +517,7 @@
     "met?": "Y",
     "variant": "CanAll068",
     "condition": "-",
-    "wasGeneratedByActivityId": "AssessCrit043",
+    "wasGeneratedBy": "AssessCrit043",
     "activity ": "2016-07-21T12:15:00+00:00"
   },
   "CritAssess042": {
@@ -530,7 +530,7 @@
     "variant": "CanAll069",
     "condition": "-",
     "explanation": "even though the computational tools for AA changes are NOT predicting an impact, splicing tools are predicting an impact - so PP3 is applicable",
-    "wasGeneratedByActivityId": "AssessCrit044",
+    "wasGeneratedBy": "AssessCrit044",
     "activity ": "2016-07-21T14:46:00+00:00"
   },
   "CritAssess043": {
@@ -540,7 +540,7 @@
     "outcome": "CG:P",
     "example": "PP4 - #1",
     "met?": "Y",
-    "wasGeneratedByActivityId": "AssessCrit045",
+    "wasGeneratedBy": "AssessCrit045",
     "activity ": "2016-07-21T15:58:00+00:00"
   },
   "CritAssess044": {
@@ -552,7 +552,7 @@
     "met?": "Y",
     "variant": "CanAll070",
     "condition": "Cond024",
-    "wasGeneratedByActivityId": "AssessCrit046",
+    "wasGeneratedBy": "AssessCrit046",
     "activity ": "2016-08-28T13:59:59+00:00"
   },
   "CritAssess045": {
@@ -564,7 +564,7 @@
     "met?": "N",
     "variant": "CanAll071",
     "condition": "Cond023",
-    "wasGeneratedByActivityId": "AssessCrit047",
+    "wasGeneratedBy": "AssessCrit047",
     "activity ": "2016-08-29T15:00:00+00:00"
   },
   "CritAssess046": {
@@ -576,7 +576,7 @@
     "met?": "Y",
     "variant": "CanAll072",
     "condition": "Cond025",
-    "wasGeneratedByActivityId": "AssessCrit048",
+    "wasGeneratedBy": "AssessCrit048",
     "activity ": "2016-08-29T16:00:00+00:00"
   },
   "CritAssess047": {
@@ -589,7 +589,7 @@
     "variant": "CanAll073",
     "condition": "Cond027",
     "explanation": "OMIM is not considered an expert or reputable source for variant interpretations.\nFurther, OMIM’s evidence for this pathogenic call is available (the publication link - PMID:21620354 - and free text summary) so people should use the evidence from OMIM in their assessment NOT OMIM’s interpretation.  This is marked as Insufficient Evidence rather than refuted because the OMIM entry does not rule out a later application of PP5 based on eg. an expert panel.",
-    "wasGeneratedByActivityId": "AssessCrit049",
+    "wasGeneratedBy": "AssessCrit049",
     "activity ": "2016-08-29T16:59:59+00:00"
   },
   "CritAssess048": {
@@ -601,7 +601,7 @@
     "met?": "Y",
     "variant": "CanAll074",
     "condition": "Cond026",
-    "wasGeneratedByActivityId": "AssessCrit050",
+    "wasGeneratedBy": "AssessCrit050",
     "activity ": "2016-08-29T18:00:00+00:00"
   },
   "CritAssess049": {
@@ -613,7 +613,7 @@
     "met?": "Y",
     "variant": "CanAll075",
     "condition": "-",
-    "wasGeneratedByActivityId": "AssessCrit051",
+    "wasGeneratedBy": "AssessCrit051",
     "activity ": "2016-08-29T19:00:00+00:00"
   },
   "CritAssess050": {
@@ -626,7 +626,7 @@
     "variant": "CanAll076",
     "condition": "-",
     "explanation": "Globally, this variant has a MAF of 0.0454 (4.5%) which would put it under the 5% rule and thus BA1 would not be applicable. However, variant is enriched in East Asian population - 29% MAF - so way over the 5% cut-off. So now BA1 is applicable",
-    "wasGeneratedByActivityId": "AssessCrit052",
+    "wasGeneratedBy": "AssessCrit052",
     "activity ": "2016-08-29T19:59:59+00:00"
   },
   "CritAssess051": {
@@ -639,7 +639,7 @@
     "variant": "CanAll077",
     "condition": "Cond004",
     "explanation": "Although this variant has been seen in the general population, its frequency is low enough to be consistent with a recessive carrier frequency.",
-    "wasGeneratedByActivityId": "AssessCrit053",
+    "wasGeneratedBy": "AssessCrit053",
     "activity ": "2016-08-29T21:00:00+00:00"
   },
   "CritAssess052": {
@@ -651,7 +651,7 @@
     "met?": "Y",
     "variant": "CanAll078",
     "condition": "Cond028",
-    "wasGeneratedByActivityId": "AssessCrit054",
+    "wasGeneratedBy": "AssessCrit054",
     "activity ": "2016-08-29T22:00:00+00:00"
   },
   "CritAssess053": {
@@ -663,7 +663,7 @@
     "met?": "Y",
     "variant": "CanAll079",
     "condition": "Cond029",
-    "wasGeneratedByActivityId": "AssessCrit055",
+    "wasGeneratedBy": "AssessCrit055",
     "activity ": "2016-08-29T22:59:59+00:00"
   },
   "CritAssess054": {
@@ -676,7 +676,7 @@
     "variant": "CanAll080",
     "condition": "Cond030",
     "explanation": "Perrault syndrome may be underreported due to misdiagnosis.  If the prevalence estimates rise, this assessment may need to be revisited",
-    "wasGeneratedByActivityId": "AssessCrit056",
+    "wasGeneratedBy": "AssessCrit056",
     "activity ": "2016-08-30T06:00:00+00:00"
   },
   "CritAssess055": {
@@ -689,7 +689,7 @@
     "variant": "CanAll081",
     "condition": "Cond031",
     "explanation": "According to Baylor internal data on this variant, it has been observed multiple times in asymptomatic parents internally and in controls and observed once as a homozygotes internally in unaffected.  Although the evidence for full penetrance is weak, the fact that there are multiple asymptomatic occurrences helps the case.",
-    "wasGeneratedByActivityId": "AssessCrit057",
+    "wasGeneratedBy": "AssessCrit057",
     "activity ": "2016-09-05T06:00:00+00:00"
   },
   "CritAssess056": {
@@ -702,7 +702,7 @@
     "variant": "CanAll082",
     "condition": "Cond032",
     "explanation": "This variant was observed in unaffected healthy control chromosomes. PMIDs: 15122587, 18199528, 22703879, 24728327",
-    "wasGeneratedByActivityId": "AssessCrit058",
+    "wasGeneratedBy": "AssessCrit058",
     "activity ": "2016-09-05T06:29:59+00:00"
   },
   "CritAssess057": {
@@ -715,7 +715,7 @@
     "variant": "CanAll083",
     "condition": "Cond028",
     "explanation": "Although this variant was found in 5 individuals with Marfan Syndrome, it was identified in 2 unaffected relatives from two separate families. PMID: 12402346",
-    "wasGeneratedByActivityId": "AssessCrit059",
+    "wasGeneratedBy": "AssessCrit059",
     "activity ": "2016-09-05T07:00:59+00:00"
   },
   "CritAssess058": {
@@ -725,7 +725,7 @@
     "example": "BS3 - #1",
     "met?": "Y",
     "variant": "CanAll084",
-    "wasGeneratedByActivityId": "AssessCrit060",
+    "wasGeneratedBy": "AssessCrit060",
     "activity ": "2016-09-05T08:01:00+00:00"
   },
   "CritAssess059": {
@@ -737,7 +737,7 @@
     "met?": "Y",
     "variant": "CanAll085",
     "condition": "-",
-    "wasGeneratedByActivityId": "AssessCrit061",
+    "wasGeneratedBy": "AssessCrit061",
     "activity ": "2016-09-05T09:00:59+00:00"
   },
   "CritAssess060": {
@@ -749,7 +749,7 @@
     "met?": "Y",
     "variant": "CanAll087",
     "condition": "-",
-    "wasGeneratedByActivityId": "AssessCrit062",
+    "wasGeneratedBy": "AssessCrit062",
     "activity ": "2016-09-05T09:31:00+00:00"
   },
   "CritAssess061": {
@@ -761,7 +761,7 @@
     "met?": "Y",
     "variant": "CanAll088",
     "condition": "Cond033",
-    "wasGeneratedByActivityId": "AssessCrit063",
+    "wasGeneratedBy": "AssessCrit063",
     "activity ": "2016-09-05T09:51:00+00:00"
   },
   "CritAssess062": {
@@ -774,17 +774,20 @@
     "variant": "CanAll089",
     "condition": "Cond023",
     "explanation": "The inconsistent segregation data is reasonably explainable as a phenocopy, and therefore does not provide evidence for the benignity of this allele.",
-    "wasGeneratedByActivityId": "AssessCrit064",
+    "wasGeneratedBy": "AssessCrit064",
     "activity ": "2016-09-05T10:50:59+00:00"
   },
   "CritAssess063": {
     "id": "CritAssess063",
     "criterion": "BS4",
-    "outcomeDesc": "#N/A",
+    "outcomeDesc": "BS4(Strong)",
+    "outcome": "CG:S",
     "example": "BS4 - #3",
     "met?": "Y",
     "variant": "CanAll090",
-    "wasGeneratedByActivityId": "AssessCrit065",
+    "condition": "Cond023",
+    "explanation": "In a family tested by the LMM, the c.1484C>T variant was identified in a proband with clinical diagnosis of HCM. This proband has two relatives that also have clinical diagnosis of HCM however never relative carries the c.1484C>T variant.",
+    "wasGeneratedBy": "AssessCrit065",
     "activity ": "2016-09-05T10:59:59+00:00"
   },
   "CritAssess064": {
@@ -796,7 +799,7 @@
     "met?": "Y",
     "variant": "CanAll091",
     "condition": "Cond034",
-    "wasGeneratedByActivityId": "AssessCrit066",
+    "wasGeneratedBy": "AssessCrit066",
     "activity ": "2016-09-06T07:59:59+00:00"
   },
   "CritAssess065": {
@@ -808,7 +811,7 @@
     "met?": "Y",
     "variant": "CanAll091",
     "condition": "Cond035",
-    "wasGeneratedByActivityId": "AssessCrit067",
+    "wasGeneratedBy": "AssessCrit067",
     "activity ": "2016-09-06T09:00:00+00:00"
   },
   "CritAssess066": {
@@ -820,7 +823,7 @@
     "met?": "Y",
     "variant": "CanAll092",
     "condition": "Cond010",
-    "wasGeneratedByActivityId": "AssessCrit068",
+    "wasGeneratedBy": "AssessCrit068",
     "activity ": "2016-09-06T10:00:00+00:00"
   },
   "CritAssess067": {
@@ -833,7 +836,7 @@
     "variant": "CanAll093",
     "condition": "Cond002",
     "explanation": "While truncations are usually the cause of TTN related DCM, missense variants in certain regions can also cause disease.",
-    "wasGeneratedByActivityId": "AssessCrit069",
+    "wasGeneratedBy": "AssessCrit069",
     "activity ": "2016-09-06T10:59:59+00:00"
   },
   "CritAssess068": {
@@ -845,7 +848,7 @@
     "met?": "Y",
     "variant": "CanAll094",
     "condition": "Cond036",
-    "wasGeneratedByActivityId": "AssessCrit070",
+    "wasGeneratedBy": "AssessCrit070",
     "activity ": "2016-09-06T12:00:00+00:00"
   },
   "CritAssess069": {
@@ -857,7 +860,7 @@
     "met?": "Y",
     "variant": "CanAll096",
     "condition": "Cond037",
-    "wasGeneratedByActivityId": "AssessCrit071",
+    "wasGeneratedBy": "AssessCrit071",
     "activity ": "2016-09-06T13:00:00+00:00"
   },
   "CritAssess070": {
@@ -870,7 +873,7 @@
     "variant": "CanAll098",
     "condition": "Cond038",
     "explanation": "although this variant was found in trans with another variant in the same gene, that variant is VUS and not an established pathogenic variant and cardiomyopathies can be variable in penetrance. ",
-    "wasGeneratedByActivityId": "AssessCrit072",
+    "wasGeneratedBy": "AssessCrit072",
     "activity ": "2016-09-06T13:59:59+00:00"
   },
   "CritAssess071": {
@@ -882,7 +885,7 @@
     "met?": "Y",
     "variant": "CanAll100",
     "condition": "-",
-    "wasGeneratedByActivityId": "AssessCrit082",
+    "wasGeneratedBy": "AssessCrit082",
     "activity ": "2016-09-15T08:12:00+00:00"
   },
   "CritAssess072": {
@@ -895,7 +898,7 @@
     "variant": "CanAll101",
     "condition": "-",
     "explanation": "BP3 does not apply for this variant because it is not an in-frame deletion (it's a deletion of 10 bp) and, although the I Band is a repetitive region that contains tandem arrays of immunoglobulin domains, these folds may be an important component for TTN's elasticity.",
-    "wasGeneratedByActivityId": "AssessCrit083",
+    "wasGeneratedBy": "AssessCrit083",
     "activity ": "2016-09-15T09:22:59+00:00"
   },
   "CritAssess073": {
@@ -907,7 +910,7 @@
     "met?": "Y",
     "variant": "CanAll102",
     "condition": "-",
-    "wasGeneratedByActivityId": "AssessCrit084",
+    "wasGeneratedBy": "AssessCrit084",
     "activity ": "2016-09-15T10:39:59+00:00"
   },
   "CritAssess074": {
@@ -920,7 +923,7 @@
     "variant": "CanAll103",
     "condition": "-",
     "explanation": "Seven of the nine predictions found this variant to be benign, which we consider sufficient to support.",
-    "wasGeneratedByActivityId": "AssessCrit085",
+    "wasGeneratedBy": "AssessCrit085",
     "activity ": "2016-10-04T08:01:59+00:00"
   },
   "CritAssess075": {
@@ -931,7 +934,7 @@
     "met?": "Y",
     "variant": "CanAll104",
     "condition": "-",
-    "wasGeneratedByActivityId": "AssessCrit086",
+    "wasGeneratedBy": "AssessCrit086",
     "activity ": "2016-10-04T09:11:59+00:00"
   },
   "CritAssess076": {
@@ -942,7 +945,7 @@
     "met?": "Y",
     "variant": "CanAll105",
     "condition": "-",
-    "wasGeneratedByActivityId": "AssessCrit087",
+    "wasGeneratedBy": "AssessCrit087",
     "activity ": "2016-10-04T10:36:59+00:00"
   },
   "CritAssess077": {
@@ -954,7 +957,7 @@
     "met?": "Y",
     "variant": "CanAll106",
     "explanation": "The evidence here only explicitly describes a single individual with a likely pathogenic variant in TNNT2, but there are numerous other examples that have been observed in internal LMM data.",
-    "wasGeneratedByActivityId": "AssessCrit088",
+    "wasGeneratedBy": "AssessCrit088",
     "activity ": "2016-10-04T11:42:00+00:00"
   },
   "CritAssess078": {
@@ -966,7 +969,7 @@
     "met?": "Y",
     "variant": "CanAll108",
     "condition": "Cond015",
-    "wasGeneratedByActivityId": "AssessCrit089",
+    "wasGeneratedBy": "AssessCrit089",
     "activity ": "2016-10-06T08:30:00+00:00"
   },
   "CritAssess079": {
@@ -978,7 +981,7 @@
     "met?": "Y",
     "variant": "CanAll108",
     "condition": "Cond021",
-    "wasGeneratedByActivityId": "AssessCrit090",
+    "wasGeneratedBy": "AssessCrit090",
     "activity ": "2016-10-06T08:53:59+00:00"
   },
   "CritAssess080": {
@@ -991,7 +994,7 @@
     "variant": "CanAll112",
     "condition": "Cond039",
     "explanation": "Variants in COL2A1 are associated with dominant spondyloepiphyseal dysplasia congenita (a primary bone dysplasia). CA112 was identified in a  proband with CA113, which is pathogenic for another primary bone dysplasia, dominant Pseudoachondroplasia. However, this does not provide supporting evidence for CA112 being benign because the combination of a COL2A1 and COMP variant are known to produce a more severe phenotype, Pseudoachondroplastic spondyloepiphyseal dysplasia syndrome, which is the phenotype of the proband.  Because the combination of alleles may produce a qualitatively different phenotype, the bone dysplasia caused by the COMP variant does not provide evidence that the COL2A1 variant is benign for any bone dysplasias in general.\n",
-    "wasGeneratedByActivityId": "AssessCrit091",
+    "wasGeneratedBy": "AssessCrit091",
     "activity ": "2016-10-06T09:08:59+00:00"
   },
   "CritAssess081": {
@@ -1003,7 +1006,7 @@
     "met?": "Y",
     "variant": "CanAll114",
     "condition": "Cond034",
-    "wasGeneratedByActivityId": "AssessCrit092",
+    "wasGeneratedBy": "AssessCrit092",
     "activity ": "2016-10-06T09:45:00+00:00"
   },
   "CritAssess082": {
@@ -1015,7 +1018,7 @@
     "met?": "Y",
     "variant": "CanAll115",
     "condition": "Cond042",
-    "wasGeneratedByActivityId": "AssessCrit093",
+    "wasGeneratedBy": "AssessCrit093",
     "activity ": "2016-10-10T08:01:59+00:00"
   },
   "CritAssess083": {
@@ -1027,7 +1030,7 @@
     "met?": "N",
     "variant": "CanAll116",
     "condition": "Cond043",
-    "wasGeneratedByActivityId": "AssessCrit094",
+    "wasGeneratedBy": "AssessCrit094",
     "activity ": "2016-10-10T08:03:00+00:00"
   },
   "CritAssess084": {
@@ -1039,7 +1042,7 @@
     "met?": "Y",
     "variant": "CanAll117",
     "condition": "-",
-    "wasGeneratedByActivityId": "AssessCrit095",
+    "wasGeneratedBy": "AssessCrit095",
     "activity ": "2016-10-10T08:03:59+00:00"
   },
   "CritAssess085": {
@@ -1051,7 +1054,7 @@
     "met?": "Y",
     "variant": "CanAll118",
     "condition": "-",
-    "wasGeneratedByActivityId": "AssessCrit096",
+    "wasGeneratedBy": "AssessCrit096",
     "activity ": "2016-10-10T08:05:00+00:00"
   },
   "CritAssess086": {
@@ -1064,7 +1067,7 @@
     "variant": "CanAll119",
     "condition": "-",
     "explanation": "This variant is a silent variant that does not result in an amino acid change. It is not very conserved and splicing tools suggest no change. However, BP7 does not apply because the variant is located in the first base of exon 4 of RAF1, which is part of the 3’ splice region of the exon. For that reason, we can’t fully trust computational tools. Functional assays would have to confirm that this variant truly does not alter splicing.",
-    "wasGeneratedByActivityId": "AssessCrit097",
+    "wasGeneratedBy": "AssessCrit097",
     "activity ": "2016-10-10T08:06:00+00:00"
   }
 }

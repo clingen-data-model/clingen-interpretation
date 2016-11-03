@@ -4004,11 +4004,11 @@
     "id": "DataAttr401",
     "evidenceDataId": "FamSegData114",
     "attributeId": "A093",
-    "value": "[[F007, F007.1, 0, 0, 1, 3, 0/0, 0],\n   [F007, F007.2, 0, 0, 2, 1, 0/0, 0],\n   [F007, F007.3, 0, 0, 1, 3, 0/0, 0],\n   [F007, F007.4, 0, 0, 2, 1, 0/0, 0],\n   [F007, F007.5, 0, 0, 1, 3, 0/0, 0],\n   [F007, F007.6, F007.1, F007.2, 2, 3, 1/2, 1],\n   [F007, F007.7,0, 0, 1, 1, 0/0, 0],\n   [F007, F007.8, F007.1, F007.2, 2, 1, 1/2, 1],\n   [F007, F007.9,F007.3, F007.4, 1, 1, 0/0, 0],\n   [F007, F007.10, 0, 0, 1, 1, 0/0, 0],\n   [F007, F007.11, F007.5, F007.6, 2, 2, 1/2, 0],\n   [F007, F007.12, F007.5, F007.6, 1,2, 0/0, 0],\n   [F007, F007.13, F007.5, F007.6, 2,1, 1/1,0],\n   [F007, F007.14, F007.5, F007.6, 1, 1, 1/1, 0],\n   [F007, F007.15, F007.7, F007.8, 1, 2, 1/2, 0],\n   [F007, F007.16, F007.8, F007.9, 1, 2, 1/2, 0],\n   [F007, F007.17, F007.8, F007.9, 1, 2, 0/0,0],\n   [F007, F007.18, F007.8, F007.9, 1, 2, 0/0, 0],\n   [F007, F007.19, F007.10, F007.11, 1, 2, 0/0,0],\n   [F007.20,F007.10, F007.11, 1,1,1/1,0]]",
+    "value": "[[Fam007, Fam007.1, 0, 0, 1, 3, 0/0, 0],\n   [Fam007, Fam007.2, 0, 0, 2, 1, 0/0, 0],\n   [Fam007, Fam007.3, 0, 0, 1, 3, 0/0, 0],\n   [Fam007, Fam007.4, 0, 0, 2, 1, 0/0, 0],\n   [Fam007, Fam007.5, 0, 0, 1, 3, 0/0, 0],\n   [Fam007, Fam007.6, Fam007.1, Fam007.2, 2, 3, 1/2, 1],\n   [Fam007, Fam007.7,0, 0, 1, 1, 0/0, 0],\n   [Fam007, Fam007.8, Fam007.1, Fam007.2, 2, 1, 1/2, 1],\n   [Fam007, Fam007.9,Fam007.3, Fam007.4, 1, 1, 0/0, 0],\n   [Fam007, Fam007.10, 0, 0, 1, 1, 0/0, 0],\n   [Fam007, Fam007.11, Fam007.5, Fam007.6, 2, 2, 1/2, 0],\n   [Fam007, Fam007.12, Fam007.5, Fam007.6, 1,2, 0/0, 0],\n   [Fam007, Fam007.13, Fam007.5, Fam007.6, 2,1, 1/1,0],\n   [Fam007, Fam007.14, Fam007.5, Fam007.6, 1, 1, 1/1, 0],\n   [Fam007, Fam007.15, Fam007.7, Fam007.8, 1, 2, 1/2, 0],\n   [Fam007, Fam007.16, Fam007.8, Fam007.9, 1, 2, 1/2, 0],\n   [Fam007, Fam007.17, Fam007.8, Fam007.9, 1, 2, 0/0,0],\n   [Fam007, Fam007.18, Fam007.8, Fam007.9, 1, 2, 0/0, 0],\n   [Fam007, Fam007.19, Fam007.10, Fam007.11, 1, 2, 0/0,0],\n   [Fam007.20,Fam007.10, Fam007.11, 1,1,1/1,0]]",
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "pedigree",
     "attributeType": "String",
-    "lookupValue": "[[F007, F007.1, 0, 0, 1, 3, 0/0, 0],\n   [F007, F007.2, 0, 0, 2, 1, 0/0, 0],\n   [F007, F007.3, 0, 0, 1, 3, 0/0, 0],\n   [F007, F007.4, 0, 0, 2, 1, 0/0, 0],\n   [F007, F007.5, 0, 0, 1, 3, 0/0, 0],\n   [F007, F007.6, F007.1, F007.2, 2, 3, 1/2, 1],\n   [F007, F007.7,0, 0, 1, 1, 0/0, 0],\n   [F007, F007.8, F007.1, F007.2, 2, 1, 1/2, 1],\n   [F007, F007.9,F007.3, F007.4, 1, 1, 0/0, 0],\n   [F007, F007.10, 0, 0, 1, 1, 0/0, 0],\n   [F007, F007.11, F007.5, F007.6, 2, 2, 1/2, 0],\n   [F007, F007.12, F007.5, F007.6, 1,2, 0/0, 0],\n   [F007, F007.13, F007.5, F007.6, 2,1, 1/1,0],\n   [F007, F007.14, F007.5, F007.6, 1, 1, 1/1, 0],\n   [F007, F007.15, F007.7, F007.8, 1, 2, 1/2, 0],\n   [F007, F007.16, F007.8, F007.9, 1, 2, 1/2, 0],\n   [F007, F007.17, F007.8, F007.9, 1, 2, 0/0,0],\n   [F007, F007.18, F007.8, F007.9, 1, 2, 0/0, 0],\n   [F007, F007.19, F007.10, F007.11, 1, 2, 0/0,0],\n   [F007.20,F007.10, F007.11, 1,1,1/1,0]]"
+    "lookupValue": "[[Fam007, Fam007.1, 0, 0, 1, 3, 0/0, 0],\n   [Fam007, Fam007.2, 0, 0, 2, 1, 0/0, 0],\n   [Fam007, Fam007.3, 0, 0, 1, 3, 0/0, 0],\n   [Fam007, Fam007.4, 0, 0, 2, 1, 0/0, 0],\n   [Fam007, Fam007.5, 0, 0, 1, 3, 0/0, 0],\n   [Fam007, Fam007.6, Fam007.1, Fam007.2, 2, 3, 1/2, 1],\n   [Fam007, Fam007.7,0, 0, 1, 1, 0/0, 0],\n   [Fam007, Fam007.8, Fam007.1, Fam007.2, 2, 1, 1/2, 1],\n   [Fam007, Fam007.9,Fam007.3, Fam007.4, 1, 1, 0/0, 0],\n   [Fam007, Fam007.10, 0, 0, 1, 1, 0/0, 0],\n   [Fam007, Fam007.11, Fam007.5, Fam007.6, 2, 2, 1/2, 0],\n   [Fam007, Fam007.12, Fam007.5, Fam007.6, 1,2, 0/0, 0],\n   [Fam007, Fam007.13, Fam007.5, Fam007.6, 2,1, 1/1,0],\n   [Fam007, Fam007.14, Fam007.5, Fam007.6, 1, 1, 1/1, 0],\n   [Fam007, Fam007.15, Fam007.7, Fam007.8, 1, 2, 1/2, 0],\n   [Fam007, Fam007.16, Fam007.8, Fam007.9, 1, 2, 1/2, 0],\n   [Fam007, Fam007.17, Fam007.8, Fam007.9, 1, 2, 0/0,0],\n   [Fam007, Fam007.18, Fam007.8, Fam007.9, 1, 2, 0/0, 0],\n   [Fam007, Fam007.19, Fam007.10, Fam007.11, 1, 2, 0/0,0],\n   [Fam007.20,Fam007.10, Fam007.11, 1,1,1/1,0]]"
   },
   "DataAttr402": {
     "id": "DataAttr402",
@@ -6944,11 +6944,11 @@
     "id": "DataAttr695",
     "evidenceDataId": "FamSegData196",
     "attributeId": "A083",
-    "value": "F008",
+    "value": "Fam008",
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "family",
     "attributeType": "Family",
-    "lookupValue": "F008"
+    "lookupValue": "Family #008"
   },
   "DataAttr696": {
     "id": "DataAttr696",
@@ -6963,10 +6963,10 @@
   "DataAttr697": {
     "id": "DataAttr697",
     "evidenceDataId": "FamSegData196",
-    "attributeId": "A085",
+    "attributeId": "A050",
     "value": 2.0,
     "evidenceDataName": "FamilySegregationData",
-    "attributeName": "phenotypeNegativeAllelePositive",
+    "attributeName": "phenotypePositiveAlleleNegative",
     "attributeType": "int",
     "lookupValue": 2
   },
@@ -7004,11 +7004,11 @@
     "id": "DataAttr701",
     "evidenceDataId": "FamSegData197",
     "attributeId": "A083",
-    "value": "F009",
+    "value": "Fam009",
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "family",
     "attributeType": "Family",
-    "lookupValue": "F009"
+    "lookupValue": "Family #009"
   },
   "DataAttr702": {
     "id": "DataAttr702",
@@ -7023,10 +7023,10 @@
   "DataAttr703": {
     "id": "DataAttr703",
     "evidenceDataId": "FamSegData197",
-    "attributeId": "A085",
+    "attributeId": "A050",
     "value": 1.0,
     "evidenceDataName": "FamilySegregationData",
-    "attributeName": "phenotypeNegativeAllelePositive",
+    "attributeName": "phenotypePositiveAlleleNegative",
     "attributeType": "int",
     "lookupValue": 1
   },
@@ -9359,5 +9359,65 @@
     "attributeName": "clinicalSignificance",
     "attributeType": "CodeableConcept",
     "lookupValue": "Pathogenic"
+  },
+  "DataAttr963": {
+    "id": "DataAttr963",
+    "evidenceDataId": "FamSegData271",
+    "attributeId": "A081",
+    "value": "Cond023",
+    "evidenceDataName": "FamilySegregationData",
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Hypertrophic Cardiomyopathy"
+  },
+  "DataAttr964": {
+    "id": "DataAttr964",
+    "evidenceDataId": "FamSegData271",
+    "attributeId": "A082",
+    "value": "CanAll090",
+    "evidenceDataName": "FamilySegregationData",
+    "attributeName": "canonicalAllele",
+    "attributeType": "CanonicalAllele",
+    "lookupValue": "NM_001103.3(ACTN2):c.1484C>T (p.Thr495Met)"
+  },
+  "DataAttr965": {
+    "id": "DataAttr965",
+    "evidenceDataId": "FamSegData271",
+    "attributeId": "A083",
+    "value": "Fam010",
+    "evidenceDataName": "FamilySegregationData",
+    "attributeName": "family",
+    "attributeType": "Family",
+    "lookupValue": "Fam010"
+  },
+  "DataAttr966": {
+    "id": "DataAttr966",
+    "evidenceDataId": "FamSegData271",
+    "attributeId": "A084",
+    "value": 0.0,
+    "evidenceDataName": "FamilySegregationData",
+    "attributeName": "phenotypePositiveAllelePositive",
+    "attributeType": "int",
+    "lookupValue": 0
+  },
+  "DataAttr967": {
+    "id": "DataAttr967",
+    "evidenceDataId": "FamSegData271",
+    "attributeId": "A050",
+    "value": 2.0,
+    "evidenceDataName": "FamilySegregationData",
+    "attributeName": "phenotypePositiveAlleleNegative",
+    "attributeType": "int",
+    "lookupValue": 2
+  },
+  "DataAttr968": {
+    "id": "DataAttr968",
+    "evidenceDataId": "FamSegData271",
+    "attributeId": "A110",
+    "value": 1,
+    "evidenceDataName": "FamilySegregationData",
+    "attributeName": "anyInconsistentSegregations",
+    "attributeType": "boolean",
+    "lookupValue": 1
   }
 }
