@@ -299,8 +299,9 @@
   "E35": {
     "id": "E35",
     "name": "VariantInterpretation",
+    "parentEntityTypeId": "E52",
     "link": "VarInterp",
-    "description": "*TODO* short description needed",
+    "description": "Evidence-based conclusion about the pathogenicity of a sequence variant",
     "group": "Grp005",
     "groupName": "Entities>VariantInterpretation"
   },

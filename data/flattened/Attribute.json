@@ -605,7 +605,8 @@
     "name": "phenotypePositiveAlleleNegative",
     "dataType": "int",
     "cardinality": "0..1",
-    "defaultValue": "null"
+    "defaultValue": "null",
+    "precedence": 1.0
   },
   "A051": {
     "id": "A051",
@@ -1339,7 +1340,7 @@
     "entityId": "E09",
     "name": "outcome",
     "dataType": "CodeableConcept",
-    "cardinality": "0..1",
+    "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetId": "VS011",
     "valueSetName": "AssessmentOutcome",
@@ -1435,14 +1436,14 @@
   "A124": {
     "id": "A124",
     "entityId": "E35",
-    "name": "guideline",
-    "dataType": "Guideline",
+    "name": "criteriaSet",
+    "dataType": "CriteriaSet",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 4.0,
-    "description": "The formal guideline that defines the methodology used in creating this interpretation.",
-    "fullyQualifiedName": "VariantInterpretation.guideline"
+    "description": "The  framework that formally defines the methodology used in creating this interpretation.",
+    "fullyQualifiedName": "VariantInterpretation.criteriaSet"
   },
   "A125": {
     "id": "A125",
@@ -1470,7 +1471,6 @@
   },
   "A127": {
     "id": "A127",
-    "entityId": "E35",
     "name": "interpretationText",
     "dataType": "String",
     "cardinality": "0..1",
@@ -1478,7 +1478,7 @@
     "valueSetName": "",
     "precedence": 6.0,
     "description": "A human-readable description of the reasoning behind the interpretation",
-    "fullyQualifiedName": "VariantInterpretation.interpretationText"
+    "fullyQualifiedName": "#N/A"
   },
   "A128": {
     "id": "A128",
@@ -1791,6 +1791,7 @@
     "name": "name",
     "dataType": "String",
     "cardinality": "0..1",
+    "precedence": 1.0,
     "fullyQualifiedName": "Condition.name"
   },
   "A158": {
@@ -1799,6 +1800,7 @@
     "name": "code",
     "dataType": "String",
     "cardinality": "0..1",
+    "precedence": 2.0,
     "fullyQualifiedName": "Condition.code"
   },
   "A159": {
@@ -1807,6 +1809,7 @@
     "name": "monarchCode",
     "dataType": "String",
     "cardinality": "0..1",
+    "precedence": 3.0,
     "fullyQualifiedName": "Condition.monarchCode"
   }
 }
