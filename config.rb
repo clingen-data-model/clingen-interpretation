@@ -185,7 +185,7 @@ helpers do
   end  
 
   def attributes_by_entity(entityId)  
-    data.google.Attribute.select do |k,v|
+    data.flattened.Attribute.select do |k,v|
       entityId == v.entityId
     end.map{|k,v| v}.sort_by { |a| a.precdedence }
   end

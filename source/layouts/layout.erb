@@ -107,9 +107,9 @@
               <%- title = current_page.data.title %>
               <%- description = current_page.data.description %>
             <% else %>
-              <%- entity = data.google.Entity[current_page.data.id] %>
-              <%- title = data.google.Entity[current_page.data.id].name %>
-              <%- description = data.google.Entity[current_page.data.id].description %>
+              <%- entity = data.flattened.Entity[current_page.data.id] %>
+              <%- title = data.flattened.Entity[current_page.data.id].name %>
+              <%- description = data.flattened.Entity[current_page.data.id].description %>
             <% end %>
             
             <h1><%= title %></h1>
