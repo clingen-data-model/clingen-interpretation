@@ -1,8 +1,14 @@
-{
-  "": {
+[
+  {
+    "referenceSequenceID": "RefSeq001",
+    "relatedType": "RO:0003000",
+    "relatedReferenceSequence": "RefSeq002",
+    "description": "#REF!"
+  },
+  {
     "referenceSequenceID": "RefSeq002",
     "relatedType": "RO:0003001",
     "relatedReferenceSequence": "RefSeq001",
     "description": "#REF!"
   }
-}
+]

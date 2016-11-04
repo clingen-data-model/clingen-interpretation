@@ -1469,17 +1469,6 @@
     "description": "The number of non-proband family members that have neither the allele nor the phenotype",
     "fullyQualifiedName": "FamilySegregationData.phenotypeNegativeAlleleNegative"
   },
-  "A127": {
-    "id": "A127",
-    "name": "interpretationText",
-    "dataType": "String",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 6.0,
-    "description": "A human-readable description of the reasoning behind the interpretation",
-    "fullyQualifiedName": "#N/A"
-  },
   "A128": {
     "id": "A128",
     "entityId": "E36",
