@@ -12,6 +12,15 @@ ACMG_CRITERION_ASSESS_EXAMPLES = "Criterion Assessment Examples.docx"
 ACMG_EXAMPLE_DATA_URL = "https://docs.google.com/spreadsheets/d/1fL3naWSpL_iDxkCN51g1CSLhXU6uAd1vwxZ0m1I4Zeg/pub?output=xlsx"
 ACMG_CRITERION_ASSESS_EXAMPLES_URL = "https://docs.google.com/document/d/1C7XDX0T5oB2TO3R4vy1wFuJCq0v-R66YKjZi3hiNbQU/export?format=doc"
 
+# These are tables used to link among Entities, for which there are no primary keys
+JOIN_TABLES = [
+	'ActivityAgentAssociation',
+	'ActivityUsedEntity',
+	'ContextualAlleleRelations',
+	'ReferenceSequenceRelations',
+	'Raw Condition By Example'
+]
+
 if ARGV[0] then
 	STDERR.puts "Reading from #{ARGV[0]}"
 	STDERR.puts "For a snapshot of the latest data, omit the static filename and it will download from the source GoogleSheet."
@@ -45,10 +54,12 @@ wb.worksheets.each do |ws|
 			.delete_if { |k, v| k.nil? || k.empty? || v.nil? }
 		sheet_data << row_data
 	end
-        sheet_hash = sheet_data.reduce({}) { |acc, r| acc.merge({r['id'] => r})}
-	raw_examples[ws.sheet_name] = sheet_hash
+	if !JOIN_TABLES.include? ws.sheet_name then
+		sheet_data = sheet_data.reduce({}) { |acc, r| acc.merge({r['id'] => r})}
+	end
+	raw_examples[ws.sheet_name] = sheet_data
 	json_file = File.open(FLAT_DATA_DIR+"/"+ws.sheet_name+".json", "w")
-	json_file.write(JSON.pretty_generate(sheet_hash))
+	json_file.write(JSON.pretty_generate(sheet_data))
 	json_file.close
 
 end
