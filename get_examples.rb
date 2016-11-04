@@ -52,7 +52,7 @@ wb.worksheets.each do |ws|
 		next if row.nil? || row.cells[0].nil? || row.cells[0].value.nil?
 		row_data = Hash[headers.zip(row.cells.map { |c| c && c.value })]
 			.delete_if { |k, v| k.nil? || k.empty? || v.nil? }
-		sheet_data << row_data
+		sheet_data << row_data if row_data.length > 1
 	end
 	if !JOIN_TABLES.include? ws.sheet_name then
 		sheet_data = sheet_data.reduce({}) { |acc, r| acc.merge({r['id'] => r})}
