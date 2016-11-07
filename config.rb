@@ -51,7 +51,11 @@ helpers do
 
   # Generate a link to a specific resource with text based on title
   def link_to_resource(resource)
-    link_to(resource.data.title, resource)
+    if (resource.data.id == nil)
+        link_to(resource.data.title, resource)
+    else
+        link_to(data.flattened.Entity[resource.data.id].name, resource)
+    end
   end
 
   # Return the path one level above the current path
@@ -108,7 +112,7 @@ helpers do
   def child_index(path)
     resource = sitemap.find_resource_by_path("#{path}/index.html")
     return "" if resource.children.size == 0
-    resource.children.each { |e| "<li>#{link_to e.data.title, e.url}</li>" }
+    resource.children.each { |e| "<li>#{link_to e.data.id, e.url}</li>" }
     index = resource.children.reduce("") { |a, e| a + "<li>#{link_to e.data.title, e.url}</li>" }
     "<ul>#{index}</ul>"
   end
