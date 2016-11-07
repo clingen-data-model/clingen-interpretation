@@ -42,6 +42,11 @@ end
 
 def apply_attributes(entity_id, in_record, out_record)
 	$entity_attributes[entity_id].each do |attribute|
+		# gnarly special case to avoid loops
+		if attribute['name'] === 'preferredCtxAllele' then
+			out_record['preferredCtxAllele'] = in_record['preferredCtxAllele']
+			next
+		end
 		if in_record.key? attribute['name'] then
 			out_record[attribute['name']] = convert_value(in_record[attribute['name']], attribute['dataType'])
 		end
@@ -95,4 +100,4 @@ $flattened['ActivityUsedEntity'].each do |aue|
 	((activity['used'] ||= {})[$flattened['Entity'][aue['usedEntityType']]['name']] ||= []).push($dmwgExamples[aue['usedEntityId']])
 end
 
-puts $dmwgExamples['VarInterp001'].to_yaml
+puts JSON.pretty_generate $dmwgExamples
