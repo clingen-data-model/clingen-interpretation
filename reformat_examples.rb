@@ -68,6 +68,11 @@ class DMWGExampleData
       end
     end
 
+    # need to fix the data type for Data subclasses
+    @flattened['Data'].each do |d_id, d_rec|
+      @id2example[d_id]['cg:type'] = @flattened['Entity'][d_rec['evidenceTypeId']]['name']
+    end
+
     # Now for the "join tables". Lots of ugly hard-coding here
     @flattened['DataAttribute'].each do |k, v|
       # FIXME - make sure inherited attributes are appropriately handled
