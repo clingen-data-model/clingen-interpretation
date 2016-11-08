@@ -1,13 +1,35 @@
 #!/usr/bin/ruby
 
+# Purpose: create a nicer, nested version of the ClinGen DMWG example data
+# Usage: ruby reformat_examples.rb [ids] [types]
+#
+# By default, reads in all the data from the 'data/flattened' directory
+# of the repository, and prints out a json-encoded hash of elements by their id
+#
+# Optional arguments could be types (in which case all elements of that type
+# are returned) or ids (so that those specific elements are returned)
+
 require 'json'
 require 'yaml'
 
 class DMWGExampleData
 
+  def by_id
+    @id2example
+  end
+
+  def by_type
+    unless @by_type 
+      @by_type = {}
+      by_id.each { |k, v| (by_type[v['cg:type']] ||= []).push v }     
+    end
+    @by_type
+  end
+
+
   def initialize(data_dir)
     # an "auto hash" to hold all of the examples
-    @id2example = Hash.new { |hash, key| hash[key] = {} }
+    @id2example = {}
 
     # slurp in all the json files in the `data_dir`
     @flattened = Hash[Dir["#{data_dir}/*.json"].collect { |jsonfile|
@@ -29,44 +51,42 @@ class DMWGExampleData
       if e_name === 'Entity' then next end
       ## FIXME Data sheet represents many different entities
       ## consider moving Data.explanation to DataAttribute table
-      if e_name === 'Data' then next end
       if @flattened.key? e_name then
-      # full fledged table for this entity (not a Data subtype)
-      @flattened[e_name].each do |id, rec|
-        ex = @id2example[id]
-        ex['@id'] = id
-        apply_attributes(e_id, rec, ex)
-        # handle inherited attributes
-        parent = e_rec['parentEntityTypeId']
-        while !!parent
-        apply_attributes(parent, rec, ex)
-        parent = @flattened['Entity'][parent]['parentEntityTypeId']
+        # full fledged table for this entity (not a Data subtype)
+        @flattened[e_name].each do |id, rec|
+          ex = @id2example[id] ||= {}
+          ex['cg:id'] = id
+          ex['cg:type'] = e_name
+          apply_attributes(e_id, rec, ex)
+          # handle inherited attributes
+          parent = e_rec['parentEntityTypeId']
+          while !!parent
+          apply_attributes(parent, rec, ex)
+          parent = @flattened['Entity'][parent]['parentEntityTypeId']
+          end
         end
-      end
       end
     end
 
-    # Now for the "join tables"
+    # Now for the "join tables". Lots of ugly hard-coding here
     @flattened['DataAttribute'].each do |k, v|
       # FIXME - make sure inherited attributes are appropriately handled
-      attribute = @flattened['Attribute'][v['attributeId']]
-      @id2example[v['evidenceDataId']]['@id'] = v['evidenceDataId']
-      @id2example[v['evidenceDataId']][attribute['name']] = convert_value(v['value'], attribute['dataType'])
+      data_id = v['evidenceDataId']
+      attribute_id = v['attributeId']
+      attribute = @flattened['Attribute'][attribute_id]
+      (@id2example[data_id] ||= {})['cg:id'] = data_id
+      @id2example[data_id][attribute['name']] = convert_value(v['value'], attribute['dataType'])
     end
 
     @flattened['ActivityAgentAssociation'].each do |aaa|
-      activity = @id2example[aaa['activityId']]
+      activity = @id2example[aaa['activityId']] ||= {}
       (activity['wasAssociatedWith'] ||= []).push({ 'agent' => aaa['wasAssociatedWith'], 'role' => @flattened['Attribute'][aaa['roleAttributeId']]['name']})
     end
 
     @flattened['ActivityUsedEntity'].each do |aue|
-      activity = @id2example[aue['activityId']]
+      activity = @id2example[aue['activityId']] ||= {}
       ((activity['used'] ||= {})[@flattened['Entity'][aue['usedEntityType']]['name']] ||= []).push(@id2example[aue['usedEntityId']])
     end
-  end
-
-  def by_id
-    return @id2example
   end
 
   private
@@ -74,20 +94,20 @@ class DMWGExampleData
   def convert_value(value, type)
     case type
     when 'String'
-    value
+      value
     when 'int'
-    value.to_i
+      value.to_i
     when 'float'
-    value.to_f
+      value.to_f
     when 'boolean'
-    !!value
+      !!value
     when '???' # These should be fixed in the upstream data
-    value
+      value
     when 'CodeableConcept'
     # FIXME
-    value
+      value
     else
-    @id2example[value]
+      @id2example[value]
     end
   end
 
@@ -95,19 +115,34 @@ class DMWGExampleData
   # reading data from in_record and modifying out_record in place
   def apply_attributes(entity_id, in_record, out_record)
     @entity2attributes[entity_id].each do |attribute|
-    # gnarly special case to avoid loops
-    if attribute['name'] === 'preferredCtxAllele' then
-      out_record['preferredCtxAllele'] = in_record['preferredCtxAllele']
-      next
-    end
-    if in_record.key? attribute['name'] then
-      out_record[attribute['name']] = convert_value(in_record[attribute['name']], attribute['dataType'])
-    end
+      # gnarly special case to avoid loops
+      if attribute['name'] === 'preferredCtxAllele' then
+        out_record['preferredCtxAllele'] = in_record['preferredCtxAllele']
+        next
+      end
+      if in_record.key? attribute['name'] then
+        out_record[attribute['name']] = convert_value(in_record[attribute['name']], attribute['dataType'])
+      end
     end
   end
 end
 
 if __FILE__ == $0
   examples = DMWGExampleData.new('data/flattened')
-  puts JSON.pretty_generate(examples.by_id['VarInterp001'])
+  if ARGV.empty?
+    puts JSON.pretty_generate(examples.by_id)
+  else
+    by_id = examples.by_id
+    by_type = examples.by_type
+    ARGV.each do |arg|
+      if by_id.key? arg
+        puts JSON.pretty_generate({ arg => by_id[arg] })
+      elsif by_type.key? arg
+        puts JSON.pretty_generate({ arg => by_type[arg] })
+      else
+        puts "// unable to find #{arg} as a type or id"
+      end
+      puts ";"
+    end
+  end
 end
