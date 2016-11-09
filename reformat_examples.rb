@@ -67,9 +67,13 @@ class DMWGExampleData
       end
     end
 
-    # need to fix the data type for Data subclasses
+    # need to fix the types for Data and Activity subclasses
     @flattened['Data'].each do |d_id, d_rec|
       @id2example[d_id]['cg:type'] = @flattened['Type'][d_rec['evidenceTypeId']]['name']
+    end
+
+    @flattened['Activity'].each do |a_id, a_rec|
+      @id2example[a_id]['cg:type'] = @flattened['Type'][a_rec['activityTypeId']]['name']
     end
 
     # Now for the "join tables". Lots of ugly hard-coding here
@@ -79,12 +83,18 @@ class DMWGExampleData
       attribute_id = v['attributeId']
       attribute = @flattened['Attribute'][attribute_id]
       (@id2example[data_id] ||= {})['cg:id'] = data_id
-      @id2example[data_id][attribute['name']] = convert_value(v['value'], attribute['dataType'])
+      if value_exists? v['value'] then
+        @id2example[data_id][attribute['name']] = convert_value(v['value'], attribute['dataType'])
+      end
     end
 
     @flattened['ActivityAgentAssociation'].each do |aaa|
       activity = @id2example[aaa['activityId']] ||= {}
-      (activity['wasAssociatedWith'] ||= []).push({ 'agent' => aaa['wasAssociatedWith'], 'role' => @flattened['Attribute'][aaa['roleAttributeId']]['name']})
+      associatedAgent = @id2example[aaa['wasAssociatedWith']] ||= { 'cg:id' => aaa['wasAssociatedWith'] }
+      (activity['wasAssociatedWith'] ||= []).push({
+        'agent' => associatedAgent,
+        'role' => @flattened['Attribute'][aaa['roleAttributeId']]['name']
+      })
     end
 
     @flattened['ActivityUsedEntity'].each do |aue|
@@ -105,13 +115,15 @@ class DMWGExampleData
       value.to_f
     when 'boolean'
       !!value
+    when 'yes/no/maybe'
+      value.nil? ? nil : !!value
     when '???' # These should be fixed in the upstream data
       value
     when 'CodeableConcept'
     # FIXME
       value
     else
-      @id2example[value]
+      @id2example[value] ||= { 'cg:id' => value }
     end
   end
 
@@ -124,10 +136,14 @@ class DMWGExampleData
         out_record['preferredCtxAllele'] = in_record['preferredCtxAllele']
         next
       end
-      if in_record.key? attribute['name'] then
+      if in_record.key?(attribute['name']) && value_exists?(in_record[attribute['name']]) then
         out_record[attribute['name']] = convert_value(in_record[attribute['name']], attribute['dataType'])
       end
     end
+  end
+
+  def value_exists?(value)
+    !(value.nil? || value === "")
   end
 end
 
