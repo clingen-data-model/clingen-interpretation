@@ -12,7 +12,7 @@
     "name": "MolecularConsequence",
     "parentEntityTypeId": "E01",
     "link": "MolCon",
-    "description": "*TODO* short description needed",
+    "description": "Classification of an Allele based on its effect on a product",
     "group": "Grp008",
     "groupName": "Data>MolecularConsequence"
   },
@@ -21,7 +21,7 @@
     "name": "ConditionMechanism",
     "parentEntityTypeId": "E01",
     "link": "CondMech",
-    "description": "*TODO* short description needed",
+    "description": "Qualitative information about the types of alleles that cause a condition",
     "group": "Grp008",
     "groupName": "Data>ConditionMechanism"
   },
@@ -30,7 +30,7 @@
     "name": "Criterion",
     "parentEntityTypeId": "E52",
     "link": "Crit",
-    "description": "*TODO* short description needed",
+    "description": "A single rule for evaluating data in an interpretation.",
     "group": "Grp007",
     "groupName": "Guidelines>Criterion"
   },
@@ -39,7 +39,7 @@
     "name": "CanonicalAllele",
     "parentEntityTypeId": "E52",
     "link": "CanAll",
-    "description": "*TODO* short description needed",
+    "description": "Reference-independent allele that groups multiple ContextualAlleles",
     "group": "Grp009",
     "groupName": "Core Concepts>CanonicalAllele"
   },
@@ -48,7 +48,7 @@
     "name": "ContextualAllele",
     "parentEntityTypeId": "E52",
     "link": "CtxAll",
-    "description": "*TODO* short description needed",
+    "description": "Reference-dependent allele description",
     "group": "Grp009",
     "groupName": "Core Concepts>ContextualAllele"
   },
@@ -57,7 +57,7 @@
     "name": "Gene",
     "parentEntityTypeId": "E52",
     "link": "G",
-    "description": "*TODO* short description needed",
+    "description": "A collection of transcripts",
     "group": "Grp009",
     "groupName": "Core Concepts>Gene"
   },
@@ -66,7 +66,7 @@
     "name": "Other",
     "parentEntityTypeId": "E01",
     "link": "Oth",
-    "description": "*TODO* short description needed",
+    "description": "Data that does not fit into another subclass",
     "group": "Grp008",
     "groupName": "Data>Other"
   },
@@ -126,7 +126,7 @@
     "name": "MendelianDiseaseVariantPathogenicityInterpretation",
     "parentEntityTypeId": "E01",
     "link": "MenDisVarInterp",
-    "description": "*TODO* short description needed",
+    "description": "A statement about the pathogenicity of a variant for a disease",
     "group": "Grp008",
     "groupName": "Data>MendelianDiseaseVariantPathogenicityInterpretation"
   },
@@ -134,7 +134,7 @@
     "id": "E16",
     "name": "Individual",
     "link": "Indiv",
-    "description": "*TODO* short description needed",
+    "description": "A particular person",
     "group": " ",
     "groupName": "#N/A"
   },
@@ -143,7 +143,7 @@
     "name": "IndividualCondition",
     "parentEntityTypeId": "E01",
     "link": "IndCond",
-    "description": "*TODO* short description needed",
+    "description": "Whether or not an Individual has a Condition",
     "group": "Grp008",
     "groupName": "Data>IndividualCondition"
   },
@@ -152,7 +152,7 @@
     "name": "FamilyHistory",
     "parentEntityTypeId": "E01",
     "link": "FamHist",
-    "description": "*TODO* short description needed",
+    "description": "Whether or not a Condition occurs in a given Family",
     "group": "Grp008",
     "groupName": "Data>FamilyHistory"
   },
@@ -161,7 +161,7 @@
     "name": "DeNovoAllele",
     "parentEntityTypeId": "E01",
     "link": "DeNovo",
-    "description": "*TODO* short description needed",
+    "description": "Whether or not a particular Allele is DeNovo in an Individual",
     "group": "Grp008",
     "groupName": "Data>DeNovoAllele"
   },
@@ -170,7 +170,7 @@
     "name": "FunctionalData",
     "parentEntityTypeId": "E01",
     "link": "Func",
-    "description": "*TODO* short description needed",
+    "description": "Data about the function of a gene product",
     "group": "Grp008",
     "groupName": "Data>FunctionalData"
   },
@@ -179,7 +179,7 @@
     "name": "CaseControl",
     "parentEntityTypeId": "E01",
     "link": "CaseCtrl",
-    "description": "*TODO* short description needed",
+    "description": "Allele frequencies as a function of case-control status",
     "group": "Grp008",
     "groupName": "Data>CaseControl"
   },
@@ -188,7 +188,7 @@
     "name": "GroupAlleleFrequency",
     "parentEntityTypeId": "E01",
     "link": "GAF",
-    "description": "*TODO* short description needed",
+    "description": "The frequency of an allele in a defined group of individuals",
     "group": "Grp008",
     "groupName": "Data>GroupAlleleFrequency"
   },
@@ -197,7 +197,7 @@
     "name": "PopulationAlleleFrequency",
     "parentEntityTypeId": "E01",
     "link": "PAF",
-    "description": "*TODO* short description needed",
+    "description": "The frequency of an allele in a population",
     "group": "Grp008",
     "groupName": "Data>PopulationAlleleFrequency"
   },
@@ -230,7 +230,7 @@
     "name": "ConditionInheritance",
     "parentEntityTypeId": "E01",
     "link": "CondInh",
-    "description": "*TODO* short description needed",
+    "description": "Mode of inheritance for a particular condition",
     "group": "Grp008",
     "groupName": "Data>ConditionInheritance"
   },
@@ -239,7 +239,7 @@
     "name": "IndividualAllele",
     "parentEntityTypeId": "E01",
     "link": "IndAll",
-    "description": "*TODO* short description needed",
+    "description": "Whether or not an Individual has an allele",
     "group": "Grp008",
     "groupName": "Data>IndividualAllele"
   },
@@ -277,7 +277,7 @@
     "id": "E32",
     "name": "Guideline",
     "link": "Guide",
-    "description": "*TODO* short description needed",
+    "description": "The set of rules describing how to create an interpretation from a set of Data.",
     "group": "Grp007",
     "groupName": "Guidelines>Guideline"
   },
@@ -285,7 +285,7 @@
     "id": "E33",
     "name": "GuidelineAlgorithm",
     "link": "GuideAlg",
-    "description": "*TODO* short description needed",
+    "description": "The rules for combining CriterionAssessments into an Interpretation",
     "group": "Grp007",
     "groupName": "Guidelines>GuidelineAlgorithm"
   },
@@ -308,8 +308,9 @@
   "E36": {
     "id": "E36",
     "name": "DataSource",
+    "parentEntityTypeId": "E52",
     "link": "DataSrc",
-    "description": "*TODO* short description needed",
+    "description": "Citation for a Data entity",
     "group": "Grp005",
     "groupName": "Entities>DataSource"
   },
@@ -362,7 +363,7 @@
     "name": "RegionContainsAllele",
     "parentEntityTypeId": "E01",
     "link": "RegAll",
-    "description": "*TODO* short description needed",
+    "description": "Whether or not a sequence region contains a given allele.",
     "group": "Grp008",
     "groupName": "Data>RegionContainsAllele"
   },
@@ -371,7 +372,7 @@
     "name": "BenignMissenseVariationRate",
     "parentEntityTypeId": "E01",
     "link": "BMVR",
-    "description": "*TODO* short description needed",
+    "description": "The amount of benign missense variation in a particular region",
     "group": "Grp008",
     "groupName": "Data>BenignMissenseVariationRate"
   },
@@ -379,7 +380,7 @@
     "id": "E44",
     "name": "Family",
     "link": "Fam",
-    "description": "*TODO* short description needed",
+    "description": "A group of individuals related in a known manner.",
     "groupName": "#N/A"
   },
   "E45": {
@@ -387,7 +388,7 @@
     "name": "FamilySegregationData",
     "parentEntityTypeId": "E01",
     "link": "FamSegData",
-    "description": "*TODO* short description needed",
+    "description": "Cosegregation of an allele and a condition in a single family",
     "group": "Grp008",
     "groupName": "Data>FamilySegregationData"
   },
@@ -396,7 +397,7 @@
     "name": "AggregationSegregationData",
     "parentEntityTypeId": "E01",
     "link": "AggSegData",
-    "description": "*TODO* short description needed",
+    "description": "Cosegregation of an allele and a condition aggregated across families",
     "group": "Grp008",
     "groupName": "Data>AggregationSegregationData"
   },
@@ -405,7 +406,7 @@
     "name": "InSilicoPrediction",
     "parentEntityTypeId": "E01",
     "link": "InSilicoPred",
-    "description": "*TODO* short description needed",
+    "description": "Computationally predicted functional impact of an allele",
     "group": "Grp008",
     "groupName": "Data>InSilicoPrediction"
   },
@@ -423,7 +424,7 @@
     "name": "ConditionPrevelance",
     "parentEntityTypeId": "E01",
     "link": "CondPrev",
-    "description": "*TODO* short description needed",
+    "description": "Frequency of a condition in a population",
     "group": "Grp008",
     "groupName": "Data>ConditionPrevelance"
   },
@@ -432,7 +433,7 @@
     "name": "ConditionPenetrance",
     "parentEntityTypeId": "E01",
     "link": "CondPenet",
-    "description": "*TODO* short description needed",
+    "description": "Qualitative characterization of a condition's penetrance",
     "group": "Grp008",
     "groupName": "Data>ConditionPenetrance"
   },
@@ -441,7 +442,7 @@
     "name": "Conservation",
     "parentEntityTypeId": "E01",
     "link": "Conserv",
-    "description": "*TODO* short description needed",
+    "description": "Characterizes whether the allele is fixed across species",
     "group": "Grp008",
     "groupName": "Data>Conservation"
   },

@@ -362,8 +362,8 @@
     "id": "A030",
     "entityId": "E23",
     "name": "ascertainment",
-    "dataType": "???",
-    "cardinality": "0..1",
+    "dataType": "CodeableConcept",
+    "cardinality": "???",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 3.0,
@@ -629,6 +629,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "Sequence on which the region is defined",
     "fullyQualifiedName": "ContextualRegion.referenceSequence"
   },
   "A053": {
@@ -640,6 +641,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 2.0,
+    "description": "Start of the region in 0-based coordinates",
     "fullyQualifiedName": "ContextualRegion.start"
   },
   "A054": {
@@ -651,6 +653,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 3.0,
+    "description": "End of the region in 0-based coordinates",
     "fullyQualifiedName": "ContextualRegion.stop"
   },
   "A055": {
@@ -662,6 +665,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "Contextual Region that is being described",
     "fullyQualifiedName": "RegionAnnotation.region"
   },
   "A056": {
@@ -696,6 +700,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "Alleles that are within the region",
     "fullyQualifiedName": "RegionAnnotation.containedAlleles"
   },
   "A059": {
@@ -708,6 +713,7 @@
     "valueSetId": "VS013",
     "valueSetName": "PopulationType",
     "precedence": 2.0,
+    "description": "Population over which the frequency was measured",
     "fullyQualifiedName": "PopulationAlleleFrequency.population"
   },
   "A060": {
@@ -719,6 +725,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 4.0,
+    "description": "Frequency of the named allele in the population",
     "fullyQualifiedName": "PopulationAlleleFrequency.alleleFrequency"
   },
   "A061": {
@@ -730,6 +737,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 8.0,
+    "description": "Number of individuals that are homozygous for the allele in the data set",
     "fullyQualifiedName": "PopulationAlleleFrequency.homozygousAlleleIndividualCount"
   },
   "A062": {
@@ -741,6 +749,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 9.0,
+    "description": "Median coverage at the allele site in the data set",
     "fullyQualifiedName": "PopulationAlleleFrequency.medianCoverage"
   },
   "A063": {
@@ -752,6 +761,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "Condition for which inheritance is defined",
     "fullyQualifiedName": "ConditionInheritance.condition"
   },
   "A064": {
@@ -764,6 +774,7 @@
     "valueSetId": "VS007",
     "valueSetName": "ModeOfInheritance",
     "precedence": 3.0,
+    "description": "Mode of inheritance for the condition, as defined in HP terms",
     "fullyQualifiedName": "ConditionInheritance.modeOfInheritance"
   },
   "A065": {
@@ -775,6 +786,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "Person whose alleles the data represents",
     "fullyQualifiedName": "IndividualAllele.individual"
   },
   "A066": {
@@ -786,6 +798,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 2.0,
+    "description": "One allele that the person has",
     "fullyQualifiedName": "IndividualAllele.primaryAllele"
   },
   "A067": {
@@ -797,6 +810,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 4.0,
+    "description": "A second allele that the person has",
     "fullyQualifiedName": "IndividualAllele.secondaryAllele"
   },
   "A068": {
@@ -809,6 +823,7 @@
     "valueSetId": "VS006",
     "valueSetName": "AllelicState",
     "precedence": 3.0,
+    "description": "Zygosity of the primary allele in the individual",
     "fullyQualifiedName": "IndividualAllele.primaryZygosity"
   },
   "A069": {
@@ -821,6 +836,7 @@
     "valueSetId": "VS006",
     "valueSetName": "AllelicState",
     "precedence": 5.0,
+    "description": "Zygosity of the secondary allele in the individual",
     "fullyQualifiedName": "IndividualAllele.secondaryZygosity"
   },
   "A070": {
@@ -833,6 +849,7 @@
     "valueSetId": "VS005",
     "valueSetName": "Phase",
     "precedence": 6.0,
+    "description": "Phase of the primary and secondary individual",
     "fullyQualifiedName": "IndividualAllele.phase"
   },
   "A071": {
@@ -844,6 +861,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 2.0,
+    "description": "Condition causing gene on which the inheritance depends",
     "fullyQualifiedName": "ConditionInheritance.gene"
   },
   "A072": {
@@ -899,6 +917,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "A region on a reference sequence",
     "fullyQualifiedName": "RegionContainsAllele.contextualRegion"
   },
   "A077": {
@@ -910,6 +929,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 2.0,
+    "description": "An allele on the reference sequence",
     "fullyQualifiedName": "RegionContainsAllele.contextualAllele"
   },
   "A078": {
@@ -921,6 +941,7 @@
     "defaultValue": 1,
     "valueSetName": "",
     "precedence": 3.0,
+    "description": "Whether or not the allele lies within the region",
     "fullyQualifiedName": "RegionContainsAllele.value"
   },
   "A079": {
@@ -932,6 +953,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 2.0,
+    "description": "A region on a reference sequence",
     "fullyQualifiedName": "BenignMissenseVariationRate.region"
   },
   "A080": {
@@ -944,6 +966,7 @@
     "valueSetId": "VS012",
     "valueSetName": "FunctionalDataType",
     "precedence": 3.0,
+    "description": "The rate at which Benign missense variants occur within the region",
     "fullyQualifiedName": "BenignMissenseVariationRate.value"
   },
   "A081": {
@@ -955,6 +978,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 2.0,
+    "description": "Condition being tested for cosegregation",
     "fullyQualifiedName": "FamilySegregationData.condition"
   },
   "A082": {
@@ -966,6 +990,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "Allele being tested for cosegregation",
     "fullyQualifiedName": "FamilySegregationData.canonicalAllele"
   },
   "A083": {
@@ -977,6 +1002,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 3.0,
+    "description": "Family in which segregation is being tested",
     "fullyQualifiedName": "FamilySegregationData.family"
   },
   "A084": {
@@ -988,6 +1014,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 4.0,
+    "description": "Number of (non-proband) individuals with both the condition and the allele",
     "fullyQualifiedName": "FamilySegregationData.phenotypePositiveAllelePositive"
   },
   "A085": {
@@ -999,6 +1026,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 5.0,
+    "description": "Number of (non-proband) individuals without the condition and with the allele",
     "fullyQualifiedName": "FamilySegregationData.phenotypeNegativeAllelePositive"
   },
   "A086": {
@@ -1010,6 +1038,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 2.0,
+    "description": "Condition being tested for cosegregation",
     "fullyQualifiedName": "AggregationSegregationData.condition"
   },
   "A087": {
@@ -1021,6 +1050,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "Allele being tested for cosegregation",
     "fullyQualifiedName": "AggregationSegregationData.canonicalAllele"
   },
   "A088": {
@@ -1032,6 +1062,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 4.0,
+    "description": "List of FamilySegregrationData that have been aggregated",
     "fullyQualifiedName": "AggregationSegregationData.familySegregationData"
   },
   "A089": {
@@ -1043,6 +1074,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 3.0,
+    "description": "Total number of segregations across families",
     "fullyQualifiedName": "AggregationSegregationData.totalNumberOfSegregations"
   },
   "A090": {
@@ -1098,6 +1130,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "Gene that contains the missense variants",
     "fullyQualifiedName": "BenignMissenseVariationRate.gene"
   },
   "A095": {
@@ -1109,6 +1142,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 7.0,
+    "description": "Whether the mechanism is common cause of the condition",
     "fullyQualifiedName": "ConditionMechanism.common"
   },
   "A096": {
@@ -1120,6 +1154,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "The contextual allele on which the prediction is made",
     "fullyQualifiedName": "InSilicoPrediction.contextualAllele"
   },
   "A097": {
@@ -1132,6 +1167,7 @@
     "valueSetId": "VS012",
     "valueSetName": "FunctionalDataType",
     "precedence": 3.0,
+    "description": "The type of prediction being made",
     "fullyQualifiedName": "InSilicoPrediction.type"
   },
   "A098": {
@@ -1143,6 +1179,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 2.0,
+    "description": "The computational tool or algorithm that makes the prediction",
     "fullyQualifiedName": "InSilicoPrediction.tool"
   },
   "A099": {
@@ -1154,6 +1191,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 4.0,
+    "description": "The value of the prediction",
     "fullyQualifiedName": "InSilicoPrediction.value"
   },
   "A100": {
@@ -1165,6 +1203,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "The condition for which the eitiology is defined",
     "fullyQualifiedName": "ConditionEtiology.condition"
   },
   "A101": {
@@ -1198,6 +1237,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "Condition for which the prevelance is described",
     "fullyQualifiedName": "ConditionPrevelance.condition"
   },
   "A104": {
@@ -1209,6 +1249,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 3.0,
+    "description": "Minimum bound on the condition's prevelance",
     "fullyQualifiedName": "ConditionPrevelance.minimum"
   },
   "A105": {
@@ -1220,6 +1261,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 4.0,
+    "description": "Maximum bound on the condition's prevelance",
     "fullyQualifiedName": "ConditionPrevelance.maximum"
   },
   "A106": {
@@ -1232,6 +1274,7 @@
     "valueSetId": "VS013",
     "valueSetName": "PopulationType",
     "precedence": 2.0,
+    "description": "Population over which the prevelance is defined",
     "fullyQualifiedName": "ConditionPrevelance.population"
   },
   "A107": {
@@ -1243,6 +1286,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "Condition for which the penetrance is described",
     "fullyQualifiedName": "ConditionPenetrance.condition"
   },
   "A108": {
@@ -1255,6 +1299,7 @@
     "valueSetId": "VS015",
     "valueSetName": "PenetranceType",
     "precedence": 2.0,
+    "description": "Qualitative penetrance value",
     "fullyQualifiedName": "ConditionPenetrance.penetrance"
   },
   "A109": {
@@ -1266,6 +1311,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 5.0,
+    "description": "Prevelance of the condition in the population",
     "fullyQualifiedName": "ConditionPrevelance.value"
   },
   "A110": {
@@ -1277,6 +1323,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 10.0,
+    "description": "Whether phenotype positive/allele negative or phenotype negative/allele positive individuals are in the family",
     "fullyQualifiedName": "FamilySegregationData.anyInconsistentSegregations"
   },
   "A111": {
@@ -1288,6 +1335,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "The allele for which conservation values are given",
     "fullyQualifiedName": "Conservation.allele"
   },
   "A112": {
@@ -1299,6 +1347,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 4.0,
+    "description": "Whether the allele is conserved",
     "fullyQualifiedName": "Conservation.conserved"
   },
   "A113": {
@@ -1310,6 +1359,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 2.0,
+    "description": "Method or program used to calculate conservation",
     "fullyQualifiedName": "Conservation.method"
   },
   "A114": {
@@ -1321,6 +1371,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 3.0,
+    "description": "Numerical score for the conservation of the allele",
     "fullyQualifiedName": "Conservation.score"
   },
   "A115": {
@@ -1424,7 +1475,7 @@
     "id": "A123",
     "entityId": "E35",
     "name": "interpretationCode",
-    "dataType": "CodableConcept",
+    "dataType": "CodeableConcept",
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetId": "VS003",
@@ -1474,11 +1525,12 @@
     "entityId": "E36",
     "name": "dataSourceType",
     "dataType": "CodableConcept",
-    "cardinality": "0..1",
+    "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetId": "VS001",
     "valueSetName": "DataSourceType",
     "precedence": 1.0,
+    "description": "Classification of Data Source",
     "fullyQualifiedName": "DataSource.dataSourceType"
   },
   "A129": {
@@ -1486,10 +1538,11 @@
     "entityId": "E36",
     "name": "externalIdentifier",
     "dataType": "String",
-    "cardinality": "0..1",
+    "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 2.0,
+    "description": "Indentifier of the Data element in the DataSource",
     "fullyQualifiedName": "DataSource.externalIdentifier"
   },
   "A130": {
@@ -1501,6 +1554,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 3.0,
+    "description": "IRI of the Data element",
     "fullyQualifiedName": "DataSource.linkedIRI"
   },
   "A131": {
@@ -1512,6 +1566,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 4.0,
+    "description": "Version of the Data Source from which the Data was retrieved",
     "fullyQualifiedName": "DataSource.version"
   },
   "A132": {
@@ -1545,6 +1600,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 3.0,
+    "description": "The Agent that performed the Activity",
     "fullyQualifiedName": "Activity.wasAssociatedWith"
   },
   "A135": {
