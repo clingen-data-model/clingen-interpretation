@@ -109,6 +109,8 @@ class DMWGExampleData
     case type
     when 'String'
       value
+    when 'Date'
+      value
     when 'int'
       value.to_i
     when 'float'
