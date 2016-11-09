@@ -2,7 +2,7 @@
   "E01": {
     "id": "E01",
     "name": "Data",
-    "parentEntityTypeId": "E52",
+    "parentType": "E52",
     "link": "Data",
     "description": "The structured supporting data that can be used to assess criterion in the context of a given interpretation guideline.",
     "groupName": "#N/A"
@@ -10,7 +10,7 @@
   "E02": {
     "id": "E02",
     "name": "MolecularConsequence",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "MolCon",
     "description": "Classification of an Allele based on its effect on a product",
     "group": "Grp008",
@@ -19,7 +19,7 @@
   "E03": {
     "id": "E03",
     "name": "ConditionMechanism",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "CondMech",
     "description": "Qualitative information about the types of alleles that cause a condition",
     "group": "Grp008",
@@ -28,7 +28,7 @@
   "E04": {
     "id": "E04",
     "name": "Criterion",
-    "parentEntityTypeId": "E52",
+    "parentType": "E52",
     "link": "Crit",
     "description": "A single rule for evaluating data in an interpretation.",
     "group": "Grp007",
@@ -37,7 +37,7 @@
   "E05": {
     "id": "E05",
     "name": "CanonicalAllele",
-    "parentEntityTypeId": "E52",
+    "parentType": "E52",
     "link": "CanAll",
     "description": "Reference-independent allele that groups multiple ContextualAlleles",
     "group": "Grp009",
@@ -46,7 +46,7 @@
   "E06": {
     "id": "E06",
     "name": "ContextualAllele",
-    "parentEntityTypeId": "E52",
+    "parentType": "E52",
     "link": "CtxAll",
     "description": "Reference-dependent allele description",
     "group": "Grp009",
@@ -55,7 +55,7 @@
   "E07": {
     "id": "E07",
     "name": "Gene",
-    "parentEntityTypeId": "E52",
+    "parentType": "E52",
     "link": "G",
     "description": "A collection of transcripts",
     "group": "Grp009",
@@ -64,7 +64,7 @@
   "E08": {
     "id": "E08",
     "name": "Other",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "Oth",
     "description": "Data that does not fit into another subclass",
     "group": "Grp008",
@@ -73,7 +73,7 @@
   "E09": {
     "id": "E09",
     "name": "CriterionAssessment",
-    "parentEntityTypeId": "E52",
+    "parentType": "E52",
     "link": "CritAssess",
     "description": "Intermediate interpretation of a line of evidence",
     "group": "Grp005",
@@ -90,7 +90,7 @@
   "E11": {
     "id": "E11",
     "name": "AssessCriterion",
-    "parentEntityTypeId": "E10",
+    "parentType": "E10",
     "link": "AssessCrit",
     "imageFile": "assess_criterion.svg",
     "description": "*TODO* short description needed",
@@ -115,7 +115,7 @@
   "E14": {
     "id": "E14",
     "name": "Condition",
-    "parentEntityTypeId": "E52",
+    "parentType": "E52",
     "link": "Cond",
     "description": "*TODO* short description needed",
     "group": "Grp009",
@@ -124,7 +124,7 @@
   "E15": {
     "id": "E15",
     "name": "MendelianDiseaseVariantPathogenicityInterpretation",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "MenDisVarInterp",
     "description": "A statement about the pathogenicity of a variant for a disease",
     "group": "Grp008",
@@ -141,7 +141,7 @@
   "E17": {
     "id": "E17",
     "name": "IndividualCondition",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "IndCond",
     "description": "Whether or not an Individual has a Condition",
     "group": "Grp008",
@@ -150,7 +150,7 @@
   "E18": {
     "id": "E18",
     "name": "FamilyHistory",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "FamHist",
     "description": "Whether or not a Condition occurs in a given Family",
     "group": "Grp008",
@@ -159,7 +159,7 @@
   "E19": {
     "id": "E19",
     "name": "DeNovoAllele",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "DeNovo",
     "description": "Whether or not a particular Allele is DeNovo in an Individual",
     "group": "Grp008",
@@ -168,7 +168,7 @@
   "E20": {
     "id": "E20",
     "name": "FunctionalData",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "Func",
     "description": "Data about the function of a gene product",
     "group": "Grp008",
@@ -177,7 +177,7 @@
   "E21": {
     "id": "E21",
     "name": "CaseControl",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "CaseCtrl",
     "description": "Allele frequencies as a function of case-control status",
     "group": "Grp008",
@@ -186,7 +186,7 @@
   "E22": {
     "id": "E22",
     "name": "GroupAlleleFrequency",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "GAF",
     "description": "The frequency of an allele in a defined group of individuals",
     "group": "Grp008",
@@ -195,7 +195,7 @@
   "E23": {
     "id": "E23",
     "name": "PopulationAlleleFrequency",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "PAF",
     "description": "The frequency of an allele in a population",
     "group": "Grp008",
@@ -204,7 +204,7 @@
   "E24": {
     "id": "E24",
     "name": "RegionAnnotation",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "RegAnno",
     "description": "*TODO* short description needed",
     "group": "Grp008",
@@ -228,7 +228,7 @@
   "E27": {
     "id": "E27",
     "name": "ConditionInheritance",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "CondInh",
     "description": "Mode of inheritance for a particular condition",
     "group": "Grp008",
@@ -237,7 +237,7 @@
   "E28": {
     "id": "E28",
     "name": "IndividualAllele",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "IndAll",
     "description": "Whether or not an Individual has an allele",
     "group": "Grp008",
@@ -246,7 +246,7 @@
   "E29": {
     "id": "E29",
     "name": "CaptureData",
-    "parentEntityTypeId": "E10",
+    "parentType": "E10",
     "link": "CapData",
     "imageFile": "capture_evidence_data.svg",
     "description": "*TODO* A short description about capture evidence activity.",
@@ -256,7 +256,7 @@
   "E30": {
     "id": "E30",
     "name": "GenerateVariantInterpretation",
-    "parentEntityTypeId": "E10",
+    "parentType": "E10",
     "link": "GenVarInterp",
     "imageFile": "generate_variant_interpretation.svg",
     "description": "*TODO* A short description about generate variant interpretation activity.",
@@ -266,7 +266,7 @@
   "E31": {
     "id": "E31",
     "name": "PublishVariantInterpretation",
-    "parentEntityTypeId": "E10",
+    "parentType": "E10",
     "link": "PubVarInterp",
     "imageFile": "publish_variant_interpretation.svg",
     "description": "*TODO* A short description about publish variant interpretation activity.",
@@ -299,7 +299,7 @@
   "E35": {
     "id": "E35",
     "name": "VariantInterpretation",
-    "parentEntityTypeId": "E52",
+    "parentType": "E52",
     "link": "VarInterp",
     "description": "Evidence-based conclusion about the pathogenicity of a sequence variant",
     "group": "Grp005",
@@ -308,7 +308,7 @@
   "E36": {
     "id": "E36",
     "name": "DataSource",
-    "parentEntityTypeId": "E52",
+    "parentType": "E52",
     "link": "DataSrc",
     "description": "Citation for a Data entity",
     "group": "Grp005",
@@ -325,7 +325,7 @@
   "E38": {
     "id": "E38",
     "name": "Capturer",
-    "parentEntityTypeId": "E12",
+    "parentType": "E12",
     "link": "Capturer",
     "description": "*TODO* short description needed",
     "group": "Grp006",
@@ -334,7 +334,7 @@
   "E39": {
     "id": "E39",
     "name": "Assessor",
-    "parentEntityTypeId": "E12",
+    "parentType": "E12",
     "link": "Assessor",
     "description": "*TODO* short description needed",
     "group": "Grp006",
@@ -343,7 +343,7 @@
   "E40": {
     "id": "E40",
     "name": "Generator",
-    "parentEntityTypeId": "E12",
+    "parentType": "E12",
     "link": "Generator",
     "description": "*TODO* short description needed",
     "group": "Grp006",
@@ -352,7 +352,7 @@
   "E41": {
     "id": "E41",
     "name": "Publisher",
-    "parentEntityTypeId": "E12",
+    "parentType": "E12",
     "link": "Publisher",
     "description": "*TODO* short description needed",
     "group": "Grp006",
@@ -361,7 +361,7 @@
   "E42": {
     "id": "E42",
     "name": "RegionContainsAllele",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "RegAll",
     "description": "Whether or not a sequence region contains a given allele.",
     "group": "Grp008",
@@ -370,7 +370,7 @@
   "E43": {
     "id": "E43",
     "name": "BenignMissenseVariationRate",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "BMVR",
     "description": "The amount of benign missense variation in a particular region",
     "group": "Grp008",
@@ -386,7 +386,7 @@
   "E45": {
     "id": "E45",
     "name": "FamilySegregationData",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "FamSegData",
     "description": "Cosegregation of an allele and a condition in a single family",
     "group": "Grp008",
@@ -395,7 +395,7 @@
   "E46": {
     "id": "E46",
     "name": "AggregationSegregationData",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "AggSegData",
     "description": "Cosegregation of an allele and a condition aggregated across families",
     "group": "Grp008",
@@ -404,7 +404,7 @@
   "E47": {
     "id": "E47",
     "name": "InSilicoPrediction",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "InSilicoPred",
     "description": "Computationally predicted functional impact of an allele",
     "group": "Grp008",
@@ -413,7 +413,7 @@
   "E48": {
     "id": "E48",
     "name": "ConditionEtiology",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "CondEtiol",
     "description": "*TODO* short description needed",
     "group": "Grp008",
@@ -422,7 +422,7 @@
   "E49": {
     "id": "E49",
     "name": "ConditionPrevelance",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "CondPrev",
     "description": "Frequency of a condition in a population",
     "group": "Grp008",
@@ -431,7 +431,7 @@
   "E50": {
     "id": "E50",
     "name": "ConditionPenetrance",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "CondPenet",
     "description": "Qualitative characterization of a condition's penetrance",
     "group": "Grp008",
@@ -440,7 +440,7 @@
   "E51": {
     "id": "E51",
     "name": "Conservation",
-    "parentEntityTypeId": "E01",
+    "parentType": "E01",
     "link": "Conserv",
     "description": "Characterizes whether the allele is fixed across species",
     "group": "Grp008",

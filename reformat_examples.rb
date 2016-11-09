@@ -45,10 +45,9 @@ class DMWGExampleData
       a_recs.sort_by! { |x| x['precedence'] || 0}
     end
 
-    # Process the `Entity` sheet
-    @flattened['Entity'].each do |e_id, e_rec|
+    # Process the `Type` sheet
+    @flattened['Type'].each do |e_id, e_rec|
       e_name = e_rec['name']
-      if e_name === 'Entity' then next end
       ## FIXME Data sheet represents many different entities
       ## consider moving Data.explanation to DataAttribute table
       if @flattened.key? e_name then
@@ -59,10 +58,10 @@ class DMWGExampleData
           ex['cg:type'] = e_name
           apply_attributes(e_id, rec, ex)
           # handle inherited attributes
-          parent = e_rec['parentEntityTypeId']
+          parent = e_rec['parentType']
           while !!parent
-          apply_attributes(parent, rec, ex)
-          parent = @flattened['Entity'][parent]['parentEntityTypeId']
+            apply_attributes(parent, rec, ex)
+            parent = @flattened['Type'][parent]['parentType']
           end
         end
       end
@@ -70,7 +69,7 @@ class DMWGExampleData
 
     # need to fix the data type for Data subclasses
     @flattened['Data'].each do |d_id, d_rec|
-      @id2example[d_id]['cg:type'] = @flattened['Entity'][d_rec['evidenceTypeId']]['name']
+      @id2example[d_id]['cg:type'] = @flattened['Type'][d_rec['evidenceTypeId']]['name']
     end
 
     # Now for the "join tables". Lots of ugly hard-coding here
@@ -90,7 +89,7 @@ class DMWGExampleData
 
     @flattened['ActivityUsedEntity'].each do |aue|
       activity = @id2example[aue['activityId']] ||= {}
-      ((activity['used'] ||= {})[@flattened['Entity'][aue['usedEntityType']]['name']] ||= []).push(@id2example[aue['usedEntityId']])
+      ((activity['used'] ||= {})[@flattened['Type'][aue['usedEntityType']]['name']] ||= []).push(@id2example[aue['usedEntityId']])
     end
   end
 

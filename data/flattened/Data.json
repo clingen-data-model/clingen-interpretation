@@ -194,7 +194,7 @@
     "id": "CaseCtrl036",
     "evidenceTypeId": "E21",
     "explanation": "Odds ratio is calculated by pooling samples from the six GENIUS T2D cohorts before calculation.",
-    "wasGeneratedByActivityId": "CaptureEv073",
+    "wasGeneratedBy": "CaptureEv073",
     "evidenceType": "CaseControl"
   },
   "RegAll037": {
@@ -222,7 +222,7 @@
     "id": "MenDisVarInterp042",
     "evidenceTypeId": "E15",
     "explanation": "Uncertain Sig(not specified) NM_000363.4(TNNI3):c.484C>T (p.Arg162Trp)",
-    "wasGeneratedByActivityId": "CaptureEvXX",
+    "wasGeneratedBy": "CaptureEvXX",
     "evidenceType": "MendelianDiseaseVariantPathogenicityInterpretation"
   },
   "RegAnno043": {
@@ -284,26 +284,26 @@
   "CondInh055": {
     "id": "CondInh055",
     "evidenceTypeId": "E27",
-    "wasGeneratedByActivityId": "CaptureEv076",
+    "wasGeneratedBy": "CaptureEv076",
     "evidenceType": "ConditionInheritance"
   },
   "IndCond056": {
     "id": "IndCond056",
     "evidenceTypeId": "E17",
-    "wasGeneratedByActivityId": "CaptureEv077",
+    "wasGeneratedBy": "CaptureEv077",
     "evidenceType": "IndividualCondition"
   },
   "MenDisVarInterp057": {
     "id": "MenDisVarInterp057",
     "evidenceTypeId": "E15",
-    "wasGeneratedByActivityId": "CaptureEv078",
+    "wasGeneratedBy": "CaptureEv078",
     "evidenceType": "MendelianDiseaseVariantPathogenicityInterpretation"
   },
   "IndAll058": {
     "id": "IndAll058",
     "evidenceTypeId": "E28",
     "explanation": "Father was het for c.9449delG variant and negative for c.7468_7488del variant. Mother was het for c.7468_7488del variant and negative for c.9449delG variant. Thus, variants are in trans in this proband.",
-    "wasGeneratedByActivityId": "CaptureEv077",
+    "wasGeneratedBy": "CaptureEv077",
     "evidenceType": "IndividualAllele"
   },
   "MenDisVarInterp059": {
@@ -345,7 +345,7 @@
   "MolCon066": {
     "id": "MolCon066",
     "evidenceTypeId": "E02",
-    "wasGeneratedByActivityId": "CaptureEv079",
+    "wasGeneratedBy": "CaptureEv079",
     "evidenceType": "MolecularConsequence"
   },
   "RegAll067": {
@@ -356,7 +356,7 @@
   "RegAnno069": {
     "id": "RegAnno069",
     "evidenceTypeId": "E24",
-    "wasGeneratedByActivityId": "CaptureEv080",
+    "wasGeneratedBy": "CaptureEv080",
     "evidenceType": "RegionAnnotation"
   },
   "MolCon070": {
@@ -387,13 +387,13 @@
   "MenDisVarInterp078": {
     "id": "MenDisVarInterp078",
     "evidenceTypeId": "E15",
-    "wasGeneratedByActivityId": "CaptureEvXX",
+    "wasGeneratedBy": "CaptureEvXX",
     "evidenceType": "MendelianDiseaseVariantPathogenicityInterpretation"
   },
   "MenDisVarInterp079": {
     "id": "MenDisVarInterp079",
     "evidenceTypeId": "E15",
-    "wasGeneratedByActivityId": "CaptureEvXX",
+    "wasGeneratedBy": "CaptureEvXX",
     "evidenceType": "MendelianDiseaseVariantPathogenicityInterpretation"
   },
   "MenDisVarInterp080": {
@@ -409,7 +409,7 @@
   "PAF082": {
     "id": "PAF082",
     "evidenceTypeId": "E23",
-    "wasGeneratedByActivityId": "CaptureEv081",
+    "wasGeneratedBy": "CaptureEv081",
     "evidenceType": "PopulationAlleleFrequency"
   },
   "IndCond083": {
@@ -520,14 +520,14 @@
     "id": "FamSegData103",
     "evidenceTypeId": "E45",
     "explanation": "identified in 1 individual with HCM. Segregation analysis determined 5 other members of the family also carried this variant. However, only 3 of those family members had HCM (aged 48-75). The 2 other family members were young and asymptomatic. So from this paper, only count 3 segregations. The two apparently refuting segregations can be ignored due to the age-dependent penetrance of HCM.",
-    "wasGeneratedByActivityId": "CaptureEv074",
+    "wasGeneratedBy": "CaptureEv074",
     "evidenceType": "FamilySegregationData"
   },
   "FamSegData104": {
     "id": "FamSegData104",
     "evidenceTypeId": "E45",
     "explanation": "In LMM internal family, c.1351+1G>A was identified in 1 individual with HCM. Variant also found in individual’s sister - who also had clinical dx of HCM.",
-    "wasGeneratedByActivityId": "CaptureEv075",
+    "wasGeneratedBy": "CaptureEv075",
     "evidenceType": "FamilySegregationData"
   },
   "AggSegData105": {
