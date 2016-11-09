@@ -1487,14 +1487,14 @@
   "A124": {
     "id": "A124",
     "entityId": "E35",
-    "name": "criteriaSet",
-    "dataType": "CriteriaSet",
+    "name": "method",
+    "dataType": "Method",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 4.0,
     "description": "The  framework that formally defines the methodology used in creating this interpretation.",
-    "fullyQualifiedName": "VariantInterpretation.criteriaSet"
+    "fullyQualifiedName": "VariantInterpretation.method"
   },
   "A125": {
     "id": "A125",
@@ -1781,12 +1781,12 @@
   "A152": {
     "id": "A152",
     "entityId": "E04",
-    "name": "guideline",
-    "dataType": "Guideline",
+    "name": "method",
+    "dataType": "Method",
     "cardinality": "0..1",
     "valueSetName": "",
     "precedence": 3.0,
-    "fullyQualifiedName": "Criterion.guideline"
+    "fullyQualifiedName": "Criterion.method"
   },
   "A153": {
     "id": "A153",
@@ -1818,7 +1818,7 @@
     "cardinality": "0..1",
     "valueSetName": "",
     "precedence": 1.0,
-    "fullyQualifiedName": "Guideline.description"
+    "fullyQualifiedName": "Method.description"
   },
   "A156": {
     "id": "A156",
@@ -1828,7 +1828,7 @@
     "cardinality": "0..1",
     "valueSetName": "",
     "precedence": 2.0,
-    "fullyQualifiedName": "Guideline.url"
+    "fullyQualifiedName": "Method.url"
   },
   "A157": {
     "id": "A157",
