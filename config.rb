@@ -54,7 +54,7 @@ helpers do
     if (resource.data.id == nil)
         link_to(resource.data.title, resource)
     else
-        link_to(data.flattened.Entity[resource.data.id].name, resource)
+        link_to(data.flattened.Type[resource.data.id].name, resource)
     end
   end
 

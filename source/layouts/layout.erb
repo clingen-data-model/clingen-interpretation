@@ -107,19 +107,19 @@
               <%- title = current_page.data.title %>
               <%- description = current_page.data.description %>
             <% else %>
-              <%- entity = data.flattened.Entity[current_page.data.id] %>
-              <%- title = data.flattened.Entity[current_page.data.id].name %>
-              <%- description = data.flattened.Entity[current_page.data.id].description %>
+              <%- entity = data.flattened.Type[current_page.data.id] %>
+              <%- title = data.flattened.Type[current_page.data.id].name %>
+              <%- description = data.flattened.Type[current_page.data.id].description %>
             <% end %>
             
             <h1><%= title %></h1>
             <p><%= description %></p>
                       
             <% if current_page.data.id != nil %>
-            <% parentid = data.flattened.Entity[current_page.data.id].parentEntityTypeId %>
+            <% parentid = data.flattened.Type[current_page.data.id].parentType %>
             <% if parentid == nil %>
             <% else %>
-                <p>Descended from <%= data.flattened.Entity[parentid].name %></p>
+                <p>Descended from <%= data.flattened.Type[parentid].name %></p>
             <% end %>
             <% end %>
 

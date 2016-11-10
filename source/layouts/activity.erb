@@ -1,6 +1,6 @@
 <% wrap_layout :layout  do %>
     
-    <%- entity = data.flattened.Entity[current_page.data.id] %>
+    <%- entity = data.flattened.Type[current_page.data.id] %>
 
     <!-- this is primarily the Scope and Usage section -->
     <%= yield %>
@@ -28,6 +28,35 @@
                 <td><%= a.description %></td>
             </tr>
         <% end %>
+            </tbody>
+        </table>
+
+            <h2>Inherited Attributes</h2>
+
+        <table class="table table-striped table-bordered" cellspacing="0" width="100%">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Cardinality</th>
+                <th>Inherited From</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% parentid = data.flattened.Type[current_page.data.id].parentType %>
+            <% while parentid != nil %>
+                <% attributes_by_entity(parentid).each do |a| %>
+                <tr>
+                    <td><%= a.name %></td>
+                    <td><%= a.dataType %></td>
+                    <td><%= a.cardinality %></td>
+                    <td><%= data.flattened.Type[parentid].name %></td>
+                    <td><%= a.description %></td>
+                </tr>
+                <% end %>
+                <% parentid = data.flattened.Type[parentid].parentType %>
+            <% end %>
             </tbody>
         </table>
 
