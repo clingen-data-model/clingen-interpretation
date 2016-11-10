@@ -1856,5 +1856,107 @@
     "cardinality": "0..1",
     "precedence": 3.0,
     "fullyQualifiedName": "Condition.monarchCode"
+  },
+  "A160": {
+    "id": "A160",
+    "entityId": "E46",
+    "name": "modeOfInheritance",
+    "dataType": "CodeableConcept",
+    "cardinality": "0..1",
+    "valueSetId": "VS007",
+    "valueSetName": "modeOfInheritance",
+    "precedence": 5.0,
+    "description": "Mode Of Inheritance used in evaluation of segregation",
+    "fullyQualifiedName": "AggregationSegregationData.modeOfInheritance"
+  },
+  "A161": {
+    "id": "A161",
+    "entityId": "E46",
+    "name": "totalOfAllelePosConditionPosIndividuals",
+    "dataType": "int",
+    "cardinality": "0..1",
+    "precedence": 6.0,
+    "description": "Number of individuals across families that have the allele and the condition",
+    "fullyQualifiedName": "AggregationSegregationData.totalOfAllelePosConditionPosIndividuals"
+  },
+  "A162": {
+    "id": "A162",
+    "entityId": "E46",
+    "name": "totalOfUntestedConditionPosIndividuals",
+    "dataType": "int",
+    "cardinality": "0..1",
+    "precedence": 10.0,
+    "description": "Number of individuals across families that have the condition but whose allele is untested",
+    "fullyQualifiedName": "AggregationSegregationData.totalOfUntestedConditionPosIndividuals"
+  },
+  "A163": {
+    "id": "A163",
+    "entityId": "E46",
+    "name": "totalOfUntestedConditionNegIndividuals",
+    "dataType": "int",
+    "cardinality": "0..1",
+    "precedence": 11.0,
+    "description": "Number of individuals across families that do not have the condition but whose allele is untested",
+    "fullyQualifiedName": "AggregationSegregationData.totalOfUntestedConditionNegIndividuals"
+  },
+  "A164": {
+    "id": "A164",
+    "entityId": "E46",
+    "name": "totalOfFamiliesWithInconsistentSegregations",
+    "dataType": "int",
+    "cardinality": "0..1",
+    "precedence": 12.0,
+    "description": "Number of families containing segregations that are inconsistent with the allele causing the condition",
+    "fullyQualifiedName": "AggregationSegregationData.totalOfFamiliesWithInconsistentSegregations"
+  },
+  "A165": {
+    "id": "A165",
+    "entityId": "E46",
+    "name": "totalOfAlleleNegConditionNegIndividuals",
+    "dataType": "int",
+    "cardinality": "0..1",
+    "precedence": 7.0,
+    "description": "Number of individuals across families that lack both the allele and the condition",
+    "fullyQualifiedName": "AggregationSegregationData.totalOfAlleleNegConditionNegIndividuals"
+  },
+  "A166": {
+    "id": "A166",
+    "entityId": "E46",
+    "name": "totalLodScore",
+    "dataType": "float",
+    "cardinality": "0..1",
+    "precedence": 13.0,
+    "description": "LOD Score aggregated across families",
+    "fullyQualifiedName": "AggregationSegregationData.totalLodScore"
+  },
+  "A167": {
+    "id": "A167",
+    "entityId": "E46",
+    "name": "lodScoreType",
+    "dataType": "CodeableConcept",
+    "cardinality": "0..1",
+    "precedence": 14.0,
+    "description": "Method of calculating aggregate LOD",
+    "fullyQualifiedName": "AggregationSegregationData.lodScoreType"
+  },
+  "A168": {
+    "id": "A168",
+    "entityId": "E46",
+    "name": "totalOfAllelePosConditionNegIndividuals",
+    "dataType": "int",
+    "cardinality": "0..1",
+    "precedence": 8.0,
+    "description": "Number of individuals across families that have the allele and the condition",
+    "fullyQualifiedName": "AggregationSegregationData.totalOfAllelePosConditionNegIndividuals"
+  },
+  "A169": {
+    "id": "A169",
+    "entityId": "E46",
+    "name": "totalOfAlleleNegConditionPosIndividuals",
+    "dataType": "int",
+    "cardinality": "0..1",
+    "precedence": 9.0,
+    "description": "Number of individuals across families that do not have the allele but do have the condition",
+    "fullyQualifiedName": "AggregationSegregationData.totalOfAlleleNegConditionPosIndividuals"
   }
 }

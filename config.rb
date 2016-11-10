@@ -191,7 +191,7 @@ helpers do
   def attributes_by_entity(entityId)  
     data.flattened.Attribute.select do |k,v|
       entityId == v.entityId
-    end.map{|k,v| v}.sort_by { |a| a.precdedence }
+    end.map{|k,v| v}.sort_by { |a| a.precedence }
   end
 
   # def example_path(example_id)
