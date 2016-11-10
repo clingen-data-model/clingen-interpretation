@@ -20,19 +20,19 @@ Scope and Usage
 
 One of the main goals of the ClinGen project is for expert users to weigh disparate lines of evidence and make reasoned judgments about clinical genetics, which can then be shared with the clinical genetics community.  These interpretations can cover a wide variety of topics such as:
 
-    * The pathogenicity of sequence variants in causing Mendelian disease
-    * The role of structural variants in causing Mendelian disease
-    * Whether or not a particular gene is involved in causing a given disease
-    * Whether or not variants in a gene have clinical actionability
+* The pathogenicity of sequence variants in causing Mendelian disease
+* The role of structural variants in causing Mendelian disease
+* Whether or not a particular gene is involved in causing a given disease
+* Whether or not variants in a gene have clinical actionability
 
 While dissemination of such interpretations alone can be useful, the inclusion of supporting evidence allows a richer and deeper use of the interpretation.  Rather than simply knowing that a person or group declared a sequence variant to be pathogenic, receivers of an interpretation will be able to determine
 
-    * What evidence was used in this interpretation
-    * How the evidence supported or conflicted with the interpretation
-    * Who performed each atomic act in the creation of an interpretation
-    * The sources of the data used in the interpretation
-    * How the explicitly defined criteria were applied to the evidence.
-    * To what degree the interpretation builds upon previous interpretations
+* What evidence was used in this interpretation
+* How the evidence supported or conflicted with the interpretation
+* Who performed each atomic act in the creation of an interpretation
+* The sources of the data used in the interpretation
+* How the explicitly defined criteria were applied to the evidence.
+* To what degree the interpretation builds upon previous interpretations
 
 The initial version is limited to the modeling of pathogenicity interpretations of sequence variants adjudicated under the ACMG criteria [ref], but later versions will expand upon this topic.
 
