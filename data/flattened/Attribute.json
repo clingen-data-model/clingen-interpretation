@@ -1670,33 +1670,30 @@
   },
   "A141": {
     "id": "A141",
-    "entityId": "E25",
     "name": "referenceSequence",
     "dataType": "ReferenceSequence",
     "cardinality": "1..1",
     "valueSetName": "",
     "precedence": 1.0,
-    "fullyQualifiedName": "ContextualRegion.referenceSequence"
+    "fullyQualifiedName": "#N/A"
   },
   "A142": {
     "id": "A142",
-    "entityId": "E25",
     "name": "start",
     "dataType": "int",
     "cardinality": "0..1",
     "valueSetName": "",
     "precedence": 2.0,
-    "fullyQualifiedName": "ContextualRegion.start"
+    "fullyQualifiedName": "#N/A"
   },
   "A143": {
     "id": "A143",
-    "entityId": "E25",
     "name": "stop",
     "dataType": "int",
     "cardinality": "0..1",
     "valueSetName": "",
     "precedence": 3.0,
-    "fullyQualifiedName": "ContextualRegion.stop"
+    "fullyQualifiedName": "#N/A"
   },
   "A144": {
     "id": "A144",
@@ -1934,7 +1931,6 @@
     "entityId": "E46",
     "name": "LODScoreType",
     "dataType": "CodeableConcept",
-    "cardinality": "0..1",
     "precedence": 14.0,
     "description": "Method of calculating LOD",
     "fullyQualifiedName": "AggregateSegregationData.LODScoreType"
