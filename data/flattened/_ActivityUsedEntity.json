@@ -112,20 +112,6 @@
     "desc": "NM_002834.3(PTPN11):c.855T>G (p.Phe285Leu)"
   },
   {
-    "activityId": "AssessCrit004",
-    "usedEntityType": "E05",
-    "entityName": "CanonicalAllele",
-    "usedEntityId": "CanAll005",
-    "desc": "NM_002834.3(PTPN11):c.853T>C (p.Phe285Leu)"
-  },
-  {
-    "activityId": "AssessCrit004",
-    "usedEntityType": "E05",
-    "entityName": "CanonicalAllele",
-    "usedEntityId": "CanAll006",
-    "desc": "NP_002825.3:p.Phe285Leu"
-  },
-  {
     "activityId": "AssessCrit005",
     "usedEntityType": "E01",
     "entityName": "Data",
@@ -147,32 +133,18 @@
     "desc": "NM_001369.2(DNAH5):c.6249G>C (p.Met2083Ile)"
   },
   {
-    "activityId": "AssessCrit005",
-    "usedEntityType": "E05",
-    "entityName": "CanonicalAllele",
-    "usedEntityId": "CanAll008",
-    "desc": "NM_001369.2(DNAH5):c.6249G>A (p.Met2083Ile)"
-  },
-  {
-    "activityId": "AssessCrit005",
-    "usedEntityType": "E05",
-    "entityName": "CanonicalAllele",
-    "usedEntityId": "CanAll009",
-    "desc": "NP_001360.1:p.Met2083Ile"
-  },
-  {
     "activityId": "AssessCrit006",
     "usedEntityType": "E01",
     "entityName": "Data",
     "usedEntityId": "MenDisVarInterp010",
-    "desc": "NM_176795.4(HRAS):c.173C>T (p.Thr58Ile) Pathogenic for Noonan Syndrome"
+    "desc": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) Pathogenic for Noonan Syndrome 3"
   },
   {
     "activityId": "AssessCrit006",
     "usedEntityType": "E01",
     "entityName": "Data",
     "usedEntityId": "MenDisVarInterp011",
-    "desc": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) Pathogenic for Rasopathy"
+    "desc": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) Pathogenic for Costello syndrome"
   },
   {
     "activityId": "AssessCrit006",
@@ -185,29 +157,8 @@
     "activityId": "AssessCrit006",
     "usedEntityType": "E05",
     "entityName": "CanonicalAllele",
-    "usedEntityId": "CanAll010",
-    "desc": "NM_176795.4(HRAS):c.173C>T (p.Thr58Ile)"
-  },
-  {
-    "activityId": "AssessCrit006",
-    "usedEntityType": "E05",
-    "entityName": "CanonicalAllele",
     "usedEntityId": "CanAll011",
     "desc": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile)"
-  },
-  {
-    "activityId": "AssessCrit006",
-    "usedEntityType": "E05",
-    "entityName": "CanonicalAllele",
-    "usedEntityId": "CanAll012",
-    "desc": "NP_005334.1:p.Thr58Ile"
-  },
-  {
-    "activityId": "AssessCrit006",
-    "usedEntityType": "E05",
-    "entityName": "CanonicalAllele",
-    "usedEntityId": "CanAll013",
-    "desc": "NP_004976.2:p.Thr58Ile"
   },
   {
     "activityId": "AssessCrit007",
@@ -355,13 +306,6 @@
     "entityName": "CanonicalAllele",
     "usedEntityId": "CanAll017",
     "desc": "NM_001001431.2(TNNT2):c.391C>T"
-  },
-  {
-    "activityId": "AssessCrit010",
-    "usedEntityType": "E05",
-    "entityName": "CanonicalAllele",
-    "usedEntityId": "CanAll018",
-    "desc": "NP_001001431.1:p.Arg131Trp"
   },
   {
     "activityId": "AssessCrit011",
@@ -756,10 +700,17 @@
   },
   {
     "activityId": "AssessCrit022",
-    "usedEntityType": "E05",
-    "entityName": "CanonicalAllele",
-    "usedEntityId": "CanAll036",
-    "desc": "NM_001369.2(DNAH5):c.9449delG"
+    "usedEntityType": "E14",
+    "entityName": "Condition",
+    "usedEntityId": "Cond004",
+    "desc": "Primary Ciliary Dyskenisia"
+  },
+  {
+    "activityId": "AssessCrit022",
+    "usedEntityType": "E14",
+    "entityName": "Condition",
+    "usedEntityId": "Cond014",
+    "desc": "outer dynein arm (ODA) defects"
   },
   {
     "activityId": "AssessCrit023",
@@ -811,6 +762,13 @@
     "desc": "NM_133261.2(GIPC3):c.411+1G>A"
   },
   {
+    "activityId": "AssessCrit023",
+    "usedEntityType": "E14",
+    "entityName": "Condition",
+    "usedEntityId": "Cond010",
+    "desc": "Hearing Loss"
+  },
+  {
     "activityId": "AssessCrit024",
     "usedEntityType": "E01",
     "entityName": "Data",
@@ -844,6 +802,13 @@
     "entityName": "CanonicalAllele",
     "usedEntityId": "CanAll039",
     "desc": "NM_000391.3(TTP1):c.1678_1679delCT"
+  },
+  {
+    "activityId": "AssessCrit024",
+    "usedEntityType": "E14",
+    "entityName": "Condition",
+    "usedEntityId": "Cond015",
+    "desc": "neuronal ceroid lipofuscinosis"
   },
   {
     "activityId": "AssessCrit025",

@@ -77,18 +77,18 @@ class DMWGExampleData
     end
 
     # Now for the "join tables". Lots of ugly hard-coding here
-    @flattened['DataAttribute'].each do |k, v|
+    @flattened['_DataAttribute'].each do |da|
       # FIXME - make sure inherited attributes are appropriately handled
-      data_id = v['evidenceDataId']
-      attribute_id = v['attributeId']
+      data_id = da['evidenceDataId']
+      attribute_id = da['attributeId']
       attribute = @flattened['Attribute'][attribute_id]
       (@id2example[data_id] ||= {})['cg:id'] = data_id
-      if value_exists? v['value'] then
-        @id2example[data_id][attribute['name']] = convert_value(v['value'], attribute['dataType'])
+      if value_exists? da['value'] then
+        @id2example[data_id][attribute['name']] = convert_value(da['value'], attribute['dataType'])
       end
     end
 
-    @flattened['ActivityAgentAssociation'].each do |aaa|
+    @flattened['_ActivityAssociatedAgent'].each do |aaa|
       activity = @id2example[aaa['activityId']] ||= {}
       associatedAgent = @id2example[aaa['wasAssociatedWith']] ||= { 'cg:id' => aaa['wasAssociatedWith'] }
       (activity['wasAssociatedWith'] ||= []).push({
@@ -97,7 +97,7 @@ class DMWGExampleData
       })
     end
 
-    @flattened['ActivityUsedEntity'].each do |aue|
+    @flattened['_ActivityUsedEntity'].each do |aue|
       activity = @id2example[aue['activityId']] ||= {}
       ((activity['used'] ||= {})[@flattened['Type'][aue['usedEntityType']]['name']] ||= []).push(@id2example[aue['usedEntityId']])
     end

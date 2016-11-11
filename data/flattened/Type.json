@@ -195,7 +195,7 @@
   "E23": {
     "id": "E23",
     "name": "PopulationAlleleFrequency",
-    "parentType": "E01",
+    "parentType": "E22",
     "link": "PAF",
     "description": "The frequency of an allele in a population",
     "group": "Grp008",
@@ -288,13 +288,6 @@
     "description": "The rules for combining CriterionAssessments into an Interpretation",
     "group": "Grp007",
     "groupName": "Methods>GuidelineAlgorithm"
-  },
-  "E34": {
-    "id": "E34",
-    "name": "DataAttribute",
-    "link": "DataAttr",
-    "description": "*TODO* short description needed",
-    "groupName": "#N/A"
   },
   "E35": {
     "id": "E35",
