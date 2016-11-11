@@ -47,6 +47,10 @@
 #   end
 # end
 
+require 'reformat_examples'
+
+@dmwg_examples = DMWGExampleData.new('data/flattened')
+
 helpers do
 
   # Generate a link to a specific resource with text based on title
@@ -90,7 +94,7 @@ helpers do
     li = breadcrumb(page.parent) + li if page.parent
     li
   end
-  
+
   def expanded_link_with_local_index(text, path)
     #resource = sitemap.find_resource_by_path("#{model}/discussion/index.html")
     resource = sitemap.find_resource_by_path("#{path}/index.html")
@@ -104,8 +108,8 @@ helpers do
     else
       "<li>#{link_to(text, resource)}</li>#{index}"
     end
-  end 
-  
+  end
+
   # This is a special case needed because of bugs in the link_to method
   # when using relative links (also because were playing games with the
   # links from the discusison page
@@ -134,7 +138,7 @@ helpers do
   def local_index(path)
     index = ""
     index = list_children(path) unless current_page.data.skip_children
-    unless current_page.data.skip_siblings 
+    unless current_page.data.skip_siblings
       index = list_siblings(path, index) if path_depth(path) > 2
     end
     index = list_parents(path, index) if path_depth(path) > 3
@@ -168,7 +172,7 @@ helpers do
   def list_children(parent_url)
     depth = path_depth(parent_url)
     children = sitemap.resources.select do |r|
-      r.url.include?(parent_url) && path_depth(r.url) == depth + 1 
+      r.url.include?(parent_url) && path_depth(r.url) == depth + 1
     end.sort_by { |r| r.path }
     return "" if children.size == 0
     list = children.reduce("") do |a, e|
@@ -180,18 +184,23 @@ helpers do
   def model_name
     current_page.data.model ? current_page.data.model.capitalize : ""
   end
-  
+
   def brief_index(path)
     output = sitemap.resources.select{|r| r.url.include?(path) && path != r.url }.sort_by{ |r| r.path}.reduce("<ul>\n") do |acc, r|
       acc + "<li>#{link_to r.data.title, r.url}</li>\n"
     end
     return output + "</ul>\n"
-  end  
+  end
 
-  def attributes_by_entity(entityId)  
+  def attributes_by_entity(entityId)
     data.flattened.Attribute.select do |k,v|
       entityId == v.entityId
     end.map{|k,v| v}.sort_by { |a| a.precedence }
+  end
+
+  def examples_by_type(type)
+    type_name = data.flattened.Type[type]['name']
+    @dmwg_examples.by_type[type_name]
   end
 
   # def example_path(example_id)
@@ -204,7 +213,7 @@ helpers do
   #   end
   #   return output + "</ul>"
   # end
-                                                                                           
+
   # def link_with_examples_index(text, path)
   #   output = link_to(text, path)
   #   if current_page.url.include?(path)
@@ -224,7 +233,7 @@ helpers do
   #     acc << "<td>#{example['id']}</td>"
   #     acc << "<td>#{link_to example['title'], example_path(example['id']) }</td>"
   #     if example['jsonld']
-  #       acc << "<td>#{link_to 'json-ld', example['jsonld']}</td>" 
+  #       acc << "<td>#{link_to 'json-ld', example['jsonld']}</td>"
   #     end
   #     acc << "<td>#{link_to 'xml', example['xml']}</td>"
   #     acc << "<td>#{link_to 'json', example['json']}</td>"

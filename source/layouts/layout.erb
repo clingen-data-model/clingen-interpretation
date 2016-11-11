@@ -12,7 +12,7 @@
       <%= current_page.data.title || "ClinGen Data Model" %>
     </title>
 
-    <%= stylesheet_link_tag "bootstrap", "bootstrap-theme", "brand2" %>
+    <%= stylesheet_link_tag "bootstrap", "bootstrap-theme", "brand2", "jquery.jsonview" %>
     <% (current_page.data.append_css || []).each do |cssfile| %>
       <%= stylesheet_link_tag cssfile %>
     <% end %>
@@ -70,7 +70,7 @@
               <ul class="dropdown-menu" role="menu">
                 <% data.versions.each do |v| %>
                   <li><%= link_to v, "/#{v}#{current_page.url}" %></li>
-                <% end %> 
+                <% end %>
               </ul>
             </li>
           </ul>
@@ -102,7 +102,7 @@
         </div>
         <div class="col-sm-8 col-sm-offset-4 col-md-9 col-md-offset-3 main">
           <article>
-            
+
             <% if current_page.data.id?(nil) %>
               <%- title = current_page.data.title %>
               <%- description = current_page.data.description %>
@@ -111,10 +111,10 @@
               <%- title = data.flattened.Type[current_page.data.id].name %>
               <%- description = data.flattened.Type[current_page.data.id].description %>
             <% end %>
-            
+
             <h1><%= title %></h1>
             <p><%= description %></p>
-                      
+
             <% if current_page.data.id != nil %>
             <% parentid = data.flattened.Type[current_page.data.id].parentType %>
             <% if parentid == nil %>
@@ -135,7 +135,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <%= javascript_include_tag 'jquery', 'bootstrap' %>
+    <%= javascript_include_tag 'jquery', 'bootstrap', 'jquery.jsonview', 'run-run_on_load' %>
     <% (current_page.data.append_js || []).each do |jsfile| %>
       <%= javascript_include_tag jsfile %>
     <% end %>
