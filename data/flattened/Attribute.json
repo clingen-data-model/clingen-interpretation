@@ -18,7 +18,7 @@
     "entityId": "E03",
     "name": "mechanism",
     "dataType": "CodeableConcept",
-    "cardinality": "0..1",
+    "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetId": "VS005",
     "valueSetName": "Phase",
@@ -129,10 +129,10 @@
     "entityId": "E03",
     "name": "gene",
     "dataType": "Gene",
-    "cardinality": "0..1",
+    "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 1.0,
+    "precedence": 2.0,
     "description": "Gene in which the given variants occur",
     "fullyQualifiedName": "ConditionMechanism.gene"
   },
@@ -141,10 +141,10 @@
     "entityId": "E03",
     "name": "condition",
     "dataType": "Condition",
-    "cardinality": "0..1",
+    "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 2.0,
+    "precedence": 1.0,
     "description": "The condition whose mechanism is being described",
     "fullyQualifiedName": "ConditionMechanism.condition"
   },
@@ -757,7 +757,7 @@
     "entityId": "E27",
     "name": "condition",
     "dataType": "Condition",
-    "cardinality": "0..1",
+    "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
@@ -769,11 +769,11 @@
     "entityId": "E27",
     "name": "modeOfInheritance",
     "dataType": "CodeableConcept",
-    "cardinality": "0..1",
+    "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetId": "VS007",
     "valueSetName": "ModeOfInheritance",
-    "precedence": 3.0,
+    "precedence": 2.0,
     "description": "Mode of inheritance for the condition, as defined in HP terms",
     "fullyQualifiedName": "ConditionInheritance.modeOfInheritance"
   },
@@ -860,7 +860,7 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 2.0,
+    "precedence": 3.0,
     "description": "Condition causing gene on which the inheritance depends",
     "fullyQualifiedName": "ConditionInheritance.gene"
   },
@@ -1199,7 +1199,7 @@
     "entityId": "E48",
     "name": "condition",
     "dataType": "Condition",
-    "cardinality": "0..*",
+    "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
@@ -1211,10 +1211,11 @@
     "entityId": "E48",
     "name": "gene",
     "dataType": "Gene",
-    "cardinality": "0..1",
+    "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 2.0,
+    "description": "Gene that causes the condition",
     "fullyQualifiedName": "ConditionEtiology.gene"
   },
   "A102": {
@@ -1222,10 +1223,11 @@
     "entityId": "E48",
     "name": "specificity",
     "dataType": "String",
-    "cardinality": "0..1",
+    "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 3.0,
+    "description": "Specificity of the Gene for the Condition",
     "fullyQualifiedName": "ConditionEtiology.specificity"
   },
   "A103": {
@@ -1954,5 +1956,15 @@
     "precedence": 9.0,
     "description": "Number of individuals across families that do not have the allele but do have the condition",
     "fullyQualifiedName": "AggregateSegregationData.totalOfAlleleNegConditionPosIndividuals"
+  },
+  "A170": {
+    "id": "A170",
+    "entityId": "E27",
+    "name": "allele",
+    "dataType": "CanonicalAllele",
+    "cardinality": "0..1",
+    "precedence": 4.0,
+    "description": "Allele on which the inheritance depends",
+    "fullyQualifiedName": "ConditionInheritance.allele"
   }
 }
