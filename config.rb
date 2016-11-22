@@ -74,7 +74,7 @@ helpers do
   def model_link(model)
     # %(<li class="#{model}"><a href="/#{model}"><span class="glyphicon #{data.models[model].icon}"></span>#{model.capitalize}</a></li>)
     resource = sitemap.find_resource_by_path("#{model}/index.html")
-    link = link_to(resource) do
+    link = link_to("/#{model}") do
       %(<span class="glyphicon #{data.models[model].icon}"></span>#{model.capitalize})
     end
     %(<li class="#{model}">#{link}</li>)
@@ -139,16 +139,16 @@ helpers do
     index = ""
     index = list_children(path) unless current_page.data.skip_children
     unless current_page.data.skip_siblings
-      index = list_siblings(path, index) if path_depth(path) > 2
+      index = list_siblings(path, index) if path_depth(path) > 1
     end
-    index = list_parents(path, index) if path_depth(path) > 3
+    index = list_parents(path, index) if path_depth(path) > 2
     index
   end
 
   def list_parents(path, nested_index = "")
     parent_path = parent_path(path)
     index = list_siblings(parent_path, nested_index)
-    index = list_parents(parent_path, index) if path_depth(parent_path) > 3
+    index = list_parents(parent_path, index) if path_depth(parent_path) > 2
     index
   end
 
