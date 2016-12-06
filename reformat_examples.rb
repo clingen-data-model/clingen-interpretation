@@ -109,6 +109,8 @@ class DMWGExampleData
     case type
     when 'String'
       value
+    when 'Datetime'
+      value
     when 'Date'
       value
     when 'int'
