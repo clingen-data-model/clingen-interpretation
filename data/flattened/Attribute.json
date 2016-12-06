@@ -181,7 +181,7 @@
     "defaultValue": "null",
     "valueSetId": "VS003",
     "valueSetName": "Significance",
-    "precedence": 3.0,
+    "precedence": 4.0,
     "notes": "LOINC Term",
     "description": "The coded pathogenicity of the allele for the condition",
     "fullyQualifiedName": "MendelianDiseaseVariantPathogenicityInterpretation.clinicalSignificance"
@@ -493,14 +493,14 @@
   "A041": {
     "id": "A041",
     "entityId": "E21",
-    "name": "confidenceInterval",
+    "name": "confidenceLevel",
     "dataType": "float",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 6.0,
-    "description": "Confidence interval of the odds ratio",
-    "fullyQualifiedName": "CaseControl.confidenceInterval"
+    "description": "Confidence level in percent",
+    "fullyQualifiedName": "CaseControl.confidenceLevel"
   },
   "A042": {
     "id": "A042",
@@ -584,7 +584,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 7.0,
-    "description": "Lower bound of the confidence internval for the odds ratio",
+    "description": "Lower bound of the confidence interval for the odds ratio",
     "fullyQualifiedName": "CaseControl.confidenceIntervalLower"
   },
   "A049": {
@@ -1489,14 +1489,14 @@
   "A124": {
     "id": "A124",
     "entityId": "E35",
-    "name": "method",
-    "dataType": "Method",
+    "name": "assertionMethod",
+    "dataType": "AssertionMethod",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 4.0,
     "description": "The  framework that formally defines the methodology used in creating this interpretation.",
-    "fullyQualifiedName": "VariantInterpretation.method"
+    "fullyQualifiedName": "VariantInterpretation.assertionMethod"
   },
   "A125": {
     "id": "A125",
@@ -1521,6 +1521,18 @@
     "precedence": 1.0,
     "description": "The number of non-proband family members that have neither the allele nor the phenotype",
     "fullyQualifiedName": "FamilySegregationData.phenotypeNegativeAlleleNegative"
+  },
+  "A127": {
+    "id": "A127",
+    "entityId": "E10",
+    "name": "startedAtTime",
+    "dataType": "Datetime",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 2.0,
+    "description": "A human-readable description of the reasoning behind the interpretation",
+    "fullyQualifiedName": "Activity.startedAtTime"
   },
   "A128": {
     "id": "A128",
@@ -1585,13 +1597,13 @@
   "A133": {
     "id": "A133",
     "entityId": "E10",
-    "name": "when",
-    "dataType": "Date",
+    "name": "endedAtTime",
+    "dataType": "Datetime",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 2.0,
-    "fullyQualifiedName": "Activity.when"
+    "precedence": 3.0,
+    "fullyQualifiedName": "Activity.endedAtTime"
   },
   "A134": {
     "id": "A134",
@@ -1601,7 +1613,7 @@
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 3.0,
+    "precedence": 4.0,
     "description": "The Agent that performed the Activity",
     "fullyQualifiedName": "Activity.wasAssociatedWith"
   },
@@ -1669,33 +1681,6 @@
     "valueSetName": "",
     "precedence": 1.0,
     "fullyQualifiedName": "Gene.symbol"
-  },
-  "A141": {
-    "id": "A141",
-    "name": "referenceSequence",
-    "dataType": "ReferenceSequence",
-    "cardinality": "1..1",
-    "valueSetName": "",
-    "precedence": 1.0,
-    "fullyQualifiedName": "#N/A"
-  },
-  "A142": {
-    "id": "A142",
-    "name": "start",
-    "dataType": "int",
-    "cardinality": "0..1",
-    "valueSetName": "",
-    "precedence": 2.0,
-    "fullyQualifiedName": "#N/A"
-  },
-  "A143": {
-    "id": "A143",
-    "name": "stop",
-    "dataType": "int",
-    "cardinality": "0..1",
-    "valueSetName": "",
-    "precedence": 3.0,
-    "fullyQualifiedName": "#N/A"
   },
   "A144": {
     "id": "A144",
@@ -1817,7 +1802,7 @@
     "cardinality": "0..1",
     "valueSetName": "",
     "precedence": 1.0,
-    "fullyQualifiedName": "Method.description"
+    "fullyQualifiedName": "AssertionMethod.description"
   },
   "A156": {
     "id": "A156",
@@ -1827,7 +1812,7 @@
     "cardinality": "0..1",
     "valueSetName": "",
     "precedence": 2.0,
-    "fullyQualifiedName": "Method.url"
+    "fullyQualifiedName": "AssertionMethod.url"
   },
   "A157": {
     "id": "A157",
@@ -1966,5 +1951,66 @@
     "precedence": 4.0,
     "description": "Allele on which the inheritance depends",
     "fullyQualifiedName": "ConditionInheritance.allele"
+  },
+  "A171": {
+    "id": "A171",
+    "entityId": "E15",
+    "name": "modeOfInheritance",
+    "dataType": "CodeableConcept",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "valueSetId": "VS007",
+    "valueSetName": "ModeOfInheritance",
+    "precedence": 3.0,
+    "description": "Mode of inheritance for the condition, as defined in HP terms",
+    "fullyQualifiedName": "MendelianDiseaseVariantPathogenicityInterpretation.modeOfInheritance"
+  },
+  "A172": {
+    "id": "A172",
+    "entityId": "E35",
+    "name": "modeOfInheritance",
+    "dataType": "CodeableConcept",
+    "cardinality": "0..1",
+    "valueSetId": "VS007",
+    "valueSetName": "ModeOfInheritance",
+    "precedence": 5.0,
+    "description": "Mode of inheritance for the condition, as defined in HP terms",
+    "fullyQualifiedName": "VariantInterpretation.modeOfInheritance"
+  },
+  "A173": {
+    "id": "A173",
+    "entityId": "E32",
+    "name": "version",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "fullyQualifiedName": "AssertionMethod.version"
+  },
+  "A174": {
+    "id": "A174",
+    "entityId": "E32",
+    "name": "scoringAlgorithm",
+    "dataType": "ScoringAlgorithm",
+    "cardinality": "0..1",
+    "valueSetName": "",
+    "precedence": 2.0,
+    "fullyQualifiedName": "AssertionMethod.scoringAlgorithm"
+  },
+  "A175": {
+    "id": "A175",
+    "entityId": "E33",
+    "name": "assertionMethod",
+    "dataType": "AssertionMethod",
+    "cardinality": "0..1",
+    "fullyQualifiedName": "ScoringAlgorithm.assertionMethod"
+  },
+  "A176": {
+    "id": "A176",
+    "entityId": "E33",
+    "name": "description",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "fullyQualifiedName": "ScoringAlgorithm.description"
   }
 }

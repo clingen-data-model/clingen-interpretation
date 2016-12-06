@@ -958,11 +958,29 @@
   {
     "evidenceDataId": "CaseCtrl030",
     "attributeId": "A041",
-    "value": "99%CI: 6.1425 - 13.5889",
+    "value": 99.0,
     "evidenceDataName": "CaseControl",
-    "attributeName": "confidenceInterval",
+    "attributeName": "confidenceLevel",
     "attributeType": "float",
-    "lookupValue": "99%CI: 6.1425 - 13.5889"
+    "lookupValue": 99
+  },
+  {
+    "evidenceDataId": "CaseCtrl030",
+    "attributeId": "A048",
+    "value": 6.1425,
+    "evidenceDataName": "CaseControl",
+    "attributeName": "confidenceIntervalLower",
+    "attributeType": "float",
+    "lookupValue": 6.1425
+  },
+  {
+    "evidenceDataId": "CaseCtrl030",
+    "attributeId": "A049",
+    "value": 13.5889,
+    "evidenceDataName": "CaseControl",
+    "attributeName": "confidenceIntervalUpper",
+    "attributeType": "float",
+    "lookupValue": 13.5889
   },
   {
     "evidenceDataId": "CaseCtrl030",
@@ -1237,11 +1255,11 @@
   {
     "evidenceDataId": "CaseCtrl036",
     "attributeId": "A041",
-    "value": 0.95,
+    "value": 95.0,
     "evidenceDataName": "CaseControl",
-    "attributeName": "confidenceInterval",
+    "attributeName": "confidenceLevel",
     "attributeType": "float",
-    "lookupValue": 0.95
+    "lookupValue": 95
   },
   {
     "evidenceDataId": "CaseCtrl036",
@@ -1386,6 +1404,24 @@
     "attributeName": "value",
     "attributeType": "boolean",
     "lookupValue": 1
+  },
+  {
+    "evidenceDataId": "MenDisVarInterp042",
+    "attributeId": "A013",
+    "value": "CanAll049",
+    "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
+    "attributeName": "canonicalAllele",
+    "attributeType": "CanonicalAllele",
+    "lookupValue": "NM_000363.4(TNNI3):c.484C>T"
+  },
+  {
+    "evidenceDataId": "MenDisVarInterp042",
+    "attributeId": "A015",
+    "value": "LN:LA6682-4",
+    "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
+    "attributeName": "clinicalSignificance",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Uncertain Signficance"
   },
   {
     "evidenceDataId": "RegAnno043",
@@ -2389,11 +2425,11 @@
   {
     "evidenceDataId": "MenDisVarInterp078",
     "attributeId": "A014",
-    "value": "Cond017",
+    "value": "Cond016",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Ornithine carbamoyltransferase deficiency"
+    "lookupValue": "Primary familial hypertrophic cardiomyopathy"
   },
   {
     "evidenceDataId": "MenDisVarInterp078",
@@ -2416,11 +2452,11 @@
   {
     "evidenceDataId": "MenDisVarInterp079",
     "attributeId": "A014",
-    "value": "Cond017",
+    "value": "Cond016",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Ornithine carbamoyltransferase deficiency"
+    "lookupValue": "Primary familial hypertrophic cardiomyopathy"
   },
   {
     "evidenceDataId": "MenDisVarInterp079",
@@ -2559,11 +2595,11 @@
   {
     "evidenceDataId": "IndCond083",
     "attributeId": "A017",
-    "value": "Cond019",
+    "value": "Cond018",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Cardio-facio-cutaneous (CFC) syndrome"
+    "lookupValue": "Birt-Hogg-Dube Syndrome"
   },
   {
     "evidenceDataId": "IndCond083",
@@ -2586,11 +2622,11 @@
   {
     "evidenceDataId": "IndCond084",
     "attributeId": "A017",
-    "value": "Cond019",
+    "value": "Cond018",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Cardio-facio-cutaneous (CFC) syndrome"
+    "lookupValue": "Birt-Hogg-Dube Syndrome"
   },
   {
     "evidenceDataId": "IndCond084",
@@ -2613,11 +2649,11 @@
   {
     "evidenceDataId": "FamHist085",
     "attributeId": "A020",
-    "value": "Cond019",
+    "value": "Cond018",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Cardio-facio-cutaneous (CFC) syndrome"
+    "lookupValue": "Birt-Hogg-Dube Syndrome"
   },
   {
     "evidenceDataId": "FamHist085",
@@ -2640,11 +2676,11 @@
   {
     "evidenceDataId": "FamHist086",
     "attributeId": "A020",
-    "value": "Cond019",
+    "value": "Cond018",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Cardio-facio-cutaneous (CFC) syndrome"
+    "lookupValue": "Birt-Hogg-Dube Syndrome"
   },
   {
     "evidenceDataId": "FamHist086",
@@ -2739,11 +2775,11 @@
   {
     "evidenceDataId": "IndCond089",
     "attributeId": "A017",
-    "value": "Cond020",
+    "value": "Cond019",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Hypertrophic Cardiomyopathy"
+    "lookupValue": "Cardio-facio-cutaneous (CFC) syndrome"
   },
   {
     "evidenceDataId": "IndCond089",
@@ -2766,11 +2802,11 @@
   {
     "evidenceDataId": "FamHist090",
     "attributeId": "A020",
-    "value": "Cond020",
+    "value": "Cond019",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Hypertrophic Cardiomyopathy"
+    "lookupValue": "Cardio-facio-cutaneous (CFC) syndrome"
   },
   {
     "evidenceDataId": "FamHist090",
@@ -2829,11 +2865,11 @@
   {
     "evidenceDataId": "IndCond092",
     "attributeId": "A017",
-    "value": "Cond020",
+    "value": "Cond019",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Hypertrophic Cardiomyopathy"
+    "lookupValue": "Cardio-facio-cutaneous (CFC) syndrome"
   },
   {
     "evidenceDataId": "IndCond092",
@@ -2856,11 +2892,11 @@
   {
     "evidenceDataId": "FamHist093",
     "attributeId": "A020",
-    "value": "Cond020",
+    "value": "Cond019",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Hypertrophic Cardiomyopathy"
+    "lookupValue": "Cardio-facio-cutaneous (CFC) syndrome"
   },
   {
     "evidenceDataId": "FamHist093",
@@ -2946,11 +2982,11 @@
   {
     "evidenceDataId": "FamHist096",
     "attributeId": "A020",
-    "value": "Cond020",
+    "value": "Cond019",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Hypertrophic Cardiomyopathy"
+    "lookupValue": "Cardio-facio-cutaneous (CFC) syndrome"
   },
   {
     "evidenceDataId": "FamHist096",
@@ -3009,11 +3045,11 @@
   {
     "evidenceDataId": "IndCond098",
     "attributeId": "A017",
-    "value": "Cond020",
+    "value": "Cond019",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Hypertrophic Cardiomyopathy"
+    "lookupValue": "Cardio-facio-cutaneous (CFC) syndrome"
   },
   {
     "evidenceDataId": "IndCond098",
@@ -3036,11 +3072,11 @@
   {
     "evidenceDataId": "FamHist099",
     "attributeId": "A020",
-    "value": "Cond020",
+    "value": "Cond019",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Hypertrophic Cardiomyopathy"
+    "lookupValue": "Cardio-facio-cutaneous (CFC) syndrome"
   },
   {
     "evidenceDataId": "FamHist099",
@@ -3135,11 +3171,11 @@
   {
     "evidenceDataId": "FamSegData103",
     "attributeId": "A081",
-    "value": "Cond023",
+    "value": "Cond020",
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Breast-ovarian cancer, familial 2"
+    "lookupValue": "Hypertrophic Cardiomyopathy"
   },
   {
     "evidenceDataId": "FamSegData103",
@@ -3180,11 +3216,11 @@
   {
     "evidenceDataId": "FamSegData104",
     "attributeId": "A081",
-    "value": "Cond023",
+    "value": "Cond020",
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Breast-ovarian cancer, familial 2"
+    "lookupValue": "Hypertrophic Cardiomyopathy"
   },
   {
     "evidenceDataId": "FamSegData104",
@@ -3216,11 +3252,11 @@
   {
     "evidenceDataId": "AggSegData105",
     "attributeId": "A086",
-    "value": "Cond023",
+    "value": "Cond020",
     "evidenceDataName": "AggregateSegregationData",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Breast-ovarian cancer, familial 2"
+    "lookupValue": "Hypertrophic Cardiomyopathy"
   },
   {
     "evidenceDataId": "AggSegData105",
@@ -3261,11 +3297,11 @@
   {
     "evidenceDataId": "CondInh106",
     "attributeId": "A063",
-    "value": "Cond023",
+    "value": "Cond020",
     "evidenceDataName": "ConditionInheritance",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Breast-ovarian cancer, familial 2"
+    "lookupValue": "Hypertrophic Cardiomyopathy"
   },
   {
     "evidenceDataId": "CondInh106",
@@ -4764,11 +4800,11 @@
   {
     "evidenceDataId": "CondEtiol148",
     "attributeId": "A100",
-    "value": "Cond024",
+    "value": "Cond022",
     "evidenceDataName": "ConditionEtiology",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Myopathy, distal, 4"
+    "lookupValue": "Hereditary Hemorrhagic Telangiectasia Type 1"
   },
   {
     "evidenceDataId": "CondEtiol148",
@@ -4791,11 +4827,11 @@
   {
     "evidenceDataId": "CondEtiol149",
     "attributeId": "A100",
-    "value": "Cond023",
+    "value": "Cond020",
     "evidenceDataName": "ConditionEtiology",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Breast-ovarian cancer, familial 2"
+    "lookupValue": "Hypertrophic Cardiomyopathy"
   },
   {
     "evidenceDataId": "CondEtiol149",
@@ -4827,11 +4863,11 @@
   {
     "evidenceDataId": "MenDisVarInterp150",
     "attributeId": "A014",
-    "value": "Cond025",
+    "value": "Cond023",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Cystic Fibrosis"
+    "lookupValue": "Breast-ovarian cancer, familial 2"
   },
   {
     "evidenceDataId": "MenDisVarInterp150",
@@ -4854,11 +4890,11 @@
   {
     "evidenceDataId": "MenDisVarInterp151",
     "attributeId": "A014",
-    "value": "Cond027",
+    "value": "Cond024",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Mitochondrial complex 1 deficiency"
+    "lookupValue": "Myopathy, distal, 4"
   },
   {
     "evidenceDataId": "MenDisVarInterp151",
@@ -5376,11 +5412,11 @@
   {
     "evidenceDataId": "CondPrev163",
     "attributeId": "A103",
-    "value": "Cond029",
+    "value": "Cond027",
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Wiedemann-Steiner syndrome"
+    "lookupValue": "Mitochondrial complex 1 deficiency"
   },
   {
     "evidenceDataId": "CondPrev163",
@@ -5403,11 +5439,11 @@
   {
     "evidenceDataId": "CondPenet164",
     "attributeId": "A107",
-    "value": "Cond029",
+    "value": "Cond027",
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Wiedemann-Steiner syndrome"
+    "lookupValue": "Mitochondrial complex 1 deficiency"
   },
   {
     "evidenceDataId": "CondPenet164",
@@ -5421,11 +5457,11 @@
   {
     "evidenceDataId": "CondInh165",
     "attributeId": "A063",
-    "value": "Cond029",
+    "value": "Cond027",
     "evidenceDataName": "ConditionInheritance",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Wiedemann-Steiner syndrome"
+    "lookupValue": "Mitochondrial complex 1 deficiency"
   },
   {
     "evidenceDataId": "CondInh165",
@@ -5493,11 +5529,11 @@
   {
     "evidenceDataId": "CondPrev167",
     "attributeId": "A103",
-    "value": "Cond030",
+    "value": "Cond028",
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Familial Adenomatous Polyposis"
+    "lookupValue": "Perrault Syndrome"
   },
   {
     "evidenceDataId": "CondPrev167",
@@ -5520,11 +5556,11 @@
   {
     "evidenceDataId": "CondPenet168",
     "attributeId": "A107",
-    "value": "Cond030",
+    "value": "Cond028",
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Familial Adenomatous Polyposis"
+    "lookupValue": "Perrault Syndrome"
   },
   {
     "evidenceDataId": "CondPenet168",
@@ -5538,11 +5574,11 @@
   {
     "evidenceDataId": "CondInh169",
     "attributeId": "A063",
-    "value": "Cond030",
+    "value": "Cond028",
     "evidenceDataName": "ConditionInheritance",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Familial Adenomatous Polyposis"
+    "lookupValue": "Perrault Syndrome"
   },
   {
     "evidenceDataId": "CondInh169",
@@ -5700,11 +5736,11 @@
   {
     "evidenceDataId": "CondPenet176",
     "attributeId": "A107",
-    "value": "Cond032",
+    "value": "Cond030",
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "café au lait macules (CALMs)"
+    "lookupValue": "Familial Adenomatous Polyposis"
   },
   {
     "evidenceDataId": "CondPenet176",
@@ -5718,11 +5754,11 @@
   {
     "evidenceDataId": "CondInh177",
     "attributeId": "A063",
-    "value": "Cond032",
+    "value": "Cond030",
     "evidenceDataName": "ConditionInheritance",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "café au lait macules (CALMs)"
+    "lookupValue": "Familial Adenomatous Polyposis"
   },
   {
     "evidenceDataId": "CondInh177",
@@ -5853,11 +5889,11 @@
   {
     "evidenceDataId": "IndCond182",
     "attributeId": "A017",
-    "value": "Cond032",
+    "value": "Cond030",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "café au lait macules (CALMs)"
+    "lookupValue": "Familial Adenomatous Polyposis"
   },
   {
     "evidenceDataId": "IndCond182",
@@ -5880,11 +5916,11 @@
   {
     "evidenceDataId": "IndCond183",
     "attributeId": "A017",
-    "value": "Cond032",
+    "value": "Cond030",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "café au lait macules (CALMs)"
+    "lookupValue": "Familial Adenomatous Polyposis"
   },
   {
     "evidenceDataId": "IndCond183",
@@ -5907,11 +5943,11 @@
   {
     "evidenceDataId": "IndCond184",
     "attributeId": "A017",
-    "value": "Cond032",
+    "value": "Cond030",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "café au lait macules (CALMs)"
+    "lookupValue": "Familial Adenomatous Polyposis"
   },
   {
     "evidenceDataId": "IndCond184",
@@ -5934,11 +5970,11 @@
   {
     "evidenceDataId": "IndCond185",
     "attributeId": "A017",
-    "value": "Cond032",
+    "value": "Cond030",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "café au lait macules (CALMs)"
+    "lookupValue": "Familial Adenomatous Polyposis"
   },
   {
     "evidenceDataId": "IndCond185",
@@ -5952,11 +5988,11 @@
   {
     "evidenceDataId": "CondPenet186",
     "attributeId": "A107",
-    "value": "Cond028",
+    "value": "Cond026",
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Perrault Syndrome"
+    "lookupValue": "Marfan Syndrome"
   },
   {
     "evidenceDataId": "CondPenet186",
@@ -5970,11 +6006,11 @@
   {
     "evidenceDataId": "CondInh187",
     "attributeId": "A063",
-    "value": "Cond028",
+    "value": "Cond026",
     "evidenceDataName": "ConditionInheritance",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Perrault Syndrome"
+    "lookupValue": "Marfan Syndrome"
   },
   {
     "evidenceDataId": "CondInh187",
@@ -6051,11 +6087,11 @@
   {
     "evidenceDataId": "IndCond190",
     "attributeId": "A017",
-    "value": "Cond028",
+    "value": "Cond026",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Perrault Syndrome"
+    "lookupValue": "Marfan Syndrome"
   },
   {
     "evidenceDataId": "IndCond190",
@@ -6078,11 +6114,11 @@
   {
     "evidenceDataId": "IndCond191",
     "attributeId": "A017",
-    "value": "Cond028",
+    "value": "Cond026",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Perrault Syndrome"
+    "lookupValue": "Marfan Syndrome"
   },
   {
     "evidenceDataId": "IndCond191",
@@ -6240,11 +6276,11 @@
   {
     "evidenceDataId": "FamSegData196",
     "attributeId": "A081",
-    "value": "Cond033",
+    "value": "Cond035",
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "axillary freckling"
+    "lookupValue": "Familial Hypercholesterolemia"
   },
   {
     "evidenceDataId": "FamSegData196",
@@ -6699,11 +6735,11 @@
   {
     "evidenceDataId": "IndCond208",
     "attributeId": "A017",
-    "value": "Cond036",
+    "value": "Cond038",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Hereditary Breast and Ovarian Cancer"
+    "lookupValue": "Retinitis Pigmentosa"
   },
   {
     "evidenceDataId": "IndCond208",
@@ -6726,11 +6762,11 @@
   {
     "evidenceDataId": "IndCond209",
     "attributeId": "A017",
-    "value": "Cond036",
+    "value": "Cond038",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Hereditary Breast and Ovarian Cancer"
+    "lookupValue": "Retinitis Pigmentosa"
   },
   {
     "evidenceDataId": "IndCond209",
@@ -6753,11 +6789,11 @@
   {
     "evidenceDataId": "MenDisVarInterp210",
     "attributeId": "A014",
-    "value": "Cond036",
+    "value": "Cond038",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Hereditary Breast and Ovarian Cancer"
+    "lookupValue": "Retinitis Pigmentosa"
   },
   {
     "evidenceDataId": "MenDisVarInterp210",
@@ -6816,11 +6852,11 @@
   {
     "evidenceDataId": "IndCond212",
     "attributeId": "A017",
-    "value": "Cond037",
+    "value": "Cond039",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Fanconi Anemia"
+    "lookupValue": "Congenital Absence of the Vas Deferens"
   },
   {
     "evidenceDataId": "IndCond212",
@@ -6843,11 +6879,11 @@
   {
     "evidenceDataId": "MenDisVarInterp213",
     "attributeId": "A014",
-    "value": "Cond037",
+    "value": "Cond039",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Fanconi Anemia"
+    "lookupValue": "Congenital Absence of the Vas Deferens"
   },
   {
     "evidenceDataId": "MenDisVarInterp213",
@@ -6906,11 +6942,11 @@
   {
     "evidenceDataId": "IndCond215",
     "attributeId": "A017",
-    "value": "Cond038",
+    "value": "Cond007",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Retinitis Pigmentosa"
+    "lookupValue": "Cardiomyopathy"
   },
   {
     "evidenceDataId": "IndCond215",
@@ -6933,11 +6969,11 @@
   {
     "evidenceDataId": "MenDisVarInterp216",
     "attributeId": "A014",
-    "value": "Cond038",
+    "value": "Cond007",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Retinitis Pigmentosa"
+    "lookupValue": "Cardiomyopathy"
   },
   {
     "evidenceDataId": "MenDisVarInterp216",
@@ -6969,11 +7005,11 @@
   {
     "evidenceDataId": "CondPenet218",
     "attributeId": "A107",
-    "value": "Cond038",
+    "value": "Cond007",
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Retinitis Pigmentosa"
+    "lookupValue": "Cardiomyopathy"
   },
   {
     "evidenceDataId": "CondPenet218",
@@ -7590,11 +7626,11 @@
   {
     "evidenceDataId": "IndCond242",
     "attributeId": "A017",
-    "value": "Cond023",
+    "value": "Cond020",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Breast-ovarian cancer, familial 2"
+    "lookupValue": "Hypertrophic Cardiomyopathy"
   },
   {
     "evidenceDataId": "IndCond242",
@@ -7617,11 +7653,11 @@
   {
     "evidenceDataId": "MenDisVarInterp243",
     "attributeId": "A014",
-    "value": "Cond023",
+    "value": "Cond020",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Breast-ovarian cancer, familial 2"
+    "lookupValue": "Hypertrophic Cardiomyopathy"
   },
   {
     "evidenceDataId": "MenDisVarInterp243",
@@ -7716,11 +7752,11 @@
   {
     "evidenceDataId": "IndCond246",
     "attributeId": "A017",
-    "value": "Cond015",
+    "value": "Cond010",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "neuronal ceroid lipofuscinosis"
+    "lookupValue": "Hearing Loss"
   },
   {
     "evidenceDataId": "IndCond246",
@@ -7743,11 +7779,11 @@
   {
     "evidenceDataId": "MenDisVarInterp247",
     "attributeId": "A014",
-    "value": "Cond015",
+    "value": "Cond010",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "neuronal ceroid lipofuscinosis"
+    "lookupValue": "Hearing Loss"
   },
   {
     "evidenceDataId": "MenDisVarInterp247",
@@ -7770,11 +7806,11 @@
   {
     "evidenceDataId": "MenDisVarInterp248",
     "attributeId": "A014",
-    "value": "Cond015",
+    "value": "Cond010",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "neuronal ceroid lipofuscinosis"
+    "lookupValue": "Hearing Loss"
   },
   {
     "evidenceDataId": "MenDisVarInterp248",
@@ -7941,11 +7977,11 @@
   {
     "evidenceDataId": "MenDisVarInterp254",
     "attributeId": "A014",
-    "value": "Cond040",
+    "value": "Cond042",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Primary bone dysplasia"
+    "lookupValue": "Pseudoachondroplastic spondyloepiphyseal dysplasia syndrome"
   },
   {
     "evidenceDataId": "MenDisVarInterp254",
@@ -7968,11 +8004,11 @@
   {
     "evidenceDataId": "MenDisVarInterp255",
     "attributeId": "A014",
-    "value": "Cond034",
+    "value": "Cond036",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "macrocephaly"
+    "lookupValue": "Hereditary Breast and Ovarian Cancer"
   },
   {
     "evidenceDataId": "MenDisVarInterp255",
@@ -7995,11 +8031,11 @@
   {
     "evidenceDataId": "MenDisVarInterp256",
     "attributeId": "A014",
-    "value": "Cond042",
+    "value": "Cond043",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Pseudoachondroplastic spondyloepiphyseal dysplasia syndrome"
+    "lookupValue": "Familial Cancer of Breast"
   },
   {
     "evidenceDataId": "MenDisVarInterp256",
@@ -8022,11 +8058,11 @@
   {
     "evidenceDataId": "MenDisVarInterp257",
     "attributeId": "A014",
-    "value": "Cond043",
+    "value": "Cond044",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Familial Cancer of Breast"
+    "lookupValue": "Gyrate atrophy of choroid and retina"
   },
   {
     "evidenceDataId": "MenDisVarInterp257",
@@ -8416,31 +8452,13 @@
     "lookupValue": "Uncertain Signficance"
   },
   {
-    "evidenceDataId": "MenDisVarInterp042",
-    "attributeId": "A013",
-    "value": "CanAll049",
-    "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
-    "attributeName": "canonicalAllele",
-    "attributeType": "CanonicalAllele",
-    "lookupValue": "NM_000363.4(TNNI3):c.484C>T"
-  },
-  {
-    "evidenceDataId": "MenDisVarInterp042",
-    "attributeId": "A015",
-    "value": "LN:LA6668-3",
-    "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
-    "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "Pathogenic"
-  },
-  {
     "evidenceDataId": "FamSegData271",
     "attributeId": "A081",
-    "value": "Cond023",
+    "value": "Cond020",
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Breast-ovarian cancer, familial 2"
+    "lookupValue": "Hypertrophic Cardiomyopathy"
   },
   {
     "evidenceDataId": "FamSegData271",

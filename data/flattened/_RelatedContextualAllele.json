@@ -216,6 +216,18 @@
     "description": "NP_009225.1:p.Leu1764Ile - produced-by - NM_007294.3(BRCA1):c.5290C>A"
   },
   {
+    "contextualAlleleID": "CtxAll061",
+    "relatedType": "RO:0003000",
+    "relatedContextualAllele": "CtxAll062",
+    "description": "NM_007294.3(BRCA1):c.5291T>C - produces - NP_009225.1:p.Leu1764Pro"
+  },
+  {
+    "contextualAlleleID": "CtxAll062",
+    "relatedType": "RO:0003001",
+    "relatedContextualAllele": "CtxAll061",
+    "description": "NP_009225.1:p.Leu1764Pro - produced-by - NM_007294.3(BRCA1):c.5291T>C"
+  },
+  {
     "contextualAlleleID": "CtxAll091",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll092",
