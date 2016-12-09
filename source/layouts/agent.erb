@@ -40,10 +40,10 @@
     <h2>Examples</h2>
     <div id="example_view"></div>
     <script>
-        run_on_load = function () {return $("#example_view").JSONView(
+        window.addEventListener('load', function () {return $("#example_view").JSONView(
           <%= Hash[(examples_by_type(current_page.data.id) || []).map {|ex| [ex['cg:id'], ex]}].to_json %>,
           { collapsed: true }
-        )}
+        )})
     </script>
 
 
