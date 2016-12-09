@@ -91,10 +91,7 @@ class DMWGExampleData
     @flattened['_ActivityAssociatedAgent'].each do |aaa|
       activity = @id2example[aaa['activityId']] ||= {}
       associatedAgent = @id2example[aaa['wasAssociatedWith']] ||= { 'cg:id' => aaa['wasAssociatedWith'] }
-      (activity['wasAssociatedWith'] ||= []).push({
-        'agent' => associatedAgent,
-        'role' => @flattened['Attribute'][aaa['roleAttributeId']]['name']
-      })
+      (activity['wasAssociatedWith'] ||= []).push(associatedAgent)
     end
 
     @flattened['_ActivityUsedEntity'].each do |aue|
