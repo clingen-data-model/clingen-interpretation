@@ -51,6 +51,11 @@ require 'reformat_examples'
 
 @dmwg_examples = DMWGExampleData.new('data/flattened')
 
+# build raw json versions of the examples
+@dmwg_examples.by_id.each do |k,v|
+  proxy "/json/#{k}.json", "/json/template.json", :locals => { :object => v }, :ignore => true
+end
+
 helpers do
 
   # Generate a link to a specific resource with text based on title
