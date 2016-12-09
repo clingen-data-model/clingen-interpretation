@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>JS Bin</title>
+  <title>Example Diagram</title>
 <style>
 #cy {
     width: 100%;
@@ -63,7 +63,7 @@ function render_diagram(data) {
 			return;
 		}	
 		var v = data[k]
-		if (typeof(v) === 'string') {
+		if ((typeof(v) === 'string') || (typeof(v) === 'number')) {
 		  label += k + ": " + v + '\n'
 		} else if (Array.isArray(v)) {
 		  v.forEach(function (x) {
