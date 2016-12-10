@@ -82,15 +82,22 @@ function render_diagram(data) {
 	}
 
 	var root = generate_graph(data, cy)
-	//cy.layout({name: 'breadthfirst', roots: [root.id()]})
+	// cy.layout({name: 'breadthfirst', directed: true, spacingFactor: 0.5, roots: [root.id()]})
 
-	cy.layout({name: 'dagre', roots: [root.id()]})
+	cy.layout({
+		name: 'dagre',
+		rankDir: 'LR',
+		animate: true,
+		animationDuration: 2000,
+		easing: 'ease-in',
+	})
 
 	cy.on('tap', function(evt) {
 	  var node = evt.cyTarget;
 	  console.log(node.data())
 	})
 
+	return cy;
 }
 
 if (window.location.hash) {
@@ -99,7 +106,7 @@ if (window.location.hash) {
 	var url = '../../json/' + exampleId + '.json';
 	req.onreadystatechange = function () {
 		if (this.readyState == 4 && this.status == 200) {
-			render_diagram(JSON.parse(this.responseText))
+			window['cyto'] = render_diagram(JSON.parse(this.responseText))
 		}
 	}
 	req.open('GET', url, true);
