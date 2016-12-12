@@ -40,11 +40,25 @@
     <h2>Examples</h2>
     <div id="example_view"></div>
     <script>
-        window.addEventListener('load', function () {return $("#example_view").JSONView(
+window.addEventListener('load', function () {
+    var view = $("#example_view").JSONView(
           <%= Hash[(examples_by_type(current_page.data.id) || []).map {|ex| [ex['cg:id'], ex]}].to_json %>,
           { collapsed: true }
-        )})
-    </script>
+    )
 
+    var fix_ellipses = function () {
+        $('#example_view ul.obj li a:contains("cg:id")').parent().parent().parent().children('.ellipsis').each(function () {
+            $(this).html('<em>' + $(this).next('ul').find('a:contains("cg:id")').next('.string')[0].innerText + ', …</em>')
+        })
+
+        $('#example_view ul.array').each(function () {
+            $(this).parent().children('.ellipsis').html('<em>… [' + $(this).children('li').size() + ']</em>')
+        })
+    }
+    fix_ellipses()
+    $('#example_view .collapser').click(fix_ellipses)
+    $('#example_view .collapser').next('a.prop').click(fix_ellipses)
+})
+    </script>
 
 <% end %>
