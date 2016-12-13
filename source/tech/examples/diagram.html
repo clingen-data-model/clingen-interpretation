@@ -37,9 +37,33 @@ function render_diagram(data) {
 			'text-border-width': 1,
 			'text-border-opacity': 1,
 			'text-valign': 'center',
-			'text-halign': 'center'
+			'text-halign': 'center',
 		  }
 		},
+
+    {
+      selector: 'node.collapsed',
+      style: {
+        'text-border-style': 'dashed',
+        'background-color': '#ccc'
+      }
+    },
+
+    {
+      selector: 'node.hiding',
+      style: {
+        'opacity': 0,
+        'transition-property': 'opacity',
+        'transition-duration': '0.5s'
+      }
+    },
+
+    {
+      selector: 'node.hidden',
+      style: {
+        display: 'none'
+      }
+    },
 
 		{
 		  selector: 'edge',
@@ -61,7 +85,7 @@ function render_diagram(data) {
 	  Object.keys(data).forEach(function (k, index) {
 		if ((k === 'explanation') || (k === 'description')) {
 			return;
-		}	
+		}
 		var v = data[k]
 		if ((typeof(v) === 'string') || (typeof(v) === 'number')) {
 		  label += k + ": " + v + '\n'
@@ -84,17 +108,61 @@ function render_diagram(data) {
 	var root = generate_graph(data, cy)
 	// cy.layout({name: 'breadthfirst', directed: true, spacingFactor: 0.5, roots: [root.id()]})
 
-	cy.layout({
-		name: 'dagre',
-		rankDir: 'LR',
-		animate: true,
-		animationDuration: 2000,
-		easing: 'ease-in',
-	})
+  var layout = function(noop=false) {
+    if (noop) return;
+    cy.layout({
+      name: 'dagre',
+      rankDir: 'LR',
+      animate: true,
+      animationDuration: 2000,
+      easing: 'ease-in',
+    })
+  }
+
+
+  var expandChildren = function(n) {
+    n.removeClass('hidden')
+    if (!n.hasClass('collapsed')) {
+      n.outgoers().forEach(expandChildren)
+    }
+  }
+
+  var toggleCollapsed = function(n, noop=false) {
+    var successors = n.successors()
+    if (successors.size() > 0) {
+      n.toggleClass("collapsed")
+      if (n.hasClass('collapsed')) {
+        successors.animate({position: n.position(), duration: 500, queue: true})
+        window.setTimeout(function () {
+          successors.positions(n.position())
+          successors.addClass('hidden')
+          layout(noop)
+        }, 500)
+      } else { // expanding...
+        expandChildren(n)
+        layout()
+      }
+    }
+  }
+
+  // start things off closed...
+  var collapseAllCollapsable = function(n) {
+    if (n.outdegree() > 0) {
+      n.outgoers().forEach(collapseAllCollapsable);
+      if (n.data()['label']) toggleCollapsed(n, true);
+    }
+  }
+
+  collapseAllCollapsable(root)
+  root.successors().addClass('hidden')
+
+  layout()
 
 	cy.on('tap', function(evt) {
+    cy.elements().clearQueue()
 	  var node = evt.cyTarget;
-	  console.log(node.data())
+    console.log(node.data())
+    toggleCollapsed(node)
 	})
 
 	return cy;
