@@ -15,8 +15,7 @@ def iterate(d)
       activity.has_key?('used') && output['used'] = activity['used']
       if activity.has_key?('startedAtTime') then output['startedAtTime'] = activity['startedAtTime'] end
       if activity.has_key?('endedAtTime') then output['endedAtTime'] = activity['endedAtTime'] end
-      if activity.has_key?('endedAtTime') then output['endedAtTime'] = activity['endedAtTime'] end
-      if activity.has_key?('wasAssociatedWith') then output['wasAssociatedWith'] = activity['wasAssociatedWith'].map { |x| x['agent'] } end
+      if activity.has_key?('wasAssociatedWith') then output['wasAssociatedWith'] = activity['wasAssociatedWith'] end
       output.delete('wasGeneratedBy')
     end
     return output
