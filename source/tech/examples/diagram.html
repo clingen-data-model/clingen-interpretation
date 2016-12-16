@@ -87,7 +87,7 @@ function render_diagram(data) {
 			return;
 		}
 		var v = data[k]
-		if ((typeof(v) === 'string') || (typeof(v) === 'number')) {
+		if (typeof(v) === 'string' || typeof(v) === 'number' || typeof(v) === 'boolean') {
 		  label += k + ": " + v + '\n'
 		} else if (Array.isArray(v)) {
 		  v.forEach(function (x) {

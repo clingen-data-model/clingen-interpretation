@@ -71,7 +71,8 @@
         <tr>
           <td><%= ex['cg:id'] %></td>
           <td><%= ex['description'] || ex['desc'] || ex['shortDescription'] || ex['name'] || ex['explanation'] || ex['alleleName'] %></td>
-          <td><div class="example_view" id="<%= ex['cg:id'] %>"></div></td>
+          <td><div class="example_view" id="<%= ex['cg:id'] %>"><pre><code><%= JSON.pretty_generate(ex) %>
+          </code></pre></div></td>
           <td><a href="../../examples/diagram.html#<%= ex['cg:id'] %>">diagram</a></td>
         </tr>
 
@@ -89,21 +90,14 @@ var fix_ellipses = function ($view) {
 }
 
 window.addEventListener('load', function () {
-    $('.example_view').each(function () {
+    $('.example_view').each(function() {
         var $view = $(this);
-        $.getJSON('../../../json/' + $view.attr('id') + '.json', function (data) {
-            $view.JSONView(data, { collapsed: true })
-            fix_ellipses($view)
-            $view.find('.collapser').click(function (e) { fix_ellipses($view); })
-            $view.next('a.prop').click(function (e) { fix_ellipses($view); })
-        })
+        $view.JSONView($(this).innerText, {collapsed: true})
+        fix_ellipses($view)
+        $view.find('.collapser').click(function (e) { fix_ellipses($view); })
+        $view.next('a.prop').click(function (e) { fix_ellipses($view); })
     })
 
-    /*
-    fix_ellipses()
-    $('.example_view .collapser').click(fix_ellipses)
-    $('.example_view .collapser').next('a.prop').click(fix_ellipses)
-    */
 })
     </script>
 
