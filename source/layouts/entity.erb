@@ -79,23 +79,25 @@
       </tbody>
     </table>
     <script>
+var fix_ellipses = function ($view) {
+    $view.find('ul.obj li a:contains("cg:id")').parent().parent().parent().children('.ellipsis').each(function () {
+        $(this).html('<em>' + $(this).next('ul').find('a:contains("cg:id")').next('.string')[0].innerText + ', …</em>')
+    })
+    $view.find('ul.array').each(function () {
+        $(this).parent().children('.ellipsis').html('<em>… [' + $(this).children('li').size() + ']</em>')
+    })
+}
+
 window.addEventListener('load', function () {
     $('.example_view').each(function () {
         var $view = $(this);
         $.getJSON('../../../json/' + $view.attr('id') + '.json', function (data) {
             $view.JSONView(data, { collapsed: true })
+            fix_ellipses($view)
+            $view.find('.collapser').click(function (e) { fix_ellipses($view); })
+            $view.next('a.prop').click(function (e) { fix_ellipses($view); })
         })
     })
-
-    var fix_ellipses = function (event) {
-        $('.example_view ul.obj li a:contains("cg:id")').parent().parent().parent().children('.ellipsis').each(function () {
-            $(this).html('<em>' + $(this).next('ul').find('a:contains("cg:id")').next('.string')[0].innerText + ', …</em>')
-        })
-
-        $('.example_view ul.array').each(function () {
-            $(this).parent().children('.ellipsis').html('<em>… [' + $(this).children('li').size() + ']</em>')
-        })
-    }
 
     /*
     fix_ellipses()
