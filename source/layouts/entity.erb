@@ -92,7 +92,7 @@ var fix_ellipses = function ($view) {
 window.addEventListener('load', function () {
     $('.example_view').each(function() {
         var $view = $(this);
-        $view.JSONView($(this).innerText, {collapsed: true})
+        $view.JSONView($(this).text(), {collapsed: true})
         fix_ellipses($view)
         $view.find('.collapser').click(function (e) { fix_ellipses($view); })
         $view.next('a.prop').click(function (e) { fix_ellipses($view); })
