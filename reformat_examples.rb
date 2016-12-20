@@ -118,6 +118,25 @@ class DMWGExampleData
         end
       end
     end
+
+    # now bring up the activity info into the entity created by the activity
+    # (to align with SEPIO data model)
+    # FIXME- we may eventually get rid of this part after restructuring the spreadsheet
+    @id2example.each do |eid, example|
+      if example.has_key?('wasGeneratedBy')
+        activity = example['wasGeneratedBy']
+        activity.each do |k, v|
+          if example.has_key? k then
+            STDERR.puts "#{eid} already has key #{k}"
+          else
+            example[k] = v
+          end
+        end
+        example.delete('wasGeneratedBy')
+        @id2example.delete(activity['cg:id'])
+      end
+    end
+
   end
 
   private
