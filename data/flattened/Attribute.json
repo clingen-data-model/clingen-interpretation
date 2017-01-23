@@ -30,38 +30,30 @@
   "A003": {
     "id": "A003",
     "entityId": "E03",
-    "name": "established",
-    "dataType": "boolean",
+    "name": "strength",
+    "dataType": "CodeableConcept",
     "cardinality": "0..1",
     "defaultValue": "null",
-    "valueSetName": "",
+    "valueSetId": "VS016",
+    "valueSetName": "ConditionMechanismStrength",
     "precedence": 4.0,
-    "description": "True if the class of variants are known to cause the condition",
-    "fullyQualifiedName": "ConditionMechanism.established"
+    "fullyQualifiedName": "ConditionMechanism.strength"
   },
   "A004": {
     "id": "A004",
-    "entityId": "E03",
-    "name": "primary",
-    "dataType": "boolean",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 5.0,
-    "description": "True if the class of variants are the main causes of the condition",
-    "fullyQualifiedName": "ConditionMechanism.primary"
+    "entityId": "E29",
+    "name": "capturedEvidence",
+    "dataType": "Data",
+    "cardinality": "1..*",
+    "fullyQualifiedName": "CaptureData.capturedEvidence"
   },
   "A005": {
     "id": "A005",
-    "entityId": "E03",
-    "name": "suggested",
-    "dataType": "boolean",
+    "entityId": "E29",
+    "name": "dataSource",
+    "dataType": "DataSource",
     "cardinality": "0..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 6.0,
-    "description": "True if the class of variants has been suggested to cause the condition",
-    "fullyQualifiedName": "ConditionMechanism.suggested"
+    "fullyQualifiedName": "CaptureData.dataSource"
   },
   "A006": {
     "id": "A006",
@@ -368,7 +360,7 @@
     "valueSetName": "",
     "precedence": 3.0,
     "description": "The criteria applied to create the dataset in which the frequency was measured",
-    "fullyQualifiedName": "PopulationAlleleFrequency.ascertainment"
+    "fullyQualifiedName": "AlleleFrequency.ascertainment"
   },
   "A031": {
     "id": "A031",
@@ -380,7 +372,7 @@
     "valueSetName": "",
     "precedence": 1.0,
     "description": "The variant for which the frequency is given",
-    "fullyQualifiedName": "PopulationAlleleFrequency.contextualAllele"
+    "fullyQualifiedName": "AlleleFrequency.contextualAllele"
   },
   "A032": {
     "id": "A032",
@@ -392,7 +384,7 @@
     "valueSetName": "",
     "precedence": 5.0,
     "description": "Frequency numerator: number of times the allele was observed",
-    "fullyQualifiedName": "PopulationAlleleFrequency.alleleCount"
+    "fullyQualifiedName": "AlleleFrequency.alleleCount"
   },
   "A033": {
     "id": "A033",
@@ -404,55 +396,31 @@
     "valueSetName": "",
     "precedence": 6.0,
     "description": "Frequency denominator: number of observations",
-    "fullyQualifiedName": "PopulationAlleleFrequency.alleleNumber"
+    "fullyQualifiedName": "AlleleFrequency.alleleNumber"
   },
   "A034": {
     "id": "A034",
-    "entityId": "E22",
-    "name": "ascertainment",
-    "dataType": "CodeableConcept",
-    "cardinality": "???",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 3.0,
-    "description": "The criteria applied to create the dataset in which the frequency was measured",
-    "fullyQualifiedName": "GroupAlleleFrequency.ascertainment"
+    "entityId": "E23",
+    "name": "xx",
+    "fullyQualifiedName": "AlleleFrequency.xx"
   },
   "A035": {
     "id": "A035",
-    "entityId": "E22",
-    "name": "contextualAllele",
-    "dataType": "ContextualAllele",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 1.0,
-    "description": "The variant for which the frequency is given",
-    "fullyQualifiedName": "GroupAlleleFrequency.contextualAllele"
+    "entityId": "E23",
+    "name": "xx",
+    "fullyQualifiedName": "AlleleFrequency.xx"
   },
   "A036": {
     "id": "A036",
-    "entityId": "E22",
-    "name": "alleleCount",
-    "dataType": "int",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 4.0,
-    "description": "Frequency numerator: number of times the allele was observed",
-    "fullyQualifiedName": "GroupAlleleFrequency.alleleCount"
+    "entityId": "E23",
+    "name": "xx",
+    "fullyQualifiedName": "AlleleFrequency.xx"
   },
   "A037": {
     "id": "A037",
-    "entityId": "E22",
-    "name": "alleleNumber",
-    "dataType": "int",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 5.0,
-    "description": "Frequency denominator: number of observations",
-    "fullyQualifiedName": "GroupAlleleFrequency.alleleNumber"
+    "entityId": "E23",
+    "name": "xx",
+    "fullyQualifiedName": "AlleleFrequency.xx"
   },
   "A038": {
     "id": "A038",
@@ -528,43 +496,43 @@
   },
   "A044": {
     "id": "A044",
-    "entityId": "E22",
+    "entityId": "E23",
     "name": "individualCount",
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 6.0,
+    "precedence": 7.0,
     "description": "Number of individuals sampled",
-    "fullyQualifiedName": "GroupAlleleFrequency.individualCount"
+    "fullyQualifiedName": "AlleleFrequency.individualCount"
   },
   "A045": {
     "id": "A045",
-    "entityId": "E22",
+    "entityId": "E23",
     "name": "homozygousAlleleIndividualCount",
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 7.0,
+    "precedence": 8.0,
     "description": "Number of individuals in the group that are homozygous for the allele",
-    "fullyQualifiedName": "GroupAlleleFrequency.homozygousAlleleIndividualCount"
+    "fullyQualifiedName": "AlleleFrequency.homozygousAlleleIndividualCount"
   },
   "A046": {
     "id": "A046",
-    "entityId": "E22",
+    "entityId": "E23",
     "name": "heterozygousAlleleIndividualCount",
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 8.0,
+    "precedence": 9.0,
     "description": "Number of individuals in the group who are heterozygous for the allele.",
-    "fullyQualifiedName": "GroupAlleleFrequency.heterozygousAlleleIndividualCount"
+    "fullyQualifiedName": "AlleleFrequency.heterozygousAlleleIndividualCount"
   },
   "A047": {
     "id": "A047",
-    "entityId": "E22",
+    "entityId": "E23",
     "name": "population",
     "dataType": "CodeableConcept",
     "cardinality": "0..1",
@@ -572,8 +540,8 @@
     "valueSetId": "VS013",
     "valueSetName": "PopulationType",
     "precedence": 2.0,
-    "description": "Ancestry from which the group was sampled",
-    "fullyQualifiedName": "GroupAlleleFrequency.population"
+    "description": "Ancestry of population or group over which the frequency was measured",
+    "fullyQualifiedName": "AlleleFrequency.population"
   },
   "A048": {
     "id": "A048",
@@ -606,7 +574,7 @@
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
-    "precedence": 1.0
+    "precedence": 5.0
   },
   "A051": {
     "id": "A051",
@@ -616,9 +584,9 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 7.0,
+    "precedence": 10.0,
     "description": "Number of individuals in the group that are hemizygous for the allele",
-    "fullyQualifiedName": "PopulationAlleleFrequency.hemizygousAlleleIndividualCount"
+    "fullyQualifiedName": "AlleleFrequency.hemizygousAlleleIndividualCount"
   },
   "A052": {
     "id": "A052",
@@ -706,15 +674,8 @@
   "A059": {
     "id": "A059",
     "entityId": "E23",
-    "name": "population",
-    "dataType": "CodeableConcept",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "valueSetId": "VS013",
-    "valueSetName": "PopulationType",
-    "precedence": 2.0,
-    "description": "Population over which the frequency was measured",
-    "fullyQualifiedName": "PopulationAlleleFrequency.population"
+    "name": "xx",
+    "fullyQualifiedName": "AlleleFrequency.xx"
   },
   "A060": {
     "id": "A060",
@@ -726,19 +687,13 @@
     "valueSetName": "",
     "precedence": 4.0,
     "description": "Frequency of the named allele in the population",
-    "fullyQualifiedName": "PopulationAlleleFrequency.alleleFrequency"
+    "fullyQualifiedName": "AlleleFrequency.alleleFrequency"
   },
   "A061": {
     "id": "A061",
     "entityId": "E23",
-    "name": "homozygousAlleleIndividualCount",
-    "dataType": "int",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 8.0,
-    "description": "Number of individuals that are homozygous for the allele in the data set",
-    "fullyQualifiedName": "PopulationAlleleFrequency.homozygousAlleleIndividualCount"
+    "name": "xx",
+    "fullyQualifiedName": "AlleleFrequency.xx"
   },
   "A062": {
     "id": "A062",
@@ -748,9 +703,9 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 9.0,
+    "precedence": 11.0,
     "description": "Median coverage at the allele site in the data set",
-    "fullyQualifiedName": "PopulationAlleleFrequency.medianCoverage"
+    "fullyQualifiedName": "AlleleFrequency.medianCoverage"
   },
   "A063": {
     "id": "A063",
@@ -866,47 +821,39 @@
   },
   "A072": {
     "id": "A072",
-    "entityId": "E11",
-    "name": "assessor",
-    "dataType": "Agent",
-    "cardinality": "1..n",
+    "entityId": "E30",
+    "name": "assertionMethod",
+    "dataType": "AssertionMethod",
+    "cardinality": "0..1",
     "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 1.0,
-    "fullyQualifiedName": "AssessCriterion.assessor"
+    "fullyQualifiedName": "GenerateVariantInterpretation.assertionMethod"
   },
   "A073": {
     "id": "A073",
-    "entityId": "E29",
-    "name": "capturer",
-    "dataType": "Agent",
-    "cardinality": "1..n",
+    "entityId": "E30",
+    "name": "criterionAssessments",
+    "dataType": "CriterionAssessment",
+    "cardinality": "0..*",
     "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 1.0,
-    "fullyQualifiedName": "CaptureData.capturer"
+    "fullyQualifiedName": "GenerateVariantInterpretation.criterionAssessments"
   },
   "A074": {
     "id": "A074",
     "entityId": "E30",
-    "name": "generator",
-    "dataType": "Agent",
-    "cardinality": "1..n",
+    "name": "condition",
+    "dataType": "Condition",
+    "cardinality": "1..1",
     "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 1.0,
-    "fullyQualifiedName": "GenerateVariantInterpretation.generator"
+    "fullyQualifiedName": "GenerateVariantInterpretation.condition"
   },
   "A075": {
     "id": "A075",
-    "entityId": "E31",
-    "name": "publisher",
-    "dataType": "Agent",
-    "cardinality": "1..n",
+    "entityId": "E30",
+    "name": "canonicalAllele",
+    "dataType": "CanonicalAllele",
+    "cardinality": "1..1",
     "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 1.0,
-    "fullyQualifiedName": "PublishVariantInterpretation.publisher"
+    "fullyQualifiedName": "GenerateVariantInterpretation.canonicalAllele"
   },
   "A076": {
     "id": "A076",
@@ -963,8 +910,8 @@
     "dataType": "CodeableConcept",
     "cardinality": "1..1",
     "defaultValue": "null",
-    "valueSetId": "VS012",
-    "valueSetName": "FunctionalDataType",
+    "valueSetId": "VS014",
+    "valueSetName": "BenignMissenseVariationRate",
     "precedence": 3.0,
     "description": "The rate at which Benign missense variants occur within the region",
     "fullyQualifiedName": "BenignMissenseVariationRate.value"
@@ -1025,24 +972,12 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 5.0,
+    "precedence": 6.0,
     "description": "Number of (non-proband) individuals without the condition and with the allele",
     "fullyQualifiedName": "FamilySegregationData.phenotypeNegativeAllelePositive"
   },
   "A086": {
     "id": "A086",
-    "entityId": "E46",
-    "name": "condition",
-    "dataType": "Condition",
-    "cardinality": "1..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 2.0,
-    "description": "Condition being tested for cosegregation",
-    "fullyQualifiedName": "AggregateSegregationData.condition"
-  },
-  "A087": {
-    "id": "A087",
     "entityId": "E46",
     "name": "canonicalAllele",
     "dataType": "CanonicalAllele",
@@ -1053,20 +988,20 @@
     "description": "Allele being tested for cosegregation",
     "fullyQualifiedName": "AggregateSegregationData.canonicalAllele"
   },
-  "A088": {
-    "id": "A088",
+  "A087": {
+    "id": "A087",
     "entityId": "E46",
-    "name": "familySegregationData",
-    "dataType": "FamilySegregationData",
-    "cardinality": "0..*",
+    "name": "condition",
+    "dataType": "Condition",
+    "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 4.0,
-    "description": "List of FamilySegregrationData that have been aggregated",
-    "fullyQualifiedName": "AggregateSegregationData.familySegregationData"
+    "precedence": 2.0,
+    "description": "Condition being tested for cosegregation",
+    "fullyQualifiedName": "AggregateSegregationData.condition"
   },
-  "A089": {
-    "id": "A089",
+  "A088": {
+    "id": "A088",
     "entityId": "E46",
     "name": "totalNumberOfSegregations",
     "dataType": "int",
@@ -1077,6 +1012,18 @@
     "description": "Total number of segregations across families",
     "fullyQualifiedName": "AggregateSegregationData.totalNumberOfSegregations"
   },
+  "A089": {
+    "id": "A089",
+    "entityId": "E46",
+    "name": "familySegregationData",
+    "dataType": "FamilySegregationData",
+    "cardinality": "0..*",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 4.0,
+    "description": "List of FamilySegregrationData that have been aggregated",
+    "fullyQualifiedName": "AggregateSegregationData.familySegregationData"
+  },
   "A090": {
     "id": "A090",
     "entityId": "E45",
@@ -1085,7 +1032,7 @@
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 6.0,
+    "precedence": 8.0,
     "fullyQualifiedName": "FamilySegregationData.columns"
   },
   "A091": {
@@ -1096,7 +1043,7 @@
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 7.0,
+    "precedence": 9.0,
     "fullyQualifiedName": "FamilySegregationData.affectedValues"
   },
   "A092": {
@@ -1107,7 +1054,7 @@
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 8.0,
+    "precedence": 10.0,
     "fullyQualifiedName": "FamilySegregationData.genotypeValues"
   },
   "A093": {
@@ -1118,7 +1065,7 @@
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 9.0,
+    "precedence": 11.0,
     "fullyQualifiedName": "FamilySegregationData.pedigree"
   },
   "A094": {
@@ -1132,18 +1079,6 @@
     "precedence": 1.0,
     "description": "Gene that contains the missense variants",
     "fullyQualifiedName": "BenignMissenseVariationRate.gene"
-  },
-  "A095": {
-    "id": "A095",
-    "entityId": "E03",
-    "name": "common",
-    "dataType": "boolean",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 7.0,
-    "description": "Whether the mechanism is common cause of the condition",
-    "fullyQualifiedName": "ConditionMechanism.common"
   },
   "A096": {
     "id": "A096",
@@ -1164,8 +1099,8 @@
     "dataType": "CodeableConcept",
     "cardinality": "1..1",
     "defaultValue": "null",
-    "valueSetId": "VS012",
-    "valueSetName": "FunctionalDataType",
+    "valueSetId": "VS010",
+    "valueSetName": "PredictionType",
     "precedence": 3.0,
     "description": "The type of prediction being made",
     "fullyQualifiedName": "InSilicoPrediction.type"
@@ -1324,7 +1259,7 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 10.0,
+    "precedence": 12.0,
     "description": "Whether phenotype positive/allele negative or phenotype negative/allele positive individuals are in the family",
     "fullyQualifiedName": "FamilySegregationData.anyInconsistentSegregations"
   },
@@ -1518,7 +1453,7 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 1.0,
+    "precedence": 7.0,
     "description": "The number of non-proband family members that have neither the allele nor the phenotype",
     "fullyQualifiedName": "FamilySegregationData.phenotypeNegativeAlleleNegative"
   },
@@ -1866,36 +1801,6 @@
   "A162": {
     "id": "A162",
     "entityId": "E46",
-    "name": "totalOfUntestedConditionPosIndividuals",
-    "dataType": "int",
-    "cardinality": "0..1",
-    "precedence": 10.0,
-    "description": "Number of individuals across families that have the condition but whose allele is untested",
-    "fullyQualifiedName": "AggregateSegregationData.totalOfUntestedConditionPosIndividuals"
-  },
-  "A163": {
-    "id": "A163",
-    "entityId": "E46",
-    "name": "totalOfUntestedConditionNegIndividuals",
-    "dataType": "int",
-    "cardinality": "0..1",
-    "precedence": 11.0,
-    "description": "Number of individuals across families that do not have the condition but whose allele is untested",
-    "fullyQualifiedName": "AggregateSegregationData.totalOfUntestedConditionNegIndividuals"
-  },
-  "A164": {
-    "id": "A164",
-    "entityId": "E46",
-    "name": "totalOfFamiliesWithInconsistentSegregations",
-    "dataType": "int",
-    "cardinality": "0..1",
-    "precedence": 12.0,
-    "description": "Number of families containing segregations that are inconsistent with the allele causing the condition",
-    "fullyQualifiedName": "AggregateSegregationData.totalOfFamiliesWithInconsistentSegregations"
-  },
-  "A165": {
-    "id": "A165",
-    "entityId": "E46",
     "name": "totalOfAlleleNegConditionNegIndividuals",
     "dataType": "int",
     "cardinality": "0..1",
@@ -1903,27 +1808,8 @@
     "description": "Number of individuals across families that lack both the allele and the condition",
     "fullyQualifiedName": "AggregateSegregationData.totalOfAlleleNegConditionNegIndividuals"
   },
-  "A166": {
-    "id": "A166",
-    "entityId": "E46",
-    "name": "totalLODScore",
-    "dataType": "float",
-    "cardinality": "0..1",
-    "precedence": 13.0,
-    "description": "LOD Score aggregated across families",
-    "fullyQualifiedName": "AggregateSegregationData.totalLODScore"
-  },
-  "A167": {
-    "id": "A167",
-    "entityId": "E46",
-    "name": "LODScoreType",
-    "dataType": "CodeableConcept",
-    "precedence": 14.0,
-    "description": "Method of calculating LOD",
-    "fullyQualifiedName": "AggregateSegregationData.LODScoreType"
-  },
-  "A168": {
-    "id": "A168",
+  "A163": {
+    "id": "A163",
     "entityId": "E46",
     "name": "totalOfAllelePosConditionNegIndividuals",
     "dataType": "int",
@@ -1932,8 +1818,8 @@
     "description": "Number of individuals across families that have the allele but not the condition",
     "fullyQualifiedName": "AggregateSegregationData.totalOfAllelePosConditionNegIndividuals"
   },
-  "A169": {
-    "id": "A169",
+  "A164": {
+    "id": "A164",
     "entityId": "E46",
     "name": "totalOfAlleleNegConditionPosIndividuals",
     "dataType": "int",
@@ -1941,6 +1827,36 @@
     "precedence": 9.0,
     "description": "Number of individuals across families that do not have the allele but do have the condition",
     "fullyQualifiedName": "AggregateSegregationData.totalOfAlleleNegConditionPosIndividuals"
+  },
+  "A165": {
+    "id": "A165",
+    "entityId": "E46",
+    "name": "totalOfUntestedConditionPosIndividuals",
+    "dataType": "int",
+    "cardinality": "0..1",
+    "precedence": 10.0,
+    "description": "Number of individuals across families that have the condition but whose allele is untested",
+    "fullyQualifiedName": "AggregateSegregationData.totalOfUntestedConditionPosIndividuals"
+  },
+  "A166": {
+    "id": "A166",
+    "entityId": "E46",
+    "name": "totalOfUntestedConditionNegIndividuals",
+    "dataType": "int",
+    "cardinality": "0..1",
+    "precedence": 11.0,
+    "description": "Number of individuals across families that do not have the condition but whose allele is untested",
+    "fullyQualifiedName": "AggregateSegregationData.totalOfUntestedConditionNegIndividuals"
+  },
+  "A167": {
+    "id": "A167",
+    "entityId": "E46",
+    "name": "totalOfFamiliesWithInconsistentSegregations",
+    "dataType": "int",
+    "cardinality": "0..1",
+    "precedence": 12.0,
+    "description": "Number of families containing segregations that are inconsistent with the allele causing the condition",
+    "fullyQualifiedName": "AggregateSegregationData.totalOfFamiliesWithInconsistentSegregations"
   },
   "A170": {
     "id": "A170",

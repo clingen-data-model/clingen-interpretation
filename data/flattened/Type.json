@@ -183,23 +183,14 @@
     "group": "Grp008",
     "groupName": "Data>CaseControl"
   },
-  "E22": {
-    "id": "E22",
-    "name": "GroupAlleleFrequency",
-    "parentType": "E01",
-    "link": "GAF",
-    "description": "The frequency of an allele in a defined group of individuals",
-    "group": "Grp008",
-    "groupName": "Data>GroupAlleleFrequency"
-  },
   "E23": {
     "id": "E23",
-    "name": "PopulationAlleleFrequency",
-    "parentType": "E22",
-    "link": "PAF",
-    "description": "The frequency of an allele in a population",
+    "name": "AlleleFrequency",
+    "parentType": "E01",
+    "link": "AllFreq",
+    "description": "The frequency of an allele in a population or a defined group of individuals",
     "group": "Grp008",
-    "groupName": "Data>PopulationAlleleFrequency"
+    "groupName": "Data>AlleleFrequency"
   },
   "E24": {
     "id": "E24",
@@ -468,5 +459,11 @@
     "link": "VSC",
     "description": "*TODO* short description needed",
     "groupName": "#N/A"
+  },
+  "E56": {
+    "id": "E56",
+    "name": "EvidenceLine",
+    "link": "EvLn",
+    "description": "A summarization of all underlying data to provide a single arugment which may be used for evaluation when reaching a specific assertion (e.g. interpretation or assessment)."
   }
 }

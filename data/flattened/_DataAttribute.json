@@ -40,11 +40,11 @@
   {
     "evidenceDataId": "CondMech002",
     "attributeId": "A003",
-    "value": 0,
+    "value": "CG:established",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "established",
-    "attributeType": "boolean",
-    "lookupValue": 0
+    "attributeName": "strength",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Established"
   },
   {
     "evidenceDataId": "CondMech002",
@@ -94,11 +94,11 @@
   {
     "evidenceDataId": "CondMech004",
     "attributeId": "A003",
-    "value": 1,
+    "value": "CG:established",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "established",
-    "attributeType": "boolean",
-    "lookupValue": 1
+    "attributeName": "strength",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Established"
   },
   {
     "evidenceDataId": "CondMech004",
@@ -184,11 +184,11 @@
   {
     "evidenceDataId": "CondMech007",
     "attributeId": "A003",
-    "value": 1,
+    "value": "CG:established",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "established",
-    "attributeType": "boolean",
-    "lookupValue": 1
+    "attributeName": "strength",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Established"
   },
   {
     "evidenceDataId": "CondMech007",
@@ -301,11 +301,11 @@
   {
     "evidenceDataId": "MenDisVarInterp011",
     "attributeId": "A014",
-    "value": "Cond005",
+    "value": "Cond045",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Costello Syndrome"
+    "lookupValue": "Rasopathy"
   },
   {
     "evidenceDataId": "MenDisVarInterp011",
@@ -857,73 +857,73 @@
     "lookupValue": "ERK"
   },
   {
-    "evidenceDataId": "PAF028",
+    "evidenceDataId": "AllFreq028",
     "attributeId": "A030",
     "value": "ExAC",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
     "lookupValue": "ExAC"
   },
   {
-    "evidenceDataId": "PAF028",
+    "evidenceDataId": "AllFreq028",
     "attributeId": "A031",
     "value": "CtxAll025",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_000441.1(SLC26A4):c.1003T>C"
   },
   {
-    "evidenceDataId": "PAF028",
+    "evidenceDataId": "AllFreq028",
     "attributeId": "A032",
     "value": 105.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
     "lookupValue": 105
   },
   {
-    "evidenceDataId": "PAF028",
+    "evidenceDataId": "AllFreq028",
     "attributeId": "A033",
     "value": 121336.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
     "lookupValue": 121336
   },
   {
-    "evidenceDataId": "GAF029",
-    "attributeId": "A034",
+    "evidenceDataId": "AllFreq029",
+    "attributeId": "A030",
     "value": "Across all published data (and LMM data) with hearing loss.",
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
     "lookupValue": "Across all published data (and LMM data) with hearing loss."
   },
   {
-    "evidenceDataId": "GAF029",
-    "attributeId": "A035",
+    "evidenceDataId": "AllFreq029",
+    "attributeId": "A031",
     "value": "CtxAll025",
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_000441.1(SLC26A4):c.1003T>C"
   },
   {
-    "evidenceDataId": "GAF029",
-    "attributeId": "A036",
+    "evidenceDataId": "AllFreq029",
+    "attributeId": "A032",
     "value": 32.0,
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
     "lookupValue": 32
   },
   {
-    "evidenceDataId": "GAF029",
-    "attributeId": "A037",
+    "evidenceDataId": "AllFreq029",
+    "attributeId": "A033",
     "value": 4076.0,
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
     "lookupValue": 4076
@@ -985,62 +985,62 @@
   {
     "evidenceDataId": "CaseCtrl030",
     "attributeId": "A042",
-    "value": "GAF029",
+    "value": "AllFreq029",
     "evidenceDataName": "CaseControl",
     "attributeName": "caseGroupFrequency",
     "attributeType": "GroupAlleleFrequency",
-    "lookupValue": "GAF029"
+    "lookupValue": "AllFreq029"
   },
   {
     "evidenceDataId": "CaseCtrl030",
     "attributeId": "A043",
-    "value": "PAF028",
+    "value": "AllFreq028",
     "evidenceDataName": "CaseControl",
     "attributeName": "controlGroupFrequency",
     "attributeType": "GroupAlleleFrequency",
-    "lookupValue": "PAF028"
+    "lookupValue": "AllFreq028"
   },
   {
-    "evidenceDataId": "PAF031",
+    "evidenceDataId": "AllFreq031",
     "attributeId": "A030",
     "value": "ExAC",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
     "lookupValue": "ExAC"
   },
   {
-    "evidenceDataId": "PAF031",
+    "evidenceDataId": "AllFreq031",
     "attributeId": "A031",
     "value": "CtxAll026",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_000540.2 (RYR1):c.1840C>T"
   },
   {
-    "evidenceDataId": "PAF031",
+    "evidenceDataId": "AllFreq031",
     "attributeId": "A032",
     "value": 9.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
     "lookupValue": 9
   },
   {
-    "evidenceDataId": "PAF031",
+    "evidenceDataId": "AllFreq031",
     "attributeId": "A033",
     "value": 66740.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
     "lookupValue": 66740
   },
   {
-    "evidenceDataId": "GAF032",
-    "attributeId": "A035",
+    "evidenceDataId": "AllFreq032",
+    "attributeId": "A031",
     "value": "CtxAll026",
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_000540.2 (RYR1):c.1840C>T"
@@ -1066,161 +1066,161 @@
   {
     "evidenceDataId": "CaseCtrl033",
     "attributeId": "A042",
-    "value": "GAF032",
+    "value": "AllFreq032",
     "evidenceDataName": "CaseControl",
     "attributeName": "caseGroupFrequency",
     "attributeType": "GroupAlleleFrequency",
-    "lookupValue": "GAF032"
+    "lookupValue": "AllFreq032"
   },
   {
     "evidenceDataId": "CaseCtrl033",
     "attributeId": "A043",
-    "value": "PAF031",
+    "value": "AllFreq031",
     "evidenceDataName": "CaseControl",
     "attributeName": "controlGroupFrequency",
     "attributeType": "GroupAlleleFrequency",
-    "lookupValue": "PAF031"
+    "lookupValue": "AllFreq031"
   },
   {
-    "evidenceDataId": "GAF034",
-    "attributeId": "A034",
+    "evidenceDataId": "AllFreq034",
+    "attributeId": "A030",
     "value": "Case group is composed of cases from six cohorts from the GENIUS T2D consortium.  Case status is defined per-cohort.",
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
     "lookupValue": "Case group is composed of cases from six cohorts from the GENIUS T2D consortium.  Case status is defined per-cohort."
   },
   {
-    "evidenceDataId": "GAF034",
-    "attributeId": "A035",
+    "evidenceDataId": "AllFreq034",
+    "attributeId": "A031",
     "value": "CtxAll027",
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_006208.2(ENPP1):c.517A>C"
   },
   {
-    "evidenceDataId": "GAF034",
-    "attributeId": "A036",
+    "evidenceDataId": "AllFreq034",
+    "attributeId": "A032",
     "value": 1198.0,
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
     "lookupValue": 1198
   },
   {
-    "evidenceDataId": "GAF034",
-    "attributeId": "A037",
+    "evidenceDataId": "AllFreq034",
+    "attributeId": "A033",
     "value": 7344.0,
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
     "lookupValue": 7344
   },
   {
-    "evidenceDataId": "GAF034",
+    "evidenceDataId": "AllFreq034",
     "attributeId": "A044",
     "value": 3672.0,
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "individualCount",
     "attributeType": "int",
     "lookupValue": 3672
   },
   {
-    "evidenceDataId": "GAF034",
+    "evidenceDataId": "AllFreq034",
     "attributeId": "A045",
     "value": 113.0,
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
     "lookupValue": 113
   },
   {
-    "evidenceDataId": "GAF034",
+    "evidenceDataId": "AllFreq034",
     "attributeId": "A046",
     "value": 972.0,
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "heterozygousAlleleIndividualCount",
     "attributeType": "int",
     "lookupValue": 972
   },
   {
-    "evidenceDataId": "GAF034",
+    "evidenceDataId": "AllFreq034",
     "attributeId": "A047",
     "value": "EX:nfe",
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
     "lookupValue": "Non-Finnish European"
   },
   {
-    "evidenceDataId": "GAF035",
-    "attributeId": "A034",
+    "evidenceDataId": "AllFreq035",
+    "attributeId": "A030",
     "value": "Controls group is composed of controls from six cohorts from the GENIUS T2D consortium.  Controls status is defined per-cohort.",
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
     "lookupValue": "Controls group is composed of controls from six cohorts from the GENIUS T2D consortium.  Controls status is defined per-cohort."
   },
   {
-    "evidenceDataId": "GAF035",
-    "attributeId": "A035",
+    "evidenceDataId": "AllFreq035",
+    "attributeId": "A031",
     "value": "CtxAll027",
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_006208.2(ENPP1):c.517A>C"
   },
   {
-    "evidenceDataId": "GAF035",
-    "attributeId": "A036",
+    "evidenceDataId": "AllFreq035",
+    "attributeId": "A032",
     "value": 936.0,
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
     "lookupValue": 936
   },
   {
-    "evidenceDataId": "GAF035",
-    "attributeId": "A037",
+    "evidenceDataId": "AllFreq035",
+    "attributeId": "A033",
     "value": 5870.0,
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
     "lookupValue": 5870
   },
   {
-    "evidenceDataId": "GAF035",
+    "evidenceDataId": "AllFreq035",
     "attributeId": "A044",
     "value": 2935.0,
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "individualCount",
     "attributeType": "int",
     "lookupValue": 2935
   },
   {
-    "evidenceDataId": "GAF035",
+    "evidenceDataId": "AllFreq035",
     "attributeId": "A045",
     "value": 77.0,
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
     "lookupValue": 77
   },
   {
-    "evidenceDataId": "GAF035",
+    "evidenceDataId": "AllFreq035",
     "attributeId": "A046",
     "value": 782.0,
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "heterozygousAlleleIndividualCount",
     "attributeType": "int",
     "lookupValue": 782
   },
   {
-    "evidenceDataId": "GAF035",
+    "evidenceDataId": "AllFreq035",
     "attributeId": "A047",
     "value": "EX:nfe",
-    "evidenceDataName": "GroupAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
     "lookupValue": "Non-Finnish European"
@@ -1264,20 +1264,20 @@
   {
     "evidenceDataId": "CaseCtrl036",
     "attributeId": "A042",
-    "value": "GAF034",
+    "value": "AllFreq034",
     "evidenceDataName": "CaseControl",
     "attributeName": "caseGroupFrequency",
     "attributeType": "GroupAlleleFrequency",
-    "lookupValue": "GAF034"
+    "lookupValue": "AllFreq034"
   },
   {
     "evidenceDataId": "CaseCtrl036",
     "attributeId": "A043",
-    "value": "GAF035",
+    "value": "AllFreq035",
     "evidenceDataName": "CaseControl",
     "attributeName": "controlGroupFrequency",
     "attributeType": "GroupAlleleFrequency",
-    "lookupValue": "GAF035"
+    "lookupValue": "AllFreq035"
   },
   {
     "evidenceDataId": "CaseCtrl036",
@@ -1421,7 +1421,7 @@
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Uncertain Signficance"
+    "lookupValue": "#N/A"
   },
   {
     "evidenceDataId": "RegAnno043",
@@ -1613,262 +1613,262 @@
     "lookupValue": "Pathogenic"
   },
   {
-    "evidenceDataId": "PAF051",
+    "evidenceDataId": "AllFreq051",
     "attributeId": "A030",
     "value": "ExAC",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
     "lookupValue": "ExAC"
   },
   {
-    "evidenceDataId": "PAF051",
-    "attributeId": "A059",
+    "evidenceDataId": "AllFreq051",
+    "attributeId": "A047",
     "value": "EX:nfe",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
     "lookupValue": "Non-Finnish European"
   },
   {
-    "evidenceDataId": "PAF051",
+    "evidenceDataId": "AllFreq051",
     "attributeId": "A031",
     "value": "CtxAll035",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_000257.2(MYH7):c.5135G>A"
   },
   {
-    "evidenceDataId": "PAF051",
+    "evidenceDataId": "AllFreq051",
     "attributeId": "A032",
     "value": 66706.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
     "lookupValue": 66706
   },
   {
-    "evidenceDataId": "PAF051",
+    "evidenceDataId": "AllFreq051",
     "attributeId": "A033",
     "value": 1.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
     "lookupValue": 1
   },
   {
-    "evidenceDataId": "PAF051",
+    "evidenceDataId": "AllFreq051",
     "attributeId": "A060",
     "value": 1.499e-05,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
     "lookupValue": 1.499e-05
   },
   {
-    "evidenceDataId": "PAF051",
-    "attributeId": "A061",
+    "evidenceDataId": "AllFreq051",
+    "attributeId": "A045",
     "value": 0.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
     "lookupValue": 0
   },
   {
-    "evidenceDataId": "PAF052",
+    "evidenceDataId": "AllFreq052",
     "attributeId": "A030",
     "value": "ExAC",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
     "lookupValue": "ExAC"
   },
   {
-    "evidenceDataId": "PAF052",
-    "attributeId": "A059",
+    "evidenceDataId": "AllFreq052",
+    "attributeId": "A047",
     "value": "CG:combined",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
     "lookupValue": "Combined"
   },
   {
-    "evidenceDataId": "PAF052",
+    "evidenceDataId": "AllFreq052",
     "attributeId": "A031",
     "value": "CtxAll035",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_000257.2(MYH7):c.5135G>A"
   },
   {
-    "evidenceDataId": "PAF052",
+    "evidenceDataId": "AllFreq052",
     "attributeId": "A032",
     "value": 121366.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
     "lookupValue": 121366
   },
   {
-    "evidenceDataId": "PAF052",
+    "evidenceDataId": "AllFreq052",
     "attributeId": "A033",
     "value": 1.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
     "lookupValue": 1
   },
   {
-    "evidenceDataId": "PAF052",
+    "evidenceDataId": "AllFreq052",
     "attributeId": "A060",
     "value": 8.24e-06,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
     "lookupValue": 8.24e-06
   },
   {
-    "evidenceDataId": "PAF052",
-    "attributeId": "A061",
+    "evidenceDataId": "AllFreq052",
+    "attributeId": "A045",
     "value": 0.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
     "lookupValue": 0
   },
   {
-    "evidenceDataId": "PAF053",
+    "evidenceDataId": "AllFreq053",
     "attributeId": "A030",
     "value": "ExAC",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
     "lookupValue": "ExAC"
   },
   {
-    "evidenceDataId": "PAF053",
-    "attributeId": "A059",
+    "evidenceDataId": "AllFreq053",
+    "attributeId": "A047",
     "value": "EX:fin",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
     "lookupValue": "Finnish"
   },
   {
-    "evidenceDataId": "PAF053",
+    "evidenceDataId": "AllFreq053",
     "attributeId": "A031",
     "value": "CtxAll037",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_001128425.1(MUTYH):c.64G>A (p.Val22Met)"
   },
   {
-    "evidenceDataId": "PAF053",
+    "evidenceDataId": "AllFreq053",
     "attributeId": "A032",
     "value": 6614.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
     "lookupValue": 6614
   },
   {
-    "evidenceDataId": "PAF053",
+    "evidenceDataId": "AllFreq053",
     "attributeId": "A033",
     "value": 514.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
     "lookupValue": 514
   },
   {
-    "evidenceDataId": "PAF053",
+    "evidenceDataId": "AllFreq053",
     "attributeId": "A060",
     "value": 0.07771,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
     "lookupValue": 0.07771
   },
   {
-    "evidenceDataId": "PAF053",
-    "attributeId": "A061",
+    "evidenceDataId": "AllFreq053",
+    "attributeId": "A045",
     "value": 21.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
     "lookupValue": 21
   },
   {
-    "evidenceDataId": "PAF053",
+    "evidenceDataId": "AllFreq053",
     "attributeId": "A062",
     "value": 100.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "medianCoverage",
     "attributeType": "float",
     "lookupValue": 100
   },
   {
-    "evidenceDataId": "PAF054",
+    "evidenceDataId": "AllFreq054",
     "attributeId": "A030",
     "value": "ExAC",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
     "lookupValue": "ExAC"
   },
   {
-    "evidenceDataId": "PAF054",
-    "attributeId": "A059",
+    "evidenceDataId": "AllFreq054",
+    "attributeId": "A047",
     "value": "CG:combined",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
     "lookupValue": "Combined"
   },
   {
-    "evidenceDataId": "PAF054",
+    "evidenceDataId": "AllFreq054",
     "attributeId": "A031",
     "value": "CtxAll038",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_001399.4(EDA): c.676C>T"
   },
   {
-    "evidenceDataId": "PAF054",
+    "evidenceDataId": "AllFreq054",
     "attributeId": "A032",
     "value": 0.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
     "lookupValue": 0
   },
   {
-    "evidenceDataId": "PAF054",
+    "evidenceDataId": "AllFreq054",
     "attributeId": "A033",
     "value": 0.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
     "lookupValue": 0
   },
   {
-    "evidenceDataId": "PAF054",
+    "evidenceDataId": "AllFreq054",
     "attributeId": "A060",
     "value": 0.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
     "lookupValue": 0
   },
   {
-    "evidenceDataId": "PAF054",
+    "evidenceDataId": "AllFreq054",
     "attributeId": "A062",
     "value": 11.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "medianCoverage",
     "attributeType": "float",
     "lookupValue": 11
@@ -2438,7 +2438,7 @@
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Likely Pathogenic"
+    "lookupValue": "#N/A"
   },
   {
     "evidenceDataId": "MenDisVarInterp079",
@@ -2522,63 +2522,63 @@
     "lookupValue": "Pathogenic"
   },
   {
-    "evidenceDataId": "PAF082",
+    "evidenceDataId": "AllFreq082",
     "attributeId": "A030",
     "value": "ExAC",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
     "lookupValue": "ExAC"
   },
   {
-    "evidenceDataId": "PAF082",
-    "attributeId": "A059",
+    "evidenceDataId": "AllFreq082",
+    "attributeId": "A047",
     "value": "CG:combined",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
     "lookupValue": "Combined"
   },
   {
-    "evidenceDataId": "PAF082",
+    "evidenceDataId": "AllFreq082",
     "attributeId": "A031",
     "value": "CtxAll039",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_001369.2(DNAH5):c.7468_7488del"
   },
   {
-    "evidenceDataId": "PAF082",
+    "evidenceDataId": "AllFreq082",
     "attributeId": "A032",
     "value": 0.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
     "lookupValue": 0
   },
   {
-    "evidenceDataId": "PAF082",
+    "evidenceDataId": "AllFreq082",
     "attributeId": "A033",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
     "lookupValue": ""
   },
   {
-    "evidenceDataId": "PAF082",
+    "evidenceDataId": "AllFreq082",
     "attributeId": "A060",
     "value": 0.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
     "lookupValue": 0
   },
   {
-    "evidenceDataId": "PAF082",
+    "evidenceDataId": "AllFreq082",
     "attributeId": "A062",
     "value": 11.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "medianCoverage",
     "attributeType": "float",
     "lookupValue": 11
@@ -3254,26 +3254,26 @@
     "attributeId": "A086",
     "value": "Cond020",
     "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Hypertrophic Cardiomyopathy"
+    "attributeName": "canonicalAllele",
+    "attributeType": "CanonicalAllele",
+    "lookupValue": "Cond020"
   },
   {
     "evidenceDataId": "AggSegData105",
     "attributeId": "A087",
     "value": "CanAll063",
     "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "canonicalAllele",
-    "attributeType": "CanonicalAllele",
-    "lookupValue": "NM_000256.3(MYBPC3)c.1351+1G>A"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "CanAll063"
   },
   {
     "evidenceDataId": "AggSegData105",
     "attributeId": "A088",
     "value": "FamSegData103",
     "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "familySegregationData",
-    "attributeType": "FamilySegregationData",
+    "attributeName": "totalNumberOfSegregations",
+    "attributeType": "int",
     "lookupValue": "FamSegData103"
   },
   {
@@ -3281,8 +3281,8 @@
     "attributeId": "A088",
     "value": "FamSegData104",
     "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "familySegregationData",
-    "attributeType": "FamilySegregationData",
+    "attributeName": "totalNumberOfSegregations",
+    "attributeType": "int",
     "lookupValue": "FamSegData104"
   },
   {
@@ -3290,8 +3290,8 @@
     "attributeId": "A089",
     "value": 4.0,
     "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "totalNumberOfSegregations",
-    "attributeType": "int",
+    "attributeName": "familySegregationData",
+    "attributeType": "FamilySegregationData",
     "lookupValue": 4
   },
   {
@@ -3380,26 +3380,26 @@
     "attributeId": "A086",
     "value": "Cond021",
     "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Usher syndrome"
+    "attributeName": "canonicalAllele",
+    "attributeType": "CanonicalAllele",
+    "lookupValue": "Cond021"
   },
   {
     "evidenceDataId": "AggSegData109",
     "attributeId": "A087",
     "value": "CanAll062",
     "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "canonicalAllele",
-    "attributeType": "CanonicalAllele",
-    "lookupValue": "NM_206933.2(USH2A):c.1000C>G (p.Arg334Gly)"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "CanAll062"
   },
   {
     "evidenceDataId": "AggSegData109",
     "attributeId": "A088",
     "value": "FamSegData107",
     "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "familySegregationData",
-    "attributeType": "FamilySegregationData",
+    "attributeName": "totalNumberOfSegregations",
+    "attributeType": "int",
     "lookupValue": "FamSegData107"
   },
   {
@@ -3407,8 +3407,8 @@
     "attributeId": "A088",
     "value": "FamSegData108",
     "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "familySegregationData",
-    "attributeType": "FamilySegregationData",
+    "attributeName": "totalNumberOfSegregations",
+    "attributeType": "int",
     "lookupValue": "FamSegData108"
   },
   {
@@ -3416,8 +3416,8 @@
     "attributeId": "A089",
     "value": 8.0,
     "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "totalNumberOfSegregations",
-    "attributeType": "int",
+    "attributeName": "familySegregationData",
+    "attributeType": "FamilySegregationData",
     "lookupValue": 8
   },
   {
@@ -3659,26 +3659,26 @@
     "attributeId": "A086",
     "value": "Cond002",
     "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Dilated Cardiomyopathy"
+    "attributeName": "canonicalAllele",
+    "attributeType": "CanonicalAllele",
+    "lookupValue": "Cond002"
   },
   {
     "evidenceDataId": "AggSegData115",
     "attributeId": "A087",
     "value": "CanAll065",
     "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "canonicalAllele",
-    "attributeType": "CanonicalAllele",
-    "lookupValue": "NM_001001430.2(TNNT2):c.629_631delAGA"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "CanAll065"
   },
   {
     "evidenceDataId": "AggSegData115",
     "attributeId": "A088",
     "value": "FamSegData113",
     "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "familySegregationData",
-    "attributeType": "FamilySegregationData",
+    "attributeName": "totalNumberOfSegregations",
+    "attributeType": "int",
     "lookupValue": "FamSegData113"
   },
   {
@@ -3686,8 +3686,8 @@
     "attributeId": "A088",
     "value": "FamSegData114",
     "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "familySegregationData",
-    "attributeType": "FamilySegregationData",
+    "attributeName": "totalNumberOfSegregations",
+    "attributeType": "int",
     "lookupValue": "FamSegData114"
   },
   {
@@ -3695,8 +3695,8 @@
     "attributeId": "A089",
     "value": 9.0,
     "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "totalNumberOfSegregations",
-    "attributeType": "int",
+    "attributeName": "familySegregationData",
+    "attributeType": "FamilySegregationData",
     "lookupValue": 9
   },
   {
@@ -3755,12 +3755,12 @@
   },
   {
     "evidenceDataId": "CondMech118",
-    "attributeId": "A095",
-    "value": 1,
+    "attributeId": "A003",
+    "value": "CG:common",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "common",
-    "attributeType": "boolean",
-    "lookupValue": 1
+    "attributeName": "strength",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Common"
   },
   {
     "evidenceDataId": "CondMech118",
@@ -4933,190 +4933,190 @@
     "lookupValue": "Pathogenic"
   },
   {
-    "evidenceDataId": "PAF153",
+    "evidenceDataId": "AllFreq153",
     "attributeId": "A030",
     "value": "ExAC",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
     "lookupValue": "ExAC"
   },
   {
-    "evidenceDataId": "PAF153",
-    "attributeId": "A059",
+    "evidenceDataId": "AllFreq153",
+    "attributeId": "A047",
     "value": "CG:combined",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
     "lookupValue": "Combined"
   },
   {
-    "evidenceDataId": "PAF153",
+    "evidenceDataId": "AllFreq153",
     "attributeId": "A031",
     "value": "CtxAll081",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_000057.2 (BLM):c.2603C>T"
   },
   {
-    "evidenceDataId": "PAF153",
+    "evidenceDataId": "AllFreq153",
     "attributeId": "A032",
     "value": 6732.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
     "lookupValue": 6732
   },
   {
-    "evidenceDataId": "PAF153",
+    "evidenceDataId": "AllFreq153",
     "attributeId": "A033",
     "value": 120402.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
     "lookupValue": 120402
   },
   {
-    "evidenceDataId": "PAF153",
+    "evidenceDataId": "AllFreq153",
     "attributeId": "A060",
     "value": 0.05591,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
     "lookupValue": 0.05591
   },
   {
-    "evidenceDataId": "PAF153",
-    "attributeId": "A061",
+    "evidenceDataId": "AllFreq153",
+    "attributeId": "A045",
     "value": 223.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
     "lookupValue": 223
   },
   {
-    "evidenceDataId": "PAF154",
+    "evidenceDataId": "AllFreq154",
     "attributeId": "A030",
     "value": "ExAC",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
     "lookupValue": "ExAC"
   },
   {
-    "evidenceDataId": "PAF154",
-    "attributeId": "A059",
+    "evidenceDataId": "AllFreq154",
+    "attributeId": "A047",
     "value": "CG:combined",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
     "lookupValue": "Combined"
   },
   {
-    "evidenceDataId": "PAF154",
+    "evidenceDataId": "AllFreq154",
     "attributeId": "A031",
     "value": "CtxAll082",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_004004.5(GJB2):c.79G>A"
   },
   {
-    "evidenceDataId": "PAF154",
+    "evidenceDataId": "AllFreq154",
     "attributeId": "A032",
     "value": 5507.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
     "lookupValue": 5507
   },
   {
-    "evidenceDataId": "PAF154",
+    "evidenceDataId": "AllFreq154",
     "attributeId": "A033",
     "value": 121350.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
     "lookupValue": 121350
   },
   {
-    "evidenceDataId": "PAF154",
+    "evidenceDataId": "AllFreq154",
     "attributeId": "A060",
     "value": 0.04538,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
     "lookupValue": 0.04538
   },
   {
-    "evidenceDataId": "PAF154",
-    "attributeId": "A061",
+    "evidenceDataId": "AllFreq154",
+    "attributeId": "A045",
     "value": 768.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
     "lookupValue": 768
   },
   {
-    "evidenceDataId": "PAF155",
+    "evidenceDataId": "AllFreq155",
     "attributeId": "A030",
     "value": "ExAC",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
     "lookupValue": "ExAC"
   },
   {
-    "evidenceDataId": "PAF155",
-    "attributeId": "A059",
+    "evidenceDataId": "AllFreq155",
+    "attributeId": "A047",
     "value": "EX:eas",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
     "lookupValue": "East Asian"
   },
   {
-    "evidenceDataId": "PAF155",
+    "evidenceDataId": "AllFreq155",
     "attributeId": "A031",
     "value": "CtxAll082",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_004004.5(GJB2):c.79G>A"
   },
   {
-    "evidenceDataId": "PAF155",
+    "evidenceDataId": "AllFreq155",
     "attributeId": "A032",
     "value": 2518.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
     "lookupValue": 2518
   },
   {
-    "evidenceDataId": "PAF155",
+    "evidenceDataId": "AllFreq155",
     "attributeId": "A033",
     "value": 8632.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
     "lookupValue": 8632
   },
   {
-    "evidenceDataId": "PAF155",
+    "evidenceDataId": "AllFreq155",
     "attributeId": "A060",
     "value": 0.2917,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
     "lookupValue": 0.2917
   },
   {
-    "evidenceDataId": "PAF155",
-    "attributeId": "A061",
+    "evidenceDataId": "AllFreq155",
+    "attributeId": "A045",
     "value": 405.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
     "lookupValue": 405
@@ -5140,127 +5140,127 @@
     "lookupValue": "Autosomal Recessive"
   },
   {
-    "evidenceDataId": "PAF157",
+    "evidenceDataId": "AllFreq157",
     "attributeId": "A030",
     "value": "ExAC",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
     "lookupValue": "ExAC"
   },
   {
-    "evidenceDataId": "PAF157",
-    "attributeId": "A059",
+    "evidenceDataId": "AllFreq157",
+    "attributeId": "A047",
     "value": "CG:combined",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
     "lookupValue": "Combined"
   },
   {
-    "evidenceDataId": "PAF157",
+    "evidenceDataId": "AllFreq157",
     "attributeId": "A031",
     "value": "CtxAll083",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_023036.4(DNAI2):c.1304G>A"
   },
   {
-    "evidenceDataId": "PAF157",
+    "evidenceDataId": "AllFreq157",
     "attributeId": "A032",
     "value": 14.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
     "lookupValue": 14
   },
   {
-    "evidenceDataId": "PAF157",
+    "evidenceDataId": "AllFreq157",
     "attributeId": "A033",
     "value": 121100.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
     "lookupValue": 121100
   },
   {
-    "evidenceDataId": "PAF157",
+    "evidenceDataId": "AllFreq157",
     "attributeId": "A060",
     "value": 0.0001158,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
     "lookupValue": 0.0001158
   },
   {
-    "evidenceDataId": "PAF157",
-    "attributeId": "A061",
+    "evidenceDataId": "AllFreq157",
+    "attributeId": "A045",
     "value": 0.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
     "lookupValue": 0
   },
   {
-    "evidenceDataId": "PAF158",
+    "evidenceDataId": "AllFreq158",
     "attributeId": "A030",
     "value": "ExAC",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
     "lookupValue": "ExAC"
   },
   {
-    "evidenceDataId": "PAF158",
-    "attributeId": "A059",
+    "evidenceDataId": "AllFreq158",
+    "attributeId": "A047",
     "value": "CG:combined",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
     "lookupValue": "Combined"
   },
   {
-    "evidenceDataId": "PAF158",
+    "evidenceDataId": "AllFreq158",
     "attributeId": "A031",
     "value": "CtxAll084",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_000138.4(FBN1):c.8176C>T"
   },
   {
-    "evidenceDataId": "PAF158",
+    "evidenceDataId": "AllFreq158",
     "attributeId": "A032",
     "value": 89.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
     "lookupValue": 89
   },
   {
-    "evidenceDataId": "PAF158",
+    "evidenceDataId": "AllFreq158",
     "attributeId": "A033",
     "value": 121410.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
     "lookupValue": 121410
   },
   {
-    "evidenceDataId": "PAF158",
+    "evidenceDataId": "AllFreq158",
     "attributeId": "A060",
     "value": 0.0007,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
     "lookupValue": 0.0007
   },
   {
-    "evidenceDataId": "PAF158",
-    "attributeId": "A061",
+    "evidenceDataId": "AllFreq158",
+    "attributeId": "A045",
     "value": 1.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
     "lookupValue": 1
@@ -5338,73 +5338,73 @@
     "lookupValue": "Autosomal Dominant"
   },
   {
-    "evidenceDataId": "PAF162",
+    "evidenceDataId": "AllFreq162",
     "attributeId": "A030",
     "value": "ExAC",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
     "lookupValue": "ExAC"
   },
   {
-    "evidenceDataId": "PAF162",
-    "attributeId": "A059",
+    "evidenceDataId": "AllFreq162",
+    "attributeId": "A047",
     "value": "CG:combined",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
     "lookupValue": "Combined"
   },
   {
-    "evidenceDataId": "PAF162",
+    "evidenceDataId": "AllFreq162",
     "attributeId": "A031",
     "value": "CtxAll085",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_004541.3(NDUFA1):c.94G>C"
   },
   {
-    "evidenceDataId": "PAF162",
+    "evidenceDataId": "AllFreq162",
     "attributeId": "A032",
     "value": 545.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
     "lookupValue": 545
   },
   {
-    "evidenceDataId": "PAF162",
+    "evidenceDataId": "AllFreq162",
     "attributeId": "A033",
     "value": 87696.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
     "lookupValue": 87696
   },
   {
-    "evidenceDataId": "PAF162",
+    "evidenceDataId": "AllFreq162",
     "attributeId": "A060",
     "value": 0.00625,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
     "lookupValue": 0.00625
   },
   {
-    "evidenceDataId": "PAF162",
-    "attributeId": "A061",
+    "evidenceDataId": "AllFreq162",
+    "attributeId": "A045",
     "value": 1.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
     "lookupValue": 1
   },
   {
-    "evidenceDataId": "PAF162",
+    "evidenceDataId": "AllFreq162",
     "attributeId": "A051",
     "value": 206.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "hemizygousAlleleIndividualCount",
     "attributeType": "int",
     "lookupValue": 206
@@ -5473,55 +5473,55 @@
     "lookupValue": "X-linked dominant inheritance"
   },
   {
-    "evidenceDataId": "PAF166",
+    "evidenceDataId": "AllFreq166",
     "attributeId": "A030",
     "value": "ExAC",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
     "lookupValue": "ExAC"
   },
   {
-    "evidenceDataId": "PAF166",
-    "attributeId": "A059",
+    "evidenceDataId": "AllFreq166",
+    "attributeId": "A047",
     "value": "CG:combined",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
     "lookupValue": "Combined"
   },
   {
-    "evidenceDataId": "PAF166",
+    "evidenceDataId": "AllFreq166",
     "attributeId": "A031",
     "value": "CtxAll086",
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "NM_000414.3(HSD17B4):c.56C>G"
   },
   {
-    "evidenceDataId": "PAF166",
+    "evidenceDataId": "AllFreq166",
     "attributeId": "A032",
     "value": 3.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
     "lookupValue": 3
   },
   {
-    "evidenceDataId": "PAF166",
+    "evidenceDataId": "AllFreq166",
     "attributeId": "A033",
     "value": 120870.0,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
     "lookupValue": 120870
   },
   {
-    "evidenceDataId": "PAF166",
+    "evidenceDataId": "AllFreq166",
     "attributeId": "A060",
     "value": 2.4e-05,
-    "evidenceDataName": "PopulationAlleleFrequency",
+    "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
     "lookupValue": 2.4e-05
@@ -6419,12 +6419,12 @@
   },
   {
     "evidenceDataId": "CondMech199",
-    "attributeId": "A004",
-    "value": 1,
+    "attributeId": "A003",
+    "value": "CG:primary",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "primary",
-    "attributeType": "boolean",
-    "lookupValue": 1
+    "attributeName": "strength",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Primary"
   },
   {
     "evidenceDataId": "CondMech199",
@@ -6455,12 +6455,12 @@
   },
   {
     "evidenceDataId": "CondMech200",
-    "attributeId": "A004",
-    "value": 1,
+    "attributeId": "A003",
+    "value": "CG:primary",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "primary",
-    "attributeType": "boolean",
-    "lookupValue": 1
+    "attributeName": "strength",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Primary"
   },
   {
     "evidenceDataId": "CondMech200",
@@ -6518,12 +6518,12 @@
   },
   {
     "evidenceDataId": "CondMech202",
-    "attributeId": "A004",
-    "value": 1,
+    "attributeId": "A003",
+    "value": "CG:primary",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "primary",
-    "attributeType": "boolean",
-    "lookupValue": 1
+    "attributeName": "strength",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Primary"
   },
   {
     "evidenceDataId": "CondMech202",
@@ -6581,12 +6581,12 @@
   },
   {
     "evidenceDataId": "CondMech204",
-    "attributeId": "A004",
-    "value": 1,
+    "attributeId": "A003",
+    "value": "CG:primary",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "primary",
-    "attributeType": "boolean",
-    "lookupValue": 1
+    "attributeName": "strength",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Primary"
   },
   {
     "evidenceDataId": "CondMech204",
@@ -6618,20 +6618,11 @@
   {
     "evidenceDataId": "CondMech205",
     "attributeId": "A003",
-    "value": 1,
+    "value": "CG:established",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "established",
-    "attributeType": "boolean",
-    "lookupValue": 1
-  },
-  {
-    "evidenceDataId": "CondMech205",
-    "attributeId": "A004",
-    "value": 0,
-    "evidenceDataName": "ConditionMechanism",
-    "attributeName": "primary",
-    "attributeType": "boolean",
-    "lookupValue": 0
+    "attributeName": "strength",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Established"
   },
   {
     "evidenceDataId": "CondMech205",
@@ -6982,7 +6973,7 @@
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Uncertain Signficance"
+    "lookupValue": "#N/A"
   },
   {
     "evidenceDataId": "CondInh217",
@@ -7666,7 +7657,7 @@
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Likely Pathogenic"
+    "lookupValue": "#N/A"
   },
   {
     "evidenceDataId": "IndAll244",
@@ -7792,7 +7783,7 @@
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Likely Pathogenic"
+    "lookupValue": "#N/A"
   },
   {
     "evidenceDataId": "MenDisVarInterp248",
@@ -7819,7 +7810,7 @@
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Likely Pathogenic"
+    "lookupValue": "#N/A"
   },
   {
     "evidenceDataId": "IndAll249",
@@ -8449,7 +8440,7 @@
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Uncertain Signficance"
+    "lookupValue": "#N/A"
   },
   {
     "evidenceDataId": "FamSegData271",

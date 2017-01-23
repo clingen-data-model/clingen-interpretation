@@ -56,6 +56,13 @@
     "desc": "NM_000059.3(BRCA2):c.7762_7764delinsTT"
   },
   {
+    "activityId": "AssessCrit002",
+    "usedEntityType": "E14",
+    "entityName": "Condition",
+    "usedEntityId": "Cond001",
+    "desc": "Breast Ovarian Cancer"
+  },
+  {
     "activityId": "AssessCrit003",
     "usedEntityType": "E01",
     "entityName": "Data",
@@ -91,6 +98,13 @@
     "desc": "NM_133437.4(TTN):c.10670dupG "
   },
   {
+    "activityId": "AssessCrit003",
+    "usedEntityType": "E14",
+    "entityName": "Condition",
+    "usedEntityId": "Cond002",
+    "desc": "Dilated Cardiomyopathy"
+  },
+  {
     "activityId": "AssessCrit004",
     "usedEntityType": "E01",
     "entityName": "Data",
@@ -112,6 +126,13 @@
     "desc": "NM_002834.3(PTPN11):c.855T>G (p.Phe285Leu)"
   },
   {
+    "activityId": "AssessCrit004",
+    "usedEntityType": "E14",
+    "entityName": "Condition",
+    "usedEntityId": "Cond003",
+    "desc": "Noonan Syndrome"
+  },
+  {
     "activityId": "AssessCrit005",
     "usedEntityType": "E01",
     "entityName": "Data",
@@ -131,6 +152,13 @@
     "entityName": "CanonicalAllele",
     "usedEntityId": "CanAll007",
     "desc": "NM_001369.2(DNAH5):c.6249G>C (p.Met2083Ile)"
+  },
+  {
+    "activityId": "AssessCrit005",
+    "usedEntityType": "E14",
+    "entityName": "Condition",
+    "usedEntityId": "Cond004",
+    "desc": "Primary Ciliary Dyskenisia"
   },
   {
     "activityId": "AssessCrit006",
@@ -159,6 +187,13 @@
     "entityName": "CanonicalAllele",
     "usedEntityId": "CanAll011",
     "desc": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile)"
+  },
+  {
+    "activityId": "AssessCrit006",
+    "usedEntityType": "E14",
+    "entityName": "Condition",
+    "usedEntityId": "Cond005",
+    "desc": "Costello Syndrome"
   },
   {
     "activityId": "AssessCrit007",
@@ -196,6 +231,13 @@
     "desc": "NM_000257.3(MYH7):c.5740G>A (p.Glu1914Lys)"
   },
   {
+    "activityId": "AssessCrit007",
+    "usedEntityType": "E14",
+    "entityName": "Condition",
+    "usedEntityId": "Cond007",
+    "desc": "Cardiomyopathy"
+  },
+  {
     "activityId": "AssessCrit008",
     "usedEntityType": "E01",
     "entityName": "Data",
@@ -231,6 +273,13 @@
     "desc": "NM_001927.3(DES):c.1216C>T (p.Arg406Trp)"
   },
   {
+    "activityId": "AssessCrit008",
+    "usedEntityType": "E14",
+    "entityName": "Condition",
+    "usedEntityId": "Cond008",
+    "desc": "desmin related myopathy"
+  },
+  {
     "activityId": "AssessCrit009",
     "usedEntityType": "E01",
     "entityName": "Data",
@@ -264,6 +313,13 @@
     "entityName": "CanonicalAllele",
     "usedEntityId": "CanAll016",
     "desc": "NM_000833 (GRIN2A):c.4375A>G"
+  },
+  {
+    "activityId": "AssessCrit009",
+    "usedEntityType": "E14",
+    "entityName": "Condition",
+    "usedEntityId": "Cond009",
+    "desc": "Epilepsy with Mental Retardation"
   },
   {
     "activityId": "AssessCrit010",
@@ -590,14 +646,14 @@
     "activityId": "AssessCrit019",
     "usedEntityType": "E01",
     "entityName": "Data",
-    "usedEntityId": "PAF051",
+    "usedEntityId": "AllFreq051",
     "desc": ""
   },
   {
     "activityId": "AssessCrit019",
     "usedEntityType": "E01",
     "entityName": "Data",
-    "usedEntityId": "PAF052",
+    "usedEntityId": "AllFreq052",
     "desc": ""
   },
   {
@@ -618,7 +674,7 @@
     "activityId": "AssessCrit020",
     "usedEntityType": "E01",
     "entityName": "Data",
-    "usedEntityId": "PAF053",
+    "usedEntityId": "AllFreq053",
     "desc": ""
   },
   {
@@ -639,7 +695,7 @@
     "activityId": "AssessCrit021",
     "usedEntityType": "E01",
     "entityName": "Data",
-    "usedEntityId": "PAF054",
+    "usedEntityId": "AllFreq054",
     "desc": ""
   },
   {
@@ -989,7 +1045,7 @@
     "activityId": "AssessCrit031",
     "usedEntityType": "E01",
     "entityName": "Data",
-    "usedEntityId": "PAF082",
+    "usedEntityId": "AllFreq082",
     "desc": ""
   },
   {
@@ -1011,7 +1067,7 @@
     "usedEntityType": "E32",
     "entityName": "AssertionMethod",
     "usedEntityId": "AssertMeth001",
-    "desc": "#REF!"
+    "desc": "ACMG ISV guidelines 2015"
   },
   {
     "activityId": "GenVarInterp032",
@@ -1117,6 +1173,13 @@
     "entityName": "CanonicalAllele",
     "usedEntityId": "CanAll059",
     "desc": "NM_144997.5(FLCN):c.1285dupC"
+  },
+  {
+    "activityId": "AssessCrit034",
+    "usedEntityType": "E14",
+    "entityName": "Condition",
+    "usedEntityId": "Cond018",
+    "desc": "Birt-Hogg-Dube Syndrome"
   },
   {
     "activityId": "AssessCrit035",
@@ -1263,7 +1326,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "PP1",
-    "desc": "segregates with disease in affected family members\n"
+    "desc": "segregates with disease in affected family members"
   },
   {
     "activityId": "AssessCrit037",
@@ -1298,7 +1361,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "PP1",
-    "desc": "segregates with disease in affected family members\n"
+    "desc": "segregates with disease in affected family members"
   },
   {
     "activityId": "AssessCrit038",
@@ -1333,7 +1396,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "PP1",
-    "desc": "segregates with disease in affected family members\n"
+    "desc": "segregates with disease in affected family members"
   },
   {
     "activityId": "AssessCrit039",
@@ -1368,7 +1431,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "PP1",
-    "desc": "segregates with disease in affected family members\n"
+    "desc": "segregates with disease in affected family members"
   },
   {
     "activityId": "AssessCrit040",
@@ -1410,7 +1473,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "PP2",
-    "desc": "missense with pathogenic missense common\n"
+    "desc": "missense with pathogenic missense common"
   },
   {
     "activityId": "AssessCrit041",
@@ -1658,27 +1721,6 @@
     "desc": "NM_000363.4(TNNI3):c.592C>G"
   },
   {
-    "activityId": "AssessCrit045",
-    "usedEntityType": "E01",
-    "entityName": "Data",
-    "usedEntityId": "??",
-    "desc": "#N/A"
-  },
-  {
-    "activityId": "AssessCrit045",
-    "usedEntityType": "E04",
-    "entityName": "Criterion",
-    "usedEntityId": "PP4",
-    "desc": "disease specific phenotype and family history\n"
-  },
-  {
-    "activityId": "AssessCrit045",
-    "usedEntityType": "E05",
-    "entityName": "CanonicalAllele",
-    "usedEntityId": "??",
-    "desc": "#N/A"
-  },
-  {
     "activityId": "AssessCrit046",
     "usedEntityType": "E01",
     "entityName": "Data",
@@ -1690,7 +1732,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "PP4",
-    "desc": "disease specific phenotype and family history\n"
+    "desc": "disease specific phenotype and family history"
   },
   {
     "activityId": "AssessCrit046",
@@ -1718,7 +1760,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "PP4",
-    "desc": "disease specific phenotype and family history\n"
+    "desc": "disease specific phenotype and family history"
   },
   {
     "activityId": "AssessCrit047",
@@ -1746,7 +1788,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "PP5",
-    "desc": ""
+    "desc": "pathogenic from reputable source without shared data"
   },
   {
     "activityId": "AssessCrit048",
@@ -1774,7 +1816,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "PP5",
-    "desc": ""
+    "desc": "pathogenic from reputable source without shared data"
   },
   {
     "activityId": "AssessCrit049",
@@ -1802,7 +1844,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "PP5",
-    "desc": ""
+    "desc": "pathogenic from reputable source without shared data"
   },
   {
     "activityId": "AssessCrit050",
@@ -1822,7 +1864,7 @@
     "activityId": "AssessCrit051",
     "usedEntityType": "E01",
     "entityName": "Data",
-    "usedEntityId": "PAF153",
+    "usedEntityId": "AllFreq153",
     "desc": ""
   },
   {
@@ -1843,14 +1885,14 @@
     "activityId": "AssessCrit052",
     "usedEntityType": "E01",
     "entityName": "Data",
-    "usedEntityId": "PAF154",
+    "usedEntityId": "AllFreq154",
     "desc": ""
   },
   {
     "activityId": "AssessCrit052",
     "usedEntityType": "E01",
     "entityName": "Data",
-    "usedEntityId": "PAF155",
+    "usedEntityId": "AllFreq155",
     "desc": ""
   },
   {
@@ -1878,7 +1920,7 @@
     "activityId": "AssessCrit053",
     "usedEntityType": "E01",
     "entityName": "Data",
-    "usedEntityId": "PAF157",
+    "usedEntityId": "AllFreq157",
     "desc": ""
   },
   {
@@ -1906,7 +1948,7 @@
     "activityId": "AssessCrit054",
     "usedEntityType": "E01",
     "entityName": "Data",
-    "usedEntityId": "PAF158",
+    "usedEntityId": "AllFreq158",
     "desc": ""
   },
   {
@@ -1955,7 +1997,7 @@
     "activityId": "AssessCrit055",
     "usedEntityType": "E01",
     "entityName": "Data",
-    "usedEntityId": "PAF162",
+    "usedEntityId": "AllFreq162",
     "desc": ""
   },
   {
@@ -2004,7 +2046,7 @@
     "activityId": "AssessCrit056",
     "usedEntityType": "E01",
     "entityName": "Data",
-    "usedEntityId": "PAF166",
+    "usedEntityId": "AllFreq166",
     "desc": ""
   },
   {
@@ -2096,7 +2138,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BS2",
-    "desc": "control frequency higher than penetrance predicts\n"
+    "desc": "control frequency higher than penetrance predicts"
   },
   {
     "activityId": "AssessCrit057",
@@ -2187,7 +2229,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BS2",
-    "desc": "control frequency higher than penetrance predicts\n"
+    "desc": "control frequency higher than penetrance predicts"
   },
   {
     "activityId": "AssessCrit058",
@@ -2250,7 +2292,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BS2",
-    "desc": "control frequency higher than penetrance predicts\n"
+    "desc": "control frequency higher than penetrance predicts"
   },
   {
     "activityId": "AssessCrit059",
@@ -2265,32 +2307,6 @@
     "entityName": "Condition",
     "usedEntityId": "Cond026",
     "desc": "Marfan Syndrome"
-  },
-  {
-    "activityId": "AssessCrit060",
-    "usedEntityType": "E01",
-    "entityName": "Data",
-    "desc": "#N/A"
-  },
-  {
-    "activityId": "AssessCrit060",
-    "usedEntityType": "E01",
-    "entityName": "Data",
-    "desc": "#N/A"
-  },
-  {
-    "activityId": "AssessCrit060",
-    "usedEntityType": "E04",
-    "entityName": "Criterion",
-    "usedEntityId": "BS3",
-    "desc": "well-established no damaging effect functional studies"
-  },
-  {
-    "activityId": "AssessCrit060",
-    "usedEntityType": "E05",
-    "entityName": "CanonicalAllele",
-    "usedEntityId": "CanAll084",
-    "desc": "NM_000218.2(KCNQ1):c.1179G>T (p.Lys393Asn)"
   },
   {
     "activityId": "AssessCrit061",
@@ -2360,7 +2376,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BS4",
-    "desc": "does not segregate with disease\n"
+    "desc": "does not segregate with disease"
   },
   {
     "activityId": "AssessCrit063",
@@ -2388,7 +2404,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BS4",
-    "desc": "does not segregate with disease\n"
+    "desc": "does not segregate with disease"
   },
   {
     "activityId": "AssessCrit064",
@@ -2416,7 +2432,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BS4",
-    "desc": "does not segregate with disease\n"
+    "desc": "does not segregate with disease"
   },
   {
     "activityId": "AssessCrit065",
@@ -2619,7 +2635,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BP2",
-    "desc": "in trans with dominant OR in cis with path variant\n"
+    "desc": "in trans with dominant OR in cis with path variant"
   },
   {
     "activityId": "AssessCrit070",
@@ -2661,7 +2677,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BP2",
-    "desc": "in trans with dominant OR in cis with path variant\n"
+    "desc": "in trans with dominant OR in cis with path variant"
   },
   {
     "activityId": "AssessCrit071",
@@ -2717,7 +2733,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BP2",
-    "desc": "in trans with dominant OR in cis with path variant\n"
+    "desc": "in trans with dominant OR in cis with path variant"
   },
   {
     "activityId": "AssessCrit072",
@@ -2829,7 +2845,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BP3",
-    "desc": "in-frame indel unknown function\n"
+    "desc": "in-frame indel unknown function"
   },
   {
     "activityId": "AssessCrit082",
@@ -2864,7 +2880,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BP3",
-    "desc": "in-frame indel unknown function\n"
+    "desc": "in-frame indel unknown function"
   },
   {
     "activityId": "AssessCrit083",
@@ -2899,7 +2915,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BP3",
-    "desc": "in-frame indel unknown function\n"
+    "desc": "in-frame indel unknown function"
   },
   {
     "activityId": "AssessCrit084",
@@ -2986,68 +3002,6 @@
     "desc": "NM_000059.3(BRCA2):c.4779A>C"
   },
   {
-    "activityId": "AssessCrit086",
-    "usedEntityType": "E01",
-    "entityName": "Data",
-    "desc": "#N/A"
-  },
-  {
-    "activityId": "AssessCrit086",
-    "usedEntityType": "E01",
-    "entityName": "Data",
-    "desc": "#N/A"
-  },
-  {
-    "activityId": "AssessCrit086",
-    "usedEntityType": "E01",
-    "entityName": "Data",
-    "desc": "#N/A"
-  },
-  {
-    "activityId": "AssessCrit086",
-    "usedEntityType": "E01",
-    "entityName": "Data",
-    "desc": "#N/A"
-  },
-  {
-    "activityId": "AssessCrit086",
-    "usedEntityType": "E01",
-    "entityName": "Data",
-    "desc": "#N/A"
-  },
-  {
-    "activityId": "AssessCrit086",
-    "usedEntityType": "E01",
-    "entityName": "Data",
-    "desc": "#N/A"
-  },
-  {
-    "activityId": "AssessCrit086",
-    "usedEntityType": "E01",
-    "entityName": "Data",
-    "desc": "#N/A"
-  },
-  {
-    "activityId": "AssessCrit086",
-    "usedEntityType": "E01",
-    "entityName": "Data",
-    "desc": "#N/A"
-  },
-  {
-    "activityId": "AssessCrit086",
-    "usedEntityType": "E04",
-    "entityName": "Criterion",
-    "usedEntityId": "BP4",
-    "desc": "computational evidence for\nno gene impact"
-  },
-  {
-    "activityId": "AssessCrit086",
-    "usedEntityType": "E05",
-    "entityName": "CanonicalAllele",
-    "usedEntityId": "CanAll104",
-    "desc": "NM_017636.3(TRPM4):c.2531G>A"
-  },
-  {
     "activityId": "AssessCrit087",
     "usedEntityType": "E01",
     "entityName": "Data",
@@ -3099,7 +3053,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BP5",
-    "desc": "alternate cause of disease\n"
+    "desc": "alternate cause of disease"
   },
   {
     "activityId": "AssessCrit088",
@@ -3155,7 +3109,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BP5",
-    "desc": "alternate cause of disease\n"
+    "desc": "alternate cause of disease"
   },
   {
     "activityId": "AssessCrit089",
@@ -3197,7 +3151,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BP5",
-    "desc": "alternate cause of disease\n"
+    "desc": "alternate cause of disease"
   },
   {
     "activityId": "AssessCrit090",
@@ -3239,7 +3193,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BP5",
-    "desc": "alternate cause of disease\n"
+    "desc": "alternate cause of disease"
   },
   {
     "activityId": "AssessCrit091",
@@ -3267,7 +3221,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BP6",
-    "desc": "benign from reputable source without shared data\n"
+    "desc": "benign from reputable source without shared data"
   },
   {
     "activityId": "AssessCrit092",
@@ -3295,7 +3249,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BP6",
-    "desc": "benign from reputable source without shared data\n"
+    "desc": "benign from reputable source without shared data"
   },
   {
     "activityId": "AssessCrit093",
@@ -3323,7 +3277,7 @@
     "usedEntityType": "E04",
     "entityName": "Criterion",
     "usedEntityId": "BP6",
-    "desc": "benign from reputable source without shared data\n"
+    "desc": "benign from reputable source without shared data"
   },
   {
     "activityId": "AssessCrit094",

@@ -110,7 +110,7 @@
   "PP1": {
     "id": "PP1",
     "description": "Cosegregation with disease in multiple affected family members in a gene definitively known to cause the disease",
-    "shortDescription": "segregates with disease in affected family members\n",
+    "shortDescription": "segregates with disease in affected family members",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "Supporting",
     "targetInterpretation": "LN:LA6668-3",
@@ -119,7 +119,7 @@
   "PP2": {
     "id": "PP2",
     "description": "Missense variant in a gene that has a low rate of benign missense variation and in which missense variants are a common mechanism of disease",
-    "shortDescription": "missense with pathogenic missense common\n",
+    "shortDescription": "missense with pathogenic missense common",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "Supporting",
     "targetInterpretation": "LN:LA6668-3",
@@ -139,7 +139,7 @@
   "PP4": {
     "id": "PP4",
     "description": "Patient’s phenotype or family history is highly specific for a disease with a single genetic etiology",
-    "shortDescription": "disease specific phenotype and family history\n",
+    "shortDescription": "disease specific phenotype and family history",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "Supporting",
     "targetInterpretation": "LN:LA6668-3",
@@ -148,6 +148,7 @@
   "PP5": {
     "id": "PP5",
     "description": "Reputable source recently reports variant as pathogenic, but the evidence is not available to the laboratory to perform an independent evaluation",
+    "shortDescription": "pathogenic from reputable source without shared data",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "Supporting",
     "targetInterpretation": "LN:LA6668-3",
@@ -175,7 +176,7 @@
   "BS2": {
     "id": "BS2",
     "description": "Observed in a healthy adult individual for a recessive (homozygous), dominant (heterozygous), or X-linked (hemizygous) disorder, with full penetrance expected at an early age",
-    "shortDescription": "control frequency higher than penetrance predicts\n",
+    "shortDescription": "control frequency higher than penetrance predicts",
     "defaultOutcome": "CG:S",
     "defaultOutcomeText": "Strong",
     "targetInterpretation": "LN:LA6675-8",
@@ -195,7 +196,7 @@
   "BS4": {
     "id": "BS4",
     "description": "Lack of segregation in affected members of a family",
-    "shortDescription": "does not segregate with disease\n",
+    "shortDescription": "does not segregate with disease",
     "defaultOutcome": "CG:S",
     "defaultOutcomeText": "Strong",
     "targetInterpretation": "LN:LA6675-8",
@@ -215,7 +216,7 @@
   "BP2": {
     "id": "BP2",
     "description": "Observed in trans with a pathogenic variant for a fully penetrant dominant gene/disorder or observed in cis with a pathogenic variant in any inheritance pattern",
-    "shortDescription": "in trans with dominant OR in cis with path variant\n",
+    "shortDescription": "in trans with dominant OR in cis with path variant",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "Supporting",
     "targetInterpretation": "LN:LA6675-8",
@@ -224,7 +225,7 @@
   "BP3": {
     "id": "BP3",
     "description": "In-frame deletions/insertions in a repetitive region without a known function",
-    "shortDescription": "in-frame indel unknown function\n",
+    "shortDescription": "in-frame indel unknown function",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "Supporting",
     "targetInterpretation": "LN:LA6675-8",
@@ -242,7 +243,7 @@
   "BP5": {
     "id": "BP5",
     "description": "Variant found in a case with an alternate molecular basis for disease",
-    "shortDescription": "alternate cause of disease\n",
+    "shortDescription": "alternate cause of disease",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "Supporting",
     "targetInterpretation": "LN:LA6675-8",
@@ -251,7 +252,7 @@
   "BP6": {
     "id": "BP6",
     "description": "Reputable source recently reports variant as benign, but the evidence is not available to the laboratory to perform an independent evaluation",
-    "shortDescription": "benign from reputable source without shared data\n",
+    "shortDescription": "benign from reputable source without shared data",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "Supporting",
     "targetInterpretation": "LN:LA6675-8",

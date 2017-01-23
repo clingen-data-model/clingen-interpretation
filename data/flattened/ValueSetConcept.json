@@ -106,9 +106,9 @@
     "id": "VSC011",
     "valueSet": "VS003",
     "valueSetName": "Significance",
-    "code": "LA6669-1",
+    "code": "LA26332-9",
     "codeSystem": "LN",
-    "qualifiedCode": "LN:LA6669-1",
+    "qualifiedCode": "LN:LA26332-9",
     "text": "Likely Pathogenic",
     "authority": "Regenstrief Institute"
   },
@@ -116,9 +116,9 @@
     "id": "VSC012",
     "valueSet": "VS003",
     "valueSetName": "Significance",
-    "code": "LA6682-4",
+    "code": "LA26333-7",
     "codeSystem": "LN",
-    "qualifiedCode": "LN:LA6682-4",
+    "qualifiedCode": "LN:LA26333-7",
     "text": "Uncertain Signficance",
     "authority": "Regenstrief Institute"
   },
@@ -126,9 +126,9 @@
     "id": "VSC013",
     "valueSet": "VS003",
     "valueSetName": "Significance",
-    "code": "LA6674-1",
+    "code": "LA26334-5",
     "codeSystem": "LN",
-    "qualifiedCode": "LN:LA6674-1",
+    "qualifiedCode": "LN:LA26334-5",
     "text": "Likely Benign",
     "authority": "Regenstrief Institute"
   },
@@ -608,5 +608,60 @@
     "qualifiedCode": "CG:incomplete",
     "text": "Incomplete",
     "authority": "ClinGen"
+  },
+  "VSC061": {
+    "id": "VSC061",
+    "valueSet": "VS016",
+    "valueSetName": "ConditionMechanismStrength",
+    "code": "established",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:established",
+    "text": "Established",
+    "authority": "ClinGen",
+    "description": "The class of variants are known to cause the condition"
+  },
+  "VSC062": {
+    "id": "VSC062",
+    "valueSet": "VS016",
+    "valueSetName": "ConditionMechanismStrength",
+    "code": "primary",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:primary",
+    "text": "Primary",
+    "authority": "ClinGen",
+    "description": "The class of variants are the main causes of the condition"
+  },
+  "VSC063": {
+    "id": "VSC063",
+    "valueSet": "VS016",
+    "valueSetName": "ConditionMechanismStrength",
+    "code": "common",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:common",
+    "text": "Common",
+    "authority": "ClinGen",
+    "description": "The class of variants are a common cause of the condition"
+  },
+  "VSC064": {
+    "id": "VSC064",
+    "valueSet": "VS016",
+    "valueSetName": "ConditionMechanismStrength",
+    "code": "suggested",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:suggested",
+    "text": "Suggested",
+    "authority": "ClinGen",
+    "description": "The class of variants has been suggested to cause the condition"
+  },
+  "VSC065": {
+    "id": "VSC065",
+    "valueSet": "VS016",
+    "valueSetName": "ConditionMechanismStrength",
+    "code": "unknown",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:unknown",
+    "text": "Unknown",
+    "authority": "ClinGen",
+    "description": "The class of variants are unknown to cause the condition"
   }
 }

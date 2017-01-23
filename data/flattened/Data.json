@@ -147,15 +147,15 @@
     "evidenceTypeId": "E20",
     "evidenceType": "FunctionalData"
   },
-  "PAF028": {
-    "id": "PAF028",
+  "AllFreq028": {
+    "id": "AllFreq028",
     "evidenceTypeId": "E23",
-    "evidenceType": "PopulationAlleleFrequency"
+    "evidenceType": "AlleleFrequency"
   },
-  "GAF029": {
-    "id": "GAF029",
-    "evidenceTypeId": "E22",
-    "evidenceType": "GroupAlleleFrequency"
+  "AllFreq029": {
+    "id": "AllFreq029",
+    "evidenceTypeId": "E23",
+    "evidenceType": "AlleleFrequency"
   },
   "CaseCtrl030": {
     "id": "CaseCtrl030",
@@ -163,16 +163,16 @@
     "explanation": "Treating ExAC data as controls for",
     "evidenceType": "CaseControl"
   },
-  "PAF031": {
-    "id": "PAF031",
+  "AllFreq031": {
+    "id": "AllFreq031",
     "evidenceTypeId": "E23",
-    "evidenceType": "PopulationAlleleFrequency"
+    "evidenceType": "AlleleFrequency"
   },
-  "GAF032": {
-    "id": "GAF032",
-    "evidenceTypeId": "E22",
+  "AllFreq032": {
+    "id": "AllFreq032",
+    "evidenceTypeId": "E23",
     "explanation": "This allele is thought to account for between 2% and 10% of patients with Malignant hyperthermia.",
-    "evidenceType": "GroupAlleleFrequency"
+    "evidenceType": "AlleleFrequency"
   },
   "CaseCtrl033": {
     "id": "CaseCtrl033",
@@ -180,15 +180,15 @@
     "explanation": "Did not calculate formal odds ratio",
     "evidenceType": "CaseControl"
   },
-  "GAF034": {
-    "id": "GAF034",
-    "evidenceTypeId": "E22",
-    "evidenceType": "GroupAlleleFrequency"
+  "AllFreq034": {
+    "id": "AllFreq034",
+    "evidenceTypeId": "E23",
+    "evidenceType": "AlleleFrequency"
   },
-  "GAF035": {
-    "id": "GAF035",
-    "evidenceTypeId": "E22",
-    "evidenceType": "GroupAlleleFrequency"
+  "AllFreq035": {
+    "id": "AllFreq035",
+    "evidenceTypeId": "E23",
+    "evidenceType": "AlleleFrequency"
   },
   "CaseCtrl036": {
     "id": "CaseCtrl036",
@@ -261,25 +261,25 @@
     "evidenceTypeId": "E15",
     "evidenceType": "MendelianDiseaseVariantPathogenicityInterpretation"
   },
-  "PAF051": {
-    "id": "PAF051",
+  "AllFreq051": {
+    "id": "AllFreq051",
     "evidenceTypeId": "E23",
-    "evidenceType": "PopulationAlleleFrequency"
+    "evidenceType": "AlleleFrequency"
   },
-  "PAF052": {
-    "id": "PAF052",
+  "AllFreq052": {
+    "id": "AllFreq052",
     "evidenceTypeId": "E23",
-    "evidenceType": "PopulationAlleleFrequency"
+    "evidenceType": "AlleleFrequency"
   },
-  "PAF053": {
-    "id": "PAF053",
+  "AllFreq053": {
+    "id": "AllFreq053",
     "evidenceTypeId": "E23",
-    "evidenceType": "PopulationAlleleFrequency"
+    "evidenceType": "AlleleFrequency"
   },
-  "PAF054": {
-    "id": "PAF054",
+  "AllFreq054": {
+    "id": "AllFreq054",
     "evidenceTypeId": "E23",
-    "evidenceType": "PopulationAlleleFrequency"
+    "evidenceType": "AlleleFrequency"
   },
   "CondInh055": {
     "id": "CondInh055",
@@ -406,11 +406,11 @@
     "evidenceTypeId": "E15",
     "evidenceType": "MendelianDiseaseVariantPathogenicityInterpretation"
   },
-  "PAF082": {
-    "id": "PAF082",
+  "AllFreq082": {
+    "id": "AllFreq082",
     "evidenceTypeId": "E23",
     "wasGeneratedBy": "CapData081",
-    "evidenceType": "PopulationAlleleFrequency"
+    "evidenceType": "AlleleFrequency"
   },
   "IndCond083": {
     "id": "IndCond083",
@@ -779,35 +779,35 @@
     "explanation": "Variant has been classified as “Pathogenic” by Expert panel CFTR (SCV000245981.1)",
     "evidenceType": "MendelianDiseaseVariantPathogenicityInterpretation"
   },
-  "PAF153": {
-    "id": "PAF153",
+  "AllFreq153": {
+    "id": "AllFreq153",
     "evidenceTypeId": "E23",
-    "evidenceType": "PopulationAlleleFrequency"
+    "evidenceType": "AlleleFrequency"
   },
-  "PAF154": {
-    "id": "PAF154",
+  "AllFreq154": {
+    "id": "AllFreq154",
     "evidenceTypeId": "E23",
-    "evidenceType": "PopulationAlleleFrequency"
+    "evidenceType": "AlleleFrequency"
   },
-  "PAF155": {
-    "id": "PAF155",
+  "AllFreq155": {
+    "id": "AllFreq155",
     "evidenceTypeId": "E23",
-    "evidenceType": "PopulationAlleleFrequency"
+    "evidenceType": "AlleleFrequency"
   },
   "CondInh156": {
     "id": "CondInh156",
     "evidenceTypeId": "E27",
     "evidenceType": "ConditionInheritance"
   },
-  "PAF157": {
-    "id": "PAF157",
+  "AllFreq157": {
+    "id": "AllFreq157",
     "evidenceTypeId": "E23",
-    "evidenceType": "PopulationAlleleFrequency"
+    "evidenceType": "AlleleFrequency"
   },
-  "PAF158": {
-    "id": "PAF158",
+  "AllFreq158": {
+    "id": "AllFreq158",
     "evidenceTypeId": "E23",
-    "evidenceType": "PopulationAlleleFrequency"
+    "evidenceType": "AlleleFrequency"
   },
   "CondPrev159": {
     "id": "CondPrev159",
@@ -824,10 +824,10 @@
     "evidenceTypeId": "E27",
     "evidenceType": "ConditionInheritance"
   },
-  "PAF162": {
-    "id": "PAF162",
+  "AllFreq162": {
+    "id": "AllFreq162",
     "evidenceTypeId": "E23",
-    "evidenceType": "PopulationAlleleFrequency"
+    "evidenceType": "AlleleFrequency"
   },
   "CondPrev163": {
     "id": "CondPrev163",
@@ -844,10 +844,10 @@
     "evidenceTypeId": "E27",
     "evidenceType": "ConditionInheritance"
   },
-  "PAF166": {
-    "id": "PAF166",
+  "AllFreq166": {
+    "id": "AllFreq166",
     "evidenceTypeId": "E23",
-    "evidenceType": "PopulationAlleleFrequency"
+    "evidenceType": "AlleleFrequency"
   },
   "CondPrev167": {
     "id": "CondPrev167",

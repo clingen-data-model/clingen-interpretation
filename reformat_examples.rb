@@ -76,7 +76,7 @@ class DMWGExampleData
       @id2example[a_id]['cg:type'] = @flattened['Type'][a_rec['activityTypeId']]['name']
     end
 
-    # Now for the "join tables". Lots of ugly hard-coding here
+    # Now for the "join tables". Ugly hard-coding here
     @flattened['_DataAttribute'].each do |da|
       # FIXME - make sure inherited attributes are appropriately handled
       data_id = da['evidenceDataId']
@@ -84,19 +84,27 @@ class DMWGExampleData
       attribute = @flattened['Attribute'][attribute_id]
       (@id2example[data_id] ||= {})['cg:id'] = data_id
       if value_exists? da['value'] then
-        @id2example[data_id][attribute['name']] = convert_value(da['value'], attribute['dataType'])
+        if attribute['cardinality'].end_with? '*' then
+          (@id2example[data_id][attribute['name']] ||= []).push(convert_value(da['value'], attribute['dataType']))
+        else
+          @id2example[data_id][attribute['name']] = convert_value(da['value'], attribute['dataType'])
+        end
       end
     end
 
-    @flattened['_ActivityAssociatedAgent'].each do |aaa|
-      activity = @id2example[aaa['activityId']] ||= {}
-      associatedAgent = @id2example[aaa['wasAssociatedWith']] ||= { 'cg:id' => aaa['wasAssociatedWith'] }
-      (activity['wasAssociatedWith'] ||= []).push(associatedAgent)
-    end
-
-    @flattened['_ActivityUsedEntity'].each do |aue|
-      activity = @id2example[aue['activityId']] ||= {}
-      ((activity['used'] ||= {})[@flattened['Type'][aue['usedEntityType']]['name']] ||= []).push(@id2example[aue['usedEntityId']])
+    @flattened['_ActivityAttribute'].each do |da|
+      # FIXME - make sure inherited attributes are appropriately handled
+      data_id = da['activityId']
+      attribute_id = da['attributeId']
+      attribute = @flattened['Attribute'][attribute_id]
+      (@id2example[data_id] ||= {})['cg:id'] = data_id
+      if value_exists? da['value'] then
+        if attribute['cardinality'].end_with? '*' then
+          (@id2example[data_id][attribute['name']] ||= []).push(convert_value(da['value'], attribute['dataType']))
+        else
+          @id2example[data_id][attribute['name']] = convert_value(da['value'], attribute['dataType'])
+        end
+      end
     end
   end
 

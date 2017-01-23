@@ -387,15 +387,6 @@
     "description": "(Wanted to include a splicing example too)\n\nVariant: NM_000363.4(TNNI3):c.592C>G (p.Leu198Val)\n\nOverall the in silico predictions do not predict an impact:\nAlignGVGD: C0 (benign)\nPolyPhen2: benign\nMAPP: good (benign)\nSIFT: Tolerated\nMutationTaster: disease-causing\n \nHowever, nucleotide is somewhat conserved:\nG nucleotide at this position not observed in any species\npyloP: 1.255\nPhastCons: 0.992\n\nVariant is predicted to create a new donor splice site at position c.591\nAll 5 splicing tools used predict an impact\n\nSo even though the computational tools for AA changes are NOT predicting an impact, splicing tools are predicting an impact - so PP3 is applicable",
     "displayNum": "PP3 - #3"
   },
-  "Ex043": {
-    "id": "Ex043",
-    "Criterion": "PP4",
-    "index": 1.0,
-    "author": "Agent006",
-    "exampleCriterionAssessmentId": "CritAssess043",
-    "description": "Assessed variant: NM_000060.3(BTD):c.1330G>C (p.Asp444His)\nPMIDs: 10206677; 9654207",
-    "displayNum": "PP4 - #1"
-  },
   "Ex044": {
     "id": "Ex044",
     "Criterion": "PP4",
@@ -521,15 +512,6 @@
     "exampleCriterionAssessmentId": "CritAssess057",
     "description": "Variant: NM_000138.4(FBN1 ):c.2956G>A (p.Ala986Thr)\n\nFBN1 is associated with Marfan Syndrome which is a dominant disorder. Although this variant was found in 5 individuals with Marfan Syndrome, it was identified in 2 unaffected relatives from two separate families. PMID: 12402346\n\nNote: CSER Variant\n",
     "displayNum": "BS2 - #3"
-  },
-  "Ex058": {
-    "id": "Ex058",
-    "Criterion": "BS3",
-    "index": 1.0,
-    "author": "Agent001",
-    "exampleCriterionAssessmentId": "CritAssess058",
-    "description": "Variant: NM_000218.2(KCNQ1):c.1179G>T (p.Lys393Asn)\n\n(TODO)",
-    "displayNum": "BS3 - #1"
   },
   "Ex059": {
     "id": "Ex059",
@@ -673,15 +655,6 @@
     "exampleCriterionAssessmentId": "CritAssess074",
     "description": "Assessed variant: NM_000059.3(BRCA2):c.4779A>C (p.Glu1593Asp)\nCSER variant. \nAll (SIFT,FATHMM,LRT,MetaSVM,MutationAssessor,Mutationtaster,Provean) but Polyphen and Condel predicts benign.\n Predictions obtained via dbNSFP and VEP on rs80358703.",
     "displayNum": "BP4 - #1"
-  },
-  "Ex075": {
-    "id": "Ex075",
-    "Criterion": "BP4",
-    "index": 2.0,
-    "author": "Agent006",
-    "exampleCriterionAssessmentId": "CritAssess075",
-    "description": "Variant assessed: NM_017636.3(TRPM4):c.2531G>A (p.Gly844Asp)\nAll (SIFT,FATHMM,MetaSVM,MutationAssessor,Mutationtaster,Provean) but Polyphen and Condel predicts benign.\n Predictions obtained via dbNSFP and VEP on rs200038418.",
-    "displayNum": "BP4 - #2"
   },
   "Ex076": {
     "id": "Ex076",
