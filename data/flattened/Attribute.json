@@ -37,6 +37,7 @@
     "valueSetId": "VS016",
     "valueSetName": "ConditionMechanismStrength",
     "precedence": 4.0,
+    "description": "Qualifier on the Condition/Mechanism pair",
     "fullyQualifiedName": "ConditionMechanism.strength"
   },
   "A004": {
@@ -58,39 +59,39 @@
   "A006": {
     "id": "A006",
     "entityId": "E11",
-    "name": "usedEvidenceData",
-    "dataType": "EvidenceData",
+    "name": "hasSupportingEvidence",
+    "dataType": "Data",
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 4.0,
     "notes": "MolecularConsequence, ConditionMechanism",
     "description": "Data that been used in the activity",
-    "fullyQualifiedName": "AssessCriterion.usedEvidenceData"
+    "fullyQualifiedName": "AssessCriterion.hasSupportingEvidence"
   },
   "A007": {
     "id": "A007",
     "entityId": "E11",
-    "name": "usedCriterion",
+    "name": "criterion",
     "dataType": "Criterion",
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 2.0,
     "description": "Criterion (rule) to which the evidence has been applied",
-    "fullyQualifiedName": "AssessCriterion.usedCriterion"
+    "fullyQualifiedName": "AssessCriterion.criterion"
   },
   "A008": {
     "id": "A008",
     "entityId": "E11",
-    "name": "usedCanonicalAllele",
+    "name": "variant",
     "dataType": "CanonicalAllele",
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 3.0,
     "description": "The allele that is being assessed with the criterion",
-    "fullyQualifiedName": "AssessCriterion.usedCanonicalAllele"
+    "fullyQualifiedName": "AssessCriterion.variant"
   },
   "A009": {
     "id": "A009",
@@ -355,7 +356,7 @@
     "entityId": "E23",
     "name": "ascertainment",
     "dataType": "CodeableConcept",
-    "cardinality": "???",
+    "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 3.0,
@@ -365,14 +366,14 @@
   "A031": {
     "id": "A031",
     "entityId": "E23",
-    "name": "contextualAllele",
-    "dataType": "ContextualAllele",
+    "name": "allele",
+    "dataType": "CanonicalAllele",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
     "description": "The variant for which the frequency is given",
-    "fullyQualifiedName": "AlleleFrequency.contextualAllele"
+    "fullyQualifiedName": "AlleleFrequency.allele"
   },
   "A032": {
     "id": "A032",
@@ -397,30 +398,6 @@
     "precedence": 6.0,
     "description": "Frequency denominator: number of observations",
     "fullyQualifiedName": "AlleleFrequency.alleleNumber"
-  },
-  "A034": {
-    "id": "A034",
-    "entityId": "E23",
-    "name": "xx",
-    "fullyQualifiedName": "AlleleFrequency.xx"
-  },
-  "A035": {
-    "id": "A035",
-    "entityId": "E23",
-    "name": "xx",
-    "fullyQualifiedName": "AlleleFrequency.xx"
-  },
-  "A036": {
-    "id": "A036",
-    "entityId": "E23",
-    "name": "xx",
-    "fullyQualifiedName": "AlleleFrequency.xx"
-  },
-  "A037": {
-    "id": "A037",
-    "entityId": "E23",
-    "name": "xx",
-    "fullyQualifiedName": "AlleleFrequency.xx"
   },
   "A038": {
     "id": "A038",
@@ -574,7 +551,8 @@
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
-    "precedence": 5.0
+    "precedence": 5.0,
+    "description": "Number of (non-proband) individuals with the condition and without the allele"
   },
   "A051": {
     "id": "A051",
@@ -590,7 +568,7 @@
   },
   "A052": {
     "id": "A052",
-    "entityId": "E25",
+    "entityId": "E24",
     "name": "referenceSequence",
     "dataType": "ReferenceSequence",
     "cardinality": "0..1",
@@ -598,11 +576,11 @@
     "valueSetName": "",
     "precedence": 1.0,
     "description": "Sequence on which the region is defined",
-    "fullyQualifiedName": "ContextualRegion.referenceSequence"
+    "fullyQualifiedName": "RegionTypesAndAlleles.referenceSequence"
   },
   "A053": {
     "id": "A053",
-    "entityId": "E25",
+    "entityId": "E24",
     "name": "start",
     "dataType": "int",
     "cardinality": "0..1",
@@ -610,11 +588,11 @@
     "valueSetName": "",
     "precedence": 2.0,
     "description": "Start of the region in 0-based coordinates",
-    "fullyQualifiedName": "ContextualRegion.start"
+    "fullyQualifiedName": "RegionTypesAndAlleles.start"
   },
   "A054": {
     "id": "A054",
-    "entityId": "E25",
+    "entityId": "E24",
     "name": "stop",
     "dataType": "int",
     "cardinality": "0..1",
@@ -622,60 +600,54 @@
     "valueSetName": "",
     "precedence": 3.0,
     "description": "End of the region in 0-based coordinates",
-    "fullyQualifiedName": "ContextualRegion.stop"
-  },
-  "A055": {
-    "id": "A055",
-    "entityId": "E24",
-    "name": "region",
-    "dataType": "ContextualRegion",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 1.0,
-    "description": "Contextual Region that is being described",
-    "fullyQualifiedName": "RegionAnnotation.region"
+    "fullyQualifiedName": "RegionTypesAndAlleles.stop"
   },
   "A056": {
     "id": "A056",
     "entityId": "E24",
-    "name": "value",
-    "dataType": "boolean",
-    "cardinality": "0..1",
+    "name": "isNotTypes",
+    "dataType": "CodeableConcept",
+    "cardinality": "0..*",
     "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 3.0,
-    "fullyQualifiedName": "RegionAnnotation.value"
+    "valueSetId": "VS004",
+    "valueSetName": "RegionAnnotationType",
+    "precedence": 5.0,
+    "fullyQualifiedName": "RegionTypesAndAlleles.isNotTypes"
   },
   "A057": {
     "id": "A057",
     "entityId": "E24",
-    "name": "type",
+    "name": "isTypes",
     "dataType": "CodeableConcept",
-    "cardinality": "0..1",
+    "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetId": "VS004",
     "valueSetName": "RegionAnnotationType",
-    "precedence": 2.0,
-    "fullyQualifiedName": "RegionAnnotation.type"
+    "precedence": 4.0,
+    "fullyQualifiedName": "RegionTypesAndAlleles.isTypes"
   },
   "A058": {
     "id": "A058",
     "entityId": "E24",
-    "name": "containedAlleles",
+    "name": "includedAlleles",
     "dataType": "CanonicalAllele",
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 1.0,
+    "precedence": 6.0,
     "description": "Alleles that are within the region",
-    "fullyQualifiedName": "RegionAnnotation.containedAlleles"
+    "fullyQualifiedName": "RegionTypesAndAlleles.includedAlleles"
   },
   "A059": {
     "id": "A059",
-    "entityId": "E23",
-    "name": "xx",
-    "fullyQualifiedName": "AlleleFrequency.xx"
+    "entityId": "E24",
+    "name": "excludedAlleles",
+    "dataType": "CanonicalAllele",
+    "cardinality": "0..*",
+    "defaultValue": "null",
+    "precedence": 7.0,
+    "description": "Alleles that are NOT within the region",
+    "fullyQualifiedName": "RegionTypesAndAlleles.excludedAlleles"
   },
   "A060": {
     "id": "A060",
@@ -689,11 +661,9 @@
     "description": "Frequency of the named allele in the population",
     "fullyQualifiedName": "AlleleFrequency.alleleFrequency"
   },
-  "A061": {
-    "id": "A061",
-    "entityId": "E23",
-    "name": "xx",
-    "fullyQualifiedName": "AlleleFrequency.xx"
+  " ": {
+    "id": " ",
+    "fullyQualifiedName": "#N/A"
   },
   "A062": {
     "id": "A062",
@@ -849,47 +819,11 @@
   "A075": {
     "id": "A075",
     "entityId": "E30",
-    "name": "canonicalAllele",
+    "name": "variant",
     "dataType": "CanonicalAllele",
     "cardinality": "1..1",
     "defaultValue": "null",
-    "fullyQualifiedName": "GenerateVariantInterpretation.canonicalAllele"
-  },
-  "A076": {
-    "id": "A076",
-    "entityId": "E42",
-    "name": "contextualRegion",
-    "dataType": "ContextualRegion",
-    "cardinality": "1..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 1.0,
-    "description": "A region on a reference sequence",
-    "fullyQualifiedName": "RegionContainsAllele.contextualRegion"
-  },
-  "A077": {
-    "id": "A077",
-    "entityId": "E42",
-    "name": "contextualAllele",
-    "dataType": "ContextualAllele",
-    "cardinality": "1..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 2.0,
-    "description": "An allele on the reference sequence",
-    "fullyQualifiedName": "RegionContainsAllele.contextualAllele"
-  },
-  "A078": {
-    "id": "A078",
-    "entityId": "E42",
-    "name": "value",
-    "dataType": "boolean",
-    "cardinality": "1..1",
-    "defaultValue": 1,
-    "valueSetName": "",
-    "precedence": 3.0,
-    "description": "Whether or not the allele lies within the region",
-    "fullyQualifiedName": "RegionContainsAllele.value"
+    "fullyQualifiedName": "GenerateVariantInterpretation.variant"
   },
   "A079": {
     "id": "A079",
@@ -1032,7 +966,8 @@
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 8.0,
+    "precedence": 9.0,
+    "description": "Column names for the pedigree data element",
     "fullyQualifiedName": "FamilySegregationData.columns"
   },
   "A091": {
@@ -1043,7 +978,8 @@
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 9.0,
+    "precedence": 11.0,
+    "description": "Map describing how affected status is represented in the pedigree",
     "fullyQualifiedName": "FamilySegregationData.affectedValues"
   },
   "A092": {
@@ -1055,6 +991,7 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 10.0,
+    "description": "Map describing how genotypes are represented in the pedigree",
     "fullyQualifiedName": "FamilySegregationData.genotypeValues"
   },
   "A093": {
@@ -1065,7 +1002,8 @@
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 11.0,
+    "precedence": 8.0,
+    "description": "Detailed information about the family structure, affected status, and genotypes in pedigree/linkage format.",
     "fullyQualifiedName": "FamilySegregationData.pedigree"
   },
   "A094": {
@@ -1353,7 +1291,7 @@
     "entityId": "E09",
     "name": "condition",
     "dataType": "Condition",
-    "cardinality": "0..1",
+    "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 3.0,

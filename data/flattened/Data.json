@@ -197,26 +197,11 @@
     "wasGeneratedBy": "CapData073",
     "evidenceType": "CaseControl"
   },
-  "RegAll037": {
-    "id": "RegAll037",
-    "evidenceTypeId": "E42",
-    "evidenceType": "RegionContainsAllele"
-  },
-  "RegAll038": {
-    "id": "RegAll038",
-    "evidenceTypeId": "E42",
-    "evidenceType": "RegionContainsAllele"
-  },
-  "RegAnno040": {
-    "id": "RegAnno040",
+  "Reg040": {
+    "id": "Reg040",
     "evidenceTypeId": "E24",
     "explanation": "This region is the catalytic (kinase) domain.",
-    "evidenceType": "RegionAnnotation"
-  },
-  "RegAll041": {
-    "id": "RegAll041",
-    "evidenceTypeId": "E42",
-    "evidenceType": "RegionContainsAllele"
+    "evidenceType": "RegionTypesAndAlleles"
   },
   "MenDisVarInterp042": {
     "id": "MenDisVarInterp042",
@@ -225,21 +210,16 @@
     "wasGeneratedBy": "CapDataXX",
     "evidenceType": "MendelianDiseaseVariantPathogenicityInterpretation"
   },
-  "RegAnno043": {
-    "id": "RegAnno043",
+  "Reg043": {
+    "id": "Reg043",
     "evidenceTypeId": "E24",
     "explanation": "This region is exon 15 in the transcript, and codes the serine-threonine-protein kinase catalytic domain.",
-    "evidenceType": "RegionAnnotation"
+    "evidenceType": "RegionTypesAndAlleles"
   },
-  "RegAll044": {
-    "id": "RegAll044",
-    "evidenceTypeId": "E42",
-    "evidenceType": "RegionContainsAllele"
-  },
-  "RegAnno046": {
-    "id": "RegAnno046",
+  "Reg046": {
+    "id": "Reg046",
     "evidenceTypeId": "E24",
-    "evidenceType": "RegionAnnotation"
+    "evidenceType": "RegionTypesAndAlleles"
   },
   "MenDisVarInterp047": {
     "id": "MenDisVarInterp047",
@@ -348,41 +328,31 @@
     "wasGeneratedBy": "CapData079",
     "evidenceType": "MolecularConsequence"
   },
-  "RegAll067": {
-    "id": "RegAll067",
-    "evidenceTypeId": "E42",
-    "evidenceType": "RegionContainsAllele"
-  },
-  "RegAnno069": {
-    "id": "RegAnno069",
+  "Reg069": {
+    "id": "Reg069",
     "evidenceTypeId": "E24",
     "wasGeneratedBy": "CapData080",
-    "evidenceType": "RegionAnnotation"
+    "evidenceType": "RegionTypesAndAlleles"
   },
   "MolCon070": {
     "id": "MolCon070",
     "evidenceTypeId": "E02",
     "evidenceType": "MolecularConsequence"
   },
-  "RegAll071": {
-    "id": "RegAll071",
-    "evidenceTypeId": "E42",
-    "evidenceType": "RegionContainsAllele"
-  },
-  "RegAnno073": {
-    "id": "RegAnno073",
+  "Reg073": {
+    "id": "Reg073",
     "evidenceTypeId": "E24",
-    "evidenceType": "RegionAnnotation"
+    "evidenceType": "RegionTypesAndAlleles"
   },
   "MolCon074": {
     "id": "MolCon074",
     "evidenceTypeId": "E02",
     "evidenceType": "MolecularConsequence"
   },
-  "RegAnno077": {
-    "id": "RegAnno077",
+  "Reg077": {
+    "id": "Reg077",
     "evidenceTypeId": "E24",
-    "evidenceType": "RegionAnnotation"
+    "evidenceType": "RegionTypesAndAlleles"
   },
   "MenDisVarInterp078": {
     "id": "MenDisVarInterp078",
@@ -504,11 +474,6 @@
     "id": "DeNovo100",
     "evidenceTypeId": "E19",
     "evidenceType": "DeNovoAllele"
-  },
-  "RegAll101": {
-    "id": "RegAll101",
-    "evidenceTypeId": "E42",
-    "evidenceType": "RegionContainsAllele"
   },
   "BMVR102": {
     "id": "BMVR102",
@@ -1119,52 +1084,37 @@
     "evidenceTypeId": "E50",
     "evidenceType": "ConditionPenetrance"
   },
-  "RegAnno220": {
-    "id": "RegAnno220",
+  "Reg220": {
+    "id": "Reg220",
     "evidenceTypeId": "E24",
-    "evidenceType": "RegionAnnotation"
+    "evidenceType": "RegionTypesAndAlleles"
   },
-  "RegAnno221": {
-    "id": "RegAnno221",
+  "Reg221": {
+    "id": "Reg221",
     "evidenceTypeId": "E24",
     "explanation": "region does not have a known function",
-    "evidenceType": "RegionAnnotation"
-  },
-  "RegAll222": {
-    "id": "RegAll222",
-    "evidenceTypeId": "E42",
-    "evidenceType": "RegionContainsAllele"
+    "evidenceType": "RegionTypesAndAlleles"
   },
   "MolCon223": {
     "id": "MolCon223",
     "evidenceTypeId": "E02",
     "evidenceType": "MolecularConsequence"
   },
-  "RegAnno225": {
-    "id": "RegAnno225",
+  "Reg225": {
+    "id": "Reg225",
     "evidenceTypeId": "E24",
     "explanation": "The I-Band is a large region of repetitive Igg domains.",
-    "evidenceType": "RegionAnnotation"
-  },
-  "RegAll226": {
-    "id": "RegAll226",
-    "evidenceTypeId": "E42",
-    "evidenceType": "RegionContainsAllele"
+    "evidenceType": "RegionTypesAndAlleles"
   },
   "MolCon227": {
     "id": "MolCon227",
     "evidenceTypeId": "E02",
     "evidenceType": "MolecularConsequence"
   },
-  "RegAnno229": {
-    "id": "RegAnno229",
+  "Reg229": {
+    "id": "Reg229",
     "evidenceTypeId": "E24",
-    "evidenceType": "RegionAnnotation"
-  },
-  "RegAll230": {
-    "id": "RegAll230",
-    "evidenceTypeId": "E42",
-    "evidenceType": "RegionContainsAllele"
+    "evidenceType": "RegionTypesAndAlleles"
   },
   "MolCon231": {
     "id": "MolCon231",
@@ -1364,5 +1314,17 @@
   "FamSegData271": {
     "id": "FamSegData271",
     "evidenceTypeId": "E45"
+  },
+  "MolCon272": {
+    "id": "MolCon272",
+    "evidenceTypeId": "E02",
+    "explanation": "This variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006 PMID: 17186466).",
+    "evidenceType": "MolecularConsequence"
+  },
+  "CondMech273": {
+    "id": "CondMech273",
+    "evidenceTypeId": "E03",
+    "explanation": "Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/).",
+    "evidenceType": "ConditionMechanism"
   }
 }

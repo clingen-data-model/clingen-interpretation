@@ -5,7 +5,8 @@
     "parentType": "E52",
     "link": "Data",
     "description": "The structured supporting data that can be used to assess criterion in the context of a given interpretation guideline.",
-    "groupName": "#N/A"
+    "group": "Grp008",
+    "groupName": "Data>Data"
   },
   "E02": {
     "id": "E02",
@@ -194,19 +195,12 @@
   },
   "E24": {
     "id": "E24",
-    "name": "RegionAnnotation",
+    "name": "RegionTypesAndAlleles",
     "parentType": "E01",
-    "link": "RegAnno",
-    "description": "*TODO* short description needed",
+    "link": "Reg",
+    "description": "Whether or not a sequence region is of a certain type or types and/or wether or not sequence region contains a given set of alleles.",
     "group": "Grp008",
-    "groupName": "Data>RegionAnnotation"
-  },
-  "E25": {
-    "id": "E25",
-    "name": "ContextualRegion",
-    "link": "CtxReg",
-    "description": "A bounded region defined on a ReferenceSequence",
-    "groupName": "#N/A"
+    "groupName": "Data>RegionTypesAndAlleles"
   },
   "E26": {
     "id": "E26",
@@ -341,15 +335,6 @@
     "description": "*TODO* short description needed",
     "group": "Grp006",
     "groupName": "Agents>Publisher"
-  },
-  "E42": {
-    "id": "E42",
-    "name": "RegionContainsAllele",
-    "parentType": "E01",
-    "link": "RegAll",
-    "description": "Whether or not a sequence region contains a given allele.",
-    "group": "Grp008",
-    "groupName": "Data>RegionContainsAllele"
   },
   "E43": {
     "id": "E43",

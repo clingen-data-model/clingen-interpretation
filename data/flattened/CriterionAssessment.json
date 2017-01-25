@@ -1122,5 +1122,19 @@
     "wasGeneratedBy": "AssessCrit097",
     "activityStart ": "2016-10-10T08:06:00+00:00",
     "activityEnd": "2016-10-10T08:06:00+00:00"
+  },
+  "CritAssess087": {
+    "id": "CritAssess087",
+    "criterion": "PVS1",
+    "outcomeDesc": "PVS1(Very Strong)",
+    "outcome": "CG:VS",
+    "example": "PVS1 - #4",
+    "met?": "Y",
+    "variant": "CanAll121",
+    "conditions": "Cond046",
+    "explanation": "This variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006 PMID: 17186466). Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/).",
+    "wasGeneratedBy": "AssessCrit098",
+    "activityStart ": "2017-01-17T09:11:59+00:00",
+    "activityEnd": "2017-01-17T09:11:59+00:00"
   }
 }

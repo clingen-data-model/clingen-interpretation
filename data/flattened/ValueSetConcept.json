@@ -663,5 +663,15 @@
     "text": "Unknown",
     "authority": "ClinGen",
     "description": "The class of variants are unknown to cause the condition"
+  },
+  "VSC066": {
+    "id": "VSC066",
+    "valueSet": "VS002",
+    "valueSetName": "MolecularConsequence",
+    "code": "0001629",
+    "codeSystem": "SO",
+    "qualifiedCode": "SO:0001629",
+    "text": "splice-site variant",
+    "authority": "Sequence Ontology"
   }
 }

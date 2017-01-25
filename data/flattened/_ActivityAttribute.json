@@ -4,25 +4,25 @@
     "attributeId": "A006",
     "value": "MolCon001",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon001"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Protein ends at p.826 and this frameshift would create stop at p.852 (769+83) thus NMD would not occur. Instead an elongated protein"
   },
   {
     "activityId": "AssessCrit001",
     "attributeId": "A006",
     "value": "CondMech002",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondMech002"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "HNRNPU is not associated with any conditions, and therefore LOF is not an established mechanism of any condition for this gene."
   },
   {
     "activityId": "AssessCrit001",
     "attributeId": "A007",
     "value": "PVS1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Null Variant in known LOF genes"
   },
@@ -31,7 +31,7 @@
     "attributeId": "A008",
     "value": "CanAll001",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_031844.2(HNRNPU):c.2304_2305del (p.Gly769Glufs*83)"
   },
@@ -40,25 +40,25 @@
     "attributeId": "A006",
     "value": "MolCon003",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon003"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "LOF is predicted to occur as variant is >55bp from penultimate exon"
   },
   {
     "activityId": "AssessCrit002",
     "attributeId": "A006",
     "value": "CondMech004",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondMech004"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "This is so well-known that it does not require a citation."
   },
   {
     "activityId": "AssessCrit002",
     "attributeId": "A007",
     "value": "PVS1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Null Variant in known LOF genes"
   },
@@ -67,7 +67,7 @@
     "attributeId": "A008",
     "value": "CanAll002",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000059.3(BRCA2):c.7762_7764delinsTT"
   },
@@ -76,8 +76,8 @@
     "attributeId": "A006",
     "value": "Cond001",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond001"
   },
   {
@@ -85,34 +85,34 @@
     "attributeId": "A006",
     "value": "MolCon005",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon005"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "LOF is predicted but this transcript is rare"
   },
   {
     "activityId": "AssessCrit003",
     "attributeId": "A006",
     "value": "MolCon006",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon006"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit003",
     "attributeId": "A006",
     "value": "CondMech007",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondMech007"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit003",
     "attributeId": "A007",
     "value": "PVS1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Null Variant in known LOF genes"
   },
@@ -121,7 +121,7 @@
     "attributeId": "A008",
     "value": "CanAll003",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_133437.4(TTN):c.10670dupG "
   },
@@ -130,8 +130,8 @@
     "attributeId": "A006",
     "value": "Cond002",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond002"
   },
   {
@@ -139,16 +139,16 @@
     "attributeId": "A006",
     "value": "MenDisVarInterp008",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp008"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "NM_002834.3:c.855T>G Pathogenic for Noonan Syndrome"
   },
   {
     "activityId": "AssessCrit004",
     "attributeId": "A007",
     "value": "PS1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "same as previous pathogenic amino acid change"
   },
@@ -157,7 +157,7 @@
     "attributeId": "A008",
     "value": "CanAll004",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_002834.3(PTPN11):c.855T>G (p.Phe285Leu)"
   },
@@ -166,8 +166,8 @@
     "attributeId": "A006",
     "value": "Cond003",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond003"
   },
   {
@@ -175,16 +175,16 @@
     "attributeId": "A006",
     "value": "MenDisVarInterp009",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp009"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "NM_001369.2:c.6249G>A Pathogenic for PCD"
   },
   {
     "activityId": "AssessCrit005",
     "attributeId": "A007",
     "value": "PS1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "same as previous pathogenic amino acid change"
   },
@@ -193,7 +193,7 @@
     "attributeId": "A008",
     "value": "CanAll007",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_001369.2(DNAH5):c.6249G>C (p.Met2083Ile)"
   },
@@ -202,8 +202,8 @@
     "attributeId": "A006",
     "value": "Cond004",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond004"
   },
   {
@@ -211,25 +211,25 @@
     "attributeId": "A006",
     "value": "MenDisVarInterp010",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp010"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) Pathogenic for Noonan Syndrome 3"
   },
   {
     "activityId": "AssessCrit006",
     "attributeId": "A006",
     "value": "MenDisVarInterp011",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp011"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) Pathogenic for Costello syndrome"
   },
   {
     "activityId": "AssessCrit006",
     "attributeId": "A007",
     "value": "PS1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "same as previous pathogenic amino acid change"
   },
@@ -238,7 +238,7 @@
     "attributeId": "A008",
     "value": "CanAll011",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile)"
   },
@@ -247,8 +247,8 @@
     "attributeId": "A006",
     "value": "Cond005",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond005"
   },
   {
@@ -256,34 +256,34 @@
     "attributeId": "A006",
     "value": "IndCond012",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond012"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit007",
     "attributeId": "A006",
     "value": "FamHist013",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "FamHist013"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit007",
     "attributeId": "A006",
     "value": "DeNovo014",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "DeNovo014"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "parentage confirmed via haplotyping."
   },
   {
     "activityId": "AssessCrit007",
     "attributeId": "A007",
     "value": "PS2",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "confirmed de novo no family history"
   },
@@ -292,7 +292,7 @@
     "attributeId": "A008",
     "value": "CanAll014",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000257.3(MYH7):c.5740G>A (p.Glu1914Lys)"
   },
@@ -301,8 +301,8 @@
     "attributeId": "A006",
     "value": "Cond007",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond007"
   },
   {
@@ -310,34 +310,34 @@
     "attributeId": "A006",
     "value": "IndCond015",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond015"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit008",
     "attributeId": "A006",
     "value": "FamHist016",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "FamHist016"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit008",
     "attributeId": "A006",
     "value": "DeNovo017",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "DeNovo017"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Non-paternity was excluded by assessment with microsatellites"
   },
   {
     "activityId": "AssessCrit008",
     "attributeId": "A007",
     "value": "PS2",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "confirmed de novo no family history"
   },
@@ -346,7 +346,7 @@
     "attributeId": "A008",
     "value": "CanAll015",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_001927.3(DES):c.1216C>T (p.Arg406Trp)"
   },
@@ -355,8 +355,8 @@
     "attributeId": "A006",
     "value": "Cond008",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond008"
   },
   {
@@ -364,34 +364,34 @@
     "attributeId": "A006",
     "value": "IndCond018",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond018"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit009",
     "attributeId": "A006",
     "value": "FamHist019",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "FamHist019"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit009",
     "attributeId": "A006",
     "value": "DeNovo020",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "DeNovo020"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Variant from trio WES, which confirmed parentage"
   },
   {
     "activityId": "AssessCrit009",
     "attributeId": "A007",
     "value": "PS2",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "confirmed de novo no family history"
   },
@@ -400,7 +400,7 @@
     "attributeId": "A008",
     "value": "CanAll016",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000833 (GRIN2A):c.4375A>G"
   },
@@ -409,8 +409,8 @@
     "attributeId": "A006",
     "value": "Cond009",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond009"
   },
   {
@@ -418,43 +418,43 @@
     "attributeId": "A006",
     "value": "Func021",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "Func021"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit010",
     "attributeId": "A006",
     "value": "Func022",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "Func022"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit010",
     "attributeId": "A006",
     "value": "Func023",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "Func023"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit010",
     "attributeId": "A006",
     "value": "Func024",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "Func024"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit010",
     "attributeId": "A007",
     "value": "PS3",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "well-established damaging effect functional studies"
   },
@@ -463,7 +463,7 @@
     "attributeId": "A008",
     "value": "CanAll017",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_001001431.2(TNNT2):c.391C>T"
   },
@@ -472,16 +472,16 @@
     "attributeId": "A006",
     "value": "Func025",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "Func025"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Expression of human SPG7 (with this mutation) in yeast with damaged m-AAA protease did not restore respiratory growth or MrpL32 processing, if the function of AFG3L2 was impaired."
   },
   {
     "activityId": "AssessCrit011",
     "attributeId": "A007",
     "value": "PS3",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "well-established damaging effect functional studies"
   },
@@ -490,7 +490,7 @@
     "attributeId": "A008",
     "value": "CanAll019",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_003119.2 (SPG7):c.1529C>T"
   },
@@ -499,25 +499,25 @@
     "attributeId": "A006",
     "value": "Func026",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "Func026"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit012",
     "attributeId": "A006",
     "value": "Func027",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "Func027"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit012",
     "attributeId": "A007",
     "value": "PS3",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "well-established damaging effect functional studies"
   },
@@ -526,7 +526,7 @@
     "attributeId": "A008",
     "value": "CanAll020",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_004333.4(BRAF):c.1787G>T"
   },
@@ -535,16 +535,16 @@
     "attributeId": "A006",
     "value": "CaseCtrl030",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CaseCtrl030"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Treating ExAC data as controls for"
   },
   {
     "activityId": "AssessCrit013",
     "attributeId": "A007",
     "value": "PS4",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Prevelance increase in affected v control"
   },
@@ -553,7 +553,7 @@
     "attributeId": "A008",
     "value": "CanAll022",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000441.1(SLC26A4):c.1003T>C"
   },
@@ -562,8 +562,8 @@
     "attributeId": "A006",
     "value": "Cond010",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond010"
   },
   {
@@ -571,16 +571,16 @@
     "attributeId": "A006",
     "value": "CaseCtrl033",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CaseCtrl033"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Did not calculate formal odds ratio"
   },
   {
     "activityId": "AssessCrit014",
     "attributeId": "A007",
     "value": "PS4",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Prevelance increase in affected v control"
   },
@@ -589,7 +589,7 @@
     "attributeId": "A008",
     "value": "CanAll023",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000540.2 (RYR1):c.1840C>T"
   },
@@ -598,8 +598,8 @@
     "attributeId": "A006",
     "value": "Cond011",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond011"
   },
   {
@@ -607,16 +607,16 @@
     "attributeId": "A006",
     "value": "CaseCtrl036",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CaseCtrl036"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Odds ratio is calculated by pooling samples from the six GENIUS T2D cohorts before calculation."
   },
   {
     "activityId": "AssessCrit015",
     "attributeId": "A007",
     "value": "PS4",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Prevelance increase in affected v control"
   },
@@ -625,7 +625,7 @@
     "attributeId": "A008",
     "value": "CanAll024",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_006208.2(ENPP1):c.517A>C"
   },
@@ -634,8 +634,8 @@
     "attributeId": "A006",
     "value": "Cond012",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond012"
   },
   {
@@ -643,8 +643,8 @@
     "attributeId": "A006",
     "value": "RegAnno040",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAnno040"
   },
   {
@@ -652,8 +652,8 @@
     "attributeId": "A006",
     "value": "RegAll101",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAll101"
   },
   {
@@ -661,7 +661,7 @@
     "attributeId": "A007",
     "value": "PM1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Located in hot spot w/out benign variation"
   },
@@ -670,7 +670,7 @@
     "attributeId": "A008",
     "value": "CanAll025",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_005228.3(EGFR):c.2369C>T"
   },
@@ -679,8 +679,8 @@
     "attributeId": "A006",
     "value": "RegAnno043",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAnno043"
   },
   {
@@ -688,8 +688,8 @@
     "attributeId": "A006",
     "value": "RegAll037",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAll037"
   },
   {
@@ -697,7 +697,7 @@
     "attributeId": "A007",
     "value": "PM1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Located in hot spot w/out benign variation"
   },
@@ -706,7 +706,7 @@
     "attributeId": "A008",
     "value": "CanAll026",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_004333.4(BRAF):c.1789C>G"
   },
@@ -715,8 +715,8 @@
     "attributeId": "A006",
     "value": "RegAnno046",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAnno046"
   },
   {
@@ -724,8 +724,8 @@
     "attributeId": "A006",
     "value": "RegAll038",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAll038"
   },
   {
@@ -733,8 +733,8 @@
     "attributeId": "A006",
     "value": "RegAll041",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAll041"
   },
   {
@@ -742,8 +742,8 @@
     "attributeId": "A006",
     "value": "RegAll044",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAll044"
   },
   {
@@ -751,8 +751,8 @@
     "attributeId": "A006",
     "value": "RegAll067",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAll067"
   },
   {
@@ -760,8 +760,8 @@
     "attributeId": "A006",
     "value": "RegAll071",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAll071"
   },
   {
@@ -769,52 +769,52 @@
     "attributeId": "A006",
     "value": "BMVR102",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "BMVR102"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "ClinVar shows no benign missense variants in (or near) this region.  The closest is NM_000169.2:c.8T>C"
   },
   {
     "activityId": "AssessCrit018",
     "attributeId": "A006",
     "value": "MenDisVarInterp047",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp047"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit018",
     "attributeId": "A006",
     "value": "MenDisVarInterp048",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp048"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit018",
     "attributeId": "A006",
     "value": "MenDisVarInterp049",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp049"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit018",
     "attributeId": "A006",
     "value": "MenDisVarInterp050",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp050"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit018",
     "attributeId": "A007",
     "value": "PM1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Located in hot spot w/out benign variation"
   },
@@ -823,7 +823,7 @@
     "attributeId": "A008",
     "value": "CanAll027",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000169.2(GLA):c.902G>C"
   },
@@ -832,25 +832,25 @@
     "attributeId": "A006",
     "value": "AllFreq051",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "AllFreq051"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit019",
     "attributeId": "A006",
     "value": "AllFreq052",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "AllFreq052"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit019",
     "attributeId": "A007",
     "value": "PM2",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Absent from controls"
   },
@@ -859,7 +859,7 @@
     "attributeId": "A008",
     "value": "CanAll032",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000257.2(MYH7):c.5135G>A"
   },
@@ -868,16 +868,16 @@
     "attributeId": "A006",
     "value": "AllFreq053",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "AllFreq053"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit020",
     "attributeId": "A007",
     "value": "PM2",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Absent from controls"
   },
@@ -886,7 +886,7 @@
     "attributeId": "A008",
     "value": "CanAll033",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_001128425.1(MUTYH):c.64G>A (p.Val22Met)"
   },
@@ -895,16 +895,16 @@
     "attributeId": "A006",
     "value": "AllFreq054",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "AllFreq054"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit021",
     "attributeId": "A007",
     "value": "PM2",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Absent from controls"
   },
@@ -913,7 +913,7 @@
     "attributeId": "A008",
     "value": "CanAll034",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_001399.4(EDA): c.676C>T"
   },
@@ -922,43 +922,43 @@
     "attributeId": "A006",
     "value": "CondInh055",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondInh055"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit022",
     "attributeId": "A006",
     "value": "IndCond056",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond056"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit022",
     "attributeId": "A006",
     "value": "MenDisVarInterp057",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp057"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit022",
     "attributeId": "A006",
     "value": "IndAll058",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll058"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Father was het for c.9449delG variant and negative for c.7468_7488del variant. Mother was het for c.7468_7488del variant and negative for c.9449delG variant. Thus, variants are in trans in this proband."
   },
   {
     "activityId": "AssessCrit022",
     "attributeId": "A007",
     "value": "PM3",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Recessive in trans w/ Path"
   },
@@ -967,7 +967,7 @@
     "attributeId": "A008",
     "value": "CanAll035",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_001369.2(DNAH5):c.7468_7488del"
   },
@@ -976,8 +976,8 @@
     "attributeId": "A006",
     "value": "Cond004",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond004"
   },
   {
@@ -985,8 +985,8 @@
     "attributeId": "A006",
     "value": "Cond014",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond014"
   },
   {
@@ -994,43 +994,43 @@
     "attributeId": "A006",
     "value": "MenDisVarInterp059",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp059"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit023",
     "attributeId": "A006",
     "value": "CondInh060",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondInh060"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit023",
     "attributeId": "A006",
     "value": "IndCond061",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond061"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit023",
     "attributeId": "A006",
     "value": "IndAll062",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll062"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Based on the NGS data, we are able to determine that c.298G>A and c.411+1G>A are in trans as no NGS reads carry both variants."
   },
   {
     "activityId": "AssessCrit023",
     "attributeId": "A007",
     "value": "PM3",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Recessive in trans w/ Path"
   },
@@ -1039,7 +1039,7 @@
     "attributeId": "A008",
     "value": "CanAll037",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_133261.2(GIPC3):c.298G>A"
   },
@@ -1048,8 +1048,8 @@
     "attributeId": "A006",
     "value": "Cond010",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond010"
   },
   {
@@ -1057,34 +1057,34 @@
     "attributeId": "A006",
     "value": "CondInh063",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondInh063"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit024",
     "attributeId": "A006",
     "value": "IndCond064",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond064"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit024",
     "attributeId": "A006",
     "value": "IndAll065",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll065"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit024",
     "attributeId": "A007",
     "value": "PM3",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Recessive in trans w/ Path"
   },
@@ -1093,7 +1093,7 @@
     "attributeId": "A008",
     "value": "CanAll039",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000391.3(TTP1):c.1678_1679delCT"
   },
@@ -1102,8 +1102,8 @@
     "attributeId": "A006",
     "value": "Cond015",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond015"
   },
   {
@@ -1111,17 +1111,17 @@
     "attributeId": "A006",
     "value": "MolCon066",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon066"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit025",
     "attributeId": "A006",
     "value": "RegAnno069",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAnno069"
   },
   {
@@ -1129,7 +1129,7 @@
     "attributeId": "A007",
     "value": "PM4",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Protein length changes or stop-loss"
   },
@@ -1138,7 +1138,7 @@
     "attributeId": "A008",
     "value": "CanAll035",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_001369.2(DNAH5):c.7468_7488del"
   },
@@ -1147,17 +1147,17 @@
     "attributeId": "A006",
     "value": "MolCon070",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon070"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit026",
     "attributeId": "A006",
     "value": "RegAnno073",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAnno073"
   },
   {
@@ -1165,7 +1165,7 @@
     "attributeId": "A007",
     "value": "PM4",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Protein length changes or stop-loss"
   },
@@ -1174,7 +1174,7 @@
     "attributeId": "A008",
     "value": "CanAll041",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_015560.2(OPA1):c.113_130del18"
   },
@@ -1183,17 +1183,17 @@
     "attributeId": "A006",
     "value": "MolCon074",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon074"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit027",
     "attributeId": "A006",
     "value": "RegAnno77",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAnno77"
   },
   {
@@ -1201,7 +1201,7 @@
     "attributeId": "A007",
     "value": "PM4",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Protein length changes or stop-loss"
   },
@@ -1210,7 +1210,7 @@
     "attributeId": "A008",
     "value": "CanAll043",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_003924.3(PHOX2B):c.753_767dup"
   },
@@ -1219,34 +1219,34 @@
     "attributeId": "A006",
     "value": "MenDisVarInterp078",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp078"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit028",
     "attributeId": "A006",
     "value": "MenDisVarInterp079",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp079"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit028",
     "attributeId": "A006",
     "value": "MenDisVarInterp042",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp042"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Uncertain Sig(not specified) NM_000363.4(TNNI3):c.484C>T (p.Arg162Trp)"
   },
   {
     "activityId": "AssessCrit028",
     "attributeId": "A007",
     "value": "PM5",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "novel missense at same aa residue as known path missense"
   },
@@ -1255,8 +1255,8 @@
     "attributeId": "A006",
     "value": "Cond016",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond016"
   },
   {
@@ -1264,7 +1264,7 @@
     "attributeId": "A008",
     "value": "CanAll045",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000363.4(TNNI3):c.485G>A"
   },
@@ -1273,16 +1273,16 @@
     "attributeId": "A006",
     "value": "MenDisVarInterp080",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp080"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit029",
     "attributeId": "A007",
     "value": "PM5",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "novel missense at same aa residue as known path missense"
   },
@@ -1291,8 +1291,8 @@
     "attributeId": "A006",
     "value": "Cond017",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond017"
   },
   {
@@ -1300,7 +1300,7 @@
     "attributeId": "A008",
     "value": "CanAll051",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000531.5(OTC):c.118C>T"
   },
@@ -1309,16 +1309,16 @@
     "attributeId": "A006",
     "value": "MenDisVarInterp081",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp081"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit030",
     "attributeId": "A007",
     "value": "PM5",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "novel missense at same aa residue as known path missense"
   },
@@ -1327,7 +1327,7 @@
     "attributeId": "A008",
     "value": "CanAll055",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_007294.3(BRCA1):c.5290C>A"
   },
@@ -1336,8 +1336,8 @@
     "attributeId": "A006",
     "value": "Cond001",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond001"
   },
   {
@@ -1345,16 +1345,16 @@
     "attributeId": "A006",
     "value": "AllFreq082",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "AllFreq082"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit031",
     "attributeId": "A007",
     "value": "PM2",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Absent from controls"
   },
@@ -1363,7 +1363,7 @@
     "attributeId": "A008",
     "value": "CanAll035",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_001369.2(DNAH5):c.7468_7488del"
   },
@@ -1417,7 +1417,7 @@
     "attributeId": "A075",
     "value": "CanAll035",
     "evidenceDataName": "GenerateVariantInterpretation",
-    "attributeName": "canonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_001369.2(DNAH5):c.7468_7488del"
   },
@@ -1444,61 +1444,61 @@
     "attributeId": "A006",
     "value": "IndCond083",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond083"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit034",
     "attributeId": "A006",
     "value": "FamHist085",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "FamHist085"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit034",
     "attributeId": "A006",
     "value": "DeNovo087",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "DeNovo087"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "parentage confirmation not mentioned in the source article"
   },
   {
     "activityId": "AssessCrit034",
     "attributeId": "A006",
     "value": "IndCond084",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond084"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit034",
     "attributeId": "A006",
     "value": "FamHist086",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "FamHist086"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit034",
     "attributeId": "A006",
     "value": "DeNovo088",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "DeNovo088"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "parentage confirmation not mentioned in the source article"
   },
   {
     "activityId": "AssessCrit034",
     "attributeId": "A007",
     "value": "PM6",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "assumed de novo"
   },
@@ -1507,7 +1507,7 @@
     "attributeId": "A008",
     "value": "CanAll059",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_144997.5(FLCN):c.1285dupC"
   },
@@ -1516,8 +1516,8 @@
     "attributeId": "A006",
     "value": "Cond018",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond018"
   },
   {
@@ -1525,34 +1525,34 @@
     "attributeId": "A006",
     "value": "IndCond089",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond089"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit035",
     "attributeId": "A006",
     "value": "FamHist090",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "FamHist090"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit035",
     "attributeId": "A006",
     "value": "DeNovo091",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "DeNovo091"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "parentage confirmation not mentioned in the source article"
   },
   {
     "activityId": "AssessCrit035",
     "attributeId": "A007",
     "value": "PM6",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "assumed de novo"
   },
@@ -1561,7 +1561,7 @@
     "attributeId": "A008",
     "value": "CanAll060",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_002755.3(MAP2K1):c.158T>C"
   },
@@ -1570,8 +1570,8 @@
     "attributeId": "A006",
     "value": "Cond019",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond019"
   },
   {
@@ -1579,88 +1579,88 @@
     "attributeId": "A006",
     "value": "IndCond092",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond092"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit036",
     "attributeId": "A006",
     "value": "FamHist093",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "FamHist093"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit036",
     "attributeId": "A006",
     "value": "DeNovo094",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "DeNovo094"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit036",
     "attributeId": "A006",
     "value": "IndCond095",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond095"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit036",
     "attributeId": "A006",
     "value": "FamHist096",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "FamHist096"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit036",
     "attributeId": "A006",
     "value": "DeNovo097",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "DeNovo097"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit036",
     "attributeId": "A006",
     "value": "IndCond098",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond098"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit036",
     "attributeId": "A006",
     "value": "FamHist099",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "FamHist099"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit036",
     "attributeId": "A006",
     "value": "DeNovo100",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "DeNovo100"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit036",
     "attributeId": "A007",
     "value": "PM6",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "assumed de novo"
   },
@@ -1669,7 +1669,7 @@
     "attributeId": "A008",
     "value": "CanAll061",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_004333.4(BRAF):c.1741A>G"
   },
@@ -1678,8 +1678,8 @@
     "attributeId": "A006",
     "value": "Cond019",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond019"
   },
   {
@@ -1687,25 +1687,25 @@
     "attributeId": "A006",
     "value": "CondInh106",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondInh106"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit037",
     "attributeId": "A006",
     "value": "AggSegData105",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "AggSegData105"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit037",
     "attributeId": "A007",
     "value": "PP1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "segregates with disease in affected family members"
   },
@@ -1714,7 +1714,7 @@
     "attributeId": "A008",
     "value": "CanAll063",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000256.3(MYBPC3)c.1351+1G>A"
   },
@@ -1723,8 +1723,8 @@
     "attributeId": "A006",
     "value": "Cond020",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond020"
   },
   {
@@ -1732,25 +1732,25 @@
     "attributeId": "A006",
     "value": "CondInh110",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondInh110"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit038",
     "attributeId": "A006",
     "value": "AggSegData109",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "AggSegData109"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit038",
     "attributeId": "A007",
     "value": "PP1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "segregates with disease in affected family members"
   },
@@ -1759,7 +1759,7 @@
     "attributeId": "A008",
     "value": "CanAll062",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_206933.2(USH2A):c.1000C>G (p.Arg334Gly)"
   },
@@ -1768,8 +1768,8 @@
     "attributeId": "A006",
     "value": "Cond021",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond021"
   },
   {
@@ -1777,25 +1777,25 @@
     "attributeId": "A006",
     "value": "FamSegData111",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "FamSegData111"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit039",
     "attributeId": "A006",
     "value": "CondInh112",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondInh112"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit039",
     "attributeId": "A007",
     "value": "PP1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "segregates with disease in affected family members"
   },
@@ -1804,7 +1804,7 @@
     "attributeId": "A008",
     "value": "CanAll064",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000059.3(BRCA2):c.1832C>G"
   },
@@ -1813,8 +1813,8 @@
     "attributeId": "A006",
     "value": "Cond001",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond001"
   },
   {
@@ -1822,25 +1822,25 @@
     "attributeId": "A006",
     "value": "AggSegData115",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "AggSegData115"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit040",
     "attributeId": "A006",
     "value": "CondInh116",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondInh116"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit040",
     "attributeId": "A007",
     "value": "PP1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "segregates with disease in affected family members"
   },
@@ -1849,7 +1849,7 @@
     "attributeId": "A008",
     "value": "CanAll065",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_001001430.2(TNNT2):c.629_631delAGA"
   },
@@ -1858,8 +1858,8 @@
     "attributeId": "A006",
     "value": "Cond002",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond002"
   },
   {
@@ -1867,34 +1867,34 @@
     "attributeId": "A006",
     "value": "MolCon117",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon117"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit041",
     "attributeId": "A006",
     "value": "CondMech118",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondMech118"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Of 178 pathogenic  alleles in ClinVar, 149 are missense."
   },
   {
     "activityId": "AssessCrit041",
     "attributeId": "A006",
     "value": "BMVR119",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "BMVR119"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Based on the gene size, ExAC expects 740 missense variants to be observed, but actually observes only 420, giving a z score of 6.5, which is in the top 0.02% of genes."
   },
   {
     "activityId": "AssessCrit041",
     "attributeId": "A007",
     "value": "PP2",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "missense with pathogenic missense common"
   },
@@ -1903,7 +1903,7 @@
     "attributeId": "A008",
     "value": "CanAll066",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000257.3(MYH7):c.5401G>A"
   },
@@ -1912,88 +1912,88 @@
     "attributeId": "A006",
     "value": "InSilicoPred120",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred120"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit042",
     "attributeId": "A006",
     "value": "InSilicoPred121",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred121"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit042",
     "attributeId": "A006",
     "value": "InSilicoPred122",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred122"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit042",
     "attributeId": "A006",
     "value": "InSilicoPred123",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred123"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit042",
     "attributeId": "A006",
     "value": "InSilicoPred124",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred124"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit042",
     "attributeId": "A006",
     "value": "InSilicoPred125",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred125"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit042",
     "attributeId": "A006",
     "value": "InSilicoPred126",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred126"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit042",
     "attributeId": "A006",
     "value": "InSilicoPred127",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred127"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit042",
     "attributeId": "A006",
     "value": "InSilicoPred128",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred128"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit042",
     "attributeId": "A007",
     "value": "PP3",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "computational evidence supports deleterious\neffect"
   },
@@ -2002,7 +2002,7 @@
     "attributeId": "A008",
     "value": "CanAll067",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_005228.3(EGFR):c.2369C>T"
   },
@@ -2011,88 +2011,88 @@
     "attributeId": "A006",
     "value": "InSilicoPred129",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred129"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit043",
     "attributeId": "A006",
     "value": "InSilicoPred130",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred130"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit043",
     "attributeId": "A006",
     "value": "InSilicoPred131",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred131"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit043",
     "attributeId": "A006",
     "value": "InSilicoPred132",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred132"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit043",
     "attributeId": "A006",
     "value": "InSilicoPred133",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred133"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit043",
     "attributeId": "A006",
     "value": "InSilicoPred134",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred134"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit043",
     "attributeId": "A006",
     "value": "InSilicoPred135",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred135"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit043",
     "attributeId": "A006",
     "value": "InSilicoPred136",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred136"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit043",
     "attributeId": "A006",
     "value": "InSilicoPred137",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred137"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit043",
     "attributeId": "A007",
     "value": "PP3",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "computational evidence supports deleterious\neffect"
   },
@@ -2101,7 +2101,7 @@
     "attributeId": "A008",
     "value": "CanAll068",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_003119.3(SPG7):c.1529C>T"
   },
@@ -2110,97 +2110,97 @@
     "attributeId": "A006",
     "value": "InSilicoPred138",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred138"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit044",
     "attributeId": "A006",
     "value": "InSilicoPred139",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred139"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit044",
     "attributeId": "A006",
     "value": "InSilicoPred140",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred140"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit044",
     "attributeId": "A006",
     "value": "InSilicoPred141",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred141"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit044",
     "attributeId": "A006",
     "value": "InSilicoPred142",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred142"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit044",
     "attributeId": "A006",
     "value": "InSilicoPred143",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred143"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit044",
     "attributeId": "A006",
     "value": "InSilicoPred144",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred144"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit044",
     "attributeId": "A006",
     "value": "InSilicoPred145",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred145"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit044",
     "attributeId": "A006",
     "value": "InSilicoPred146",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred146"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit044",
     "attributeId": "A006",
     "value": "InSilicoPred147",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred147"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit044",
     "attributeId": "A007",
     "value": "PP3",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "computational evidence supports deleterious\neffect"
   },
@@ -2209,7 +2209,7 @@
     "attributeId": "A008",
     "value": "CanAll069",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000363.4(TNNI3):c.592C>G"
   },
@@ -2218,16 +2218,16 @@
     "attributeId": "A006",
     "value": "CondEtiol148",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondEtiol148"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "HHT type 1 is only known to be caused by variants in ENG -"
   },
   {
     "activityId": "AssessCrit046",
     "attributeId": "A007",
     "value": "PP4",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "disease specific phenotype and family history"
   },
@@ -2236,7 +2236,7 @@
     "attributeId": "A008",
     "value": "CanAll070",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_001114753.1(ENG):c.818C>T"
   },
@@ -2245,8 +2245,8 @@
     "attributeId": "A006",
     "value": "Cond022",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond022"
   },
   {
@@ -2254,16 +2254,16 @@
     "attributeId": "A006",
     "value": "CondEtiol149",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondEtiol149"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "1.Only ~50% of HCM is genetic (can be caused by environment) \n2. More than 10 genes can cause HCM (specifically 9 sarcomere genes)"
   },
   {
     "activityId": "AssessCrit047",
     "attributeId": "A007",
     "value": "PP4",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "disease specific phenotype and family history"
   },
@@ -2272,7 +2272,7 @@
     "attributeId": "A008",
     "value": "CanAll071",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000257.2(MYH7):c.1822T>G"
   },
@@ -2281,8 +2281,8 @@
     "attributeId": "A006",
     "value": "Cond020",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond020"
   },
   {
@@ -2290,16 +2290,16 @@
     "attributeId": "A006",
     "value": "MenDisVarInterp150",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp150"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Variant has been classified as “Pathogenic” by Sharing Clinical Reports Project (SCV000054057.3)"
   },
   {
     "activityId": "AssessCrit048",
     "attributeId": "A007",
     "value": "PP5",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "pathogenic from reputable source without shared data"
   },
@@ -2308,7 +2308,7 @@
     "attributeId": "A008",
     "value": "CanAll072",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000059.3(BRCA2):c.3G>T"
   },
@@ -2317,8 +2317,8 @@
     "attributeId": "A006",
     "value": "Cond023",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond023"
   },
   {
@@ -2326,16 +2326,16 @@
     "attributeId": "A006",
     "value": "MenDisVarInterp151",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp151"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Variant has been classified as “Pathogenic” by OMIM (SCV000043718.1)"
   },
   {
     "activityId": "AssessCrit049",
     "attributeId": "A007",
     "value": "PP5",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "pathogenic from reputable source without shared data"
   },
@@ -2344,7 +2344,7 @@
     "attributeId": "A008",
     "value": "CanAll073",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_001458.4(FLNC):c.577G>A"
   },
@@ -2353,8 +2353,8 @@
     "attributeId": "A006",
     "value": "Cond024",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond024"
   },
   {
@@ -2362,16 +2362,16 @@
     "attributeId": "A006",
     "value": "MenDisVarInterp152",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp152"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Variant has been classified as “Pathogenic” by Expert panel CFTR (SCV000245981.1)"
   },
   {
     "activityId": "AssessCrit050",
     "attributeId": "A007",
     "value": "PP5",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "pathogenic from reputable source without shared data"
   },
@@ -2380,7 +2380,7 @@
     "attributeId": "A008",
     "value": "CanAll074",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000492.3(CFTR):c.2053dupC"
   },
@@ -2389,8 +2389,8 @@
     "attributeId": "A006",
     "value": "Cond025",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond025"
   },
   {
@@ -2398,16 +2398,16 @@
     "attributeId": "A006",
     "value": "AllFreq153",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "AllFreq153"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit051",
     "attributeId": "A007",
     "value": "BA1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "present in population databases at greater than 5%"
   },
@@ -2416,7 +2416,7 @@
     "attributeId": "A008",
     "value": "CanAll075",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000057.2 (BLM):c.2603C>T"
   },
@@ -2425,25 +2425,25 @@
     "attributeId": "A006",
     "value": "AllFreq154",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "AllFreq154"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit052",
     "attributeId": "A006",
     "value": "AllFreq155",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "AllFreq155"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit052",
     "attributeId": "A007",
     "value": "BA1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "present in population databases at greater than 5%"
   },
@@ -2452,7 +2452,7 @@
     "attributeId": "A008",
     "value": "CanAll076",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_004004.5(GJB2):c.79G>A"
   },
@@ -2461,25 +2461,25 @@
     "attributeId": "A006",
     "value": "CondInh156",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondInh156"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit053",
     "attributeId": "A006",
     "value": "AllFreq157",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "AllFreq157"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit053",
     "attributeId": "A007",
     "value": "PM2",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "Absent from controls"
   },
@@ -2488,7 +2488,7 @@
     "attributeId": "A008",
     "value": "CanAll077",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_023036.4(DNAI2):c.1304G>A"
   },
@@ -2497,8 +2497,8 @@
     "attributeId": "A006",
     "value": "Cond004",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond004"
   },
   {
@@ -2506,43 +2506,43 @@
     "attributeId": "A006",
     "value": "AllFreq158",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "AllFreq158"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit054",
     "attributeId": "A006",
     "value": "CondPrev159",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondPrev159"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit054",
     "attributeId": "A006",
     "value": "CondPenet160",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondPenet160"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit054",
     "attributeId": "A006",
     "value": "CondInh161",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondInh161"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit054",
     "attributeId": "A007",
     "value": "BS1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "MAF too high for disorder"
   },
@@ -2551,7 +2551,7 @@
     "attributeId": "A008",
     "value": "CanAll078",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000138.4(FBN1):c.8176C>T"
   },
@@ -2560,8 +2560,8 @@
     "attributeId": "A006",
     "value": "Cond026",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond026"
   },
   {
@@ -2569,43 +2569,43 @@
     "attributeId": "A006",
     "value": "AllFreq162",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "AllFreq162"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit055",
     "attributeId": "A006",
     "value": "CondPrev163",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondPrev163"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit055",
     "attributeId": "A006",
     "value": "CondPenet164",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondPenet164"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit055",
     "attributeId": "A006",
     "value": "CondInh165",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondInh165"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit055",
     "attributeId": "A007",
     "value": "BS1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "MAF too high for disorder"
   },
@@ -2614,7 +2614,7 @@
     "attributeId": "A008",
     "value": "CanAll079",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_004541.3(NDUFA1):c.94G>C"
   },
@@ -2623,8 +2623,8 @@
     "attributeId": "A006",
     "value": "Cond027",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond027"
   },
   {
@@ -2632,43 +2632,43 @@
     "attributeId": "A006",
     "value": "AllFreq166",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "AllFreq166"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit056",
     "attributeId": "A006",
     "value": "CondPrev167",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondPrev167"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit056",
     "attributeId": "A006",
     "value": "CondPenet168",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondPenet168"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit056",
     "attributeId": "A006",
     "value": "CondInh169",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondInh169"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit056",
     "attributeId": "A007",
     "value": "BS1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "MAF too high for disorder"
   },
@@ -2677,7 +2677,7 @@
     "attributeId": "A008",
     "value": "CanAll080",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000414.3(HSD17B4):c.56C>G"
   },
@@ -2686,8 +2686,8 @@
     "attributeId": "A006",
     "value": "Cond028",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond028"
   },
   {
@@ -2695,61 +2695,61 @@
     "attributeId": "A006",
     "value": "CondPenet170",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondPenet170"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "The evidence for full penetrance is not great, due to the rarity of the disease, but the fact that it's diagnosed at a young age and majority of cases are de novo is suggestive"
   },
   {
     "activityId": "AssessCrit057",
     "attributeId": "A006",
     "value": "CondInh171",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondInh171"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit057",
     "attributeId": "A006",
     "value": "IndAll172",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll172"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit057",
     "attributeId": "A006",
     "value": "IndAll173",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll173"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit057",
     "attributeId": "A006",
     "value": "IndCond174",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond174"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit057",
     "attributeId": "A006",
     "value": "IndCond175",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond175"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit057",
     "attributeId": "A007",
     "value": "BS2",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "control frequency higher than penetrance predicts"
   },
@@ -2758,7 +2758,7 @@
     "attributeId": "A008",
     "value": "CanAll081",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_001197104.1(KMT2A):c.6572G>A"
   },
@@ -2767,8 +2767,8 @@
     "attributeId": "A006",
     "value": "Cond029",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond029"
   },
   {
@@ -2776,97 +2776,97 @@
     "attributeId": "A006",
     "value": "CondPenet176",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondPenet176"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "the disease manifests as hundreds of colorectal ademonas during adolescence. This can progress to colorectal cancer later in life, but the adenomas manifest early."
   },
   {
     "activityId": "AssessCrit058",
     "attributeId": "A006",
     "value": "CondInh177",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondInh177"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit058",
     "attributeId": "A006",
     "value": "IndAll178",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll178"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit058",
     "attributeId": "A006",
     "value": "IndAll179",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll179"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit058",
     "attributeId": "A006",
     "value": "IndAll180",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll180"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit058",
     "attributeId": "A006",
     "value": "IndAll181",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll181"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit058",
     "attributeId": "A006",
     "value": "IndCond182",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond182"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit058",
     "attributeId": "A006",
     "value": "IndCond183",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond183"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit058",
     "attributeId": "A006",
     "value": "IndCond184",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond184"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit058",
     "attributeId": "A006",
     "value": "IndCond185",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond185"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit058",
     "attributeId": "A007",
     "value": "BS2",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "control frequency higher than penetrance predicts"
   },
@@ -2875,7 +2875,7 @@
     "attributeId": "A008",
     "value": "CanAll082",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000038.5(APC ):c.3386T>C"
   },
@@ -2884,8 +2884,8 @@
     "attributeId": "A006",
     "value": "Cond030",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond030"
   },
   {
@@ -2893,61 +2893,61 @@
     "attributeId": "A006",
     "value": "CondPenet186",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondPenet186"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Marfan syndrome involves a range of skeletal features that should be identifiable at birth, if not during adolescence. The ocular and cardiovascular aspects may manifest later. 1/4 of mutations are de novo."
   },
   {
     "activityId": "AssessCrit059",
     "attributeId": "A006",
     "value": "CondInh187",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondInh187"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit059",
     "attributeId": "A006",
     "value": "IndAll188",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll188"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit059",
     "attributeId": "A006",
     "value": "IndAll189",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll189"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit059",
     "attributeId": "A006",
     "value": "IndCond190",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond190"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit059",
     "attributeId": "A006",
     "value": "IndCond191",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond191"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit059",
     "attributeId": "A007",
     "value": "BS2",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "control frequency higher than penetrance predicts"
   },
@@ -2956,7 +2956,7 @@
     "attributeId": "A008",
     "value": "CanAll083",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000138.4(FBN1 ):c.2956G>A"
   },
@@ -2965,8 +2965,8 @@
     "attributeId": "A006",
     "value": "Cond026",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond026"
   },
   {
@@ -2974,25 +2974,25 @@
     "attributeId": "A006",
     "value": "Func192",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "Func192"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit061",
     "attributeId": "A006",
     "value": "Func193",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "Func193"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Both wild type and NP_000432..1:p.Leu117Phe localize to the same location"
   },
   {
     "activityId": "AssessCrit061",
     "attributeId": "A007",
     "value": "BS3",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "well-established no damaging effect functional studies"
   },
@@ -3001,7 +3001,7 @@
     "attributeId": "A008",
     "value": "CanAll085",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000441.1(SLC26A4): c.349C>T (p.Leu117Phe)"
   },
@@ -3010,25 +3010,25 @@
     "attributeId": "A006",
     "value": "Func194",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "Func194"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit062",
     "attributeId": "A006",
     "value": "Func195",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "Func195"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit062",
     "attributeId": "A007",
     "value": "BS3",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "well-established no damaging effect functional studies"
   },
@@ -3037,7 +3037,7 @@
     "attributeId": "A008",
     "value": "CanAll087",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_152594.2(SPRED1): c.587C>T"
   },
@@ -3046,16 +3046,16 @@
     "attributeId": "A006",
     "value": "FamSegData196",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "FamSegData196"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "observed in one case diagnosed with Familial Hypercholesterolemia, characterized by elevated LDLC levels. Two siblings of the proband also have elevated LDLC levels but neither carry the 313+2T>C variant."
   },
   {
     "activityId": "AssessCrit063",
     "attributeId": "A007",
     "value": "BS4",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "does not segregate with disease"
   },
@@ -3064,7 +3064,7 @@
     "attributeId": "A008",
     "value": "CanAll088",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000527.4(LDLR):c.313+2T>C"
   },
@@ -3073,8 +3073,8 @@
     "attributeId": "A006",
     "value": "Cond035",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond035"
   },
   {
@@ -3082,16 +3082,16 @@
     "attributeId": "A006",
     "value": "FamSegData197",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "FamSegData197"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "The individual with HCM but without the allele is likely a phenocopy explained\nby environmental factors (obese, alcohol)"
   },
   {
     "activityId": "AssessCrit064",
     "attributeId": "A007",
     "value": "BS4",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "does not segregate with disease"
   },
@@ -3100,7 +3100,7 @@
     "attributeId": "A008",
     "value": "CanAll089",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000256.3(MYBPC3):c.1624+4A>T"
   },
@@ -3109,8 +3109,8 @@
     "attributeId": "A006",
     "value": "Cond020",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond020"
   },
   {
@@ -3118,16 +3118,16 @@
     "attributeId": "A006",
     "value": "FamSegData271",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "FamSegData271"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit065",
     "attributeId": "A007",
     "value": "BS4",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "does not segregate with disease"
   },
@@ -3136,7 +3136,7 @@
     "attributeId": "A008",
     "value": "CanAll090",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_001103.3(ACTN2):c.1484C>T (p.Thr495Met)"
   },
@@ -3145,8 +3145,8 @@
     "attributeId": "A006",
     "value": "Cond020",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond020"
   },
   {
@@ -3154,25 +3154,25 @@
     "attributeId": "A006",
     "value": "MolCon198",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon198"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit066",
     "attributeId": "A006",
     "value": "CondMech199",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondMech199"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "ClinVar shows 421 variants in BRCA2 that are pathogenic for HBOC. 402 of these (~95%) are frameshift, nonsense, or splice-site variants."
   },
   {
     "activityId": "AssessCrit066",
     "attributeId": "A007",
     "value": "BP1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "missense variant when truncating is pathogenic\n"
   },
@@ -3181,7 +3181,7 @@
     "attributeId": "A008",
     "value": "CanAll091",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000059.3(BRCA2) :c.4779A>C"
   },
@@ -3190,8 +3190,8 @@
     "attributeId": "A006",
     "value": "Cond036",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond036"
   },
   {
@@ -3199,25 +3199,25 @@
     "attributeId": "A006",
     "value": "MolCon198",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon198"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit067",
     "attributeId": "A006",
     "value": "CondMech200",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondMech200"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "ClinVar shows 61 variants in BRCA2 that are pathogenic for Fanconi Anemia. 55 of these (~90%) are frameshift, nonsense, or splice-site variants."
   },
   {
     "activityId": "AssessCrit067",
     "attributeId": "A007",
     "value": "BP1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "missense variant when truncating is pathogenic\n"
   },
@@ -3226,7 +3226,7 @@
     "attributeId": "A008",
     "value": "CanAll091",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000059.3(BRCA2) :c.4779A>C"
   },
@@ -3235,8 +3235,8 @@
     "attributeId": "A006",
     "value": "Cond037",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond037"
   },
   {
@@ -3244,25 +3244,25 @@
     "attributeId": "A006",
     "value": "MolCon201",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon201"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit068",
     "attributeId": "A006",
     "value": "CondMech202",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondMech202"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "shown in both humans and mouse models"
   },
   {
     "activityId": "AssessCrit068",
     "attributeId": "A007",
     "value": "BP1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "missense variant when truncating is pathogenic\n"
   },
@@ -3271,7 +3271,7 @@
     "attributeId": "A008",
     "value": "CanAll092",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His)"
   },
@@ -3280,8 +3280,8 @@
     "attributeId": "A006",
     "value": "Cond010",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond010"
   },
   {
@@ -3289,34 +3289,34 @@
     "attributeId": "A006",
     "value": "MolCon203",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon203"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit069",
     "attributeId": "A006",
     "value": "CondMech204",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondMech204"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit069",
     "attributeId": "A006",
     "value": "CondMech205",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondMech205"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Truncating variants in TTN are associated with DCM. However, if missense variants are located in the A-band, impact the A-band, or are in a highly expressed region, they can also be associated with DCM."
   },
   {
     "activityId": "AssessCrit069",
     "attributeId": "A007",
     "value": "BP1",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "missense variant when truncating is pathogenic\n"
   },
@@ -3325,7 +3325,7 @@
     "attributeId": "A008",
     "value": "CanAll093",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_133378.4(TTN): c.2926T>C"
   },
@@ -3334,8 +3334,8 @@
     "attributeId": "A006",
     "value": "Cond002",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond002"
   },
   {
@@ -3343,52 +3343,52 @@
     "attributeId": "A006",
     "value": "IndAll206",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll206"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit070",
     "attributeId": "A006",
     "value": "IndAll207",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll207"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit070",
     "attributeId": "A006",
     "value": "IndCond208",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond208"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit070",
     "attributeId": "A006",
     "value": "IndCond209",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond209"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit070",
     "attributeId": "A006",
     "value": "MenDisVarInterp210",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp210"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit070",
     "attributeId": "A007",
     "value": "BP2",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "in trans with dominant OR in cis with path variant"
   },
@@ -3397,7 +3397,7 @@
     "attributeId": "A008",
     "value": "CanAll094",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser)"
   },
@@ -3406,8 +3406,8 @@
     "attributeId": "A006",
     "value": "Cond038",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond038"
   },
   {
@@ -3415,34 +3415,34 @@
     "attributeId": "A006",
     "value": "IndAll211",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll211"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit071",
     "attributeId": "A006",
     "value": "IndCond212",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond212"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit071",
     "attributeId": "A006",
     "value": "MenDisVarInterp213",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp213"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit071",
     "attributeId": "A007",
     "value": "BP2",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "in trans with dominant OR in cis with path variant"
   },
@@ -3451,7 +3451,7 @@
     "attributeId": "A008",
     "value": "CanAll096",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000492.3(CFTR): c.2002C>T"
   },
@@ -3460,8 +3460,8 @@
     "attributeId": "A006",
     "value": "Cond039",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond039"
   },
   {
@@ -3469,52 +3469,52 @@
     "attributeId": "A006",
     "value": "IndAll214",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll214"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit072",
     "attributeId": "A006",
     "value": "IndCond215",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond215"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit072",
     "attributeId": "A006",
     "value": "MenDisVarInterp216",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp216"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit072",
     "attributeId": "A006",
     "value": "CondInh217",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondInh217"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit072",
     "attributeId": "A006",
     "value": "CondPenet218",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "CondPenet218"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit072",
     "attributeId": "A007",
     "value": "BP2",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "in trans with dominant OR in cis with path variant"
   },
@@ -3523,7 +3523,7 @@
     "attributeId": "A008",
     "value": "CanAll098",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000257.2(MYH7): c.2559G>A"
   },
@@ -3532,8 +3532,8 @@
     "attributeId": "A006",
     "value": "Cond007",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond007"
   },
   {
@@ -3622,8 +3622,8 @@
     "attributeId": "A006",
     "value": "RegAnno220",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAnno220"
   },
   {
@@ -3631,8 +3631,8 @@
     "attributeId": "A006",
     "value": "RegAnno221",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAnno221"
   },
   {
@@ -3640,8 +3640,8 @@
     "attributeId": "A006",
     "value": "RegAll222",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAll222"
   },
   {
@@ -3649,16 +3649,16 @@
     "attributeId": "A006",
     "value": "MolCon223",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon223"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit082",
     "attributeId": "A007",
     "value": "BP3",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "in-frame indel unknown function"
   },
@@ -3667,7 +3667,7 @@
     "attributeId": "A008",
     "value": "CanAll100",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_001271208.1(NEB):c.169_183delCTGGCACAGCCAGCA"
   },
@@ -3676,8 +3676,8 @@
     "attributeId": "A006",
     "value": "RegAnno225",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAnno225"
   },
   {
@@ -3685,8 +3685,8 @@
     "attributeId": "A006",
     "value": "RegAll226",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAll226"
   },
   {
@@ -3694,16 +3694,16 @@
     "attributeId": "A006",
     "value": "MolCon227",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon227"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit083",
     "attributeId": "A007",
     "value": "BP3",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "in-frame indel unknown function"
   },
@@ -3712,7 +3712,7 @@
     "attributeId": "A008",
     "value": "CanAll101",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC"
   },
@@ -3721,8 +3721,8 @@
     "attributeId": "A006",
     "value": "RegAnno229",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAnno229"
   },
   {
@@ -3730,8 +3730,8 @@
     "attributeId": "A006",
     "value": "RegAll230",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "RegAll230"
   },
   {
@@ -3739,16 +3739,16 @@
     "attributeId": "A006",
     "value": "MolCon231",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon231"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit084",
     "attributeId": "A007",
     "value": "BP3",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "in-frame indel unknown function"
   },
@@ -3757,7 +3757,7 @@
     "attributeId": "A008",
     "value": "CanAll102",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_147196.2(TMIE):c.391_393dupAAG"
   },
@@ -3766,88 +3766,88 @@
     "attributeId": "A006",
     "value": "InSilicoPred232",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred232"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit085",
     "attributeId": "A006",
     "value": "InSilicoPred233",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred233"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit085",
     "attributeId": "A006",
     "value": "InSilicoPred234",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred234"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit085",
     "attributeId": "A006",
     "value": "InSilicoPred235",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred235"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit085",
     "attributeId": "A006",
     "value": "InSilicoPred236",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred236"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit085",
     "attributeId": "A006",
     "value": "InSilicoPred237",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred237"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit085",
     "attributeId": "A006",
     "value": "InSilicoPred238",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred238"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit085",
     "attributeId": "A006",
     "value": "InSilicoPred239",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred239"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit085",
     "attributeId": "A006",
     "value": "InSilicoPred240",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred240"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit085",
     "attributeId": "A007",
     "value": "BP4",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "computational evidence for\nno gene impact"
   },
@@ -3856,7 +3856,7 @@
     "attributeId": "A008",
     "value": "CanAll103",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000059.3(BRCA2):c.4779A>C"
   },
@@ -3864,16 +3864,16 @@
     "activityId": "AssessCrit087",
     "attributeId": "A006",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": ""
   },
   {
     "activityId": "AssessCrit087",
     "attributeId": "A006",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": ""
   },
   {
@@ -3881,7 +3881,7 @@
     "attributeId": "A007",
     "value": "BP4",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "computational evidence for\nno gene impact"
   },
@@ -3890,7 +3890,7 @@
     "attributeId": "A008",
     "value": "CanAll105",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_133379.3(TTN) : c.15283T>C"
   },
@@ -3899,34 +3899,34 @@
     "attributeId": "A006",
     "value": "IndAll241",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll241"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit088",
     "attributeId": "A006",
     "value": "IndCond242",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond242"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit088",
     "attributeId": "A006",
     "value": "MenDisVarInterp243",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp243"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit088",
     "attributeId": "A007",
     "value": "BP5",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "alternate cause of disease"
   },
@@ -3935,7 +3935,7 @@
     "attributeId": "A008",
     "value": "CanAll106",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000256.3(MYBPC3): c.2497G>A"
   },
@@ -3944,8 +3944,8 @@
     "attributeId": "A006",
     "value": "Cond020",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond020"
   },
   {
@@ -3953,52 +3953,52 @@
     "attributeId": "A006",
     "value": "IndAll244",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll244"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit089",
     "attributeId": "A006",
     "value": "IndAll245",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll245"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit089",
     "attributeId": "A006",
     "value": "IndCond246",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond246"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit089",
     "attributeId": "A006",
     "value": "MenDisVarInterp247",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp247"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit089",
     "attributeId": "A006",
     "value": "MenDisVarInterp248",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp248"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit089",
     "attributeId": "A007",
     "value": "BP5",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "alternate cause of disease"
   },
@@ -4007,7 +4007,7 @@
     "attributeId": "A008",
     "value": "CanAll108",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_022124.5(CDH23):c.5660C>T"
   },
@@ -4016,8 +4016,8 @@
     "attributeId": "A006",
     "value": "Cond010",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond010"
   },
   {
@@ -4025,34 +4025,34 @@
     "attributeId": "A006",
     "value": "IndAll249",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll249"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit090",
     "attributeId": "A006",
     "value": "IndCond250",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond250"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit090",
     "attributeId": "A006",
     "value": "MenDisVarInterp251",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp251"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit090",
     "attributeId": "A007",
     "value": "BP5",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "alternate cause of disease"
   },
@@ -4061,7 +4061,7 @@
     "attributeId": "A008",
     "value": "CanAll108",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_022124.5(CDH23):c.5660C>T"
   },
@@ -4070,43 +4070,43 @@
     "attributeId": "A006",
     "value": "IndCond252",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndCond252"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit091",
     "attributeId": "A006",
     "value": "IndAll253",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "IndAll253"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit091",
     "attributeId": "A006",
     "value": "MenDisVarInterp254",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp254"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit091",
     "attributeId": "A006",
     "value": "MenDisVarInterp270",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp270"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Pseudoachondroplastic spondyloepiphyseal dysplasia syndrome is caused by a combination of a pathogenic variant in COL2A1 and another in COMP.   So CA113 may be involved, but is not the sole cause."
   },
   {
     "activityId": "AssessCrit091",
     "attributeId": "A007",
     "value": "BP5",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "alternate cause of disease"
   },
@@ -4115,7 +4115,7 @@
     "attributeId": "A008",
     "value": "CanAll112",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_001844.4(COL2A1):c.4316C>T"
   },
@@ -4124,8 +4124,8 @@
     "attributeId": "A006",
     "value": "Cond040",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond040"
   },
   {
@@ -4133,16 +4133,16 @@
     "attributeId": "A006",
     "value": "MenDisVarInterp255",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp255"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "classified by ENIGMA."
   },
   {
     "activityId": "AssessCrit092",
     "attributeId": "A007",
     "value": "BP6",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "benign from reputable source without shared data"
   },
@@ -4151,7 +4151,7 @@
     "attributeId": "A008",
     "value": "CanAll114",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_007294.3(BRCA1):c.*6207C>T"
   },
@@ -4160,8 +4160,8 @@
     "attributeId": "A006",
     "value": "Cond036",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond036"
   },
   {
@@ -4169,16 +4169,16 @@
     "attributeId": "A006",
     "value": "MenDisVarInterp256",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp256"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "classified by Sharing Clinical Reports Project."
   },
   {
     "activityId": "AssessCrit093",
     "attributeId": "A007",
     "value": "BP6",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "benign from reputable source without shared data"
   },
@@ -4187,7 +4187,7 @@
     "attributeId": "A008",
     "value": "CanAll115",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000059.3(BRCA2):c.-26G>A"
   },
@@ -4196,8 +4196,8 @@
     "attributeId": "A006",
     "value": "Cond043",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond043"
   },
   {
@@ -4205,16 +4205,16 @@
     "attributeId": "A006",
     "value": "MenDisVarInterp257",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MenDisVarInterp257"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "classified by OMIM"
   },
   {
     "activityId": "AssessCrit094",
     "attributeId": "A007",
     "value": "BP6",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "benign from reputable source without shared data"
   },
@@ -4223,7 +4223,7 @@
     "attributeId": "A008",
     "value": "CanAll116",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000274.3(OAT):c.1311G>C"
   },
@@ -4232,8 +4232,8 @@
     "attributeId": "A006",
     "value": "Cond044",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
     "lookupValue": "Cond044"
   },
   {
@@ -4241,43 +4241,43 @@
     "attributeId": "A006",
     "value": "InSilicoPred258",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred258"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit095",
     "attributeId": "A006",
     "value": "Conserv259",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "Conserv259"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit095",
     "attributeId": "A006",
     "value": "Conserv260",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "Conserv260"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit095",
     "attributeId": "A006",
     "value": "MolCon261",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon261"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit095",
     "attributeId": "A007",
     "value": "BP7",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "silent variant no splicing \nimpact  and low conservation"
   },
@@ -4286,7 +4286,7 @@
     "attributeId": "A008",
     "value": "CanAll117",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_138691.2 (TMC1): c.684C>T"
   },
@@ -4295,43 +4295,43 @@
     "attributeId": "A006",
     "value": "InSilicoPred262",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred262"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": "Provenance would show that this comes from Alamut"
   },
   {
     "activityId": "AssessCrit096",
     "attributeId": "A006",
     "value": "Conserv263",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "Conserv263"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit096",
     "attributeId": "A006",
     "value": "Conserv264",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "Conserv264"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit096",
     "attributeId": "A006",
     "value": "MolCon265",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon265"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit096",
     "attributeId": "A007",
     "value": "BP7",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "silent variant no splicing \nimpact  and low conservation"
   },
@@ -4340,7 +4340,7 @@
     "attributeId": "A008",
     "value": "CanAll118",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000257.2(MYH7):c.327C>T"
   },
@@ -4349,43 +4349,43 @@
     "attributeId": "A006",
     "value": "InSilicoPred266",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "InSilicoPred266"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit097",
     "attributeId": "A006",
     "value": "Conserv267",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "Conserv267"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit097",
     "attributeId": "A006",
     "value": "Conserv268",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "Conserv268"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit097",
     "attributeId": "A006",
     "value": "MolCon269",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedEvidenceData",
-    "attributeType": "EvidenceData",
-    "lookupValue": "MolCon269"
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "Data",
+    "lookupValue": ""
   },
   {
     "activityId": "AssessCrit097",
     "attributeId": "A007",
     "value": "BP7",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCriterion",
+    "attributeName": "criterion",
     "attributeType": "Criterion",
     "lookupValue": "silent variant no splicing \nimpact  and low conservation"
   },
@@ -4394,7 +4394,7 @@
     "attributeId": "A008",
     "value": "CanAll119",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "usedCanonicalAllele",
+    "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_002880.3(RAF1):c.321T>C"
   },

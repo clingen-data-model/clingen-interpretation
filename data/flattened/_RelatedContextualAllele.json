@@ -240,15 +240,15 @@
     "description": "NP_000432..1:p.Leu117Phe - produced-by - NM_000441.1(SLC26A4): c.349C>T (p.Leu117Phe)"
   },
   {
-    "contextualAlleleID": "CtxAll025",
+    "contextualAlleleID": "CtxAll028",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll126",
-    "description": "NM_000441.1(SLC26A4):c.1003T>C - produces - NP_005219.2:p.Thr790Met"
+    "description": "NM_005228.3(EGFR):c.2369C>T - produces - NP_005219.2:p.Thr790Met"
   },
   {
     "contextualAlleleID": "CtxAll126",
     "relatedType": "RO:0003001",
-    "relatedContextualAllele": "CtxAll025",
-    "description": "NP_005219.2:p.Thr790Met - produced-by - NM_000441.1(SLC26A4):c.1003T>C"
+    "relatedContextualAllele": "CtxAll028",
+    "description": "NP_005219.2:p.Thr790Met - produced-by - NM_005228.3(EGFR):c.2369C>T"
   }
 ]

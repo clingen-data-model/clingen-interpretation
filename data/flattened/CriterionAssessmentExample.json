@@ -747,5 +747,14 @@
     "exampleCriterionAssessmentId": "CritAssess086",
     "description": " Variant: NM_002880.3(RAF1):c.321T>C (p.Gly107Gly) BP7 does not apply\n\nThis variant is a silent variant that does not result in an amino acid change. It is not very conserved and splicing tools suggest no change. However, BP7 does not apply because the variant is located in the first base of exon 4 of RAF1, which is part of the 3’ splice region of the exon. For that reason, we can’t fully trust computational tools. Functional assays would have to confirm that this variant truly does not alter splicing.\n\nConvervation: \nPhyloP: 0.45\nPhastCons: 1.00",
     "displayNum": "BP7 - #3"
+  },
+  "Ex087": {
+    "id": "Ex087",
+    "Criterion": "PVS1",
+    "index": 4.0,
+    "author": "Agent008",
+    "exampleCriterionAssessmentId": "CritAssess087",
+    "description": "CSER var# 70, classifier 6\nVariant: NM_024422.3(DSC2): c.631-2A>G (p.?)\n\nThis variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006 PMID: 17186466). Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/).\n\nArrhythmogenic right ventricular cardiomyopathy\nResult: Very Strong, Pathogenic\n",
+    "displayNum": "PVS1 - #4"
   }
 }
