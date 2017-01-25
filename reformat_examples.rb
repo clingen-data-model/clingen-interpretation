@@ -69,11 +69,19 @@ class DMWGExampleData
 
     # need to fix the types for Data and Activity subclasses
     @flattened['Data'].each do |d_id, d_rec|
-      @id2example[d_id]['cg:type'] = @flattened['Type'][d_rec['evidenceTypeId']]['name']
+      begin
+        @id2example[d_id]['cg:type'] = @flattened['Type'][d_rec['evidenceTypeId']]['name']
+      rescue
+        STDERR.puts "Error associating data id #{d_id} with entity type"
+      end
     end
 
     @flattened['Activity'].each do |a_id, a_rec|
-      @id2example[a_id]['cg:type'] = @flattened['Type'][a_rec['activityTypeId']]['name']
+      begin
+        @id2example[a_id]['cg:type'] = @flattened['Type'][a_rec['activityTypeId']]['name']
+      rescue
+        STDERR.puts "Error associating activity id #{a_id} with entity type"
+      end
     end
 
     # Now for the "join tables". Ugly hard-coding here
@@ -82,6 +90,10 @@ class DMWGExampleData
       data_id = da['evidenceDataId']
       attribute_id = da['attributeId']
       attribute = @flattened['Attribute'][attribute_id]
+      if attribute.nil? then
+        STDERR.puts "Attribute #{attribute_id} does not appear to exist!"
+        next
+      end
       (@id2example[data_id] ||= {})['cg:id'] = data_id
       if value_exists? da['value'] then
         if attribute['cardinality'].end_with? '*' then
