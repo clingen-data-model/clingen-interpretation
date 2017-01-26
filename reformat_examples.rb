@@ -19,9 +19,9 @@ class DMWGExampleData
   end
 
   def by_type
-    unless @by_type 
+    unless @by_type
       @by_type = {}
-      by_id.each { |k, v| (by_type[v['cg:type']] ||= []).push v }     
+      by_id.each { |k, v| (by_type[v['cg:type']] ||= []).push v }
     end
     @by_type
   end
@@ -141,8 +141,8 @@ class DMWGExampleData
     when '???' # These should be fixed in the upstream data
       value
     when 'CodeableConcept'
-    # FIXME
-      value
+      # FIXME should display more 
+      @id2example[value] ||= { 'cg:id' => value }
     else
       @id2example[value] ||= { 'cg:id' => value }
     end
