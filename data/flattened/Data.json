@@ -219,6 +219,7 @@
   "Reg046": {
     "id": "Reg046",
     "evidenceTypeId": "E24",
+    "explanation": "Region(NM_0001692[996..1012]) is a mutational hotspot and contains the following pathogenic variants: c.886A>G, c.890C>T, c.899T>C, & c.902G>A.",
     "evidenceType": "RegionTypesAndAlleles"
   },
   "MenDisVarInterp047": {
@@ -331,6 +332,7 @@
   "Reg069": {
     "id": "Reg069",
     "evidenceTypeId": "E24",
+    "explanation": "This is not a repreating region.",
     "wasGeneratedBy": "CapData080",
     "evidenceType": "RegionTypesAndAlleles"
   },
@@ -342,6 +344,7 @@
   "Reg073": {
     "id": "Reg073",
     "evidenceTypeId": "E24",
+    "explanation": "NP_056375.2[35..43] is not repeating.",
     "evidenceType": "RegionTypesAndAlleles"
   },
   "MolCon074": {
@@ -352,6 +355,7 @@
   "Reg077": {
     "id": "Reg077",
     "evidenceTypeId": "E24",
+    "explanation": "NP_003915.2[241..260] is repeating.",
     "evidenceType": "RegionTypesAndAlleles"
   },
   "MenDisVarInterp078": {
@@ -1087,12 +1091,7 @@
   "Reg220": {
     "id": "Reg220",
     "evidenceTypeId": "E24",
-    "evidenceType": "RegionTypesAndAlleles"
-  },
-  "Reg221": {
-    "id": "Reg221",
-    "evidenceTypeId": "E24",
-    "explanation": "region does not have a known function",
+    "explanation": "region is repeating but does not have a known function.",
     "evidenceType": "RegionTypesAndAlleles"
   },
   "MolCon223": {
@@ -1103,7 +1102,7 @@
   "Reg225": {
     "id": "Reg225",
     "evidenceTypeId": "E24",
-    "explanation": "The I-Band is a large region of repetitive Igg domains.",
+    "explanation": "The I-Band is a large region of repetitive Igg domains. Allele NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC is contained by this region.",
     "evidenceType": "RegionTypesAndAlleles"
   },
   "MolCon227": {

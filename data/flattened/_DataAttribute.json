@@ -1298,148 +1298,49 @@
     "lookupValue": 1.18
   },
   {
-    "evidenceDataId": "RegAll037",
-    "attributeId": "A177",
-    "value": "RefSeq003",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAll037",
-    "attributeId": "A178",
-    "value": 1803.0,
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAll037",
-    "attributeId": "A179",
-    "value": 1921.0,
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAll037",
-    "attributeId": "A077",
-    "value": "CtxAll029",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAll037",
-    "attributeId": "A078",
-    "value": 1,
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAll038",
-    "attributeId": "A076",
-    "value": "CtxReg003",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAll038",
-    "attributeId": "A077",
-    "value": "CtxAll030",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAll038",
-    "attributeId": "A078",
-    "value": 1,
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAnno040",
+    "evidenceDataId": "Reg040",
     "attributeId": "A052",
     "value": "RefSeq002",
-    "evidenceDataName": "#N/A",
+    "evidenceDataName": "RegionTypesAndAlleles",
     "attributeName": "referenceSequence",
     "attributeType": "ReferenceSequence",
     "lookupValue": "NP_005219.2"
   },
   {
-    "evidenceDataId": "RegAnno040",
+    "evidenceDataId": "Reg040",
     "attributeId": "A053",
     "value": 704.0,
-    "evidenceDataName": "#N/A",
+    "evidenceDataName": "RegionTypesAndAlleles",
     "attributeName": "start",
     "attributeType": "int",
     "lookupValue": 704
   },
   {
-    "evidenceDataId": "RegAnno040",
+    "evidenceDataId": "Reg040",
     "attributeId": "A054",
     "value": 1016.0,
-    "evidenceDataName": "#N/A",
+    "evidenceDataName": "RegionTypesAndAlleles",
     "attributeName": "stop",
     "attributeType": "int",
     "lookupValue": 1016
   },
   {
-    "evidenceDataId": "RegAnno040",
-    "attributeId": "A056",
-    "value": 1,
-    "evidenceDataName": "#N/A",
-    "attributeName": "isNotTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAnno040",
+    "evidenceDataId": "Reg040",
     "attributeId": "A057",
     "value": "CG:functional",
-    "evidenceDataName": "#N/A",
+    "evidenceDataName": "RegionTypesAndAlleles",
     "attributeName": "isTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Functional"
   },
   {
-    "evidenceDataId": "RegAll041",
-    "attributeId": "A076",
-    "value": "CtxReg003",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAll041",
-    "attributeId": "A077",
-    "value": "CtxAll031",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAll041",
-    "attributeId": "A078",
-    "value": 1,
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg040",
+    "attributeId": "A058",
+    "value": "CtxAll126",
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NP_005219.2:p.Thr790Met"
   },
   {
     "evidenceDataId": "MenDisVarInterp042",
@@ -1453,92 +1354,128 @@
   {
     "evidenceDataId": "MenDisVarInterp042",
     "attributeId": "A015",
-    "value": "LN:LA6682-4",
+    "value": "LN:LA26333-7",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
+    "lookupValue": "Uncertain Signficance"
   },
   {
-    "evidenceDataId": "RegAnno043",
-    "attributeId": "A055",
-    "value": "CtxReg002",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg043",
+    "attributeId": "A052",
+    "value": "RefSeq003",
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "NM_004333.4"
   },
   {
-    "evidenceDataId": "RegAnno043",
-    "attributeId": "A056",
-    "value": 1,
-    "evidenceDataName": "#N/A",
-    "attributeName": "isNotTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg043",
+    "attributeId": "A053",
+    "value": 1803.0,
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 1803
   },
   {
-    "evidenceDataId": "RegAnno043",
+    "evidenceDataId": "Reg043",
+    "attributeId": "A054",
+    "value": 1921.0,
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 1921
+  },
+  {
+    "evidenceDataId": "Reg043",
     "attributeId": "A057",
     "value": "CG:functional",
-    "evidenceDataName": "#N/A",
+    "evidenceDataName": "RegionTypesAndAlleles",
     "attributeName": "isTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Functional"
   },
   {
-    "evidenceDataId": "RegAll044",
-    "attributeId": "A076",
-    "value": "CtxReg003",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg043",
+    "attributeId": "A058",
+    "value": "CtxAll029",
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_004333.4(BRAF):c.1789C>G"
   },
   {
-    "evidenceDataId": "RegAll044",
-    "attributeId": "A077",
-    "value": "CtxAll032",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg046",
+    "attributeId": "A052",
+    "value": "RefSeq004",
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "NM_000169.2"
   },
   {
-    "evidenceDataId": "RegAll044",
-    "attributeId": "A078",
-    "value": 1,
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg046",
+    "attributeId": "A053",
+    "value": 996.0,
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 996
   },
   {
-    "evidenceDataId": "RegAnno046",
-    "attributeId": "A055",
-    "value": "CtxReg003",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg046",
+    "attributeId": "A054",
+    "value": 1012.0,
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 1012
   },
   {
-    "evidenceDataId": "RegAnno046",
-    "attributeId": "A056",
-    "value": 1,
-    "evidenceDataName": "#N/A",
-    "attributeName": "isNotTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAnno046",
+    "evidenceDataId": "Reg046",
     "attributeId": "A057",
     "value": "CG:hotspot",
-    "evidenceDataName": "#N/A",
+    "evidenceDataName": "RegionTypesAndAlleles",
     "attributeName": "isTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Mutational Hotspot"
+  },
+  {
+    "evidenceDataId": "Reg046",
+    "attributeId": "A058",
+    "value": "CtxAll031",
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_000169.2(GLA): c.886A>G"
+  },
+  {
+    "evidenceDataId": "Reg046",
+    "attributeId": "A058",
+    "value": "CtxAll032",
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_000169.2(GLA):c.890C>T"
+  },
+  {
+    "evidenceDataId": "Reg046",
+    "attributeId": "A058",
+    "value": "CtxAll033",
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_000169.2(GLA):c.899T>C"
+  },
+  {
+    "evidenceDataId": "Reg046",
+    "attributeId": "A058",
+    "value": "CtxAll034",
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_000169.2(GLA):c.902G>A"
   },
   {
     "evidenceDataId": "MenDisVarInterp047",
@@ -2279,56 +2216,38 @@
     "lookupValue": "Conservative Inframe Deletion"
   },
   {
-    "evidenceDataId": "RegAll067",
-    "attributeId": "A076",
-    "value": "CtxReg003",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg069",
+    "attributeId": "A052",
+    "value": "RefSeq005",
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "NP_001360.1"
   },
   {
-    "evidenceDataId": "RegAll067",
-    "attributeId": "A077",
-    "value": "CtxAll033",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg069",
+    "attributeId": "A053",
+    "value": 2490.0,
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 2490
   },
   {
-    "evidenceDataId": "RegAll067",
-    "attributeId": "A078",
-    "value": 1,
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg069",
+    "attributeId": "A054",
+    "value": 2496.0,
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 2496
   },
   {
-    "evidenceDataId": "RegAnno069",
-    "attributeId": "A055",
-    "value": "CtxReg004",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAnno069",
+    "evidenceDataId": "Reg069",
     "attributeId": "A056",
-    "value": 0,
-    "evidenceDataName": "#N/A",
-    "attributeName": "isNotTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAnno069",
-    "attributeId": "A057",
     "value": "CG:repeat",
-    "evidenceDataName": "#N/A",
-    "attributeName": "isTypes",
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "isNotTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Repeat"
   },
@@ -2351,56 +2270,38 @@
     "lookupValue": "Conservative Inframe Deletion"
   },
   {
-    "evidenceDataId": "RegAll071",
-    "attributeId": "A076",
-    "value": "CtxReg003",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg073",
+    "attributeId": "A052",
+    "value": "RefSeq006",
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "NP_056375.2"
   },
   {
-    "evidenceDataId": "RegAll071",
-    "attributeId": "A077",
-    "value": "CtxAll034",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg073",
+    "attributeId": "A053",
+    "value": 35.0,
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 35
   },
   {
-    "evidenceDataId": "RegAll071",
-    "attributeId": "A078",
-    "value": 1,
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg073",
+    "attributeId": "A054",
+    "value": 43.0,
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 43
   },
   {
-    "evidenceDataId": "RegAnno073",
-    "attributeId": "A055",
-    "value": "CtxReg005",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAnno073",
+    "evidenceDataId": "Reg073",
     "attributeId": "A056",
-    "value": 0,
-    "evidenceDataName": "#N/A",
-    "attributeName": "isNotTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAnno073",
-    "attributeId": "A057",
     "value": "CG:repeat",
-    "evidenceDataName": "#N/A",
-    "attributeName": "isTypes",
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "isNotTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Repeat"
   },
@@ -2423,28 +2324,37 @@
     "lookupValue": "Conservative Inframe Insertion"
   },
   {
-    "evidenceDataId": "RegAnno077",
-    "attributeId": "A055",
-    "value": "CtxReg006",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg077",
+    "attributeId": "A052",
+    "value": "RefSeq007",
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "NP_003915.2"
   },
   {
-    "evidenceDataId": "RegAnno077",
-    "attributeId": "A056",
-    "value": 1,
-    "evidenceDataName": "#N/A",
-    "attributeName": "isNotTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg077",
+    "attributeId": "A053",
+    "value": 241.0,
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 241
   },
   {
-    "evidenceDataId": "RegAnno077",
+    "evidenceDataId": "Reg077",
+    "attributeId": "A054",
+    "value": 260.0,
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 260
+  },
+  {
+    "evidenceDataId": "Reg077",
     "attributeId": "A057",
     "value": "CG:repeat",
-    "evidenceDataName": "#N/A",
+    "evidenceDataName": "RegionTypesAndAlleles",
     "attributeName": "isTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Repeat"
@@ -2470,11 +2380,11 @@
   {
     "evidenceDataId": "MenDisVarInterp078",
     "attributeId": "A015",
-    "value": "LN:LA6669-1",
+    "value": "LN:LA26332-9",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
+    "lookupValue": "Likely Pathogenic"
   },
   {
     "evidenceDataId": "MenDisVarInterp079",
@@ -3160,40 +3070,31 @@
     "lookupValue": 0
   },
   {
-    "evidenceDataId": "RegAll101",
+    "evidenceDataId": "BMVR102",
     "attributeId": "A076",
-    "value": "CtxReg001",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAll101",
-    "attributeId": "A077",
-    "value": "CtxAll126",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAll101",
-    "attributeId": "A078",
-    "value": 1,
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "value": "RefSeq004",
+    "evidenceDataName": "BenignMissenseVariationRate",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "NM_000169.2"
   },
   {
     "evidenceDataId": "BMVR102",
-    "attributeId": "A079",
-    "value": "CtxReg003",
+    "attributeId": "A077",
+    "value": 996.0,
     "evidenceDataName": "BenignMissenseVariationRate",
-    "attributeName": "region",
-    "attributeType": "ContextualRegion",
-    "lookupValue": "CtxReg003"
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 996
+  },
+  {
+    "evidenceDataId": "BMVR102",
+    "attributeId": "A078",
+    "value": 1012.0,
+    "evidenceDataName": "BenignMissenseVariationRate",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 1012
   },
   {
     "evidenceDataId": "BMVR102",
@@ -7005,11 +6906,11 @@
   {
     "evidenceDataId": "MenDisVarInterp216",
     "attributeId": "A015",
-    "value": "LN:LA6682-4",
+    "value": "LN:LA26333-7",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
+    "lookupValue": "Uncertain Signficance"
   },
   {
     "evidenceDataId": "CondInh217",
@@ -7048,85 +6949,58 @@
     "lookupValue": "Incomplete"
   },
   {
-    "evidenceDataId": "RegAnno220",
-    "attributeId": "A055",
-    "value": "CtxReg007",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg220",
+    "attributeId": "A052",
+    "value": "RefSeq008",
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "NM_001271208.1"
   },
   {
-    "evidenceDataId": "RegAnno220",
+    "evidenceDataId": "Reg220",
+    "attributeId": "A053",
+    "value": 154.0,
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 154
+  },
+  {
+    "evidenceDataId": "Reg220",
+    "attributeId": "A054",
+    "value": 183.0,
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 183
+  },
+  {
+    "evidenceDataId": "Reg220",
     "attributeId": "A056",
-    "value": 1,
-    "evidenceDataName": "#N/A",
+    "value": "CG:functional",
+    "evidenceDataName": "RegionTypesAndAlleles",
     "attributeName": "isNotTypes",
     "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
+    "lookupValue": "Functional"
   },
   {
-    "evidenceDataId": "RegAnno220",
+    "evidenceDataId": "Reg220",
     "attributeId": "A057",
     "value": "CG:repeat",
-    "evidenceDataName": "#N/A",
+    "evidenceDataName": "RegionTypesAndAlleles",
     "attributeName": "isTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Repeat"
   },
   {
-    "evidenceDataId": "RegAnno221",
-    "attributeId": "A055",
-    "value": "CtxReg007",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAnno221",
-    "attributeId": "A056",
-    "value": 0,
-    "evidenceDataName": "#N/A",
-    "attributeName": "isNotTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAnno221",
-    "attributeId": "A057",
-    "value": "CG:functional",
-    "evidenceDataName": "#N/A",
-    "attributeName": "isTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "Functional"
-  },
-  {
-    "evidenceDataId": "RegAll222",
-    "attributeId": "A076",
-    "value": "CtxReg007",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAll222",
-    "attributeId": "A077",
+    "evidenceDataId": "Reg220",
+    "attributeId": "A058",
     "value": "CtxAll106",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAll222",
-    "attributeId": "A078",
-    "value": 1,
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_001271208.1(NEB):c.169_183delCTGGCACAGCCAGCA"
   },
   {
     "evidenceDataId": "MolCon223",
@@ -7147,58 +7021,49 @@
     "lookupValue": "NM_001271208.1(NEB):c.169_183delCTGGCACAGCCAGCA"
   },
   {
-    "evidenceDataId": "RegAnno225",
-    "attributeId": "A055",
-    "value": "CtxReg008",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg225",
+    "attributeId": "A052",
+    "value": "RegSeq009",
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "RegSeq009"
   },
   {
-    "evidenceDataId": "RegAnno225",
-    "attributeId": "A056",
-    "value": 1,
-    "evidenceDataName": "#N/A",
-    "attributeName": "isNotTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg225",
+    "attributeId": "A053",
+    "value": 6509.0,
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 6509
   },
   {
-    "evidenceDataId": "RegAnno225",
+    "evidenceDataId": "Reg225",
+    "attributeId": "A054",
+    "value": 39262.0,
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 39262
+  },
+  {
+    "evidenceDataId": "Reg225",
     "attributeId": "A057",
     "value": "CG:repeat",
-    "evidenceDataName": "#N/A",
+    "evidenceDataName": "RegionTypesAndAlleles",
     "attributeName": "isTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Repeat"
   },
   {
-    "evidenceDataId": "RegAll226",
-    "attributeId": "A076",
-    "value": "CtxReg008",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAll226",
-    "attributeId": "A077",
+    "evidenceDataId": "Reg225",
+    "attributeId": "A058",
     "value": "CtxAll107",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAll226",
-    "attributeId": "A078",
-    "value": 1,
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC"
   },
   {
     "evidenceDataId": "MolCon227",
@@ -7219,58 +7084,49 @@
     "lookupValue": "NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC"
   },
   {
-    "evidenceDataId": "RegAnno229",
-    "attributeId": "A055",
-    "value": "CtxReg009",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg229",
+    "attributeId": "A052",
+    "value": "RefSeq010",
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "NM_147196.2"
   },
   {
-    "evidenceDataId": "RegAnno229",
-    "attributeId": "A056",
-    "value": 1,
-    "evidenceDataName": "#N/A",
-    "attributeName": "isNotTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
+    "evidenceDataId": "Reg229",
+    "attributeId": "A053",
+    "value": 522.0,
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 522
   },
   {
-    "evidenceDataId": "RegAnno229",
+    "evidenceDataId": "Reg229",
+    "attributeId": "A054",
+    "value": 548.0,
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 548
+  },
+  {
+    "evidenceDataId": "Reg229",
     "attributeId": "A057",
     "value": "CG:repeat",
-    "evidenceDataName": "#N/A",
+    "evidenceDataName": "RegionTypesAndAlleles",
     "attributeName": "isTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Repeat"
   },
   {
-    "evidenceDataId": "RegAll230",
-    "attributeId": "A076",
-    "value": "CtxReg009",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAll230",
-    "attributeId": "A077",
+    "evidenceDataId": "Reg229",
+    "attributeId": "A058",
     "value": "CtxAll108",
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
-  },
-  {
-    "evidenceDataId": "RegAll230",
-    "attributeId": "A078",
-    "value": 1,
-    "evidenceDataName": "#N/A",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "evidenceDataName": "RegionTypesAndAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_147196.2(TMIE):c.391_393dupAAG"
   },
   {
     "evidenceDataId": "MolCon231",
@@ -7689,11 +7545,11 @@
   {
     "evidenceDataId": "MenDisVarInterp243",
     "attributeId": "A015",
-    "value": "LN:LA6669-1",
+    "value": "LN:LA26332-9",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
+    "lookupValue": "Likely Pathogenic"
   },
   {
     "evidenceDataId": "IndAll244",
@@ -7815,11 +7671,11 @@
   {
     "evidenceDataId": "MenDisVarInterp247",
     "attributeId": "A015",
-    "value": "LN:LA6669-1",
+    "value": "LN:LA26332-9",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
+    "lookupValue": "Likely Pathogenic"
   },
   {
     "evidenceDataId": "MenDisVarInterp248",
@@ -7842,11 +7698,11 @@
   {
     "evidenceDataId": "MenDisVarInterp248",
     "attributeId": "A015",
-    "value": "LN:LA6669-1",
+    "value": "LN:LA26332-9",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
+    "lookupValue": "Likely Pathogenic"
   },
   {
     "evidenceDataId": "IndAll249",
@@ -8472,11 +8328,11 @@
   {
     "evidenceDataId": "MenDisVarInterp270",
     "attributeId": "A015",
-    "value": "LN:LA6682-4",
+    "value": "LN:LA26333-7",
     "evidenceDataName": "MendelianDiseaseVariantPathogenicityInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
+    "lookupValue": "Uncertain Signficance"
   },
   {
     "evidenceDataId": "FamSegData271",

@@ -630,7 +630,7 @@
     "id": "A058",
     "entityId": "E24",
     "name": "includedAlleles",
-    "dataType": "CanonicalAllele",
+    "dataType": "ContextualAllele",
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
@@ -642,7 +642,7 @@
     "id": "A059",
     "entityId": "E24",
     "name": "excludedAlleles",
-    "dataType": "CanonicalAllele",
+    "dataType": "ContextualAllele",
     "cardinality": "0..*",
     "defaultValue": "null",
     "precedence": 7.0,
@@ -825,17 +825,41 @@
     "defaultValue": "null",
     "fullyQualifiedName": "GenerateVariantInterpretation.variant"
   },
-  "A079": {
-    "id": "A079",
+  "A076": {
+    "id": "A076",
     "entityId": "E43",
-    "name": "region",
-    "dataType": "ContextualRegion",
+    "name": "referenceSequence",
+    "dataType": "ReferenceSequence",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "description": "Sequence on which the region is defined",
+    "fullyQualifiedName": "BenignMissenseVariationRate.referenceSequence"
+  },
+  "A077": {
+    "id": "A077",
+    "entityId": "E43",
+    "name": "start",
+    "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 2.0,
-    "description": "A region on a reference sequence",
-    "fullyQualifiedName": "BenignMissenseVariationRate.region"
+    "description": "Start of the region in 0-based coordinates",
+    "fullyQualifiedName": "BenignMissenseVariationRate.start"
+  },
+  "A078": {
+    "id": "A078",
+    "entityId": "E43",
+    "name": "stop",
+    "dataType": "int",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 3.0,
+    "description": "End of the region in 0-based coordinates",
+    "fullyQualifiedName": "BenignMissenseVariationRate.stop"
   },
   "A080": {
     "id": "A080",
@@ -846,7 +870,7 @@
     "defaultValue": "null",
     "valueSetId": "VS014",
     "valueSetName": "BenignMissenseVariationRate",
-    "precedence": 3.0,
+    "precedence": 4.0,
     "description": "The rate at which Benign missense variants occur within the region",
     "fullyQualifiedName": "BenignMissenseVariationRate.value"
   },
