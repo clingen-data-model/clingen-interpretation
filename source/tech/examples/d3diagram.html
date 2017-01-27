@@ -14,7 +14,7 @@ line.secondary-link  {
   stroke: #99f;
 }
 
-.link-label text {
+text.link-label {
   font-family: sans-serif;
   font-size: 8pt;
   text-anchor: middle;
@@ -47,19 +47,19 @@ line.secondary-link  {
 </style>
 <body>
   <svg id="diagram" width="1600" height="800"></svg>
-	<script src="https://d3js.org/d3.v4.min.js"></script>
-	<script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script>
 
 var diagram = {};
 if (window.location.hash) {
-	var exampleId = window.location.hash.substring(1);
+  var exampleId = window.location.hash.substring(1);
   d3.json('../../json/' + exampleId + '.json', function(error, tree) {
     if (error) throw error
     diagram = new DmwgDiagram(tree);
     diagram.update();
   });
 } else {
-	// should somehow display an error here...
+  // should somehow display an error here...
 }
 
 function DmwgDiagram(tree) {
@@ -71,11 +71,13 @@ function DmwgDiagram(tree) {
       link = this.svg.selectAll('.link'),
       link_label = this.svg.selectAll('.link-label');
 
+  function by_id(d) { return d.id; } // used for identifiying nodes/links
+
   this.graph = generate_graph(tree);
 
   var simulation = d3.forceSimulation()
-      .force("primary-link", d3.forceLink().id(function(d) { return d.id; }).distance(100))
-      .force("attribute-link", d3.forceLink().id(function(d) { return d.id; }).distance(50))
+      .force("primary-link", d3.forceLink().id(by_id).distance(100))
+      .force("attribute-link", d3.forceLink().id(by_id).distance(50))
       .force("charge", d3.forceManyBody().strength(-200))
   //    .force("collision", d3.forceCollide(function(d) { return d._height; }))
       .force("depth", d3.forceX().strength(0))
@@ -94,7 +96,7 @@ function DmwgDiagram(tree) {
     var max_depth = d3.max(visible_nodes, function (d) {return d.depth;});
 
     //var node = this.svg.selectAll('.node').data(visible_nodes);
-    node = this.svg.selectAll('.node').data(visible_nodes, function (d) { return d.id; });
+    node = this.svg.selectAll('.node').data(visible_nodes, by_id);
     node.exit().remove();
     var node_enter = node.enter().append('g')
       .attr("class", "node")
@@ -128,7 +130,7 @@ function DmwgDiagram(tree) {
       .attr("y", function (d) { return -d._height/2 })
 
     //var link = this.svg.selectAll('.link').data(visible_links, function (d) { return d.target.id; })
-    link = this.svg.selectAll('.link').data(visible_links, function (d) { return d.id; })
+    link = this.svg.selectAll('.link').data(visible_links, by_id)
     link.exit().remove();
     link = link.enter().append('line')
       .attr("class", function (d) { return d.class; } )
@@ -137,7 +139,7 @@ function DmwgDiagram(tree) {
       .merge(link);
 
     //var link_label = this.svg.selectAll('.link-label').data(visible_links, function (d) { return d.target.id; });
-    link_label = this.svg.selectAll('.link-label').data(visible_links, function (d) { return d.id; })
+    link_label = this.svg.selectAll('.link-label').data(visible_links, by_id)
     link_label.exit().remove();
     link_label = link_label.enter().append("text")
       .attr("class", "link-label")
@@ -202,93 +204,82 @@ function DmwgDiagram(tree) {
 }
 
 function generate_graph(data) {
+  var ignored_attributes = ['explanation', 'description', 'cg:id', 'cg:type'];
+  var node_id = 0, link_id = 0;
   var graph = {
     "nodes_hash": {},
     "nodes": [],
     "links": []
   }
-  var root = _generate_graph(data, graph, 0);
-  Object.keys(graph.nodes_hash).forEach(function (k) {
-    graph.nodes.push(graph.nodes_hash[k]);
-  })
-  var id = 0;
-  graph.links.forEach(function (d) { d.id = ++id; })
+
+  var zp = d3.format('05'); // zeropad
+
+  function _generate_link(source, target_tree, link_label, depth) {
+    var link_class, child;
+    if (target_tree['cg:id'] in graph.nodes_hash) {
+      child = graph.nodes_hash[target_tree['cg:id']];
+      child.depth = Math.max(child.depth, depth+1);
+      link_class = 'secondary-link';
+    } else {
+      child = _generate_graph(target_tree, depth+1)
+      link_class = 'primary-link';
+    }
+    graph.links.push({
+      "source": source,
+      "target": child,
+      "label": link_label,
+      "class": link_class,
+      "id": "L" + zp(link_id++)
+    })
+  }
+
+  function _generate_graph(data, depth) {
+    var id = 'N' + zp(node_id++);
+    var node = {id: id,
+                label: data['cg:id'] || "UNKNOWN_ID",
+                depth: depth,
+                type: data['cg:type'] || "UNKNOWN_TYPE"
+    };
+    node.attributes = [];
+    Object.keys(data).forEach(function (k, index) {
+      if (ignored_attributes.includes(k)) return;
+
+      var v = data[k]
+
+      if (typeof(v) === 'string' || typeof(v) === 'number' || typeof(v) === 'boolean') {
+        if (k.startsWith('cg:')) {
+          k = k.substring(3);
+        }
+        // generate attribute node/link
+        node.attributes.push([k,v]);
+        var a_node = {
+          label: v,
+          depth: depth + 0.2,
+          attribute: true,
+          "id": 'N' + zp(node_id++)
+        }
+        graph.nodes.push(a_node);
+        graph.links.push({
+          source: node,
+          target: a_node,
+          label: k,
+          "id": "L" + zp(link_id++),
+          "class": 'attribute-link'
+        });
+      } else if (Array.isArray(v)) {
+        v.forEach(function(d) { _generate_link(node, d, k, depth); })
+      } else {
+        _generate_link(node, v, k, depth);
+      }
+    })
+    graph.nodes.push(node);
+    return node
+  }
+  var root = _generate_graph(data, 0);
   return graph;
 }
 
-function _generate_graph(data, graph, depth) {
-  var id = data['cg:id'] || 'UNNAMED'
-  var node = {id: id, label: id, depth: depth, type: data['cg:type'] || "UNKNOWN_TYPE" };
-  node.attributes = d3.map();
-  if (id in graph.nodes_hash) {
-    console.log("duplicate for node " + id);
-    node = graph.nodes_hash[id];
-  } else {
-    graph.nodes_hash[id] = node;
-  }
-  Object.keys(data).forEach(function (k, index) {
-    if ((k === 'explanation') || (k === 'description') || (k === 'cg:id') || (k === 'cg:type')) {
-      return;
-    }
-    var v = data[k]
 
-    if (typeof(v) === 'string' || typeof(v) === 'number' || typeof(v) === 'boolean') {
-      if (k.startsWith('cg:')) {
-        k = k.substring(3);
-      }
-      node.attributes.set(k, v);
-    } else if (Array.isArray(v)) {
-      v.forEach(function (x) {
-        var link_class, child;
-        if (x['cg:id'] in graph.nodes_hash) {
-          child = graph.nodes_hash[x['cg:id']];
-          child.depth = depth+1;
-          link_class = 'secondary-link';
-        } else {
-          child = _generate_graph(x, graph, depth+1)
-          link_class = 'primary-link';
-        }
-        graph.links.push({
-          "source": node,
-          "target": child,
-          "label": k,
-          "class": link_class
-        })
-      })
-    } else {
-      if (v['cg:id'] in graph.nodes_hash) {
-        child = graph.nodes_hash[v['cg:id']];
-        child.depth = depth+1;
-        link_class = 'secondary-link';
-      } else {
-        child = _generate_graph(v, graph, depth+1)
-        link_class = 'primary-link';
-      }
-      graph.links.push({
-        "source": node,
-        "target": child,
-        "label": k,
-        "class": link_class
-      })
-    }
-  })
-  node.attributes.each(function (v, k) {
-    var a_node = {
-      "label": v,
-      "depth": depth + 0.2,
-      "attribute": true
-    };
-    graph.nodes.push(a_node);
-    graph.links.push({
-      "source": id,
-      "target": a_node,
-      "label": k,
-      "class": 'attribute-link'
-    })
-  })
-  return node
-}
-
-	</script>
+  </script>
 </body>
 </html>
