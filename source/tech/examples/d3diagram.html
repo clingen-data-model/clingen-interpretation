@@ -6,8 +6,8 @@
   <title>Example Diagram</title>
 <style>
 line {
-  stroke: #999;
-  stroke-opacity: 0.6;
+  stroke: #000;
+  opacity: 0.3;
 }
 
 line.secondary-link  {
@@ -48,6 +48,7 @@ text.link-label {
 <body>
   <svg id="diagram" width="1600" height="800"></svg>
   <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
   <script>
 
 var diagram = {};
@@ -67,9 +68,22 @@ function DmwgDiagram(tree) {
             width = +this.svg.attr("width"),
             height = +this.svg.attr("height");
 
-  var node = this.svg.selectAll('.node'),
-      link = this.svg.selectAll('.link'),
-      link_label = this.svg.selectAll('.link-label');
+  this.svg.append("defs").append("marker").attrs({
+    id: "arrow",
+	fill: "#000",
+    markerUnits: "strokeWidth",
+    refX: 9,
+    refY: 3,
+    markerWidth: 10,
+    markerHeight: 10,
+    orient: "auto"
+  }).append("path").attr("d", "M0,0L0,6L9,3z");
+
+
+  var
+      link = this.svg.append("g").attr("class", "links").selectAll(".link"),
+      link_label = this.svg.append("g").attr("class", "link-labels").selectAll(".link-label"),
+      node = this.svg.append("g").attr("class", "nodes").selectAll(".node");
 
   function by_id(d) { return d.id; } // used for identifiying nodes/links
 
@@ -96,7 +110,7 @@ function DmwgDiagram(tree) {
     var max_depth = d3.max(visible_nodes, function (d) {return d.depth;});
 
     //var node = this.svg.selectAll('.node').data(visible_nodes);
-    node = this.svg.selectAll('.node').data(visible_nodes, by_id);
+    node = this.svg.select('.nodes').selectAll('.node').data(visible_nodes, by_id);
     node.exit().remove();
     var node_enter = node.enter().append('g')
       .attr("class", "node")
@@ -130,16 +144,16 @@ function DmwgDiagram(tree) {
       .attr("y", function (d) { return -d._height/2 })
 
     //var link = this.svg.selectAll('.link').data(visible_links, function (d) { return d.target.id; })
-    link = this.svg.selectAll('.link').data(visible_links, by_id)
+    link = this.svg.select(".links").selectAll('.link').data(visible_links, by_id)
     link.exit().remove();
     link = link.enter().append('line')
       .attr("class", function (d) { return d.class; } )
       .classed("link", true)
-      //.attr("class", function (d) { return d.class; })
+      .attr("marker-end", "url(#arrow)")
       .merge(link);
 
     //var link_label = this.svg.selectAll('.link-label').data(visible_links, function (d) { return d.target.id; });
-    link_label = this.svg.selectAll('.link-label').data(visible_links, by_id)
+    link_label = this.svg.select(".link-labels").selectAll('.link-label').data(visible_links, by_id)
     link_label.exit().remove();
     link_label = link_label.enter().append("text")
       .attr("class", "link-label")
@@ -162,18 +176,41 @@ function DmwgDiagram(tree) {
   }
 
   var ticked = function() {
+    // ax and ay are the center of the target rectangle
+    // w and h the width and height
+    // bx and by are the off-rectangle point
+    function arrow_endpoint(ax, ay, w, h, bx, by) {
+      var m = (by - ay) / (bx - ax);
+      var d = h/w;
+      var x,y;
+      if (-d <= m && m <= d) {
+        x = ax + ((ax <= bx) ? w/2 : -w/2);
+        return [x, m * (x - ax) + ay]
+      } else {
+        y = ay + ((ay <= by) ? h/2 : -h/2); 
+        // not using 1/m since it may be undefined
+        return [(y - ay) * (bx - ax) / (by - ay) + ax, y]
+      }
+    }
+
     var k = 6 * this.alpha();
 
-    link
-        //.each(function(d) { d.source.y -= k, d.target.y += k; })
-        .attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
+    link.attrs(function(d) {
+            var target_intersect = arrow_endpoint(
+                d.target.x, d.target.y, d.target._width, d.target._height,
+                d.source.x, d.source.y);
+            return {
+                x1: d.source.x, y1: d.source.y,
+                x2: target_intersect[0], y2: target_intersect[1]
+            };
+        });
 
-    link_label
-        .attr("x", function(d) { return (d.source.x+d.target.x)/2 })
-        .attr("y", function(d) { return (d.source.y+d.target.y)/2 })
+    link_label.attrs(function(d) {
+        return {
+            x: (d.source.x+d.target.x)/2,
+            y: (d.source.y+d.target.y)/2
+        };
+    });
 
     node
         .attr("transform", function (d) {
