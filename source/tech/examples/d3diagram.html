@@ -12,6 +12,7 @@ line {
 
 line.secondary-link  {
   stroke: #99f;
+  stroke-dasharray: 5,5;
 }
 
 text.link-label {
@@ -68,9 +69,11 @@ function DmwgDiagram(tree) {
             width = +this.svg.attr("width"),
             height = +this.svg.attr("height");
 
+  var transform = d3.zoomIdentity;
+
   this.svg.append("defs").append("marker").attrs({
     id: "arrow",
-	fill: "#000",
+    fill: "#000",
     markerUnits: "strokeWidth",
     refX: 9,
     refY: 3,
@@ -79,11 +82,19 @@ function DmwgDiagram(tree) {
     orient: "auto"
   }).append("path").attr("d", "M0,0L0,6L9,3z");
 
+  var svgroot = this.svg.append("g").attr("id", "svgroot");
+  var zoomed = function() {
+    svgroot.attr("transform", d3.event.transform);
+  }
+  var zoom = d3.zoom()
+    .scaleExtent([1/2, 8])
+    .on("zoom", zoomed);
+  this.svg.call(zoom);
 
   var
-      link = this.svg.append("g").attr("class", "links").selectAll(".link"),
-      link_label = this.svg.append("g").attr("class", "link-labels").selectAll(".link-label"),
-      node = this.svg.append("g").attr("class", "nodes").selectAll(".node");
+      link = svgroot.append("g").attr("class", "links").selectAll(".link"),
+      link_label = svgroot.append("g").attr("class", "link-labels").selectAll(".link-label"),
+      node = svgroot.append("g").attr("class", "nodes").selectAll(".node");
 
   function by_id(d) { return d.id; } // used for identifiying nodes/links
 
@@ -110,7 +121,7 @@ function DmwgDiagram(tree) {
     var max_depth = d3.max(visible_nodes, function (d) {return d.depth;});
 
     //var node = this.svg.selectAll('.node').data(visible_nodes);
-    node = this.svg.select('.nodes').selectAll('.node').data(visible_nodes, by_id);
+    node = svgroot.select('.nodes').selectAll('.node').data(visible_nodes, by_id);
     node.exit().remove();
     var node_enter = node.enter().append('g')
       .attr("class", "node")
@@ -144,7 +155,7 @@ function DmwgDiagram(tree) {
       .attr("y", function (d) { return -d._height/2 })
 
     //var link = this.svg.selectAll('.link').data(visible_links, function (d) { return d.target.id; })
-    link = this.svg.select(".links").selectAll('.link').data(visible_links, by_id)
+    link = svgroot.select(".links").selectAll('.link').data(visible_links, by_id)
     link.exit().remove();
     link = link.enter().append('line')
       .attr("class", function (d) { return d.class; } )
@@ -153,7 +164,7 @@ function DmwgDiagram(tree) {
       .merge(link);
 
     //var link_label = this.svg.selectAll('.link-label').data(visible_links, function (d) { return d.target.id; });
-    link_label = this.svg.select(".link-labels").selectAll('.link-label').data(visible_links, by_id)
+    link_label = svgroot.select(".link-labels").selectAll('.link-label').data(visible_links, by_id)
     link_label.exit().remove();
     link_label = link_label.enter().append("text")
       .attr("class", "link-label")
@@ -187,7 +198,7 @@ function DmwgDiagram(tree) {
         x = ax + ((ax <= bx) ? w/2 : -w/2);
         return [x, m * (x - ax) + ay]
       } else {
-        y = ay + ((ay <= by) ? h/2 : -h/2); 
+        y = ay + ((ay <= by) ? h/2 : -h/2);
         // not using 1/m since it may be undefined
         return [(y - ay) * (bx - ax) / (by - ay) + ax, y]
       }
@@ -217,8 +228,6 @@ function DmwgDiagram(tree) {
           var bbox = this.getBBox();
           return "translate(" +
               d.x + ',' + d.y + ')';
-              //(d.x - bbox.width/2) + "," +
-              //(d.y - bbox.height/2) + ")";
         });
   }
 
