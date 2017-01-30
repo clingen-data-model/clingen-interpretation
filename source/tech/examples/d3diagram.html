@@ -135,26 +135,25 @@ function DmwgDiagram(tree) {
     node_enter.append("rect")
 
     node_enter.append("text")
-      //.attr("dy", "14px")
       .text(function (d) { return d.label; })
-      .each(function (d) { d._width = this.getBBox().width + 6})
-      .each(function (d) { d._height = this.getBBox().height + 6})
+      .each(function (d) {
+        d._width = this.getBBox().width + 6;
+        d._height = this.getBBox().height + 6
+      })
       ;
 
     node = node_enter.merge(node);
-    //node.selectAll('text')
-    //  .attr("x", function(d) { return -d._width/2; })
-    //  .attr("y", function(d) { return -d._height/2; })
 
-    //node.selectAll('rect')
-    //  .attr("width", function(d) { return this.parentNode.getBBox().width});
     node.selectAll('rect')
-      .attr("width", function(d) { return d._width })
-      .attr("height", function(d) { return d._height })
-      .attr("x", function (d) { return -d._width/2 })
-      .attr("y", function (d) { return -d._height/2 })
+      .attrs(function (d) {
+          return {
+              width: d._width,
+              height: d._height,
+              x: -d._width/2,
+              y: -d._height/2
+          };
+      })
 
-    //var link = this.svg.selectAll('.link').data(visible_links, function (d) { return d.target.id; })
     link = svgroot.select(".links").selectAll('.link').data(visible_links, by_id)
     link.exit().remove();
     link = link.enter().append('line')
@@ -163,7 +162,6 @@ function DmwgDiagram(tree) {
       .attr("marker-end", "url(#arrow)")
       .merge(link);
 
-    //var link_label = this.svg.selectAll('.link-label').data(visible_links, function (d) { return d.target.id; });
     link_label = svgroot.select(".link-labels").selectAll('.link-label').data(visible_links, by_id)
     link_label.exit().remove();
     link_label = link_label.enter().append("text")
