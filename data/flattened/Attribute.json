@@ -399,6 +399,18 @@
     "description": "Frequency denominator: number of observations",
     "fullyQualifiedName": "AlleleFrequency.alleleNumber"
   },
+  "A034": {
+    "id": "A034",
+    "entityId": "E11",
+    "name": "condition",
+    "dataType": "Condition",
+    "cardinality": "0..*",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 4.0,
+    "description": "The condition(s) for which the criterion is being assessed",
+    "fullyQualifiedName": "AssessCriterion.condition"
+  },
   "A038": {
     "id": "A038",
     "entityId": "E21",

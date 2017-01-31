@@ -73,12 +73,12 @@
   },
   {
     "activityId": "AssessCrit002",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond001",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond001"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Breast Ovarian Cancer"
   },
   {
     "activityId": "AssessCrit003",
@@ -127,12 +127,12 @@
   },
   {
     "activityId": "AssessCrit003",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond002",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond002"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Dilated Cardiomyopathy"
   },
   {
     "activityId": "AssessCrit004",
@@ -163,12 +163,12 @@
   },
   {
     "activityId": "AssessCrit004",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond003",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond003"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Noonan Syndrome"
   },
   {
     "activityId": "AssessCrit005",
@@ -199,12 +199,12 @@
   },
   {
     "activityId": "AssessCrit005",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond004",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond004"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Primary Ciliary Dyskenisia"
   },
   {
     "activityId": "AssessCrit006",
@@ -244,12 +244,12 @@
   },
   {
     "activityId": "AssessCrit006",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond005",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond005"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Costello Syndrome"
   },
   {
     "activityId": "AssessCrit007",
@@ -298,12 +298,12 @@
   },
   {
     "activityId": "AssessCrit007",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond007",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond007"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Cardiomyopathy"
   },
   {
     "activityId": "AssessCrit008",
@@ -352,12 +352,12 @@
   },
   {
     "activityId": "AssessCrit008",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond008",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond008"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "desmin related myopathy"
   },
   {
     "activityId": "AssessCrit009",
@@ -406,12 +406,12 @@
   },
   {
     "activityId": "AssessCrit009",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond009",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond009"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Epilepsy with Mental Retardation"
   },
   {
     "activityId": "AssessCrit010",
@@ -559,12 +559,12 @@
   },
   {
     "activityId": "AssessCrit013",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond010",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond010"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Hearing Loss"
   },
   {
     "activityId": "AssessCrit014",
@@ -595,12 +595,12 @@
   },
   {
     "activityId": "AssessCrit014",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond011",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond011"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Malignant Hyperthermia"
   },
   {
     "activityId": "AssessCrit015",
@@ -631,12 +631,12 @@
   },
   {
     "activityId": "AssessCrit015",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond012",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond012"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Abnormal glucose homeostasis"
   },
   {
     "activityId": "AssessCrit016",
@@ -910,21 +910,21 @@
   },
   {
     "activityId": "AssessCrit022",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond004",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond004"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Primary Ciliary Dyskenisia"
   },
   {
     "activityId": "AssessCrit022",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond014",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond014"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "outer dynein arm (ODA) defects"
   },
   {
     "activityId": "AssessCrit023",
@@ -982,12 +982,12 @@
   },
   {
     "activityId": "AssessCrit023",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond010",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond010"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Hearing Loss"
   },
   {
     "activityId": "AssessCrit024",
@@ -1036,12 +1036,12 @@
   },
   {
     "activityId": "AssessCrit024",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond015",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond015"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "neuronal ceroid lipofuscinosis"
   },
   {
     "activityId": "AssessCrit025",
@@ -1189,12 +1189,12 @@
   },
   {
     "activityId": "AssessCrit028",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond016",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond016"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Primary familial hypertrophic cardiomyopathy"
   },
   {
     "activityId": "AssessCrit028",
@@ -1225,12 +1225,12 @@
   },
   {
     "activityId": "AssessCrit029",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond017",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond017"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Ornithine carbamoyltransferase deficiency"
   },
   {
     "activityId": "AssessCrit029",
@@ -1270,12 +1270,12 @@
   },
   {
     "activityId": "AssessCrit030",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond001",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond001"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Breast Ovarian Cancer"
   },
   {
     "activityId": "AssessCrit031",
@@ -1450,12 +1450,12 @@
   },
   {
     "activityId": "AssessCrit034",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond018",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond018"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Birt-Hogg-Dube Syndrome"
   },
   {
     "activityId": "AssessCrit035",
@@ -1504,12 +1504,12 @@
   },
   {
     "activityId": "AssessCrit035",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond019",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond019"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Cardio-facio-cutaneous (CFC) syndrome"
   },
   {
     "activityId": "AssessCrit036",
@@ -1612,12 +1612,12 @@
   },
   {
     "activityId": "AssessCrit036",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond019",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond019"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Cardio-facio-cutaneous (CFC) syndrome"
   },
   {
     "activityId": "AssessCrit037",
@@ -1657,12 +1657,12 @@
   },
   {
     "activityId": "AssessCrit037",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond020",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond020"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Hypertrophic Cardiomyopathy"
   },
   {
     "activityId": "AssessCrit038",
@@ -1702,12 +1702,12 @@
   },
   {
     "activityId": "AssessCrit038",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond021",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond021"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Usher syndrome"
   },
   {
     "activityId": "AssessCrit039",
@@ -1747,12 +1747,12 @@
   },
   {
     "activityId": "AssessCrit039",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond001",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond001"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Breast Ovarian Cancer"
   },
   {
     "activityId": "AssessCrit040",
@@ -1792,12 +1792,12 @@
   },
   {
     "activityId": "AssessCrit040",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond002",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond002"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Dilated Cardiomyopathy"
   },
   {
     "activityId": "AssessCrit041",
@@ -2179,12 +2179,12 @@
   },
   {
     "activityId": "AssessCrit046",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond022",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond022"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Hereditary Hemorrhagic Telangiectasia Type 1"
   },
   {
     "activityId": "AssessCrit047",
@@ -2215,12 +2215,12 @@
   },
   {
     "activityId": "AssessCrit047",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond020",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond020"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Hypertrophic Cardiomyopathy"
   },
   {
     "activityId": "AssessCrit048",
@@ -2251,12 +2251,12 @@
   },
   {
     "activityId": "AssessCrit048",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond023",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond023"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Breast-ovarian cancer, familial 2"
   },
   {
     "activityId": "AssessCrit049",
@@ -2287,12 +2287,12 @@
   },
   {
     "activityId": "AssessCrit049",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond024",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond024"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Myopathy, distal, 4"
   },
   {
     "activityId": "AssessCrit050",
@@ -2323,12 +2323,12 @@
   },
   {
     "activityId": "AssessCrit050",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond025",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond025"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Cystic Fibrosis"
   },
   {
     "activityId": "AssessCrit051",
@@ -2431,12 +2431,12 @@
   },
   {
     "activityId": "AssessCrit053",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond004",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond004"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Primary Ciliary Dyskenisia"
   },
   {
     "activityId": "AssessCrit054",
@@ -2494,12 +2494,12 @@
   },
   {
     "activityId": "AssessCrit054",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond026",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond026"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Marfan Syndrome"
   },
   {
     "activityId": "AssessCrit055",
@@ -2557,12 +2557,12 @@
   },
   {
     "activityId": "AssessCrit055",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond027",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond027"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Mitochondrial complex 1 deficiency"
   },
   {
     "activityId": "AssessCrit056",
@@ -2620,12 +2620,12 @@
   },
   {
     "activityId": "AssessCrit056",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond028",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond028"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Perrault Syndrome"
   },
   {
     "activityId": "AssessCrit057",
@@ -2701,12 +2701,12 @@
   },
   {
     "activityId": "AssessCrit057",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond029",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond029"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Wiedemann-Steiner syndrome"
   },
   {
     "activityId": "AssessCrit058",
@@ -2818,12 +2818,12 @@
   },
   {
     "activityId": "AssessCrit058",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond030",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond030"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Familial Adenomatous Polyposis"
   },
   {
     "activityId": "AssessCrit059",
@@ -2899,12 +2899,12 @@
   },
   {
     "activityId": "AssessCrit059",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond026",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond026"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Marfan Syndrome"
   },
   {
     "activityId": "AssessCrit061",
@@ -3007,12 +3007,12 @@
   },
   {
     "activityId": "AssessCrit063",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond035",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond035"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Familial Hypercholesterolemia"
   },
   {
     "activityId": "AssessCrit064",
@@ -3043,12 +3043,12 @@
   },
   {
     "activityId": "AssessCrit064",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond020",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond020"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Hypertrophic Cardiomyopathy"
   },
   {
     "activityId": "AssessCrit065",
@@ -3079,12 +3079,12 @@
   },
   {
     "activityId": "AssessCrit065",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond020",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond020"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Hypertrophic Cardiomyopathy"
   },
   {
     "activityId": "AssessCrit066",
@@ -3124,12 +3124,12 @@
   },
   {
     "activityId": "AssessCrit066",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond036",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond036"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Hereditary Breast and Ovarian Cancer"
   },
   {
     "activityId": "AssessCrit067",
@@ -3169,12 +3169,12 @@
   },
   {
     "activityId": "AssessCrit067",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond037",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond037"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Fanconi Anemia"
   },
   {
     "activityId": "AssessCrit068",
@@ -3214,12 +3214,12 @@
   },
   {
     "activityId": "AssessCrit068",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond010",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond010"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Hearing Loss"
   },
   {
     "activityId": "AssessCrit069",
@@ -3268,12 +3268,12 @@
   },
   {
     "activityId": "AssessCrit069",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond002",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond002"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Dilated Cardiomyopathy"
   },
   {
     "activityId": "AssessCrit070",
@@ -3340,12 +3340,12 @@
   },
   {
     "activityId": "AssessCrit070",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond038",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond038"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Retinitis Pigmentosa"
   },
   {
     "activityId": "AssessCrit071",
@@ -3394,12 +3394,12 @@
   },
   {
     "activityId": "AssessCrit071",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond039",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond039"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Congenital Absence of the Vas Deferens"
   },
   {
     "activityId": "AssessCrit072",
@@ -3466,12 +3466,12 @@
   },
   {
     "activityId": "AssessCrit072",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond007",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond007"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Cardiomyopathy"
   },
   {
     "activityId": "CapData073",
@@ -3842,12 +3842,12 @@
   },
   {
     "activityId": "AssessCrit088",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond020",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond020"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Hypertrophic Cardiomyopathy"
   },
   {
     "activityId": "AssessCrit089",
@@ -3914,12 +3914,12 @@
   },
   {
     "activityId": "AssessCrit089",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond010",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond010"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Hearing Loss"
   },
   {
     "activityId": "AssessCrit090",
@@ -4022,12 +4022,12 @@
   },
   {
     "activityId": "AssessCrit091",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond040",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond040"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Primary bone dysplasia"
   },
   {
     "activityId": "AssessCrit092",
@@ -4058,12 +4058,12 @@
   },
   {
     "activityId": "AssessCrit092",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond036",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond036"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Hereditary Breast and Ovarian Cancer"
   },
   {
     "activityId": "AssessCrit093",
@@ -4094,12 +4094,12 @@
   },
   {
     "activityId": "AssessCrit093",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond043",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond043"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Familial Cancer of Breast"
   },
   {
     "activityId": "AssessCrit094",
@@ -4130,12 +4130,12 @@
   },
   {
     "activityId": "AssessCrit094",
-    "attributeId": "A006",
+    "attributeId": "A034",
     "value": "Cond044",
     "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Cond044"
+    "attributeName": "condition",
+    "attributeType": "Condition",
+    "lookupValue": "Gyrate atrophy of choroid and retina"
   },
   {
     "activityId": "AssessCrit095",
