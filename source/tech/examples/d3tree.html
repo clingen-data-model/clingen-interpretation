@@ -38,7 +38,7 @@ line.secondary-link  {
 
 .node text {
   font-family: sans-serif;
-  font-size: 12pt;
+  font-size: 10pt;
   text-anchor: middle;
   alignment-baseline: middle;
 }
@@ -81,9 +81,10 @@ if (window.location.hash) {
 }
 
 function DmwgDiagram(tree) {
-  this.svg = d3.select("svg#diagram"),
-            width = +this.svg.attr("width"),
-            height = +this.svg.attr("height");
+  this.svg = d3.select("svg#diagram");
+
+  var width = +this.svg.attr("width"),
+      height = +this.svg.attr("height");
 
   var transform = d3.zoomIdentity;
   var tooltip = d3.select("body").append("div").classed("tooltip", true).style("opacity", 0);
@@ -99,44 +100,28 @@ function DmwgDiagram(tree) {
     orient: "auto"
   }).append("path").attr("d", "M0,0L0,6L9,3z");
 
-  this.d3tree = d3.tree()
-    .size([height, width]);
+  this.root = d3.hierarchy(generate_tree(tree));
+  var treemap = d3.tree().nodeSize([40, 400]),
+      treedata = treemap(this.root),
+      nodedata = treedata.descendants(),
+      linkdata = treedata.descendants().slice(1);
 
   var svgroot = this.svg.append("g").attr("id", "svgroot");
+  var linkg = svgroot.append("g").attr("class", "links"),
+      nodeg = svgroot.append("g").attr("class", "nodes"); // created in this order so nodes will be on top of links
+
   var zoomed = function() {
     svgroot.attr("transform", d3.event.transform);
   }
   var zoom = d3.zoom()
-    .scaleExtent([1/2, 8])
+    .scaleExtent([1/4, 16])
     .on("zoom", zoomed);
   this.svg.call(zoom);
 
   this.root = d3.hierarchy(generate_tree(tree));
-  var link = svgroot.append("g").attr("class", "links").selectAll(".link")
-    .data(this.d3tree(this.root).descendants().slice(1))
-    .enter().append("g")
-      .attr("class", "link")
-  link.append("path")
-      .attr("d", function (d) {
-        var offset = d.parent.y + (d.y - d.parent.y)/4
-        return "M" + d.parent.y + "," + d.parent.x
-             + "C" + offset + "," + d.x
-             + " " + offset + "," + d.x
-             + " " + d.y + "," + d.x;
-      })
-  link.append("text")
-    .text(function(d) {
-      return d.data.link_label;
-    })
-    .attrs(function (d) {
-      return {
-        y: d.x,
-        x: d.y + (d.parent.y - d.y) / 3
-      };
-    });
 
-  var node = svgroot.append("g").attr("class", "nodes").selectAll(".node")
-    .data(this.root.descendants())
+  var node = nodeg.selectAll(".node")
+    .data(nodedata)
     .enter().append("g")
     .attr("class", "node")
     .attr("transform", function (d) { return "translate(" + d.y + "," + d.x + ")"});
@@ -185,6 +170,40 @@ function DmwgDiagram(tree) {
             y: -3 - d._height/2
         };
     })
+
+  var link = linkg.selectAll(".link")
+    .data(linkdata)
+    .enter().append("g")
+      .attr("class", "link")
+  link.append("path")
+      .attr("d", function (d) {
+        var endy = d.y - d._width/2,
+            starty = d.parent.y + d.parent._width/2;
+        var offset = starty + (endy - starty)/4
+        return "M" + starty + "," + d.parent.x
+             + "C" + offset + "," + d.x
+             + " " + offset + "," + d.x
+             + " " + endy + "," + d.x;
+      })
+      .attr("marker-end", 'url(#arrow)');
+  link.append("text")
+    .text(function(d) {
+      return d.data.link_label;
+    })
+    .attrs(function (d) {
+      return {
+        y: d.x,
+        x: d.y + (d.parent.y - d.y) / 3
+      };
+    });
+
+  var bbox = nodeg.node().getBBox(),
+      scale = 0.95 / Math.max(bbox.width / width, bbox.height / height),
+      translate = [width / 2 - scale * (bbox.x + bbox.width / 2),
+                   height / 2 - scale * (bbox.y + bbox.height / 2)];
+  zoom.scaleTo(this.svg, scale);
+  zoom.translateBy(this.svg, translate[0], translate[1]);
+
 }
 
 var zp = d3.format('05'); // zeropad
