@@ -142,7 +142,9 @@ class DMWGExampleData
       value
     when 'CodeableConcept'
       # FIXME should display more 
-      @id2example[value] ||= { 'cg:id' => value }
+      # for now, just displaying as string until we decide how to better model this
+      #@id2example[value] ||= { 'cg:id' => value }
+      value
     else
       @id2example[value] ||= { 'cg:id' => value }
     end

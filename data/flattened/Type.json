@@ -4,89 +4,70 @@
     "name": "Data",
     "parentType": "E52",
     "link": "Data",
-    "description": "The structured supporting data that can be used to assess criterion in the context of a given interpretation guideline.",
-    "group": "Grp008",
-    "groupName": "Data>Data"
+    "description": "The structured supporting data that can be used to assess criterion in the context of a given interpretation guideline."
   },
   "E02": {
     "id": "E02",
     "name": "MolecularConsequence",
     "parentType": "E01",
     "link": "MolCon",
-    "description": "Classification of an Allele based on its effect on a product",
-    "group": "Grp008",
-    "groupName": "Data>MolecularConsequence"
+    "description": "Classification of an Allele based on its effect on a product"
   },
   "E03": {
     "id": "E03",
     "name": "ConditionMechanism",
     "parentType": "E01",
     "link": "CondMech",
-    "description": "Qualitative information about the types of alleles that cause a condition",
-    "group": "Grp008",
-    "groupName": "Data>ConditionMechanism"
+    "description": "Qualitative information about the types of alleles that cause a condition"
   },
   "E04": {
     "id": "E04",
     "name": "Criterion",
     "parentType": "E52",
     "link": "Crit",
-    "description": "A single rule for evaluating data in an interpretation.",
-    "group": "Grp007",
-    "groupName": "Methods>Criterion"
+    "description": "A single rule for evaluating data in an interpretation."
   },
   "E05": {
     "id": "E05",
     "name": "CanonicalAllele",
     "parentType": "E52",
     "link": "CanAll",
-    "description": "Reference-independent allele that groups multiple ContextualAlleles",
-    "group": "Grp009",
-    "groupName": "Core Concepts>CanonicalAllele"
+    "description": "Reference-independent allele that groups multiple ContextualAlleles"
   },
   "E06": {
     "id": "E06",
     "name": "ContextualAllele",
     "parentType": "E52",
     "link": "CtxAll",
-    "description": "Reference-dependent allele description",
-    "group": "Grp009",
-    "groupName": "Core Concepts>ContextualAllele"
+    "description": "Reference-dependent allele description"
   },
   "E07": {
     "id": "E07",
     "name": "Gene",
     "parentType": "E52",
     "link": "G",
-    "description": "A collection of transcripts",
-    "group": "Grp009",
-    "groupName": "Core Concepts>Gene"
+    "description": "A collection of transcripts"
   },
   "E08": {
     "id": "E08",
     "name": "Other",
     "parentType": "E01",
     "link": "Oth",
-    "description": "Data that does not fit into another subclass",
-    "group": "Grp008",
-    "groupName": "Data>Other"
+    "description": "Data that does not fit into another subclass"
   },
   "E09": {
     "id": "E09",
     "name": "CriterionAssessment",
     "parentType": "E52",
     "link": "CritAssess",
-    "description": "Intermediate interpretation of a line of evidence",
-    "group": "Grp005",
-    "groupName": "Entities>CriterionAssessment"
+    "description": "Intermediate interpretation of a line of evidence"
   },
   "E10": {
     "id": "E10",
     "name": "Activity",
     "link": "Act",
     "imageFile": "activities.svg",
-    "description": "W3C Provenance activity conceptual class.",
-    "groupName": "#N/A"
+    "description": "W3C Provenance activity conceptual class."
   },
   "E11": {
     "id": "E11",
@@ -94,139 +75,109 @@
     "parentType": "E10",
     "link": "AssessCrit",
     "imageFile": "assess_criterion.svg",
-    "description": "*TODO* short description needed",
-    "group": "Grp004",
-    "groupName": "Activities>AssessCriterion"
+    "description": "*TODO* short description needed"
   },
   "E12": {
     "id": "E12",
     "name": "Agent",
     "link": "Agent",
     "imageFile": "agents.svg",
-    "description": "W3C Provenance agent conceptual class.",
-    "groupName": "#N/A"
+    "description": "W3C Provenance agent conceptual class."
   },
   "E13": {
     "id": "E13",
     "name": "Example",
     "link": "Ex",
-    "description": "*TODO* short description needed",
-    "groupName": "#N/A"
+    "description": "*TODO* short description needed"
   },
   "E14": {
     "id": "E14",
     "name": "Condition",
     "parentType": "E52",
     "link": "Cond",
-    "description": "*TODO* short description needed",
-    "group": "Grp009",
-    "groupName": "Core Concepts>Condition"
+    "description": "*TODO* short description needed"
   },
   "E15": {
     "id": "E15",
     "name": "MendelianDiseaseVariantPathogenicityInterpretation",
     "parentType": "E01",
     "link": "MenDisVarInterp",
-    "description": "A statement about the pathogenicity of a variant for a disease",
-    "group": "Grp008",
-    "groupName": "Data>MendelianDiseaseVariantPathogenicityInterpretation"
+    "description": "A statement about the pathogenicity of a variant for a disease"
   },
   "E16": {
     "id": "E16",
     "name": "Individual",
     "link": "Indiv",
-    "description": "A particular person",
-    "group": " ",
-    "groupName": "#N/A"
+    "description": "A particular person"
   },
   "E17": {
     "id": "E17",
     "name": "IndividualCondition",
     "parentType": "E01",
     "link": "IndCond",
-    "description": "Whether or not an Individual has a Condition",
-    "group": "Grp008",
-    "groupName": "Data>IndividualCondition"
+    "description": "Whether or not an Individual has a Condition"
   },
   "E18": {
     "id": "E18",
     "name": "FamilyHistory",
     "parentType": "E01",
     "link": "FamHist",
-    "description": "Whether or not a Condition occurs in a given Family",
-    "group": "Grp008",
-    "groupName": "Data>FamilyHistory"
+    "description": "Whether or not a Condition occurs in a given Family"
   },
   "E19": {
     "id": "E19",
     "name": "DeNovoAllele",
     "parentType": "E01",
     "link": "DeNovo",
-    "description": "Whether or not a particular Allele is DeNovo in an Individual",
-    "group": "Grp008",
-    "groupName": "Data>DeNovoAllele"
+    "description": "Whether or not a particular Allele is DeNovo in an Individual"
   },
   "E20": {
     "id": "E20",
     "name": "FunctionalData",
     "parentType": "E01",
     "link": "Func",
-    "description": "Data about the function of a gene product",
-    "group": "Grp008",
-    "groupName": "Data>FunctionalData"
+    "description": "Data about the function of a gene product"
   },
   "E21": {
     "id": "E21",
     "name": "CaseControl",
     "parentType": "E01",
     "link": "CaseCtrl",
-    "description": "Allele frequencies as a function of case-control status",
-    "group": "Grp008",
-    "groupName": "Data>CaseControl"
+    "description": "Allele frequencies as a function of case-control status"
   },
   "E23": {
     "id": "E23",
     "name": "AlleleFrequency",
     "parentType": "E01",
     "link": "AllFreq",
-    "description": "The frequency of an allele in a population or a defined group of individuals",
-    "group": "Grp008",
-    "groupName": "Data>AlleleFrequency"
+    "description": "The frequency of an allele in a population or a defined group of individuals"
   },
   "E24": {
     "id": "E24",
     "name": "RegionTypesAndAlleles",
     "parentType": "E01",
     "link": "Reg",
-    "description": "Whether or not a sequence region is of a certain type or types and/or wether or not sequence region contains a given set of alleles.",
-    "group": "Grp008",
-    "groupName": "Data>RegionTypesAndAlleles"
+    "description": "Whether or not a sequence region is of a certain type or types and/or wether or not sequence region contains a given set of alleles."
   },
   "E26": {
     "id": "E26",
     "name": "ReferenceSequence",
     "link": "RefSeq",
-    "description": "*TODO* short description needed",
-    "group": "Grp009",
-    "groupName": "Core Concepts>ReferenceSequence"
+    "description": "*TODO* short description needed"
   },
   "E27": {
     "id": "E27",
     "name": "ConditionInheritance",
     "parentType": "E01",
     "link": "CondInh",
-    "description": "Mode of inheritance for a particular condition",
-    "group": "Grp008",
-    "groupName": "Data>ConditionInheritance"
+    "description": "Mode of inheritance for a particular condition"
   },
   "E28": {
     "id": "E28",
     "name": "IndividualAllele",
     "parentType": "E01",
     "link": "IndAll",
-    "description": "Whether or not an Individual has an allele",
-    "group": "Grp008",
-    "groupName": "Data>IndividualAllele"
+    "description": "Whether or not an Individual has an allele"
   },
   "E29": {
     "id": "E29",
@@ -234,9 +185,7 @@
     "parentType": "E10",
     "link": "CapData",
     "imageFile": "capture_evidence_data.svg",
-    "description": "*TODO* A short description about capture evidence activity.",
-    "group": "Grp004",
-    "groupName": "Activities>CaptureData"
+    "description": "*TODO* A short description about capture evidence activity."
   },
   "E30": {
     "id": "E30",
@@ -244,9 +193,7 @@
     "parentType": "E10",
     "link": "GenVarInterp",
     "imageFile": "generate_variant_interpretation.svg",
-    "description": "*TODO* A short description about generate variant interpretation activity.",
-    "group": "Grp004",
-    "groupName": "Activities>GenerateVariantInterpretation"
+    "description": "*TODO* A short description about generate variant interpretation activity."
   },
   "E31": {
     "id": "E31",
@@ -254,195 +201,147 @@
     "parentType": "E10",
     "link": "PubVarInterp",
     "imageFile": "publish_variant_interpretation.svg",
-    "description": "*TODO* A short description about publish variant interpretation activity.",
-    "group": "Grp004",
-    "groupName": "Activities>PublishVariantInterpretation"
+    "description": "*TODO* A short description about publish variant interpretation activity."
   },
   "E32": {
     "id": "E32",
     "name": "AssertionMethod",
     "link": "AssertMeth",
-    "description": "The set of rules describing how to create an interpretation from a set of Data.",
-    "group": "Grp007",
-    "groupName": "Methods>AssertionMethod"
+    "description": "The set of rules describing how to create an interpretation from a set of Data."
   },
   "E33": {
     "id": "E33",
     "name": "ScoringAlgorithm",
     "link": "ScorAlg",
-    "description": "The rules for combining CriterionAssessments into an Interpretation",
-    "group": "Grp007",
-    "groupName": "Methods>ScoringAlgorithm"
+    "description": "The rules for combining CriterionAssessments into an Interpretation"
   },
   "E35": {
     "id": "E35",
     "name": "VariantInterpretation",
     "parentType": "E52",
     "link": "VarInterp",
-    "description": "Evidence-based conclusion about the pathogenicity of a sequence variant",
-    "group": "Grp005",
-    "groupName": "Entities>VariantInterpretation"
+    "description": "Evidence-based conclusion about the pathogenicity of a sequence variant"
   },
   "E36": {
     "id": "E36",
     "name": "DataSource",
     "parentType": "E52",
     "link": "DataSrc",
-    "description": "Citation for a Data entity",
-    "group": "Grp005",
-    "groupName": "Entities>DataSource"
+    "description": "Citation for a Data entity"
   },
   "E37": {
     "id": "E37",
     "name": "PublicationStatus",
     "link": "PubStat",
-    "description": "*TODO* short description needed",
-    "group": "Grp005",
-    "groupName": "Entities>PublicationStatus"
+    "description": "*TODO* short description needed"
   },
   "E38": {
     "id": "E38",
     "name": "Capturer",
     "parentType": "E12",
     "link": "Capturer",
-    "description": "*TODO* short description needed",
-    "group": "Grp006",
-    "groupName": "Agents>Capturer"
+    "description": "*TODO* short description needed"
   },
   "E39": {
     "id": "E39",
     "name": "Assessor",
     "parentType": "E12",
     "link": "Assessor",
-    "description": "*TODO* short description needed",
-    "group": "Grp006",
-    "groupName": "Agents>Assessor"
+    "description": "*TODO* short description needed"
   },
   "E40": {
     "id": "E40",
     "name": "Generator",
     "parentType": "E12",
     "link": "Generator",
-    "description": "*TODO* short description needed",
-    "group": "Grp006",
-    "groupName": "Agents>Generator"
+    "description": "*TODO* short description needed"
   },
   "E41": {
     "id": "E41",
     "name": "Publisher",
     "parentType": "E12",
     "link": "Publisher",
-    "description": "*TODO* short description needed",
-    "group": "Grp006",
-    "groupName": "Agents>Publisher"
+    "description": "*TODO* short description needed"
   },
   "E43": {
     "id": "E43",
     "name": "BenignMissenseVariationRate",
     "parentType": "E01",
     "link": "BMVR",
-    "description": "The amount of benign missense variation in a particular region",
-    "group": "Grp008",
-    "groupName": "Data>BenignMissenseVariationRate"
+    "description": "The amount of benign missense variation in a particular region"
   },
   "E44": {
     "id": "E44",
     "name": "Family",
     "link": "Fam",
-    "description": "A group of individuals related in a known manner.",
-    "groupName": "#N/A"
+    "description": "A group of individuals related in a known manner."
   },
   "E45": {
     "id": "E45",
     "name": "FamilySegregationData",
     "parentType": "E01",
     "link": "FamSegData",
-    "description": "Cosegregation of an allele and a condition in a single family",
-    "group": "Grp008",
-    "groupName": "Data>FamilySegregationData"
+    "description": "Cosegregation of an allele and a condition in a single family"
   },
   "E46": {
     "id": "E46",
     "name": "AggregateSegregationData",
     "parentType": "E01",
     "link": "AggSegData",
-    "description": "Cosegregation of an allele and a condition aggregated across families",
-    "group": "Grp008",
-    "groupName": "Data>AggregateSegregationData"
+    "description": "Cosegregation of an allele and a condition aggregated across families"
   },
   "E47": {
     "id": "E47",
     "name": "InSilicoPrediction",
     "parentType": "E01",
     "link": "InSilicoPred",
-    "description": "Computationally predicted functional impact of an allele",
-    "group": "Grp008",
-    "groupName": "Data>InSilicoPrediction"
+    "description": "Computationally predicted functional impact of an allele"
   },
   "E48": {
     "id": "E48",
     "name": "ConditionEtiology",
     "parentType": "E01",
     "link": "CondEtiol",
-    "description": "Specificity of the condition to a gene.",
-    "group": "Grp008",
-    "groupName": "Data>ConditionEtiology"
+    "description": "Specificity of the condition to a gene."
   },
   "E49": {
     "id": "E49",
     "name": "ConditionPrevelance",
     "parentType": "E01",
     "link": "CondPrev",
-    "description": "Frequency of a condition in a population",
-    "group": "Grp008",
-    "groupName": "Data>ConditionPrevelance"
+    "description": "Frequency of a condition in a population"
   },
   "E50": {
     "id": "E50",
     "name": "ConditionPenetrance",
     "parentType": "E01",
     "link": "CondPenet",
-    "description": "Qualitative characterization of a condition's penetrance",
-    "group": "Grp008",
-    "groupName": "Data>ConditionPenetrance"
+    "description": "Qualitative characterization of a condition's penetrance"
   },
   "E51": {
     "id": "E51",
     "name": "Conservation",
     "parentType": "E01",
     "link": "Conserv",
-    "description": "Characterizes whether the allele is fixed across species",
-    "group": "Grp008",
-    "groupName": "Data>Conservation"
+    "description": "Characterizes whether the allele is fixed across species"
   },
   "E52": {
     "id": "E52",
     "name": "Entity",
     "link": "Entity",
     "imageFile": "entities.svg",
-    "description": "W3C Provenance entity conceptual class.",
-    "groupName": "#N/A"
-  },
-  "E53": {
-    "id": "E53",
-    "name": "Group",
-    "link": "Grp",
-    "description": "*TODO* short description needed",
-    "groupName": "#N/A"
+    "description": "W3C Provenance entity conceptual class."
   },
   "E54": {
     "id": "E54",
     "name": "ValueSet",
     "link": "VS",
-    "description": "*TODO* short description needed",
-    "group": "Grp010",
-    "groupName": "Value Sets>ValueSet"
+    "description": "*TODO* short description needed"
   },
   "E55": {
     "id": "E55",
     "name": "ValueSetConcept",
     "link": "VSC",
-    "description": "*TODO* short description needed",
-    "groupName": "#N/A"
+    "description": "*TODO* short description needed"
   }
 }
