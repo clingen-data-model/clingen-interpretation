@@ -15,3 +15,5 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 
 # To process xlsx files (like the examples spreadsheet)
 gem "rubyXL", "~>3.3.21"
+
+gem 'middleman-gh-pages'

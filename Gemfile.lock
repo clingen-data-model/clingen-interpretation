@@ -72,6 +72,8 @@ GEM
       rack (>= 1.4.5, < 2.0)
       thor (>= 0.15.2, < 2.0)
       tilt (~> 1.4.1, < 2.0)
+    middleman-gh-pages (0.3.1)
+      rake (> 0.9.3)
     middleman-livereload (3.3.4)
       em-websocket (~> 0.5.1)
       middleman-core (~> 3.2)
@@ -100,6 +102,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rake (12.0.0)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -135,6 +138,7 @@ PLATFORMS
 
 DEPENDENCIES
   middleman (~> 3.4.1)
+  middleman-gh-pages
   middleman-livereload (~> 3.3.0)
   rubyXL (~> 3.3.21)
   tzinfo-data
