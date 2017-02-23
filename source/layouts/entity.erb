@@ -1,10 +1,14 @@
 <% wrap_layout :layout  do %>
 
+    <%- entity = data.flattened.Type[current_page.data.id] %>
 
     <!-- this is primarily the Scope and Usage section -->
     <%= yield %>
 
     <!-- image here if available -->
+    <% if entity.has_key?('imageFile') %>
+    <%= image_tag entity.imageFile  %>
+    <% end %>
 
     <h2>Attributes</h2>
 
@@ -42,7 +46,7 @@
             </tr>
             </thead>
             <tbody>
-            <% parentid = data.flattened.Type[current_page.data.id].parentType %>
+            <% parentid = entity.parentType %>
             <% while parentid != nil %>
                 <% attributes_by_entity(parentid).each do |a| %>
                 <tr>
