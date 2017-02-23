@@ -10,6 +10,8 @@
     <%= image_tag entity.imageFile  %>
     <% end %>
 
+    <%- local_attributes = attributes_by_entity(current_page.data.id) %>
+    <% if local_attributes.any? %>
     <h2>Attributes</h2>
 
         <table class="table table-striped table-bordered" cellspacing="0" width="100%">
@@ -22,7 +24,7 @@
             </tr>
             </thead>
             <tbody>
-        <% attributes_by_entity(current_page.data.id).each do |a| %>
+        <% local_attributes.each do |a| %>
             <tr>
                 <td><%= a.name %></td>
                 <td><%= a.dataType %></td>
@@ -32,7 +34,11 @@
         <% end %>
             </tbody>
         </table>
+    <% end # if there are local attributes %>
 
+
+    <%- inherited_attributes = inherited_attributes_by_entity(current_page.data.id) %>
+    <% if inherited_attributes.any? %>
     <h2>Inherited Attributes</h2>
 
         <table class="table table-striped table-bordered" cellspacing="0" width="100%">
@@ -46,22 +52,21 @@
             </tr>
             </thead>
             <tbody>
-            <% parentid = entity.parentType %>
-            <% while parentid != nil %>
-                <% attributes_by_entity(parentid).each do |a| %>
+                <% inherited_attributes.each do |a| %>
                 <tr>
                     <td><%= a.name %></td>
                     <td><%= a.dataType %></td>
                     <td><%= a.cardinality %></td>
-                    <td><%= data.flattened.Type[parentid].name %></td>
+                    <td><%= a.inherited_from %></td>
                     <td><%= a.description %></td>
                 </tr>
                 <% end %>
-                <% parentid = data.flattened.Type[parentid].parentType %>
-            <% end %>
             </tbody>
         </table>
+    <% end # if there are inherited attributes %>
 
+    <%- examples = examples_by_type(current_page.data.id) || [] %>
+    <% if examples.any? %>
     <h2>Examples</h2>
     <table class="table table-striped table-bordered" cellspacing=0 width="100%">
       <thead><tr>
@@ -71,7 +76,7 @@
         <th>diagram</th>
       </tr></thead>
       <tbody>
-      <% (examples_by_type(current_page.data.id) || []).each do |ex| %>
+      <% examples.each do |ex| %>
         <tr>
           <td><%= ex['cg:id'] %></td>
           <td><%= ex['description'] || ex['desc'] || ex['shortDescription'] || ex['name'] || ex['explanation'] || ex['alleleName'] %></td>
@@ -104,5 +109,6 @@ window.addEventListener('load', function () {
 
 })
     </script>
+    <% end # if there are examples %> 
 
 <% end %>

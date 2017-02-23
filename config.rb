@@ -203,6 +203,18 @@ helpers do
     end.map{|k,v| v}.sort_by { |a| a.precedence }
   end
 
+  def inherited_attributes_by_entity(entityId)
+    output = []
+    entity = data.flattened.Type[entityId]
+    parentid = entity.parentType
+    while parentid != nil do
+      parent = data.flattened.Type[parentid]
+      output.concat(attributes_by_entity(parentid).map {|a| a.merge({"inherited_from" => parent.name})})
+      parentid = parent.parentType
+    end
+    return output
+  end
+
   def examples_by_type(type)
     type_name = data.flattened.Type[type]['name']
     @dmwg_examples.by_type[type_name]
