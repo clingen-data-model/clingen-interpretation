@@ -103,7 +103,7 @@
         <div class="col-sm-8 col-sm-offset-4 col-md-9 col-md-offset-3 main">
           <article>
 
-            <% if current_page.data.id?(nil) %>
+		    <% if current_page.data.id.nil? %>
               <%- title = current_page.data.title %>
               <%- description = current_page.data.description %>
             <% else %>
@@ -115,7 +115,7 @@
             <h1><%= title %></h1>
             <p><%= description %></p>
 
-            <% if current_page.data.id != nil %>
+            <% if !current_page.data.id.nil? %>
             <% parentid = data.flattened.Type[current_page.data.id].parentType %>
             <% if parentid == nil %>
             <% else %>
