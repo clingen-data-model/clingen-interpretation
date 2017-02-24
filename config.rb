@@ -49,10 +49,10 @@
 
 require 'reformat_examples'
 
-@dmwg_examples = DMWGExampleData.new('data/flattened')
+$dmwg_examples = DMWGExampleData.new('data/flattened')
 
 # build raw json versions of the examples
-@dmwg_examples.by_id.each do |k,v|
+$dmwg_examples.by_id.each do |k,v|
   proxy "/json/#{k}.json", "/json/template.json", :locals => { :object => v }, :ignore => true
 end
 
@@ -217,7 +217,7 @@ helpers do
 
   def examples_by_type(type)
     type_name = data.flattened.Type[type]['name']
-    @dmwg_examples.by_type[type_name]
+    $dmwg_examples.by_type[type_name]
   end
 
   # def example_path(example_id)
