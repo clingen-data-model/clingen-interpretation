@@ -93,6 +93,24 @@ helpers do
     end
   end
 
+  def example_table_item(data)
+    if data.nil?
+      return ''
+    end
+    output = ''
+    if !data.kind_of?(Array)
+      data = [data]
+    end
+    data.each do |item|
+      if (item.kind_of?(Hash) && item['cg:id'])
+        output << %(<p>#{link_to item['cg:id'], "/tech/examples/d3tree.html", :fragment => item['cg:id']}</p>)
+      else
+        output << %(<p>#{item}</p>)
+      end
+    end
+    output
+  end
+
   def breadcrumb(page)
     li = ""
     li = "<li>#{link_to(page.data.title, page)}</li>\n" if page.data.title

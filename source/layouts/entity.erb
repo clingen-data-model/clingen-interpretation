@@ -72,22 +72,30 @@
       <thead><tr>
         <th>ID</th>
         <th>description</th>
-        <th>json</th>
-        <th>diagram</th>
+        <% local_attributes.each do |attrib| %>
+        <th><%= attrib.name %></th>
+        <% end %>
       </tr></thead>
       <tbody>
       <% examples.each do |ex| %>
         <tr>
-          <td><%= ex['cg:id'] %></td>
+          <td><%= example_table_item(ex) %></td>
           <td><%= ex['description'] || ex['desc'] || ex['shortDescription'] || ex['name'] || ex['explanation'] || ex['alleleName'] %></td>
+          <% local_attributes.each do |attrib| %>
+          <td>
+              <%= example_table_item(ex[attrib.name]) %>
+         </td>
+          <% end %>
+          <!--
           <td><div class="example_view" id="<%= ex['cg:id'] %>"><pre><code><%= JSON.pretty_generate(ex) %>
           </code></pre></div></td>
-          <td><a href="../../examples/diagram.html#<%= ex['cg:id'] %>">diagram</a></td>
+          -->
         </tr>
 
-      <% end %>
+      <% end # each example %>
       </tbody>
     </table>
+    <!--
     <script>
 var fix_ellipses = function ($view) {
     $view.find('ul.obj li a:contains("cg:id")').parent().parent().parent().children('.ellipsis').each(function () {
@@ -109,6 +117,7 @@ window.addEventListener('load', function () {
 
 })
     </script>
-    <% end # if there are examples %> 
+    -->
+    <% end # if there are examples %>
 
 <% end %>
