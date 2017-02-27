@@ -26,10 +26,10 @@
             <tbody>
         <% local_attributes.each do |a| %>
             <tr>
-                <td><%= a.name %></td>
-                <td><%= a.dataType %></td>
-                <td><%= a.cardinality %></td>
-                <td><%= a.description %></td>
+                <td><%= a['name'] %></td>
+                <td><%= a['dataType'] %></td>
+                <td><%= a['cardinality'] %></td>
+                <td><%= a['description'] %></td>
             </tr>
         <% end %>
             </tbody>
@@ -54,11 +54,11 @@
             <tbody>
                 <% inherited_attributes.each do |a| %>
                 <tr>
-                    <td><%= a.name %></td>
-                    <td><%= a.dataType %></td>
-                    <td><%= a.cardinality %></td>
-                    <td><%= a.inherited_from %></td>
-                    <td><%= a.description %></td>
+                    <td><%= a['name'] %></td>
+                    <td><%= a['dataType'] %></td>
+                    <td><%= a['cardinality'] %></td>
+                    <td><%= a['inherited_from'] %></td>
+                    <td><%= a['description'] %></td>
                 </tr>
                 <% end %>
             </tbody>
@@ -73,7 +73,7 @@
         <th>ID</th>
         <th>description</th>
         <% local_attributes.each do |attrib| %>
-        <th><%= attrib.name %></th>
+        <th><%= attrib['name'] %></th>
         <% end %>
       </tr></thead>
       <tbody>
@@ -83,7 +83,7 @@
           <td><%= ex['description'] || ex['desc'] || ex['shortDescription'] || ex['name'] || ex['explanation'] || ex['alleleName'] %></td>
           <% local_attributes.each do |attrib| %>
           <td>
-              <%= example_table_item(ex[attrib.name]) %>
+              <%= example_table_item(ex[attrib['name']]) %>
          </td>
           <% end %>
           <!--

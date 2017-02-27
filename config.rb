@@ -216,21 +216,13 @@ helpers do
   end
 
   def attributes_by_entity(entityId)
-    data.flattened.Attribute.select do |k,v|
-      entityId == v.entityId
-    end.map{|k,v| v}.sort_by { |a| a.precedence }
+    $dmwg_examples.attributes_by_entity[entityId].select { |i| i['entityId'] == entityId }
   end
 
   def inherited_attributes_by_entity(entityId)
-    output = []
-    entity = data.flattened.Type[entityId]
-    parentid = entity.parentType
-    while parentid != nil do
-      parent = data.flattened.Type[parentid]
-      output.concat(attributes_by_entity(parentid).map {|a| a.merge({"inherited_from" => parent.name})})
-      parentid = parent.parentType
-    end
-    return output
+    $dmwg_examples.attributes_by_entity[entityId]
+      .select { |i| i['entityId'] != entityId }
+      .each { |i| i.merge({'inherited_from' => data.flattened.Type[i['entityId']]})}
   end
 
   def examples_by_type(type)

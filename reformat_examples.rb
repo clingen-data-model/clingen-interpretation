@@ -26,6 +26,9 @@ class DMWGExampleData
     @by_type
   end
 
+  def attributes_by_entity
+    @entity2attributes
+  end
 
   def initialize(data_dir)
     # an "auto hash" to hold all of the examples
@@ -50,6 +53,13 @@ class DMWGExampleData
       e_name = e_rec['name']
       ## FIXME Data sheet represents many different entities
       ## consider moving Data.explanation to DataAttribute table
+      parent = e_rec['parentType']
+      while !!parent
+        if !@entity2attributes[e_id].any? { |i| i['entityId'] == parent } then
+          @entity2attributes[e_id].concat(@entity2attributes[parent])
+        end
+        parent = @flattened['Type'][parent]['parentType']
+      end
       if @flattened.key? e_name then
         # full fledged table for this entity (not a Data subtype)
         @flattened[e_name].each do |id, rec|
@@ -57,12 +67,6 @@ class DMWGExampleData
           ex['cg:id'] = id
           ex['cg:type'] = e_name
           apply_attributes(e_id, rec, ex)
-          # handle inherited attributes
-          parent = e_rec['parentType']
-          while !!parent
-            apply_attributes(parent, rec, ex)
-            parent = @flattened['Type'][parent]['parentType']
-          end
         end
       end
     end
@@ -160,7 +164,7 @@ class DMWGExampleData
     when '???' # These should be fixed in the upstream data
       value
     when 'CodeableConcept'
-      # FIXME should display more 
+      # FIXME should display more
       # for now, just displaying as string until we decide how to better model this
       #@id2example[value] ||= { 'cg:id' => value }
       value
