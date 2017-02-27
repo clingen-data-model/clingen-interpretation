@@ -1,6 +1,6 @@
 ---
 title: Agent
-layout: agent
+layout: entity
 model: interpretation
 id: E12
 ---
