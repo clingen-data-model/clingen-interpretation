@@ -12,6 +12,8 @@
       <%= current_page.data.title || "ClinGen Data Model" %>
     </title>
 
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.13/fh-3.1.2/datatables.min.css"/>
+
     <%= stylesheet_link_tag "bootstrap", "bootstrap-theme", "brand2", "jquery.jsonview" %>
     <% (current_page.data.append_css || []).each do |cssfile| %>
       <%= stylesheet_link_tag cssfile %>
@@ -139,6 +141,7 @@
     <% (current_page.data.append_js || []).each do |jsfile| %>
       <%= javascript_include_tag jsfile %>
     <% end %>
+	<script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.13/fh-3.1.2/datatables.min.js"></script>
 
   </body>
 </html>

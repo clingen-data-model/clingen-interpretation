@@ -68,7 +68,7 @@
     <%- examples = examples_by_type(current_page.data.id) || [] %>
     <% if examples.any? %>
     <h2>Examples</h2>
-    <table class="table table-striped table-bordered" cellspacing=0 width="100%">
+    <table class="datatables table table-striped table-bordered" cellspacing=0 width="100%">
       <thead><tr>
         <th>ID</th>
         <th>description</th>
@@ -95,6 +95,11 @@
       <% end # each example %>
       </tbody>
     </table>
+    <script>
+window.addEventListener('load', function() {
+    $('.datatables').DataTable();
+});
+    </script>
     <!--
     <script>
 var fix_ellipses = function ($view) {
