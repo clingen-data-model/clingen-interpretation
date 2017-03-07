@@ -69,6 +69,7 @@ div#jsonview {
 }
 </style>
 <body>
+  <div id="jsonlist"></div>
   <div id="jsonview"></div>
   <svg id="diagram" width="1600" height="800"></svg>
   <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -76,12 +77,34 @@ div#jsonview {
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.6/ace.js"></script>
   <script>
 
+var json_as_list = function(json, parent) {
+  if (typeof(json) === 'string' || typeof(json) === 'number' || typeof(json) === 'boolean') {
+    parent.text(json)
+  } else if (Array.isArray(json)) {
+    var ul = parent.append('ul');
+    json.forEach(function (d) {
+      var li = ul.append('li')
+      json_as_list(d, li)
+    });
+  } else {
+    var ul = parent.append('ul');
+    for (k in json) {
+      var li = ul.append('li');
+      var text = k.startsWith('cg:')? k.substring(3) : k;
+      li.append('span').classed('term', true).text(text + ': ')
+      var defn = li.append('span').classed('definition', true);
+      json_as_list(json[k], defn);
+    }
+  }
+}
+
 var diagram = {};
 if (window.location.hash) {
   var exampleId = window.location.hash.substring(1);
   d3.json('../../json/' + exampleId + '.json', function(error, tree) {
     if (error) throw error
     diagram = new DmwgDiagram(tree);
+    json_as_list(tree, d3.select('#jsonlist'));
     d3.select("#jsonview").text(JSON.stringify(tree, null, 2));
     var editor = ace.edit("jsonview");
     editor.getSession().setMode('ace/mode/json');
