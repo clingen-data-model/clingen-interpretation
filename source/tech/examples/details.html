@@ -137,7 +137,7 @@ function DmwgDiagram(tree) {
   }).append("path").attr("d", "M0,0L0,6L9,3z");
 
   this.root = d3.hierarchy(generate_tree(tree));
-  var treemap = d3.tree().nodeSize([40, 400]),
+  var treemap = d3.tree().nodeSize([40, 300]),
       treedata = treemap(this.root),
       nodedata = treedata.descendants(),
       linkdata = treedata.descendants().slice(1);
