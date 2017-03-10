@@ -9,7 +9,7 @@ FLAT_DATA_DIR = "data/flattened"
 DOCS_DIR = "docs"
 ACMG_EXAMPLE_DATA_SHEET = "ACMG Rule Examples Data.xlsx"
 ACMG_CRITERION_ASSESS_EXAMPLES = "Criterion Assessment Examples.docx"
-ACMG_EXAMPLE_DATA_URL = "https://docs.google.com/spreadsheets/d/1fL3naWSpL_iDxkCN51g1CSLhXU6uAd1vwxZ0m1I4Zeg/pub?output=xlsx"
+ACMG_EXAMPLE_DATA_URL = "https://docs.google.com/spreadsheets/d/1yI60xriX7J4vk9h4eNK49YKfNnKuKDK6QkHe3OkV9oA/pub?output=xlsx"
 ACMG_CRITERION_ASSESS_EXAMPLES_URL = "https://docs.google.com/document/d/1C7XDX0T5oB2TO3R4vy1wFuJCq0v-R66YKjZi3hiNbQU/export?format=doc"
 
 if ARGV[0] then
@@ -42,7 +42,7 @@ wb.worksheets.each do |ws|
 		end
 		next if row.nil? || row.cells[0].nil? || row.cells[0].value.nil?
 		row_data = Hash[headers.zip(row.cells.map { |c| c && c.value })]
-			.delete_if { |k, v| k.nil? || k.empty? || v.nil? }
+			.delete_if { |k, v| k.nil? || k.empty? || k.start_with?("_") || v.nil? }
 		sheet_data << row_data if row_data.length > 1
 	end
   # "join" tables start with '_', all others should be listed by primary key

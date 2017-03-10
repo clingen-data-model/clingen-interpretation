@@ -60,7 +60,7 @@
     "id": "A006",
     "entityId": "E11",
     "name": "hasSupportingEvidence",
-    "dataType": "Data",
+    "dataType": "EvidenceLine",
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
@@ -133,7 +133,7 @@
     "id": "A012",
     "entityId": "E03",
     "name": "condition",
-    "dataType": "Condition",
+    "dataType": "MendelianCondition",
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
@@ -143,41 +143,33 @@
   },
   "A013": {
     "id": "A013",
-    "entityId": "E15",
-    "name": "canonicalAllele",
-    "dataType": "CanonicalAllele",
+    "entityId": "E13",
+    "name": "dataId",
+    "dataType": "Data",
     "cardinality": "0..1",
     "defaultValue": "null",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "The allele whose pathogenicity is being described",
-    "fullyQualifiedName": "MendelianDiseaseVariantPathogenicityInterpretation.canonicalAllele"
+    "fullyQualifiedName": "Example.dataId"
   },
   "A014": {
     "id": "A014",
-    "entityId": "E15",
-    "name": "condition",
-    "dataType": "Condition",
-    "cardinality": "0..*",
+    "entityId": "E13",
+    "name": "searchTags",
+    "dataType": "String",
+    "cardinality": "0..1",
     "defaultValue": "null",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "The condition for which the allele's pathogenicty is stated",
-    "fullyQualifiedName": "MendelianDiseaseVariantPathogenicityInterpretation.condition"
+    "fullyQualifiedName": "Example.searchTags"
   },
   "A015": {
     "id": "A015",
-    "entityId": "E15",
-    "name": "clinicalSignificance",
-    "dataType": "CodeableConcept",
+    "entityId": "E13",
+    "name": "index",
+    "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
-    "valueSetId": "VS003",
-    "valueSetName": "Significance",
-    "precedence": 4.0,
-    "notes": "LOINC Term",
-    "description": "The coded pathogenicity of the allele for the condition",
-    "fullyQualifiedName": "MendelianDiseaseVariantPathogenicityInterpretation.clinicalSignificance"
+    "precedence": 3.0,
+    "fullyQualifiedName": "Example.index"
   },
   "A016": {
     "id": "A016",
@@ -195,7 +187,7 @@
     "id": "A017",
     "entityId": "E17",
     "name": "condition",
-    "dataType": "Condition",
+    "dataType": "MendelianCondition",
     "cardinality": "1..*",
     "defaultValue": "null",
     "valueSetName": "",
@@ -231,7 +223,7 @@
     "id": "A020",
     "entityId": "E18",
     "name": "condition",
-    "dataType": "Condition",
+    "dataType": "MendelianCondition",
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
@@ -355,7 +347,7 @@
     "id": "A030",
     "entityId": "E23",
     "name": "ascertainment",
-    "dataType": "CodeableConcept",
+    "dataType": "String",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
@@ -403,13 +395,43 @@
     "id": "A034",
     "entityId": "E11",
     "name": "condition",
-    "dataType": "Condition",
+    "dataType": "MendelianCondition",
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 4.0,
     "description": "The condition(s) for which the criterion is being assessed",
     "fullyQualifiedName": "AssessCriterion.condition"
+  },
+  "A035": {
+    "id": "A035",
+    "entityId": "E13",
+    "name": "authorId",
+    "dataType": "Agent",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "precedence": 4.0,
+    "fullyQualifiedName": "Example.authorId"
+  },
+  "A036": {
+    "id": "A036",
+    "entityId": "E13",
+    "name": "description",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "precedence": 5.0,
+    "fullyQualifiedName": "Example.description"
+  },
+  "A037": {
+    "id": "A037",
+    "entityId": "E13",
+    "name": "image",
+    "dataType": "Image",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "precedence": 6.0,
+    "fullyQualifiedName": "Example.image"
   },
   "A038": {
     "id": "A038",
@@ -427,7 +449,7 @@
     "id": "A039",
     "entityId": "E21",
     "name": "condition",
-    "dataType": "Condition",
+    "dataType": "MendelianCondition",
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
@@ -463,7 +485,7 @@
     "id": "A042",
     "entityId": "E21",
     "name": "caseGroupFrequency",
-    "dataType": "GroupAlleleFrequency",
+    "dataType": "AlleleFrequency",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
@@ -475,7 +497,7 @@
     "id": "A043",
     "entityId": "E21",
     "name": "controlGroupFrequency",
-    "dataType": "GroupAlleleFrequency",
+    "dataType": "AlleleFrequency",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
@@ -614,6 +636,16 @@
     "description": "End of the region in 0-based coordinates",
     "fullyQualifiedName": "RegionTypesAndAlleles.stop"
   },
+  "A055": {
+    "id": "A055",
+    "entityId": "E09",
+    "name": "hasSupportingEvidence",
+    "dataType": "EvidenceLine",
+    "cardinality": "0..*",
+    "precedence": 1.0,
+    "description": "supporting evidence",
+    "fullyQualifiedName": "CriterionAssessment.hasSupportingEvidence"
+  },
   "A056": {
     "id": "A056",
     "entityId": "E24",
@@ -631,7 +663,7 @@
     "entityId": "E24",
     "name": "isTypes",
     "dataType": "CodeableConcept",
-    "cardinality": "0..*",
+    "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetId": "VS004",
     "valueSetName": "RegionAnnotationType",
@@ -673,9 +705,15 @@
     "description": "Frequency of the named allele in the population",
     "fullyQualifiedName": "AlleleFrequency.alleleFrequency"
   },
-  " ": {
-    "id": " ",
-    "fullyQualifiedName": "#N/A"
+  "A061": {
+    "id": "A061",
+    "entityId": "E35",
+    "name": "hasEvidence",
+    "dataType": "EvidenceLine",
+    "cardinality": "0..*",
+    "precedence": 5.0,
+    "description": "** TODO **",
+    "fullyQualifiedName": "VariantInterpretation.hasEvidence"
   },
   "A062": {
     "id": "A062",
@@ -688,31 +726,6 @@
     "precedence": 11.0,
     "description": "Median coverage at the allele site in the data set",
     "fullyQualifiedName": "AlleleFrequency.medianCoverage"
-  },
-  "A063": {
-    "id": "A063",
-    "entityId": "E27",
-    "name": "condition",
-    "dataType": "Condition",
-    "cardinality": "1..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 1.0,
-    "description": "Condition for which inheritance is defined",
-    "fullyQualifiedName": "ConditionInheritance.condition"
-  },
-  "A064": {
-    "id": "A064",
-    "entityId": "E27",
-    "name": "modeOfInheritance",
-    "dataType": "CodeableConcept",
-    "cardinality": "1..1",
-    "defaultValue": "null",
-    "valueSetId": "VS007",
-    "valueSetName": "ModeOfInheritance",
-    "precedence": 2.0,
-    "description": "Mode of inheritance for the condition, as defined in HP terms",
-    "fullyQualifiedName": "ConditionInheritance.modeOfInheritance"
   },
   "A065": {
     "id": "A065",
@@ -788,18 +801,6 @@
     "precedence": 6.0,
     "description": "Phase of the primary and secondary individual",
     "fullyQualifiedName": "IndividualAllele.phase"
-  },
-  "A071": {
-    "id": "A071",
-    "entityId": "E27",
-    "name": "gene",
-    "dataType": "Gene",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 3.0,
-    "description": "Condition causing gene on which the inheritance depends",
-    "fullyQualifiedName": "ConditionInheritance.gene"
   },
   "A072": {
     "id": "A072",
@@ -890,7 +891,7 @@
     "id": "A081",
     "entityId": "E45",
     "name": "condition",
-    "dataType": "Condition",
+    "dataType": "MendelianCondition",
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
@@ -962,7 +963,7 @@
     "id": "A087",
     "entityId": "E46",
     "name": "condition",
-    "dataType": "Condition",
+    "dataType": "MendelianCondition",
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
@@ -1107,7 +1108,7 @@
     "id": "A100",
     "entityId": "E48",
     "name": "condition",
-    "dataType": "Condition",
+    "dataType": "MendelianCondition",
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
@@ -1143,7 +1144,7 @@
     "id": "A103",
     "entityId": "E49",
     "name": "condition",
-    "dataType": "Condition",
+    "dataType": "MendelianCondition",
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
@@ -1192,7 +1193,7 @@
     "id": "A107",
     "entityId": "E50",
     "name": "condition",
-    "dataType": "Condition",
+    "dataType": "MendelianCondition",
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
@@ -1305,7 +1306,7 @@
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetId": "VS011",
-    "valueSetName": "AssessmentOutcome",
+    "valueSetName": "CriterionEvaluation",
     "precedence": 4.0,
     "description": "Result of assessing the data and criterion",
     "fullyQualifiedName": "CriterionAssessment.outcome"
@@ -1326,7 +1327,7 @@
     "id": "A118",
     "entityId": "E09",
     "name": "condition",
-    "dataType": "Condition",
+    "dataType": "MendelianCondition",
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
@@ -1342,7 +1343,7 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 98.0,
+    "precedence": 91.0,
     "description": "The activity that produced this entity",
     "fullyQualifiedName": "Entity.wasGeneratedBy"
   },
@@ -1354,12 +1355,24 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 99.0,
+    "precedence": 90.0,
     "description": "A human-readable description of the entity",
     "fullyQualifiedName": "Entity.explanation"
   },
   "A121": {
     "id": "A121",
+    "entityId": "E52",
+    "name": "wasDerivedFrom",
+    "dataType": "Data",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 92.0,
+    "description": "Another entityy which was a former derivation of this entity.",
+    "fullyQualifiedName": "Entity.wasDerivedFrom"
+  },
+  "A122": {
+    "id": "A122",
     "entityId": "E35",
     "name": "variant",
     "dataType": "CanonicalAllele",
@@ -1370,11 +1383,11 @@
     "description": "The variant whose pathogenicity is being described",
     "fullyQualifiedName": "VariantInterpretation.variant"
   },
-  "A122": {
-    "id": "A122",
+  "A123": {
+    "id": "A123",
     "entityId": "E35",
     "name": "condition",
-    "dataType": "Condition",
+    "dataType": "MendelianCondition",
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
@@ -1382,10 +1395,10 @@
     "description": "The condition for which the variant's pathogenicity is described",
     "fullyQualifiedName": "VariantInterpretation.condition"
   },
-  "A123": {
-    "id": "A123",
+  "A124": {
+    "id": "A124",
     "entityId": "E35",
-    "name": "interpretationCode",
+    "name": "clinicalSignificance",
     "dataType": "CodeableConcept",
     "cardinality": "1..1",
     "defaultValue": "null",
@@ -1393,10 +1406,10 @@
     "valueSetName": "Significance",
     "precedence": 3.0,
     "description": "The coded pathogenicity of the variant for the condition",
-    "fullyQualifiedName": "VariantInterpretation.interpretationCode"
+    "fullyQualifiedName": "VariantInterpretation.clinicalSignificance"
   },
-  "A124": {
-    "id": "A124",
+  "A125": {
+    "id": "A125",
     "entityId": "E35",
     "name": "assertionMethod",
     "dataType": "AssertionMethod",
@@ -1406,18 +1419,6 @@
     "precedence": 4.0,
     "description": "The  framework that formally defines the methodology used in creating this interpretation.",
     "fullyQualifiedName": "VariantInterpretation.assertionMethod"
-  },
-  "A125": {
-    "id": "A125",
-    "entityId": "E35",
-    "name": "wasDerivedFrom",
-    "dataType": "VariantInterpretation",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 5.0,
-    "description": "A previous interpretation from which the current interpretation was derived",
-    "fullyQualifiedName": "VariantInterpretation.wasDerivedFrom"
   },
   "A126": {
     "id": "A126",
@@ -1591,6 +1592,36 @@
     "precedence": 1.0,
     "fullyQualifiedName": "Gene.symbol"
   },
+  "A141": {
+    "id": "A141",
+    "entityId": "E14",
+    "name": "phenotype",
+    "dataType": "CodeableConcept",
+    "cardinality": "0..*",
+    "valueSetId": "VS019",
+    "valueSetName": "Phenotype",
+    "precedence": 3.0,
+    "fullyQualifiedName": "MendelianCondition.phenotype"
+  },
+  "A142": {
+    "id": "A142",
+    "entityId": "E14",
+    "name": "modeOfInheritance",
+    "dataType": "CodeableConcept",
+    "cardinality": "0..1",
+    "valueSetId": "VS007",
+    "valueSetName": "ModeOfInheritance",
+    "precedence": 4.0,
+    "fullyQualifiedName": "MendelianCondition.modeOfInheritance"
+  },
+  "A143": {
+    "id": "A143",
+    "entityId": "E14",
+    "name": "gene",
+    "dataType": "Gene",
+    "cardinality": "0..1",
+    "precedence": 5.0
+  },
   "A144": {
     "id": "A144",
     "entityId": "E26",
@@ -1688,7 +1719,7 @@
     "dataType": "CodeableConcept",
     "cardinality": "0..1",
     "valueSetId": "VS011",
-    "valueSetName": "AssessmentOutcome",
+    "valueSetName": "CriterionEvaluation",
     "precedence": 4.0,
     "fullyQualifiedName": "Criterion.defaultOutcome"
   },
@@ -1729,26 +1760,28 @@
     "name": "name",
     "dataType": "String",
     "cardinality": "0..1",
+    "valueSetName": "",
     "precedence": 1.0,
-    "fullyQualifiedName": "Condition.name"
+    "fullyQualifiedName": "MendelianCondition.name"
   },
   "A158": {
     "id": "A158",
     "entityId": "E14",
-    "name": "code",
-    "dataType": "String",
-    "cardinality": "0..1",
+    "name": "disease",
+    "dataType": "CodeableConcept",
+    "cardinality": "0..*",
+    "valueSetId": "VS018",
+    "valueSetName": "Disease",
     "precedence": 2.0,
-    "fullyQualifiedName": "Condition.code"
+    "fullyQualifiedName": "MendelianCondition.disease"
   },
-  "A159": {
-    "id": "A159",
-    "entityId": "E14",
-    "name": "monarchCode",
-    "dataType": "String",
-    "cardinality": "0..1",
-    "precedence": 3.0,
-    "fullyQualifiedName": "Condition.monarchCode"
+  " ": {
+    "id": " ",
+    "entityId": " ",
+    "name": " ",
+    "dataType": " ",
+    "cardinality": " ",
+    "precedence": " "
   },
   "A160": {
     "id": "A160",
@@ -1832,41 +1865,6 @@
     "description": "Number of families containing segregations that are inconsistent with the allele causing the condition",
     "fullyQualifiedName": "AggregateSegregationData.totalOfFamiliesWithInconsistentSegregations"
   },
-  "A170": {
-    "id": "A170",
-    "entityId": "E27",
-    "name": "allele",
-    "dataType": "CanonicalAllele",
-    "cardinality": "0..1",
-    "precedence": 4.0,
-    "description": "Allele on which the inheritance depends",
-    "fullyQualifiedName": "ConditionInheritance.allele"
-  },
-  "A171": {
-    "id": "A171",
-    "entityId": "E15",
-    "name": "modeOfInheritance",
-    "dataType": "CodeableConcept",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "valueSetId": "VS007",
-    "valueSetName": "ModeOfInheritance",
-    "precedence": 3.0,
-    "description": "Mode of inheritance for the condition, as defined in HP terms",
-    "fullyQualifiedName": "MendelianDiseaseVariantPathogenicityInterpretation.modeOfInheritance"
-  },
-  "A172": {
-    "id": "A172",
-    "entityId": "E35",
-    "name": "modeOfInheritance",
-    "dataType": "CodeableConcept",
-    "cardinality": "0..1",
-    "valueSetId": "VS007",
-    "valueSetName": "ModeOfInheritance",
-    "precedence": 5.0,
-    "description": "Mode of inheritance for the condition, as defined in HP terms",
-    "fullyQualifiedName": "VariantInterpretation.modeOfInheritance"
-  },
   "A173": {
     "id": "A173",
     "entityId": "E32",
@@ -1894,5 +1892,53 @@
     "dataType": "String",
     "cardinality": "0..1",
     "fullyQualifiedName": "ScoringAlgorithm.description"
+  },
+  "A177": {
+    "id": "A177",
+    "entityId": "E56",
+    "name": "description",
+    "dataType": "String",
+    "cardinality": "1..1",
+    "defaultValue": "not null",
+    "precedence": 1.0,
+    "fullyQualifiedName": "EvidenceLine.description"
+  },
+  "A178": {
+    "id": "A178",
+    "entityId": "E56",
+    "name": "supportingData",
+    "dataType": "Data",
+    "cardinality": "0..*",
+    "precedence": 3.0,
+    "fullyQualifiedName": "EvidenceLine.supportingData"
+  },
+  "A179": {
+    "id": "A179",
+    "entityId": "E56",
+    "name": "strength",
+    "dataType": "CodeableConcept",
+    "cardinality": "0..1",
+    "valueSetId": "VS017",
+    "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
+    "precedence": 2.0,
+    "fullyQualifiedName": "EvidenceLine.strength"
+  },
+  "A180": {
+    "id": "A180",
+    "entityId": "E56",
+    "name": "strengthBy",
+    "dataType": "Agent",
+    "cardinality": "0..1",
+    "precedence": 4.0,
+    "fullyQualifiedName": "EvidenceLine.strengthBy"
+  },
+  "A181": {
+    "id": "A181",
+    "entityId": "E56",
+    "name": "strengthOn",
+    "dataType": "Datetime",
+    "cardinality": "0..1",
+    "precedence": 5.0,
+    "fullyQualifiedName": "EvidenceLine.strengthOn"
   }
 }

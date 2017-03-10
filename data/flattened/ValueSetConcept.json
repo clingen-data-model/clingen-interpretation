@@ -308,77 +308,55 @@
   "VSC031": {
     "id": "VSC031",
     "valueSet": "VS011",
-    "valueSetName": "AssessmentOutcome",
-    "code": "I",
+    "valueSetName": "CriterionEvaluation",
+    "code": "INSUFFICIENT",
     "codeSystem": "CG",
-    "qualifiedCode": "CG:I",
-    "text": "Insufficient Evidence",
+    "qualifiedCode": "CG:INSUFFICIENT",
+    "text": "Evidence Insufficient for Rule",
     "authority": "ClinGen",
     "description": "If assessor feels it should be reviewed again in the future."
   },
   "VSC032": {
     "id": "VSC032",
     "valueSet": "VS011",
-    "valueSetName": "AssessmentOutcome",
-    "code": "R",
+    "valueSetName": "CriterionEvaluation",
+    "code": "REFUTE",
     "codeSystem": "CG",
-    "qualifiedCode": "CG:R",
-    "text": "Refuted",
+    "qualifiedCode": "CG:REFUTE",
+    "text": "Evidence Refutes Rule",
     "authority": "ClinGen",
     "description": "If assessor feels its so strong that no one should ever look at it again."
   },
   "VSC033": {
     "id": "VSC033",
     "valueSet": "VS011",
-    "valueSetName": "AssessmentOutcome",
-    "code": "VS",
+    "valueSetName": "CriterionEvaluation",
+    "code": "MET",
     "codeSystem": "CG",
-    "qualifiedCode": "CG:VS",
-    "text": "Very Strong",
+    "qualifiedCode": "CG:MET",
+    "text": "Evidence Satisfies Rule",
     "authority": "ClinGen",
     "description": "see ACMG guidelines"
   },
   "VSC034": {
     "id": "VSC034",
     "valueSet": "VS011",
-    "valueSetName": "AssessmentOutcome",
-    "code": "S",
+    "valueSetName": "CriterionEvaluation",
+    "code": "NOT_MET",
     "codeSystem": "CG",
-    "qualifiedCode": "CG:S",
-    "text": "Strong",
+    "qualifiedCode": "CG:NOT_MET",
+    "text": "Evidence Does Not Satisfy Rule",
     "authority": "ClinGen",
     "description": "see ACMG guidelines"
   },
   "VSC035": {
     "id": "VSC035",
     "valueSet": "VS011",
-    "valueSetName": "AssessmentOutcome",
-    "code": "M",
+    "valueSetName": "CriterionEvaluation",
+    "code": "NO_EVAL",
     "codeSystem": "CG",
-    "qualifiedCode": "CG:M",
-    "text": "Moderate",
-    "authority": "ClinGen",
-    "description": "see ACMG guidelines"
-  },
-  "VSC036": {
-    "id": "VSC036",
-    "valueSet": "VS011",
-    "valueSetName": "AssessmentOutcome",
-    "code": "P",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:P",
-    "text": "Supporting",
-    "authority": "ClinGen",
-    "description": "see ACMG guidelines"
-  },
-  "VSC037": {
-    "id": "VSC037",
-    "valueSet": "VS011",
-    "valueSetName": "AssessmentOutcome",
-    "code": "A",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:A",
-    "text": "Stand-Alone",
+    "qualifiedCode": "CG:NO_EVAL",
+    "text": "Rule Not Evaluated",
     "authority": "ClinGen",
     "description": "see ACMG guidelines"
   },
@@ -676,5 +654,509 @@
     "qualifiedCode": "SO:0001629",
     "text": "splice-site variant",
     "authority": "Sequence Ontology"
+  },
+  "VSC067": {
+    "id": "VSC067",
+    "valueSet": "VS017",
+    "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
+    "code": "I",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:I",
+    "text": "Inconclusive",
+    "authority": "ClinGen",
+    "description": "If no other strength can be assigned within reason based on the available evidence."
+  },
+  "VSC068": {
+    "id": "VSC068",
+    "valueSet": "VS017",
+    "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
+    "code": "PVS",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:PVS",
+    "text": "Pathogenic Very Strong",
+    "authority": "ClinGen",
+    "description": "see ACMG guidelines"
+  },
+  "VSC069": {
+    "id": "VSC069",
+    "valueSet": "VS017",
+    "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
+    "code": "PS",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:PS",
+    "text": "Pathogenic Strong",
+    "authority": "ClinGen",
+    "description": "see ACMG guidelines"
+  },
+  "VSC070": {
+    "id": "VSC070",
+    "valueSet": "VS017",
+    "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
+    "code": "PM",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:PM",
+    "text": "Pathogenic Moderate",
+    "authority": "ClinGen",
+    "description": "see ACMG guidelines"
+  },
+  "VSC071": {
+    "id": "VSC071",
+    "valueSet": "VS017",
+    "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
+    "code": "PP",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:PP",
+    "text": "Pathogenic Supporting",
+    "authority": "ClinGen",
+    "description": "see ACMG guidelines"
+  },
+  "VSC072": {
+    "id": "VSC072",
+    "valueSet": "VS017",
+    "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
+    "code": "BP",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:BP",
+    "text": "Benign Supporting",
+    "authority": "ClinGen",
+    "description": "see ACMG guidelines"
+  },
+  "VSC073": {
+    "id": "VSC073",
+    "valueSet": "VS017",
+    "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
+    "code": "BM",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:BM",
+    "text": "Benign Moderate",
+    "authority": "ClinGen",
+    "description": "see ACMG guidelines"
+  },
+  "VSC074": {
+    "id": "VSC074",
+    "valueSet": "VS017",
+    "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
+    "code": "BS",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:BS",
+    "text": "Benign Strong",
+    "authority": "ClinGen",
+    "description": "see ACMG guidelines"
+  },
+  "VSC075": {
+    "id": "VSC075",
+    "valueSet": "VS017",
+    "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
+    "code": "BSA",
+    "codeSystem": "CG",
+    "qualifiedCode": "CG:BSA",
+    "text": "Benign Stand Alone",
+    "authority": "ClinGen",
+    "description": "see ACMG guidelines"
+  },
+  "VSC076": {
+    "id": "VSC076",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "D061325",
+    "codeSystem": "MESH",
+    "qualifiedCode": "MESH:D061325",
+    "text": "hereditary breast ovarian cancer"
+  },
+  "VSC077": {
+    "id": "VSC077",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "217604",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:217604",
+    "text": "dilated cardiomyopathy"
+  },
+  "VSC078": {
+    "id": "VSC078",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "648",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:648",
+    "text": "noonan syndrome"
+  },
+  "VSC079": {
+    "id": "VSC079",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "244",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:244",
+    "text": "Primary ciliary dyskenisia"
+  },
+  "VSC080": {
+    "id": "VSC080",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "3071",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:3071",
+    "text": "costello syndrome"
+  },
+  "VSC081": {
+    "id": "VSC081",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "609942",
+    "codeSystem": "OMIM",
+    "qualifiedCode": "OMIM:609942",
+    "text": "noonan syndrome 3"
+  },
+  "VSC082": {
+    "id": "VSC082",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "167848",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:167848",
+    "text": "cardiomyopathy"
+  },
+  "VSC083": {
+    "id": "VSC083",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "98909",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:98909",
+    "text": "myofibrillar myopathy 1"
+  },
+  "VSC084": {
+    "id": "VSC084",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "87884",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:87884",
+    "text": "nonsyndromic deafness"
+  },
+  "VSC085": {
+    "id": "VSC085",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "423",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:423",
+    "text": "Malignant hyperthermia"
+  },
+  "VSC086": {
+    "id": "VSC086",
+    "valueSet": "VS019",
+    "valueSetName": "Phenotype",
+    "code": "0011014",
+    "codeSystem": "HP",
+    "qualifiedCode": "HP:0011014",
+    "text": "Abnormal Glucose Homeostasis"
+  },
+  "VSC087": {
+    "id": "VSC087",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "324",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:324",
+    "text": "Fabry disease"
+  },
+  "VSC088": {
+    "id": "VSC088",
+    "valueSet": "VS019",
+    "valueSetName": "Phenotype",
+    "code": "0200106",
+    "codeSystem": "HP",
+    "qualifiedCode": "HP:0200106",
+    "text": "Absent/shortened dynein arms"
+  },
+  "VSC089": {
+    "id": "VSC089",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "216",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:216",
+    "text": "neuronal ceroid lipofuscinosis"
+  },
+  "VSC090": {
+    "id": "VSC090",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "217569",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:217569",
+    "text": "hypertrophic cardiomyopathy"
+  },
+  "VSC091": {
+    "id": "VSC091",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "664",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:664",
+    "text": "Ornithine carbamoyltransferase deficiency"
+  },
+  "VSC092": {
+    "id": "VSC092",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "122",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:122",
+    "text": "Birt-Hogg-Dube Syndrome"
+  },
+  "VSC093": {
+    "id": "VSC093",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "1340",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:1340",
+    "text": "cardiofaciocutaneous syndrome"
+  },
+  "VSC094": {
+    "id": "VSC094",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "217569",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:217569",
+    "text": "hypertrophic cardiomyopathy"
+  },
+  "VSC095": {
+    "id": "VSC095",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "886",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:886",
+    "text": "Usher syndrome"
+  },
+  "VSC096": {
+    "id": "VSC096",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "774",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:774",
+    "text": "hereditary hemorrhagic telangiectasia"
+  },
+  "VSC097": {
+    "id": "VSC097",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "612555",
+    "codeSystem": "OMIM",
+    "qualifiedCode": "OMIM:612555",
+    "text": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2"
+  },
+  "VSC098": {
+    "id": "VSC098",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "63273",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:63273",
+    "text": "Distal myopathy with posterior leg and anterior hand involvement"
+  },
+  "VSC099": {
+    "id": "VSC099",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "586",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:586",
+    "text": "Cystic Fibrosis"
+  },
+  "VSC100": {
+    "id": "VSC100",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "558",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:558",
+    "text": "Marfan Syndrome"
+  },
+  "VSC101": {
+    "id": "VSC101",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "2609",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:2609",
+    "text": "Mitochondrial complex 1 deficiency"
+  },
+  "VSC102": {
+    "id": "VSC102",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "2855",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:2855",
+    "text": "Perrault Syndrome"
+  },
+  "VSC103": {
+    "id": "VSC103",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "319182",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:319182",
+    "text": "Wiedemann-Steiner syndrome"
+  },
+  "VSC104": {
+    "id": "VSC104",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "733",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:733",
+    "text": "Familial Adenomatous Polyposis"
+  },
+  "VSC105": {
+    "id": "VSC105",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "705",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:705",
+    "text": "Pendred syndrome"
+  },
+  "VSC106": {
+    "id": "VSC106",
+    "valueSet": "VS019",
+    "valueSetName": "Phenotype",
+    "code": "0000957",
+    "codeSystem": "HP",
+    "qualifiedCode": "HP:0000957",
+    "text": "café au lait macules (CALMs)"
+  },
+  "VSC107": {
+    "id": "VSC107",
+    "valueSet": "VS019",
+    "valueSetName": "Phenotype",
+    "code": "0000997",
+    "codeSystem": "HP",
+    "qualifiedCode": "HP:0000997",
+    "text": "axillary freckling"
+  },
+  "VSC108": {
+    "id": "VSC108",
+    "valueSet": "VS019",
+    "valueSetName": "Phenotype",
+    "code": "0000256",
+    "codeSystem": "HP",
+    "qualifiedCode": "HP:0000256",
+    "text": "macrocephaly"
+  },
+  "VSC109": {
+    "id": "VSC109",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "D006938",
+    "codeSystem": "MESH",
+    "qualifiedCode": "MESH:D006938",
+    "text": "Familial Hypercholesterolemia"
+  },
+  "VSC110": {
+    "id": "VSC110",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "D061325",
+    "codeSystem": "MESH",
+    "qualifiedCode": "MESH:D061325",
+    "text": "hereditary breast ovarian cancer"
+  },
+  "VSC111": {
+    "id": "VSC111",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "84",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:84",
+    "text": "Fanconi Anemia"
+  },
+  "VSC112": {
+    "id": "VSC112",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "791",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:791",
+    "text": "Retinitis Pigmentosa"
+  },
+  "VSC113": {
+    "id": "VSC113",
+    "valueSet": "VS019",
+    "valueSetName": "Phenotype",
+    "code": "0012873",
+    "codeSystem": "HP",
+    "qualifiedCode": "HP:0012873",
+    "text": "Absent vas deferens"
+  },
+  "VSC114": {
+    "id": "VSC114",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "94068",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:94068",
+    "text": "spondyloepiphyseal dysplasia congenita"
+  },
+  "VSC115": {
+    "id": "VSC115",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "750",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:750",
+    "text": "pseudoachondroplasia"
+  },
+  "VSC116": {
+    "id": "VSC116",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "750",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:750",
+    "text": "pseudoachondroplasia"
+  },
+  "VSC117": {
+    "id": "VSC117",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "114480",
+    "codeSystem": "OMIM",
+    "qualifiedCode": "OMIM:114480",
+    "text": "Breast Cancer"
+  },
+  "VSC118": {
+    "id": "VSC118",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "414",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:414",
+    "text": "gyrate atrophy"
+  },
+  "VSC119": {
+    "id": "VSC119",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "98733",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:98733",
+    "text": "Noonan syndrome and noonan-related syndrom"
+  },
+  "VSC120": {
+    "id": "VSC120",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "code": "247",
+    "codeSystem": "Orphanet",
+    "qualifiedCode": "Orphanet:247",
+    "text": "arrhythmogenic right ventricular cardiomyopathy"
   }
 }

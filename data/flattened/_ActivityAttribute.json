@@ -1,24 +1,6 @@
 [
   {
     "activityId": "AssessCrit001",
-    "attributeId": "A006",
-    "value": "MolCon001",
-    "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Protein ends at p.826 and this frameshift would create stop at p.852 (769+83) thus NMD would not occur. Instead an elongated protein"
-  },
-  {
-    "activityId": "AssessCrit001",
-    "attributeId": "A006",
-    "value": "CondMech002",
-    "evidenceDataName": "AssessCriterion",
-    "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "HNRNPU is not associated with any conditions, and therefore LOF is not an established mechanism of any condition for this gene."
-  },
-  {
-    "activityId": "AssessCrit001",
     "attributeId": "A007",
     "value": "PVS1",
     "evidenceDataName": "AssessCriterion",
@@ -41,8 +23,8 @@
     "value": "MolCon003",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "LOF is predicted to occur as variant is >55bp from penultimate exon"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "MolCon003"
   },
   {
     "activityId": "AssessCrit002",
@@ -50,8 +32,8 @@
     "value": "CondMech004",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "This is so well-known that it does not require a citation."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondMech004"
   },
   {
     "activityId": "AssessCrit002",
@@ -77,8 +59,8 @@
     "value": "Cond001",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Breast Ovarian Cancer"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond001"
   },
   {
     "activityId": "AssessCrit003",
@@ -86,8 +68,8 @@
     "value": "MolCon005",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "LOF is predicted but this transcript is rare"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "MolCon005"
   },
   {
     "activityId": "AssessCrit003",
@@ -95,8 +77,8 @@
     "value": "MolCon006",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "MolCon006"
   },
   {
     "activityId": "AssessCrit003",
@@ -104,8 +86,8 @@
     "value": "CondMech007",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondMech007"
   },
   {
     "activityId": "AssessCrit003",
@@ -131,17 +113,17 @@
     "value": "Cond002",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Dilated Cardiomyopathy"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond002"
   },
   {
     "activityId": "AssessCrit004",
     "attributeId": "A006",
-    "value": "MenDisVarInterp008",
+    "value": "VarInterp008",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "NM_002834.3:c.855T>G Pathogenic for Noonan Syndrome"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp008"
   },
   {
     "activityId": "AssessCrit004",
@@ -167,17 +149,17 @@
     "value": "Cond003",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Noonan Syndrome"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond003"
   },
   {
     "activityId": "AssessCrit005",
     "attributeId": "A006",
-    "value": "MenDisVarInterp009",
+    "value": "VarInterp009",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "NM_001369.2:c.6249G>A Pathogenic for PCD"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp009"
   },
   {
     "activityId": "AssessCrit005",
@@ -203,26 +185,26 @@
     "value": "Cond004",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Primary Ciliary Dyskenisia"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond004"
   },
   {
     "activityId": "AssessCrit006",
     "attributeId": "A006",
-    "value": "MenDisVarInterp010",
+    "value": "VarInterp010",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) Pathogenic for Noonan Syndrome 3"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp010"
   },
   {
     "activityId": "AssessCrit006",
     "attributeId": "A006",
-    "value": "MenDisVarInterp011",
+    "value": "VarInterp011",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) Pathogenic for Costello syndrome"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp011"
   },
   {
     "activityId": "AssessCrit006",
@@ -248,8 +230,8 @@
     "value": "Cond005",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Costello Syndrome"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond005"
   },
   {
     "activityId": "AssessCrit007",
@@ -257,8 +239,8 @@
     "value": "IndCond012",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond012"
   },
   {
     "activityId": "AssessCrit007",
@@ -266,8 +248,8 @@
     "value": "FamHist013",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "FamHist013"
   },
   {
     "activityId": "AssessCrit007",
@@ -275,8 +257,8 @@
     "value": "DeNovo014",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "parentage confirmed via haplotyping."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "DeNovo014"
   },
   {
     "activityId": "AssessCrit007",
@@ -302,8 +284,8 @@
     "value": "Cond007",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Cardiomyopathy"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond007"
   },
   {
     "activityId": "AssessCrit008",
@@ -311,8 +293,8 @@
     "value": "IndCond015",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond015"
   },
   {
     "activityId": "AssessCrit008",
@@ -320,8 +302,8 @@
     "value": "FamHist016",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "FamHist016"
   },
   {
     "activityId": "AssessCrit008",
@@ -329,8 +311,8 @@
     "value": "DeNovo017",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Non-paternity was excluded by assessment with microsatellites"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "DeNovo017"
   },
   {
     "activityId": "AssessCrit008",
@@ -356,8 +338,8 @@
     "value": "Cond008",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "desmin related myopathy"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond008"
   },
   {
     "activityId": "AssessCrit009",
@@ -365,8 +347,8 @@
     "value": "IndCond018",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond018"
   },
   {
     "activityId": "AssessCrit009",
@@ -374,8 +356,8 @@
     "value": "FamHist019",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "FamHist019"
   },
   {
     "activityId": "AssessCrit009",
@@ -383,8 +365,8 @@
     "value": "DeNovo020",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Variant from trio WES, which confirmed parentage"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "DeNovo020"
   },
   {
     "activityId": "AssessCrit009",
@@ -410,8 +392,8 @@
     "value": "Cond009",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Epilepsy with Mental Retardation"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond009"
   },
   {
     "activityId": "AssessCrit010",
@@ -419,8 +401,8 @@
     "value": "Func021",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Func021"
   },
   {
     "activityId": "AssessCrit010",
@@ -428,8 +410,8 @@
     "value": "Func022",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Func022"
   },
   {
     "activityId": "AssessCrit010",
@@ -437,8 +419,8 @@
     "value": "Func023",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Func023"
   },
   {
     "activityId": "AssessCrit010",
@@ -446,8 +428,8 @@
     "value": "Func024",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Func024"
   },
   {
     "activityId": "AssessCrit010",
@@ -473,8 +455,8 @@
     "value": "Func025",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Expression of human SPG7 (with this mutation) in yeast with damaged m-AAA protease did not restore respiratory growth or MrpL32 processing, if the function of AFG3L2 was impaired."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Func025"
   },
   {
     "activityId": "AssessCrit011",
@@ -500,8 +482,8 @@
     "value": "Func026",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Func026"
   },
   {
     "activityId": "AssessCrit012",
@@ -509,8 +491,8 @@
     "value": "Func027",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Func027"
   },
   {
     "activityId": "AssessCrit012",
@@ -536,8 +518,8 @@
     "value": "CaseCtrl030",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Treating ExAC data as controls for"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CaseCtrl030"
   },
   {
     "activityId": "AssessCrit013",
@@ -563,8 +545,8 @@
     "value": "Cond010",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Hearing Loss"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond010"
   },
   {
     "activityId": "AssessCrit014",
@@ -572,8 +554,8 @@
     "value": "CaseCtrl033",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Did not calculate formal odds ratio"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CaseCtrl033"
   },
   {
     "activityId": "AssessCrit014",
@@ -599,8 +581,8 @@
     "value": "Cond011",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Malignant Hyperthermia"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond011"
   },
   {
     "activityId": "AssessCrit015",
@@ -608,8 +590,8 @@
     "value": "CaseCtrl036",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Odds ratio is calculated by pooling samples from the six GENIUS T2D cohorts before calculation."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CaseCtrl036"
   },
   {
     "activityId": "AssessCrit015",
@@ -635,8 +617,8 @@
     "value": "Cond012",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Abnormal glucose homeostasis"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond012"
   },
   {
     "activityId": "AssessCrit016",
@@ -644,8 +626,8 @@
     "value": "Reg040",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "This region is the catalytic (kinase) domain."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Reg040"
   },
   {
     "activityId": "AssessCrit016",
@@ -671,8 +653,8 @@
     "value": "Reg043",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "This region is exon 15 in the transcript, and codes the serine-threonine-protein kinase catalytic domain."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Reg043"
   },
   {
     "activityId": "AssessCrit017",
@@ -698,8 +680,8 @@
     "value": "Reg046",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Region(NM_0001692[996..1012]) is a mutational hotspot and contains the following pathogenic variants: c.886A>G, c.890C>T, c.899T>C, & c.902G>A."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Reg046"
   },
   {
     "activityId": "AssessCrit018",
@@ -707,44 +689,44 @@
     "value": "BMVR102",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "ClinVar shows no benign missense variants in (or near) this region.  The closest is NM_000169.2:c.8T>C"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "BMVR102"
   },
   {
     "activityId": "AssessCrit018",
     "attributeId": "A006",
-    "value": "MenDisVarInterp047",
+    "value": "VarInterp047",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp047"
   },
   {
     "activityId": "AssessCrit018",
     "attributeId": "A006",
-    "value": "MenDisVarInterp048",
+    "value": "VarInterp048",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp048"
   },
   {
     "activityId": "AssessCrit018",
     "attributeId": "A006",
-    "value": "MenDisVarInterp049",
+    "value": "VarInterp049",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp049"
   },
   {
     "activityId": "AssessCrit018",
     "attributeId": "A006",
-    "value": "MenDisVarInterp050",
+    "value": "VarInterp050",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp050"
   },
   {
     "activityId": "AssessCrit018",
@@ -770,8 +752,8 @@
     "value": "AllFreq051",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "AllFreq051"
   },
   {
     "activityId": "AssessCrit019",
@@ -779,8 +761,8 @@
     "value": "AllFreq052",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "AllFreq052"
   },
   {
     "activityId": "AssessCrit019",
@@ -806,8 +788,8 @@
     "value": "AllFreq053",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "AllFreq053"
   },
   {
     "activityId": "AssessCrit020",
@@ -833,8 +815,8 @@
     "value": "AllFreq054",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "AllFreq054"
   },
   {
     "activityId": "AssessCrit021",
@@ -860,8 +842,8 @@
     "value": "CondInh055",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondInh055"
   },
   {
     "activityId": "AssessCrit022",
@@ -869,17 +851,17 @@
     "value": "IndCond056",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond056"
   },
   {
     "activityId": "AssessCrit022",
     "attributeId": "A006",
-    "value": "MenDisVarInterp057",
+    "value": "VarInterp057",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp057"
   },
   {
     "activityId": "AssessCrit022",
@@ -887,8 +869,8 @@
     "value": "IndAll058",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Father was het for c.9449delG variant and negative for c.7468_7488del variant. Mother was het for c.7468_7488del variant and negative for c.9449delG variant. Thus, variants are in trans in this proband."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll058"
   },
   {
     "activityId": "AssessCrit022",
@@ -914,8 +896,8 @@
     "value": "Cond004",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Primary Ciliary Dyskenisia"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond004"
   },
   {
     "activityId": "AssessCrit022",
@@ -923,17 +905,17 @@
     "value": "Cond014",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "outer dynein arm (ODA) defects"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond014"
   },
   {
     "activityId": "AssessCrit023",
     "attributeId": "A006",
-    "value": "MenDisVarInterp059",
+    "value": "VarInterp059",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp059"
   },
   {
     "activityId": "AssessCrit023",
@@ -941,8 +923,8 @@
     "value": "CondInh060",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondInh060"
   },
   {
     "activityId": "AssessCrit023",
@@ -950,8 +932,8 @@
     "value": "IndCond061",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond061"
   },
   {
     "activityId": "AssessCrit023",
@@ -959,8 +941,8 @@
     "value": "IndAll062",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Based on the NGS data, we are able to determine that c.298G>A and c.411+1G>A are in trans as no NGS reads carry both variants."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll062"
   },
   {
     "activityId": "AssessCrit023",
@@ -986,8 +968,8 @@
     "value": "Cond010",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Hearing Loss"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond010"
   },
   {
     "activityId": "AssessCrit024",
@@ -995,8 +977,8 @@
     "value": "CondInh063",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondInh063"
   },
   {
     "activityId": "AssessCrit024",
@@ -1004,8 +986,8 @@
     "value": "IndCond064",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond064"
   },
   {
     "activityId": "AssessCrit024",
@@ -1013,8 +995,8 @@
     "value": "IndAll065",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll065"
   },
   {
     "activityId": "AssessCrit024",
@@ -1040,8 +1022,8 @@
     "value": "Cond015",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "neuronal ceroid lipofuscinosis"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond015"
   },
   {
     "activityId": "AssessCrit025",
@@ -1049,8 +1031,8 @@
     "value": "MolCon066",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "MolCon066"
   },
   {
     "activityId": "AssessCrit025",
@@ -1058,8 +1040,8 @@
     "value": "Reg069",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "This is not a repreating region."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Reg069"
   },
   {
     "activityId": "AssessCrit025",
@@ -1085,8 +1067,8 @@
     "value": "MolCon070",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "MolCon070"
   },
   {
     "activityId": "AssessCrit026",
@@ -1094,8 +1076,8 @@
     "value": "Reg073",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "NP_056375.2[35..43] is not repeating."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Reg073"
   },
   {
     "activityId": "AssessCrit026",
@@ -1121,8 +1103,8 @@
     "value": "MolCon074",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "MolCon074"
   },
   {
     "activityId": "AssessCrit027",
@@ -1130,8 +1112,8 @@
     "value": "Reg077",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "NP_003915.2[241..260] is repeating."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Reg077"
   },
   {
     "activityId": "AssessCrit027",
@@ -1154,29 +1136,29 @@
   {
     "activityId": "AssessCrit028",
     "attributeId": "A006",
-    "value": "MenDisVarInterp078",
+    "value": "VarInterp078",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp078"
   },
   {
     "activityId": "AssessCrit028",
     "attributeId": "A006",
-    "value": "MenDisVarInterp079",
+    "value": "VarInterp079",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp079"
   },
   {
     "activityId": "AssessCrit028",
     "attributeId": "A006",
-    "value": "MenDisVarInterp042",
+    "value": "VarInterp042",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Uncertain Sig(not specified) NM_000363.4(TNNI3):c.484C>T (p.Arg162Trp)"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp042"
   },
   {
     "activityId": "AssessCrit028",
@@ -1193,8 +1175,8 @@
     "value": "Cond016",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Primary familial hypertrophic cardiomyopathy"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond016"
   },
   {
     "activityId": "AssessCrit028",
@@ -1208,11 +1190,11 @@
   {
     "activityId": "AssessCrit029",
     "attributeId": "A006",
-    "value": "MenDisVarInterp080",
+    "value": "VarInterp080",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp080"
   },
   {
     "activityId": "AssessCrit029",
@@ -1229,8 +1211,8 @@
     "value": "Cond017",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Ornithine carbamoyltransferase deficiency"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond017"
   },
   {
     "activityId": "AssessCrit029",
@@ -1244,11 +1226,11 @@
   {
     "activityId": "AssessCrit030",
     "attributeId": "A006",
-    "value": "MenDisVarInterp081",
+    "value": "VarInterp081",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp081"
   },
   {
     "activityId": "AssessCrit030",
@@ -1274,8 +1256,8 @@
     "value": "Cond001",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Breast Ovarian Cancer"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond001"
   },
   {
     "activityId": "AssessCrit031",
@@ -1283,8 +1265,8 @@
     "value": "AllFreq082",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "AllFreq082"
   },
   {
     "activityId": "AssessCrit031",
@@ -1320,7 +1302,7 @@
     "evidenceDataName": "GenerateVariantInterpretation",
     "attributeName": "criterionAssessments",
     "attributeType": "CriterionAssessment",
-    "lookupValue": "PM2(Insufficient Evidence)"
+    "lookupValue": "PM2(Evidence Insufficient for Rule)"
   },
   {
     "activityId": "GenVarInterp032",
@@ -1329,7 +1311,7 @@
     "evidenceDataName": "GenerateVariantInterpretation",
     "attributeName": "criterionAssessments",
     "attributeType": "CriterionAssessment",
-    "lookupValue": "PM3(Moderate)"
+    "lookupValue": "PM3(Evidence Satisfies Rule)"
   },
   {
     "activityId": "GenVarInterp032",
@@ -1338,7 +1320,7 @@
     "evidenceDataName": "GenerateVariantInterpretation",
     "attributeName": "criterionAssessments",
     "attributeType": "CriterionAssessment",
-    "lookupValue": "PM4(Moderate)"
+    "lookupValue": "PM4(Evidence Satisfies Rule)"
   },
   {
     "activityId": "GenVarInterp032",
@@ -1347,7 +1329,7 @@
     "evidenceDataName": "GenerateVariantInterpretation",
     "attributeName": "condition",
     "attributeType": "Condition",
-    "lookupValue": "Primary Ciliary Dyskenisia"
+    "lookupValue": "Cond004"
   },
   {
     "activityId": "GenVarInterp032",
@@ -1382,8 +1364,8 @@
     "value": "IndCond083",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond083"
   },
   {
     "activityId": "AssessCrit034",
@@ -1391,8 +1373,8 @@
     "value": "FamHist085",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "FamHist085"
   },
   {
     "activityId": "AssessCrit034",
@@ -1400,8 +1382,8 @@
     "value": "DeNovo087",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "parentage confirmation not mentioned in the source article"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "DeNovo087"
   },
   {
     "activityId": "AssessCrit034",
@@ -1409,8 +1391,8 @@
     "value": "IndCond084",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond084"
   },
   {
     "activityId": "AssessCrit034",
@@ -1418,8 +1400,8 @@
     "value": "FamHist086",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "FamHist086"
   },
   {
     "activityId": "AssessCrit034",
@@ -1427,8 +1409,8 @@
     "value": "DeNovo088",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "parentage confirmation not mentioned in the source article"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "DeNovo088"
   },
   {
     "activityId": "AssessCrit034",
@@ -1454,8 +1436,8 @@
     "value": "Cond018",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Birt-Hogg-Dube Syndrome"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond018"
   },
   {
     "activityId": "AssessCrit035",
@@ -1463,8 +1445,8 @@
     "value": "IndCond089",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond089"
   },
   {
     "activityId": "AssessCrit035",
@@ -1472,8 +1454,8 @@
     "value": "FamHist090",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "FamHist090"
   },
   {
     "activityId": "AssessCrit035",
@@ -1481,8 +1463,8 @@
     "value": "DeNovo091",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "parentage confirmation not mentioned in the source article"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "DeNovo091"
   },
   {
     "activityId": "AssessCrit035",
@@ -1508,8 +1490,8 @@
     "value": "Cond019",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Cardio-facio-cutaneous (CFC) syndrome"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond019"
   },
   {
     "activityId": "AssessCrit036",
@@ -1517,8 +1499,8 @@
     "value": "IndCond092",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond092"
   },
   {
     "activityId": "AssessCrit036",
@@ -1526,8 +1508,8 @@
     "value": "FamHist093",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "FamHist093"
   },
   {
     "activityId": "AssessCrit036",
@@ -1535,8 +1517,8 @@
     "value": "DeNovo094",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "DeNovo094"
   },
   {
     "activityId": "AssessCrit036",
@@ -1544,8 +1526,8 @@
     "value": "IndCond095",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond095"
   },
   {
     "activityId": "AssessCrit036",
@@ -1553,8 +1535,8 @@
     "value": "FamHist096",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "FamHist096"
   },
   {
     "activityId": "AssessCrit036",
@@ -1562,8 +1544,8 @@
     "value": "DeNovo097",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "DeNovo097"
   },
   {
     "activityId": "AssessCrit036",
@@ -1571,8 +1553,8 @@
     "value": "IndCond098",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond098"
   },
   {
     "activityId": "AssessCrit036",
@@ -1580,8 +1562,8 @@
     "value": "FamHist099",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "FamHist099"
   },
   {
     "activityId": "AssessCrit036",
@@ -1589,8 +1571,8 @@
     "value": "DeNovo100",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "DeNovo100"
   },
   {
     "activityId": "AssessCrit036",
@@ -1616,8 +1598,8 @@
     "value": "Cond019",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Cardio-facio-cutaneous (CFC) syndrome"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond019"
   },
   {
     "activityId": "AssessCrit037",
@@ -1625,8 +1607,8 @@
     "value": "CondInh106",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondInh106"
   },
   {
     "activityId": "AssessCrit037",
@@ -1634,8 +1616,8 @@
     "value": "AggSegData105",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "AggSegData105"
   },
   {
     "activityId": "AssessCrit037",
@@ -1661,8 +1643,8 @@
     "value": "Cond020",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Hypertrophic Cardiomyopathy"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond020"
   },
   {
     "activityId": "AssessCrit038",
@@ -1670,8 +1652,8 @@
     "value": "CondInh110",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondInh110"
   },
   {
     "activityId": "AssessCrit038",
@@ -1679,8 +1661,8 @@
     "value": "AggSegData109",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "AggSegData109"
   },
   {
     "activityId": "AssessCrit038",
@@ -1706,8 +1688,8 @@
     "value": "Cond021",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Usher syndrome"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond021"
   },
   {
     "activityId": "AssessCrit039",
@@ -1715,8 +1697,8 @@
     "value": "FamSegData111",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "FamSegData111"
   },
   {
     "activityId": "AssessCrit039",
@@ -1724,8 +1706,8 @@
     "value": "CondInh112",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondInh112"
   },
   {
     "activityId": "AssessCrit039",
@@ -1751,8 +1733,8 @@
     "value": "Cond001",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Breast Ovarian Cancer"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond001"
   },
   {
     "activityId": "AssessCrit040",
@@ -1760,8 +1742,8 @@
     "value": "AggSegData115",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "AggSegData115"
   },
   {
     "activityId": "AssessCrit040",
@@ -1769,8 +1751,8 @@
     "value": "CondInh116",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondInh116"
   },
   {
     "activityId": "AssessCrit040",
@@ -1796,8 +1778,8 @@
     "value": "Cond002",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Dilated Cardiomyopathy"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond002"
   },
   {
     "activityId": "AssessCrit041",
@@ -1805,8 +1787,8 @@
     "value": "MolCon117",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "MolCon117"
   },
   {
     "activityId": "AssessCrit041",
@@ -1814,8 +1796,8 @@
     "value": "CondMech118",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Of 178 pathogenic  alleles in ClinVar, 149 are missense."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondMech118"
   },
   {
     "activityId": "AssessCrit041",
@@ -1823,8 +1805,8 @@
     "value": "BMVR119",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Based on the gene size, ExAC expects 740 missense variants to be observed, but actually observes only 420, giving a z score of 6.5, which is in the top 0.02% of genes."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "BMVR119"
   },
   {
     "activityId": "AssessCrit041",
@@ -1850,8 +1832,8 @@
     "value": "InSilicoPred120",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred120"
   },
   {
     "activityId": "AssessCrit042",
@@ -1859,8 +1841,8 @@
     "value": "InSilicoPred121",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred121"
   },
   {
     "activityId": "AssessCrit042",
@@ -1868,8 +1850,8 @@
     "value": "InSilicoPred122",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred122"
   },
   {
     "activityId": "AssessCrit042",
@@ -1877,8 +1859,8 @@
     "value": "InSilicoPred123",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred123"
   },
   {
     "activityId": "AssessCrit042",
@@ -1886,8 +1868,8 @@
     "value": "InSilicoPred124",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred124"
   },
   {
     "activityId": "AssessCrit042",
@@ -1895,8 +1877,8 @@
     "value": "InSilicoPred125",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred125"
   },
   {
     "activityId": "AssessCrit042",
@@ -1904,8 +1886,8 @@
     "value": "InSilicoPred126",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred126"
   },
   {
     "activityId": "AssessCrit042",
@@ -1913,8 +1895,8 @@
     "value": "InSilicoPred127",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred127"
   },
   {
     "activityId": "AssessCrit042",
@@ -1922,8 +1904,8 @@
     "value": "InSilicoPred128",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred128"
   },
   {
     "activityId": "AssessCrit042",
@@ -1949,8 +1931,8 @@
     "value": "InSilicoPred129",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred129"
   },
   {
     "activityId": "AssessCrit043",
@@ -1958,8 +1940,8 @@
     "value": "InSilicoPred130",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred130"
   },
   {
     "activityId": "AssessCrit043",
@@ -1967,8 +1949,8 @@
     "value": "InSilicoPred131",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred131"
   },
   {
     "activityId": "AssessCrit043",
@@ -1976,8 +1958,8 @@
     "value": "InSilicoPred132",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred132"
   },
   {
     "activityId": "AssessCrit043",
@@ -1985,8 +1967,8 @@
     "value": "InSilicoPred133",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred133"
   },
   {
     "activityId": "AssessCrit043",
@@ -1994,8 +1976,8 @@
     "value": "InSilicoPred134",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred134"
   },
   {
     "activityId": "AssessCrit043",
@@ -2003,8 +1985,8 @@
     "value": "InSilicoPred135",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred135"
   },
   {
     "activityId": "AssessCrit043",
@@ -2012,8 +1994,8 @@
     "value": "InSilicoPred136",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred136"
   },
   {
     "activityId": "AssessCrit043",
@@ -2021,8 +2003,8 @@
     "value": "InSilicoPred137",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred137"
   },
   {
     "activityId": "AssessCrit043",
@@ -2048,8 +2030,8 @@
     "value": "InSilicoPred138",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred138"
   },
   {
     "activityId": "AssessCrit044",
@@ -2057,8 +2039,8 @@
     "value": "InSilicoPred139",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred139"
   },
   {
     "activityId": "AssessCrit044",
@@ -2066,8 +2048,8 @@
     "value": "InSilicoPred140",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred140"
   },
   {
     "activityId": "AssessCrit044",
@@ -2075,8 +2057,8 @@
     "value": "InSilicoPred141",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred141"
   },
   {
     "activityId": "AssessCrit044",
@@ -2084,8 +2066,8 @@
     "value": "InSilicoPred142",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred142"
   },
   {
     "activityId": "AssessCrit044",
@@ -2093,8 +2075,8 @@
     "value": "InSilicoPred143",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred143"
   },
   {
     "activityId": "AssessCrit044",
@@ -2102,8 +2084,8 @@
     "value": "InSilicoPred144",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred144"
   },
   {
     "activityId": "AssessCrit044",
@@ -2111,8 +2093,8 @@
     "value": "InSilicoPred145",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred145"
   },
   {
     "activityId": "AssessCrit044",
@@ -2120,8 +2102,8 @@
     "value": "InSilicoPred146",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred146"
   },
   {
     "activityId": "AssessCrit044",
@@ -2129,8 +2111,8 @@
     "value": "InSilicoPred147",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred147"
   },
   {
     "activityId": "AssessCrit044",
@@ -2156,8 +2138,8 @@
     "value": "CondEtiol148",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "HHT type 1 is only known to be caused by variants in ENG -"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondEtiol148"
   },
   {
     "activityId": "AssessCrit046",
@@ -2183,8 +2165,8 @@
     "value": "Cond022",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Hereditary Hemorrhagic Telangiectasia Type 1"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond022"
   },
   {
     "activityId": "AssessCrit047",
@@ -2192,8 +2174,8 @@
     "value": "CondEtiol149",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "1.Only ~50% of HCM is genetic (can be caused by environment) \n2. More than 10 genes can cause HCM (specifically 9 sarcomere genes)"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondEtiol149"
   },
   {
     "activityId": "AssessCrit047",
@@ -2219,17 +2201,17 @@
     "value": "Cond020",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Hypertrophic Cardiomyopathy"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond020"
   },
   {
     "activityId": "AssessCrit048",
     "attributeId": "A006",
-    "value": "MenDisVarInterp150",
+    "value": "VarInterp150",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Variant has been classified as “Pathogenic” by Sharing Clinical Reports Project (SCV000054057.3)"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp150"
   },
   {
     "activityId": "AssessCrit048",
@@ -2255,17 +2237,17 @@
     "value": "Cond023",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Breast-ovarian cancer, familial 2"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond023"
   },
   {
     "activityId": "AssessCrit049",
     "attributeId": "A006",
-    "value": "MenDisVarInterp151",
+    "value": "VarInterp151",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Variant has been classified as “Pathogenic” by OMIM (SCV000043718.1)"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp151"
   },
   {
     "activityId": "AssessCrit049",
@@ -2291,17 +2273,17 @@
     "value": "Cond024",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Myopathy, distal, 4"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond024"
   },
   {
     "activityId": "AssessCrit050",
     "attributeId": "A006",
-    "value": "MenDisVarInterp152",
+    "value": "VarInterp152",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Variant has been classified as “Pathogenic” by Expert panel CFTR (SCV000245981.1)"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp152"
   },
   {
     "activityId": "AssessCrit050",
@@ -2327,8 +2309,8 @@
     "value": "Cond025",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Cystic Fibrosis"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond025"
   },
   {
     "activityId": "AssessCrit051",
@@ -2336,8 +2318,8 @@
     "value": "AllFreq153",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "AllFreq153"
   },
   {
     "activityId": "AssessCrit051",
@@ -2363,8 +2345,8 @@
     "value": "AllFreq154",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "AllFreq154"
   },
   {
     "activityId": "AssessCrit052",
@@ -2372,8 +2354,8 @@
     "value": "AllFreq155",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "AllFreq155"
   },
   {
     "activityId": "AssessCrit052",
@@ -2399,8 +2381,8 @@
     "value": "CondInh156",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondInh156"
   },
   {
     "activityId": "AssessCrit053",
@@ -2408,8 +2390,8 @@
     "value": "AllFreq157",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "AllFreq157"
   },
   {
     "activityId": "AssessCrit053",
@@ -2435,8 +2417,8 @@
     "value": "Cond004",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Primary Ciliary Dyskenisia"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond004"
   },
   {
     "activityId": "AssessCrit054",
@@ -2444,8 +2426,8 @@
     "value": "AllFreq158",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "AllFreq158"
   },
   {
     "activityId": "AssessCrit054",
@@ -2453,8 +2435,8 @@
     "value": "CondPrev159",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondPrev159"
   },
   {
     "activityId": "AssessCrit054",
@@ -2462,8 +2444,8 @@
     "value": "CondPenet160",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondPenet160"
   },
   {
     "activityId": "AssessCrit054",
@@ -2471,8 +2453,8 @@
     "value": "CondInh161",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondInh161"
   },
   {
     "activityId": "AssessCrit054",
@@ -2498,8 +2480,8 @@
     "value": "Cond026",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Marfan Syndrome"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond026"
   },
   {
     "activityId": "AssessCrit055",
@@ -2507,8 +2489,8 @@
     "value": "AllFreq162",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "AllFreq162"
   },
   {
     "activityId": "AssessCrit055",
@@ -2516,8 +2498,8 @@
     "value": "CondPrev163",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondPrev163"
   },
   {
     "activityId": "AssessCrit055",
@@ -2525,8 +2507,8 @@
     "value": "CondPenet164",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondPenet164"
   },
   {
     "activityId": "AssessCrit055",
@@ -2534,8 +2516,8 @@
     "value": "CondInh165",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondInh165"
   },
   {
     "activityId": "AssessCrit055",
@@ -2561,8 +2543,8 @@
     "value": "Cond027",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Mitochondrial complex 1 deficiency"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond027"
   },
   {
     "activityId": "AssessCrit056",
@@ -2570,8 +2552,8 @@
     "value": "AllFreq166",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "AllFreq166"
   },
   {
     "activityId": "AssessCrit056",
@@ -2579,8 +2561,8 @@
     "value": "CondPrev167",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondPrev167"
   },
   {
     "activityId": "AssessCrit056",
@@ -2588,8 +2570,8 @@
     "value": "CondPenet168",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondPenet168"
   },
   {
     "activityId": "AssessCrit056",
@@ -2597,8 +2579,8 @@
     "value": "CondInh169",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondInh169"
   },
   {
     "activityId": "AssessCrit056",
@@ -2624,8 +2606,8 @@
     "value": "Cond028",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Perrault Syndrome"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond028"
   },
   {
     "activityId": "AssessCrit057",
@@ -2633,8 +2615,8 @@
     "value": "CondPenet170",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "The evidence for full penetrance is not great, due to the rarity of the disease, but the fact that it's diagnosed at a young age and majority of cases are de novo is suggestive"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondPenet170"
   },
   {
     "activityId": "AssessCrit057",
@@ -2642,8 +2624,8 @@
     "value": "CondInh171",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondInh171"
   },
   {
     "activityId": "AssessCrit057",
@@ -2651,8 +2633,8 @@
     "value": "IndAll172",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll172"
   },
   {
     "activityId": "AssessCrit057",
@@ -2660,8 +2642,8 @@
     "value": "IndAll173",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll173"
   },
   {
     "activityId": "AssessCrit057",
@@ -2669,8 +2651,8 @@
     "value": "IndCond174",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond174"
   },
   {
     "activityId": "AssessCrit057",
@@ -2678,8 +2660,8 @@
     "value": "IndCond175",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond175"
   },
   {
     "activityId": "AssessCrit057",
@@ -2705,8 +2687,8 @@
     "value": "Cond029",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Wiedemann-Steiner syndrome"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond029"
   },
   {
     "activityId": "AssessCrit058",
@@ -2714,8 +2696,8 @@
     "value": "CondPenet176",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "the disease manifests as hundreds of colorectal ademonas during adolescence. This can progress to colorectal cancer later in life, but the adenomas manifest early."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondPenet176"
   },
   {
     "activityId": "AssessCrit058",
@@ -2723,8 +2705,8 @@
     "value": "CondInh177",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondInh177"
   },
   {
     "activityId": "AssessCrit058",
@@ -2732,8 +2714,8 @@
     "value": "IndAll178",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll178"
   },
   {
     "activityId": "AssessCrit058",
@@ -2741,8 +2723,8 @@
     "value": "IndAll179",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll179"
   },
   {
     "activityId": "AssessCrit058",
@@ -2750,8 +2732,8 @@
     "value": "IndAll180",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll180"
   },
   {
     "activityId": "AssessCrit058",
@@ -2759,8 +2741,8 @@
     "value": "IndAll181",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll181"
   },
   {
     "activityId": "AssessCrit058",
@@ -2768,8 +2750,8 @@
     "value": "IndCond182",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond182"
   },
   {
     "activityId": "AssessCrit058",
@@ -2777,8 +2759,8 @@
     "value": "IndCond183",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond183"
   },
   {
     "activityId": "AssessCrit058",
@@ -2786,8 +2768,8 @@
     "value": "IndCond184",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond184"
   },
   {
     "activityId": "AssessCrit058",
@@ -2795,8 +2777,8 @@
     "value": "IndCond185",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond185"
   },
   {
     "activityId": "AssessCrit058",
@@ -2822,8 +2804,8 @@
     "value": "Cond030",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Familial Adenomatous Polyposis"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond030"
   },
   {
     "activityId": "AssessCrit059",
@@ -2831,8 +2813,8 @@
     "value": "CondPenet186",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Marfan syndrome involves a range of skeletal features that should be identifiable at birth, if not during adolescence. The ocular and cardiovascular aspects may manifest later. 1/4 of mutations are de novo."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondPenet186"
   },
   {
     "activityId": "AssessCrit059",
@@ -2840,8 +2822,8 @@
     "value": "CondInh187",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondInh187"
   },
   {
     "activityId": "AssessCrit059",
@@ -2849,8 +2831,8 @@
     "value": "IndAll188",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll188"
   },
   {
     "activityId": "AssessCrit059",
@@ -2858,8 +2840,8 @@
     "value": "IndAll189",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll189"
   },
   {
     "activityId": "AssessCrit059",
@@ -2867,8 +2849,8 @@
     "value": "IndCond190",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond190"
   },
   {
     "activityId": "AssessCrit059",
@@ -2876,8 +2858,8 @@
     "value": "IndCond191",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond191"
   },
   {
     "activityId": "AssessCrit059",
@@ -2903,8 +2885,8 @@
     "value": "Cond026",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Marfan Syndrome"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond026"
   },
   {
     "activityId": "AssessCrit061",
@@ -2912,8 +2894,8 @@
     "value": "Func192",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Func192"
   },
   {
     "activityId": "AssessCrit061",
@@ -2921,8 +2903,8 @@
     "value": "Func193",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Both wild type and NP_000432..1:p.Leu117Phe localize to the same location"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Func193"
   },
   {
     "activityId": "AssessCrit061",
@@ -2948,8 +2930,8 @@
     "value": "Func194",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Func194"
   },
   {
     "activityId": "AssessCrit062",
@@ -2957,8 +2939,8 @@
     "value": "Func195",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Func195"
   },
   {
     "activityId": "AssessCrit062",
@@ -2984,8 +2966,8 @@
     "value": "FamSegData196",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "observed in one case diagnosed with Familial Hypercholesterolemia, characterized by elevated LDLC levels. Two siblings of the proband also have elevated LDLC levels but neither carry the 313+2T>C variant."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "FamSegData196"
   },
   {
     "activityId": "AssessCrit063",
@@ -3011,8 +2993,8 @@
     "value": "Cond035",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Familial Hypercholesterolemia"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond035"
   },
   {
     "activityId": "AssessCrit064",
@@ -3020,8 +3002,8 @@
     "value": "FamSegData197",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "The individual with HCM but without the allele is likely a phenocopy explained\nby environmental factors (obese, alcohol)"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "FamSegData197"
   },
   {
     "activityId": "AssessCrit064",
@@ -3047,8 +3029,8 @@
     "value": "Cond020",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Hypertrophic Cardiomyopathy"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond020"
   },
   {
     "activityId": "AssessCrit065",
@@ -3056,8 +3038,8 @@
     "value": "FamSegData271",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "FamSegData271"
   },
   {
     "activityId": "AssessCrit065",
@@ -3083,8 +3065,8 @@
     "value": "Cond020",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Hypertrophic Cardiomyopathy"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond020"
   },
   {
     "activityId": "AssessCrit066",
@@ -3092,8 +3074,8 @@
     "value": "MolCon198",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "MolCon198"
   },
   {
     "activityId": "AssessCrit066",
@@ -3101,8 +3083,8 @@
     "value": "CondMech199",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "ClinVar shows 421 variants in BRCA2 that are pathogenic for HBOC. 402 of these (~95%) are frameshift, nonsense, or splice-site variants."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondMech199"
   },
   {
     "activityId": "AssessCrit066",
@@ -3128,8 +3110,8 @@
     "value": "Cond036",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Hereditary Breast and Ovarian Cancer"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond036"
   },
   {
     "activityId": "AssessCrit067",
@@ -3137,8 +3119,8 @@
     "value": "MolCon198",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "MolCon198"
   },
   {
     "activityId": "AssessCrit067",
@@ -3146,8 +3128,8 @@
     "value": "CondMech200",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "ClinVar shows 61 variants in BRCA2 that are pathogenic for Fanconi Anemia. 55 of these (~90%) are frameshift, nonsense, or splice-site variants."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondMech200"
   },
   {
     "activityId": "AssessCrit067",
@@ -3173,8 +3155,8 @@
     "value": "Cond037",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Fanconi Anemia"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond037"
   },
   {
     "activityId": "AssessCrit068",
@@ -3182,8 +3164,8 @@
     "value": "MolCon201",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "MolCon201"
   },
   {
     "activityId": "AssessCrit068",
@@ -3191,8 +3173,8 @@
     "value": "CondMech202",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "shown in both humans and mouse models"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondMech202"
   },
   {
     "activityId": "AssessCrit068",
@@ -3218,8 +3200,8 @@
     "value": "Cond010",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Hearing Loss"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond010"
   },
   {
     "activityId": "AssessCrit069",
@@ -3227,8 +3209,8 @@
     "value": "MolCon203",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "MolCon203"
   },
   {
     "activityId": "AssessCrit069",
@@ -3236,8 +3218,8 @@
     "value": "CondMech204",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondMech204"
   },
   {
     "activityId": "AssessCrit069",
@@ -3245,8 +3227,8 @@
     "value": "CondMech205",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Truncating variants in TTN are associated with DCM. However, if missense variants are located in the A-band, impact the A-band, or are in a highly expressed region, they can also be associated with DCM."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondMech205"
   },
   {
     "activityId": "AssessCrit069",
@@ -3272,8 +3254,8 @@
     "value": "Cond002",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Dilated Cardiomyopathy"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond002"
   },
   {
     "activityId": "AssessCrit070",
@@ -3281,8 +3263,8 @@
     "value": "IndAll206",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll206"
   },
   {
     "activityId": "AssessCrit070",
@@ -3290,8 +3272,8 @@
     "value": "IndAll207",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll207"
   },
   {
     "activityId": "AssessCrit070",
@@ -3299,8 +3281,8 @@
     "value": "IndCond208",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond208"
   },
   {
     "activityId": "AssessCrit070",
@@ -3308,17 +3290,17 @@
     "value": "IndCond209",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond209"
   },
   {
     "activityId": "AssessCrit070",
     "attributeId": "A006",
-    "value": "MenDisVarInterp210",
+    "value": "VarInterp210",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp210"
   },
   {
     "activityId": "AssessCrit070",
@@ -3344,8 +3326,8 @@
     "value": "Cond038",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Retinitis Pigmentosa"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond038"
   },
   {
     "activityId": "AssessCrit071",
@@ -3353,8 +3335,8 @@
     "value": "IndAll211",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll211"
   },
   {
     "activityId": "AssessCrit071",
@@ -3362,17 +3344,17 @@
     "value": "IndCond212",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond212"
   },
   {
     "activityId": "AssessCrit071",
     "attributeId": "A006",
-    "value": "MenDisVarInterp213",
+    "value": "VarInterp213",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp213"
   },
   {
     "activityId": "AssessCrit071",
@@ -3398,8 +3380,8 @@
     "value": "Cond039",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Congenital Absence of the Vas Deferens"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond039"
   },
   {
     "activityId": "AssessCrit072",
@@ -3407,8 +3389,8 @@
     "value": "IndAll214",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll214"
   },
   {
     "activityId": "AssessCrit072",
@@ -3416,17 +3398,17 @@
     "value": "IndCond215",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond215"
   },
   {
     "activityId": "AssessCrit072",
     "attributeId": "A006",
-    "value": "MenDisVarInterp216",
+    "value": "VarInterp216",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp216"
   },
   {
     "activityId": "AssessCrit072",
@@ -3434,8 +3416,8 @@
     "value": "CondInh217",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondInh217"
   },
   {
     "activityId": "AssessCrit072",
@@ -3443,8 +3425,8 @@
     "value": "CondPenet218",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "CondPenet218"
   },
   {
     "activityId": "AssessCrit072",
@@ -3470,8 +3452,8 @@
     "value": "Cond007",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Cardiomyopathy"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond007"
   },
   {
     "activityId": "CapData073",
@@ -3560,8 +3542,8 @@
     "value": "Reg220",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "region is repeating but does not have a known function."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Reg220"
   },
   {
     "activityId": "AssessCrit082",
@@ -3569,8 +3551,8 @@
     "value": "MolCon223",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "MolCon223"
   },
   {
     "activityId": "AssessCrit082",
@@ -3596,8 +3578,8 @@
     "value": "Reg225",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "The I-Band is a large region of repetitive Igg domains. Allele NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC is contained by this region."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Reg225"
   },
   {
     "activityId": "AssessCrit083",
@@ -3605,8 +3587,8 @@
     "value": "MolCon227",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "MolCon227"
   },
   {
     "activityId": "AssessCrit083",
@@ -3632,8 +3614,8 @@
     "value": "Reg229",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Reg229"
   },
   {
     "activityId": "AssessCrit084",
@@ -3641,8 +3623,8 @@
     "value": "MolCon231",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "MolCon231"
   },
   {
     "activityId": "AssessCrit084",
@@ -3668,8 +3650,8 @@
     "value": "InSilicoPred232",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred232"
   },
   {
     "activityId": "AssessCrit085",
@@ -3677,8 +3659,8 @@
     "value": "InSilicoPred233",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred233"
   },
   {
     "activityId": "AssessCrit085",
@@ -3686,8 +3668,8 @@
     "value": "InSilicoPred234",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred234"
   },
   {
     "activityId": "AssessCrit085",
@@ -3695,8 +3677,8 @@
     "value": "InSilicoPred235",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred235"
   },
   {
     "activityId": "AssessCrit085",
@@ -3704,8 +3686,8 @@
     "value": "InSilicoPred236",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred236"
   },
   {
     "activityId": "AssessCrit085",
@@ -3713,8 +3695,8 @@
     "value": "InSilicoPred237",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred237"
   },
   {
     "activityId": "AssessCrit085",
@@ -3722,8 +3704,8 @@
     "value": "InSilicoPred238",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred238"
   },
   {
     "activityId": "AssessCrit085",
@@ -3731,8 +3713,8 @@
     "value": "InSilicoPred239",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred239"
   },
   {
     "activityId": "AssessCrit085",
@@ -3740,8 +3722,8 @@
     "value": "InSilicoPred240",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred240"
   },
   {
     "activityId": "AssessCrit085",
@@ -3766,7 +3748,7 @@
     "attributeId": "A006",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
+    "attributeType": "EvidenceLine",
     "lookupValue": ""
   },
   {
@@ -3774,7 +3756,7 @@
     "attributeId": "A006",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
+    "attributeType": "EvidenceLine",
     "lookupValue": ""
   },
   {
@@ -3801,8 +3783,8 @@
     "value": "IndAll241",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll241"
   },
   {
     "activityId": "AssessCrit088",
@@ -3810,17 +3792,17 @@
     "value": "IndCond242",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond242"
   },
   {
     "activityId": "AssessCrit088",
     "attributeId": "A006",
-    "value": "MenDisVarInterp243",
+    "value": "VarInterp243",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp243"
   },
   {
     "activityId": "AssessCrit088",
@@ -3846,8 +3828,8 @@
     "value": "Cond020",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Hypertrophic Cardiomyopathy"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond020"
   },
   {
     "activityId": "AssessCrit089",
@@ -3855,8 +3837,8 @@
     "value": "IndAll244",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll244"
   },
   {
     "activityId": "AssessCrit089",
@@ -3864,8 +3846,8 @@
     "value": "IndAll245",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll245"
   },
   {
     "activityId": "AssessCrit089",
@@ -3873,26 +3855,26 @@
     "value": "IndCond246",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond246"
   },
   {
     "activityId": "AssessCrit089",
     "attributeId": "A006",
-    "value": "MenDisVarInterp247",
+    "value": "VarInterp247",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp247"
   },
   {
     "activityId": "AssessCrit089",
     "attributeId": "A006",
-    "value": "MenDisVarInterp248",
+    "value": "VarInterp248",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp248"
   },
   {
     "activityId": "AssessCrit089",
@@ -3918,8 +3900,8 @@
     "value": "Cond010",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Hearing Loss"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond010"
   },
   {
     "activityId": "AssessCrit090",
@@ -3927,8 +3909,8 @@
     "value": "IndAll249",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll249"
   },
   {
     "activityId": "AssessCrit090",
@@ -3936,17 +3918,17 @@
     "value": "IndCond250",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond250"
   },
   {
     "activityId": "AssessCrit090",
     "attributeId": "A006",
-    "value": "MenDisVarInterp251",
+    "value": "VarInterp251",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp251"
   },
   {
     "activityId": "AssessCrit090",
@@ -3972,8 +3954,8 @@
     "value": "IndCond252",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndCond252"
   },
   {
     "activityId": "AssessCrit091",
@@ -3981,26 +3963,26 @@
     "value": "IndAll253",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "IndAll253"
   },
   {
     "activityId": "AssessCrit091",
     "attributeId": "A006",
-    "value": "MenDisVarInterp254",
+    "value": "VarInterp254",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp254"
   },
   {
     "activityId": "AssessCrit091",
     "attributeId": "A006",
-    "value": "MenDisVarInterp270",
+    "value": "VarInterp270",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Pseudoachondroplastic spondyloepiphyseal dysplasia syndrome is caused by a combination of a pathogenic variant in COL2A1 and another in COMP.   So CA113 may be involved, but is not the sole cause."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp270"
   },
   {
     "activityId": "AssessCrit091",
@@ -4026,17 +4008,17 @@
     "value": "Cond040",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Primary bone dysplasia"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond040"
   },
   {
     "activityId": "AssessCrit092",
     "attributeId": "A006",
-    "value": "MenDisVarInterp255",
+    "value": "VarInterp255",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "classified by ENIGMA."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp255"
   },
   {
     "activityId": "AssessCrit092",
@@ -4062,17 +4044,17 @@
     "value": "Cond036",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Hereditary Breast and Ovarian Cancer"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond036"
   },
   {
     "activityId": "AssessCrit093",
     "attributeId": "A006",
-    "value": "MenDisVarInterp256",
+    "value": "VarInterp256",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "classified by Sharing Clinical Reports Project."
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp256"
   },
   {
     "activityId": "AssessCrit093",
@@ -4098,17 +4080,17 @@
     "value": "Cond043",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Familial Cancer of Breast"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond043"
   },
   {
     "activityId": "AssessCrit094",
     "attributeId": "A006",
-    "value": "MenDisVarInterp257",
+    "value": "VarInterp257",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "classified by OMIM"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "VarInterp257"
   },
   {
     "activityId": "AssessCrit094",
@@ -4134,8 +4116,8 @@
     "value": "Cond044",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "condition",
-    "attributeType": "Condition",
-    "lookupValue": "Gyrate atrophy of choroid and retina"
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Cond044"
   },
   {
     "activityId": "AssessCrit095",
@@ -4143,8 +4125,8 @@
     "value": "InSilicoPred258",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred258"
   },
   {
     "activityId": "AssessCrit095",
@@ -4152,8 +4134,8 @@
     "value": "Conserv259",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Conserv259"
   },
   {
     "activityId": "AssessCrit095",
@@ -4161,8 +4143,8 @@
     "value": "Conserv260",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Conserv260"
   },
   {
     "activityId": "AssessCrit095",
@@ -4170,8 +4152,8 @@
     "value": "MolCon261",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "MolCon261"
   },
   {
     "activityId": "AssessCrit095",
@@ -4197,8 +4179,8 @@
     "value": "InSilicoPred262",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": "Provenance would show that this comes from Alamut"
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred262"
   },
   {
     "activityId": "AssessCrit096",
@@ -4206,8 +4188,8 @@
     "value": "Conserv263",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Conserv263"
   },
   {
     "activityId": "AssessCrit096",
@@ -4215,8 +4197,8 @@
     "value": "Conserv264",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Conserv264"
   },
   {
     "activityId": "AssessCrit096",
@@ -4224,8 +4206,8 @@
     "value": "MolCon265",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "MolCon265"
   },
   {
     "activityId": "AssessCrit096",
@@ -4251,8 +4233,8 @@
     "value": "InSilicoPred266",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "InSilicoPred266"
   },
   {
     "activityId": "AssessCrit097",
@@ -4260,8 +4242,8 @@
     "value": "Conserv267",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Conserv267"
   },
   {
     "activityId": "AssessCrit097",
@@ -4269,8 +4251,8 @@
     "value": "Conserv268",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "Conserv268"
   },
   {
     "activityId": "AssessCrit097",
@@ -4278,8 +4260,8 @@
     "value": "MolCon269",
     "evidenceDataName": "AssessCriterion",
     "attributeName": "hasSupportingEvidence",
-    "attributeType": "Data",
-    "lookupValue": ""
+    "attributeType": "EvidenceLine",
+    "lookupValue": "MolCon269"
   },
   {
     "activityId": "AssessCrit097",
@@ -4635,20 +4617,11 @@
   {
     "activityId": "GenVarInterp032",
     "attributeId": "A134",
-    "value": "Agent007",
+    "value": "Agent009",
     "evidenceDataName": "GenerateVariantInterpretation",
     "attributeName": "wasAssociatedWith",
     "attributeType": "Agent",
-    "lookupValue": "ClinGen Pathogenicity Calculator v1"
-  },
-  {
-    "activityId": "GenVarInterp032",
-    "attributeId": "A134",
-    "value": "Agent001",
-    "evidenceDataName": "GenerateVariantInterpretation",
-    "attributeName": "wasAssociatedWith",
-    "attributeType": "Agent",
-    "lookupValue": "Steven Harrison"
+    "lookupValue": "CSER classifer #3"
   },
   {
     "activityId": "CapData033",
@@ -4775,6 +4748,15 @@
     "attributeName": "wasAssociatedWith",
     "attributeType": "Agent",
     "lookupValue": "Steven Harrison"
+  },
+  {
+    "activityId": "GenVarInterp045",
+    "attributeId": "A134",
+    "value": "Agent010",
+    "evidenceDataName": "GenerateVariantInterpretation",
+    "attributeName": "wasAssociatedWith",
+    "attributeType": "Agent",
+    "lookupValue": "CSER classifer #6"
   },
   {
     "activityId": "AssessCrit046",
@@ -4937,6 +4919,15 @@
     "attributeName": "wasAssociatedWith",
     "attributeType": "Agent",
     "lookupValue": "CSER Bake Off Project"
+  },
+  {
+    "activityId": "GenVarInterp060",
+    "attributeId": "A134",
+    "value": "Agent010",
+    "evidenceDataName": "GenerateVariantInterpretation",
+    "attributeName": "wasAssociatedWith",
+    "attributeType": "Agent",
+    "lookupValue": "CSER classifer #6"
   },
   {
     "activityId": "AssessCrit061",
@@ -5164,6 +5155,15 @@
     "lookupValue": "Rajarshi Ghosh"
   },
   {
+    "activityId": "GenVarInterp086",
+    "attributeId": "A134",
+    "value": "Agent010",
+    "evidenceDataName": "GenerateVariantInterpretation",
+    "attributeName": "wasAssociatedWith",
+    "attributeType": "Agent",
+    "lookupValue": "CSER classifer #6"
+  },
+  {
     "activityId": "AssessCrit087",
     "attributeId": "A134",
     "value": "Agent008",
@@ -5261,5 +5261,77 @@
     "attributeName": "wasAssociatedWith",
     "attributeType": "Agent",
     "lookupValue": "Marina DiStefano"
+  },
+  {
+    "activityId": "AssessCrit098",
+    "attributeId": "A134",
+    "value": "Agent008",
+    "evidenceDataName": "AssessCriterion",
+    "attributeName": "wasAssociatedWith",
+    "attributeType": "Agent",
+    "lookupValue": "Marina DiStefano"
+  },
+  {
+    "activityId": "AssessCrit099",
+    "attributeId": "A134",
+    "value": "Agent008",
+    "evidenceDataName": "AssessCriterion",
+    "attributeName": "wasAssociatedWith",
+    "attributeType": "Agent",
+    "lookupValue": "Marina DiStefano"
+  },
+  {
+    "activityId": "AssessCrit100",
+    "attributeId": "A134",
+    "value": "Agent001",
+    "evidenceDataName": "AssessCriterion",
+    "attributeName": "wasAssociatedWith",
+    "attributeType": "Agent",
+    "lookupValue": "Steven Harrison"
+  },
+  {
+    "activityId": "AssessCrit101",
+    "attributeId": "A134",
+    "value": "Agent008",
+    "evidenceDataName": "AssessCriterion",
+    "attributeName": "wasAssociatedWith",
+    "attributeType": "Agent",
+    "lookupValue": "Marina DiStefano"
+  },
+  {
+    "activityId": "AssessCrit102",
+    "attributeId": "A134",
+    "value": "Agent008",
+    "evidenceDataName": "AssessCriterion",
+    "attributeName": "wasAssociatedWith",
+    "attributeType": "Agent",
+    "lookupValue": "Marina DiStefano"
+  },
+  {
+    "activityId": "AssessCrit103",
+    "attributeId": "A134",
+    "value": "Agent008",
+    "evidenceDataName": "AssessCriterion",
+    "attributeName": "wasAssociatedWith",
+    "attributeType": "Agent",
+    "lookupValue": "Marina DiStefano"
+  },
+  {
+    "activityId": "GenVarInterp104",
+    "attributeId": "A134",
+    "value": "Agent011",
+    "evidenceDataName": "GenerateVariantInterpretation",
+    "attributeName": "wasAssociatedWith",
+    "attributeType": "Agent",
+    "lookupValue": "Gene Geneticist"
+  },
+  {
+    "activityId": "GenVarInterp105",
+    "attributeId": "A134",
+    "value": "Agent012",
+    "evidenceDataName": "GenerateVariantInterpretation",
+    "attributeName": "wasAssociatedWith",
+    "attributeType": "Agent",
+    "lookupValue": "George Geneticist"
   }
 ]

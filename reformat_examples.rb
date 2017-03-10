@@ -74,7 +74,7 @@ class DMWGExampleData
     # need to fix the types for Data and Activity subclasses
     @flattened['Data'].each do |d_id, d_rec|
       begin
-        @id2example[d_id]['cg:type'] = @flattened['Type'][d_rec['evidenceTypeId']]['name']
+        @id2example[d_id]['cg:type'] = @flattened['Type'][d_rec['entityTypeId']]['name']
       rescue
         STDERR.puts "Error associating data id #{d_id} with entity type"
       end
@@ -91,7 +91,7 @@ class DMWGExampleData
     # Now for the "join tables". Ugly hard-coding here
     @flattened['_DataAttribute'].each do |da|
       # FIXME - make sure inherited attributes are appropriately handled
-      data_id = da['evidenceDataId']
+      data_id = da['dataId']
       attribute_id = da['attributeId']
       attribute = @flattened['Attribute'][attribute_id]
       if attribute.nil? then
@@ -123,21 +123,17 @@ class DMWGExampleData
       end
     end
 
-    # now bring up the activity info into the entity created by the activity
-    # (to align with SEPIO data model)
-    # FIXME- we may eventually get rid of this part after restructuring the spreadsheet
-    @id2example.each do |eid, example|
-      if example.has_key?('wasGeneratedBy')
-        activity = example['wasGeneratedBy']
-        activity.each do |k, v|
-          if example.has_key? k then
-            STDERR.puts "#{eid} already has key #{k}"
-          else
-            example[k] = v
-          end
+    @flattened['_EvidenceLineAttribute'].each do |da|
+      data_id = da['evidenceLineId']
+      attribute_id = da['attributeId']
+      attribute = @flattened['Attribute'][attribute_id]
+      (@id2example[data_id] ||= {})['cg:id'] = data_id
+      if value_exists? da['value'] then
+        if attribute['cardinality'].end_with? '*' then
+          (@id2example[data_id][attribute['name']] ||= []).push(convert_value(da['value'], attribute['dataType']))
+        else
+          @id2example[data_id][attribute['name']] = convert_value(da['value'], attribute['dataType'])
         end
-        example.delete('wasGeneratedBy')
-        @id2example.delete(activity['cg:id'])
       end
     end
 

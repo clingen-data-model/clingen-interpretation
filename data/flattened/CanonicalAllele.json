@@ -205,7 +205,8 @@
     "id": "CanAll035",
     "preferredCtxAllele": "CtxAll039",
     "preferedContextualAllele": "NM_001369.2(DNAH5):c.7468_7488del",
-    "identifier": "http://reg.genome.network/allele/CA090919"
+    "identifier": "http://reg.genome.network/allele/CA090919",
+    "ClinVarSCV": "SCV000197658.3"
   },
   "CanAll036": {
     "id": "CanAll036",
@@ -547,7 +548,8 @@
     "id": "CanAll092",
     "preferredCtxAllele": "CtxAll098",
     "preferedContextualAllele": "NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His)",
-    "identifier": "http://reg.genome.network/allele/CA090950"
+    "identifier": "http://reg.genome.network/allele/CA090950",
+    "ClinVarSCV": "SCV000204837.3"
   },
   "CanAll093": {
     "id": "CanAll093",
@@ -696,7 +698,8 @@
     "id": "CanAll118",
     "preferredCtxAllele": "CtxAll124",
     "preferedContextualAllele": "NM_000257.2(MYH7):c.327C>T",
-    "identifier": "http://reg.genome.network/allele/CA013536"
+    "identifier": "http://reg.genome.network/allele/CA013536",
+    "ClinVarSCV": "SCV000059496.4"
   },
   "CanAll119": {
     "id": "CanAll119",
@@ -713,6 +716,29 @@
   "CanAll121": {
     "id": "CanAll121",
     "preferredCtxAllele": "CtxAll127",
-    "preferedContextualAllele": "NM_024422.3(DSC2): c.631-2A>G (p.?)"
+    "preferedContextualAllele": "NM_024422.3(DSC2): c.631-2A>G (p.?)",
+    "ClinVarSCV": "SCV000063121.4"
+  },
+  "CanAll122": {
+    "id": "CanAll122",
+    "preferredCtxAllele": "CtxAll128",
+    "preferedContextualAllele": "NM_000441.1(SLC26A4): c.626G>T"
+  },
+  "CanAll123": {
+    "id": "CanAll123",
+    "preferredCtxAllele": "CtxAll129",
+    "preferedContextualAllele": "NM_000441.1(SLC26A4): c.1707+6T>C"
+  },
+  "CanAll124": {
+    "id": "CanAll124",
+    "preferredCtxAllele": "CtxAll130",
+    "preferedContextualAllele": "NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys)",
+    "ClinVarSCV": "SCV000203950.3"
+  },
+  "CanAll125": {
+    "id": "CanAll125",
+    "preferredCtxAllele": "CtxAll131",
+    "preferedContextualAllele": "NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln)",
+    "ClinVarSCV": "SCV000197151.3"
   }
 }

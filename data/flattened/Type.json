@@ -4,7 +4,8 @@
     "name": "Data",
     "parentType": "E52",
     "link": "Data",
-    "description": "The structured supporting data that can be used to assess criterion in the context of a given interpretation guideline."
+    "description": "The structured supporting data that can be used to assess criterion in the context of a given interpretation guideline.",
+    "notes": "TODO: Re-write in reference to Evidence Lines. Consider merging with Entity and explaining the equivalence between Data in SEPIO and Entity in W3C-Prov."
   },
   "E02": {
     "id": "E02",
@@ -48,17 +49,10 @@
     "link": "G",
     "description": "A collection of transcripts"
   },
-  "E08": {
-    "id": "E08",
-    "name": "Other",
-    "parentType": "E01",
-    "link": "Oth",
-    "description": "Data that does not fit into another subclass"
-  },
   "E09": {
     "id": "E09",
     "name": "CriterionAssessment",
-    "parentType": "E52",
+    "parentType": "E01",
     "link": "CritAssess",
     "description": "Intermediate interpretation of a line of evidence"
   },
@@ -92,21 +86,15 @@
   },
   "E14": {
     "id": "E14",
-    "name": "Condition",
+    "name": "MendelianCondition",
     "parentType": "E52",
-    "link": "Cond",
+    "link": "MendCond",
     "description": "*TODO* short description needed"
-  },
-  "E15": {
-    "id": "E15",
-    "name": "MendelianDiseaseVariantPathogenicityInterpretation",
-    "parentType": "E01",
-    "link": "MenDisVarInterp",
-    "description": "A statement about the pathogenicity of a variant for a disease"
   },
   "E16": {
     "id": "E16",
     "name": "Individual",
+    "parentType": "E52",
     "link": "Indiv",
     "description": "A particular person"
   },
@@ -162,15 +150,9 @@
   "E26": {
     "id": "E26",
     "name": "ReferenceSequence",
+    "parentType": "E52",
     "link": "RefSeq",
     "description": "*TODO* short description needed"
-  },
-  "E27": {
-    "id": "E27",
-    "name": "ConditionInheritance",
-    "parentType": "E01",
-    "link": "CondInh",
-    "description": "Mode of inheritance for a particular condition"
   },
   "E28": {
     "id": "E28",
@@ -206,19 +188,21 @@
   "E32": {
     "id": "E32",
     "name": "AssertionMethod",
+    "parentType": "E52",
     "link": "AssertMeth",
     "description": "The set of rules describing how to create an interpretation from a set of Data."
   },
   "E33": {
     "id": "E33",
     "name": "ScoringAlgorithm",
+    "parentType": "E52",
     "link": "ScorAlg",
     "description": "The rules for combining CriterionAssessments into an Interpretation"
   },
   "E35": {
     "id": "E35",
     "name": "VariantInterpretation",
-    "parentType": "E52",
+    "parentType": "E01",
     "link": "VarInterp",
     "description": "Evidence-based conclusion about the pathogenicity of a sequence variant"
   },
@@ -228,40 +212,6 @@
     "parentType": "E52",
     "link": "DataSrc",
     "description": "Citation for a Data entity"
-  },
-  "E37": {
-    "id": "E37",
-    "name": "PublicationStatus",
-    "link": "PubStat",
-    "description": "*TODO* short description needed"
-  },
-  "E38": {
-    "id": "E38",
-    "name": "Capturer",
-    "parentType": "E12",
-    "link": "Capturer",
-    "description": "*TODO* short description needed"
-  },
-  "E39": {
-    "id": "E39",
-    "name": "Assessor",
-    "parentType": "E12",
-    "link": "Assessor",
-    "description": "*TODO* short description needed"
-  },
-  "E40": {
-    "id": "E40",
-    "name": "Generator",
-    "parentType": "E12",
-    "link": "Generator",
-    "description": "*TODO* short description needed"
-  },
-  "E41": {
-    "id": "E41",
-    "name": "Publisher",
-    "parentType": "E12",
-    "link": "Publisher",
-    "description": "*TODO* short description needed"
   },
   "E43": {
     "id": "E43",
@@ -273,6 +223,7 @@
   "E44": {
     "id": "E44",
     "name": "Family",
+    "parentType": "E52",
     "link": "Fam",
     "description": "A group of individuals related in a known manner."
   },
@@ -343,5 +294,12 @@
     "name": "ValueSetConcept",
     "link": "VSC",
     "description": "*TODO* short description needed"
+  },
+  "E56": {
+    "id": "E56",
+    "name": "EvidenceLine",
+    "parentType": "E52",
+    "link": "EvLn",
+    "description": "A reification of the underlying supporting data which may be one or more data points or assertions. Typically grouped in a specific manner for use in an owning assertion activity (either Variant Interpretation or CriterionAssessment. All evidence may optionally be given a strength by an agent."
   }
 }

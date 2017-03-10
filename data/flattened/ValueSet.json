@@ -42,7 +42,7 @@
   },
   "VS011": {
     "id": "VS011",
-    "name": "AssessmentOutcome"
+    "name": "CriterionEvaluation"
   },
   "VS012": {
     "id": "VS012",
@@ -65,5 +65,18 @@
     "id": "VS016",
     "name": "ConditionMechanismStrength",
     "description": "The level of strength for which a class of variants is a known mechanism for a condition"
+  },
+  "VS017": {
+    "id": "VS017",
+    "name": "MendelianVariantIntepretationEvidenceStrength",
+    "description": "The set of ACMG rule strength qualifying values."
+  },
+  "VS018": {
+    "id": "VS018",
+    "name": "Disease"
+  },
+  "VS019": {
+    "id": "VS019",
+    "name": "Phenotype"
   }
 }
