@@ -137,7 +137,7 @@ function DmwgDiagram(tree) {
   }).append("path").attr("d", "M0,0L0,6L9,3z");
 
   this.root = d3.hierarchy(generate_tree(tree));
-  var treemap = d3.tree().nodeSize([40, 400]),
+  var treemap = d3.tree().nodeSize([180, 90]),
       treedata = treemap(this.root),
       nodedata = treedata.descendants(),
       linkdata = treedata.descendants().slice(1);
@@ -160,7 +160,7 @@ function DmwgDiagram(tree) {
     .data(nodedata)
     .enter().append("g")
     .attr("class", "node")
-    .attr("transform", function (d) { return "translate(" + d.y + "," + d.x + ")"});
+    .attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"});
 
   node.append("rect");
   node.append("g")
@@ -213,13 +213,13 @@ function DmwgDiagram(tree) {
       .attr("class", "link")
   link.append("path")
       .attr("d", function (d) {
-        var endy = d.y - d._width/2,
-            starty = d.parent.y + d.parent._width/2;
+        var endy = d.y - d._height/2,
+            starty = d.parent.y + d.parent._height/2;
         var offset = starty + (endy - starty)/4
-        return "M" + starty + "," + d.parent.x
-             + "C" + offset + "," + d.x
-             + " " + offset + "," + d.x
-             + " " + endy + "," + d.x;
+        return "M" + d.parent.x + "," + starty
+             + "C" + d.x + "," + offset
+             + " " + d.x + "," + offset
+             + " " + d.x + "," + endy;
       })
       .attr("marker-end", 'url(#arrow)');
   link.append("text")
@@ -228,13 +228,13 @@ function DmwgDiagram(tree) {
     })
     .attrs(function (d) {
       return {
-        y: d.x,
-        x: d.y + (d.parent.y - d.y) / 3
+        x: d.x,
+        y: d.y + (d.parent.y - d.y) / 3
       };
     });
 
   var bbox = nodeg.node().getBBox(),
-      scale = 0.95 / Math.max(bbox.width / width, bbox.height / height),
+      scale = 0.9 / Math.max(bbox.width / width, bbox.height / height),
       translate = [width / 2 - scale * (bbox.x + bbox.width / 2),
                    height / 2 - scale * (bbox.y + bbox.height / 2)];
   zoom.scaleTo(this.svg, scale);
