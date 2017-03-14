@@ -46,7 +46,7 @@
     "name": "capturedEvidence",
     "dataType": "Data",
     "cardinality": "1..*",
-    "fullyQualifiedName": "CaptureData.capturedEvidence"
+    "fullyQualifiedName": "#N/A"
   },
   "A005": {
     "id": "A005",
@@ -54,44 +54,7 @@
     "name": "dataSource",
     "dataType": "DataSource",
     "cardinality": "0..1",
-    "fullyQualifiedName": "CaptureData.dataSource"
-  },
-  "A006": {
-    "id": "A006",
-    "entityId": "E11",
-    "name": "hasSupportingEvidence",
-    "dataType": "EvidenceLine",
-    "cardinality": "0..*",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 4.0,
-    "notes": "MolecularConsequence, ConditionMechanism",
-    "description": "Data that been used in the activity",
-    "fullyQualifiedName": "AssessCriterion.hasSupportingEvidence"
-  },
-  "A007": {
-    "id": "A007",
-    "entityId": "E11",
-    "name": "criterion",
-    "dataType": "Criterion",
-    "cardinality": "1..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 2.0,
-    "description": "Criterion (rule) to which the evidence has been applied",
-    "fullyQualifiedName": "AssessCriterion.criterion"
-  },
-  "A008": {
-    "id": "A008",
-    "entityId": "E11",
-    "name": "variant",
-    "dataType": "CanonicalAllele",
-    "cardinality": "1..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 3.0,
-    "description": "The allele that is being assessed with the criterion",
-    "fullyQualifiedName": "AssessCriterion.variant"
+    "fullyQualifiedName": "#N/A"
   },
   "A009": {
     "id": "A009",
@@ -401,7 +364,7 @@
     "valueSetName": "",
     "precedence": 4.0,
     "description": "The condition(s) for which the criterion is being assessed",
-    "fullyQualifiedName": "AssessCriterion.condition"
+    "fullyQualifiedName": "#N/A"
   },
   "A035": {
     "id": "A035",
@@ -801,42 +764,6 @@
     "precedence": 6.0,
     "description": "Phase of the primary and secondary individual",
     "fullyQualifiedName": "IndividualAllele.phase"
-  },
-  "A072": {
-    "id": "A072",
-    "entityId": "E30",
-    "name": "assertionMethod",
-    "dataType": "AssertionMethod",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "fullyQualifiedName": "GenerateVariantInterpretation.assertionMethod"
-  },
-  "A073": {
-    "id": "A073",
-    "entityId": "E30",
-    "name": "criterionAssessments",
-    "dataType": "CriterionAssessment",
-    "cardinality": "0..*",
-    "defaultValue": "null",
-    "fullyQualifiedName": "GenerateVariantInterpretation.criterionAssessments"
-  },
-  "A074": {
-    "id": "A074",
-    "entityId": "E30",
-    "name": "condition",
-    "dataType": "Condition",
-    "cardinality": "1..1",
-    "defaultValue": "null",
-    "fullyQualifiedName": "GenerateVariantInterpretation.condition"
-  },
-  "A075": {
-    "id": "A075",
-    "entityId": "E30",
-    "name": "variant",
-    "dataType": "CanonicalAllele",
-    "cardinality": "1..1",
-    "defaultValue": "null",
-    "fullyQualifiedName": "GenerateVariantInterpretation.variant"
   },
   "A076": {
     "id": "A076",
@@ -1496,13 +1423,13 @@
   "A132": {
     "id": "A132",
     "entityId": "E10",
-    "name": "activityEntityId",
+    "name": "activityTypeId",
     "dataType": "Entity",
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
-    "fullyQualifiedName": "Activity.activityEntityId"
+    "fullyQualifiedName": "Activity.activityTypeId"
   },
   "A133": {
     "id": "A133",

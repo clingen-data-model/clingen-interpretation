@@ -60,36 +60,26 @@
     "id": "E10",
     "name": "Activity",
     "link": "Act",
-    "imageFile": "activities.svg",
     "description": "W3C Provenance activity conceptual class."
-  },
-  "E11": {
-    "id": "E11",
-    "name": "AssessCriterion",
-    "parentType": "E10",
-    "link": "AssessCrit",
-    "imageFile": "assess_criterion.svg",
-    "description": "*TODO* short description needed"
   },
   "E12": {
     "id": "E12",
     "name": "Agent",
     "link": "Agent",
-    "imageFile": "agents.svg",
     "description": "W3C Provenance agent conceptual class."
   },
   "E13": {
     "id": "E13",
     "name": "Example",
     "link": "Ex",
-    "description": "*TODO* short description needed"
+    "description": "An example selected to demonstrate a particular facet of the data model"
   },
   "E14": {
     "id": "E14",
     "name": "MendelianCondition",
     "parentType": "E52",
     "link": "MendCond",
-    "description": "*TODO* short description needed"
+    "description": "A condition with a specific mode of inheritance"
   },
   "E16": {
     "id": "E16",
@@ -160,30 +150,6 @@
     "parentType": "E01",
     "link": "IndAll",
     "description": "Whether or not an Individual has an allele"
-  },
-  "E29": {
-    "id": "E29",
-    "name": "CaptureData",
-    "parentType": "E10",
-    "link": "CapData",
-    "imageFile": "capture_evidence_data.svg",
-    "description": "*TODO* A short description about capture evidence activity."
-  },
-  "E30": {
-    "id": "E30",
-    "name": "GenerateVariantInterpretation",
-    "parentType": "E10",
-    "link": "GenVarInterp",
-    "imageFile": "generate_variant_interpretation.svg",
-    "description": "*TODO* A short description about generate variant interpretation activity."
-  },
-  "E31": {
-    "id": "E31",
-    "name": "PublishVariantInterpretation",
-    "parentType": "E10",
-    "link": "PubVarInterp",
-    "imageFile": "publish_variant_interpretation.svg",
-    "description": "*TODO* A short description about publish variant interpretation activity."
   },
   "E32": {
     "id": "E32",
@@ -280,7 +246,6 @@
     "id": "E52",
     "name": "Entity",
     "link": "Entity",
-    "imageFile": "entities.svg",
     "description": "W3C Provenance entity conceptual class."
   },
   "E54": {
