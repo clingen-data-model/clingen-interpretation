@@ -916,7 +916,7 @@
     "id": "Ex091",
     "dataId": "CritAssess373",
     "data explanation": "This is a synonymous variant with little conservation and no predicted impact on splicing. Conservation and splicing algorithm values are listed below.",
-    "group": "BP4, BP4",
+    "group": "BP4",
     "index": 3.0,
     "authorId": "Agent008",
     "author name": "Marina DiStefano",
@@ -931,5 +931,71 @@
     "authorId": "Agent008",
     "author name": "Marina DiStefano",
     "description": "(CSER var# 68, classifier 6)\nIdentifier:\nClinVar: SCV000059496.4"
+  },
+  "Ex093": {
+    "id": "Ex093",
+    "dataId": "CritAssess374",
+    "data explanation": "Flag-tagged construct with the variant was transfected into HEK cells. As per the RASopathy working group’s approved assays (see example 3 above), Smith et al. showed that the Y337C mutation increased levels of pERK in starved HEK cells via western blotting.",
+    "group": "PS3",
+    "index": 4.0,
+    "authorId": "Agent008",
+    "author name": "Marina DiStefano",
+    "description": "Assessed Variant: NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys)\nPMID: 23487764\n\nA Flag-tagged construct with the variant was transfected into HEK cells. As per the RASopathy working group’s approved assays (see example 3 above), Smith et al. showed that the Y337C mutation increased levels of pERK in starved HEK cells via western blotting. Thus, PP4 can be applied."
+  },
+  "Ex094": {
+    "id": "Ex094",
+    "dataId": "VarInterp045",
+    "data explanation": "The c.631-2A>G variant in DSC2 has been reported in 1 Caucasian individual with ARVC (Heuser 2006). This variant has also been identified by our laboratory in 2 individuals (1 with ARVC and 1 with LVNC). This variant has been reported in 1/66564 European chromosomes by the Exome Aggregation Consortium (ExAC, http://exac.broadinstitute.org; dbSNP rs397514042). This variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006). Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/). In summary, although additional studies are required to fully establish its clinical significance, the c.631-2A>G variant is likely pathogenic.",
+    "index": 4.0,
+    "authorId": "Agent008",
+    "author name": "Marina DiStefano",
+    "description": "(CSER var# 70, classifier 6)\nIdentifier: SCV000063121.4\n"
+  },
+  "Ex095": {
+    "id": "Ex095",
+    "dataId": "VarInterp055",
+    "data explanation": "The Tyr337Cys variant in SOS1 has been reported in 1 individual with clinical features of Noonan syndrome (Roberts 2007), but has also been reported to be present in 2 unaffected individuals from one family (Personal Communication). This variant was absent from large population studies. Studies have shown that the Tyr337Cys variant may impact protein function by increasing its activity though these results are inconclusive and these in vitro assays may not accurately represent biological function (Smith 2013). Due to the conflicting data about this variant, the clinical significance of the Tyr337Cys variant is uncertain.",
+    "index": 5.0,
+    "authorId": "Agent008",
+    "author name": "Marina DiStefano",
+    "description": "Identifier:\nClinVar SCV000203950.3\n"
+  },
+  "Ex096": {
+    "id": "Ex096",
+    "dataId": "CritAssess375",
+    "data explanation": "A personal communication to our lab informed us of an individual and his son who both harbored the variant but with clinical workup did not appear to have Noonan Syndrome or symptoms indicative of Noonan Syndrome.",
+    "group": "BS4",
+    "index": 4.0,
+    "authorId": "Agent008",
+    "author name": "Marina DiStefano",
+    "description": "Variant: NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys)\n\nA personal communication from a clinician informed us of non-segregations in her patients (an individual and his son) who both harbored the variant but with clinical workup did not appear to have Noonan Syndrome or symptoms indicative of Noonan Syndrome. Thus, we can use BS4 because of lack of segregation."
+  },
+  "Ex097": {
+    "id": "Ex097",
+    "dataId": "CritAssess376",
+    "data explanation": "",
+    "group": "PM2",
+    "index": 7.0,
+    "authorId": "Agent008",
+    "author name": "Marina DiStefano",
+    "description": "Variant: NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln)\n\nThis variant is absent from ExAC and gnomAD. Therefore, we can use PM2.\n\nhttp://exac.broadinstitute.org/variant/7-140477861-T-G\n\nhttp://gnomad.broadinstitute.org/gene/ENSG00000157764"
+  },
+  "Ex098": {
+    "id": "Ex098",
+    "dataId": "CritAssess377",
+    "data explanation": "Parental testing in our lab confirmed this variant was present de novo in 1 proband with clinical features of CFC. (LMM internal Data)",
+    "group": "PM6",
+    "index": 4.0,
+    "authorId": "Agent008",
+    "author name": "Marina DiStefano",
+    "description": "Assessed variant: NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln)\n\nParental testing in our lab confirmed this variant was present de novo in 1 proband with clinical features of CFC. (LMM internal Data)"
+  },
+  "Ex099": {
+    "id": "Ex099",
+    "dataId": "CritAssess378",
+    "data explanation": "",
+    "group": "PM5",
+    "authorId": "Agent008",
+    "author name": "Marina DiStefano"
   }
 }

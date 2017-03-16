@@ -1362,14 +1362,13 @@
   "A127": {
     "id": "A127",
     "entityId": "E10",
-    "name": "startedAtTime",
+    "name": "timeStamp",
     "dataType": "Datetime",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 2.0,
-    "description": "A human-readable description of the reasoning behind the interpretation",
-    "fullyQualifiedName": "Activity.startedAtTime"
+    "fullyQualifiedName": "Activity.timeStamp"
   },
   "A128": {
     "id": "A128",
@@ -1430,17 +1429,6 @@
     "valueSetName": "",
     "precedence": 1.0,
     "fullyQualifiedName": "Activity.activityTypeId"
-  },
-  "A133": {
-    "id": "A133",
-    "entityId": "E10",
-    "name": "endedAtTime",
-    "dataType": "Datetime",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 3.0,
-    "fullyQualifiedName": "Activity.endedAtTime"
   },
   "A134": {
     "id": "A134",

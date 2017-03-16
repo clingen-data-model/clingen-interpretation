@@ -2,10 +2,10 @@
   {
     "conditionId": "MendCond001",
     "attributeId": "A157",
-    "value": "Breast Ovarian Cancer, autosomal recessive",
+    "value": "Breast Ovarian Cancer",
     "attributeName": "name",
     "attributeType": "String",
-    "lookupValue": "Breast Ovarian Cancer, autosomal recessive"
+    "lookupValue": "Breast Ovarian Cancer"
   },
   {
     "conditionId": "MendCond001",
@@ -50,10 +50,10 @@
   {
     "conditionId": "MendCond003",
     "attributeId": "A142",
-    "value": "HP:0000007",
+    "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Autosomal Recessive"
+    "lookupValue": "Autosomal Dominant"
   },
   {
     "conditionId": "MendCond004",
@@ -270,6 +270,14 @@
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
     "lookupValue": "cardiofaciocutaneous syndrome"
+  },
+  {
+    "conditionId": "MendCond019",
+    "attributeId": "A158",
+    "value": "HP:0000006",
+    "attributeName": "disease",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Autosomal Dominant"
   },
   {
     "conditionId": "MendCond020",
@@ -558,5 +566,13 @@
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
     "lookupValue": "arrhythmogenic right ventricular cardiomyopathy"
+  },
+  {
+    "conditionId": "MendCond046",
+    "attributeId": "A142",
+    "value": "HP:0000006",
+    "attributeName": "modeOfInheritance",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Autosomal Dominant"
   }
 ]

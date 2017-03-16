@@ -116,7 +116,7 @@
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Breast Ovarian Cancer, autosomal recessive"
+    "lookupValue": "Breast Ovarian Cancer"
   },
   {
     "dataId": "MolCon005",
@@ -224,7 +224,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "noonan syndrome, Autosomal Recessive"
+    "lookupValue": "noonan syndrome, Autosomal Dominant"
   },
   {
     "dataId": "VarInterp008",
@@ -1529,7 +1529,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "hasEvidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "EvLn113"
+    "lookupValue": ""
   },
   {
     "dataId": "VarInterp041",
@@ -1538,7 +1538,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "hasEvidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "EvLn114"
+    "lookupValue": ""
   },
   {
     "dataId": "VarInterp041",
@@ -1547,7 +1547,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "hasEvidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "EvLn115"
+    "lookupValue": ""
   },
   {
     "dataId": "VarInterp042",
@@ -1650,6 +1650,7 @@
   {
     "dataId": "VarInterp044",
     "attributeId": "A061",
+    "value": "EvLn120",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "hasEvidence",
     "attributeType": "EvidenceLine",
@@ -1658,6 +1659,7 @@
   {
     "dataId": "VarInterp044",
     "attributeId": "A061",
+    "value": "EvLn118",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "hasEvidence",
     "attributeType": "EvidenceLine",
@@ -1666,6 +1668,7 @@
   {
     "dataId": "VarInterp044",
     "attributeId": "A061",
+    "value": "EvLn119",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "hasEvidence",
     "attributeType": "EvidenceLine",
@@ -1683,10 +1686,11 @@
   {
     "dataId": "VarInterp045",
     "attributeId": "A123",
+    "value": "MendCond046",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": ""
+    "lookupValue": "arrhythmogenic right ventricular cardiomyopathy, Autosomal Dominant"
   },
   {
     "dataId": "VarInterp045",
@@ -1709,6 +1713,7 @@
   {
     "dataId": "VarInterp045",
     "attributeId": "A061",
+    "value": "EvLn121",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "hasEvidence",
     "attributeType": "EvidenceLine",
@@ -1717,6 +1722,7 @@
   {
     "dataId": "VarInterp045",
     "attributeId": "A061",
+    "value": "EvLn122",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "hasEvidence",
     "attributeType": "EvidenceLine",
@@ -2175,10 +2181,11 @@
   {
     "dataId": "VarInterp055",
     "attributeId": "A123",
+    "value": "MendCond003",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": ""
+    "lookupValue": "noonan syndrome, Autosomal Dominant"
   },
   {
     "dataId": "VarInterp055",
@@ -2201,6 +2208,7 @@
   {
     "dataId": "VarInterp055",
     "attributeId": "A061",
+    "value": "EvLn124",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "hasEvidence",
     "attributeType": "EvidenceLine",
@@ -2209,6 +2217,7 @@
   {
     "dataId": "VarInterp055",
     "attributeId": "A061",
+    "value": "EvLn125",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "hasEvidence",
     "attributeType": "EvidenceLine",
@@ -2442,10 +2451,11 @@
   {
     "dataId": "VarInterp063",
     "attributeId": "A123",
+    "value": "Cond019",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": ""
+    "lookupValue": "Cond019"
   },
   {
     "dataId": "VarInterp063",
@@ -2468,6 +2478,7 @@
   {
     "dataId": "VarInterp063",
     "attributeId": "A061",
+    "value": "EvLn127",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "hasEvidence",
     "attributeType": "EvidenceLine",
@@ -2476,6 +2487,7 @@
   {
     "dataId": "VarInterp063",
     "attributeId": "A061",
+    "value": "EvLn129",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "hasEvidence",
     "attributeType": "EvidenceLine",
@@ -2484,6 +2496,7 @@
   {
     "dataId": "VarInterp063",
     "attributeId": "A061",
+    "value": "EvLn131",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "hasEvidence",
     "attributeType": "EvidenceLine",
@@ -2562,6 +2575,78 @@
     "lookupValue": "Conservative Inframe Deletion"
   },
   {
+    "dataId": "Func067",
+    "attributeId": "A026",
+    "value": "increased ERK activtation",
+    "evidenceDataName": "FunctionalData",
+    "attributeName": "result",
+    "attributeType": "String",
+    "lookupValue": "increased ERK activtation"
+  },
+  {
+    "dataId": "Func067",
+    "attributeId": "A027",
+    "value": "CG:activation",
+    "evidenceDataName": "FunctionalData",
+    "attributeName": "dataType",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Activation Assay"
+  },
+  {
+    "dataId": "Func067",
+    "attributeId": "A028",
+    "value": "CtxAll130",
+    "evidenceDataName": "FunctionalData",
+    "attributeName": "contextualAllele",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys)"
+  },
+  {
+    "dataId": "Func067",
+    "attributeId": "A029",
+    "value": "G015",
+    "evidenceDataName": "FunctionalData",
+    "attributeName": "gene",
+    "attributeType": "Gene",
+    "lookupValue": "ERK"
+  },
+  {
+    "dataId": "Func067",
+    "attributeId": "A029",
+    "value": "G052",
+    "evidenceDataName": "FunctionalData",
+    "attributeName": "gene",
+    "attributeType": "Gene",
+    "lookupValue": "SOS1"
+  },
+  {
+    "dataId": "InSilicoPred068",
+    "attributeId": "A096",
+    "value": "CtxAll124",
+    "evidenceDataName": "InSilicoPrediction",
+    "attributeName": "contextualAllele",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_000257.2(MYH7):c.327C>T"
+  },
+  {
+    "dataId": "InSilicoPred068",
+    "attributeId": "A097",
+    "value": "CG:sp",
+    "evidenceDataName": "InSilicoPrediction",
+    "attributeName": "type",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "splicing prediction"
+  },
+  {
+    "dataId": "InSilicoPred068",
+    "attributeId": "A099",
+    "value": "no impact",
+    "evidenceDataName": "InSilicoPrediction",
+    "attributeName": "value",
+    "attributeType": "String",
+    "lookupValue": "no impact"
+  },
+  {
     "dataId": "Reg069",
     "attributeId": "A052",
     "value": "RefSeq005",
@@ -2616,6 +2701,78 @@
     "lookupValue": "Conservative Inframe Deletion"
   },
   {
+    "dataId": "Conserv071",
+    "attributeId": "A111",
+    "value": "CanAll118",
+    "evidenceDataName": "Conservation",
+    "attributeName": "allele",
+    "attributeType": "CanonicalAllele",
+    "lookupValue": "NM_000257.2(MYH7):c.327C>T"
+  },
+  {
+    "dataId": "Conserv071",
+    "attributeId": "A112",
+    "value": 0,
+    "evidenceDataName": "Conservation",
+    "attributeName": "conserved",
+    "attributeType": "boolean",
+    "lookupValue": "FALSE"
+  },
+  {
+    "dataId": "Conserv071",
+    "attributeId": "A113",
+    "value": "phyloP",
+    "evidenceDataName": "Conservation",
+    "attributeName": "method",
+    "attributeType": "String",
+    "lookupValue": "phyloP"
+  },
+  {
+    "dataId": "Conserv071",
+    "attributeId": "A114",
+    "value": -0.76,
+    "evidenceDataName": "Conservation",
+    "attributeName": "score",
+    "attributeType": "float",
+    "lookupValue": "-0.76"
+  },
+  {
+    "dataId": "Conserv072",
+    "attributeId": "A111",
+    "value": "CanAll118",
+    "evidenceDataName": "Conservation",
+    "attributeName": "allele",
+    "attributeType": "CanonicalAllele",
+    "lookupValue": "NM_000257.2(MYH7):c.327C>T"
+  },
+  {
+    "dataId": "Conserv072",
+    "attributeId": "A112",
+    "value": 0,
+    "evidenceDataName": "Conservation",
+    "attributeName": "conserved",
+    "attributeType": "boolean",
+    "lookupValue": "FALSE"
+  },
+  {
+    "dataId": "Conserv072",
+    "attributeId": "A113",
+    "value": "PhastCons",
+    "evidenceDataName": "Conservation",
+    "attributeName": "method",
+    "attributeType": "String",
+    "lookupValue": "PhastCons"
+  },
+  {
+    "dataId": "Conserv072",
+    "attributeId": "A114",
+    "value": 0.63,
+    "evidenceDataName": "Conservation",
+    "attributeName": "score",
+    "attributeType": "float",
+    "lookupValue": "0.63"
+  },
+  {
     "dataId": "Reg073",
     "attributeId": "A052",
     "value": "RefSeq006",
@@ -2668,6 +2825,69 @@
     "attributeName": "consequence",
     "attributeType": "CodeableConcept",
     "lookupValue": "Conservative Inframe Insertion"
+  },
+  {
+    "dataId": "MolCon075",
+    "attributeId": "A001",
+    "value": "SO:0001819",
+    "evidenceDataName": "MolecularConsequence",
+    "attributeName": "consequence",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "synonymous variant"
+  },
+  {
+    "dataId": "MolCon075",
+    "attributeId": "A009",
+    "value": "CtxAll124",
+    "evidenceDataName": "MolecularConsequence",
+    "attributeName": "contextualAllele",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_000257.2(MYH7):c.327C>T"
+  },
+  {
+    "dataId": "FamSegData076",
+    "attributeId": "A081",
+    "value": "MendCond003",
+    "evidenceDataName": "FamilySegregationData",
+    "attributeName": "condition",
+    "attributeType": "MendelianCondition",
+    "lookupValue": "noonan syndrome, Autosomal Dominant"
+  },
+  {
+    "dataId": "FamSegData076",
+    "attributeId": "A082",
+    "value": "CanAll124",
+    "evidenceDataName": "FamilySegregationData",
+    "attributeName": "canonicalAllele",
+    "attributeType": "CanonicalAllele",
+    "lookupValue": "NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys)"
+  },
+  {
+    "dataId": "FamSegData076",
+    "attributeId": "A083",
+    "value": "Fam011",
+    "evidenceDataName": "FamilySegregationData",
+    "attributeName": "family",
+    "attributeType": "Family",
+    "lookupValue": "Family #011"
+  },
+  {
+    "dataId": "FamSegData076",
+    "attributeId": "A084",
+    "value": "?",
+    "evidenceDataName": "FamilySegregationData",
+    "attributeName": "phenotypePositiveAllelePositive",
+    "attributeType": "int",
+    "lookupValue": "?"
+  },
+  {
+    "dataId": "FamSegData076",
+    "attributeId": "A085",
+    "value": "?",
+    "evidenceDataName": "FamilySegregationData",
+    "attributeName": "phenotypeNegativeAllelePositive",
+    "attributeType": "int",
+    "lookupValue": "?"
   },
   {
     "dataId": "Reg077",
@@ -2802,7 +3022,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Breast Ovarian Cancer, autosomal recessive"
+    "lookupValue": "Breast Ovarian Cancer"
   },
   {
     "dataId": "VarInterp081",
@@ -3071,7 +3291,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome"
+    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
   },
   {
     "dataId": "IndCond089",
@@ -3098,7 +3318,7 @@
     "evidenceDataName": "FamilyHistory",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome"
+    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
   },
   {
     "dataId": "FamHist090",
@@ -3161,7 +3381,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome"
+    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
   },
   {
     "dataId": "IndCond092",
@@ -3188,7 +3408,7 @@
     "evidenceDataName": "FamilyHistory",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome"
+    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
   },
   {
     "dataId": "FamHist093",
@@ -3278,7 +3498,7 @@
     "evidenceDataName": "FamilyHistory",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome"
+    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
   },
   {
     "dataId": "FamHist096",
@@ -3341,7 +3561,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome"
+    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
   },
   {
     "dataId": "IndCond098",
@@ -3368,7 +3588,7 @@
     "evidenceDataName": "FamilyHistory",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome"
+    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
   },
   {
     "dataId": "FamHist099",
@@ -3414,6 +3634,60 @@
     "attributeName": "paternityConfirmed",
     "attributeType": "boolean",
     "lookupValue": "FALSE"
+  },
+  {
+    "dataId": "AllFreq101",
+    "attributeId": "A030",
+    "value": "ExAC",
+    "evidenceDataName": "AlleleFrequency",
+    "attributeName": "ascertainment",
+    "attributeType": "String",
+    "lookupValue": "ExAC"
+  },
+  {
+    "dataId": "AllFreq101",
+    "attributeId": "A047",
+    "value": "CG:combined",
+    "evidenceDataName": "AlleleFrequency",
+    "attributeName": "population",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Combined"
+  },
+  {
+    "dataId": "AllFreq101",
+    "attributeId": "A031",
+    "value": "CanAll125",
+    "evidenceDataName": "AlleleFrequency",
+    "attributeName": "allele",
+    "attributeType": "CanonicalAllele",
+    "lookupValue": "NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln)"
+  },
+  {
+    "dataId": "AllFreq101",
+    "attributeId": "A032",
+    "value": 0.0,
+    "evidenceDataName": "AlleleFrequency",
+    "attributeName": "alleleCount",
+    "attributeType": "int",
+    "lookupValue": "0"
+  },
+  {
+    "dataId": "AllFreq101",
+    "attributeId": "A060",
+    "value": 0.0,
+    "evidenceDataName": "AlleleFrequency",
+    "attributeName": "alleleFrequency",
+    "attributeType": "float",
+    "lookupValue": "0"
+  },
+  {
+    "dataId": "AllFreq101",
+    "attributeId": "A062",
+    "value": 57.0,
+    "evidenceDataName": "AlleleFrequency",
+    "attributeName": "medianCoverage",
+    "attributeType": "float",
+    "lookupValue": "57"
   },
   {
     "dataId": "BMVR102",
@@ -3578,6 +3852,42 @@
     "lookupValue": "4"
   },
   {
+    "dataId": "DeNovo106",
+    "attributeId": "A022",
+    "value": "CanAll125",
+    "evidenceDataName": "DeNovoAllele",
+    "attributeName": "canonicalAllele",
+    "attributeType": "CanonicalAllele",
+    "lookupValue": "NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln)"
+  },
+  {
+    "dataId": "DeNovo106",
+    "attributeId": "A023",
+    "value": "Ind03",
+    "evidenceDataName": "DeNovoAllele",
+    "attributeName": "individual",
+    "attributeType": "Individual",
+    "lookupValue": "Ind03"
+  },
+  {
+    "dataId": "DeNovo106",
+    "attributeId": "A024",
+    "value": 0,
+    "evidenceDataName": "DeNovoAllele",
+    "attributeName": "maternityConfirmed",
+    "attributeType": "boolean",
+    "lookupValue": "FALSE"
+  },
+  {
+    "dataId": "DeNovo106",
+    "attributeId": "A025",
+    "value": 0,
+    "evidenceDataName": "DeNovoAllele",
+    "attributeName": "paternityConfirmed",
+    "attributeType": "boolean",
+    "lookupValue": "FALSE"
+  },
+  {
     "dataId": "FamSegData107",
     "attributeId": "A081",
     "value": "MendCond021",
@@ -3686,13 +3996,40 @@
     "lookupValue": "8"
   },
   {
+    "dataId": "IndCond110",
+    "attributeId": "A016",
+    "value": "Ind030",
+    "evidenceDataName": "IndividualCondition",
+    "attributeName": "individual",
+    "attributeType": "Individual",
+    "lookupValue": "Ind030"
+  },
+  {
+    "dataId": "IndCond110",
+    "attributeId": "A017",
+    "value": "MendCond019",
+    "evidenceDataName": "IndividualCondition",
+    "attributeName": "condition",
+    "attributeType": "MendelianCondition",
+    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
+  },
+  {
+    "dataId": "IndCond110",
+    "attributeId": "A018",
+    "value": 1,
+    "evidenceDataName": "IndividualCondition",
+    "attributeName": "hasCondition",
+    "attributeType": "boolean",
+    "lookupValue": "TRUE"
+  },
+  {
     "dataId": "FamSegData111",
     "attributeId": "A081",
     "value": "MendCond001",
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Breast Ovarian Cancer, autosomal recessive"
+    "lookupValue": "Breast Ovarian Cancer"
   },
   {
     "dataId": "FamSegData111",
@@ -3720,6 +4057,33 @@
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
     "lookupValue": "2"
+  },
+  {
+    "dataId": "FamHist112",
+    "attributeId": "A019",
+    "value": "Ind030",
+    "evidenceDataName": "FamilyHistory",
+    "attributeName": "proband",
+    "attributeType": "Individual",
+    "lookupValue": "Ind030"
+  },
+  {
+    "dataId": "FamHist112",
+    "attributeId": "A020",
+    "value": "MendCond019",
+    "evidenceDataName": "FamilyHistory",
+    "attributeName": "condition",
+    "attributeType": "MendelianCondition",
+    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
+  },
+  {
+    "dataId": "FamHist112",
+    "attributeId": "A021",
+    "value": 0,
+    "evidenceDataName": "FamilyHistory",
+    "attributeName": "familyHasCondition",
+    "attributeType": "boolean",
+    "lookupValue": "FALSE"
   },
   {
     "dataId": "FamSegData113",
@@ -8615,7 +8979,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "hasEvidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "EvLn110"
+    "lookupValue": ""
   },
   {
     "dataId": "VarInterp274",
@@ -8624,7 +8988,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "hasEvidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "EvLn111"
+    "lookupValue": ""
   },
   {
     "dataId": "VarInterp274",
@@ -8633,7 +8997,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "hasEvidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "EvLn112"
+    "lookupValue": ""
   },
   {
     "dataId": "CritAssess275",
@@ -8705,7 +9069,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Breast Ovarian Cancer, autosomal recessive"
+    "lookupValue": "Breast Ovarian Cancer"
   },
   {
     "dataId": "CritAssess276",
@@ -8804,7 +9168,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "noonan syndrome, Autosomal Recessive"
+    "lookupValue": "noonan syndrome, Autosomal Dominant"
   },
   {
     "dataId": "CritAssess278",
@@ -10046,7 +10410,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Breast Ovarian Cancer, autosomal recessive"
+    "lookupValue": "Breast Ovarian Cancer"
   },
   {
     "dataId": "CritAssess304",
@@ -10190,7 +10554,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome"
+    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
   },
   {
     "dataId": "CritAssess307",
@@ -10235,7 +10599,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome"
+    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
   },
   {
     "dataId": "CritAssess308",
@@ -10388,7 +10752,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Breast Ovarian Cancer, autosomal recessive"
+    "lookupValue": "Breast Ovarian Cancer"
   },
   {
     "dataId": "CritAssess311",
@@ -12584,7 +12948,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "arrhythmogenic right ventricular cardiomyopathy"
+    "lookupValue": "arrhythmogenic right ventricular cardiomyopathy, Autosomal Dominant"
   },
   {
     "dataId": "CritAssess361",
@@ -13039,31 +13403,32 @@
   {
     "dataId": "CritAssess373",
     "attributeId": "A055",
+    "value": "EvLn117",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "hasSupportingEvidence",
     "attributeType": "EvidenceLine",
     "lookupValue": ""
   },
   {
-    "dataId": "CritAssess373",
+    "dataId": "CritAssess374",
     "attributeId": "A115",
-    "value": "BP4",
+    "value": "PS3",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "criterion",
     "attributeType": "Criterion",
-    "lookupValue": "computational evidence for\nno gene impact"
+    "lookupValue": "well-established damaging effect functional studies"
   },
   {
-    "dataId": "CritAssess373",
+    "dataId": "CritAssess374",
     "attributeId": "A117",
-    "value": "CanAll118",
+    "value": "CanAll124",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "variant",
     "attributeType": "CanonicalAllele",
-    "lookupValue": "NM_000257.2(MYH7):c.327C>T"
+    "lookupValue": "NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys)"
   },
   {
-    "dataId": "CritAssess373",
+    "dataId": "CritAssess374",
     "attributeId": "A116",
     "value": "CG:MET",
     "evidenceDataName": "CriterionAssessment",
@@ -13072,7 +13437,115 @@
     "lookupValue": "Evidence Satisfies Rule"
   },
   {
-    "dataId": "CritAssess373",
+    "dataId": "CritAssess374",
+    "attributeId": "A055",
+    "value": "EvLn116",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "EvidenceLine",
+    "lookupValue": ""
+  },
+  {
+    "dataId": "CritAssess375",
+    "attributeId": "A115",
+    "value": "BS4",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "criterion",
+    "attributeType": "Criterion",
+    "lookupValue": "does not segregate with disease"
+  },
+  {
+    "dataId": "CritAssess375",
+    "attributeId": "A117",
+    "value": "CanAll124",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "variant",
+    "attributeType": "CanonicalAllele",
+    "lookupValue": "NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys)"
+  },
+  {
+    "dataId": "CritAssess375",
+    "attributeId": "A116",
+    "value": "CG:MET",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "outcome",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Evidence Satisfies Rule"
+  },
+  {
+    "dataId": "CritAssess375",
+    "attributeId": "A055",
+    "value": "EvLn123",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "EvidenceLine",
+    "lookupValue": ""
+  },
+  {
+    "dataId": "CritAssess376",
+    "attributeId": "A115",
+    "value": "PM2",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "criterion",
+    "attributeType": "Criterion",
+    "lookupValue": "Absent from controls"
+  },
+  {
+    "dataId": "CritAssess376",
+    "attributeId": "A117",
+    "value": "CanAll125",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "variant",
+    "attributeType": "CanonicalAllele",
+    "lookupValue": "NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln)"
+  },
+  {
+    "dataId": "CritAssess376",
+    "attributeId": "A116",
+    "value": "CG:MET",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "outcome",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Evidence Satisfies Rule"
+  },
+  {
+    "dataId": "CritAssess376",
+    "attributeId": "A055",
+    "value": "EvLn126",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "EvidenceLine",
+    "lookupValue": ""
+  },
+  {
+    "dataId": "CritAssess377",
+    "attributeId": "A115",
+    "value": "PM6",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "criterion",
+    "attributeType": "Criterion",
+    "lookupValue": "assumed de novo"
+  },
+  {
+    "dataId": "CritAssess377",
+    "attributeId": "A117",
+    "value": "CanAll125",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "variant",
+    "attributeType": "CanonicalAllele",
+    "lookupValue": "NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln)"
+  },
+  {
+    "dataId": "CritAssess377",
+    "attributeId": "A116",
+    "value": "CG:MET",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "outcome",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Evidence Satisfies Rule"
+  },
+  {
+    "dataId": "CritAssess377",
     "attributeId": "A055",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "hasSupportingEvidence",

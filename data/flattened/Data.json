@@ -390,6 +390,19 @@
     "wasGeneratedBy": "Act079",
     "generation lookup": "on 6/1/16 2:03 PM by Steven Harrison"
   },
+  "Func067": {
+    "id": "Func067",
+    "entityTypeId": "E20",
+    "explanation": "PMID: 23487764",
+    "generation lookup": ""
+  },
+  "InSilicoPred068": {
+    "id": "InSilicoPred068",
+    "entityTypeId": "E47",
+    "explanation": "Provenance would show that this comes from Alamut",
+    "wasGeneratedBy": "",
+    "generation lookup": ""
+  },
   "Reg069": {
     "id": "Reg069",
     "entityTypeId": "E24",
@@ -403,6 +416,18 @@
     "wasGeneratedBy": "",
     "generation lookup": ""
   },
+  "Conserv071": {
+    "id": "Conserv071",
+    "entityTypeId": "E51",
+    "wasGeneratedBy": "",
+    "generation lookup": ""
+  },
+  "Conserv072": {
+    "id": "Conserv072",
+    "entityTypeId": "E51",
+    "wasGeneratedBy": "",
+    "generation lookup": ""
+  },
   "Reg073": {
     "id": "Reg073",
     "entityTypeId": "E24",
@@ -413,6 +438,18 @@
   "MolCon074": {
     "id": "MolCon074",
     "entityTypeId": "E02",
+    "wasGeneratedBy": "",
+    "generation lookup": ""
+  },
+  "MolCon075": {
+    "id": "MolCon075",
+    "entityTypeId": "E02",
+    "wasGeneratedBy": "",
+    "generation lookup": ""
+  },
+  "FamSegData076": {
+    "id": "FamSegData076",
+    "entityTypeId": "E45",
     "wasGeneratedBy": "",
     "generation lookup": ""
   },
@@ -564,6 +601,12 @@
     "wasGeneratedBy": "",
     "generation lookup": ""
   },
+  "AllFreq101": {
+    "id": "AllFreq101",
+    "entityTypeId": "E23",
+    "wasGeneratedBy": "",
+    "generation lookup": ""
+  },
   "BMVR102": {
     "id": "BMVR102",
     "entityTypeId": "E43",
@@ -591,6 +634,11 @@
     "wasGeneratedBy": "",
     "generation lookup": ""
   },
+  "DeNovo106": {
+    "id": "DeNovo106",
+    "entityTypeId": "E19",
+    "wasGeneratedBy": ""
+  },
   "FamSegData107": {
     "id": "FamSegData107",
     "entityTypeId": "E45",
@@ -611,11 +659,18 @@
     "wasGeneratedBy": "",
     "generation lookup": ""
   },
+  "IndCond110": {
+    "id": "IndCond110",
+    "entityTypeId": "E17"
+  },
   "FamSegData111": {
     "id": "FamSegData111",
     "entityTypeId": "E45",
-    "wasGeneratedBy": "",
     "generation lookup": ""
+  },
+  "FamHist112": {
+    "id": "FamHist112",
+    "entityTypeId": "E18"
   },
   "FamSegData113": {
     "id": "FamSegData113",
@@ -1802,12 +1857,6 @@
     "wasGeneratedBy": "Act044",
     "generation lookup": "on 7/21/16 2:46 PM by Steven Harrison"
   },
-  "CritAssess317": {
-    "id": "CritAssess317",
-    "entityTypeId": "E09",
-    "wasGeneratedBy": "",
-    "generation lookup": ""
-  },
   "CritAssess318": {
     "id": "CritAssess318",
     "entityTypeId": "E09",
@@ -2156,5 +2205,38 @@
     "explanation": "This is a synonymous variant with little conservation and no predicted impact on splicing. Conservation and splicing algorithm values are listed below.",
     "wasGeneratedBy": "Act103",
     "generation lookup": "on 03/08/2017 10:02 AM by Marina DiStefano"
+  },
+  "CritAssess374": {
+    "id": "CritAssess374",
+    "entityTypeId": "E09",
+    "explanation": "Flag-tagged construct with the variant was transfected into HEK cells. As per the RASopathy working group’s approved assays (see example 3 above), Smith et al. showed that the Y337C mutation increased levels of pERK in starved HEK cells via western blotting.",
+    "wasGeneratedBy": "Act106",
+    "generation lookup": "on 3/14/2017 10:29 AM by Marina DiStefano"
+  },
+  "CritAssess375": {
+    "id": "CritAssess375",
+    "entityTypeId": "E09",
+    "explanation": "A personal communication to our lab informed us of an individual and his son who both harbored the variant but with clinical workup did not appear to have Noonan Syndrome or symptoms indicative of Noonan Syndrome.",
+    "wasGeneratedBy": "Act107",
+    "generation lookup": "on 3/14/2017 10:45 AM by Marina DiStefano"
+  },
+  "CritAssess376": {
+    "id": "CritAssess376",
+    "entityTypeId": "E09",
+    "wasGeneratedBy": "Act108",
+    "generation lookup": "on 3/14/2017 11:45 AM by Marina DiStefano"
+  },
+  "CritAssess377": {
+    "id": "CritAssess377",
+    "entityTypeId": "E09",
+    "explanation": "Parental testing in our lab confirmed this variant was present de novo in 1 proband with clinical features of CFC. (LMM internal Data)",
+    "wasGeneratedBy": "Act109",
+    "generation lookup": "on 3/14/2017 12:45 PM by Marina DiStefano"
+  },
+  "CritAssess378": {
+    "id": "CritAssess378",
+    "entityTypeId": "E09",
+    "wasGeneratedBy": "Act110",
+    "generation lookup": "on 3/14/2017 1:45 PM by Marina DiStefano"
   }
 }

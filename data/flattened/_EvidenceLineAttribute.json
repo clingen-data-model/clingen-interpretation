@@ -33,7 +33,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "This is so well-known that it does not require a citation.",
-    "derivedName": "loss of function variant, Established, Breast Ovarian Cancer, autosomal recessive"
+    "derivedName": "loss of function variant, Established, Breast Ovarian Cancer"
   },
   {
     "evidenceLineId": "EvLn003",
@@ -78,7 +78,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "NM_002834.3:c.855T>G Pathogenic for Noonan Syndrome",
-    "derivedName": "NM_002834.3(PTPN11):c.853T>C (p.Phe285Leu), noonan syndrome, Autosomal Recessive, Pathogenic"
+    "derivedName": "NM_002834.3(PTPN11):c.853T>C (p.Phe285Leu), noonan syndrome, Autosomal Dominant, Pathogenic"
   },
   {
     "evidenceLineId": "EvLn006",
@@ -554,8 +554,8 @@
     "value": "VarInterp081",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "NM_007294.3(BRCA1):c.5291T>C, Breast Ovarian Cancer, autosomal recessive, Pathogenic",
-    "derivedName": "NM_007294.3(BRCA1):c.5291T>C, Breast Ovarian Cancer, autosomal recessive, Pathogenic"
+    "lookupValue": "NM_007294.3(BRCA1):c.5291T>C, Breast Ovarian Cancer, Pathogenic",
+    "derivedName": "NM_007294.3(BRCA1):c.5291T>C, Breast Ovarian Cancer, Pathogenic"
   },
   {
     "evidenceLineId": "EvLn040",
@@ -626,8 +626,8 @@
     "value": "IndCond089",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Ind009, cardiofaciocutaneous syndrome, TRUE",
-    "derivedName": "Ind009, cardiofaciocutaneous syndrome, TRUE"
+    "lookupValue": "Ind009, cardiofaciocutaneous syndrome, Autosomal Dominant, TRUE",
+    "derivedName": "Ind009, cardiofaciocutaneous syndrome, Autosomal Dominant, TRUE"
   },
   {
     "evidenceLineId": "EvLn043",
@@ -635,8 +635,8 @@
     "value": "FamHist090",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Ind009, cardiofaciocutaneous syndrome, FALSE",
-    "derivedName": "Ind009, cardiofaciocutaneous syndrome, FALSE"
+    "lookupValue": "Ind009, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE",
+    "derivedName": "Ind009, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE"
   },
   {
     "evidenceLineId": "EvLn043",
@@ -653,8 +653,8 @@
     "value": "IndCond092",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Ind010, cardiofaciocutaneous syndrome, TRUE",
-    "derivedName": "Ind010, cardiofaciocutaneous syndrome, TRUE"
+    "lookupValue": "Ind010, cardiofaciocutaneous syndrome, Autosomal Dominant, TRUE",
+    "derivedName": "Ind010, cardiofaciocutaneous syndrome, Autosomal Dominant, TRUE"
   },
   {
     "evidenceLineId": "EvLn044",
@@ -662,8 +662,8 @@
     "value": "FamHist093",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Ind010, cardiofaciocutaneous syndrome, FALSE",
-    "derivedName": "Ind010, cardiofaciocutaneous syndrome, FALSE"
+    "lookupValue": "Ind010, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE",
+    "derivedName": "Ind010, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE"
   },
   {
     "evidenceLineId": "EvLn044",
@@ -689,8 +689,8 @@
     "value": "FamHist096",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Ind011, cardiofaciocutaneous syndrome, FALSE",
-    "derivedName": "Ind011, cardiofaciocutaneous syndrome, FALSE"
+    "lookupValue": "Ind011, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE",
+    "derivedName": "Ind011, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE"
   },
   {
     "evidenceLineId": "EvLn045",
@@ -707,8 +707,8 @@
     "value": "IndCond098",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Ind012, cardiofaciocutaneous syndrome, TRUE",
-    "derivedName": "Ind012, cardiofaciocutaneous syndrome, TRUE"
+    "lookupValue": "Ind012, cardiofaciocutaneous syndrome, Autosomal Dominant, TRUE",
+    "derivedName": "Ind012, cardiofaciocutaneous syndrome, Autosomal Dominant, TRUE"
   },
   {
     "evidenceLineId": "EvLn046",
@@ -716,8 +716,8 @@
     "value": "FamHist099",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Ind012, cardiofaciocutaneous syndrome, FALSE",
-    "derivedName": "Ind012, cardiofaciocutaneous syndrome, FALSE"
+    "lookupValue": "Ind012, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE",
+    "derivedName": "Ind012, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE"
   },
   {
     "evidenceLineId": "EvLn046",
@@ -752,8 +752,8 @@
     "value": "FamSegData111",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Breast Ovarian Cancer, autosomal recessive, Family #005, 2",
-    "derivedName": "Breast Ovarian Cancer, autosomal recessive, Family #005, 2"
+    "lookupValue": "Breast Ovarian Cancer, Family #005, 2",
+    "derivedName": "Breast Ovarian Cancer, Family #005, 2"
   },
   {
     "evidenceLineId": "EvLn050",
@@ -2252,14 +2252,186 @@
   {
     "evidenceLineId": "EvLn116",
     "attributeId": "A178",
+    "value": "Func067",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "PMID: 23487764",
+    "derivedName": "increased ERK activtation, Activation Assay, NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys), ERK, SOS1"
+  },
+  {
+    "evidenceLineId": "EvLn117",
+    "attributeId": "A178",
+    "value": "InSilicoPred068",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "Provenance would show that this comes from Alamut",
+    "derivedName": "splicing prediction"
+  },
+  {
+    "evidenceLineId": "EvLn117",
+    "attributeId": "A178",
+    "value": "Conserv071",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "FALSE, phyloP, -0.76",
+    "derivedName": "FALSE, phyloP, -0.76"
+  },
+  {
+    "evidenceLineId": "EvLn117",
+    "attributeId": "A178",
+    "value": "Conserv072",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "FALSE, PhastCons, 0.63",
+    "derivedName": "FALSE, PhastCons, 0.63"
+  },
+  {
+    "evidenceLineId": "EvLn117",
+    "attributeId": "A178",
+    "value": "MolCon075",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "synonymous variant",
+    "derivedName": "synonymous variant"
+  },
+  {
+    "evidenceLineId": "EvLn118",
+    "attributeId": "A178",
+    "value": "CritAssess373",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "This is a synonymous variant with little conservation and no predicted impact on splicing. Conservation and splicing algorithm values are listed below.",
+    "derivedName": "computational evidence for\nno gene impact, NM_000257.2(MYH7):c.327C>T, Evidence Satisfies Rule"
+  },
+  {
+    "evidenceLineId": "EvLn119",
+    "attributeId": "A178",
+    "value": "CritAssess359",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "silent variant no splicing \nimpact  and low conservation, NM_000257.2(MYH7):c.327C>T, Evidence Satisfies Rule",
+    "derivedName": "silent variant no splicing \nimpact  and low conservation, NM_000257.2(MYH7):c.327C>T, Evidence Satisfies Rule"
+  },
+  {
+    "evidenceLineId": "EvLn120",
+    "attributeId": "A178",
+    "value": "CritAssess371",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "This variant is present in 0.2% (31/16512) of South Asian Chromosomes in ExAC.",
+    "derivedName": "MAF too high for disorder, NM_000257.2(MYH7):c.327C>T, Evidence Satisfies Rule"
+  },
+  {
+    "evidenceLineId": "EvLn121",
+    "attributeId": "A178",
+    "value": "CritAssess361",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "This variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006 PMID: 17186466). Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/).",
+    "derivedName": "Null Variant in known LOF genes, NM_024422.3(DSC2): c.631-2A>G (p.?), Evidence Satisfies Rule"
+  },
+  {
+    "evidenceLineId": "EvLn122",
+    "attributeId": "A178",
+    "value": "CritAssess369",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "This variant has been reported in 1/66564 European chromosomes by the Exome Aggregation Consortium (ExAC, http://exac.broadinstitute.org; dbSNP rs397514042).",
+    "derivedName": "Absent from controls, NM_024422.3(DSC2): c.631-2A>G (p.?), Evidence Satisfies Rule"
+  },
+  {
+    "evidenceLineId": "EvLn123",
+    "attributeId": "A178",
+    "value": "FamSegData076",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "noonan syndrome, Autosomal Dominant, Family #011, ?, ?",
+    "derivedName": "noonan syndrome, Autosomal Dominant, Family #011, ?, ?"
+  },
+  {
+    "evidenceLineId": "EvLn124",
+    "attributeId": "A178",
+    "value": "CritAssess374",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "Flag-tagged construct with the variant was transfected into HEK cells. As per the RASopathy working group’s approved assays (see example 3 above), Smith et al. showed that the Y337C mutation increased levels of pERK in starved HEK cells via western blotting.",
+    "derivedName": "well-established damaging effect functional studies, NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys), Evidence Satisfies Rule"
+  },
+  {
+    "evidenceLineId": "EvLn125",
+    "attributeId": "A178",
+    "value": "CritAssess375",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "A personal communication to our lab informed us of an individual and his son who both harbored the variant but with clinical workup did not appear to have Noonan Syndrome or symptoms indicative of Noonan Syndrome.",
+    "derivedName": "does not segregate with disease, NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys), Evidence Satisfies Rule"
+  },
+  {
+    "evidenceLineId": "EvLn126",
+    "attributeId": "A178",
+    "value": "AllFreq101",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "ExAC, Combined, NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), 0",
+    "derivedName": "ExAC, Combined, NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), 0"
+  },
+  {
+    "evidenceLineId": "EvLn127",
+    "attributeId": "A178",
+    "value": "CritAssess376",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "Absent from controls, NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), Evidence Satisfies Rule",
+    "derivedName": "Absent from controls, NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), Evidence Satisfies Rule"
+  },
+  {
+    "evidenceLineId": "EvLn128",
+    "attributeId": "A178",
+    "value": "DeNovo106",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "Ind03, FALSE, FALSE",
+    "derivedName": "Ind03, FALSE, FALSE"
+  },
+  {
+    "evidenceLineId": "EvLn128",
+    "attributeId": "A178",
+    "value": "IndCond110",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "Ind030, cardiofaciocutaneous syndrome, Autosomal Dominant, TRUE",
+    "derivedName": "Ind030, cardiofaciocutaneous syndrome, Autosomal Dominant, TRUE"
+  },
+  {
+    "evidenceLineId": "EvLn128",
+    "attributeId": "A178",
+    "value": "FamHist112",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "Ind030, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE",
+    "derivedName": "Ind030, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE"
+  },
+  {
+    "evidenceLineId": "EvLn129",
+    "attributeId": "A178",
+    "value": "CritAssess377",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "Parental testing in our lab confirmed this variant was present de novo in 1 proband with clinical features of CFC. (LMM internal Data)",
+    "derivedName": "assumed de novo, NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), Evidence Satisfies Rule"
+  },
+  {
+    "evidenceLineId": "EvLn130",
+    "attributeId": "A178",
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "#N/A",
     "derivedName": "#N/A"
   },
   {
-    "evidenceLineId": "EvLn116",
+    "evidenceLineId": "EvLn131",
     "attributeId": "A178",
+    "value": "CritAssess378",
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "#N/A",
