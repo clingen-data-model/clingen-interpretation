@@ -2,7 +2,7 @@
   "PVS1": {
     "id": "PVS1",
     "description": "null variant (nonsense, frameshift, canonical ±1 or 2 splice sites, initiation codon, single or multiexon deletion) in a gene where LOF is a known mechanism of disease",
-    "shortDescription": "Null Variant in known LOF genes",
+    "shortDescription": "Null variant in gene with known LOF mechanism",
     "defaultOutcome": "CG:VS",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
@@ -12,7 +12,7 @@
   "PS1": {
     "id": "PS1",
     "description": "Same amino acid change as a previously established pathogenic variant regardless of nucleotide change",
-    "shortDescription": "same as previous pathogenic amino acid change",
+    "shortDescription": "Nucleotide change results in previously reported pathogenic amino acid change",
     "defaultOutcome": "CG:S",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
@@ -22,7 +22,7 @@
   "PS2": {
     "id": "PS2",
     "description": "De novo (both maternity and paternity confirmed) in a patient with the disease and no family history",
-    "shortDescription": "confirmed de novo no family history",
+    "shortDescription": "Confirmed de novo in individual without family history of condition",
     "defaultOutcome": "CG:S",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
@@ -32,7 +32,7 @@
   "PS3": {
     "id": "PS3",
     "description": "Well-established in vitro or in vivo functional studies supportive of a damaging effect on the gene or gene product",
-    "shortDescription": "well-established damaging effect functional studies",
+    "shortDescription": "Well-established functional studies showing damaging effect",
     "defaultOutcome": "CG:S",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
@@ -42,7 +42,7 @@
   "PS4": {
     "id": "PS4",
     "description": "The prevalence of the variant in affected individuals is significantly increased compared with the prevalence in controls",
-    "shortDescription": "Prevelance increase in affected v control",
+    "shortDescription": "Prevelance increase in affected vs. control",
     "defaultOutcome": "CG:S",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
@@ -51,7 +51,7 @@
   "PM1": {
     "id": "PM1",
     "description": "Located in a mutational hot spot and/or critical and well-established functional domain (e.g., active site of an enzyme) without benign variation",
-    "shortDescription": "Located in hot spot w/out benign variation",
+    "shortDescription": "Located in hot spot without benign variation",
     "defaultOutcome": "CG:M",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
@@ -71,7 +71,7 @@
   "PM3": {
     "id": "PM3",
     "description": "For recessive disorders, detected in trans with a pathogenic variant",
-    "shortDescription": "Recessive in trans w/ Path",
+    "shortDescription": "Recessive in trans with pathogenic variant",
     "defaultOutcome": "CG:M",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
@@ -91,7 +91,7 @@
   "PM5": {
     "id": "PM5",
     "description": "Novel missense change at an amino acid residue where a different missense change determined to be pathogenic has been seen before",
-    "shortDescription": "novel missense at same aa residue as known path missense",
+    "shortDescription": "Novel missense at same amino acid as known pathogenic missense",
     "defaultOutcome": "CG:M",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
@@ -101,7 +101,7 @@
   "PM6": {
     "id": "PM6",
     "description": "Assumed de novo, but without confirmation of paternity and maternity",
-    "shortDescription": "assumed de novo",
+    "shortDescription": "Assumed de novo (parental status not confirmed)",
     "defaultOutcome": "CG:M",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
@@ -110,7 +110,7 @@
   "PP1": {
     "id": "PP1",
     "description": "Cosegregation with disease in multiple affected family members in a gene definitively known to cause the disease",
-    "shortDescription": "segregates with disease in affected family members",
+    "shortDescription": "Segregates with disease in affected family members",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
@@ -119,7 +119,7 @@
   "PP2": {
     "id": "PP2",
     "description": "Missense variant in a gene that has a low rate of benign missense variation and in which missense variants are a common mechanism of disease",
-    "shortDescription": "missense with pathogenic missense common",
+    "shortDescription": "Missense in condition where pathogenic missense common",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
@@ -129,7 +129,7 @@
   "PP3": {
     "id": "PP3",
     "description": "Multiple lines of computational evidence support a deleterious effect on the gene or gene product (conservation, evolutionary, splicing impact, etc.)",
-    "shortDescription": "computational evidence supports deleterious\neffect",
+    "shortDescription": "Computational evidence supports deleterious impact",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
@@ -139,7 +139,7 @@
   "PP4": {
     "id": "PP4",
     "description": "Patient’s phenotype or family history is highly specific for a disease with a single genetic etiology",
-    "shortDescription": "disease specific phenotype and family history",
+    "shortDescription": "Disease specific phenotype and family history",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
@@ -148,7 +148,7 @@
   "PP5": {
     "id": "PP5",
     "description": "Reputable source recently reports variant as pathogenic, but the evidence is not available to the laboratory to perform an independent evaluation",
-    "shortDescription": "pathogenic from reputable source without shared data",
+    "shortDescription": "Reported pathogenic by reputable source without shared data",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
@@ -157,7 +157,7 @@
   "BA1": {
     "id": "BA1",
     "description": "Allele frequency is >5% in Exome Sequencing Project, 1000 Genomes Project, or Exome Aggregation Consortium",
-    "shortDescription": "present in population databases at greater than 5%",
+    "shortDescription": "Present in population databases at greater than 5%",
     "defaultOutcome": "CG:A",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
@@ -176,7 +176,7 @@
   "BS2": {
     "id": "BS2",
     "description": "Observed in a healthy adult individual for a recessive (homozygous), dominant (heterozygous), or X-linked (hemizygous) disorder, with full penetrance expected at an early age",
-    "shortDescription": "control frequency higher than penetrance predicts",
+    "shortDescription": "Control frequency higher than expected for penetrance",
     "defaultOutcome": "CG:S",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
@@ -186,7 +186,7 @@
   "BS3": {
     "id": "BS3",
     "description": "Well-established in vitro or in vivo functional studies show no damaging effect on protein function or splicing",
-    "shortDescription": "well-established no damaging effect functional studies",
+    "shortDescription": "Well-established functional studies do not show damaging effect",
     "defaultOutcome": "CG:S",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
@@ -196,7 +196,7 @@
   "BS4": {
     "id": "BS4",
     "description": "Lack of segregation in affected members of a family",
-    "shortDescription": "does not segregate with disease",
+    "shortDescription": "Does not segregate with disease",
     "defaultOutcome": "CG:S",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
@@ -206,7 +206,7 @@
   "BP1": {
     "id": "BP1",
     "description": "Missense variant in a gene for which primarily truncating variants are known to cause disease",
-    "shortDescription": "missense variant when truncating is pathogenic\n",
+    "shortDescription": "Missense variant when truncating is expected mechanism",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
@@ -216,7 +216,7 @@
   "BP2": {
     "id": "BP2",
     "description": "Observed in trans with a pathogenic variant for a fully penetrant dominant gene/disorder or observed in cis with a pathogenic variant in any inheritance pattern",
-    "shortDescription": "in trans with dominant OR in cis with path variant",
+    "shortDescription": "In trans with dominant OR in cis with pathogenic variant",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
@@ -225,7 +225,7 @@
   "BP3": {
     "id": "BP3",
     "description": "In-frame deletions/insertions in a repetitive region without a known function",
-    "shortDescription": "in-frame indel unknown function",
+    "shortDescription": "In-frame indel without known function",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
@@ -234,7 +234,7 @@
   "BP4": {
     "id": "BP4",
     "description": "Multiple lines of computational evidence suggest no impact on gene or gene product (conservation, evolutionary, splicing impact, etc.)",
-    "shortDescription": "computational evidence for\nno gene impact",
+    "shortDescription": "Computational evidence supports benign impact",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
@@ -244,7 +244,7 @@
   "BP5": {
     "id": "BP5",
     "description": "Variant found in a case with an alternate molecular basis for disease",
-    "shortDescription": "alternate cause of disease",
+    "shortDescription": "Variant found in case with alternate explanation",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
@@ -253,7 +253,7 @@
   "BP6": {
     "id": "BP6",
     "description": "Reputable source recently reports variant as benign, but the evidence is not available to the laboratory to perform an independent evaluation",
-    "shortDescription": "benign from reputable source without shared data",
+    "shortDescription": "Reported benign by reputable source without shared data",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
@@ -262,7 +262,7 @@
   "BP7": {
     "id": "BP7",
     "description": "A synonymous (silent) variant for which splicing prediction algorithms predict no impact to the splice consensus sequence nor the creation of a new splice site AND the nucleotide is not highly conserved",
-    "shortDescription": "silent variant no splicing \nimpact  and low conservation",
+    "shortDescription": "Synonymous variant without predicted splice effect in region with low conservation",
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",

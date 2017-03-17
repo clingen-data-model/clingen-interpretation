@@ -2210,8 +2210,8 @@
     "value": "CritAssess296",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Recessive in trans w/ Path, NM_001369.2(DNAH5):c.7468_7488del, Evidence Satisfies Rule",
-    "derivedName": "Recessive in trans w/ Path, NM_001369.2(DNAH5):c.7468_7488del, Evidence Satisfies Rule"
+    "lookupValue": "Recessive in trans with pathogenic variant, NM_001369.2(DNAH5):c.7468_7488del, Evidence Satisfies Rule",
+    "derivedName": "Recessive in trans with pathogenic variant, NM_001369.2(DNAH5):c.7468_7488del, Evidence Satisfies Rule"
   },
   {
     "evidenceLineId": "EvLn112",
@@ -2238,7 +2238,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "Homozygous truncating variants in LOXHD1 are associated with autosomal recessive hearing loss. This was demonstrated by both identification in human patients and a mouse model. (I used the OMIM entry as a source, but you could also directly use the papers.)",
-    "derivedName": "missense variant when truncating is pathogenic\n, NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His), Evidence Satisfies Rule"
+    "derivedName": "Missense variant when truncating is expected mechanism, NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His), Evidence Satisfies Rule"
   },
   {
     "evidenceLineId": "EvLn115",
@@ -2247,7 +2247,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "This variant was identified in one individual with pathogenic variants in another gene. Internal LMM data: The proband had one pathogenic and one likely pathogenic variant in (in trans) in SLC26A4. This proband had mild to profound hearing loss with EVA, which is characteristic of Pendred Syndrome. SLC26A4 is the only gene associated with Pendred Syndrome",
-    "derivedName": "alternate cause of disease, NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His), Evidence Satisfies Rule"
+    "derivedName": "Variant found in case with alternate explanation, NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His), Evidence Satisfies Rule"
   },
   {
     "evidenceLineId": "EvLn116",
@@ -2301,7 +2301,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "This is a synonymous variant with little conservation and no predicted impact on splicing. Conservation and splicing algorithm values are listed below.",
-    "derivedName": "computational evidence for\nno gene impact, NM_000257.2(MYH7):c.327C>T, Evidence Satisfies Rule"
+    "derivedName": "Computational evidence supports benign impact, NM_000257.2(MYH7):c.327C>T, Evidence Satisfies Rule"
   },
   {
     "evidenceLineId": "EvLn119",
@@ -2309,8 +2309,8 @@
     "value": "CritAssess359",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "silent variant no splicing \nimpact  and low conservation, NM_000257.2(MYH7):c.327C>T, Evidence Satisfies Rule",
-    "derivedName": "silent variant no splicing \nimpact  and low conservation, NM_000257.2(MYH7):c.327C>T, Evidence Satisfies Rule"
+    "lookupValue": "Synonymous variant without predicted splice effect in region with low conservation, NM_000257.2(MYH7):c.327C>T, Evidence Satisfies Rule",
+    "derivedName": "Synonymous variant without predicted splice effect in region with low conservation, NM_000257.2(MYH7):c.327C>T, Evidence Satisfies Rule"
   },
   {
     "evidenceLineId": "EvLn120",
@@ -2328,7 +2328,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "This variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006 PMID: 17186466). Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/).",
-    "derivedName": "Null Variant in known LOF genes, NM_024422.3(DSC2): c.631-2A>G (p.?), Evidence Satisfies Rule"
+    "derivedName": "Null variant in gene with known LOF mechanism, NM_024422.3(DSC2): c.631-2A>G (p.?), Evidence Satisfies Rule"
   },
   {
     "evidenceLineId": "EvLn122",
@@ -2355,7 +2355,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "Flag-tagged construct with the variant was transfected into HEK cells. As per the RASopathy working group’s approved assays (see example 3 above), Smith et al. showed that the Y337C mutation increased levels of pERK in starved HEK cells via western blotting.",
-    "derivedName": "well-established damaging effect functional studies, NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys), Evidence Satisfies Rule"
+    "derivedName": "Well-established functional studies showing damaging effect, NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys), Evidence Satisfies Rule"
   },
   {
     "evidenceLineId": "EvLn125",
@@ -2364,7 +2364,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "A personal communication to our lab informed us of an individual and his son who both harbored the variant but with clinical workup did not appear to have Noonan Syndrome or symptoms indicative of Noonan Syndrome.",
-    "derivedName": "does not segregate with disease, NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys), Evidence Satisfies Rule"
+    "derivedName": "Does not segregate with disease, NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys), Evidence Satisfies Rule"
   },
   {
     "evidenceLineId": "EvLn126",
@@ -2418,7 +2418,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "Parental testing in our lab confirmed this variant was present de novo in 1 proband with clinical features of CFC. (LMM internal Data)",
-    "derivedName": "assumed de novo, NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), Evidence Satisfies Rule"
+    "derivedName": "Assumed de novo (parental status not confirmed), NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), Evidence Satisfies Rule"
   },
   {
     "evidenceLineId": "EvLn130",
