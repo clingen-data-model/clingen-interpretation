@@ -95,7 +95,9 @@
               <%= image_tag 'clingen-doc-logo.png', width: "438", height: "108", alt: "ClinGen Documentation", class: "img-responsive" %>
             </li>
 
-            <%= link_with_local_index "Welcome", "welcome/index.html" %>
+            <li class="active">
+              <%= link_to "Welcome", "/index.html", :relative => true %>
+            </li>
             <%= link_with_local_index "User Guide", "user/index.html" %>
             <%= link_with_local_index "Technical Reference", "tech/index.html" %>
             <!-- Old style.  We might still need the model here? -->
