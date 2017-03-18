@@ -21,7 +21,6 @@ Benefits of the ClinGen Interpretation Model
     * To what degree the interpretation builds upon previous interpretations
 * Aligns with related community models including:
     * Monarch SEPIO
-    * W3C-Prov
     * ClinGen Allele Model
 * Other features:
     * Flexible: Naturally able to represent a range of interpretation depth, from unsupported assertions to fully evidence-based interpretations, using whatever level of data has been captured.
@@ -34,9 +33,9 @@ Benefits of the ClinGen Interpretation Model
 Status
 ------
 
-Version 1 of the interpretation model was released on March 31, 2017, and allows the description of variant pathogenicity interpretations based on the ACMG guidelines [ref].   Version 2, incorporating interpretation across a broader set of entities and styles is currently in the scoping phase.
+Version 1 of the interpretation model is planned for the first quarter of 2017, and will allow the description of variant pathogenicity interpretations based on the [ACMG guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html).   Version 2, incorporating interpretation across a broader set of entities and styles is currently in the scoping phase.
 
 Documentation
 -------------
 
-The following documentation is divided into two sections.  One section, meant for those new to the model, or for those seeking a non-technical explanation describes the structure of the model and its relationships to Monarch SEPIO and W3C-Prov.  The following section is for technical users and implementers of the model.  This section includes detailed information about the types and attributes of the data model, as well as numerous examples that show how these types are expressed in a JSON format.
+The following documentation is divided into two sections.  The [User Guide](user/) is meant for those new to the model, or for those seeking a non-technical explanation describes the structure of the model and its relationships to Monarch SEPIO and W3C-Prov.  The [Technical Reference](tech/) is for technical users and implementers of the model.  This section includes detailed information about the types and attributes of the data model, as well as numerous examples that show how these types are expressed in a JSON format.
