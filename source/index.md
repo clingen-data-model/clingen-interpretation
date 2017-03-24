@@ -29,6 +29,11 @@ Benefits of the ClinGen Interpretation Model
     * Extensible: Easily transferable to other types of interpretations other interpretation methods.
     * Well-documented, including many examples of using the model to encode variant interpretations using all of the ACMG guidelines.
 
+Development by Example
+----------------------
+
+To ensure that the model supports its intended use case to represent clinical interpretation of
+variants, develoment has been guided by real-world examples of application of the [ACMG guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html). These examples are available in hierarchical form through the individual pages of the [Technical Reference](tech/), or in a "flattened" form in the [data/flattened](https://github.com/clingen-data-model/clingen-interpretation/tree/master/data/flattened) directory of our source code repository.
 
 Status
 ------
