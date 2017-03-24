@@ -64,38 +64,78 @@ div.tooltip table, tr, td {
 }
 
 div#jsonview {
-  height: 300px;
+  height: 500px;
   border: 1px solid black;
 }
+
+#jsontable th {
+  text-align: left;
+  background-color: lightsteelblue;
+}
+
+td.rowheader {
+  text-align: right;
+  background-color: #ddd;
+}
+
 </style>
 <body>
-  <div id="jsonlist"></div>
+  <h1>Tabular View</h1>
+  <div id="jsontable"></div>
+  <h1>JSON message</h1>
   <div id="jsonview"></div>
+  <h1>Diagram</h1>
   <svg id="diagram" width="1600" height="800"></svg>
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.6/ace.js"></script>
   <script>
 
-var json_as_list = function(json, parent) {
-  if (typeof(json) === 'string' || typeof(json) === 'number' || typeof(json) === 'boolean') {
-    parent.text(json)
-  } else if (Array.isArray(json)) {
-    var ul = parent.append('ul');
-    json.forEach(function (d) {
-      var li = ul.append('li')
-      json_as_list(d, li)
-    });
-  } else {
-    var ul = parent.append('ul');
-    for (k in json) {
-      var li = ul.append('li');
-      var text = k.startsWith('cg:')? k.substring(3) : k;
-      li.append('span').classed('term', true).text(text + ': ')
-      var defn = li.append('span').classed('definition', true);
-      json_as_list(json[k], defn);
+var json_table_recurse = function(sel) {
+  sel.each(function (d) {
+    var colnames,
+        tds,
+        table = d3.select(this);
+    if (d instanceof Array) {
+      table.classed("array", true);
+      tds = table.append("tbody").selectAll("tr")
+          .data(d)
+        .enter().append("tr").selectAll("td")
+          .data(function (x) { return x; })
+        .enter().append("td");
+      tds.append("table").call(json_table_recurse);
+    } else {
+      table.classed("object", true);
+      var thead = table.append("thead");
+      var tbody = table.append("tbody");
+      header = ''
+      if (d['cg:id']) {
+        header += d['cg:id'];
+      }
+      if (d['cg:type']) {
+        header += " (" + d['cg:type'] + ")"
+      }
+      thead.append("tr").append("th").attr("colspan", 2)
+          .text(header);
+      tds = tbody.selectAll("tr")
+          .data(d3.entries(d).filter(function (x) { return !x.key.startsWith("cg:"); }))
+        .enter().append("tr").selectAll("td")
+          .data(function(x) { return [x.key, x.value]})
+        .enter().append("td");
+      tds.classed("rowheader", function (d, i) { return i == 0; });
+      tds.each(function (x, i) {
+        var td = d3.select(this);
+        if (x instanceof Array) {
+          td.selectAll("table").data(x)
+            .enter().append("table").call(json_table_recurse);
+        } else if (x instanceof Object) {
+          td.selectAll("table").data([x]).enter().append("table").call(json_table_recurse);
+        } else {
+          td.text(x);
+        }
+      });
     }
-  }
+  });
 }
 
 var diagram = {};
@@ -104,7 +144,10 @@ if (window.location.hash) {
   d3.json('../../json/' + exampleId + '.json', function(error, tree) {
     if (error) throw error
     diagram = new DmwgDiagram(tree);
-    json_as_list(tree, d3.select('#jsonlist'));
+    d3.select("#jsontable").selectAll("table")
+        .data([tree])
+      .enter().append("table")
+        .call(json_table_recurse);
     d3.select("#jsonview").text(JSON.stringify(tree, null, 2));
     var editor = ace.edit("jsonview");
     editor.getSession().setMode('ace/mode/json');
