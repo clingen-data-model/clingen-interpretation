@@ -1,82 +1,107 @@
 {
   "VS001": {
     "id": "VS001",
+    "source": "internal",
     "name": "DataSourceType",
     "description": "When capturing supporting data or evidence data this list of concepts provides a category for the source of the supporting data."
   },
   "VS002": {
     "id": "VS002",
+    "source": "SequenceOntology",
     "name": "MolecularConsequence"
   },
   "VS003": {
     "id": "VS003",
+    "source": "LOINC",
     "name": "Significance"
   },
   "VS004": {
     "id": "VS004",
+    "source": "internal",
     "name": "RegionAnnotationType"
   },
   "VS005": {
     "id": "VS005",
+    "source": "internal",
     "name": "Phase"
   },
   "VS006": {
     "id": "VS006",
+    "source": "internal",
     "name": "AllelicState"
   },
   "VS007": {
     "id": "VS007",
+    "source": "HPO",
     "name": "ModeOfInheritance"
   },
   "VS008": {
     "id": "VS008",
+    "source": "RelationsOntology",
     "name": "ReferenceSequenceRelatedType"
   },
   "VS009": {
     "id": "VS009",
+    "source": "SequenceOntology",
     "name": "Mechanism"
   },
   "VS010": {
     "id": "VS010",
+    "source": "internal",
     "name": "PredictionType"
   },
   "VS011": {
     "id": "VS011",
+    "source": "internal",
     "name": "CriterionEvaluation"
   },
   "VS012": {
     "id": "VS012",
+    "source": "internal",
     "name": "FunctionalDataType"
   },
   "VS013": {
     "id": "VS013",
+    "source": "ExAC, 1SGR, internal",
     "name": "PopulationType",
     "description": "From Exac http://exac.broadinstitute.org/faq"
   },
   "VS014": {
     "id": "VS014",
+    "source": "internal",
     "name": "BenignMissenseVariationRate"
   },
   "VS015": {
     "id": "VS015",
+    "source": "internal",
     "name": "PenetranceType"
   },
   "VS016": {
     "id": "VS016",
+    "source": "internal",
     "name": "ConditionMechanismStrength",
     "description": "The level of strength for which a class of variants is a known mechanism for a condition"
   },
   "VS017": {
     "id": "VS017",
+    "source": "internal",
     "name": "MendelianVariantIntepretationEvidenceStrength",
     "description": "The set of ACMG rule strength qualifying values."
   },
   "VS018": {
     "id": "VS018",
+    "source": "OMIM, Orphanet, MeSH, UMLS, DOID",
     "name": "Disease"
   },
   "VS019": {
     "id": "VS019",
+    "source": "HPO",
     "name": "Phenotype"
+  },
+  "VS020": {
+    "id": "VS020",
+    "source": "RefSeq, Ensembl, LRG",
+    "name": "ReferenceSequence",
+    "description": "Accessions of sequences used as reference to define Locus for Regions and ContextualAlleles (extensible)"
   }
 }

@@ -46,6 +46,7 @@
     "name": "capturedEvidence",
     "dataType": "Data",
     "cardinality": "1..*",
+    "valueSetName": "",
     "fullyQualifiedName": "#N/A"
   },
   "A005": {
@@ -54,6 +55,7 @@
     "name": "dataSource",
     "dataType": "DataSource",
     "cardinality": "0..1",
+    "valueSetName": "",
     "fullyQualifiedName": "#N/A"
   },
   "A009": {
@@ -111,6 +113,7 @@
     "dataType": "Data",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "valueSetName": "",
     "precedence": 1.0,
     "fullyQualifiedName": "Example.dataId"
   },
@@ -121,6 +124,7 @@
     "dataType": "String",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "valueSetName": "",
     "precedence": 2.0,
     "fullyQualifiedName": "Example.searchTags"
   },
@@ -131,6 +135,7 @@
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "valueSetName": "",
     "precedence": 3.0,
     "fullyQualifiedName": "Example.index"
   },
@@ -373,6 +378,7 @@
     "dataType": "Agent",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "valueSetName": "",
     "precedence": 4.0,
     "fullyQualifiedName": "Example.authorId"
   },
@@ -383,6 +389,7 @@
     "dataType": "String",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "valueSetName": "",
     "precedence": 5.0,
     "fullyQualifiedName": "Example.description"
   },
@@ -393,6 +400,7 @@
     "dataType": "Image",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "valueSetName": "",
     "precedence": 6.0,
     "fullyQualifiedName": "Example.image"
   },
@@ -548,6 +556,7 @@
     "dataType": "int",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "valueSetName": "",
     "precedence": 5.0,
     "description": "Number of (non-proband) individuals with the condition and without the allele"
   },
@@ -565,7 +574,7 @@
   },
   "A052": {
     "id": "A052",
-    "entityId": "E24",
+    "entityId": "E22",
     "name": "referenceSequence",
     "dataType": "ReferenceSequence",
     "cardinality": "0..1",
@@ -573,11 +582,11 @@
     "valueSetName": "",
     "precedence": 1.0,
     "description": "Sequence on which the region is defined",
-    "fullyQualifiedName": "RegionTypesAndAlleles.referenceSequence"
+    "fullyQualifiedName": "Locus.referenceSequence"
   },
   "A053": {
     "id": "A053",
-    "entityId": "E24",
+    "entityId": "E22",
     "name": "start",
     "dataType": "int",
     "cardinality": "0..1",
@@ -585,11 +594,11 @@
     "valueSetName": "",
     "precedence": 2.0,
     "description": "Start of the region in 0-based coordinates",
-    "fullyQualifiedName": "RegionTypesAndAlleles.start"
+    "fullyQualifiedName": "Locus.start"
   },
   "A054": {
     "id": "A054",
-    "entityId": "E24",
+    "entityId": "E22",
     "name": "stop",
     "dataType": "int",
     "cardinality": "0..1",
@@ -597,7 +606,7 @@
     "valueSetName": "",
     "precedence": 3.0,
     "description": "End of the region in 0-based coordinates",
-    "fullyQualifiedName": "RegionTypesAndAlleles.stop"
+    "fullyQualifiedName": "Locus.stop"
   },
   "A055": {
     "id": "A055",
@@ -605,6 +614,7 @@
     "name": "hasSupportingEvidence",
     "dataType": "EvidenceLine",
     "cardinality": "0..*",
+    "valueSetName": "",
     "precedence": 1.0,
     "description": "supporting evidence",
     "fullyQualifiedName": "CriterionAssessment.hasSupportingEvidence"
@@ -618,8 +628,8 @@
     "defaultValue": "null",
     "valueSetId": "VS004",
     "valueSetName": "RegionAnnotationType",
-    "precedence": 5.0,
-    "fullyQualifiedName": "RegionTypesAndAlleles.isNotTypes"
+    "precedence": 3.0,
+    "fullyQualifiedName": "RegionAnnotation.isNotTypes"
   },
   "A057": {
     "id": "A057",
@@ -630,31 +640,32 @@
     "defaultValue": "null",
     "valueSetId": "VS004",
     "valueSetName": "RegionAnnotationType",
-    "precedence": 4.0,
-    "fullyQualifiedName": "RegionTypesAndAlleles.isTypes"
+    "precedence": 2.0,
+    "fullyQualifiedName": "RegionAnnotation.isTypes"
   },
   "A058": {
     "id": "A058",
-    "entityId": "E24",
+    "entityId": "E25",
     "name": "includedAlleles",
     "dataType": "ContextualAllele",
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetName": "",
-    "precedence": 6.0,
+    "precedence": 2.0,
     "description": "Alleles that are within the region",
-    "fullyQualifiedName": "RegionTypesAndAlleles.includedAlleles"
+    "fullyQualifiedName": "RegionAlleles.includedAlleles"
   },
   "A059": {
     "id": "A059",
-    "entityId": "E24",
+    "entityId": "E25",
     "name": "excludedAlleles",
     "dataType": "ContextualAllele",
     "cardinality": "0..*",
     "defaultValue": "null",
-    "precedence": 7.0,
+    "valueSetName": "",
+    "precedence": 3.0,
     "description": "Alleles that are NOT within the region",
-    "fullyQualifiedName": "RegionTypesAndAlleles.excludedAlleles"
+    "fullyQualifiedName": "RegionAlleles.excludedAlleles"
   },
   "A060": {
     "id": "A060",
@@ -674,6 +685,7 @@
     "name": "hasEvidence",
     "dataType": "EvidenceLine",
     "cardinality": "0..*",
+    "valueSetName": "",
     "precedence": 5.0,
     "description": "** TODO **",
     "fullyQualifiedName": "VariantInterpretation.hasEvidence"
@@ -689,6 +701,17 @@
     "precedence": 11.0,
     "description": "Median coverage at the allele site in the data set",
     "fullyQualifiedName": "AlleleFrequency.medianCoverage"
+  },
+  "A063": {
+    "id": "A063",
+    "entityId": "E24",
+    "name": "region",
+    "dataType": "Locus",
+    "cardinality": "1..1",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "description": "Region",
+    "fullyQualifiedName": "RegionAnnotation.region"
   },
   "A065": {
     "id": "A065",
@@ -765,41 +788,29 @@
     "description": "Phase of the primary and secondary individual",
     "fullyQualifiedName": "IndividualAllele.phase"
   },
+  "A071": {
+    "id": "A071",
+    "entityId": "E25",
+    "name": "region",
+    "dataType": "Locus",
+    "cardinality": "1..1",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "description": "Region within which alleles are being measured",
+    "fullyQualifiedName": "RegionAlleles.region"
+  },
   "A076": {
     "id": "A076",
     "entityId": "E43",
-    "name": "referenceSequence",
-    "dataType": "ReferenceSequence",
+    "name": "region",
+    "dataType": "Locus",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
     "description": "Sequence on which the region is defined",
-    "fullyQualifiedName": "BenignMissenseVariationRate.referenceSequence"
-  },
-  "A077": {
-    "id": "A077",
-    "entityId": "E43",
-    "name": "start",
-    "dataType": "int",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 2.0,
-    "description": "Start of the region in 0-based coordinates",
-    "fullyQualifiedName": "BenignMissenseVariationRate.start"
-  },
-  "A078": {
-    "id": "A078",
-    "entityId": "E43",
-    "name": "stop",
-    "dataType": "int",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 3.0,
-    "description": "End of the region in 0-based coordinates",
-    "fullyQualifiedName": "BenignMissenseVariationRate.stop"
+    "fullyQualifiedName": "BenignMissenseVariationRate.region"
   },
   "A080": {
     "id": "A080",
@@ -810,7 +821,7 @@
     "defaultValue": "null",
     "valueSetId": "VS014",
     "valueSetName": "BenignMissenseVariationRate",
-    "precedence": 4.0,
+    "precedence": 2.0,
     "description": "The rate at which Benign missense variants occur within the region",
     "fullyQualifiedName": "BenignMissenseVariationRate.value"
   },
@@ -1286,18 +1297,6 @@
     "description": "A human-readable description of the entity",
     "fullyQualifiedName": "Entity.explanation"
   },
-  "A121": {
-    "id": "A121",
-    "entityId": "E52",
-    "name": "wasDerivedFrom",
-    "dataType": "Data",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "valueSetName": "",
-    "precedence": 92.0,
-    "description": "Another entityy which was a former derivation of this entity.",
-    "fullyQualifiedName": "Entity.wasDerivedFrom"
-  },
   "A122": {
     "id": "A122",
     "entityId": "E35",
@@ -1535,17 +1534,18 @@
     "name": "gene",
     "dataType": "Gene",
     "cardinality": "0..1",
+    "valueSetName": "",
     "precedence": 5.0
   },
   "A144": {
     "id": "A144",
     "entityId": "E26",
-    "name": "identifier",
-    "dataType": "String",
+    "name": "accession",
+    "dataType": "CodeableConcept",
     "cardinality": "1..1",
     "valueSetName": "",
     "precedence": 1.0,
-    "fullyQualifiedName": "ReferenceSequence.identifier"
+    "fullyQualifiedName": "ReferenceSequence.accession"
   },
   "A145": {
     "id": "A145",
@@ -1696,6 +1696,7 @@
     "name": " ",
     "dataType": " ",
     "cardinality": " ",
+    "valueSetName": "",
     "precedence": " "
   },
   "A160": {
@@ -1705,7 +1706,7 @@
     "dataType": "CodeableConcept",
     "cardinality": "0..1",
     "valueSetId": "VS007",
-    "valueSetName": "modeOfInheritance",
+    "valueSetName": "ModeOfInheritance",
     "precedence": 5.0,
     "description": "Mode Of Inheritance used in evaluation of segregation",
     "fullyQualifiedName": "AggregateSegregationData.modeOfInheritance"
@@ -1716,6 +1717,7 @@
     "name": "totalOfAllelePosConditionPosIndividuals",
     "dataType": "int",
     "cardinality": "0..1",
+    "valueSetName": "",
     "precedence": 6.0,
     "description": "Number of individuals across families that have the allele and the condition",
     "fullyQualifiedName": "AggregateSegregationData.totalOfAllelePosConditionPosIndividuals"
@@ -1726,6 +1728,7 @@
     "name": "totalOfAlleleNegConditionNegIndividuals",
     "dataType": "int",
     "cardinality": "0..1",
+    "valueSetName": "",
     "precedence": 7.0,
     "description": "Number of individuals across families that lack both the allele and the condition",
     "fullyQualifiedName": "AggregateSegregationData.totalOfAlleleNegConditionNegIndividuals"
@@ -1736,6 +1739,7 @@
     "name": "totalOfAllelePosConditionNegIndividuals",
     "dataType": "int",
     "cardinality": "0..1",
+    "valueSetName": "",
     "precedence": 8.0,
     "description": "Number of individuals across families that have the allele but not the condition",
     "fullyQualifiedName": "AggregateSegregationData.totalOfAllelePosConditionNegIndividuals"
@@ -1746,6 +1750,7 @@
     "name": "totalOfAlleleNegConditionPosIndividuals",
     "dataType": "int",
     "cardinality": "0..1",
+    "valueSetName": "",
     "precedence": 9.0,
     "description": "Number of individuals across families that do not have the allele but do have the condition",
     "fullyQualifiedName": "AggregateSegregationData.totalOfAlleleNegConditionPosIndividuals"
@@ -1756,6 +1761,7 @@
     "name": "totalOfUntestedConditionPosIndividuals",
     "dataType": "int",
     "cardinality": "0..1",
+    "valueSetName": "",
     "precedence": 10.0,
     "description": "Number of individuals across families that have the condition but whose allele is untested",
     "fullyQualifiedName": "AggregateSegregationData.totalOfUntestedConditionPosIndividuals"
@@ -1766,6 +1772,7 @@
     "name": "totalOfUntestedConditionNegIndividuals",
     "dataType": "int",
     "cardinality": "0..1",
+    "valueSetName": "",
     "precedence": 11.0,
     "description": "Number of individuals across families that do not have the condition but whose allele is untested",
     "fullyQualifiedName": "AggregateSegregationData.totalOfUntestedConditionNegIndividuals"
@@ -1776,6 +1783,7 @@
     "name": "totalOfFamiliesWithInconsistentSegregations",
     "dataType": "int",
     "cardinality": "0..1",
+    "valueSetName": "",
     "precedence": 12.0,
     "description": "Number of families containing segregations that are inconsistent with the allele causing the condition",
     "fullyQualifiedName": "AggregateSegregationData.totalOfFamiliesWithInconsistentSegregations"
@@ -1806,6 +1814,7 @@
     "name": "description",
     "dataType": "String",
     "cardinality": "0..1",
+    "valueSetName": "",
     "fullyQualifiedName": "ScoringAlgorithm.description"
   },
   "A177": {
@@ -1815,6 +1824,7 @@
     "dataType": "String",
     "cardinality": "1..1",
     "defaultValue": "not null",
+    "valueSetName": "",
     "precedence": 1.0,
     "fullyQualifiedName": "EvidenceLine.description"
   },
@@ -1824,6 +1834,7 @@
     "name": "supportingData",
     "dataType": "Data",
     "cardinality": "0..*",
+    "valueSetName": "",
     "precedence": 3.0,
     "fullyQualifiedName": "EvidenceLine.supportingData"
   },
@@ -1844,6 +1855,7 @@
     "name": "strengthBy",
     "dataType": "Agent",
     "cardinality": "0..1",
+    "valueSetName": "",
     "precedence": 4.0,
     "fullyQualifiedName": "EvidenceLine.strengthBy"
   },
@@ -1853,6 +1865,7 @@
     "name": "strengthOn",
     "dataType": "Datetime",
     "cardinality": "0..1",
+    "valueSetName": "",
     "precedence": 5.0,
     "fullyQualifiedName": "EvidenceLine.strengthOn"
   }

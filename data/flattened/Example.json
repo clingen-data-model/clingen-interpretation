@@ -47,7 +47,7 @@
     "index": 2.0,
     "authorId": "Agent001",
     "author name": "Steven Harrison",
-    "description": "Assessed variant: DNAH5 - NM_001369.2:c.6249G>C - p.Met2083Ile\nA different variant creating the same AA change is pathogenic (c.6249G>A - p.Met2083Ile) but that change is pathogenic because it has been shown to disrupt splicing and create a premature stop codon. Prediction tools do not suggest c.6429G>C disrupts splicing so applying PS1 (as met by c.6429G>A) is likely not appropriate.\nG>C Predictions:\nWT seq. SpliceSiteFinder score, Alamut.wtSSFScore, 86.1635\nWT seq. MaxEntScan score, Alamut.wtMaxEntScore, 9.33191\nWT seq. NNSPLICE score, Alamut.wtNNSScore, 0.995916\nWT seq. GeneSplicer score, Alamut.wtGSScore, 1.40526\nWT seq. HumanSpliceFinder score, Alamut.wtHSFScore, 92.362\nVariant seq. SpliceSiteFinder score, Alamut.wtSSFScore, 74.0274\nVariant seq. MaxEntScan score, Alamut.wtMaxEntScore, 4.33035\nVariant seq. NNSPLICE score, Alamut.wtNNSScore, 0.908774\nVariant seq. GeneSplicer score, Alamut.wtGSScore, -\nVariant seq. HumanSpliceFinder score, Alamut.wtHSFScore, 81.784\nAverage change at nearest splice site, Alamut.nearestSSChange, -0.245997\nG>A Predictions:\nWT seq. SpliceSiteFinder score, Alamut.wtSSFScore, 86.1635\nWT seq. MaxEntScan score, Alamut.wtMaxEntScore, 9.33191\nWT seq. NNSPLICE score, Alamut.wtNNSScore, 0.995916\nWT seq. GeneSplicer score, Alamut.wtGSScore, 1.40526\nWT seq. HumanSpliceFinder score, Alamut.wtHSFScore, 92.362\nVariant seq. SpliceSiteFinder score, Alamut.wtSSFScore, 72.8524\nVariant seq. MaxEntScan score, Alamut.wtMaxEntScore, 5.84455\nVariant seq. NNSPLICE score, Alamut.wtNNSScore, 0.918151\nVariant seq. GeneSplicer score, Alamut.wtGSScore, -\nVariant seq. HumanSpliceFinder score, Alamut.wtHSFScore, 81.349\nAverage change at nearest splice site, Alamut.nearestSSChange, -0.190341\n"
+    "description": "Assessed variant: DNAH5 - NM_001369.2:c.6249G>C - p.Met2083Ile\nA different variant creating the same AA change is pathogenic (c.6249G>A - p.Met2083Ile) but that change is pathogenic because it has been shown to disrupt splicing and create a premature stop codon. Prediction tools do not suggest c.6429G>C disrupts splicing so applying PS1 (as met by c.6429G>A) is likely not appropriate.\n\nG>C Predictions:\nWT seq. SpliceSiteFinder score, Alamut.wtSSFScore, 86.1635\nWT seq. MaxEntScan score, Alamut.wtMaxEntScore, 9.33191\nWT seq. NNSPLICE score, Alamut.wtNNSScore, 0.995916\nWT seq. GeneSplicer score, Alamut.wtGSScore, 1.40526\nWT seq. HumanSpliceFinder score, Alamut.wtHSFScore, 92.362\nVariant seq. SpliceSiteFinder score, Alamut.wtSSFScore, 74.0274\nVariant seq. MaxEntScan score, Alamut.wtMaxEntScore, 4.33035\nVariant seq. NNSPLICE score, Alamut.wtNNSScore, 0.908774\nVariant seq. GeneSplicer score, Alamut.wtGSScore, -\nVariant seq. HumanSpliceFinder score, Alamut.wtHSFScore, 81.784\nAverage change at nearest splice site, Alamut.nearestSSChange, -0.245997\nG>A Predictions:\nWT seq. SpliceSiteFinder score, Alamut.wtSSFScore, 86.1635\nWT seq. MaxEntScan score, Alamut.wtMaxEntScore, 9.33191\nWT seq. NNSPLICE score, Alamut.wtNNSScore, 0.995916\nWT seq. GeneSplicer score, Alamut.wtGSScore, 1.40526\nWT seq. HumanSpliceFinder score, Alamut.wtHSFScore, 92.362\nVariant seq. SpliceSiteFinder score, Alamut.wtSSFScore, 72.8524\nVariant seq. MaxEntScan score, Alamut.wtMaxEntScore, 5.84455\nVariant seq. NNSPLICE score, Alamut.wtNNSScore, 0.918151\nVariant seq. GeneSplicer score, Alamut.wtGSScore, -\nVariant seq. HumanSpliceFinder score, Alamut.wtHSFScore, 81.349\nAverage change at nearest splice site, Alamut.nearestSSChange, -0.190341"
   },
   "Ex006": {
     "id": "Ex006",
@@ -947,18 +947,18 @@
     "dataId": "VarInterp045",
     "data explanation": "The c.631-2A>G variant in DSC2 has been reported in 1 Caucasian individual with ARVC (Heuser 2006). This variant has also been identified by our laboratory in 2 individuals (1 with ARVC and 1 with LVNC). This variant has been reported in 1/66564 European chromosomes by the Exome Aggregation Consortium (ExAC, http://exac.broadinstitute.org; dbSNP rs397514042). This variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006). Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/). In summary, although additional studies are required to fully establish its clinical significance, the c.631-2A>G variant is likely pathogenic.",
     "index": 4.0,
-    "authorId": "Agent008",
-    "author name": "Marina DiStefano",
-    "description": "(CSER var# 70, classifier 6)\nIdentifier: SCV000063121.4\n"
+    "authorId": "Agent010",
+    "author name": "CSER classifer #6",
+    "description": "(CSER var# 70, classifier 6)\nIdentifier: SCV000063121.4"
   },
   "Ex095": {
     "id": "Ex095",
     "dataId": "VarInterp055",
     "data explanation": "The Tyr337Cys variant in SOS1 has been reported in 1 individual with clinical features of Noonan syndrome (Roberts 2007), but has also been reported to be present in 2 unaffected individuals from one family (Personal Communication). This variant was absent from large population studies. Studies have shown that the Tyr337Cys variant may impact protein function by increasing its activity though these results are inconclusive and these in vitro assays may not accurately represent biological function (Smith 2013). Due to the conflicting data about this variant, the clinical significance of the Tyr337Cys variant is uncertain.",
     "index": 5.0,
-    "authorId": "Agent008",
-    "author name": "Marina DiStefano",
-    "description": "Identifier:\nClinVar SCV000203950.3\n"
+    "authorId": "Agent011",
+    "author name": "Gene Geneticist",
+    "description": "Identifier:\nClinVar SCV000203950.3"
   },
   "Ex096": {
     "id": "Ex096",
@@ -993,9 +993,30 @@
   "Ex099": {
     "id": "Ex099",
     "dataId": "CritAssess378",
-    "data explanation": "",
+    "data explanation": "Another variant at the same residue (Lys483Asn) was identified as a de novo variant in an individual with features of a Noonan spectrum disorder (LMM unpublished data). The other variant: NM_004333.4(BRAF):c.1449A>C (p.Lys483Asn) is classified as likely pathogenic by LMM for Rasopathy.",
     "group": "PM5",
+    "index": 4.0,
     "authorId": "Agent008",
-    "author name": "Marina DiStefano"
+    "author name": "Marina DiStefano",
+    "description": "NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), ClinVar entry:https://www.ncbi.nlm.nih.gov/clinvar/variation/40369/\n\nAnother variant at the same residue (Lys483Asn) was identified as a de novo variant in an individual with features of a Noonan spectrum disorder (LMM unpublished data).\n\nThe other variant: NM_004333.4(BRAF):c.1449A>C (p.Lys483Asn) is classified as likely pathogenic by LMM for CFC and for Noonan Syndrome. Here is the ClinVar entry:\n\nhttps://www.ncbi.nlm.nih.gov/clinvar/variation/177878/\n\nThus, PM5 can be used for the p.Lys483Gln variant."
+  },
+  "Ex100": {
+    "id": "Ex100",
+    "dataId": "VarInterp055",
+    "data explanation": "The Tyr337Cys variant in SOS1 has been reported in 1 individual with clinical features of Noonan syndrome (Roberts 2007), but has also been reported to be present in 2 unaffected individuals from one family (Personal Communication). This variant was absent from large population studies. Studies have shown that the Tyr337Cys variant may impact protein function by increasing its activity though these results are inconclusive and these in vitro assays may not accurately represent biological function (Smith 2013). Due to the conflicting data about this variant, the clinical significance of the Tyr337Cys variant is uncertain.",
+    "index": 6.0,
+    "authorId": "Agent012",
+    "author name": "George Geneticist",
+    "description": "Identifier:\nClinVar SCV000197151.3"
+  },
+  "Ex101": {
+    "id": "Ex101",
+    "dataId": "CritAssess156",
+    "data explanation": "Most pathogenic variants in TTN are truncating. However, a small number of missense variants in TTN are associated with ARVC (Taylor 2011 PMID:21810661 ) Because TTN is such a large gene, the statistical expectation of benign missense variants is very high.",
+    "group": "PP2",
+    "index": 2.0,
+    "authorId": "Agent013",
+    "author name": "LMM, Partners Healthcare",
+    "description": "Example where PP2 does not apply:NM_133378.4(TTN): c.2926T>C (p.Trp976Arg)\nMost pathogenic variants in TTN are truncating. However, a small number of missense variants in TTN are associated with ARVC (Taylor 2011 PMID:21810661 ) Because TTN is such a large gene, the statistical expectation of benign missense variants is very high. Therefore, we cannot use PP2.\n\nIn LMM data alone, we have over 150 benign missense variants in TTN."
   }
 }

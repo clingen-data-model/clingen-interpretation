@@ -1,44 +1,44 @@
 {
   "MendCond001": {
     "id": "MendCond001",
-    "explanation": "Breast Ovarian Cancer",
-    "derived name1": "Breast Ovarian Cancer",
+    "explanation": "Breast Ovarian Cancer, Autosomal Dominant",
+    "derived name1": "Breast Ovarian Cancer, Autosomal Dominant",
     "derived name2": "hereditary breast ovarian cancer, Autosomal Dominant",
-    "criterionAssessmentExampleReference": "PVS1.2, PM5.3, PP1.3"
+    "criterionAssessmentExampleReference": "PVS1.2"
   },
   "MendCond002": {
     "id": "MendCond002",
     "explanation": "dilated cardiomyopathy, Autosomal Dominant",
     "derived name1": "#N/A",
     "derived name2": "dilated cardiomyopathy, Autosomal Dominant",
-    "criterionAssessmentExampleReference": "PVS1.3, PP1.4, BP1.3"
+    "criterionAssessmentExampleReference": "PP1.4"
   },
   "MendCond003": {
     "id": "MendCond003",
     "explanation": "noonan syndrome, Autosomal Dominant",
     "derived name1": "#N/A",
     "derived name2": "noonan syndrome, Autosomal Dominant",
-    "criterionAssessmentExampleReference": "PS1.1, PS1.3"
+    "criterionAssessmentExampleReference": "PS1.1"
   },
   "MendCond004": {
     "id": "MendCond004",
-    "explanation": "Primary ciliary dyskenisia, Autosomal Recessive",
+    "explanation": "Primary ciliary dyskenisia",
     "derived name1": "#N/A",
-    "derived name2": "Primary ciliary dyskenisia, Autosomal Recessive",
-    "criterionAssessmentExampleReference": "PS1.2, PM2.5, PM3.1"
+    "derived name2": "Primary ciliary dyskenisia",
+    "criterionAssessmentExampleReference": "PS1.2"
   },
   "MendCond005": {
     "id": "MendCond005",
-    "explanation": "costello syndrome, Autosomal Recessive",
+    "explanation": "costello syndrome, Autosomal Dominant",
     "derived name1": "#N/A",
-    "derived name2": "costello syndrome, Autosomal Recessive",
+    "derived name2": "costello syndrome, Autosomal Dominant",
     "criterionAssessmentExampleReference": "PS1.3"
   },
   "MendCond006": {
     "id": "MendCond006",
-    "explanation": "noonan syndrome 3, Autosomal Recessive",
+    "explanation": "noonan syndrome 3",
     "derived name1": "#N/A",
-    "derived name2": "noonan syndrome 3, Autosomal Recessive",
+    "derived name2": "noonan syndrome 3",
     "criterionAssessmentExampleReference": "PS1.3"
   },
   "MendCond007": {
@@ -46,12 +46,12 @@
     "explanation": "cardiomyopathy, Autosomal Dominant",
     "derived name1": "#N/A",
     "derived name2": "cardiomyopathy, Autosomal Dominant",
-    "criterionAssessmentExampleReference": "PS2.1, BP2.3"
+    "criterionAssessmentExampleReference": "BP2.3"
   },
   "MendCond008": {
     "id": "MendCond008",
-    "explanation": "myofibrillar myopathy 1",
-    "derived name1": "#N/A",
+    "explanation": "desmin related myopathy",
+    "derived name1": "desmin related myopathy",
     "derived name2": "myofibrillar myopathy 1",
     "criterionAssessmentExampleReference": "PS2.2"
   },
@@ -67,13 +67,13 @@
     "explanation": "nonsyndromic deafness, Autosomal Recessive, GIPC3",
     "derived name1": "#N/A",
     "derived name2": "nonsyndromic deafness, Autosomal Recessive, GIPC3",
-    "criterionAssessmentExampleReference": "PS4.1, PM3.2, BP1.3, BP5.2a"
+    "criterionAssessmentExampleReference": "PM3.2"
   },
   "MendCond011": {
     "id": "MendCond011",
-    "explanation": "Malignant hyperthermia",
+    "explanation": "Malignant hyperthermia, Autosomal Dominant",
     "derived name1": "#N/A",
-    "derived name2": "Malignant hyperthermia",
+    "derived name2": "Malignant hyperthermia, Autosomal Dominant",
     "criterionAssessmentExampleReference": "PS4.2"
   },
   "MendCond012": {
@@ -85,10 +85,11 @@
   },
   "MendCond013": {
     "id": "MendCond013",
-    "explanation": "Fabry disease",
+    "explanation": "Fabry disease, X-linked recessive inheritance",
     "derived name1": "#N/A",
-    "derived name2": "Fabry disease",
-    "criterionAssessmentExampleReference": "PM1.3"
+    "derived name2": "Fabry disease, X-linked recessive inheritance",
+    "criterionAssessmentExampleReference": "PM1.3",
+    "used": "y"
   },
   "MendCond014": {
     "id": "MendCond014",
@@ -106,9 +107,9 @@
   },
   "MendCond016": {
     "id": "MendCond016",
-    "explanation": "hypertrophic cardiomyopathy",
-    "derived name1": "#N/A",
-    "derived name2": "hypertrophic cardiomyopathy",
+    "explanation": "Primary familial hypertrophic cardiomyopathy, Autosomal Dominant",
+    "derived name1": "Primary familial hypertrophic cardiomyopathy, Autosomal Dominant",
+    "derived name2": "hypertrophic cardiomyopathy, Autosomal Dominant",
     "criterionAssessmentExampleReference": "PM5.1"
   },
   "MendCond017": {
@@ -127,51 +128,52 @@
   },
   "MendCond019": {
     "id": "MendCond019",
-    "explanation": "cardiofaciocutaneous syndrome, Autosomal Dominant",
+    "explanation": "cardiofaciocutaneous syndrome",
     "derived name1": "#N/A",
-    "derived name2": "cardiofaciocutaneous syndrome, Autosomal Dominant",
-    "criterionAssessmentExampleReference": "PM6.2,PM6.3"
+    "derived name2": "cardiofaciocutaneous syndrome",
+    "criterionAssessmentExampleReference": "PM6.2",
+    "used": "y"
   },
   "MendCond020": {
     "id": "MendCond020",
     "explanation": "hypertrophic cardiomyopathy, Autosomal Dominant",
     "derived name1": "#N/A",
     "derived name2": "hypertrophic cardiomyopathy, Autosomal Dominant",
-    "criterionAssessmentExampleReference": "PP1.1, PP4.3, BS4.2, BS4.3, BP5.1"
+    "criterionAssessmentExampleReference": "PP1.1"
   },
   "MendCond021": {
     "id": "MendCond021",
     "explanation": "Usher syndrome, Autosomal Recessive",
     "derived name1": "#N/A",
     "derived name2": "Usher syndrome, Autosomal Recessive",
-    "criterionAssessmentExampleReference": "PP1.2, BP5.2b"
+    "criterionAssessmentExampleReference": "PP1.2"
   },
   "MendCond022": {
     "id": "MendCond022",
-    "explanation": "hereditary hemorrhagic telangiectasia",
+    "explanation": "hereditary hemorrhagic telangiectasia, Autosomal Dominant",
     "derived name1": "#N/A",
-    "derived name2": "hereditary hemorrhagic telangiectasia",
+    "derived name2": "hereditary hemorrhagic telangiectasia, Autosomal Dominant",
     "criterionAssessmentExampleReference": "PP4.2"
   },
   "MendCond023": {
     "id": "MendCond023",
-    "explanation": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2",
+    "explanation": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2, Autosomal Dominant",
     "derived name1": "#N/A",
-    "derived name2": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2",
+    "derived name2": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2, Autosomal Dominant",
     "criterionAssessmentExampleReference": "PP5.1"
   },
   "MendCond024": {
     "id": "MendCond024",
-    "explanation": "Distal myopathy with posterior leg and anterior hand involvement",
+    "explanation": "Myopathy, Distal, type 4, Autosomal Dominant",
     "derived name1": "#N/A",
-    "derived name2": "Distal myopathy with posterior leg and anterior hand involvement",
+    "derived name2": "Myopathy, Distal, type 4, Autosomal Dominant",
     "criterionAssessmentExampleReference": "PP5.2"
   },
   "MendCond025": {
     "id": "MendCond025",
-    "explanation": "Cystic Fibrosis",
+    "explanation": "Cystic Fibrosis, Autosomal Recessive",
     "derived name1": "#N/A",
-    "derived name2": "Cystic Fibrosis",
+    "derived name2": "Cystic Fibrosis, Autosomal Recessive",
     "criterionAssessmentExampleReference": "PP5.3"
   },
   "MendCond026": {
@@ -179,7 +181,7 @@
     "explanation": "Marfan Syndrome, Autosomal Dominant",
     "derived name1": "#N/A",
     "derived name2": "Marfan Syndrome, Autosomal Dominant",
-    "criterionAssessmentExampleReference": "BS1.1, BS2.3"
+    "criterionAssessmentExampleReference": "BS1.1"
   },
   "MendCond027": {
     "id": "MendCond027",
@@ -190,9 +192,9 @@
   },
   "MendCond028": {
     "id": "MendCond028",
-    "explanation": "Perrault Syndrome, Autosomal Dominant",
+    "explanation": "Perrault Syndrome, Autosomal Recessive",
     "derived name1": "#N/A",
-    "derived name2": "Perrault Syndrome, Autosomal Dominant",
+    "derived name2": "Perrault Syndrome, Autosomal Recessive",
     "criterionAssessmentExampleReference": "BS1.3"
   },
   "MendCond029": {
@@ -209,47 +211,19 @@
     "derived name2": "Familial Adenomatous Polyposis, Autosomal Dominant",
     "criterionAssessmentExampleReference": "BS2.2"
   },
-  "MendCond031": {
-    "id": "MendCond031",
-    "explanation": "Pendred syndrome, Autosomal Dominant",
-    "derived name1": "#N/A",
-    "derived name2": "Pendred syndrome, Autosomal Dominant",
-    "criterionAssessmentExampleReference": "BS3.2"
-  },
-  "MendCond032": {
-    "id": "MendCond032",
-    "explanation": "café au lait macules (CALMs)",
-    "derived name1": "#N/A",
-    "derived name2": "café au lait macules (CALMs)",
-    "criterionAssessmentExampleReference": "BS3.3"
-  },
-  "MendCond033": {
-    "id": "MendCond033",
-    "explanation": "axillary freckling",
-    "derived name1": "#N/A",
-    "derived name2": "axillary freckling",
-    "criterionAssessmentExampleReference": "BS3.3"
-  },
-  "MendCond034": {
-    "id": "MendCond034",
-    "explanation": "macrocephaly",
-    "derived name1": "#N/A",
-    "derived name2": "macrocephaly",
-    "criterionAssessmentExampleReference": "BS3.3"
-  },
   "MendCond035": {
     "id": "MendCond035",
-    "explanation": "Familial Hypercholesterolemia",
+    "explanation": "Hypercholesterolemia, Familial, Autosomal Dominant",
     "derived name1": "#N/A",
-    "derived name2": "Familial Hypercholesterolemia",
+    "derived name2": "Hypercholesterolemia, Familial, Autosomal Dominant",
     "criterionAssessmentExampleReference": "BS4.1"
   },
   "MendCond036": {
     "id": "MendCond036",
-    "explanation": "hereditary breast ovarian cancer",
-    "derived name1": "#N/A",
-    "derived name2": "hereditary breast ovarian cancer",
-    "criterionAssessmentExampleReference": "BP1.1a, BP6.1"
+    "explanation": "hereditary breast and ovarian cancer",
+    "derived name1": "hereditary breast and ovarian cancer",
+    "derived name2": "hereditary breast and ovarian cancer syndrome",
+    "criterionAssessmentExampleReference": "BP1.1a"
   },
   "MendCond037": {
     "id": "MendCond037",
@@ -260,65 +234,248 @@
   },
   "MendCond038": {
     "id": "MendCond038",
-    "explanation": "Retinitis Pigmentosa, Autosomal Dominant",
+    "explanation": "Retinitis Pigmentosa",
     "derived name1": "#N/A",
-    "derived name2": "Retinitis Pigmentosa, Autosomal Dominant",
-    "criterionAssessmentExampleReference": "BP2.1, "
+    "derived name2": "Retinitis Pigmentosa",
+    "criterionAssessmentExampleReference": "BP2.1"
   },
   "MendCond039": {
     "id": "MendCond039",
     "explanation": "Absent vas deferens",
     "derived name1": "#N/A",
     "derived name2": "Absent vas deferens",
-    "criterionAssessmentExampleReference": "BP2.2"
+    "criterionAssessmentExampleReference": "BP6.2"
   },
   "MendCond040": {
     "id": "MendCond040",
-    "explanation": "spondyloepiphyseal dysplasia congenita",
+    "explanation": "Primary bone dysplasia",
     "derived name1": "#N/A",
-    "derived name2": "spondyloepiphyseal dysplasia congenita",
-    "criterionAssessmentExampleReference": "BP5.3"
+    "derived name2": "Primary bone dysplasia",
+    "criterionAssessmentExampleReference": "BP6.3"
   },
   "MendCond041": {
     "id": "MendCond041",
-    "explanation": "pseudoachondroplasia",
-    "derived name1": "#N/A",
+    "explanation": "Pseudoachondroplastic spondyloepiphyseal dysplasia",
+    "derived name1": "Pseudoachondroplastic spondyloepiphyseal dysplasia",
     "derived name2": "pseudoachondroplasia",
-    "criterionAssessmentExampleReference": "BP5.3"
+    "criterionAssessmentExampleReference": "PM2.5",
+    "used": "y"
   },
   "MendCond042": {
     "id": "MendCond042",
     "explanation": "pseudoachondroplasia",
     "derived name1": "#N/A",
     "derived name2": "pseudoachondroplasia",
-    "criterionAssessmentExampleReference": "BP5.3"
+    "criterionAssessmentExampleReference": "PVS1.4"
   },
   "MendCond043": {
     "id": "MendCond043",
-    "explanation": "Breast Cancer",
+    "explanation": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2",
     "derived name1": "#N/A",
-    "derived name2": "Breast Cancer",
-    "criterionAssessmentExampleReference": "BP6.2"
+    "derived name2": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2",
+    "criterionAssessmentExampleReference": "PVS1.3",
+    "used": "y"
   },
   "MendCond044": {
     "id": "MendCond044",
-    "explanation": "gyrate atrophy",
+    "explanation": "Gyrate atrophy of choroid and retina",
     "derived name1": "#N/A",
-    "derived name2": "gyrate atrophy",
-    "criterionAssessmentExampleReference": "BP6.3"
+    "derived name2": "Gyrate atrophy of choroid and retina",
+    "criterionAssessmentExampleReference": "PS4.1"
   },
   "MendCond045": {
     "id": "MendCond045",
-    "explanation": "Noonan syndrome and noonan-related syndrom",
+    "explanation": "Primary ciliary dyskenisia, Autosomal Recessive",
     "derived name1": "#N/A",
-    "derived name2": "Noonan syndrome and noonan-related syndrom",
-    "criterionAssessmentExampleReference": "PS1.3"
+    "derived name2": "Primary ciliary dyskenisia, Autosomal Recessive",
+    "criterionAssessmentExampleReference": "PM5.4"
   },
   "MendCond046": {
     "id": "MendCond046",
-    "explanation": "arrhythmogenic right ventricular cardiomyopathy, Autosomal Dominant",
+    "explanation": "arrhythmogenic right ventricular cardiomyopathy",
     "derived name1": "#N/A",
-    "derived name2": "arrhythmogenic right ventricular cardiomyopathy, Autosomal Dominant",
-    "criterionAssessmentExampleReference": "PVS1.4"
+    "derived name2": "arrhythmogenic right ventricular cardiomyopathy",
+    "criterionAssessmentExampleReference": "PM5.3"
+  },
+  "MendCond047": {
+    "id": "MendCond047",
+    "explanation": "dilated cardiomyopathy",
+    "derived name1": "#N/A",
+    "derived name2": "dilated cardiomyopathy",
+    "criterionAssessmentExampleReference": "PP1.3"
+  },
+  "MendCond048": {
+    "id": "MendCond048",
+    "explanation": "Hearing Loss",
+    "derived name1": "Hearing Loss",
+    "derived name2": "nonsyndromic deafness",
+    "criterionAssessmentExampleReference": "PS2.1",
+    "used": "y"
+  },
+  "MendCond049": {
+    "id": "MendCond049",
+    "explanation": "Rasopathy",
+    "derived name1": "Rasopathy",
+    "derived name2": "Noonan syndrome and noonan-related syndrom",
+    "criterionAssessmentExampleReference": "BP1.3",
+    "used": "y"
+  },
+  "MendCond050": {
+    "id": "MendCond050",
+    "explanation": "Breast Ovarian Cancer, Autosomal Dominant",
+    "derived name1": "Breast Ovarian Cancer, Autosomal Dominant",
+    "derived name2": "hereditary breast ovarian cancer, Autosomal Dominant",
+    "criterionAssessmentExampleReference": "PP2.2 "
+  },
+  "MendCond051": {
+    "id": "MendCond051",
+    "explanation": "Breast Ovarian Cancer, Autosomal Dominant",
+    "derived name1": "Breast Ovarian Cancer, Autosomal Dominant",
+    "derived name2": "hereditary breast ovarian cancer, Autosomal Dominant",
+    "criterionAssessmentExampleReference": "PS1.3"
+  },
+  "MendCond052": {
+    "id": "MendCond052",
+    "explanation": "dilated cardiomyopathy",
+    "derived name1": "#N/A",
+    "derived name2": "dilated cardiomyopathy",
+    "criterionAssessmentExampleReference": "BS4.4"
+  },
+  "MendCond053": {
+    "id": "MendCond053",
+    "explanation": "dilated cardiomyopathy",
+    "derived name1": "#N/A",
+    "derived name2": "dilated cardiomyopathy",
+    "criterionAssessmentExampleReference": "BS1.5"
+  },
+  "MendCond054": {
+    "id": "MendCond054",
+    "explanation": "arrhythmogenic right ventricular cardiomyopathy",
+    "derived name1": "#N/A",
+    "derived name2": "arrhythmogenic right ventricular cardiomyopathy",
+    "criterionAssessmentExampleReference": "BP5.4"
+  },
+  "MendCond055": {
+    "id": "MendCond055",
+    "explanation": "noonan syndrome, Autosomal Dominant",
+    "derived name1": "#N/A",
+    "derived name2": "noonan syndrome, Autosomal Dominant",
+    "criterionAssessmentExampleReference": "BP1.2"
+  },
+  "MendCond056": {
+    "id": "MendCond056",
+    "explanation": "noonan syndrome, Autosomal Dominant",
+    "derived name1": "#N/A",
+    "derived name2": "noonan syndrome, Autosomal Dominant",
+    "criterionAssessmentExampleReference": "BP5.2a"
+  },
+  "MendCond057": {
+    "id": "MendCond057",
+    "explanation": "Hearing Loss",
+    "derived name1": "Hearing Loss",
+    "derived name2": "nonsyndromic deafness",
+    "criterionAssessmentExampleReference": "VAR INTERP 41"
+  },
+  "MendCond058": {
+    "id": "MendCond058",
+    "explanation": "Hearing Loss",
+    "derived name1": "Hearing Loss",
+    "derived name2": "nonsyndromic deafness",
+    "criterionAssessmentExampleReference": "PM3.1",
+    "used": "y"
+  },
+  "MendCond059": {
+    "id": "MendCond059",
+    "explanation": "Hearing Loss, Autosomal Recessive",
+    "derived name1": "Hearing Loss, Autosomal Recessive",
+    "derived name2": "nonsyndromic deafness, Autosomal Recessive",
+    "criterionAssessmentExampleReference": "VAR INTERP 274",
+    "used": "y"
+  },
+  "MendCond060": {
+    "id": "MendCond060",
+    "explanation": "nonsyndromic deafness",
+    "derived name1": "#N/A",
+    "derived name2": "nonsyndromic deafness",
+    "criterionAssessmentExampleReference": "PP4.3"
+  },
+  "MendCond061": {
+    "id": "MendCond061",
+    "explanation": "Hearing Loss, Autosomal Recessive",
+    "derived name1": "Hearing Loss, Autosomal Recessive",
+    "derived name2": "nonsyndromic deafness, Autosomal Recessive",
+    "criterionAssessmentExampleReference": "BS4.2"
+  },
+  "MendCond062": {
+    "id": "MendCond062",
+    "explanation": "Primary ciliary dyskenisia, Autosomal Recessive",
+    "derived name1": "#N/A",
+    "derived name2": "Primary ciliary dyskenisia, Autosomal Recessive",
+    "criterionAssessmentExampleReference": "BS4.3"
+  },
+  "MendCond063": {
+    "id": "MendCond063",
+    "explanation": "Primary ciliary dyskenisia, Autosomal Recessive",
+    "derived name1": "#N/A",
+    "derived name2": "Primary ciliary dyskenisia, Autosomal Recessive",
+    "criterionAssessmentExampleReference": "BP5.1"
+  },
+  "MendCond064": {
+    "id": "MendCond064",
+    "explanation": "hypertrophic cardiomyopathy",
+    "derived name1": "#N/A",
+    "derived name2": "hypertrophic cardiomyopathy",
+    "criterionAssessmentExampleReference": "PM6.3",
+    "used": "y"
+  },
+  "MendCond065": {
+    "id": "MendCond065",
+    "explanation": "hypertrophic cardiomyopathy, Autosomal Dominant",
+    "derived name1": "#N/A",
+    "derived name2": "hypertrophic cardiomyopathy, Autosomal Dominant",
+    "criterionAssessmentExampleReference": "PM6.4",
+    "used": "y"
+  },
+  "MendCond066": {
+    "id": "MendCond066",
+    "explanation": "hypertrophic cardiomyopathy, Autosomal Dominant",
+    "derived name1": "#N/A",
+    "derived name2": "hypertrophic cardiomyopathy, Autosomal Dominant",
+    "criterionAssessmentExampleReference": "VAR INTERP 63"
+  },
+  "MendCond067": {
+    "id": "MendCond067",
+    "explanation": "hypertrophic cardiomyopathy",
+    "derived name1": "#N/A",
+    "derived name2": "hypertrophic cardiomyopathy",
+    "criterionAssessmentExampleReference": "BP5.2b"
+  },
+  "MendCond068": {
+    "id": "MendCond068",
+    "explanation": "cardiofaciocutaneous syndrome",
+    "derived name1": "#N/A",
+    "derived name2": "cardiofaciocutaneous syndrome",
+    "criterionAssessmentExampleReference": "BS2.3"
+  },
+  "MendCond069": {
+    "id": "MendCond069",
+    "explanation": "cardiofaciocutaneous syndrome",
+    "derived name1": "#N/A",
+    "derived name2": "cardiofaciocutaneous syndrome",
+    "criterionAssessmentExampleReference": "BP6.1"
+  },
+  "MendCond070": {
+    "id": "MendCond070",
+    "explanation": "cardiofaciocutaneous syndrome, Autosomal Dominant",
+    "derived name1": "#N/A",
+    "derived name2": "cardiofaciocutaneous syndrome, Autosomal Dominant",
+    "criterionAssessmentExampleReference": "VAR INTERP 74"
+  },
+  "MendCond071": {
+    "id": "MendCond071",
+    "explanation": "Usher syndrome, Autosomal Recessive",
+    "derived name1": "#N/A",
+    "derived name2": "Usher syndrome, Autosomal Recessive",
+    "criterionAssessmentExampleReference": "VAR INTERP 55"
   }
 }

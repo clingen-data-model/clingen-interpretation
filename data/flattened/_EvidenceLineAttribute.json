@@ -33,7 +33,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "This is so well-known that it does not require a citation.",
-    "derivedName": "loss of function variant, Established, Breast Ovarian Cancer"
+    "derivedName": "loss of function variant, Established, Breast Ovarian Cancer, Autosomal Dominant"
   },
   {
     "subjectId": "EvLn003",
@@ -50,8 +50,8 @@
     "value": "CondMech007",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "loss of function variant, Established, dilated cardiomyopathy, Autosomal Dominant",
-    "derivedName": "loss of function variant, Established, dilated cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "loss of function variant, Established, dilated cardiomyopathy",
+    "derivedName": "loss of function variant, Established, dilated cardiomyopathy"
   },
   {
     "subjectId": "EvLn004",
@@ -68,8 +68,8 @@
     "value": "CondMech007",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "loss of function variant, Established, dilated cardiomyopathy, Autosomal Dominant",
-    "derivedName": "loss of function variant, Established, dilated cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "loss of function variant, Established, dilated cardiomyopathy",
+    "derivedName": "loss of function variant, Established, dilated cardiomyopathy"
   },
   {
     "subjectId": "EvLn005",
@@ -87,7 +87,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "NM_001369.2:c.6249G>A Pathogenic for PCD",
-    "derivedName": "NM_001369.2(DNAH5):c.6249G>A (p.Met2083Ile), Primary ciliary dyskenisia, Autosomal Recessive, Pathogenic"
+    "derivedName": "NM_001369.2(DNAH5):c.6249G>A (p.Met2083Ile), Primary ciliary dyskenisia, Pathogenic"
   },
   {
     "subjectId": "EvLn007",
@@ -96,7 +96,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) Pathogenic for Noonan Syndrome 3",
-    "derivedName": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile), noonan syndrome 3, Autosomal Recessive, Pathogenic"
+    "derivedName": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile), noonan syndrome 3, Pathogenic"
   },
   {
     "subjectId": "EvLn008",
@@ -105,7 +105,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) Pathogenic for Costello syndrome",
-    "derivedName": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile), Noonan syndrome and noonan-related syndrom, Pathogenic"
+    "derivedName": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile), noonan syndrome, Autosomal Dominant, Pathogenic"
   },
   {
     "subjectId": "EvLn009",
@@ -113,8 +113,8 @@
     "value": "IndCond012",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "individual #001, cardiomyopathy, Autosomal Dominant, TRUE",
-    "derivedName": "individual #001, cardiomyopathy, Autosomal Dominant, TRUE"
+    "lookupValue": "individual #001, dilated cardiomyopathy, TRUE",
+    "derivedName": "individual #001, dilated cardiomyopathy, TRUE"
   },
   {
     "subjectId": "EvLn009",
@@ -122,8 +122,8 @@
     "value": "FamHist013",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "individual #001, cardiomyopathy, Autosomal Dominant, FALSE",
-    "derivedName": "individual #001, cardiomyopathy, Autosomal Dominant, FALSE"
+    "lookupValue": "individual #001, dilated cardiomyopathy, FALSE",
+    "derivedName": "individual #001, dilated cardiomyopathy, FALSE"
   },
   {
     "subjectId": "EvLn009",
@@ -140,8 +140,8 @@
     "value": "IndCond015",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "individual #002, myofibrillar myopathy 1, TRUE",
-    "derivedName": "individual #002, myofibrillar myopathy 1, TRUE"
+    "lookupValue": "individual #002, desmin related myopathy, TRUE",
+    "derivedName": "individual #002, desmin related myopathy, TRUE"
   },
   {
     "subjectId": "EvLn010",
@@ -149,8 +149,8 @@
     "value": "FamHist016",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "individual #002, myofibrillar myopathy 1, FALSE",
-    "derivedName": "individual #002, myofibrillar myopathy 1, FALSE"
+    "lookupValue": "individual #002, desmin related myopathy, FALSE",
+    "derivedName": "individual #002, desmin related myopathy, FALSE"
   },
   {
     "subjectId": "EvLn010",
@@ -258,7 +258,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "Treating ExAC data as controls for",
-    "derivedName": "nonsyndromic deafness, Autosomal Recessive, GIPC3, AllFreq029, AllFreq028"
+    "derivedName": "Hearing Loss, AllFreq029, AllFreq028"
   },
   {
     "subjectId": "EvLn020",
@@ -267,7 +267,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "Did not calculate formal odds ratio",
-    "derivedName": "Malignant hyperthermia, AllFreq032, AllFreq031"
+    "derivedName": "Malignant hyperthermia, Autosomal Dominant, AllFreq032, AllFreq031"
   },
   {
     "subjectId": "EvLn021",
@@ -281,29 +281,56 @@
   {
     "subjectId": "EvLn022",
     "attributeId": "A178",
-    "value": "Reg040",
+    "value": "RegAnn040",
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "This region is the catalytic (kinase) domain.",
-    "derivedName": "NP_005219.2, 704, 1016, Functional"
+    "derivedName": "Loc379, Functional"
+  },
+  {
+    "subjectId": "EvLn022",
+    "attributeId": "A178",
+    "value": "RegAll380",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "This region is the catalytic (kinase) domain.",
+    "derivedName": "Loc379, NP_005219.2:p.Thr790Met"
   },
   {
     "subjectId": "EvLn023",
     "attributeId": "A178",
-    "value": "Reg043",
+    "value": "RegAnn043",
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "This region is exon 15 in the transcript, and codes the serine-threonine-protein kinase catalytic domain.",
-    "derivedName": "NM_004333.4, 1803, 1921, Functional"
+    "derivedName": "Loc381, Functional"
+  },
+  {
+    "subjectId": "EvLn023",
+    "attributeId": "A178",
+    "value": "RegAll382",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "This region is exon 15 in the transcript, and codes the serine-threonine-protein kinase catalytic domain.",
+    "derivedName": "Loc381, NM_004333.4(BRAF):c.1789C>G"
   },
   {
     "subjectId": "EvLn024",
     "attributeId": "A178",
-    "value": "Reg046",
+    "value": "RegAnn046",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Region(NM_0001692[996..1012]) is a mutational hotspot and contains the following pathogenic variants: c.886A>G, c.890C>T, c.899T>C, & c.902G>A.",
-    "derivedName": "NM_000169.2, 996, 1012, Mutational Hotspot"
+    "lookupValue": "Region(NM_0001692[996..1012]) is a mutational hotspot.",
+    "derivedName": "Loc383, Mutational Hotspot"
+  },
+  {
+    "subjectId": "EvLn024",
+    "attributeId": "A178",
+    "value": "RegAll384",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "The region contains the following pathogenic variants: c.886A>G, c.890C>T, c.899T>C, & c.902G>A.",
+    "derivedName": "Loc383, NM_000169.2(GLA): c.886A>G, NM_000169.2(GLA):c.890C>T, NM_000169.2(GLA):c.899T>C, NM_000169.2(GLA):c.902G>A"
   },
   {
     "subjectId": "EvLn024",
@@ -311,8 +338,8 @@
     "value": "VarInterp047",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "NM_000169.2(GLA): c.886A>G, Fabry disease, Pathogenic",
-    "derivedName": "NM_000169.2(GLA): c.886A>G, Fabry disease, Pathogenic"
+    "lookupValue": "NM_000169.2(GLA): c.886A>G, Fabry disease, X-linked recessive inheritance, Pathogenic",
+    "derivedName": "NM_000169.2(GLA): c.886A>G, Fabry disease, X-linked recessive inheritance, Pathogenic"
   },
   {
     "subjectId": "EvLn024",
@@ -320,8 +347,8 @@
     "value": "VarInterp048",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "NM_000169.2(GLA):c.890C>T, Fabry disease, Pathogenic",
-    "derivedName": "NM_000169.2(GLA):c.890C>T, Fabry disease, Pathogenic"
+    "lookupValue": "NM_000169.2(GLA):c.890C>T, Fabry disease, X-linked recessive inheritance, Pathogenic",
+    "derivedName": "NM_000169.2(GLA):c.890C>T, Fabry disease, X-linked recessive inheritance, Pathogenic"
   },
   {
     "subjectId": "EvLn024",
@@ -329,8 +356,8 @@
     "value": "VarInterp049",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "NM_000169.2(GLA):c.899T>C, Fabry disease, Pathogenic",
-    "derivedName": "NM_000169.2(GLA):c.899T>C, Fabry disease, Pathogenic"
+    "lookupValue": "NM_000169.2(GLA):c.899T>C, Fabry disease, X-linked recessive inheritance, Pathogenic",
+    "derivedName": "NM_000169.2(GLA):c.899T>C, Fabry disease, X-linked recessive inheritance, Pathogenic"
   },
   {
     "subjectId": "EvLn024",
@@ -338,8 +365,8 @@
     "value": "VarInterp050",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "NM_000169.2(GLA):c.902G>A, Fabry disease, Pathogenic",
-    "derivedName": "NM_000169.2(GLA):c.902G>A, Fabry disease, Pathogenic"
+    "lookupValue": "NM_000169.2(GLA):c.902G>A, Fabry disease, X-linked recessive inheritance, Pathogenic",
+    "derivedName": "NM_000169.2(GLA):c.902G>A, Fabry disease, X-linked recessive inheritance, Pathogenic"
   },
   {
     "subjectId": "EvLn024",
@@ -348,7 +375,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "ClinVar shows no benign missense variants in (or near) this region.  The closest is NM_000169.2:c.8T>C",
-    "derivedName": "NM_000169.2, 996, 1012, Low"
+    "derivedName": "Loc383, Low"
   },
   {
     "subjectId": "EvLn025",
@@ -470,11 +497,11 @@
   {
     "subjectId": "EvLn032",
     "attributeId": "A178",
-    "value": "Reg069",
+    "value": "RegAnn069",
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "This is not a repreating region.",
-    "derivedName": "NP_001360.1, 2490, 2496"
+    "derivedName": "Loc385, Repeat"
   },
   {
     "subjectId": "EvLn033",
@@ -488,11 +515,11 @@
   {
     "subjectId": "EvLn033",
     "attributeId": "A178",
-    "value": "Reg073",
+    "value": "RegAnn073",
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "NP_056375.2[35..43] is not repeating.",
-    "derivedName": "NP_056375.2, 35, 43"
+    "derivedName": "Loc386"
   },
   {
     "subjectId": "EvLn034",
@@ -506,11 +533,11 @@
   {
     "subjectId": "EvLn034",
     "attributeId": "A178",
-    "value": "Reg077",
+    "value": "RegAnn077",
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "NP_003915.2[241..260] is repeating.",
-    "derivedName": "NP_003915.2, 241, 260, Repeat"
+    "derivedName": "Loc387, Repeat"
   },
   {
     "subjectId": "EvLn035",
@@ -518,8 +545,8 @@
     "value": "VarInterp078",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "NM_000363.4(TNNI3):c.485G>C, hypertrophic cardiomyopathy, Likely Pathogenic",
-    "derivedName": "NM_000363.4(TNNI3):c.485G>C, hypertrophic cardiomyopathy, Likely Pathogenic"
+    "lookupValue": "NM_000363.4(TNNI3):c.485G>C, Primary familial hypertrophic cardiomyopathy, Autosomal Dominant, Likely Pathogenic",
+    "derivedName": "NM_000363.4(TNNI3):c.485G>C, Primary familial hypertrophic cardiomyopathy, Autosomal Dominant, Likely Pathogenic"
   },
   {
     "subjectId": "EvLn036",
@@ -527,8 +554,8 @@
     "value": "VarInterp079",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "NM_000363.4(TNNI3):c.484C>T, hypertrophic cardiomyopathy, Pathogenic",
-    "derivedName": "NM_000363.4(TNNI3):c.484C>T, hypertrophic cardiomyopathy, Pathogenic"
+    "lookupValue": "NM_000363.4(TNNI3):c.484C>T, Primary familial hypertrophic cardiomyopathy, Autosomal Dominant, Pathogenic",
+    "derivedName": "NM_000363.4(TNNI3):c.484C>T, Primary familial hypertrophic cardiomyopathy, Autosomal Dominant, Pathogenic"
   },
   {
     "subjectId": "EvLn037",
@@ -545,8 +572,8 @@
     "value": "VarInterp080",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "NM_000531.5(OTC):c.119G>A, Birt-Hogg-Dube Syndrome, Pathogenic",
-    "derivedName": "NM_000531.5(OTC):c.119G>A, Birt-Hogg-Dube Syndrome, Pathogenic"
+    "lookupValue": "NM_000531.5(OTC):c.119G>A, Ornithine carbamoyltransferase deficiency, Pathogenic",
+    "derivedName": "NM_000531.5(OTC):c.119G>A, Ornithine carbamoyltransferase deficiency, Pathogenic"
   },
   {
     "subjectId": "EvLn039",
@@ -554,8 +581,8 @@
     "value": "VarInterp081",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "NM_007294.3(BRCA1):c.5291T>C, Breast Ovarian Cancer, Pathogenic",
-    "derivedName": "NM_007294.3(BRCA1):c.5291T>C, Breast Ovarian Cancer, Pathogenic"
+    "lookupValue": "NM_007294.3(BRCA1):c.5291T>C, Breast Ovarian Cancer, Autosomal Dominant, Pathogenic",
+    "derivedName": "NM_007294.3(BRCA1):c.5291T>C, Breast Ovarian Cancer, Autosomal Dominant, Pathogenic"
   },
   {
     "subjectId": "EvLn040",
@@ -626,8 +653,8 @@
     "value": "IndCond089",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Ind009, cardiofaciocutaneous syndrome, Autosomal Dominant, TRUE",
-    "derivedName": "Ind009, cardiofaciocutaneous syndrome, Autosomal Dominant, TRUE"
+    "lookupValue": "Ind009, cardiofaciocutaneous syndrome, TRUE",
+    "derivedName": "Ind009, cardiofaciocutaneous syndrome, TRUE"
   },
   {
     "subjectId": "EvLn043",
@@ -635,8 +662,8 @@
     "value": "FamHist090",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Ind009, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE",
-    "derivedName": "Ind009, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE"
+    "lookupValue": "Ind009, cardiofaciocutaneous syndrome, FALSE",
+    "derivedName": "Ind009, cardiofaciocutaneous syndrome, FALSE"
   },
   {
     "subjectId": "EvLn043",
@@ -653,8 +680,8 @@
     "value": "IndCond092",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Ind010, cardiofaciocutaneous syndrome, Autosomal Dominant, TRUE",
-    "derivedName": "Ind010, cardiofaciocutaneous syndrome, Autosomal Dominant, TRUE"
+    "lookupValue": "Ind010, cardiofaciocutaneous syndrome, TRUE",
+    "derivedName": "Ind010, cardiofaciocutaneous syndrome, TRUE"
   },
   {
     "subjectId": "EvLn044",
@@ -662,8 +689,8 @@
     "value": "FamHist093",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Ind010, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE",
-    "derivedName": "Ind010, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE"
+    "lookupValue": "Ind010, cardiofaciocutaneous syndrome, FALSE",
+    "derivedName": "Ind010, cardiofaciocutaneous syndrome, FALSE"
   },
   {
     "subjectId": "EvLn044",
@@ -680,8 +707,8 @@
     "value": "IndCond095",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Ind011, hypertrophic cardiomyopathy, Autosomal Dominant, TRUE",
-    "derivedName": "Ind011, hypertrophic cardiomyopathy, Autosomal Dominant, TRUE"
+    "lookupValue": "Ind011, cardiofaciocutaneous syndrome, TRUE",
+    "derivedName": "Ind011, cardiofaciocutaneous syndrome, TRUE"
   },
   {
     "subjectId": "EvLn045",
@@ -689,8 +716,8 @@
     "value": "FamHist096",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Ind011, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE",
-    "derivedName": "Ind011, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE"
+    "lookupValue": "Ind011, cardiofaciocutaneous syndrome, FALSE",
+    "derivedName": "Ind011, cardiofaciocutaneous syndrome, FALSE"
   },
   {
     "subjectId": "EvLn045",
@@ -707,8 +734,8 @@
     "value": "IndCond098",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Ind012, cardiofaciocutaneous syndrome, Autosomal Dominant, TRUE",
-    "derivedName": "Ind012, cardiofaciocutaneous syndrome, Autosomal Dominant, TRUE"
+    "lookupValue": "Ind012, cardiofaciocutaneous syndrome, TRUE",
+    "derivedName": "Ind012, cardiofaciocutaneous syndrome, TRUE"
   },
   {
     "subjectId": "EvLn046",
@@ -716,8 +743,8 @@
     "value": "FamHist099",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Ind012, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE",
-    "derivedName": "Ind012, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE"
+    "lookupValue": "Ind012, cardiofaciocutaneous syndrome, FALSE",
+    "derivedName": "Ind012, cardiofaciocutaneous syndrome, FALSE"
   },
   {
     "subjectId": "EvLn046",
@@ -752,8 +779,8 @@
     "value": "FamSegData111",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Breast Ovarian Cancer, Family #005, 2",
-    "derivedName": "Breast Ovarian Cancer, Family #005, 2"
+    "lookupValue": "Breast Ovarian Cancer, Autosomal Dominant, Family #005, 2",
+    "derivedName": "Breast Ovarian Cancer, Autosomal Dominant, Family #005, 2"
   },
   {
     "subjectId": "EvLn050",
@@ -761,8 +788,8 @@
     "value": "AggSegData115",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "CanAll065, FamSegData113, FamSegData114, 9",
-    "derivedName": "CanAll065, FamSegData113, FamSegData114, 9"
+    "lookupValue": "dilated cardiomyopathy, Autosomal Dominant, FamSegData113, FamSegData114, 9",
+    "derivedName": "dilated cardiomyopathy, Autosomal Dominant, FamSegData113, FamSegData114, 9"
   },
   {
     "subjectId": "EvLn051",
@@ -1050,7 +1077,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "HHT type 1 is only known to be caused by variants in ENG -",
-    "derivedName": "hereditary hemorrhagic telangiectasia, ENG, complete"
+    "derivedName": "hereditary hemorrhagic telangiectasia, Autosomal Dominant, ENG, complete"
   },
   {
     "subjectId": "EvLn056",
@@ -1059,7 +1086,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "1.Only ~50% of HCM is genetic (can be caused by environment) \n2. More than 10 genes can cause HCM (specifically 9 sarcomere genes)",
-    "derivedName": "hypertrophic cardiomyopathy, Autosomal Dominant, MYH7, low"
+    "derivedName": "hypertrophic cardiomyopathy, MYH7, low"
   },
   {
     "subjectId": "EvLn057",
@@ -1068,7 +1095,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "Variant has been classified as “Pathogenic” by Sharing Clinical Reports Project (SCV000054057.3)",
-    "derivedName": "NM_000059.3(BRCA2):c.3G>T, Breast-Ovarian Cancer, Familial, Susceptibility To, 2, Pathogenic"
+    "derivedName": "NM_000059.3(BRCA2):c.3G>T, Breast-Ovarian Cancer, Familial, Susceptibility To, 2, Autosomal Dominant, Pathogenic"
   },
   {
     "subjectId": "EvLn058",
@@ -1077,7 +1104,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "Variant has been classified as “Pathogenic” by OMIM (SCV000043718.1)",
-    "derivedName": "NM_001458.4(FLNC):c.577G>A, Distal myopathy with posterior leg and anterior hand involvement, Pathogenic"
+    "derivedName": "NM_001458.4(FLNC):c.577G>A, Myopathy, Distal, type 4, Autosomal Dominant, Pathogenic"
   },
   {
     "subjectId": "EvLn059",
@@ -1086,7 +1113,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "Variant has been classified as “Pathogenic” by Expert panel CFTR (SCV000245981.1)",
-    "derivedName": "NM_000492.3(CFTR):c.2053dupC, Marfan Syndrome, Autosomal Dominant, Pathogenic"
+    "derivedName": "NM_000492.3(CFTR):c.2053dupC, Cystic Fibrosis, Autosomal Recessive, Pathogenic"
   },
   {
     "subjectId": "EvLn060",
@@ -1139,8 +1166,8 @@
     "value": "CondPrev159",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Perrault Syndrome, Autosomal Dominant, 0.0017, 0.0007, Overall",
-    "derivedName": "Perrault Syndrome, Autosomal Dominant, 0.0017, 0.0007, Overall"
+    "lookupValue": "Marfan Syndrome, Autosomal Dominant, 0.0017, 0.0007, Overall",
+    "derivedName": "Marfan Syndrome, Autosomal Dominant, 0.0017, 0.0007, Overall"
   },
   {
     "subjectId": "EvLn064",
@@ -1148,8 +1175,8 @@
     "value": "CondPenet160",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Perrault Syndrome, Autosomal Dominant, High",
-    "derivedName": "Perrault Syndrome, Autosomal Dominant, High"
+    "lookupValue": "Marfan Syndrome, Autosomal Dominant, High",
+    "derivedName": "Marfan Syndrome, Autosomal Dominant, High"
   },
   {
     "subjectId": "EvLn065",
@@ -1193,8 +1220,8 @@
     "value": "CondPrev167",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Perrault Syndrome, Autosomal Dominant, 1.00E-06, Overall",
-    "derivedName": "Perrault Syndrome, Autosomal Dominant, 1.00E-06, Overall"
+    "lookupValue": "Perrault Syndrome, Autosomal Recessive, 1.00E-06, Overall",
+    "derivedName": "Perrault Syndrome, Autosomal Recessive, 1.00E-06, Overall"
   },
   {
     "subjectId": "EvLn066",
@@ -1202,8 +1229,8 @@
     "value": "CondPenet168",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Perrault Syndrome, Autosomal Dominant, High",
-    "derivedName": "Perrault Syndrome, Autosomal Dominant, High"
+    "lookupValue": "Perrault Syndrome, Autosomal Recessive, High",
+    "derivedName": "Perrault Syndrome, Autosomal Recessive, High"
   },
   {
     "subjectId": "EvLn067",
@@ -1212,7 +1239,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "The evidence for full penetrance is not great, due to the rarity of the disease, but the fact that it's diagnosed at a young age and majority of cases are de novo is suggestive",
-    "derivedName": "Pendred syndrome, Autosomal Dominant, Complete"
+    "derivedName": "Wiedemann-Steiner syndrome, Autosomal Dominant, Complete"
   },
   {
     "subjectId": "EvLn067",
@@ -1229,8 +1256,8 @@
     "value": "IndCond174",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "individual #013, Pendred syndrome, Autosomal Dominant, FALSE",
-    "derivedName": "individual #013, Pendred syndrome, Autosomal Dominant, FALSE"
+    "lookupValue": "individual #013, Wiedemann-Steiner syndrome, Autosomal Dominant, FALSE",
+    "derivedName": "individual #013, Wiedemann-Steiner syndrome, Autosomal Dominant, FALSE"
   },
   {
     "subjectId": "EvLn068",
@@ -1239,7 +1266,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "The evidence for full penetrance is not great, due to the rarity of the disease, but the fact that it's diagnosed at a young age and majority of cases are de novo is suggestive",
-    "derivedName": "Pendred syndrome, Autosomal Dominant, Complete"
+    "derivedName": "Wiedemann-Steiner syndrome, Autosomal Dominant, Complete"
   },
   {
     "subjectId": "EvLn068",
@@ -1256,8 +1283,8 @@
     "value": "IndCond175",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "individual #014, Pendred syndrome, Autosomal Dominant, FALSE",
-    "derivedName": "individual #014, Pendred syndrome, Autosomal Dominant, FALSE"
+    "lookupValue": "individual #014, Wiedemann-Steiner syndrome, Autosomal Dominant, FALSE",
+    "derivedName": "individual #014, Wiedemann-Steiner syndrome, Autosomal Dominant, FALSE"
   },
   {
     "subjectId": "EvLn069",
@@ -1374,7 +1401,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "Marfan syndrome involves a range of skeletal features that should be identifiable at birth, if not during adolescence. The ocular and cardiovascular aspects may manifest later. 1/4 of mutations are de novo.",
-    "derivedName": "Marfan Syndrome, Autosomal Dominant, Complete"
+    "derivedName": "MendCond072, Complete"
   },
   {
     "subjectId": "EvLn073",
@@ -1391,8 +1418,8 @@
     "value": "IndCond190",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "individual #019, Marfan Syndrome, Autosomal Dominant, FALSE",
-    "derivedName": "individual #019, Marfan Syndrome, Autosomal Dominant, FALSE"
+    "lookupValue": "individual #019, MendCond072, FALSE",
+    "derivedName": "individual #019, MendCond072, FALSE"
   },
   {
     "subjectId": "EvLn074",
@@ -1401,7 +1428,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "Marfan syndrome involves a range of skeletal features that should be identifiable at birth, if not during adolescence. The ocular and cardiovascular aspects may manifest later. 1/4 of mutations are de novo.",
-    "derivedName": "Marfan Syndrome, Autosomal Dominant, Complete"
+    "derivedName": "MendCond072, Complete"
   },
   {
     "subjectId": "EvLn074",
@@ -1418,8 +1445,8 @@
     "value": "IndCond191",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "individual #020, Marfan Syndrome, Autosomal Dominant, FALSE",
-    "derivedName": "individual #020, Marfan Syndrome, Autosomal Dominant, FALSE"
+    "lookupValue": "individual #020, MendCond072, FALSE",
+    "derivedName": "individual #020, MendCond072, FALSE"
   },
   {
     "subjectId": "EvLn075",
@@ -1464,7 +1491,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "observed in one case diagnosed with Familial Hypercholesterolemia, characterized by elevated LDLC levels. Two siblings of the proband also have elevated LDLC levels but neither carry the 313+2T>C variant.",
-    "derivedName": "Familial Hypercholesterolemia, Family #008, 0"
+    "derivedName": "Hypercholesterolemia, Familial, Autosomal Dominant, Family #008, 0"
   },
   {
     "subjectId": "EvLn080",
@@ -1473,7 +1500,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "The individual with HCM but without the allele is likely a phenocopy explained\nby environmental factors (obese, alcohol)",
-    "derivedName": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2, Family #009, 3"
+    "derivedName": "hypertrophic cardiomyopathy, Autosomal Dominant, Family #009, 3"
   },
   {
     "subjectId": "EvLn081",
@@ -1491,7 +1518,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "ClinVar shows 421 variants in BRCA2 that are pathogenic for HBOC. 402 of these (~95%) are frameshift, nonsense, or splice-site variants.",
-    "derivedName": "loss of function variant, Primary, hereditary breast ovarian cancer"
+    "derivedName": "loss of function variant, Primary, hereditary breast and ovarian cancer"
   },
   {
     "subjectId": "EvLn082",
@@ -1509,7 +1536,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "ClinVar shows 61 variants in BRCA2 that are pathogenic for Fanconi Anemia. 55 of these (~90%) are frameshift, nonsense, or splice-site variants.",
-    "derivedName": "loss of function variant, Primary, Familial Hypercholesterolemia"
+    "derivedName": "loss of function variant, Primary, Fanconi Anemia"
   },
   {
     "subjectId": "EvLn083",
@@ -1527,7 +1554,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "shown in both humans and mouse models",
-    "derivedName": "loss of function variant, Primary, nonsyndromic deafness, Autosomal Recessive, GIPC3"
+    "derivedName": "loss of function variant, Primary, Hearing Loss, Autosomal Recessive"
   },
   {
     "subjectId": "EvLn084",
@@ -1544,8 +1571,8 @@
     "value": "CondMech204",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "loss of function variant, Primary, dilated cardiomyopathy, Autosomal Dominant",
-    "derivedName": "loss of function variant, Primary, dilated cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "loss of function variant, Primary, dilated cardiomyopathy",
+    "derivedName": "loss of function variant, Primary, dilated cardiomyopathy"
   },
   {
     "subjectId": "EvLn084",
@@ -1554,7 +1581,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "Truncating variants in TTN are associated with DCM. However, if missense variants are located in the A-band, impact the A-band, or are in a highly expressed region, they can also be associated with DCM.",
-    "derivedName": "missense variant, Established, dilated cardiomyopathy, Autosomal Dominant"
+    "derivedName": "missense variant, Established, dilated cardiomyopathy"
   },
   {
     "subjectId": "EvLn085",
@@ -1571,8 +1598,8 @@
     "value": "IndCond208",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "individual #021, Retinitis Pigmentosa, Autosomal Dominant, TRUE",
-    "derivedName": "individual #021, Retinitis Pigmentosa, Autosomal Dominant, TRUE"
+    "lookupValue": "individual #021, Retinitis Pigmentosa, TRUE",
+    "derivedName": "individual #021, Retinitis Pigmentosa, TRUE"
   },
   {
     "subjectId": "EvLn085",
@@ -1580,8 +1607,8 @@
     "value": "VarInterp210",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "NM_206933.2(USH2A):c.2276G>T, Retinitis Pigmentosa, Autosomal Dominant, Pathogenic",
-    "derivedName": "NM_206933.2(USH2A):c.2276G>T, Retinitis Pigmentosa, Autosomal Dominant, Pathogenic"
+    "lookupValue": "NM_206933.2(USH2A):c.2276G>T, Retinitis Pigmentosa, Pathogenic",
+    "derivedName": "NM_206933.2(USH2A):c.2276G>T, Retinitis Pigmentosa, Pathogenic"
   },
   {
     "subjectId": "EvLn086",
@@ -1598,8 +1625,8 @@
     "value": "IndCond209",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "individual #022, Retinitis Pigmentosa, Autosomal Dominant, TRUE",
-    "derivedName": "individual #022, Retinitis Pigmentosa, Autosomal Dominant, TRUE"
+    "lookupValue": "individual #022, Retinitis Pigmentosa, TRUE",
+    "derivedName": "individual #022, Retinitis Pigmentosa, TRUE"
   },
   {
     "subjectId": "EvLn086",
@@ -1607,8 +1634,8 @@
     "value": "VarInterp210",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "NM_206933.2(USH2A):c.2276G>T, Retinitis Pigmentosa, Autosomal Dominant, Pathogenic",
-    "derivedName": "NM_206933.2(USH2A):c.2276G>T, Retinitis Pigmentosa, Autosomal Dominant, Pathogenic"
+    "lookupValue": "NM_206933.2(USH2A):c.2276G>T, Retinitis Pigmentosa, Pathogenic",
+    "derivedName": "NM_206933.2(USH2A):c.2276G>T, Retinitis Pigmentosa, Pathogenic"
   },
   {
     "subjectId": "EvLn087",
@@ -1676,11 +1703,20 @@
   {
     "subjectId": "EvLn089",
     "attributeId": "A178",
-    "value": "Reg220",
+    "value": "RegAnn220",
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "region is repeating but does not have a known function.",
-    "derivedName": "NM_001271208.1, 154, 183, Repeat"
+    "derivedName": "Loc390, Repeat"
+  },
+  {
+    "subjectId": "EvLn089",
+    "attributeId": "A178",
+    "value": "RegAll391",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "region is repeating but does not have a known function.",
+    "derivedName": "Loc390, NM_001271208.1(NEB):c.169_183delCTGGCACAGCCAGCA"
   },
   {
     "subjectId": "EvLn089",
@@ -1694,11 +1730,20 @@
   {
     "subjectId": "EvLn090",
     "attributeId": "A178",
-    "value": "Reg225",
+    "value": "RegAnn225",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "The I-Band is a large region of repetitive Igg domains. Allele NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC is contained by this region.",
-    "derivedName": "RegSeq009, 6509, 39262, Repeat"
+    "lookupValue": "The I-Band is a large region of repetitive Igg domains. ",
+    "derivedName": "Loc392, Repeat"
+  },
+  {
+    "subjectId": "EvLn090",
+    "attributeId": "A178",
+    "value": "RegAll393",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "Allele NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC is contained by this region.",
+    "derivedName": "Loc392, NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC"
   },
   {
     "subjectId": "EvLn090",
@@ -1712,11 +1757,20 @@
   {
     "subjectId": "EvLn091",
     "attributeId": "A178",
-    "value": "Reg229",
+    "value": "RegAnn229",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "NM_147196.2, 522, 548, Repeat",
-    "derivedName": "NM_147196.2, 522, 548, Repeat"
+    "lookupValue": "Loc394, Repeat",
+    "derivedName": "Loc394, Repeat"
+  },
+  {
+    "subjectId": "EvLn091",
+    "attributeId": "A178",
+    "value": "RegAll395",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "Loc394, NM_147196.2(TMIE):c.391_393dupAAG",
+    "derivedName": "Loc394, NM_147196.2(TMIE):c.391_393dupAAG"
   },
   {
     "subjectId": "EvLn091",
@@ -1823,8 +1877,8 @@
     "value": "IndCond242",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "individual #025, hypertrophic cardiomyopathy, Autosomal Dominant, TRUE",
-    "derivedName": "individual #025, hypertrophic cardiomyopathy, Autosomal Dominant, TRUE"
+    "lookupValue": "individual #025, hypertrophic cardiomyopathy, TRUE",
+    "derivedName": "individual #025, hypertrophic cardiomyopathy, TRUE"
   },
   {
     "subjectId": "EvLn093",
@@ -1832,8 +1886,8 @@
     "value": "VarInterp243",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "NM_000256.3(MYBPC3): c.2497G>A, hypertrophic cardiomyopathy, Autosomal Dominant, Likely Pathogenic",
-    "derivedName": "NM_000256.3(MYBPC3): c.2497G>A, hypertrophic cardiomyopathy, Autosomal Dominant, Likely Pathogenic"
+    "lookupValue": "NM_000256.3(MYBPC3): c.2497G>A, hypertrophic cardiomyopathy, Likely Pathogenic",
+    "derivedName": "NM_000256.3(MYBPC3): c.2497G>A, hypertrophic cardiomyopathy, Likely Pathogenic"
   },
   {
     "subjectId": "EvLn094",
@@ -1859,8 +1913,8 @@
     "value": "IndCond246",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "individual #026, nonsyndromic deafness, Autosomal Recessive, GIPC3, TRUE",
-    "derivedName": "individual #026, nonsyndromic deafness, Autosomal Recessive, GIPC3, TRUE"
+    "lookupValue": "individual #026, nonsyndromic deafness, TRUE",
+    "derivedName": "individual #026, nonsyndromic deafness, TRUE"
   },
   {
     "subjectId": "EvLn094",
@@ -1868,8 +1922,8 @@
     "value": "VarInterp247",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "NM_004004.5(GJB2):c.71G>A, nonsyndromic deafness, Autosomal Recessive, GIPC3, Likely Pathogenic",
-    "derivedName": "NM_004004.5(GJB2):c.71G>A, nonsyndromic deafness, Autosomal Recessive, GIPC3, Likely Pathogenic"
+    "lookupValue": "NM_004004.5(GJB2):c.71G>A, nonsyndromic deafness, Likely Pathogenic",
+    "derivedName": "NM_004004.5(GJB2):c.71G>A, nonsyndromic deafness, Likely Pathogenic"
   },
   {
     "subjectId": "EvLn094",
@@ -1877,8 +1931,8 @@
     "value": "VarInterp248",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "NM_004004.5(GJB2):c.230G>A, nonsyndromic deafness, Autosomal Recessive, GIPC3, Likely Pathogenic",
-    "derivedName": "NM_004004.5(GJB2):c.230G>A, nonsyndromic deafness, Autosomal Recessive, GIPC3, Likely Pathogenic"
+    "lookupValue": "NM_004004.5(GJB2):c.230G>A, nonsyndromic deafness, Likely Pathogenic",
+    "derivedName": "NM_004004.5(GJB2):c.230G>A, nonsyndromic deafness, Likely Pathogenic"
   },
   {
     "subjectId": "EvLn095",
@@ -1913,8 +1967,8 @@
     "value": "IndCond252",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "individual #028, pseudoachondroplasia, TRUE",
-    "derivedName": "individual #028, pseudoachondroplasia, TRUE"
+    "lookupValue": "individual #028, Pseudoachondroplastic spondyloepiphyseal dysplasia, TRUE",
+    "derivedName": "individual #028, Pseudoachondroplastic spondyloepiphyseal dysplasia, TRUE"
   },
   {
     "subjectId": "EvLn096",
@@ -1941,7 +1995,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "Pseudoachondroplastic spondyloepiphyseal dysplasia syndrome is caused by a combination of a pathogenic variant in COL2A1 and another in COMP.   So CA113 may be involved, but is not the sole cause.",
-    "derivedName": "NM_000095.2(COMP):c.1042T>C, pseudoachondroplasia, Uncertain Signficance"
+    "derivedName": "NM_000095.2(COMP):c.1042T>C, Pseudoachondroplastic spondyloepiphyseal dysplasia, Uncertain Signficance"
   },
   {
     "subjectId": "EvLn097",
@@ -1950,7 +2004,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "classified by ENIGMA.",
-    "derivedName": "NM_007294.3(BRCA1):c.*6207C>T, hereditary breast ovarian cancer, Benign"
+    "derivedName": "NM_007294.3(BRCA1):c.*6207C>T, MendCond073, Benign"
   },
   {
     "subjectId": "EvLn098",
@@ -1959,7 +2013,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "classified by Sharing Clinical Reports Project.",
-    "derivedName": "NM_000059.3(BRCA2):c.-26G>A, Breast Cancer, Benign"
+    "derivedName": "NM_000059.3(BRCA2):c.-26G>A, Breast-Ovarian Cancer, Familial, Susceptibility To, 2, Benign"
   },
   {
     "subjectId": "EvLn099",
@@ -1968,7 +2022,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "classified by OMIM",
-    "derivedName": "NM_000274.3(OAT):c.1311G>C, gyrate atrophy, Benign"
+    "derivedName": "NM_000274.3(OAT):c.1311G>C, Gyrate atrophy of choroid and retina, Benign"
   },
   {
     "subjectId": "EvLn100",
@@ -2094,7 +2148,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/).",
-    "derivedName": "loss of function variant, Established"
+    "derivedName": "loss of function variant, arrhythmogenic right ventricular cardiomyopathy, Established"
   },
   {
     "subjectId": "EvLn104",
@@ -2120,8 +2174,8 @@
     "value": "VarInterp364",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "NM_000441.1(SLC26A4): c.626G>T, nonsyndromic deafness, Autosomal Recessive, GIPC3, Likely Pathogenic",
-    "derivedName": "NM_000441.1(SLC26A4): c.626G>T, nonsyndromic deafness, Autosomal Recessive, GIPC3, Likely Pathogenic"
+    "lookupValue": "NM_000441.1(SLC26A4): c.626G>T, Hearing Loss, Likely Pathogenic",
+    "derivedName": "NM_000441.1(SLC26A4): c.626G>T, Hearing Loss, Likely Pathogenic"
   },
   {
     "subjectId": "EvLn106",
@@ -2129,8 +2183,8 @@
     "value": "VarInterp365",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "NM_000441.1(SLC26A4): c.1707+6T>C, nonsyndromic deafness, Autosomal Recessive, GIPC3, Pathogenic",
-    "derivedName": "NM_000441.1(SLC26A4): c.1707+6T>C, nonsyndromic deafness, Autosomal Recessive, GIPC3, Pathogenic"
+    "lookupValue": "NM_000441.1(SLC26A4): c.1707+6T>C, Hearing Loss, Pathogenic",
+    "derivedName": "NM_000441.1(SLC26A4): c.1707+6T>C, Hearing Loss, Pathogenic"
   },
   {
     "subjectId": "EvLn106",
@@ -2157,7 +2211,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "This proband had mild to profound hearing loss with EVA, which is characteristic of Pendred Syndrome.",
-    "derivedName": "individual #029, nonsyndromic deafness, Autosomal Recessive, GIPC3, TRUE"
+    "derivedName": "individual #029, Hearing Loss, TRUE"
   },
   {
     "subjectId": "EvLn107",
@@ -2192,8 +2246,8 @@
     "value": "CondPrev039",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "nonsyndromic deafness, Autosomal Recessive, GIPC3, 1/300, CG:overall, #N/A",
-    "derivedName": "nonsyndromic deafness, Autosomal Recessive, GIPC3, 1/300, CG:overall, #N/A"
+    "lookupValue": "Hearing Loss, 1/500, 1/300, Overall",
+    "derivedName": "Hearing Loss, 1/500, 1/300, Overall"
   },
   {
     "subjectId": "EvLn110",
@@ -2202,7 +2256,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "while the variant is absent from exac, however\n1) very low coverage across this region (~5X) and usually 20X is used as a cut-off to say “absent”\n2) variant is 21 nt deletion - databases may not be able to call a variant of that size (I rarely see an indel of this size in ExAC).",
-    "derivedName": "Absent from controls, NM_001369.2(DNAH5):c.7468_7488del, Evidence Insufficient for Rule"
+    "derivedName": "Absent from controls, NM_001369.2(DNAH5):c.7468_7488del, Not Met"
   },
   {
     "subjectId": "EvLn111",
@@ -2210,8 +2264,8 @@
     "value": "CritAssess296",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Recessive in trans with pathogenic variant, NM_001369.2(DNAH5):c.7468_7488del, Evidence Satisfies Rule",
-    "derivedName": "Recessive in trans with pathogenic variant, NM_001369.2(DNAH5):c.7468_7488del, Evidence Satisfies Rule"
+    "lookupValue": "Recessive in trans with pathogenic variant, NM_001369.2(DNAH5):c.7468_7488del, Met",
+    "derivedName": "Recessive in trans with pathogenic variant, NM_001369.2(DNAH5):c.7468_7488del, Met"
   },
   {
     "subjectId": "EvLn112",
@@ -2220,7 +2274,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "leads to an in-frame deletion of 7 amino acids (not repeat region).",
-    "derivedName": "Protein length changes or stop-loss, NM_001369.2(DNAH5):c.7468_7488del, Evidence Satisfies Rule"
+    "derivedName": "Protein length changes or stop-loss, NM_001369.2(DNAH5):c.7468_7488del, Met"
   },
   {
     "subjectId": "EvLn113",
@@ -2229,7 +2283,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "This variant is present in 2% (27/1384) of African American Chromosomes in ESP.",
-    "derivedName": "MAF too high for disorder, NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His), Evidence Satisfies Rule"
+    "derivedName": "MAF too high for disorder, NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His), Met"
   },
   {
     "subjectId": "EvLn114",
@@ -2238,7 +2292,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "Homozygous truncating variants in LOXHD1 are associated with autosomal recessive hearing loss. This was demonstrated by both identification in human patients and a mouse model. (I used the OMIM entry as a source, but you could also directly use the papers.)",
-    "derivedName": "Missense variant when truncating is expected mechanism, NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His), Evidence Satisfies Rule"
+    "derivedName": "Missense variant when truncating is expected mechanism, NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His), Met"
   },
   {
     "subjectId": "EvLn115",
@@ -2247,7 +2301,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "This variant was identified in one individual with pathogenic variants in another gene. Internal LMM data: The proband had one pathogenic and one likely pathogenic variant in (in trans) in SLC26A4. This proband had mild to profound hearing loss with EVA, which is characteristic of Pendred Syndrome. SLC26A4 is the only gene associated with Pendred Syndrome",
-    "derivedName": "Variant found in case with alternate explanation, NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His), Evidence Satisfies Rule"
+    "derivedName": "Variant found in case with alternate explanation, NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His), Met"
   },
   {
     "subjectId": "EvLn116",
@@ -2301,7 +2355,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "This is a synonymous variant with little conservation and no predicted impact on splicing. Conservation and splicing algorithm values are listed below.",
-    "derivedName": "Computational evidence supports benign impact, NM_000257.2(MYH7):c.327C>T, Evidence Satisfies Rule"
+    "derivedName": "Computational evidence supports benign impact, NM_000257.2(MYH7):c.327C>T, Met"
   },
   {
     "subjectId": "EvLn119",
@@ -2309,8 +2363,8 @@
     "value": "CritAssess359",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Synonymous variant without predicted splice effect in region with low conservation, NM_000257.2(MYH7):c.327C>T, Evidence Satisfies Rule",
-    "derivedName": "Synonymous variant without predicted splice effect in region with low conservation, NM_000257.2(MYH7):c.327C>T, Evidence Satisfies Rule"
+    "lookupValue": "Synonymous variant without predicted splice effect in region with low conservation, NM_000257.2(MYH7):c.327C>T, Met",
+    "derivedName": "Synonymous variant without predicted splice effect in region with low conservation, NM_000257.2(MYH7):c.327C>T, Met"
   },
   {
     "subjectId": "EvLn120",
@@ -2319,7 +2373,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "This variant is present in 0.2% (31/16512) of South Asian Chromosomes in ExAC.",
-    "derivedName": "MAF too high for disorder, NM_000257.2(MYH7):c.327C>T, Evidence Satisfies Rule"
+    "derivedName": "MAF too high for disorder, NM_000257.2(MYH7):c.327C>T, Met"
   },
   {
     "subjectId": "EvLn121",
@@ -2328,7 +2382,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "This variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006 PMID: 17186466). Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/).",
-    "derivedName": "Null variant in gene with known LOF mechanism, NM_024422.3(DSC2): c.631-2A>G (p.?), Evidence Satisfies Rule"
+    "derivedName": "Null variant in gene with known LOF mechanism, NM_024422.3(DSC2): c.631-2A>G (p.?), Met"
   },
   {
     "subjectId": "EvLn122",
@@ -2337,7 +2391,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "This variant has been reported in 1/66564 European chromosomes by the Exome Aggregation Consortium (ExAC, http://exac.broadinstitute.org; dbSNP rs397514042).",
-    "derivedName": "Absent from controls, NM_024422.3(DSC2): c.631-2A>G (p.?), Evidence Satisfies Rule"
+    "derivedName": "Absent from controls, NM_024422.3(DSC2): c.631-2A>G (p.?), Met"
   },
   {
     "subjectId": "EvLn123",
@@ -2345,8 +2399,8 @@
     "value": "FamSegData076",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "noonan syndrome, Autosomal Dominant, Family #011, ?, ?",
-    "derivedName": "noonan syndrome, Autosomal Dominant, Family #011, ?, ?"
+    "lookupValue": "noonan syndrome, Autosomal Dominant, Family #011, 0, 2",
+    "derivedName": "noonan syndrome, Autosomal Dominant, Family #011, 0, 2"
   },
   {
     "subjectId": "EvLn124",
@@ -2355,7 +2409,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "Flag-tagged construct with the variant was transfected into HEK cells. As per the RASopathy working group’s approved assays (see example 3 above), Smith et al. showed that the Y337C mutation increased levels of pERK in starved HEK cells via western blotting.",
-    "derivedName": "Well-established functional studies showing damaging effect, NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys), Evidence Satisfies Rule"
+    "derivedName": "Well-established functional studies showing damaging effect, NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys), Met"
   },
   {
     "subjectId": "EvLn125",
@@ -2364,7 +2418,7 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "A personal communication to our lab informed us of an individual and his son who both harbored the variant but with clinical workup did not appear to have Noonan Syndrome or symptoms indicative of Noonan Syndrome.",
-    "derivedName": "Does not segregate with disease, NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys), Evidence Satisfies Rule"
+    "derivedName": "Does not segregate with disease, NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys), Met"
   },
   {
     "subjectId": "EvLn126",
@@ -2381,8 +2435,8 @@
     "value": "CritAssess376",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Absent from controls, NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), Evidence Satisfies Rule",
-    "derivedName": "Absent from controls, NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), Evidence Satisfies Rule"
+    "lookupValue": "Absent from controls, NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), Met",
+    "derivedName": "Absent from controls, NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), Met"
   },
   {
     "subjectId": "EvLn128",
@@ -2399,8 +2453,8 @@
     "value": "IndCond110",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Ind030, cardiofaciocutaneous syndrome, Autosomal Dominant, TRUE",
-    "derivedName": "Ind030, cardiofaciocutaneous syndrome, Autosomal Dominant, TRUE"
+    "lookupValue": "Ind030, cardiofaciocutaneous syndrome, TRUE",
+    "derivedName": "Ind030, cardiofaciocutaneous syndrome, TRUE"
   },
   {
     "subjectId": "EvLn128",
@@ -2408,8 +2462,8 @@
     "value": "FamHist112",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "Ind030, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE",
-    "derivedName": "Ind030, cardiofaciocutaneous syndrome, Autosomal Dominant, FALSE"
+    "lookupValue": "Ind030, cardiofaciocutaneous syndrome, FALSE",
+    "derivedName": "Ind030, cardiofaciocutaneous syndrome, FALSE"
   },
   {
     "subjectId": "EvLn129",
@@ -2418,15 +2472,16 @@
     "attributeName": "supportingData",
     "attributeType": "Data",
     "lookupValue": "Parental testing in our lab confirmed this variant was present de novo in 1 proband with clinical features of CFC. (LMM internal Data)",
-    "derivedName": "Assumed de novo (parental status not confirmed), NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), Evidence Satisfies Rule"
+    "derivedName": "Assumed de novo (parental status not confirmed), NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), Met"
   },
   {
     "subjectId": "EvLn130",
     "attributeId": "A178",
+    "value": "VarInterp060",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "#N/A",
-    "derivedName": "#N/A"
+    "lookupValue": "The Lys483Asn variant in BRAF has not been previously reported in the literature, but has been identified as a de novo variant in one proband in our laboratory. In addition, this residue is highly conserved across evolutionarily distinct species and computational analyses (PolyPhen2, SIFT, AlignGVGD) predict that this variant will impact the normal function of BRAF. It should be noted that the sensitivity and specificity of these computational programs has not been determined by our laboratory. Therefore, this variant is likely to be pathogenic.",
+    "derivedName": "NM_004333.4(BRAF):c.1449A>C, Rasopathy, Likely Pathogenic"
   },
   {
     "subjectId": "EvLn131",
@@ -2434,7 +2489,34 @@
     "value": "CritAssess378",
     "attributeName": "supportingData",
     "attributeType": "Data",
-    "lookupValue": "#N/A",
-    "derivedName": "#N/A"
+    "lookupValue": "Another variant at the same residue (Lys483Asn) was identified as a de novo variant in an individual with features of a Noonan spectrum disorder (LMM unpublished data). The other variant: NM_004333.4(BRAF):c.1449A>C (p.Lys483Asn) is classified as likely pathogenic by LMM for Rasopathy.",
+    "derivedName": "Novel missense at same amino acid as known pathogenic missense, NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), Met"
+  },
+  {
+    "subjectId": "EvLn132",
+    "attributeId": "A178",
+    "value": "BMVR161",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "In LMM data alone, we have over 150 benign missense variants in TTN.",
+    "derivedName": "High"
+  },
+  {
+    "subjectId": "EvLn132",
+    "attributeId": "A178",
+    "value": "MolCon169",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "missense variant",
+    "derivedName": "missense variant"
+  },
+  {
+    "subjectId": "EvLn132",
+    "attributeId": "A178",
+    "value": "CondMech165",
+    "attributeName": "supportingData",
+    "attributeType": "Data",
+    "lookupValue": "Taylor 2011 PMID:21810661",
+    "derivedName": "missense variant, Common, arrhythmogenic right ventricular cardiomyopathy"
   }
 ]

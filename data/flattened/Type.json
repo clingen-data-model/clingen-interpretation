@@ -60,13 +60,13 @@
     "id": "E10",
     "name": "Activity",
     "link": "Act",
-    "description": "W3C Provenance activity conceptual class."
+    "description": "Conceptual class to record provenance related to the creation of an item (e.g., who and when)"
   },
   "E12": {
     "id": "E12",
     "name": "Agent",
     "link": "Agent",
-    "description": "W3C Provenance agent conceptual class."
+    "description": "A person, group of people, algorithm, or some other actor that could perform an activity."
   },
   "E13": {
     "id": "E13",
@@ -123,6 +123,13 @@
     "link": "CaseCtrl",
     "description": "Allele frequencies as a function of case-control status"
   },
+  "E22": {
+    "id": "E22",
+    "name": "Locus",
+    "parentType": "E01",
+    "link": "Loc",
+    "description": "Location, position or interval on a given sequence"
+  },
   "E23": {
     "id": "E23",
     "name": "AlleleFrequency",
@@ -132,10 +139,17 @@
   },
   "E24": {
     "id": "E24",
-    "name": "RegionTypesAndAlleles",
+    "name": "RegionAnnotation",
     "parentType": "E01",
-    "link": "Reg",
-    "description": "Whether or not a sequence region is of a certain type or types and/or wether or not sequence region contains a given set of alleles."
+    "link": "RegAnn",
+    "description": "Whether or not a sequence region is of a certain type or types."
+  },
+  "E25": {
+    "id": "E25",
+    "name": "RegionAlleles",
+    "parentType": "E01",
+    "link": "RegAll",
+    "description": "Whether or not sequence region contains a given set of alleles."
   },
   "E26": {
     "id": "E26",
@@ -178,6 +192,18 @@
     "parentType": "E52",
     "link": "DataSrc",
     "description": "Citation for a Data entity"
+  },
+  "E41": {
+    "id": "E41",
+    "name": "CodeSystem",
+    "link": "CS",
+    "description": "(FHIR) defines a set of codes with meanings (also known as enumeration, terminology, classification, and/or ontology)"
+  },
+  "E42": {
+    "id": "E42",
+    "name": "ConceptDefinition",
+    "link": "CD",
+    "description": "(FHIR) Concepts that are in the code system. The concept definitions are inherently hierarchical, but the definitions must be consulted to determine what the meaning of the hierarchical relationships are."
   },
   "E43": {
     "id": "E43",
@@ -252,13 +278,13 @@
     "id": "E54",
     "name": "ValueSet",
     "link": "VS",
-    "description": "*TODO* short description needed"
+    "description": "(FHIR) A value set specifies a set of codes drawn from one or more code systems."
   },
   "E55": {
     "id": "E55",
-    "name": "ValueSetConcept",
+    "name": "ValueSetCodes",
     "link": "VSC",
-    "description": "*TODO* short description needed"
+    "description": "This maps to the use of codes in relationship to ValueSets in HL7 FHIR.  For details on understanding how Codes and ValueSets are defined see HL7 FHIR spec 4.1 Using Codes and its subsections (https://www.hl7.org/fhir/terminologies.html) ."
   },
   "E56": {
     "id": "E56",

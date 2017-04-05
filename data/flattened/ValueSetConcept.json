@@ -3,1160 +3,708 @@
     "id": "VSC001",
     "valueSet": "VS001",
     "valueSetName": "DataSourceType",
-    "code": "lit",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:lit",
-    "text": "literature",
-    "authority": "ClinGen",
-    "examples": "PMID, journals, urls, ..."
+    "coding concept": "CG-data-source:lit"
   },
   "VSC002": {
     "id": "VSC002",
     "valueSet": "VS001",
     "valueSetName": "DataSourceType",
-    "code": "db",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:db",
-    "text": "database",
-    "authority": "ClinGen",
-    "examples": "clinvar, EXEC, private, internal, commercial, ..."
+    "coding concept": "CG-data-source:db"
   },
   "VSC003": {
     "id": "VSC003",
     "valueSet": "VS001",
     "valueSetName": "DataSourceType",
-    "code": "app",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:app",
-    "text": "application",
-    "authority": "ClinGen",
-    "examples": "public, private, custom, ..."
+    "coding concept": "CG-data-source:app"
   },
   "VSC004": {
     "id": "VSC004",
     "valueSet": "VS002",
     "valueSetName": "MolecularConsequence",
-    "code": "0001589",
-    "codeSystem": "SO",
-    "qualifiedCode": "SO:0001589",
-    "text": "frameshift variant",
-    "authority": "Sequence Ontology"
+    "coding concept": "SO:0001589"
   },
   "VSC005": {
     "id": "VSC005",
     "valueSet": "VS002",
     "valueSetName": "MolecularConsequence",
-    "code": "0000191",
-    "codeSystem": "SO",
-    "qualifiedCode": "SO:0000191",
-    "text": "interior intron",
-    "authority": "Sequence Ontology"
+    "coding concept": "SO:0000191"
   },
   "VSC006": {
     "id": "VSC006",
     "valueSet": "VS002",
     "valueSetName": "MolecularConsequence",
-    "code": "0001825",
-    "codeSystem": "SO",
-    "qualifiedCode": "SO:0001825",
-    "text": "Conservative Inframe Deletion",
-    "authority": "Sequence Ontology"
+    "coding concept": "SO:0001825"
   },
   "VSC007": {
     "id": "VSC007",
     "valueSet": "VS002",
     "valueSetName": "MolecularConsequence",
-    "code": "0001823",
-    "codeSystem": "SO",
-    "qualifiedCode": "SO:0001823",
-    "text": "Conservative Inframe Insertion",
-    "authority": "Sequence Ontology"
+    "coding concept": "SO:0001823"
   },
   "VSC008": {
     "id": "VSC008",
     "valueSet": "VS002",
     "valueSetName": "MolecularConsequence",
-    "code": "0001583",
-    "codeSystem": "SO",
-    "qualifiedCode": "SO:0001583",
-    "text": "missense variant",
-    "authority": "Sequence Ontology"
+    "coding concept": "SO:0001583"
   },
   "VSC009": {
     "id": "VSC009",
     "valueSet": "VS002",
     "valueSetName": "MolecularConsequence",
-    "code": "0001819",
-    "codeSystem": "SO",
-    "qualifiedCode": "SO:0001819",
-    "text": "synonymous variant",
-    "authority": "Sequence Ontology"
+    "coding concept": "SO:0001819"
   },
   "VSC010": {
     "id": "VSC010",
     "valueSet": "VS003",
     "valueSetName": "Significance",
-    "code": "LA6668-3",
-    "codeSystem": "LN",
-    "qualifiedCode": "LN:LA6668-3",
-    "text": "Pathogenic",
-    "authority": "Regenstrief Institute"
+    "coding concept": "LN:LA6668-3"
   },
   "VSC011": {
     "id": "VSC011",
     "valueSet": "VS003",
     "valueSetName": "Significance",
-    "code": "LA26332-9",
-    "codeSystem": "LN",
-    "qualifiedCode": "LN:LA26332-9",
-    "text": "Likely Pathogenic",
-    "authority": "Regenstrief Institute",
-    "examples": "changed from: LA6669-1"
+    "coding concept": "LN:LA26332-9"
   },
   "VSC012": {
     "id": "VSC012",
     "valueSet": "VS003",
     "valueSetName": "Significance",
-    "code": "LA26333-7",
-    "codeSystem": "LN",
-    "qualifiedCode": "LN:LA26333-7",
-    "text": "Uncertain Signficance",
-    "authority": "Regenstrief Institute",
-    "examples": "changed from: LA6682-4"
+    "coding concept": "LN:LA26333-7"
   },
   "VSC013": {
     "id": "VSC013",
     "valueSet": "VS003",
     "valueSetName": "Significance",
-    "code": "LA26334-5",
-    "codeSystem": "LN",
-    "qualifiedCode": "LN:LA26334-5",
-    "text": "Likely Benign",
-    "authority": "Regenstrief Institute",
-    "examples": "changed from: LA6675-8"
+    "coding concept": "LN:LA26334-5"
   },
   "VSC014": {
     "id": "VSC014",
     "valueSet": "VS003",
     "valueSetName": "Significance",
-    "code": "LA6675-8",
-    "codeSystem": "LN",
-    "qualifiedCode": "LN:LA6675-8",
-    "text": "Benign",
-    "authority": "Regenstrief Institute"
+    "coding concept": "LN:LA6675-8"
   },
   "VSC015": {
     "id": "VSC015",
     "valueSet": "VS004",
     "valueSetName": "RegionAnnotationType",
-    "code": "repeat",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:repeat",
-    "text": "Repeat",
-    "authority": "ClinGen"
+    "coding concept": "CG-reg-anno-type:repeat"
   },
   "VSC016": {
     "id": "VSC016",
     "valueSet": "VS004",
     "valueSetName": "RegionAnnotationType",
-    "code": "functional",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:functional",
-    "text": "Functional",
-    "authority": "ClinGen"
+    "coding concept": "CG-reg-anno-type:functional"
   },
   "VSC017": {
     "id": "VSC017",
     "valueSet": "VS004",
     "valueSetName": "RegionAnnotationType",
-    "code": "hotspot",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:hotspot",
-    "text": "Mutational Hotspot",
-    "authority": "ClinGen"
+    "coding concept": "CG-reg-anno-type:hotspot"
   },
   "VSC018": {
     "id": "VSC018",
     "valueSet": "VS005",
     "valueSetName": "Phase",
-    "code": "cis",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:cis",
-    "text": "in cis",
-    "authority": "ClinGen"
+    "coding concept": "CG-phase:cis"
   },
   "VSC019": {
     "id": "VSC019",
     "valueSet": "VS005",
     "valueSetName": "Phase",
-    "code": "trans",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:trans",
-    "text": "in trans",
-    "authority": "ClinGen"
+    "coding concept": "CG-phase:trans"
   },
   "VSC020": {
     "id": "VSC020",
     "valueSet": "VS006",
     "valueSetName": "AllelicState",
-    "code": "het",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:het",
-    "text": "heterozygous",
-    "authority": "ClinGen"
+    "coding concept": "CG-allelic-state:het"
   },
   "VSC021": {
     "id": "VSC021",
     "valueSet": "VS006",
     "valueSetName": "AllelicState",
-    "code": "hom",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:hom",
-    "text": "homozygous",
-    "authority": "ClinGen"
+    "coding concept": "CG-allelic-state:hom"
   },
   "VSC022": {
     "id": "VSC022",
     "valueSet": "VS007",
     "valueSetName": "ModeOfInheritance",
-    "code": "0000007",
-    "codeSystem": "HP",
-    "qualifiedCode": "HP:0000007",
-    "text": "Autosomal Recessive",
-    "authority": "Human Phenotype Ontology"
+    "coding concept": "HP:0000007"
   },
   "VSC023": {
     "id": "VSC023",
     "valueSet": "VS007",
     "valueSetName": "ModeOfInheritance",
-    "code": "0000006",
-    "codeSystem": "HP",
-    "qualifiedCode": "HP:0000006",
-    "text": "Autosomal Dominant",
-    "authority": "Human Phenotype Ontology"
+    "coding concept": "HP:0000006"
   },
   "VSC024": {
     "id": "VSC024",
     "valueSet": "VS007",
     "valueSetName": "ModeOfInheritance",
-    "code": "0001423",
-    "codeSystem": "HP",
-    "qualifiedCode": "HP:0001423",
-    "text": "X-linked dominant inheritance",
-    "authority": "Human Phenotype Ontology"
+    "coding concept": "HP:0001423"
   },
   "VSC025": {
     "id": "VSC025",
     "valueSet": "VS008",
     "valueSetName": "ReferenceSequenceRelatedType",
-    "code": "0003000",
-    "codeSystem": "RO",
-    "qualifiedCode": "RO:0003000",
-    "text": "produces",
-    "authority": "OBO Relations Ontology"
+    "coding concept": "RO:0003000"
   },
   "VSC026": {
     "id": "VSC026",
     "valueSet": "VS008",
     "valueSetName": "ReferenceSequenceRelatedType",
-    "code": "0003001",
-    "codeSystem": "RO",
-    "qualifiedCode": "RO:0003001",
-    "text": "produced-by",
-    "authority": "OBO Relations Ontology"
+    "coding concept": "RO:0003001"
   },
   "VSC027": {
     "id": "VSC027",
     "valueSet": "VS009",
     "valueSetName": "Mechanism",
-    "code": "0002054",
-    "codeSystem": "SO",
-    "qualifiedCode": "SO:0002054",
-    "text": "loss of function variant",
-    "authority": "Sequence Ontology"
+    "coding concept": "SO:0002054"
   },
   "VSC028": {
     "id": "VSC028",
     "valueSet": "VS009",
     "valueSetName": "Mechanism",
-    "code": "0001583",
-    "codeSystem": "SO",
-    "qualifiedCode": "SO:0001583",
-    "text": "missense variant",
-    "authority": "Sequence Ontology"
+    "coding concept": "SO:0001583"
   },
   "VSC029": {
     "id": "VSC029",
     "valueSet": "VS010",
     "valueSetName": "PredictionType",
-    "code": "me",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:me",
-    "text": "missense effect",
-    "authority": "ClinGen"
+    "coding concept": "CG-prediction-type:me"
   },
   "VSC030": {
     "id": "VSC030",
     "valueSet": "VS010",
     "valueSetName": "PredictionType",
-    "code": "sp",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:sp",
-    "text": "splicing prediction",
-    "authority": "ClinGen"
-  },
-  "VSC031": {
-    "id": "VSC031",
-    "valueSet": "VS011",
-    "valueSetName": "CriterionEvaluation",
-    "code": "INSUFFICIENT",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:INSUFFICIENT",
-    "text": "Evidence Insufficient for Rule",
-    "authority": "ClinGen",
-    "description": "If assessor feels it should be reviewed again in the future."
+    "coding concept": "CG-prediction-type:sp"
   },
   "VSC032": {
     "id": "VSC032",
     "valueSet": "VS011",
     "valueSetName": "CriterionEvaluation",
-    "code": "REFUTE",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:REFUTE",
-    "text": "Evidence Refutes Rule",
-    "authority": "ClinGen",
-    "description": "If assessor feels its so strong that no one should ever look at it again."
+    "coding concept": "CG-criterion-outcome:not-met"
   },
   "VSC033": {
     "id": "VSC033",
     "valueSet": "VS011",
     "valueSetName": "CriterionEvaluation",
-    "code": "MET",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:MET",
-    "text": "Evidence Satisfies Rule",
-    "authority": "ClinGen",
-    "description": "see ACMG guidelines"
-  },
-  "VSC034": {
-    "id": "VSC034",
-    "valueSet": "VS011",
-    "valueSetName": "CriterionEvaluation",
-    "code": "NOT_MET",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:NOT_MET",
-    "text": "Evidence Does Not Satisfy Rule",
-    "authority": "ClinGen",
-    "description": "see ACMG guidelines"
-  },
-  "VSC035": {
-    "id": "VSC035",
-    "valueSet": "VS011",
-    "valueSetName": "CriterionEvaluation",
-    "code": "NO_EVAL",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:NO_EVAL",
-    "text": "Rule Not Evaluated",
-    "authority": "ClinGen",
-    "description": "see ACMG guidelines"
+    "coding concept": "CG-criterion-outcome:met"
   },
   "VSC038": {
     "id": "VSC038",
     "valueSet": "VS012",
     "valueSetName": "FunctionalDataType",
-    "code": "binding",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:binding",
-    "text": "Binding assay?",
-    "authority": "ClinGen"
+    "coding concept": "CG-func-data-type:binding"
   },
   "VSC039": {
     "id": "VSC039",
     "valueSet": "VS012",
     "valueSetName": "FunctionalDataType",
-    "code": "atpase",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:atpase",
-    "text": "ATPase assay?",
-    "authority": "ClinGen"
+    "coding concept": "CG-func-data-type:atpase"
   },
   "VSC040": {
     "id": "VSC040",
     "valueSet": "VS012",
     "valueSetName": "FunctionalDataType",
-    "code": "motility",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:motility",
-    "text": "motility assay?",
-    "authority": "ClinGen"
+    "coding concept": "CG-func-data-type:motility"
   },
   "VSC041": {
     "id": "VSC041",
     "valueSet": "VS012",
     "valueSetName": "FunctionalDataType",
-    "code": "yeastcomp",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:yeastcomp",
-    "text": "Yeast complementation assay",
-    "authority": "ClinGen"
+    "coding concept": "CG-func-data-type:yeastcomp"
   },
   "VSC042": {
     "id": "VSC042",
     "valueSet": "VS012",
     "valueSetName": "FunctionalDataType",
-    "code": "activation",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:activation",
-    "text": "Activation Assay",
-    "authority": "ClinGen"
+    "coding concept": "CG-func-data-type:activation"
   },
   "VSC043": {
     "id": "VSC043",
     "valueSet": "VS012",
     "valueSetName": "FunctionalDataType",
-    "code": "iodeff",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:iodeff",
-    "text": "iodide efflux",
-    "authority": "ClinGen"
+    "coding concept": "CG-func-data-type:iodeff"
   },
   "VSC044": {
     "id": "VSC044",
     "valueSet": "VS012",
     "valueSetName": "FunctionalDataType",
-    "code": "celloc",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:celloc",
-    "text": "cellular localization",
-    "authority": "ClinGen"
+    "coding concept": "CG-func-data-type:celloc"
   },
   "VSC045": {
     "id": "VSC045",
     "valueSet": "VS012",
     "valueSetName": "FunctionalDataType",
-    "code": "neuritegrowth",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:neuritegrowth",
-    "text": "neurite outgrowth",
-    "authority": "ClinGen"
+    "coding concept": "CG-func-data-type:neuritegrowth"
   },
   "VSC046": {
     "id": "VSC046",
     "valueSet": "VS012",
     "valueSetName": "FunctionalDataType",
-    "code": "elk1phosvialucif",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:elk1phosvialucif",
-    "text": "Elk1 pohsphorylation via luciferase assay",
-    "authority": "ClinGen"
+    "coding concept": "CG-func-data-type:elk1phosvialucif"
   },
   "VSC047": {
     "id": "VSC047",
     "valueSet": "VS013",
     "valueSetName": "PopulationType",
-    "code": "afr",
-    "codeSystem": "EX",
-    "qualifiedCode": "EX:afr",
-    "text": "African/African American",
-    "authority": "ExAC"
+    "coding concept": "EXAC:afr"
   },
   "VSC048": {
     "id": "VSC048",
     "valueSet": "VS013",
     "valueSetName": "PopulationType",
-    "code": "amr",
-    "codeSystem": "EX",
-    "qualifiedCode": "EX:amr",
-    "text": "Latino",
-    "authority": "ExAC"
+    "coding concept": "EXAC:amr"
   },
   "VSC049": {
     "id": "VSC049",
     "valueSet": "VS013",
     "valueSetName": "PopulationType",
-    "code": "eas",
-    "codeSystem": "EX",
-    "qualifiedCode": "EX:eas",
-    "text": "East Asian",
-    "authority": "ExAC"
+    "coding concept": "EXAC:eas"
   },
   "VSC050": {
     "id": "VSC050",
     "valueSet": "VS013",
     "valueSetName": "PopulationType",
-    "code": "fin",
-    "codeSystem": "EX",
-    "qualifiedCode": "EX:fin",
-    "text": "Finnish",
-    "authority": "ExAC"
+    "coding concept": "EXAC:fin"
   },
   "VSC051": {
     "id": "VSC051",
     "valueSet": "VS013",
     "valueSetName": "PopulationType",
-    "code": "nfe",
-    "codeSystem": "EX",
-    "qualifiedCode": "EX:nfe",
-    "text": "Non-Finnish European",
-    "authority": "ExAC"
+    "coding concept": "EXAC:nfe"
   },
   "VSC052": {
     "id": "VSC052",
     "valueSet": "VS013",
     "valueSetName": "PopulationType",
-    "code": "sas",
-    "codeSystem": "EX",
-    "qualifiedCode": "EX:sas",
-    "text": "South Asian",
-    "authority": "ExAC"
+    "coding concept": "EXAC:sas"
   },
   "VSC053": {
     "id": "VSC053",
     "valueSet": "VS013",
     "valueSetName": "PopulationType",
-    "code": "oth",
-    "codeSystem": "EX",
-    "qualifiedCode": "EX:oth",
-    "text": "Other",
-    "authority": "ExAC"
+    "coding concept": "EXAC:oth"
   },
   "VSC054": {
     "id": "VSC054",
     "valueSet": "VS013",
     "valueSetName": "PopulationType",
-    "code": "combined",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:combined",
-    "text": "Combined",
-    "authority": "ClinGen"
+    "coding concept": "CG-population-type:combined"
   },
   "VSC055": {
     "id": "VSC055",
     "valueSet": "VS013",
     "valueSetName": "PopulationType",
-    "code": "overall",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:overall",
-    "text": "Overall",
-    "authority": "ClinGen"
+    "coding concept": "CG-population-type:overall"
   },
   "VSC056": {
     "id": "VSC056",
     "valueSet": "VS014",
     "valueSetName": "BenignMissenseVariationRate",
-    "code": "low",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:low",
-    "text": "Low",
-    "authority": "ClinGen"
+    "coding concept": "CG-ben-missense-var-rate:low"
   },
   "VSC057": {
     "id": "VSC057",
     "valueSet": "VS014",
     "valueSetName": "BenignMissenseVariationRate",
-    "code": "high",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:high",
-    "text": "High",
-    "authority": "ClinGen"
+    "coding concept": "CG-ben-missense-var-rate:high"
   },
   "VSC058": {
     "id": "VSC058",
     "valueSet": "VS015",
     "valueSetName": "PenetranceType",
-    "code": "high",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:high",
-    "text": "High",
-    "authority": "ClinGen"
+    "coding concept": "CG-penetrance-type::high"
   },
   "VSC059": {
     "id": "VSC059",
     "valueSet": "VS015",
     "valueSetName": "PenetranceType",
-    "code": "complete",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:complete",
-    "text": "Complete",
-    "authority": "ClinGen"
+    "coding concept": "CG-penetrance-type::complete"
   },
   "VSC060": {
     "id": "VSC060",
     "valueSet": "VS015",
     "valueSetName": "PenetranceType",
-    "code": "incomplete",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:incomplete",
-    "text": "Incomplete",
-    "authority": "ClinGen"
+    "coding concept": "CG-penetrance-type::incomplete"
   },
   "VSC061": {
     "id": "VSC061",
     "valueSet": "VS016",
     "valueSetName": "ConditionMechanismStrength",
-    "code": "established",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:established",
-    "text": "Established",
-    "authority": "ClinGen",
-    "description": "The class of variants are known to cause the condition"
+    "coding concept": "CG-cond-mech-strength:established"
   },
   "VSC062": {
     "id": "VSC062",
     "valueSet": "VS016",
     "valueSetName": "ConditionMechanismStrength",
-    "code": "primary",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:primary",
-    "text": "Primary",
-    "authority": "ClinGen",
-    "description": "The class of variants are the main causes of the condition"
+    "coding concept": "CG-cond-mech-strength:primary"
   },
   "VSC063": {
     "id": "VSC063",
     "valueSet": "VS016",
     "valueSetName": "ConditionMechanismStrength",
-    "code": "common",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:common",
-    "text": "Common",
-    "authority": "ClinGen",
-    "description": "The class of variants are a common cause of the condition"
+    "coding concept": "CG-cond-mech-strength:common"
   },
   "VSC064": {
     "id": "VSC064",
     "valueSet": "VS016",
     "valueSetName": "ConditionMechanismStrength",
-    "code": "suggested",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:suggested",
-    "text": "Suggested",
-    "authority": "ClinGen",
-    "description": "The class of variants has been suggested to cause the condition"
+    "coding concept": "CG-cond-mech-strength:suggested"
   },
   "VSC065": {
     "id": "VSC065",
     "valueSet": "VS016",
     "valueSetName": "ConditionMechanismStrength",
-    "code": "unknown",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:unknown",
-    "text": "Unknown",
-    "authority": "ClinGen",
-    "description": "The class of variants are unknown to cause the condition"
+    "coding concept": "CG-cond-mech-strength:unknown"
   },
   "VSC066": {
     "id": "VSC066",
     "valueSet": "VS002",
     "valueSetName": "MolecularConsequence",
-    "code": "0001629",
-    "codeSystem": "SO",
-    "qualifiedCode": "SO:0001629",
-    "text": "splice-site variant",
-    "authority": "Sequence Ontology"
+    "coding concept": "SO:0001629"
   },
   "VSC067": {
     "id": "VSC067",
     "valueSet": "VS017",
     "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
-    "code": "I",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:I",
-    "text": "Inconclusive",
-    "authority": "ClinGen",
-    "description": "If no other strength can be assigned within reason based on the available evidence."
+    "coding concept": "CG-evidence-strength:na"
   },
   "VSC068": {
     "id": "VSC068",
     "valueSet": "VS017",
     "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
-    "code": "PVS",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:PVS",
-    "text": "Pathogenic Very Strong",
-    "authority": "ClinGen",
-    "description": "see ACMG guidelines"
+    "coding concept": "CG-evidence-strength:pvs"
   },
   "VSC069": {
     "id": "VSC069",
     "valueSet": "VS017",
     "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
-    "code": "PS",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:PS",
-    "text": "Pathogenic Strong",
-    "authority": "ClinGen",
-    "description": "see ACMG guidelines"
+    "coding concept": "CG-evidence-strength:ps"
   },
   "VSC070": {
     "id": "VSC070",
     "valueSet": "VS017",
     "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
-    "code": "PM",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:PM",
-    "text": "Pathogenic Moderate",
-    "authority": "ClinGen",
-    "description": "see ACMG guidelines"
+    "coding concept": "CG-evidence-strength:pm"
   },
   "VSC071": {
     "id": "VSC071",
     "valueSet": "VS017",
     "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
-    "code": "PP",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:PP",
-    "text": "Pathogenic Supporting",
-    "authority": "ClinGen",
-    "description": "see ACMG guidelines"
+    "coding concept": "CG-evidence-strength:pp"
   },
   "VSC072": {
     "id": "VSC072",
     "valueSet": "VS017",
     "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
-    "code": "BP",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:BP",
-    "text": "Benign Supporting",
-    "authority": "ClinGen",
-    "description": "see ACMG guidelines"
+    "coding concept": "CG-evidence-strength:bp"
   },
   "VSC073": {
     "id": "VSC073",
     "valueSet": "VS017",
     "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
-    "code": "BM",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:BM",
-    "text": "Benign Moderate",
-    "authority": "ClinGen",
-    "description": "see ACMG guidelines"
+    "coding concept": "CG-evidence-strength:bm"
   },
   "VSC074": {
     "id": "VSC074",
     "valueSet": "VS017",
     "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
-    "code": "BS",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:BS",
-    "text": "Benign Strong",
-    "authority": "ClinGen",
-    "description": "see ACMG guidelines"
+    "coding concept": "CG-evidence-strength:bs"
   },
   "VSC075": {
     "id": "VSC075",
     "valueSet": "VS017",
     "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
-    "code": "BSA",
-    "codeSystem": "CG",
-    "qualifiedCode": "CG:BSA",
-    "text": "Benign Stand Alone",
-    "authority": "ClinGen",
-    "description": "see ACMG guidelines"
+    "coding concept": "CG-evidence-strength:bsa"
   },
   "VSC076": {
     "id": "VSC076",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "D061325",
-    "codeSystem": "MESH",
-    "qualifiedCode": "MESH:D061325",
-    "text": "hereditary breast ovarian cancer"
+    "coding concept": "MESH:D061325"
   },
   "VSC077": {
     "id": "VSC077",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "217604",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:217604",
-    "text": "dilated cardiomyopathy"
+    "coding concept": "ORPHANET:217604"
   },
   "VSC078": {
     "id": "VSC078",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "648",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:648",
-    "text": "noonan syndrome"
+    "coding concept": "ORPHANET:648"
   },
   "VSC079": {
     "id": "VSC079",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "244",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:244",
-    "text": "Primary ciliary dyskenisia"
+    "coding concept": "ORPHANET:244"
   },
   "VSC080": {
     "id": "VSC080",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "3071",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:3071",
-    "text": "costello syndrome"
+    "coding concept": "ORPHANET:3071"
   },
   "VSC081": {
     "id": "VSC081",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "609942",
-    "codeSystem": "OMIM",
-    "qualifiedCode": "OMIM:609942",
-    "text": "noonan syndrome 3"
+    "coding concept": "OMIM:609942"
   },
   "VSC082": {
     "id": "VSC082",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "167848",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:167848",
-    "text": "cardiomyopathy"
+    "coding concept": "ORPHANET:167848"
   },
   "VSC083": {
     "id": "VSC083",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "98909",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:98909",
-    "text": "myofibrillar myopathy 1"
+    "coding concept": "OMIM:601419"
   },
   "VSC084": {
     "id": "VSC084",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "87884",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:87884",
-    "text": "nonsyndromic deafness"
+    "coding concept": "ORPHANET:87884"
   },
   "VSC085": {
     "id": "VSC085",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "423",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:423",
-    "text": "Malignant hyperthermia"
+    "coding concept": "ORPHANET:423"
   },
   "VSC086": {
     "id": "VSC086",
     "valueSet": "VS019",
     "valueSetName": "Phenotype",
-    "code": "0011014",
-    "codeSystem": "HP",
-    "qualifiedCode": "HP:0011014",
-    "text": "Abnormal Glucose Homeostasis"
+    "coding concept": "HP:0011014"
   },
   "VSC087": {
     "id": "VSC087",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "324",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:324",
-    "text": "Fabry disease"
+    "coding concept": "ORPHANET:324"
   },
   "VSC088": {
     "id": "VSC088",
     "valueSet": "VS019",
     "valueSetName": "Phenotype",
-    "code": "0200106",
-    "codeSystem": "HP",
-    "qualifiedCode": "HP:0200106",
-    "text": "Absent/shortened dynein arms"
+    "coding concept": "HP:0200106"
   },
   "VSC089": {
     "id": "VSC089",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "216",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:216",
-    "text": "neuronal ceroid lipofuscinosis"
+    "coding concept": "ORPHANET:216"
   },
   "VSC090": {
     "id": "VSC090",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "217569",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:217569",
-    "text": "hypertrophic cardiomyopathy"
+    "coding concept": "ORPHANET:217569"
   },
   "VSC091": {
     "id": "VSC091",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "664",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:664",
-    "text": "Ornithine carbamoyltransferase deficiency"
+    "coding concept": "ORPHANET:664"
   },
   "VSC092": {
     "id": "VSC092",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "122",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:122",
-    "text": "Birt-Hogg-Dube Syndrome"
+    "coding concept": "ORPHANET:122"
   },
   "VSC093": {
     "id": "VSC093",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "1340",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:1340",
-    "text": "cardiofaciocutaneous syndrome"
+    "coding concept": "ORPHANET:1340"
   },
   "VSC094": {
     "id": "VSC094",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "217569",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:217569",
-    "text": "hypertrophic cardiomyopathy"
+    "coding concept": "ORPHANET:217569"
   },
   "VSC095": {
     "id": "VSC095",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "886",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:886",
-    "text": "Usher syndrome"
+    "coding concept": "ORPHANET:886"
   },
   "VSC096": {
     "id": "VSC096",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "774",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:774",
-    "text": "hereditary hemorrhagic telangiectasia"
+    "coding concept": "ORPHANET:774"
   },
   "VSC097": {
     "id": "VSC097",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "612555",
-    "codeSystem": "OMIM",
-    "qualifiedCode": "OMIM:612555",
-    "text": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2"
+    "coding concept": "OMIM:612555"
   },
   "VSC098": {
     "id": "VSC098",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "63273",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:63273",
-    "text": "Distal myopathy with posterior leg and anterior hand involvement"
+    "coding concept": "OMIM:614065"
   },
   "VSC099": {
     "id": "VSC099",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "586",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:586",
-    "text": "Cystic Fibrosis"
+    "coding concept": "ORPHANET:586"
   },
   "VSC100": {
     "id": "VSC100",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "558",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:558",
-    "text": "Marfan Syndrome"
+    "coding concept": "ORPHANET:558"
   },
   "VSC101": {
     "id": "VSC101",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "2609",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:2609",
-    "text": "Mitochondrial complex 1 deficiency"
+    "coding concept": "ORPHANET:2609"
   },
   "VSC102": {
     "id": "VSC102",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "2855",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:2855",
-    "text": "Perrault Syndrome"
+    "coding concept": "ORPHANET:2855"
   },
   "VSC103": {
     "id": "VSC103",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "319182",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:319182",
-    "text": "Wiedemann-Steiner syndrome"
+    "coding concept": "ORPHANET:319182"
   },
   "VSC104": {
     "id": "VSC104",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "733",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:733",
-    "text": "Familial Adenomatous Polyposis"
+    "coding concept": "ORPHANET:733"
   },
   "VSC105": {
     "id": "VSC105",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "705",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:705",
-    "text": "Pendred syndrome"
+    "coding concept": "ORPHANET:705"
   },
   "VSC106": {
     "id": "VSC106",
     "valueSet": "VS019",
     "valueSetName": "Phenotype",
-    "code": "0000957",
-    "codeSystem": "HP",
-    "qualifiedCode": "HP:0000957",
-    "text": "café au lait macules (CALMs)"
+    "coding concept": "HP:0000957"
   },
   "VSC107": {
     "id": "VSC107",
     "valueSet": "VS019",
     "valueSetName": "Phenotype",
-    "code": "0000997",
-    "codeSystem": "HP",
-    "qualifiedCode": "HP:0000997",
-    "text": "axillary freckling"
+    "coding concept": "HP:0000997"
   },
   "VSC108": {
     "id": "VSC108",
     "valueSet": "VS019",
     "valueSetName": "Phenotype",
-    "code": "0000256",
-    "codeSystem": "HP",
-    "qualifiedCode": "HP:0000256",
-    "text": "macrocephaly"
+    "coding concept": "HP:0000256"
   },
   "VSC109": {
     "id": "VSC109",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "D006938",
-    "codeSystem": "MESH",
-    "qualifiedCode": "MESH:D006938",
-    "text": "Familial Hypercholesterolemia"
+    "coding concept": "OMIM:143890"
   },
   "VSC110": {
     "id": "VSC110",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "D061325",
-    "codeSystem": "MESH",
-    "qualifiedCode": "MESH:D061325",
-    "text": "hereditary breast ovarian cancer"
+    "coding concept": "ORPHANET:145"
   },
   "VSC111": {
     "id": "VSC111",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "84",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:84",
-    "text": "Fanconi Anemia"
+    "coding concept": "ORPHANET:84"
   },
   "VSC112": {
     "id": "VSC112",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "791",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:791",
-    "text": "Retinitis Pigmentosa"
+    "coding concept": "ORPHANET:791"
   },
   "VSC113": {
     "id": "VSC113",
     "valueSet": "VS019",
     "valueSetName": "Phenotype",
-    "code": "0012873",
-    "codeSystem": "HP",
-    "qualifiedCode": "HP:0012873",
-    "text": "Absent vas deferens"
+    "coding concept": "HP:0012873"
   },
   "VSC114": {
     "id": "VSC114",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "94068",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:94068",
-    "text": "spondyloepiphyseal dysplasia congenita"
+    "coding concept": "ORPHANET:364526"
   },
   "VSC115": {
     "id": "VSC115",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "750",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:750",
-    "text": "pseudoachondroplasia"
+    "coding concept": "ORPHANET:750"
   },
   "VSC116": {
     "id": "VSC116",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "750",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:750",
-    "text": "pseudoachondroplasia"
+    "coding concept": "ORPHANET:750"
   },
   "VSC117": {
     "id": "VSC117",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "114480",
-    "codeSystem": "OMIM",
-    "qualifiedCode": "OMIM:114480",
-    "text": "Breast Cancer"
+    "coding concept": "OMIM:114480"
   },
   "VSC118": {
     "id": "VSC118",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "414",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:414",
-    "text": "gyrate atrophy"
+    "coding concept": "ORPHANET:414"
   },
   "VSC119": {
     "id": "VSC119",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "98733",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:98733",
-    "text": "Noonan syndrome and noonan-related syndrom"
+    "coding concept": "ORPHANET:98733"
   },
   "VSC120": {
     "id": "VSC120",
     "valueSet": "VS018",
     "valueSetName": "Disease",
-    "code": "247",
-    "codeSystem": "Orphanet",
-    "qualifiedCode": "Orphanet:247",
-    "text": "arrhythmogenic right ventricular cardiomyopathy"
+    "coding concept": "ORPHANET:247"
+  },
+  "VSC121": {
+    "id": "VSC121",
+    "valueSet": "VS007",
+    "valueSetName": "ModeOfInheritance",
+    "coding concept": "HP:0001419"
+  },
+  "VSC122": {
+    "id": "VSC122",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "coding concept": "ORPHANET:98733"
+  },
+  "VSC123": {
+    "id": "VSC123",
+    "valueSet": "VS018",
+    "valueSetName": "Disease",
+    "coding concept": "DOID:630"
   }
 }

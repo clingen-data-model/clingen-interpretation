@@ -6,7 +6,7 @@
     "defaultOutcome": "CG:VS",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "targetInterpretationText": "",
     "example issues/notes for this rule": "The two main concerns for applying this rule is:\na. Is LOF an established disease mechanism?\nb. Is LOF actually occurring?"
   },
   "PS1": {
@@ -16,7 +16,7 @@
     "defaultOutcome": "CG:S",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "targetInterpretationText": "",
     "example issues/notes for this rule": "Beware of changes that impact splicing rather than at the amino acid/protein level\nFrom CSER paper: One site erroneously used this to apply prior publication of the same exact variant while this rule, as described in more depth on the ACMG/AMP guideline, only applies when the established pathogenic variant has a different nucleotide change than the variant being interpreted."
   },
   "PS2": {
@@ -26,7 +26,7 @@
     "defaultOutcome": "CG:S",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "targetInterpretationText": "",
     "example issues/notes for this rule": "MYH7 is adding specificity to this rule with\na. No family history = parents have had ECHO and ECG\nb. Only paternity confirmation required"
   },
   "PS3": {
@@ -36,7 +36,7 @@
     "defaultOutcome": "CG:S",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "targetInterpretationText": "",
     "example issues/notes for this rule": "This particular rule will probably be downgraded often, given that there are not many “Functional studies that have been validated and shown to be reproducible and robust in a clinical diagnostic laboratory setting”"
   },
   "PS4": {
@@ -46,7 +46,7 @@
     "defaultOutcome": "CG:S",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic"
+    "targetInterpretationText": ""
   },
   "PM1": {
     "id": "PM1",
@@ -55,7 +55,7 @@
     "defaultOutcome": "CG:M",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "targetInterpretationText": "",
     "example issues/notes for this rule": "Suggested that this rule is NOT appropriate for LOF variants.\nAlso, note that when the region of interest is a “well-established functional domain” then it’s not necessary to show through evidence that it is intolerant of benign missense variants.  However, when a mutational hotspot is being defined, then showing it does not have benign missense variants is important."
   },
   "PM2": {
@@ -65,7 +65,7 @@
     "defaultOutcome": "CG:M",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "targetInterpretationText": "",
     "example issues/notes for this rule": "Some groups are allowing to rule to be used if even not 100% absent\nFor instance, Cardio has allowed PM2 to be used if MAF is <0.05% with 95% CI if\nCI lower is ~0.00% (at 2 decimal places) AND CI upper is below 0.05%\n Caveat: Population data for insertions/deletions may be poorly called by next-generation sequencing"
   },
   "PM3": {
@@ -75,7 +75,7 @@
     "defaultOutcome": "CG:M",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "targetInterpretationText": "",
     "example issues/notes for this rule": "CSER - Laboratories discussed when to modify the strength of PM3, the variant is seen in trans with a pathogenic variant for recessive disorders. Published literature may not always explicitly state the phase of variants found in affected individuals which raises a challenge for invoking PM3.\nWhen phase has not been established, some felt that PM3 could be invoked as supporting evidence. Also, if the variant is seen in trans with a pathogenic variant in more than one individual it was felt that PM3 can be upgraded to strong. However, sites did not agree on how many additional observations were necessary to call the evidence strong (2 vs. 3) but concluded that such guidance would be useful.\n \nLMM - INCREASES IN STRENGTH IF VARIANT SEEN IN MULTIPLE COMPOUND HETS WITH DIFFERENT LIKELY PATHOGENIC/PATHOGENIC VARIANTS\n"
   },
   "PM4": {
@@ -85,7 +85,7 @@
     "defaultOutcome": "CG:M",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "targetInterpretationText": "",
     "example issues/notes for this rule": "Need to ensure that variant is not located within a repeat region\n\nThis rule is also (likely) applicable for frameshift variants that result in extension of the protein as opposed to truncation (similar to stop loss)."
   },
   "PM5": {
@@ -95,7 +95,7 @@
     "defaultOutcome": "CG:M",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "targetInterpretationText": "",
     "example issues/notes for this rule": "Need to be sure that pathogenic variant exists at the residue in question. Sometimes discrepancy resolution may be required. Some thing like Variantexplorer.org may be useful.\nSometimes no assertion is provided in ClinVar ...may require curation by lit. search."
   },
   "PM6": {
@@ -105,7 +105,7 @@
     "defaultOutcome": "CG:M",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic"
+    "targetInterpretationText": ""
   },
   "PP1": {
     "id": "PP1",
@@ -114,7 +114,7 @@
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic"
+    "targetInterpretationText": ""
   },
   "PP2": {
     "id": "PP2",
@@ -123,7 +123,7 @@
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "targetInterpretationText": "",
     "example issues/notes for this rule": "Seems no one has established firm rules for when this rule is applicable so not sure how great any examples will be\nAgree with the lack of firm rules. Seems like one criteria may be observed missense variants over 5% allele frequency in ExAC. If this seems reasonable then I could generate a couple of examples."
   },
   "PP3": {
@@ -133,7 +133,7 @@
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "targetInterpretationText": "",
     "example issues/notes for this rule": "Don’t know if there is a definition of “multiple” . If >1 then the algorithms chosen are at the discretion of the curator/lab.  There is a difference between lines of evidence and number of implementations."
   },
   "PP4": {
@@ -143,7 +143,7 @@
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic"
+    "targetInterpretationText": ""
   },
   "PP5": {
     "id": "PP5",
@@ -152,7 +152,7 @@
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic"
+    "targetInterpretationText": ""
   },
   "BA1": {
     "id": "BA1",
@@ -161,7 +161,7 @@
     "defaultOutcome": "CG:A",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign",
+    "targetInterpretationText": "",
     "example issues/notes for this rule": "Several groups have lowered the BA1 threshold (e.g. PTEN-1%). Also the sequence variant interpretation group is working on a modified version of this guideline including the minimum # of alleles that need to be examined and the population stratification effects, if any."
   },
   "BS1": {
@@ -171,7 +171,7 @@
     "defaultOutcome": "CG:S",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign"
+    "targetInterpretationText": ""
   },
   "BS2": {
     "id": "BS2",
@@ -180,7 +180,7 @@
     "defaultOutcome": "CG:S",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign",
+    "targetInterpretationText": "",
     "example issues/notes for this rule": "This rule should not be used for diseases with reduced penetrance or late/variable age of  onset (such as certain cardiomyopathies)."
   },
   "BS3": {
@@ -190,7 +190,7 @@
     "defaultOutcome": "CG:S",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign",
+    "targetInterpretationText": "",
     "example issues/notes for this rule": "\nThis will all depend on what is “established”, which could end up being defined by the different clinical domain working groups.\n"
   },
   "BS4": {
@@ -200,7 +200,7 @@
     "defaultOutcome": "CG:S",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign",
+    "targetInterpretationText": "",
     "example issues/notes for this rule": "This rule is for “lack of segregation” meaning phenotype positive / genotype negative (and not pheno neg / geno pos). Also need to be careful of phenocopies. Also need rules for how many cases are needed in use this rule"
   },
   "BP1": {
@@ -210,7 +210,7 @@
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign",
+    "targetInterpretationText": "",
     "example issues/notes for this rule": "Is there any guidance on the proportion of pathogenic variants that are LOF to apply this rule?  99%? 90%? 75%?"
   },
   "BP2": {
@@ -220,7 +220,7 @@
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign"
+    "targetInterpretationText": ""
   },
   "BP3": {
     "id": "BP3",
@@ -229,7 +229,7 @@
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign"
+    "targetInterpretationText": ""
   },
   "BP4": {
     "id": "BP4",
@@ -238,7 +238,7 @@
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign",
+    "targetInterpretationText": "",
     "example issues/notes for this rule": "same issues as PP3."
   },
   "BP5": {
@@ -248,7 +248,7 @@
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign"
+    "targetInterpretationText": ""
   },
   "BP6": {
     "id": "BP6",
@@ -257,7 +257,7 @@
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign"
+    "targetInterpretationText": ""
   },
   "BP7": {
     "id": "BP7",
@@ -266,6 +266,6 @@
     "defaultOutcome": "CG:P",
     "defaultOutcomeText": "#N/A",
     "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign"
+    "targetInterpretationText": ""
   }
 }

@@ -25,7 +25,7 @@
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "lof",
     "attributeType": "yes/no/maybe",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "CondMech002",
@@ -40,7 +40,7 @@
   {
     "subjectId": "CondMech002",
     "attributeId": "A003",
-    "value": "CG:established",
+    "value": "CG-cond-mech-strength:established",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
     "attributeType": "CodeableConcept",
@@ -80,7 +80,7 @@
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "lof",
     "attributeType": "yes/no/maybe",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "CondMech004",
@@ -94,7 +94,7 @@
   {
     "subjectId": "CondMech004",
     "attributeId": "A003",
-    "value": "CG:established",
+    "value": "CG-cond-mech-strength:established",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
     "attributeType": "CodeableConcept",
@@ -116,7 +116,7 @@
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Breast Ovarian Cancer"
+    "lookupValue": "Breast Ovarian Cancer, Autosomal Dominant"
   },
   {
     "subjectId": "MolCon005",
@@ -143,7 +143,7 @@
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "lof",
     "attributeType": "yes/no/maybe",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "MolCon006",
@@ -170,7 +170,7 @@
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "lof",
     "attributeType": "yes/no/maybe",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "CondMech007",
@@ -184,7 +184,7 @@
   {
     "subjectId": "CondMech007",
     "attributeId": "A003",
-    "value": "CG:established",
+    "value": "CG-cond-mech-strength:established",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
     "attributeType": "CodeableConcept",
@@ -202,11 +202,11 @@
   {
     "subjectId": "CondMech007",
     "attributeId": "A012",
-    "value": "MendCond002",
+    "value": "MendCond047",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "dilated cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "dilated cardiomyopathy"
   },
   {
     "subjectId": "VarInterp008",
@@ -251,7 +251,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Primary ciliary dyskenisia, Autosomal Recessive"
+    "lookupValue": "Primary ciliary dyskenisia"
   },
   {
     "subjectId": "VarInterp009",
@@ -278,7 +278,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "noonan syndrome 3, Autosomal Recessive"
+    "lookupValue": "noonan syndrome 3"
   },
   {
     "subjectId": "VarInterp010",
@@ -301,11 +301,11 @@
   {
     "subjectId": "VarInterp011",
     "attributeId": "A123",
-    "value": "MendCond045",
+    "value": "MendCond055",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Noonan syndrome and noonan-related syndrom"
+    "lookupValue": "noonan syndrome, Autosomal Dominant"
   },
   {
     "subjectId": "VarInterp011",
@@ -328,11 +328,11 @@
   {
     "subjectId": "IndCond012",
     "attributeId": "A017",
-    "value": "MendCond007",
+    "value": "MendCond052",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "dilated cardiomyopathy"
   },
   {
     "subjectId": "IndCond012",
@@ -341,7 +341,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "FamHist013",
@@ -355,11 +355,11 @@
   {
     "subjectId": "FamHist013",
     "attributeId": "A020",
-    "value": "MendCond007",
+    "value": "MendCond052",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "dilated cardiomyopathy"
   },
   {
     "subjectId": "FamHist013",
@@ -368,7 +368,7 @@
     "evidenceDataName": "FamilyHistory",
     "attributeName": "familyHasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "DeNovo014",
@@ -395,7 +395,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "maternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "DeNovo014",
@@ -404,7 +404,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "paternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "IndCond015",
@@ -422,7 +422,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "myofibrillar myopathy 1"
+    "lookupValue": "desmin related myopathy"
   },
   {
     "subjectId": "IndCond015",
@@ -431,7 +431,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "FamHist016",
@@ -449,7 +449,7 @@
     "evidenceDataName": "FamilyHistory",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "myofibrillar myopathy 1"
+    "lookupValue": "desmin related myopathy"
   },
   {
     "subjectId": "FamHist016",
@@ -458,7 +458,7 @@
     "evidenceDataName": "FamilyHistory",
     "attributeName": "familyHasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "DeNovo017",
@@ -485,7 +485,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "maternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "DeNovo017",
@@ -494,7 +494,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "paternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "IndCond018",
@@ -521,7 +521,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "FamHist019",
@@ -548,7 +548,7 @@
     "evidenceDataName": "FamilyHistory",
     "attributeName": "familyHasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "DeNovo020",
@@ -575,7 +575,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "maternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "DeNovo020",
@@ -584,7 +584,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "paternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "Func021",
@@ -598,7 +598,7 @@
   {
     "subjectId": "Func021",
     "attributeId": "A027",
-    "value": "CG:binding",
+    "value": "CG-func-data-type:binding",
     "evidenceDataName": "FunctionalData",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
@@ -634,7 +634,7 @@
   {
     "subjectId": "Func022",
     "attributeId": "A027",
-    "value": "CG:atpase",
+    "value": "CG-func-data-type:atpase",
     "evidenceDataName": "FunctionalData",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
@@ -670,7 +670,7 @@
   {
     "subjectId": "Func023",
     "attributeId": "A027",
-    "value": "CG:motility",
+    "value": "CG-func-data-type:motility",
     "evidenceDataName": "FunctionalData",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
@@ -706,7 +706,7 @@
   {
     "subjectId": "Func024",
     "attributeId": "A027",
-    "value": "CG:binding",
+    "value": "CG-func-data-type:binding",
     "evidenceDataName": "FunctionalData",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
@@ -742,7 +742,7 @@
   {
     "subjectId": "Func025",
     "attributeId": "A027",
-    "value": "CG:yeastcomp",
+    "value": "CG-func-data-type:yeastcomp",
     "evidenceDataName": "FunctionalData",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
@@ -778,7 +778,7 @@
   {
     "subjectId": "Func026",
     "attributeId": "A027",
-    "value": "CG:activation",
+    "value": "CG-func-data-type:activation",
     "evidenceDataName": "FunctionalData",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
@@ -823,7 +823,7 @@
   {
     "subjectId": "Func027",
     "attributeId": "A027",
-    "value": "CG:activation",
+    "value": "CG-func-data-type:activation",
     "evidenceDataName": "FunctionalData",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
@@ -881,7 +881,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "105"
+    "lookupValue": 105
   },
   {
     "subjectId": "AllFreq028",
@@ -890,7 +890,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "121336"
+    "lookupValue": 121336
   },
   {
     "subjectId": "AllFreq029",
@@ -917,7 +917,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "32"
+    "lookupValue": 32
   },
   {
     "subjectId": "AllFreq029",
@@ -926,7 +926,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "4076"
+    "lookupValue": 4076
   },
   {
     "subjectId": "CaseCtrl030",
@@ -940,11 +940,11 @@
   {
     "subjectId": "CaseCtrl030",
     "attributeId": "A039",
-    "value": "MendCond010",
+    "value": "MendCond048",
     "evidenceDataName": "CaseControl",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "nonsyndromic deafness, Autosomal Recessive, GIPC3"
+    "lookupValue": "Hearing Loss"
   },
   {
     "subjectId": "CaseCtrl030",
@@ -953,7 +953,7 @@
     "evidenceDataName": "CaseControl",
     "attributeName": "oddsRatio",
     "attributeType": "float",
-    "lookupValue": "9.1361"
+    "lookupValue": 9.1361
   },
   {
     "subjectId": "CaseCtrl030",
@@ -962,7 +962,7 @@
     "evidenceDataName": "CaseControl",
     "attributeName": "confidenceLevel",
     "attributeType": "float",
-    "lookupValue": "99"
+    "lookupValue": 99
   },
   {
     "subjectId": "CaseCtrl030",
@@ -971,7 +971,7 @@
     "evidenceDataName": "CaseControl",
     "attributeName": "confidenceIntervalLower",
     "attributeType": "float",
-    "lookupValue": "6.1425"
+    "lookupValue": 6.1425
   },
   {
     "subjectId": "CaseCtrl030",
@@ -980,7 +980,7 @@
     "evidenceDataName": "CaseControl",
     "attributeName": "confidenceIntervalUpper",
     "attributeType": "float",
-    "lookupValue": "13.5889"
+    "lookupValue": 13.5889
   },
   {
     "subjectId": "CaseCtrl030",
@@ -1025,7 +1025,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "9"
+    "lookupValue": 9
   },
   {
     "subjectId": "AllFreq031",
@@ -1034,7 +1034,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "66740"
+    "lookupValue": 66740
   },
   {
     "subjectId": "AllFreq032",
@@ -1061,7 +1061,7 @@
     "evidenceDataName": "CaseControl",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Malignant hyperthermia"
+    "lookupValue": "Malignant hyperthermia, Autosomal Dominant"
   },
   {
     "subjectId": "CaseCtrl033",
@@ -1106,7 +1106,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "1198"
+    "lookupValue": 1198
   },
   {
     "subjectId": "AllFreq034",
@@ -1115,7 +1115,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "7344"
+    "lookupValue": 7344
   },
   {
     "subjectId": "AllFreq034",
@@ -1124,7 +1124,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "individualCount",
     "attributeType": "int",
-    "lookupValue": "3672"
+    "lookupValue": 3672
   },
   {
     "subjectId": "AllFreq034",
@@ -1133,7 +1133,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
-    "lookupValue": "113"
+    "lookupValue": 113
   },
   {
     "subjectId": "AllFreq034",
@@ -1142,12 +1142,12 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "heterozygousAlleleIndividualCount",
     "attributeType": "int",
-    "lookupValue": "972"
+    "lookupValue": 972
   },
   {
     "subjectId": "AllFreq034",
     "attributeId": "A047",
-    "value": "EX:nfe",
+    "value": "EXAC:NFE",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -1178,7 +1178,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "936"
+    "lookupValue": 936
   },
   {
     "subjectId": "AllFreq035",
@@ -1187,7 +1187,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "5870"
+    "lookupValue": 5870
   },
   {
     "subjectId": "AllFreq035",
@@ -1196,7 +1196,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "individualCount",
     "attributeType": "int",
-    "lookupValue": "2935"
+    "lookupValue": 2935
   },
   {
     "subjectId": "AllFreq035",
@@ -1205,7 +1205,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
-    "lookupValue": "77"
+    "lookupValue": 77
   },
   {
     "subjectId": "AllFreq035",
@@ -1214,12 +1214,12 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "heterozygousAlleleIndividualCount",
     "attributeType": "int",
-    "lookupValue": "782"
+    "lookupValue": 782
   },
   {
     "subjectId": "AllFreq035",
     "attributeId": "A047",
-    "value": "EX:nfe",
+    "value": "EXAC:NFE",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -1250,7 +1250,7 @@
     "evidenceDataName": "CaseControl",
     "attributeName": "oddsRatio",
     "attributeType": "float",
-    "lookupValue": "1.06"
+    "lookupValue": 1.06
   },
   {
     "subjectId": "CaseCtrl036",
@@ -1259,7 +1259,7 @@
     "evidenceDataName": "CaseControl",
     "attributeName": "confidenceLevel",
     "attributeType": "float",
-    "lookupValue": "95"
+    "lookupValue": 95
   },
   {
     "subjectId": "CaseCtrl036",
@@ -1286,7 +1286,7 @@
     "evidenceDataName": "CaseControl",
     "attributeName": "confidenceIntervalLower",
     "attributeType": "float",
-    "lookupValue": "0.96"
+    "lookupValue": 0.96
   },
   {
     "subjectId": "CaseCtrl036",
@@ -1295,7 +1295,7 @@
     "evidenceDataName": "CaseControl",
     "attributeName": "confidenceIntervalUpper",
     "attributeType": "float",
-    "lookupValue": "1.18"
+    "lookupValue": 1.18
   },
   {
     "subjectId": "AllFreq037",
@@ -1322,7 +1322,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "31"
+    "lookupValue": 31
   },
   {
     "subjectId": "AllFreq037",
@@ -1331,7 +1331,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "16512"
+    "lookupValue": 16512
   },
   {
     "subjectId": "AllFreq037",
@@ -1340,12 +1340,12 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
-    "lookupValue": "0.02"
+    "lookupValue": 0.02
   },
   {
     "subjectId": "AllFreq037",
     "attributeId": "A047",
-    "value": "EX:sas",
+    "value": "EXAC:SAS",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -1376,7 +1376,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "27"
+    "lookupValue": 27
   },
   {
     "subjectId": "AllFreq038",
@@ -1385,7 +1385,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "1384"
+    "lookupValue": 1384
   },
   {
     "subjectId": "AllFreq038",
@@ -1394,12 +1394,12 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
-    "lookupValue": "0.02"
+    "lookupValue": 0.02
   },
   {
     "subjectId": "AllFreq038",
     "attributeId": "A047",
-    "value": "EX:afr",
+    "value": "EXAC:AFR",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -1408,11 +1408,11 @@
   {
     "subjectId": "CondPrev039",
     "attributeId": "A103",
-    "value": "MendCond010",
+    "value": "MendCond057",
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "nonsyndromic deafness, Autosomal Recessive, GIPC3"
+    "lookupValue": "Hearing Loss"
   },
   {
     "subjectId": "CondPrev039",
@@ -1421,7 +1421,7 @@
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "minimum",
     "attributeType": "float",
-    "lookupValue": "1/300"
+    "lookupValue": "1/500"
   },
   {
     "subjectId": "CondPrev039",
@@ -1430,61 +1430,34 @@
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "maximum",
     "attributeType": "float",
-    "lookupValue": "CG:overall"
+    "lookupValue": "1/300"
   },
   {
     "subjectId": "CondPrev039",
     "attributeId": "A106",
-    "value": "CG:overall",
+    "value": "CG-population-type:overall",
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
-    "lookupValue": "#N/A"
+    "lookupValue": "Overall"
   },
   {
-    "subjectId": "Reg040",
-    "attributeId": "A052",
-    "value": "RefSeq002",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "lookupValue": "NP_005219.2"
+    "subjectId": "RegAnn040",
+    "attributeId": "A063",
+    "value": "Loc379",
+    "evidenceDataName": "RegionAnnotation",
+    "attributeName": "region",
+    "attributeType": "Locus",
+    "lookupValue": "Loc379"
   },
   {
-    "subjectId": "Reg040",
-    "attributeId": "A053",
-    "value": 704.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "start",
-    "attributeType": "int",
-    "lookupValue": "704"
-  },
-  {
-    "subjectId": "Reg040",
-    "attributeId": "A054",
-    "value": 1016.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "stop",
-    "attributeType": "int",
-    "lookupValue": "1016"
-  },
-  {
-    "subjectId": "Reg040",
+    "subjectId": "RegAnn040",
     "attributeId": "A057",
-    "value": "CG:functional",
-    "evidenceDataName": "RegionTypesAndAlleles",
+    "value": "CG-reg-anno-type:functional",
+    "evidenceDataName": "RegionAnnotation",
     "attributeName": "isTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Functional"
-  },
-  {
-    "subjectId": "Reg040",
-    "attributeId": "A058",
-    "value": "CtxAll126",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "includedAlleles",
-    "attributeType": "ContextualAllele",
-    "lookupValue": "NP_005219.2:p.Thr790Met"
   },
   {
     "subjectId": "VarInterp041",
@@ -1498,11 +1471,11 @@
   {
     "subjectId": "VarInterp041",
     "attributeId": "A123",
-    "value": "MendCond010",
+    "value": "MendCond061",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "nonsyndromic deafness, Autosomal Recessive, GIPC3"
+    "lookupValue": "Hearing Loss, Autosomal Recessive"
   },
   {
     "subjectId": "VarInterp041",
@@ -1568,49 +1541,22 @@
     "lookupValue": "Uncertain Signficance"
   },
   {
-    "subjectId": "Reg043",
-    "attributeId": "A052",
-    "value": "RefSeq003",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "lookupValue": "NM_004333.4"
+    "subjectId": "RegAnn043",
+    "attributeId": "A063",
+    "value": "Loc381",
+    "evidenceDataName": "RegionAnnotation",
+    "attributeName": "region",
+    "attributeType": "Locus",
+    "lookupValue": "Loc381"
   },
   {
-    "subjectId": "Reg043",
-    "attributeId": "A053",
-    "value": 1803.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "start",
-    "attributeType": "int",
-    "lookupValue": "1803"
-  },
-  {
-    "subjectId": "Reg043",
-    "attributeId": "A054",
-    "value": 1921.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "stop",
-    "attributeType": "int",
-    "lookupValue": "1921"
-  },
-  {
-    "subjectId": "Reg043",
+    "subjectId": "RegAnn043",
     "attributeId": "A057",
-    "value": "CG:functional",
-    "evidenceDataName": "RegionTypesAndAlleles",
+    "value": "CG-reg-anno-type:functional",
+    "evidenceDataName": "RegionAnnotation",
     "attributeName": "isTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Functional"
-  },
-  {
-    "subjectId": "Reg043",
-    "attributeId": "A058",
-    "value": "CtxAll029",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "includedAlleles",
-    "attributeType": "ContextualAllele",
-    "lookupValue": "NM_004333.4(BRAF):c.1789C>G"
   },
   {
     "subjectId": "VarInterp044",
@@ -1620,14 +1566,6 @@
     "attributeName": "variant",
     "attributeType": "CanonicalAllele",
     "lookupValue": "NM_000257.2(MYH7):c.327C>T"
-  },
-  {
-    "subjectId": "VarInterp044",
-    "attributeId": "A123",
-    "evidenceDataName": "VariantInterpretation",
-    "attributeName": "condition",
-    "attributeType": "MendelianCondition",
-    "lookupValue": ""
   },
   {
     "subjectId": "VarInterp044",
@@ -1686,11 +1624,11 @@
   {
     "subjectId": "VarInterp045",
     "attributeId": "A123",
-    "value": "MendCond046",
+    "value": "MendCond074",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "arrhythmogenic right ventricular cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "MendCond074"
   },
   {
     "subjectId": "VarInterp045",
@@ -1729,76 +1667,22 @@
     "lookupValue": ""
   },
   {
-    "subjectId": "Reg046",
-    "attributeId": "A052",
-    "value": "RefSeq004",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "lookupValue": "NM_000169.2"
+    "subjectId": "RegAnn046",
+    "attributeId": "A063",
+    "value": "Loc383",
+    "evidenceDataName": "RegionAnnotation",
+    "attributeName": "region",
+    "attributeType": "Locus",
+    "lookupValue": "Loc383"
   },
   {
-    "subjectId": "Reg046",
-    "attributeId": "A053",
-    "value": 996.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "start",
-    "attributeType": "int",
-    "lookupValue": "996"
-  },
-  {
-    "subjectId": "Reg046",
-    "attributeId": "A054",
-    "value": 1012.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "stop",
-    "attributeType": "int",
-    "lookupValue": "1012"
-  },
-  {
-    "subjectId": "Reg046",
+    "subjectId": "RegAnn046",
     "attributeId": "A057",
-    "value": "CG:hotspot",
-    "evidenceDataName": "RegionTypesAndAlleles",
+    "value": "CG-reg-anno-type:hotspot",
+    "evidenceDataName": "RegionAnnotation",
     "attributeName": "isTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Mutational Hotspot"
-  },
-  {
-    "subjectId": "Reg046",
-    "attributeId": "A058",
-    "value": "CtxAll031",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "includedAlleles",
-    "attributeType": "ContextualAllele",
-    "lookupValue": "NM_000169.2(GLA): c.886A>G"
-  },
-  {
-    "subjectId": "Reg046",
-    "attributeId": "A058",
-    "value": "CtxAll032",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "includedAlleles",
-    "attributeType": "ContextualAllele",
-    "lookupValue": "NM_000169.2(GLA):c.890C>T"
-  },
-  {
-    "subjectId": "Reg046",
-    "attributeId": "A058",
-    "value": "CtxAll033",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "includedAlleles",
-    "attributeType": "ContextualAllele",
-    "lookupValue": "NM_000169.2(GLA):c.899T>C"
-  },
-  {
-    "subjectId": "Reg046",
-    "attributeId": "A058",
-    "value": "CtxAll034",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "includedAlleles",
-    "attributeType": "ContextualAllele",
-    "lookupValue": "NM_000169.2(GLA):c.902G>A"
   },
   {
     "subjectId": "VarInterp047",
@@ -1816,7 +1700,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Fabry disease"
+    "lookupValue": "Fabry disease, X-linked recessive inheritance"
   },
   {
     "subjectId": "VarInterp047",
@@ -1843,7 +1727,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Fabry disease"
+    "lookupValue": "Fabry disease, X-linked recessive inheritance"
   },
   {
     "subjectId": "VarInterp048",
@@ -1870,7 +1754,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Fabry disease"
+    "lookupValue": "Fabry disease, X-linked recessive inheritance"
   },
   {
     "subjectId": "VarInterp049",
@@ -1897,7 +1781,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Fabry disease"
+    "lookupValue": "Fabry disease, X-linked recessive inheritance"
   },
   {
     "subjectId": "VarInterp050",
@@ -1920,7 +1804,7 @@
   {
     "subjectId": "AllFreq051",
     "attributeId": "A047",
-    "value": "EX:nfe",
+    "value": "EXAC:NFE",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -1942,7 +1826,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "66706"
+    "lookupValue": 66706
   },
   {
     "subjectId": "AllFreq051",
@@ -1951,7 +1835,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "1"
+    "lookupValue": 1
   },
   {
     "subjectId": "AllFreq051",
@@ -1960,7 +1844,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
-    "lookupValue": "1.499E-05"
+    "lookupValue": 1.499e-05
   },
   {
     "subjectId": "AllFreq051",
@@ -1969,7 +1853,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
-    "lookupValue": "0"
+    "lookupValue": 0
   },
   {
     "subjectId": "AllFreq052",
@@ -1983,7 +1867,7 @@
   {
     "subjectId": "AllFreq052",
     "attributeId": "A047",
-    "value": "CG:combined",
+    "value": "CG-population-type:combined",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -2005,7 +1889,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "121366"
+    "lookupValue": 121366
   },
   {
     "subjectId": "AllFreq052",
@@ -2014,7 +1898,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "1"
+    "lookupValue": 1
   },
   {
     "subjectId": "AllFreq052",
@@ -2023,7 +1907,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
-    "lookupValue": "8.24E-06"
+    "lookupValue": 8.24e-06
   },
   {
     "subjectId": "AllFreq052",
@@ -2032,7 +1916,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
-    "lookupValue": "0"
+    "lookupValue": 0
   },
   {
     "subjectId": "AllFreq053",
@@ -2046,7 +1930,7 @@
   {
     "subjectId": "AllFreq053",
     "attributeId": "A047",
-    "value": "EX:fin",
+    "value": "EXAC:FIN",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -2068,7 +1952,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "6614"
+    "lookupValue": 6614
   },
   {
     "subjectId": "AllFreq053",
@@ -2077,7 +1961,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "514"
+    "lookupValue": 514
   },
   {
     "subjectId": "AllFreq053",
@@ -2086,7 +1970,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
-    "lookupValue": "0.07771"
+    "lookupValue": 0.07771
   },
   {
     "subjectId": "AllFreq053",
@@ -2095,7 +1979,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
-    "lookupValue": "21"
+    "lookupValue": 21
   },
   {
     "subjectId": "AllFreq053",
@@ -2104,7 +1988,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "medianCoverage",
     "attributeType": "float",
-    "lookupValue": "100"
+    "lookupValue": 100
   },
   {
     "subjectId": "AllFreq054",
@@ -2118,7 +2002,7 @@
   {
     "subjectId": "AllFreq054",
     "attributeId": "A047",
-    "value": "CG:combined",
+    "value": "CG-population-type:combined",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -2140,7 +2024,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "0"
+    "lookupValue": 0
   },
   {
     "subjectId": "AllFreq054",
@@ -2149,7 +2033,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "0"
+    "lookupValue": 0
   },
   {
     "subjectId": "AllFreq054",
@@ -2158,7 +2042,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
-    "lookupValue": "0"
+    "lookupValue": 0
   },
   {
     "subjectId": "AllFreq054",
@@ -2167,7 +2051,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "medianCoverage",
     "attributeType": "float",
-    "lookupValue": "11"
+    "lookupValue": 11
   },
   {
     "subjectId": "VarInterp055",
@@ -2181,11 +2065,11 @@
   {
     "subjectId": "VarInterp055",
     "attributeId": "A123",
-    "value": "MendCond003",
+    "value": "MendCond075",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "noonan syndrome, Autosomal Dominant"
+    "lookupValue": "MendCond075"
   },
   {
     "subjectId": "VarInterp055",
@@ -2248,7 +2132,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "VarInterp057",
@@ -2262,7 +2146,7 @@
   {
     "subjectId": "VarInterp057",
     "attributeId": "A123",
-    "value": "MendCond004",
+    "value": "MendCond062",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
@@ -2307,7 +2191,7 @@
   {
     "subjectId": "IndAll058",
     "attributeId": "A068",
-    "value": "CG:het",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "CodeableConcept",
@@ -2316,7 +2200,7 @@
   {
     "subjectId": "IndAll058",
     "attributeId": "A069",
-    "value": "CG:het",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "secondaryZygosity",
     "attributeType": "CodeableConcept",
@@ -2325,7 +2209,7 @@
   {
     "subjectId": "IndAll058",
     "attributeId": "A070",
-    "value": "CG:trans",
+    "value": "CG-phase:trans",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "CodeableConcept",
@@ -2359,6 +2243,33 @@
     "lookupValue": "Pathogenic"
   },
   {
+    "subjectId": "VarInterp060",
+    "attributeId": "A122",
+    "value": "CanAll127",
+    "evidenceDataName": "VariantInterpretation",
+    "attributeName": "variant",
+    "attributeType": "CanonicalAllele",
+    "lookupValue": "NM_004333.4(BRAF):c.1449A>C"
+  },
+  {
+    "subjectId": "VarInterp060",
+    "attributeId": "A123",
+    "value": "MendCond049",
+    "evidenceDataName": "VariantInterpretation",
+    "attributeName": "condition",
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Rasopathy"
+  },
+  {
+    "subjectId": "VarInterp060",
+    "attributeId": "A124",
+    "value": "LN:LA26332-9",
+    "evidenceDataName": "VariantInterpretation",
+    "attributeName": "clinicalSignificance",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Likely Pathogenic"
+  },
+  {
     "subjectId": "IndCond061",
     "attributeId": "A016",
     "value": "Indiv005",
@@ -2383,7 +2294,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "IndAll062",
@@ -2415,7 +2326,7 @@
   {
     "subjectId": "IndAll062",
     "attributeId": "A068",
-    "value": "CG:het",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "CodeableConcept",
@@ -2424,7 +2335,7 @@
   {
     "subjectId": "IndAll062",
     "attributeId": "A069",
-    "value": "CG:het",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "secondaryZygosity",
     "attributeType": "CodeableConcept",
@@ -2433,7 +2344,7 @@
   {
     "subjectId": "IndAll062",
     "attributeId": "A070",
-    "value": "CG:trans",
+    "value": "CG-phase:trans",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "CodeableConcept",
@@ -2451,11 +2362,11 @@
   {
     "subjectId": "VarInterp063",
     "attributeId": "A123",
-    "value": "Cond019",
+    "value": "Cond070",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Cond019"
+    "lookupValue": "Cond070"
   },
   {
     "subjectId": "VarInterp063",
@@ -2527,7 +2438,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "IndAll065",
@@ -2550,7 +2461,7 @@
   {
     "subjectId": "IndAll065",
     "attributeId": "A068",
-    "value": "CG:hom",
+    "value": "CG-allelic-state:hom",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "CodeableConcept",
@@ -2586,7 +2497,7 @@
   {
     "subjectId": "Func067",
     "attributeId": "A027",
-    "value": "CG:activation",
+    "value": "CG-func-data-type:activation",
     "evidenceDataName": "FunctionalData",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
@@ -2631,7 +2542,7 @@
   {
     "subjectId": "InSilicoPred068",
     "attributeId": "A097",
-    "value": "CG:sp",
+    "value": "CG-prediction-type:sp",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -2647,38 +2558,20 @@
     "lookupValue": "no impact"
   },
   {
-    "subjectId": "Reg069",
-    "attributeId": "A052",
-    "value": "RefSeq005",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "lookupValue": "NP_001360.1"
+    "subjectId": "RegAnn069",
+    "attributeId": "A063",
+    "value": "Loc385",
+    "evidenceDataName": "RegionAnnotation",
+    "attributeName": "region",
+    "attributeType": "Locus",
+    "lookupValue": "Loc385"
   },
   {
-    "subjectId": "Reg069",
-    "attributeId": "A053",
-    "value": 2490.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "start",
-    "attributeType": "int",
-    "lookupValue": "2490"
-  },
-  {
-    "subjectId": "Reg069",
-    "attributeId": "A054",
-    "value": 2496.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "stop",
-    "attributeType": "int",
-    "lookupValue": "2496"
-  },
-  {
-    "subjectId": "Reg069",
-    "attributeId": "A056",
-    "value": "CG:repeat",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "isNotTypes",
+    "subjectId": "RegAnn069",
+    "attributeId": "A057",
+    "value": "CG-reg-anno-type:repeat",
+    "evidenceDataName": "RegionAnnotation",
+    "attributeName": "isTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Repeat"
   },
@@ -2716,7 +2609,7 @@
     "evidenceDataName": "Conservation",
     "attributeName": "conserved",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "Conserv071",
@@ -2734,7 +2627,7 @@
     "evidenceDataName": "Conservation",
     "attributeName": "score",
     "attributeType": "float",
-    "lookupValue": "-0.76"
+    "lookupValue": -0.76
   },
   {
     "subjectId": "Conserv072",
@@ -2752,7 +2645,7 @@
     "evidenceDataName": "Conservation",
     "attributeName": "conserved",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "Conserv072",
@@ -2770,40 +2663,22 @@
     "evidenceDataName": "Conservation",
     "attributeName": "score",
     "attributeType": "float",
-    "lookupValue": "0.63"
+    "lookupValue": 0.63
   },
   {
-    "subjectId": "Reg073",
-    "attributeId": "A052",
-    "value": "RefSeq006",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "lookupValue": "NP_056375.2"
+    "subjectId": "RegAnn073",
+    "attributeId": "A063",
+    "value": "Loc386",
+    "evidenceDataName": "RegionAnnotation",
+    "attributeName": "region",
+    "attributeType": "Locus",
+    "lookupValue": "Loc386"
   },
   {
-    "subjectId": "Reg073",
-    "attributeId": "A053",
-    "value": 35.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "start",
-    "attributeType": "int",
-    "lookupValue": "35"
-  },
-  {
-    "subjectId": "Reg073",
-    "attributeId": "A054",
-    "value": 43.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "stop",
-    "attributeType": "int",
-    "lookupValue": "43"
-  },
-  {
-    "subjectId": "Reg073",
+    "subjectId": "RegAnn073",
     "attributeId": "A056",
-    "value": "CG:repeat",
-    "evidenceDataName": "RegionTypesAndAlleles",
+    "value": "CG-reg-anno-type:repeat",
+    "evidenceDataName": "RegionAnnotation",
     "attributeName": "isNotTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Repeat"
@@ -2847,7 +2722,7 @@
   {
     "subjectId": "FamSegData076",
     "attributeId": "A081",
-    "value": "MendCond003",
+    "value": "MendCond056",
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
@@ -2874,53 +2749,53 @@
   {
     "subjectId": "FamSegData076",
     "attributeId": "A084",
-    "value": "?",
+    "value": 0.0,
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
-    "lookupValue": "?"
+    "lookupValue": 0
   },
   {
     "subjectId": "FamSegData076",
     "attributeId": "A085",
-    "value": "?",
+    "value": 2.0,
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "phenotypeNegativeAllelePositive",
     "attributeType": "int",
-    "lookupValue": "?"
+    "lookupValue": 2
   },
   {
-    "subjectId": "Reg077",
-    "attributeId": "A052",
-    "value": "RefSeq007",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "lookupValue": "NP_003915.2"
-  },
-  {
-    "subjectId": "Reg077",
-    "attributeId": "A053",
-    "value": 241.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "start",
+    "subjectId": "FamSegData076",
+    "attributeId": "A050",
+    "value": 0.0,
+    "evidenceDataName": "FamilySegregationData",
+    "attributeName": "phenotypePositiveAlleleNegative",
     "attributeType": "int",
-    "lookupValue": "241"
+    "lookupValue": 0
   },
   {
-    "subjectId": "Reg077",
-    "attributeId": "A054",
-    "value": 260.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "stop",
-    "attributeType": "int",
-    "lookupValue": "260"
+    "subjectId": "FamSegData076",
+    "attributeId": "A110",
+    "value": 1,
+    "evidenceDataName": "FamilySegregationData",
+    "attributeName": "anyInconsistentSegregations",
+    "attributeType": "boolean",
+    "lookupValue": 1
   },
   {
-    "subjectId": "Reg077",
+    "subjectId": "RegAnn077",
+    "attributeId": "A063",
+    "value": "Loc387",
+    "evidenceDataName": "RegionAnnotation",
+    "attributeName": "region",
+    "attributeType": "Locus",
+    "lookupValue": "Loc387"
+  },
+  {
+    "subjectId": "RegAnn077",
     "attributeId": "A057",
-    "value": "CG:repeat",
-    "evidenceDataName": "RegionTypesAndAlleles",
+    "value": "CG-reg-anno-type:repeat",
+    "evidenceDataName": "RegionAnnotation",
     "attributeName": "isTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Repeat"
@@ -2941,7 +2816,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "hypertrophic cardiomyopathy"
+    "lookupValue": "Primary familial hypertrophic cardiomyopathy, Autosomal Dominant"
   },
   {
     "subjectId": "VarInterp078",
@@ -2968,7 +2843,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "hypertrophic cardiomyopathy"
+    "lookupValue": "Primary familial hypertrophic cardiomyopathy, Autosomal Dominant"
   },
   {
     "subjectId": "VarInterp079",
@@ -2991,11 +2866,11 @@
   {
     "subjectId": "VarInterp080",
     "attributeId": "A123",
-    "value": "MendCond018",
+    "value": "MendCond017",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Birt-Hogg-Dube Syndrome"
+    "lookupValue": "Ornithine carbamoyltransferase deficiency"
   },
   {
     "subjectId": "VarInterp080",
@@ -3018,11 +2893,11 @@
   {
     "subjectId": "VarInterp081",
     "attributeId": "A123",
-    "value": "MendCond001",
+    "value": "MendCond050",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Breast Ovarian Cancer"
+    "lookupValue": "Breast Ovarian Cancer, Autosomal Dominant"
   },
   {
     "subjectId": "VarInterp081",
@@ -3045,7 +2920,7 @@
   {
     "subjectId": "AllFreq082",
     "attributeId": "A047",
-    "value": "CG:combined",
+    "value": "CG-population-type:combined",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -3067,7 +2942,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "0"
+    "lookupValue": 0
   },
   {
     "subjectId": "AllFreq082",
@@ -3084,7 +2959,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
-    "lookupValue": "0"
+    "lookupValue": 0
   },
   {
     "subjectId": "AllFreq082",
@@ -3093,7 +2968,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "medianCoverage",
     "attributeType": "float",
-    "lookupValue": "11"
+    "lookupValue": 11
   },
   {
     "subjectId": "IndCond083",
@@ -3120,7 +2995,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "IndCond084",
@@ -3147,7 +3022,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "FamHist085",
@@ -3174,7 +3049,7 @@
     "evidenceDataName": "FamilyHistory",
     "attributeName": "familyHasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "FamHist086",
@@ -3201,7 +3076,7 @@
     "evidenceDataName": "FamilyHistory",
     "attributeName": "familyHasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "DeNovo087",
@@ -3228,7 +3103,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "maternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "DeNovo087",
@@ -3237,7 +3112,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "paternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "DeNovo088",
@@ -3264,7 +3139,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "maternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "DeNovo088",
@@ -3273,7 +3148,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "paternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "IndCond089",
@@ -3291,7 +3166,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
+    "lookupValue": "cardiofaciocutaneous syndrome"
   },
   {
     "subjectId": "IndCond089",
@@ -3300,7 +3175,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "FamHist090",
@@ -3318,7 +3193,7 @@
     "evidenceDataName": "FamilyHistory",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
+    "lookupValue": "cardiofaciocutaneous syndrome"
   },
   {
     "subjectId": "FamHist090",
@@ -3327,7 +3202,7 @@
     "evidenceDataName": "FamilyHistory",
     "attributeName": "familyHasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "DeNovo091",
@@ -3354,7 +3229,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "maternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "DeNovo091",
@@ -3363,7 +3238,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "paternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "IndCond092",
@@ -3377,11 +3252,11 @@
   {
     "subjectId": "IndCond092",
     "attributeId": "A017",
-    "value": "MendCond019",
+    "value": "MendCond068",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
+    "lookupValue": "cardiofaciocutaneous syndrome"
   },
   {
     "subjectId": "IndCond092",
@@ -3390,7 +3265,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "FamHist093",
@@ -3404,11 +3279,11 @@
   {
     "subjectId": "FamHist093",
     "attributeId": "A020",
-    "value": "MendCond019",
+    "value": "MendCond068",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
+    "lookupValue": "cardiofaciocutaneous syndrome"
   },
   {
     "subjectId": "FamHist093",
@@ -3417,7 +3292,7 @@
     "evidenceDataName": "FamilyHistory",
     "attributeName": "familyHasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "DeNovo094",
@@ -3444,7 +3319,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "maternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "DeNovo094",
@@ -3453,7 +3328,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "paternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "IndCond095",
@@ -3467,11 +3342,11 @@
   {
     "subjectId": "IndCond095",
     "attributeId": "A017",
-    "value": "MendCond020",
+    "value": "MendCond068",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "hypertrophic cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "cardiofaciocutaneous syndrome"
   },
   {
     "subjectId": "IndCond095",
@@ -3480,7 +3355,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "FamHist096",
@@ -3494,11 +3369,11 @@
   {
     "subjectId": "FamHist096",
     "attributeId": "A020",
-    "value": "MendCond019",
+    "value": "MendCond068",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
+    "lookupValue": "cardiofaciocutaneous syndrome"
   },
   {
     "subjectId": "FamHist096",
@@ -3507,7 +3382,7 @@
     "evidenceDataName": "FamilyHistory",
     "attributeName": "familyHasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "DeNovo097",
@@ -3534,7 +3409,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "maternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "DeNovo097",
@@ -3543,7 +3418,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "paternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "IndCond098",
@@ -3557,11 +3432,11 @@
   {
     "subjectId": "IndCond098",
     "attributeId": "A017",
-    "value": "MendCond019",
+    "value": "MendCond068",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
+    "lookupValue": "cardiofaciocutaneous syndrome"
   },
   {
     "subjectId": "IndCond098",
@@ -3570,7 +3445,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "FamHist099",
@@ -3584,11 +3459,11 @@
   {
     "subjectId": "FamHist099",
     "attributeId": "A020",
-    "value": "MendCond019",
+    "value": "MendCond068",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
+    "lookupValue": "cardiofaciocutaneous syndrome"
   },
   {
     "subjectId": "FamHist099",
@@ -3597,7 +3472,7 @@
     "evidenceDataName": "FamilyHistory",
     "attributeName": "familyHasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "DeNovo100",
@@ -3624,7 +3499,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "maternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "DeNovo100",
@@ -3633,7 +3508,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "paternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "AllFreq101",
@@ -3647,7 +3522,7 @@
   {
     "subjectId": "AllFreq101",
     "attributeId": "A047",
-    "value": "CG:combined",
+    "value": "CG-population-type:combined",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -3669,7 +3544,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "0"
+    "lookupValue": 0
   },
   {
     "subjectId": "AllFreq101",
@@ -3678,7 +3553,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
-    "lookupValue": "0"
+    "lookupValue": 0
   },
   {
     "subjectId": "AllFreq101",
@@ -3687,39 +3562,21 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "medianCoverage",
     "attributeType": "float",
-    "lookupValue": "57"
+    "lookupValue": 57
   },
   {
     "subjectId": "BMVR102",
     "attributeId": "A076",
-    "value": "RefSeq004",
+    "value": "Loc383",
     "evidenceDataName": "BenignMissenseVariationRate",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "lookupValue": "NM_000169.2"
-  },
-  {
-    "subjectId": "BMVR102",
-    "attributeId": "A077",
-    "value": 996.0,
-    "evidenceDataName": "BenignMissenseVariationRate",
-    "attributeName": "start",
-    "attributeType": "int",
-    "lookupValue": "996"
-  },
-  {
-    "subjectId": "BMVR102",
-    "attributeId": "A078",
-    "value": 1012.0,
-    "evidenceDataName": "BenignMissenseVariationRate",
-    "attributeName": "stop",
-    "attributeType": "int",
-    "lookupValue": "1012"
+    "attributeName": "region",
+    "attributeType": "Locus",
+    "lookupValue": "Loc383"
   },
   {
     "subjectId": "BMVR102",
     "attributeId": "A080",
-    "value": "CG:low",
+    "value": "CG-ben-missense-var-rate:low",
     "evidenceDataName": "BenignMissenseVariationRate",
     "attributeName": "value",
     "attributeType": "CodeableConcept",
@@ -3759,7 +3616,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
-    "lookupValue": "3"
+    "lookupValue": 3
   },
   {
     "subjectId": "FamSegData103",
@@ -3768,7 +3625,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "phenotypeNegativeAllelePositive",
     "attributeType": "int",
-    "lookupValue": "2"
+    "lookupValue": 2
   },
   {
     "subjectId": "FamSegData104",
@@ -3804,7 +3661,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
-    "lookupValue": "1"
+    "lookupValue": 1
   },
   {
     "subjectId": "AggSegData105",
@@ -3849,7 +3706,7 @@
     "evidenceDataName": "AggregateSegregationData",
     "attributeName": "totalNumberOfSegregations",
     "attributeType": "int",
-    "lookupValue": "4"
+    "lookupValue": 4
   },
   {
     "subjectId": "DeNovo106",
@@ -3876,7 +3733,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "maternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "DeNovo106",
@@ -3885,7 +3742,7 @@
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "paternityConfirmed",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "FamSegData107",
@@ -3921,7 +3778,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
-    "lookupValue": "5"
+    "lookupValue": 5
   },
   {
     "subjectId": "FamSegData108",
@@ -3993,7 +3850,7 @@
     "evidenceDataName": "AggregateSegregationData",
     "attributeName": "totalNumberOfSegregations",
     "attributeType": "int",
-    "lookupValue": "8"
+    "lookupValue": 8
   },
   {
     "subjectId": "IndCond110",
@@ -4007,11 +3864,11 @@
   {
     "subjectId": "IndCond110",
     "attributeId": "A017",
-    "value": "MendCond019",
+    "value": "MendCond069",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
+    "lookupValue": "cardiofaciocutaneous syndrome"
   },
   {
     "subjectId": "IndCond110",
@@ -4020,16 +3877,16 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "FamSegData111",
     "attributeId": "A081",
-    "value": "MendCond001",
+    "value": "MendCond051",
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Breast Ovarian Cancer"
+    "lookupValue": "Breast Ovarian Cancer, Autosomal Dominant"
   },
   {
     "subjectId": "FamSegData111",
@@ -4056,7 +3913,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
-    "lookupValue": "2"
+    "lookupValue": 2
   },
   {
     "subjectId": "FamHist112",
@@ -4070,11 +3927,11 @@
   {
     "subjectId": "FamHist112",
     "attributeId": "A020",
-    "value": "MendCond019",
+    "value": "MendCond069",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
+    "lookupValue": "cardiofaciocutaneous syndrome"
   },
   {
     "subjectId": "FamHist112",
@@ -4083,7 +3940,7 @@
     "evidenceDataName": "FamilyHistory",
     "attributeName": "familyHasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "FamSegData113",
@@ -4119,7 +3976,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
-    "lookupValue": "1"
+    "lookupValue": 1
   },
   {
     "subjectId": "FamSegData113",
@@ -4128,7 +3985,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "phenotypeNegativeAllelePositive",
     "attributeType": "int",
-    "lookupValue": "1"
+    "lookupValue": 1
   },
   {
     "subjectId": "FamSegData113",
@@ -4200,7 +4057,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
-    "lookupValue": "2"
+    "lookupValue": 2
   },
   {
     "subjectId": "FamSegData114",
@@ -4209,7 +4066,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "phenotypeNegativeAllelePositive",
     "attributeType": "int",
-    "lookupValue": "3"
+    "lookupValue": 3
   },
   {
     "subjectId": "FamSegData114",
@@ -4250,20 +4107,20 @@
   {
     "subjectId": "AggSegData115",
     "attributeId": "A086",
-    "value": "MendCond002",
+    "value": "CanAll065",
     "evidenceDataName": "AggregateSegregationData",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "lookupValue": "MendCond002"
+    "lookupValue": "NM_001001430.2(TNNT2):c.629_631delAGA"
   },
   {
     "subjectId": "AggSegData115",
     "attributeId": "A087",
-    "value": "CanAll065",
+    "value": "MendCond002",
     "evidenceDataName": "AggregateSegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "CanAll065"
+    "lookupValue": "dilated cardiomyopathy, Autosomal Dominant"
   },
   {
     "subjectId": "AggSegData115",
@@ -4290,7 +4147,7 @@
     "evidenceDataName": "AggregateSegregationData",
     "attributeName": "totalNumberOfSegregations",
     "attributeType": "int",
-    "lookupValue": "9"
+    "lookupValue": 9
   },
   {
     "subjectId": "MolCon117",
@@ -4317,7 +4174,7 @@
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "lof",
     "attributeType": "yes/no/maybe",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "CondMech118",
@@ -4331,7 +4188,7 @@
   {
     "subjectId": "CondMech118",
     "attributeId": "A003",
-    "value": "CG:common",
+    "value": "CG-cond-mech-strength:common",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
     "attributeType": "CodeableConcept",
@@ -4358,7 +4215,7 @@
   {
     "subjectId": "BMVR119",
     "attributeId": "A080",
-    "value": "CG:low",
+    "value": "CG-ben-missense-var-rate:low",
     "evidenceDataName": "BenignMissenseVariationRate",
     "attributeName": "value",
     "attributeType": "CodeableConcept",
@@ -4376,7 +4233,7 @@
   {
     "subjectId": "InSilicoPred120",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -4412,7 +4269,7 @@
   {
     "subjectId": "InSilicoPred121",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -4448,7 +4305,7 @@
   {
     "subjectId": "InSilicoPred122",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -4484,7 +4341,7 @@
   {
     "subjectId": "InSilicoPred123",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -4520,7 +4377,7 @@
   {
     "subjectId": "InSilicoPred124",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -4556,7 +4413,7 @@
   {
     "subjectId": "InSilicoPred125",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -4592,7 +4449,7 @@
   {
     "subjectId": "InSilicoPred126",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -4628,7 +4485,7 @@
   {
     "subjectId": "InSilicoPred127",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -4664,7 +4521,7 @@
   {
     "subjectId": "InSilicoPred128",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -4700,7 +4557,7 @@
   {
     "subjectId": "InSilicoPred129",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -4736,7 +4593,7 @@
   {
     "subjectId": "InSilicoPred130",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -4772,7 +4629,7 @@
   {
     "subjectId": "InSilicoPred131",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -4808,7 +4665,7 @@
   {
     "subjectId": "InSilicoPred132",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -4844,7 +4701,7 @@
   {
     "subjectId": "InSilicoPred133",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -4880,7 +4737,7 @@
   {
     "subjectId": "InSilicoPred134",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -4916,7 +4773,7 @@
   {
     "subjectId": "InSilicoPred135",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -4952,7 +4809,7 @@
   {
     "subjectId": "InSilicoPred136",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -4988,7 +4845,7 @@
   {
     "subjectId": "InSilicoPred137",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -5024,7 +4881,7 @@
   {
     "subjectId": "InSilicoPred138",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -5060,7 +4917,7 @@
   {
     "subjectId": "InSilicoPred139",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -5096,7 +4953,7 @@
   {
     "subjectId": "InSilicoPred140",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -5132,7 +4989,7 @@
   {
     "subjectId": "InSilicoPred141",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -5168,7 +5025,7 @@
   {
     "subjectId": "InSilicoPred142",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -5204,7 +5061,7 @@
   {
     "subjectId": "InSilicoPred143",
     "attributeId": "A097",
-    "value": "CG:sp",
+    "value": "CG-prediction-type:sp",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -5226,7 +5083,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "value",
     "attributeType": "String",
-    "lookupValue": "71.53"
+    "lookupValue": 71.53
   },
   {
     "subjectId": "InSilicoPred144",
@@ -5240,7 +5097,7 @@
   {
     "subjectId": "InSilicoPred144",
     "attributeId": "A097",
-    "value": "CG:sp",
+    "value": "CG-prediction-type:sp",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -5262,7 +5119,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "value",
     "attributeType": "String",
-    "lookupValue": "7.39"
+    "lookupValue": 7.39
   },
   {
     "subjectId": "InSilicoPred145",
@@ -5276,7 +5133,7 @@
   {
     "subjectId": "InSilicoPred145",
     "attributeId": "A097",
-    "value": "CG:sp",
+    "value": "CG-prediction-type:sp",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -5298,7 +5155,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "value",
     "attributeType": "String",
-    "lookupValue": "0.87"
+    "lookupValue": 0.87
   },
   {
     "subjectId": "InSilicoPred146",
@@ -5312,7 +5169,7 @@
   {
     "subjectId": "InSilicoPred146",
     "attributeId": "A097",
-    "value": "CG:sp",
+    "value": "CG-prediction-type:sp",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -5334,7 +5191,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "value",
     "attributeType": "String",
-    "lookupValue": "7.75"
+    "lookupValue": 7.75
   },
   {
     "subjectId": "InSilicoPred147",
@@ -5348,7 +5205,7 @@
   {
     "subjectId": "InSilicoPred147",
     "attributeId": "A097",
-    "value": "CG:sp",
+    "value": "CG-prediction-type:sp",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -5370,7 +5227,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "value",
     "attributeType": "String",
-    "lookupValue": "81.75"
+    "lookupValue": 81.75
   },
   {
     "subjectId": "CondEtiol148",
@@ -5379,7 +5236,7 @@
     "evidenceDataName": "ConditionEtiology",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "hereditary hemorrhagic telangiectasia"
+    "lookupValue": "hereditary hemorrhagic telangiectasia, Autosomal Dominant"
   },
   {
     "subjectId": "CondEtiol148",
@@ -5402,11 +5259,11 @@
   {
     "subjectId": "CondEtiol149",
     "attributeId": "A100",
-    "value": "MendCond020",
+    "value": "MendCond064",
     "evidenceDataName": "ConditionEtiology",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "hypertrophic cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "hypertrophic cardiomyopathy"
   },
   {
     "subjectId": "CondEtiol149",
@@ -5442,7 +5299,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2"
+    "lookupValue": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2, Autosomal Dominant"
   },
   {
     "subjectId": "VarInterp150",
@@ -5469,7 +5326,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Distal myopathy with posterior leg and anterior hand involvement"
+    "lookupValue": "Myopathy, Distal, type 4, Autosomal Dominant"
   },
   {
     "subjectId": "VarInterp151",
@@ -5492,11 +5349,11 @@
   {
     "subjectId": "VarInterp152",
     "attributeId": "A123",
-    "value": "MendCond026",
+    "value": "MendCond025",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Marfan Syndrome, Autosomal Dominant"
+    "lookupValue": "Cystic Fibrosis, Autosomal Recessive"
   },
   {
     "subjectId": "VarInterp152",
@@ -5519,7 +5376,7 @@
   {
     "subjectId": "AllFreq153",
     "attributeId": "A047",
-    "value": "CG:combined",
+    "value": "CG-population-type:combined",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -5541,7 +5398,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "6732"
+    "lookupValue": 6732
   },
   {
     "subjectId": "AllFreq153",
@@ -5550,7 +5407,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "120402"
+    "lookupValue": 120402
   },
   {
     "subjectId": "AllFreq153",
@@ -5559,7 +5416,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
-    "lookupValue": "0.05591"
+    "lookupValue": 0.05591
   },
   {
     "subjectId": "AllFreq153",
@@ -5568,7 +5425,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
-    "lookupValue": "223"
+    "lookupValue": 223
   },
   {
     "subjectId": "AllFreq154",
@@ -5582,7 +5439,7 @@
   {
     "subjectId": "AllFreq154",
     "attributeId": "A047",
-    "value": "CG:combined",
+    "value": "CG-population-type:combined",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -5604,7 +5461,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "5507"
+    "lookupValue": 5507
   },
   {
     "subjectId": "AllFreq154",
@@ -5613,7 +5470,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "121350"
+    "lookupValue": 121350
   },
   {
     "subjectId": "AllFreq154",
@@ -5622,7 +5479,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
-    "lookupValue": "0.04538"
+    "lookupValue": 0.04538
   },
   {
     "subjectId": "AllFreq154",
@@ -5631,7 +5488,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
-    "lookupValue": "768"
+    "lookupValue": 768
   },
   {
     "subjectId": "AllFreq155",
@@ -5645,7 +5502,7 @@
   {
     "subjectId": "AllFreq155",
     "attributeId": "A047",
-    "value": "EX:eas",
+    "value": "EXAC:EAS",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -5667,7 +5524,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "2518"
+    "lookupValue": 2518
   },
   {
     "subjectId": "AllFreq155",
@@ -5676,7 +5533,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "8632"
+    "lookupValue": 8632
   },
   {
     "subjectId": "AllFreq155",
@@ -5685,7 +5542,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
-    "lookupValue": "0.2917"
+    "lookupValue": 0.2917
   },
   {
     "subjectId": "AllFreq155",
@@ -5694,7 +5551,43 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
-    "lookupValue": "405"
+    "lookupValue": 405
+  },
+  {
+    "subjectId": "CritAssess156",
+    "attributeId": "A115",
+    "value": "PP2",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "criterion",
+    "attributeType": "Criterion",
+    "lookupValue": "Missense in condition where pathogenic missense common"
+  },
+  {
+    "subjectId": "CritAssess156",
+    "attributeId": "A117",
+    "value": "CanAll093",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "variant",
+    "attributeType": "CanonicalAllele",
+    "lookupValue": "NM_133378.4(TTN): c.2926T>C"
+  },
+  {
+    "subjectId": "CritAssess156",
+    "attributeId": "A116",
+    "value": "CG-criterion-outcome:not-met",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "outcome",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Not Met"
+  },
+  {
+    "subjectId": "CritAssess156",
+    "attributeId": "A055",
+    "value": "EvLn132",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "EvidenceLine",
+    "lookupValue": ""
   },
   {
     "subjectId": "AllFreq157",
@@ -5708,7 +5601,7 @@
   {
     "subjectId": "AllFreq157",
     "attributeId": "A047",
-    "value": "CG:combined",
+    "value": "CG-population-type:combined",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -5730,7 +5623,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "14"
+    "lookupValue": 14
   },
   {
     "subjectId": "AllFreq157",
@@ -5739,7 +5632,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "121100"
+    "lookupValue": 121100
   },
   {
     "subjectId": "AllFreq157",
@@ -5748,7 +5641,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
-    "lookupValue": "0.0001158"
+    "lookupValue": 0.0001158
   },
   {
     "subjectId": "AllFreq157",
@@ -5757,7 +5650,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
-    "lookupValue": "0"
+    "lookupValue": 0
   },
   {
     "subjectId": "AllFreq158",
@@ -5771,7 +5664,7 @@
   {
     "subjectId": "AllFreq158",
     "attributeId": "A047",
-    "value": "CG:combined",
+    "value": "CG-population-type:combined",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -5793,7 +5686,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "89"
+    "lookupValue": 89
   },
   {
     "subjectId": "AllFreq158",
@@ -5802,7 +5695,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "121410"
+    "lookupValue": 121410
   },
   {
     "subjectId": "AllFreq158",
@@ -5811,7 +5704,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
-    "lookupValue": "0.0007"
+    "lookupValue": 0.0007
   },
   {
     "subjectId": "AllFreq158",
@@ -5820,16 +5713,16 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
-    "lookupValue": "1"
+    "lookupValue": 1
   },
   {
     "subjectId": "CondPrev159",
     "attributeId": "A103",
-    "value": "MendCond028",
+    "value": "MendCond026",
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Perrault Syndrome, Autosomal Dominant"
+    "lookupValue": "Marfan Syndrome, Autosomal Dominant"
   },
   {
     "subjectId": "CondPrev159",
@@ -5838,7 +5731,7 @@
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "minimum",
     "attributeType": "float",
-    "lookupValue": "0.0017"
+    "lookupValue": 0.0017
   },
   {
     "subjectId": "CondPrev159",
@@ -5847,12 +5740,12 @@
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "maximum",
     "attributeType": "float",
-    "lookupValue": "0.0007"
+    "lookupValue": 0.0007
   },
   {
     "subjectId": "CondPrev159",
     "attributeId": "A106",
-    "value": "CG:overall",
+    "value": "CG-population-type:overall",
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -5861,18 +5754,36 @@
   {
     "subjectId": "CondPenet160",
     "attributeId": "A107",
-    "value": "MendCond028",
+    "value": "MendCond026",
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Perrault Syndrome, Autosomal Dominant"
+    "lookupValue": "Marfan Syndrome, Autosomal Dominant"
   },
   {
     "subjectId": "CondPenet160",
     "attributeId": "A108",
-    "value": "CG:high",
+    "value": "CG-penetrance-type:high",
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "penetrance",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "High"
+  },
+  {
+    "subjectId": "BMVR161",
+    "attributeId": "A094",
+    "value": "G003",
+    "evidenceDataName": "BenignMissenseVariationRate",
+    "attributeName": "gene",
+    "attributeType": "Gene",
+    "lookupValue": "TTN"
+  },
+  {
+    "subjectId": "BMVR161",
+    "attributeId": "A080",
+    "value": "CG-ben-missense-var-rate:high",
+    "evidenceDataName": "BenignMissenseVariationRate",
+    "attributeName": "value",
     "attributeType": "CodeableConcept",
     "lookupValue": "High"
   },
@@ -5888,7 +5799,7 @@
   {
     "subjectId": "AllFreq162",
     "attributeId": "A047",
-    "value": "CG:combined",
+    "value": "CG-population-type:combined",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -5910,7 +5821,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "545"
+    "lookupValue": 545
   },
   {
     "subjectId": "AllFreq162",
@@ -5919,7 +5830,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "87696"
+    "lookupValue": 87696
   },
   {
     "subjectId": "AllFreq162",
@@ -5928,7 +5839,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
-    "lookupValue": "0.00625"
+    "lookupValue": 0.00625
   },
   {
     "subjectId": "AllFreq162",
@@ -5937,7 +5848,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
-    "lookupValue": "1"
+    "lookupValue": 1
   },
   {
     "subjectId": "AllFreq162",
@@ -5946,7 +5857,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "hemizygousAlleleIndividualCount",
     "attributeType": "int",
-    "lookupValue": "206"
+    "lookupValue": 206
   },
   {
     "subjectId": "CondPrev163",
@@ -5964,12 +5875,12 @@
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "value",
     "attributeType": "float",
-    "lookupValue": "0.00012"
+    "lookupValue": 0.00012
   },
   {
     "subjectId": "CondPrev163",
     "attributeId": "A106",
-    "value": "CG:overall",
+    "value": "CG-population-type:overall",
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -5987,11 +5898,47 @@
   {
     "subjectId": "CondPenet164",
     "attributeId": "A108",
-    "value": "CG:high",
+    "value": "CG-penetrance-type:high",
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "penetrance",
     "attributeType": "CodeableConcept",
     "lookupValue": "High"
+  },
+  {
+    "subjectId": "CondMech165",
+    "attributeId": "A002",
+    "value": "SO:0001583",
+    "evidenceDataName": "ConditionMechanism",
+    "attributeName": "mechanism",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "missense variant"
+  },
+  {
+    "subjectId": "CondMech165",
+    "attributeId": "A003",
+    "value": "CG-cond-mech-strength:common",
+    "evidenceDataName": "ConditionMechanism",
+    "attributeName": "strength",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Common"
+  },
+  {
+    "subjectId": "CondMech165",
+    "attributeId": "A011",
+    "value": "G003",
+    "evidenceDataName": "ConditionMechanism",
+    "attributeName": "gene",
+    "attributeType": "Gene",
+    "lookupValue": "TTN"
+  },
+  {
+    "subjectId": "CondMech165",
+    "attributeId": "A012",
+    "value": "MendCond054",
+    "evidenceDataName": "ConditionMechanism",
+    "attributeName": "condition",
+    "attributeType": "MendelianCondition",
+    "lookupValue": "arrhythmogenic right ventricular cardiomyopathy"
   },
   {
     "subjectId": "AllFreq166",
@@ -6005,7 +5952,7 @@
   {
     "subjectId": "AllFreq166",
     "attributeId": "A047",
-    "value": "CG:combined",
+    "value": "CG-population-type:combined",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -6027,7 +5974,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "3"
+    "lookupValue": 3
   },
   {
     "subjectId": "AllFreq166",
@@ -6036,7 +5983,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "120870"
+    "lookupValue": 120870
   },
   {
     "subjectId": "AllFreq166",
@@ -6045,7 +5992,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
-    "lookupValue": "2.40E-05"
+    "lookupValue": 2.4e-05
   },
   {
     "subjectId": "CondPrev167",
@@ -6054,7 +6001,7 @@
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Perrault Syndrome, Autosomal Dominant"
+    "lookupValue": "Perrault Syndrome, Autosomal Recessive"
   },
   {
     "subjectId": "CondPrev167",
@@ -6063,12 +6010,12 @@
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "maximum",
     "attributeType": "float",
-    "lookupValue": "1.00E-06"
+    "lookupValue": 1.0e-06
   },
   {
     "subjectId": "CondPrev167",
     "attributeId": "A106",
-    "value": "CG:overall",
+    "value": "CG-population-type:overall",
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -6081,30 +6028,57 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Perrault Syndrome, Autosomal Dominant"
+    "lookupValue": "Perrault Syndrome, Autosomal Recessive"
   },
   {
     "subjectId": "CondPenet168",
     "attributeId": "A108",
-    "value": "CG:high",
+    "value": "CG-penetrance-type:high",
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "penetrance",
     "attributeType": "CodeableConcept",
     "lookupValue": "High"
   },
   {
+    "subjectId": "MolCon169",
+    "attributeId": "A009",
+    "value": "CtxAll099",
+    "evidenceDataName": "MolecularConsequence",
+    "attributeName": "contextualAllele",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_133378.4(TTN): c.2926T>C"
+  },
+  {
+    "subjectId": "MolCon169",
+    "attributeId": "A001",
+    "value": "SO:0001583",
+    "evidenceDataName": "MolecularConsequence",
+    "attributeName": "consequence",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "missense variant"
+  },
+  {
+    "subjectId": "MolCon169",
+    "attributeId": "A010",
+    "value": "no",
+    "evidenceDataName": "MolecularConsequence",
+    "attributeName": "lof",
+    "attributeType": "yes/no/maybe",
+    "lookupValue": "no"
+  },
+  {
     "subjectId": "CondPenet170",
     "attributeId": "A107",
-    "value": "MendCond031",
+    "value": "MendCond029",
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Pendred syndrome, Autosomal Dominant"
+    "lookupValue": "Wiedemann-Steiner syndrome, Autosomal Dominant"
   },
   {
     "subjectId": "CondPenet170",
     "attributeId": "A108",
-    "value": "CG:complete",
+    "value": "CG-penetrance-type:complete",
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "penetrance",
     "attributeType": "CodeableConcept",
@@ -6131,7 +6105,7 @@
   {
     "subjectId": "IndAll172",
     "attributeId": "A068",
-    "value": "CG:het",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "CodeableConcept",
@@ -6158,7 +6132,7 @@
   {
     "subjectId": "IndAll173",
     "attributeId": "A068",
-    "value": "CG:hom",
+    "value": "CG-allelic-state:hom",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "CodeableConcept",
@@ -6176,11 +6150,11 @@
   {
     "subjectId": "IndCond174",
     "attributeId": "A017",
-    "value": "MendCond031",
+    "value": "MendCond029",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Pendred syndrome, Autosomal Dominant"
+    "lookupValue": "Wiedemann-Steiner syndrome, Autosomal Dominant"
   },
   {
     "subjectId": "IndCond174",
@@ -6189,7 +6163,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "IndCond175",
@@ -6203,11 +6177,11 @@
   {
     "subjectId": "IndCond175",
     "attributeId": "A017",
-    "value": "MendCond031",
+    "value": "MendCond029",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Pendred syndrome, Autosomal Dominant"
+    "lookupValue": "Wiedemann-Steiner syndrome, Autosomal Dominant"
   },
   {
     "subjectId": "IndCond175",
@@ -6216,7 +6190,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "CondPenet176",
@@ -6230,7 +6204,7 @@
   {
     "subjectId": "CondPenet176",
     "attributeId": "A108",
-    "value": "CG:complete",
+    "value": "CG-penetrance-type:complete",
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "penetrance",
     "attributeType": "CodeableConcept",
@@ -6257,7 +6231,7 @@
   {
     "subjectId": "IndAll178",
     "attributeId": "A068",
-    "value": "CG:het",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "CodeableConcept",
@@ -6284,7 +6258,7 @@
   {
     "subjectId": "IndAll179",
     "attributeId": "A068",
-    "value": "CG:het",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "CodeableConcept",
@@ -6311,7 +6285,7 @@
   {
     "subjectId": "IndAll180",
     "attributeId": "A068",
-    "value": "CG:het",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "CodeableConcept",
@@ -6338,7 +6312,7 @@
   {
     "subjectId": "IndAll181",
     "attributeId": "A068",
-    "value": "CG:het",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "CodeableConcept",
@@ -6369,7 +6343,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "IndCond183",
@@ -6396,7 +6370,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "IndCond184",
@@ -6423,7 +6397,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "IndCond185",
@@ -6450,21 +6424,21 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "CondPenet186",
     "attributeId": "A107",
-    "value": "MendCond026",
+    "value": "MendCond072",
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Marfan Syndrome, Autosomal Dominant"
+    "lookupValue": "MendCond072"
   },
   {
     "subjectId": "CondPenet186",
     "attributeId": "A108",
-    "value": "CG:complete",
+    "value": "CG-penetrance-type:complete",
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "penetrance",
     "attributeType": "CodeableConcept",
@@ -6491,7 +6465,7 @@
   {
     "subjectId": "IndAll188",
     "attributeId": "A068",
-    "value": "CG:het",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "CodeableConcept",
@@ -6518,7 +6492,7 @@
   {
     "subjectId": "IndAll189",
     "attributeId": "A068",
-    "value": "CG:het",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "CodeableConcept",
@@ -6536,11 +6510,11 @@
   {
     "subjectId": "IndCond190",
     "attributeId": "A017",
-    "value": "MendCond026",
+    "value": "MendCond072",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Marfan Syndrome, Autosomal Dominant"
+    "lookupValue": "MendCond072"
   },
   {
     "subjectId": "IndCond190",
@@ -6549,7 +6523,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "IndCond191",
@@ -6563,11 +6537,11 @@
   {
     "subjectId": "IndCond191",
     "attributeId": "A017",
-    "value": "MendCond026",
+    "value": "MendCond072",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Marfan Syndrome, Autosomal Dominant"
+    "lookupValue": "MendCond072"
   },
   {
     "subjectId": "IndCond191",
@@ -6576,7 +6550,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "Func192",
@@ -6590,7 +6564,7 @@
   {
     "subjectId": "Func192",
     "attributeId": "A027",
-    "value": "CG:iodeff",
+    "value": "CG-func-data-type:iodeff",
     "evidenceDataName": "FunctionalData",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
@@ -6626,7 +6600,7 @@
   {
     "subjectId": "Func193",
     "attributeId": "A027",
-    "value": "CG:celloc",
+    "value": "CG-func-data-type:celloc",
     "evidenceDataName": "FunctionalData",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
@@ -6662,7 +6636,7 @@
   {
     "subjectId": "Func194",
     "attributeId": "A027",
-    "value": "CG:neuritegrowth",
+    "value": "CG-func-data-type:neuritegrowth",
     "evidenceDataName": "FunctionalData",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
@@ -6698,7 +6672,7 @@
   {
     "subjectId": "Func195",
     "attributeId": "A027",
-    "value": "CG:elk1phosvialucif",
+    "value": "CG-func-data-type:elk1phosvialucif",
     "evidenceDataName": "FunctionalData",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
@@ -6729,7 +6703,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Familial Hypercholesterolemia"
+    "lookupValue": "Hypercholesterolemia, Familial, Autosomal Dominant"
   },
   {
     "subjectId": "FamSegData196",
@@ -6756,7 +6730,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
-    "lookupValue": "0"
+    "lookupValue": 0
   },
   {
     "subjectId": "FamSegData196",
@@ -6765,7 +6739,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "phenotypePositiveAlleleNegative",
     "attributeType": "int",
-    "lookupValue": "2"
+    "lookupValue": 2
   },
   {
     "subjectId": "FamSegData196",
@@ -6774,16 +6748,16 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "anyInconsistentSegregations",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "FamSegData197",
     "attributeId": "A081",
-    "value": "MendCond023",
+    "value": "MendCond065",
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2"
+    "lookupValue": "hypertrophic cardiomyopathy, Autosomal Dominant"
   },
   {
     "subjectId": "FamSegData197",
@@ -6810,7 +6784,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
-    "lookupValue": "3"
+    "lookupValue": 3
   },
   {
     "subjectId": "FamSegData197",
@@ -6819,7 +6793,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "phenotypePositiveAlleleNegative",
     "attributeType": "int",
-    "lookupValue": "1"
+    "lookupValue": 1
   },
   {
     "subjectId": "FamSegData197",
@@ -6828,7 +6802,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "anyInconsistentSegregations",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "MolCon198",
@@ -6869,7 +6843,7 @@
   {
     "subjectId": "CondMech199",
     "attributeId": "A003",
-    "value": "CG:primary",
+    "value": "CG-cond-mech-strength:primary",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
     "attributeType": "CodeableConcept",
@@ -6891,7 +6865,7 @@
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "hereditary breast ovarian cancer"
+    "lookupValue": "hereditary breast and ovarian cancer"
   },
   {
     "subjectId": "CondMech200",
@@ -6905,7 +6879,7 @@
   {
     "subjectId": "CondMech200",
     "attributeId": "A003",
-    "value": "CG:primary",
+    "value": "CG-cond-mech-strength:primary",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
     "attributeType": "CodeableConcept",
@@ -6923,11 +6897,11 @@
   {
     "subjectId": "CondMech200",
     "attributeId": "A012",
-    "value": "MendCond035",
+    "value": "MendCond037",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Familial Hypercholesterolemia"
+    "lookupValue": "Fanconi Anemia"
   },
   {
     "subjectId": "MolCon201",
@@ -6968,7 +6942,7 @@
   {
     "subjectId": "CondMech202",
     "attributeId": "A003",
-    "value": "CG:primary",
+    "value": "CG-cond-mech-strength:primary",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
     "attributeType": "CodeableConcept",
@@ -6986,11 +6960,11 @@
   {
     "subjectId": "CondMech202",
     "attributeId": "A012",
-    "value": "MendCond010",
+    "value": "MendCond059",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "nonsyndromic deafness, Autosomal Recessive, GIPC3"
+    "lookupValue": "Hearing Loss, Autosomal Recessive"
   },
   {
     "subjectId": "MolCon203",
@@ -7031,7 +7005,7 @@
   {
     "subjectId": "CondMech204",
     "attributeId": "A003",
-    "value": "CG:primary",
+    "value": "CG-cond-mech-strength:primary",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
     "attributeType": "CodeableConcept",
@@ -7049,11 +7023,11 @@
   {
     "subjectId": "CondMech204",
     "attributeId": "A012",
-    "value": "MendCond002",
+    "value": "MendCond053",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "dilated cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "dilated cardiomyopathy"
   },
   {
     "subjectId": "CondMech205",
@@ -7067,7 +7041,7 @@
   {
     "subjectId": "CondMech205",
     "attributeId": "A003",
-    "value": "CG:established",
+    "value": "CG-cond-mech-strength:established",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
     "attributeType": "CodeableConcept",
@@ -7085,11 +7059,11 @@
   {
     "subjectId": "CondMech205",
     "attributeId": "A012",
-    "value": "MendCond002",
+    "value": "MendCond053",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "dilated cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "dilated cardiomyopathy"
   },
   {
     "subjectId": "IndAll206",
@@ -7121,7 +7095,7 @@
   {
     "subjectId": "IndAll206",
     "attributeId": "A070",
-    "value": "CG:cis",
+    "value": "CG-phase:cis",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "CodeableConcept",
@@ -7157,7 +7131,7 @@
   {
     "subjectId": "IndAll207",
     "attributeId": "A070",
-    "value": "CG:cis",
+    "value": "CG-phase:cis",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "CodeableConcept",
@@ -7179,7 +7153,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Retinitis Pigmentosa, Autosomal Dominant"
+    "lookupValue": "Retinitis Pigmentosa"
   },
   {
     "subjectId": "IndCond208",
@@ -7188,7 +7162,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "IndCond209",
@@ -7206,7 +7180,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Retinitis Pigmentosa, Autosomal Dominant"
+    "lookupValue": "Retinitis Pigmentosa"
   },
   {
     "subjectId": "IndCond209",
@@ -7215,7 +7189,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "VarInterp210",
@@ -7233,7 +7207,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Retinitis Pigmentosa, Autosomal Dominant"
+    "lookupValue": "Retinitis Pigmentosa"
   },
   {
     "subjectId": "VarInterp210",
@@ -7274,7 +7248,7 @@
   {
     "subjectId": "IndAll211",
     "attributeId": "A070",
-    "value": "CG:cis",
+    "value": "CG-phase:cis",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "CodeableConcept",
@@ -7305,7 +7279,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "VarInterp213",
@@ -7364,7 +7338,7 @@
   {
     "subjectId": "IndAll214",
     "attributeId": "A070",
-    "value": "CG:trans",
+    "value": "CG-phase:trans",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "CodeableConcept",
@@ -7395,7 +7369,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "VarInterp216",
@@ -7436,65 +7410,38 @@
   {
     "subjectId": "CondPenet218",
     "attributeId": "A108",
-    "value": "CG:incomplete",
+    "value": "CG-penetrance-type:incomplete",
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "penetrance",
     "attributeType": "CodeableConcept",
     "lookupValue": "Incomplete"
   },
   {
-    "subjectId": "Reg220",
-    "attributeId": "A052",
-    "value": "RefSeq008",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "lookupValue": "NM_001271208.1"
+    "subjectId": "RegAnn220",
+    "attributeId": "A063",
+    "value": "Loc390",
+    "evidenceDataName": "RegionAnnotation",
+    "attributeName": "region",
+    "attributeType": "Locus",
+    "lookupValue": "Loc390"
   },
   {
-    "subjectId": "Reg220",
-    "attributeId": "A053",
-    "value": 154.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "start",
-    "attributeType": "int",
-    "lookupValue": "154"
-  },
-  {
-    "subjectId": "Reg220",
-    "attributeId": "A054",
-    "value": 183.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "stop",
-    "attributeType": "int",
-    "lookupValue": "183"
-  },
-  {
-    "subjectId": "Reg220",
+    "subjectId": "RegAnn220",
     "attributeId": "A056",
-    "value": "CG:functional",
-    "evidenceDataName": "RegionTypesAndAlleles",
+    "value": "CG-reg-anno-type:functional",
+    "evidenceDataName": "RegionAnnotation",
     "attributeName": "isNotTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Functional"
   },
   {
-    "subjectId": "Reg220",
+    "subjectId": "RegAnn220",
     "attributeId": "A057",
-    "value": "CG:repeat",
-    "evidenceDataName": "RegionTypesAndAlleles",
+    "value": "CG-reg-anno-type:repeat",
+    "evidenceDataName": "RegionAnnotation",
     "attributeName": "isTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Repeat"
-  },
-  {
-    "subjectId": "Reg220",
-    "attributeId": "A058",
-    "value": "CtxAll106",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "includedAlleles",
-    "attributeType": "ContextualAllele",
-    "lookupValue": "NM_001271208.1(NEB):c.169_183delCTGGCACAGCCAGCA"
   },
   {
     "subjectId": "MolCon223",
@@ -7515,49 +7462,22 @@
     "lookupValue": "NM_001271208.1(NEB):c.169_183delCTGGCACAGCCAGCA"
   },
   {
-    "subjectId": "Reg225",
-    "attributeId": "A052",
-    "value": "RegSeq009",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "lookupValue": "RegSeq009"
+    "subjectId": "RegAnn225",
+    "attributeId": "A063",
+    "value": "Loc392",
+    "evidenceDataName": "RegionAnnotation",
+    "attributeName": "region",
+    "attributeType": "Locus",
+    "lookupValue": "Loc392"
   },
   {
-    "subjectId": "Reg225",
-    "attributeId": "A053",
-    "value": 6509.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "start",
-    "attributeType": "int",
-    "lookupValue": "6509"
-  },
-  {
-    "subjectId": "Reg225",
-    "attributeId": "A054",
-    "value": 39262.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "stop",
-    "attributeType": "int",
-    "lookupValue": "39262"
-  },
-  {
-    "subjectId": "Reg225",
+    "subjectId": "RegAnn225",
     "attributeId": "A057",
-    "value": "CG:repeat",
-    "evidenceDataName": "RegionTypesAndAlleles",
+    "value": "CG-reg-anno-type:repeat",
+    "evidenceDataName": "RegionAnnotation",
     "attributeName": "isTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Repeat"
-  },
-  {
-    "subjectId": "Reg225",
-    "attributeId": "A058",
-    "value": "CtxAll107",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "includedAlleles",
-    "attributeType": "ContextualAllele",
-    "lookupValue": "NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC"
   },
   {
     "subjectId": "MolCon227",
@@ -7578,49 +7498,22 @@
     "lookupValue": "NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC"
   },
   {
-    "subjectId": "Reg229",
-    "attributeId": "A052",
-    "value": "RefSeq010",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "lookupValue": "NM_147196.2"
+    "subjectId": "RegAnn229",
+    "attributeId": "A063",
+    "value": "Loc394",
+    "evidenceDataName": "RegionAnnotation",
+    "attributeName": "region",
+    "attributeType": "Locus",
+    "lookupValue": "Loc394"
   },
   {
-    "subjectId": "Reg229",
-    "attributeId": "A053",
-    "value": 522.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "start",
-    "attributeType": "int",
-    "lookupValue": "522"
-  },
-  {
-    "subjectId": "Reg229",
-    "attributeId": "A054",
-    "value": 548.0,
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "stop",
-    "attributeType": "int",
-    "lookupValue": "548"
-  },
-  {
-    "subjectId": "Reg229",
+    "subjectId": "RegAnn229",
     "attributeId": "A057",
-    "value": "CG:repeat",
-    "evidenceDataName": "RegionTypesAndAlleles",
+    "value": "CG-reg-anno-type:repeat",
+    "evidenceDataName": "RegionAnnotation",
     "attributeName": "isTypes",
     "attributeType": "CodeableConcept",
     "lookupValue": "Repeat"
-  },
-  {
-    "subjectId": "Reg229",
-    "attributeId": "A058",
-    "value": "CtxAll108",
-    "evidenceDataName": "RegionTypesAndAlleles",
-    "attributeName": "includedAlleles",
-    "attributeType": "ContextualAllele",
-    "lookupValue": "NM_147196.2(TMIE):c.391_393dupAAG"
   },
   {
     "subjectId": "MolCon231",
@@ -7652,7 +7545,7 @@
   {
     "subjectId": "InSilicoPred232",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -7688,7 +7581,7 @@
   {
     "subjectId": "InSilicoPred233",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -7724,7 +7617,7 @@
   {
     "subjectId": "InSilicoPred234",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -7760,7 +7653,7 @@
   {
     "subjectId": "InSilicoPred235",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -7796,7 +7689,7 @@
   {
     "subjectId": "InSilicoPred236",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -7832,7 +7725,7 @@
   {
     "subjectId": "InSilicoPred237",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -7868,7 +7761,7 @@
   {
     "subjectId": "InSilicoPred238",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -7904,7 +7797,7 @@
   {
     "subjectId": "InSilicoPred239",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -7940,7 +7833,7 @@
   {
     "subjectId": "InSilicoPred240",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -8003,11 +7896,11 @@
   {
     "subjectId": "IndCond242",
     "attributeId": "A017",
-    "value": "MendCond020",
+    "value": "MendCond067",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "hypertrophic cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "hypertrophic cardiomyopathy"
   },
   {
     "subjectId": "IndCond242",
@@ -8016,7 +7909,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "VarInterp243",
@@ -8030,11 +7923,11 @@
   {
     "subjectId": "VarInterp243",
     "attributeId": "A123",
-    "value": "MendCond020",
+    "value": "MendCond067",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "hypertrophic cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "hypertrophic cardiomyopathy"
   },
   {
     "subjectId": "VarInterp243",
@@ -8093,7 +7986,7 @@
   {
     "subjectId": "IndAll245",
     "attributeId": "A068",
-    "value": "CG:het",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "CodeableConcept",
@@ -8102,7 +7995,7 @@
   {
     "subjectId": "IndAll245",
     "attributeId": "A069",
-    "value": "CG:het",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "secondaryZygosity",
     "attributeType": "CodeableConcept",
@@ -8111,7 +8004,7 @@
   {
     "subjectId": "IndAll245",
     "attributeId": "A070",
-    "value": "CG:trans",
+    "value": "CG-phase:trans",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "CodeableConcept",
@@ -8129,11 +8022,11 @@
   {
     "subjectId": "IndCond246",
     "attributeId": "A017",
-    "value": "MendCond010",
+    "value": "MendCond060",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "nonsyndromic deafness, Autosomal Recessive, GIPC3"
+    "lookupValue": "nonsyndromic deafness"
   },
   {
     "subjectId": "IndCond246",
@@ -8142,7 +8035,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "VarInterp247",
@@ -8156,11 +8049,11 @@
   {
     "subjectId": "VarInterp247",
     "attributeId": "A123",
-    "value": "MendCond010",
+    "value": "MendCond060",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "nonsyndromic deafness, Autosomal Recessive, GIPC3"
+    "lookupValue": "nonsyndromic deafness"
   },
   {
     "subjectId": "VarInterp247",
@@ -8183,11 +8076,11 @@
   {
     "subjectId": "VarInterp248",
     "attributeId": "A123",
-    "value": "MendCond010",
+    "value": "MendCond060",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "nonsyndromic deafness, Autosomal Recessive, GIPC3"
+    "lookupValue": "nonsyndromic deafness"
   },
   {
     "subjectId": "VarInterp248",
@@ -8228,7 +8121,7 @@
   {
     "subjectId": "IndAll249",
     "attributeId": "A069",
-    "value": "CG:hom",
+    "value": "CG-allelic-state:hom",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "secondaryZygosity",
     "attributeType": "CodeableConcept",
@@ -8246,7 +8139,7 @@
   {
     "subjectId": "IndCond250",
     "attributeId": "A017",
-    "value": "MendCond021",
+    "value": "MendCond071",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
@@ -8259,7 +8152,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "VarInterp251",
@@ -8273,7 +8166,7 @@
   {
     "subjectId": "VarInterp251",
     "attributeId": "A123",
-    "value": "MendCond021",
+    "value": "MendCond071",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
@@ -8304,7 +8197,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "pseudoachondroplasia"
+    "lookupValue": "Pseudoachondroplastic spondyloepiphyseal dysplasia"
   },
   {
     "subjectId": "IndCond252",
@@ -8313,7 +8206,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "IndAll253",
@@ -8381,11 +8274,11 @@
   {
     "subjectId": "VarInterp255",
     "attributeId": "A123",
-    "value": "MendCond036",
+    "value": "MendCond073",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "hereditary breast ovarian cancer"
+    "lookupValue": "MendCond073"
   },
   {
     "subjectId": "VarInterp255",
@@ -8412,7 +8305,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Breast Cancer"
+    "lookupValue": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2"
   },
   {
     "subjectId": "VarInterp256",
@@ -8439,7 +8332,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "gyrate atrophy"
+    "lookupValue": "Gyrate atrophy of choroid and retina"
   },
   {
     "subjectId": "VarInterp257",
@@ -8462,7 +8355,7 @@
   {
     "subjectId": "InSilicoPred258",
     "attributeId": "A097",
-    "value": "CG:sp",
+    "value": "CG-prediction-type:sp",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -8493,7 +8386,7 @@
     "evidenceDataName": "Conservation",
     "attributeName": "conserved",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "Conserv259",
@@ -8511,7 +8404,7 @@
     "evidenceDataName": "Conservation",
     "attributeName": "score",
     "attributeType": "float",
-    "lookupValue": "-2.297"
+    "lookupValue": -2.297
   },
   {
     "subjectId": "Conserv260",
@@ -8529,7 +8422,7 @@
     "evidenceDataName": "Conservation",
     "attributeName": "conserved",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "Conserv260",
@@ -8547,7 +8440,7 @@
     "evidenceDataName": "Conservation",
     "attributeName": "score",
     "attributeType": "float",
-    "lookupValue": "0.039"
+    "lookupValue": 0.039
   },
   {
     "subjectId": "MolCon261",
@@ -8579,7 +8472,7 @@
   {
     "subjectId": "InSilicoPred262",
     "attributeId": "A097",
-    "value": "CG:sp",
+    "value": "CG-prediction-type:sp",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -8610,7 +8503,7 @@
     "evidenceDataName": "Conservation",
     "attributeName": "conserved",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "Conserv263",
@@ -8628,7 +8521,7 @@
     "evidenceDataName": "Conservation",
     "attributeName": "score",
     "attributeType": "float",
-    "lookupValue": "-0.76"
+    "lookupValue": -0.76
   },
   {
     "subjectId": "Conserv264",
@@ -8646,7 +8539,7 @@
     "evidenceDataName": "Conservation",
     "attributeName": "conserved",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "Conserv264",
@@ -8664,7 +8557,7 @@
     "evidenceDataName": "Conservation",
     "attributeName": "score",
     "attributeType": "float",
-    "lookupValue": "0.63"
+    "lookupValue": 0.63
   },
   {
     "subjectId": "MolCon265",
@@ -8696,7 +8589,7 @@
   {
     "subjectId": "InSilicoPred266",
     "attributeId": "A097",
-    "value": "CG:sp",
+    "value": "CG-prediction-type:sp",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -8727,7 +8620,7 @@
     "evidenceDataName": "Conservation",
     "attributeName": "conserved",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "Conserv267",
@@ -8745,7 +8638,7 @@
     "evidenceDataName": "Conservation",
     "attributeName": "score",
     "attributeType": "float",
-    "lookupValue": "0.45"
+    "lookupValue": 0.45
   },
   {
     "subjectId": "Conserv268",
@@ -8763,7 +8656,7 @@
     "evidenceDataName": "Conservation",
     "attributeName": "conserved",
     "attributeType": "boolean",
-    "lookupValue": "FALSE"
+    "lookupValue": 0
   },
   {
     "subjectId": "Conserv268",
@@ -8781,7 +8674,7 @@
     "evidenceDataName": "Conservation",
     "attributeName": "score",
     "attributeType": "float",
-    "lookupValue": "1"
+    "lookupValue": 1
   },
   {
     "subjectId": "MolCon269",
@@ -8817,7 +8710,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "pseudoachondroplasia"
+    "lookupValue": "Pseudoachondroplastic spondyloepiphyseal dysplasia"
   },
   {
     "subjectId": "VarInterp270",
@@ -8831,7 +8724,7 @@
   {
     "subjectId": "FamSegData271",
     "attributeId": "A081",
-    "value": "MendCond020",
+    "value": "MendCond066",
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
@@ -8862,7 +8755,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
-    "lookupValue": "0"
+    "lookupValue": 0
   },
   {
     "subjectId": "FamSegData271",
@@ -8871,7 +8764,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "phenotypePositiveAlleleNegative",
     "attributeType": "int",
-    "lookupValue": "2"
+    "lookupValue": 2
   },
   {
     "subjectId": "FamSegData271",
@@ -8880,7 +8773,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "anyInconsistentSegregations",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "MolCon272",
@@ -8907,7 +8800,7 @@
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "lof",
     "attributeType": "yes/no/maybe",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "CondMech273",
@@ -8920,8 +8813,17 @@
   },
   {
     "subjectId": "CondMech273",
+    "attributeId": "A012",
+    "value": "MendCond046",
+    "evidenceDataName": "ConditionMechanism",
+    "attributeName": "condition",
+    "attributeType": "MendelianCondition",
+    "lookupValue": "arrhythmogenic right ventricular cardiomyopathy"
+  },
+  {
+    "subjectId": "CondMech273",
     "attributeId": "A003",
-    "value": "CG:established",
+    "value": "CG-cond-mech-strength:established",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
     "attributeType": "CodeableConcept",
@@ -8948,7 +8850,7 @@
   {
     "subjectId": "VarInterp274",
     "attributeId": "A123",
-    "value": "MendCond004",
+    "value": "MendCond063",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
@@ -9019,21 +8921,12 @@
   },
   {
     "subjectId": "CritAssess275",
-    "attributeId": "A118",
-    "value": "-",
-    "evidenceDataName": "CriterionAssessment",
-    "attributeName": "condition",
-    "attributeType": "MendelianCondition",
-    "lookupValue": "-"
-  },
-  {
-    "subjectId": "CritAssess275",
     "attributeId": "A116",
-    "value": "CG:REFUTE",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Refutes Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess275",
@@ -9069,16 +8962,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Breast Ovarian Cancer"
+    "lookupValue": "Breast Ovarian Cancer, Autosomal Dominant"
   },
   {
     "subjectId": "CritAssess276",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess276",
@@ -9110,20 +9003,20 @@
   {
     "subjectId": "CritAssess277",
     "attributeId": "A118",
-    "value": "MendCond002",
+    "value": "MendCond047",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "dilated cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "dilated cardiomyopathy"
   },
   {
     "subjectId": "CritAssess277",
     "attributeId": "A116",
-    "value": "CG:REFUTE",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Refutes Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess277",
@@ -9173,11 +9066,11 @@
   {
     "subjectId": "CritAssess278",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess278",
@@ -9213,16 +9106,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Primary ciliary dyskenisia, Autosomal Recessive"
+    "lookupValue": "Primary ciliary dyskenisia"
   },
   {
     "subjectId": "CritAssess279",
     "attributeId": "A116",
-    "value": "CG:INSUFFICIENT",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Insufficient for Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess279",
@@ -9258,16 +9151,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "costello syndrome, Autosomal Recessive"
+    "lookupValue": "costello syndrome, Autosomal Dominant"
   },
   {
     "subjectId": "CritAssess280",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess280",
@@ -9308,20 +9201,20 @@
   {
     "subjectId": "CritAssess281",
     "attributeId": "A118",
-    "value": "MendCond007",
+    "value": "MendCond052",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "dilated cardiomyopathy"
   },
   {
     "subjectId": "CritAssess281",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess281",
@@ -9357,16 +9250,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "myofibrillar myopathy 1"
+    "lookupValue": "desmin related myopathy"
   },
   {
     "subjectId": "CritAssess282",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess282",
@@ -9407,11 +9300,11 @@
   {
     "subjectId": "CritAssess283",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess283",
@@ -9452,11 +9345,11 @@
   {
     "subjectId": "CritAssess284",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess284",
@@ -9524,11 +9417,11 @@
   {
     "subjectId": "CritAssess285",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess285",
@@ -9569,11 +9462,11 @@
   {
     "subjectId": "CritAssess286",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess286",
@@ -9614,20 +9507,20 @@
   {
     "subjectId": "CritAssess287",
     "attributeId": "A118",
-    "value": "MendCond010",
+    "value": "MendCond048",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "nonsyndromic deafness, Autosomal Recessive, GIPC3"
+    "lookupValue": "Hearing Loss"
   },
   {
     "subjectId": "CritAssess287",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess287",
@@ -9663,16 +9556,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Malignant hyperthermia"
+    "lookupValue": "Malignant hyperthermia, Autosomal Dominant"
   },
   {
     "subjectId": "CritAssess288",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess288",
@@ -9713,11 +9606,11 @@
   {
     "subjectId": "CritAssess289",
     "attributeId": "A116",
-    "value": "CG:INSUFFICIENT",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Insufficient for Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess289",
@@ -9758,11 +9651,11 @@
   {
     "subjectId": "CritAssess290",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess290",
@@ -9803,11 +9696,11 @@
   {
     "subjectId": "CritAssess291",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess291",
@@ -9848,11 +9741,11 @@
   {
     "subjectId": "CritAssess292",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess292",
@@ -9893,11 +9786,11 @@
   {
     "subjectId": "CritAssess293",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess293",
@@ -9947,11 +9840,11 @@
   {
     "subjectId": "CritAssess294",
     "attributeId": "A116",
-    "value": "CG:REFUTE",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Refutes Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess294",
@@ -9992,11 +9885,11 @@
   {
     "subjectId": "CritAssess295",
     "attributeId": "A116",
-    "value": "CG:INSUFFICIENT",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Insufficient for Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess295",
@@ -10028,7 +9921,7 @@
   {
     "subjectId": "CritAssess296",
     "attributeId": "A118",
-    "value": "MendCond004",
+    "value": "MendCond062",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
@@ -10037,11 +9930,11 @@
   {
     "subjectId": "CritAssess296",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess296",
@@ -10082,11 +9975,11 @@
   {
     "subjectId": "CritAssess297",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess297",
@@ -10127,11 +10020,11 @@
   {
     "subjectId": "CritAssess298",
     "attributeId": "A116",
-    "value": "CG:INSUFFICIENT",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Insufficient for Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess298",
@@ -10172,11 +10065,11 @@
   {
     "subjectId": "CritAssess299",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess299",
@@ -10217,11 +10110,11 @@
   {
     "subjectId": "CritAssess300",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess300",
@@ -10262,11 +10155,11 @@
   {
     "subjectId": "CritAssess301",
     "attributeId": "A116",
-    "value": "CG:REFUTE",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Refutes Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess301",
@@ -10302,16 +10195,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "hypertrophic cardiomyopathy"
+    "lookupValue": "Primary familial hypertrophic cardiomyopathy, Autosomal Dominant"
   },
   {
     "subjectId": "CritAssess302",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess302",
@@ -10370,11 +10263,11 @@
   {
     "subjectId": "CritAssess303",
     "attributeId": "A116",
-    "value": "CG:INSUFFICIENT",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Insufficient for Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess303",
@@ -10406,20 +10299,20 @@
   {
     "subjectId": "CritAssess304",
     "attributeId": "A118",
-    "value": "MendCond001",
+    "value": "MendCond050",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Breast Ovarian Cancer"
+    "lookupValue": "Breast Ovarian Cancer, Autosomal Dominant"
   },
   {
     "subjectId": "CritAssess304",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess304",
@@ -10460,11 +10353,11 @@
   {
     "subjectId": "CritAssess305",
     "attributeId": "A116",
-    "value": "CG:INSUFFICIENT",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Insufficient for Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess305",
@@ -10505,11 +10398,11 @@
   {
     "subjectId": "CritAssess306",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess306",
@@ -10554,16 +10447,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
+    "lookupValue": "cardiofaciocutaneous syndrome"
   },
   {
     "subjectId": "CritAssess307",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess307",
@@ -10595,20 +10488,20 @@
   {
     "subjectId": "CritAssess308",
     "attributeId": "A118",
-    "value": "MendCond019",
+    "value": "MendCond068",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "cardiofaciocutaneous syndrome, Autosomal Dominant"
+    "lookupValue": "cardiofaciocutaneous syndrome"
   },
   {
     "subjectId": "CritAssess308",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess308",
@@ -10658,20 +10551,20 @@
   {
     "subjectId": "CritAssess309",
     "attributeId": "A118",
-    "value": "MendCond016",
+    "value": "MendCond020",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "hypertrophic cardiomyopathy"
+    "lookupValue": "hypertrophic cardiomyopathy, Autosomal Dominant"
   },
   {
     "subjectId": "CritAssess309",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess309",
@@ -10712,11 +10605,11 @@
   {
     "subjectId": "CritAssess310",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess310",
@@ -10748,20 +10641,20 @@
   {
     "subjectId": "CritAssess311",
     "attributeId": "A118",
-    "value": "MendCond001",
+    "value": "MendCond051",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Breast Ovarian Cancer"
+    "lookupValue": "Breast Ovarian Cancer, Autosomal Dominant"
   },
   {
     "subjectId": "CritAssess311",
     "attributeId": "A116",
-    "value": "CG:INSUFFICIENT",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Insufficient for Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess311",
@@ -10802,11 +10695,11 @@
   {
     "subjectId": "CritAssess312",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess312",
@@ -10847,11 +10740,11 @@
   {
     "subjectId": "CritAssess313",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess313",
@@ -10892,11 +10785,11 @@
   {
     "subjectId": "CritAssess314",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess314",
@@ -10937,11 +10830,11 @@
   {
     "subjectId": "CritAssess315",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess315",
@@ -10982,11 +10875,11 @@
   {
     "subjectId": "CritAssess316",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess316",
@@ -11022,16 +10915,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "hereditary hemorrhagic telangiectasia"
+    "lookupValue": "hereditary hemorrhagic telangiectasia, Autosomal Dominant"
   },
   {
     "subjectId": "CritAssess318",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess318",
@@ -11063,20 +10956,20 @@
   {
     "subjectId": "CritAssess319",
     "attributeId": "A118",
-    "value": "MendCond020",
+    "value": "MendCond064",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "hypertrophic cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "hypertrophic cardiomyopathy"
   },
   {
     "subjectId": "CritAssess319",
     "attributeId": "A116",
-    "value": "CG:REFUTE",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Refutes Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess319",
@@ -11112,16 +11005,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2"
+    "lookupValue": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2, Autosomal Dominant"
   },
   {
     "subjectId": "CritAssess320",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess320",
@@ -11157,16 +11050,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Distal myopathy with posterior leg and anterior hand involvement"
+    "lookupValue": "Myopathy, Distal, type 4, Autosomal Dominant"
   },
   {
     "subjectId": "CritAssess321",
     "attributeId": "A116",
-    "value": "CG:INSUFFICIENT",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Insufficient for Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess321",
@@ -11202,16 +11095,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Cystic Fibrosis"
+    "lookupValue": "Cystic Fibrosis, Autosomal Recessive"
   },
   {
     "subjectId": "CritAssess322",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess322",
@@ -11252,11 +11145,11 @@
   {
     "subjectId": "CritAssess323",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess323",
@@ -11297,11 +11190,11 @@
   {
     "subjectId": "CritAssess324",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess324",
@@ -11342,7 +11235,7 @@
   {
     "subjectId": "CritAssess325",
     "attributeId": "A118",
-    "value": "MendCond004",
+    "value": "MendCond045",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
@@ -11351,11 +11244,11 @@
   {
     "subjectId": "CritAssess325",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess325",
@@ -11396,11 +11289,11 @@
   {
     "subjectId": "CritAssess326",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess326",
@@ -11441,11 +11334,11 @@
   {
     "subjectId": "CritAssess327",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess327",
@@ -11481,16 +11374,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Perrault Syndrome, Autosomal Dominant"
+    "lookupValue": "Perrault Syndrome, Autosomal Recessive"
   },
   {
     "subjectId": "CritAssess328",
     "attributeId": "A116",
-    "value": "CG:INSUFFICIENT",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Insufficient for Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess328",
@@ -11531,11 +11424,11 @@
   {
     "subjectId": "CritAssess329",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess329",
@@ -11585,11 +11478,11 @@
   {
     "subjectId": "CritAssess330",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess330",
@@ -11648,20 +11541,20 @@
   {
     "subjectId": "CritAssess331",
     "attributeId": "A118",
-    "value": "MendCond026",
+    "value": "MendCond072",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Marfan Syndrome, Autosomal Dominant"
+    "lookupValue": "MendCond072"
   },
   {
     "subjectId": "CritAssess331",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess331",
@@ -11711,11 +11604,11 @@
   {
     "subjectId": "CritAssess333",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess333",
@@ -11765,11 +11658,11 @@
   {
     "subjectId": "CritAssess334",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess334",
@@ -11814,16 +11707,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Familial Hypercholesterolemia"
+    "lookupValue": "Hypercholesterolemia, Familial, Autosomal Dominant"
   },
   {
     "subjectId": "CritAssess335",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess335",
@@ -11855,7 +11748,7 @@
   {
     "subjectId": "CritAssess336",
     "attributeId": "A118",
-    "value": "MendCond020",
+    "value": "MendCond065",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
@@ -11864,11 +11757,11 @@
   {
     "subjectId": "CritAssess336",
     "attributeId": "A116",
-    "value": "CG:INSUFFICIENT",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Insufficient for Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess336",
@@ -11900,7 +11793,7 @@
   {
     "subjectId": "CritAssess337",
     "attributeId": "A118",
-    "value": "MendCond020",
+    "value": "MendCond066",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
@@ -11909,11 +11802,11 @@
   {
     "subjectId": "CritAssess337",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess337",
@@ -11949,16 +11842,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "hereditary breast ovarian cancer"
+    "lookupValue": "hereditary breast and ovarian cancer"
   },
   {
     "subjectId": "CritAssess338",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess338",
@@ -11999,11 +11892,11 @@
   {
     "subjectId": "CritAssess339",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess339",
@@ -12035,20 +11928,20 @@
   {
     "subjectId": "CritAssess340",
     "attributeId": "A118",
-    "value": "MendCond010",
+    "value": "MendCond059",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "nonsyndromic deafness, Autosomal Recessive, GIPC3"
+    "lookupValue": "Hearing Loss, Autosomal Recessive"
   },
   {
     "subjectId": "CritAssess340",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess340",
@@ -12080,20 +11973,20 @@
   {
     "subjectId": "CritAssess341",
     "attributeId": "A118",
-    "value": "MendCond002",
+    "value": "MendCond053",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "dilated cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "dilated cardiomyopathy"
   },
   {
     "subjectId": "CritAssess341",
     "attributeId": "A116",
-    "value": "CG:REFUTE",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Refutes Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess341",
@@ -12129,16 +12022,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Retinitis Pigmentosa, Autosomal Dominant"
+    "lookupValue": "Retinitis Pigmentosa"
   },
   {
     "subjectId": "CritAssess342",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess342",
@@ -12188,11 +12081,11 @@
   {
     "subjectId": "CritAssess343",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess343",
@@ -12233,11 +12126,11 @@
   {
     "subjectId": "CritAssess344",
     "attributeId": "A116",
-    "value": "CG:INSUFFICIENT",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Insufficient for Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess344",
@@ -12278,11 +12171,11 @@
   {
     "subjectId": "CritAssess345",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess345",
@@ -12323,11 +12216,11 @@
   {
     "subjectId": "CritAssess346",
     "attributeId": "A116",
-    "value": "CG:REFUTE",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Refutes Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess346",
@@ -12368,11 +12261,11 @@
   {
     "subjectId": "CritAssess347",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess347",
@@ -12413,11 +12306,11 @@
   {
     "subjectId": "CritAssess348",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess348",
@@ -12458,11 +12351,11 @@
   {
     "subjectId": "CritAssess350",
     "attributeId": "A116",
-    "value": "CG:INSUFFICIENT",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Insufficient for Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess350",
@@ -12494,20 +12387,20 @@
   {
     "subjectId": "CritAssess351",
     "attributeId": "A118",
-    "value": "MendCond020",
+    "value": "MendCond067",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "hypertrophic cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "hypertrophic cardiomyopathy"
   },
   {
     "subjectId": "CritAssess351",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess351",
@@ -12539,20 +12432,20 @@
   {
     "subjectId": "CritAssess352",
     "attributeId": "A118",
-    "value": "MendCond010",
+    "value": "MendCond060",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "nonsyndromic deafness, Autosomal Recessive, GIPC3"
+    "lookupValue": "nonsyndromic deafness"
   },
   {
     "subjectId": "CritAssess352",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess352",
@@ -12584,7 +12477,7 @@
   {
     "subjectId": "CritAssess353",
     "attributeId": "A118",
-    "value": "MendCond021",
+    "value": "MendCond071",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
@@ -12593,11 +12486,11 @@
   {
     "subjectId": "CritAssess353",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess353",
@@ -12633,16 +12526,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "spondyloepiphyseal dysplasia congenita"
+    "lookupValue": "Primary bone dysplasia"
   },
   {
     "subjectId": "CritAssess354",
     "attributeId": "A116",
-    "value": "CG:INSUFFICIENT",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Insufficient for Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess354",
@@ -12674,20 +12567,20 @@
   {
     "subjectId": "CritAssess355",
     "attributeId": "A118",
-    "value": "MendCond036",
+    "value": "MendCond073",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "hereditary breast ovarian cancer"
+    "lookupValue": "MendCond073"
   },
   {
     "subjectId": "CritAssess355",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess355",
@@ -12723,16 +12616,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "Breast Cancer"
+    "lookupValue": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2"
   },
   {
     "subjectId": "CritAssess356",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess356",
@@ -12768,16 +12661,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "gyrate atrophy"
+    "lookupValue": "Gyrate atrophy of choroid and retina"
   },
   {
     "subjectId": "CritAssess357",
     "attributeId": "A116",
-    "value": "CG:INSUFFICIENT",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Insufficient for Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess357",
@@ -12818,11 +12711,11 @@
   {
     "subjectId": "CritAssess358",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess358",
@@ -12863,11 +12756,11 @@
   {
     "subjectId": "CritAssess359",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess359",
@@ -12908,11 +12801,11 @@
   {
     "subjectId": "CritAssess360",
     "attributeId": "A116",
-    "value": "CG:INSUFFICIENT",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Insufficient for Rule"
+    "lookupValue": "Not Met"
   },
   {
     "subjectId": "CritAssess360",
@@ -12948,16 +12841,16 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "arrhythmogenic right ventricular cardiomyopathy, Autosomal Dominant"
+    "lookupValue": "arrhythmogenic right ventricular cardiomyopathy"
   },
   {
     "subjectId": "CritAssess361",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess361",
@@ -12980,7 +12873,7 @@
   {
     "subjectId": "InSilicoPred362",
     "attributeId": "A097",
-    "value": "CG:me",
+    "value": "CG-prediction-type:me",
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "type",
     "attributeType": "CodeableConcept",
@@ -13025,20 +12918,20 @@
   {
     "subjectId": "CritAssess363",
     "attributeId": "A118",
-    "value": "MendCond010",
+    "value": "MendCond058",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "nonsyndromic deafness, Autosomal Recessive, GIPC3"
+    "lookupValue": "Hearing Loss"
   },
   {
     "subjectId": "CritAssess363",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess363",
@@ -13061,11 +12954,11 @@
   {
     "subjectId": "VarInterp364",
     "attributeId": "A123",
-    "value": "MendCond010",
+    "value": "MendCond058",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "nonsyndromic deafness, Autosomal Recessive, GIPC3"
+    "lookupValue": "Hearing Loss"
   },
   {
     "subjectId": "VarInterp364",
@@ -13088,11 +12981,11 @@
   {
     "subjectId": "VarInterp365",
     "attributeId": "A123",
-    "value": "MendCond010",
+    "value": "MendCond058",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "nonsyndromic deafness, Autosomal Recessive, GIPC3"
+    "lookupValue": "Hearing Loss"
   },
   {
     "subjectId": "VarInterp365",
@@ -13133,7 +13026,7 @@
   {
     "subjectId": "IndAll366",
     "attributeId": "A070",
-    "value": "CG:trans",
+    "value": "CG-phase:trans",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "CodeableConcept",
@@ -13169,7 +13062,7 @@
   {
     "subjectId": "IndAll367",
     "attributeId": "A070",
-    "value": "CG:trans",
+    "value": "CG-phase:trans",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "CodeableConcept",
@@ -13187,11 +13080,11 @@
   {
     "subjectId": "IndCond368",
     "attributeId": "A017",
-    "value": "MendCond010",
+    "value": "MendCond058",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "nonsyndromic deafness, Autosomal Recessive, GIPC3"
+    "lookupValue": "Hearing Loss"
   },
   {
     "subjectId": "IndCond368",
@@ -13200,7 +13093,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "hasCondition",
     "attributeType": "boolean",
-    "lookupValue": "TRUE"
+    "lookupValue": 1
   },
   {
     "subjectId": "CritAssess369",
@@ -13223,11 +13116,11 @@
   {
     "subjectId": "CritAssess369",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess369",
@@ -13250,7 +13143,7 @@
   {
     "subjectId": "AllFreq370",
     "attributeId": "A047",
-    "value": "EX:nfe",
+    "value": "EXAC:NFE",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
@@ -13272,7 +13165,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleCount",
     "attributeType": "int",
-    "lookupValue": "1"
+    "lookupValue": 1
   },
   {
     "subjectId": "AllFreq370",
@@ -13281,7 +13174,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleNumber",
     "attributeType": "int",
-    "lookupValue": "66564"
+    "lookupValue": 66564
   },
   {
     "subjectId": "AllFreq370",
@@ -13290,7 +13183,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "alleleFrequency",
     "attributeType": "float",
-    "lookupValue": "1.50E-05"
+    "lookupValue": 1.5e-05
   },
   {
     "subjectId": "AllFreq370",
@@ -13299,7 +13192,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "homozygousAlleleIndividualCount",
     "attributeType": "int",
-    "lookupValue": "0"
+    "lookupValue": 0
   },
   {
     "subjectId": "CritAssess371",
@@ -13322,11 +13215,11 @@
   {
     "subjectId": "CritAssess371",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess371",
@@ -13357,12 +13250,21 @@
   },
   {
     "subjectId": "CritAssess372",
+    "attributeId": "A118",
+    "value": "MendCond057",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "condition",
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Hearing Loss"
+  },
+  {
+    "subjectId": "CritAssess372",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess372",
@@ -13394,11 +13296,11 @@
   {
     "subjectId": "CritAssess373",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess373",
@@ -13430,11 +13332,11 @@
   {
     "subjectId": "CritAssess374",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess374",
@@ -13465,12 +13367,21 @@
   },
   {
     "subjectId": "CritAssess375",
+    "attributeId": "A118",
+    "value": "MendCond056",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "condition",
+    "attributeType": "MendelianCondition",
+    "lookupValue": "noonan syndrome, Autosomal Dominant"
+  },
+  {
+    "subjectId": "CritAssess375",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess375",
@@ -13502,11 +13413,11 @@
   {
     "subjectId": "CritAssess376",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess376",
@@ -13537,12 +13448,21 @@
   },
   {
     "subjectId": "CritAssess377",
+    "attributeId": "A118",
+    "value": "MendCond069",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "condition",
+    "attributeType": "MendelianCondition",
+    "lookupValue": "cardiofaciocutaneous syndrome"
+  },
+  {
+    "subjectId": "CritAssess377",
     "attributeId": "A116",
-    "value": "CG:MET",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Evidence Satisfies Rule"
+    "lookupValue": "Met"
   },
   {
     "subjectId": "CritAssess377",
@@ -13551,5 +13471,476 @@
     "attributeName": "hasSupportingEvidence",
     "attributeType": "EvidenceLine",
     "lookupValue": ""
+  },
+  {
+    "subjectId": "CritAssess378",
+    "attributeId": "A115",
+    "value": "PM5",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "criterion",
+    "attributeType": "Criterion",
+    "lookupValue": "Novel missense at same amino acid as known pathogenic missense"
+  },
+  {
+    "subjectId": "CritAssess378",
+    "attributeId": "A117",
+    "value": "CanAll125",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "variant",
+    "attributeType": "CanonicalAllele",
+    "lookupValue": "NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln)"
+  },
+  {
+    "subjectId": "CritAssess378",
+    "attributeId": "A118",
+    "value": "MendCond049",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "condition",
+    "attributeType": "MendelianCondition",
+    "lookupValue": "Rasopathy"
+  },
+  {
+    "subjectId": "CritAssess378",
+    "attributeId": "A116",
+    "value": "CG-criterion-outcome:met",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "outcome",
+    "attributeType": "CodeableConcept",
+    "lookupValue": "Met"
+  },
+  {
+    "subjectId": "CritAssess378",
+    "attributeId": "A055",
+    "value": "EvLn130",
+    "evidenceDataName": "CriterionAssessment",
+    "attributeName": "hasSupportingEvidence",
+    "attributeType": "EvidenceLine",
+    "lookupValue": ""
+  },
+  {
+    "subjectId": "Loc379",
+    "attributeId": "A052",
+    "value": "RefSeq002",
+    "evidenceDataName": "Locus",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "NP_005219.2"
+  },
+  {
+    "subjectId": "Loc379",
+    "attributeId": "A053",
+    "value": 704.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 704
+  },
+  {
+    "subjectId": "Loc379",
+    "attributeId": "A054",
+    "value": 1016.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 1016
+  },
+  {
+    "subjectId": "RegAll380",
+    "attributeId": "A071",
+    "value": "Loc379",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "region",
+    "attributeType": "Locus",
+    "lookupValue": "Loc379"
+  },
+  {
+    "subjectId": "RegAll380",
+    "attributeId": "A058",
+    "value": "CtxAll126",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NP_005219.2:p.Thr790Met"
+  },
+  {
+    "subjectId": "Loc381",
+    "attributeId": "A052",
+    "value": "RefSeq003",
+    "evidenceDataName": "Locus",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "NM_004333.4"
+  },
+  {
+    "subjectId": "Loc381",
+    "attributeId": "A053",
+    "value": 1803.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 1803
+  },
+  {
+    "subjectId": "Loc381",
+    "attributeId": "A054",
+    "value": 1921.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 1921
+  },
+  {
+    "subjectId": "RegAll382",
+    "attributeId": "A071",
+    "value": "Loc381",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "region",
+    "attributeType": "Locus",
+    "lookupValue": "Loc381"
+  },
+  {
+    "subjectId": "RegAll382",
+    "attributeId": "A058",
+    "value": "CtxAll029",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_004333.4(BRAF):c.1789C>G"
+  },
+  {
+    "subjectId": "Loc383",
+    "attributeId": "A052",
+    "value": "RefSeq004",
+    "evidenceDataName": "Locus",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "NM_000169.2"
+  },
+  {
+    "subjectId": "Loc383",
+    "attributeId": "A053",
+    "value": 996.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 996
+  },
+  {
+    "subjectId": "Loc383",
+    "attributeId": "A054",
+    "value": 1012.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 1012
+  },
+  {
+    "subjectId": "RegAll384",
+    "attributeId": "A071",
+    "value": "Loc383",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "region",
+    "attributeType": "Locus",
+    "lookupValue": "Loc383"
+  },
+  {
+    "subjectId": "RegAll384",
+    "attributeId": "A058",
+    "value": "CtxAll031",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_000169.2(GLA): c.886A>G"
+  },
+  {
+    "subjectId": "RegAll384",
+    "attributeId": "A058",
+    "value": "CtxAll032",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_000169.2(GLA):c.890C>T"
+  },
+  {
+    "subjectId": "RegAll384",
+    "attributeId": "A058",
+    "value": "CtxAll033",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_000169.2(GLA):c.899T>C"
+  },
+  {
+    "subjectId": "RegAll384",
+    "attributeId": "A058",
+    "value": "CtxAll034",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_000169.2(GLA):c.902G>A"
+  },
+  {
+    "subjectId": "Loc385",
+    "attributeId": "A052",
+    "value": "RefSeq005",
+    "evidenceDataName": "Locus",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "NP_001360.1"
+  },
+  {
+    "subjectId": "Loc385",
+    "attributeId": "A053",
+    "value": 2490.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 2490
+  },
+  {
+    "subjectId": "Loc385",
+    "attributeId": "A054",
+    "value": 2496.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 2496
+  },
+  {
+    "subjectId": "Loc386",
+    "attributeId": "A052",
+    "value": "RefSeq006",
+    "evidenceDataName": "Locus",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "NP_056375.2"
+  },
+  {
+    "subjectId": "Loc386",
+    "attributeId": "A053",
+    "value": 35.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 35
+  },
+  {
+    "subjectId": "Loc386",
+    "attributeId": "A054",
+    "value": 43.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 43
+  },
+  {
+    "subjectId": "Loc387",
+    "attributeId": "A052",
+    "value": "RefSeq007",
+    "evidenceDataName": "Locus",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "NP_003915.2"
+  },
+  {
+    "subjectId": "Loc387",
+    "attributeId": "A053",
+    "value": 241.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 241
+  },
+  {
+    "subjectId": "Loc387",
+    "attributeId": "A054",
+    "value": 260.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 260
+  },
+  {
+    "subjectId": "Loc388",
+    "attributeId": "A052",
+    "evidenceDataName": "Locus",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": ""
+  },
+  {
+    "subjectId": "Loc388",
+    "attributeId": "A053",
+    "evidenceDataName": "Locus",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": ""
+  },
+  {
+    "subjectId": "Loc388",
+    "attributeId": "A054",
+    "evidenceDataName": "Locus",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": ""
+  },
+  {
+    "subjectId": "Loc389",
+    "attributeId": "A052",
+    "evidenceDataName": "Locus",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": ""
+  },
+  {
+    "subjectId": "Loc389",
+    "attributeId": "A053",
+    "evidenceDataName": "Locus",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": ""
+  },
+  {
+    "subjectId": "Loc389",
+    "attributeId": "A054",
+    "evidenceDataName": "Locus",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": ""
+  },
+  {
+    "subjectId": "Loc390",
+    "attributeId": "A052",
+    "value": "RefSeq008",
+    "evidenceDataName": "Locus",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "NM_001271208.1"
+  },
+  {
+    "subjectId": "Loc390",
+    "attributeId": "A053",
+    "value": 154.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 154
+  },
+  {
+    "subjectId": "Loc390",
+    "attributeId": "A054",
+    "value": 183.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 183
+  },
+  {
+    "subjectId": "RegAll391",
+    "attributeId": "A071",
+    "value": "Loc390",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "region",
+    "attributeType": "Locus",
+    "lookupValue": "Loc390"
+  },
+  {
+    "subjectId": "RegAll391",
+    "attributeId": "A058",
+    "value": "CtxAll106",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_001271208.1(NEB):c.169_183delCTGGCACAGCCAGCA"
+  },
+  {
+    "subjectId": "Loc392",
+    "attributeId": "A052",
+    "value": "RegSeq009",
+    "evidenceDataName": "Locus",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "RegSeq009"
+  },
+  {
+    "subjectId": "Loc392",
+    "attributeId": "A053",
+    "value": 6509.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 6509
+  },
+  {
+    "subjectId": "Loc392",
+    "attributeId": "A054",
+    "value": 39262.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 39262
+  },
+  {
+    "subjectId": "RegAll393",
+    "attributeId": "A071",
+    "value": "Loc392",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "region",
+    "attributeType": "Locus",
+    "lookupValue": "Loc392"
+  },
+  {
+    "subjectId": "RegAll393",
+    "attributeId": "A058",
+    "value": "CtxAll107",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC"
+  },
+  {
+    "subjectId": "Loc394",
+    "attributeId": "A052",
+    "value": "RefSeq010",
+    "evidenceDataName": "Locus",
+    "attributeName": "referenceSequence",
+    "attributeType": "ReferenceSequence",
+    "lookupValue": "NM_147196.2"
+  },
+  {
+    "subjectId": "Loc394",
+    "attributeId": "A053",
+    "value": 522.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "start",
+    "attributeType": "int",
+    "lookupValue": 522
+  },
+  {
+    "subjectId": "Loc394",
+    "attributeId": "A054",
+    "value": 548.0,
+    "evidenceDataName": "Locus",
+    "attributeName": "stop",
+    "attributeType": "int",
+    "lookupValue": 548
+  },
+  {
+    "subjectId": "RegAll395",
+    "attributeId": "A071",
+    "value": "Loc394",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "region",
+    "attributeType": "Locus",
+    "lookupValue": "Loc394"
+  },
+  {
+    "subjectId": "RegAll395",
+    "attributeId": "A058",
+    "value": "CtxAll108",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "includedAlleles",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "NM_147196.2(TMIE):c.391_393dupAAG"
   }
 ]

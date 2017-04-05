@@ -3,252 +3,276 @@
     "contextualAlleleID": "CtxAll005",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll007",
-    "description": "NM_002834.3(PTPN11):c.855T>G (p.Phe285Leu) - produces - NP_002825.3:p.Phe285Leu"
+    "description": "NM_002834.3(PTPN11):c.855T>G (p.Phe285Leu) - 0003000 - NP_002825.3:p.Phe285Leu"
   },
   {
     "contextualAlleleID": "CtxAll006",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll007",
-    "description": "NM_002834.3(PTPN11):c.853T>C (p.Phe285Leu) - produces - NP_002825.3:p.Phe285Leu"
+    "description": "NM_002834.3(PTPN11):c.853T>C (p.Phe285Leu) - 0003000 - NP_002825.3:p.Phe285Leu"
   },
   {
     "contextualAlleleID": "CtxAll007",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll005",
-    "description": "NP_002825.3:p.Phe285Leu - produced-by - NM_002834.3(PTPN11):c.855T>G (p.Phe285Leu)"
+    "description": "NP_002825.3:p.Phe285Leu - 0003001 - NM_002834.3(PTPN11):c.855T>G (p.Phe285Leu)"
   },
   {
     "contextualAlleleID": "CtxAll007",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll006",
-    "description": "NP_002825.3:p.Phe285Leu - produced-by - NM_002834.3(PTPN11):c.853T>C (p.Phe285Leu)"
+    "description": "NP_002825.3:p.Phe285Leu - 0003001 - NM_002834.3(PTPN11):c.853T>C (p.Phe285Leu)"
   },
   {
     "contextualAlleleID": "CtxAll008",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll010",
-    "description": "NM_001369.2(DNAH5):c.6249G>C (p.Met2083Ile) - produces - NP_001360.1:p.Met2083Ile"
+    "description": "NM_001369.2(DNAH5):c.6249G>C (p.Met2083Ile) - 0003000 - NP_001360.1:p.Met2083Ile"
   },
   {
     "contextualAlleleID": "CtxAll009",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll010",
-    "description": "NM_001369.2(DNAH5):c.6249G>A (p.Met2083Ile) - produces - NP_001360.1:p.Met2083Ile"
+    "description": "NM_001369.2(DNAH5):c.6249G>A (p.Met2083Ile) - 0003000 - NP_001360.1:p.Met2083Ile"
   },
   {
     "contextualAlleleID": "CtxAll010",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll008",
-    "description": "NP_001360.1:p.Met2083Ile - produced-by - NM_001369.2(DNAH5):c.6249G>C (p.Met2083Ile)"
+    "description": "NP_001360.1:p.Met2083Ile - 0003001 - NM_001369.2(DNAH5):c.6249G>C (p.Met2083Ile)"
   },
   {
     "contextualAlleleID": "CtxAll010",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll009",
-    "description": "NP_001360.1:p.Met2083Ile - produced-by - NM_001369.2(DNAH5):c.6249G>A (p.Met2083Ile)"
+    "description": "NP_001360.1:p.Met2083Ile - 0003001 - NM_001369.2(DNAH5):c.6249G>A (p.Met2083Ile)"
   },
   {
     "contextualAlleleID": "CtxAll012",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll015",
-    "description": "NM_176795.4(HRAS):c.173C>T (p.Thr58Ile) - produces - NP_005334.1:p.Thr58Ile"
+    "description": "NM_176795.4(HRAS):c.173C>T (p.Thr58Ile) - 0003000 - NP_005334.1:p.Thr58Ile"
   },
   {
     "contextualAlleleID": "CtxAll014",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll016",
-    "description": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) - produces - NP_004976.2:p.Thr58Ile"
+    "description": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) - 0003000 - NP_004976.2:p.Thr58Ile"
   },
   {
     "contextualAlleleID": "CtxAll015",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll012",
-    "description": "NP_005334.1:p.Thr58Ile - produced-by - NM_176795.4(HRAS):c.173C>T (p.Thr58Ile)"
+    "description": "NP_005334.1:p.Thr58Ile - 0003001 - NM_176795.4(HRAS):c.173C>T (p.Thr58Ile)"
   },
   {
     "contextualAlleleID": "CtxAll016",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll014",
-    "description": "NP_004976.2:p.Thr58Ile - produced-by - NM_004985.4(KRAS):c.173C>T (p.Thr58Ile)"
+    "description": "NP_004976.2:p.Thr58Ile - 0003001 - NM_004985.4(KRAS):c.173C>T (p.Thr58Ile)"
   },
   {
     "contextualAlleleID": "CtxAll020",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll021",
-    "description": "NM_001001431.2(TNNT2):c.391C>T - produces - NP_001001431.1:p.Arg131Trp"
+    "description": "NM_001001431.2(TNNT2):c.391C>T - 0003000 - NP_001001431.1:p.Arg131Trp"
   },
   {
     "contextualAlleleID": "CtxAll021",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll020",
-    "description": "NP_001001431.1:p.Arg131Trp - produced-by - NM_001001431.2(TNNT2):c.391C>T"
+    "description": "NP_001001431.1:p.Arg131Trp - 0003001 - NM_001001431.2(TNNT2):c.391C>T"
   },
   {
     "contextualAlleleID": "CtxAll023",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll024",
-    "description": "NM_004333.4(BRAF):c.1787G>T - produces - NP_004324.2:p.Gly596Val"
+    "description": "NM_004333.4(BRAF):c.1787G>T - 0003000 - NP_004324.2:p.Gly596Val"
   },
   {
     "contextualAlleleID": "CtxAll024",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll023",
-    "description": "NP_004324.2:p.Gly596Val - produced-by - NM_004333.4(BRAF):c.1787G>T"
+    "description": "NP_004324.2:p.Gly596Val - 0003001 - NM_004333.4(BRAF):c.1787G>T"
   },
   {
     "contextualAlleleID": "CtxAll039",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll044",
-    "description": "NM_001369.2(DNAH5):c.7468_7488del - produces - NP_001360.1:p.Trp2490_Leu2496del"
+    "description": "NM_001369.2(DNAH5):c.7468_7488del - 0003000 - NP_001360.1:p.Trp2490_Leu2496del"
   },
   {
     "contextualAlleleID": "CtxAll044",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll039",
-    "description": "NP_001360.1:p.Trp2490_Leu2496del - produced-by - NM_001369.2(DNAH5):c.7468_7488del"
+    "description": "NP_001360.1:p.Trp2490_Leu2496del - 0003001 - NM_001369.2(DNAH5):c.7468_7488del"
   },
   {
     "contextualAlleleID": "CtxAll045",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll046",
-    "description": "NM_015560.2(OPA1):c.113_130del18 - produces - NP_056375.2:p.Arg38_Ser43del"
+    "description": "NM_015560.2(OPA1):c.113_130del18 - 0003000 - NP_056375.2:p.Arg38_Ser43del"
   },
   {
     "contextualAlleleID": "CtxAll046",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll045",
-    "description": "NP_056375.2:p.Arg38_Ser43del - produced-by - NM_015560.2(OPA1):c.113_130del18"
+    "description": "NP_056375.2:p.Arg38_Ser43del - 0003001 - NM_015560.2(OPA1):c.113_130del18"
   },
   {
     "contextualAlleleID": "CtxAll047",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll048",
-    "description": "NM_003924.3(PHOX2B):c.753_767dup - produces - NP_003915.2:p.Ala260_Gly261insAlaAlaAlaAlaAla"
+    "description": "NM_003924.3(PHOX2B):c.753_767dup - 0003000 - NP_003915.2:p.Ala260_Gly261insAlaAlaAlaAlaAla"
   },
   {
     "contextualAlleleID": "CtxAll048",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll047",
-    "description": "NP_003915.2:p.Ala260_Gly261insAlaAlaAlaAlaAla - produced-by - NM_003924.3(PHOX2B):c.753_767dup"
+    "description": "NP_003915.2:p.Ala260_Gly261insAlaAlaAlaAlaAla - 0003001 - NM_003924.3(PHOX2B):c.753_767dup"
   },
   {
     "contextualAlleleID": "CtxAll049",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll050",
-    "description": "NM_000363.4(TNNI3):c.485G>A - produces - NP_000354.4:p.Arg162Gln"
+    "description": "NM_000363.4(TNNI3):c.485G>A - 0003000 - NP_000354.4:p.Arg162Gln"
   },
   {
     "contextualAlleleID": "CtxAll050",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll049",
-    "description": "NP_000354.4:p.Arg162Gln - produced-by - NM_000363.4(TNNI3):c.485G>A"
+    "description": "NP_000354.4:p.Arg162Gln - 0003001 - NM_000363.4(TNNI3):c.485G>A"
   },
   {
     "contextualAlleleID": "CtxAll051",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll052",
-    "description": "NM_000363.4(TNNI3):c.485G>C - produces - NP_000354.4:p.Arg162Pro"
+    "description": "NM_000363.4(TNNI3):c.485G>C - 0003000 - NP_000354.4:p.Arg162Pro"
   },
   {
     "contextualAlleleID": "CtxAll052",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll050",
-    "description": "NP_000354.4:p.Arg162Pro - produced-by - NP_000354.4:p.Arg162Gln"
+    "description": "NP_000354.4:p.Arg162Pro - 0003001 - NP_000354.4:p.Arg162Gln"
   },
   {
     "contextualAlleleID": "CtxAll053",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll054",
-    "description": "NM_000363.4(TNNI3):c.484C>T - produces - NP_000354.4:p.Arg162Trp"
+    "description": "NM_000363.4(TNNI3):c.484C>T - 0003000 - NP_000354.4:p.Arg162Trp"
   },
   {
     "contextualAlleleID": "CtxAll054",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll053",
-    "description": "NP_000354.4:p.Arg162Trp - produced-by - NM_000363.4(TNNI3):c.484C>T"
+    "description": "NP_000354.4:p.Arg162Trp - 0003001 - NM_000363.4(TNNI3):c.484C>T"
   },
   {
     "contextualAlleleID": "CtxAll055",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll056",
-    "description": "NM_000531.5(OTC):c.118C>T - produces - NP_000522.3:p.Arg40Cys"
+    "description": "NM_000531.5(OTC):c.118C>T - 0003000 - NP_000522.3:p.Arg40Cys"
   },
   {
     "contextualAlleleID": "CtxAll056",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll055",
-    "description": "NP_000522.3:p.Arg40Cys - produced-by - NM_000531.5(OTC):c.118C>T"
+    "description": "NP_000522.3:p.Arg40Cys - 0003001 - NM_000531.5(OTC):c.118C>T"
   },
   {
     "contextualAlleleID": "CtxAll057",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll058",
-    "description": "NM_000531.5(OTC):c.119G>A - produces - NP_000522.3:p.Arg40His"
+    "description": "NM_000531.5(OTC):c.119G>A - 0003000 - NP_000522.3:p.Arg40His"
   },
   {
     "contextualAlleleID": "CtxAll058",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll057",
-    "description": "NP_000522.3:p.Arg40His - produced-by - NM_000531.5(OTC):c.119G>A"
+    "description": "NP_000522.3:p.Arg40His - 0003001 - NM_000531.5(OTC):c.119G>A"
   },
   {
     "contextualAlleleID": "CtxAll057",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll058",
-    "description": "NM_000531.5(OTC):c.119G>A - produces - NP_000522.3:p.Arg40His"
+    "description": "NM_000531.5(OTC):c.119G>A - 0003000 - NP_000522.3:p.Arg40His"
   },
   {
     "contextualAlleleID": "CtxAll058",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll057",
-    "description": "NP_000522.3:p.Arg40His - produced-by - NM_000531.5(OTC):c.119G>A"
+    "description": "NP_000522.3:p.Arg40His - 0003001 - NM_000531.5(OTC):c.119G>A"
   },
   {
     "contextualAlleleID": "CtxAll059",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll060",
-    "description": "NM_007294.3(BRCA1):c.5290C>A - produces - NP_009225.1:p.Leu1764Ile"
+    "description": "NM_007294.3(BRCA1):c.5290C>A - 0003000 - NP_009225.1:p.Leu1764Ile"
   },
   {
     "contextualAlleleID": "CtxAll060",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll059",
-    "description": "NP_009225.1:p.Leu1764Ile - produced-by - NM_007294.3(BRCA1):c.5290C>A"
+    "description": "NP_009225.1:p.Leu1764Ile - 0003001 - NM_007294.3(BRCA1):c.5290C>A"
   },
   {
     "contextualAlleleID": "CtxAll061",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll062",
-    "description": "NM_007294.3(BRCA1):c.5291T>C - produces - NP_009225.1:p.Leu1764Pro"
+    "description": "NM_007294.3(BRCA1):c.5291T>C - 0003000 - NP_009225.1:p.Leu1764Pro"
   },
   {
     "contextualAlleleID": "CtxAll062",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll061",
-    "description": "NP_009225.1:p.Leu1764Pro - produced-by - NM_007294.3(BRCA1):c.5291T>C"
+    "description": "NP_009225.1:p.Leu1764Pro - 0003001 - NM_007294.3(BRCA1):c.5291T>C"
   },
   {
     "contextualAlleleID": "CtxAll091",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll092",
-    "description": "NM_000441.1(SLC26A4): c.349C>T (p.Leu117Phe) - produces - NP_000432..1:p.Leu117Phe"
+    "description": "NM_000441.1(SLC26A4): c.349C>T (p.Leu117Phe) - 0003000 - NP_000432..1:p.Leu117Phe"
   },
   {
     "contextualAlleleID": "CtxAll092",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll091",
-    "description": "NP_000432..1:p.Leu117Phe - produced-by - NM_000441.1(SLC26A4): c.349C>T (p.Leu117Phe)"
+    "description": "NP_000432..1:p.Leu117Phe - 0003001 - NM_000441.1(SLC26A4): c.349C>T (p.Leu117Phe)"
   },
   {
     "contextualAlleleID": "CtxAll028",
     "relatedType": "RO:0003000",
     "relatedContextualAllele": "CtxAll126",
-    "description": "NM_005228.3(EGFR):c.2369C>T - produces - NP_005219.2:p.Thr790Met"
+    "description": "NM_005228.3(EGFR):c.2369C>T - 0003000 - NP_005219.2:p.Thr790Met"
   },
   {
     "contextualAlleleID": "CtxAll126",
     "relatedType": "RO:0003001",
     "relatedContextualAllele": "CtxAll028",
-    "description": "NP_005219.2:p.Thr790Met - produced-by - NM_005228.3(EGFR):c.2369C>T"
+    "description": "NP_005219.2:p.Thr790Met - 0003001 - NM_005228.3(EGFR):c.2369C>T"
+  },
+  {
+    "contextualAlleleID": "CtxAll131",
+    "relatedType": "RO:0003000",
+    "relatedContextualAllele": "CtxAll132",
+    "description": "NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) - 0003000 - NP_004324.2:p.Lys483Gln"
+  },
+  {
+    "contextualAlleleID": "CtxAll132",
+    "relatedType": "RO:0003001",
+    "relatedContextualAllele": "CtxAll131",
+    "description": "NP_004324.2:p.Lys483Gln - 0003001 - NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln)"
+  },
+  {
+    "contextualAlleleID": "CtxAll133",
+    "relatedType": "RO:0003000",
+    "relatedContextualAllele": "CtxAll134",
+    "description": "NM_004333.4(BRAF):c.1449A>C - 0003000 - NP_004324.2:p.Lys483Asn"
+  },
+  {
+    "contextualAlleleID": "CtxAll134",
+    "relatedType": "RO:0003001",
+    "relatedContextualAllele": "CtxAll133",
+    "description": "NP_004324.2:p.Lys483Asn - 0003001 - NM_004333.4(BRAF):c.1449A>C"
   }
 ]
