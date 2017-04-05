@@ -89,55 +89,30 @@ class DMWGExampleData
     end
 
     # Now for the "join tables". Ugly hard-coding here
-    @flattened['_DataAttribute'].each do |da|
-      # FIXME - make sure inherited attributes are appropriately handled
-      data_id = da['dataId']
-      attribute_id = da['attributeId']
-      attribute = @flattened['Attribute'][attribute_id]
-      if attribute.nil? then
-        STDERR.puts "Attribute #{attribute_id} does not appear to exist!"
-        next
-      end
-      (@id2example[data_id] ||= {})['cg:id'] = data_id
-      if value_exists? da['value'] then
-        if attribute['cardinality'].end_with? '*' then
-          (@id2example[data_id][attribute['name']] ||= []).push(convert_value(da['value'], attribute['dataType']))
-        else
-          @id2example[data_id][attribute['name']] = convert_value(da['value'], attribute['dataType'])
+    ['_DataAttribute',
+     '_ActivityAttribute',
+     '_EvidenceLineAttribute',
+     '_MendelianConditionAttribute',
+    ].each do |sheet|
+      @flattened[sheet].each do |da|
+        data_id = da['subjectId']
+        attribute_id = da['attributeId']
+        attribute = @flattened['Attribute'][attribute_id]
+        if attribute.nil? then
+          STDERR.puts "Attribute #{attribute_id} does not appear to exist!"
+          next
         end
-      end
-    end
-
-    @flattened['_ActivityAttribute'].each do |da|
-      # FIXME - make sure inherited attributes are appropriately handled
-      data_id = da['activityId']
-      attribute_id = da['attributeId']
-      attribute = @flattened['Attribute'][attribute_id]
-      (@id2example[data_id] ||= {})['cg:id'] = data_id
-      if value_exists? da['value'] then
-        if attribute['cardinality'].end_with? '*' then
-          (@id2example[data_id][attribute['name']] ||= []).push(convert_value(da['value'], attribute['dataType']))
-        else
-          @id2example[data_id][attribute['name']] = convert_value(da['value'], attribute['dataType'])
-        end
-      end
-    end
-
-    @flattened['_EvidenceLineAttribute'].each do |da|
-      data_id = da['evidenceLineId']
-      attribute_id = da['attributeId']
-      attribute = @flattened['Attribute'][attribute_id]
-      (@id2example[data_id] ||= {})['cg:id'] = data_id
-      if value_exists? da['value'] then
-        if attribute['cardinality'].end_with? '*' then
-          (@id2example[data_id][attribute['name']] ||= []).push(convert_value(da['value'], attribute['dataType']))
-        else
-          @id2example[data_id][attribute['name']] = convert_value(da['value'], attribute['dataType'])
-        end
-      end
-    end
-
-  end
+        (@id2example[data_id] ||= {})['cg:id'] = data_id
+        if value_exists? da['value'] then
+          if attribute['cardinality'].end_with? '*' then
+            (@id2example[data_id][attribute['name']] ||= []).push(convert_value(da['value'], attribute['dataType']))
+          else
+            @id2example[data_id][attribute['name']] = convert_value(da['value'], attribute['dataType'])
+          end # value is list
+        end # value exists
+      end # each row in sheet
+    end # each sheet
+  end # initialize
 
   private
 
