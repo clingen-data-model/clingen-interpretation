@@ -103,5 +103,10 @@
     "source": "RefSeq, Ensembl, LRG",
     "name": "ReferenceSequence",
     "description": "Accessions of sequences used as reference to define Locus for Regions and ContextualAlleles (extensible)"
+  },
+  "VS021": {
+    "id": "VS021",
+    "source": "Internal",
+    "name": "ContributoryRole"
   }
 }

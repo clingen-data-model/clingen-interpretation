@@ -2,7 +2,6 @@
   "E01": {
     "id": "E01",
     "name": "Data",
-    "parentType": "E52",
     "link": "Data",
     "description": "The structured supporting data that can be used to assess criterion in the context of a given interpretation guideline.",
     "notes": "TODO: Re-write in reference to Evidence Lines. Consider merging with Entity and explaining the equivalence between Data in SEPIO and Entity in W3C-Prov."
@@ -24,28 +23,24 @@
   "E04": {
     "id": "E04",
     "name": "Criterion",
-    "parentType": "E52",
     "link": "Crit",
     "description": "A single rule for evaluating data in an interpretation."
   },
   "E05": {
     "id": "E05",
     "name": "CanonicalAllele",
-    "parentType": "E52",
     "link": "CanAll",
     "description": "Reference-independent allele that groups multiple ContextualAlleles"
   },
   "E06": {
     "id": "E06",
     "name": "ContextualAllele",
-    "parentType": "E52",
     "link": "CtxAll",
     "description": "Reference-dependent allele description"
   },
   "E07": {
     "id": "E07",
     "name": "Gene",
-    "parentType": "E52",
     "link": "G",
     "description": "A collection of transcripts"
   },
@@ -56,11 +51,11 @@
     "link": "CritAssess",
     "description": "Intermediate interpretation of a line of evidence"
   },
-  "E10": {
-    "id": "E10",
-    "name": "Activity",
-    "link": "Act",
-    "description": "Conceptual class to record provenance related to the creation of an item (e.g., who and when)"
+  "E11": {
+    "id": "E11",
+    "name": "Contribution",
+    "link": "Contrib",
+    "description": "(TODO:review this def)\nConceptual class to record provenance related to the creation of an item (e.g., who and when)"
   },
   "E12": {
     "id": "E12",
@@ -77,14 +72,13 @@
   "E14": {
     "id": "E14",
     "name": "MendelianCondition",
-    "parentType": "E52",
+    "parentType": "E01",
     "link": "MendCond",
     "description": "A condition with a specific mode of inheritance"
   },
   "E16": {
     "id": "E16",
     "name": "Individual",
-    "parentType": "E52",
     "link": "Indiv",
     "description": "A particular person"
   },
@@ -154,7 +148,6 @@
   "E26": {
     "id": "E26",
     "name": "ReferenceSequence",
-    "parentType": "E52",
     "link": "RefSeq",
     "description": "*TODO* short description needed"
   },
@@ -168,14 +161,12 @@
   "E32": {
     "id": "E32",
     "name": "AssertionMethod",
-    "parentType": "E52",
     "link": "AssertMeth",
     "description": "The set of rules describing how to create an interpretation from a set of Data."
   },
   "E33": {
     "id": "E33",
     "name": "ScoringAlgorithm",
-    "parentType": "E52",
     "link": "ScorAlg",
     "description": "The rules for combining CriterionAssessments into an Interpretation"
   },
@@ -189,7 +180,6 @@
   "E36": {
     "id": "E36",
     "name": "DataSource",
-    "parentType": "E52",
     "link": "DataSrc",
     "description": "Citation for a Data entity"
   },
@@ -215,7 +205,7 @@
   "E44": {
     "id": "E44",
     "name": "Family",
-    "parentType": "E52",
+    "parentType": "E01",
     "link": "Fam",
     "description": "A group of individuals related in a known manner."
   },
@@ -268,12 +258,6 @@
     "link": "Conserv",
     "description": "Characterizes whether the allele is fixed across species"
   },
-  "E52": {
-    "id": "E52",
-    "name": "Entity",
-    "link": "Entity",
-    "description": "W3C Provenance entity conceptual class."
-  },
   "E54": {
     "id": "E54",
     "name": "ValueSet",
@@ -289,7 +273,6 @@
   "E56": {
     "id": "E56",
     "name": "EvidenceLine",
-    "parentType": "E52",
     "link": "EvLn",
     "description": "A reification of the underlying supporting data which may be one or more data points or assertions. Typically grouped in a specific manner for use in an owning assertion activity (either Variant Interpretation or CriterionAssessment. All evidence may optionally be given a strength by an agent."
   }

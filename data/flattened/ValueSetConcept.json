@@ -417,7 +417,7 @@
     "id": "VSC075",
     "valueSet": "VS017",
     "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
-    "coding concept": "CG-evidence-strength:bsa"
+    "coding concept": "CG-evidence-strength:ba"
   },
   "VSC076": {
     "id": "VSC076",
@@ -706,5 +706,23 @@
     "valueSet": "VS018",
     "valueSetName": "Disease",
     "coding concept": "DOID:630"
+  },
+  "VSC124": {
+    "id": "VSC124",
+    "valueSet": "VS021",
+    "valueSetName": "ContributoryRole",
+    "coding concept": "CG-contributory-role:curator"
+  },
+  "VSC125": {
+    "id": "VSC125",
+    "valueSet": "VS021",
+    "valueSetName": "ContributoryRole",
+    "coding concept": "CG-contributory-role:assessor"
+  },
+  "VSC126": {
+    "id": "VSC126",
+    "valueSet": "VS021",
+    "valueSetName": "ContributoryRole",
+    "coding concept": "CG-contributory-role:interpreter"
   }
 }
