@@ -1599,13 +1599,13 @@
   "A153": {
     "id": "A153",
     "entityId": "E04",
-    "name": "defaultOutcome",
+    "name": "defaultStrength",
     "dataType": "CodeableConcept",
     "cardinality": "0..1",
     "valueSetId": "VS011",
     "valueSetName": "CriterionEvaluation",
     "precedence": 4.0,
-    "fullyQualifiedName": "Criterion.defaultOutcome"
+    "fullyQualifiedName": "Criterion.defaultStrength"
   },
   "A154": {
     "id": "A154",
