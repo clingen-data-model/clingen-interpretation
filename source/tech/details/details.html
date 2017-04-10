@@ -106,6 +106,8 @@ var json_table_recurse = function(sel) {
           .data(function (x) { return x; })
         .enter().append("td");
       tds.append("table").call(json_table_recurse);
+    } else if (typeof(d) === 'string') {
+      table.append("tr").text(d)
     } else {
       table.classed("object", true);
       var thead = table.append("thead");
@@ -292,6 +294,14 @@ var node_id = 0;
 
 function generate_tree(data, link_label) {
   var id = 'N' + zp(node_id++);
+  if (typeof(data) !== 'object') {
+    return {id: id,
+            link_label: link_label,
+            label: data,
+            type: "literal",
+            children: []
+    };
+  }
   var node = {id: id,
               link_label: link_label,
               label: data['cg:id'] || "UNKNOWN_ID",
