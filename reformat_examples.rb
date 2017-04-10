@@ -113,6 +113,8 @@ class DMWGExampleData
       value
     when 'Datetime'
       value
+    when 'datetime'
+      value
     when 'Date'
       value
     when 'int'
