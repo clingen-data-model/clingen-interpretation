@@ -80,17 +80,8 @@ class DMWGExampleData
       end
     end
 
-    @flattened['Activity'].each do |a_id, a_rec|
-      begin
-        @id2example[a_id]['cg:type'] = @flattened['Type'][a_rec['activityTypeId']]['name']
-      rescue
-        STDERR.puts "Error associating activity id #{a_id} with entity type"
-      end
-    end
-
     # Now for the "join tables". Ugly hard-coding here
     ['_DataAttribute',
-     '_ActivityAttribute',
      '_EvidenceLineAttribute',
      '_MendelianConditionAttribute',
     ].each do |sheet|
