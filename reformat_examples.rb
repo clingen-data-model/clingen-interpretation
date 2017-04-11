@@ -51,8 +51,6 @@ class DMWGExampleData
     # Process the `Type` sheet
     @flattened['Type'].each do |e_id, e_rec|
       e_name = e_rec['name']
-      ## FIXME Data sheet represents many different entities
-      ## consider moving Data.explanation to DataAttribute table
       parent = e_rec['parentType']
       while !!parent
         if !@entity2attributes[e_id].any? { |i| i['entityId'] == parent } then
@@ -61,7 +59,7 @@ class DMWGExampleData
         parent = @flattened['Type'][parent]['parentType']
       end
       if @flattened.key? e_name then
-        # full fledged table for this entity (not a Data subtype)
+        # full fledged table for this entity (not a Information subtype)
         @flattened[e_name].each do |id, rec|
           ex = @id2example[id] ||= {}
           ex['cg:id'] = id
@@ -71,8 +69,8 @@ class DMWGExampleData
       end
     end
 
-    # need to fix the types for Data and Activity subclasses
-    @flattened['Data'].each do |d_id, d_rec|
+    # need to fix the types for Information and Activity subclasses
+    @flattened['Information'].each do |d_id, d_rec|
       begin
         @id2example[d_id]['cg:type'] = @flattened['Type'][d_rec['entityTypeId']]['name']
       rescue
@@ -81,7 +79,7 @@ class DMWGExampleData
     end
 
     # Now for the "join tables". Ugly hard-coding here
-    ['_DataAttribute',
+    ['_InformationAttribute',
      '_EvidenceLineAttribute',
      '_MendelianConditionAttribute',
     ].each do |sheet|
