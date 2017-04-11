@@ -1,8 +1,8 @@
 {
   "E01": {
     "id": "E01",
-    "name": "Data",
-    "link": "Data",
+    "name": "Information",
+    "link": "Info",
     "description": "The structured supporting data that can be used to assess criterion in the context of a given interpretation guideline.",
     "notes": "TODO: Re-write in reference to Evidence Lines. Consider merging with Entity and explaining the equivalence between Data in SEPIO and Entity in W3C-Prov."
   },
@@ -179,9 +179,9 @@
   },
   "E36": {
     "id": "E36",
-    "name": "DataSource",
-    "link": "DataSrc",
-    "description": "Citation for a Data entity"
+    "name": "InformationSource",
+    "link": "InfoSrc",
+    "description": "Citation for a Information entity"
   },
   "E41": {
     "id": "E41",

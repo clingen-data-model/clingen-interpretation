@@ -1286,7 +1286,7 @@
     "valueSetName": "",
     "precedence": 91.0,
     "description": "The contributions (agent, time and role) made to this entity",
-    "fullyQualifiedName": "Data.contribution"
+    "fullyQualifiedName": "Information.contribution"
   },
   "A120": {
     "id": "A120",
@@ -1298,7 +1298,7 @@
     "valueSetName": "",
     "precedence": 90.0,
     "description": "A human-readable description of the entity",
-    "fullyQualifiedName": "Data.explanation"
+    "fullyQualifiedName": "Information.explanation"
   },
   "A122": {
     "id": "A122",
@@ -1361,10 +1361,19 @@
     "description": "The number of non-proband family members that have neither the allele nor the phenotype",
     "fullyQualifiedName": "FamilySegregationData.phenotypeNegativeAlleleNegative"
   },
+  "A127": {
+    "id": "A127",
+    "entityId": "E01",
+    "name": "source",
+    "dataType": "InformationSource",
+    "cardinality": "0..*",
+    "defaultValue": "null",
+    "fullyQualifiedName": "Information.source"
+  },
   "A128": {
     "id": "A128",
     "entityId": "E36",
-    "name": "dataSourceType",
+    "name": "sourceType",
     "dataType": "CodeableConcept",
     "cardinality": "1..1",
     "defaultValue": "null",
@@ -1372,7 +1381,7 @@
     "valueSetName": "DataSourceType",
     "precedence": 1.0,
     "description": "Classification of Data Source",
-    "fullyQualifiedName": "DataSource.dataSourceType"
+    "fullyQualifiedName": "InformationSource.sourceType"
   },
   "A129": {
     "id": "A129",
@@ -1384,7 +1393,7 @@
     "valueSetName": "",
     "precedence": 2.0,
     "description": "Indentifier of the Data element in the DataSource",
-    "fullyQualifiedName": "DataSource.externalIdentifier"
+    "fullyQualifiedName": "InformationSource.externalIdentifier"
   },
   "A130": {
     "id": "A130",
@@ -1396,7 +1405,7 @@
     "valueSetName": "",
     "precedence": 3.0,
     "description": "IRI of the Data element",
-    "fullyQualifiedName": "DataSource.linkedIRI"
+    "fullyQualifiedName": "InformationSource.linkedIRI"
   },
   "A131": {
     "id": "A131",
@@ -1408,7 +1417,7 @@
     "valueSetName": "",
     "precedence": 4.0,
     "description": "Version of the Data Source from which the Data was retrieved",
-    "fullyQualifiedName": "DataSource.version"
+    "fullyQualifiedName": "InformationSource.version"
   },
   "A135": {
     "id": "A135",
