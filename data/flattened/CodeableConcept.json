@@ -1,0 +1,1826 @@
+{
+  "CC001": {
+    "id": "CC001",
+    "description": "coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC002": {
+    "id": "CC002",
+    "description": "coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC003": {
+    "id": "CC003",
+    "description": "coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
+  },
+  "CC004": {
+    "id": "CC004",
+    "description": "coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC005": {
+    "id": "CC005",
+    "description": "coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC006": {
+    "id": "CC006",
+    "description": "coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
+  },
+  "CC007": {
+    "id": "CC007",
+    "description": "coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC008": {
+    "id": "CC008",
+    "description": "coding: [{ code: \"0000191\", display: \"interior intron\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC009": {
+    "id": "CC009",
+    "description": "coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC010": {
+    "id": "CC010",
+    "description": "coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
+  },
+  "CC011": {
+    "id": "CC011",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC012": {
+    "id": "CC012",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC013": {
+    "id": "CC013",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC014": {
+    "id": "CC014",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC015": {
+    "id": "CC015",
+    "description": "coding: [{ code: \"binding\", display: \"Binding assay?\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }]"
+  },
+  "CC016": {
+    "id": "CC016",
+    "description": "coding: [{ code: \"atpase\", display: \"ATPase assay?\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }]"
+  },
+  "CC017": {
+    "id": "CC017",
+    "description": "coding: [{ code: \"motility\", display: \"motility assay?\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }]"
+  },
+  "CC018": {
+    "id": "CC018",
+    "description": "coding: [{ code: \"binding\", display: \"Binding assay?\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }]"
+  },
+  "CC019": {
+    "id": "CC019",
+    "description": "coding: [{ code: \"yeastcomp\", display: \"Yeast complementation assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }]"
+  },
+  "CC020": {
+    "id": "CC020",
+    "description": "coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }]"
+  },
+  "CC021": {
+    "id": "CC021",
+    "description": "coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }]"
+  },
+  "CC022": {
+    "id": "CC022",
+    "description": "coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://exac.broadinstitute.org/populations/\" }]"
+  },
+  "CC023": {
+    "id": "CC023",
+    "description": "coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://exac.broadinstitute.org/populations/\" }]"
+  },
+  "CC024": {
+    "id": "CC024",
+    "description": "coding: [{ code: \"sas\", display: \"South Asian\", system: \"http://exac.broadinstitute.org/populations/\" }]"
+  },
+  "CC025": {
+    "id": "CC025",
+    "description": "coding: [{ code: \"afr\", display: \"African/African American\", system: \"http://exac.broadinstitute.org/populations/\" }]"
+  },
+  "CC026": {
+    "id": "CC026",
+    "description": "coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }]"
+  },
+  "CC027": {
+    "id": "CC027",
+    "description": "coding: [{ code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
+  },
+  "CC028": {
+    "id": "CC028",
+    "description": "coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }]"
+  },
+  "CC029": {
+    "id": "CC029",
+    "description": "coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }]"
+  },
+  "CC030": {
+    "id": "CC030",
+    "description": "coding: [{ code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
+  },
+  "CC031": {
+    "id": "CC031",
+    "description": "coding: [{ code: \"LA26334-5\", display: \"Likely Benign\", system: \"http://loinc.org/\" }]"
+  },
+  "CC032": {
+    "id": "CC032",
+    "description": "coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC033": {
+    "id": "CC033",
+    "description": "coding: [{ code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
+  },
+  "CC034": {
+    "id": "CC034",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC035": {
+    "id": "CC035",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC036": {
+    "id": "CC036",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC037": {
+    "id": "CC037",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC038": {
+    "id": "CC038",
+    "description": "coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://exac.broadinstitute.org/populations/\" }]"
+  },
+  "CC039": {
+    "id": "CC039",
+    "description": "coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }]"
+  },
+  "CC040": {
+    "id": "CC040",
+    "description": "coding: [{ code: \"fin\", display: \"Finnish\", system: \"http://exac.broadinstitute.org/populations/\" }]"
+  },
+  "CC041": {
+    "id": "CC041",
+    "description": "coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }]"
+  },
+  "CC042": {
+    "id": "CC042",
+    "description": "coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }]"
+  },
+  "CC043": {
+    "id": "CC043",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC044": {
+    "id": "CC044",
+    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
+  },
+  "CC045": {
+    "id": "CC045",
+    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
+  },
+  "CC046": {
+    "id": "CC046",
+    "description": "coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
+  },
+  "CC047": {
+    "id": "CC047",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC048": {
+    "id": "CC048",
+    "description": "coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC049": {
+    "id": "CC049",
+    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
+  },
+  "CC050": {
+    "id": "CC050",
+    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
+  },
+  "CC051": {
+    "id": "CC051",
+    "description": "coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
+  },
+  "CC052": {
+    "id": "CC052",
+    "description": "coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC053": {
+    "id": "CC053",
+    "description": "coding: [{ code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
+  },
+  "CC054": {
+    "id": "CC054",
+    "description": "coding: [{ code: \"0001825\", display: \"Conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC055": {
+    "id": "CC055",
+    "description": "coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }]"
+  },
+  "CC056": {
+    "id": "CC056",
+    "description": "coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC057": {
+    "id": "CC057",
+    "description": "coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
+  },
+  "CC058": {
+    "id": "CC058",
+    "description": "coding: [{ code: \"0001825\", display: \"Conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC059": {
+    "id": "CC059",
+    "description": "coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
+  },
+  "CC060": {
+    "id": "CC060",
+    "description": "coding: [{ code: \"0001823\", display: \"Conservative Inframe Insertion\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC061": {
+    "id": "CC061",
+    "description": "coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC062": {
+    "id": "CC062",
+    "description": "coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
+  },
+  "CC063": {
+    "id": "CC063",
+    "description": "coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC064": {
+    "id": "CC064",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC065": {
+    "id": "CC065",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC066": {
+    "id": "CC066",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC067": {
+    "id": "CC067",
+    "description": "coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }]"
+  },
+  "CC068": {
+    "id": "CC068",
+    "description": "coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }]"
+  },
+  "CC069": {
+    "id": "CC069",
+    "description": "coding: [{ code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }]"
+  },
+  "CC070": {
+    "id": "CC070",
+    "description": "coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC071": {
+    "id": "CC071",
+    "description": "coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC072": {
+    "id": "CC072",
+    "description": "coding: [{ code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
+  },
+  "CC073": {
+    "id": "CC073",
+    "description": "coding: [{ code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }]"
+  },
+  "CC074": {
+    "id": "CC074",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC075": {
+    "id": "CC075",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC076": {
+    "id": "CC076",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC077": {
+    "id": "CC077",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC078": {
+    "id": "CC078",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC079": {
+    "id": "CC079",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC080": {
+    "id": "CC080",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC081": {
+    "id": "CC081",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC082": {
+    "id": "CC082",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC083": {
+    "id": "CC083",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC084": {
+    "id": "CC084",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC085": {
+    "id": "CC085",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC086": {
+    "id": "CC086",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC087": {
+    "id": "CC087",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC088": {
+    "id": "CC088",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC089": {
+    "id": "CC089",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC090": {
+    "id": "CC090",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC091": {
+    "id": "CC091",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC092": {
+    "id": "CC092",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC093": {
+    "id": "CC093",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC094": {
+    "id": "CC094",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC095": {
+    "id": "CC095",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC096": {
+    "id": "CC096",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC097": {
+    "id": "CC097",
+    "description": "coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC098": {
+    "id": "CC098",
+    "description": "coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC099": {
+    "id": "CC099",
+    "description": "coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC100": {
+    "id": "CC100",
+    "description": "coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC101": {
+    "id": "CC101",
+    "description": "coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC102": {
+    "id": "CC102",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC103": {
+    "id": "CC103",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC104": {
+    "id": "CC104",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC105": {
+    "id": "CC105",
+    "description": "coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }]"
+  },
+  "CC106": {
+    "id": "CC106",
+    "description": "coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }]"
+  },
+  "CC107": {
+    "id": "CC107",
+    "description": "coding: [{ code: \"eas\", display: \"East Asian\", system: \"http://exac.broadinstitute.org/populations/\" }]"
+  },
+  "CC108": {
+    "id": "CC108",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC109": {
+    "id": "CC109",
+    "description": "coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }]"
+  },
+  "CC110": {
+    "id": "CC110",
+    "description": "coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }]"
+  },
+  "CC111": {
+    "id": "CC111",
+    "description": "coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }]"
+  },
+  "CC112": {
+    "id": "CC112",
+    "description": "coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }]"
+  },
+  "CC113": {
+    "id": "CC113",
+    "description": "coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }]"
+  },
+  "CC114": {
+    "id": "CC114",
+    "description": "coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }]"
+  },
+  "CC115": {
+    "id": "CC115",
+    "description": "coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }]"
+  },
+  "CC116": {
+    "id": "CC116",
+    "description": "coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }]"
+  },
+  "CC117": {
+    "id": "CC117",
+    "description": "coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC118": {
+    "id": "CC118",
+    "description": "coding: [{ code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
+  },
+  "CC119": {
+    "id": "CC119",
+    "description": "coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }]"
+  },
+  "CC120": {
+    "id": "CC120",
+    "description": "coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }]"
+  },
+  "CC121": {
+    "id": "CC121",
+    "description": "coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }]"
+  },
+  "CC122": {
+    "id": "CC122",
+    "description": "coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC123": {
+    "id": "CC123",
+    "description": "coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }]"
+  },
+  "CC124": {
+    "id": "CC124",
+    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
+  },
+  "CC125": {
+    "id": "CC125",
+    "description": "coding: [{ code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
+  },
+  "CC126": {
+    "id": "CC126",
+    "description": "coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }]"
+  },
+  "CC127": {
+    "id": "CC127",
+    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
+  },
+  "CC128": {
+    "id": "CC128",
+    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
+  },
+  "CC129": {
+    "id": "CC129",
+    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
+  },
+  "CC130": {
+    "id": "CC130",
+    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
+  },
+  "CC131": {
+    "id": "CC131",
+    "description": "coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }]"
+  },
+  "CC132": {
+    "id": "CC132",
+    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
+  },
+  "CC133": {
+    "id": "CC133",
+    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
+  },
+  "CC134": {
+    "id": "CC134",
+    "description": "coding: [{ code: \"iodeff\", display: \"iodide efflux\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }]"
+  },
+  "CC135": {
+    "id": "CC135",
+    "description": "coding: [{ code: \"celloc\", display: \"cellular localization\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }]"
+  },
+  "CC136": {
+    "id": "CC136",
+    "description": "coding: [{ code: \"neuritegrowth\", display: \"neurite outgrowth\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }]"
+  },
+  "CC137": {
+    "id": "CC137",
+    "description": "coding: [{ code: \"elk1phosvialucif\", display: \"Elk1 pohsphorylation via luciferase assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }]"
+  },
+  "CC138": {
+    "id": "CC138",
+    "description": "coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC139": {
+    "id": "CC139",
+    "description": "coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC140": {
+    "id": "CC140",
+    "description": "coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
+  },
+  "CC141": {
+    "id": "CC141",
+    "description": "coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC142": {
+    "id": "CC142",
+    "description": "coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
+  },
+  "CC143": {
+    "id": "CC143",
+    "description": "coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC144": {
+    "id": "CC144",
+    "description": "coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC145": {
+    "id": "CC145",
+    "description": "coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
+  },
+  "CC146": {
+    "id": "CC146",
+    "description": "coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC147": {
+    "id": "CC147",
+    "description": "coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC148": {
+    "id": "CC148",
+    "description": "coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
+  },
+  "CC149": {
+    "id": "CC149",
+    "description": "coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC150": {
+    "id": "CC150",
+    "description": "coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
+  },
+  "CC151": {
+    "id": "CC151",
+    "description": "coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
+  },
+  "CC152": {
+    "id": "CC152",
+    "description": "coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
+  },
+  "CC153": {
+    "id": "CC153",
+    "description": "coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
+  },
+  "CC154": {
+    "id": "CC154",
+    "description": "coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
+  },
+  "CC155": {
+    "id": "CC155",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC156": {
+    "id": "CC156",
+    "description": "coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
+  },
+  "CC157": {
+    "id": "CC157",
+    "description": "coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }]"
+  },
+  "CC158": {
+    "id": "CC158",
+    "description": "coding: [{ code: \"incomplete\", display: \"Incomplete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }]"
+  },
+  "CC159": {
+    "id": "CC159",
+    "description": "coding: [{ code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
+  },
+  "CC160": {
+    "id": "CC160",
+    "description": "coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
+  },
+  "CC161": {
+    "id": "CC161",
+    "description": "coding: [{ code: \"0001825\", display: \"Conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC162": {
+    "id": "CC162",
+    "description": "coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
+  },
+  "CC163": {
+    "id": "CC163",
+    "description": "coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC164": {
+    "id": "CC164",
+    "description": "coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
+  },
+  "CC165": {
+    "id": "CC165",
+    "description": "coding: [{ code: \"0001823\", display: \"Conservative Inframe Insertion\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC166": {
+    "id": "CC166",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC167": {
+    "id": "CC167",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC168": {
+    "id": "CC168",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC169": {
+    "id": "CC169",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC170": {
+    "id": "CC170",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC171": {
+    "id": "CC171",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC172": {
+    "id": "CC172",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC173": {
+    "id": "CC173",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC174": {
+    "id": "CC174",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC175": {
+    "id": "CC175",
+    "description": "coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC176": {
+    "id": "CC176",
+    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
+  },
+  "CC177": {
+    "id": "CC177",
+    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
+  },
+  "CC178": {
+    "id": "CC178",
+    "description": "coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
+  },
+  "CC179": {
+    "id": "CC179",
+    "description": "coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC180": {
+    "id": "CC180",
+    "description": "coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC181": {
+    "id": "CC181",
+    "description": "coding: [{ code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
+  },
+  "CC182": {
+    "id": "CC182",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC183": {
+    "id": "CC183",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC184": {
+    "id": "CC184",
+    "description": "coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }]"
+  },
+  "CC185": {
+    "id": "CC185",
+    "description": "coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }]"
+  },
+  "CC186": {
+    "id": "CC186",
+    "description": "coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }]"
+  },
+  "CC187": {
+    "id": "CC187",
+    "description": "coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC188": {
+    "id": "CC188",
+    "description": "coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC189": {
+    "id": "CC189",
+    "description": "coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC190": {
+    "id": "CC190",
+    "description": "coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC191": {
+    "id": "CC191",
+    "description": "coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC192": {
+    "id": "CC192",
+    "description": "coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC193": {
+    "id": "CC193",
+    "description": "coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }]"
+  },
+  "CC194": {
+    "id": "CC194",
+    "description": "coding: [{ code: \"0001629\", display: \"splice-site variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC195": {
+    "id": "CC195",
+    "description": "coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }]"
+  },
+  "CC196": {
+    "id": "CC196",
+    "description": "coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
+  },
+  "CC197": {
+    "id": "CC197",
+    "description": "coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC198": {
+    "id": "CC198",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC199": {
+    "id": "CC199",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC200": {
+    "id": "CC200",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC201": {
+    "id": "CC201",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC202": {
+    "id": "CC202",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC203": {
+    "id": "CC203",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC204": {
+    "id": "CC204",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC205": {
+    "id": "CC205",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC206": {
+    "id": "CC206",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC207": {
+    "id": "CC207",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC208": {
+    "id": "CC208",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC209": {
+    "id": "CC209",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC210": {
+    "id": "CC210",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC211": {
+    "id": "CC211",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC212": {
+    "id": "CC212",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC213": {
+    "id": "CC213",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC214": {
+    "id": "CC214",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC215": {
+    "id": "CC215",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC216": {
+    "id": "CC216",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC217": {
+    "id": "CC217",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC218": {
+    "id": "CC218",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC219": {
+    "id": "CC219",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC220": {
+    "id": "CC220",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC221": {
+    "id": "CC221",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC222": {
+    "id": "CC222",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC223": {
+    "id": "CC223",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC224": {
+    "id": "CC224",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC225": {
+    "id": "CC225",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC226": {
+    "id": "CC226",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC227": {
+    "id": "CC227",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC228": {
+    "id": "CC228",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC229": {
+    "id": "CC229",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC230": {
+    "id": "CC230",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC231": {
+    "id": "CC231",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC232": {
+    "id": "CC232",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC233": {
+    "id": "CC233",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC234": {
+    "id": "CC234",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC235": {
+    "id": "CC235",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC236": {
+    "id": "CC236",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC237": {
+    "id": "CC237",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC238": {
+    "id": "CC238",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC239": {
+    "id": "CC239",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC240": {
+    "id": "CC240",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC241": {
+    "id": "CC241",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC242": {
+    "id": "CC242",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC243": {
+    "id": "CC243",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC244": {
+    "id": "CC244",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC245": {
+    "id": "CC245",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC246": {
+    "id": "CC246",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC247": {
+    "id": "CC247",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC248": {
+    "id": "CC248",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC249": {
+    "id": "CC249",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC250": {
+    "id": "CC250",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC251": {
+    "id": "CC251",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC252": {
+    "id": "CC252",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC253": {
+    "id": "CC253",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC254": {
+    "id": "CC254",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC255": {
+    "id": "CC255",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC256": {
+    "id": "CC256",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC257": {
+    "id": "CC257",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC258": {
+    "id": "CC258",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC259": {
+    "id": "CC259",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC260": {
+    "id": "CC260",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC261": {
+    "id": "CC261",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC262": {
+    "id": "CC262",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC263": {
+    "id": "CC263",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC264": {
+    "id": "CC264",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC265": {
+    "id": "CC265",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC266": {
+    "id": "CC266",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC267": {
+    "id": "CC267",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC268": {
+    "id": "CC268",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC269": {
+    "id": "CC269",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC270": {
+    "id": "CC270",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC271": {
+    "id": "CC271",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC272": {
+    "id": "CC272",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC273": {
+    "id": "CC273",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC274": {
+    "id": "CC274",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC275": {
+    "id": "CC275",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC276": {
+    "id": "CC276",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC277": {
+    "id": "CC277",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC278": {
+    "id": "CC278",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC279": {
+    "id": "CC279",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC280": {
+    "id": "CC280",
+    "description": "coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC281": {
+    "id": "CC281",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC282": {
+    "id": "CC282",
+    "description": "coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
+  },
+  "CC283": {
+    "id": "CC283",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC284": {
+    "id": "CC284",
+    "description": "coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC285": {
+    "id": "CC285",
+    "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
+  },
+  "CC286": {
+    "id": "CC286",
+    "description": "coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
+  },
+  "CC287": {
+    "id": "CC287",
+    "description": "coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
+  },
+  "CC288": {
+    "id": "CC288",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC289": {
+    "id": "CC289",
+    "description": "coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://exac.broadinstitute.org/populations/\" }]"
+  },
+  "CC290": {
+    "id": "CC290",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC291": {
+    "id": "CC291",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC292": {
+    "id": "CC292",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC293": {
+    "id": "CC293",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC294": {
+    "id": "CC294",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC295": {
+    "id": "CC295",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC296": {
+    "id": "CC296",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC297": {
+    "id": "CC297",
+    "description": "coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }]"
+  },
+  "CC298": {
+    "id": "CC298",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC299": {
+    "id": "CC299",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC300": {
+    "id": "CC300",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC301": {
+    "id": "CC301",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC302": {
+    "id": "CC302",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC303": {
+    "id": "CC303",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC304": {
+    "id": "CC304",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC305": {
+    "id": "CC305",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC306": {
+    "id": "CC306",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC307": {
+    "id": "CC307",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC308": {
+    "id": "CC308",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC309": {
+    "id": "CC309",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC310": {
+    "id": "CC310",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC311": {
+    "id": "CC311",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC312": {
+    "id": "CC312",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC313": {
+    "id": "CC313",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC314": {
+    "id": "CC314",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC315": {
+    "id": "CC315",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC316": {
+    "id": "CC316",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC317": {
+    "id": "CC317",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC318": {
+    "id": "CC318",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC319": {
+    "id": "CC319",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC320": {
+    "id": "CC320",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC321": {
+    "id": "CC321",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC322": {
+    "id": "CC322",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC323": {
+    "id": "CC323",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC324": {
+    "id": "CC324",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC325": {
+    "id": "CC325",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC326": {
+    "id": "CC326",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC327": {
+    "id": "CC327",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC328": {
+    "id": "CC328",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC329": {
+    "id": "CC329",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC330": {
+    "id": "CC330",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC331": {
+    "id": "CC331",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC332": {
+    "id": "CC332",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC333": {
+    "id": "CC333",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC334": {
+    "id": "CC334",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC335": {
+    "id": "CC335",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC336": {
+    "id": "CC336",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC337": {
+    "id": "CC337",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC338": {
+    "id": "CC338",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC339": {
+    "id": "CC339",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC340": {
+    "id": "CC340",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC341": {
+    "id": "CC341",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC342": {
+    "id": "CC342",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC343": {
+    "id": "CC343",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC344": {
+    "id": "CC344",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC345": {
+    "id": "CC345",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC346": {
+    "id": "CC346",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC347": {
+    "id": "CC347",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC348": {
+    "id": "CC348",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC349": {
+    "id": "CC349",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC350": {
+    "id": "CC350",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC351": {
+    "id": "CC351",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC352": {
+    "id": "CC352",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC353": {
+    "id": "CC353",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC354": {
+    "id": "CC354",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC355": {
+    "id": "CC355",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC356": {
+    "id": "CC356",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC357": {
+    "id": "CC357",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC358": {
+    "id": "CC358",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC359": {
+    "id": "CC359",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC360": {
+    "id": "CC360",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC361": {
+    "id": "CC361",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC362": {
+    "id": "CC362",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC363": {
+    "id": "CC363",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC364": {
+    "id": "CC364",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC365": {
+    "id": "CC365",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC366": {
+    "id": "CC366",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC367": {
+    "id": "CC367",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC368": {
+    "id": "CC368",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC369": {
+    "id": "CC369",
+    "description": "coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC370": {
+    "id": "CC370",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC371": {
+    "id": "CC371",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC372": {
+    "id": "CC372",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC373": {
+    "id": "CC373",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC374": {
+    "id": "CC374",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC375": {
+    "id": "CC375",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC376": {
+    "id": "CC376",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC377": {
+    "id": "CC377",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC378": {
+    "id": "CC378",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC379": {
+    "id": "CC379",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC380": {
+    "id": "CC380",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC381": {
+    "id": "CC381",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC382": {
+    "id": "CC382",
+    "description": "coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC383": {
+    "id": "CC383",
+    "description": "coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC384": {
+    "id": "CC384",
+    "description": "coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC385": {
+    "id": "CC385",
+    "description": "coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC386": {
+    "id": "CC386",
+    "description": "coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC387": {
+    "id": "CC387",
+    "description": "coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC388": {
+    "id": "CC388",
+    "description": "coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC389": {
+    "id": "CC389",
+    "description": "coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC390": {
+    "id": "CC390",
+    "description": "coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC391": {
+    "id": "CC391",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC392": {
+    "id": "CC392",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC393": {
+    "id": "CC393",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC394": {
+    "id": "CC394",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC395": {
+    "id": "CC395",
+    "description": "coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC396": {
+    "id": "CC396",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC397": {
+    "id": "CC397",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC398": {
+    "id": "CC398",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC399": {
+    "id": "CC399",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC400": {
+    "id": "CC400",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC401": {
+    "id": "CC401",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC402": {
+    "id": "CC402",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC403": {
+    "id": "CC403",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC404": {
+    "id": "CC404",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC405": {
+    "id": "CC405",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC406": {
+    "id": "CC406",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC407": {
+    "id": "CC407",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC408": {
+    "id": "CC408",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC409": {
+    "id": "CC409",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC410": {
+    "id": "CC410",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC411": {
+    "id": "CC411",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC412": {
+    "id": "CC412",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC413": {
+    "id": "CC413",
+    "description": "coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC414": {
+    "id": "CC414",
+    "description": "coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC415": {
+    "id": "CC415",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC416": {
+    "id": "CC416",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC417": {
+    "id": "CC417",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC418": {
+    "id": "CC418",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC419": {
+    "id": "CC419",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC420": {
+    "id": "CC420",
+    "description": "coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC421": {
+    "id": "CC421",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC422": {
+    "id": "CC422",
+    "description": "coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC423": {
+    "id": "CC423",
+    "description": "coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC424": {
+    "id": "CC424",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC425": {
+    "id": "CC425",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC426": {
+    "id": "CC426",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC427": {
+    "id": "CC427",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC428": {
+    "id": "CC428",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC429": {
+    "id": "CC429",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC430": {
+    "id": "CC430",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC431": {
+    "id": "CC431",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC432": {
+    "id": "CC432",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC433": {
+    "id": "CC433",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC434": {
+    "id": "CC434",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC435": {
+    "id": "CC435",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC436": {
+    "id": "CC436",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC437": {
+    "id": "CC437",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC438": {
+    "id": "CC438",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC439": {
+    "id": "CC439",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC440": {
+    "id": "CC440",
+    "description": "coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }]"
+  },
+  "CC441": {
+    "id": "CC441",
+    "description": "coding: [{ code: \"na\", display: \"None\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
+  },
+  "CC442": {
+    "id": "CC442",
+    "description": "coding: [{ code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
+  },
+  "CC443": {
+    "id": "CC443",
+    "description": "coding: [{ code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
+  },
+  "CC444": {
+    "id": "CC444",
+    "description": "coding: [{ code: \"bs\", display: \"Benign Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
+  },
+  "CC445": {
+    "id": "CC445",
+    "description": "coding: [{ code: \"bp\", display: \"Benign Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
+  },
+  "CC446": {
+    "id": "CC446",
+    "description": "coding: [{ code: \"bp\", display: \"Benign Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
+  },
+  "CC447": {
+    "id": "CC447",
+    "description": "coding: [{ code: \"bp\", display: \"Benign Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
+  },
+  "CC448": {
+    "id": "CC448",
+    "description": "coding: [{ code: \"bp\", display: \"Benign Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
+  },
+  "CC449": {
+    "id": "CC449",
+    "description": "coding: [{ code: \"bs\", display: \"Benign Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
+  },
+  "CC450": {
+    "id": "CC450",
+    "description": "coding: [{ code: \"pvs\", display: \"Pathogenic Very Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
+  },
+  "CC451": {
+    "id": "CC451",
+    "description": "coding: [{ code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
+  },
+  "CC452": {
+    "id": "CC452",
+    "description": "coding: [{ code: \"ps\", display: \"Pathogenic Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
+  },
+  "CC453": {
+    "id": "CC453",
+    "description": "coding: [{ code: \"bs\", display: \"Benign Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
+  },
+  "CC454": {
+    "id": "CC454",
+    "description": "coding: [{ code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
+  },
+  "CC455": {
+    "id": "CC455",
+    "description": "coding: [{ code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
+  },
+  "CC456": {
+    "id": "CC456",
+    "description": "coding: [{ code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
+  }
+}

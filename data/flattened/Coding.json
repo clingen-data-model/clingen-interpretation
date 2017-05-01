@@ -1,0 +1,861 @@
+{
+  "CG-reg-anno-type:repeat": {
+    "id": "CG-reg-anno-type:repeat",
+    "code": "repeat",
+    "display": "Repeat",
+    "system": "http://clinicalgenome.org/datamodel/region-annotation-type/",
+    "code system name": "region-anno-type"
+  },
+  "CG-reg-anno-type:functional": {
+    "id": "CG-reg-anno-type:functional",
+    "code": "functional",
+    "display": "Functional",
+    "system": "http://clinicalgenome.org/datamodel/region-annotation-type/",
+    "code system name": "region-anno-type"
+  },
+  "CG-reg-anno-type:hotspot": {
+    "id": "CG-reg-anno-type:hotspot",
+    "code": "hotspot",
+    "display": "Mutational Hotspot",
+    "system": "http://clinicalgenome.org/datamodel/region-annotation-type/",
+    "code system name": "region-anno-type"
+  },
+  "CG-phase:cis": {
+    "id": "CG-phase:cis",
+    "code": "cis",
+    "display": "in cis",
+    "system": "http://clinicalgenome.org/datamodel/phase/",
+    "code system name": "phase"
+  },
+  "CG-phase:trans": {
+    "id": "CG-phase:trans",
+    "code": "trans",
+    "display": "in trans",
+    "system": "http://clinicalgenome.org/datamodel/phase/",
+    "code system name": "phase"
+  },
+  "CG-allelic-state:het": {
+    "id": "CG-allelic-state:het",
+    "code": "het",
+    "display": "heterozygous",
+    "system": "http://clinicalgenome.org/datamodel/allelic-state/",
+    "code system name": "allelic-state"
+  },
+  "CG-allelic-state:hom": {
+    "id": "CG-allelic-state:hom",
+    "code": "hom",
+    "display": "homozygous",
+    "system": "http://clinicalgenome.org/datamodel/allelic-state/",
+    "code system name": "allelic-state"
+  },
+  "CG-prediction-type:me": {
+    "id": "CG-prediction-type:me",
+    "code": "me",
+    "display": "missense effect",
+    "system": "http://clinicalgenome.org/datamodel/prediction-type/",
+    "code system name": "prediction-type"
+  },
+  "CG-prediction-type:sp": {
+    "id": "CG-prediction-type:sp",
+    "code": "sp",
+    "display": "splicing prediction",
+    "system": "http://clinicalgenome.org/datamodel/prediction-type/",
+    "code system name": "prediction-type"
+  },
+  "CG-criterion-outcome:not-met": {
+    "id": "CG-criterion-outcome:not-met",
+    "code": "not-met",
+    "display": "Not Met",
+    "system": "http://clinicalgenome.org/datamodel/criterion-assertion-outcome/",
+    "code system name": "criterion-outcome"
+  },
+  "CG-criterion-outcome:met": {
+    "id": "CG-criterion-outcome:met",
+    "code": "met",
+    "display": "Met",
+    "system": "http://clinicalgenome.org/datamodel/criterion-assertion-outcome/",
+    "code system name": "criterion-outcome"
+  },
+  "CG-evidence-strength:na": {
+    "id": "CG-evidence-strength:na",
+    "code": "na",
+    "display": "None",
+    "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
+    "code system name": "evidence-strength"
+  },
+  "CG-evidence-strength:pvs": {
+    "id": "CG-evidence-strength:pvs",
+    "code": "pvs",
+    "display": "Pathogenic Very Strong",
+    "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
+    "code system name": "evidence-strength"
+  },
+  "CG-evidence-strength:ps": {
+    "id": "CG-evidence-strength:ps",
+    "code": "ps",
+    "display": "Pathogenic Strong",
+    "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
+    "code system name": "evidence-strength"
+  },
+  "CG-evidence-strength:pm": {
+    "id": "CG-evidence-strength:pm",
+    "code": "pm",
+    "display": "Pathogenic Moderate",
+    "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
+    "code system name": "evidence-strength"
+  },
+  "CG-evidence-strength:pp": {
+    "id": "CG-evidence-strength:pp",
+    "code": "pp",
+    "display": "Pathogenic Supporting",
+    "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
+    "code system name": "evidence-strength"
+  },
+  "CG-evidence-strength:bp": {
+    "id": "CG-evidence-strength:bp",
+    "code": "bp",
+    "display": "Benign Supporting",
+    "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
+    "code system name": "evidence-strength"
+  },
+  "CG-evidence-strength:bs": {
+    "id": "CG-evidence-strength:bs",
+    "code": "bs",
+    "display": "Benign Strong",
+    "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
+    "code system name": "evidence-strength"
+  },
+  "CG-evidence-strength:ba": {
+    "id": "CG-evidence-strength:ba",
+    "code": "ba",
+    "display": "Benign Stand Alone",
+    "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
+    "code system name": "evidence-strength"
+  },
+  "CG-func-data-type:binding": {
+    "id": "CG-func-data-type:binding",
+    "code": "binding",
+    "display": "Binding assay?",
+    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
+    "code system name": "func-data-type"
+  },
+  "CG-func-data-type:atpase": {
+    "id": "CG-func-data-type:atpase",
+    "code": "atpase",
+    "display": "ATPase assay?",
+    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
+    "code system name": "func-data-type"
+  },
+  "CG-func-data-type:motility": {
+    "id": "CG-func-data-type:motility",
+    "code": "motility",
+    "display": "motility assay?",
+    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
+    "code system name": "func-data-type"
+  },
+  "CG-func-data-type:yeastcomp": {
+    "id": "CG-func-data-type:yeastcomp",
+    "code": "yeastcomp",
+    "display": "Yeast complementation assay",
+    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
+    "code system name": "func-data-type"
+  },
+  "CG-func-data-type:activation": {
+    "id": "CG-func-data-type:activation",
+    "code": "activation",
+    "display": "Activation Assay",
+    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
+    "code system name": "func-data-type"
+  },
+  "CG-func-data-type:iodeff": {
+    "id": "CG-func-data-type:iodeff",
+    "code": "iodeff",
+    "display": "iodide efflux",
+    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
+    "code system name": "func-data-type"
+  },
+  "CG-func-data-type:celloc": {
+    "id": "CG-func-data-type:celloc",
+    "code": "celloc",
+    "display": "cellular localization",
+    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
+    "code system name": "func-data-type"
+  },
+  "CG-func-data-type:neuritegrowth": {
+    "id": "CG-func-data-type:neuritegrowth",
+    "code": "neuritegrowth",
+    "display": "neurite outgrowth",
+    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
+    "code system name": "func-data-type"
+  },
+  "CG-func-data-type:elk1phosvialucif": {
+    "id": "CG-func-data-type:elk1phosvialucif",
+    "code": "elk1phosvialucif",
+    "display": "Elk1 pohsphorylation via luciferase assay",
+    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
+    "code system name": "func-data-type"
+  },
+  "CG-population-type:combined": {
+    "id": "CG-population-type:combined",
+    "code": "combined",
+    "display": "Combined",
+    "system": "http://clinicalgenome.org/datamodel/population-type/",
+    "code system name": "population-type"
+  },
+  "CG-population-type:overall": {
+    "id": "CG-population-type:overall",
+    "code": "overall",
+    "display": "Overall",
+    "system": "http://clinicalgenome.org/datamodel/population-type/",
+    "code system name": "population-type"
+  },
+  "CG-ben-missense-var-rate:low": {
+    "id": "CG-ben-missense-var-rate:low",
+    "code": "low",
+    "display": "Low",
+    "system": "http://clinicalgenome.org/datamodel/benign-missense-variation-rate/",
+    "code system name": "ben-missense-var-rate"
+  },
+  "CG-ben-missense-var-rate:high": {
+    "id": "CG-ben-missense-var-rate:high",
+    "code": "high",
+    "display": "High",
+    "system": "http://clinicalgenome.org/datamodel/benign-missense-variation-rate/",
+    "code system name": "ben-missense-var-rate"
+  },
+  "CG-penetrance-type:high": {
+    "id": "CG-penetrance-type:high",
+    "code": "high",
+    "display": "High",
+    "system": "http://clinicalgenome.org/datamodel/penetrance-type/",
+    "code system name": "penetrance-type"
+  },
+  "CG-penetrance-type:complete": {
+    "id": "CG-penetrance-type:complete",
+    "code": "complete",
+    "display": "Complete",
+    "system": "http://clinicalgenome.org/datamodel/penetrance-type/",
+    "code system name": "penetrance-type"
+  },
+  "CG-penetrance-type:incomplete": {
+    "id": "CG-penetrance-type:incomplete",
+    "code": "incomplete",
+    "display": "Incomplete",
+    "system": "http://clinicalgenome.org/datamodel/penetrance-type/",
+    "code system name": "penetrance-type"
+  },
+  "CG-cond-mech-strength:established": {
+    "id": "CG-cond-mech-strength:established",
+    "code": "established",
+    "display": "Established",
+    "system": "http://clinicalgenome.org/datamodel/condition-mechanism-strength/",
+    "definition": "The class of variants are known to cause the condition",
+    "code system name": "cond-mech-strength"
+  },
+  "CG-cond-mech-strength:primary": {
+    "id": "CG-cond-mech-strength:primary",
+    "code": "primary",
+    "display": "Primary",
+    "system": "http://clinicalgenome.org/datamodel/condition-mechanism-strength/",
+    "definition": "The class of variants are the main causes of the condition",
+    "code system name": "cond-mech-strength"
+  },
+  "CG-cond-mech-strength:common": {
+    "id": "CG-cond-mech-strength:common",
+    "code": "common",
+    "display": "Common",
+    "system": "http://clinicalgenome.org/datamodel/condition-mechanism-strength/",
+    "definition": "The class of variants are a common cause of the condition",
+    "code system name": "cond-mech-strength"
+  },
+  "CG-cond-mech-strength:suggested": {
+    "id": "CG-cond-mech-strength:suggested",
+    "code": "suggested",
+    "display": "Suggested",
+    "system": "http://clinicalgenome.org/datamodel/condition-mechanism-strength/",
+    "definition": "The class of variants has been suggested to cause the condition",
+    "code system name": "cond-mech-strength"
+  },
+  "CG-cond-mech-strength:unknown": {
+    "id": "CG-cond-mech-strength:unknown",
+    "code": "unknown",
+    "display": "Unknown",
+    "system": "http://clinicalgenome.org/datamodel/condition-mechanism-strength/",
+    "definition": "The class of variants are unknown to cause the condition",
+    "code system name": "cond-mech-strength"
+  },
+  "CG-data-source:lit": {
+    "id": "CG-data-source:lit",
+    "code": "lit",
+    "display": "literature",
+    "system": "http://clinicalgenome.org/datamodel/data-source/",
+    "definition": "PMID, journals, urls, ...",
+    "code system name": "data-source"
+  },
+  "CG-data-source:db": {
+    "id": "CG-data-source:db",
+    "code": "db",
+    "display": "database",
+    "system": "http://clinicalgenome.org/datamodel/data-source/",
+    "definition": "clinvar, EXEC, private, internal, commercial, ...",
+    "code system name": "data-source"
+  },
+  "CG-data-source:app": {
+    "id": "CG-data-source:app",
+    "code": "app",
+    "display": "application",
+    "system": "http://clinicalgenome.org/datamodel/data-source/",
+    "definition": "public, private, custom, ...",
+    "code system name": "data-source"
+  },
+  "CG-contributory-role:curator": {
+    "id": "CG-contributory-role:curator",
+    "code": "curator",
+    "display": "curator",
+    "system": "http://clinicalgenome.org/datamodel/contributory-role/",
+    "code system name": "contributory-role"
+  },
+  "CG-contributory-role:assessor": {
+    "id": "CG-contributory-role:assessor",
+    "code": "assessor",
+    "display": "assessor",
+    "system": "http://clinicalgenome.org/datamodel/contributory-role/",
+    "code system name": "contributory-role"
+  },
+  "CG-contributory-role:interpreter": {
+    "id": "CG-contributory-role:interpreter",
+    "code": "interpreter",
+    "display": "interpreter",
+    "system": "http://clinicalgenome.org/datamodel/contributory-role/",
+    "code system name": "contributory-role"
+  },
+  "SO:0001589": {
+    "id": "SO:0001589",
+    "code": "0001589",
+    "display": "frameshift variant",
+    "system": "http://sequenceontology.org/",
+    "code system name": "SequenceOntology"
+  },
+  "SO:0000191": {
+    "id": "SO:0000191",
+    "code": "0000191",
+    "display": "interior intron",
+    "system": "http://sequenceontology.org/",
+    "code system name": "SequenceOntology"
+  },
+  "SO:0001825": {
+    "id": "SO:0001825",
+    "code": "0001825",
+    "display": "Conservative Inframe Deletion",
+    "system": "http://sequenceontology.org/",
+    "code system name": "SequenceOntology"
+  },
+  "SO:0001823": {
+    "id": "SO:0001823",
+    "code": "0001823",
+    "display": "Conservative Inframe Insertion",
+    "system": "http://sequenceontology.org/",
+    "code system name": "SequenceOntology"
+  },
+  "SO:0001583": {
+    "id": "SO:0001583",
+    "code": "0001583",
+    "display": "missense variant",
+    "system": "http://sequenceontology.org/",
+    "code system name": "SequenceOntology"
+  },
+  "SO:0001819": {
+    "id": "SO:0001819",
+    "code": "0001819",
+    "display": "synonymous variant",
+    "system": "http://sequenceontology.org/",
+    "code system name": "SequenceOntology"
+  },
+  "SO:0001629": {
+    "id": "SO:0001629",
+    "code": "0001629",
+    "display": "splice-site variant",
+    "system": "http://sequenceontology.org/",
+    "code system name": "SequenceOntology"
+  },
+  "SO:0002054": {
+    "id": "SO:0002054",
+    "code": "0002054",
+    "display": "loss of function variant",
+    "system": "http://sequenceontology.org/",
+    "code system name": "SequenceOntology"
+  },
+  "EXAC:afr": {
+    "id": "EXAC:afr",
+    "code": "afr",
+    "display": "African/African American",
+    "system": "http://exac.broadinstitute.org/populations/",
+    "code system name": "ExAC populations"
+  },
+  "EXAC:amr": {
+    "id": "EXAC:amr",
+    "code": "amr",
+    "display": "Latino",
+    "system": "http://exac.broadinstitute.org/populations/",
+    "code system name": "ExAC populations"
+  },
+  "EXAC:eas": {
+    "id": "EXAC:eas",
+    "code": "eas",
+    "display": "East Asian",
+    "system": "http://exac.broadinstitute.org/populations/",
+    "code system name": "ExAC populations"
+  },
+  "EXAC:fin": {
+    "id": "EXAC:fin",
+    "code": "fin",
+    "display": "Finnish",
+    "system": "http://exac.broadinstitute.org/populations/",
+    "code system name": "ExAC populations"
+  },
+  "EXAC:nfe": {
+    "id": "EXAC:nfe",
+    "code": "nfe",
+    "display": "Non-Finnish European",
+    "system": "http://exac.broadinstitute.org/populations/",
+    "code system name": "ExAC populations"
+  },
+  "EXAC:sas": {
+    "id": "EXAC:sas",
+    "code": "sas",
+    "display": "South Asian",
+    "system": "http://exac.broadinstitute.org/populations/",
+    "code system name": "ExAC populations"
+  },
+  "EXAC:oth": {
+    "id": "EXAC:oth",
+    "code": "oth",
+    "display": "Other",
+    "system": "http://exac.broadinstitute.org/populations/",
+    "definition": "Individuals were classified as \"other\" if they did not unambiguously cluster with the major populations (i.e. EUR, NFE, AFR, SAS, EAS and AMR) in a principal component analysis (PCA).",
+    "code system name": "ExAC populations"
+  },
+  "IGSR:afr": {
+    "id": "IGSR:afr",
+    "code": "afr",
+    "display": "African",
+    "system": "http://www.internationalgenome.org/",
+    "code system name": "1000 Genomes"
+  },
+  "IGSR:amr": {
+    "id": "IGSR:amr",
+    "code": "amr",
+    "display": "Ad Mixed American",
+    "system": "http://www.internationalgenome.org/",
+    "code system name": "1000 Genomes"
+  },
+  "IGSR:eas": {
+    "id": "IGSR:eas",
+    "code": "eas",
+    "display": "East Asian",
+    "system": "http://www.internationalgenome.org/",
+    "code system name": "1000 Genomes"
+  },
+  "IGSR:eur": {
+    "id": "IGSR:eur",
+    "code": "eur",
+    "display": "European",
+    "system": "http://www.internationalgenome.org/",
+    "code system name": "1000 Genomes"
+  },
+  "IGSR:sas": {
+    "id": "IGSR:sas",
+    "code": "sas",
+    "display": "South Asian",
+    "system": "http://www.internationalgenome.org/",
+    "code system name": "1000 Genomes"
+  },
+  "HP:0000007": {
+    "id": "HP:0000007",
+    "code": "0000007",
+    "display": "Autosomal Recessive",
+    "system": "http://human-phenotype-ontology.github.io/",
+    "code system name": "HumanPhenotypeOntology"
+  },
+  "HP:0000006": {
+    "id": "HP:0000006",
+    "code": "0000006",
+    "display": "Autosomal Dominant",
+    "system": "http://human-phenotype-ontology.github.io/",
+    "code system name": "HumanPhenotypeOntology"
+  },
+  "HP:0001423": {
+    "id": "HP:0001423",
+    "code": "0001423",
+    "display": "X-linked dominant inheritance",
+    "system": "http://human-phenotype-ontology.github.io/",
+    "code system name": "HumanPhenotypeOntology"
+  },
+  "RO:0003000": {
+    "id": "RO:0003000",
+    "code": "0003000",
+    "display": "produces",
+    "system": "http://obofoundry.org/ro/",
+    "code system name": "RelationsOntology"
+  },
+  "RO:0003001": {
+    "id": "RO:0003001",
+    "code": "0003001",
+    "display": "produced-by",
+    "system": "http://obofoundry.org/ro/",
+    "code system name": "RelationsOntology"
+  },
+  "LN:LA6668-3": {
+    "id": "LN:LA6668-3",
+    "code": "LA6668-3",
+    "display": "Pathogenic",
+    "system": "http://loinc.org/",
+    "code system name": "LOINC"
+  },
+  "LN:LA26332-9": {
+    "id": "LN:LA26332-9",
+    "code": "LA26332-9",
+    "display": "Likely Pathogenic",
+    "system": "http://loinc.org/",
+    "definition": "changed from: LA6669-1",
+    "code system name": "LOINC"
+  },
+  "LN:LA26333-7": {
+    "id": "LN:LA26333-7",
+    "code": "LA26333-7",
+    "display": "Uncertain Signficance",
+    "system": "http://loinc.org/",
+    "definition": "changed from: LA6682-4",
+    "code system name": "LOINC"
+  },
+  "LN:LA26334-5": {
+    "id": "LN:LA26334-5",
+    "code": "LA26334-5",
+    "display": "Likely Benign",
+    "system": "http://loinc.org/",
+    "definition": "changed from: LA6675-8",
+    "code system name": "LOINC"
+  },
+  "LN:LA6675-8": {
+    "id": "LN:LA6675-8",
+    "code": "LA6675-8",
+    "display": "Benign",
+    "system": "http://loinc.org/",
+    "code system name": "LOINC"
+  },
+  "MESH:D061325": {
+    "id": "MESH:D061325",
+    "code": "D061325",
+    "display": "hereditary breast ovarian cancer",
+    "system": "https://meshb.nlm.nih.gov/",
+    "code system name": "MeSH"
+  },
+  "ORPHANET:217604": {
+    "id": "ORPHANET:217604",
+    "code": "217604",
+    "display": "dilated cardiomyopathy",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:648": {
+    "id": "ORPHANET:648",
+    "code": "648",
+    "display": "noonan syndrome",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:244": {
+    "id": "ORPHANET:244",
+    "code": "244",
+    "display": "Primary ciliary dyskenisia",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:3071": {
+    "id": "ORPHANET:3071",
+    "code": "3071",
+    "display": "costello syndrome",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "OMIM:609942": {
+    "id": "OMIM:609942",
+    "code": "609942",
+    "display": "noonan syndrome 3",
+    "system": "http://www.omim.org/",
+    "code system name": "OMIM"
+  },
+  "ORPHANET:167848": {
+    "id": "ORPHANET:167848",
+    "code": "167848",
+    "display": "cardiomyopathy",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "OMIM:601419": {
+    "id": "OMIM:601419",
+    "code": "601419",
+    "display": "myofibrillar myopathy 1",
+    "system": "http://www.omim.org/",
+    "code system name": "OMIM"
+  },
+  "ORPHANET:87884": {
+    "id": "ORPHANET:87884",
+    "code": "87884",
+    "display": "nonsyndromic deafness",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:423": {
+    "id": "ORPHANET:423",
+    "code": "423",
+    "display": "Malignant hyperthermia",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "HP:0011014": {
+    "id": "HP:0011014",
+    "code": "0011014",
+    "display": "Abnormal Glucose Homeostasis",
+    "system": "http://human-phenotype-ontology.github.io/",
+    "code system name": "HumanPhenotypeOntology"
+  },
+  "ORPHANET:324": {
+    "id": "ORPHANET:324",
+    "code": "324",
+    "display": "Fabry disease",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "HP:0200106": {
+    "id": "HP:0200106",
+    "code": "0200106",
+    "display": "Absent/shortened dynein arms",
+    "system": "http://human-phenotype-ontology.github.io/",
+    "code system name": "HumanPhenotypeOntology"
+  },
+  "ORPHANET:216": {
+    "id": "ORPHANET:216",
+    "code": "216",
+    "display": "neuronal ceroid lipofuscinosis",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:217569": {
+    "id": "ORPHANET:217569",
+    "code": "217569",
+    "display": "hypertrophic cardiomyopathy",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:664": {
+    "id": "ORPHANET:664",
+    "code": "664",
+    "display": "Ornithine carbamoyltransferase deficiency",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:122": {
+    "id": "ORPHANET:122",
+    "code": "122",
+    "display": "Birt-Hogg-Dube Syndrome",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:1340": {
+    "id": "ORPHANET:1340",
+    "code": "1340",
+    "display": "cardiofaciocutaneous syndrome",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:886": {
+    "id": "ORPHANET:886",
+    "code": "886",
+    "display": "Usher syndrome",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:774": {
+    "id": "ORPHANET:774",
+    "code": "774",
+    "display": "hereditary hemorrhagic telangiectasia",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "OMIM:612555": {
+    "id": "OMIM:612555",
+    "code": "612555",
+    "display": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2",
+    "system": "http://www.omim.org/",
+    "code system name": "OMIM"
+  },
+  "OMIM:614065": {
+    "id": "OMIM:614065",
+    "code": "614065",
+    "display": "Myopathy, Distal, type 4",
+    "system": "http://www.omim.org/",
+    "code system name": "OMIM"
+  },
+  "ORPHANET:586": {
+    "id": "ORPHANET:586",
+    "code": "586",
+    "display": "Cystic Fibrosis",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:558": {
+    "id": "ORPHANET:558",
+    "code": "558",
+    "display": "Marfan Syndrome",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:2609": {
+    "id": "ORPHANET:2609",
+    "code": "2609",
+    "display": "Mitochondrial complex 1 deficiency",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:2855": {
+    "id": "ORPHANET:2855",
+    "code": "2855",
+    "display": "Perrault Syndrome",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:319182": {
+    "id": "ORPHANET:319182",
+    "code": "319182",
+    "display": "Wiedemann-Steiner syndrome",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:733": {
+    "id": "ORPHANET:733",
+    "code": "733",
+    "display": "Familial Adenomatous Polyposis",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:705": {
+    "id": "ORPHANET:705",
+    "code": "705",
+    "display": "Pendred syndrome",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "HP:0000957": {
+    "id": "HP:0000957",
+    "code": "0000957",
+    "display": "café au lait macules (CALMs)",
+    "system": "http://human-phenotype-ontology.github.io/",
+    "code system name": "HumanPhenotypeOntology"
+  },
+  "HP:0000997": {
+    "id": "HP:0000997",
+    "code": "0000997",
+    "display": "axillary freckling",
+    "system": "http://human-phenotype-ontology.github.io/",
+    "code system name": "HumanPhenotypeOntology"
+  },
+  "HP:0000256": {
+    "id": "HP:0000256",
+    "code": "0000256",
+    "display": "macrocephaly",
+    "system": "http://human-phenotype-ontology.github.io/",
+    "code system name": "HumanPhenotypeOntology"
+  },
+  "OMIM:143890": {
+    "id": "OMIM:143890",
+    "code": "143890",
+    "display": "Hypercholesterolemia, Familial",
+    "system": "http://www.omim.org/",
+    "code system name": "OMIM"
+  },
+  "ORPHANET:145": {
+    "id": "ORPHANET:145",
+    "code": "145",
+    "display": "hereditary breast and ovarian cancer syndrome",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:84": {
+    "id": "ORPHANET:84",
+    "code": "84",
+    "display": "Fanconi Anemia",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:791": {
+    "id": "ORPHANET:791",
+    "code": "791",
+    "display": "Retinitis Pigmentosa",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "HP:0012873": {
+    "id": "HP:0012873",
+    "code": "0012873",
+    "display": "Absent vas deferens",
+    "system": "http://human-phenotype-ontology.github.io/",
+    "code system name": "HumanPhenotypeOntology"
+  },
+  "ORPHANET:364526": {
+    "id": "ORPHANET:364526",
+    "code": "364526",
+    "display": "Primary bone dysplasia",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:750": {
+    "id": "ORPHANET:750",
+    "code": "750",
+    "display": "pseudoachondroplasia",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "OMIM:114480": {
+    "id": "OMIM:114480",
+    "code": "114480",
+    "display": "Breast Cancer",
+    "system": "http://www.omim.org/",
+    "code system name": "OMIM"
+  },
+  "ORPHANET:414": {
+    "id": "ORPHANET:414",
+    "code": "414",
+    "display": "Gyrate atrophy of choroid and retina",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:98733": {
+    "id": "ORPHANET:98733",
+    "code": "98733",
+    "display": "Noonan syndrome and Noonan-related syndrome",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "ORPHANET:247": {
+    "id": "ORPHANET:247",
+    "code": "247",
+    "display": "arrhythmogenic right ventricular cardiomyopathy",
+    "system": "http://www.orpha.net/",
+    "code system name": "Orphanet"
+  },
+  "HP:0001419": {
+    "id": "HP:0001419",
+    "code": "0001419",
+    "display": "X-linked recessive inheritance",
+    "system": "http://human-phenotype-ontology.github.io/",
+    "code system name": "HumanPhenotypeOntology"
+  },
+  "DOID:630": {
+    "id": "DOID:630",
+    "code": "630",
+    "display": "genetic disease",
+    "system": "http://disease-ontology.org/",
+    "code system name": "Disease Ontology"
+  }
+}

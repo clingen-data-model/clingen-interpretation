@@ -4,9 +4,7 @@
     "description": "null variant (nonsense, frameshift, canonical ±1 or 2 splice sites, initiation codon, single or multiexon deletion) in a gene where LOF is a known mechanism of disease",
     "shortDescription": "Null variant in gene with known LOF mechanism",
     "defaultStrength": "CG-evidence-strength:pvs",
-    "defaultStrengthText": "Pathogenic Very Strong",
-    "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "defaultStrengthText": "code: \"pvs\", display: \"Pathogenic Very Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\"",
     "example issues/notes for this rule": "The two main concerns for applying this rule is:\na. Is LOF an established disease mechanism?\nb. Is LOF actually occurring?"
   },
   "PS1": {
@@ -14,9 +12,7 @@
     "description": "Same amino acid change as a previously established pathogenic variant regardless of nucleotide change",
     "shortDescription": "Nucleotide change results in previously reported pathogenic amino acid change",
     "defaultStrength": "CG-evidence-strength:ps",
-    "defaultStrengthText": "Pathogenic Strong",
-    "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "defaultStrengthText": "code: \"ps\", display: \"Pathogenic Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\"",
     "example issues/notes for this rule": "Beware of changes that impact splicing rather than at the amino acid/protein level\nFrom CSER paper: One site erroneously used this to apply prior publication of the same exact variant while this rule, as described in more depth on the ACMG/AMP guideline, only applies when the established pathogenic variant has a different nucleotide change than the variant being interpreted."
   },
   "PS2": {
@@ -24,9 +20,7 @@
     "description": "De novo (both maternity and paternity confirmed) in a patient with the disease and no family history",
     "shortDescription": "Confirmed de novo in individual without family history of condition",
     "defaultStrength": "CG-evidence-strength:ps",
-    "defaultStrengthText": "Pathogenic Strong",
-    "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "defaultStrengthText": "code: \"ps\", display: \"Pathogenic Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\"",
     "example issues/notes for this rule": "MYH7 is adding specificity to this rule with\na. No family history = parents have had ECHO and ECG\nb. Only paternity confirmation required"
   },
   "PS3": {
@@ -34,9 +28,7 @@
     "description": "Well-established in vitro or in vivo functional studies supportive of a damaging effect on the gene or gene product",
     "shortDescription": "Well-established functional studies showing damaging effect",
     "defaultStrength": "CG-evidence-strength:ps",
-    "defaultStrengthText": "Pathogenic Strong",
-    "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "defaultStrengthText": "code: \"ps\", display: \"Pathogenic Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\"",
     "example issues/notes for this rule": "This particular rule will probably be downgraded often, given that there are not many “Functional studies that have been validated and shown to be reproducible and robust in a clinical diagnostic laboratory setting”"
   },
   "PS4": {
@@ -44,18 +36,14 @@
     "description": "The prevalence of the variant in affected individuals is significantly increased compared with the prevalence in controls",
     "shortDescription": "Prevelance increase in affected vs. control",
     "defaultStrength": "CG-evidence-strength:ps",
-    "defaultStrengthText": "Pathogenic Strong",
-    "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic"
+    "defaultStrengthText": "code: \"ps\", display: \"Pathogenic Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\""
   },
   "PM1": {
     "id": "PM1",
     "description": "Located in a mutational hot spot and/or critical and well-established functional domain (e.g., active site of an enzyme) without benign variation",
     "shortDescription": "Located in hot spot without benign variation",
     "defaultStrength": "CG-evidence-strength:pm",
-    "defaultStrengthText": "Pathogenic Moderate",
-    "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "defaultStrengthText": "code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\"",
     "example issues/notes for this rule": "Suggested that this rule is NOT appropriate for LOF variants.\nAlso, note that when the region of interest is a “well-established functional domain” then it’s not necessary to show through evidence that it is intolerant of benign missense variants.  However, when a mutational hotspot is being defined, then showing it does not have benign missense variants is important."
   },
   "PM2": {
@@ -63,9 +51,7 @@
     "description": "Absent from controls (or at extremely low frequency if recessive) (Table 6) in Exome Sequencing Project, 1000 Genomes Project, or Exome Aggregation Consortium",
     "shortDescription": "Absent from controls",
     "defaultStrength": "CG-evidence-strength:pm",
-    "defaultStrengthText": "Pathogenic Moderate",
-    "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "defaultStrengthText": "code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\"",
     "example issues/notes for this rule": "Some groups are allowing to rule to be used if even not 100% absent\nFor instance, Cardio has allowed PM2 to be used if MAF is <0.05% with 95% CI if\nCI lower is ~0.00% (at 2 decimal places) AND CI upper is below 0.05%\n Caveat: Population data for insertions/deletions may be poorly called by next-generation sequencing"
   },
   "PM3": {
@@ -73,9 +59,7 @@
     "description": "For recessive disorders, detected in trans with a pathogenic variant",
     "shortDescription": "Recessive in trans with pathogenic variant",
     "defaultStrength": "CG-evidence-strength:pm",
-    "defaultStrengthText": "Pathogenic Moderate",
-    "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "defaultStrengthText": "code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\"",
     "example issues/notes for this rule": "CSER - Laboratories discussed when to modify the strength of PM3, the variant is seen in trans with a pathogenic variant for recessive disorders. Published literature may not always explicitly state the phase of variants found in affected individuals which raises a challenge for invoking PM3.\nWhen phase has not been established, some felt that PM3 could be invoked as supporting evidence. Also, if the variant is seen in trans with a pathogenic variant in more than one individual it was felt that PM3 can be upgraded to strong. However, sites did not agree on how many additional observations were necessary to call the evidence strong (2 vs. 3) but concluded that such guidance would be useful.\n \nLMM - INCREASES IN STRENGTH IF VARIANT SEEN IN MULTIPLE COMPOUND HETS WITH DIFFERENT LIKELY PATHOGENIC/PATHOGENIC VARIANTS\n"
   },
   "PM4": {
@@ -83,9 +67,7 @@
     "description": "Protein length changes as a result of in-frame deletions/insertions in a nonrepeat region or stop-loss variants",
     "shortDescription": "Protein length changes or stop-loss",
     "defaultStrength": "CG-evidence-strength:pm",
-    "defaultStrengthText": "Pathogenic Moderate",
-    "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "defaultStrengthText": "code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\"",
     "example issues/notes for this rule": "Need to ensure that variant is not located within a repeat region\n\nThis rule is also (likely) applicable for frameshift variants that result in extension of the protein as opposed to truncation (similar to stop loss)."
   },
   "PM5": {
@@ -93,9 +75,7 @@
     "description": "Novel missense change at an amino acid residue where a different missense change determined to be pathogenic has been seen before",
     "shortDescription": "Novel missense at same amino acid as known pathogenic missense",
     "defaultStrength": "CG-evidence-strength:pm",
-    "defaultStrengthText": "Pathogenic Moderate",
-    "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "defaultStrengthText": "code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\"",
     "example issues/notes for this rule": "Need to be sure that pathogenic variant exists at the residue in question. Sometimes discrepancy resolution may be required. Some thing like Variantexplorer.org may be useful.\nSometimes no assertion is provided in ClinVar ...may require curation by lit. search."
   },
   "PM6": {
@@ -103,27 +83,21 @@
     "description": "Assumed de novo, but without confirmation of paternity and maternity",
     "shortDescription": "Assumed de novo (parental status not confirmed)",
     "defaultStrength": "CG-evidence-strength:pm",
-    "defaultStrengthText": "Pathogenic Moderate",
-    "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic"
+    "defaultStrengthText": "code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\""
   },
   "PP1": {
     "id": "PP1",
     "description": "Cosegregation with disease in multiple affected family members in a gene definitively known to cause the disease",
     "shortDescription": "Segregates with disease in affected family members",
     "defaultStrength": "CG-evidence-strength:pp",
-    "defaultStrengthText": "Pathogenic Supporting",
-    "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic"
+    "defaultStrengthText": "code: \"pp\", display: \"Pathogenic Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\""
   },
   "PP2": {
     "id": "PP2",
     "description": "Missense variant in a gene that has a low rate of benign missense variation and in which missense variants are a common mechanism of disease",
     "shortDescription": "Missense in condition where pathogenic missense common",
     "defaultStrength": "CG-evidence-strength:pp",
-    "defaultStrengthText": "Pathogenic Supporting",
-    "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "defaultStrengthText": "code: \"pp\", display: \"Pathogenic Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\"",
     "example issues/notes for this rule": "Seems no one has established firm rules for when this rule is applicable so not sure how great any examples will be\nAgree with the lack of firm rules. Seems like one criteria may be observed missense variants over 5% allele frequency in ExAC. If this seems reasonable then I could generate a couple of examples."
   },
   "PP3": {
@@ -131,9 +105,7 @@
     "description": "Multiple lines of computational evidence support a deleterious effect on the gene or gene product (conservation, evolutionary, splicing impact, etc.)",
     "shortDescription": "Computational evidence supports deleterious impact",
     "defaultStrength": "CG-evidence-strength:pp",
-    "defaultStrengthText": "Pathogenic Supporting",
-    "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic",
+    "defaultStrengthText": "code: \"pp\", display: \"Pathogenic Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\"",
     "example issues/notes for this rule": "Don’t know if there is a definition of “multiple” . If >1 then the algorithms chosen are at the discretion of the curator/lab.  There is a difference between lines of evidence and number of implementations."
   },
   "PP4": {
@@ -141,27 +113,21 @@
     "description": "Patient’s phenotype or family history is highly specific for a disease with a single genetic etiology",
     "shortDescription": "Disease specific phenotype and family history",
     "defaultStrength": "CG-evidence-strength:pp",
-    "defaultStrengthText": "Pathogenic Supporting",
-    "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic"
+    "defaultStrengthText": "code: \"pp\", display: \"Pathogenic Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\""
   },
   "PP5": {
     "id": "PP5",
     "description": "Reputable source recently reports variant as pathogenic, but the evidence is not available to the laboratory to perform an independent evaluation",
     "shortDescription": "Reported pathogenic by reputable source without shared data",
     "defaultStrength": "CG-evidence-strength:pp",
-    "defaultStrengthText": "Pathogenic Supporting",
-    "targetInterpretation": "LN:LA6668-3",
-    "targetInterpretationText": "Pathogenic"
+    "defaultStrengthText": "code: \"pp\", display: \"Pathogenic Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\""
   },
   "BA1": {
     "id": "BA1",
     "description": "Allele frequency is >5% in Exome Sequencing Project, 1000 Genomes Project, or Exome Aggregation Consortium",
     "shortDescription": "Present in population databases at greater than 5%",
     "defaultStrength": "CG-evidence-strength:ba",
-    "defaultStrengthText": "Benign Stand Alone",
-    "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign",
+    "defaultStrengthText": "code: \"ba\", display: \"Benign Stand Alone\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\"",
     "example issues/notes for this rule": "Several groups have lowered the BA1 threshold (e.g. PTEN-1%). Also the sequence variant interpretation group is working on a modified version of this guideline including the minimum # of alleles that need to be examined and the population stratification effects, if any."
   },
   "BS1": {
@@ -169,18 +135,14 @@
     "description": "Allele frequency is greater than expected for disorder",
     "shortDescription": "MAF too high for disorder",
     "defaultStrength": "CG-evidence-strength:bs",
-    "defaultStrengthText": "Benign Strong",
-    "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign"
+    "defaultStrengthText": "code: \"bs\", display: \"Benign Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\""
   },
   "BS2": {
     "id": "BS2",
     "description": "Observed in a healthy adult individual for a recessive (homozygous), dominant (heterozygous), or X-linked (hemizygous) disorder, with full penetrance expected at an early age",
     "shortDescription": "Control frequency higher than expected for penetrance",
     "defaultStrength": "CG-evidence-strength:bs",
-    "defaultStrengthText": "Benign Strong",
-    "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign",
+    "defaultStrengthText": "code: \"bs\", display: \"Benign Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\"",
     "example issues/notes for this rule": "This rule should not be used for diseases with reduced penetrance or late/variable age of  onset (such as certain cardiomyopathies)."
   },
   "BS3": {
@@ -188,9 +150,7 @@
     "description": "Well-established in vitro or in vivo functional studies show no damaging effect on protein function or splicing",
     "shortDescription": "Well-established functional studies do not show damaging effect",
     "defaultStrength": "CG-evidence-strength:bs",
-    "defaultStrengthText": "Benign Strong",
-    "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign",
+    "defaultStrengthText": "code: \"bs\", display: \"Benign Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\"",
     "example issues/notes for this rule": "\nThis will all depend on what is “established”, which could end up being defined by the different clinical domain working groups.\n"
   },
   "BS4": {
@@ -198,9 +158,7 @@
     "description": "Lack of segregation in affected members of a family",
     "shortDescription": "Does not segregate with disease",
     "defaultStrength": "CG-evidence-strength:bs",
-    "defaultStrengthText": "Benign Strong",
-    "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign",
+    "defaultStrengthText": "code: \"bs\", display: \"Benign Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\"",
     "example issues/notes for this rule": "This rule is for “lack of segregation” meaning phenotype positive / genotype negative (and not pheno neg / geno pos). Also need to be careful of phenocopies. Also need rules for how many cases are needed in use this rule"
   },
   "BP1": {
@@ -208,9 +166,7 @@
     "description": "Missense variant in a gene for which primarily truncating variants are known to cause disease",
     "shortDescription": "Missense variant when truncating is expected mechanism",
     "defaultStrength": "CG-evidence-strength:bp",
-    "defaultStrengthText": "Benign Supporting",
-    "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign",
+    "defaultStrengthText": "code: \"bp\", display: \"Benign Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\"",
     "example issues/notes for this rule": "Is there any guidance on the proportion of pathogenic variants that are LOF to apply this rule?  99%? 90%? 75%?"
   },
   "BP2": {
@@ -218,27 +174,21 @@
     "description": "Observed in trans with a pathogenic variant for a fully penetrant dominant gene/disorder or observed in cis with a pathogenic variant in any inheritance pattern",
     "shortDescription": "In trans with dominant OR in cis with pathogenic variant",
     "defaultStrength": "CG-evidence-strength:bp",
-    "defaultStrengthText": "Benign Supporting",
-    "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign"
+    "defaultStrengthText": "code: \"bp\", display: \"Benign Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\""
   },
   "BP3": {
     "id": "BP3",
     "description": "In-frame deletions/insertions in a repetitive region without a known function",
     "shortDescription": "In-frame indel without known function",
     "defaultStrength": "CG-evidence-strength:bp",
-    "defaultStrengthText": "Benign Supporting",
-    "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign"
+    "defaultStrengthText": "code: \"bp\", display: \"Benign Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\""
   },
   "BP4": {
     "id": "BP4",
     "description": "Multiple lines of computational evidence suggest no impact on gene or gene product (conservation, evolutionary, splicing impact, etc.)",
     "shortDescription": "Computational evidence supports benign impact",
     "defaultStrength": "CG-evidence-strength:bp",
-    "defaultStrengthText": "Benign Supporting",
-    "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign",
+    "defaultStrengthText": "code: \"bp\", display: \"Benign Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\"",
     "example issues/notes for this rule": "same issues as PP3."
   },
   "BP5": {
@@ -246,26 +196,20 @@
     "description": "Variant found in a case with an alternate molecular basis for disease",
     "shortDescription": "Variant found in case with alternate explanation",
     "defaultStrength": "CG-evidence-strength:bp",
-    "defaultStrengthText": "Benign Supporting",
-    "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign"
+    "defaultStrengthText": "code: \"bp\", display: \"Benign Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\""
   },
   "BP6": {
     "id": "BP6",
     "description": "Reputable source recently reports variant as benign, but the evidence is not available to the laboratory to perform an independent evaluation",
     "shortDescription": "Reported benign by reputable source without shared data",
     "defaultStrength": "CG-evidence-strength:bp",
-    "defaultStrengthText": "Benign Supporting",
-    "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign"
+    "defaultStrengthText": "code: \"bp\", display: \"Benign Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\""
   },
   "BP7": {
     "id": "BP7",
     "description": "A synonymous (silent) variant for which splicing prediction algorithms predict no impact to the splice consensus sequence nor the creation of a new splice site AND the nucleotide is not highly conserved",
     "shortDescription": "Synonymous variant without predicted splice effect in region with low conservation",
     "defaultStrength": "CG-evidence-strength:bp",
-    "defaultStrengthText": "Benign Supporting",
-    "targetInterpretation": "LN:LA6675-8",
-    "targetInterpretationText": "Benign"
+    "defaultStrengthText": "code: \"bp\", display: \"Benign Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\""
   }
 }

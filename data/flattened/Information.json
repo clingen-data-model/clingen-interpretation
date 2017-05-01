@@ -3,2666 +3,2036 @@
     "id": "MolCon001",
     "entityTypeId": "E02",
     "explanation": "Protein ends at p.826 and this frameshift would create stop at p.852 (769+83) thus NMD would not occur. Instead an elongated protein",
-    "thumbnail": "frameshift variant"
+    "thumbnail": "MolCon001: { consequence: { coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "CondMech002": {
     "id": "CondMech002",
     "entityTypeId": "E03",
     "explanation": "HNRNPU is not associated with any conditions, and therefore LOF is not an established mechanism of any condition for this gene.",
-    "thumbnail": "loss of function variant, Established"
+    "thumbnail": "CondMech002: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] } }"
   },
   "MolCon003": {
     "id": "MolCon003",
     "entityTypeId": "E02",
     "explanation": "LOF is predicted to occur as variant is >55bp from penultimate exon",
-    "thumbnail": "frameshift variant"
+    "thumbnail": "MolCon003: { consequence: { coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "CondMech004": {
     "id": "CondMech004",
     "entityTypeId": "E03",
     "explanation": "This is so well-known that it does not require a citation.",
-    "thumbnail": "loss of function variant, Established, Breast Ovarian Cancer, Autosomal Dominant"
+    "thumbnail": "CondMech004: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Breast Ovarian Cancer, Autosomal Dominant } }"
   },
   "MolCon005": {
     "id": "MolCon005",
     "entityTypeId": "E02",
     "explanation": "LOF is predicted but this transcript is rare",
-    "thumbnail": "frameshift variant"
+    "thumbnail": "MolCon005: { consequence: { coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "MolCon006": {
     "id": "MolCon006",
     "entityTypeId": "E02",
-    "thumbnail": "interior intron"
+    "thumbnail": "MolCon006: { consequence: { coding: [{ code: \"0000191\", display: \"interior intron\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "CondMech007": {
     "id": "CondMech007",
     "entityTypeId": "E03",
-    "thumbnail": "loss of function variant, Established, dilated cardiomyopathy"
+    "thumbnail": "CondMech007: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Orphanet:217604 } }"
   },
   "VarInterp008": {
     "id": "VarInterp008",
     "entityTypeId": "E35",
     "explanation": "NM_002834.3:c.855T>G Pathogenic for Noonan Syndrome",
-    "thumbnail": "NM_002834.3(PTPN11):c.853T>C (p.Phe285Leu), noonan syndrome, Autosomal Dominant, Pathogenic"
+    "thumbnail": "VarInterp008: { variant: { NM_002834.3(PTPN11):c.853T>C (p.Phe285Leu) }, condition: { Orphanet:648, HP:0000006 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp009": {
     "id": "VarInterp009",
     "entityTypeId": "E35",
     "explanation": "NM_001369.2:c.6249G>A Pathogenic for PCD",
-    "thumbnail": "NM_001369.2(DNAH5):c.6249G>A (p.Met2083Ile), Primary ciliary dyskenisia, Pathogenic"
+    "thumbnail": "VarInterp009: { variant: { NM_001369.2(DNAH5):c.6249G>A (p.Met2083Ile) }, condition: { Orphanet:244 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp010": {
     "id": "VarInterp010",
     "entityTypeId": "E35",
     "explanation": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) Pathogenic for Noonan Syndrome 3",
-    "thumbnail": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile), noonan syndrome 3, Pathogenic"
+    "thumbnail": "VarInterp010: { variant: { NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) }, condition: { OMIM:609942 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp011": {
     "id": "VarInterp011",
     "entityTypeId": "E35",
     "explanation": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) Pathogenic for Costello syndrome",
-    "thumbnail": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile), noonan syndrome, Autosomal Dominant, Pathogenic"
+    "thumbnail": "VarInterp011: { variant: { NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) }, condition: { Orphanet:648, HP:0000006 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "IndCond012": {
     "id": "IndCond012",
     "entityTypeId": "E17",
-    "thumbnail": "individual #001, dilated cardiomyopathy, TRUE"
+    "thumbnail": "IndCond012: { individual: { individual #001 }, condition: { Orphanet:217604 }, hasCondition: true }"
   },
   "FamHist013": {
     "id": "FamHist013",
     "entityTypeId": "E18",
-    "thumbnail": "individual #001, dilated cardiomyopathy, FALSE"
+    "thumbnail": "FamHist013: { proband: { individual #001 }, condition: { Orphanet:217604 }, familyHasCondition: false }"
   },
   "DeNovo014": {
     "id": "DeNovo014",
     "entityTypeId": "E19",
     "explanation": "parentage confirmed via haplotyping.",
-    "thumbnail": "individual #001, TRUE, TRUE"
+    "thumbnail": "DeNovo014: { individual: { individual #001 }, maternityConfirmed: true, paternityConfirmed: true }"
   },
   "IndCond015": {
     "id": "IndCond015",
     "entityTypeId": "E17",
-    "thumbnail": "individual #002, desmin related myopathy, TRUE"
+    "thumbnail": "IndCond015: { individual: { individual #002 }, condition: { desmin related myopathy }, hasCondition: true }"
   },
   "FamHist016": {
     "id": "FamHist016",
     "entityTypeId": "E18",
-    "thumbnail": "individual #002, desmin related myopathy, FALSE"
+    "thumbnail": "FamHist016: { proband: { individual #002 }, condition: { desmin related myopathy }, familyHasCondition: false }"
   },
   "DeNovo017": {
     "id": "DeNovo017",
     "entityTypeId": "E19",
     "explanation": "Non-paternity was excluded by assessment with microsatellites",
-    "thumbnail": "individual #002, FALSE, TRUE"
+    "thumbnail": "DeNovo017: { individual: { individual #002 }, maternityConfirmed: false, paternityConfirmed: true }"
   },
   "IndCond018": {
     "id": "IndCond018",
     "entityTypeId": "E17",
-    "thumbnail": "individual #003, Epilepsy with Mental Retardation, TRUE"
+    "thumbnail": "IndCond018: { individual: { individual #003 }, condition: { Epilepsy with Mental Retardation }, hasCondition: true }"
   },
   "FamHist019": {
     "id": "FamHist019",
     "entityTypeId": "E18",
-    "thumbnail": "individual #003, Epilepsy with Mental Retardation, FALSE"
+    "thumbnail": "FamHist019: { proband: { individual #003 }, condition: { Epilepsy with Mental Retardation }, familyHasCondition: false }"
   },
   "DeNovo020": {
     "id": "DeNovo020",
     "entityTypeId": "E19",
     "explanation": "Variant from trio WES, which confirmed parentage",
-    "thumbnail": "individual #003, TRUE, TRUE"
+    "thumbnail": "DeNovo020: { individual: { individual #003 }, maternityConfirmed: true, paternityConfirmed: true }"
   },
   "Func021": {
     "id": "Func021",
     "entityTypeId": "E20",
-    "thumbnail": "the mutation lowered the Ca2+  affinity of the reconstituted thin filaments;, Binding assay?, NP_001001431.1:p.Arg131Trp, TNNT2"
+    "thumbnail": "Func021: { result: \"the mutation lowered the Ca2+  affinity of the reconstituted thin filaments;\", dataType: { coding: [{ code: \"binding\", display: \"Binding assay?\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
   },
   "Func022": {
     "id": "Func022",
     "entityTypeId": "E20",
-    "thumbnail": "reduced Ca2 sensitivity of activation, ATPase assay?, NP_001001431.1:p.Arg131Trp, TNNT2"
+    "thumbnail": "Func022: { result: \"reduced Ca2 sensitivity of activation\", dataType: { coding: [{ code: \"atpase\", display: \"ATPase assay?\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
   },
   "Func023": {
     "id": "Func023",
     "entityTypeId": "E20",
-    "thumbnail": "reduced Ca2 sensitivity of activation, motility assay?, NP_001001431.1:p.Arg131Trp, TNNT2"
+    "thumbnail": "Func023: { result: \"reduced Ca2 sensitivity of activation\", dataType: { coding: [{ code: \"motility\", display: \"motility assay?\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
   },
   "Func024": {
     "id": "Func024",
     "entityTypeId": "E20",
-    "thumbnail": "desensitized Ca2+ binding to the thin filament., Binding assay?, NP_001001431.1:p.Arg131Trp, TNNT2"
+    "thumbnail": "Func024: { result: \"desensitized Ca2+ binding to the thin filament.\", dataType: { coding: [{ code: \"binding\", display: \"Binding assay?\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
   },
   "Func025": {
     "id": "Func025",
     "entityTypeId": "E20",
     "explanation": "Expression of human SPG7 (with this mutation) in yeast with damaged m-AAA protease did not restore respiratory growth or MrpL32 processing, if the function of AFG3L2 was impaired.",
-    "thumbnail": "Functionally Damaging, Yeast complementation assay, NM_003119.2 (SPG7):c.1529C>T, SPG7"
+    "thumbnail": "Func025: { result: \"Functionally Damaging\", dataType: { coding: [{ code: \"yeastcomp\", display: \"Yeast complementation assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NM_003119.2 (SPG7):c.1529C>T }, gene: { SPG7 } }"
   },
   "Func026": {
     "id": "Func026",
     "entityTypeId": "E20",
-    "thumbnail": "abnormal/deceased MEK activtation., Activation Assay, NP_004324.2:p.Gly596Val, BRAF, MEK"
+    "thumbnail": "Func026: { result: \"abnormal/deceased MEK activtation.\", dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_004324.2:p.Gly596Val }, gene: { BRAF }, gene: { MEK } }"
   },
   "Func027": {
     "id": "Func027",
     "entityTypeId": "E20",
-    "thumbnail": "abnormal/deceased ERK activtation., Activation Assay, NP_004324.2:p.Gly596Val, BRAF, ERK"
+    "thumbnail": "Func027: { result: \"abnormal/deceased ERK activtation.\", dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_004324.2:p.Gly596Val }, gene: { BRAF }, gene: { ERK } }"
   },
   "AllFreq028": {
     "id": "AllFreq028",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, NM_000441.1(SLC26A4):c.1003T>C"
+    "thumbnail": "AllFreq028: { ascertainment: \"ExAC\", allele: { NM_000441.1(SLC26A4):c.1003T>C } }"
   },
   "AllFreq029": {
     "id": "AllFreq029",
     "entityTypeId": "E23",
-    "thumbnail": "Across all published data (and LMM data) with hearing loss., NM_000441.1(SLC26A4):c.1003T>C"
+    "thumbnail": "AllFreq029: { ascertainment: \"Across all published data (and LMM data) with hearing loss.\", allele: { NM_000441.1(SLC26A4):c.1003T>C } }"
   },
   "CaseCtrl030": {
     "id": "CaseCtrl030",
     "entityTypeId": "E21",
     "explanation": "Treating ExAC data as controls for",
-    "thumbnail": "Hearing Loss, AllFreq029, AllFreq028"
+    "thumbnail": "CaseCtrl030: { condition: { Hearing Loss }, caseGroupFrequency: \"AllFreq029\", controlGroupFrequency: \"AllFreq028\" }"
   },
   "AllFreq031": {
     "id": "AllFreq031",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, NM_000540.2 (RYR1):c.1840C>T"
+    "thumbnail": "AllFreq031: { ascertainment: \"ExAC\", allele: { NM_000540.2 (RYR1):c.1840C>T } }"
   },
   "AllFreq032": {
     "id": "AllFreq032",
     "entityTypeId": "E23",
     "explanation": "This allele is thought to account for between 2% and 10% of patients with Malignant hyperthermia.",
-    "thumbnail": "NM_000540.2 (RYR1):c.1840C>T"
+    "thumbnail": "AllFreq032: { allele: { NM_000540.2 (RYR1):c.1840C>T } }"
   },
   "CaseCtrl033": {
     "id": "CaseCtrl033",
     "entityTypeId": "E21",
     "explanation": "Did not calculate formal odds ratio",
-    "thumbnail": "Malignant hyperthermia, Autosomal Dominant, AllFreq032, AllFreq031"
+    "thumbnail": "CaseCtrl033: { condition: { Orphanet:423, HP:0000006 }, caseGroupFrequency: \"AllFreq032\", controlGroupFrequency: \"AllFreq031\" }"
   },
   "AllFreq034": {
     "id": "AllFreq034",
     "entityTypeId": "E23",
-    "thumbnail": "Case group is composed of cases from six cohorts from the GENIUS T2D consortium.  Case status is defined per-cohort., NM_006208.2(ENPP1):c.517A>C, Non-Finnish European"
+    "thumbnail": "AllFreq034: { ascertainment: \"Case group is composed of cases from six cohorts from the GENIUS T2D consortium.  Case status is defined per-cohort.\", allele: { NM_006208.2(ENPP1):c.517A>C }, population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://exac.broadinstitute.org/populations/\" }] } }"
   },
   "AllFreq035": {
     "id": "AllFreq035",
     "entityTypeId": "E23",
-    "thumbnail": "Controls group is composed of controls from six cohorts from the GENIUS T2D consortium.  Controls status is defined per-cohort., NM_006208.2(ENPP1):c.517A>C, Non-Finnish European"
+    "thumbnail": "AllFreq035: { ascertainment: \"Controls group is composed of controls from six cohorts from the GENIUS T2D consortium.  Controls status is defined per-cohort.\", allele: { NM_006208.2(ENPP1):c.517A>C }, population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://exac.broadinstitute.org/populations/\" }] } }"
   },
   "CaseCtrl036": {
     "id": "CaseCtrl036",
     "entityTypeId": "E21",
     "explanation": "Odds ratio is calculated by pooling samples from the six GENIUS T2D cohorts before calculation.",
-    "thumbnail": "Abnormal Glucose Homeostasis, AllFreq034, AllFreq035"
+    "thumbnail": "CaseCtrl036: { condition: { HP:0011014 }, caseGroupFrequency: \"AllFreq034\", controlGroupFrequency: \"AllFreq035\" }"
   },
   "AllFreq037": {
     "id": "AllFreq037",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, NM_000257.2(MYH7):c.327C>T, 0.02, South Asian"
+    "thumbnail": "AllFreq037: { ascertainment: \"ExAC\", allele: { NM_000257.2(MYH7):c.327C>T }, alleleFrequency: 0.02, population: { coding: [{ code: \"sas\", display: \"South Asian\", system: \"http://exac.broadinstitute.org/populations/\" }] } }"
   },
   "AllFreq038": {
     "id": "AllFreq038",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His), 0.02, African/African American"
+    "thumbnail": "AllFreq038: { ascertainment: \"ExAC\", allele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, alleleFrequency: 0.02, population: { coding: [{ code: \"afr\", display: \"African/African American\", system: \"http://exac.broadinstitute.org/populations/\" }] } }"
   },
   "CondPrev039": {
     "id": "CondPrev039",
     "entityTypeId": "E49",
-    "thumbnail": "Hearing Loss, 1/500, 1/300, Overall"
+    "thumbnail": "CondPrev039: { condition: { Hearing Loss }, minimum: 1/500, maximum: 1/300, population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] } }"
   },
   "RegAnn040": {
     "id": "RegAnn040",
     "entityTypeId": "E24",
     "explanation": "This region is the catalytic (kinase) domain.",
-    "thumbnail": "Loc379, Functional"
+    "thumbnail": "RegAnn040: { region: \"Loc379\", isTypes: { coding: [{ code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
   },
   "VarInterp041": {
     "id": "VarInterp041",
     "entityTypeId": "E35",
     "explanation": "Arg343His in Exon 08 of LOXHD1: This variant is not expected to have clinical significance because it has been identified in 2.0% (27/1384) of African American chromosomes by the NHLBI Exome Sequencing Project (http://evs.gs.washington.edu/EVS).",
-    "thumbnail": "NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His), Hearing Loss, Autosomal Recessive, Benign"
+    "thumbnail": "VarInterp041: { variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, condition: { Hearing Loss, Autosomal Recessive }, clinicalSignificance: { coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp042": {
     "id": "VarInterp042",
     "entityTypeId": "E35",
     "explanation": "Uncertain Sig(not specified) NM_000363.4(TNNI3):c.484C>T (p.Arg162Trp)",
-    "thumbnail": "NM_000363.4(TNNI3):c.484C>T, Uncertain Signficance"
+    "thumbnail": "VarInterp042: { variant: { NM_000363.4(TNNI3):c.484C>T }, clinicalSignificance: { coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }] } }"
   },
   "RegAnn043": {
     "id": "RegAnn043",
     "entityTypeId": "E24",
     "explanation": "This region is exon 15 in the transcript, and codes the serine-threonine-protein kinase catalytic domain.",
-    "thumbnail": "Loc381, Functional"
+    "thumbnail": "RegAnn043: { region: \"Loc381\", isTypes: { coding: [{ code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
   },
   "VarInterp044": {
     "id": "VarInterp044",
     "entityTypeId": "E35",
     "explanation": "p.Tyr109Tyr in exon 4 of MYH7: This variant is not expected to have clinical significance because it does not alter an amino acid residue and is not located near a splice junction. It has been identified in 0.2% (31/16512) of South Asian chromosomes by the Exome Aggregation Consortium (ExAC, http://exac.broadinstitute.org; dbSNP rs36211408).",
-    "thumbnail": "NM_000257.2(MYH7):c.327C>T, Likely Benign"
+    "thumbnail": "VarInterp044: { variant: { NM_000257.2(MYH7):c.327C>T }, clinicalSignificance: { coding: [{ code: \"LA26334-5\", display: \"Likely Benign\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp045": {
     "id": "VarInterp045",
     "entityTypeId": "E35",
     "explanation": "The c.631-2A>G variant in DSC2 has been reported in 1 Caucasian individual with ARVC (Heuser 2006). This variant has also been identified by our laboratory in 2 individuals (1 with ARVC and 1 with LVNC). This variant has been reported in 1/66564 European chromosomes by the Exome Aggregation Consortium (ExAC, http://exac.broadinstitute.org; dbSNP rs397514042). This variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006). Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/). In summary, although additional studies are required to fully establish its clinical significance, the c.631-2A>G variant is likely pathogenic.",
-    "thumbnail": "NM_024422.3(DSC2): c.631-2A>G (p.?), MendCond074, Likely Pathogenic"
+    "thumbnail": "VarInterp045: { variant: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, condition: \"MendCond074\", clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "RegAnn046": {
     "id": "RegAnn046",
     "entityTypeId": "E24",
     "explanation": "Region(NM_0001692[996..1012]) is a mutational hotspot.",
-    "thumbnail": "Loc383, Mutational Hotspot"
+    "thumbnail": "RegAnn046: { region: \"Loc383\", isTypes: { coding: [{ code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
   },
   "VarInterp047": {
     "id": "VarInterp047",
     "entityTypeId": "E35",
-    "thumbnail": "NM_000169.2(GLA): c.886A>G, Fabry disease, X-linked recessive inheritance, Pathogenic"
+    "thumbnail": "VarInterp047: { variant: { NM_000169.2(GLA): c.886A>G }, condition: { Orphanet:324, HP:0001419 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp048": {
     "id": "VarInterp048",
     "entityTypeId": "E35",
-    "thumbnail": "NM_000169.2(GLA):c.890C>T, Fabry disease, X-linked recessive inheritance, Pathogenic"
+    "thumbnail": "VarInterp048: { variant: { NM_000169.2(GLA):c.890C>T }, condition: { Orphanet:324, HP:0001419 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp049": {
     "id": "VarInterp049",
     "entityTypeId": "E35",
-    "thumbnail": "NM_000169.2(GLA):c.899T>C, Fabry disease, X-linked recessive inheritance, Pathogenic"
+    "thumbnail": "VarInterp049: { variant: { NM_000169.2(GLA):c.899T>C }, condition: { Orphanet:324, HP:0001419 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp050": {
     "id": "VarInterp050",
     "entityTypeId": "E35",
-    "thumbnail": "NM_000169.2(GLA):c.902G>A, Fabry disease, X-linked recessive inheritance, Pathogenic"
+    "thumbnail": "VarInterp050: { variant: { NM_000169.2(GLA):c.902G>A }, condition: { Orphanet:324, HP:0001419 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "AllFreq051": {
     "id": "AllFreq051",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, Non-Finnish European, NM_000257.2(MYH7):c.5135G>A, 1.499E-05"
+    "thumbnail": "AllFreq051: { ascertainment: \"ExAC\", population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://exac.broadinstitute.org/populations/\" }] }, allele: { NM_000257.2(MYH7):c.5135G>A }, alleleFrequency: 0.00001499 }"
   },
   "AllFreq052": {
     "id": "AllFreq052",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, Combined, NM_000257.2(MYH7):c.5135G>A, 8.24E-06"
+    "thumbnail": "AllFreq052: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000257.2(MYH7):c.5135G>A }, alleleFrequency: 0.00000824 }"
   },
   "AllFreq053": {
     "id": "AllFreq053",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, Finnish, NM_001128425.1(MUTYH):c.64G>A (p.Val22Met), 0.07771"
+    "thumbnail": "AllFreq053: { ascertainment: \"ExAC\", population: { coding: [{ code: \"fin\", display: \"Finnish\", system: \"http://exac.broadinstitute.org/populations/\" }] }, allele: { NM_001128425.1(MUTYH):c.64G>A (p.Val22Met) }, alleleFrequency: 0.07771 }"
   },
   "AllFreq054": {
     "id": "AllFreq054",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, Combined, NM_001399.4(EDA): c.676C>T, 0"
+    "thumbnail": "AllFreq054: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_001399.4(EDA): c.676C>T }, alleleFrequency: 0 }"
   },
   "VarInterp055": {
     "id": "VarInterp055",
     "entityTypeId": "E35",
     "explanation": "The Tyr337Cys variant in SOS1 has been reported in 1 individual with clinical features of Noonan syndrome (Roberts 2007), but has also been reported to be present in 2 unaffected individuals from one family (Personal Communication). This variant was absent from large population studies. Studies have shown that the Tyr337Cys variant may impact protein function by increasing its activity though these results are inconclusive and these in vitro assays may not accurately represent biological function (Smith 2013). Due to the conflicting data about this variant, the clinical significance of the Tyr337Cys variant is uncertain.",
-    "thumbnail": "NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys), MendCond075, Uncertain Signficance"
+    "thumbnail": "VarInterp055: { variant: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, condition: \"MendCond075\", clinicalSignificance: { coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }] } }"
   },
   "IndCond056": {
     "id": "IndCond056",
     "entityTypeId": "E17",
-    "thumbnail": "individual #004, PCD autosomal recessive w/ outer dynein arm (ODA) defects, TRUE"
+    "thumbnail": "IndCond056: { individual: { individual #004 }, condition: { PCD autosomal recessive w/ outer dynein arm (ODA) defects }, hasCondition: true }"
   },
   "VarInterp057": {
     "id": "VarInterp057",
     "entityTypeId": "E35",
-    "thumbnail": "NM_001369.2(DNAH5):c.9449delG, Primary ciliary dyskenisia, Autosomal Recessive, Pathogenic"
+    "thumbnail": "VarInterp057: { variant: { NM_001369.2(DNAH5):c.9449delG }, condition: { Orphanet:244, HP:0000007 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "IndAll058": {
     "id": "IndAll058",
     "entityTypeId": "E28",
     "explanation": "Father was het for c.9449delG variant and negative for c.7468_7488del variant. Mother was het for c.7468_7488del variant and negative for c.9449delG variant. Thus, variants are in trans in this proband.",
-    "thumbnail": "individual #004, NM_001369.2(DNAH5):c.7468_7488del, NM_001369.2(DNAH5):c.9449delG, heterozygous, heterozygous, in trans"
+    "thumbnail": "IndAll058: { individual: { individual #004 }, primaryAllele: { NM_001369.2(DNAH5):c.7468_7488del }, secondaryAllele: { NM_001369.2(DNAH5):c.9449delG }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }, secondaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }, phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
   },
   "VarInterp059": {
     "id": "VarInterp059",
     "entityTypeId": "E35",
-    "thumbnail": "NM_133261.2(GIPC3):c.411+1G>A, nonsyndromic deafness, Autosomal Recessive, GIPC3, Pathogenic"
+    "thumbnail": "VarInterp059: { variant: { NM_133261.2(GIPC3):c.411+1G>A }, condition: { Orphanet:87884, HP:0000007, GIPC3 }, clinicalSignificance: \"LN:LA6668-3\" }"
   },
   "VarInterp060": {
     "id": "VarInterp060",
     "entityTypeId": "E35",
     "explanation": "The Lys483Asn variant in BRAF has not been previously reported in the literature, but has been identified as a de novo variant in one proband in our laboratory. In addition, this residue is highly conserved across evolutionarily distinct species and computational analyses (PolyPhen2, SIFT, AlignGVGD) predict that this variant will impact the normal function of BRAF. It should be noted that the sensitivity and specificity of these computational programs has not been determined by our laboratory. Therefore, this variant is likely to be pathogenic.",
-    "thumbnail": "NM_004333.4(BRAF):c.1449A>C, Rasopathy, Likely Pathogenic"
+    "thumbnail": "VarInterp060: { variant: { NM_004333.4(BRAF):c.1449A>C }, condition: { Rasopathy }, clinicalSignificance: \"LN:LA26332-9\" }"
   },
   "IndCond061": {
     "id": "IndCond061",
     "entityTypeId": "E17",
-    "thumbnail": "individual #005, nonsyndromic deafness, Autosomal Recessive, GIPC3, TRUE"
+    "thumbnail": "IndCond061: { individual: { individual #005 }, condition: { Orphanet:87884, HP:0000007, GIPC3 }, hasCondition: true }"
   },
   "IndAll062": {
     "id": "IndAll062",
     "entityTypeId": "E28",
     "explanation": "Based on the NGS data, we are able to determine that c.298G>A and c.411+1G>A are in trans as no NGS reads carry both variants.",
-    "thumbnail": "individual #005, NM_133261.2(GIPC3):c.298G>A, NM_133261.2(GIPC3):c.411+1G>A, heterozygous, heterozygous, in trans"
+    "thumbnail": "IndAll062: { individual: { individual #005 }, primaryAllele: { NM_133261.2(GIPC3):c.298G>A }, secondaryAllele: { NM_133261.2(GIPC3):c.411+1G>A }, primaryZygosity: \"CG-allelic-state:het\", secondaryZygosity: \"CG-allelic-state:het\", phase: \"CG-phase:trans\" }"
   },
   "VarInterp063": {
     "id": "VarInterp063",
     "entityTypeId": "E35",
     "explanation": "The Lys483Gln variant in BRAF has been identified in one proband with clinical features of Cardio-facio-cutaneous syndrome, and was not identified in either of this individual's parents (LMM unpublished data). This variant has not been identified in large population studies. In addition, another variant at the same residue (Lys483Asn) was identified as a de novo variant in an individual with features of a Noonan spectrum disorder (LMM unpublished data). Computational analyses (biochemical amino acid properties, conservation, AlignGVGD, PolyPhen2, and SIFT) suggest that the Lys483Gln variant may impact the normal function of the protein. In summary, this variant is likely pathogenic, though additional studies are required to fully establish its clinical significance.",
-    "thumbnail": "NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), Cond070, Likely Pathogenic"
+    "thumbnail": "VarInterp063: { variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, condition: \"Cond070\", clinicalSignificance: \"LN:LA26332-9\" }"
   },
   "IndCond064": {
     "id": "IndCond064",
     "entityTypeId": "E17",
-    "thumbnail": "individual #006, neuronal ceroid lipofuscinosis, Autosomal Recessive, TTP1, TRUE"
+    "thumbnail": "IndCond064: { individual: { individual #006 }, condition: { Orphanet:216, HP:0000007, TTP1 }, hasCondition: true }"
   },
   "IndAll065": {
     "id": "IndAll065",
     "entityTypeId": "E28",
-    "thumbnail": "individual #006, NM_000391.3(TTP1):c.1678_1679delCT, homozygous"
+    "thumbnail": "IndAll065: { individual: { individual #006 }, primaryAllele: { NM_000391.3(TTP1):c.1678_1679delCT }, primaryZygosity: \"CG-allelic-state:hom\" }"
   },
   "MolCon066": {
     "id": "MolCon066",
     "entityTypeId": "E02",
-    "thumbnail": "Conservative Inframe Deletion"
+    "thumbnail": "MolCon066: { consequence: \"SO:0001825\" }"
   },
   "Func067": {
     "id": "Func067",
     "entityTypeId": "E20",
     "explanation": "PMID: 23487764",
-    "thumbnail": "increased ERK activtation, Activation Assay, NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys), ERK, SOS1"
+    "thumbnail": "Func067: { result: \"increased ERK activtation\", dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, gene: { ERK }, gene: { SOS1 } }"
   },
   "InSilicoPred068": {
     "id": "InSilicoPred068",
     "entityTypeId": "E47",
     "explanation": "Provenance would show that this comes from Alamut",
-    "thumbnail": "splicing prediction"
+    "thumbnail": "InSilicoPred068: { type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
   },
   "RegAnn069": {
     "id": "RegAnn069",
     "entityTypeId": "E24",
     "explanation": "This is not a repreating region.",
-    "thumbnail": "Loc385, Repeat"
+    "thumbnail": "RegAnn069: { region: \"Loc385\", isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
   },
   "MolCon070": {
     "id": "MolCon070",
     "entityTypeId": "E02",
-    "thumbnail": "Conservative Inframe Deletion"
+    "thumbnail": "MolCon070: { consequence: { coding: [{ code: \"0001825\", display: \"Conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "Conserv071": {
     "id": "Conserv071",
     "entityTypeId": "E51",
-    "thumbnail": "FALSE, phyloP, -0.76"
+    "thumbnail": "Conserv071: { conserved: false, method: \"phyloP\", score: -0.76 }"
   },
   "Conserv072": {
     "id": "Conserv072",
     "entityTypeId": "E51",
-    "thumbnail": "FALSE, PhastCons, 0.63"
+    "thumbnail": "Conserv072: { conserved: false, method: \"PhastCons\", score: 0.63 }"
   },
   "RegAnn073": {
     "id": "RegAnn073",
     "entityTypeId": "E24",
     "explanation": "NP_056375.2[35..43] is not repeating.",
-    "thumbnail": "Loc386"
+    "thumbnail": "RegAnn073: { region: \"Loc386\" }"
   },
   "MolCon074": {
     "id": "MolCon074",
     "entityTypeId": "E02",
-    "thumbnail": "Conservative Inframe Insertion"
+    "thumbnail": "MolCon074: { consequence: { coding: [{ code: \"0001823\", display: \"Conservative Inframe Insertion\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "MolCon075": {
     "id": "MolCon075",
     "entityTypeId": "E02",
-    "thumbnail": "synonymous variant"
+    "thumbnail": "MolCon075: { consequence: { coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "FamSegData076": {
     "id": "FamSegData076",
     "entityTypeId": "E45",
-    "thumbnail": "noonan syndrome, Autosomal Dominant, Family #011, 0, 2"
+    "thumbnail": "FamSegData076: { condition: { Orphanet:648, HP:0000006 }, family: { Family #011 }, phenotypePositiveAllelePositive: 0, phenotypeNegativeAllelePositive: 2 }"
   },
   "RegAnn077": {
     "id": "RegAnn077",
     "entityTypeId": "E24",
     "explanation": "NP_003915.2[241..260] is repeating.",
-    "thumbnail": "Loc387, Repeat"
+    "thumbnail": "RegAnn077: { region: \"Loc387\", isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
   },
   "VarInterp078": {
     "id": "VarInterp078",
     "entityTypeId": "E35",
-    "thumbnail": "NM_000363.4(TNNI3):c.485G>C, Primary familial hypertrophic cardiomyopathy, Autosomal Dominant, Likely Pathogenic"
+    "thumbnail": "VarInterp078: { variant: { NM_000363.4(TNNI3):c.485G>C }, condition: { Primary familial hypertrophic cardiomyopathy, Autosomal Dominant }, clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp079": {
     "id": "VarInterp079",
     "entityTypeId": "E35",
-    "thumbnail": "NM_000363.4(TNNI3):c.484C>T, Primary familial hypertrophic cardiomyopathy, Autosomal Dominant, Pathogenic"
+    "thumbnail": "VarInterp079: { variant: { NM_000363.4(TNNI3):c.484C>T }, condition: { Primary familial hypertrophic cardiomyopathy, Autosomal Dominant }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp080": {
     "id": "VarInterp080",
     "entityTypeId": "E35",
-    "thumbnail": "NM_000531.5(OTC):c.119G>A, Ornithine carbamoyltransferase deficiency, Pathogenic"
+    "thumbnail": "VarInterp080: { variant: { NM_000531.5(OTC):c.119G>A }, condition: { Orphanet:664 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp081": {
     "id": "VarInterp081",
     "entityTypeId": "E35",
-    "thumbnail": "NM_007294.3(BRCA1):c.5291T>C, Breast Ovarian Cancer, Autosomal Dominant, Pathogenic"
+    "thumbnail": "VarInterp081: { variant: { NM_007294.3(BRCA1):c.5291T>C }, condition: { Breast Ovarian Cancer, Autosomal Dominant }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "AllFreq082": {
     "id": "AllFreq082",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, Combined, NM_001369.2(DNAH5):c.7468_7488del, 0"
+    "thumbnail": "AllFreq082: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_001369.2(DNAH5):c.7468_7488del }, alleleFrequency: 0 }"
   },
   "IndCond083": {
     "id": "IndCond083",
     "entityTypeId": "E17",
-    "thumbnail": "Ind007, Birt-Hogg-Dube Syndrome, TRUE"
+    "thumbnail": "IndCond083: { individual: \"Ind007\", condition: { Orphanet:122 }, hasCondition: true }"
   },
   "IndCond084": {
     "id": "IndCond084",
     "entityTypeId": "E17",
-    "thumbnail": "Ind008, Birt-Hogg-Dube Syndrome, TRUE"
+    "thumbnail": "IndCond084: { individual: \"Ind008\", condition: { Orphanet:122 }, hasCondition: true }"
   },
   "FamHist085": {
     "id": "FamHist085",
     "entityTypeId": "E18",
-    "thumbnail": "Ind007, Birt-Hogg-Dube Syndrome, FALSE"
+    "thumbnail": "FamHist085: { proband: \"Ind007\", condition: { Orphanet:122 }, familyHasCondition: false }"
   },
   "FamHist086": {
     "id": "FamHist086",
     "entityTypeId": "E18",
-    "thumbnail": "Ind008, Birt-Hogg-Dube Syndrome, FALSE"
+    "thumbnail": "FamHist086: { proband: \"Ind008\", condition: { Orphanet:122 }, familyHasCondition: false }"
   },
   "DeNovo087": {
     "id": "DeNovo087",
     "entityTypeId": "E19",
     "explanation": "parentage confirmation not mentioned in the source article",
-    "thumbnail": "Ind007, FALSE, FALSE"
+    "thumbnail": "DeNovo087: { individual: \"Ind007\", maternityConfirmed: false, paternityConfirmed: false }"
   },
   "DeNovo088": {
     "id": "DeNovo088",
     "entityTypeId": "E19",
     "explanation": "parentage confirmation not mentioned in the source article",
-    "thumbnail": "Ind008, FALSE, FALSE"
+    "thumbnail": "DeNovo088: { individual: \"Ind008\", maternityConfirmed: false, paternityConfirmed: false }"
   },
   "IndCond089": {
     "id": "IndCond089",
     "entityTypeId": "E17",
-    "thumbnail": "Ind009, cardiofaciocutaneous syndrome, TRUE"
+    "thumbnail": "IndCond089: { individual: \"Ind009\", condition: { Orphanet:1340 }, hasCondition: true }"
   },
   "FamHist090": {
     "id": "FamHist090",
     "entityTypeId": "E18",
-    "thumbnail": "Ind009, cardiofaciocutaneous syndrome, FALSE"
+    "thumbnail": "FamHist090: { proband: \"Ind009\", condition: { Orphanet:1340 }, familyHasCondition: false }"
   },
   "DeNovo091": {
     "id": "DeNovo091",
     "entityTypeId": "E19",
     "explanation": "parentage confirmation not mentioned in the source article",
-    "thumbnail": "Ind009, FALSE, FALSE"
+    "thumbnail": "DeNovo091: { individual: \"Ind009\", maternityConfirmed: false, paternityConfirmed: false }"
   },
   "IndCond092": {
     "id": "IndCond092",
     "entityTypeId": "E17",
-    "thumbnail": "Ind010, cardiofaciocutaneous syndrome, TRUE"
+    "thumbnail": "IndCond092: { individual: \"Ind010\", condition: { Orphanet:1340 }, hasCondition: true }"
   },
   "FamHist093": {
     "id": "FamHist093",
     "entityTypeId": "E18",
-    "thumbnail": "Ind010, cardiofaciocutaneous syndrome, FALSE"
+    "thumbnail": "FamHist093: { proband: \"Ind010\", condition: { Orphanet:1340 }, familyHasCondition: false }"
   },
   "DeNovo094": {
     "id": "DeNovo094",
     "entityTypeId": "E19",
-    "thumbnail": "Ind010, FALSE, FALSE"
+    "thumbnail": "DeNovo094: { individual: \"Ind010\", maternityConfirmed: false, paternityConfirmed: false }"
   },
   "IndCond095": {
     "id": "IndCond095",
     "entityTypeId": "E17",
-    "thumbnail": "Ind011, cardiofaciocutaneous syndrome, TRUE"
+    "thumbnail": "IndCond095: { individual: \"Ind011\", condition: { Orphanet:1340 }, hasCondition: true }"
   },
   "FamHist096": {
     "id": "FamHist096",
     "entityTypeId": "E18",
-    "thumbnail": "Ind011, cardiofaciocutaneous syndrome, FALSE"
+    "thumbnail": "FamHist096: { proband: \"Ind011\", condition: { Orphanet:1340 }, familyHasCondition: false }"
   },
   "DeNovo097": {
     "id": "DeNovo097",
     "entityTypeId": "E19",
-    "thumbnail": "Ind011, FALSE, FALSE"
+    "thumbnail": "DeNovo097: { individual: \"Ind011\", maternityConfirmed: false, paternityConfirmed: false }"
   },
   "IndCond098": {
     "id": "IndCond098",
     "entityTypeId": "E17",
-    "thumbnail": "Ind012, cardiofaciocutaneous syndrome, TRUE"
+    "thumbnail": "IndCond098: { individual: \"Ind012\", condition: { Orphanet:1340 }, hasCondition: true }"
   },
   "FamHist099": {
     "id": "FamHist099",
     "entityTypeId": "E18",
-    "thumbnail": "Ind012, cardiofaciocutaneous syndrome, FALSE"
+    "thumbnail": "FamHist099: { proband: \"Ind012\", condition: { Orphanet:1340 }, familyHasCondition: false }"
   },
   "DeNovo100": {
     "id": "DeNovo100",
     "entityTypeId": "E19",
-    "thumbnail": "Ind012, FALSE, FALSE"
+    "thumbnail": "DeNovo100: { individual: \"Ind012\", maternityConfirmed: false, paternityConfirmed: false }"
   },
   "AllFreq101": {
     "id": "AllFreq101",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, Combined, NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), 0"
+    "thumbnail": "AllFreq101: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, alleleFrequency: 0 }"
   },
   "BMVR102": {
     "id": "BMVR102",
     "entityTypeId": "E43",
     "explanation": "ClinVar shows no benign missense variants in (or near) this region.  The closest is NM_000169.2:c.8T>C",
-    "thumbnail": "Loc383, Low"
+    "thumbnail": "BMVR102: { region: \"Loc383\", value: { coding: [{ code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }] } }"
   },
   "FamSegData103": {
     "id": "FamSegData103",
     "entityTypeId": "E45",
     "explanation": "identified in 1 individual with HCM. Segregation analysis determined 5 other members of the family also carried this variant. However, only 3 of those family members had HCM (aged 48-75). The 2 other family members were young and asymptomatic. So from this paper, only count 3 segregations. The two apparently refuting segregations can be ignored due to the age-dependent penetrance of HCM.",
-    "thumbnail": "hypertrophic cardiomyopathy, Autosomal Dominant, Family #001, 3, 2"
+    "thumbnail": "FamSegData103: { condition: { Orphanet:217569, HP:0000006 }, family: { Family #001 }, phenotypePositiveAllelePositive: 3, phenotypeNegativeAllelePositive: 2 }"
   },
   "FamSegData104": {
     "id": "FamSegData104",
     "entityTypeId": "E45",
     "explanation": "In LMM internal family, c.1351+1G>A was identified in 1 individual with HCM. Variant also found in individual’s sister - who also had clinical dx of HCM.",
-    "thumbnail": "hypertrophic cardiomyopathy, Autosomal Dominant, Family #002, 1"
+    "thumbnail": "FamSegData104: { condition: { Orphanet:217569, HP:0000006 }, family: { Family #002 }, phenotypePositiveAllelePositive: 1 }"
   },
   "AggSegData105": {
     "id": "AggSegData105",
     "entityTypeId": "E46",
-    "thumbnail": "hypertrophic cardiomyopathy, Autosomal Dominant, FamSegData103, FamSegData104, 4"
+    "thumbnail": "AggSegData105: { condition: { Orphanet:217569, HP:0000006 }, familySegregationData: \"FamSegData103\", familySegregationData: \"FamSegData104\", totalNumberOfSegregations: 4 }"
   },
   "DeNovo106": {
     "id": "DeNovo106",
     "entityTypeId": "E19",
-    "thumbnail": "Ind03, FALSE, FALSE"
+    "thumbnail": "DeNovo106: { individual: \"Ind03\", maternityConfirmed: false, paternityConfirmed: false }"
   },
   "FamSegData107": {
     "id": "FamSegData107",
     "entityTypeId": "E45",
     "explanation": "proband and 5 affected family members all homozygous for NM_206933.2(USH2A):c.1000C>G (p.Arg334Gly).",
-    "thumbnail": "Usher syndrome, Autosomal Recessive, Family #003, 5"
+    "thumbnail": "FamSegData107: { condition: { Orphanet:886, HP:0000007 }, family: { Family #003 }, phenotypePositiveAllelePositive: 5 }"
   },
   "FamSegData108": {
     "id": "FamSegData108",
     "entityTypeId": "E45",
     "explanation": "c.1000C>T identified in het state in 1 individual with Usher. Individual compound het with Gly1840Val USH2A variant - confirmed in trans. Gly1840Val called Pathogenic. Individual has 3 affected sibs all of whom are compound het with 1000C>T & Gly1840Val. One additional sib only carried 1000C>T and is unaffected.",
-    "thumbnail": "Usher syndrome, Autosomal Recessive, Family #004"
+    "thumbnail": "FamSegData108: { condition: { Orphanet:886, HP:0000007 }, family: { Family #004 } }"
   },
   "AggSegData109": {
     "id": "AggSegData109",
     "entityTypeId": "E46",
-    "thumbnail": "Usher syndrome, Autosomal Recessive, FamSegData107, FamSegData108, 8"
+    "thumbnail": "AggSegData109: { condition: { Orphanet:886, HP:0000007 }, familySegregationData: \"FamSegData107\", familySegregationData: \"FamSegData108\", totalNumberOfSegregations: 8 }"
   },
   "IndCond110": {
     "id": "IndCond110",
     "entityTypeId": "E17",
-    "thumbnail": "Ind030, cardiofaciocutaneous syndrome, TRUE"
+    "thumbnail": "IndCond110: { individual: \"Ind030\", condition: { Orphanet:1340 }, hasCondition: true }"
   },
   "FamSegData111": {
     "id": "FamSegData111",
     "entityTypeId": "E45",
-    "thumbnail": "Breast Ovarian Cancer, Autosomal Dominant, Family #005, 2"
+    "thumbnail": "FamSegData111: { condition: { Breast Ovarian Cancer, Autosomal Dominant }, family: { Family #005 }, phenotypePositiveAllelePositive: 2 }"
   },
   "FamHist112": {
     "id": "FamHist112",
     "entityTypeId": "E18",
-    "thumbnail": "Ind030, cardiofaciocutaneous syndrome, FALSE"
+    "thumbnail": "FamHist112: { proband: \"Ind030\", condition: { Orphanet:1340 }, familyHasCondition: false }"
   },
   "FamSegData113": {
     "id": "FamSegData113",
     "entityTypeId": "E45",
-    "thumbnail": "dilated cardiomyopathy, Autosomal Dominant, Family #006, 1, 1"
+    "thumbnail": "FamSegData113: { condition: { Orphanet:217604, HP:0000006 }, family: { Family #006 }, phenotypePositiveAllelePositive: 1, phenotypeNegativeAllelePositive: 1 }"
   },
   "FamSegData114": {
     "id": "FamSegData114",
     "entityTypeId": "E45",
-    "thumbnail": "dilated cardiomyopathy, Autosomal Dominant, Family #007, 2, 3"
+    "thumbnail": "FamSegData114: { condition: { Orphanet:217604, HP:0000006 }, family: { Family #007 }, phenotypePositiveAllelePositive: 2, phenotypeNegativeAllelePositive: 3 }"
   },
   "AggSegData115": {
     "id": "AggSegData115",
     "entityTypeId": "E46",
-    "thumbnail": "dilated cardiomyopathy, Autosomal Dominant, FamSegData113, FamSegData114, 9"
+    "thumbnail": "AggSegData115: { condition: { Orphanet:217604, HP:0000006 }, familySegregationData: \"FamSegData113\", familySegregationData: \"FamSegData114\", totalNumberOfSegregations: 9 }"
   },
   "MolCon117": {
     "id": "MolCon117",
     "entityTypeId": "E02",
-    "thumbnail": "missense variant"
+    "thumbnail": "MolCon117: { consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "CondMech118": {
     "id": "CondMech118",
     "entityTypeId": "E03",
     "explanation": "Of 178 pathogenic  alleles in ClinVar, 149 are missense.",
-    "thumbnail": "missense variant, Common"
+    "thumbnail": "CondMech118: { mechanism: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] } }"
   },
   "BMVR119": {
     "id": "BMVR119",
     "entityTypeId": "E43",
     "explanation": "Based on the gene size, ExAC expects 740 missense variants to be observed, but actually observes only 420, giving a z score of 6.5, which is in the top 0.02% of genes.",
-    "thumbnail": "Low"
+    "thumbnail": "BMVR119: { value: { coding: [{ code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }] } }"
   },
   "InSilicoPred120": {
     "id": "InSilicoPred120",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, SIFT"
+    "thumbnail": "InSilicoPred120: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"SIFT\" }"
   },
   "InSilicoPred121": {
     "id": "InSilicoPred121",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, Polyphen"
+    "thumbnail": "InSilicoPred121: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Polyphen\" }"
   },
   "InSilicoPred122": {
     "id": "InSilicoPred122",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, FATHMM"
+    "thumbnail": "InSilicoPred122: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"FATHMM\" }"
   },
   "InSilicoPred123": {
     "id": "InSilicoPred123",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, LRT"
+    "thumbnail": "InSilicoPred123: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"LRT\" }"
   },
   "InSilicoPred124": {
     "id": "InSilicoPred124",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, MetaSVM"
+    "thumbnail": "InSilicoPred124: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"MetaSVM\" }"
   },
   "InSilicoPred125": {
     "id": "InSilicoPred125",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, Mutation assessor"
+    "thumbnail": "InSilicoPred125: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Mutation assessor\" }"
   },
   "InSilicoPred126": {
     "id": "InSilicoPred126",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, Mutation taster"
+    "thumbnail": "InSilicoPred126: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Mutation taster\" }"
   },
   "InSilicoPred127": {
     "id": "InSilicoPred127",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, Provean"
+    "thumbnail": "InSilicoPred127: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Provean\" }"
   },
   "InSilicoPred128": {
     "id": "InSilicoPred128",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, Condel"
+    "thumbnail": "InSilicoPred128: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Condel\" }"
   },
   "InSilicoPred129": {
     "id": "InSilicoPred129",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, SIFT"
+    "thumbnail": "InSilicoPred129: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"SIFT\" }"
   },
   "InSilicoPred130": {
     "id": "InSilicoPred130",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, Polyphen"
+    "thumbnail": "InSilicoPred130: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Polyphen\" }"
   },
   "InSilicoPred131": {
     "id": "InSilicoPred131",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, FATHMM"
+    "thumbnail": "InSilicoPred131: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"FATHMM\" }"
   },
   "InSilicoPred132": {
     "id": "InSilicoPred132",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, LRT"
+    "thumbnail": "InSilicoPred132: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"LRT\" }"
   },
   "InSilicoPred133": {
     "id": "InSilicoPred133",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, MetaSVM"
+    "thumbnail": "InSilicoPred133: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"MetaSVM\" }"
   },
   "InSilicoPred134": {
     "id": "InSilicoPred134",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, Mutation assessor"
+    "thumbnail": "InSilicoPred134: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Mutation assessor\" }"
   },
   "InSilicoPred135": {
     "id": "InSilicoPred135",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, Mutation taster"
+    "thumbnail": "InSilicoPred135: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Mutation taster\" }"
   },
   "InSilicoPred136": {
     "id": "InSilicoPred136",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, Provean"
+    "thumbnail": "InSilicoPred136: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Provean\" }"
   },
   "InSilicoPred137": {
     "id": "InSilicoPred137",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, Condel"
+    "thumbnail": "InSilicoPred137: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Condel\" }"
   },
   "InSilicoPred138": {
     "id": "InSilicoPred138",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, SIFT"
+    "thumbnail": "InSilicoPred138: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"SIFT\" }"
   },
   "InSilicoPred139": {
     "id": "InSilicoPred139",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, Polyphen2"
+    "thumbnail": "InSilicoPred139: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Polyphen2\" }"
   },
   "InSilicoPred140": {
     "id": "InSilicoPred140",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, AlignGVGD"
+    "thumbnail": "InSilicoPred140: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"AlignGVGD\" }"
   },
   "InSilicoPred141": {
     "id": "InSilicoPred141",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, MAPP"
+    "thumbnail": "InSilicoPred141: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"MAPP\" }"
   },
   "InSilicoPred142": {
     "id": "InSilicoPred142",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, MutationTaster"
+    "thumbnail": "InSilicoPred142: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"MutationTaster\" }"
   },
   "InSilicoPred143": {
     "id": "InSilicoPred143",
     "entityTypeId": "E47",
-    "thumbnail": "splicing prediction, SSF"
+    "thumbnail": "InSilicoPred143: { type: \"CG-prediction-type:sp\", tool: \"SSF\" }"
   },
   "InSilicoPred144": {
     "id": "InSilicoPred144",
     "entityTypeId": "E47",
-    "thumbnail": "splicing prediction, MaxEnt"
+    "thumbnail": "InSilicoPred144: { type: \"CG-prediction-type:sp\", tool: \"MaxEnt\" }"
   },
   "InSilicoPred145": {
     "id": "InSilicoPred145",
     "entityTypeId": "E47",
-    "thumbnail": "splicing prediction, NNSPLICE"
+    "thumbnail": "InSilicoPred145: { type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"NNSPLICE\" }"
   },
   "InSilicoPred146": {
     "id": "InSilicoPred146",
     "entityTypeId": "E47",
-    "thumbnail": "splicing prediction, GeneSplicer"
+    "thumbnail": "InSilicoPred146: { type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"GeneSplicer\" }"
   },
   "InSilicoPred147": {
     "id": "InSilicoPred147",
     "entityTypeId": "E47",
-    "thumbnail": "splicing prediction, HSF"
+    "thumbnail": "InSilicoPred147: { type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"HSF\" }"
   },
   "CondEtiol148": {
     "id": "CondEtiol148",
     "entityTypeId": "E48",
     "explanation": "HHT type 1 is only known to be caused by variants in ENG -",
-    "thumbnail": "hereditary hemorrhagic telangiectasia, Autosomal Dominant, ENG, complete"
+    "thumbnail": "CondEtiol148: { condition: { Orphanet:774, HP:0000006 }, gene: { ENG }, specificity: \"complete\" }"
   },
   "CondEtiol149": {
     "id": "CondEtiol149",
     "entityTypeId": "E48",
     "explanation": "1.Only ~50% of HCM is genetic (can be caused by environment) \n2. More than 10 genes can cause HCM (specifically 9 sarcomere genes)",
-    "thumbnail": "hypertrophic cardiomyopathy, MYH7, low"
+    "thumbnail": "CondEtiol149: { condition: { Orphanet:217569 }, gene: { MYH7 }, specificity: \"low\" }"
   },
   "VarInterp150": {
     "id": "VarInterp150",
     "entityTypeId": "E35",
     "explanation": "Variant has been classified as “Pathogenic” by Sharing Clinical Reports Project (SCV000054057.3)",
-    "thumbnail": "NM_000059.3(BRCA2):c.3G>T, Breast-Ovarian Cancer, Familial, Susceptibility To, 2, Autosomal Dominant, Pathogenic"
+    "thumbnail": "VarInterp150: { variant: { NM_000059.3(BRCA2):c.3G>T }, condition: { OMIM:612555, HP:0000006 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp151": {
     "id": "VarInterp151",
     "entityTypeId": "E35",
     "explanation": "Variant has been classified as “Pathogenic” by OMIM (SCV000043718.1)",
-    "thumbnail": "NM_001458.4(FLNC):c.577G>A, Myopathy, Distal, type 4, Autosomal Dominant, Pathogenic"
+    "thumbnail": "VarInterp151: { variant: { NM_001458.4(FLNC):c.577G>A }, condition: { OMIM:614065, HP:0000006 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp152": {
     "id": "VarInterp152",
     "entityTypeId": "E35",
     "explanation": "Variant has been classified as “Pathogenic” by Expert panel CFTR (SCV000245981.1)",
-    "thumbnail": "NM_000492.3(CFTR):c.2053dupC, Cystic Fibrosis, Autosomal Recessive, Pathogenic"
+    "thumbnail": "VarInterp152: { variant: { NM_000492.3(CFTR):c.2053dupC }, condition: { Orphanet:586, HP:0000007 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "AllFreq153": {
     "id": "AllFreq153",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, Combined, NM_000057.2 (BLM):c.2603C>T, 0.05591"
+    "thumbnail": "AllFreq153: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000057.2 (BLM):c.2603C>T }, alleleFrequency: 0.05591 }"
   },
   "AllFreq154": {
     "id": "AllFreq154",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, Combined, NM_004004.5(GJB2):c.79G>A, 0.04538"
+    "thumbnail": "AllFreq154: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_004004.5(GJB2):c.79G>A }, alleleFrequency: 0.04538 }"
   },
   "AllFreq155": {
     "id": "AllFreq155",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, East Asian, NM_004004.5(GJB2):c.79G>A, 0.2917"
+    "thumbnail": "AllFreq155: { ascertainment: \"ExAC\", population: { coding: [{ code: \"eas\", display: \"East Asian\", system: \"http://exac.broadinstitute.org/populations/\" }] }, allele: { NM_004004.5(GJB2):c.79G>A }, alleleFrequency: 0.2917 }"
   },
   "CritAssess156": {
     "id": "CritAssess156",
     "entityTypeId": "E09",
     "explanation": "Most pathogenic variants in TTN are truncating. However, a small number of missense variants in TTN are associated with ARVC (Taylor 2011 PMID:21810661 ) Because TTN is such a large gene, the statistical expectation of benign missense variants is very high.",
-    "thumbnail": "Missense in condition where pathogenic missense common, NM_133378.4(TTN): c.2926T>C, Not Met"
+    "thumbnail": "CritAssess156: { criterion: { Missense in condition where pathogenic missense common }, variant: { NM_133378.4(TTN): c.2926T>C }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "AllFreq157": {
     "id": "AllFreq157",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, Combined, NM_023036.4(DNAI2):c.1304G>A, 0.0001158"
+    "thumbnail": "AllFreq157: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_023036.4(DNAI2):c.1304G>A }, alleleFrequency: 0.0001158 }"
   },
   "AllFreq158": {
     "id": "AllFreq158",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, Combined, NM_000138.4(FBN1):c.8176C>T, 0.0007"
+    "thumbnail": "AllFreq158: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000138.4(FBN1):c.8176C>T }, alleleFrequency: 0.0007 }"
   },
   "CondPrev159": {
     "id": "CondPrev159",
     "entityTypeId": "E49",
-    "thumbnail": "Marfan Syndrome, Autosomal Dominant, 0.0017, 0.0007, Overall"
+    "thumbnail": "CondPrev159: { condition: { Orphanet:558, HP:0000006 }, minimum: 0.0017, maximum: 0.0007, population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] } }"
   },
   "CondPenet160": {
     "id": "CondPenet160",
     "entityTypeId": "E50",
-    "thumbnail": "Marfan Syndrome, Autosomal Dominant, High"
+    "thumbnail": "CondPenet160: { condition: { Orphanet:558, HP:0000006 }, penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   "BMVR161": {
     "id": "BMVR161",
     "entityTypeId": "E43",
     "explanation": "In LMM data alone, we have over 150 benign missense variants in TTN.",
-    "thumbnail": "High"
+    "thumbnail": "BMVR161: { value: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }] } }"
   },
   "AllFreq162": {
     "id": "AllFreq162",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, Combined, NM_004541.3(NDUFA1):c.94G>C, 0.00625"
+    "thumbnail": "AllFreq162: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_004541.3(NDUFA1):c.94G>C }, alleleFrequency: 0.00625 }"
   },
   "CondPrev163": {
     "id": "CondPrev163",
     "entityTypeId": "E49",
-    "thumbnail": "Mitochondrial complex 1 deficiency, X-linked dominant inheritance, 0.00012, Overall"
+    "thumbnail": "CondPrev163: { condition: { Orphanet:2609, HP:0001423 }, value: 0.00012, population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] } }"
   },
   "CondPenet164": {
     "id": "CondPenet164",
     "entityTypeId": "E50",
-    "thumbnail": "Mitochondrial complex 1 deficiency, X-linked dominant inheritance, High"
+    "thumbnail": "CondPenet164: { condition: { Orphanet:2609, HP:0001423 }, penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   "CondMech165": {
     "id": "CondMech165",
     "entityTypeId": "E03",
     "explanation": "Taylor 2011 PMID:21810661",
-    "thumbnail": "missense variant, Common, arrhythmogenic right ventricular cardiomyopathy"
+    "thumbnail": "CondMech165: { mechanism: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Orphanet:247 } }"
   },
   "AllFreq166": {
     "id": "AllFreq166",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, Combined, NM_000414.3(HSD17B4):c.56C>G, 2.40E-05"
+    "thumbnail": "AllFreq166: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000414.3(HSD17B4):c.56C>G }, alleleFrequency: 0.000024 }"
   },
   "CondPrev167": {
     "id": "CondPrev167",
     "entityTypeId": "E49",
-    "thumbnail": "Perrault Syndrome, Autosomal Recessive, 1.00E-06, Overall"
+    "thumbnail": "CondPrev167: { condition: { Orphanet:2855, HP:0000007 }, maximum: 0.000001, population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] } }"
   },
   "CondPenet168": {
     "id": "CondPenet168",
     "entityTypeId": "E50",
-    "thumbnail": "Perrault Syndrome, Autosomal Recessive, High"
+    "thumbnail": "CondPenet168: { condition: { Orphanet:2855, HP:0000007 }, penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   "MolCon169": {
     "id": "MolCon169",
     "entityTypeId": "E02",
-    "thumbnail": "missense variant"
+    "thumbnail": "MolCon169: { consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "CondPenet170": {
     "id": "CondPenet170",
     "entityTypeId": "E50",
     "explanation": "The evidence for full penetrance is not great, due to the rarity of the disease, but the fact that it's diagnosed at a young age and majority of cases are de novo is suggestive",
-    "thumbnail": "Wiedemann-Steiner syndrome, Autosomal Dominant, Complete"
+    "thumbnail": "CondPenet170: { condition: { Orphanet:319182, HP:0000006 }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   "IndAll172": {
     "id": "IndAll172",
     "entityTypeId": "E28",
-    "thumbnail": "individual #013, NM_001197104.1(KMT2A):c.6572G>A, heterozygous"
+    "thumbnail": "IndAll172: { individual: { individual #013 }, primaryAllele: { NM_001197104.1(KMT2A):c.6572G>A }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
   },
   "IndAll173": {
     "id": "IndAll173",
     "entityTypeId": "E28",
-    "thumbnail": "individual #014, NM_001197104.1(KMT2A):c.6572G>A, homozygous"
+    "thumbnail": "IndAll173: { primaryZygosity: \"Indiv014\", primaryAllele: { NM_001197104.1(KMT2A):c.6572G>A }, primaryZygosity: { coding: [{ code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
   },
   "IndCond174": {
     "id": "IndCond174",
     "entityTypeId": "E17",
-    "thumbnail": "individual #013, Wiedemann-Steiner syndrome, Autosomal Dominant, FALSE"
+    "thumbnail": "IndCond174: { individual: { individual #013 }, condition: { Orphanet:319182, HP:0000006 }, hasCondition: false }"
   },
   "IndCond175": {
     "id": "IndCond175",
     "entityTypeId": "E17",
-    "thumbnail": "individual #014, Wiedemann-Steiner syndrome, Autosomal Dominant, FALSE"
+    "thumbnail": "IndCond175: { individual: { individual #014 }, condition: { Orphanet:319182, HP:0000006 }, hasCondition: false }"
   },
   "CondPenet176": {
     "id": "CondPenet176",
     "entityTypeId": "E50",
     "explanation": "the disease manifests as hundreds of colorectal ademonas during adolescence. This can progress to colorectal cancer later in life, but the adenomas manifest early.",
-    "thumbnail": "Familial Adenomatous Polyposis, Autosomal Dominant, Complete"
+    "thumbnail": "CondPenet176: { condition: { Orphanet:733, HP:0000006 }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   "IndAll178": {
     "id": "IndAll178",
     "entityTypeId": "E28",
-    "thumbnail": "individual #015, NM_000038.5(APC ):c.3386T>C, heterozygous"
+    "thumbnail": "IndAll178: { individual: { individual #015 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
   },
   "IndAll179": {
     "id": "IndAll179",
     "entityTypeId": "E28",
-    "thumbnail": "individual #016, NM_000038.5(APC ):c.3386T>C, heterozygous"
+    "thumbnail": "IndAll179: { individual: { individual #016 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
   },
   "IndAll180": {
     "id": "IndAll180",
     "entityTypeId": "E28",
-    "thumbnail": "individual #017, NM_000038.5(APC ):c.3386T>C, heterozygous"
+    "thumbnail": "IndAll180: { individual: { individual #017 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
   },
   "IndAll181": {
     "id": "IndAll181",
     "entityTypeId": "E28",
-    "thumbnail": "individual #018, NM_000038.5(APC ):c.3386T>C, heterozygous"
+    "thumbnail": "IndAll181: { individual: { individual #018 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
   },
   "IndCond182": {
     "id": "IndCond182",
     "entityTypeId": "E17",
-    "thumbnail": "individual #015, Familial Adenomatous Polyposis, Autosomal Dominant, FALSE"
+    "thumbnail": "IndCond182: { individual: { individual #015 }, condition: { Orphanet:733, HP:0000006 }, hasCondition: false }"
   },
   "IndCond183": {
     "id": "IndCond183",
     "entityTypeId": "E17",
-    "thumbnail": "individual #016, Familial Adenomatous Polyposis, Autosomal Dominant, FALSE"
+    "thumbnail": "IndCond183: { individual: { individual #016 }, condition: { Orphanet:733, HP:0000006 }, hasCondition: false }"
   },
   "IndCond184": {
     "id": "IndCond184",
     "entityTypeId": "E17",
-    "thumbnail": "individual #017, Familial Adenomatous Polyposis, Autosomal Dominant, FALSE"
+    "thumbnail": "IndCond184: { individual: { individual #017 }, condition: { Orphanet:733, HP:0000006 }, hasCondition: false }"
   },
   "IndCond185": {
     "id": "IndCond185",
     "entityTypeId": "E17",
-    "thumbnail": "individual #018, Familial Adenomatous Polyposis, Autosomal Dominant, FALSE"
+    "thumbnail": "IndCond185: { individual: { individual #018 }, condition: { Orphanet:733, HP:0000006 }, hasCondition: false }"
   },
   "CondPenet186": {
     "id": "CondPenet186",
     "entityTypeId": "E50",
     "explanation": "Marfan syndrome involves a range of skeletal features that should be identifiable at birth, if not during adolescence. The ocular and cardiovascular aspects may manifest later. 1/4 of mutations are de novo.",
-    "thumbnail": "MendCond072, Complete"
+    "thumbnail": "CondPenet186: { condition: \"MendCond072\", penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   "IndAll188": {
     "id": "IndAll188",
     "entityTypeId": "E28",
-    "thumbnail": "individual #019, NM_000138.4(FBN1 ):c.2956G>A, heterozygous"
+    "thumbnail": "IndAll188: { individual: { individual #019 }, primaryAllele: { NM_000138.4(FBN1 ):c.2956G>A }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
   },
   "IndAll189": {
     "id": "IndAll189",
     "entityTypeId": "E28",
-    "thumbnail": "individual #020, NM_000138.4(FBN1 ):c.2956G>A, heterozygous"
+    "thumbnail": "IndAll189: { individual: { individual #020 }, primaryAllele: { NM_000138.4(FBN1 ):c.2956G>A }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
   },
   "IndCond190": {
     "id": "IndCond190",
     "entityTypeId": "E17",
-    "thumbnail": "individual #019, MendCond072, FALSE"
+    "thumbnail": "IndCond190: { individual: { individual #019 }, condition: \"MendCond072\", hasCondition: false }"
   },
   "IndCond191": {
     "id": "IndCond191",
     "entityTypeId": "E17",
-    "thumbnail": "individual #020, MendCond072, FALSE"
+    "thumbnail": "IndCond191: { individual: { individual #020 }, condition: \"MendCond072\", hasCondition: false }"
   },
   "Func192": {
     "id": "Func192",
     "entityTypeId": "E20",
-    "thumbnail": "Unchanged from reference, iodide efflux, NP_000432..1:p.Leu117Phe, SLC26A4"
+    "thumbnail": "Func192: { result: \"Unchanged from reference\", dataType: { coding: [{ code: \"iodeff\", display: \"iodide efflux\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_000432..1:p.Leu117Phe }, gene: { SLC26A4 } }"
   },
   "Func193": {
     "id": "Func193",
     "entityTypeId": "E20",
     "explanation": "Both wild type and NP_000432..1:p.Leu117Phe localize to the same location",
-    "thumbnail": "localized to apical membrane, cellular localization, NP_000432..1:p.Leu117Phe, SLC26A4"
+    "thumbnail": "Func193: { result: \"localized to apical membrane\", dataType: { coding: [{ code: \"celloc\", display: \"cellular localization\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_000432..1:p.Leu117Phe }, gene: { SLC26A4 } }"
   },
   "Func194": {
     "id": "Func194",
     "entityTypeId": "E20",
-    "thumbnail": "Unchanged from reference, neurite outgrowth, NM_152594.2(SPRED1): c.587C>T, SPRED1"
+    "thumbnail": "Func194: { result: \"Unchanged from reference\", dataType: { coding: [{ code: \"neuritegrowth\", display: \"neurite outgrowth\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NM_152594.2(SPRED1): c.587C>T }, gene: { SPRED1 } }"
   },
   "Func195": {
     "id": "Func195",
     "entityTypeId": "E20",
-    "thumbnail": "localized to apical membrane, Elk1 pohsphorylation via luciferase assay, NM_152594.2(SPRED1): c.587C>T, SPRED1"
+    "thumbnail": "Func195: { result: \"localized to apical membrane\", dataType: { coding: [{ code: \"elk1phosvialucif\", display: \"Elk1 pohsphorylation via luciferase assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NM_152594.2(SPRED1): c.587C>T }, gene: { SPRED1 } }"
   },
   "FamSegData196": {
     "id": "FamSegData196",
     "entityTypeId": "E45",
     "explanation": "observed in one case diagnosed with Familial Hypercholesterolemia, characterized by elevated LDLC levels. Two siblings of the proband also have elevated LDLC levels but neither carry the 313+2T>C variant.",
-    "thumbnail": "Hypercholesterolemia, Familial, Autosomal Dominant, Family #008, 0"
+    "thumbnail": "FamSegData196: { condition: { OMIM:143890, HP:0000006 }, family: { Family #008 }, phenotypePositiveAllelePositive: 0 }"
   },
   "FamSegData197": {
     "id": "FamSegData197",
     "entityTypeId": "E45",
     "explanation": "The individual with HCM but without the allele is likely a phenocopy explained\nby environmental factors (obese, alcohol)",
-    "thumbnail": "hypertrophic cardiomyopathy, Autosomal Dominant, Family #009, 3"
+    "thumbnail": "FamSegData197: { condition: { Orphanet:217569, HP:0000006 }, family: { Family #009 }, phenotypePositiveAllelePositive: 3 }"
   },
   "MolCon198": {
     "id": "MolCon198",
     "entityTypeId": "E02",
-    "thumbnail": "missense variant"
+    "thumbnail": "MolCon198: { consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "CondMech199": {
     "id": "CondMech199",
     "entityTypeId": "E03",
     "explanation": "ClinVar shows 421 variants in BRCA2 that are pathogenic for HBOC. 402 of these (~95%) are frameshift, nonsense, or splice-site variants.",
-    "thumbnail": "loss of function variant, Primary, hereditary breast and ovarian cancer"
+    "thumbnail": "CondMech199: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { hereditary breast and ovarian cancer } }"
   },
   "CondMech200": {
     "id": "CondMech200",
     "entityTypeId": "E03",
     "explanation": "ClinVar shows 61 variants in BRCA2 that are pathogenic for Fanconi Anemia. 55 of these (~90%) are frameshift, nonsense, or splice-site variants.",
-    "thumbnail": "loss of function variant, Primary, Fanconi Anemia"
+    "thumbnail": "CondMech200: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Orphanet:84 } }"
   },
   "MolCon201": {
     "id": "MolCon201",
     "entityTypeId": "E02",
-    "thumbnail": "missense variant"
+    "thumbnail": "MolCon201: { consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "CondMech202": {
     "id": "CondMech202",
     "entityTypeId": "E03",
     "explanation": "shown in both humans and mouse models",
-    "thumbnail": "loss of function variant, Primary, Hearing Loss, Autosomal Recessive"
+    "thumbnail": "CondMech202: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Hearing Loss, Autosomal Recessive } }"
   },
   "MolCon203": {
     "id": "MolCon203",
     "entityTypeId": "E02",
-    "thumbnail": "missense variant"
+    "thumbnail": "MolCon203: { consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "CondMech204": {
     "id": "CondMech204",
     "entityTypeId": "E03",
-    "thumbnail": "loss of function variant, Primary, dilated cardiomyopathy"
+    "thumbnail": "CondMech204: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Orphanet:217604 } }"
   },
   "CondMech205": {
     "id": "CondMech205",
     "entityTypeId": "E03",
     "explanation": "Truncating variants in TTN are associated with DCM. However, if missense variants are located in the A-band, impact the A-band, or are in a highly expressed region, they can also be associated with DCM.",
-    "thumbnail": "missense variant, Established, dilated cardiomyopathy"
+    "thumbnail": "CondMech205: { mechanism: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Orphanet:217604 } }"
   },
   "IndAll206": {
     "id": "IndAll206",
     "entityTypeId": "E28",
-    "thumbnail": "individual #021, NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser), NM_206933.2(USH2A):c.2276G>T, in cis"
+    "thumbnail": "IndAll206: { individual: { individual #021 }, primaryAllele: { NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser) }, secondaryAllele: { NM_206933.2(USH2A):c.2276G>T }, phase: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
   },
   "IndAll207": {
     "id": "IndAll207",
     "entityTypeId": "E28",
-    "thumbnail": "individual #022, NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser), NM_206933.2(USH2A):c.2276G>T, in cis"
+    "thumbnail": "IndAll207: { individual: { individual #022 }, primaryAllele: { NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser) }, secondaryAllele: { NM_206933.2(USH2A):c.2276G>T }, phase: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
   },
   "IndCond208": {
     "id": "IndCond208",
     "entityTypeId": "E17",
-    "thumbnail": "individual #021, Retinitis Pigmentosa, TRUE"
+    "thumbnail": "IndCond208: { individual: { individual #021 }, condition: { Orphanet:791 }, hasCondition: true }"
   },
   "IndCond209": {
     "id": "IndCond209",
     "entityTypeId": "E17",
-    "thumbnail": "individual #022, Retinitis Pigmentosa, TRUE"
+    "thumbnail": "IndCond209: { individual: { individual #022 }, condition: { Orphanet:791 }, hasCondition: true }"
   },
   "VarInterp210": {
     "id": "VarInterp210",
     "entityTypeId": "E35",
-    "thumbnail": "NM_206933.2(USH2A):c.2276G>T, Retinitis Pigmentosa, Pathogenic"
+    "thumbnail": "VarInterp210: { variant: { NM_206933.2(USH2A):c.2276G>T }, condition: { Orphanet:791 }, clinicalSignificance: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
   },
   "IndAll211": {
     "id": "IndAll211",
     "entityTypeId": "E28",
-    "thumbnail": "individual #023, NM_000492.3(CFTR): c.2002C>T, NP_000483.3:p.Gly576Ala, in cis"
+    "thumbnail": "IndAll211: { individual: { individual #023 }, primaryAllele: { NM_000492.3(CFTR): c.2002C>T }, secondaryAllele: { NP_000483.3:p.Gly576Ala }, phase: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
   },
   "IndCond212": {
     "id": "IndCond212",
     "entityTypeId": "E17",
-    "thumbnail": "individual #023, Absent vas deferens, TRUE"
+    "thumbnail": "IndCond212: { individual: { individual #023 }, condition: { HP:0012873 }, hasCondition: true }"
   },
   "VarInterp213": {
     "id": "VarInterp213",
     "entityTypeId": "E35",
-    "thumbnail": "NP_000483.3:p.Gly576Ala, Absent vas deferens, Pathogenic"
+    "thumbnail": "VarInterp213: { variant: { NP_000483.3:p.Gly576Ala }, condition: { HP:0012873 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "IndAll214": {
     "id": "IndAll214",
     "entityTypeId": "E28",
-    "thumbnail": "individual #024, NM_000257.2(MYH7): c.2559G>A, NM_000257.2(MYH7): c.2537A>G, in trans"
+    "thumbnail": "IndAll214: { individual: { individual #024 }, primaryAllele: { NM_000257.2(MYH7): c.2559G>A }, secondaryAllele: { NM_000257.2(MYH7): c.2537A>G }, phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
   },
   "IndCond215": {
     "id": "IndCond215",
     "entityTypeId": "E17",
-    "thumbnail": "individual #024, cardiomyopathy, Autosomal Dominant, TRUE"
+    "thumbnail": "IndCond215: { individual: { individual #024 }, condition: { Orphanet:167848, HP:0000006 }, hasCondition: true }"
   },
   "VarInterp216": {
     "id": "VarInterp216",
     "entityTypeId": "E35",
-    "thumbnail": "NM_000257.2(MYH7): c.2537A>G, cardiomyopathy, Autosomal Dominant, Uncertain Signficance"
+    "thumbnail": "VarInterp216: { variant: { NM_000257.2(MYH7): c.2537A>G }, condition: { Orphanet:167848, HP:0000006 }, clinicalSignificance: { coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }] } }"
   },
   "CondPenet218": {
     "id": "CondPenet218",
     "entityTypeId": "E50",
-    "thumbnail": "cardiomyopathy, Autosomal Dominant, Incomplete"
+    "thumbnail": "CondPenet218: { condition: { Orphanet:167848, HP:0000006 }, penetrance: { coding: [{ code: \"incomplete\", display: \"Incomplete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   "RegAnn220": {
     "id": "RegAnn220",
     "entityTypeId": "E24",
     "explanation": "region is repeating but does not have a known function.",
-    "thumbnail": "Loc390, Repeat"
+    "thumbnail": "RegAnn220: { region: \"Loc390\", isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
   },
   "MolCon223": {
     "id": "MolCon223",
     "entityTypeId": "E02",
-    "thumbnail": "Conservative Inframe Deletion"
+    "thumbnail": "MolCon223: { consequence: { coding: [{ code: \"0001825\", display: \"Conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "RegAnn225": {
     "id": "RegAnn225",
     "entityTypeId": "E24",
     "explanation": "The I-Band is a large region of repetitive Igg domains. ",
-    "thumbnail": "Loc392, Repeat"
+    "thumbnail": "RegAnn225: { region: \"Loc392\", isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
   },
   "MolCon227": {
     "id": "MolCon227",
     "entityTypeId": "E02",
-    "thumbnail": "frameshift variant"
+    "thumbnail": "MolCon227: { consequence: { coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "RegAnn229": {
     "id": "RegAnn229",
     "entityTypeId": "E24",
-    "thumbnail": "Loc394, Repeat"
+    "thumbnail": "RegAnn229: { region: \"Loc394\", isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
   },
   "MolCon231": {
     "id": "MolCon231",
     "entityTypeId": "E02",
-    "thumbnail": "Conservative Inframe Insertion"
+    "thumbnail": "MolCon231: { consequence: { coding: [{ code: \"0001823\", display: \"Conservative Inframe Insertion\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "InSilicoPred232": {
     "id": "InSilicoPred232",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, SIFT"
+    "thumbnail": "InSilicoPred232: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"SIFT\" }"
   },
   "InSilicoPred233": {
     "id": "InSilicoPred233",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, Polyphen"
+    "thumbnail": "InSilicoPred233: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Polyphen\" }"
   },
   "InSilicoPred234": {
     "id": "InSilicoPred234",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, FATHMM"
+    "thumbnail": "InSilicoPred234: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"FATHMM\" }"
   },
   "InSilicoPred235": {
     "id": "InSilicoPred235",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, LRT"
+    "thumbnail": "InSilicoPred235: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"LRT\" }"
   },
   "InSilicoPred236": {
     "id": "InSilicoPred236",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, MetaSVM"
+    "thumbnail": "InSilicoPred236: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"MetaSVM\" }"
   },
   "InSilicoPred237": {
     "id": "InSilicoPred237",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, Mutation assessor"
+    "thumbnail": "InSilicoPred237: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Mutation assessor\" }"
   },
   "InSilicoPred238": {
     "id": "InSilicoPred238",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, Mutation taster"
+    "thumbnail": "InSilicoPred238: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Mutation taster\" }"
   },
   "InSilicoPred239": {
     "id": "InSilicoPred239",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, Provean"
+    "thumbnail": "InSilicoPred239: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Provean\" }"
   },
   "InSilicoPred240": {
     "id": "InSilicoPred240",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, Condel"
+    "thumbnail": "InSilicoPred240: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Condel\" }"
   },
   "IndAll241": {
     "id": "IndAll241",
     "entityTypeId": "E28",
-    "thumbnail": "individual #025, NM_000256.3(MYBPC3): c.2497G>A, NM_000364.3(TNNT2):c.878G>A"
+    "thumbnail": "IndAll241: { individual: { individual #025 }, primaryAllele: { NM_000256.3(MYBPC3): c.2497G>A }, secondaryAllele: { NM_000364.3(TNNT2):c.878G>A } }"
   },
   "IndCond242": {
     "id": "IndCond242",
     "entityTypeId": "E17",
-    "thumbnail": "individual #025, hypertrophic cardiomyopathy, TRUE"
+    "thumbnail": "IndCond242: { individual: { individual #025 }, condition: { Orphanet:217569 }, hasCondition: true }"
   },
   "VarInterp243": {
     "id": "VarInterp243",
     "entityTypeId": "E35",
-    "thumbnail": "NM_000256.3(MYBPC3): c.2497G>A, hypertrophic cardiomyopathy, Likely Pathogenic"
+    "thumbnail": "VarInterp243: { variant: { NM_000256.3(MYBPC3): c.2497G>A }, condition: { Orphanet:217569 }, clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "IndAll244": {
     "id": "IndAll244",
     "entityTypeId": "E28",
-    "thumbnail": "individual #026, NM_022124.5(CDH23):c.5660C>T"
+    "thumbnail": "IndAll244: { individual: { individual #026 }, primaryAllele: { NM_022124.5(CDH23):c.5660C>T } }"
   },
   "IndAll245": {
     "id": "IndAll245",
     "entityTypeId": "E28",
-    "thumbnail": "individual #026, NM_004004.5(GJB2):c.71G>A, NM_004004.5(GJB2):c.230G>A, heterozygous, heterozygous, in trans"
+    "thumbnail": "IndAll245: { individual: { individual #026 }, primaryAllele: { NM_004004.5(GJB2):c.71G>A }, secondaryAllele: { NM_004004.5(GJB2):c.230G>A }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }, secondaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }, phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
   },
   "IndCond246": {
     "id": "IndCond246",
     "entityTypeId": "E17",
-    "thumbnail": "individual #026, nonsyndromic deafness, TRUE"
+    "thumbnail": "IndCond246: { individual: { individual #026 }, condition: { Orphanet:87884 }, hasCondition: true }"
   },
   "VarInterp247": {
     "id": "VarInterp247",
     "entityTypeId": "E35",
-    "thumbnail": "NM_004004.5(GJB2):c.71G>A, nonsyndromic deafness, Likely Pathogenic"
+    "thumbnail": "VarInterp247: { variant: { NM_004004.5(GJB2):c.71G>A }, condition: { Orphanet:87884 }, clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp248": {
     "id": "VarInterp248",
     "entityTypeId": "E35",
-    "thumbnail": "NM_004004.5(GJB2):c.230G>A, nonsyndromic deafness, Likely Pathogenic"
+    "thumbnail": "VarInterp248: { variant: { NM_004004.5(GJB2):c.230G>A }, condition: { Orphanet:87884 }, clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "IndAll249": {
     "id": "IndAll249",
     "entityTypeId": "E28",
-    "thumbnail": "individual #027, NM_022124.5(CDH23):c.5660C>T, NM_015404.3(WHRN):c.643delG, homozygous"
+    "thumbnail": "IndAll249: { individual: { individual #027 }, primaryAllele: { NM_022124.5(CDH23):c.5660C>T }, secondaryAllele: { NM_015404.3(WHRN):c.643delG }, secondaryZygosity: { coding: [{ code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
   },
   "IndCond250": {
     "id": "IndCond250",
     "entityTypeId": "E17",
-    "thumbnail": "individual #027, Usher syndrome, Autosomal Recessive, TRUE"
+    "thumbnail": "IndCond250: { individual: { individual #027 }, condition: { Orphanet:886, HP:0000007 }, hasCondition: true }"
   },
   "VarInterp251": {
     "id": "VarInterp251",
     "entityTypeId": "E35",
-    "thumbnail": "NM_022124.5(CDH23):c.5660C>T, Usher syndrome, Autosomal Recessive, Pathogenic"
+    "thumbnail": "VarInterp251: { variant: { NM_022124.5(CDH23):c.5660C>T }, condition: { Orphanet:886, HP:0000007 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "IndCond252": {
     "id": "IndCond252",
     "entityTypeId": "E17",
-    "thumbnail": "individual #028, Pseudoachondroplastic spondyloepiphyseal dysplasia, TRUE"
+    "thumbnail": "IndCond252: { individual: { individual #028 }, condition: { Pseudoachondroplastic spondyloepiphyseal dysplasia }, hasCondition: true }"
   },
   "IndAll253": {
     "id": "IndAll253",
     "entityTypeId": "E28",
-    "thumbnail": "individual #028, NM_001844.4(COL2A1):c.4316C>T, NM_000095.2(COMP):c.1042T>C"
+    "thumbnail": "IndAll253: { individual: { individual #028 }, primaryAllele: { NM_001844.4(COL2A1):c.4316C>T }, secondaryAllele: { NM_000095.2(COMP):c.1042T>C } }"
   },
   "VarInterp254": {
     "id": "VarInterp254",
     "entityTypeId": "E35",
-    "thumbnail": "NM_000095.2(COMP):c.1042T>C, pseudoachondroplasia, Pathogenic"
+    "thumbnail": "VarInterp254: { variant: { NM_000095.2(COMP):c.1042T>C }, condition: { Orphanet:750 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp255": {
     "id": "VarInterp255",
     "entityTypeId": "E35",
     "explanation": "classified by ENIGMA.",
-    "thumbnail": "NM_007294.3(BRCA1):c.*6207C>T, MendCond073, Benign"
+    "thumbnail": "VarInterp255: { variant: { NM_007294.3(BRCA1):c.*6207C>T }, condition: \"MendCond073\", clinicalSignificance: { coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp256": {
     "id": "VarInterp256",
     "entityTypeId": "E35",
     "explanation": "classified by Sharing Clinical Reports Project.",
-    "thumbnail": "NM_000059.3(BRCA2):c.-26G>A, Breast-Ovarian Cancer, Familial, Susceptibility To, 2, Benign"
+    "thumbnail": "VarInterp256: { variant: { NM_000059.3(BRCA2):c.-26G>A }, condition: { OMIM:612555 }, clinicalSignificance: { coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp257": {
     "id": "VarInterp257",
     "entityTypeId": "E35",
     "explanation": "classified by OMIM",
-    "thumbnail": "NM_000274.3(OAT):c.1311G>C, Gyrate atrophy of choroid and retina, Benign"
+    "thumbnail": "VarInterp257: { variant: { NM_000274.3(OAT):c.1311G>C }, condition: { Orphanet:414 }, clinicalSignificance: { coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }] } }"
   },
   "InSilicoPred258": {
     "id": "InSilicoPred258",
     "entityTypeId": "E47",
-    "thumbnail": "splicing prediction"
+    "thumbnail": "InSilicoPred258: { type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
   },
   "Conserv259": {
     "id": "Conserv259",
     "entityTypeId": "E51",
-    "thumbnail": "FALSE, phyloP, -2.297"
+    "thumbnail": "Conserv259: { conserved: false, method: \"phyloP\", score: -2.297 }"
   },
   "Conserv260": {
     "id": "Conserv260",
     "entityTypeId": "E51",
-    "thumbnail": "FALSE, PhastCons, 0.039"
+    "thumbnail": "Conserv260: { conserved: false, method: \"PhastCons\", score: 0.039 }"
   },
   "MolCon261": {
     "id": "MolCon261",
     "entityTypeId": "E02",
-    "thumbnail": "synonymous variant"
+    "thumbnail": "MolCon261: { consequence: { coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "InSilicoPred262": {
     "id": "InSilicoPred262",
     "entityTypeId": "E47",
     "explanation": "Provenance would show that this comes from Alamut",
-    "thumbnail": "splicing prediction"
+    "thumbnail": "InSilicoPred262: { type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
   },
   "Conserv263": {
     "id": "Conserv263",
     "entityTypeId": "E51",
-    "thumbnail": "FALSE, phyloP, -0.76"
+    "thumbnail": "Conserv263: { conserved: false, method: \"phyloP\", score: -0.76 }"
   },
   "Conserv264": {
     "id": "Conserv264",
     "entityTypeId": "E51",
-    "thumbnail": "FALSE, PhastCons, 0.63"
+    "thumbnail": "Conserv264: { conserved: false, method: \"PhastCons\", score: 0.63 }"
   },
   "MolCon265": {
     "id": "MolCon265",
     "entityTypeId": "E02",
-    "thumbnail": "synonymous variant"
+    "thumbnail": "MolCon265: { consequence: { coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "InSilicoPred266": {
     "id": "InSilicoPred266",
     "entityTypeId": "E47",
-    "thumbnail": "splicing prediction"
+    "thumbnail": "InSilicoPred266: { type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
   },
   "Conserv267": {
     "id": "Conserv267",
     "entityTypeId": "E51",
-    "thumbnail": "FALSE, phyloP, 0.45"
+    "thumbnail": "Conserv267: { conserved: false, method: \"phyloP\", score: 0.45 }"
   },
   "Conserv268": {
     "id": "Conserv268",
     "entityTypeId": "E51",
-    "thumbnail": "FALSE, PhastCons, 1"
+    "thumbnail": "Conserv268: { conserved: false, method: \"PhastCons\", score: 1 }"
   },
   "MolCon269": {
     "id": "MolCon269",
     "entityTypeId": "E02",
-    "thumbnail": "synonymous variant"
+    "thumbnail": "MolCon269: { consequence: { coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "VarInterp270": {
     "id": "VarInterp270",
     "entityTypeId": "E35",
     "explanation": "Pseudoachondroplastic spondyloepiphyseal dysplasia syndrome is caused by a combination of a pathogenic variant in COL2A1 and another in COMP.   So CA113 may be involved, but is not the sole cause.",
-    "thumbnail": "NM_000095.2(COMP):c.1042T>C, Pseudoachondroplastic spondyloepiphyseal dysplasia, Uncertain Signficance"
+    "thumbnail": "VarInterp270: { variant: { NM_000095.2(COMP):c.1042T>C }, condition: { Pseudoachondroplastic spondyloepiphyseal dysplasia }, clinicalSignificance: { coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }] } }"
   },
   "FamSegData271": {
     "id": "FamSegData271",
     "entityTypeId": "E45",
-    "thumbnail": "hypertrophic cardiomyopathy, Autosomal Dominant, Family #010, 0"
+    "thumbnail": "FamSegData271: { condition: { Orphanet:217569, HP:0000006 }, family: { Family #010 }, phenotypePositiveAllelePositive: 0 }"
   },
   "MolCon272": {
     "id": "MolCon272",
     "entityTypeId": "E02",
     "explanation": "This variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006 PMID: 17186466).",
-    "thumbnail": "splice-site variant"
+    "thumbnail": "MolCon272: { consequence: { coding: [{ code: \"0001629\", display: \"splice-site variant\", system: \"http://sequenceontology.org/\" }] } }"
   },
   "CondMech273": {
     "id": "CondMech273",
     "entityTypeId": "E03",
     "explanation": "Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/).",
-    "thumbnail": "loss of function variant, arrhythmogenic right ventricular cardiomyopathy, Established"
+    "thumbnail": "CondMech273: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, condition: { Orphanet:247 }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] } }"
   },
   "VarInterp274": {
     "id": "VarInterp274",
     "entityTypeId": "E35",
     "explanation": "The Trp2490_Leu2496del variant in DNAH5 leads to an in-frame deletion of 7 amino acids. This variant has been reported together with a second DNAH5 variant (Met2083Ile) in one individual with PCD and situs inversus (Berg 2011). In addition, this variant has been identified in trans configuration with a disease-causing variant in one affected proband (LMM unpublished data). Data from large population studies is insufficient to determine whether this variant is present in the general population. In summary, this variant is likely pathogenic, though additional studies are required to fully establish its clinical significance.",
-    "thumbnail": "NM_001369.2(DNAH5):c.7468_7488del, Primary ciliary dyskenisia, Autosomal Recessive, Likely Pathogenic"
+    "thumbnail": "VarInterp274: { variant: { NM_001369.2(DNAH5):c.7468_7488del }, condition: { Orphanet:244, HP:0000007 }, clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "CritAssess275": {
     "id": "CritAssess275",
     "entityTypeId": "E09",
     "explanation": "Variant is not LOF and LOF is not a known mechanism of disease associated with this gene for any condition.",
-    "thumbnail": "Null variant in gene with known LOF mechanism, NM_031844.2(HNRNPU):c.2304_2305del (p.Gly769Glufs*83), Not Met"
+    "thumbnail": "CritAssess275: { criterion: { Null variant in gene with known LOF mechanism }, variant: { NM_031844.2(HNRNPU):c.2304_2305del (p.Gly769Glufs*83) }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess276": {
     "id": "CritAssess276",
     "entityTypeId": "E09",
-    "thumbnail": "Null variant in gene with known LOF mechanism, NM_000059.3(BRCA2):c.7762_7764delinsTT, Met"
+    "thumbnail": "CritAssess276: { criterion: { Null variant in gene with known LOF mechanism }, variant: { NM_000059.3(BRCA2):c.7762_7764delinsTT }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess277": {
     "id": "CritAssess277",
     "entityTypeId": "E09",
     "explanation": "This variant only occurs as LOF in an uncommon transcript (NM_133437.4).  For most transcripts, the variant is intronic.",
-    "thumbnail": "Null variant in gene with known LOF mechanism, NM_133437.4(TTN):c.10670dupG , Not Met"
+    "thumbnail": "CritAssess277: { criterion: { Null variant in gene with known LOF mechanism }, variant: { NM_133437.4(TTN):c.10670dupG  }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess278": {
     "id": "CritAssess278",
     "entityTypeId": "E09",
     "explanation": "The assessed variant produces the same amino acid change (p.Phe285Leu) as known pathogenic variant c.853T>C",
-    "thumbnail": "Nucleotide change results in previously reported pathogenic amino acid change, NM_002834.3(PTPN11):c.855T>G (p.Phe285Leu), Met"
+    "thumbnail": "CritAssess278: { criterion: { Nucleotide change results in previously reported pathogenic amino acid change }, variant: { NM_002834.3(PTPN11):c.855T>G (p.Phe285Leu) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess279": {
     "id": "CritAssess279",
     "entityTypeId": "E09",
     "explanation": "The assessed variant produces the same amino acid change (p.Met2083Ile) as known pathogenic variant c.6249G>A.  But that change is pathogenic because it has been shown to disrupt splicing and create a premature stop codon. Prediction tools do not suggest c.6249G>C disrupts splicing.",
-    "thumbnail": "Nucleotide change results in previously reported pathogenic amino acid change, NM_001369.2(DNAH5):c.6249G>C (p.Met2083Ile), Not Met"
+    "thumbnail": "CritAssess279: { criterion: { Nucleotide change results in previously reported pathogenic amino acid change }, variant: { NM_001369.2(DNAH5):c.6249G>C (p.Met2083Ile) }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess280": {
     "id": "CritAssess280",
     "entityTypeId": "E09",
     "explanation": "While the two amino acid changes are not identical, they are the same amino acid change in analagous residues of HRAS and KRAS.",
-    "thumbnail": "Nucleotide change results in previously reported pathogenic amino acid change, NM_176795.4(HRAS):c.173C>T (p.Thr58Ile), Met"
+    "thumbnail": "CritAssess280: { criterion: { Nucleotide change results in previously reported pathogenic amino acid change }, variant: { NM_176795.4(HRAS):c.173C>T (p.Thr58Ile) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess281": {
     "id": "CritAssess281",
     "entityTypeId": "E09",
     "explanation": "IC1: Individual has condition, FH1: No family history, DNA1: variant is denovo (parentage confirmed)",
-    "thumbnail": "Confirmed de novo in individual without family history of condition, NM_000257.3(MYH7):c.5740G>A (p.Glu1914Lys), Met"
+    "thumbnail": "CritAssess281: { criterion: { Confirmed de novo in individual without family history of condition }, variant: { NM_000257.3(MYH7):c.5740G>A (p.Glu1914Lys) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess282": {
     "id": "CritAssess282",
     "entityTypeId": "E09",
     "explanation": "De novo variant occurred on haplotype inherited from the father. Maternity no explicitly confirmed - but if variant occurred on haplotype inherited from the father, then confirmation of maternity not required.",
-    "thumbnail": "Confirmed de novo in individual without family history of condition, NM_001927.3(DES):c.1216C>T (p.Arg406Trp), Met"
+    "thumbnail": "CritAssess282: { criterion: { Confirmed de novo in individual without family history of condition }, variant: { NM_001927.3(DES):c.1216C>T (p.Arg406Trp) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess283": {
     "id": "CritAssess283",
     "entityTypeId": "E09",
-    "thumbnail": "Confirmed de novo in individual without family history of condition, NM_000833 (GRIN2A):c.4375A>G, Met"
+    "thumbnail": "CritAssess283: { criterion: { Confirmed de novo in individual without family history of condition }, variant: { NM_000833.4 (GRIN2A):c.4375A>G }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess284": {
     "id": "CritAssess284",
     "entityTypeId": "E09",
-    "thumbnail": "Well-established functional studies showing damaging effect, NM_001001431.2(TNNT2):c.391C>T, Met"
+    "thumbnail": "CritAssess284: { criterion: { Well-established functional studies showing damaging effect }, variant: { NM_001001431.2(TNNT2):c.391C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess285": {
     "id": "CritAssess285",
     "entityTypeId": "E09",
-    "thumbnail": "Well-established functional studies showing damaging effect, NM_003119.2 (SPG7):c.1529C>T, Met"
+    "thumbnail": "CritAssess285: { criterion: { Well-established functional studies showing damaging effect }, variant: { NM_003119.2 (SPG7):c.1529C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess286": {
     "id": "CritAssess286",
     "entityTypeId": "E09",
     "explanation": "The RASopathy group considers MEK and ERK activation assays as well validated.",
-    "thumbnail": "Well-established functional studies showing damaging effect, NM_004333.4(BRAF):c.1787G>T, Met"
+    "thumbnail": "CritAssess286: { criterion: { Well-established functional studies showing damaging effect }, variant: { NM_004333.4(BRAF):c.1787G>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess287": {
     "id": "CritAssess287",
     "entityTypeId": "E09",
     "explanation": "statistically significant difference between affects and unaffecteds",
-    "thumbnail": "Prevelance increase in affected vs. control, NM_000441.1(SLC26A4):c.1003T>C, Met"
+    "thumbnail": "CritAssess287: { criterion: { Prevelance increase in affected vs. control }, variant: { NM_000441.1(SLC26A4):c.1003T>C }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess288": {
     "id": "CritAssess288",
     "entityTypeId": "E09",
     "explanation": "Across publications, this variant is thought to account for 2%-10% of patients with Malignant hyperthermia. But variant is also only found in 9/66740 Europeans in ExAC (.01%). Based on these differences, groups applied PS4 to this variant classification (without a formal OR analysis).",
-    "thumbnail": "Prevelance increase in affected vs. control, NM_000540.2 (RYR1):c.1840C>T, Met"
+    "thumbnail": "CritAssess288: { criterion: { Prevelance increase in affected vs. control }, variant: { NM_000540.2 (RYR1):c.1840C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess289": {
     "id": "CritAssess289",
     "entityTypeId": "E09",
-    "thumbnail": "Prevelance increase in affected vs. control, NM_006208.2(ENPP1):c.517A>C, Not Met"
+    "thumbnail": "CritAssess289: { criterion: { Prevelance increase in affected vs. control }, variant: { NM_006208.2(ENPP1):c.517A>C }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess290": {
     "id": "CritAssess290",
     "entityTypeId": "E09",
     "explanation": "Variant is located within the kinase domain (where multiple other pathogenic variants are located)",
-    "thumbnail": "Located in hot spot without benign variation, NM_005228.3(EGFR):c.2369C>T, Met"
+    "thumbnail": "CritAssess290: { criterion: { Located in hot spot without benign variation }, variant: { NM_005228.3(EGFR):c.2369C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess291": {
     "id": "CritAssess291",
     "entityTypeId": "E09",
     "explanation": "Variant is located in exon 15, which the RASopathy group has decided is an established functional domain for BRAF",
-    "thumbnail": "Located in hot spot without benign variation, NM_004333.4(BRAF):c.1789C>G, Met"
+    "thumbnail": "CritAssess291: { criterion: { Located in hot spot without benign variation }, variant: { NM_004333.4(BRAF):c.1789C>G }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess292": {
     "id": "CritAssess292",
     "entityTypeId": "E09",
     "explanation": "The variant is near 4 other pathogenic variants",
-    "thumbnail": "Located in hot spot without benign variation, NM_000169.2(GLA):c.902G>C, Met"
+    "thumbnail": "CritAssess292: { criterion: { Located in hot spot without benign variation }, variant: { NM_000169.2(GLA):c.902G>C }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess293": {
     "id": "CritAssess293",
     "entityTypeId": "E09",
     "explanation": "PM2 is applicable as even though variant is not 100% absent, it is practically absent (a 95% CI for the population goes from 0.00% to 0.01%)",
-    "thumbnail": "Absent from controls, NM_000257.2(MYH7):c.5135G>A, Met"
+    "thumbnail": "CritAssess293: { criterion: { Absent from controls }, variant: { NM_000257.2(MYH7):c.5135G>A }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess294": {
     "id": "CritAssess294",
     "entityTypeId": "E09",
-    "thumbnail": "Absent from controls, NM_001128425.1(MUTYH):c.64G>A (p.Val22Met), Not Met"
+    "thumbnail": "CritAssess294: { criterion: { Absent from controls }, variant: { NM_001128425.1(MUTYH):c.64G>A (p.Val22Met) }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess295": {
     "id": "CritAssess295",
     "entityTypeId": "E09",
     "explanation": "while the variant is absent from exac, mean coverage (11X) is insufficient to be sure that variant was fully assayed.",
-    "thumbnail": "Absent from controls, NM_001399.4(EDA): c.676C>T, Not Met"
+    "thumbnail": "CritAssess295: { criterion: { Absent from controls }, variant: { NM_001399.4(EDA): c.676C>T }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess296": {
     "id": "CritAssess296",
     "entityTypeId": "E09",
-    "thumbnail": "Recessive in trans with pathogenic variant, NM_001369.2(DNAH5):c.7468_7488del, Met"
+    "thumbnail": "CritAssess296: { criterion: { Recessive in trans with pathogenic variant }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess297": {
     "id": "CritAssess297",
     "entityTypeId": "E09",
-    "thumbnail": "Recessive in trans with pathogenic variant, NM_133261.2(GIPC3):c.298G>A, Met"
+    "thumbnail": "CritAssess297: { criterion: { Recessive in trans with pathogenic variant }, variant: { NM_133261.2(GIPC3):c.298G>A }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess298": {
     "id": "CritAssess298",
     "entityTypeId": "E09",
     "explanation": "Application of PM3 is incorrect as the variant in trans is know known to be pathogenic (it is the same variant).",
-    "thumbnail": "Recessive in trans with pathogenic variant, NM_000391.3(TTP1):c.1678_1679delCT, Not Met"
+    "thumbnail": "CritAssess298: { criterion: { Recessive in trans with pathogenic variant }, variant: { NM_000391.3(TTP1):c.1678_1679delCT }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess299": {
     "id": "CritAssess299",
     "entityTypeId": "E09",
     "explanation": "leads to an in-frame deletion of 7 amino acids (not repeat region).",
-    "thumbnail": "Protein length changes or stop-loss, NM_001369.2(DNAH5):c.7468_7488del, Met"
+    "thumbnail": "CritAssess299: { criterion: { Protein length changes or stop-loss }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess300": {
     "id": "CritAssess300",
     "entityTypeId": "E09",
     "explanation": "leads to an in-frame deletion of 5 amino acids (not repeat region).",
-    "thumbnail": "Protein length changes or stop-loss, NM_015560.2(OPA1):c.113_130del18, Met"
+    "thumbnail": "CritAssess300: { criterion: { Protein length changes or stop-loss }, variant: { NM_015560.2(OPA1):c.113_130del18 }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess301": {
     "id": "CritAssess301",
     "entityTypeId": "E09",
     "explanation": "This 15bp duplication variant results in an expansion of a 20 residue polyalanine tract to a 25 residue polyalanine tract.",
-    "thumbnail": "Protein length changes or stop-loss, NM_003924.3(PHOX2B):c.753_767dup, Not Met"
+    "thumbnail": "CritAssess301: { criterion: { Protein length changes or stop-loss }, variant: { NM_003924.3(PHOX2B):c.753_767dup }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess302": {
     "id": "CritAssess302",
     "entityTypeId": "E09",
     "explanation": "From ClinVar: Doolan et al. (2005) (PMID:15698845) reported mutations at the same residue (R162P) in patients with HCM, supporting the functional importance of this residue in the protein. This rare R162P variant observed multiple times in is Likely Pathogenic in ClinVar with 1 star assertion.  Other variants in the same residue R162W has conflicting evidence of pathogenicity(Path by GeneDx : SCV000209174.2 and VUS by LMM:SCV000203864.2). Considered these two only as they have provided assertion criteria.",
-    "thumbnail": "Novel missense at same amino acid as known pathogenic missense, NM_000363.4(TNNI3):c.485G>A, Met"
+    "thumbnail": "CritAssess302: { criterion: { Novel missense at same amino acid as known pathogenic missense }, variant: { NM_000363.4(TNNI3):c.485G>A }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess303": {
     "id": "CritAssess303",
     "entityTypeId": "E09",
     "explanation": "Other pathogenic variants at the same residue per ClinVar : NM_000531.5(OTC):c.119G>A (p.Arg40His) However no assertion criteria is provided for these variants. So pathogenicity needs to be determined by literature search. \n\nSo PM5 is applicable when assessing p.Leu1764Il",
-    "thumbnail": "Novel missense at same amino acid as known pathogenic missense, NM_000531.5(OTC):c.118C>T, Not Met"
+    "thumbnail": "CritAssess303: { criterion: { Novel missense at same amino acid as known pathogenic missense }, variant: { NM_000531.5(OTC):c.118C>T }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess304": {
     "id": "CritAssess304",
     "entityTypeId": "E09",
     "explanation": "Another variant at this position, but different AA change, has been observed and called pathogenic for breast ovarian cancer by ENIGMA expert panel:",
-    "thumbnail": "Novel missense at same amino acid as known pathogenic missense, NM_007294.3(BRCA1):c.5290C>A, Met"
+    "thumbnail": "CritAssess304: { criterion: { Novel missense at same amino acid as known pathogenic missense }, variant: { NM_007294.3(BRCA1):c.5290C>A }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess305": {
     "id": "CritAssess305",
     "entityTypeId": "E09",
     "explanation": "while the variant is absent from exac, however\n1) very low coverage across this region (~5X) and usually 20X is used as a cut-off to say “absent”\n2) variant is 21 nt deletion - databases may not be able to call a variant of that size (I rarely see an indel of this size in ExAC).",
-    "thumbnail": "Absent from controls, NM_001369.2(DNAH5):c.7468_7488del, Not Met"
+    "thumbnail": "CritAssess305: { criterion: { Absent from controls }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess306": {
     "id": "CritAssess306",
     "entityTypeId": "E09",
     "explanation": "Two sporadic cases of BHD contain this allele",
-    "thumbnail": "Assumed de novo (parental status not confirmed), NM_144997.5(FLCN):c.1285dupC, Met"
+    "thumbnail": "CritAssess306: { criterion: { Assumed de novo (parental status not confirmed) }, variant: { NM_144997.5(FLCN):c.1285dupC }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess307": {
     "id": "CritAssess307",
     "entityTypeId": "E09",
     "explanation": "affected child with CFC was found to carry c.158T>C. Both parents are unaffected and from Sanger seq neither parent was found to carry c.158T>C variant - so authors conclude variant occurred de novo. Since there was no mention of parental confirmation, PS2 cannot be used but PM6 is applicable",
-    "thumbnail": "Assumed de novo (parental status not confirmed), NM_002755.3(MAP2K1):c.158T>C, Met"
+    "thumbnail": "CritAssess307: { criterion: { Assumed de novo (parental status not confirmed) }, variant: { NM_002755.3(MAP2K1):c.158T>C }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess308": {
     "id": "CritAssess308",
     "entityTypeId": "E09",
     "explanation": "3 unrelated probands with CFC were found to carry c.1741A>G variant. There is no family history of CFC in any family and all three sets of parents were confirmed to not have the variant. Since there was no mention of parental confirmation, PS2 cannot be used but PM6 is applicable. However, since there are 3 de novo observations, many groups (including Noonan and MYH7) would allow PM6 to be upgraded to Strong (PM6_S)",
-    "thumbnail": "Assumed de novo (parental status not confirmed), NM_004333.4(BRAF):c.1741A>G, Met"
+    "thumbnail": "CritAssess308: { criterion: { Assumed de novo (parental status not confirmed) }, variant: { NM_004333.4(BRAF):c.1741A>G }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess309": {
     "id": "CritAssess309",
     "entityTypeId": "E09",
     "explanation": "In total, 4 segs from 2 families",
-    "thumbnail": "Segregates with disease in affected family members, NM_000256.3(MYBPC3)c.1351+1G>A, Met"
+    "thumbnail": "CritAssess309: { criterion: { Segregates with disease in affected family members }, variant: { NM_000256.3(MYBPC3)c.1351+1G>A }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess310": {
     "id": "CritAssess310",
     "entityTypeId": "E09",
     "explanation": "In total, 8 segs from 2 families (can combine hom segs and compound het segs). Most groups would allow this to be shifted up the Moderate (PP1_M)",
-    "thumbnail": "Segregates with disease in affected family members, NM_206933.2(USH2A):c.1000C>G (p.Arg334Gly), Met"
+    "thumbnail": "CritAssess310: { criterion: { Segregates with disease in affected family members }, variant: { NM_206933.2(USH2A):c.1000C>G (p.Arg334Gly) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess311": {
     "id": "CritAssess311",
     "entityTypeId": "E09",
     "explanation": "PP1 is for “Co-segregation with disease in multiple affected family members” PP1 is not applicable for this variant because it’s only a single segregation.",
-    "thumbnail": "Segregates with disease in affected family members, NM_000059.3(BRCA2):c.1832C>G, Not Met"
+    "thumbnail": "CritAssess311: { criterion: { Segregates with disease in affected family members }, variant: { NM_000059.3(BRCA2):c.1832C>G }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess312": {
     "id": "CritAssess312",
     "entityTypeId": "E09",
-    "thumbnail": "Segregates with disease in affected family members, NM_001001430.2(TNNT2):c.629_631delAGA, Met"
+    "thumbnail": "CritAssess312: { criterion: { Segregates with disease in affected family members }, variant: { NM_001001430.2(TNNT2):c.629_631delAGA }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess313": {
     "id": "CritAssess313",
     "entityTypeId": "E09",
-    "thumbnail": "Missense in condition where pathogenic missense common, NM_000257.3(MYH7):c.5401G>A, Met"
+    "thumbnail": "CritAssess313: { criterion: { Missense in condition where pathogenic missense common }, variant: { NM_000257.3(MYH7):c.5401G>A }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess314": {
     "id": "CritAssess314",
     "entityTypeId": "E09",
-    "thumbnail": "Computational evidence supports deleterious impact, NM_005228.3(EGFR):c.2369C>T, Met"
+    "thumbnail": "CritAssess314: { criterion: { Computational evidence supports deleterious impact }, variant: { NM_005228.3(EGFR):c.2369C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess315": {
     "id": "CritAssess315",
     "entityTypeId": "E09",
-    "thumbnail": "Computational evidence supports deleterious impact, NM_003119.3(SPG7):c.1529C>T, Met"
+    "thumbnail": "CritAssess315: { criterion: { Computational evidence supports deleterious impact }, variant: { NM_003119.3(SPG7):c.1529C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess316": {
     "id": "CritAssess316",
     "entityTypeId": "E09",
     "explanation": "even though the computational tools for AA changes are NOT predicting an impact, splicing tools are predicting an impact - so PP3 is applicable",
-    "thumbnail": "Computational evidence supports deleterious impact, NM_000363.4(TNNI3):c.592C>G, Met"
+    "thumbnail": "CritAssess316: { criterion: { Computational evidence supports deleterious impact }, variant: { NM_000363.4(TNNI3):c.592C>G }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess318": {
     "id": "CritAssess318",
     "entityTypeId": "E09",
-    "thumbnail": "Disease specific phenotype and family history, NM_001114753.1(ENG):c.818C>T, Met"
+    "thumbnail": "CritAssess318: { criterion: { Disease specific phenotype and family history }, variant: { NM_001114753.1(ENG):c.818C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess319": {
     "id": "CritAssess319",
     "entityTypeId": "E09",
-    "thumbnail": "Disease specific phenotype and family history, NM_000257.2(MYH7):c.1822T>G, Not Met"
+    "thumbnail": "CritAssess319: { criterion: { Disease specific phenotype and family history }, variant: { NM_000257.2(MYH7):c.1822T>G }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess320": {
     "id": "CritAssess320",
     "entityTypeId": "E09",
-    "thumbnail": "Reported pathogenic by reputable source without shared data, NM_000059.3(BRCA2):c.3G>T, Met"
+    "thumbnail": "CritAssess320: { criterion: { Reported pathogenic by reputable source without shared data }, variant: { NM_000059.3(BRCA2):c.3G>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess321": {
     "id": "CritAssess321",
     "entityTypeId": "E09",
     "explanation": "OMIM is not considered an expert or reputable source for variant interpretations.\nFurther, OMIM’s evidence for this pathogenic call is available (the publication link - PMID:21620354 - and free text summary) so people should use the evidence from OMIM in their assessment NOT OMIM’s interpretation.  This is marked as Insufficient Evidence rather than refuted because the OMIM entry does not rule out a later application of PP5 based on eg. an expert panel.",
-    "thumbnail": "Reported pathogenic by reputable source without shared data, NM_001458.4(FLNC):c.577G>A, Not Met"
+    "thumbnail": "CritAssess321: { criterion: { Reported pathogenic by reputable source without shared data }, variant: { NM_001458.4(FLNC):c.577G>A }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess322": {
     "id": "CritAssess322",
     "entityTypeId": "E09",
-    "thumbnail": "Reported pathogenic by reputable source without shared data, NM_000492.3(CFTR):c.2053dupC, Met"
+    "thumbnail": "CritAssess322: { criterion: { Reported pathogenic by reputable source without shared data }, variant: { NM_000492.3(CFTR):c.2053dupC }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess323": {
     "id": "CritAssess323",
     "entityTypeId": "E09",
-    "thumbnail": "Present in population databases at greater than 5%, NM_000057.2 (BLM):c.2603C>T, Met"
+    "thumbnail": "CritAssess323: { criterion: { Present in population databases at greater than 5% }, variant: { NM_000057.2 (BLM):c.2603C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess324": {
     "id": "CritAssess324",
     "entityTypeId": "E09",
     "explanation": "Globally, this variant has a MAF of 0.0454 (4.5%) which would put it under the 5% rule and thus BA1 would not be applicable. However, variant is enriched in East Asian population - 29% MAF - so way over the 5% cut-off. So now BA1 is applicable",
-    "thumbnail": "Present in population databases at greater than 5%, NM_004004.5(GJB2):c.79G>A, Met"
+    "thumbnail": "CritAssess324: { criterion: { Present in population databases at greater than 5% }, variant: { NM_004004.5(GJB2):c.79G>A }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess325": {
     "id": "CritAssess325",
     "entityTypeId": "E09",
     "explanation": "Although this variant has been seen in the general population, its frequency is low enough to be consistent with a recessive carrier frequency.",
-    "thumbnail": "Absent from controls, NM_023036.4(DNAI2):c.1304G>A, Met"
+    "thumbnail": "CritAssess325: { criterion: { Absent from controls }, variant: { NM_023036.4(DNAI2):c.1304G>A }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess326": {
     "id": "CritAssess326",
     "entityTypeId": "E09",
-    "thumbnail": "MAF too high for disorder, NM_000138.4(FBN1):c.8176C>T, Met"
+    "thumbnail": "CritAssess326: { criterion: { MAF too high for disorder }, variant: { NM_000138.4(FBN1):c.8176C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess327": {
     "id": "CritAssess327",
     "entityTypeId": "E09",
-    "thumbnail": "MAF too high for disorder, NM_004541.3(NDUFA1):c.94G>C, Met"
+    "thumbnail": "CritAssess327: { criterion: { MAF too high for disorder }, variant: { NM_004541.3(NDUFA1):c.94G>C }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess328": {
     "id": "CritAssess328",
     "entityTypeId": "E09",
     "explanation": "Perrault syndrome may be underreported due to misdiagnosis.  If the prevalence estimates rise, this assessment may need to be revisited",
-    "thumbnail": "MAF too high for disorder, NM_000414.3(HSD17B4):c.56C>G, Not Met"
+    "thumbnail": "CritAssess328: { criterion: { MAF too high for disorder }, variant: { NM_000414.3(HSD17B4):c.56C>G }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess329": {
     "id": "CritAssess329",
     "entityTypeId": "E09",
     "explanation": "According to Baylor internal data on this variant, it has been observed multiple times in asymptomatic parents internally and in controls and observed once as a homozygotes internally in unaffected.  Although the evidence for full penetrance is weak, the fact that there are multiple asymptomatic occurrences helps the case.",
-    "thumbnail": "Control frequency higher than expected for penetrance, NM_001197104.1(KMT2A):c.6572G>A, Met"
+    "thumbnail": "CritAssess329: { criterion: { Control frequency higher than expected for penetrance }, variant: { NM_001197104.1(KMT2A):c.6572G>A }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess330": {
     "id": "CritAssess330",
     "entityTypeId": "E09",
     "explanation": "This variant was observed in unaffected healthy control chromosomes. PMIDs: 15122587, 18199528, 22703879, 24728327",
-    "thumbnail": "Control frequency higher than expected for penetrance, NM_000038.5(APC ):c.3386T>C, Met"
+    "thumbnail": "CritAssess330: { criterion: { Control frequency higher than expected for penetrance }, variant: { NM_000038.5(APC ):c.3386T>C }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess331": {
     "id": "CritAssess331",
     "entityTypeId": "E09",
     "explanation": "Although this variant was found in 5 individuals with Marfan Syndrome, it was identified in 2 unaffected relatives from two separate families. PMID: 12402346",
-    "thumbnail": "Control frequency higher than expected for penetrance, NM_000138.4(FBN1 ):c.2956G>A, Met"
+    "thumbnail": "CritAssess331: { criterion: { Control frequency higher than expected for penetrance }, variant: { NM_000138.4(FBN1 ):c.2956G>A }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess333": {
     "id": "CritAssess333",
     "entityTypeId": "E09",
-    "thumbnail": "Well-established functional studies do not show damaging effect, NM_000441.1(SLC26A4): c.349C>T (p.Leu117Phe), Met"
+    "thumbnail": "CritAssess333: { criterion: { Well-established functional studies do not show damaging effect }, variant: { NM_000441.1(SLC26A4): c.349C>T (p.Leu117Phe) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess334": {
     "id": "CritAssess334",
     "entityTypeId": "E09",
-    "thumbnail": "Well-established functional studies do not show damaging effect, NM_152594.2(SPRED1): c.587C>T, Met"
+    "thumbnail": "CritAssess334: { criterion: { Well-established functional studies do not show damaging effect }, variant: { NM_152594.2(SPRED1): c.587C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess335": {
     "id": "CritAssess335",
     "entityTypeId": "E09",
-    "thumbnail": "Does not segregate with disease, NM_000527.4(LDLR):c.313+2T>C, Met"
+    "thumbnail": "CritAssess335: { criterion: { Does not segregate with disease }, variant: { NM_000527.4(LDLR):c.313+2T>C }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess336": {
     "id": "CritAssess336",
     "entityTypeId": "E09",
     "explanation": "The inconsistent segregation data is reasonably explainable as a phenocopy, and therefore does not provide evidence for the benignity of this allele.",
-    "thumbnail": "Does not segregate with disease, NM_000256.3(MYBPC3):c.1624+4A>T, Not Met"
+    "thumbnail": "CritAssess336: { criterion: { Does not segregate with disease }, variant: { NM_000256.3(MYBPC3):c.1624+4A>T }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess337": {
     "id": "CritAssess337",
     "entityTypeId": "E09",
     "explanation": "In a family tested by the LMM, the c.1484C>T variant was identified in a proband with clinical diagnosis of HCM. This proband has two relatives that also have clinical diagnosis of HCM however never relative carries the c.1484C>T variant.",
-    "thumbnail": "Does not segregate with disease, NM_001103.3(ACTN2):c.1484C>T (p.Thr495Met), Met"
+    "thumbnail": "CritAssess337: { criterion: { Does not segregate with disease }, variant: { NM_001103.3(ACTN2):c.1484C>T (p.Thr495Met) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess338": {
     "id": "CritAssess338",
     "entityTypeId": "E09",
-    "thumbnail": "Missense variant when truncating is expected mechanism, NM_000059.3(BRCA2) :c.4779A>C, Met"
+    "thumbnail": "CritAssess338: { criterion: { Missense variant when truncating is expected mechanism }, variant: { NM_000059.3(BRCA2) :c.4779A>C }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess339": {
     "id": "CritAssess339",
     "entityTypeId": "E09",
-    "thumbnail": "Missense variant when truncating is expected mechanism, NM_000059.3(BRCA2) :c.4779A>C, Met"
+    "thumbnail": "CritAssess339: { criterion: { Missense variant when truncating is expected mechanism }, variant: { NM_000059.3(BRCA2) :c.4779A>C }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess340": {
     "id": "CritAssess340",
     "entityTypeId": "E09",
     "explanation": "Homozygous truncating variants in LOXHD1 are associated with autosomal recessive hearing loss. This was demonstrated by both identification in human patients and a mouse model. (I used the OMIM entry as a source, but you could also directly use the papers.)",
-    "thumbnail": "Missense variant when truncating is expected mechanism, NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His), Met"
+    "thumbnail": "CritAssess340: { criterion: { Missense variant when truncating is expected mechanism }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess341": {
     "id": "CritAssess341",
     "entityTypeId": "E09",
     "explanation": "While truncations are usually the cause of TTN related DCM, missense variants in certain regions can also cause disease.",
-    "thumbnail": "Missense variant when truncating is expected mechanism, NM_133378.4(TTN): c.2926T>C, Not Met"
+    "thumbnail": "CritAssess341: { criterion: { Missense variant when truncating is expected mechanism }, variant: { NM_133378.4(TTN): c.2926T>C }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess342": {
     "id": "CritAssess342",
     "entityTypeId": "E09",
-    "thumbnail": "In trans with dominant OR in cis with pathogenic variant, NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser), Met"
+    "thumbnail": "CritAssess342: { criterion: { In trans with dominant OR in cis with pathogenic variant }, variant: { NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess343": {
     "id": "CritAssess343",
     "entityTypeId": "E09",
-    "thumbnail": "In trans with dominant OR in cis with pathogenic variant, NM_000492.3(CFTR): c.2002C>T, Met"
+    "thumbnail": "CritAssess343: { criterion: { In trans with dominant OR in cis with pathogenic variant }, variant: { NM_000492.3(CFTR): c.2002C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess344": {
     "id": "CritAssess344",
     "entityTypeId": "E09",
     "explanation": "although this variant was found in trans with another variant in the same gene, that variant is VUS and not an established pathogenic variant and cardiomyopathies can be variable in penetrance. ",
-    "thumbnail": "In trans with dominant OR in cis with pathogenic variant, NM_000257.2(MYH7): c.2559G>A, Not Met"
+    "thumbnail": "CritAssess344: { criterion: { In trans with dominant OR in cis with pathogenic variant }, variant: { NM_000257.2(MYH7): c.2559G>A }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess345": {
     "id": "CritAssess345",
     "entityTypeId": "E09",
-    "thumbnail": "In-frame indel without known function, NM_001271208.1(NEB):c.169_183delCTGGCACAGCCAGCA, Met"
+    "thumbnail": "CritAssess345: { criterion: { In-frame indel without known function }, variant: { NM_001271208.1(NEB):c.169_183delCTGGCACAGCCAGCA }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess346": {
     "id": "CritAssess346",
     "entityTypeId": "E09",
     "explanation": "BP3 does not apply for this variant because it is not an in-frame deletion (it's a deletion of 10 bp) and, although the I Band is a repetitive region that contains tandem arrays of immunoglobulin domains, these folds may be an important component for TTN's elasticity.",
-    "thumbnail": "In-frame indel without known function, NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC, Not Met"
+    "thumbnail": "CritAssess346: { criterion: { In-frame indel without known function }, variant: { NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess347": {
     "id": "CritAssess347",
     "entityTypeId": "E09",
-    "thumbnail": "In-frame indel without known function, NM_147196.2(TMIE):c.391_393dupAAG, Met"
+    "thumbnail": "CritAssess347: { criterion: { In-frame indel without known function }, variant: { NM_147196.2(TMIE):c.391_393dupAAG }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess348": {
     "id": "CritAssess348",
     "entityTypeId": "E09",
     "explanation": "Seven of the nine predictions found this variant to be benign, which we consider sufficient to support.",
-    "thumbnail": "Computational evidence supports benign impact, NM_000059.3(BRCA2):c.4779A>C, Met"
+    "thumbnail": "CritAssess348: { criterion: { Computational evidence supports benign impact }, variant: { NM_000059.3(BRCA2):c.4779A>C }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess350": {
     "id": "CritAssess350",
     "entityTypeId": "E09",
     "explanation": "While AI111 is considered probably damaging by at least one in silico predictor, the transcript for AI111 ( NM_133379.3 ) is not clinically relevant.  In clinically relevant transcripts, thisthis canonical allele is intronic.",
-    "thumbnail": "Computational evidence supports benign impact, NM_133379.3(TTN) : c.15283T>C, Not Met"
+    "thumbnail": "CritAssess350: { criterion: { Computational evidence supports benign impact }, variant: { NM_133379.3(TTN) : c.15283T>C }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess351": {
     "id": "CritAssess351",
     "entityTypeId": "E09",
     "explanation": "The evidence here only explicitly describes a single individual with a likely pathogenic variant in TNNT2, but there are numerous other examples that have been observed in internal LMM data.",
-    "thumbnail": "Variant found in case with alternate explanation, NM_000256.3(MYBPC3): c.2497G>A, Met"
+    "thumbnail": "CritAssess351: { criterion: { Variant found in case with alternate explanation }, variant: { NM_000256.3(MYBPC3): c.2497G>A }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess352": {
     "id": "CritAssess352",
     "entityTypeId": "E09",
-    "thumbnail": "Variant found in case with alternate explanation, NM_022124.5(CDH23):c.5660C>T, Met"
+    "thumbnail": "CritAssess352: { criterion: { Variant found in case with alternate explanation }, variant: { NM_022124.5(CDH23):c.5660C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess353": {
     "id": "CritAssess353",
     "entityTypeId": "E09",
-    "thumbnail": "Variant found in case with alternate explanation, NM_022124.5(CDH23):c.5660C>T, Met"
+    "thumbnail": "CritAssess353: { criterion: { Variant found in case with alternate explanation }, variant: { NM_022124.5(CDH23):c.5660C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess354": {
     "id": "CritAssess354",
     "entityTypeId": "E09",
     "explanation": "Variants in COL2A1 are associated with dominant spondyloepiphyseal dysplasia congenita (a primary bone dysplasia). CA112 was identified in a  proband with CA113, which is pathogenic for another primary bone dysplasia, dominant Pseudoachondroplasia. However, this does not provide supporting evidence for CA112 being benign because the combination of a COL2A1 and COMP variant are known to produce a more severe phenotype, Pseudoachondroplastic spondyloepiphyseal dysplasia syndrome, which is the phenotype of the proband.  Because the combination of alleles may produce a qualitatively different phenotype, the bone dysplasia caused by the COMP variant does not provide evidence that the COL2A1 variant is benign for any bone dysplasias in general.\n",
-    "thumbnail": "Variant found in case with alternate explanation, NM_001844.4(COL2A1):c.4316C>T, Not Met"
+    "thumbnail": "CritAssess354: { criterion: { Variant found in case with alternate explanation }, variant: { NM_001844.4(COL2A1):c.4316C>T }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess355": {
     "id": "CritAssess355",
     "entityTypeId": "E09",
-    "thumbnail": "Reported benign by reputable source without shared data, NM_007294.3(BRCA1):c.*6207C>T, Met"
+    "thumbnail": "CritAssess355: { criterion: { Reported benign by reputable source without shared data }, variant: { NM_007294.3(BRCA1):c.*6207C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess356": {
     "id": "CritAssess356",
     "entityTypeId": "E09",
-    "thumbnail": "Reported benign by reputable source without shared data, NM_000059.3(BRCA2):c.-26G>A, Met"
+    "thumbnail": "CritAssess356: { criterion: { Reported benign by reputable source without shared data }, variant: { NM_000059.3(BRCA2):c.-26G>A }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess357": {
     "id": "CritAssess357",
     "entityTypeId": "E09",
-    "thumbnail": "Reported benign by reputable source without shared data, NM_000274.3(OAT):c.1311G>C, Not Met"
+    "thumbnail": "CritAssess357: { criterion: { Reported benign by reputable source without shared data }, variant: { NM_000274.3(OAT):c.1311G>C }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess358": {
     "id": "CritAssess358",
     "entityTypeId": "E09",
-    "thumbnail": "Synonymous variant without predicted splice effect in region with low conservation, NM_138691.2 (TMC1): c.684C>T, Met"
+    "thumbnail": "CritAssess358: { criterion: { Synonymous variant without predicted splice effect in region with low conservation }, variant: { NM_138691.2 (TMC1): c.684C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess359": {
     "id": "CritAssess359",
     "entityTypeId": "E09",
-    "thumbnail": "Synonymous variant without predicted splice effect in region with low conservation, NM_000257.2(MYH7):c.327C>T, Met"
+    "thumbnail": "CritAssess359: { criterion: { Synonymous variant without predicted splice effect in region with low conservation }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess360": {
     "id": "CritAssess360",
     "entityTypeId": "E09",
     "explanation": "This variant is a silent variant that does not result in an amino acid change. It is not very conserved and splicing tools suggest no change. However, BP7 does not apply because the variant is located in the first base of exon 4 of RAF1, which is part of the 3’ splice region of the exon. For that reason, we can’t fully trust computational tools. Functional assays would have to confirm that this variant truly does not alter splicing.",
-    "thumbnail": "Synonymous variant without predicted splice effect in region with low conservation, NM_002880.3(RAF1):c.321T>C, Not Met"
+    "thumbnail": "CritAssess360: { criterion: { Synonymous variant without predicted splice effect in region with low conservation }, variant: { NM_002880.3(RAF1):c.321T>C }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess361": {
     "id": "CritAssess361",
     "entityTypeId": "E09",
     "explanation": "This variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006 PMID: 17186466). Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/).",
-    "thumbnail": "Null variant in gene with known LOF mechanism, NM_024422.3(DSC2): c.631-2A>G (p.?), Met"
+    "thumbnail": "CritAssess361: { criterion: { Null variant in gene with known LOF mechanism }, variant: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "InSilicoPred362": {
     "id": "InSilicoPred362",
     "entityTypeId": "E47",
-    "thumbnail": "missense effect, Polyphen-2 HumDiv"
+    "thumbnail": "InSilicoPred362: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Polyphen-2 HumDiv\" }"
   },
   "CritAssess363": {
     "id": "CritAssess363",
     "entityTypeId": "E09",
     "explanation": "This variant was identified in one individual with pathogenic variants in another gene. Internal LMM data: The proband had one pathogenic and one likely pathogenic variant in (in trans) in SLC26A4. This proband had mild to profound hearing loss with EVA, which is characteristic of Pendred Syndrome. SLC26A4 is the only gene associated with Pendred Syndrome",
-    "thumbnail": "Variant found in case with alternate explanation, NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His), Met"
+    "thumbnail": "CritAssess363: { criterion: { Variant found in case with alternate explanation }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "VarInterp364": {
     "id": "VarInterp364",
     "entityTypeId": "E35",
-    "thumbnail": "NM_000441.1(SLC26A4): c.626G>T, Hearing Loss, Likely Pathogenic"
+    "thumbnail": "VarInterp364: { variant: { NM_000441.1(SLC26A4): c.626G>T }, condition: { Hearing Loss }, clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "VarInterp365": {
     "id": "VarInterp365",
     "entityTypeId": "E35",
-    "thumbnail": "NM_000441.1(SLC26A4): c.1707+6T>C, Hearing Loss, Pathogenic"
+    "thumbnail": "VarInterp365: { variant: { NM_000441.1(SLC26A4): c.1707+6T>C }, condition: { Hearing Loss }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   "IndAll366": {
     "id": "IndAll366",
     "entityTypeId": "E28",
-    "thumbnail": "individual #029, NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His), NM_000441.1(SLC26A4): c.626G>T, in trans"
+    "thumbnail": "IndAll366: { individual: { individual #029 }, primaryAllele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, secondaryAllele: { NM_000441.1(SLC26A4): c.626G>T }, phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
   },
   "IndAll367": {
     "id": "IndAll367",
     "entityTypeId": "E28",
-    "thumbnail": "individual #029, NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His), NM_000441.1(SLC26A4): c.1707+6T>C, in trans"
+    "thumbnail": "IndAll367: { individual: { individual #029 }, primaryAllele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, secondaryAllele: { NM_000441.1(SLC26A4): c.1707+6T>C }, phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
   },
   "IndCond368": {
     "id": "IndCond368",
     "entityTypeId": "E17",
     "explanation": "This proband had mild to profound hearing loss with EVA, which is characteristic of Pendred Syndrome.",
-    "thumbnail": "individual #029, Hearing Loss, TRUE"
+    "thumbnail": "IndCond368: { individual: { individual #029 }, condition: { Hearing Loss }, hasCondition: true }"
   },
   "CritAssess369": {
     "id": "CritAssess369",
     "entityTypeId": "E09",
     "explanation": "This variant has been reported in 1/66564 European chromosomes by the Exome Aggregation Consortium (ExAC, http://exac.broadinstitute.org; dbSNP rs397514042).",
-    "thumbnail": "Absent from controls, NM_024422.3(DSC2): c.631-2A>G (p.?), Met"
+    "thumbnail": "CritAssess369: { criterion: { Absent from controls }, variant: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "AllFreq370": {
     "id": "AllFreq370",
     "entityTypeId": "E23",
-    "thumbnail": "ExAC, Non-Finnish European, NM_024422.3(DSC2): c.631-2A>G (p.?), 1.50E-05"
+    "thumbnail": "AllFreq370: { ascertainment: \"ExAC\", population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://exac.broadinstitute.org/populations/\" }] }, allele: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, alleleFrequency: 0.000015 }"
   },
   "CritAssess371": {
     "id": "CritAssess371",
     "entityTypeId": "E09",
     "explanation": "This variant is present in 0.2% (31/16512) of South Asian Chromosomes in ExAC.",
-    "thumbnail": "MAF too high for disorder, NM_000257.2(MYH7):c.327C>T, Met"
+    "thumbnail": "CritAssess371: { criterion: { MAF too high for disorder }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess372": {
     "id": "CritAssess372",
     "entityTypeId": "E09",
     "explanation": "This variant is present in 2% (27/1384) of African American Chromosomes in ESP.",
-    "thumbnail": "MAF too high for disorder, NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His), Met"
+    "thumbnail": "CritAssess372: { criterion: { MAF too high for disorder }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess373": {
     "id": "CritAssess373",
     "entityTypeId": "E09",
     "explanation": "This is a synonymous variant with little conservation and no predicted impact on splicing. Conservation and splicing algorithm values are listed below.",
-    "thumbnail": "Computational evidence supports benign impact, NM_000257.2(MYH7):c.327C>T, Met"
+    "thumbnail": "CritAssess373: { criterion: { Computational evidence supports benign impact }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess374": {
     "id": "CritAssess374",
     "entityTypeId": "E09",
     "explanation": "Flag-tagged construct with the variant was transfected into HEK cells. As per the RASopathy working group’s approved assays (see example 3 above), Smith et al. showed that the Y337C mutation increased levels of pERK in starved HEK cells via western blotting.",
-    "thumbnail": "Well-established functional studies showing damaging effect, NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys), Met"
+    "thumbnail": "CritAssess374: { criterion: { Well-established functional studies showing damaging effect }, variant: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess375": {
     "id": "CritAssess375",
     "entityTypeId": "E09",
     "explanation": "A personal communication to our lab informed us of an individual and his son who both harbored the variant but with clinical workup did not appear to have Noonan Syndrome or symptoms indicative of Noonan Syndrome.",
-    "thumbnail": "Does not segregate with disease, NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys), Met"
+    "thumbnail": "CritAssess375: { criterion: { Does not segregate with disease }, variant: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess376": {
     "id": "CritAssess376",
     "entityTypeId": "E09",
-    "thumbnail": "Absent from controls, NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), Met"
+    "thumbnail": "CritAssess376: { criterion: { Absent from controls }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess377": {
     "id": "CritAssess377",
     "entityTypeId": "E09",
     "explanation": "Parental testing in our lab confirmed this variant was present de novo in 1 proband with clinical features of CFC. (LMM internal Data)",
-    "thumbnail": "Assumed de novo (parental status not confirmed), NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), Met"
+    "thumbnail": "CritAssess377: { criterion: { Assumed de novo (parental status not confirmed) }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "CritAssess378": {
     "id": "CritAssess378",
     "entityTypeId": "E09",
     "explanation": "Another variant at the same residue (Lys483Asn) was identified as a de novo variant in an individual with features of a Noonan spectrum disorder (LMM unpublished data). The other variant: NM_004333.4(BRAF):c.1449A>C (p.Lys483Asn) is classified as likely pathogenic by LMM for Rasopathy.",
-    "thumbnail": "Novel missense at same amino acid as known pathogenic missense, NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln), Met"
+    "thumbnail": "CritAssess378: { criterion: { Novel missense at same amino acid as known pathogenic missense }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
   },
   "Loc379": {
     "id": "Loc379",
     "entityTypeId": "E22",
-    "thumbnail": "NP_005219.2, 704, 1016"
+    "thumbnail": "Loc379: { referenceSequence: { NP_005219.2 }, start: 704, stop: 1016 }"
   },
   "RegAll380": {
     "id": "RegAll380",
     "entityTypeId": "E25",
     "explanation": "This region is the catalytic (kinase) domain.",
-    "thumbnail": "Loc379, NP_005219.2:p.Thr790Met"
+    "thumbnail": "RegAll380: { region: \"Loc379\", includedAlleles: { NP_005219.2:p.Thr790Met } }"
   },
   "Loc381": {
     "id": "Loc381",
     "entityTypeId": "E22",
-    "thumbnail": "NM_004333.4, 1803, 1921"
+    "thumbnail": "Loc381: { referenceSequence: { NM_004333.4 }, start: 1803, stop: 1921 }"
   },
   "RegAll382": {
     "id": "RegAll382",
     "entityTypeId": "E25",
     "explanation": "This region is exon 15 in the transcript, and codes the serine-threonine-protein kinase catalytic domain.",
-    "thumbnail": "Loc381, NM_004333.4(BRAF):c.1789C>G"
+    "thumbnail": "RegAll382: { region: \"Loc381\", includedAlleles: { NM_004333.4(BRAF):c.1789C>G } }"
   },
   "Loc383": {
     "id": "Loc383",
     "entityTypeId": "E22",
-    "thumbnail": "NM_000169.2, 996, 1012"
+    "thumbnail": "Loc383: { referenceSequence: { NM_000169.2 }, start: 996, stop: 1012 }"
   },
   "RegAll384": {
     "id": "RegAll384",
     "entityTypeId": "E25",
     "explanation": "The region contains the following pathogenic variants: c.886A>G, c.890C>T, c.899T>C, & c.902G>A.",
-    "thumbnail": "Loc383, NM_000169.2(GLA): c.886A>G, NM_000169.2(GLA):c.890C>T, NM_000169.2(GLA):c.899T>C, NM_000169.2(GLA):c.902G>A"
+    "thumbnail": "RegAll384: { region: \"Loc383\", includedAlleles: { NM_000169.2(GLA): c.886A>G }, includedAlleles: { NM_000169.2(GLA):c.890C>T }, includedAlleles: { NM_000169.2(GLA):c.899T>C }, includedAlleles: { NM_000169.2(GLA):c.902G>A } }"
   },
   "Loc385": {
     "id": "Loc385",
     "entityTypeId": "E22",
-    "thumbnail": "NP_001360.1, 2490, 2496"
+    "thumbnail": "Loc385: { referenceSequence: { NP_001360.1 }, start: 2490, stop: 2496 }"
   },
   "Loc386": {
     "id": "Loc386",
     "entityTypeId": "E22",
-    "thumbnail": "NP_056375.2, 35, 43"
+    "thumbnail": "Loc386: { referenceSequence: { NP_056375.2 }, start: 35, stop: 43 }"
   },
   "Loc387": {
     "id": "Loc387",
     "entityTypeId": "E22",
-    "thumbnail": "NP_003915.2, 241, 260"
+    "thumbnail": "Loc387: { referenceSequence: { NP_003915.2 }, start: 241, stop: 260 }"
   },
   "Loc388": {
     "id": "Loc388",
     "entityTypeId": "E22",
-    "thumbnail": ", , "
+    "thumbnail": "Loc388: { referenceSequence: \"\", start: , stop:  }"
   },
   "Loc389": {
     "id": "Loc389",
     "entityTypeId": "E22",
-    "thumbnail": ", , "
+    "thumbnail": "Loc389: { referenceSequence: \"\", start: , stop:  }"
   },
   "Loc390": {
     "id": "Loc390",
     "entityTypeId": "E22",
-    "thumbnail": "NM_001271208.1, 154, 183"
+    "thumbnail": "Loc390: { referenceSequence: { NM_001271208.1 }, start: 154, stop: 183 }"
   },
   "RegAll391": {
     "id": "RegAll391",
     "entityTypeId": "E25",
     "explanation": "region is repeating but does not have a known function.",
-    "thumbnail": "Loc390, NM_001271208.1(NEB):c.169_183delCTGGCACAGCCAGCA"
+    "thumbnail": "RegAll391: { region: \"Loc390\", includedAlleles: { NM_001271208.1(NEB):c.169_183delCTGGCACAGCCAGCA } }"
   },
   "Loc392": {
     "id": "Loc392",
     "entityTypeId": "E22",
-    "thumbnail": "RegSeq009, 6509, 39262"
+    "thumbnail": "Loc392: { referenceSequence: \"RegSeq009\", start: 6509, stop: 39262 }"
   },
   "RegAll393": {
     "id": "RegAll393",
     "entityTypeId": "E25",
     "explanation": "Allele NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC is contained by this region.",
-    "thumbnail": "Loc392, NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC"
+    "thumbnail": "RegAll393: { region: \"Loc392\", includedAlleles: { NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC } }"
   },
   "Loc394": {
     "id": "Loc394",
     "entityTypeId": "E22",
-    "thumbnail": "NM_147196.2, 522, 548"
+    "thumbnail": "Loc394: { referenceSequence: { NM_147196.2 }, start: 522, stop: 548 }"
   },
   "RegAll395": {
     "id": "RegAll395",
     "entityTypeId": "E25",
-    "thumbnail": "Loc394, NM_147196.2(TMIE):c.391_393dupAAG"
-  },
-  "Contrib396": {
-    "id": "Contrib396",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/1/16 10:10 AM, assessor"
-  },
-  "Contrib397": {
-    "id": "Contrib397",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/2/16 12:15 PM, assessor"
-  },
-  "Contrib398": {
-    "id": "Contrib398",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/2/16 2:22 PM, assessor"
-  },
-  "Contrib399": {
-    "id": "Contrib399",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/2/16 3:22 PM, assessor"
-  },
-  "Contrib400": {
-    "id": "Contrib400",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/2/16 4:22 PM, assessor"
-  },
-  "Contrib401": {
-    "id": "Contrib401",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/2/16 5:22 PM, assessor"
-  },
-  "Contrib402": {
-    "id": "Contrib402",
-    "entityTypeId": "E11",
-    "thumbnail": "Noonan/Rasopathy WG (ClinGen), 6/2/16 5:22 PM, assessor"
-  },
-  "Contrib403": {
-    "id": "Contrib403",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/3/16 8:00 AM, assessor"
-  },
-  "Contrib404": {
-    "id": "Contrib404",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/3/16 9:17 AM, assessor"
-  },
-  "Contrib405": {
-    "id": "Contrib405",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/3/16 10:25 AM, assessor"
-  },
-  "Contrib406": {
-    "id": "Contrib406",
-    "entityTypeId": "E11",
-    "thumbnail": "Sasha Rande, 6/3/16 2:50 PM, assessor"
-  },
-  "Contrib407": {
-    "id": "Contrib407",
-    "entityTypeId": "E11",
-    "thumbnail": "CSER Bakeoff Project, 6/3/16 2:50 PM, assessor"
-  },
-  "Contrib408": {
-    "id": "Contrib408",
-    "entityTypeId": "E11",
-    "thumbnail": "Sasha Rande, 6/3/16 6:09 PM, assessor"
-  },
-  "Contrib409": {
-    "id": "Contrib409",
-    "entityTypeId": "E11",
-    "thumbnail": "CSER Bakeoff Project, 6/3/16 6:09 PM, assessor"
-  },
-  "Contrib410": {
-    "id": "Contrib410",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/4/16 7:12 AM, assessor"
-  },
-  "Contrib411": {
-    "id": "Contrib411",
-    "entityTypeId": "E11",
-    "thumbnail": "Noonan/Rasopathy WG (ClinGen), 6/4/16 7:12 AM, assessor"
-  },
-  "Contrib412": {
-    "id": "Contrib412",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/5/16 10:24 AM, assessor"
-  },
-  "Contrib413": {
-    "id": "Contrib413",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/5/16 2:39 PM, assessor"
-  },
-  "Contrib414": {
-    "id": "Contrib414",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/5/16 4:12 PM, assessor"
-  },
-  "Contrib415": {
-    "id": "Contrib415",
-    "entityTypeId": "E11",
-    "thumbnail": "Sasha Rande, 6/6/16 8:12 AM, assessor"
-  },
-  "Contrib416": {
-    "id": "Contrib416",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/6/16 10:53 AM, assessor"
-  },
-  "Contrib417": {
-    "id": "Contrib417",
-    "entityTypeId": "E11",
-    "thumbnail": "Noonan/Rasopathy WG (ClinGen), 6/6/16 10:53 AM, assessor"
-  },
-  "Contrib418": {
-    "id": "Contrib418",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/3/16 7:24 AM, assessor"
-  },
-  "Contrib419": {
-    "id": "Contrib419",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/4/16 9:08 AM, assessor"
-  },
-  "Contrib420": {
-    "id": "Contrib420",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/5/16 3:13 PM, assessor"
-  },
-  "Contrib421": {
-    "id": "Contrib421",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/6/16 11:28 AM, assessor"
-  },
-  "Contrib422": {
-    "id": "Contrib422",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/2/16 8:01 AM, assessor"
-  },
-  "Contrib423": {
-    "id": "Contrib423",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/10/16 9:02 AM, assessor"
-  },
-  "Contrib424": {
-    "id": "Contrib424",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/10/16 9:15 AM, assessor"
-  },
-  "Contrib425": {
-    "id": "Contrib425",
-    "entityTypeId": "E11",
-    "thumbnail": "Sasha Rande, 6/12/16 7:30 AM, assessor"
-  },
-  "Contrib426": {
-    "id": "Contrib426",
-    "entityTypeId": "E11",
-    "thumbnail": "Sasha Rande, 6/12/16 8:31 AM, assessor"
-  },
-  "Contrib427": {
-    "id": "Contrib427",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/12/16 9:32 AM, assessor"
-  },
-  "Contrib428": {
-    "id": "Contrib428",
-    "entityTypeId": "E11",
-    "thumbnail": "G. Rajar, 6/12/16 10:48 AM, assessor"
-  },
-  "Contrib429": {
-    "id": "Contrib429",
-    "entityTypeId": "E11",
-    "thumbnail": "G. Rajar, 6/12/16 11:03 AM, assessor"
-  },
-  "Contrib430": {
-    "id": "Contrib430",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 7/1/16 9:23 AM, assessor"
-  },
-  "Contrib431": {
-    "id": "Contrib431",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 7/1/16 10:53 AM, assessor"
-  },
-  "Contrib432": {
-    "id": "Contrib432",
-    "entityTypeId": "E11",
-    "thumbnail": "CSER Bakeoff Project, 7/1/16 10:53 AM, assessor"
-  },
-  "Contrib433": {
-    "id": "Contrib433",
-    "entityTypeId": "E11",
-    "thumbnail": "Agent009, 6/26/2015 12:03 PM, interpreter"
-  },
-  "Contrib434": {
-    "id": "Contrib434",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 7/13/16 8:46 AM, interpreter"
-  },
-  "Contrib435": {
-    "id": "Contrib435",
-    "entityTypeId": "E11",
-    "thumbnail": "G. Rajar, 7/20/16 7:22 AM, assessor"
-  },
-  "Contrib436": {
-    "id": "Contrib436",
-    "entityTypeId": "E11",
-    "thumbnail": "CSER Bakeoff Project, 7/20/16 7:22 AM, assessor"
-  },
-  "Contrib437": {
-    "id": "Contrib437",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 7/20/16 7:49 AM, assessor"
-  },
-  "Contrib438": {
-    "id": "Contrib438",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 7/20/16 8:02 AM, assessor"
-  },
-  "Contrib439": {
-    "id": "Contrib439",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 7/21/16 6:45 AM, assessor"
-  },
-  "Contrib440": {
-    "id": "Contrib440",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 7/21/16 7:02 AM, assessor"
-  },
-  "Contrib441": {
-    "id": "Contrib441",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 7/21/16 7:39 AM, assessor"
-  },
-  "Contrib442": {
-    "id": "Contrib442",
-    "entityTypeId": "E11",
-    "thumbnail": "Agent002, 7/21/16 8:11 AM, assessor"
-  },
-  "Contrib443": {
-    "id": "Contrib443",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 7/21/16 9:41 AM, assessor"
-  },
-  "Contrib444": {
-    "id": "Contrib444",
-    "entityTypeId": "E11",
-    "thumbnail": "G. Rajar, 7/21/16 10:29 AM, assessor"
-  },
-  "Contrib445": {
-    "id": "Contrib445",
-    "entityTypeId": "E11",
-    "thumbnail": "CSER Bakeoff Project, 7/21/16 10:29 AM, assessor"
-  },
-  "Contrib446": {
-    "id": "Contrib446",
-    "entityTypeId": "E11",
-    "thumbnail": "G. Rajar, 7/21/16 12:15 PM, assessor"
-  },
-  "Contrib447": {
-    "id": "Contrib447",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 7/21/16 2:46 PM, assessor"
-  },
-  "Contrib448": {
-    "id": "Contrib448",
-    "entityTypeId": "E11",
-    "thumbnail": "CSER classifier #6, 6/26/2015 12:06 PM, interpreter"
-  },
-  "Contrib449": {
-    "id": "Contrib449",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 8/28/16 2:00 PM, assessor"
-  },
-  "Contrib450": {
-    "id": "Contrib450",
-    "entityTypeId": "E11",
-    "thumbnail": "CSER Bakeoff Project, 8/28/16 2:00 PM, assessor"
-  },
-  "Contrib451": {
-    "id": "Contrib451",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 8/29/16 3:00 PM, assessor"
-  },
-  "Contrib452": {
-    "id": "Contrib452",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 8/29/16 4:00 PM, assessor"
-  },
-  "Contrib453": {
-    "id": "Contrib453",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 8/29/16 5:00 PM, assessor"
-  },
-  "Contrib454": {
-    "id": "Contrib454",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 8/29/16 6:00 PM, assessor"
-  },
-  "Contrib455": {
-    "id": "Contrib455",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 8/29/16 7:00 PM, assessor"
-  },
-  "Contrib456": {
-    "id": "Contrib456",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 8/29/16 8:00 PM, assessor"
-  },
-  "Contrib457": {
-    "id": "Contrib457",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 8/29/16 9:00 PM, assessor"
-  },
-  "Contrib458": {
-    "id": "Contrib458",
-    "entityTypeId": "E11",
-    "thumbnail": "G. Rajar, 8/29/16 10:00 PM, assessor"
-  },
-  "Contrib459": {
-    "id": "Contrib459",
-    "entityTypeId": "E11",
-    "thumbnail": "G. Rajar, 8/29/16 11:00 PM, assessor"
-  },
-  "Contrib460": {
-    "id": "Contrib460",
-    "entityTypeId": "E11",
-    "thumbnail": "CSER Bakeoff Project, 8/29/16 11:00 PM, assessor"
-  },
-  "Contrib461": {
-    "id": "Contrib461",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 8/30/16 6:00 AM, assessor"
-  },
-  "Contrib462": {
-    "id": "Contrib462",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 9/5/16 6:00 AM, assessor"
-  },
-  "Contrib463": {
-    "id": "Contrib463",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 9/5/16 6:30 AM, assessor"
-  },
-  "Contrib464": {
-    "id": "Contrib464",
-    "entityTypeId": "E11",
-    "thumbnail": "CSER Bakeoff Project, 9/5/16 6:30 AM, assessor"
-  },
-  "Contrib465": {
-    "id": "Contrib465",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 9/5/16 7:01 AM, assessor"
-  },
-  "Contrib466": {
-    "id": "Contrib466",
-    "entityTypeId": "E11",
-    "thumbnail": "CSER Bakeoff Project, 9/5/16 7:01 AM, assessor"
-  },
-  "Contrib467": {
-    "id": "Contrib467",
-    "entityTypeId": "E11",
-    "thumbnail": "CSER classifier #6, 6/26/2015 12:06 PM, interpreter"
-  },
-  "Contrib468": {
-    "id": "Contrib468",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 9/5/16 9:01 AM, assessor"
-  },
-  "Contrib469": {
-    "id": "Contrib469",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 9/5/16 9:31 AM, assessor"
-  },
-  "Contrib470": {
-    "id": "Contrib470",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 9/5/16 9:51 AM, assessor"
-  },
-  "Contrib471": {
-    "id": "Contrib471",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 9/5/16 10:51 AM, assessor"
-  },
-  "Contrib472": {
-    "id": "Contrib472",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 9/5/16 11:00 AM, assessor"
-  },
-  "Contrib473": {
-    "id": "Contrib473",
-    "entityTypeId": "E11",
-    "thumbnail": "G. Rajar, 9/6/16 8:00 AM, assessor"
-  },
-  "Contrib474": {
-    "id": "Contrib474",
-    "entityTypeId": "E11",
-    "thumbnail": "G. Rajar, 9/6/16 9:00 AM, assessor"
-  },
-  "Contrib475": {
-    "id": "Contrib475",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 9/6/16 10:00 AM, assessor"
-  },
-  "Contrib476": {
-    "id": "Contrib476",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 9/6/16 11:00 AM, assessor"
-  },
-  "Contrib477": {
-    "id": "Contrib477",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 9/6/16 12:00 PM, assessor"
-  },
-  "Contrib478": {
-    "id": "Contrib478",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 9/6/16 1:00 PM, assessor"
-  },
-  "Contrib479": {
-    "id": "Contrib479",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 9/6/16 2:00 PM, assessor"
-  },
-  "Contrib480": {
-    "id": "Contrib480",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 9/13/16, curator"
-  },
-  "Contrib481": {
-    "id": "Contrib481",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 9/13/16, curator"
-  },
-  "Contrib482": {
-    "id": "Contrib482",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 9/13/16, curator"
-  },
-  "Contrib483": {
-    "id": "Contrib483",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 5/31/16 8:46 AM, curator"
-  },
-  "Contrib484": {
-    "id": "Contrib484",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 5/31/16 9:15 AM, curator"
-  },
-  "Contrib485": {
-    "id": "Contrib485",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 5/31/16 11:01 AM, interpreter"
-  },
-  "Contrib486": {
-    "id": "Contrib486",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/1/16 2:03 PM, curator"
-  },
-  "Contrib487": {
-    "id": "Contrib487",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 6/1/16 2:10 PM, curator"
-  },
-  "Contrib488": {
-    "id": "Contrib488",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 6/1/16 2:15 PM, curator"
-  },
-  "Contrib489": {
-    "id": "Contrib489",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 9/15/16 8:12 AM, assessor"
-  },
-  "Contrib490": {
-    "id": "Contrib490",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 9/15/16 9:23 AM, assessor"
-  },
-  "Contrib491": {
-    "id": "Contrib491",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 9/15/16 10:40 AM, assessor"
-  },
-  "Contrib492": {
-    "id": "Contrib492",
-    "entityTypeId": "E11",
-    "thumbnail": "G. Rajar, 10/4/16 8:02 AM, assessor"
-  },
-  "Contrib493": {
-    "id": "Contrib493",
-    "entityTypeId": "E11",
-    "thumbnail": "CSER classifier #6, 6/26/2015 12:06 PM, interpreter"
-  },
-  "Contrib494": {
-    "id": "Contrib494",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 10/4/16 10:37 AM, assessor"
-  },
-  "Contrib495": {
-    "id": "Contrib495",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 10/4/16 11:42 AM, assessor"
-  },
-  "Contrib496": {
-    "id": "Contrib496",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 10/6/16 8:30 AM, assessor"
-  },
-  "Contrib497": {
-    "id": "Contrib497",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 10/6/16 8:54 AM, assessor"
-  },
-  "Contrib498": {
-    "id": "Contrib498",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 10/6/16 9:09 AM, assessor"
-  },
-  "Contrib499": {
-    "id": "Contrib499",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 10/6/16 9:45 AM, assessor"
-  },
-  "Contrib500": {
-    "id": "Contrib500",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 10/10/16 8:02 AM, assessor"
-  },
-  "Contrib501": {
-    "id": "Contrib501",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 10/10/16 8:03 AM, assessor"
-  },
-  "Contrib502": {
-    "id": "Contrib502",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 10/10/16 8:04 AM, assessor"
-  },
-  "Contrib503": {
-    "id": "Contrib503",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 10/10/16 8:05 AM, assessor"
-  },
-  "Contrib504": {
-    "id": "Contrib504",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 10/10/16 8:06 AM, assessor"
-  },
-  "Contrib505": {
-    "id": "Contrib505",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 01/17/17 9:12 AM, assessor"
-  },
-  "Contrib506": {
-    "id": "Contrib506",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 03/07/2017 4:30 PM, assessor"
-  },
-  "Contrib507": {
-    "id": "Contrib507",
-    "entityTypeId": "E11",
-    "thumbnail": "Harry Stevenson, 03/07/2017 5:22 PM, assessor"
-  },
-  "Contrib508": {
-    "id": "Contrib508",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 03/08/2017 7:43 AM, assessor"
-  },
-  "Contrib509": {
-    "id": "Contrib509",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 03/08/2017 9:46 AM, assessor"
-  },
-  "Contrib510": {
-    "id": "Contrib510",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 03/08/2017 10:02 AM, assessor"
-  },
-  "Contrib511": {
-    "id": "Contrib511",
-    "entityTypeId": "E11",
-    "thumbnail": "Gene Geneticist, 8/14/2014 10:29 AM, interpreter"
-  },
-  "Contrib512": {
-    "id": "Contrib512",
-    "entityTypeId": "E11",
-    "thumbnail": "George Geneticist, 8/14/2014 10:29 AM, interpreter"
-  },
-  "Contrib513": {
-    "id": "Contrib513",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 3/14/2017 10:29 AM, assessor"
-  },
-  "Contrib514": {
-    "id": "Contrib514",
-    "entityTypeId": "E11",
-    "thumbnail": "Stefan DiMarino, 3/14/2017 10:45 AM, assessor"
-  },
-  "Contrib515": {
-    "id": "Contrib515",
-    "entityTypeId": "E11",
-    "thumbnail": "ACME Molecular Lab, 6/11/2011 11:45 AM, assessor"
-  },
-  "Contrib516": {
-    "id": "Contrib516",
-    "entityTypeId": "E11",
-    "thumbnail": "ACME Molecular Lab, 6/11/2011 12:45:00, assessor"
-  },
-  "Contrib517": {
-    "id": "Contrib517",
-    "entityTypeId": "E11",
-    "thumbnail": "ACME Molecular Lab, 6/10/2011 1:45 PM, assessor"
-  },
-  "Contrib518": {
-    "id": "Contrib518",
-    "entityTypeId": "E11",
-    "thumbnail": "ACME Molecular Lab, 6/12/2011 9:00 AM, interpreter"
-  },
-  "Contrib519": {
-    "id": "Contrib519",
-    "entityTypeId": "E11",
-    "thumbnail": "ACME Molecular Lab, 7/2/2012 8:45 AM, assessor"
-  },
-  "Contrib520": {
-    "id": "Contrib520",
-    "entityTypeId": "E11",
-    "thumbnail": "Genetics Diagnostic Laboratory,Children's Hospital of Eastern Ontario, 6/1/2014 9:02 AM, interpreter"
-  },
-  "Contrib521": {
-    "id": "Contrib521",
-    "entityTypeId": "E11",
-    "thumbnail": "GeneDx, 6/20/2016 11:12 AM, interpreter"
+    "thumbnail": "RegAll395: { region: \"Loc394\", includedAlleles: { NM_147196.2(TMIE):c.391_393dupAAG } }"
   }
 }

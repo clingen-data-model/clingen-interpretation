@@ -3,6 +3,7 @@
     "id": "E01",
     "name": "Information",
     "link": "Info",
+    "externalIRI": "iao:0000030",
     "description": "The structured supporting data that can be used to assess criterion in the context of a given interpretation guideline.",
     "notes": "TODO: Re-write in reference to Evidence Lines. Consider merging with Entity and explaining the equivalence between Data in SEPIO and Entity in W3C-Prov."
   },
@@ -11,6 +12,7 @@
     "name": "MolecularConsequence",
     "parentType": "E01",
     "link": "MolCon",
+    "externalIRI": "so: ?",
     "description": "Classification of an Allele based on its effect on a product"
   },
   "E03": {
@@ -30,6 +32,7 @@
     "id": "E05",
     "name": "CanonicalAllele",
     "link": "CanAll",
+    "externalIRI": "ar:allele",
     "description": "Reference-independent allele that groups multiple ContextualAlleles"
   },
   "E06": {
@@ -42,6 +45,7 @@
     "id": "E07",
     "name": "Gene",
     "link": "G",
+    "externalIRI": "ar:gene",
     "description": "A collection of transcripts"
   },
   "E09": {
@@ -61,12 +65,14 @@
     "id": "E12",
     "name": "Agent",
     "link": "Agent",
+    "externalIRI": "foaf:Agent",
     "description": "A person, group of people, algorithm, or some other actor that could perform an activity."
   },
   "E13": {
     "id": "E13",
     "name": "Example",
     "link": "Ex",
+    "externalIRI": "? should exist",
     "description": "An example selected to demonstrate a particular facet of the data model"
   },
   "E14": {
@@ -74,12 +80,14 @@
     "name": "MendelianCondition",
     "parentType": "E01",
     "link": "MendCond",
-    "description": "A condition with a specific mode of inheritance"
+    "description": "A condition with a specific mode of inheritance",
+    "notes": "What specifically distinguishes a medellian condition? It's possible this could be stated as a set of axioms."
   },
   "E16": {
     "id": "E16",
     "name": "Individual",
     "link": "Indiv",
+    "externalIRI": "foaf:Person",
     "description": "A particular person"
   },
   "E17": {
@@ -108,7 +116,8 @@
     "name": "FunctionalData",
     "parentType": "E01",
     "link": "Func",
-    "description": "Data about the function of a gene product"
+    "description": "Data about the function of a gene product",
+    "notes": "Subclass of Information?"
   },
   "E21": {
     "id": "E21",
@@ -183,16 +192,25 @@
     "link": "InfoSrc",
     "description": "Citation for a Information entity"
   },
+  "E40": {
+    "id": "E40",
+    "name": "CodeableConcept",
+    "link": "CC",
+    "externalIRI": "fhir:CodableConcept",
+    "description": "(FHIR) defines the structure needed to support the use cases that allow for the flexibility of representing a concept by either a text name or a set of equivalent Codings or both."
+  },
   "E41": {
     "id": "E41",
     "name": "CodeSystem",
     "link": "CS",
+    "externalIRI": "fhir:CodeSystem",
     "description": "(FHIR) defines a set of codes with meanings (also known as enumeration, terminology, classification, and/or ontology)"
   },
   "E42": {
     "id": "E42",
-    "name": "ConceptDefinition",
+    "name": "Coding",
     "link": "CD",
+    "externalIRI": "fhir:Coding",
     "description": "(FHIR) Concepts that are in the code system. The concept definitions are inherently hierarchical, but the definitions must be consulted to determine what the meaning of the hierarchical relationships are."
   },
   "E43": {
@@ -258,10 +276,23 @@
     "link": "Conserv",
     "description": "Characterizes whether the allele is fixed across species"
   },
+  "E52": {
+    "id": "E52",
+    "name": "Coding",
+    "link": "Code",
+    "notes": "Why is this here? dup of E42"
+  },
+  "E53": {
+    "id": "E53",
+    "name": "CodeableConcept",
+    "link": "CConcept",
+    "notes": "Why is this here? dup of E40"
+  },
   "E54": {
     "id": "E54",
     "name": "ValueSet",
     "link": "VS",
+    "externalIRI": "fhir:ValueSet",
     "description": "(FHIR) A value set specifies a set of codes drawn from one or more code systems."
   },
   "E55": {

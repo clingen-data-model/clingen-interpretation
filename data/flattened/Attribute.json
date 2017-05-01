@@ -40,12 +40,37 @@
     "description": "Qualifier on the Condition/Mechanism pair",
     "fullyQualifiedName": "ConditionMechanism.strength"
   },
+  "A004": {
+    "id": "A004",
+    "entityId": "E42",
+    "name": "code",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "externalIRI": "fhir:Code",
+    "precedence": 1.0,
+    "description": "a unique value within a system (or namespace) to represent or identify a concept",
+    "fullyQualifiedName": "Coding.code"
+  },
+  "A005": {
+    "id": "A005",
+    "entityId": "E42",
+    "name": "system",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "externalIRI": "fhir:System",
+    "precedence": 2.0,
+    "description": "a unique global value assigned to a coding system which acts as a namespace for the set of unique immutable and reliable codes it publishes",
+    "fullyQualifiedName": "Coding.system"
+  },
   "A006": {
     "id": "A006",
     "entityId": "E11",
     "name": "agent",
     "dataType": "String",
     "cardinality": "1..1",
+    "externalIRI": "foaf:Agent",
     "precedence": 1.0,
     "description": "A person, group of people, algorithm, or some other actor that could make a contribution",
     "fullyQualifiedName": "Contribution.agent"
@@ -57,6 +82,7 @@
     "dataType": "Datetime",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "externalIRI": "xsd:Date",
     "valueSetName": "",
     "precedence": 2.0,
     "fullyQualifiedName": "Contribution.onDate"
@@ -124,13 +150,13 @@
   "A013": {
     "id": "A013",
     "entityId": "E13",
-    "name": "dataId",
-    "dataType": "Data",
+    "name": "informationId",
+    "dataType": "Information",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
-    "fullyQualifiedName": "Example.dataId"
+    "fullyQualifiedName": "Example.informationId"
   },
   "A014": {
     "id": "A014",
@@ -614,13 +640,13 @@
   "A055": {
     "id": "A055",
     "entityId": "E09",
-    "name": "hasSupportingEvidence",
+    "name": "hasEvidence",
     "dataType": "EvidenceLine",
     "cardinality": "0..*",
     "valueSetName": "",
     "precedence": 1.0,
     "description": "supporting evidence",
-    "fullyQualifiedName": "CriterionAssessment.hasSupportingEvidence"
+    "fullyQualifiedName": "CriterionAssessment.hasEvidence"
   },
   "A056": {
     "id": "A056",
@@ -716,6 +742,18 @@
     "description": "Region",
     "fullyQualifiedName": "RegionAnnotation.region"
   },
+  "A064": {
+    "id": "A064",
+    "entityId": "E42",
+    "name": "display",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 3.0,
+    "description": "A human-readable representation of a coded concept. ",
+    "fullyQualifiedName": "Coding.display"
+  },
   "A065": {
     "id": "A065",
     "entityId": "E28",
@@ -802,6 +840,27 @@
     "precedence": 1.0,
     "description": "Region within which alleles are being measured",
     "fullyQualifiedName": "RegionAlleles.region"
+  },
+  "A072": {
+    "id": "A072",
+    "entityId": "E40",
+    "name": "text",
+    "dataType": "String",
+    "defaultValue": "null",
+    "precedence": 1.0,
+    "description": "A freeform text (preferred) representation used by the authoring system to identify a concept.",
+    "fullyQualifiedName": "CodeableConcept.text"
+  },
+  "A073": {
+    "id": "A073",
+    "entityId": "E40",
+    "name": "coding",
+    "dataType": "Coding",
+    "cardinality": "0..*",
+    "defaultValue": "null",
+    "precedence": 2.0,
+    "description": "Codings thtat identify the concept. If more than one then the codings are typically considered equivalent. (FHIR offers additional attributes to qualify the codings further if needed) ",
+    "fullyQualifiedName": "CodeableConcept.coding"
   },
   "A076": {
     "id": "A076",
@@ -1616,17 +1675,6 @@
     "precedence": 4.0,
     "fullyQualifiedName": "Criterion.defaultStrength"
   },
-  "A154": {
-    "id": "A154",
-    "entityId": "E04",
-    "name": "targetInterpretation",
-    "dataType": "CodeableConcept",
-    "cardinality": "0..1",
-    "valueSetId": "VS003",
-    "valueSetName": "Significance",
-    "precedence": 5.0,
-    "fullyQualifiedName": "Criterion.targetInterpretation"
-  },
   "A155": {
     "id": "A155",
     "entityId": "E32",
@@ -1766,6 +1814,48 @@
     "description": "Number of families containing segregations that are inconsistent with the allele causing the condition",
     "fullyQualifiedName": "AggregateSegregationData.totalOfFamiliesWithInconsistentSegregations"
   },
+  "A168": {
+    "id": "A168",
+    "entityId": "E53",
+    "name": "coding",
+    "dataType": "Coding",
+    "cardinality": "0..*",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "fullyQualifiedName": "CodeableConcept.coding"
+  },
+  "A169": {
+    "id": "A169",
+    "entityId": "E53",
+    "name": "text",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "valueSetName": "",
+    "precedence": 2.0,
+    "fullyQualifiedName": "CodeableConcept.text"
+  },
+  "A170": {
+    "id": "A170",
+    "entityId": "E52",
+    "name": "system",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "description": "URI to identify terminology system",
+    "fullyQualifiedName": "Coding.system"
+  },
+  "A171": {
+    "id": "A171",
+    "entityId": "E52",
+    "name": "display",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "valueSetName": "",
+    "precedence": 3.0,
+    "description": "Textual representation defined by the system",
+    "fullyQualifiedName": "Coding.display"
+  },
   "A173": {
     "id": "A173",
     "entityId": "E32",
@@ -1810,12 +1900,12 @@
   "A178": {
     "id": "A178",
     "entityId": "E56",
-    "name": "supportingData",
-    "dataType": "Data",
+    "name": "hasInformation",
+    "dataType": "Information",
     "cardinality": "0..*",
     "valueSetName": "",
     "precedence": 3.0,
-    "fullyQualifiedName": "EvidenceLine.supportingData"
+    "fullyQualifiedName": "EvidenceLine.hasInformation"
   },
   "A179": {
     "id": "A179",
@@ -1824,7 +1914,7 @@
     "dataType": "CodeableConcept",
     "cardinality": "0..1",
     "valueSetId": "VS017",
-    "valueSetName": "MendelianVariantIntepretationEvidenceStrength",
+    "valueSetName": "MendelianVariantIntepretationEvidenceResult",
     "precedence": 2.0,
     "fullyQualifiedName": "EvidenceLine.strength"
   },
