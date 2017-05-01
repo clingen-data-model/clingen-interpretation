@@ -82,6 +82,8 @@ class DMWGExampleData
     ['_InformationAttribute',
      '_EvidenceLineAttribute',
      '_MendelianConditionAttribute',
+     '_CodeableConceptAttribute',
+     '_ContributionAttribute',
     ].each do |sheet|
       @flattened[sheet].each do |da|
         data_id = da['subjectId']
@@ -126,10 +128,7 @@ class DMWGExampleData
     when '???' # These should be fixed in the upstream data
       value
     when 'CodeableConcept'
-      # FIXME should display more
-      # for now, just displaying as string until we decide how to better model this
-      #@id2example[value] ||= { 'cg:id' => value }
-      value
+      @id2example[value] || { 'cg:id' => value }
     else
       @id2example[value] ||= { 'cg:id' => value }
     end
