@@ -106,7 +106,7 @@ class DMWGExampleData
 
     # remove cg:id from types that are only internal (not dereferenceable)
     @id2example.delete_if do |k, v|
-      if ['Gene', 'CodeableConcept', 'Coding', 'Contribution'].include? v['cg:type'] then
+      if ['Contribution'].include? v['cg:type'] then
         v.delete('cg:id')
         true
       else
