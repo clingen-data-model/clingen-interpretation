@@ -21,7 +21,7 @@ class DMWGExampleData
   def by_type
     unless @by_type
       @by_type = {}
-      by_id.each { |k, v| (by_type[v['cg:type']] ||= []).push v }
+      by_id.each { |k, v| (by_type[v['type']] ||= []).push v }
     end
     @by_type
   end
@@ -62,8 +62,8 @@ class DMWGExampleData
         # full fledged table for this entity (not a Information subtype)
         @flattened[e_name].each do |id, rec|
           ex = @id2example[id] ||= {}
-          ex['cg:id'] = id
-          ex['cg:type'] = e_name
+          ex['id'] = id
+          ex['type'] = e_name
           apply_attributes(e_id, rec, ex)
         end
       end
@@ -72,7 +72,7 @@ class DMWGExampleData
     # need to fix the types for Information subclasses
     @flattened['Information'].each do |d_id, d_rec|
       begin
-        @id2example[d_id]['cg:type'] = @flattened['Type'][d_rec['entityTypeId']]['name']
+        @id2example[d_id]['type'] = @flattened['Type'][d_rec['entityTypeId']]['name']
       rescue
         STDERR.puts "Error associating data id #{d_id} with entity type"
       end
@@ -93,7 +93,7 @@ class DMWGExampleData
           STDERR.puts "Attribute #{attribute_id} does not appear to exist!"
           next
         end
-        (@id2example[data_id] ||= {})['cg:id'] = data_id
+        (@id2example[data_id] ||= {})['id'] = data_id
         if value_exists? da['value'] then
           if attribute['cardinality'].end_with? '*' then
             (@id2example[data_id][attribute['name']] ||= []).push(convert_value(da['value'], attribute['dataType']))
@@ -104,10 +104,10 @@ class DMWGExampleData
       end # each row in sheet
     end # each sheet
 
-    # remove cg:id from types that are only internal (not dereferenceable)
+    # remove id from types that are only internal (not dereferenceable)
     @id2example.delete_if do |k, v|
-      if ['Contribution'].include? v['cg:type'] then
-        v.delete('cg:id')
+      if ['Contribution'].include? v['type'] then
+        v.delete('id')
         true
       else
         false
@@ -139,9 +139,9 @@ class DMWGExampleData
     when '???' # These should be fixed in the upstream data
       value
     when 'CodeableConcept'
-      @id2example[value] || { 'cg:id' => value }
+      @id2example[value] || { 'id' => value }
     else
-      @id2example[value] ||= { 'cg:id' => value }
+      @id2example[value] ||= { 'id' => value }
     end
   end
 
