@@ -102,8 +102,8 @@ helpers do
       data = [data]
     end
     data.each do |item|
-      if (item.kind_of?(Hash) && item['cg:id'])
-        output << %(<p>#{link_to item['cg:id'], "/tech/details/details.html", :fragment => item['cg:id'], :relative => true}</p>)
+      if (item.kind_of?(Hash) && item['id'])
+        output << %(<p>#{link_to item['id'], "/tech/details/details.html", :fragment => item['id'], :relative => true}</p>)
       else
         output << %(<p>#{item}</p>)
       end

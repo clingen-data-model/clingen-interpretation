@@ -87,7 +87,7 @@
          </td>
           <% end %>
           <!--
-          <td><div class="example_view" id="<%= ex['cg:id'] %>"><pre><code><%= JSON.pretty_generate(ex) %>
+          <td><div class="example_view" id="<%= ex['id'] %>"><pre><code><%= JSON.pretty_generate(ex) %>
           </code></pre></div></td>
           -->
         </tr>
@@ -103,8 +103,8 @@ window.addEventListener('load', function() {
     <!--
     <script>
 var fix_ellipses = function ($view) {
-    $view.find('ul.obj li a:contains("cg:id")').parent().parent().parent().children('.ellipsis').each(function () {
-        $(this).html('<em>' + $(this).next('ul').find('a:contains("cg:id")').next('.string')[0].innerText + ', …</em>')
+    $view.find('ul.obj li a:contains("id")').parent().parent().parent().children('.ellipsis').each(function () {
+        $(this).html('<em>' + $(this).next('ul').find('a:contains("id")').next('.string')[0].innerText + ', …</em>')
     })
     $view.find('ul.array').each(function () {
         $(this).parent().children('.ellipsis').html('<em>… [' + $(this).children('li').size() + ']</em>')

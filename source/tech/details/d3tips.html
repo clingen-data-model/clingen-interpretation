@@ -299,7 +299,7 @@ function DmwgDiagram(tree) {
 }
 
 function generate_graph(data) {
-  //var ignored_attributes = ['explanation', 'description', 'cg:id', 'cg:type'];
+  //var ignored_attributes = ['explanation', 'description', 'id', 'type'];
   var node_id = 0, link_id = 0;
   var graph = {
     "nodes_hash": {},
@@ -311,8 +311,8 @@ function generate_graph(data) {
 
   function _generate_link(source, target_tree, link_label, depth) {
     var link_class, child;
-    if (target_tree['cg:id'] in graph.nodes_hash) {
-      child = graph.nodes_hash[target_tree['cg:id']];
+    if (target_tree['id'] in graph.nodes_hash) {
+      child = graph.nodes_hash[target_tree['id']];
       child.depth = Math.max(child.depth, depth+1);
       link_class = 'secondary-link';
     } else {
@@ -331,9 +331,9 @@ function generate_graph(data) {
   function _generate_graph(data, depth) {
     var id = 'N' + zp(node_id++);
     var node = {id: id,
-                label: data['cg:id'] || "UNKNOWN_ID",
+                label: data['id'] || "UNKNOWN_ID",
                 depth: depth,
-                type: data['cg:type'] || "UNKNOWN_TYPE"
+                type: data['type'] || "UNKNOWN_TYPE"
     };
     node.attributes = [];
     Object.keys(data).forEach(function (k, index) {

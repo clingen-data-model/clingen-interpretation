@@ -113,11 +113,11 @@ var json_table_recurse = function(sel) {
       var thead = table.append("thead");
       var tbody = table.append("tbody");
       header = ''
-      if (d['cg:id']) {
-        header += d['cg:id'];
+      if (d['id']) {
+        header += d['id'];
       }
-      if (d['cg:type']) {
-        header += " (" + d['cg:type'] + ")"
+      if (d['type']) {
+        header += " (" + d['type'] + ")"
       }
       thead.append("tr").append("th").attr("colspan", 2)
           .text(header);
@@ -304,8 +304,8 @@ function generate_tree(data, link_label) {
   }
   var node = {id: id,
               link_label: link_label,
-              label: data['cg:id'] || "UNKNOWN_ID",
-              type: data['cg:type'] || "UNKNOWN_TYPE",
+              label: data['id'] || "UNKNOWN_ID",
+              type: data['type'] || "UNKNOWN_TYPE",
               children: []
   };
   node.attributes = [];

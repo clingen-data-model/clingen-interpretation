@@ -81,13 +81,13 @@ function render_diagram(data) {
 
   function generate_graph(data, cytoscape) {
     var node = cytoscape.add({})
-    var label = data['cg:id'] || 'UNNAMED'
-    if (data instanceof Object && 'cg:type' in data) {
-      label += ' (' + data['cg:type'] + ')'
+    var label = data['id'] || 'UNNAMED'
+    if (data instanceof Object && 'type' in data) {
+      label += ' (' + data['type'] + ')'
     }
     label += '\n'
     Object.keys(data).forEach(function (k, index) {
-    if ((k === 'explanation') || (k === 'description') || (k === 'cg:id') || (k === 'cg:type')) {
+    if ((k === 'explanation') || (k === 'description') || (k === 'id') || (k === 'type')) {
       return;
     }
     var v = data[k]

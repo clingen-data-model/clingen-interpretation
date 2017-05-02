@@ -213,8 +213,8 @@ function generate_tree(data, link_label) {
   var id = 'N' + zp(node_id++);
   var node = {id: id,
               link_label: link_label,
-              label: data['cg:id'] || "UNKNOWN_ID",
-              type: data['cg:type'] || "UNKNOWN_TYPE",
+              label: data['id'] || "UNKNOWN_ID",
+              type: data['type'] || "UNKNOWN_TYPE",
               children: []
   };
   node.attributes = [];
