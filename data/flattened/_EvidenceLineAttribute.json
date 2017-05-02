@@ -45,7 +45,7 @@
     "value": "CondMech007",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech007: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Orphanet:217604 } }"
+    "derivedName": "CondMech007: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { dilated cardiomyopathy } }"
   },
   {
     "subjectId": "EvLn004",
@@ -61,7 +61,7 @@
     "value": "CondMech007",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech007: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Orphanet:217604 } }"
+    "derivedName": "CondMech007: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { dilated cardiomyopathy } }"
   },
   {
     "subjectId": "EvLn005",
@@ -69,7 +69,7 @@
     "value": "VarInterp008",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp008: { variant: { NM_002834.3(PTPN11):c.853T>C (p.Phe285Leu) }, condition: { Orphanet:648, HP:0000006 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp008: { variant: { NM_002834.3(PTPN11):c.853T>C (p.Phe285Leu) }, condition: { noonan syndrome, Autosomal Dominant }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn006",
@@ -77,7 +77,7 @@
     "value": "VarInterp009",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp009: { variant: { NM_001369.2(DNAH5):c.6249G>A (p.Met2083Ile) }, condition: { Orphanet:244 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp009: { variant: { NM_001369.2(DNAH5):c.6249G>A (p.Met2083Ile) }, condition: { Primary ciliary dyskenisia }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn007",
@@ -85,7 +85,7 @@
     "value": "VarInterp010",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp010: { variant: { NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) }, condition: { OMIM:609942 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp010: { variant: { NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) }, condition: { noonan syndrome 3 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn008",
@@ -93,7 +93,7 @@
     "value": "VarInterp011",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp011: { variant: { NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) }, condition: { Orphanet:648, HP:0000006 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp011: { variant: { NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) }, condition: { noonan syndrome, Autosomal Dominant }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn009",
@@ -101,7 +101,7 @@
     "value": "IndCond012",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond012: { individual: { individual #001 }, condition: { Orphanet:217604 }, hasCondition: true }"
+    "derivedName": "IndCond012: { individual: { individual #001 }, condition: { dilated cardiomyopathy }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn009",
@@ -109,7 +109,7 @@
     "value": "FamHist013",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "FamHist013: { proband: { individual #001 }, condition: { Orphanet:217604 }, familyHasCondition: false }"
+    "derivedName": "FamHist013: { proband: { individual #001 }, condition: { dilated cardiomyopathy }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn009",
@@ -237,7 +237,7 @@
     "value": "CaseCtrl033",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CaseCtrl033: { condition: { Orphanet:423, HP:0000006 }, caseGroupFrequency: \"AllFreq032\", controlGroupFrequency: \"AllFreq031\" }"
+    "derivedName": "CaseCtrl033: { condition: { Malignant hyperthermia, Autosomal Dominant }, caseGroupFrequency: \"AllFreq032\", controlGroupFrequency: \"AllFreq031\" }"
   },
   {
     "subjectId": "EvLn021",
@@ -245,7 +245,7 @@
     "value": "CaseCtrl036",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CaseCtrl036: { condition: { HP:0011014 }, caseGroupFrequency: \"AllFreq034\", controlGroupFrequency: \"AllFreq035\" }"
+    "derivedName": "CaseCtrl036: { condition: { Abnormal Glucose Homeostasis }, caseGroupFrequency: \"AllFreq034\", controlGroupFrequency: \"AllFreq035\" }"
   },
   {
     "subjectId": "EvLn022",
@@ -301,7 +301,7 @@
     "value": "VarInterp047",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp047: { variant: { NM_000169.2(GLA): c.886A>G }, condition: { Orphanet:324, HP:0001419 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp047: { variant: { NM_000169.2(GLA): c.886A>G }, condition: { Fabry disease, X-linked recessive inheritance }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn024",
@@ -309,7 +309,7 @@
     "value": "VarInterp048",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp048: { variant: { NM_000169.2(GLA):c.890C>T }, condition: { Orphanet:324, HP:0001419 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp048: { variant: { NM_000169.2(GLA):c.890C>T }, condition: { Fabry disease, X-linked recessive inheritance }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn024",
@@ -317,7 +317,7 @@
     "value": "VarInterp049",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp049: { variant: { NM_000169.2(GLA):c.899T>C }, condition: { Orphanet:324, HP:0001419 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp049: { variant: { NM_000169.2(GLA):c.899T>C }, condition: { Fabry disease, X-linked recessive inheritance }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn024",
@@ -325,7 +325,7 @@
     "value": "VarInterp050",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp050: { variant: { NM_000169.2(GLA):c.902G>A }, condition: { Orphanet:324, HP:0001419 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp050: { variant: { NM_000169.2(GLA):c.902G>A }, condition: { Fabry disease, X-linked recessive inheritance }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn024",
@@ -381,7 +381,7 @@
     "value": "VarInterp057",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp057: { variant: { NM_001369.2(DNAH5):c.9449delG }, condition: { Orphanet:244, HP:0000007 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp057: { variant: { NM_001369.2(DNAH5):c.9449delG }, condition: { Primary ciliary dyskenisia, Autosomal Recessive }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn029",
@@ -397,7 +397,7 @@
     "value": "VarInterp059",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp059: { variant: { NM_133261.2(GIPC3):c.411+1G>A }, condition: { Orphanet:87884, HP:0000007, GIPC3 }, clinicalSignificance: \"LN:LA6668-3\" }"
+    "derivedName": "VarInterp059: { variant: { NM_133261.2(GIPC3):c.411+1G>A }, condition: { nonsyndromic deafness, Autosomal Recessive, GIPC3 }, clinicalSignificance: \"LN:LA6668-3\" }"
   },
   {
     "subjectId": "EvLn030",
@@ -405,7 +405,7 @@
     "value": "IndCond061",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond061: { individual: { individual #005 }, condition: { Orphanet:87884, HP:0000007, GIPC3 }, hasCondition: true }"
+    "derivedName": "IndCond061: { individual: { individual #005 }, condition: { nonsyndromic deafness, Autosomal Recessive, GIPC3 }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn030",
@@ -421,7 +421,7 @@
     "value": "IndCond064",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond064: { individual: { individual #006 }, condition: { Orphanet:216, HP:0000007, TTP1 }, hasCondition: true }"
+    "derivedName": "IndCond064: { individual: { individual #006 }, condition: { neuronal ceroid lipofuscinosis, Autosomal Recessive, TTP1 }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn031",
@@ -509,7 +509,7 @@
     "value": "VarInterp080",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp080: { variant: { NM_000531.5(OTC):c.119G>A }, condition: { Orphanet:664 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp080: { variant: { NM_000531.5(OTC):c.119G>A }, condition: { Ornithine carbamoyltransferase deficiency }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn039",
@@ -533,7 +533,7 @@
     "value": "IndCond083",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond083: { individual: \"Ind007\", condition: { Orphanet:122 }, hasCondition: true }"
+    "derivedName": "IndCond083: { individual: \"Ind007\", condition: { Birt-Hogg-Dube Syndrome }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn041",
@@ -541,7 +541,7 @@
     "value": "FamHist085",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "FamHist085: { proband: \"Ind007\", condition: { Orphanet:122 }, familyHasCondition: false }"
+    "derivedName": "FamHist085: { proband: \"Ind007\", condition: { Birt-Hogg-Dube Syndrome }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn041",
@@ -557,7 +557,7 @@
     "value": "IndCond084",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond084: { individual: \"Ind008\", condition: { Orphanet:122 }, hasCondition: true }"
+    "derivedName": "IndCond084: { individual: \"Ind008\", condition: { Birt-Hogg-Dube Syndrome }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn042",
@@ -565,7 +565,7 @@
     "value": "FamHist086",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "FamHist086: { proband: \"Ind008\", condition: { Orphanet:122 }, familyHasCondition: false }"
+    "derivedName": "FamHist086: { proband: \"Ind008\", condition: { Birt-Hogg-Dube Syndrome }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn042",
@@ -581,7 +581,7 @@
     "value": "IndCond089",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond089: { individual: \"Ind009\", condition: { Orphanet:1340 }, hasCondition: true }"
+    "derivedName": "IndCond089: { individual: \"Ind009\", condition: { cardiofaciocutaneous syndrome }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn043",
@@ -589,7 +589,7 @@
     "value": "FamHist090",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "FamHist090: { proband: \"Ind009\", condition: { Orphanet:1340 }, familyHasCondition: false }"
+    "derivedName": "FamHist090: { proband: \"Ind009\", condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn043",
@@ -605,7 +605,7 @@
     "value": "IndCond092",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond092: { individual: \"Ind010\", condition: { Orphanet:1340 }, hasCondition: true }"
+    "derivedName": "IndCond092: { individual: \"Ind010\", condition: { cardiofaciocutaneous syndrome }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn044",
@@ -613,7 +613,7 @@
     "value": "FamHist093",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "FamHist093: { proband: \"Ind010\", condition: { Orphanet:1340 }, familyHasCondition: false }"
+    "derivedName": "FamHist093: { proband: \"Ind010\", condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn044",
@@ -629,7 +629,7 @@
     "value": "IndCond095",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond095: { individual: \"Ind011\", condition: { Orphanet:1340 }, hasCondition: true }"
+    "derivedName": "IndCond095: { individual: \"Ind011\", condition: { cardiofaciocutaneous syndrome }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn045",
@@ -637,7 +637,7 @@
     "value": "FamHist096",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "FamHist096: { proband: \"Ind011\", condition: { Orphanet:1340 }, familyHasCondition: false }"
+    "derivedName": "FamHist096: { proband: \"Ind011\", condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn045",
@@ -653,7 +653,7 @@
     "value": "IndCond098",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond098: { individual: \"Ind012\", condition: { Orphanet:1340 }, hasCondition: true }"
+    "derivedName": "IndCond098: { individual: \"Ind012\", condition: { cardiofaciocutaneous syndrome }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn046",
@@ -661,7 +661,7 @@
     "value": "FamHist099",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "FamHist099: { proband: \"Ind012\", condition: { Orphanet:1340 }, familyHasCondition: false }"
+    "derivedName": "FamHist099: { proband: \"Ind012\", condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn046",
@@ -677,7 +677,7 @@
     "value": "AggSegData105",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "AggSegData105: { condition: { Orphanet:217569, HP:0000006 }, familySegregationData: \"FamSegData103\", familySegregationData: \"FamSegData104\", totalNumberOfSegregations: 4 }"
+    "derivedName": "AggSegData105: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, familySegregationData: \"FamSegData103\", familySegregationData: \"FamSegData104\", totalNumberOfSegregations: 4 }"
   },
   {
     "subjectId": "EvLn048",
@@ -685,7 +685,7 @@
     "value": "AggSegData109",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "AggSegData109: { condition: { Orphanet:886, HP:0000007 }, familySegregationData: \"FamSegData107\", familySegregationData: \"FamSegData108\", totalNumberOfSegregations: 8 }"
+    "derivedName": "AggSegData109: { condition: { Usher syndrome, Autosomal Recessive }, familySegregationData: \"FamSegData107\", familySegregationData: \"FamSegData108\", totalNumberOfSegregations: 8 }"
   },
   {
     "subjectId": "EvLn049",
@@ -701,7 +701,7 @@
     "value": "AggSegData115",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "AggSegData115: { condition: { Orphanet:217604, HP:0000006 }, familySegregationData: \"FamSegData113\", familySegregationData: \"FamSegData114\", totalNumberOfSegregations: 9 }"
+    "derivedName": "AggSegData115: { condition: { dilated cardiomyopathy, Autosomal Dominant }, familySegregationData: \"FamSegData113\", familySegregationData: \"FamSegData114\", totalNumberOfSegregations: 9 }"
   },
   {
     "subjectId": "EvLn051",
@@ -957,7 +957,7 @@
     "value": "CondEtiol148",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondEtiol148: { condition: { Orphanet:774, HP:0000006 }, gene: { ENG }, specificity: \"complete\" }"
+    "derivedName": "CondEtiol148: { condition: { hereditary hemorrhagic telangiectasia, Autosomal Dominant }, gene: { ENG }, specificity: \"complete\" }"
   },
   {
     "subjectId": "EvLn056",
@@ -965,7 +965,7 @@
     "value": "CondEtiol149",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondEtiol149: { condition: { Orphanet:217569 }, gene: { MYH7 }, specificity: \"low\" }"
+    "derivedName": "CondEtiol149: { condition: { hypertrophic cardiomyopathy }, gene: { MYH7 }, specificity: \"low\" }"
   },
   {
     "subjectId": "EvLn057",
@@ -973,7 +973,7 @@
     "value": "VarInterp150",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp150: { variant: { NM_000059.3(BRCA2):c.3G>T }, condition: { OMIM:612555, HP:0000006 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp150: { variant: { NM_000059.3(BRCA2):c.3G>T }, condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2, Autosomal Dominant }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn058",
@@ -981,7 +981,7 @@
     "value": "VarInterp151",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp151: { variant: { NM_001458.4(FLNC):c.577G>A }, condition: { OMIM:614065, HP:0000006 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp151: { variant: { NM_001458.4(FLNC):c.577G>A }, condition: { Myopathy, Distal, type 4, Autosomal Dominant }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn059",
@@ -989,7 +989,7 @@
     "value": "VarInterp152",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp152: { variant: { NM_000492.3(CFTR):c.2053dupC }, condition: { Orphanet:586, HP:0000007 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp152: { variant: { NM_000492.3(CFTR):c.2053dupC }, condition: { Cystic Fibrosis, Autosomal Recessive }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn060",
@@ -1037,7 +1037,7 @@
     "value": "CondPrev159",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPrev159: { condition: { Orphanet:558, HP:0000006 }, minimum: 0.0017, maximum: 0.0007, population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] } }"
+    "derivedName": "CondPrev159: { condition: { Marfan Syndrome, Autosomal Dominant }, minimum: 0.0017, maximum: 0.0007, population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] } }"
   },
   {
     "subjectId": "EvLn064",
@@ -1045,7 +1045,7 @@
     "value": "CondPenet160",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet160: { condition: { Orphanet:558, HP:0000006 }, penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet160: { condition: { Marfan Syndrome, Autosomal Dominant }, penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn065",
@@ -1061,7 +1061,7 @@
     "value": "CondPrev163",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPrev163: { condition: { Orphanet:2609, HP:0001423 }, value: 0.00012, population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] } }"
+    "derivedName": "CondPrev163: { condition: { Mitochondrial complex 1 deficiency, X-linked dominant inheritance }, value: 0.00012, population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] } }"
   },
   {
     "subjectId": "EvLn065",
@@ -1069,7 +1069,7 @@
     "value": "CondPenet164",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet164: { condition: { Orphanet:2609, HP:0001423 }, penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet164: { condition: { Mitochondrial complex 1 deficiency, X-linked dominant inheritance }, penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn066",
@@ -1085,7 +1085,7 @@
     "value": "CondPrev167",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPrev167: { condition: { Orphanet:2855, HP:0000007 }, maximum: 0.000001, population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] } }"
+    "derivedName": "CondPrev167: { condition: { Perrault Syndrome, Autosomal Recessive }, maximum: 0.000001, population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] } }"
   },
   {
     "subjectId": "EvLn066",
@@ -1093,7 +1093,7 @@
     "value": "CondPenet168",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet168: { condition: { Orphanet:2855, HP:0000007 }, penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet168: { condition: { Perrault Syndrome, Autosomal Recessive }, penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn067",
@@ -1101,7 +1101,7 @@
     "value": "CondPenet170",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet170: { condition: { Orphanet:319182, HP:0000006 }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet170: { condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn067",
@@ -1117,7 +1117,7 @@
     "value": "IndCond174",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond174: { individual: { individual #013 }, condition: { Orphanet:319182, HP:0000006 }, hasCondition: false }"
+    "derivedName": "IndCond174: { individual: { individual #013 }, condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }, hasCondition: false }"
   },
   {
     "subjectId": "EvLn068",
@@ -1125,7 +1125,7 @@
     "value": "CondPenet170",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet170: { condition: { Orphanet:319182, HP:0000006 }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet170: { condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn068",
@@ -1141,7 +1141,7 @@
     "value": "IndCond175",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond175: { individual: { individual #014 }, condition: { Orphanet:319182, HP:0000006 }, hasCondition: false }"
+    "derivedName": "IndCond175: { individual: { individual #014 }, condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }, hasCondition: false }"
   },
   {
     "subjectId": "EvLn069",
@@ -1149,7 +1149,7 @@
     "value": "CondPenet176",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet176: { condition: { Orphanet:733, HP:0000006 }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet176: { condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn069",
@@ -1165,7 +1165,7 @@
     "value": "IndCond182",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond182: { individual: { individual #015 }, condition: { Orphanet:733, HP:0000006 }, hasCondition: false }"
+    "derivedName": "IndCond182: { individual: { individual #015 }, condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, hasCondition: false }"
   },
   {
     "subjectId": "EvLn070",
@@ -1173,7 +1173,7 @@
     "value": "CondPenet176",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet176: { condition: { Orphanet:733, HP:0000006 }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet176: { condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn070",
@@ -1189,7 +1189,7 @@
     "value": "IndCond183",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond183: { individual: { individual #016 }, condition: { Orphanet:733, HP:0000006 }, hasCondition: false }"
+    "derivedName": "IndCond183: { individual: { individual #016 }, condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, hasCondition: false }"
   },
   {
     "subjectId": "EvLn071",
@@ -1197,7 +1197,7 @@
     "value": "CondPenet176",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet176: { condition: { Orphanet:733, HP:0000006 }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet176: { condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn071",
@@ -1213,7 +1213,7 @@
     "value": "IndCond184",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond184: { individual: { individual #017 }, condition: { Orphanet:733, HP:0000006 }, hasCondition: false }"
+    "derivedName": "IndCond184: { individual: { individual #017 }, condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, hasCondition: false }"
   },
   {
     "subjectId": "EvLn072",
@@ -1221,7 +1221,7 @@
     "value": "CondPenet176",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet176: { condition: { Orphanet:733, HP:0000006 }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet176: { condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn072",
@@ -1237,7 +1237,7 @@
     "value": "IndCond185",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond185: { individual: { individual #018 }, condition: { Orphanet:733, HP:0000006 }, hasCondition: false }"
+    "derivedName": "IndCond185: { individual: { individual #018 }, condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, hasCondition: false }"
   },
   {
     "subjectId": "EvLn073",
@@ -1325,7 +1325,7 @@
     "value": "FamSegData196",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "FamSegData196: { condition: { OMIM:143890, HP:0000006 }, family: { Family #008 }, phenotypePositiveAllelePositive: 0 }"
+    "derivedName": "FamSegData196: { condition: { Hypercholesterolemia, Familial, Autosomal Dominant }, family: { Family #008 }, phenotypePositiveAllelePositive: 0 }"
   },
   {
     "subjectId": "EvLn080",
@@ -1333,7 +1333,7 @@
     "value": "FamSegData197",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "FamSegData197: { condition: { Orphanet:217569, HP:0000006 }, family: { Family #009 }, phenotypePositiveAllelePositive: 3 }"
+    "derivedName": "FamSegData197: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, family: { Family #009 }, phenotypePositiveAllelePositive: 3 }"
   },
   {
     "subjectId": "EvLn081",
@@ -1365,7 +1365,7 @@
     "value": "CondMech200",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech200: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Orphanet:84 } }"
+    "derivedName": "CondMech200: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Fanconi Anemia } }"
   },
   {
     "subjectId": "EvLn083",
@@ -1397,7 +1397,7 @@
     "value": "CondMech204",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech204: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Orphanet:217604 } }"
+    "derivedName": "CondMech204: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { dilated cardiomyopathy } }"
   },
   {
     "subjectId": "EvLn084",
@@ -1405,7 +1405,7 @@
     "value": "CondMech205",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech205: { mechanism: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Orphanet:217604 } }"
+    "derivedName": "CondMech205: { mechanism: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { dilated cardiomyopathy } }"
   },
   {
     "subjectId": "EvLn085",
@@ -1421,7 +1421,7 @@
     "value": "IndCond208",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond208: { individual: { individual #021 }, condition: { Orphanet:791 }, hasCondition: true }"
+    "derivedName": "IndCond208: { individual: { individual #021 }, condition: { Retinitis Pigmentosa }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn085",
@@ -1429,7 +1429,7 @@
     "value": "VarInterp210",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp210: { variant: { NM_206933.2(USH2A):c.2276G>T }, condition: { Orphanet:791 }, clinicalSignificance: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "derivedName": "VarInterp210: { variant: { NM_206933.2(USH2A):c.2276G>T }, condition: { Retinitis Pigmentosa }, clinicalSignificance: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
   },
   {
     "subjectId": "EvLn086",
@@ -1445,7 +1445,7 @@
     "value": "IndCond209",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond209: { individual: { individual #022 }, condition: { Orphanet:791 }, hasCondition: true }"
+    "derivedName": "IndCond209: { individual: { individual #022 }, condition: { Retinitis Pigmentosa }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn086",
@@ -1453,7 +1453,7 @@
     "value": "VarInterp210",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp210: { variant: { NM_206933.2(USH2A):c.2276G>T }, condition: { Orphanet:791 }, clinicalSignificance: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "derivedName": "VarInterp210: { variant: { NM_206933.2(USH2A):c.2276G>T }, condition: { Retinitis Pigmentosa }, clinicalSignificance: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
   },
   {
     "subjectId": "EvLn087",
@@ -1469,7 +1469,7 @@
     "value": "IndCond212",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond212: { individual: { individual #023 }, condition: { HP:0012873 }, hasCondition: true }"
+    "derivedName": "IndCond212: { individual: { individual #023 }, condition: { Absent vas deferens }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn087",
@@ -1477,7 +1477,7 @@
     "value": "VarInterp213",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp213: { variant: { NP_000483.3:p.Gly576Ala }, condition: { HP:0012873 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp213: { variant: { NP_000483.3:p.Gly576Ala }, condition: { Absent vas deferens }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn088",
@@ -1493,7 +1493,7 @@
     "value": "IndCond215",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond215: { individual: { individual #024 }, condition: { Orphanet:167848, HP:0000006 }, hasCondition: true }"
+    "derivedName": "IndCond215: { individual: { individual #024 }, condition: { cardiomyopathy, Autosomal Dominant }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn088",
@@ -1501,7 +1501,7 @@
     "value": "VarInterp216",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp216: { variant: { NM_000257.2(MYH7): c.2537A>G }, condition: { Orphanet:167848, HP:0000006 }, clinicalSignificance: { coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp216: { variant: { NM_000257.2(MYH7): c.2537A>G }, condition: { cardiomyopathy, Autosomal Dominant }, clinicalSignificance: { coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn088",
@@ -1509,7 +1509,7 @@
     "value": "CondPenet218",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet218: { condition: { Orphanet:167848, HP:0000006 }, penetrance: { coding: [{ code: \"incomplete\", display: \"Incomplete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet218: { condition: { cardiomyopathy, Autosomal Dominant }, penetrance: { coding: [{ code: \"incomplete\", display: \"Incomplete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn089",
@@ -1669,7 +1669,7 @@
     "value": "IndCond242",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond242: { individual: { individual #025 }, condition: { Orphanet:217569 }, hasCondition: true }"
+    "derivedName": "IndCond242: { individual: { individual #025 }, condition: { hypertrophic cardiomyopathy }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn093",
@@ -1677,7 +1677,7 @@
     "value": "VarInterp243",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp243: { variant: { NM_000256.3(MYBPC3): c.2497G>A }, condition: { Orphanet:217569 }, clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp243: { variant: { NM_000256.3(MYBPC3): c.2497G>A }, condition: { hypertrophic cardiomyopathy }, clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn094",
@@ -1701,7 +1701,7 @@
     "value": "IndCond246",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond246: { individual: { individual #026 }, condition: { Orphanet:87884 }, hasCondition: true }"
+    "derivedName": "IndCond246: { individual: { individual #026 }, condition: { nonsyndromic deafness }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn094",
@@ -1709,7 +1709,7 @@
     "value": "VarInterp247",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp247: { variant: { NM_004004.5(GJB2):c.71G>A }, condition: { Orphanet:87884 }, clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp247: { variant: { NM_004004.5(GJB2):c.71G>A }, condition: { nonsyndromic deafness }, clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn094",
@@ -1717,7 +1717,7 @@
     "value": "VarInterp248",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp248: { variant: { NM_004004.5(GJB2):c.230G>A }, condition: { Orphanet:87884 }, clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp248: { variant: { NM_004004.5(GJB2):c.230G>A }, condition: { nonsyndromic deafness }, clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn095",
@@ -1733,7 +1733,7 @@
     "value": "IndCond250",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond250: { individual: { individual #027 }, condition: { Orphanet:886, HP:0000007 }, hasCondition: true }"
+    "derivedName": "IndCond250: { individual: { individual #027 }, condition: { Usher syndrome, Autosomal Recessive }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn095",
@@ -1741,7 +1741,7 @@
     "value": "VarInterp251",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp251: { variant: { NM_022124.5(CDH23):c.5660C>T }, condition: { Orphanet:886, HP:0000007 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp251: { variant: { NM_022124.5(CDH23):c.5660C>T }, condition: { Usher syndrome, Autosomal Recessive }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn096",
@@ -1765,7 +1765,7 @@
     "value": "VarInterp254",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp254: { variant: { NM_000095.2(COMP):c.1042T>C }, condition: { Orphanet:750 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp254: { variant: { NM_000095.2(COMP):c.1042T>C }, condition: { pseudoachondroplasia }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn096",
@@ -1789,7 +1789,7 @@
     "value": "VarInterp256",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp256: { variant: { NM_000059.3(BRCA2):c.-26G>A }, condition: { OMIM:612555 }, clinicalSignificance: { coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp256: { variant: { NM_000059.3(BRCA2):c.-26G>A }, condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2 }, clinicalSignificance: { coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn099",
@@ -1797,7 +1797,7 @@
     "value": "VarInterp257",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp257: { variant: { NM_000274.3(OAT):c.1311G>C }, condition: { Orphanet:414 }, clinicalSignificance: { coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp257: { variant: { NM_000274.3(OAT):c.1311G>C }, condition: { Gyrate atrophy of choroid and retina }, clinicalSignificance: { coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }] } }"
   },
   {
     "subjectId": "EvLn100",
@@ -1909,7 +1909,7 @@
     "value": "CondMech273",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech273: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, condition: { Orphanet:247 }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] } }"
+    "derivedName": "CondMech273: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, condition: { arrhythmogenic right ventricular cardiomyopathy }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] } }"
   },
   {
     "subjectId": "EvLn104",
@@ -1917,7 +1917,7 @@
     "value": "FamSegData271",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "FamSegData271: { condition: { Orphanet:217569, HP:0000006 }, family: { Family #010 }, phenotypePositiveAllelePositive: 0 }"
+    "derivedName": "FamSegData271: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, family: { Family #010 }, phenotypePositiveAllelePositive: 0 }"
   },
   {
     "subjectId": "EvLn105",
@@ -2317,7 +2317,7 @@
     "value": "FamSegData076",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "FamSegData076: { condition: { Orphanet:648, HP:0000006 }, family: { Family #011 }, phenotypePositiveAllelePositive: 0, phenotypeNegativeAllelePositive: 2 }"
+    "derivedName": "FamSegData076: { condition: { noonan syndrome, Autosomal Dominant }, family: { Family #011 }, phenotypePositiveAllelePositive: 0, phenotypeNegativeAllelePositive: 2 }"
   },
   {
     "subjectId": "EvLn124",
@@ -2413,7 +2413,7 @@
     "value": "IndCond110",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond110: { individual: \"Ind030\", condition: { Orphanet:1340 }, hasCondition: true }"
+    "derivedName": "IndCond110: { individual: \"Ind030\", condition: { cardiofaciocutaneous syndrome }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn128",
@@ -2421,7 +2421,7 @@
     "value": "FamHist112",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "FamHist112: { proband: \"Ind030\", condition: { Orphanet:1340 }, familyHasCondition: false }"
+    "derivedName": "FamHist112: { proband: \"Ind030\", condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn129",
@@ -2501,6 +2501,6 @@
     "value": "CondMech165",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech165: { mechanism: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Orphanet:247 } }"
+    "derivedName": "CondMech165: { mechanism: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { arrhythmogenic right ventricular cardiomyopathy } }"
   }
 ]

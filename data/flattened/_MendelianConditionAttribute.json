@@ -5,7 +5,7 @@
     "value": "Breast Ovarian Cancer, Autosomal Dominant",
     "attributeName": "name",
     "attributeType": "String",
-    "lookupValue": "Breast Ovarian Cancer, Autosomal Dominant"
+    "codeDisplayOrNameValue": "Breast Ovarian Cancer, Autosomal Dominant"
   },
   {
     "subjectId": "MendCond001",
@@ -13,7 +13,7 @@
     "value": "MESH:D061325",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "MESH:D061325"
+    "codeDisplayOrNameValue": "hereditary breast ovarian cancer"
   },
   {
     "subjectId": "MendCond001",
@@ -21,15 +21,15 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond002",
     "attributeId": "A158",
-    "value": "Orphanet:217604",
+    "value": "ORPHANET:217604",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:217604"
+    "codeDisplayOrNameValue": "dilated cardiomyopathy"
   },
   {
     "subjectId": "MendCond002",
@@ -37,15 +37,15 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond003",
     "attributeId": "A158",
-    "value": "Orphanet:648",
+    "value": "ORPHANET:648",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:648"
+    "codeDisplayOrNameValue": "noonan syndrome"
   },
   {
     "subjectId": "MendCond003",
@@ -53,23 +53,23 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond004",
     "attributeId": "A158",
-    "value": "Orphanet:244",
+    "value": "ORPHANET:244",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:244"
+    "codeDisplayOrNameValue": "Primary ciliary dyskenisia"
   },
   {
     "subjectId": "MendCond005",
     "attributeId": "A158",
-    "value": "Orphanet:3071",
+    "value": "ORPHANET:3071",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:3071"
+    "codeDisplayOrNameValue": "costello syndrome"
   },
   {
     "subjectId": "MendCond005",
@@ -77,7 +77,7 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond006",
@@ -85,15 +85,15 @@
     "value": "OMIM:609942",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "OMIM:609942"
+    "codeDisplayOrNameValue": "noonan syndrome 3"
   },
   {
     "subjectId": "MendCond007",
     "attributeId": "A158",
-    "value": "Orphanet:167848",
+    "value": "ORPHANET:167848",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:167848"
+    "codeDisplayOrNameValue": "cardiomyopathy"
   },
   {
     "subjectId": "MendCond007",
@@ -101,7 +101,7 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond008",
@@ -109,7 +109,7 @@
     "value": "OMIM:601419",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "OMIM:601419"
+    "codeDisplayOrNameValue": "myofibrillar myopathy 1"
   },
   {
     "subjectId": "MendCond008",
@@ -117,7 +117,7 @@
     "value": "desmin related myopathy",
     "attributeName": "name",
     "attributeType": "String",
-    "lookupValue": "desmin related myopathy"
+    "codeDisplayOrNameValue": "desmin related myopathy"
   },
   {
     "subjectId": "MendCond009",
@@ -125,15 +125,15 @@
     "value": "Epilepsy with Mental Retardation",
     "attributeName": "name",
     "attributeType": "String",
-    "lookupValue": "Epilepsy with Mental Retardation"
+    "codeDisplayOrNameValue": "Epilepsy with Mental Retardation"
   },
   {
     "subjectId": "MendCond010",
     "attributeId": "A158",
-    "value": "Orphanet:87884",
+    "value": "ORPHANET:87884",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:87884"
+    "codeDisplayOrNameValue": "nonsyndromic deafness"
   },
   {
     "subjectId": "MendCond010",
@@ -141,7 +141,7 @@
     "value": "HP:0000007",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000007"
+    "codeDisplayOrNameValue": "Autosomal Recessive"
   },
   {
     "subjectId": "MendCond010",
@@ -149,15 +149,15 @@
     "value": "G024",
     "attributeName": "gene",
     "attributeType": "Gene",
-    "lookupValue": "GIPC3"
+    "codeDisplayOrNameValue": "GIPC3"
   },
   {
     "subjectId": "MendCond011",
     "attributeId": "A158",
-    "value": "Orphanet:423",
+    "value": "ORPHANET:423",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:423"
+    "codeDisplayOrNameValue": "Malignant hyperthermia"
   },
   {
     "subjectId": "MendCond011",
@@ -165,7 +165,7 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond012",
@@ -173,15 +173,15 @@
     "value": "HP:0011014",
     "attributeName": "phenotype",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0011014"
+    "codeDisplayOrNameValue": "Abnormal Glucose Homeostasis"
   },
   {
     "subjectId": "MendCond013",
     "attributeId": "A158",
-    "value": "Orphanet:324",
+    "value": "ORPHANET:324",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:324"
+    "codeDisplayOrNameValue": "Fabry disease"
   },
   {
     "subjectId": "MendCond013",
@@ -189,7 +189,7 @@
     "value": "HP:0001419",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0001419"
+    "codeDisplayOrNameValue": "X-linked recessive inheritance"
   },
   {
     "subjectId": "MendCond014",
@@ -197,15 +197,15 @@
     "value": "PCD autosomal recessive w/ outer dynein arm (ODA) defects",
     "attributeName": "name",
     "attributeType": "String",
-    "lookupValue": "PCD autosomal recessive w/ outer dynein arm (ODA) defects"
+    "codeDisplayOrNameValue": "PCD autosomal recessive w/ outer dynein arm (ODA) defects"
   },
   {
     "subjectId": "MendCond014",
     "attributeId": "A158",
-    "value": "Orphanet:244",
+    "value": "ORPHANET:244",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:244"
+    "codeDisplayOrNameValue": "Primary ciliary dyskenisia"
   },
   {
     "subjectId": "MendCond014",
@@ -213,7 +213,7 @@
     "value": "HP:0000007",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000007"
+    "codeDisplayOrNameValue": "Autosomal Recessive"
   },
   {
     "subjectId": "MendCond014",
@@ -221,15 +221,15 @@
     "value": "HP:0200106",
     "attributeName": "phenotype",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0200106"
+    "codeDisplayOrNameValue": "Absent/shortened dynein arms"
   },
   {
     "subjectId": "MendCond015",
     "attributeId": "A158",
-    "value": "Orphanet:216",
+    "value": "ORPHANET:216",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:216"
+    "codeDisplayOrNameValue": "neuronal ceroid lipofuscinosis"
   },
   {
     "subjectId": "MendCond015",
@@ -237,7 +237,7 @@
     "value": "HP:0000007",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000007"
+    "codeDisplayOrNameValue": "Autosomal Recessive"
   },
   {
     "subjectId": "MendCond015",
@@ -245,15 +245,15 @@
     "value": "G025",
     "attributeName": "gene",
     "attributeType": "Gene",
-    "lookupValue": "TTP1"
+    "codeDisplayOrNameValue": "TTP1"
   },
   {
     "subjectId": "MendCond016",
     "attributeId": "A158",
-    "value": "Orphanet:217569",
+    "value": "ORPHANET:217569",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:217569"
+    "codeDisplayOrNameValue": "hypertrophic cardiomyopathy"
   },
   {
     "subjectId": "MendCond016",
@@ -261,7 +261,7 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond016",
@@ -269,39 +269,39 @@
     "value": "Primary familial hypertrophic cardiomyopathy, Autosomal Dominant",
     "attributeName": "name",
     "attributeType": "String",
-    "lookupValue": "Primary familial hypertrophic cardiomyopathy, Autosomal Dominant"
+    "codeDisplayOrNameValue": "Primary familial hypertrophic cardiomyopathy, Autosomal Dominant"
   },
   {
     "subjectId": "MendCond017",
     "attributeId": "A158",
-    "value": "Orphanet:664",
+    "value": "ORPHANET:664",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:664"
+    "codeDisplayOrNameValue": "Ornithine carbamoyltransferase deficiency"
   },
   {
     "subjectId": "MendCond018",
     "attributeId": "A158",
-    "value": "Orphanet:122",
+    "value": "ORPHANET:122",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:122"
+    "codeDisplayOrNameValue": "Birt-Hogg-Dube Syndrome"
   },
   {
     "subjectId": "MendCond019",
     "attributeId": "A158",
-    "value": "Orphanet:1340",
+    "value": "ORPHANET:1340",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:1340"
+    "codeDisplayOrNameValue": "cardiofaciocutaneous syndrome"
   },
   {
     "subjectId": "MendCond020",
     "attributeId": "A158",
-    "value": "Orphanet:217569",
+    "value": "ORPHANET:217569",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:217569"
+    "codeDisplayOrNameValue": "hypertrophic cardiomyopathy"
   },
   {
     "subjectId": "MendCond020",
@@ -309,15 +309,15 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond021",
     "attributeId": "A158",
-    "value": "Orphanet:886",
+    "value": "ORPHANET:886",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:886"
+    "codeDisplayOrNameValue": "Usher syndrome"
   },
   {
     "subjectId": "MendCond021",
@@ -325,15 +325,15 @@
     "value": "HP:0000007",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000007"
+    "codeDisplayOrNameValue": "Autosomal Recessive"
   },
   {
     "subjectId": "MendCond022",
     "attributeId": "A158",
-    "value": "Orphanet:774",
+    "value": "ORPHANET:774",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:774"
+    "codeDisplayOrNameValue": "hereditary hemorrhagic telangiectasia"
   },
   {
     "subjectId": "MendCond022",
@@ -341,7 +341,7 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond023",
@@ -349,7 +349,7 @@
     "value": "OMIM:612555",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "OMIM:612555"
+    "codeDisplayOrNameValue": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2"
   },
   {
     "subjectId": "MendCond023",
@@ -357,7 +357,7 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond024",
@@ -365,7 +365,7 @@
     "value": "OMIM:614065",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "OMIM:614065"
+    "codeDisplayOrNameValue": "Myopathy, Distal, type 4"
   },
   {
     "subjectId": "MendCond024",
@@ -373,15 +373,15 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond025",
     "attributeId": "A158",
-    "value": "Orphanet:586",
+    "value": "ORPHANET:586",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:586"
+    "codeDisplayOrNameValue": "Cystic Fibrosis"
   },
   {
     "subjectId": "MendCond025",
@@ -389,15 +389,15 @@
     "value": "HP:0000007",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000007"
+    "codeDisplayOrNameValue": "Autosomal Recessive"
   },
   {
     "subjectId": "MendCond026",
     "attributeId": "A158",
-    "value": "Orphanet:558",
+    "value": "ORPHANET:558",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:558"
+    "codeDisplayOrNameValue": "Marfan Syndrome"
   },
   {
     "subjectId": "MendCond026",
@@ -405,15 +405,15 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond027",
     "attributeId": "A158",
-    "value": "Orphanet:2609",
+    "value": "ORPHANET:2609",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:2609"
+    "codeDisplayOrNameValue": "Mitochondrial complex 1 deficiency"
   },
   {
     "subjectId": "MendCond027",
@@ -421,15 +421,15 @@
     "value": "HP:0001423",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0001423"
+    "codeDisplayOrNameValue": "X-linked dominant inheritance"
   },
   {
     "subjectId": "MendCond028",
     "attributeId": "A158",
-    "value": "Orphanet:2855",
+    "value": "ORPHANET:2855",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:2855"
+    "codeDisplayOrNameValue": "Perrault Syndrome"
   },
   {
     "subjectId": "MendCond028",
@@ -437,15 +437,15 @@
     "value": "HP:0000007",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000007"
+    "codeDisplayOrNameValue": "Autosomal Recessive"
   },
   {
     "subjectId": "MendCond029",
     "attributeId": "A158",
-    "value": "Orphanet:319182",
+    "value": "ORPHANET:319182",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:319182"
+    "codeDisplayOrNameValue": "Wiedemann-Steiner syndrome"
   },
   {
     "subjectId": "MendCond029",
@@ -453,15 +453,15 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond030",
     "attributeId": "A158",
-    "value": "Orphanet:733",
+    "value": "ORPHANET:733",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:733"
+    "codeDisplayOrNameValue": "Familial Adenomatous Polyposis"
   },
   {
     "subjectId": "MendCond030",
@@ -469,7 +469,7 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond035",
@@ -477,7 +477,7 @@
     "value": "OMIM:143890",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "OMIM:143890"
+    "codeDisplayOrNameValue": "Hypercholesterolemia, Familial"
   },
   {
     "subjectId": "MendCond035",
@@ -485,15 +485,15 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond036",
     "attributeId": "A158",
-    "value": "Orphanet:145",
+    "value": "ORPHANET:145",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:145"
+    "codeDisplayOrNameValue": "hereditary breast and ovarian cancer syndrome"
   },
   {
     "subjectId": "MendCond036",
@@ -501,23 +501,23 @@
     "value": "hereditary breast and ovarian cancer",
     "attributeName": "name",
     "attributeType": "String",
-    "lookupValue": "hereditary breast and ovarian cancer"
+    "codeDisplayOrNameValue": "hereditary breast and ovarian cancer"
   },
   {
     "subjectId": "MendCond037",
     "attributeId": "A158",
-    "value": "Orphanet:84",
+    "value": "ORPHANET:84",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:84"
+    "codeDisplayOrNameValue": "Fanconi Anemia"
   },
   {
     "subjectId": "MendCond038",
     "attributeId": "A158",
-    "value": "Orphanet:791",
+    "value": "ORPHANET:791",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:791"
+    "codeDisplayOrNameValue": "Retinitis Pigmentosa"
   },
   {
     "subjectId": "MendCond039",
@@ -525,23 +525,23 @@
     "value": "HP:0012873",
     "attributeName": "phenotype",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0012873"
+    "codeDisplayOrNameValue": "Absent vas deferens"
   },
   {
     "subjectId": "MendCond040",
     "attributeId": "A158",
-    "value": "Orphanet:364526",
+    "value": "ORPHANET:364526",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:364526"
+    "codeDisplayOrNameValue": "Primary bone dysplasia"
   },
   {
     "subjectId": "MendCond041",
     "attributeId": "A158",
-    "value": "Orphanet:750",
+    "value": "ORPHANET:750",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:750"
+    "codeDisplayOrNameValue": "pseudoachondroplasia"
   },
   {
     "subjectId": "MendCond041",
@@ -549,15 +549,15 @@
     "value": "Pseudoachondroplastic spondyloepiphyseal dysplasia",
     "attributeName": "name",
     "attributeType": "String",
-    "lookupValue": "Pseudoachondroplastic spondyloepiphyseal dysplasia"
+    "codeDisplayOrNameValue": "Pseudoachondroplastic spondyloepiphyseal dysplasia"
   },
   {
     "subjectId": "MendCond042",
     "attributeId": "A158",
-    "value": "Orphanet:750",
+    "value": "ORPHANET:750",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:750"
+    "codeDisplayOrNameValue": "pseudoachondroplasia"
   },
   {
     "subjectId": "MendCond043",
@@ -565,23 +565,23 @@
     "value": "OMIM:612555",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "OMIM:612555"
+    "codeDisplayOrNameValue": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2"
   },
   {
     "subjectId": "MendCond044",
     "attributeId": "A158",
-    "value": "Orphanet:414",
+    "value": "ORPHANET:414",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:414"
+    "codeDisplayOrNameValue": "Gyrate atrophy of choroid and retina"
   },
   {
     "subjectId": "MendCond045",
     "attributeId": "A158",
-    "value": "Orphanet:244",
+    "value": "ORPHANET:244",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:244"
+    "codeDisplayOrNameValue": "Primary ciliary dyskenisia"
   },
   {
     "subjectId": "MendCond045",
@@ -589,31 +589,31 @@
     "value": "HP:0000007",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000007"
+    "codeDisplayOrNameValue": "Autosomal Recessive"
   },
   {
     "subjectId": "MendCond046",
     "attributeId": "A158",
-    "value": "Orphanet:247",
+    "value": "ORPHANET:247",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:247"
+    "codeDisplayOrNameValue": "arrhythmogenic right ventricular cardiomyopathy"
   },
   {
     "subjectId": "MendCond047",
     "attributeId": "A158",
-    "value": "Orphanet:217604",
+    "value": "ORPHANET:217604",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:217604"
+    "codeDisplayOrNameValue": "dilated cardiomyopathy"
   },
   {
     "subjectId": "MendCond048",
     "attributeId": "A158",
-    "value": "Orphanet:87884",
+    "value": "ORPHANET:87884",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:87884"
+    "codeDisplayOrNameValue": "nonsyndromic deafness"
   },
   {
     "subjectId": "MendCond048",
@@ -621,15 +621,15 @@
     "value": "Hearing Loss",
     "attributeName": "name",
     "attributeType": "String",
-    "lookupValue": "Hearing Loss"
+    "codeDisplayOrNameValue": "Hearing Loss"
   },
   {
     "subjectId": "MendCond049",
     "attributeId": "A158",
-    "value": "Orphanet:98733",
+    "value": "ORPHANET:98733",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:98733"
+    "codeDisplayOrNameValue": "Noonan syndrome and noonan-related syndrom"
   },
   {
     "subjectId": "MendCond049",
@@ -637,7 +637,7 @@
     "value": "Rasopathy",
     "attributeName": "name",
     "attributeType": "String",
-    "lookupValue": "Rasopathy"
+    "codeDisplayOrNameValue": "Rasopathy"
   },
   {
     "subjectId": "MendCond050",
@@ -645,7 +645,7 @@
     "value": "Breast Ovarian Cancer, Autosomal Dominant",
     "attributeName": "name",
     "attributeType": "String",
-    "lookupValue": "Breast Ovarian Cancer, Autosomal Dominant"
+    "codeDisplayOrNameValue": "Breast Ovarian Cancer, Autosomal Dominant"
   },
   {
     "subjectId": "MendCond050",
@@ -653,7 +653,7 @@
     "value": "MESH:D061325",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "MESH:D061325"
+    "codeDisplayOrNameValue": "hereditary breast ovarian cancer"
   },
   {
     "subjectId": "MendCond050",
@@ -661,7 +661,7 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond051",
@@ -669,7 +669,7 @@
     "value": "Breast Ovarian Cancer, Autosomal Dominant",
     "attributeName": "name",
     "attributeType": "String",
-    "lookupValue": "Breast Ovarian Cancer, Autosomal Dominant"
+    "codeDisplayOrNameValue": "Breast Ovarian Cancer, Autosomal Dominant"
   },
   {
     "subjectId": "MendCond051",
@@ -677,7 +677,7 @@
     "value": "MESH:D061325",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "MESH:D061325"
+    "codeDisplayOrNameValue": "hereditary breast ovarian cancer"
   },
   {
     "subjectId": "MendCond051",
@@ -685,39 +685,39 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond052",
     "attributeId": "A158",
-    "value": "Orphanet:217604",
+    "value": "ORPHANET:217604",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:217604"
+    "codeDisplayOrNameValue": "dilated cardiomyopathy"
   },
   {
     "subjectId": "MendCond053",
     "attributeId": "A158",
-    "value": "Orphanet:217604",
+    "value": "ORPHANET:217604",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:217604"
+    "codeDisplayOrNameValue": "dilated cardiomyopathy"
   },
   {
     "subjectId": "MendCond054",
     "attributeId": "A158",
-    "value": "Orphanet:247",
+    "value": "ORPHANET:247",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:247"
+    "codeDisplayOrNameValue": "arrhythmogenic right ventricular cardiomyopathy"
   },
   {
     "subjectId": "MendCond055",
     "attributeId": "A158",
-    "value": "Orphanet:648",
+    "value": "ORPHANET:648",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:648"
+    "codeDisplayOrNameValue": "noonan syndrome"
   },
   {
     "subjectId": "MendCond055",
@@ -725,15 +725,15 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond056",
     "attributeId": "A158",
-    "value": "Orphanet:648",
+    "value": "ORPHANET:648",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:648"
+    "codeDisplayOrNameValue": "noonan syndrome"
   },
   {
     "subjectId": "MendCond056",
@@ -741,15 +741,15 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond057",
     "attributeId": "A158",
-    "value": "Orphanet:87884",
+    "value": "ORPHANET:87884",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:87884"
+    "codeDisplayOrNameValue": "nonsyndromic deafness"
   },
   {
     "subjectId": "MendCond057",
@@ -757,15 +757,15 @@
     "value": "Hearing Loss",
     "attributeName": "name",
     "attributeType": "String",
-    "lookupValue": "Hearing Loss"
+    "codeDisplayOrNameValue": "Hearing Loss"
   },
   {
     "subjectId": "MendCond058",
     "attributeId": "A158",
-    "value": "Orphanet:87884",
+    "value": "ORPHANET:87884",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:87884"
+    "codeDisplayOrNameValue": "nonsyndromic deafness"
   },
   {
     "subjectId": "MendCond058",
@@ -773,15 +773,15 @@
     "value": "Hearing Loss",
     "attributeName": "name",
     "attributeType": "String",
-    "lookupValue": "Hearing Loss"
+    "codeDisplayOrNameValue": "Hearing Loss"
   },
   {
     "subjectId": "MendCond059",
     "attributeId": "A158",
-    "value": "Orphanet:87884",
+    "value": "ORPHANET:87884",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:87884"
+    "codeDisplayOrNameValue": "nonsyndromic deafness"
   },
   {
     "subjectId": "MendCond059",
@@ -789,7 +789,7 @@
     "value": "Hearing Loss, Autosomal Recessive",
     "attributeName": "name",
     "attributeType": "String",
-    "lookupValue": "Hearing Loss, Autosomal Recessive"
+    "codeDisplayOrNameValue": "Hearing Loss, Autosomal Recessive"
   },
   {
     "subjectId": "MendCond059",
@@ -797,23 +797,23 @@
     "value": "HP:0000007",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000007"
+    "codeDisplayOrNameValue": "Autosomal Recessive"
   },
   {
     "subjectId": "MendCond060",
     "attributeId": "A158",
-    "value": "Orphanet:87884",
+    "value": "ORPHANET:87884",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:87884"
+    "codeDisplayOrNameValue": "nonsyndromic deafness"
   },
   {
     "subjectId": "MendCond061",
     "attributeId": "A158",
-    "value": "Orphanet:87884",
+    "value": "ORPHANET:87884",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:87884"
+    "codeDisplayOrNameValue": "nonsyndromic deafness"
   },
   {
     "subjectId": "MendCond061",
@@ -821,7 +821,7 @@
     "value": "Hearing Loss, Autosomal Recessive",
     "attributeName": "name",
     "attributeType": "String",
-    "lookupValue": "Hearing Loss, Autosomal Recessive"
+    "codeDisplayOrNameValue": "Hearing Loss, Autosomal Recessive"
   },
   {
     "subjectId": "MendCond061",
@@ -829,15 +829,15 @@
     "value": "HP:0000007",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000007"
+    "codeDisplayOrNameValue": "Autosomal Recessive"
   },
   {
     "subjectId": "MendCond062",
     "attributeId": "A158",
-    "value": "Orphanet:244",
+    "value": "ORPHANET:244",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:244"
+    "codeDisplayOrNameValue": "Primary ciliary dyskenisia"
   },
   {
     "subjectId": "MendCond062",
@@ -845,15 +845,15 @@
     "value": "HP:0000007",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000007"
+    "codeDisplayOrNameValue": "Autosomal Recessive"
   },
   {
     "subjectId": "MendCond063",
     "attributeId": "A158",
-    "value": "Orphanet:244",
+    "value": "ORPHANET:244",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:244"
+    "codeDisplayOrNameValue": "Primary ciliary dyskenisia"
   },
   {
     "subjectId": "MendCond063",
@@ -861,23 +861,23 @@
     "value": "HP:0000007",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000007"
+    "codeDisplayOrNameValue": "Autosomal Recessive"
   },
   {
     "subjectId": "MendCond064",
     "attributeId": "A158",
-    "value": "Orphanet:217569",
+    "value": "ORPHANET:217569",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:217569"
+    "codeDisplayOrNameValue": "hypertrophic cardiomyopathy"
   },
   {
     "subjectId": "MendCond065",
     "attributeId": "A158",
-    "value": "Orphanet:217569",
+    "value": "ORPHANET:217569",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:217569"
+    "codeDisplayOrNameValue": "hypertrophic cardiomyopathy"
   },
   {
     "subjectId": "MendCond065",
@@ -885,15 +885,15 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond066",
     "attributeId": "A158",
-    "value": "Orphanet:217569",
+    "value": "ORPHANET:217569",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:217569"
+    "codeDisplayOrNameValue": "hypertrophic cardiomyopathy"
   },
   {
     "subjectId": "MendCond066",
@@ -901,39 +901,39 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond067",
     "attributeId": "A158",
-    "value": "Orphanet:217569",
+    "value": "ORPHANET:217569",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:217569"
+    "codeDisplayOrNameValue": "hypertrophic cardiomyopathy"
   },
   {
     "subjectId": "MendCond068",
     "attributeId": "A158",
-    "value": "Orphanet:1340",
+    "value": "ORPHANET:1340",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:1340"
+    "codeDisplayOrNameValue": "cardiofaciocutaneous syndrome"
   },
   {
     "subjectId": "MendCond069",
     "attributeId": "A158",
-    "value": "Orphanet:1340",
+    "value": "ORPHANET:1340",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:1340"
+    "codeDisplayOrNameValue": "cardiofaciocutaneous syndrome"
   },
   {
     "subjectId": "MendCond070",
     "attributeId": "A158",
-    "value": "Orphanet:1340",
+    "value": "ORPHANET:1340",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:1340"
+    "codeDisplayOrNameValue": "cardiofaciocutaneous syndrome"
   },
   {
     "subjectId": "MendCond070",
@@ -941,15 +941,15 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond071",
     "attributeId": "A158",
-    "value": "Orphanet:886",
+    "value": "ORPHANET:886",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:886"
+    "codeDisplayOrNameValue": "Usher syndrome"
   },
   {
     "subjectId": "MendCond071",
@@ -957,15 +957,15 @@
     "value": "HP:0000007",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000007"
+    "codeDisplayOrNameValue": "Autosomal Recessive"
   },
   {
     "subjectId": "MendCond072",
     "attributeId": "A158",
-    "value": "Orphanet:558",
+    "value": "ORPHANET:558",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:558"
+    "codeDisplayOrNameValue": "Marfan Syndrome"
   },
   {
     "subjectId": "MendCond072",
@@ -973,15 +973,15 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond073",
     "attributeId": "A158",
-    "value": "Orphanet:145",
+    "value": "ORPHANET:145",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:145"
+    "codeDisplayOrNameValue": "hereditary breast and ovarian cancer syndrome"
   },
   {
     "subjectId": "MendCond073",
@@ -989,15 +989,15 @@
     "value": "hereditary breast and ovarian cancer",
     "attributeName": "name",
     "attributeType": "String",
-    "lookupValue": "hereditary breast and ovarian cancer"
+    "codeDisplayOrNameValue": "hereditary breast and ovarian cancer"
   },
   {
     "subjectId": "MendCond074",
     "attributeId": "A158",
-    "value": "Orphanet:247",
+    "value": "ORPHANET:247",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:247"
+    "codeDisplayOrNameValue": "arrhythmogenic right ventricular cardiomyopathy"
   },
   {
     "subjectId": "MendCond074",
@@ -1005,15 +1005,15 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   },
   {
     "subjectId": "MendCond075",
     "attributeId": "A158",
-    "value": "Orphanet:648",
+    "value": "ORPHANET:648",
     "attributeName": "disease",
     "attributeType": "CodeableConcept",
-    "lookupValue": "Orphanet:648"
+    "codeDisplayOrNameValue": "noonan syndrome"
   },
   {
     "subjectId": "MendCond075",
@@ -1021,6 +1021,6 @@
     "value": "HP:0000006",
     "attributeName": "modeOfInheritance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "HP:0000006"
+    "codeDisplayOrNameValue": "Autosomal Dominant"
   }
 ]
