@@ -69,7 +69,7 @@ class DMWGExampleData
       end
     end
 
-    # need to fix the types for Information and Activity subclasses
+    # need to fix the types for Information subclasses
     @flattened['Information'].each do |d_id, d_rec|
       begin
         @id2example[d_id]['cg:type'] = @flattened['Type'][d_rec['entityTypeId']]['name']
@@ -103,6 +103,17 @@ class DMWGExampleData
         end # value exists
       end # each row in sheet
     end # each sheet
+
+    # remove cg:id from types that are only internal (not dereferenceable)
+    @id2example.delete_if do |k, v|
+      if ['Gene', 'CodeableConcept', 'Coding', 'Contribution'].include? v['cg:type'] then
+        v.delete('cg:id')
+        true
+      else
+        false
+      end
+    end
+
   end # initialize
 
   private
