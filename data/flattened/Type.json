@@ -12,7 +12,6 @@
     "name": "MolecularConsequence",
     "parentType": "E01",
     "link": "MolCon",
-    "externalIRI": "so: ?",
     "description": "Classification of an Allele based on its effect on a product"
   },
   "E03": {
@@ -72,7 +71,6 @@
     "id": "E13",
     "name": "Example",
     "link": "Ex",
-    "externalIRI": "? should exist",
     "description": "An example selected to demonstrate a particular facet of the data model"
   },
   "E14": {
@@ -275,18 +273,6 @@
     "parentType": "E01",
     "link": "Conserv",
     "description": "Characterizes whether the allele is fixed across species"
-  },
-  "E52": {
-    "id": "E52",
-    "name": "Coding",
-    "link": "Code",
-    "notes": "Why is this here? dup of E42"
-  },
-  "E53": {
-    "id": "E53",
-    "name": "CodeableConcept",
-    "link": "CConcept",
-    "notes": "Why is this here? dup of E40"
   },
   "E54": {
     "id": "E54",

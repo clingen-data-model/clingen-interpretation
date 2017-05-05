@@ -13,7 +13,7 @@
     "value": "CondMech002",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech002: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] } }"
+    "derivedName": "CondMech002: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" } }"
   },
   {
     "subjectId": "EvLn002",
@@ -29,7 +29,7 @@
     "value": "CondMech004",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech004: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Breast Ovarian Cancer, Autosomal Dominant } }"
+    "derivedName": "CondMech004: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { Breast Ovarian Cancer, Autosomal Dominant } }"
   },
   {
     "subjectId": "EvLn003",
@@ -45,7 +45,7 @@
     "value": "CondMech007",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech007: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { dilated cardiomyopathy } }"
+    "derivedName": "CondMech007: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { dilated cardiomyopathy } }"
   },
   {
     "subjectId": "EvLn004",
@@ -61,7 +61,7 @@
     "value": "CondMech007",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech007: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { dilated cardiomyopathy } }"
+    "derivedName": "CondMech007: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { dilated cardiomyopathy } }"
   },
   {
     "subjectId": "EvLn005",
@@ -253,7 +253,7 @@
     "value": "RegAnn040",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "RegAnn040: { region: \"Loc379\", isTypes: { coding: [{ code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
+    "derivedName": "RegAnn040: { region: \"Loc379\", isTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   {
     "subjectId": "EvLn022",
@@ -269,7 +269,7 @@
     "value": "RegAnn043",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "RegAnn043: { region: \"Loc381\", isTypes: { coding: [{ code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
+    "derivedName": "RegAnn043: { region: \"Loc381\", isTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   {
     "subjectId": "EvLn023",
@@ -285,7 +285,7 @@
     "value": "RegAnn046",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "RegAnn046: { region: \"Loc383\", isTypes: { coding: [{ code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
+    "derivedName": "RegAnn046: { region: \"Loc383\", isTypes: { code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   {
     "subjectId": "EvLn024",
@@ -333,7 +333,7 @@
     "value": "BMVR102",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "BMVR102: { region: \"Loc383\", value: { coding: [{ code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }] } }"
+    "derivedName": "BMVR102: { region: \"Loc383\", value: { code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" } }"
   },
   {
     "subjectId": "EvLn025",
@@ -389,7 +389,7 @@
     "value": "IndAll058",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll058: { individual: { individual #004 }, primaryAllele: { NM_001369.2(DNAH5):c.7468_7488del }, secondaryAllele: { NM_001369.2(DNAH5):c.9449delG }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }, secondaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }, phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "derivedName": "IndAll058: { individual: { individual #004 }, primaryAllele: { NM_001369.2(DNAH5):c.7468_7488del }, secondaryAllele: { NM_001369.2(DNAH5):c.9449delG }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, secondaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   {
     "subjectId": "EvLn030",
@@ -413,7 +413,7 @@
     "value": "IndAll062",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll062: { individual: { individual #005 }, primaryAllele: { NM_133261.2(GIPC3):c.298G>A }, secondaryAllele: { NM_133261.2(GIPC3):c.411+1G>A }, primaryZygosity: \"CG-allelic-state:het\", secondaryZygosity: \"CG-allelic-state:het\", phase: \"CG-phase:trans\" }"
+    "derivedName": "IndAll062: { individual: { individual #005 }, primaryAllele: { NM_133261.2(GIPC3):c.298G>A }, secondaryAllele: { NM_133261.2(GIPC3):c.411+1G>A }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, secondaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   {
     "subjectId": "EvLn031",
@@ -429,7 +429,7 @@
     "value": "IndAll065",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll065: { individual: { individual #006 }, primaryAllele: { NM_000391.3(TTP1):c.1678_1679delCT }, primaryZygosity: \"CG-allelic-state:hom\" }"
+    "derivedName": "IndAll065: { individual: { individual #006 }, primaryAllele: { NM_000391.3(TTP1):c.1678_1679delCT }, primaryZygosity: { code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   {
     "subjectId": "EvLn032",
@@ -445,7 +445,7 @@
     "value": "RegAnn069",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "RegAnn069: { region: \"Loc385\", isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
+    "derivedName": "RegAnn069: { region: \"Loc385\", isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   {
     "subjectId": "EvLn033",
@@ -477,7 +477,7 @@
     "value": "RegAnn077",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "RegAnn077: { region: \"Loc387\", isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
+    "derivedName": "RegAnn077: { region: \"Loc387\", isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   {
     "subjectId": "EvLn035",
@@ -717,7 +717,7 @@
     "value": "CondMech118",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech118: { mechanism: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] } }"
+    "derivedName": "CondMech118: { mechanism: { code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" } }"
   },
   {
     "subjectId": "EvLn051",
@@ -725,7 +725,7 @@
     "value": "BMVR119",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "BMVR119: { value: { coding: [{ code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }] } }"
+    "derivedName": "BMVR119: { value: { code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" } }"
   },
   {
     "subjectId": "EvLn052",
@@ -1109,7 +1109,7 @@
     "value": "IndAll172",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll172: { individual: { individual #013 }, primaryAllele: { NM_001197104.1(KMT2A):c.6572G>A }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "derivedName": "IndAll172: { individual: { individual #013 }, primaryAllele: { NM_001197104.1(KMT2A):c.6572G>A }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   {
     "subjectId": "EvLn067",
@@ -1133,7 +1133,7 @@
     "value": "IndAll173",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll173: { primaryZygosity: \"Indiv014\", primaryAllele: { NM_001197104.1(KMT2A):c.6572G>A }, primaryZygosity: { coding: [{ code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "derivedName": "IndAll173: { primaryZygosity: \"Indiv014\", primaryAllele: { NM_001197104.1(KMT2A):c.6572G>A }, primaryZygosity: { code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   {
     "subjectId": "EvLn068",
@@ -1157,7 +1157,7 @@
     "value": "IndAll178",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll178: { individual: { individual #015 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "derivedName": "IndAll178: { individual: { individual #015 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   {
     "subjectId": "EvLn069",
@@ -1181,7 +1181,7 @@
     "value": "IndAll179",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll179: { individual: { individual #016 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "derivedName": "IndAll179: { individual: { individual #016 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   {
     "subjectId": "EvLn070",
@@ -1205,7 +1205,7 @@
     "value": "IndAll180",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll180: { individual: { individual #017 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "derivedName": "IndAll180: { individual: { individual #017 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   {
     "subjectId": "EvLn071",
@@ -1229,7 +1229,7 @@
     "value": "IndAll181",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll181: { individual: { individual #018 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "derivedName": "IndAll181: { individual: { individual #018 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   {
     "subjectId": "EvLn072",
@@ -1253,7 +1253,7 @@
     "value": "IndAll188",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll188: { individual: { individual #019 }, primaryAllele: { NM_000138.4(FBN1 ):c.2956G>A }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "derivedName": "IndAll188: { individual: { individual #019 }, primaryAllele: { NM_000138.4(FBN1 ):c.2956G>A }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   {
     "subjectId": "EvLn073",
@@ -1277,7 +1277,7 @@
     "value": "IndAll189",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll189: { individual: { individual #020 }, primaryAllele: { NM_000138.4(FBN1 ):c.2956G>A }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "derivedName": "IndAll189: { individual: { individual #020 }, primaryAllele: { NM_000138.4(FBN1 ):c.2956G>A }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   {
     "subjectId": "EvLn074",
@@ -1349,7 +1349,7 @@
     "value": "CondMech199",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech199: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { hereditary breast and ovarian cancer } }"
+    "derivedName": "CondMech199: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { hereditary breast and ovarian cancer } }"
   },
   {
     "subjectId": "EvLn082",
@@ -1365,7 +1365,7 @@
     "value": "CondMech200",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech200: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Fanconi Anemia } }"
+    "derivedName": "CondMech200: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { Fanconi Anemia } }"
   },
   {
     "subjectId": "EvLn083",
@@ -1381,7 +1381,7 @@
     "value": "CondMech202",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech202: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Hearing Loss, Autosomal Recessive } }"
+    "derivedName": "CondMech202: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { Hearing Loss, Autosomal Recessive } }"
   },
   {
     "subjectId": "EvLn084",
@@ -1397,7 +1397,7 @@
     "value": "CondMech204",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech204: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { dilated cardiomyopathy } }"
+    "derivedName": "CondMech204: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { dilated cardiomyopathy } }"
   },
   {
     "subjectId": "EvLn084",
@@ -1405,7 +1405,7 @@
     "value": "CondMech205",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech205: { mechanism: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { dilated cardiomyopathy } }"
+    "derivedName": "CondMech205: { mechanism: { code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { dilated cardiomyopathy } }"
   },
   {
     "subjectId": "EvLn085",
@@ -1413,7 +1413,7 @@
     "value": "IndAll206",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll206: { individual: { individual #021 }, primaryAllele: { NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser) }, secondaryAllele: { NM_206933.2(USH2A):c.2276G>T }, phase: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "derivedName": "IndAll206: { individual: { individual #021 }, primaryAllele: { NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser) }, secondaryAllele: { NM_206933.2(USH2A):c.2276G>T }, phase: { code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   {
     "subjectId": "EvLn085",
@@ -1437,7 +1437,7 @@
     "value": "IndAll207",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll207: { individual: { individual #022 }, primaryAllele: { NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser) }, secondaryAllele: { NM_206933.2(USH2A):c.2276G>T }, phase: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "derivedName": "IndAll207: { individual: { individual #022 }, primaryAllele: { NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser) }, secondaryAllele: { NM_206933.2(USH2A):c.2276G>T }, phase: { code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   {
     "subjectId": "EvLn086",
@@ -1461,7 +1461,7 @@
     "value": "IndAll211",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll211: { individual: { individual #023 }, primaryAllele: { NM_000492.3(CFTR): c.2002C>T }, secondaryAllele: { NP_000483.3:p.Gly576Ala }, phase: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "derivedName": "IndAll211: { individual: { individual #023 }, primaryAllele: { NM_000492.3(CFTR): c.2002C>T }, secondaryAllele: { NP_000483.3:p.Gly576Ala }, phase: { code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   {
     "subjectId": "EvLn087",
@@ -1485,7 +1485,7 @@
     "value": "IndAll214",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll214: { individual: { individual #024 }, primaryAllele: { NM_000257.2(MYH7): c.2559G>A }, secondaryAllele: { NM_000257.2(MYH7): c.2537A>G }, phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "derivedName": "IndAll214: { individual: { individual #024 }, primaryAllele: { NM_000257.2(MYH7): c.2559G>A }, secondaryAllele: { NM_000257.2(MYH7): c.2537A>G }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   {
     "subjectId": "EvLn088",
@@ -1517,7 +1517,7 @@
     "value": "RegAnn220",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "RegAnn220: { region: \"Loc390\", isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
+    "derivedName": "RegAnn220: { region: \"Loc390\", isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   {
     "subjectId": "EvLn089",
@@ -1541,7 +1541,7 @@
     "value": "RegAnn225",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "RegAnn225: { region: \"Loc392\", isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
+    "derivedName": "RegAnn225: { region: \"Loc392\", isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   {
     "subjectId": "EvLn090",
@@ -1565,7 +1565,7 @@
     "value": "RegAnn229",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "RegAnn229: { region: \"Loc394\", isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
+    "derivedName": "RegAnn229: { region: \"Loc394\", isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   {
     "subjectId": "EvLn091",
@@ -1693,7 +1693,7 @@
     "value": "IndAll245",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll245: { individual: { individual #026 }, primaryAllele: { NM_004004.5(GJB2):c.71G>A }, secondaryAllele: { NM_004004.5(GJB2):c.230G>A }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }, secondaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }, phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "derivedName": "IndAll245: { individual: { individual #026 }, primaryAllele: { NM_004004.5(GJB2):c.71G>A }, secondaryAllele: { NM_004004.5(GJB2):c.230G>A }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, secondaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   {
     "subjectId": "EvLn094",
@@ -1725,7 +1725,7 @@
     "value": "IndAll249",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll249: { individual: { individual #027 }, primaryAllele: { NM_022124.5(CDH23):c.5660C>T }, secondaryAllele: { NM_015404.3(WHRN):c.643delG }, secondaryZygosity: { coding: [{ code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "derivedName": "IndAll249: { individual: { individual #027 }, primaryAllele: { NM_022124.5(CDH23):c.5660C>T }, secondaryAllele: { NM_015404.3(WHRN):c.643delG }, secondaryZygosity: { code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   {
     "subjectId": "EvLn095",
@@ -1909,7 +1909,7 @@
     "value": "CondMech273",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech273: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, condition: { arrhythmogenic right ventricular cardiomyopathy }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] } }"
+    "derivedName": "CondMech273: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, condition: { arrhythmogenic right ventricular cardiomyopathy }, strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" } }"
   },
   {
     "subjectId": "EvLn104",
@@ -1949,7 +1949,7 @@
     "value": "IndAll366",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll366: { individual: { individual #029 }, primaryAllele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, secondaryAllele: { NM_000441.1(SLC26A4): c.626G>T }, phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "derivedName": "IndAll366: { individual: { individual #029 }, primaryAllele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, secondaryAllele: { NM_000441.1(SLC26A4): c.626G>T }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   {
     "subjectId": "EvLn106",
@@ -1957,7 +1957,7 @@
     "value": "IndAll367",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll367: { individual: { individual #029 }, primaryAllele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, secondaryAllele: { NM_000441.1(SLC26A4): c.1707+6T>C }, phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "derivedName": "IndAll367: { individual: { individual #029 }, primaryAllele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, secondaryAllele: { NM_000441.1(SLC26A4): c.1707+6T>C }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   {
     "subjectId": "EvLn106",
@@ -2485,7 +2485,7 @@
     "value": "BMVR161",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "BMVR161: { value: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }] } }"
+    "derivedName": "BMVR161: { value: { code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" } }"
   },
   {
     "subjectId": "EvLn132",
@@ -2501,6 +2501,6 @@
     "value": "CondMech165",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech165: { mechanism: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { arrhythmogenic right ventricular cardiomyopathy } }"
+    "derivedName": "CondMech165: { mechanism: { code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { arrhythmogenic right ventricular cardiomyopathy } }"
   }
 ]

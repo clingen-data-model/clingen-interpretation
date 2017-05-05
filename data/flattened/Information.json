@@ -9,7 +9,7 @@
     "id": "CondMech002",
     "entityTypeId": "E03",
     "explanation": "HNRNPU is not associated with any conditions, and therefore LOF is not an established mechanism of any condition for this gene.",
-    "thumbnail": "CondMech002: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] } }"
+    "thumbnail": "CondMech002: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" } }"
   },
   "MolCon003": {
     "id": "MolCon003",
@@ -21,7 +21,7 @@
     "id": "CondMech004",
     "entityTypeId": "E03",
     "explanation": "This is so well-known that it does not require a citation.",
-    "thumbnail": "CondMech004: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Breast Ovarian Cancer, Autosomal Dominant } }"
+    "thumbnail": "CondMech004: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { Breast Ovarian Cancer, Autosomal Dominant } }"
   },
   "MolCon005": {
     "id": "MolCon005",
@@ -37,7 +37,7 @@
   "CondMech007": {
     "id": "CondMech007",
     "entityTypeId": "E03",
-    "thumbnail": "CondMech007: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { dilated cardiomyopathy } }"
+    "thumbnail": "CondMech007: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { dilated cardiomyopathy } }"
   },
   "VarInterp008": {
     "id": "VarInterp008",
@@ -215,7 +215,7 @@
     "id": "RegAnn040",
     "entityTypeId": "E24",
     "explanation": "This region is the catalytic (kinase) domain.",
-    "thumbnail": "RegAnn040: { region: \"Loc379\", isTypes: { coding: [{ code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
+    "thumbnail": "RegAnn040: { region: \"Loc379\", isTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   "VarInterp041": {
     "id": "VarInterp041",
@@ -233,7 +233,7 @@
     "id": "RegAnn043",
     "entityTypeId": "E24",
     "explanation": "This region is exon 15 in the transcript, and codes the serine-threonine-protein kinase catalytic domain.",
-    "thumbnail": "RegAnn043: { region: \"Loc381\", isTypes: { coding: [{ code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
+    "thumbnail": "RegAnn043: { region: \"Loc381\", isTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   "VarInterp044": {
     "id": "VarInterp044",
@@ -251,7 +251,7 @@
     "id": "RegAnn046",
     "entityTypeId": "E24",
     "explanation": "Region(NM_0001692[996..1012]) is a mutational hotspot.",
-    "thumbnail": "RegAnn046: { region: \"Loc383\", isTypes: { coding: [{ code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
+    "thumbnail": "RegAnn046: { region: \"Loc383\", isTypes: { code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   "VarInterp047": {
     "id": "VarInterp047",
@@ -313,7 +313,7 @@
     "id": "IndAll058",
     "entityTypeId": "E28",
     "explanation": "Father was het for c.9449delG variant and negative for c.7468_7488del variant. Mother was het for c.7468_7488del variant and negative for c.9449delG variant. Thus, variants are in trans in this proband.",
-    "thumbnail": "IndAll058: { individual: { individual #004 }, primaryAllele: { NM_001369.2(DNAH5):c.7468_7488del }, secondaryAllele: { NM_001369.2(DNAH5):c.9449delG }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }, secondaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }, phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "thumbnail": "IndAll058: { individual: { individual #004 }, primaryAllele: { NM_001369.2(DNAH5):c.7468_7488del }, secondaryAllele: { NM_001369.2(DNAH5):c.9449delG }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, secondaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   "VarInterp059": {
     "id": "VarInterp059",
@@ -335,7 +335,7 @@
     "id": "IndAll062",
     "entityTypeId": "E28",
     "explanation": "Based on the NGS data, we are able to determine that c.298G>A and c.411+1G>A are in trans as no NGS reads carry both variants.",
-    "thumbnail": "IndAll062: { individual: { individual #005 }, primaryAllele: { NM_133261.2(GIPC3):c.298G>A }, secondaryAllele: { NM_133261.2(GIPC3):c.411+1G>A }, primaryZygosity: \"CG-allelic-state:het\", secondaryZygosity: \"CG-allelic-state:het\", phase: \"CG-phase:trans\" }"
+    "thumbnail": "IndAll062: { individual: { individual #005 }, primaryAllele: { NM_133261.2(GIPC3):c.298G>A }, secondaryAllele: { NM_133261.2(GIPC3):c.411+1G>A }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, secondaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   "VarInterp063": {
     "id": "VarInterp063",
@@ -351,7 +351,7 @@
   "IndAll065": {
     "id": "IndAll065",
     "entityTypeId": "E28",
-    "thumbnail": "IndAll065: { individual: { individual #006 }, primaryAllele: { NM_000391.3(TTP1):c.1678_1679delCT }, primaryZygosity: \"CG-allelic-state:hom\" }"
+    "thumbnail": "IndAll065: { individual: { individual #006 }, primaryAllele: { NM_000391.3(TTP1):c.1678_1679delCT }, primaryZygosity: { code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   "MolCon066": {
     "id": "MolCon066",
@@ -374,7 +374,7 @@
     "id": "RegAnn069",
     "entityTypeId": "E24",
     "explanation": "This is not a repreating region.",
-    "thumbnail": "RegAnn069: { region: \"Loc385\", isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
+    "thumbnail": "RegAnn069: { region: \"Loc385\", isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   "MolCon070": {
     "id": "MolCon070",
@@ -416,7 +416,7 @@
     "id": "RegAnn077",
     "entityTypeId": "E24",
     "explanation": "NP_003915.2[241..260] is repeating.",
-    "thumbnail": "RegAnn077: { region: \"Loc387\", isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
+    "thumbnail": "RegAnn077: { region: \"Loc387\", isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   "VarInterp078": {
     "id": "VarInterp078",
@@ -545,7 +545,7 @@
     "id": "BMVR102",
     "entityTypeId": "E43",
     "explanation": "ClinVar shows no benign missense variants in (or near) this region.  The closest is NM_000169.2:c.8T>C",
-    "thumbnail": "BMVR102: { region: \"Loc383\", value: { coding: [{ code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }] } }"
+    "thumbnail": "BMVR102: { region: \"Loc383\", value: { code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" } }"
   },
   "FamSegData103": {
     "id": "FamSegData103",
@@ -625,13 +625,13 @@
     "id": "CondMech118",
     "entityTypeId": "E03",
     "explanation": "Of 178 pathogenic  alleles in ClinVar, 149 are missense.",
-    "thumbnail": "CondMech118: { mechanism: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] } }"
+    "thumbnail": "CondMech118: { mechanism: { code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" } }"
   },
   "BMVR119": {
     "id": "BMVR119",
     "entityTypeId": "E43",
     "explanation": "Based on the gene size, ExAC expects 740 missense variants to be observed, but actually observes only 420, giving a z score of 6.5, which is in the top 0.02% of genes.",
-    "thumbnail": "BMVR119: { value: { coding: [{ code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }] } }"
+    "thumbnail": "BMVR119: { value: { code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" } }"
   },
   "InSilicoPred120": {
     "id": "InSilicoPred120",
@@ -848,7 +848,7 @@
     "id": "BMVR161",
     "entityTypeId": "E43",
     "explanation": "In LMM data alone, we have over 150 benign missense variants in TTN.",
-    "thumbnail": "BMVR161: { value: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }] } }"
+    "thumbnail": "BMVR161: { value: { code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" } }"
   },
   "AllFreq162": {
     "id": "AllFreq162",
@@ -869,7 +869,7 @@
     "id": "CondMech165",
     "entityTypeId": "E03",
     "explanation": "Taylor 2011 PMID:21810661",
-    "thumbnail": "CondMech165: { mechanism: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { arrhythmogenic right ventricular cardiomyopathy } }"
+    "thumbnail": "CondMech165: { mechanism: { code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { arrhythmogenic right ventricular cardiomyopathy } }"
   },
   "AllFreq166": {
     "id": "AllFreq166",
@@ -900,12 +900,12 @@
   "IndAll172": {
     "id": "IndAll172",
     "entityTypeId": "E28",
-    "thumbnail": "IndAll172: { individual: { individual #013 }, primaryAllele: { NM_001197104.1(KMT2A):c.6572G>A }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "thumbnail": "IndAll172: { individual: { individual #013 }, primaryAllele: { NM_001197104.1(KMT2A):c.6572G>A }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   "IndAll173": {
     "id": "IndAll173",
     "entityTypeId": "E28",
-    "thumbnail": "IndAll173: { primaryZygosity: \"Indiv014\", primaryAllele: { NM_001197104.1(KMT2A):c.6572G>A }, primaryZygosity: { coding: [{ code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "thumbnail": "IndAll173: { primaryZygosity: \"Indiv014\", primaryAllele: { NM_001197104.1(KMT2A):c.6572G>A }, primaryZygosity: { code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   "IndCond174": {
     "id": "IndCond174",
@@ -926,22 +926,22 @@
   "IndAll178": {
     "id": "IndAll178",
     "entityTypeId": "E28",
-    "thumbnail": "IndAll178: { individual: { individual #015 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "thumbnail": "IndAll178: { individual: { individual #015 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   "IndAll179": {
     "id": "IndAll179",
     "entityTypeId": "E28",
-    "thumbnail": "IndAll179: { individual: { individual #016 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "thumbnail": "IndAll179: { individual: { individual #016 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   "IndAll180": {
     "id": "IndAll180",
     "entityTypeId": "E28",
-    "thumbnail": "IndAll180: { individual: { individual #017 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "thumbnail": "IndAll180: { individual: { individual #017 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   "IndAll181": {
     "id": "IndAll181",
     "entityTypeId": "E28",
-    "thumbnail": "IndAll181: { individual: { individual #018 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "thumbnail": "IndAll181: { individual: { individual #018 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   "IndCond182": {
     "id": "IndCond182",
@@ -972,12 +972,12 @@
   "IndAll188": {
     "id": "IndAll188",
     "entityTypeId": "E28",
-    "thumbnail": "IndAll188: { individual: { individual #019 }, primaryAllele: { NM_000138.4(FBN1 ):c.2956G>A }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "thumbnail": "IndAll188: { individual: { individual #019 }, primaryAllele: { NM_000138.4(FBN1 ):c.2956G>A }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   "IndAll189": {
     "id": "IndAll189",
     "entityTypeId": "E28",
-    "thumbnail": "IndAll189: { individual: { individual #020 }, primaryAllele: { NM_000138.4(FBN1 ):c.2956G>A }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "thumbnail": "IndAll189: { individual: { individual #020 }, primaryAllele: { NM_000138.4(FBN1 ):c.2956G>A }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   "IndCond190": {
     "id": "IndCond190",
@@ -1031,13 +1031,13 @@
     "id": "CondMech199",
     "entityTypeId": "E03",
     "explanation": "ClinVar shows 421 variants in BRCA2 that are pathogenic for HBOC. 402 of these (~95%) are frameshift, nonsense, or splice-site variants.",
-    "thumbnail": "CondMech199: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { hereditary breast and ovarian cancer } }"
+    "thumbnail": "CondMech199: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { hereditary breast and ovarian cancer } }"
   },
   "CondMech200": {
     "id": "CondMech200",
     "entityTypeId": "E03",
     "explanation": "ClinVar shows 61 variants in BRCA2 that are pathogenic for Fanconi Anemia. 55 of these (~90%) are frameshift, nonsense, or splice-site variants.",
-    "thumbnail": "CondMech200: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Fanconi Anemia } }"
+    "thumbnail": "CondMech200: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { Fanconi Anemia } }"
   },
   "MolCon201": {
     "id": "MolCon201",
@@ -1048,7 +1048,7 @@
     "id": "CondMech202",
     "entityTypeId": "E03",
     "explanation": "shown in both humans and mouse models",
-    "thumbnail": "CondMech202: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { Hearing Loss, Autosomal Recessive } }"
+    "thumbnail": "CondMech202: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { Hearing Loss, Autosomal Recessive } }"
   },
   "MolCon203": {
     "id": "MolCon203",
@@ -1058,23 +1058,23 @@
   "CondMech204": {
     "id": "CondMech204",
     "entityTypeId": "E03",
-    "thumbnail": "CondMech204: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { dilated cardiomyopathy } }"
+    "thumbnail": "CondMech204: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { dilated cardiomyopathy } }"
   },
   "CondMech205": {
     "id": "CondMech205",
     "entityTypeId": "E03",
     "explanation": "Truncating variants in TTN are associated with DCM. However, if missense variants are located in the A-band, impact the A-band, or are in a highly expressed region, they can also be associated with DCM.",
-    "thumbnail": "CondMech205: { mechanism: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }, condition: { dilated cardiomyopathy } }"
+    "thumbnail": "CondMech205: { mechanism: { code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { dilated cardiomyopathy } }"
   },
   "IndAll206": {
     "id": "IndAll206",
     "entityTypeId": "E28",
-    "thumbnail": "IndAll206: { individual: { individual #021 }, primaryAllele: { NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser) }, secondaryAllele: { NM_206933.2(USH2A):c.2276G>T }, phase: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "thumbnail": "IndAll206: { individual: { individual #021 }, primaryAllele: { NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser) }, secondaryAllele: { NM_206933.2(USH2A):c.2276G>T }, phase: { code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   "IndAll207": {
     "id": "IndAll207",
     "entityTypeId": "E28",
-    "thumbnail": "IndAll207: { individual: { individual #022 }, primaryAllele: { NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser) }, secondaryAllele: { NM_206933.2(USH2A):c.2276G>T }, phase: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "thumbnail": "IndAll207: { individual: { individual #022 }, primaryAllele: { NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser) }, secondaryAllele: { NM_206933.2(USH2A):c.2276G>T }, phase: { code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   "IndCond208": {
     "id": "IndCond208",
@@ -1094,7 +1094,7 @@
   "IndAll211": {
     "id": "IndAll211",
     "entityTypeId": "E28",
-    "thumbnail": "IndAll211: { individual: { individual #023 }, primaryAllele: { NM_000492.3(CFTR): c.2002C>T }, secondaryAllele: { NP_000483.3:p.Gly576Ala }, phase: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "thumbnail": "IndAll211: { individual: { individual #023 }, primaryAllele: { NM_000492.3(CFTR): c.2002C>T }, secondaryAllele: { NP_000483.3:p.Gly576Ala }, phase: { code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   "IndCond212": {
     "id": "IndCond212",
@@ -1109,7 +1109,7 @@
   "IndAll214": {
     "id": "IndAll214",
     "entityTypeId": "E28",
-    "thumbnail": "IndAll214: { individual: { individual #024 }, primaryAllele: { NM_000257.2(MYH7): c.2559G>A }, secondaryAllele: { NM_000257.2(MYH7): c.2537A>G }, phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "thumbnail": "IndAll214: { individual: { individual #024 }, primaryAllele: { NM_000257.2(MYH7): c.2559G>A }, secondaryAllele: { NM_000257.2(MYH7): c.2537A>G }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   "IndCond215": {
     "id": "IndCond215",
@@ -1130,7 +1130,7 @@
     "id": "RegAnn220",
     "entityTypeId": "E24",
     "explanation": "region is repeating but does not have a known function.",
-    "thumbnail": "RegAnn220: { region: \"Loc390\", isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
+    "thumbnail": "RegAnn220: { region: \"Loc390\", isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   "MolCon223": {
     "id": "MolCon223",
@@ -1141,7 +1141,7 @@
     "id": "RegAnn225",
     "entityTypeId": "E24",
     "explanation": "The I-Band is a large region of repetitive Igg domains. ",
-    "thumbnail": "RegAnn225: { region: \"Loc392\", isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
+    "thumbnail": "RegAnn225: { region: \"Loc392\", isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   "MolCon227": {
     "id": "MolCon227",
@@ -1151,7 +1151,7 @@
   "RegAnn229": {
     "id": "RegAnn229",
     "entityTypeId": "E24",
-    "thumbnail": "RegAnn229: { region: \"Loc394\", isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] } }"
+    "thumbnail": "RegAnn229: { region: \"Loc394\", isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   "MolCon231": {
     "id": "MolCon231",
@@ -1226,7 +1226,7 @@
   "IndAll245": {
     "id": "IndAll245",
     "entityTypeId": "E28",
-    "thumbnail": "IndAll245: { individual: { individual #026 }, primaryAllele: { NM_004004.5(GJB2):c.71G>A }, secondaryAllele: { NM_004004.5(GJB2):c.230G>A }, primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }, secondaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }, phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "thumbnail": "IndAll245: { individual: { individual #026 }, primaryAllele: { NM_004004.5(GJB2):c.71G>A }, secondaryAllele: { NM_004004.5(GJB2):c.230G>A }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, secondaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   "IndCond246": {
     "id": "IndCond246",
@@ -1246,7 +1246,7 @@
   "IndAll249": {
     "id": "IndAll249",
     "entityTypeId": "E28",
-    "thumbnail": "IndAll249: { individual: { individual #027 }, primaryAllele: { NM_022124.5(CDH23):c.5660C>T }, secondaryAllele: { NM_015404.3(WHRN):c.643delG }, secondaryZygosity: { coding: [{ code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] } }"
+    "thumbnail": "IndAll249: { individual: { individual #027 }, primaryAllele: { NM_022124.5(CDH23):c.5660C>T }, secondaryAllele: { NM_015404.3(WHRN):c.643delG }, secondaryZygosity: { code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
   },
   "IndCond250": {
     "id": "IndCond250",
@@ -1373,7 +1373,7 @@
     "id": "CondMech273",
     "entityTypeId": "E03",
     "explanation": "Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/).",
-    "thumbnail": "CondMech273: { mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }, condition: { arrhythmogenic right ventricular cardiomyopathy }, strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] } }"
+    "thumbnail": "CondMech273: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, condition: { arrhythmogenic right ventricular cardiomyopathy }, strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" } }"
   },
   "VarInterp274": {
     "id": "VarInterp274",
@@ -1874,12 +1874,12 @@
   "IndAll366": {
     "id": "IndAll366",
     "entityTypeId": "E28",
-    "thumbnail": "IndAll366: { individual: { individual #029 }, primaryAllele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, secondaryAllele: { NM_000441.1(SLC26A4): c.626G>T }, phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "thumbnail": "IndAll366: { individual: { individual #029 }, primaryAllele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, secondaryAllele: { NM_000441.1(SLC26A4): c.626G>T }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   "IndAll367": {
     "id": "IndAll367",
     "entityTypeId": "E28",
-    "thumbnail": "IndAll367: { individual: { individual #029 }, primaryAllele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, secondaryAllele: { NM_000441.1(SLC26A4): c.1707+6T>C }, phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "thumbnail": "IndAll367: { individual: { individual #029 }, primaryAllele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, secondaryAllele: { NM_000441.1(SLC26A4): c.1707+6T>C }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
   },
   "IndCond368": {
     "id": "IndCond368",

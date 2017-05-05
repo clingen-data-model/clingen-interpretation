@@ -30,21 +30,21 @@
   {
     "subjectId": "CondMech002",
     "attributeId": "A002",
-    "value": "CC002",
+    "value": "SO:0002054",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanism",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }",
+    "attributeType": "Coding",
+    "lookupValue": "mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }",
     "Source": "Steven's Gene Curation Process, Literature Review, NMDPredictor, GeneReviews, GeneDX - GeneratedFrom"
   },
   {
     "subjectId": "CondMech002",
     "attributeId": "A003",
-    "value": "CC003",
+    "value": "CG-cond-mech-strength:established",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech002",
@@ -85,20 +85,20 @@
   {
     "subjectId": "CondMech004",
     "attributeId": "A002",
-    "value": "CC005",
+    "value": "SO:0002054",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanism",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "CondMech004",
     "attributeId": "A003",
-    "value": "CC006",
+    "value": "CG-cond-mech-strength:established",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech004",
@@ -175,20 +175,20 @@
   {
     "subjectId": "CondMech007",
     "attributeId": "A002",
-    "value": "CC009",
+    "value": "SO:0002054",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanism",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "CondMech007",
     "attributeId": "A003",
-    "value": "CC010",
+    "value": "CG-cond-mech-strength:established",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech007",
@@ -1462,11 +1462,11 @@
   {
     "subjectId": "RegAnn040",
     "attributeId": "A057",
-    "value": "CC027",
+    "value": "CG-reg-anno-type:functional",
     "evidenceDataName": "RegionAnnotation",
     "attributeName": "isTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "isTypes: { coding: [{ code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "isTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "VarInterp041",
@@ -1579,11 +1579,11 @@
   {
     "subjectId": "RegAnn043",
     "attributeId": "A057",
-    "value": "CC030",
+    "value": "CG-reg-anno-type:functional",
     "evidenceDataName": "RegionAnnotation",
     "attributeName": "isTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "isTypes: { coding: [{ code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "isTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "VarInterp044",
@@ -1723,11 +1723,11 @@
   {
     "subjectId": "RegAnn046",
     "attributeId": "A057",
-    "value": "CC033",
+    "value": "CG-reg-anno-type:hotspot",
     "evidenceDataName": "RegionAnnotation",
     "attributeName": "isTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "isTypes: { coding: [{ code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "isTypes: { code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "VarInterp047",
@@ -2263,29 +2263,29 @@
   {
     "subjectId": "IndAll058",
     "attributeId": "A068",
-    "value": "CC044",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
   },
   {
     "subjectId": "IndAll058",
     "attributeId": "A069",
-    "value": "CC045",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "secondaryZygosity",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "secondaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "secondaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
   },
   {
     "subjectId": "IndAll058",
     "attributeId": "A070",
-    "value": "CC046",
+    "value": "CG-phase:trans",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
   },
   {
     "subjectId": "IndAll058",
@@ -2416,29 +2416,29 @@
   {
     "subjectId": "IndAll062",
     "attributeId": "A068",
-    "value": "CC049",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "primaryZygosity: \"CG-allelic-state:het\""
+    "attributeType": "Coding",
+    "lookupValue": "primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
   },
   {
     "subjectId": "IndAll062",
     "attributeId": "A069",
-    "value": "CC050",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "secondaryZygosity",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "secondaryZygosity: \"CG-allelic-state:het\""
+    "attributeType": "Coding",
+    "lookupValue": "secondaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
   },
   {
     "subjectId": "IndAll062",
     "attributeId": "A070",
-    "value": "CC051",
+    "value": "CG-phase:trans",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "phase: \"CG-phase:trans\""
+    "attributeType": "Coding",
+    "lookupValue": "phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
   },
   {
     "subjectId": "VarInterp063",
@@ -2560,11 +2560,11 @@
   {
     "subjectId": "IndAll065",
     "attributeId": "A068",
-    "value": "CC053",
+    "value": "CG-allelic-state:hom",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "primaryZygosity: \"CG-allelic-state:hom\""
+    "attributeType": "Coding",
+    "lookupValue": "primaryZygosity: { code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
   },
   {
     "subjectId": "MolCon066",
@@ -2677,11 +2677,11 @@
   {
     "subjectId": "RegAnn069",
     "attributeId": "A057",
-    "value": "CC057",
+    "value": "CG-reg-anno-type:repeat",
     "evidenceDataName": "RegionAnnotation",
     "attributeName": "isTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "RegAnn069",
@@ -2794,11 +2794,11 @@
   {
     "subjectId": "RegAnn073",
     "attributeId": "A056",
-    "value": "CC059",
+    "value": "CG-reg-anno-type:repeat",
     "evidenceDataName": "RegionAnnotation",
     "attributeName": "isNotTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "isNotTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "isNotTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "MolCon074",
@@ -2911,11 +2911,11 @@
   {
     "subjectId": "RegAnn077",
     "attributeId": "A057",
-    "value": "CC062",
+    "value": "CG-reg-anno-type:repeat",
     "evidenceDataName": "RegionAnnotation",
     "attributeName": "isTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "VarInterp078",
@@ -3720,11 +3720,11 @@
   {
     "subjectId": "BMVR102",
     "attributeId": "A080",
-    "value": "CC069",
+    "value": "CG-ben-missense-var-rate:low",
     "evidenceDataName": "BenignMissenseVariationRate",
     "attributeName": "value",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "value: { coding: [{ code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "value: { code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }"
   },
   {
     "subjectId": "FamSegData103",
@@ -4341,20 +4341,20 @@
   {
     "subjectId": "CondMech118",
     "attributeId": "A002",
-    "value": "CC071",
+    "value": "SO:0001583",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanism",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "mechanism: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "mechanism: { code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "CondMech118",
     "attributeId": "A003",
-    "value": "CC072",
+    "value": "CG-cond-mech-strength:common",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "strength: { coding: [{ code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "strength: { code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech118",
@@ -4377,11 +4377,11 @@
   {
     "subjectId": "BMVR119",
     "attributeId": "A080",
-    "value": "CC073",
+    "value": "CG-ben-missense-var-rate:low",
     "evidenceDataName": "BenignMissenseVariationRate",
     "attributeName": "value",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "value: { coding: [{ code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "value: { code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }"
   },
   {
     "subjectId": "InSilicoPred120",
@@ -5952,11 +5952,11 @@
   {
     "subjectId": "BMVR161",
     "attributeId": "A080",
-    "value": "CC113",
+    "value": "CG-ben-missense-var-rate:high",
     "evidenceDataName": "BenignMissenseVariationRate",
     "attributeName": "value",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "value: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "value: { code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }"
   },
   {
     "subjectId": "AllFreq162",
@@ -6078,20 +6078,20 @@
   {
     "subjectId": "CondMech165",
     "attributeId": "A002",
-    "value": "CC117",
+    "value": "SO:0001583",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanism",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "mechanism: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "mechanism: { code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "CondMech165",
     "attributeId": "A003",
-    "value": "CC118",
+    "value": "CG-cond-mech-strength:common",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "strength: { coding: [{ code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "strength: { code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech165",
@@ -6276,11 +6276,11 @@
   {
     "subjectId": "IndAll172",
     "attributeId": "A068",
-    "value": "CC124",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
   },
   {
     "subjectId": "IndAll173",
@@ -6288,7 +6288,7 @@
     "value": "Indiv014",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
-    "attributeType": "CodeableConcept",
+    "attributeType": "Coding",
     "lookupValue": "primaryZygosity: \"Indiv014\""
   },
   {
@@ -6303,11 +6303,11 @@
   {
     "subjectId": "IndAll173",
     "attributeId": "A068",
-    "value": "CC125",
+    "value": "CG-allelic-state:hom",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "primaryZygosity: { coding: [{ code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "primaryZygosity: { code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
   },
   {
     "subjectId": "IndCond174",
@@ -6402,11 +6402,11 @@
   {
     "subjectId": "IndAll178",
     "attributeId": "A068",
-    "value": "CC127",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
   },
   {
     "subjectId": "IndAll179",
@@ -6429,11 +6429,11 @@
   {
     "subjectId": "IndAll179",
     "attributeId": "A068",
-    "value": "CC128",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
   },
   {
     "subjectId": "IndAll180",
@@ -6456,11 +6456,11 @@
   {
     "subjectId": "IndAll180",
     "attributeId": "A068",
-    "value": "CC129",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
   },
   {
     "subjectId": "IndAll181",
@@ -6483,11 +6483,11 @@
   {
     "subjectId": "IndAll181",
     "attributeId": "A068",
-    "value": "CC130",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
   },
   {
     "subjectId": "IndCond182",
@@ -6636,11 +6636,11 @@
   {
     "subjectId": "IndAll188",
     "attributeId": "A068",
-    "value": "CC132",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
   },
   {
     "subjectId": "IndAll189",
@@ -6663,11 +6663,11 @@
   {
     "subjectId": "IndAll189",
     "attributeId": "A068",
-    "value": "CC133",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
   },
   {
     "subjectId": "IndCond190",
@@ -7005,20 +7005,20 @@
   {
     "subjectId": "CondMech199",
     "attributeId": "A002",
-    "value": "CC139",
+    "value": "SO:0002054",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanism",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "CondMech199",
     "attributeId": "A003",
-    "value": "CC140",
+    "value": "CG-cond-mech-strength:primary",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech199",
@@ -7041,20 +7041,20 @@
   {
     "subjectId": "CondMech200",
     "attributeId": "A002",
-    "value": "CC141",
+    "value": "SO:0002054",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanism",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "CondMech200",
     "attributeId": "A003",
-    "value": "CC142",
+    "value": "CG-cond-mech-strength:primary",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech200",
@@ -7104,20 +7104,20 @@
   {
     "subjectId": "CondMech202",
     "attributeId": "A002",
-    "value": "CC144",
+    "value": "SO:0002054",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanism",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "CondMech202",
     "attributeId": "A003",
-    "value": "CC145",
+    "value": "CG-cond-mech-strength:primary",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech202",
@@ -7167,20 +7167,20 @@
   {
     "subjectId": "CondMech204",
     "attributeId": "A002",
-    "value": "CC147",
+    "value": "SO:0002054",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanism",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "CondMech204",
     "attributeId": "A003",
-    "value": "CC148",
+    "value": "CG-cond-mech-strength:primary",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "strength: { coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech204",
@@ -7203,20 +7203,20 @@
   {
     "subjectId": "CondMech205",
     "attributeId": "A002",
-    "value": "CC149",
+    "value": "SO:0001583",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanism",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "mechanism: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "mechanism: { code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "CondMech205",
     "attributeId": "A003",
-    "value": "CC150",
+    "value": "CG-cond-mech-strength:established",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech205",
@@ -7266,11 +7266,11 @@
   {
     "subjectId": "IndAll206",
     "attributeId": "A070",
-    "value": "CC151",
+    "value": "CG-phase:cis",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "phase: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "phase: { code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
   },
   {
     "subjectId": "IndAll207",
@@ -7302,11 +7302,11 @@
   {
     "subjectId": "IndAll207",
     "attributeId": "A070",
-    "value": "CC152",
+    "value": "CG-phase:cis",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "phase: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "phase: { code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
   },
   {
     "subjectId": "IndCond208",
@@ -7419,11 +7419,11 @@
   {
     "subjectId": "IndAll211",
     "attributeId": "A070",
-    "value": "CC154",
+    "value": "CG-phase:cis",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "phase: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "phase: { code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
   },
   {
     "subjectId": "IndCond212",
@@ -7509,11 +7509,11 @@
   {
     "subjectId": "IndAll214",
     "attributeId": "A070",
-    "value": "CC156",
+    "value": "CG-phase:trans",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
   },
   {
     "subjectId": "IndCond215",
@@ -7599,20 +7599,20 @@
   {
     "subjectId": "RegAnn220",
     "attributeId": "A056",
-    "value": "CC159",
+    "value": "CG-reg-anno-type:functional",
     "evidenceDataName": "RegionAnnotation",
     "attributeName": "isNotTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "isNotTypes: { coding: [{ code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "isNotTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "RegAnn220",
     "attributeId": "A057",
-    "value": "CC160",
+    "value": "CG-reg-anno-type:repeat",
     "evidenceDataName": "RegionAnnotation",
     "attributeName": "isTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "MolCon223",
@@ -7644,11 +7644,11 @@
   {
     "subjectId": "RegAnn225",
     "attributeId": "A057",
-    "value": "CC162",
+    "value": "CG-reg-anno-type:repeat",
     "evidenceDataName": "RegionAnnotation",
     "attributeName": "isTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "MolCon227",
@@ -7680,11 +7680,11 @@
   {
     "subjectId": "RegAnn229",
     "attributeId": "A057",
-    "value": "CC164",
+    "value": "CG-reg-anno-type:repeat",
     "evidenceDataName": "RegionAnnotation",
     "attributeName": "isTypes",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "isTypes: { coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "MolCon231",
@@ -8157,29 +8157,29 @@
   {
     "subjectId": "IndAll245",
     "attributeId": "A068",
-    "value": "CC176",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "primaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
   },
   {
     "subjectId": "IndAll245",
     "attributeId": "A069",
-    "value": "CC177",
+    "value": "CG-allelic-state:het",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "secondaryZygosity",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "secondaryZygosity: { coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "secondaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
   },
   {
     "subjectId": "IndAll245",
     "attributeId": "A070",
-    "value": "CC178",
+    "value": "CG-phase:trans",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
   },
   {
     "subjectId": "IndCond246",
@@ -8292,11 +8292,11 @@
   {
     "subjectId": "IndAll249",
     "attributeId": "A069",
-    "value": "CC181",
+    "value": "CG-allelic-state:hom",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "secondaryZygosity",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "secondaryZygosity: { coding: [{ code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "secondaryZygosity: { code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
   },
   {
     "subjectId": "IndCond250",
@@ -8976,11 +8976,11 @@
   {
     "subjectId": "CondMech273",
     "attributeId": "A002",
-    "value": "CC195",
+    "value": "SO:0002054",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanism",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "mechanism: { coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "CondMech273",
@@ -8994,11 +8994,11 @@
   {
     "subjectId": "CondMech273",
     "attributeId": "A003",
-    "value": "CC196",
+    "value": "CG-cond-mech-strength:established",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "strength",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "strength: { coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech273",
@@ -13818,11 +13818,11 @@
   {
     "subjectId": "IndAll366",
     "attributeId": "A070",
-    "value": "CC286",
+    "value": "CG-phase:trans",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
   },
   {
     "subjectId": "IndAll367",
@@ -13854,11 +13854,11 @@
   {
     "subjectId": "IndAll367",
     "attributeId": "A070",
-    "value": "CC287",
+    "value": "CG-phase:trans",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "phase: { coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
   },
   {
     "subjectId": "IndCond368",

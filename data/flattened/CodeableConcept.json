@@ -3,25 +3,9 @@
     "id": "CC001",
     "description": "coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }]"
   },
-  "CC002": {
-    "id": "CC002",
-    "description": "coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC003": {
-    "id": "CC003",
-    "description": "coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
-  },
   "CC004": {
     "id": "CC004",
     "description": "coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC005": {
-    "id": "CC005",
-    "description": "coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC006": {
-    "id": "CC006",
-    "description": "coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
   },
   "CC007": {
     "id": "CC007",
@@ -30,14 +14,6 @@
   "CC008": {
     "id": "CC008",
     "description": "coding: [{ code: \"0000191\", display: \"interior intron\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC009": {
-    "id": "CC009",
-    "description": "coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC010": {
-    "id": "CC010",
-    "description": "coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
   },
   "CC011": {
     "id": "CC011",
@@ -103,10 +79,6 @@
     "id": "CC026",
     "description": "coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }]"
   },
-  "CC027": {
-    "id": "CC027",
-    "description": "coding: [{ code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
-  },
   "CC028": {
     "id": "CC028",
     "description": "coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }]"
@@ -115,10 +87,6 @@
     "id": "CC029",
     "description": "coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }]"
   },
-  "CC030": {
-    "id": "CC030",
-    "description": "coding: [{ code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
-  },
   "CC031": {
     "id": "CC031",
     "description": "coding: [{ code: \"LA26334-5\", display: \"Likely Benign\", system: \"http://loinc.org/\" }]"
@@ -126,10 +94,6 @@
   "CC032": {
     "id": "CC032",
     "description": "coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }]"
-  },
-  "CC033": {
-    "id": "CC033",
-    "description": "coding: [{ code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
   },
   "CC034": {
     "id": "CC034",
@@ -171,18 +135,6 @@
     "id": "CC043",
     "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
   },
-  "CC044": {
-    "id": "CC044",
-    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
-  },
-  "CC045": {
-    "id": "CC045",
-    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
-  },
-  "CC046": {
-    "id": "CC046",
-    "description": "coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
-  },
   "CC047": {
     "id": "CC047",
     "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
@@ -191,25 +143,9 @@
     "id": "CC048",
     "description": "coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }]"
   },
-  "CC049": {
-    "id": "CC049",
-    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
-  },
-  "CC050": {
-    "id": "CC050",
-    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
-  },
-  "CC051": {
-    "id": "CC051",
-    "description": "coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
-  },
   "CC052": {
     "id": "CC052",
     "description": "coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }]"
-  },
-  "CC053": {
-    "id": "CC053",
-    "description": "coding: [{ code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
   },
   "CC054": {
     "id": "CC054",
@@ -223,17 +159,9 @@
     "id": "CC056",
     "description": "coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }]"
   },
-  "CC057": {
-    "id": "CC057",
-    "description": "coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
-  },
   "CC058": {
     "id": "CC058",
     "description": "coding: [{ code: \"0001825\", display: \"Conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC059": {
-    "id": "CC059",
-    "description": "coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
   },
   "CC060": {
     "id": "CC060",
@@ -242,10 +170,6 @@
   "CC061": {
     "id": "CC061",
     "description": "coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC062": {
-    "id": "CC062",
-    "description": "coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
   },
   "CC063": {
     "id": "CC063",
@@ -271,25 +195,9 @@
     "id": "CC068",
     "description": "coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }]"
   },
-  "CC069": {
-    "id": "CC069",
-    "description": "coding: [{ code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }]"
-  },
   "CC070": {
     "id": "CC070",
     "description": "coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC071": {
-    "id": "CC071",
-    "description": "coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC072": {
-    "id": "CC072",
-    "description": "coding: [{ code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
-  },
-  "CC073": {
-    "id": "CC073",
-    "description": "coding: [{ code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }]"
   },
   "CC074": {
     "id": "CC074",
@@ -447,10 +355,6 @@
     "id": "CC112",
     "description": "coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }]"
   },
-  "CC113": {
-    "id": "CC113",
-    "description": "coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }]"
-  },
   "CC114": {
     "id": "CC114",
     "description": "coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }]"
@@ -462,14 +366,6 @@
   "CC116": {
     "id": "CC116",
     "description": "coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }]"
-  },
-  "CC117": {
-    "id": "CC117",
-    "description": "coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC118": {
-    "id": "CC118",
-    "description": "coding: [{ code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
   },
   "CC119": {
     "id": "CC119",
@@ -491,45 +387,13 @@
     "id": "CC123",
     "description": "coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }]"
   },
-  "CC124": {
-    "id": "CC124",
-    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
-  },
-  "CC125": {
-    "id": "CC125",
-    "description": "coding: [{ code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
-  },
   "CC126": {
     "id": "CC126",
     "description": "coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }]"
   },
-  "CC127": {
-    "id": "CC127",
-    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
-  },
-  "CC128": {
-    "id": "CC128",
-    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
-  },
-  "CC129": {
-    "id": "CC129",
-    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
-  },
-  "CC130": {
-    "id": "CC130",
-    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
-  },
   "CC131": {
     "id": "CC131",
     "description": "coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }]"
-  },
-  "CC132": {
-    "id": "CC132",
-    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
-  },
-  "CC133": {
-    "id": "CC133",
-    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
   },
   "CC134": {
     "id": "CC134",
@@ -551,77 +415,21 @@
     "id": "CC138",
     "description": "coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }]"
   },
-  "CC139": {
-    "id": "CC139",
-    "description": "coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC140": {
-    "id": "CC140",
-    "description": "coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
-  },
-  "CC141": {
-    "id": "CC141",
-    "description": "coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC142": {
-    "id": "CC142",
-    "description": "coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
-  },
   "CC143": {
     "id": "CC143",
     "description": "coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC144": {
-    "id": "CC144",
-    "description": "coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC145": {
-    "id": "CC145",
-    "description": "coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
   },
   "CC146": {
     "id": "CC146",
     "description": "coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }]"
   },
-  "CC147": {
-    "id": "CC147",
-    "description": "coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC148": {
-    "id": "CC148",
-    "description": "coding: [{ code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
-  },
-  "CC149": {
-    "id": "CC149",
-    "description": "coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC150": {
-    "id": "CC150",
-    "description": "coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
-  },
-  "CC151": {
-    "id": "CC151",
-    "description": "coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
-  },
-  "CC152": {
-    "id": "CC152",
-    "description": "coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
-  },
   "CC153": {
     "id": "CC153",
-    "description": "coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
-  },
-  "CC154": {
-    "id": "CC154",
     "description": "coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
   },
   "CC155": {
     "id": "CC155",
     "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
-  },
-  "CC156": {
-    "id": "CC156",
-    "description": "coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
   },
   "CC157": {
     "id": "CC157",
@@ -631,29 +439,13 @@
     "id": "CC158",
     "description": "coding: [{ code: \"incomplete\", display: \"Incomplete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }]"
   },
-  "CC159": {
-    "id": "CC159",
-    "description": "coding: [{ code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
-  },
-  "CC160": {
-    "id": "CC160",
-    "description": "coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
-  },
   "CC161": {
     "id": "CC161",
     "description": "coding: [{ code: \"0001825\", display: \"Conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }]"
   },
-  "CC162": {
-    "id": "CC162",
-    "description": "coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
-  },
   "CC163": {
     "id": "CC163",
     "description": "coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC164": {
-    "id": "CC164",
-    "description": "coding: [{ code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }]"
   },
   "CC165": {
     "id": "CC165",
@@ -699,18 +491,6 @@
     "id": "CC175",
     "description": "coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }]"
   },
-  "CC176": {
-    "id": "CC176",
-    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
-  },
-  "CC177": {
-    "id": "CC177",
-    "description": "coding: [{ code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
-  },
-  "CC178": {
-    "id": "CC178",
-    "description": "coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
-  },
   "CC179": {
     "id": "CC179",
     "description": "coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }]"
@@ -718,10 +498,6 @@
   "CC180": {
     "id": "CC180",
     "description": "coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }]"
-  },
-  "CC181": {
-    "id": "CC181",
-    "description": "coding: [{ code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }]"
   },
   "CC182": {
     "id": "CC182",
@@ -774,14 +550,6 @@
   "CC194": {
     "id": "CC194",
     "description": "coding: [{ code: \"0001629\", display: \"splice-site variant\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC195": {
-    "id": "CC195",
-    "description": "coding: [{ code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }]"
-  },
-  "CC196": {
-    "id": "CC196",
-    "description": "coding: [{ code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }]"
   },
   "CC197": {
     "id": "CC197",
@@ -1138,14 +906,6 @@
   "CC285": {
     "id": "CC285",
     "description": "coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }]"
-  },
-  "CC286": {
-    "id": "CC286",
-    "description": "coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
-  },
-  "CC287": {
-    "id": "CC287",
-    "description": "coding: [{ code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }]"
   },
   "CC288": {
     "id": "CC288",
