@@ -53,7 +53,8 @@ $dmwg_examples = DMWGExampleData.new('data/flattened')
 
 # build raw json versions of the examples
 $dmwg_examples.by_id.each do |k,v|
-  proxy "/json/#{k}.json", "/json/template.json", :locals => { :object => v }, :ignore => true
+  proxy "/json/#{k}", "/json/template.json", :locals => { :object => v },
+    :ignore => true, :layout => false, :directory_indexes => true
 end
 
 helpers do

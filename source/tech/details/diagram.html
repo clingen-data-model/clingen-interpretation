@@ -175,7 +175,7 @@ function render_diagram(data) {
 if (window.location.hash) {
   var exampleId = window.location.hash.substring(1);
   var req = new XMLHttpRequest();
-  var url = '../../json/' + exampleId + '.json';
+  var url = '../../json/' + exampleId;
   req.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
       window['cyto'] = render_diagram(JSON.parse(this.responseText))

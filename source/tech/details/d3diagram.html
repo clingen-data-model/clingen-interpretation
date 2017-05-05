@@ -55,7 +55,7 @@ text.link-label {
 var diagram = {};
 if (window.location.hash) {
   var exampleId = window.location.hash.substring(1);
-  d3.json('../../json/' + exampleId + '.json', function(error, tree) {
+  d3.json('../../json/' + exampleId, function(error, tree) {
     if (error) throw error
     diagram = new DmwgDiagram(tree);
     diagram.update();
