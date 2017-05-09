@@ -44,7 +44,8 @@
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }",
+    "Source": "Steven's Gene Curation Process, Literature Review, NMDPredictor, GeneReviews, GeneDX - GeneratedFrom"
   },
   {
     "subjectId": "CondMech002",
@@ -53,7 +54,8 @@
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "gene",
     "attributeType": "Gene",
-    "lookupValue": "gene: { HNRNPU }"
+    "lookupValue": "gene: { HNRNPU }",
+    "Source": "Steven's Gene Curation Process, Literature Review, NMDPredictor, GeneReviews, GeneDX - GeneratedFrom"
   },
   {
     "subjectId": "MolCon003",
@@ -229,11 +231,11 @@
   {
     "subjectId": "VarInterp008",
     "attributeId": "A124",
-    "value": "CC011",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC011\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp009",
@@ -256,11 +258,11 @@
   {
     "subjectId": "VarInterp009",
     "attributeId": "A124",
-    "value": "CC012",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC012\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp010",
@@ -283,11 +285,11 @@
   {
     "subjectId": "VarInterp010",
     "attributeId": "A124",
-    "value": "CC013",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC013\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp011",
@@ -310,11 +312,11 @@
   {
     "subjectId": "VarInterp011",
     "attributeId": "A124",
-    "value": "CC014",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC014\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "IndCond012",
@@ -1489,11 +1491,11 @@
   {
     "subjectId": "VarInterp041",
     "attributeId": "A124",
-    "value": "CC028",
+    "value": "LN:LA6675-8",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC028\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp041",
@@ -1552,11 +1554,11 @@
   {
     "subjectId": "VarInterp042",
     "attributeId": "A124",
-    "value": "CC029",
+    "value": "LN:LA26333-7",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC029\""
+    "lookupValue": "clinicalSignificance: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp042",
@@ -1597,11 +1599,11 @@
   {
     "subjectId": "VarInterp044",
     "attributeId": "A124",
-    "value": "CC031",
+    "value": "LN:LA26334-5",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC031\""
+    "lookupValue": "clinicalSignificance: { code: \"LA26334-5\", display: \"Likely Benign\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp044",
@@ -1669,11 +1671,11 @@
   {
     "subjectId": "VarInterp045",
     "attributeId": "A124",
-    "value": "CC032",
+    "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC032\""
+    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp045",
@@ -1750,11 +1752,11 @@
   {
     "subjectId": "VarInterp047",
     "attributeId": "A124",
-    "value": "CC034",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC034\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp048",
@@ -1777,11 +1779,11 @@
   {
     "subjectId": "VarInterp048",
     "attributeId": "A124",
-    "value": "CC035",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC035\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp049",
@@ -1804,11 +1806,11 @@
   {
     "subjectId": "VarInterp049",
     "attributeId": "A124",
-    "value": "CC036",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC036\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp050",
@@ -1831,11 +1833,11 @@
   {
     "subjectId": "VarInterp050",
     "attributeId": "A124",
-    "value": "CC037",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC037\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "AllFreq051",
@@ -2119,11 +2121,11 @@
   {
     "subjectId": "VarInterp055",
     "attributeId": "A124",
-    "value": "CC042",
+    "value": "LN:LA26333-7",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC042\""
+    "lookupValue": "clinicalSignificance: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp055",
@@ -2218,11 +2220,11 @@
   {
     "subjectId": "VarInterp057",
     "attributeId": "A124",
-    "value": "CC043",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC043\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp057",
@@ -2317,11 +2319,11 @@
   {
     "subjectId": "VarInterp059",
     "attributeId": "A124",
-    "value": "CC047",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "clinicalSignificance: \"\""
   },
   {
     "subjectId": "VarInterp060",
@@ -2344,11 +2346,11 @@
   {
     "subjectId": "VarInterp060",
     "attributeId": "A124",
-    "value": "CC048",
+    "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "clinicalSignificance: \"\""
   },
   {
     "subjectId": "VarInterp060",
@@ -2420,7 +2422,7 @@
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "Coding",
-    "lookupValue": "primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
+    "lookupValue": "primaryZygosity: \"\""
   },
   {
     "subjectId": "IndAll062",
@@ -2429,7 +2431,7 @@
     "evidenceDataName": "IndividualAllele",
     "attributeName": "secondaryZygosity",
     "attributeType": "Coding",
-    "lookupValue": "secondaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
+    "lookupValue": "secondaryZygosity: \"\""
   },
   {
     "subjectId": "IndAll062",
@@ -2438,7 +2440,7 @@
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "Coding",
-    "lookupValue": "phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
+    "lookupValue": "phase: \"\""
   },
   {
     "subjectId": "VarInterp063",
@@ -2461,11 +2463,11 @@
   {
     "subjectId": "VarInterp063",
     "attributeId": "A124",
-    "value": "CC052",
+    "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "clinicalSignificance: \"\""
   },
   {
     "subjectId": "VarInterp063",
@@ -2564,7 +2566,7 @@
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "Coding",
-    "lookupValue": "primaryZygosity: { code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
+    "lookupValue": "primaryZygosity: \"\""
   },
   {
     "subjectId": "MolCon066",
@@ -2938,11 +2940,11 @@
   {
     "subjectId": "VarInterp078",
     "attributeId": "A124",
-    "value": "CC063",
+    "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC063\""
+    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp078",
@@ -2974,11 +2976,11 @@
   {
     "subjectId": "VarInterp079",
     "attributeId": "A124",
-    "value": "CC064",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC064\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp079",
@@ -3010,11 +3012,11 @@
   {
     "subjectId": "VarInterp080",
     "attributeId": "A124",
-    "value": "CC065",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC065\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp081",
@@ -3037,11 +3039,11 @@
   {
     "subjectId": "VarInterp081",
     "attributeId": "A124",
-    "value": "CC066",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC066\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "AllFreq082",
@@ -5466,11 +5468,11 @@
   {
     "subjectId": "VarInterp150",
     "attributeId": "A124",
-    "value": "CC102",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC102\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp151",
@@ -5493,11 +5495,11 @@
   {
     "subjectId": "VarInterp151",
     "attributeId": "A124",
-    "value": "CC103",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC103\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp152",
@@ -5520,11 +5522,11 @@
   {
     "subjectId": "VarInterp152",
     "attributeId": "A124",
-    "value": "CC104",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC104\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "AllFreq153",
@@ -5736,11 +5738,11 @@
   {
     "subjectId": "CritAssess156",
     "attributeId": "A116",
-    "value": "CC108",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC108\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess156",
@@ -7383,11 +7385,11 @@
   {
     "subjectId": "VarInterp210",
     "attributeId": "A124",
-    "value": "CC153",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC153\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "IndAll211",
@@ -7473,11 +7475,11 @@
   {
     "subjectId": "VarInterp213",
     "attributeId": "A124",
-    "value": "CC155",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC155\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "IndAll214",
@@ -7563,11 +7565,11 @@
   {
     "subjectId": "VarInterp216",
     "attributeId": "A124",
-    "value": "CC157",
+    "value": "LN:LA26333-7",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC157\""
+    "lookupValue": "clinicalSignificance: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "CondPenet218",
@@ -8103,11 +8105,11 @@
   {
     "subjectId": "VarInterp243",
     "attributeId": "A124",
-    "value": "CC175",
+    "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC175\""
+    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "IndAll244",
@@ -8229,11 +8231,11 @@
   {
     "subjectId": "VarInterp247",
     "attributeId": "A124",
-    "value": "CC179",
+    "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC179\""
+    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp248",
@@ -8256,11 +8258,11 @@
   {
     "subjectId": "VarInterp248",
     "attributeId": "A124",
-    "value": "CC180",
+    "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC180\""
+    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "IndAll249",
@@ -8346,11 +8348,11 @@
   {
     "subjectId": "VarInterp251",
     "attributeId": "A124",
-    "value": "CC182",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC182\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "IndCond252",
@@ -8427,11 +8429,11 @@
   {
     "subjectId": "VarInterp254",
     "attributeId": "A124",
-    "value": "CC183",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC183\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp255",
@@ -8454,11 +8456,11 @@
   {
     "subjectId": "VarInterp255",
     "attributeId": "A124",
-    "value": "CC184",
+    "value": "LN:LA6675-8",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC184\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp256",
@@ -8481,11 +8483,11 @@
   {
     "subjectId": "VarInterp256",
     "attributeId": "A124",
-    "value": "CC185",
+    "value": "LN:LA6675-8",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC185\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp257",
@@ -8508,11 +8510,11 @@
   {
     "subjectId": "VarInterp257",
     "attributeId": "A124",
-    "value": "CC186",
+    "value": "LN:LA6675-8",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC186\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "InSilicoPred258",
@@ -8886,11 +8888,11 @@
   {
     "subjectId": "VarInterp270",
     "attributeId": "A124",
-    "value": "CC193",
+    "value": "LN:LA26333-7",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC193\""
+    "lookupValue": "clinicalSignificance: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "FamSegData271",
@@ -9030,11 +9032,11 @@
   {
     "subjectId": "VarInterp274",
     "attributeId": "A124",
-    "value": "CC197",
+    "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC197\""
+    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp274",
@@ -9102,11 +9104,11 @@
   {
     "subjectId": "CritAssess275",
     "attributeId": "A116",
-    "value": "CC198",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC198\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess275",
@@ -9156,11 +9158,11 @@
   {
     "subjectId": "CritAssess276",
     "attributeId": "A116",
-    "value": "CC199",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC199\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess276",
@@ -9210,11 +9212,11 @@
   {
     "subjectId": "CritAssess277",
     "attributeId": "A116",
-    "value": "CC200",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC200\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess277",
@@ -9273,11 +9275,11 @@
   {
     "subjectId": "CritAssess278",
     "attributeId": "A116",
-    "value": "CC201",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC201\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess278",
@@ -9327,11 +9329,11 @@
   {
     "subjectId": "CritAssess279",
     "attributeId": "A116",
-    "value": "CC202",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC202\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess279",
@@ -9381,11 +9383,11 @@
   {
     "subjectId": "CritAssess280",
     "attributeId": "A116",
-    "value": "CC203",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC203\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess280",
@@ -9453,11 +9455,11 @@
   {
     "subjectId": "CritAssess281",
     "attributeId": "A116",
-    "value": "CC204",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC204\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess281",
@@ -9507,11 +9509,11 @@
   {
     "subjectId": "CritAssess282",
     "attributeId": "A116",
-    "value": "CC205",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC205\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess282",
@@ -9561,11 +9563,11 @@
   {
     "subjectId": "CritAssess283",
     "attributeId": "A116",
-    "value": "CC206",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC206\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess283",
@@ -9606,11 +9608,11 @@
   {
     "subjectId": "CritAssess284",
     "attributeId": "A116",
-    "value": "CC207",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC207\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess284",
@@ -9687,11 +9689,11 @@
   {
     "subjectId": "CritAssess285",
     "attributeId": "A116",
-    "value": "CC208",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC208\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess285",
@@ -9741,11 +9743,11 @@
   {
     "subjectId": "CritAssess286",
     "attributeId": "A116",
-    "value": "CC209",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC209\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess286",
@@ -9813,11 +9815,11 @@
   {
     "subjectId": "CritAssess287",
     "attributeId": "A116",
-    "value": "CC210",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC210\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess287",
@@ -9867,11 +9869,11 @@
   {
     "subjectId": "CritAssess288",
     "attributeId": "A116",
-    "value": "CC211",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC211\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess288",
@@ -9921,11 +9923,11 @@
   {
     "subjectId": "CritAssess289",
     "attributeId": "A116",
-    "value": "CC212",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC212\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess289",
@@ -9966,11 +9968,11 @@
   {
     "subjectId": "CritAssess290",
     "attributeId": "A116",
-    "value": "CC213",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC213\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess290",
@@ -10011,11 +10013,11 @@
   {
     "subjectId": "CritAssess291",
     "attributeId": "A116",
-    "value": "CC214",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC214\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess291",
@@ -10065,11 +10067,11 @@
   {
     "subjectId": "CritAssess292",
     "attributeId": "A116",
-    "value": "CC215",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC215\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess292",
@@ -10110,11 +10112,11 @@
   {
     "subjectId": "CritAssess293",
     "attributeId": "A116",
-    "value": "CC216",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC216\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess293",
@@ -10164,11 +10166,11 @@
   {
     "subjectId": "CritAssess294",
     "attributeId": "A116",
-    "value": "CC217",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC217\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess294",
@@ -10209,11 +10211,11 @@
   {
     "subjectId": "CritAssess295",
     "attributeId": "A116",
-    "value": "CC218",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC218\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess295",
@@ -10263,11 +10265,11 @@
   {
     "subjectId": "CritAssess296",
     "attributeId": "A116",
-    "value": "CC219",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC219\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess296",
@@ -10317,11 +10319,11 @@
   {
     "subjectId": "CritAssess297",
     "attributeId": "A116",
-    "value": "CC220",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC220\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess297",
@@ -10371,11 +10373,11 @@
   {
     "subjectId": "CritAssess298",
     "attributeId": "A116",
-    "value": "CC221",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC221\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess298",
@@ -10416,11 +10418,11 @@
   {
     "subjectId": "CritAssess299",
     "attributeId": "A116",
-    "value": "CC222",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC222\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess299",
@@ -10461,11 +10463,11 @@
   {
     "subjectId": "CritAssess300",
     "attributeId": "A116",
-    "value": "CC223",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC223\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess300",
@@ -10506,11 +10508,11 @@
   {
     "subjectId": "CritAssess301",
     "attributeId": "A116",
-    "value": "CC224",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC224\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess301",
@@ -10560,11 +10562,11 @@
   {
     "subjectId": "CritAssess302",
     "attributeId": "A116",
-    "value": "CC225",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC225\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess302",
@@ -10632,11 +10634,11 @@
   {
     "subjectId": "CritAssess303",
     "attributeId": "A116",
-    "value": "CC226",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC226\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess303",
@@ -10686,11 +10688,11 @@
   {
     "subjectId": "CritAssess304",
     "attributeId": "A116",
-    "value": "CC227",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC227\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess304",
@@ -10731,11 +10733,11 @@
   {
     "subjectId": "CritAssess305",
     "attributeId": "A116",
-    "value": "CC228",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC228\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess305",
@@ -10794,11 +10796,11 @@
   {
     "subjectId": "CritAssess306",
     "attributeId": "A116",
-    "value": "CC229",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC229\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess306",
@@ -10866,11 +10868,11 @@
   {
     "subjectId": "CritAssess307",
     "attributeId": "A116",
-    "value": "CC230",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC230\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess307",
@@ -10920,11 +10922,11 @@
   {
     "subjectId": "CritAssess308",
     "attributeId": "A116",
-    "value": "CC231",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC231\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess308",
@@ -10992,11 +10994,11 @@
   {
     "subjectId": "CritAssess309",
     "attributeId": "A116",
-    "value": "CC232",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC232\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess309",
@@ -11046,11 +11048,11 @@
   {
     "subjectId": "CritAssess310",
     "attributeId": "A116",
-    "value": "CC233",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC233\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess310",
@@ -11100,11 +11102,11 @@
   {
     "subjectId": "CritAssess311",
     "attributeId": "A116",
-    "value": "CC234",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC234\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess311",
@@ -11154,11 +11156,11 @@
   {
     "subjectId": "CritAssess312",
     "attributeId": "A116",
-    "value": "CC235",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC235\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess312",
@@ -11199,11 +11201,11 @@
   {
     "subjectId": "CritAssess313",
     "attributeId": "A116",
-    "value": "CC236",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC236\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess313",
@@ -11244,11 +11246,11 @@
   {
     "subjectId": "CritAssess314",
     "attributeId": "A116",
-    "value": "CC237",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC237\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess314",
@@ -11298,11 +11300,11 @@
   {
     "subjectId": "CritAssess315",
     "attributeId": "A116",
-    "value": "CC238",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC238\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess315",
@@ -11343,11 +11345,11 @@
   {
     "subjectId": "CritAssess316",
     "attributeId": "A116",
-    "value": "CC239",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC239\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess316",
@@ -11397,11 +11399,11 @@
   {
     "subjectId": "CritAssess318",
     "attributeId": "A116",
-    "value": "CC240",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC240\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess318",
@@ -11460,11 +11462,11 @@
   {
     "subjectId": "CritAssess319",
     "attributeId": "A116",
-    "value": "CC241",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC241\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess319",
@@ -11514,11 +11516,11 @@
   {
     "subjectId": "CritAssess320",
     "attributeId": "A116",
-    "value": "CC242",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC242\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess320",
@@ -11568,11 +11570,11 @@
   {
     "subjectId": "CritAssess321",
     "attributeId": "A116",
-    "value": "CC243",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC243\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess321",
@@ -11622,11 +11624,11 @@
   {
     "subjectId": "CritAssess322",
     "attributeId": "A116",
-    "value": "CC244",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC244\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess322",
@@ -11667,11 +11669,11 @@
   {
     "subjectId": "CritAssess323",
     "attributeId": "A116",
-    "value": "CC245",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC245\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess323",
@@ -11712,11 +11714,11 @@
   {
     "subjectId": "CritAssess324",
     "attributeId": "A116",
-    "value": "CC246",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC246\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess324",
@@ -11775,11 +11777,11 @@
   {
     "subjectId": "CritAssess325",
     "attributeId": "A116",
-    "value": "CC247",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC247\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess325",
@@ -11829,11 +11831,11 @@
   {
     "subjectId": "CritAssess326",
     "attributeId": "A116",
-    "value": "CC248",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC248\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess326",
@@ -11883,11 +11885,11 @@
   {
     "subjectId": "CritAssess327",
     "attributeId": "A116",
-    "value": "CC249",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC249\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess327",
@@ -11946,11 +11948,11 @@
   {
     "subjectId": "CritAssess328",
     "attributeId": "A116",
-    "value": "CC250",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC250\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess328",
@@ -12000,11 +12002,11 @@
   {
     "subjectId": "CritAssess329",
     "attributeId": "A116",
-    "value": "CC251",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC251\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess329",
@@ -12063,11 +12065,11 @@
   {
     "subjectId": "CritAssess330",
     "attributeId": "A116",
-    "value": "CC252",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC252\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess330",
@@ -12153,11 +12155,11 @@
   {
     "subjectId": "CritAssess331",
     "attributeId": "A116",
-    "value": "CC253",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC253\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess331",
@@ -12216,11 +12218,11 @@
   {
     "subjectId": "CritAssess333",
     "attributeId": "A116",
-    "value": "CC254",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC254\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess333",
@@ -12270,11 +12272,11 @@
   {
     "subjectId": "CritAssess334",
     "attributeId": "A116",
-    "value": "CC255",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC255\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess334",
@@ -12333,11 +12335,11 @@
   {
     "subjectId": "CritAssess335",
     "attributeId": "A116",
-    "value": "CC256",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC256\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess335",
@@ -12387,11 +12389,11 @@
   {
     "subjectId": "CritAssess336",
     "attributeId": "A116",
-    "value": "CC257",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC257\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess336",
@@ -12441,11 +12443,11 @@
   {
     "subjectId": "CritAssess337",
     "attributeId": "A116",
-    "value": "CC258",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC258\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess337",
@@ -12495,11 +12497,11 @@
   {
     "subjectId": "CritAssess338",
     "attributeId": "A116",
-    "value": "CC259",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC259\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess338",
@@ -12549,11 +12551,11 @@
   {
     "subjectId": "CritAssess339",
     "attributeId": "A116",
-    "value": "CC260",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC260\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess339",
@@ -12603,11 +12605,11 @@
   {
     "subjectId": "CritAssess340",
     "attributeId": "A116",
-    "value": "CC261",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC261\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess340",
@@ -12657,11 +12659,11 @@
   {
     "subjectId": "CritAssess341",
     "attributeId": "A116",
-    "value": "CC262",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC262\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess341",
@@ -12711,11 +12713,11 @@
   {
     "subjectId": "CritAssess342",
     "attributeId": "A116",
-    "value": "CC263",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC263\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess342",
@@ -12774,11 +12776,11 @@
   {
     "subjectId": "CritAssess343",
     "attributeId": "A116",
-    "value": "CC264",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC264\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess343",
@@ -12828,11 +12830,11 @@
   {
     "subjectId": "CritAssess344",
     "attributeId": "A116",
-    "value": "CC265",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC265\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess344",
@@ -12873,11 +12875,11 @@
   {
     "subjectId": "CritAssess345",
     "attributeId": "A116",
-    "value": "CC266",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC266\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess345",
@@ -12918,11 +12920,11 @@
   {
     "subjectId": "CritAssess346",
     "attributeId": "A116",
-    "value": "CC267",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC267\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess346",
@@ -12963,11 +12965,11 @@
   {
     "subjectId": "CritAssess347",
     "attributeId": "A116",
-    "value": "CC268",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC268\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess347",
@@ -13008,11 +13010,11 @@
   {
     "subjectId": "CritAssess348",
     "attributeId": "A116",
-    "value": "CC269",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC269\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess348",
@@ -13053,11 +13055,11 @@
   {
     "subjectId": "CritAssess350",
     "attributeId": "A116",
-    "value": "CC270",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC270\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess350",
@@ -13107,11 +13109,11 @@
   {
     "subjectId": "CritAssess351",
     "attributeId": "A116",
-    "value": "CC271",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC271\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess351",
@@ -13161,11 +13163,11 @@
   {
     "subjectId": "CritAssess352",
     "attributeId": "A116",
-    "value": "CC272",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC272\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess352",
@@ -13215,11 +13217,11 @@
   {
     "subjectId": "CritAssess353",
     "attributeId": "A116",
-    "value": "CC273",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC273\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess353",
@@ -13269,11 +13271,11 @@
   {
     "subjectId": "CritAssess354",
     "attributeId": "A116",
-    "value": "CC274",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC274\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess354",
@@ -13323,11 +13325,11 @@
   {
     "subjectId": "CritAssess355",
     "attributeId": "A116",
-    "value": "CC275",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC275\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess355",
@@ -13377,11 +13379,11 @@
   {
     "subjectId": "CritAssess356",
     "attributeId": "A116",
-    "value": "CC276",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC276\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess356",
@@ -13431,11 +13433,11 @@
   {
     "subjectId": "CritAssess357",
     "attributeId": "A116",
-    "value": "CC277",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC277\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess357",
@@ -13476,11 +13478,11 @@
   {
     "subjectId": "CritAssess358",
     "attributeId": "A116",
-    "value": "CC278",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC278\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess358",
@@ -13521,11 +13523,11 @@
   {
     "subjectId": "CritAssess359",
     "attributeId": "A116",
-    "value": "CC279",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC279\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess359",
@@ -13566,11 +13568,11 @@
   {
     "subjectId": "CritAssess360",
     "attributeId": "A116",
-    "value": "CC280",
+    "value": "CG-criterion-outcome:not-met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC280\""
+    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess360",
@@ -13620,11 +13622,11 @@
   {
     "subjectId": "CritAssess361",
     "attributeId": "A116",
-    "value": "CC281",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC281\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess361",
@@ -13710,11 +13712,11 @@
   {
     "subjectId": "CritAssess363",
     "attributeId": "A116",
-    "value": "CC283",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC283\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess363",
@@ -13755,11 +13757,11 @@
   {
     "subjectId": "VarInterp364",
     "attributeId": "A124",
-    "value": "CC284",
+    "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC284\""
+    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp365",
@@ -13782,11 +13784,11 @@
   {
     "subjectId": "VarInterp365",
     "attributeId": "A124",
-    "value": "CC285",
+    "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"CC285\""
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "IndAll366",
@@ -13908,11 +13910,11 @@
   {
     "subjectId": "CritAssess369",
     "attributeId": "A116",
-    "value": "CC288",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC288\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess369",
@@ -14016,11 +14018,11 @@
   {
     "subjectId": "CritAssess371",
     "attributeId": "A116",
-    "value": "CC290",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC290\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess371",
@@ -14070,11 +14072,11 @@
   {
     "subjectId": "CritAssess372",
     "attributeId": "A116",
-    "value": "CC291",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC291\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess372",
@@ -14115,11 +14117,11 @@
   {
     "subjectId": "CritAssess373",
     "attributeId": "A116",
-    "value": "CC292",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC292\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess373",
@@ -14160,11 +14162,11 @@
   {
     "subjectId": "CritAssess374",
     "attributeId": "A116",
-    "value": "CC293",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC293\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess374",
@@ -14214,11 +14216,11 @@
   {
     "subjectId": "CritAssess375",
     "attributeId": "A116",
-    "value": "CC294",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC294\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess375",
@@ -14259,11 +14261,11 @@
   {
     "subjectId": "CritAssess376",
     "attributeId": "A116",
-    "value": "CC295",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC295\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess376",
@@ -14313,11 +14315,11 @@
   {
     "subjectId": "CritAssess377",
     "attributeId": "A116",
-    "value": "CC296",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC296\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess377",
@@ -14366,11 +14368,11 @@
   {
     "subjectId": "CritAssess378",
     "attributeId": "A116",
-    "value": "CC297",
+    "value": "CG-criterion-outcome:met",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: \"CC297\""
+    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
   },
   {
     "subjectId": "CritAssess378",

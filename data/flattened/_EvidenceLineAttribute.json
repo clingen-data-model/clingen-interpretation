@@ -69,7 +69,7 @@
     "value": "VarInterp008",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp008: { variant: { NM_002834.3(PTPN11):c.853T>C (p.Phe285Leu) }, condition: { noonan syndrome, HP:0000006 }, clinicalSignificance: \"CC011\" }"
+    "derivedName": "VarInterp008: { variant: { NM_002834.3(PTPN11):c.853T>C (p.Phe285Leu) }, condition: { noonan syndrome, HP:0000006 }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn006",
@@ -77,7 +77,7 @@
     "value": "VarInterp009",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp009: { variant: { NM_001369.2(DNAH5):c.6249G>A (p.Met2083Ile) }, condition: { Primary ciliary dyskenisia }, clinicalSignificance: \"CC012\" }"
+    "derivedName": "VarInterp009: { variant: { NM_001369.2(DNAH5):c.6249G>A (p.Met2083Ile) }, condition: { Primary ciliary dyskenisia }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn007",
@@ -85,7 +85,7 @@
     "value": "VarInterp010",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp010: { variant: { NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) }, condition: { noonan syndrome 3 }, clinicalSignificance: \"CC013\" }"
+    "derivedName": "VarInterp010: { variant: { NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) }, condition: { noonan syndrome 3 }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn008",
@@ -93,7 +93,7 @@
     "value": "VarInterp011",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp011: { variant: { NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) }, condition: { noonan syndrome, HP:0000006 }, clinicalSignificance: \"CC014\" }"
+    "derivedName": "VarInterp011: { variant: { NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) }, condition: { noonan syndrome, HP:0000006 }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn009",
@@ -301,7 +301,7 @@
     "value": "VarInterp047",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp047: { variant: { NM_000169.2(GLA): c.886A>G }, condition: { Fabry disease, HP:0001419 }, clinicalSignificance: \"CC034\" }"
+    "derivedName": "VarInterp047: { variant: { NM_000169.2(GLA): c.886A>G }, condition: { Fabry disease, HP:0001419 }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn024",
@@ -309,7 +309,7 @@
     "value": "VarInterp048",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp048: { variant: { NM_000169.2(GLA):c.890C>T }, condition: { Fabry disease, HP:0001419 }, clinicalSignificance: \"CC035\" }"
+    "derivedName": "VarInterp048: { variant: { NM_000169.2(GLA):c.890C>T }, condition: { Fabry disease, HP:0001419 }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn024",
@@ -317,7 +317,7 @@
     "value": "VarInterp049",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp049: { variant: { NM_000169.2(GLA):c.899T>C }, condition: { Fabry disease, HP:0001419 }, clinicalSignificance: \"CC036\" }"
+    "derivedName": "VarInterp049: { variant: { NM_000169.2(GLA):c.899T>C }, condition: { Fabry disease, HP:0001419 }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn024",
@@ -325,7 +325,7 @@
     "value": "VarInterp050",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp050: { variant: { NM_000169.2(GLA):c.902G>A }, condition: { Fabry disease, HP:0001419 }, clinicalSignificance: \"CC037\" }"
+    "derivedName": "VarInterp050: { variant: { NM_000169.2(GLA):c.902G>A }, condition: { Fabry disease, HP:0001419 }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn024",
@@ -381,7 +381,7 @@
     "value": "VarInterp057",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp057: { variant: { NM_001369.2(DNAH5):c.9449delG }, condition: { Primary ciliary dyskenisia, HP:0000007 }, clinicalSignificance: \"CC043\" }"
+    "derivedName": "VarInterp057: { variant: { NM_001369.2(DNAH5):c.9449delG }, condition: { Primary ciliary dyskenisia, HP:0000007 }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn029",
@@ -397,7 +397,7 @@
     "value": "VarInterp059",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp059: { variant: { NM_133261.2(GIPC3):c.411+1G>A }, condition: { nonsyndromic deafness, HP:0000007, GIPC3 }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
+    "derivedName": "VarInterp059: { variant: { NM_133261.2(GIPC3):c.411+1G>A }, condition: { nonsyndromic deafness, HP:0000007, GIPC3 }, clinicalSignificance: \"\" }"
   },
   {
     "subjectId": "EvLn030",
@@ -413,7 +413,7 @@
     "value": "IndAll062",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll062: { individual: { individual #005 }, primaryAllele: { NM_133261.2(GIPC3):c.298G>A }, secondaryAllele: { NM_133261.2(GIPC3):c.411+1G>A }, primaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, secondaryZygosity: { code: \"het\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
+    "derivedName": "IndAll062: { individual: { individual #005 }, primaryAllele: { NM_133261.2(GIPC3):c.298G>A }, secondaryAllele: { NM_133261.2(GIPC3):c.411+1G>A }, primaryZygosity: \"\", secondaryZygosity: \"\", phase: \"\" }"
   },
   {
     "subjectId": "EvLn031",
@@ -429,7 +429,7 @@
     "value": "IndAll065",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndAll065: { individual: { individual #006 }, primaryAllele: { NM_000391.3(TTP1):c.1678_1679delCT }, primaryZygosity: { code: \"hom\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
+    "derivedName": "IndAll065: { individual: { individual #006 }, primaryAllele: { NM_000391.3(TTP1):c.1678_1679delCT }, primaryZygosity: \"\" }"
   },
   {
     "subjectId": "EvLn032",
@@ -485,7 +485,7 @@
     "value": "VarInterp078",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp078: { variant: { NM_000363.4(TNNI3):c.485G>C }, condition: { Primary familial hypertrophic cardiomyopathy, Autosomal Dominant }, clinicalSignificance: \"CC063\" }"
+    "derivedName": "VarInterp078: { variant: { NM_000363.4(TNNI3):c.485G>C }, condition: { Primary familial hypertrophic cardiomyopathy, Autosomal Dominant }, clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn036",
@@ -493,7 +493,7 @@
     "value": "VarInterp079",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp079: { variant: { NM_000363.4(TNNI3):c.484C>T }, condition: { Primary familial hypertrophic cardiomyopathy, Autosomal Dominant }, clinicalSignificance: \"CC064\" }"
+    "derivedName": "VarInterp079: { variant: { NM_000363.4(TNNI3):c.484C>T }, condition: { Primary familial hypertrophic cardiomyopathy, Autosomal Dominant }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn037",
@@ -501,7 +501,7 @@
     "value": "VarInterp042",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp042: { variant: { NM_000363.4(TNNI3):c.484C>T }, clinicalSignificance: \"CC029\" }"
+    "derivedName": "VarInterp042: { variant: { NM_000363.4(TNNI3):c.484C>T }, clinicalSignificance: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn038",
@@ -509,7 +509,7 @@
     "value": "VarInterp080",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp080: { variant: { NM_000531.5(OTC):c.119G>A }, condition: { Ornithine carbamoyltransferase deficiency }, clinicalSignificance: \"CC065\" }"
+    "derivedName": "VarInterp080: { variant: { NM_000531.5(OTC):c.119G>A }, condition: { Ornithine carbamoyltransferase deficiency }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn039",
@@ -517,7 +517,7 @@
     "value": "VarInterp081",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp081: { variant: { NM_007294.3(BRCA1):c.5291T>C }, condition: { Breast Ovarian Cancer, Autosomal Dominant }, clinicalSignificance: \"CC066\" }"
+    "derivedName": "VarInterp081: { variant: { NM_007294.3(BRCA1):c.5291T>C }, condition: { Breast Ovarian Cancer, Autosomal Dominant }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn040",
@@ -973,7 +973,7 @@
     "value": "VarInterp150",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp150: { variant: { NM_000059.3(BRCA2):c.3G>T }, condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2, HP:0000006 }, clinicalSignificance: \"CC102\" }"
+    "derivedName": "VarInterp150: { variant: { NM_000059.3(BRCA2):c.3G>T }, condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2, HP:0000006 }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn058",
@@ -981,7 +981,7 @@
     "value": "VarInterp151",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp151: { variant: { NM_001458.4(FLNC):c.577G>A }, condition: { Myopathy, Distal, type 4, HP:0000006 }, clinicalSignificance: \"CC103\" }"
+    "derivedName": "VarInterp151: { variant: { NM_001458.4(FLNC):c.577G>A }, condition: { Myopathy, Distal, type 4, HP:0000006 }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn059",
@@ -989,7 +989,7 @@
     "value": "VarInterp152",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp152: { variant: { NM_000492.3(CFTR):c.2053dupC }, condition: { Cystic Fibrosis, HP:0000007 }, clinicalSignificance: \"CC104\" }"
+    "derivedName": "VarInterp152: { variant: { NM_000492.3(CFTR):c.2053dupC }, condition: { Cystic Fibrosis, HP:0000007 }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn060",
@@ -1429,7 +1429,7 @@
     "value": "VarInterp210",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp210: { variant: { NM_206933.2(USH2A):c.2276G>T }, condition: { Retinitis Pigmentosa }, clinicalSignificance: \"CC153\" }"
+    "derivedName": "VarInterp210: { variant: { NM_206933.2(USH2A):c.2276G>T }, condition: { Retinitis Pigmentosa }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn086",
@@ -1453,7 +1453,7 @@
     "value": "VarInterp210",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp210: { variant: { NM_206933.2(USH2A):c.2276G>T }, condition: { Retinitis Pigmentosa }, clinicalSignificance: \"CC153\" }"
+    "derivedName": "VarInterp210: { variant: { NM_206933.2(USH2A):c.2276G>T }, condition: { Retinitis Pigmentosa }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn087",
@@ -1477,7 +1477,7 @@
     "value": "VarInterp213",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp213: { variant: { NP_000483.3:p.Gly576Ala }, condition: { Absent vas deferens }, clinicalSignificance: \"CC155\" }"
+    "derivedName": "VarInterp213: { variant: { NP_000483.3:p.Gly576Ala }, condition: { Absent vas deferens }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn088",
@@ -1501,7 +1501,7 @@
     "value": "VarInterp216",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp216: { variant: { NM_000257.2(MYH7): c.2537A>G }, condition: { cardiomyopathy, HP:0000006 }, clinicalSignificance: \"CC157\" }"
+    "derivedName": "VarInterp216: { variant: { NM_000257.2(MYH7): c.2537A>G }, condition: { cardiomyopathy, HP:0000006 }, clinicalSignificance: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn088",
@@ -1677,7 +1677,7 @@
     "value": "VarInterp243",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp243: { variant: { NM_000256.3(MYBPC3): c.2497G>A }, condition: { hypertrophic cardiomyopathy }, clinicalSignificance: \"CC175\" }"
+    "derivedName": "VarInterp243: { variant: { NM_000256.3(MYBPC3): c.2497G>A }, condition: { hypertrophic cardiomyopathy }, clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn094",
@@ -1709,7 +1709,7 @@
     "value": "VarInterp247",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp247: { variant: { NM_004004.5(GJB2):c.71G>A }, condition: { nonsyndromic deafness }, clinicalSignificance: \"CC179\" }"
+    "derivedName": "VarInterp247: { variant: { NM_004004.5(GJB2):c.71G>A }, condition: { nonsyndromic deafness }, clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn094",
@@ -1717,7 +1717,7 @@
     "value": "VarInterp248",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp248: { variant: { NM_004004.5(GJB2):c.230G>A }, condition: { nonsyndromic deafness }, clinicalSignificance: \"CC180\" }"
+    "derivedName": "VarInterp248: { variant: { NM_004004.5(GJB2):c.230G>A }, condition: { nonsyndromic deafness }, clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn095",
@@ -1741,7 +1741,7 @@
     "value": "VarInterp251",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp251: { variant: { NM_022124.5(CDH23):c.5660C>T }, condition: { Usher syndrome, HP:0000007 }, clinicalSignificance: \"CC182\" }"
+    "derivedName": "VarInterp251: { variant: { NM_022124.5(CDH23):c.5660C>T }, condition: { Usher syndrome, HP:0000007 }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn096",
@@ -1765,7 +1765,7 @@
     "value": "VarInterp254",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp254: { variant: { NM_000095.2(COMP):c.1042T>C }, condition: { pseudoachondroplasia }, clinicalSignificance: \"CC183\" }"
+    "derivedName": "VarInterp254: { variant: { NM_000095.2(COMP):c.1042T>C }, condition: { pseudoachondroplasia }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn096",
@@ -1773,7 +1773,7 @@
     "value": "VarInterp270",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp270: { variant: { NM_000095.2(COMP):c.1042T>C }, condition: { Pseudoachondroplastic spondyloepiphyseal dysplasia }, clinicalSignificance: \"CC193\" }"
+    "derivedName": "VarInterp270: { variant: { NM_000095.2(COMP):c.1042T>C }, condition: { Pseudoachondroplastic spondyloepiphyseal dysplasia }, clinicalSignificance: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn097",
@@ -1781,7 +1781,7 @@
     "value": "VarInterp255",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp255: { variant: { NM_007294.3(BRCA1):c.*6207C>T }, condition: \"MendCond073\", clinicalSignificance: \"CC184\" }"
+    "derivedName": "VarInterp255: { variant: { NM_007294.3(BRCA1):c.*6207C>T }, condition: \"MendCond073\", clinicalSignificance: { code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn098",
@@ -1789,7 +1789,7 @@
     "value": "VarInterp256",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp256: { variant: { NM_000059.3(BRCA2):c.-26G>A }, condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2 }, clinicalSignificance: \"CC185\" }"
+    "derivedName": "VarInterp256: { variant: { NM_000059.3(BRCA2):c.-26G>A }, condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2 }, clinicalSignificance: { code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn099",
@@ -1797,7 +1797,7 @@
     "value": "VarInterp257",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp257: { variant: { NM_000274.3(OAT):c.1311G>C }, condition: { Gyrate atrophy of choroid and retina }, clinicalSignificance: \"CC186\" }"
+    "derivedName": "VarInterp257: { variant: { NM_000274.3(OAT):c.1311G>C }, condition: { Gyrate atrophy of choroid and retina }, clinicalSignificance: { code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn100",
@@ -1933,7 +1933,7 @@
     "value": "VarInterp364",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp364: { variant: { NM_000441.1(SLC26A4): c.626G>T }, condition: { Hearing Loss }, clinicalSignificance: \"CC284\" }"
+    "derivedName": "VarInterp364: { variant: { NM_000441.1(SLC26A4): c.626G>T }, condition: { Hearing Loss }, clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn106",
@@ -1941,7 +1941,7 @@
     "value": "VarInterp365",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp365: { variant: { NM_000441.1(SLC26A4): c.1707+6T>C }, condition: { Hearing Loss }, clinicalSignificance: \"CC285\" }"
+    "derivedName": "VarInterp365: { variant: { NM_000441.1(SLC26A4): c.1707+6T>C }, condition: { Hearing Loss }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn106",
@@ -2005,7 +2005,7 @@
     "value": "CritAssess305",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess305: { criterion: { Absent from controls }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: \"CC228\" }"
+    "derivedName": "CritAssess305: { criterion: { Absent from controls }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
   },
   {
     "subjectId": "EvLn110",
@@ -2037,7 +2037,7 @@
     "value": "CritAssess296",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess296: { criterion: { Recessive in trans with pathogenic variant }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: \"CC219\" }"
+    "derivedName": "CritAssess296: { criterion: { Recessive in trans with pathogenic variant }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
   },
   {
     "subjectId": "EvLn111",
@@ -2061,7 +2061,7 @@
     "value": "CritAssess299",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess299: { criterion: { Protein length changes or stop-loss }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: \"CC222\" }"
+    "derivedName": "CritAssess299: { criterion: { Protein length changes or stop-loss }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
   },
   {
     "subjectId": "EvLn112",
@@ -2085,7 +2085,7 @@
     "value": "CritAssess372",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess372: { criterion: { MAF too high for disorder }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: \"CC291\" }"
+    "derivedName": "CritAssess372: { criterion: { MAF too high for disorder }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
   },
   {
     "subjectId": "EvLn113",
@@ -2109,7 +2109,7 @@
     "value": "CritAssess340",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess340: { criterion: { Missense variant when truncating is expected mechanism }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: \"CC261\" }"
+    "derivedName": "CritAssess340: { criterion: { Missense variant when truncating is expected mechanism }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
   },
   {
     "subjectId": "EvLn114",
@@ -2133,7 +2133,7 @@
     "value": "CritAssess363",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess363: { criterion: { Variant found in case with alternate explanation }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: \"CC283\" }"
+    "derivedName": "CritAssess363: { criterion: { Variant found in case with alternate explanation }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
   },
   {
     "subjectId": "EvLn115",
@@ -2197,7 +2197,7 @@
     "value": "CritAssess373",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess373: { criterion: { Computational evidence supports benign impact }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: \"CC292\" }"
+    "derivedName": "CritAssess373: { criterion: { Computational evidence supports benign impact }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
   },
   {
     "subjectId": "EvLn118",
@@ -2221,7 +2221,7 @@
     "value": "CritAssess359",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess359: { criterion: { Synonymous variant without predicted splice effect in region with low conservation }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: \"CC279\" }"
+    "derivedName": "CritAssess359: { criterion: { Synonymous variant without predicted splice effect in region with low conservation }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
   },
   {
     "subjectId": "EvLn119",
@@ -2245,7 +2245,7 @@
     "value": "CritAssess371",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess371: { criterion: { MAF too high for disorder }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: \"CC290\" }"
+    "derivedName": "CritAssess371: { criterion: { MAF too high for disorder }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
   },
   {
     "subjectId": "EvLn120",
@@ -2269,7 +2269,7 @@
     "value": "CritAssess361",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess361: { criterion: { Null variant in gene with known LOF mechanism }, variant: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, outcome: \"CC281\" }"
+    "derivedName": "CritAssess361: { criterion: { Null variant in gene with known LOF mechanism }, variant: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
   },
   {
     "subjectId": "EvLn121",
@@ -2293,7 +2293,7 @@
     "value": "CritAssess369",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess369: { criterion: { Absent from controls }, variant: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, outcome: \"CC288\" }"
+    "derivedName": "CritAssess369: { criterion: { Absent from controls }, variant: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
   },
   {
     "subjectId": "EvLn122",
@@ -2325,7 +2325,7 @@
     "value": "CritAssess374",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess374: { criterion: { Well-established functional studies showing damaging effect }, variant: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, outcome: \"CC293\" }"
+    "derivedName": "CritAssess374: { criterion: { Well-established functional studies showing damaging effect }, variant: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
   },
   {
     "subjectId": "EvLn124",
@@ -2349,7 +2349,7 @@
     "value": "CritAssess375",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess375: { criterion: { Does not segregate with disease }, variant: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, outcome: \"CC294\" }"
+    "derivedName": "CritAssess375: { criterion: { Does not segregate with disease }, variant: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
   },
   {
     "subjectId": "EvLn125",
@@ -2381,7 +2381,7 @@
     "value": "CritAssess376",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess376: { criterion: { Absent from controls }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: \"CC295\" }"
+    "derivedName": "CritAssess376: { criterion: { Absent from controls }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
   },
   {
     "subjectId": "EvLn127",
@@ -2429,7 +2429,7 @@
     "value": "CritAssess377",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess377: { criterion: { Assumed de novo (parental status not confirmed) }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: \"CC296\" }"
+    "derivedName": "CritAssess377: { criterion: { Assumed de novo (parental status not confirmed) }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
   },
   {
     "subjectId": "EvLn129",
@@ -2453,7 +2453,7 @@
     "value": "VarInterp060",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp060: { variant: { NM_004333.4(BRAF):c.1449A>C }, condition: { Rasopathy }, clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" } }"
+    "derivedName": "VarInterp060: { variant: { NM_004333.4(BRAF):c.1449A>C }, condition: { Rasopathy }, clinicalSignificance: \"\" }"
   },
   {
     "subjectId": "EvLn131",
@@ -2461,7 +2461,7 @@
     "value": "CritAssess378",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess378: { criterion: { Novel missense at same amino acid as known pathogenic missense }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: \"CC297\" }"
+    "derivedName": "CritAssess378: { criterion: { Novel missense at same amino acid as known pathogenic missense }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
   },
   {
     "subjectId": "EvLn131",
