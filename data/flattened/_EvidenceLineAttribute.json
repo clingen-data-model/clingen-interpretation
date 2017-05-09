@@ -13,7 +13,7 @@
     "value": "CondMech002",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech002: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" } }"
+    "derivedName": "CondMech002: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" } }"
   },
   {
     "subjectId": "EvLn002",
@@ -29,7 +29,7 @@
     "value": "CondMech004",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech004: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { Breast Ovarian Cancer, Autosomal Dominant } }"
+    "derivedName": "CondMech004: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { Breast Ovarian Cancer, Autosomal Dominant } }"
   },
   {
     "subjectId": "EvLn003",
@@ -45,7 +45,7 @@
     "value": "CondMech007",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech007: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { dilated cardiomyopathy } }"
+    "derivedName": "CondMech007: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { dilated cardiomyopathy } }"
   },
   {
     "subjectId": "EvLn004",
@@ -61,7 +61,7 @@
     "value": "CondMech007",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech007: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { dilated cardiomyopathy } }"
+    "derivedName": "CondMech007: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { dilated cardiomyopathy } }"
   },
   {
     "subjectId": "EvLn005",
@@ -69,7 +69,7 @@
     "value": "VarInterp008",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp008: { variant: { NM_002834.3(PTPN11):c.853T>C (p.Phe285Leu) }, condition: { noonan syndrome, Autosomal Dominant }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp008: { variant: { NM_002834.3(PTPN11):c.853T>C (p.Phe285Leu) }, condition: { noonan syndrome, HP:0000006 }, clinicalSignificance: \"CC011\" }"
   },
   {
     "subjectId": "EvLn006",
@@ -77,7 +77,7 @@
     "value": "VarInterp009",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp009: { variant: { NM_001369.2(DNAH5):c.6249G>A (p.Met2083Ile) }, condition: { Primary ciliary dyskenisia }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp009: { variant: { NM_001369.2(DNAH5):c.6249G>A (p.Met2083Ile) }, condition: { Primary ciliary dyskenisia }, clinicalSignificance: \"CC012\" }"
   },
   {
     "subjectId": "EvLn007",
@@ -85,7 +85,7 @@
     "value": "VarInterp010",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp010: { variant: { NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) }, condition: { noonan syndrome 3 }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp010: { variant: { NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) }, condition: { noonan syndrome 3 }, clinicalSignificance: \"CC013\" }"
   },
   {
     "subjectId": "EvLn008",
@@ -93,7 +93,7 @@
     "value": "VarInterp011",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp011: { variant: { NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) }, condition: { noonan syndrome, Autosomal Dominant }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp011: { variant: { NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) }, condition: { noonan syndrome, HP:0000006 }, clinicalSignificance: \"CC014\" }"
   },
   {
     "subjectId": "EvLn009",
@@ -173,7 +173,7 @@
     "value": "Func021",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "Func021: { result: \"the mutation lowered the Ca2+  affinity of the reconstituted thin filaments;\", dataType: { coding: [{ code: \"binding\", display: \"Binding assay?\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
+    "derivedName": "Func021: { result: \"the mutation lowered the Ca2+  affinity of the reconstituted thin filaments;\", dataType: { coding: [{ code: \"binding\", display: \"Binding assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
   },
   {
     "subjectId": "EvLn013",
@@ -181,7 +181,7 @@
     "value": "Func022",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "Func022: { result: \"reduced Ca2 sensitivity of activation\", dataType: { coding: [{ code: \"atpase\", display: \"ATPase assay?\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
+    "derivedName": "Func022: { result: \"reduced Ca2 sensitivity of activation\", dataType: { coding: [{ code: \"atpase\", display: \"ATPase assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
   },
   {
     "subjectId": "EvLn014",
@@ -189,7 +189,7 @@
     "value": "Func023",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "Func023: { result: \"reduced Ca2 sensitivity of activation\", dataType: { coding: [{ code: \"motility\", display: \"motility assay?\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
+    "derivedName": "Func023: { result: \"reduced Ca2 sensitivity of activation\", dataType: { coding: [{ code: \"motility\", display: \"motility assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
   },
   {
     "subjectId": "EvLn015",
@@ -197,7 +197,7 @@
     "value": "Func024",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "Func024: { result: \"desensitized Ca2+ binding to the thin filament.\", dataType: { coding: [{ code: \"binding\", display: \"Binding assay?\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
+    "derivedName": "Func024: { result: \"desensitized Ca2+ binding to the thin filament.\", dataType: { coding: [{ code: \"binding\", display: \"Binding assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
   },
   {
     "subjectId": "EvLn016",
@@ -237,7 +237,7 @@
     "value": "CaseCtrl033",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CaseCtrl033: { condition: { Malignant hyperthermia, Autosomal Dominant }, caseGroupFrequency: \"AllFreq032\", controlGroupFrequency: \"AllFreq031\" }"
+    "derivedName": "CaseCtrl033: { condition: { Malignant hyperthermia, HP:0000006 }, caseGroupFrequency: \"AllFreq032\", controlGroupFrequency: \"AllFreq031\" }"
   },
   {
     "subjectId": "EvLn021",
@@ -253,7 +253,7 @@
     "value": "RegAnn040",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "RegAnn040: { region: \"Loc379\", isTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
+    "derivedName": "RegAnn040: { region: \"Loc379\", includedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   {
     "subjectId": "EvLn022",
@@ -269,7 +269,7 @@
     "value": "RegAnn043",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "RegAnn043: { region: \"Loc381\", isTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
+    "derivedName": "RegAnn043: { region: \"Loc381\", includedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   {
     "subjectId": "EvLn023",
@@ -285,7 +285,7 @@
     "value": "RegAnn046",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "RegAnn046: { region: \"Loc383\", isTypes: { code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
+    "derivedName": "RegAnn046: { region: \"Loc383\", includedTypes: { code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   {
     "subjectId": "EvLn024",
@@ -301,7 +301,7 @@
     "value": "VarInterp047",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp047: { variant: { NM_000169.2(GLA): c.886A>G }, condition: { Fabry disease, X-linked recessive inheritance }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp047: { variant: { NM_000169.2(GLA): c.886A>G }, condition: { Fabry disease, HP:0001419 }, clinicalSignificance: \"CC034\" }"
   },
   {
     "subjectId": "EvLn024",
@@ -309,7 +309,7 @@
     "value": "VarInterp048",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp048: { variant: { NM_000169.2(GLA):c.890C>T }, condition: { Fabry disease, X-linked recessive inheritance }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp048: { variant: { NM_000169.2(GLA):c.890C>T }, condition: { Fabry disease, HP:0001419 }, clinicalSignificance: \"CC035\" }"
   },
   {
     "subjectId": "EvLn024",
@@ -317,7 +317,7 @@
     "value": "VarInterp049",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp049: { variant: { NM_000169.2(GLA):c.899T>C }, condition: { Fabry disease, X-linked recessive inheritance }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp049: { variant: { NM_000169.2(GLA):c.899T>C }, condition: { Fabry disease, HP:0001419 }, clinicalSignificance: \"CC036\" }"
   },
   {
     "subjectId": "EvLn024",
@@ -325,7 +325,7 @@
     "value": "VarInterp050",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp050: { variant: { NM_000169.2(GLA):c.902G>A }, condition: { Fabry disease, X-linked recessive inheritance }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp050: { variant: { NM_000169.2(GLA):c.902G>A }, condition: { Fabry disease, HP:0001419 }, clinicalSignificance: \"CC037\" }"
   },
   {
     "subjectId": "EvLn024",
@@ -381,7 +381,7 @@
     "value": "VarInterp057",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp057: { variant: { NM_001369.2(DNAH5):c.9449delG }, condition: { Primary ciliary dyskenisia, Autosomal Recessive }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp057: { variant: { NM_001369.2(DNAH5):c.9449delG }, condition: { Primary ciliary dyskenisia, HP:0000007 }, clinicalSignificance: \"CC043\" }"
   },
   {
     "subjectId": "EvLn029",
@@ -397,7 +397,7 @@
     "value": "VarInterp059",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp059: { variant: { NM_133261.2(GIPC3):c.411+1G>A }, condition: { nonsyndromic deafness, Autosomal Recessive, GIPC3 }, clinicalSignificance: \"LN:LA6668-3\" }"
+    "derivedName": "VarInterp059: { variant: { NM_133261.2(GIPC3):c.411+1G>A }, condition: { nonsyndromic deafness, HP:0000007, GIPC3 }, clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn030",
@@ -405,7 +405,7 @@
     "value": "IndCond061",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond061: { individual: { individual #005 }, condition: { nonsyndromic deafness, Autosomal Recessive, GIPC3 }, hasCondition: true }"
+    "derivedName": "IndCond061: { individual: { individual #005 }, condition: { nonsyndromic deafness, HP:0000007, GIPC3 }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn030",
@@ -421,7 +421,7 @@
     "value": "IndCond064",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond064: { individual: { individual #006 }, condition: { neuronal ceroid lipofuscinosis, Autosomal Recessive, TTP1 }, hasCondition: true }"
+    "derivedName": "IndCond064: { individual: { individual #006 }, condition: { neuronal ceroid lipofuscinosis, HP:0000007, TTP1 }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn031",
@@ -445,7 +445,7 @@
     "value": "RegAnn069",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "RegAnn069: { region: \"Loc385\", isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
+    "derivedName": "RegAnn069: { region: \"Loc385\", includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   {
     "subjectId": "EvLn033",
@@ -477,7 +477,7 @@
     "value": "RegAnn077",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "RegAnn077: { region: \"Loc387\", isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
+    "derivedName": "RegAnn077: { region: \"Loc387\", includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   {
     "subjectId": "EvLn035",
@@ -485,7 +485,7 @@
     "value": "VarInterp078",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp078: { variant: { NM_000363.4(TNNI3):c.485G>C }, condition: { Primary familial hypertrophic cardiomyopathy, Autosomal Dominant }, clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp078: { variant: { NM_000363.4(TNNI3):c.485G>C }, condition: { Primary familial hypertrophic cardiomyopathy, Autosomal Dominant }, clinicalSignificance: \"CC063\" }"
   },
   {
     "subjectId": "EvLn036",
@@ -493,7 +493,7 @@
     "value": "VarInterp079",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp079: { variant: { NM_000363.4(TNNI3):c.484C>T }, condition: { Primary familial hypertrophic cardiomyopathy, Autosomal Dominant }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp079: { variant: { NM_000363.4(TNNI3):c.484C>T }, condition: { Primary familial hypertrophic cardiomyopathy, Autosomal Dominant }, clinicalSignificance: \"CC064\" }"
   },
   {
     "subjectId": "EvLn037",
@@ -501,7 +501,7 @@
     "value": "VarInterp042",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp042: { variant: { NM_000363.4(TNNI3):c.484C>T }, clinicalSignificance: { coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp042: { variant: { NM_000363.4(TNNI3):c.484C>T }, clinicalSignificance: \"CC029\" }"
   },
   {
     "subjectId": "EvLn038",
@@ -509,7 +509,7 @@
     "value": "VarInterp080",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp080: { variant: { NM_000531.5(OTC):c.119G>A }, condition: { Ornithine carbamoyltransferase deficiency }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp080: { variant: { NM_000531.5(OTC):c.119G>A }, condition: { Ornithine carbamoyltransferase deficiency }, clinicalSignificance: \"CC065\" }"
   },
   {
     "subjectId": "EvLn039",
@@ -517,7 +517,7 @@
     "value": "VarInterp081",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp081: { variant: { NM_007294.3(BRCA1):c.5291T>C }, condition: { Breast Ovarian Cancer, Autosomal Dominant }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp081: { variant: { NM_007294.3(BRCA1):c.5291T>C }, condition: { Breast Ovarian Cancer, Autosomal Dominant }, clinicalSignificance: \"CC066\" }"
   },
   {
     "subjectId": "EvLn040",
@@ -677,7 +677,7 @@
     "value": "AggSegData105",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "AggSegData105: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, familySegregationData: \"FamSegData103\", familySegregationData: \"FamSegData104\", totalNumberOfSegregations: 4 }"
+    "derivedName": "AggSegData105: { condition: { hypertrophic cardiomyopathy, HP:0000006 }, familySegregationData: \"FamSegData103\", familySegregationData: \"FamSegData104\", totalNumberOfSegregations: 4 }"
   },
   {
     "subjectId": "EvLn048",
@@ -685,7 +685,7 @@
     "value": "AggSegData109",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "AggSegData109: { condition: { Usher syndrome, Autosomal Recessive }, familySegregationData: \"FamSegData107\", familySegregationData: \"FamSegData108\", totalNumberOfSegregations: 8 }"
+    "derivedName": "AggSegData109: { condition: { Usher syndrome, HP:0000007 }, familySegregationData: \"FamSegData107\", familySegregationData: \"FamSegData108\", totalNumberOfSegregations: 8 }"
   },
   {
     "subjectId": "EvLn049",
@@ -701,7 +701,7 @@
     "value": "AggSegData115",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "AggSegData115: { condition: { dilated cardiomyopathy, Autosomal Dominant }, familySegregationData: \"FamSegData113\", familySegregationData: \"FamSegData114\", totalNumberOfSegregations: 9 }"
+    "derivedName": "AggSegData115: { condition: { dilated cardiomyopathy, HP:0000006 }, familySegregationData: \"FamSegData113\", familySegregationData: \"FamSegData114\", totalNumberOfSegregations: 9 }"
   },
   {
     "subjectId": "EvLn051",
@@ -717,7 +717,7 @@
     "value": "CondMech118",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech118: { mechanism: { code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" } }"
+    "derivedName": "CondMech118: { mechanism: { code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }, mechanismConfidence: { code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" } }"
   },
   {
     "subjectId": "EvLn051",
@@ -733,7 +733,7 @@
     "value": "InSilicoPred120",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred120: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"SIFT\" }"
+    "derivedName": "InSilicoPred120: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"SIFT\" }"
   },
   {
     "subjectId": "EvLn052",
@@ -741,7 +741,7 @@
     "value": "InSilicoPred121",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred121: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Polyphen\" }"
+    "derivedName": "InSilicoPred121: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Polyphen\" }"
   },
   {
     "subjectId": "EvLn052",
@@ -749,7 +749,7 @@
     "value": "InSilicoPred122",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred122: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"FATHMM\" }"
+    "derivedName": "InSilicoPred122: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"FATHMM\" }"
   },
   {
     "subjectId": "EvLn052",
@@ -757,7 +757,7 @@
     "value": "InSilicoPred123",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred123: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"LRT\" }"
+    "derivedName": "InSilicoPred123: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"LRT\" }"
   },
   {
     "subjectId": "EvLn052",
@@ -765,7 +765,7 @@
     "value": "InSilicoPred124",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred124: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"MetaSVM\" }"
+    "derivedName": "InSilicoPred124: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"MetaSVM\" }"
   },
   {
     "subjectId": "EvLn052",
@@ -773,7 +773,7 @@
     "value": "InSilicoPred125",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred125: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Mutation assessor\" }"
+    "derivedName": "InSilicoPred125: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation assessor\" }"
   },
   {
     "subjectId": "EvLn052",
@@ -781,7 +781,7 @@
     "value": "InSilicoPred126",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred126: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Mutation taster\" }"
+    "derivedName": "InSilicoPred126: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation taster\" }"
   },
   {
     "subjectId": "EvLn052",
@@ -789,7 +789,7 @@
     "value": "InSilicoPred127",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred127: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Provean\" }"
+    "derivedName": "InSilicoPred127: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Provean\" }"
   },
   {
     "subjectId": "EvLn052",
@@ -797,7 +797,7 @@
     "value": "InSilicoPred128",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred128: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Condel\" }"
+    "derivedName": "InSilicoPred128: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Condel\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -805,7 +805,7 @@
     "value": "InSilicoPred129",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred129: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"SIFT\" }"
+    "derivedName": "InSilicoPred129: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"SIFT\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -813,7 +813,7 @@
     "value": "InSilicoPred130",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred130: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Polyphen\" }"
+    "derivedName": "InSilicoPred130: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Polyphen\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -821,7 +821,7 @@
     "value": "InSilicoPred131",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred131: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"FATHMM\" }"
+    "derivedName": "InSilicoPred131: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"FATHMM\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -829,7 +829,7 @@
     "value": "InSilicoPred132",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred132: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"LRT\" }"
+    "derivedName": "InSilicoPred132: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"LRT\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -837,7 +837,7 @@
     "value": "InSilicoPred133",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred133: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"MetaSVM\" }"
+    "derivedName": "InSilicoPred133: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"MetaSVM\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -845,7 +845,7 @@
     "value": "InSilicoPred134",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred134: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Mutation assessor\" }"
+    "derivedName": "InSilicoPred134: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation assessor\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -853,7 +853,7 @@
     "value": "InSilicoPred135",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred135: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Mutation taster\" }"
+    "derivedName": "InSilicoPred135: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation taster\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -861,7 +861,7 @@
     "value": "InSilicoPred136",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred136: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Provean\" }"
+    "derivedName": "InSilicoPred136: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Provean\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -869,7 +869,7 @@
     "value": "InSilicoPred137",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred137: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Condel\" }"
+    "derivedName": "InSilicoPred137: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Condel\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -877,7 +877,7 @@
     "value": "InSilicoPred138",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred138: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"SIFT\" }"
+    "derivedName": "InSilicoPred138: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"SIFT\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -885,7 +885,7 @@
     "value": "InSilicoPred139",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred139: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Polyphen2\" }"
+    "derivedName": "InSilicoPred139: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Polyphen2\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -893,7 +893,7 @@
     "value": "InSilicoPred140",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred140: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"AlignGVGD\" }"
+    "derivedName": "InSilicoPred140: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"AlignGVGD\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -901,7 +901,7 @@
     "value": "InSilicoPred141",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred141: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"MAPP\" }"
+    "derivedName": "InSilicoPred141: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"MAPP\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -909,7 +909,7 @@
     "value": "InSilicoPred142",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred142: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"MutationTaster\" }"
+    "derivedName": "InSilicoPred142: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"MutationTaster\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -917,7 +917,7 @@
     "value": "InSilicoPred143",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred143: { type: \"CG-prediction-type:sp\", tool: \"SSF\" }"
+    "derivedName": "InSilicoPred143: { predictionType: \"CG-prediction-type:sp\", algorithm: \"SSF\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -925,7 +925,7 @@
     "value": "InSilicoPred144",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred144: { type: \"CG-prediction-type:sp\", tool: \"MaxEnt\" }"
+    "derivedName": "InSilicoPred144: { predictionType: \"CG-prediction-type:sp\", algorithm: \"MaxEnt\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -933,7 +933,7 @@
     "value": "InSilicoPred145",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred145: { type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"NNSPLICE\" }"
+    "derivedName": "InSilicoPred145: { predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"NNSPLICE\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -941,7 +941,7 @@
     "value": "InSilicoPred146",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred146: { type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"GeneSplicer\" }"
+    "derivedName": "InSilicoPred146: { predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"GeneSplicer\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -949,7 +949,7 @@
     "value": "InSilicoPred147",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred147: { type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"HSF\" }"
+    "derivedName": "InSilicoPred147: { predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"HSF\" }"
   },
   {
     "subjectId": "EvLn055",
@@ -957,7 +957,7 @@
     "value": "CondEtiol148",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondEtiol148: { condition: { hereditary hemorrhagic telangiectasia, Autosomal Dominant }, gene: { ENG }, specificity: \"complete\" }"
+    "derivedName": "CondEtiol148: { condition: { hereditary hemorrhagic telangiectasia, HP:0000006 }, gene: { ENG }, specificity: \"complete\" }"
   },
   {
     "subjectId": "EvLn056",
@@ -973,7 +973,7 @@
     "value": "VarInterp150",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp150: { variant: { NM_000059.3(BRCA2):c.3G>T }, condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2, Autosomal Dominant }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp150: { variant: { NM_000059.3(BRCA2):c.3G>T }, condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2, HP:0000006 }, clinicalSignificance: \"CC102\" }"
   },
   {
     "subjectId": "EvLn058",
@@ -981,7 +981,7 @@
     "value": "VarInterp151",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp151: { variant: { NM_001458.4(FLNC):c.577G>A }, condition: { Myopathy, Distal, type 4, Autosomal Dominant }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp151: { variant: { NM_001458.4(FLNC):c.577G>A }, condition: { Myopathy, Distal, type 4, HP:0000006 }, clinicalSignificance: \"CC103\" }"
   },
   {
     "subjectId": "EvLn059",
@@ -989,7 +989,7 @@
     "value": "VarInterp152",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp152: { variant: { NM_000492.3(CFTR):c.2053dupC }, condition: { Cystic Fibrosis, Autosomal Recessive }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp152: { variant: { NM_000492.3(CFTR):c.2053dupC }, condition: { Cystic Fibrosis, HP:0000007 }, clinicalSignificance: \"CC104\" }"
   },
   {
     "subjectId": "EvLn060",
@@ -1037,7 +1037,7 @@
     "value": "CondPrev159",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPrev159: { condition: { Marfan Syndrome, Autosomal Dominant }, minimum: 0.0017, maximum: 0.0007, population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] } }"
+    "derivedName": "CondPrev159: { condition: { Marfan Syndrome, HP:0000006 }, minimum: 0.0017, maximum: 0.0007, population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] } }"
   },
   {
     "subjectId": "EvLn064",
@@ -1045,7 +1045,7 @@
     "value": "CondPenet160",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet160: { condition: { Marfan Syndrome, Autosomal Dominant }, penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet160: { condition: { Marfan Syndrome, HP:0000006 }, penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn065",
@@ -1061,7 +1061,7 @@
     "value": "CondPrev163",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPrev163: { condition: { Mitochondrial complex 1 deficiency, X-linked dominant inheritance }, value: 0.00012, population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] } }"
+    "derivedName": "CondPrev163: { condition: { Mitochondrial complex 1 deficiency, HP:0001423 }, prevelance: 0.00012, population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] } }"
   },
   {
     "subjectId": "EvLn065",
@@ -1069,7 +1069,7 @@
     "value": "CondPenet164",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet164: { condition: { Mitochondrial complex 1 deficiency, X-linked dominant inheritance }, penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet164: { condition: { Mitochondrial complex 1 deficiency, HP:0001423 }, penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn066",
@@ -1085,7 +1085,7 @@
     "value": "CondPrev167",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPrev167: { condition: { Perrault Syndrome, Autosomal Recessive }, maximum: 0.000001, population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] } }"
+    "derivedName": "CondPrev167: { condition: { Perrault Syndrome, HP:0000007 }, maximum: 0.000001, population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] } }"
   },
   {
     "subjectId": "EvLn066",
@@ -1093,7 +1093,7 @@
     "value": "CondPenet168",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet168: { condition: { Perrault Syndrome, Autosomal Recessive }, penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet168: { condition: { Perrault Syndrome, HP:0000007 }, penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn067",
@@ -1101,7 +1101,7 @@
     "value": "CondPenet170",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet170: { condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet170: { condition: { Wiedemann-Steiner syndrome, HP:0000006 }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn067",
@@ -1117,7 +1117,7 @@
     "value": "IndCond174",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond174: { individual: { individual #013 }, condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }, hasCondition: false }"
+    "derivedName": "IndCond174: { individual: { individual #013 }, condition: { Wiedemann-Steiner syndrome, HP:0000006 }, hasCondition: false }"
   },
   {
     "subjectId": "EvLn068",
@@ -1125,7 +1125,7 @@
     "value": "CondPenet170",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet170: { condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet170: { condition: { Wiedemann-Steiner syndrome, HP:0000006 }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn068",
@@ -1141,7 +1141,7 @@
     "value": "IndCond175",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond175: { individual: { individual #014 }, condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }, hasCondition: false }"
+    "derivedName": "IndCond175: { individual: { individual #014 }, condition: { Wiedemann-Steiner syndrome, HP:0000006 }, hasCondition: false }"
   },
   {
     "subjectId": "EvLn069",
@@ -1149,7 +1149,7 @@
     "value": "CondPenet176",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet176: { condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet176: { condition: { Familial Adenomatous Polyposis, HP:0000006 }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn069",
@@ -1165,7 +1165,7 @@
     "value": "IndCond182",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond182: { individual: { individual #015 }, condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, hasCondition: false }"
+    "derivedName": "IndCond182: { individual: { individual #015 }, condition: { Familial Adenomatous Polyposis, HP:0000006 }, hasCondition: false }"
   },
   {
     "subjectId": "EvLn070",
@@ -1173,7 +1173,7 @@
     "value": "CondPenet176",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet176: { condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet176: { condition: { Familial Adenomatous Polyposis, HP:0000006 }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn070",
@@ -1189,7 +1189,7 @@
     "value": "IndCond183",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond183: { individual: { individual #016 }, condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, hasCondition: false }"
+    "derivedName": "IndCond183: { individual: { individual #016 }, condition: { Familial Adenomatous Polyposis, HP:0000006 }, hasCondition: false }"
   },
   {
     "subjectId": "EvLn071",
@@ -1197,7 +1197,7 @@
     "value": "CondPenet176",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet176: { condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet176: { condition: { Familial Adenomatous Polyposis, HP:0000006 }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn071",
@@ -1213,7 +1213,7 @@
     "value": "IndCond184",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond184: { individual: { individual #017 }, condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, hasCondition: false }"
+    "derivedName": "IndCond184: { individual: { individual #017 }, condition: { Familial Adenomatous Polyposis, HP:0000006 }, hasCondition: false }"
   },
   {
     "subjectId": "EvLn072",
@@ -1221,7 +1221,7 @@
     "value": "CondPenet176",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet176: { condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet176: { condition: { Familial Adenomatous Polyposis, HP:0000006 }, penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn072",
@@ -1237,7 +1237,7 @@
     "value": "IndCond185",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond185: { individual: { individual #018 }, condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, hasCondition: false }"
+    "derivedName": "IndCond185: { individual: { individual #018 }, condition: { Familial Adenomatous Polyposis, HP:0000006 }, hasCondition: false }"
   },
   {
     "subjectId": "EvLn073",
@@ -1325,7 +1325,7 @@
     "value": "FamSegData196",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "FamSegData196: { condition: { Hypercholesterolemia, Familial, Autosomal Dominant }, family: { Family #008 }, phenotypePositiveAllelePositive: 0 }"
+    "derivedName": "FamSegData196: { condition: { Hypercholesterolemia, Familial, HP:0000006 }, family: { Family #008 }, phenotypePositiveAllelePositive: 0 }"
   },
   {
     "subjectId": "EvLn080",
@@ -1333,7 +1333,7 @@
     "value": "FamSegData197",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "FamSegData197: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, family: { Family #009 }, phenotypePositiveAllelePositive: 3 }"
+    "derivedName": "FamSegData197: { condition: { hypertrophic cardiomyopathy, HP:0000006 }, family: { Family #009 }, phenotypePositiveAllelePositive: 3 }"
   },
   {
     "subjectId": "EvLn081",
@@ -1349,7 +1349,7 @@
     "value": "CondMech199",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech199: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { hereditary breast and ovarian cancer } }"
+    "derivedName": "CondMech199: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, mechanismConfidence: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { hereditary breast and ovarian cancer } }"
   },
   {
     "subjectId": "EvLn082",
@@ -1365,7 +1365,7 @@
     "value": "CondMech200",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech200: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { Fanconi Anemia } }"
+    "derivedName": "CondMech200: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, mechanismConfidence: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { Fanconi Anemia } }"
   },
   {
     "subjectId": "EvLn083",
@@ -1381,7 +1381,7 @@
     "value": "CondMech202",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech202: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { Hearing Loss, Autosomal Recessive } }"
+    "derivedName": "CondMech202: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, mechanismConfidence: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { Hearing Loss, Autosomal Recessive } }"
   },
   {
     "subjectId": "EvLn084",
@@ -1397,7 +1397,7 @@
     "value": "CondMech204",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech204: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { dilated cardiomyopathy } }"
+    "derivedName": "CondMech204: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, mechanismConfidence: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { dilated cardiomyopathy } }"
   },
   {
     "subjectId": "EvLn084",
@@ -1405,7 +1405,7 @@
     "value": "CondMech205",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech205: { mechanism: { code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { dilated cardiomyopathy } }"
+    "derivedName": "CondMech205: { mechanism: { code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }, mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { dilated cardiomyopathy } }"
   },
   {
     "subjectId": "EvLn085",
@@ -1429,7 +1429,7 @@
     "value": "VarInterp210",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp210: { variant: { NM_206933.2(USH2A):c.2276G>T }, condition: { Retinitis Pigmentosa }, clinicalSignificance: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "derivedName": "VarInterp210: { variant: { NM_206933.2(USH2A):c.2276G>T }, condition: { Retinitis Pigmentosa }, clinicalSignificance: \"CC153\" }"
   },
   {
     "subjectId": "EvLn086",
@@ -1453,7 +1453,7 @@
     "value": "VarInterp210",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp210: { variant: { NM_206933.2(USH2A):c.2276G>T }, condition: { Retinitis Pigmentosa }, clinicalSignificance: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] } }"
+    "derivedName": "VarInterp210: { variant: { NM_206933.2(USH2A):c.2276G>T }, condition: { Retinitis Pigmentosa }, clinicalSignificance: \"CC153\" }"
   },
   {
     "subjectId": "EvLn087",
@@ -1477,7 +1477,7 @@
     "value": "VarInterp213",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp213: { variant: { NP_000483.3:p.Gly576Ala }, condition: { Absent vas deferens }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp213: { variant: { NP_000483.3:p.Gly576Ala }, condition: { Absent vas deferens }, clinicalSignificance: \"CC155\" }"
   },
   {
     "subjectId": "EvLn088",
@@ -1493,7 +1493,7 @@
     "value": "IndCond215",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond215: { individual: { individual #024 }, condition: { cardiomyopathy, Autosomal Dominant }, hasCondition: true }"
+    "derivedName": "IndCond215: { individual: { individual #024 }, condition: { cardiomyopathy, HP:0000006 }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn088",
@@ -1501,7 +1501,7 @@
     "value": "VarInterp216",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp216: { variant: { NM_000257.2(MYH7): c.2537A>G }, condition: { cardiomyopathy, Autosomal Dominant }, clinicalSignificance: { coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp216: { variant: { NM_000257.2(MYH7): c.2537A>G }, condition: { cardiomyopathy, HP:0000006 }, clinicalSignificance: \"CC157\" }"
   },
   {
     "subjectId": "EvLn088",
@@ -1509,7 +1509,7 @@
     "value": "CondPenet218",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondPenet218: { condition: { cardiomyopathy, Autosomal Dominant }, penetrance: { coding: [{ code: \"incomplete\", display: \"Incomplete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
+    "derivedName": "CondPenet218: { condition: { cardiomyopathy, HP:0000006 }, penetrance: { coding: [{ code: \"incomplete\", display: \"Incomplete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] } }"
   },
   {
     "subjectId": "EvLn089",
@@ -1517,7 +1517,7 @@
     "value": "RegAnn220",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "RegAnn220: { region: \"Loc390\", isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
+    "derivedName": "RegAnn220: { region: \"Loc390\", includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   {
     "subjectId": "EvLn089",
@@ -1541,7 +1541,7 @@
     "value": "RegAnn225",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "RegAnn225: { region: \"Loc392\", isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
+    "derivedName": "RegAnn225: { region: \"Loc392\", includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   {
     "subjectId": "EvLn090",
@@ -1565,7 +1565,7 @@
     "value": "RegAnn229",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "RegAnn229: { region: \"Loc394\", isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
+    "derivedName": "RegAnn229: { region: \"Loc394\", includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
   },
   {
     "subjectId": "EvLn091",
@@ -1589,7 +1589,7 @@
     "value": "InSilicoPred232",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred232: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"SIFT\" }"
+    "derivedName": "InSilicoPred232: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"SIFT\" }"
   },
   {
     "subjectId": "EvLn092",
@@ -1597,7 +1597,7 @@
     "value": "InSilicoPred233",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred233: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Polyphen\" }"
+    "derivedName": "InSilicoPred233: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Polyphen\" }"
   },
   {
     "subjectId": "EvLn092",
@@ -1605,7 +1605,7 @@
     "value": "InSilicoPred234",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred234: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"FATHMM\" }"
+    "derivedName": "InSilicoPred234: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"FATHMM\" }"
   },
   {
     "subjectId": "EvLn092",
@@ -1613,7 +1613,7 @@
     "value": "InSilicoPred235",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred235: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"LRT\" }"
+    "derivedName": "InSilicoPred235: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"LRT\" }"
   },
   {
     "subjectId": "EvLn092",
@@ -1621,7 +1621,7 @@
     "value": "InSilicoPred236",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred236: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"MetaSVM\" }"
+    "derivedName": "InSilicoPred236: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"MetaSVM\" }"
   },
   {
     "subjectId": "EvLn092",
@@ -1629,7 +1629,7 @@
     "value": "InSilicoPred237",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred237: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Mutation assessor\" }"
+    "derivedName": "InSilicoPred237: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation assessor\" }"
   },
   {
     "subjectId": "EvLn092",
@@ -1637,7 +1637,7 @@
     "value": "InSilicoPred238",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred238: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Mutation taster\" }"
+    "derivedName": "InSilicoPred238: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation taster\" }"
   },
   {
     "subjectId": "EvLn092",
@@ -1645,7 +1645,7 @@
     "value": "InSilicoPred239",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred239: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Provean\" }"
+    "derivedName": "InSilicoPred239: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Provean\" }"
   },
   {
     "subjectId": "EvLn092",
@@ -1653,7 +1653,7 @@
     "value": "InSilicoPred240",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred240: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Condel\" }"
+    "derivedName": "InSilicoPred240: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Condel\" }"
   },
   {
     "subjectId": "EvLn093",
@@ -1677,7 +1677,7 @@
     "value": "VarInterp243",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp243: { variant: { NM_000256.3(MYBPC3): c.2497G>A }, condition: { hypertrophic cardiomyopathy }, clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp243: { variant: { NM_000256.3(MYBPC3): c.2497G>A }, condition: { hypertrophic cardiomyopathy }, clinicalSignificance: \"CC175\" }"
   },
   {
     "subjectId": "EvLn094",
@@ -1709,7 +1709,7 @@
     "value": "VarInterp247",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp247: { variant: { NM_004004.5(GJB2):c.71G>A }, condition: { nonsyndromic deafness }, clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp247: { variant: { NM_004004.5(GJB2):c.71G>A }, condition: { nonsyndromic deafness }, clinicalSignificance: \"CC179\" }"
   },
   {
     "subjectId": "EvLn094",
@@ -1717,7 +1717,7 @@
     "value": "VarInterp248",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp248: { variant: { NM_004004.5(GJB2):c.230G>A }, condition: { nonsyndromic deafness }, clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp248: { variant: { NM_004004.5(GJB2):c.230G>A }, condition: { nonsyndromic deafness }, clinicalSignificance: \"CC180\" }"
   },
   {
     "subjectId": "EvLn095",
@@ -1733,7 +1733,7 @@
     "value": "IndCond250",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "IndCond250: { individual: { individual #027 }, condition: { Usher syndrome, Autosomal Recessive }, hasCondition: true }"
+    "derivedName": "IndCond250: { individual: { individual #027 }, condition: { Usher syndrome, HP:0000007 }, hasCondition: true }"
   },
   {
     "subjectId": "EvLn095",
@@ -1741,7 +1741,7 @@
     "value": "VarInterp251",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp251: { variant: { NM_022124.5(CDH23):c.5660C>T }, condition: { Usher syndrome, Autosomal Recessive }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp251: { variant: { NM_022124.5(CDH23):c.5660C>T }, condition: { Usher syndrome, HP:0000007 }, clinicalSignificance: \"CC182\" }"
   },
   {
     "subjectId": "EvLn096",
@@ -1765,7 +1765,7 @@
     "value": "VarInterp254",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp254: { variant: { NM_000095.2(COMP):c.1042T>C }, condition: { pseudoachondroplasia }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp254: { variant: { NM_000095.2(COMP):c.1042T>C }, condition: { pseudoachondroplasia }, clinicalSignificance: \"CC183\" }"
   },
   {
     "subjectId": "EvLn096",
@@ -1773,7 +1773,7 @@
     "value": "VarInterp270",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp270: { variant: { NM_000095.2(COMP):c.1042T>C }, condition: { Pseudoachondroplastic spondyloepiphyseal dysplasia }, clinicalSignificance: { coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp270: { variant: { NM_000095.2(COMP):c.1042T>C }, condition: { Pseudoachondroplastic spondyloepiphyseal dysplasia }, clinicalSignificance: \"CC193\" }"
   },
   {
     "subjectId": "EvLn097",
@@ -1781,7 +1781,7 @@
     "value": "VarInterp255",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp255: { variant: { NM_007294.3(BRCA1):c.*6207C>T }, condition: \"MendCond073\", clinicalSignificance: { coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp255: { variant: { NM_007294.3(BRCA1):c.*6207C>T }, condition: \"MendCond073\", clinicalSignificance: \"CC184\" }"
   },
   {
     "subjectId": "EvLn098",
@@ -1789,7 +1789,7 @@
     "value": "VarInterp256",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp256: { variant: { NM_000059.3(BRCA2):c.-26G>A }, condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2 }, clinicalSignificance: { coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp256: { variant: { NM_000059.3(BRCA2):c.-26G>A }, condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2 }, clinicalSignificance: \"CC185\" }"
   },
   {
     "subjectId": "EvLn099",
@@ -1797,7 +1797,7 @@
     "value": "VarInterp257",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp257: { variant: { NM_000274.3(OAT):c.1311G>C }, condition: { Gyrate atrophy of choroid and retina }, clinicalSignificance: { coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp257: { variant: { NM_000274.3(OAT):c.1311G>C }, condition: { Gyrate atrophy of choroid and retina }, clinicalSignificance: \"CC186\" }"
   },
   {
     "subjectId": "EvLn100",
@@ -1805,7 +1805,7 @@
     "value": "InSilicoPred258",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred258: { type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
+    "derivedName": "InSilicoPred258: { predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
   },
   {
     "subjectId": "EvLn100",
@@ -1813,7 +1813,7 @@
     "value": "Conserv259",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "Conserv259: { conserved: false, method: \"phyloP\", score: -2.297 }"
+    "derivedName": "Conserv259: { conserved: false, algorithm: \"phyloP\", score: -2.297 }"
   },
   {
     "subjectId": "EvLn100",
@@ -1821,7 +1821,7 @@
     "value": "Conserv260",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "Conserv260: { conserved: false, method: \"PhastCons\", score: 0.039 }"
+    "derivedName": "Conserv260: { conserved: false, algorithm: \"PhastCons\", score: 0.039 }"
   },
   {
     "subjectId": "EvLn100",
@@ -1837,7 +1837,7 @@
     "value": "InSilicoPred262",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred262: { type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
+    "derivedName": "InSilicoPred262: { predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
   },
   {
     "subjectId": "EvLn101",
@@ -1845,7 +1845,7 @@
     "value": "Conserv263",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "Conserv263: { conserved: false, method: \"phyloP\", score: -0.76 }"
+    "derivedName": "Conserv263: { conserved: false, algorithm: \"phyloP\", score: -0.76 }"
   },
   {
     "subjectId": "EvLn101",
@@ -1853,7 +1853,7 @@
     "value": "Conserv264",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "Conserv264: { conserved: false, method: \"PhastCons\", score: 0.63 }"
+    "derivedName": "Conserv264: { conserved: false, algorithm: \"PhastCons\", score: 0.63 }"
   },
   {
     "subjectId": "EvLn101",
@@ -1869,7 +1869,7 @@
     "value": "InSilicoPred266",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred266: { type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
+    "derivedName": "InSilicoPred266: { predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
   },
   {
     "subjectId": "EvLn102",
@@ -1877,7 +1877,7 @@
     "value": "Conserv267",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "Conserv267: { conserved: false, method: \"phyloP\", score: 0.45 }"
+    "derivedName": "Conserv267: { conserved: false, algorithm: \"phyloP\", score: 0.45 }"
   },
   {
     "subjectId": "EvLn102",
@@ -1885,7 +1885,7 @@
     "value": "Conserv268",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "Conserv268: { conserved: false, method: \"PhastCons\", score: 1 }"
+    "derivedName": "Conserv268: { conserved: false, algorithm: \"PhastCons\", score: 1 }"
   },
   {
     "subjectId": "EvLn102",
@@ -1909,7 +1909,7 @@
     "value": "CondMech273",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech273: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, condition: { arrhythmogenic right ventricular cardiomyopathy }, strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" } }"
+    "derivedName": "CondMech273: { mechanism: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }, condition: { arrhythmogenic right ventricular cardiomyopathy }, mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" } }"
   },
   {
     "subjectId": "EvLn104",
@@ -1917,7 +1917,7 @@
     "value": "FamSegData271",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "FamSegData271: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, family: { Family #010 }, phenotypePositiveAllelePositive: 0 }"
+    "derivedName": "FamSegData271: { condition: { hypertrophic cardiomyopathy, HP:0000006 }, family: { Family #010 }, phenotypePositiveAllelePositive: 0 }"
   },
   {
     "subjectId": "EvLn105",
@@ -1925,7 +1925,7 @@
     "value": "InSilicoPred362",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred362: { type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, tool: \"Polyphen-2 HumDiv\" }"
+    "derivedName": "InSilicoPred362: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Polyphen-2 HumDiv\" }"
   },
   {
     "subjectId": "EvLn106",
@@ -1933,7 +1933,7 @@
     "value": "VarInterp364",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp364: { variant: { NM_000441.1(SLC26A4): c.626G>T }, condition: { Hearing Loss }, clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp364: { variant: { NM_000441.1(SLC26A4): c.626G>T }, condition: { Hearing Loss }, clinicalSignificance: \"CC284\" }"
   },
   {
     "subjectId": "EvLn106",
@@ -1941,7 +1941,7 @@
     "value": "VarInterp365",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp365: { variant: { NM_000441.1(SLC26A4): c.1707+6T>C }, condition: { Hearing Loss }, clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] } }"
+    "derivedName": "VarInterp365: { variant: { NM_000441.1(SLC26A4): c.1707+6T>C }, condition: { Hearing Loss }, clinicalSignificance: \"CC285\" }"
   },
   {
     "subjectId": "EvLn106",
@@ -2005,13 +2005,13 @@
     "value": "CritAssess305",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess305: { criterion: { Absent from controls }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
+    "derivedName": "CritAssess305: { criterion: { Absent from controls }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: \"CC228\" }"
   },
   {
     "subjectId": "EvLn110",
     "attributeId": "A179",
     "value": "CC441",
-    "attributeName": "strength",
+    "attributeName": "evidenceStrength",
     "attributeType": "CodeableConcept",
     "derivedName": "coding: [{ code: \"na\", display: \"None\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
   },
@@ -2037,13 +2037,13 @@
     "value": "CritAssess296",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess296: { criterion: { Recessive in trans with pathogenic variant }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
+    "derivedName": "CritAssess296: { criterion: { Recessive in trans with pathogenic variant }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: \"CC219\" }"
   },
   {
     "subjectId": "EvLn111",
     "attributeId": "A179",
     "value": "CC442",
-    "attributeName": "strength",
+    "attributeName": "evidenceStrength",
     "attributeType": "CodeableConcept",
     "derivedName": "coding: [{ code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
   },
@@ -2061,13 +2061,13 @@
     "value": "CritAssess299",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess299: { criterion: { Protein length changes or stop-loss }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
+    "derivedName": "CritAssess299: { criterion: { Protein length changes or stop-loss }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: \"CC222\" }"
   },
   {
     "subjectId": "EvLn112",
     "attributeId": "A179",
     "value": "CC443",
-    "attributeName": "strength",
+    "attributeName": "evidenceStrength",
     "attributeType": "CodeableConcept",
     "derivedName": "coding: [{ code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
   },
@@ -2085,13 +2085,13 @@
     "value": "CritAssess372",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess372: { criterion: { MAF too high for disorder }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
+    "derivedName": "CritAssess372: { criterion: { MAF too high for disorder }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: \"CC291\" }"
   },
   {
     "subjectId": "EvLn113",
     "attributeId": "A179",
     "value": "CC444",
-    "attributeName": "strength",
+    "attributeName": "evidenceStrength",
     "attributeType": "CodeableConcept",
     "derivedName": "coding: [{ code: \"bs\", display: \"Benign Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
   },
@@ -2109,13 +2109,13 @@
     "value": "CritAssess340",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess340: { criterion: { Missense variant when truncating is expected mechanism }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
+    "derivedName": "CritAssess340: { criterion: { Missense variant when truncating is expected mechanism }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: \"CC261\" }"
   },
   {
     "subjectId": "EvLn114",
     "attributeId": "A179",
     "value": "CC445",
-    "attributeName": "strength",
+    "attributeName": "evidenceStrength",
     "attributeType": "CodeableConcept",
     "derivedName": "coding: [{ code: \"bp\", display: \"Benign Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
   },
@@ -2133,13 +2133,13 @@
     "value": "CritAssess363",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess363: { criterion: { Variant found in case with alternate explanation }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
+    "derivedName": "CritAssess363: { criterion: { Variant found in case with alternate explanation }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: \"CC283\" }"
   },
   {
     "subjectId": "EvLn115",
     "attributeId": "A179",
     "value": "CC446",
-    "attributeName": "strength",
+    "attributeName": "evidenceStrength",
     "attributeType": "CodeableConcept",
     "derivedName": "coding: [{ code: \"bp\", display: \"Benign Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
   },
@@ -2165,7 +2165,7 @@
     "value": "InSilicoPred068",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred068: { type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
+    "derivedName": "InSilicoPred068: { predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
   },
   {
     "subjectId": "EvLn117",
@@ -2173,7 +2173,7 @@
     "value": "Conserv071",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "Conserv071: { conserved: false, method: \"phyloP\", score: -0.76 }"
+    "derivedName": "Conserv071: { conserved: false, algorithm: \"phyloP\", score: -0.76 }"
   },
   {
     "subjectId": "EvLn117",
@@ -2181,7 +2181,7 @@
     "value": "Conserv072",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "Conserv072: { conserved: false, method: \"PhastCons\", score: 0.63 }"
+    "derivedName": "Conserv072: { conserved: false, algorithm: \"PhastCons\", score: 0.63 }"
   },
   {
     "subjectId": "EvLn117",
@@ -2197,13 +2197,13 @@
     "value": "CritAssess373",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess373: { criterion: { Computational evidence supports benign impact }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
+    "derivedName": "CritAssess373: { criterion: { Computational evidence supports benign impact }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: \"CC292\" }"
   },
   {
     "subjectId": "EvLn118",
     "attributeId": "A179",
     "value": "CC447",
-    "attributeName": "strength",
+    "attributeName": "evidenceStrength",
     "attributeType": "CodeableConcept",
     "derivedName": "coding: [{ code: \"bp\", display: \"Benign Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
   },
@@ -2221,13 +2221,13 @@
     "value": "CritAssess359",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess359: { criterion: { Synonymous variant without predicted splice effect in region with low conservation }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
+    "derivedName": "CritAssess359: { criterion: { Synonymous variant without predicted splice effect in region with low conservation }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: \"CC279\" }"
   },
   {
     "subjectId": "EvLn119",
     "attributeId": "A179",
     "value": "CC448",
-    "attributeName": "strength",
+    "attributeName": "evidenceStrength",
     "attributeType": "CodeableConcept",
     "derivedName": "coding: [{ code: \"bp\", display: \"Benign Supporting\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
   },
@@ -2245,13 +2245,13 @@
     "value": "CritAssess371",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess371: { criterion: { MAF too high for disorder }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
+    "derivedName": "CritAssess371: { criterion: { MAF too high for disorder }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: \"CC290\" }"
   },
   {
     "subjectId": "EvLn120",
     "attributeId": "A179",
     "value": "CC449",
-    "attributeName": "strength",
+    "attributeName": "evidenceStrength",
     "attributeType": "CodeableConcept",
     "derivedName": "coding: [{ code: \"bs\", display: \"Benign Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
   },
@@ -2269,13 +2269,13 @@
     "value": "CritAssess361",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess361: { criterion: { Null variant in gene with known LOF mechanism }, variant: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
+    "derivedName": "CritAssess361: { criterion: { Null variant in gene with known LOF mechanism }, variant: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, outcome: \"CC281\" }"
   },
   {
     "subjectId": "EvLn121",
     "attributeId": "A179",
     "value": "CC450",
-    "attributeName": "strength",
+    "attributeName": "evidenceStrength",
     "attributeType": "CodeableConcept",
     "derivedName": "coding: [{ code: \"pvs\", display: \"Pathogenic Very Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
   },
@@ -2293,13 +2293,13 @@
     "value": "CritAssess369",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess369: { criterion: { Absent from controls }, variant: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
+    "derivedName": "CritAssess369: { criterion: { Absent from controls }, variant: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, outcome: \"CC288\" }"
   },
   {
     "subjectId": "EvLn122",
     "attributeId": "A179",
     "value": "CC451",
-    "attributeName": "strength",
+    "attributeName": "evidenceStrength",
     "attributeType": "CodeableConcept",
     "derivedName": "coding: [{ code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
   },
@@ -2317,7 +2317,7 @@
     "value": "FamSegData076",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "FamSegData076: { condition: { noonan syndrome, Autosomal Dominant }, family: { Family #011 }, phenotypePositiveAllelePositive: 0, phenotypeNegativeAllelePositive: 2 }"
+    "derivedName": "FamSegData076: { condition: { noonan syndrome, HP:0000006 }, family: { Family #011 }, phenotypePositiveAllelePositive: 0, phenotypeNegativeAllelePositive: 2 }"
   },
   {
     "subjectId": "EvLn124",
@@ -2325,13 +2325,13 @@
     "value": "CritAssess374",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess374: { criterion: { Well-established functional studies showing damaging effect }, variant: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
+    "derivedName": "CritAssess374: { criterion: { Well-established functional studies showing damaging effect }, variant: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, outcome: \"CC293\" }"
   },
   {
     "subjectId": "EvLn124",
     "attributeId": "A179",
     "value": "CC452",
-    "attributeName": "strength",
+    "attributeName": "evidenceStrength",
     "attributeType": "CodeableConcept",
     "derivedName": "coding: [{ code: \"ps\", display: \"Pathogenic Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
   },
@@ -2349,13 +2349,13 @@
     "value": "CritAssess375",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess375: { criterion: { Does not segregate with disease }, variant: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
+    "derivedName": "CritAssess375: { criterion: { Does not segregate with disease }, variant: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, outcome: \"CC294\" }"
   },
   {
     "subjectId": "EvLn125",
     "attributeId": "A179",
     "value": "CC453",
-    "attributeName": "strength",
+    "attributeName": "evidenceStrength",
     "attributeType": "CodeableConcept",
     "derivedName": "coding: [{ code: \"bs\", display: \"Benign Strong\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
   },
@@ -2381,13 +2381,13 @@
     "value": "CritAssess376",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess376: { criterion: { Absent from controls }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
+    "derivedName": "CritAssess376: { criterion: { Absent from controls }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: \"CC295\" }"
   },
   {
     "subjectId": "EvLn127",
     "attributeId": "A179",
     "value": "CC454",
-    "attributeName": "strength",
+    "attributeName": "evidenceStrength",
     "attributeType": "CodeableConcept",
     "derivedName": "coding: [{ code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
   },
@@ -2429,13 +2429,13 @@
     "value": "CritAssess377",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess377: { criterion: { Assumed de novo (parental status not confirmed) }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
+    "derivedName": "CritAssess377: { criterion: { Assumed de novo (parental status not confirmed) }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: \"CC296\" }"
   },
   {
     "subjectId": "EvLn129",
     "attributeId": "A179",
     "value": "CC455",
-    "attributeName": "strength",
+    "attributeName": "evidenceStrength",
     "attributeType": "CodeableConcept",
     "derivedName": "coding: [{ code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
   },
@@ -2453,7 +2453,7 @@
     "value": "VarInterp060",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "VarInterp060: { variant: { NM_004333.4(BRAF):c.1449A>C }, condition: { Rasopathy }, clinicalSignificance: \"LN:LA26332-9\" }"
+    "derivedName": "VarInterp060: { variant: { NM_004333.4(BRAF):c.1449A>C }, condition: { Rasopathy }, clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" } }"
   },
   {
     "subjectId": "EvLn131",
@@ -2461,13 +2461,13 @@
     "value": "CritAssess378",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CritAssess378: { criterion: { Novel missense at same amino acid as known pathogenic missense }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] } }"
+    "derivedName": "CritAssess378: { criterion: { Novel missense at same amino acid as known pathogenic missense }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: \"CC297\" }"
   },
   {
     "subjectId": "EvLn131",
     "attributeId": "A179",
     "value": "CC456",
-    "attributeName": "strength",
+    "attributeName": "evidenceStrength",
     "attributeType": "CodeableConcept",
     "derivedName": "coding: [{ code: \"pm\", display: \"Pathogenic Moderate\", system: \"http://clinicalgenome.org/datamodel/criterion-evidence-strength/\" }]"
   },
@@ -2501,6 +2501,6 @@
     "value": "CondMech165",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "CondMech165: { mechanism: { code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }, strength: { code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { arrhythmogenic right ventricular cardiomyopathy } }"
+    "derivedName": "CondMech165: { mechanism: { code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }, mechanismConfidence: { code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }, condition: { arrhythmogenic right ventricular cardiomyopathy } }"
   }
 ]

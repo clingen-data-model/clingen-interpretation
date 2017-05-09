@@ -42,9 +42,9 @@
     "attributeId": "A003",
     "value": "CG-cond-mech-strength:established",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "strength",
+    "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech002",
@@ -96,9 +96,9 @@
     "attributeId": "A003",
     "value": "CG-cond-mech-strength:established",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "strength",
+    "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech004",
@@ -186,9 +186,9 @@
     "attributeId": "A003",
     "value": "CG-cond-mech-strength:established",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "strength",
+    "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech007",
@@ -224,7 +224,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { noonan syndrome, Autosomal Dominant }"
+    "lookupValue": "condition: { noonan syndrome, HP:0000006 }"
   },
   {
     "subjectId": "VarInterp008",
@@ -232,8 +232,8 @@
     "value": "CC011",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC011\""
   },
   {
     "subjectId": "VarInterp009",
@@ -259,8 +259,8 @@
     "value": "CC012",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC012\""
   },
   {
     "subjectId": "VarInterp010",
@@ -286,8 +286,8 @@
     "value": "CC013",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC013\""
   },
   {
     "subjectId": "VarInterp011",
@@ -305,7 +305,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { noonan syndrome, Autosomal Dominant }"
+    "lookupValue": "condition: { noonan syndrome, HP:0000006 }"
   },
   {
     "subjectId": "VarInterp011",
@@ -313,8 +313,8 @@
     "value": "CC014",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC014\""
   },
   {
     "subjectId": "IndCond012",
@@ -602,7 +602,7 @@
     "evidenceDataName": "FunctionalData",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"binding\", display: \"Binding assay?\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
+    "lookupValue": "dataType: { coding: [{ code: \"binding\", display: \"Binding assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
   },
   {
     "subjectId": "Func021",
@@ -638,7 +638,7 @@
     "evidenceDataName": "FunctionalData",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"atpase\", display: \"ATPase assay?\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
+    "lookupValue": "dataType: { coding: [{ code: \"atpase\", display: \"ATPase assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
   },
   {
     "subjectId": "Func022",
@@ -674,7 +674,7 @@
     "evidenceDataName": "FunctionalData",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"motility\", display: \"motility assay?\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
+    "lookupValue": "dataType: { coding: [{ code: \"motility\", display: \"motility assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
   },
   {
     "subjectId": "Func023",
@@ -710,7 +710,7 @@
     "evidenceDataName": "FunctionalData",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"binding\", display: \"Binding assay?\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
+    "lookupValue": "dataType: { coding: [{ code: \"binding\", display: \"Binding assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
   },
   {
     "subjectId": "Func024",
@@ -1061,7 +1061,7 @@
     "evidenceDataName": "CaseControl",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Malignant hyperthermia, Autosomal Dominant }"
+    "lookupValue": "condition: { Malignant hyperthermia, HP:0000006 }"
   },
   {
     "subjectId": "CaseCtrl033",
@@ -1464,9 +1464,9 @@
     "attributeId": "A057",
     "value": "CG-reg-anno-type:functional",
     "evidenceDataName": "RegionAnnotation",
-    "attributeName": "isTypes",
+    "attributeName": "includedTypes",
     "attributeType": "Coding",
-    "lookupValue": "isTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "includedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "VarInterp041",
@@ -1492,8 +1492,8 @@
     "value": "CC028",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC028\""
   },
   {
     "subjectId": "VarInterp041",
@@ -1555,8 +1555,8 @@
     "value": "CC029",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC029\""
   },
   {
     "subjectId": "VarInterp042",
@@ -1581,9 +1581,9 @@
     "attributeId": "A057",
     "value": "CG-reg-anno-type:functional",
     "evidenceDataName": "RegionAnnotation",
-    "attributeName": "isTypes",
+    "attributeName": "includedTypes",
     "attributeType": "Coding",
-    "lookupValue": "isTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "includedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "VarInterp044",
@@ -1600,8 +1600,8 @@
     "value": "CC031",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA26334-5\", display: \"Likely Benign\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC031\""
   },
   {
     "subjectId": "VarInterp044",
@@ -1672,8 +1672,8 @@
     "value": "CC032",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC032\""
   },
   {
     "subjectId": "VarInterp045",
@@ -1725,9 +1725,9 @@
     "attributeId": "A057",
     "value": "CG-reg-anno-type:hotspot",
     "evidenceDataName": "RegionAnnotation",
-    "attributeName": "isTypes",
+    "attributeName": "includedTypes",
     "attributeType": "Coding",
-    "lookupValue": "isTypes: { code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "includedTypes: { code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "VarInterp047",
@@ -1745,7 +1745,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Fabry disease, X-linked recessive inheritance }"
+    "lookupValue": "condition: { Fabry disease, HP:0001419 }"
   },
   {
     "subjectId": "VarInterp047",
@@ -1753,8 +1753,8 @@
     "value": "CC034",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC034\""
   },
   {
     "subjectId": "VarInterp048",
@@ -1772,7 +1772,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Fabry disease, X-linked recessive inheritance }"
+    "lookupValue": "condition: { Fabry disease, HP:0001419 }"
   },
   {
     "subjectId": "VarInterp048",
@@ -1780,8 +1780,8 @@
     "value": "CC035",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC035\""
   },
   {
     "subjectId": "VarInterp049",
@@ -1799,7 +1799,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Fabry disease, X-linked recessive inheritance }"
+    "lookupValue": "condition: { Fabry disease, HP:0001419 }"
   },
   {
     "subjectId": "VarInterp049",
@@ -1807,8 +1807,8 @@
     "value": "CC036",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC036\""
   },
   {
     "subjectId": "VarInterp050",
@@ -1826,7 +1826,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Fabry disease, X-linked recessive inheritance }"
+    "lookupValue": "condition: { Fabry disease, HP:0001419 }"
   },
   {
     "subjectId": "VarInterp050",
@@ -1834,8 +1834,8 @@
     "value": "CC037",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC037\""
   },
   {
     "subjectId": "AllFreq051",
@@ -2122,8 +2122,8 @@
     "value": "CC042",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC042\""
   },
   {
     "subjectId": "VarInterp055",
@@ -2213,7 +2213,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Primary ciliary dyskenisia, Autosomal Recessive }"
+    "lookupValue": "condition: { Primary ciliary dyskenisia, HP:0000007 }"
   },
   {
     "subjectId": "VarInterp057",
@@ -2221,8 +2221,8 @@
     "value": "CC043",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC043\""
   },
   {
     "subjectId": "VarInterp057",
@@ -2312,7 +2312,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { nonsyndromic deafness, Autosomal Recessive, GIPC3 }"
+    "lookupValue": "condition: { nonsyndromic deafness, HP:0000007, GIPC3 }"
   },
   {
     "subjectId": "VarInterp059",
@@ -2320,8 +2320,8 @@
     "value": "CC047",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: \"LN:LA6668-3\""
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp060",
@@ -2347,8 +2347,8 @@
     "value": "CC048",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: \"LN:LA26332-9\""
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp060",
@@ -2375,7 +2375,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { nonsyndromic deafness, Autosomal Recessive, GIPC3 }"
+    "lookupValue": "condition: { nonsyndromic deafness, HP:0000007, GIPC3 }"
   },
   {
     "subjectId": "IndCond061",
@@ -2464,8 +2464,8 @@
     "value": "CC052",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: \"LN:LA26332-9\""
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp063",
@@ -2528,7 +2528,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { neuronal ceroid lipofuscinosis, Autosomal Recessive, TTP1 }"
+    "lookupValue": "condition: { neuronal ceroid lipofuscinosis, HP:0000007, TTP1 }"
   },
   {
     "subjectId": "IndCond064",
@@ -2652,18 +2652,18 @@
     "attributeId": "A097",
     "value": "CC056",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred068",
     "attributeId": "A099",
     "value": "no impact",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"no impact\""
+    "lookupValue": "categoricalPrediction: \"no impact\""
   },
   {
     "subjectId": "RegAnn069",
@@ -2679,9 +2679,9 @@
     "attributeId": "A057",
     "value": "CG-reg-anno-type:repeat",
     "evidenceDataName": "RegionAnnotation",
-    "attributeName": "isTypes",
+    "attributeName": "includedTypes",
     "attributeType": "Coding",
-    "lookupValue": "isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "RegAnn069",
@@ -2733,9 +2733,9 @@
     "attributeId": "A113",
     "value": "phyloP",
     "evidenceDataName": "Conservation",
-    "attributeName": "method",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "method: \"phyloP\""
+    "lookupValue": "algorithm: \"phyloP\""
   },
   {
     "subjectId": "Conserv071",
@@ -2769,9 +2769,9 @@
     "attributeId": "A113",
     "value": "PhastCons",
     "evidenceDataName": "Conservation",
-    "attributeName": "method",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "method: \"PhastCons\""
+    "lookupValue": "algorithm: \"PhastCons\""
   },
   {
     "subjectId": "Conserv072",
@@ -2796,9 +2796,9 @@
     "attributeId": "A056",
     "value": "CG-reg-anno-type:repeat",
     "evidenceDataName": "RegionAnnotation",
-    "attributeName": "isNotTypes",
+    "attributeName": "excludedTypes",
     "attributeType": "Coding",
-    "lookupValue": "isNotTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "excludedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "MolCon074",
@@ -2843,7 +2843,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { noonan syndrome, Autosomal Dominant }"
+    "lookupValue": "condition: { noonan syndrome, HP:0000006 }"
   },
   {
     "subjectId": "FamSegData076",
@@ -2913,9 +2913,9 @@
     "attributeId": "A057",
     "value": "CG-reg-anno-type:repeat",
     "evidenceDataName": "RegionAnnotation",
-    "attributeName": "isTypes",
+    "attributeName": "includedTypes",
     "attributeType": "Coding",
-    "lookupValue": "isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "VarInterp078",
@@ -2941,8 +2941,8 @@
     "value": "CC063",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC063\""
   },
   {
     "subjectId": "VarInterp078",
@@ -2977,8 +2977,8 @@
     "value": "CC064",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC064\""
   },
   {
     "subjectId": "VarInterp079",
@@ -3013,8 +3013,8 @@
     "value": "CC065",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC065\""
   },
   {
     "subjectId": "VarInterp081",
@@ -3040,8 +3040,8 @@
     "value": "CC066",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC066\""
   },
   {
     "subjectId": "AllFreq082",
@@ -3733,7 +3733,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
+    "lookupValue": "condition: { hypertrophic cardiomyopathy, HP:0000006 }"
   },
   {
     "subjectId": "FamSegData103",
@@ -3787,7 +3787,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
+    "lookupValue": "condition: { hypertrophic cardiomyopathy, HP:0000006 }"
   },
   {
     "subjectId": "FamSegData104",
@@ -3832,7 +3832,7 @@
     "evidenceDataName": "AggregateSegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
+    "lookupValue": "condition: { hypertrophic cardiomyopathy, HP:0000006 }"
   },
   {
     "subjectId": "AggSegData105",
@@ -3913,7 +3913,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Usher syndrome, Autosomal Recessive }"
+    "lookupValue": "condition: { Usher syndrome, HP:0000007 }"
   },
   {
     "subjectId": "FamSegData107",
@@ -3949,7 +3949,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Usher syndrome, Autosomal Recessive }"
+    "lookupValue": "condition: { Usher syndrome, HP:0000007 }"
   },
   {
     "subjectId": "FamSegData108",
@@ -3976,7 +3976,7 @@
     "evidenceDataName": "AggregateSegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Usher syndrome, Autosomal Recessive }"
+    "lookupValue": "condition: { Usher syndrome, HP:0000007 }"
   },
   {
     "subjectId": "AggSegData109",
@@ -4111,7 +4111,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { dilated cardiomyopathy, Autosomal Dominant }"
+    "lookupValue": "condition: { dilated cardiomyopathy, HP:0000006 }"
   },
   {
     "subjectId": "FamSegData113",
@@ -4192,7 +4192,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { dilated cardiomyopathy, Autosomal Dominant }"
+    "lookupValue": "condition: { dilated cardiomyopathy, HP:0000006 }"
   },
   {
     "subjectId": "FamSegData114",
@@ -4282,7 +4282,7 @@
     "evidenceDataName": "AggregateSegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { dilated cardiomyopathy, Autosomal Dominant }"
+    "lookupValue": "condition: { dilated cardiomyopathy, HP:0000006 }"
   },
   {
     "subjectId": "AggSegData115",
@@ -4352,9 +4352,9 @@
     "attributeId": "A003",
     "value": "CG-cond-mech-strength:common",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "strength",
+    "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "strength: { code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech118",
@@ -4397,27 +4397,27 @@
     "attributeId": "A097",
     "value": "CC074",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred120",
     "attributeId": "A098",
     "value": "SIFT",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"SIFT\""
+    "lookupValue": "algorithm: \"SIFT\""
   },
   {
     "subjectId": "InSilicoPred120",
     "attributeId": "A099",
     "value": "Damaging",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Damaging\""
+    "lookupValue": "categoricalPrediction: \"Damaging\""
   },
   {
     "subjectId": "InSilicoPred121",
@@ -4433,27 +4433,27 @@
     "attributeId": "A097",
     "value": "CC075",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred121",
     "attributeId": "A098",
     "value": "Polyphen",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"Polyphen\""
+    "lookupValue": "algorithm: \"Polyphen\""
   },
   {
     "subjectId": "InSilicoPred121",
     "attributeId": "A099",
     "value": "Probably damaging",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Probably damaging\""
+    "lookupValue": "categoricalPrediction: \"Probably damaging\""
   },
   {
     "subjectId": "InSilicoPred122",
@@ -4469,27 +4469,27 @@
     "attributeId": "A097",
     "value": "CC076",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred122",
     "attributeId": "A098",
     "value": "FATHMM",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"FATHMM\""
+    "lookupValue": "algorithm: \"FATHMM\""
   },
   {
     "subjectId": "InSilicoPred122",
     "attributeId": "A099",
     "value": "Tolerated",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Tolerated\""
+    "lookupValue": "categoricalPrediction: \"Tolerated\""
   },
   {
     "subjectId": "InSilicoPred123",
@@ -4505,27 +4505,27 @@
     "attributeId": "A097",
     "value": "CC077",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred123",
     "attributeId": "A098",
     "value": "LRT",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"LRT\""
+    "lookupValue": "algorithm: \"LRT\""
   },
   {
     "subjectId": "InSilicoPred123",
     "attributeId": "A099",
     "value": "Damaging",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Damaging\""
+    "lookupValue": "categoricalPrediction: \"Damaging\""
   },
   {
     "subjectId": "InSilicoPred124",
@@ -4541,27 +4541,27 @@
     "attributeId": "A097",
     "value": "CC078",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred124",
     "attributeId": "A098",
     "value": "MetaSVM",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"MetaSVM\""
+    "lookupValue": "algorithm: \"MetaSVM\""
   },
   {
     "subjectId": "InSilicoPred124",
     "attributeId": "A099",
     "value": "Tolerated",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Tolerated\""
+    "lookupValue": "categoricalPrediction: \"Tolerated\""
   },
   {
     "subjectId": "InSilicoPred125",
@@ -4577,27 +4577,27 @@
     "attributeId": "A097",
     "value": "CC079",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred125",
     "attributeId": "A098",
     "value": "Mutation assessor",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"Mutation assessor\""
+    "lookupValue": "algorithm: \"Mutation assessor\""
   },
   {
     "subjectId": "InSilicoPred125",
     "attributeId": "A099",
     "value": "Tolerated",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Tolerated\""
+    "lookupValue": "categoricalPrediction: \"Tolerated\""
   },
   {
     "subjectId": "InSilicoPred126",
@@ -4613,27 +4613,27 @@
     "attributeId": "A097",
     "value": "CC080",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred126",
     "attributeId": "A098",
     "value": "Mutation taster",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"Mutation taster\""
+    "lookupValue": "algorithm: \"Mutation taster\""
   },
   {
     "subjectId": "InSilicoPred126",
     "attributeId": "A099",
     "value": "Disease-causing",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Disease-causing\""
+    "lookupValue": "categoricalPrediction: \"Disease-causing\""
   },
   {
     "subjectId": "InSilicoPred127",
@@ -4649,27 +4649,27 @@
     "attributeId": "A097",
     "value": "CC081",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred127",
     "attributeId": "A098",
     "value": "Provean",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"Provean\""
+    "lookupValue": "algorithm: \"Provean\""
   },
   {
     "subjectId": "InSilicoPred127",
     "attributeId": "A099",
     "value": "Damaging",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Damaging\""
+    "lookupValue": "categoricalPrediction: \"Damaging\""
   },
   {
     "subjectId": "InSilicoPred128",
@@ -4685,27 +4685,27 @@
     "attributeId": "A097",
     "value": "CC082",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred128",
     "attributeId": "A098",
     "value": "Condel",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"Condel\""
+    "lookupValue": "algorithm: \"Condel\""
   },
   {
     "subjectId": "InSilicoPred128",
     "attributeId": "A099",
     "value": "deleterious",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"deleterious\""
+    "lookupValue": "categoricalPrediction: \"deleterious\""
   },
   {
     "subjectId": "InSilicoPred129",
@@ -4721,27 +4721,27 @@
     "attributeId": "A097",
     "value": "CC083",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred129",
     "attributeId": "A098",
     "value": "SIFT",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"SIFT\""
+    "lookupValue": "algorithm: \"SIFT\""
   },
   {
     "subjectId": "InSilicoPred129",
     "attributeId": "A099",
     "value": "deleterious",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"deleterious\""
+    "lookupValue": "categoricalPrediction: \"deleterious\""
   },
   {
     "subjectId": "InSilicoPred130",
@@ -4757,27 +4757,27 @@
     "attributeId": "A097",
     "value": "CC084",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred130",
     "attributeId": "A098",
     "value": "Polyphen",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"Polyphen\""
+    "lookupValue": "algorithm: \"Polyphen\""
   },
   {
     "subjectId": "InSilicoPred130",
     "attributeId": "A099",
     "value": "Probably damaging",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Probably damaging\""
+    "lookupValue": "categoricalPrediction: \"Probably damaging\""
   },
   {
     "subjectId": "InSilicoPred131",
@@ -4793,27 +4793,27 @@
     "attributeId": "A097",
     "value": "CC085",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred131",
     "attributeId": "A098",
     "value": "FATHMM",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"FATHMM\""
+    "lookupValue": "algorithm: \"FATHMM\""
   },
   {
     "subjectId": "InSilicoPred131",
     "attributeId": "A099",
     "value": "Damaging",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Damaging\""
+    "lookupValue": "categoricalPrediction: \"Damaging\""
   },
   {
     "subjectId": "InSilicoPred132",
@@ -4829,27 +4829,27 @@
     "attributeId": "A097",
     "value": "CC086",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred132",
     "attributeId": "A098",
     "value": "LRT",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"LRT\""
+    "lookupValue": "algorithm: \"LRT\""
   },
   {
     "subjectId": "InSilicoPred132",
     "attributeId": "A099",
     "value": "Damaging",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Damaging\""
+    "lookupValue": "categoricalPrediction: \"Damaging\""
   },
   {
     "subjectId": "InSilicoPred133",
@@ -4865,27 +4865,27 @@
     "attributeId": "A097",
     "value": "CC087",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred133",
     "attributeId": "A098",
     "value": "MetaSVM",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"MetaSVM\""
+    "lookupValue": "algorithm: \"MetaSVM\""
   },
   {
     "subjectId": "InSilicoPred133",
     "attributeId": "A099",
     "value": "Tolerated",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Tolerated\""
+    "lookupValue": "categoricalPrediction: \"Tolerated\""
   },
   {
     "subjectId": "InSilicoPred134",
@@ -4901,27 +4901,27 @@
     "attributeId": "A097",
     "value": "CC088",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred134",
     "attributeId": "A098",
     "value": "Mutation assessor",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"Mutation assessor\""
+    "lookupValue": "algorithm: \"Mutation assessor\""
   },
   {
     "subjectId": "InSilicoPred134",
     "attributeId": "A099",
     "value": "Medium functional impact",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Medium functional impact\""
+    "lookupValue": "categoricalPrediction: \"Medium functional impact\""
   },
   {
     "subjectId": "InSilicoPred135",
@@ -4937,27 +4937,27 @@
     "attributeId": "A097",
     "value": "CC089",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred135",
     "attributeId": "A098",
     "value": "Mutation taster",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"Mutation taster\""
+    "lookupValue": "algorithm: \"Mutation taster\""
   },
   {
     "subjectId": "InSilicoPred135",
     "attributeId": "A099",
     "value": "Disease-causing",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Disease-causing\""
+    "lookupValue": "categoricalPrediction: \"Disease-causing\""
   },
   {
     "subjectId": "InSilicoPred136",
@@ -4973,27 +4973,27 @@
     "attributeId": "A097",
     "value": "CC090",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred136",
     "attributeId": "A098",
     "value": "Provean",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"Provean\""
+    "lookupValue": "algorithm: \"Provean\""
   },
   {
     "subjectId": "InSilicoPred136",
     "attributeId": "A099",
     "value": "Damaging",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Damaging\""
+    "lookupValue": "categoricalPrediction: \"Damaging\""
   },
   {
     "subjectId": "InSilicoPred137",
@@ -5009,27 +5009,27 @@
     "attributeId": "A097",
     "value": "CC091",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred137",
     "attributeId": "A098",
     "value": "Condel",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"Condel\""
+    "lookupValue": "algorithm: \"Condel\""
   },
   {
     "subjectId": "InSilicoPred137",
     "attributeId": "A099",
     "value": "deleterious",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"deleterious\""
+    "lookupValue": "categoricalPrediction: \"deleterious\""
   },
   {
     "subjectId": "InSilicoPred138",
@@ -5045,27 +5045,27 @@
     "attributeId": "A097",
     "value": "CC092",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred138",
     "attributeId": "A098",
     "value": "SIFT",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"SIFT\""
+    "lookupValue": "algorithm: \"SIFT\""
   },
   {
     "subjectId": "InSilicoPred138",
     "attributeId": "A099",
     "value": "Tolerated",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Tolerated\""
+    "lookupValue": "categoricalPrediction: \"Tolerated\""
   },
   {
     "subjectId": "InSilicoPred139",
@@ -5081,27 +5081,27 @@
     "attributeId": "A097",
     "value": "CC093",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred139",
     "attributeId": "A098",
     "value": "Polyphen2",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"Polyphen2\""
+    "lookupValue": "algorithm: \"Polyphen2\""
   },
   {
     "subjectId": "InSilicoPred139",
     "attributeId": "A099",
     "value": "benign",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"benign\""
+    "lookupValue": "categoricalPrediction: \"benign\""
   },
   {
     "subjectId": "InSilicoPred140",
@@ -5117,27 +5117,27 @@
     "attributeId": "A097",
     "value": "CC094",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred140",
     "attributeId": "A098",
     "value": "AlignGVGD",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"AlignGVGD\""
+    "lookupValue": "algorithm: \"AlignGVGD\""
   },
   {
     "subjectId": "InSilicoPred140",
     "attributeId": "A099",
     "value": "C0 (benign)",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"C0 (benign)\""
+    "lookupValue": "categoricalPrediction: \"C0 (benign)\""
   },
   {
     "subjectId": "InSilicoPred141",
@@ -5153,27 +5153,27 @@
     "attributeId": "A097",
     "value": "CC095",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred141",
     "attributeId": "A098",
     "value": "MAPP",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"MAPP\""
+    "lookupValue": "algorithm: \"MAPP\""
   },
   {
     "subjectId": "InSilicoPred141",
     "attributeId": "A099",
     "value": "good (benign)",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"good (benign)\""
+    "lookupValue": "categoricalPrediction: \"good (benign)\""
   },
   {
     "subjectId": "InSilicoPred142",
@@ -5189,27 +5189,27 @@
     "attributeId": "A097",
     "value": "CC096",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred142",
     "attributeId": "A098",
     "value": "MutationTaster",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"MutationTaster\""
+    "lookupValue": "algorithm: \"MutationTaster\""
   },
   {
     "subjectId": "InSilicoPred142",
     "attributeId": "A099",
     "value": "disease-causing",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"disease-causing\""
+    "lookupValue": "categoricalPrediction: \"disease-causing\""
   },
   {
     "subjectId": "InSilicoPred143",
@@ -5225,27 +5225,27 @@
     "attributeId": "A097",
     "value": "CC097",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: \"CG-prediction-type:sp\""
+    "lookupValue": "predictionType: \"CG-prediction-type:sp\""
   },
   {
     "subjectId": "InSilicoPred143",
     "attributeId": "A098",
     "value": "SSF",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"SSF\""
+    "lookupValue": "algorithm: \"SSF\""
   },
   {
     "subjectId": "InSilicoPred143",
     "attributeId": "A099",
     "value": 71.53,
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"71.53\""
+    "lookupValue": "categoricalPrediction: \"71.53\""
   },
   {
     "subjectId": "InSilicoPred144",
@@ -5261,27 +5261,27 @@
     "attributeId": "A097",
     "value": "CC098",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: \"CG-prediction-type:sp\""
+    "lookupValue": "predictionType: \"CG-prediction-type:sp\""
   },
   {
     "subjectId": "InSilicoPred144",
     "attributeId": "A098",
     "value": "MaxEnt",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"MaxEnt\""
+    "lookupValue": "algorithm: \"MaxEnt\""
   },
   {
     "subjectId": "InSilicoPred144",
     "attributeId": "A099",
     "value": 7.39,
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"7.39\""
+    "lookupValue": "categoricalPrediction: \"7.39\""
   },
   {
     "subjectId": "InSilicoPred145",
@@ -5297,27 +5297,27 @@
     "attributeId": "A097",
     "value": "CC099",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred145",
     "attributeId": "A098",
     "value": "NNSPLICE",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"NNSPLICE\""
+    "lookupValue": "algorithm: \"NNSPLICE\""
   },
   {
     "subjectId": "InSilicoPred145",
     "attributeId": "A099",
     "value": 0.87,
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"0.87\""
+    "lookupValue": "categoricalPrediction: \"0.87\""
   },
   {
     "subjectId": "InSilicoPred146",
@@ -5333,27 +5333,27 @@
     "attributeId": "A097",
     "value": "CC100",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred146",
     "attributeId": "A098",
     "value": "GeneSplicer",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"GeneSplicer\""
+    "lookupValue": "algorithm: \"GeneSplicer\""
   },
   {
     "subjectId": "InSilicoPred146",
     "attributeId": "A099",
     "value": 7.75,
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"7.75\""
+    "lookupValue": "categoricalPrediction: \"7.75\""
   },
   {
     "subjectId": "InSilicoPred147",
@@ -5369,27 +5369,27 @@
     "attributeId": "A097",
     "value": "CC101",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred147",
     "attributeId": "A098",
     "value": "HSF",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"HSF\""
+    "lookupValue": "algorithm: \"HSF\""
   },
   {
     "subjectId": "InSilicoPred147",
     "attributeId": "A099",
     "value": 81.75,
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"81.75\""
+    "lookupValue": "categoricalPrediction: \"81.75\""
   },
   {
     "subjectId": "CondEtiol148",
@@ -5398,7 +5398,7 @@
     "evidenceDataName": "ConditionEtiology",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hereditary hemorrhagic telangiectasia, Autosomal Dominant }"
+    "lookupValue": "condition: { hereditary hemorrhagic telangiectasia, HP:0000006 }"
   },
   {
     "subjectId": "CondEtiol148",
@@ -5461,7 +5461,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2, Autosomal Dominant }"
+    "lookupValue": "condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2, HP:0000006 }"
   },
   {
     "subjectId": "VarInterp150",
@@ -5469,8 +5469,8 @@
     "value": "CC102",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC102\""
   },
   {
     "subjectId": "VarInterp151",
@@ -5488,7 +5488,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Myopathy, Distal, type 4, Autosomal Dominant }"
+    "lookupValue": "condition: { Myopathy, Distal, type 4, HP:0000006 }"
   },
   {
     "subjectId": "VarInterp151",
@@ -5496,8 +5496,8 @@
     "value": "CC103",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC103\""
   },
   {
     "subjectId": "VarInterp152",
@@ -5515,7 +5515,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Cystic Fibrosis, Autosomal Recessive }"
+    "lookupValue": "condition: { Cystic Fibrosis, HP:0000007 }"
   },
   {
     "subjectId": "VarInterp152",
@@ -5523,8 +5523,8 @@
     "value": "CC104",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC104\""
   },
   {
     "subjectId": "AllFreq153",
@@ -5739,8 +5739,8 @@
     "value": "CC108",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC108\""
   },
   {
     "subjectId": "CritAssess156",
@@ -5893,7 +5893,7 @@
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Marfan Syndrome, Autosomal Dominant }"
+    "lookupValue": "condition: { Marfan Syndrome, HP:0000006 }"
   },
   {
     "subjectId": "CondPrev159",
@@ -5929,7 +5929,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Marfan Syndrome, Autosomal Dominant }"
+    "lookupValue": "condition: { Marfan Syndrome, HP:0000006 }"
   },
   {
     "subjectId": "CondPenet160",
@@ -6037,16 +6037,16 @@
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Mitochondrial complex 1 deficiency, X-linked dominant inheritance }"
+    "lookupValue": "condition: { Mitochondrial complex 1 deficiency, HP:0001423 }"
   },
   {
     "subjectId": "CondPrev163",
     "attributeId": "A109",
     "value": 0.00012,
     "evidenceDataName": "ConditionPrevelance",
-    "attributeName": "value",
+    "attributeName": "prevelance",
     "attributeType": "float",
-    "lookupValue": "value: 0.00012"
+    "lookupValue": "prevelance: 0.00012"
   },
   {
     "subjectId": "CondPrev163",
@@ -6064,7 +6064,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Mitochondrial complex 1 deficiency, X-linked dominant inheritance }"
+    "lookupValue": "condition: { Mitochondrial complex 1 deficiency, HP:0001423 }"
   },
   {
     "subjectId": "CondPenet164",
@@ -6089,9 +6089,9 @@
     "attributeId": "A003",
     "value": "CG-cond-mech-strength:common",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "strength",
+    "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "strength: { code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech165",
@@ -6172,7 +6172,7 @@
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Perrault Syndrome, Autosomal Recessive }"
+    "lookupValue": "condition: { Perrault Syndrome, HP:0000007 }"
   },
   {
     "subjectId": "CondPrev167",
@@ -6199,7 +6199,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Perrault Syndrome, Autosomal Recessive }"
+    "lookupValue": "condition: { Perrault Syndrome, HP:0000007 }"
   },
   {
     "subjectId": "CondPenet168",
@@ -6244,7 +6244,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }"
+    "lookupValue": "condition: { Wiedemann-Steiner syndrome, HP:0000006 }"
   },
   {
     "subjectId": "CondPenet170",
@@ -6325,7 +6325,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }"
+    "lookupValue": "condition: { Wiedemann-Steiner syndrome, HP:0000006 }"
   },
   {
     "subjectId": "IndCond174",
@@ -6352,7 +6352,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }"
+    "lookupValue": "condition: { Wiedemann-Steiner syndrome, HP:0000006 }"
   },
   {
     "subjectId": "IndCond175",
@@ -6370,7 +6370,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Familial Adenomatous Polyposis, Autosomal Dominant }"
+    "lookupValue": "condition: { Familial Adenomatous Polyposis, HP:0000006 }"
   },
   {
     "subjectId": "CondPenet176",
@@ -6505,7 +6505,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Familial Adenomatous Polyposis, Autosomal Dominant }"
+    "lookupValue": "condition: { Familial Adenomatous Polyposis, HP:0000006 }"
   },
   {
     "subjectId": "IndCond182",
@@ -6532,7 +6532,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Familial Adenomatous Polyposis, Autosomal Dominant }"
+    "lookupValue": "condition: { Familial Adenomatous Polyposis, HP:0000006 }"
   },
   {
     "subjectId": "IndCond183",
@@ -6559,7 +6559,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Familial Adenomatous Polyposis, Autosomal Dominant }"
+    "lookupValue": "condition: { Familial Adenomatous Polyposis, HP:0000006 }"
   },
   {
     "subjectId": "IndCond184",
@@ -6586,7 +6586,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Familial Adenomatous Polyposis, Autosomal Dominant }"
+    "lookupValue": "condition: { Familial Adenomatous Polyposis, HP:0000006 }"
   },
   {
     "subjectId": "IndCond185",
@@ -6874,7 +6874,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Hypercholesterolemia, Familial, Autosomal Dominant }"
+    "lookupValue": "condition: { Hypercholesterolemia, Familial, HP:0000006 }"
   },
   {
     "subjectId": "FamSegData196",
@@ -6928,7 +6928,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
+    "lookupValue": "condition: { hypertrophic cardiomyopathy, HP:0000006 }"
   },
   {
     "subjectId": "FamSegData197",
@@ -7016,9 +7016,9 @@
     "attributeId": "A003",
     "value": "CG-cond-mech-strength:primary",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "strength",
+    "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech199",
@@ -7052,9 +7052,9 @@
     "attributeId": "A003",
     "value": "CG-cond-mech-strength:primary",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "strength",
+    "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech200",
@@ -7115,9 +7115,9 @@
     "attributeId": "A003",
     "value": "CG-cond-mech-strength:primary",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "strength",
+    "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech202",
@@ -7178,9 +7178,9 @@
     "attributeId": "A003",
     "value": "CG-cond-mech-strength:primary",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "strength",
+    "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "strength: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech204",
@@ -7214,9 +7214,9 @@
     "attributeId": "A003",
     "value": "CG-cond-mech-strength:established",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "strength",
+    "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech205",
@@ -7386,8 +7386,8 @@
     "value": "CC153",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC153\""
   },
   {
     "subjectId": "IndAll211",
@@ -7476,8 +7476,8 @@
     "value": "CC155",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC155\""
   },
   {
     "subjectId": "IndAll214",
@@ -7531,7 +7531,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { cardiomyopathy, Autosomal Dominant }"
+    "lookupValue": "condition: { cardiomyopathy, HP:0000006 }"
   },
   {
     "subjectId": "IndCond215",
@@ -7558,7 +7558,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { cardiomyopathy, Autosomal Dominant }"
+    "lookupValue": "condition: { cardiomyopathy, HP:0000006 }"
   },
   {
     "subjectId": "VarInterp216",
@@ -7566,8 +7566,8 @@
     "value": "CC157",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC157\""
   },
   {
     "subjectId": "CondPenet218",
@@ -7576,7 +7576,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { cardiomyopathy, Autosomal Dominant }"
+    "lookupValue": "condition: { cardiomyopathy, HP:0000006 }"
   },
   {
     "subjectId": "CondPenet218",
@@ -7601,18 +7601,18 @@
     "attributeId": "A056",
     "value": "CG-reg-anno-type:functional",
     "evidenceDataName": "RegionAnnotation",
-    "attributeName": "isNotTypes",
+    "attributeName": "excludedTypes",
     "attributeType": "Coding",
-    "lookupValue": "isNotTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "excludedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "RegAnn220",
     "attributeId": "A057",
     "value": "CG-reg-anno-type:repeat",
     "evidenceDataName": "RegionAnnotation",
-    "attributeName": "isTypes",
+    "attributeName": "includedTypes",
     "attributeType": "Coding",
-    "lookupValue": "isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "MolCon223",
@@ -7646,9 +7646,9 @@
     "attributeId": "A057",
     "value": "CG-reg-anno-type:repeat",
     "evidenceDataName": "RegionAnnotation",
-    "attributeName": "isTypes",
+    "attributeName": "includedTypes",
     "attributeType": "Coding",
-    "lookupValue": "isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "MolCon227",
@@ -7682,9 +7682,9 @@
     "attributeId": "A057",
     "value": "CG-reg-anno-type:repeat",
     "evidenceDataName": "RegionAnnotation",
-    "attributeName": "isTypes",
+    "attributeName": "includedTypes",
     "attributeType": "Coding",
-    "lookupValue": "isTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
   },
   {
     "subjectId": "MolCon231",
@@ -7718,27 +7718,27 @@
     "attributeId": "A097",
     "value": "CC166",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred232",
     "attributeId": "A098",
     "value": "SIFT",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"SIFT\""
+    "lookupValue": "algorithm: \"SIFT\""
   },
   {
     "subjectId": "InSilicoPred232",
     "attributeId": "A099",
     "value": "Benign",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Benign\""
+    "lookupValue": "categoricalPrediction: \"Benign\""
   },
   {
     "subjectId": "InSilicoPred233",
@@ -7754,27 +7754,27 @@
     "attributeId": "A097",
     "value": "CC167",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred233",
     "attributeId": "A098",
     "value": "Polyphen",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"Polyphen\""
+    "lookupValue": "algorithm: \"Polyphen\""
   },
   {
     "subjectId": "InSilicoPred233",
     "attributeId": "A099",
     "value": "Possibly damaging",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Possibly damaging\""
+    "lookupValue": "categoricalPrediction: \"Possibly damaging\""
   },
   {
     "subjectId": "InSilicoPred234",
@@ -7790,27 +7790,27 @@
     "attributeId": "A097",
     "value": "CC168",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred234",
     "attributeId": "A098",
     "value": "FATHMM",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"FATHMM\""
+    "lookupValue": "algorithm: \"FATHMM\""
   },
   {
     "subjectId": "InSilicoPred234",
     "attributeId": "A099",
     "value": "Benign",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Benign\""
+    "lookupValue": "categoricalPrediction: \"Benign\""
   },
   {
     "subjectId": "InSilicoPred235",
@@ -7826,27 +7826,27 @@
     "attributeId": "A097",
     "value": "CC169",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred235",
     "attributeId": "A098",
     "value": "LRT",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"LRT\""
+    "lookupValue": "algorithm: \"LRT\""
   },
   {
     "subjectId": "InSilicoPred235",
     "attributeId": "A099",
     "value": "Benign",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Benign\""
+    "lookupValue": "categoricalPrediction: \"Benign\""
   },
   {
     "subjectId": "InSilicoPred236",
@@ -7862,27 +7862,27 @@
     "attributeId": "A097",
     "value": "CC170",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred236",
     "attributeId": "A098",
     "value": "MetaSVM",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"MetaSVM\""
+    "lookupValue": "algorithm: \"MetaSVM\""
   },
   {
     "subjectId": "InSilicoPred236",
     "attributeId": "A099",
     "value": "Benign",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Benign\""
+    "lookupValue": "categoricalPrediction: \"Benign\""
   },
   {
     "subjectId": "InSilicoPred237",
@@ -7898,27 +7898,27 @@
     "attributeId": "A097",
     "value": "CC171",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred237",
     "attributeId": "A098",
     "value": "Mutation assessor",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"Mutation assessor\""
+    "lookupValue": "algorithm: \"Mutation assessor\""
   },
   {
     "subjectId": "InSilicoPred237",
     "attributeId": "A099",
     "value": "Benign",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Benign\""
+    "lookupValue": "categoricalPrediction: \"Benign\""
   },
   {
     "subjectId": "InSilicoPred238",
@@ -7934,27 +7934,27 @@
     "attributeId": "A097",
     "value": "CC172",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred238",
     "attributeId": "A098",
     "value": "Mutation taster",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"Mutation taster\""
+    "lookupValue": "algorithm: \"Mutation taster\""
   },
   {
     "subjectId": "InSilicoPred238",
     "attributeId": "A099",
     "value": "Benign",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Benign\""
+    "lookupValue": "categoricalPrediction: \"Benign\""
   },
   {
     "subjectId": "InSilicoPred239",
@@ -7970,27 +7970,27 @@
     "attributeId": "A097",
     "value": "CC173",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred239",
     "attributeId": "A098",
     "value": "Provean",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"Provean\""
+    "lookupValue": "algorithm: \"Provean\""
   },
   {
     "subjectId": "InSilicoPred239",
     "attributeId": "A099",
     "value": "Benign",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"Benign\""
+    "lookupValue": "categoricalPrediction: \"Benign\""
   },
   {
     "subjectId": "InSilicoPred240",
@@ -8006,27 +8006,27 @@
     "attributeId": "A097",
     "value": "CC174",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred240",
     "attributeId": "A098",
     "value": "Condel",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"Condel\""
+    "lookupValue": "algorithm: \"Condel\""
   },
   {
     "subjectId": "InSilicoPred240",
     "attributeId": "A099",
     "value": "deleterious",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"deleterious\""
+    "lookupValue": "categoricalPrediction: \"deleterious\""
   },
   {
     "subjectId": "IndAll241",
@@ -8106,8 +8106,8 @@
     "value": "CC175",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC175\""
   },
   {
     "subjectId": "IndAll244",
@@ -8232,8 +8232,8 @@
     "value": "CC179",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC179\""
   },
   {
     "subjectId": "VarInterp248",
@@ -8259,8 +8259,8 @@
     "value": "CC180",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC180\""
   },
   {
     "subjectId": "IndAll249",
@@ -8314,7 +8314,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Usher syndrome, Autosomal Recessive }"
+    "lookupValue": "condition: { Usher syndrome, HP:0000007 }"
   },
   {
     "subjectId": "IndCond250",
@@ -8341,7 +8341,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Usher syndrome, Autosomal Recessive }"
+    "lookupValue": "condition: { Usher syndrome, HP:0000007 }"
   },
   {
     "subjectId": "VarInterp251",
@@ -8349,8 +8349,8 @@
     "value": "CC182",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC182\""
   },
   {
     "subjectId": "IndCond252",
@@ -8430,8 +8430,8 @@
     "value": "CC183",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC183\""
   },
   {
     "subjectId": "VarInterp255",
@@ -8457,8 +8457,8 @@
     "value": "CC184",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC184\""
   },
   {
     "subjectId": "VarInterp256",
@@ -8484,8 +8484,8 @@
     "value": "CC185",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC185\""
   },
   {
     "subjectId": "VarInterp257",
@@ -8511,8 +8511,8 @@
     "value": "CC186",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC186\""
   },
   {
     "subjectId": "InSilicoPred258",
@@ -8528,18 +8528,18 @@
     "attributeId": "A097",
     "value": "CC187",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred258",
     "attributeId": "A099",
     "value": "no impact",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"no impact\""
+    "lookupValue": "categoricalPrediction: \"no impact\""
   },
   {
     "subjectId": "Conserv259",
@@ -8564,9 +8564,9 @@
     "attributeId": "A113",
     "value": "phyloP",
     "evidenceDataName": "Conservation",
-    "attributeName": "method",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "method: \"phyloP\""
+    "lookupValue": "algorithm: \"phyloP\""
   },
   {
     "subjectId": "Conserv259",
@@ -8600,9 +8600,9 @@
     "attributeId": "A113",
     "value": "PhastCons",
     "evidenceDataName": "Conservation",
-    "attributeName": "method",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "method: \"PhastCons\""
+    "lookupValue": "algorithm: \"PhastCons\""
   },
   {
     "subjectId": "Conserv260",
@@ -8645,18 +8645,18 @@
     "attributeId": "A097",
     "value": "CC189",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred262",
     "attributeId": "A099",
     "value": "no impact",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"no impact\""
+    "lookupValue": "categoricalPrediction: \"no impact\""
   },
   {
     "subjectId": "Conserv263",
@@ -8681,9 +8681,9 @@
     "attributeId": "A113",
     "value": "phyloP",
     "evidenceDataName": "Conservation",
-    "attributeName": "method",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "method: \"phyloP\""
+    "lookupValue": "algorithm: \"phyloP\""
   },
   {
     "subjectId": "Conserv263",
@@ -8717,9 +8717,9 @@
     "attributeId": "A113",
     "value": "PhastCons",
     "evidenceDataName": "Conservation",
-    "attributeName": "method",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "method: \"PhastCons\""
+    "lookupValue": "algorithm: \"PhastCons\""
   },
   {
     "subjectId": "Conserv264",
@@ -8762,18 +8762,18 @@
     "attributeId": "A097",
     "value": "CC191",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred266",
     "attributeId": "A099",
     "value": "no impact",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"no impact\""
+    "lookupValue": "categoricalPrediction: \"no impact\""
   },
   {
     "subjectId": "Conserv267",
@@ -8798,9 +8798,9 @@
     "attributeId": "A113",
     "value": "phyloP",
     "evidenceDataName": "Conservation",
-    "attributeName": "method",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "method: \"phyloP\""
+    "lookupValue": "algorithm: \"phyloP\""
   },
   {
     "subjectId": "Conserv267",
@@ -8834,9 +8834,9 @@
     "attributeId": "A113",
     "value": "PhastCons",
     "evidenceDataName": "Conservation",
-    "attributeName": "method",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "method: \"PhastCons\""
+    "lookupValue": "algorithm: \"PhastCons\""
   },
   {
     "subjectId": "Conserv268",
@@ -8889,8 +8889,8 @@
     "value": "CC193",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC193\""
   },
   {
     "subjectId": "FamSegData271",
@@ -8899,7 +8899,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
+    "lookupValue": "condition: { hypertrophic cardiomyopathy, HP:0000006 }"
   },
   {
     "subjectId": "FamSegData271",
@@ -8996,9 +8996,9 @@
     "attributeId": "A003",
     "value": "CG-cond-mech-strength:established",
     "evidenceDataName": "ConditionMechanism",
-    "attributeName": "strength",
+    "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "strength: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
   },
   {
     "subjectId": "CondMech273",
@@ -9025,7 +9025,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Primary ciliary dyskenisia, Autosomal Recessive }"
+    "lookupValue": "condition: { Primary ciliary dyskenisia, HP:0000007 }"
   },
   {
     "subjectId": "VarInterp274",
@@ -9033,8 +9033,8 @@
     "value": "CC197",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC197\""
   },
   {
     "subjectId": "VarInterp274",
@@ -9105,8 +9105,8 @@
     "value": "CC198",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC198\""
   },
   {
     "subjectId": "CritAssess275",
@@ -9159,8 +9159,8 @@
     "value": "CC199",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC199\""
   },
   {
     "subjectId": "CritAssess276",
@@ -9213,8 +9213,8 @@
     "value": "CC200",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC200\""
   },
   {
     "subjectId": "CritAssess277",
@@ -9268,7 +9268,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { noonan syndrome, Autosomal Dominant }"
+    "lookupValue": "condition: { noonan syndrome, HP:0000006 }"
   },
   {
     "subjectId": "CritAssess278",
@@ -9276,8 +9276,8 @@
     "value": "CC201",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC201\""
   },
   {
     "subjectId": "CritAssess278",
@@ -9330,8 +9330,8 @@
     "value": "CC202",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC202\""
   },
   {
     "subjectId": "CritAssess279",
@@ -9376,7 +9376,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { costello syndrome, Autosomal Dominant }"
+    "lookupValue": "condition: { costello syndrome, HP:0000006 }"
   },
   {
     "subjectId": "CritAssess280",
@@ -9384,8 +9384,8 @@
     "value": "CC203",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC203\""
   },
   {
     "subjectId": "CritAssess280",
@@ -9456,8 +9456,8 @@
     "value": "CC204",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC204\""
   },
   {
     "subjectId": "CritAssess281",
@@ -9510,8 +9510,8 @@
     "value": "CC205",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC205\""
   },
   {
     "subjectId": "CritAssess282",
@@ -9564,8 +9564,8 @@
     "value": "CC206",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC206\""
   },
   {
     "subjectId": "CritAssess283",
@@ -9609,8 +9609,8 @@
     "value": "CC207",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC207\""
   },
   {
     "subjectId": "CritAssess284",
@@ -9690,8 +9690,8 @@
     "value": "CC208",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC208\""
   },
   {
     "subjectId": "CritAssess285",
@@ -9744,8 +9744,8 @@
     "value": "CC209",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC209\""
   },
   {
     "subjectId": "CritAssess286",
@@ -9816,8 +9816,8 @@
     "value": "CC210",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC210\""
   },
   {
     "subjectId": "CritAssess287",
@@ -9862,7 +9862,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Malignant hyperthermia, Autosomal Dominant }"
+    "lookupValue": "condition: { Malignant hyperthermia, HP:0000006 }"
   },
   {
     "subjectId": "CritAssess288",
@@ -9870,8 +9870,8 @@
     "value": "CC211",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC211\""
   },
   {
     "subjectId": "CritAssess288",
@@ -9924,8 +9924,8 @@
     "value": "CC212",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC212\""
   },
   {
     "subjectId": "CritAssess289",
@@ -9969,8 +9969,8 @@
     "value": "CC213",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC213\""
   },
   {
     "subjectId": "CritAssess290",
@@ -10014,8 +10014,8 @@
     "value": "CC214",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC214\""
   },
   {
     "subjectId": "CritAssess291",
@@ -10068,8 +10068,8 @@
     "value": "CC215",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC215\""
   },
   {
     "subjectId": "CritAssess292",
@@ -10113,8 +10113,8 @@
     "value": "CC216",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC216\""
   },
   {
     "subjectId": "CritAssess293",
@@ -10167,8 +10167,8 @@
     "value": "CC217",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC217\""
   },
   {
     "subjectId": "CritAssess294",
@@ -10212,8 +10212,8 @@
     "value": "CC218",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC218\""
   },
   {
     "subjectId": "CritAssess295",
@@ -10258,7 +10258,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Primary ciliary dyskenisia, Autosomal Recessive }"
+    "lookupValue": "condition: { Primary ciliary dyskenisia, HP:0000007 }"
   },
   {
     "subjectId": "CritAssess296",
@@ -10266,8 +10266,8 @@
     "value": "CC219",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC219\""
   },
   {
     "subjectId": "CritAssess296",
@@ -10312,7 +10312,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { nonsyndromic deafness, Autosomal Recessive, GIPC3 }"
+    "lookupValue": "condition: { nonsyndromic deafness, HP:0000007, GIPC3 }"
   },
   {
     "subjectId": "CritAssess297",
@@ -10320,8 +10320,8 @@
     "value": "CC220",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC220\""
   },
   {
     "subjectId": "CritAssess297",
@@ -10366,7 +10366,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { neuronal ceroid lipofuscinosis, Autosomal Recessive, TTP1 }"
+    "lookupValue": "condition: { neuronal ceroid lipofuscinosis, HP:0000007, TTP1 }"
   },
   {
     "subjectId": "CritAssess298",
@@ -10374,8 +10374,8 @@
     "value": "CC221",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC221\""
   },
   {
     "subjectId": "CritAssess298",
@@ -10419,8 +10419,8 @@
     "value": "CC222",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC222\""
   },
   {
     "subjectId": "CritAssess299",
@@ -10464,8 +10464,8 @@
     "value": "CC223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC223\""
   },
   {
     "subjectId": "CritAssess300",
@@ -10509,8 +10509,8 @@
     "value": "CC224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC224\""
   },
   {
     "subjectId": "CritAssess301",
@@ -10563,8 +10563,8 @@
     "value": "CC225",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC225\""
   },
   {
     "subjectId": "CritAssess302",
@@ -10635,8 +10635,8 @@
     "value": "CC226",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC226\""
   },
   {
     "subjectId": "CritAssess303",
@@ -10689,8 +10689,8 @@
     "value": "CC227",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC227\""
   },
   {
     "subjectId": "CritAssess304",
@@ -10734,8 +10734,8 @@
     "value": "CC228",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC228\""
   },
   {
     "subjectId": "CritAssess305",
@@ -10797,8 +10797,8 @@
     "value": "CC229",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC229\""
   },
   {
     "subjectId": "CritAssess306",
@@ -10869,8 +10869,8 @@
     "value": "CC230",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC230\""
   },
   {
     "subjectId": "CritAssess307",
@@ -10923,8 +10923,8 @@
     "value": "CC231",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC231\""
   },
   {
     "subjectId": "CritAssess308",
@@ -10987,7 +10987,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
+    "lookupValue": "condition: { hypertrophic cardiomyopathy, HP:0000006 }"
   },
   {
     "subjectId": "CritAssess309",
@@ -10995,8 +10995,8 @@
     "value": "CC232",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC232\""
   },
   {
     "subjectId": "CritAssess309",
@@ -11041,7 +11041,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Usher syndrome, Autosomal Recessive }"
+    "lookupValue": "condition: { Usher syndrome, HP:0000007 }"
   },
   {
     "subjectId": "CritAssess310",
@@ -11049,8 +11049,8 @@
     "value": "CC233",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC233\""
   },
   {
     "subjectId": "CritAssess310",
@@ -11103,8 +11103,8 @@
     "value": "CC234",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC234\""
   },
   {
     "subjectId": "CritAssess311",
@@ -11149,7 +11149,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { dilated cardiomyopathy, Autosomal Dominant }"
+    "lookupValue": "condition: { dilated cardiomyopathy, HP:0000006 }"
   },
   {
     "subjectId": "CritAssess312",
@@ -11157,8 +11157,8 @@
     "value": "CC235",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC235\""
   },
   {
     "subjectId": "CritAssess312",
@@ -11202,8 +11202,8 @@
     "value": "CC236",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC236\""
   },
   {
     "subjectId": "CritAssess313",
@@ -11247,8 +11247,8 @@
     "value": "CC237",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC237\""
   },
   {
     "subjectId": "CritAssess314",
@@ -11301,8 +11301,8 @@
     "value": "CC238",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC238\""
   },
   {
     "subjectId": "CritAssess315",
@@ -11346,8 +11346,8 @@
     "value": "CC239",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC239\""
   },
   {
     "subjectId": "CritAssess316",
@@ -11392,7 +11392,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hereditary hemorrhagic telangiectasia, Autosomal Dominant }"
+    "lookupValue": "condition: { hereditary hemorrhagic telangiectasia, HP:0000006 }"
   },
   {
     "subjectId": "CritAssess318",
@@ -11400,8 +11400,8 @@
     "value": "CC240",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC240\""
   },
   {
     "subjectId": "CritAssess318",
@@ -11463,8 +11463,8 @@
     "value": "CC241",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC241\""
   },
   {
     "subjectId": "CritAssess319",
@@ -11509,7 +11509,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2, Autosomal Dominant }"
+    "lookupValue": "condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2, HP:0000006 }"
   },
   {
     "subjectId": "CritAssess320",
@@ -11517,8 +11517,8 @@
     "value": "CC242",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC242\""
   },
   {
     "subjectId": "CritAssess320",
@@ -11563,7 +11563,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Myopathy, Distal, type 4, Autosomal Dominant }"
+    "lookupValue": "condition: { Myopathy, Distal, type 4, HP:0000006 }"
   },
   {
     "subjectId": "CritAssess321",
@@ -11571,8 +11571,8 @@
     "value": "CC243",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC243\""
   },
   {
     "subjectId": "CritAssess321",
@@ -11617,7 +11617,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Cystic Fibrosis, Autosomal Recessive }"
+    "lookupValue": "condition: { Cystic Fibrosis, HP:0000007 }"
   },
   {
     "subjectId": "CritAssess322",
@@ -11625,8 +11625,8 @@
     "value": "CC244",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC244\""
   },
   {
     "subjectId": "CritAssess322",
@@ -11670,8 +11670,8 @@
     "value": "CC245",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC245\""
   },
   {
     "subjectId": "CritAssess323",
@@ -11715,8 +11715,8 @@
     "value": "CC246",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC246\""
   },
   {
     "subjectId": "CritAssess324",
@@ -11770,7 +11770,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Primary ciliary dyskenisia, Autosomal Recessive }"
+    "lookupValue": "condition: { Primary ciliary dyskenisia, HP:0000007 }"
   },
   {
     "subjectId": "CritAssess325",
@@ -11778,8 +11778,8 @@
     "value": "CC247",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC247\""
   },
   {
     "subjectId": "CritAssess325",
@@ -11824,7 +11824,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Marfan Syndrome, Autosomal Dominant }"
+    "lookupValue": "condition: { Marfan Syndrome, HP:0000006 }"
   },
   {
     "subjectId": "CritAssess326",
@@ -11832,8 +11832,8 @@
     "value": "CC248",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC248\""
   },
   {
     "subjectId": "CritAssess326",
@@ -11878,7 +11878,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Mitochondrial complex 1 deficiency, X-linked dominant inheritance }"
+    "lookupValue": "condition: { Mitochondrial complex 1 deficiency, HP:0001423 }"
   },
   {
     "subjectId": "CritAssess327",
@@ -11886,8 +11886,8 @@
     "value": "CC249",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC249\""
   },
   {
     "subjectId": "CritAssess327",
@@ -11941,7 +11941,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Perrault Syndrome, Autosomal Recessive }"
+    "lookupValue": "condition: { Perrault Syndrome, HP:0000007 }"
   },
   {
     "subjectId": "CritAssess328",
@@ -11949,8 +11949,8 @@
     "value": "CC250",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC250\""
   },
   {
     "subjectId": "CritAssess328",
@@ -11995,7 +11995,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }"
+    "lookupValue": "condition: { Wiedemann-Steiner syndrome, HP:0000006 }"
   },
   {
     "subjectId": "CritAssess329",
@@ -12003,8 +12003,8 @@
     "value": "CC251",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC251\""
   },
   {
     "subjectId": "CritAssess329",
@@ -12058,7 +12058,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Familial Adenomatous Polyposis, Autosomal Dominant }"
+    "lookupValue": "condition: { Familial Adenomatous Polyposis, HP:0000006 }"
   },
   {
     "subjectId": "CritAssess330",
@@ -12066,8 +12066,8 @@
     "value": "CC252",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC252\""
   },
   {
     "subjectId": "CritAssess330",
@@ -12156,8 +12156,8 @@
     "value": "CC253",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC253\""
   },
   {
     "subjectId": "CritAssess331",
@@ -12219,8 +12219,8 @@
     "value": "CC254",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC254\""
   },
   {
     "subjectId": "CritAssess333",
@@ -12273,8 +12273,8 @@
     "value": "CC255",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC255\""
   },
   {
     "subjectId": "CritAssess334",
@@ -12328,7 +12328,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Hypercholesterolemia, Familial, Autosomal Dominant }"
+    "lookupValue": "condition: { Hypercholesterolemia, Familial, HP:0000006 }"
   },
   {
     "subjectId": "CritAssess335",
@@ -12336,8 +12336,8 @@
     "value": "CC256",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC256\""
   },
   {
     "subjectId": "CritAssess335",
@@ -12382,7 +12382,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
+    "lookupValue": "condition: { hypertrophic cardiomyopathy, HP:0000006 }"
   },
   {
     "subjectId": "CritAssess336",
@@ -12390,8 +12390,8 @@
     "value": "CC257",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC257\""
   },
   {
     "subjectId": "CritAssess336",
@@ -12436,7 +12436,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
+    "lookupValue": "condition: { hypertrophic cardiomyopathy, HP:0000006 }"
   },
   {
     "subjectId": "CritAssess337",
@@ -12444,8 +12444,8 @@
     "value": "CC258",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC258\""
   },
   {
     "subjectId": "CritAssess337",
@@ -12498,8 +12498,8 @@
     "value": "CC259",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC259\""
   },
   {
     "subjectId": "CritAssess338",
@@ -12552,8 +12552,8 @@
     "value": "CC260",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC260\""
   },
   {
     "subjectId": "CritAssess339",
@@ -12606,8 +12606,8 @@
     "value": "CC261",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC261\""
   },
   {
     "subjectId": "CritAssess340",
@@ -12660,8 +12660,8 @@
     "value": "CC262",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC262\""
   },
   {
     "subjectId": "CritAssess341",
@@ -12714,8 +12714,8 @@
     "value": "CC263",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC263\""
   },
   {
     "subjectId": "CritAssess342",
@@ -12777,8 +12777,8 @@
     "value": "CC264",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC264\""
   },
   {
     "subjectId": "CritAssess343",
@@ -12823,7 +12823,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { cardiomyopathy, Autosomal Dominant }"
+    "lookupValue": "condition: { cardiomyopathy, HP:0000006 }"
   },
   {
     "subjectId": "CritAssess344",
@@ -12831,8 +12831,8 @@
     "value": "CC265",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC265\""
   },
   {
     "subjectId": "CritAssess344",
@@ -12876,8 +12876,8 @@
     "value": "CC266",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC266\""
   },
   {
     "subjectId": "CritAssess345",
@@ -12921,8 +12921,8 @@
     "value": "CC267",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC267\""
   },
   {
     "subjectId": "CritAssess346",
@@ -12966,8 +12966,8 @@
     "value": "CC268",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC268\""
   },
   {
     "subjectId": "CritAssess347",
@@ -13011,8 +13011,8 @@
     "value": "CC269",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC269\""
   },
   {
     "subjectId": "CritAssess348",
@@ -13056,8 +13056,8 @@
     "value": "CC270",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC270\""
   },
   {
     "subjectId": "CritAssess350",
@@ -13110,8 +13110,8 @@
     "value": "CC271",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC271\""
   },
   {
     "subjectId": "CritAssess351",
@@ -13164,8 +13164,8 @@
     "value": "CC272",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC272\""
   },
   {
     "subjectId": "CritAssess352",
@@ -13210,7 +13210,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Usher syndrome, Autosomal Recessive }"
+    "lookupValue": "condition: { Usher syndrome, HP:0000007 }"
   },
   {
     "subjectId": "CritAssess353",
@@ -13218,8 +13218,8 @@
     "value": "CC273",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC273\""
   },
   {
     "subjectId": "CritAssess353",
@@ -13272,8 +13272,8 @@
     "value": "CC274",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC274\""
   },
   {
     "subjectId": "CritAssess354",
@@ -13326,8 +13326,8 @@
     "value": "CC275",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC275\""
   },
   {
     "subjectId": "CritAssess355",
@@ -13380,8 +13380,8 @@
     "value": "CC276",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC276\""
   },
   {
     "subjectId": "CritAssess356",
@@ -13434,8 +13434,8 @@
     "value": "CC277",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC277\""
   },
   {
     "subjectId": "CritAssess357",
@@ -13479,8 +13479,8 @@
     "value": "CC278",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC278\""
   },
   {
     "subjectId": "CritAssess358",
@@ -13524,8 +13524,8 @@
     "value": "CC279",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC279\""
   },
   {
     "subjectId": "CritAssess359",
@@ -13569,8 +13569,8 @@
     "value": "CC280",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC280\""
   },
   {
     "subjectId": "CritAssess360",
@@ -13623,8 +13623,8 @@
     "value": "CC281",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC281\""
   },
   {
     "subjectId": "CritAssess361",
@@ -13658,27 +13658,27 @@
     "attributeId": "A097",
     "value": "CC282",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "type",
+    "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "type: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
   },
   {
     "subjectId": "InSilicoPred362",
     "attributeId": "A099",
     "value": "ProbablyDamaging",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "value",
+    "attributeName": "categoricalPrediction",
     "attributeType": "String",
-    "lookupValue": "value: \"ProbablyDamaging\""
+    "lookupValue": "categoricalPrediction: \"ProbablyDamaging\""
   },
   {
     "subjectId": "InSilicoPred362",
     "attributeId": "A098",
     "value": "Polyphen-2 HumDiv",
     "evidenceDataName": "InSilicoPrediction",
-    "attributeName": "tool",
+    "attributeName": "algorithm",
     "attributeType": "String",
-    "lookupValue": "tool: \"Polyphen-2 HumDiv\""
+    "lookupValue": "algorithm: \"Polyphen-2 HumDiv\""
   },
   {
     "subjectId": "CritAssess363",
@@ -13713,8 +13713,8 @@
     "value": "CC283",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC283\""
   },
   {
     "subjectId": "CritAssess363",
@@ -13758,8 +13758,8 @@
     "value": "CC284",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC284\""
   },
   {
     "subjectId": "VarInterp365",
@@ -13785,8 +13785,8 @@
     "value": "CC285",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "clinicalSignificance",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "clinicalSignificance: { coding: [{ code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "clinicalSignificance: \"CC285\""
   },
   {
     "subjectId": "IndAll366",
@@ -13911,8 +13911,8 @@
     "value": "CC288",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC288\""
   },
   {
     "subjectId": "CritAssess369",
@@ -14019,8 +14019,8 @@
     "value": "CC290",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC290\""
   },
   {
     "subjectId": "CritAssess371",
@@ -14073,8 +14073,8 @@
     "value": "CC291",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC291\""
   },
   {
     "subjectId": "CritAssess372",
@@ -14118,8 +14118,8 @@
     "value": "CC292",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC292\""
   },
   {
     "subjectId": "CritAssess373",
@@ -14163,8 +14163,8 @@
     "value": "CC293",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC293\""
   },
   {
     "subjectId": "CritAssess374",
@@ -14209,7 +14209,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { noonan syndrome, Autosomal Dominant }"
+    "lookupValue": "condition: { noonan syndrome, HP:0000006 }"
   },
   {
     "subjectId": "CritAssess375",
@@ -14217,8 +14217,8 @@
     "value": "CC294",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC294\""
   },
   {
     "subjectId": "CritAssess375",
@@ -14262,8 +14262,8 @@
     "value": "CC295",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC295\""
   },
   {
     "subjectId": "CritAssess376",
@@ -14316,8 +14316,8 @@
     "value": "CC296",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC296\""
   },
   {
     "subjectId": "CritAssess377",
@@ -14369,8 +14369,8 @@
     "value": "CC297",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "outcome: { coding: [{ code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "outcome: \"CC297\""
   },
   {
     "subjectId": "CritAssess378",

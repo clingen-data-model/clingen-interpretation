@@ -7,6 +7,7 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetId": "VS002",
+    "restrictByValueSet": "No",
     "valueSetName": "MolecularConsequence",
     "precedence": 3.0,
     "notes": "SO Term",
@@ -21,7 +22,8 @@
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetId": "VS009",
-    "valueSetName": "ACMGMechanism",
+    "restrictByValueSet": "Yes",
+    "valueSetName": "Mechanism",
     "precedence": 3.0,
     "notes": "SO Term",
     "description": "SO term for a class of variants",
@@ -30,15 +32,17 @@
   "A003": {
     "id": "A003",
     "entityId": "E03",
-    "name": "strength",
+    "name": "mechanismConfidence",
     "dataType": "Coding",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "externalIRI": "schema:QualitativeValue",
     "valueSetId": "VS016",
-    "valueSetName": "ACMGConditionMechanismStrength",
+    "restrictByValueSet": "Yes",
+    "valueSetName": "ConditionMechanismStrength",
     "precedence": 4.0,
     "description": "Qualifier on the Condition/Mechanism pair",
-    "fullyQualifiedName": "ConditionMechanism.strength"
+    "fullyQualifiedName": "ConditionMechanism.mechanismConfidence"
   },
   "A004": {
     "id": "A004",
@@ -92,9 +96,10 @@
     "entityId": "E11",
     "name": "role",
     "dataType": "CodeableConcept",
-    "cardinality": "0..1",
+    "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetId": "VS021",
+    "restrictByValueSet": "No",
     "valueSetName": "ContributoryRole",
     "precedence": 3.0,
     "fullyQualifiedName": "Contribution.role"
@@ -322,6 +327,7 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetId": "VS012",
+    "restrictByValueSet": "No",
     "valueSetName": "FunctionalDataType",
     "precedence": 4.0,
     "notes": "?",
@@ -347,6 +353,7 @@
     "dataType": "Gene",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "externalIRI": "SO:0000704",
     "valueSetName": "",
     "precedence": 2.0,
     "description": "Gene to which the functional data applies",
@@ -371,6 +378,7 @@
     "dataType": "CanonicalAllele",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "externalIRI": "SO:0001023 (unless we want to insist on a CA specific type)",
     "valueSetName": "",
     "precedence": 1.0,
     "description": "The variant for which the frequency is given",
@@ -407,6 +415,7 @@
     "dataType": "String",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "externalIRI": "dc:author",
     "valueSetName": "",
     "precedence": 4.0,
     "fullyQualifiedName": "Example.author"
@@ -418,6 +427,7 @@
     "dataType": "String",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "externalIRI": "dc:description",
     "valueSetName": "",
     "precedence": 5.0,
     "fullyQualifiedName": "Example.description"
@@ -464,6 +474,7 @@
     "dataType": "float",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "externalIRI": "http://purl.obolibrary.org/obo/STATO_0000182",
     "valueSetName": "",
     "precedence": 5.0,
     "description": "Ratio of the probability of having the condition given the allele to the probability of the condition without the allele.",
@@ -476,6 +487,7 @@
     "dataType": "float",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "externalIRI": "http://purl.obolibrary.org/obo/OBI_0000175",
     "valueSetName": "",
     "precedence": 6.0,
     "description": "Confidence level in percent",
@@ -549,6 +561,7 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetId": "VS013",
+    "restrictByValueSet": "No",
     "valueSetName": "PopulationType",
     "precedence": 2.0,
     "description": "Ancestry of population or group over which the frequency was measured",
@@ -561,6 +574,7 @@
     "dataType": "float",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "externalIRI": "http://purl.obolibrary.org/obo/STATO_0000315",
     "valueSetName": "",
     "precedence": 7.0,
     "description": "Lower bound of the confidence interval for the odds ratio",
@@ -573,6 +587,7 @@
     "dataType": "float",
     "cardinality": "0..1",
     "defaultValue": "null",
+    "externalIRI": "http://purl.obolibrary.org/obo/STATO_0000314",
     "valueSetName": "",
     "precedence": 8.0,
     "description": "Upper bound of the confidence interval for the odds ratio",
@@ -643,6 +658,7 @@
     "name": "hasEvidence",
     "dataType": "EvidenceLine",
     "cardinality": "0..*",
+    "externalIRI": "SEPIO:has_evidence",
     "valueSetName": "",
     "precedence": 1.0,
     "description": "supporting evidence",
@@ -651,26 +667,28 @@
   "A056": {
     "id": "A056",
     "entityId": "E24",
-    "name": "isNotTypes",
+    "name": "excludedTypes",
     "dataType": "Coding",
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetId": "VS004",
+    "restrictByValueSet": "Yes",
     "valueSetName": "RegionAnnotationType",
     "precedence": 3.0,
-    "fullyQualifiedName": "RegionAnnotation.isNotTypes"
+    "fullyQualifiedName": "RegionAnnotation.excludedTypes"
   },
   "A057": {
     "id": "A057",
     "entityId": "E24",
-    "name": "isTypes",
+    "name": "includedTypes",
     "dataType": "Coding",
     "cardinality": "0..*",
     "defaultValue": "null",
     "valueSetId": "VS004",
+    "restrictByValueSet": "Yes",
     "valueSetName": "RegionAnnotationType",
     "precedence": 2.0,
-    "fullyQualifiedName": "RegionAnnotation.isTypes"
+    "fullyQualifiedName": "RegionAnnotation.includedTypes"
   },
   "A058": {
     "id": "A058",
@@ -798,6 +816,7 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetId": "VS006",
+    "restrictByValueSet": "Yes",
     "valueSetName": "AllelicState",
     "precedence": 3.0,
     "description": "Zygosity of the primary allele in the individual",
@@ -811,6 +830,7 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetId": "VS006",
+    "restrictByValueSet": "Yes",
     "valueSetName": "AllelicState",
     "precedence": 5.0,
     "description": "Zygosity of the secondary allele in the individual",
@@ -824,6 +844,7 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetId": "VS005",
+    "restrictByValueSet": "Yes",
     "valueSetName": "Phase",
     "precedence": 6.0,
     "description": "Phase of the primary and secondary individual",
@@ -882,6 +903,7 @@
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetId": "VS014",
+    "restrictByValueSet": "No",
     "valueSetName": "BenignMissenseVariationRate",
     "precedence": 2.0,
     "description": "The rate at which Benign missense variants occur within the region",
@@ -1055,6 +1077,16 @@
     "description": "Gene that contains the missense variants",
     "fullyQualifiedName": "BenignMissenseVariationRate.gene"
   },
+  "A095": {
+    "id": "A095",
+    "entityId": "E47",
+    "name": "quantitativePrediction",
+    "dataType": "float",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "fullyQualifiedName": "InSilicoPrediction.quantitativePrediction"
+  },
   "A096": {
     "id": "A096",
     "entityId": "E47",
@@ -1070,39 +1102,40 @@
   "A097": {
     "id": "A097",
     "entityId": "E47",
-    "name": "type",
+    "name": "predictionType",
     "dataType": "CodeableConcept",
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetId": "VS010",
+    "restrictByValueSet": "No",
     "valueSetName": "PredictionType",
     "precedence": 3.0,
     "description": "The type of prediction being made",
-    "fullyQualifiedName": "InSilicoPrediction.type"
+    "fullyQualifiedName": "InSilicoPrediction.predictionType"
   },
   "A098": {
     "id": "A098",
     "entityId": "E47",
-    "name": "tool",
+    "name": "algorithm",
     "dataType": "String",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 2.0,
     "description": "The computational tool or algorithm that makes the prediction",
-    "fullyQualifiedName": "InSilicoPrediction.tool"
+    "fullyQualifiedName": "InSilicoPrediction.algorithm"
   },
   "A099": {
     "id": "A099",
     "entityId": "E47",
-    "name": "value",
+    "name": "categoricalPrediction",
     "dataType": "String",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 4.0,
     "description": "The value of the prediction",
-    "fullyQualifiedName": "InSilicoPrediction.value"
+    "fullyQualifiedName": "InSilicoPrediction.categoricalPrediction"
   },
   "A100": {
     "id": "A100",
@@ -1184,6 +1217,7 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetId": "VS013",
+    "restrictByValueSet": "No",
     "valueSetName": "PopulationType",
     "precedence": 2.0,
     "description": "Population over which the prevelance is defined",
@@ -1209,6 +1243,7 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetId": "VS015",
+    "restrictByValueSet": "Yes",
     "valueSetName": "PenetranceType",
     "precedence": 2.0,
     "description": "Qualitative penetrance value",
@@ -1217,14 +1252,14 @@
   "A109": {
     "id": "A109",
     "entityId": "E49",
-    "name": "value",
+    "name": "prevelance",
     "dataType": "float",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 5.0,
     "description": "Prevelance of the condition in the population",
-    "fullyQualifiedName": "ConditionPrevelance.value"
+    "fullyQualifiedName": "ConditionPrevelance.prevelance"
   },
   "A110": {
     "id": "A110",
@@ -1265,14 +1300,14 @@
   "A113": {
     "id": "A113",
     "entityId": "E51",
-    "name": "method",
+    "name": "algorithm",
     "dataType": "String",
     "cardinality": "0..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 2.0,
     "description": "Method or program used to calculate conservation",
-    "fullyQualifiedName": "Conservation.method"
+    "fullyQualifiedName": "Conservation.algorithm"
   },
   "A114": {
     "id": "A114",
@@ -1302,10 +1337,11 @@
     "id": "A116",
     "entityId": "E09",
     "name": "outcome",
-    "dataType": "CodeableConcept",
+    "dataType": "Coding",
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetId": "VS011",
+    "restrictByValueSet": "Yes",
     "valueSetName": "CriterionEvaluation",
     "precedence": 4.0,
     "description": "Result of assessing the data and criterion",
@@ -1359,6 +1395,15 @@
     "description": "A human-readable description of the entity",
     "fullyQualifiedName": "Information.explanation"
   },
+  "A121": {
+    "id": "A121",
+    "entityId": "E54",
+    "name": "coding",
+    "dataType": "Coding",
+    "cardinality": "0..*",
+    "defaultValue": "null",
+    "fullyQualifiedName": "ValueSet.coding"
+  },
   "A122": {
     "id": "A122",
     "entityId": "E35",
@@ -1387,10 +1432,11 @@
     "id": "A124",
     "entityId": "E35",
     "name": "clinicalSignificance",
-    "dataType": "CodeableConcept",
+    "dataType": "Coding",
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetId": "VS003",
+    "restrictByValueSet": "Yes",
     "valueSetName": "Significance",
     "precedence": 3.0,
     "description": "The coded pathogenicity of the variant for the condition",
@@ -1437,6 +1483,7 @@
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetId": "VS001",
+    "restrictByValueSet": "No",
     "valueSetName": "DataSourceType",
     "precedence": 1.0,
     "description": "Classification of Data Source",
@@ -1550,6 +1597,7 @@
     "dataType": "CodeableConcept",
     "cardinality": "0..*",
     "valueSetId": "VS019",
+    "restrictByValueSet": "No",
     "valueSetName": "Phenotype",
     "precedence": 3.0,
     "fullyQualifiedName": "MendelianCondition.phenotype"
@@ -1558,9 +1606,10 @@
     "id": "A142",
     "entityId": "E14",
     "name": "modeOfInheritance",
-    "dataType": "CodeableConcept",
+    "dataType": "Coding",
     "cardinality": "0..1",
     "valueSetId": "VS007",
+    "restrictByValueSet": "Yes",
     "valueSetName": "ModeOfInheritance",
     "precedence": 4.0,
     "fullyQualifiedName": "MendelianCondition.modeOfInheritance"
@@ -1581,7 +1630,9 @@
     "name": "accession",
     "dataType": "CodeableConcept",
     "cardinality": "1..1",
-    "valueSetName": "",
+    "valueSetId": "VS020",
+    "restrictByValueSet": "No",
+    "valueSetName": "ReferenceSequence",
     "precedence": 1.0,
     "fullyQualifiedName": "ReferenceSequence.accession"
   },
@@ -1655,16 +1706,6 @@
     "precedence": 2.0,
     "fullyQualifiedName": "Criterion.shortDescription"
   },
-  "A152": {
-    "id": "A152",
-    "entityId": "E04",
-    "name": "method",
-    "dataType": "Method",
-    "cardinality": "0..1",
-    "valueSetName": "",
-    "precedence": 3.0,
-    "fullyQualifiedName": "Criterion.method"
-  },
   "A153": {
     "id": "A153",
     "entityId": "E04",
@@ -1672,6 +1713,7 @@
     "dataType": "CodeableConcept",
     "cardinality": "0..1",
     "valueSetId": "VS011",
+    "restrictByValueSet": "Yes",
     "valueSetName": "CriterionEvaluation",
     "precedence": 4.0,
     "fullyQualifiedName": "Criterion.defaultStrength"
@@ -1713,6 +1755,7 @@
     "dataType": "CodeableConcept",
     "cardinality": "0..*",
     "valueSetId": "VS018",
+    "restrictByValueSet": "No",
     "valueSetName": "Disease",
     "precedence": 2.0,
     "fullyQualifiedName": "MendelianCondition.disease"
@@ -1733,6 +1776,7 @@
     "dataType": "CodeableConcept",
     "cardinality": "0..1",
     "valueSetId": "VS007",
+    "restrictByValueSet": "Yes",
     "valueSetName": "ModeOfInheritance",
     "precedence": 5.0,
     "description": "Mode Of Inheritance used in evaluation of segregation",
@@ -1869,13 +1913,14 @@
   "A179": {
     "id": "A179",
     "entityId": "E56",
-    "name": "strength",
+    "name": "evidenceStrength",
     "dataType": "CodeableConcept",
     "cardinality": "0..1",
     "valueSetId": "VS017",
-    "valueSetName": "MendelianVariantIntepretationEvidenceResult",
+    "restrictByValueSet": "No",
+    "valueSetName": "EvidenceLineStrength",
     "precedence": 2.0,
-    "fullyQualifiedName": "EvidenceLine.strength"
+    "fullyQualifiedName": "EvidenceLine.evidenceStrength"
   },
   "A180": {
     "id": "A180",

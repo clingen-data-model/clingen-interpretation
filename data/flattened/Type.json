@@ -52,6 +52,7 @@
     "name": "CriterionAssessment",
     "parentType": "E01",
     "link": "CritAssess",
+    "externalIRI": "sepio:0000001",
     "description": "Intermediate interpretation of a line of evidence"
   },
   "E11": {
@@ -71,7 +72,8 @@
     "id": "E13",
     "name": "Example",
     "link": "Ex",
-    "description": "An example selected to demonstrate a particular facet of the data model"
+    "description": "An example selected to demonstrate a particular facet of the data model",
+    "notes": "Is this really a \"Type\" in the model, or are these examples just listed in the spreadsheet for documentation purposes?"
   },
   "E14": {
     "id": "E14",
@@ -136,6 +138,7 @@
     "name": "AlleleFrequency",
     "parentType": "E01",
     "link": "AllFreq",
+    "externalIRI": "http://purl.obolibrary.org/obo/STATO_0000254",
     "description": "The frequency of an allele in a population or a defined group of individuals"
   },
   "E24": {
@@ -182,6 +185,7 @@
     "name": "VariantInterpretation",
     "parentType": "E01",
     "link": "VarInterp",
+    "externalIRI": "sepio:0000001",
     "description": "Evidence-based conclusion about the pathogenicity of a sequence variant"
   },
   "E36": {
@@ -283,14 +287,16 @@
   },
   "E55": {
     "id": "E55",
-    "name": "ValueSetCodes",
+    "name": "ValueSetCoding",
     "link": "VSC",
-    "description": "This maps to the use of codes in relationship to ValueSets in HL7 FHIR.  For details on understanding how Codes and ValueSets are defined see HL7 FHIR spec 4.1 Using Codes and its subsections (https://www.hl7.org/fhir/terminologies.html) ."
+    "description": "This maps to the use of codes in relationship to ValueSets in HL7 FHIR.  For details on understanding how Codes and ValueSets are defined see HL7 FHIR spec 4.1 Using Codes and its subsections (https://www.hl7.org/fhir/terminologies.html) .",
+    "notes": "Should this be its own type, or is it just a mapping table?"
   },
   "E56": {
     "id": "E56",
     "name": "EvidenceLine",
     "link": "EvLn",
+    "externalIRI": "sepio:0000002",
     "description": "A reification of the underlying supporting data which may be one or more data points or assertions. Typically grouped in a specific manner for use in an owning assertion activity (either Variant Interpretation or CriterionAssessment. All evidence may optionally be given a strength by an agent."
   }
 }
