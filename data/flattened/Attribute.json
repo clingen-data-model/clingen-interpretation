@@ -1525,6 +1525,22 @@
     "description": "Version of the Data Source from which the Data was retrieved",
     "fullyQualifiedName": "InformationSource.version"
   },
+  "A132": {
+    "id": "A132",
+    "entityId": "E54",
+    "name": "name",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "fullyQualifiedName": "ValueSet.name"
+  },
+  "A133": {
+    "id": "A133",
+    "entityId": "E54",
+    "name": "description",
+    "dataType": "String",
+    "cardinality": "0..1",
+    "fullyQualifiedName": "ValueSet.description"
+  },
   "A135": {
     "id": "A135",
     "entityId": "E05",

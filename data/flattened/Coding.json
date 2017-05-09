@@ -34,18 +34,68 @@
     "system": "http://clinicalgenome.org/datamodel/phase/",
     "code system name": "phase"
   },
-  "CG-allelic-state:het": {
-    "id": "CG-allelic-state:het",
-    "code": "het",
-    "display": "heterozygous",
+  "CG-allelic-state:heteroplasmic": {
+    "id": "CG-allelic-state:heteroplasmic",
+    "code": "heteroplasmic",
+    "display": "heteroplasmic",
     "system": "http://clinicalgenome.org/datamodel/allelic-state/",
+    "definition": "A DNA marker is present in some but not all copies of the mitochondrial DNA (LA6703-8)",
     "code system name": "allelic-state"
   },
-  "CG-allelic-state:hom": {
-    "id": "CG-allelic-state:hom",
-    "code": "hom",
+  "CG-allelic-state:homoplasmic": {
+    "id": "CG-allelic-state:homoplasmic",
+    "code": "homoplasmic",
+    "display": "homoplasmic",
+    "system": "http://clinicalgenome.org/datamodel/allelic-state/",
+    "definition": "A DNA marker is present in all copies of the mitochondrial DNA (LA6704-6)",
+    "code system name": "allelic-state"
+  },
+  "CG-allelic-state:homozygous": {
+    "id": "CG-allelic-state:homozygous",
+    "code": "homozygous",
     "display": "homozygous",
     "system": "http://clinicalgenome.org/datamodel/allelic-state/",
+    "definition": "A DNA marker is present in both copies of homologous chromosomes (LA6705-3)",
+    "code system name": "allelic-state"
+  },
+  "CG-allelic-state:heterozygous": {
+    "id": "CG-allelic-state:heterozygous",
+    "code": "heterozygous",
+    "display": "heterozygous",
+    "system": "http://clinicalgenome.org/datamodel/allelic-state/",
+    "definition": "A DNA marker is present in exactly one copy on two homologous chromosomes (LA6706-1)",
+    "code system name": "allelic-state"
+  },
+  "CG-allelic-state:hemizygous": {
+    "id": "CG-allelic-state:hemizygous",
+    "code": "hemizygous",
+    "display": "hemizygous",
+    "system": "http://clinicalgenome.org/datamodel/allelic-state/",
+    "definition": "A DNA marker is present on one copy of a chromosome without a homologous region (e.g., non-PAR portions of the X chromosomes in males; LA6067-9)",
+    "code system name": "allelic-state"
+  },
+  "CG-allelic-state:absent": {
+    "id": "CG-allelic-state:absent",
+    "code": "absent",
+    "display": "absent",
+    "system": "http://clinicalgenome.org/datamodel/allelic-state/",
+    "definition": "A DNA marker is asserted to be absent",
+    "code system name": "allelic-state"
+  },
+  "CG-allelic-state:somatic": {
+    "id": "CG-allelic-state:somatic",
+    "code": "somatic",
+    "display": "somatic",
+    "system": "http://clinicalgenome.org/datamodel/allelic-state/",
+    "definition": "A DNA marker is present at some level of somatic mosaicism.",
+    "code system name": "allelic-state"
+  },
+  "CG-allelic-state:other": {
+    "id": "CG-allelic-state:other",
+    "code": "other",
+    "display": "other",
+    "system": "http://clinicalgenome.org/datamodel/allelic-state/",
+    "definition": "A DNA marker is present in some pattern not reflected in other options of this code system (e.g., 2 of 3 copies of a duplicated region)",
     "code system name": "allelic-state"
   },
   "CG-prediction-type:me": {
