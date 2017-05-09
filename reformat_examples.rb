@@ -84,6 +84,7 @@ class DMWGExampleData
      '_MendelianConditionAttribute',
      '_CodeableConceptAttribute',
      '_ContributionAttribute',
+     '_ValueSetCoding',
     ].each do |sheet|
       @flattened[sheet].each do |da|
         data_id = da['subjectId']
