@@ -733,7 +733,7 @@
     "value": "InSilicoPred120",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred120: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"SIFT\" }"
+    "derivedName": "InSilicoPred120: { transcript: { NM_005228.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"SIFT\" }"
   },
   {
     "subjectId": "EvLn052",
@@ -741,7 +741,7 @@
     "value": "InSilicoPred121",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred121: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Polyphen\" }"
+    "derivedName": "InSilicoPred121: { transcript: { NM_005228.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Polyphen\" }"
   },
   {
     "subjectId": "EvLn052",
@@ -749,7 +749,7 @@
     "value": "InSilicoPred122",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred122: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"FATHMM\" }"
+    "derivedName": "InSilicoPred122: { transcript: { NM_005228.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"FATHMM\" }"
   },
   {
     "subjectId": "EvLn052",
@@ -757,7 +757,7 @@
     "value": "InSilicoPred123",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred123: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"LRT\" }"
+    "derivedName": "InSilicoPred123: { transcript: { NM_005228.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"LRT\" }"
   },
   {
     "subjectId": "EvLn052",
@@ -765,7 +765,7 @@
     "value": "InSilicoPred124",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred124: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"MetaSVM\" }"
+    "derivedName": "InSilicoPred124: { transcript: { NM_005228.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"MetaSVM\" }"
   },
   {
     "subjectId": "EvLn052",
@@ -773,7 +773,7 @@
     "value": "InSilicoPred125",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred125: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation assessor\" }"
+    "derivedName": "InSilicoPred125: { transcript: { NM_005228.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation assessor\" }"
   },
   {
     "subjectId": "EvLn052",
@@ -781,7 +781,7 @@
     "value": "InSilicoPred126",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred126: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation taster\" }"
+    "derivedName": "InSilicoPred126: { transcript: { NM_005228.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation taster\" }"
   },
   {
     "subjectId": "EvLn052",
@@ -789,7 +789,7 @@
     "value": "InSilicoPred127",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred127: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Provean\" }"
+    "derivedName": "InSilicoPred127: { transcript: { NM_005228.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Provean\" }"
   },
   {
     "subjectId": "EvLn052",
@@ -797,7 +797,7 @@
     "value": "InSilicoPred128",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred128: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Condel\" }"
+    "derivedName": "InSilicoPred128: { transcript: { NM_005228.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Condel\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -805,7 +805,7 @@
     "value": "InSilicoPred129",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred129: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"SIFT\" }"
+    "derivedName": "InSilicoPred129: { transcript: { ENST00000566221.5 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"SIFT\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -813,7 +813,7 @@
     "value": "InSilicoPred130",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred130: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Polyphen\" }"
+    "derivedName": "InSilicoPred130: { transcript: { ENST00000566221.5 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Polyphen\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -821,7 +821,7 @@
     "value": "InSilicoPred131",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred131: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"FATHMM\" }"
+    "derivedName": "InSilicoPred131: { transcript: { ENST00000566221.5 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"FATHMM\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -829,7 +829,7 @@
     "value": "InSilicoPred132",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred132: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"LRT\" }"
+    "derivedName": "InSilicoPred132: { transcript: { ENST00000566221.5 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"LRT\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -837,7 +837,7 @@
     "value": "InSilicoPred133",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred133: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"MetaSVM\" }"
+    "derivedName": "InSilicoPred133: { transcript: { ENST00000566221.5 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"MetaSVM\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -845,7 +845,7 @@
     "value": "InSilicoPred134",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred134: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation assessor\" }"
+    "derivedName": "InSilicoPred134: { transcript: { ENST00000566221.5 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation assessor\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -853,7 +853,7 @@
     "value": "InSilicoPred135",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred135: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation taster\" }"
+    "derivedName": "InSilicoPred135: { transcript: { ENST00000566221.5 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation taster\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -861,7 +861,7 @@
     "value": "InSilicoPred136",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred136: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Provean\" }"
+    "derivedName": "InSilicoPred136: { transcript: { ENST00000566221.5 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Provean\" }"
   },
   {
     "subjectId": "EvLn053",
@@ -869,7 +869,7 @@
     "value": "InSilicoPred137",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred137: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Condel\" }"
+    "derivedName": "InSilicoPred137: { transcript: { ENST00000566221.5 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Condel\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -877,7 +877,7 @@
     "value": "InSilicoPred138",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred138: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"SIFT\" }"
+    "derivedName": "InSilicoPred138: { transcript: { NM_000363.4 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"SIFT\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -885,7 +885,7 @@
     "value": "InSilicoPred139",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred139: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Polyphen2\" }"
+    "derivedName": "InSilicoPred139: { transcript: { NM_000363.4 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Polyphen2\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -893,7 +893,7 @@
     "value": "InSilicoPred140",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred140: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"AlignGVGD\" }"
+    "derivedName": "InSilicoPred140: { transcript: { NM_000363.4 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"AlignGVGD\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -901,7 +901,7 @@
     "value": "InSilicoPred141",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred141: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"MAPP\" }"
+    "derivedName": "InSilicoPred141: { transcript: { NM_000363.4 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"MAPP\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -909,7 +909,7 @@
     "value": "InSilicoPred142",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred142: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"MutationTaster\" }"
+    "derivedName": "InSilicoPred142: { transcript: { NM_000363.4 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"MutationTaster\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -917,7 +917,7 @@
     "value": "InSilicoPred143",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred143: { predictionType: \"CG-prediction-type:sp\", algorithm: \"SSF\" }"
+    "derivedName": "InSilicoPred143: { transcript: { NM_000363.4 }, predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"SSF\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -925,7 +925,7 @@
     "value": "InSilicoPred144",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred144: { predictionType: \"CG-prediction-type:sp\", algorithm: \"MaxEnt\" }"
+    "derivedName": "InSilicoPred144: { transcript: { NM_000363.4 }, predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"MaxEnt\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -933,7 +933,7 @@
     "value": "InSilicoPred145",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred145: { predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"NNSPLICE\" }"
+    "derivedName": "InSilicoPred145: { transcript: { NM_000363.4 }, predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"NNSPLICE\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -941,7 +941,7 @@
     "value": "InSilicoPred146",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred146: { predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"GeneSplicer\" }"
+    "derivedName": "InSilicoPred146: { transcript: { NM_000363.4 }, predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"GeneSplicer\" }"
   },
   {
     "subjectId": "EvLn054",
@@ -949,7 +949,7 @@
     "value": "InSilicoPred147",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred147: { predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"HSF\" }"
+    "derivedName": "InSilicoPred147: { transcript: { NM_000363.4 }, predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"HSF\" }"
   },
   {
     "subjectId": "EvLn055",
@@ -1589,7 +1589,7 @@
     "value": "InSilicoPred232",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred232: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"SIFT\" }"
+    "derivedName": "InSilicoPred232: { transcript: { NM_000059.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"SIFT\" }"
   },
   {
     "subjectId": "EvLn092",
@@ -1597,7 +1597,7 @@
     "value": "InSilicoPred233",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred233: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Polyphen\" }"
+    "derivedName": "InSilicoPred233: { transcript: { NM_000059.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Polyphen\" }"
   },
   {
     "subjectId": "EvLn092",
@@ -1605,7 +1605,7 @@
     "value": "InSilicoPred234",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred234: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"FATHMM\" }"
+    "derivedName": "InSilicoPred234: { transcript: { NM_000059.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"FATHMM\" }"
   },
   {
     "subjectId": "EvLn092",
@@ -1613,7 +1613,7 @@
     "value": "InSilicoPred235",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred235: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"LRT\" }"
+    "derivedName": "InSilicoPred235: { transcript: { NM_000059.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"LRT\" }"
   },
   {
     "subjectId": "EvLn092",
@@ -1621,7 +1621,7 @@
     "value": "InSilicoPred236",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred236: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"MetaSVM\" }"
+    "derivedName": "InSilicoPred236: { transcript: { NM_000059.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"MetaSVM\" }"
   },
   {
     "subjectId": "EvLn092",
@@ -1629,7 +1629,7 @@
     "value": "InSilicoPred237",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred237: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation assessor\" }"
+    "derivedName": "InSilicoPred237: { transcript: { NM_000059.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation assessor\" }"
   },
   {
     "subjectId": "EvLn092",
@@ -1637,7 +1637,7 @@
     "value": "InSilicoPred238",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred238: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation taster\" }"
+    "derivedName": "InSilicoPred238: { transcript: { NM_000059.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Mutation taster\" }"
   },
   {
     "subjectId": "EvLn092",
@@ -1645,7 +1645,7 @@
     "value": "InSilicoPred239",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred239: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Provean\" }"
+    "derivedName": "InSilicoPred239: { transcript: { NM_000059.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Provean\" }"
   },
   {
     "subjectId": "EvLn092",
@@ -1653,7 +1653,7 @@
     "value": "InSilicoPred240",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred240: { predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Condel\" }"
+    "derivedName": "InSilicoPred240: { transcript: { NM_000059.3 }, predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"Condel\" }"
   },
   {
     "subjectId": "EvLn093",
@@ -1805,7 +1805,7 @@
     "value": "InSilicoPred258",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred258: { predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
+    "derivedName": "InSilicoPred258: { transcript: { NM_138691.2 }, predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
   },
   {
     "subjectId": "EvLn100",
@@ -1837,7 +1837,7 @@
     "value": "InSilicoPred262",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred262: { predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
+    "derivedName": "InSilicoPred262: { transcript: { NM_000257.2 }, predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
   },
   {
     "subjectId": "EvLn101",
@@ -1869,7 +1869,7 @@
     "value": "InSilicoPred266",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred266: { predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
+    "derivedName": "InSilicoPred266: { transcript: { NM_002880.3 }, predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
   },
   {
     "subjectId": "EvLn102",
@@ -2165,7 +2165,7 @@
     "value": "InSilicoPred068",
     "attributeName": "hasInformation",
     "attributeType": "Information",
-    "derivedName": "InSilicoPred068: { predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
+    "derivedName": "InSilicoPred068: { transcript: { NM_000257.2 }, predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
   },
   {
     "subjectId": "EvLn117",

@@ -408,6 +408,18 @@
     "description": "Frequency denominator: number of observations",
     "fullyQualifiedName": "AlleleFrequency.alleleNumber"
   },
+  "A034": {
+    "id": "A034",
+    "entityId": "E47",
+    "name": "transcript",
+    "dataType": "ReferenceSequence",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "description": "The contextual allele on which the prediction is made",
+    "fullyQualifiedName": "InSilicoPrediction.transcript"
+  },
   "A035": {
     "id": "A035",
     "entityId": "E13",
@@ -1090,14 +1102,14 @@
   "A096": {
     "id": "A096",
     "entityId": "E47",
-    "name": "contextualAllele",
-    "dataType": "ContextualAllele",
+    "name": "canonicalAllele",
+    "dataType": "CanonicalAllele",
     "cardinality": "1..1",
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 1.0,
     "description": "The contextual allele on which the prediction is made",
-    "fullyQualifiedName": "InSilicoPrediction.contextualAllele"
+    "fullyQualifiedName": "InSilicoPrediction.canonicalAllele"
   },
   "A097": {
     "id": "A097",
