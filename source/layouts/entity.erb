@@ -71,7 +71,10 @@
     <table class="datatables table table-striped table-bordered" cellspacing=0 width="100%">
       <thead><tr>
         <th>ID</th>
-        <th>description</th>
+        <% inherited_attributes.each do |attrib| %>
+        <% next if ['contribution', 'source'].include? attrib['name'] %>
+        <th><%= attrib['name'] %></th>
+        <% end %>
         <% local_attributes.each do |attrib| %>
         <th><%= attrib['name'] %></th>
         <% end %>
@@ -80,7 +83,12 @@
       <% examples.each do |ex| %>
         <tr>
           <td><%= example_table_item(ex) %></td>
-          <td><%= ex['description'] || ex['desc'] || ex['shortDescription'] || ex['name'] || ex['explanation'] || ex['alleleName'] %></td>
+          <% inherited_attributes.each do |attrib| %>
+          <% next if ['contribution', 'source'].include? attrib['name'] %>
+          <td>
+              <%= example_table_item(ex[attrib['name']]) %>
+         </td>
+          <% end %>
           <% local_attributes.each do |attrib| %>
           <td>
               <%= example_table_item(ex[attrib['name']]) %>
