@@ -614,7 +614,8 @@
     "defaultValue": "null",
     "valueSetName": "",
     "precedence": 5.0,
-    "description": "Number of (non-proband) individuals with the condition and without the allele"
+    "description": "Number of (non-proband) individuals with the condition and without the allele",
+    "fullyQualifiedName": "FamilySegregationData.phenotypePositiveAlleleNegative"
   },
   "A051": {
     "id": "A051",
@@ -767,6 +768,7 @@
     "name": "region",
     "dataType": "Locus",
     "cardinality": "1..1",
+    "externalIRI": "SO:0000001",
     "valueSetName": "",
     "precedence": 1.0,
     "description": "Region",
@@ -879,6 +881,7 @@
     "entityId": "E40",
     "name": "text",
     "dataType": "String",
+    "cardinality": "0..1",
     "defaultValue": "null",
     "precedence": 1.0,
     "description": "A freeform text (preferred) representation used by the authoring system to identify a concept.",
@@ -891,9 +894,22 @@
     "dataType": "Coding",
     "cardinality": "0..*",
     "defaultValue": "null",
+    "externalIRI": "fhir:coding",
     "precedence": 2.0,
     "description": "Codings thtat identify the concept. If more than one then the codings are typically considered equivalent. (FHIR offers additional attributes to qualify the codings further if needed) ",
     "fullyQualifiedName": "CodeableConcept.coding"
+  },
+  "A074": {
+    "id": "A074",
+    "entityId": "E19",
+    "name": "alleleInheritance",
+    "dataType": "Coding",
+    "cardinality": "0..*",
+    "defaultValue": "null",
+    "valueSetId": "VS022",
+    "restrictByValueSet": "Yes",
+    "valueSetName": "AlleleInheritanceType",
+    "fullyQualifiedName": "DeNovoAllele.alleleInheritance"
   },
   "A076": {
     "id": "A076",
@@ -1486,20 +1502,6 @@
     "cardinality": "0..*",
     "defaultValue": "null",
     "fullyQualifiedName": "Information.source"
-  },
-  "A128": {
-    "id": "A128",
-    "entityId": "E36",
-    "name": "sourceType",
-    "dataType": "CodeableConcept",
-    "cardinality": "1..1",
-    "defaultValue": "null",
-    "valueSetId": "VS001",
-    "restrictByValueSet": "No",
-    "valueSetName": "DataSourceType",
-    "precedence": 1.0,
-    "description": "Classification of Data Source",
-    "fullyQualifiedName": "InformationSource.sourceType"
   },
   "A129": {
     "id": "A129",

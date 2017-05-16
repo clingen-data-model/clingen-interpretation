@@ -2,7 +2,7 @@
   {
     "subjectId": "VS001",
     "attributeId": "A121",
-    "value": "CG-data-source:lit"
+    "value": "CG-data-source:app"
   },
   {
     "subjectId": "VS001",
@@ -12,12 +12,12 @@
   {
     "subjectId": "VS001",
     "attributeId": "A121",
-    "value": "CG-data-source:app"
+    "value": "CG-data-source:lit"
   },
   {
     "subjectId": "VS002",
     "attributeId": "A121",
-    "value": "SO:0001589"
+    "value": "SO:0000159"
   },
   {
     "subjectId": "VS002",
@@ -27,12 +27,42 @@
   {
     "subjectId": "VS002",
     "attributeId": "A121",
-    "value": "SO:0001825"
+    "value": "SO:0000199"
   },
   {
     "subjectId": "VS002",
     "attributeId": "A121",
-    "value": "SO:0001823"
+    "value": "SO:0000203"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:0000204"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:0000507"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:0000667"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:0001019"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:0001568"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:0001578"
   },
   {
     "subjectId": "VS002",
@@ -42,12 +72,87 @@
   {
     "subjectId": "VS002",
     "attributeId": "A121",
+    "value": "SO:0001586"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:0001587"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:0001589"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:0001629"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
     "value": "SO:0001819"
   },
   {
-    "subjectId": "VS003",
+    "subjectId": "VS002",
     "attributeId": "A121",
-    "value": "LN:LA6668-3"
+    "value": "SO:0001823"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:0001824"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:0001825"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:0001826"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:0001909"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:0002007"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:0002012"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:0002054"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:0002073"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:1000002"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:10000032"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A121",
+    "value": "SO:1000036"
   },
   {
     "subjectId": "VS003",
@@ -67,12 +172,12 @@
   {
     "subjectId": "VS003",
     "attributeId": "A121",
-    "value": "LN:LA6675-8"
+    "value": "LN:LA6668-3"
   },
   {
-    "subjectId": "VS004",
+    "subjectId": "VS003",
     "attributeId": "A121",
-    "value": "CG-reg-anno-type:repeat"
+    "value": "LN:LA6675-8"
   },
   {
     "subjectId": "VS004",
@@ -83,6 +188,11 @@
     "subjectId": "VS004",
     "attributeId": "A121",
     "value": "CG-reg-anno-type:hotspot"
+  },
+  {
+    "subjectId": "VS004",
+    "attributeId": "A121",
+    "value": "CG-reg-anno-type:repeat"
   },
   {
     "subjectId": "VS005",
@@ -97,7 +207,22 @@
   {
     "subjectId": "VS006",
     "attributeId": "A121",
+    "value": "CG-allelic-state:absent"
+  },
+  {
+    "subjectId": "VS006",
+    "attributeId": "A121",
+    "value": "CG-allelic-state:hemizygous"
+  },
+  {
+    "subjectId": "VS006",
+    "attributeId": "A121",
     "value": "CG-allelic-state:heteroplasmic"
+  },
+  {
+    "subjectId": "VS006",
+    "attributeId": "A121",
+    "value": "CG-allelic-state:heterozygous"
   },
   {
     "subjectId": "VS006",
@@ -112,17 +237,7 @@
   {
     "subjectId": "VS006",
     "attributeId": "A121",
-    "value": "CG-allelic-state:heterozygous"
-  },
-  {
-    "subjectId": "VS006",
-    "attributeId": "A121",
-    "value": "CG-allelic-state:hemizygous"
-  },
-  {
-    "subjectId": "VS006",
-    "attributeId": "A121",
-    "value": "CG-allelic-state:absent"
+    "value": "CG-allelic-state:other"
   },
   {
     "subjectId": "VS006",
@@ -132,12 +247,37 @@
   {
     "subjectId": "VS006",
     "attributeId": "A121",
-    "value": "CG-allelic-state:other"
+    "value": "HP:0001423"
   },
   {
     "subjectId": "VS007",
     "attributeId": "A121",
-    "value": "HP:0000007"
+    "value": "CG-inheritance-mode:codominant"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "CG-inheritance-mode:het-plasmic-mito"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "CG-inheritance-mode:hom-plasmic-mito"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "CG-inheritance-mode:other"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "CG-inheritance-mode:sex-limited-ar"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "CG-inheritance-mode:unknown"
   },
   {
     "subjectId": "VS007",
@@ -147,7 +287,82 @@
   {
     "subjectId": "VS007",
     "attributeId": "A121",
+    "value": "HP:0000007"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "HP:0001417"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "HP:0001419"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "HP:0001419"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
     "value": "HP:0001423"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "HP:0001426"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "HP:0001427"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "HP:0001428"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "HP:0001450"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "HP:0001470"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "HP:0003743"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "HP:0003745"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "HP:0010983"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "HP:0012274"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "HP:0012275"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A121",
+    "value": "HP:0025352"
   },
   {
     "subjectId": "VS008",
@@ -162,12 +377,12 @@
   {
     "subjectId": "VS009",
     "attributeId": "A121",
-    "value": "SO:0002054"
+    "value": "SO:0001583"
   },
   {
     "subjectId": "VS009",
     "attributeId": "A121",
-    "value": "SO:0001583"
+    "value": "SO:0002054"
   },
   {
     "subjectId": "VS010",
@@ -180,39 +395,14 @@
     "value": "CG-prediction-type:sp"
   },
   {
-    "subjectId": "VS006",
-    "attributeId": "A121",
-    "value": "HP:0001423"
-  },
-  {
-    "subjectId": "VS011",
-    "attributeId": "A121",
-    "value": "CG-criterion-outcome:not-met"
-  },
-  {
     "subjectId": "VS011",
     "attributeId": "A121",
     "value": "CG-criterion-outcome:met"
   },
   {
-    "subjectId": "VS012",
+    "subjectId": "VS011",
     "attributeId": "A121",
-    "value": "CG-func-data-type:binding"
-  },
-  {
-    "subjectId": "VS012",
-    "attributeId": "A121",
-    "value": "CG-func-data-type:atpase"
-  },
-  {
-    "subjectId": "VS012",
-    "attributeId": "A121",
-    "value": "CG-func-data-type:motility"
-  },
-  {
-    "subjectId": "VS012",
-    "attributeId": "A121",
-    "value": "CG-func-data-type:yeastcomp"
+    "value": "CG-criterion-outcome:not-met"
   },
   {
     "subjectId": "VS012",
@@ -222,7 +412,12 @@
   {
     "subjectId": "VS012",
     "attributeId": "A121",
-    "value": "CG-func-data-type:iodeff"
+    "value": "CG-func-data-type:atpase"
+  },
+  {
+    "subjectId": "VS012",
+    "attributeId": "A121",
+    "value": "CG-func-data-type:binding"
   },
   {
     "subjectId": "VS012",
@@ -232,47 +427,67 @@
   {
     "subjectId": "VS012",
     "attributeId": "A121",
+    "value": "CG-func-data-type:elk1phosvialucif"
+  },
+  {
+    "subjectId": "VS012",
+    "attributeId": "A121",
+    "value": "CG-func-data-type:iodeff"
+  },
+  {
+    "subjectId": "VS012",
+    "attributeId": "A121",
+    "value": "CG-func-data-type:motility"
+  },
+  {
+    "subjectId": "VS012",
+    "attributeId": "A121",
     "value": "CG-func-data-type:neuritegrowth"
   },
   {
     "subjectId": "VS012",
     "attributeId": "A121",
-    "value": "CG-func-data-type:elk1phosvialucif"
+    "value": "CG-func-data-type:yeastcomp"
   },
   {
     "subjectId": "VS013",
     "attributeId": "A121",
-    "value": "EXAC:afr"
+    "value": "BROAD-population-type:afr"
   },
   {
     "subjectId": "VS013",
     "attributeId": "A121",
-    "value": "EXAC:amr"
+    "value": "BROAD-population-type:amr"
   },
   {
     "subjectId": "VS013",
     "attributeId": "A121",
-    "value": "EXAC:eas"
+    "value": "BROAD-population-type:asj"
   },
   {
     "subjectId": "VS013",
     "attributeId": "A121",
-    "value": "EXAC:fin"
+    "value": "BROAD-population-type:eas"
   },
   {
     "subjectId": "VS013",
     "attributeId": "A121",
-    "value": "EXAC:nfe"
+    "value": "BROAD-population-type:fin"
   },
   {
     "subjectId": "VS013",
     "attributeId": "A121",
-    "value": "EXAC:sas"
+    "value": "BROAD-population-type:nfe"
   },
   {
     "subjectId": "VS013",
     "attributeId": "A121",
-    "value": "EXAC:oth"
+    "value": "BROAD-population-type:oth"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "BROAD-population-type:sas"
   },
   {
     "subjectId": "VS013",
@@ -287,40 +502,157 @@
   {
     "subjectId": "VS013",
     "attributeId": "A121",
-    "value": "IGSR:afr"
+    "value": "IGSR-popluation-type:acb"
   },
   {
     "subjectId": "VS013",
     "attributeId": "A121",
-    "value": "IGSR:amr"
+    "value": "IGSR-popluation-type:afr"
   },
   {
     "subjectId": "VS013",
     "attributeId": "A121",
-    "value": "IGSR:eas"
+    "value": "IGSR-popluation-type:amr"
   },
   {
     "subjectId": "VS013",
     "attributeId": "A121",
-    "value": "IGSR:eur"
+    "value": "IGSR-popluation-type:asw"
   },
   {
     "subjectId": "VS013",
     "attributeId": "A121",
-    "value": "IGSR:sas"
+    "value": "IGSR-popluation-type:beb"
   },
   {
     "subjectId": "VS013",
-    "attributeId": "A121"
-  },
-  {
-    "subjectId": "VS013",
-    "attributeId": "A121"
-  },
-  {
-    "subjectId": "VS014",
     "attributeId": "A121",
-    "value": "CG-ben-missense-var-rate:low"
+    "value": "IGSR-popluation-type:cdx"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:ceu"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:chb"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:chs"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:clm"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:eas"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:esn"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:eur"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:fin"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:gbr"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:gih"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:gwd"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:ibs"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:itu"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:jpt"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:khv"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:lwk"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:msl"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:mxl"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:pel"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:pjl"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:pur"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:sas"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:stu"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:tsi"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "IGSR-popluation-type:yri"
   },
   {
     "subjectId": "VS014",
@@ -328,19 +660,29 @@
     "value": "CG-ben-missense-var-rate:high"
   },
   {
-    "subjectId": "VS015",
+    "subjectId": "VS014",
     "attributeId": "A121",
-    "value": "CG-penetrance-type::high"
+    "value": "CG-ben-missense-var-rate:low"
   },
   {
     "subjectId": "VS015",
     "attributeId": "A121",
-    "value": "CG-penetrance-type::complete"
+    "value": "CG-penetrance-type:complete"
   },
   {
     "subjectId": "VS015",
     "attributeId": "A121",
-    "value": "CG-penetrance-type::incomplete"
+    "value": "CG-penetrance-type:high"
+  },
+  {
+    "subjectId": "VS015",
+    "attributeId": "A121",
+    "value": "HP:0003829"
+  },
+  {
+    "subjectId": "VS016",
+    "attributeId": "A121",
+    "value": "CG-cond-mech-strength:common"
   },
   {
     "subjectId": "VS016",
@@ -355,11 +697,6 @@
   {
     "subjectId": "VS016",
     "attributeId": "A121",
-    "value": "CG-cond-mech-strength:common"
-  },
-  {
-    "subjectId": "VS016",
-    "attributeId": "A121",
     "value": "CG-cond-mech-strength:suggested"
   },
   {
@@ -368,24 +705,29 @@
     "value": "CG-cond-mech-strength:unknown"
   },
   {
-    "subjectId": "VS002",
+    "subjectId": "VS017",
     "attributeId": "A121",
-    "value": "SO:0001629"
+    "value": "CG-evidence-strength:ba"
+  },
+  {
+    "subjectId": "VS017",
+    "attributeId": "A121",
+    "value": "CG-evidence-strength:bm"
+  },
+  {
+    "subjectId": "VS017",
+    "attributeId": "A121",
+    "value": "CG-evidence-strength:bp"
+  },
+  {
+    "subjectId": "VS017",
+    "attributeId": "A121",
+    "value": "CG-evidence-strength:bs"
   },
   {
     "subjectId": "VS017",
     "attributeId": "A121",
     "value": "CG-evidence-strength:na"
-  },
-  {
-    "subjectId": "VS017",
-    "attributeId": "A121",
-    "value": "CG-evidence-strength:pvs"
-  },
-  {
-    "subjectId": "VS017",
-    "attributeId": "A121",
-    "value": "CG-evidence-strength:ps"
   },
   {
     "subjectId": "VS017",
@@ -400,22 +742,17 @@
   {
     "subjectId": "VS017",
     "attributeId": "A121",
-    "value": "CG-evidence-strength:bp"
+    "value": "CG-evidence-strength:ps"
   },
   {
     "subjectId": "VS017",
     "attributeId": "A121",
-    "value": "CG-evidence-strength:bm"
+    "value": "CG-evidence-strength:pvs"
   },
   {
-    "subjectId": "VS017",
+    "subjectId": "VS018",
     "attributeId": "A121",
-    "value": "CG-evidence-strength:bs"
-  },
-  {
-    "subjectId": "VS017",
-    "attributeId": "A121",
-    "value": "CG-evidence-strength:ba"
+    "value": "DOID:630"
   },
   {
     "subjectId": "VS018",
@@ -425,32 +762,12 @@
   {
     "subjectId": "VS018",
     "attributeId": "A121",
-    "value": "Orphanet:217604"
+    "value": "OMIM:114480"
   },
   {
     "subjectId": "VS018",
     "attributeId": "A121",
-    "value": "Orphanet:648"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:244"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:3071"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "OMIM:609942"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:167848"
+    "value": "OMIM:143890"
   },
   {
     "subjectId": "VS018",
@@ -460,67 +777,7 @@
   {
     "subjectId": "VS018",
     "attributeId": "A121",
-    "value": "Orphanet:87884"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:423"
-  },
-  {
-    "subjectId": "VS019",
-    "attributeId": "A121",
-    "value": "HP:0011014"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:324"
-  },
-  {
-    "subjectId": "VS019",
-    "attributeId": "A121",
-    "value": "HP:0200106"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:216"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:217569"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:664"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:122"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:1340"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:217569"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:886"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:774"
+    "value": "OMIM:609942"
   },
   {
     "subjectId": "VS018",
@@ -535,12 +792,52 @@
   {
     "subjectId": "VS018",
     "attributeId": "A121",
-    "value": "Orphanet:586"
+    "value": "Orphanet:122"
   },
   {
     "subjectId": "VS018",
     "attributeId": "A121",
-    "value": "Orphanet:558"
+    "value": "Orphanet:1340"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:145"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:167848"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:216"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:217569"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:217569"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:217604"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:244"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:247"
   },
   {
     "subjectId": "VS018",
@@ -555,7 +852,57 @@
   {
     "subjectId": "VS018",
     "attributeId": "A121",
+    "value": "Orphanet:3071"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
     "value": "Orphanet:319182"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:324"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:364526"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:414"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:423"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:558"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:586"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:648"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:664"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:705"
   },
   {
     "subjectId": "VS018",
@@ -565,7 +912,52 @@
   {
     "subjectId": "VS018",
     "attributeId": "A121",
-    "value": "Orphanet:705"
+    "value": "Orphanet:750"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:750"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:774"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:791"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:84"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:87884"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:886"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:98733"
+  },
+  {
+    "subjectId": "VS018",
+    "attributeId": "A121",
+    "value": "Orphanet:98733"
+  },
+  {
+    "subjectId": "VS019",
+    "attributeId": "A121",
+    "value": "HP:0000256"
   },
   {
     "subjectId": "VS019",
@@ -580,27 +972,7 @@
   {
     "subjectId": "VS019",
     "attributeId": "A121",
-    "value": "HP:0000256"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "OMIM:143890"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:145"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:84"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:791"
+    "value": "HP:0011014"
   },
   {
     "subjectId": "VS019",
@@ -608,59 +980,9 @@
     "value": "HP:0012873"
   },
   {
-    "subjectId": "VS018",
+    "subjectId": "VS019",
     "attributeId": "A121",
-    "value": "Orphanet:364526"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:750"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:750"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "OMIM:114480"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:414"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:98733"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:247"
-  },
-  {
-    "subjectId": "VS007",
-    "attributeId": "A121",
-    "value": "HP:0001419"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "Orphanet:98733"
-  },
-  {
-    "subjectId": "VS018",
-    "attributeId": "A121",
-    "value": "DOID:630"
-  },
-  {
-    "subjectId": "VS021",
-    "attributeId": "A121",
-    "value": "CG-contributory-role:curator"
+    "value": "HP:0200106"
   },
   {
     "subjectId": "VS021",
@@ -670,6 +992,31 @@
   {
     "subjectId": "VS021",
     "attributeId": "A121",
+    "value": "CG-contributory-role:curator"
+  },
+  {
+    "subjectId": "VS021",
+    "attributeId": "A121",
     "value": "CG-contributory-role:interpreter"
+  },
+  {
+    "subjectId": "VS022",
+    "attributeId": "A121",
+    "value": "CG-allele-inheritance:denovo"
+  },
+  {
+    "subjectId": "VS022",
+    "attributeId": "A121",
+    "value": "CG-allele-inheritance:maternal"
+  },
+  {
+    "subjectId": "VS022",
+    "attributeId": "A121",
+    "value": "CG-allele-inheritance:paternal"
+  },
+  {
+    "subjectId": "VS022",
+    "attributeId": "A121",
+    "value": "CG-allele-inheritance:unknown"
   }
 ]

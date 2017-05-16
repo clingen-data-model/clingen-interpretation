@@ -172,7 +172,7 @@
     "group": "PM2",
     "index": 1.0,
     "author": "Steven Harrison",
-    "description": "Variant assessed: NM_000257.2 (MYH) c.5135G>A (p.Arg1712Gln)\nVariant is not completely absent from ExAC: http://exac.broadinstitute.org/variant/14-23884860-C-T\nVariant found in 1/121366 total chr and specifically 1/66706 European chr. \n\n1, # variant alleles\n66706, # total alleles tested\n95, desired CI (99.9 or 95)\n\n0.00%, population proportion\n0.00%, CI - lower\n0.01%, CI - upper\n\nPM2 is applicable as even though variant is not 100% absent, it is practically absent (using rules in Issues below)"
+    "description": "Variant assessed: NM_000257.2 (MYH) c.5135G>A (p.Arg1712Gln)\nVariant is not completely absent from BROAD-population-type: http://exac.broadinstitute.org/variant/14-23884860-C-T\nVariant found in 1/121366 total chr and specifically 1/66706 European chr. \n\n1, # variant alleles\n66706, # total alleles tested\n95, desired CI (99.9 or 95)\n\n0.00%, population proportion\n0.00%, CI - lower\n0.01%, CI - upper\n\nPM2 is applicable as even though variant is not 100% absent, it is practically absent (using rules in Issues below)"
   },
   "Ex020": {
     "id": "Ex020",
@@ -181,7 +181,7 @@
     "group": "PM2",
     "index": 2.0,
     "author": "Steven Harrison",
-    "description": "Variant assessed: MUTYH c.64G>A (p,Val22Met)\nVariant is very frequent in ExAC:\nhttp://exac.broadinstitute.org/variant/1-45800156-C-T\n\nGlobal MAF 4.9% (5967/121406) and specifically European MAF 7.8% (514/6614) thus variant is too common to be disease causing and PM2 is not applicable"
+    "description": "Variant assessed: MUTYH c.64G>A (p,Val22Met)\nVariant is very frequent in BROAD-population-type:\nhttp://exac.broadinstitute.org/variant/1-45800156-C-T\n\nGlobal MAF 4.9% (5967/121406) and specifically European MAF 7.8% (514/6614) thus variant is too common to be disease causing and PM2 is not applicable"
   },
   "Ex021": {
     "id": "Ex021",
@@ -489,7 +489,7 @@
     "group": "BS1",
     "index": 3.0,
     "author": "Marina DiStefano",
-    "description": "Variant: NM_000414.3(HSD17B4):c.56C>G (p.Ala19Gly) \n** BS1 does not apply\n\nVariants in HSD17B4 are associated with Perrault syndrome. However, BS1 does not apply because this disease is so rare that it does not have an accurate prevalence. Only 100 cases have ever been reported. See the “prevalence” section in GeneReviews: http://www.ncbi.nlm.nih.gov/books/NBK242617/ \n\nAllele frequency in ExAC: "
+    "description": "Variant: NM_000414.3(HSD17B4):c.56C>G (p.Ala19Gly) \n** BS1 does not apply\n\nVariants in HSD17B4 are associated with Perrault syndrome. However, BS1 does not apply because this disease is so rare that it does not have an accurate prevalence. Only 100 cases have ever been reported. See the “prevalence” section in GeneReviews: http://www.ncbi.nlm.nih.gov/books/NBK242617/ \n\nAllele frequency in BROAD-population-type: "
   },
   "Ex054": {
     "id": "Ex054",

@@ -226,7 +226,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { noonan syndrome, HP:0000006 }"
+    "lookupValue": "condition: { noonan syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "VarInterp008",
@@ -307,7 +307,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { noonan syndrome, HP:0000006 }"
+    "lookupValue": "condition: { noonan syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "VarInterp011",
@@ -1063,7 +1063,7 @@
     "evidenceDataName": "CaseControl",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Malignant hyperthermia, HP:0000006 }"
+    "lookupValue": "condition: { Malignant hyperthermia, Autosomal Dominant }"
   },
   {
     "subjectId": "CaseCtrl033",
@@ -1153,7 +1153,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
-    "lookupValue": "population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://exac.broadinstitute.org/populations/\" }] }"
+    "lookupValue": "population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://broadinstitute.org/populations/\" }] }"
   },
   {
     "subjectId": "AllFreq035",
@@ -1225,7 +1225,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
-    "lookupValue": "population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://exac.broadinstitute.org/populations/\" }] }"
+    "lookupValue": "population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://broadinstitute.org/populations/\" }] }"
   },
   {
     "subjectId": "CaseCtrl036",
@@ -1306,7 +1306,7 @@
     "evidenceDataName": "CaseControl",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib480: { agent: \"Harry Stevenson\", onDate: \"9/13/16\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "AllFreq037",
@@ -1360,7 +1360,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
-    "lookupValue": "population: { coding: [{ code: \"sas\", display: \"South Asian\", system: \"http://exac.broadinstitute.org/populations/\" }] }"
+    "lookupValue": "population: { coding: [{ code: \"sas\", display: \"South Asian\", system: \"http://broadinstitute.org/populations/\" }] }"
   },
   {
     "subjectId": "AllFreq038",
@@ -1414,7 +1414,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
-    "lookupValue": "population: { coding: [{ code: \"afr\", display: \"African/African American\", system: \"http://exac.broadinstitute.org/populations/\" }] }"
+    "lookupValue": "population: { coding: [{ code: \"afr\", display: \"African/African American\", system: \"http://broadinstitute.org/populations/\" }] }"
   },
   {
     "subjectId": "CondPrev039",
@@ -1540,7 +1540,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib448: { agent: \"CSER classifier #6\", onDate: \"6/26/2015 12:06 PM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "VarInterp042",
@@ -1567,7 +1567,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib434: { agent: \"Harry Stevenson\", onDate: \"7/13/16 8:46 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "RegAnn043",
@@ -1648,7 +1648,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib467: { agent: \"CSER classifier #6\", onDate: \"6/26/2015 12:06 PM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "VarInterp045",
@@ -1666,7 +1666,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: \"MendCond074\""
+    "lookupValue": "condition: { arrhythmogenic right ventricular cardiomyopathy, Autosomal Dominant }"
   },
   {
     "subjectId": "VarInterp045",
@@ -1711,7 +1711,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib493: { agent: \"CSER classifier #6\", onDate: \"6/26/2015 12:06 PM\", role: \"CG-contributory-role:interpreter\" } }"
   },
   {
     "subjectId": "RegAnn046",
@@ -1747,7 +1747,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Fabry disease, HP:0001419 }"
+    "lookupValue": "condition: { Fabry disease, X linked recessive inheritance }"
   },
   {
     "subjectId": "VarInterp047",
@@ -1774,7 +1774,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Fabry disease, HP:0001419 }"
+    "lookupValue": "condition: { Fabry disease, X linked recessive inheritance }"
   },
   {
     "subjectId": "VarInterp048",
@@ -1801,7 +1801,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Fabry disease, HP:0001419 }"
+    "lookupValue": "condition: { Fabry disease, X linked recessive inheritance }"
   },
   {
     "subjectId": "VarInterp049",
@@ -1828,7 +1828,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Fabry disease, HP:0001419 }"
+    "lookupValue": "condition: { Fabry disease, X linked recessive inheritance }"
   },
   {
     "subjectId": "VarInterp050",
@@ -1855,7 +1855,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
-    "lookupValue": "population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://exac.broadinstitute.org/populations/\" }] }"
+    "lookupValue": "population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://broadinstitute.org/populations/\" }] }"
   },
   {
     "subjectId": "AllFreq051",
@@ -1981,7 +1981,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
-    "lookupValue": "population: { coding: [{ code: \"fin\", display: \"Finnish\", system: \"http://exac.broadinstitute.org/populations/\" }] }"
+    "lookupValue": "population: { coding: [{ code: \"fin\", display: \"Finnish\", system: \"http://broadinstitute.org/populations/\" }] }"
   },
   {
     "subjectId": "AllFreq053",
@@ -2116,7 +2116,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: \"MendCond075\""
+    "lookupValue": "condition: { noonan syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "VarInterp055",
@@ -2161,7 +2161,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib511: { agent: \"Gene Geneticist\", onDate: \"8/14/2014 10:29 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "IndCond056",
@@ -2197,7 +2197,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib483: { agent: \"Stefan DiMarino\", onDate: \"5/31/16 8:46 AM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "VarInterp057",
@@ -2215,7 +2215,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Primary ciliary dyskenisia, HP:0000007 }"
+    "lookupValue": "condition: { Primary ciliary dyskenisia, Autosomal Recessive }"
   },
   {
     "subjectId": "VarInterp057",
@@ -2233,7 +2233,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib485: { agent: \"Stefan DiMarino\", onDate: \"5/31/16 11:01 AM\", role: \"CG-contributory-role:interpreter\" } }"
   },
   {
     "subjectId": "IndAll058",
@@ -2296,7 +2296,7 @@
     "evidenceDataName": "IndividualAllele",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib484: { agent: \"Harry Stevenson\", onDate: \"5/31/16 9:15 AM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "VarInterp059",
@@ -2314,7 +2314,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { nonsyndromic deafness, HP:0000007, GIPC3 }"
+    "lookupValue": "condition: { nonsyndromic deafness, Autosomal Recessive, GIPC3 }"
   },
   {
     "subjectId": "VarInterp059",
@@ -2359,7 +2359,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib518: { agent: \"ACME Molecular Lab\", onDate: \"6/12/2011 9:00 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "IndCond061",
@@ -2377,7 +2377,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { nonsyndromic deafness, HP:0000007, GIPC3 }"
+    "lookupValue": "condition: { nonsyndromic deafness, Autosomal Recessive, GIPC3 }"
   },
   {
     "subjectId": "IndCond061",
@@ -2454,11 +2454,11 @@
   {
     "subjectId": "VarInterp063",
     "attributeId": "A123",
-    "value": "Cond070",
+    "value": "MendCond070",
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: \"Cond070\""
+    "lookupValue": "condition: { cardiofaciocutaneous syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "VarInterp063",
@@ -2512,7 +2512,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib512: { agent: \"George Geneticist\", onDate: \"8/14/2014 10:29 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "IndCond064",
@@ -2530,7 +2530,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { neuronal ceroid lipofuscinosis, HP:0000007, TTP1 }"
+    "lookupValue": "condition: { neuronal ceroid lipofuscinosis, Autosomal Recessive, TTP1 }"
   },
   {
     "subjectId": "IndCond064",
@@ -2593,7 +2593,7 @@
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib486: { agent: \"Harry Stevenson\", onDate: \"6/1/16 2:03 PM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "Func067",
@@ -2701,7 +2701,7 @@
     "evidenceDataName": "RegionAnnotation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib487: { agent: \"Stefan DiMarino\", onDate: \"6/1/16 2:10 PM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "MolCon070",
@@ -2719,7 +2719,7 @@
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
     "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001825\", display: \"Conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }] }"
+    "lookupValue": "consequence: { coding: [{ code: \"0001825\", display: \"conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
     "subjectId": "Conserv071",
@@ -2827,7 +2827,7 @@
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
     "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001823\", display: \"Conservative Inframe Insertion\", system: \"http://sequenceontology.org/\" }] }"
+    "lookupValue": "consequence: { coding: [{ code: \"0001823\", display: \"conservative Inframe Insertion\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
     "subjectId": "MolCon075",
@@ -2854,7 +2854,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { noonan syndrome, HP:0000006 }"
+    "lookupValue": "condition: { noonan syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "FamSegData076",
@@ -2962,7 +2962,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib520: { agent: \"Genetics Diagnostic Laboratory,Children's Hospital of Eastern Ontario\", onDate: \"6/1/2014 9:02 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "VarInterp079",
@@ -2998,7 +2998,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib521: { agent: \"GeneDx\", onDate: \"6/20/2016 11:12 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "VarInterp080",
@@ -3123,16 +3123,16 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib488: { agent: \"Harry Stevenson\", onDate: \"6/1/16 2:15 PM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "IndCond083",
     "attributeId": "A016",
-    "value": "Ind007",
+    "value": "Indiv007",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "individual",
     "attributeType": "Individual",
-    "lookupValue": "individual: \"Ind007\""
+    "lookupValue": "individual: { individual #007 }"
   },
   {
     "subjectId": "IndCond083",
@@ -3155,11 +3155,11 @@
   {
     "subjectId": "IndCond084",
     "attributeId": "A016",
-    "value": "Ind008",
+    "value": "Indiv008",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "individual",
     "attributeType": "Individual",
-    "lookupValue": "individual: \"Ind008\""
+    "lookupValue": "individual: { individual #008 }"
   },
   {
     "subjectId": "IndCond084",
@@ -3182,11 +3182,11 @@
   {
     "subjectId": "FamHist085",
     "attributeId": "A019",
-    "value": "Ind007",
+    "value": "Indiv007",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "proband",
     "attributeType": "Individual",
-    "lookupValue": "proband: \"Ind007\""
+    "lookupValue": "proband: { individual #007 }"
   },
   {
     "subjectId": "FamHist085",
@@ -3209,11 +3209,11 @@
   {
     "subjectId": "FamHist086",
     "attributeId": "A019",
-    "value": "Ind008",
+    "value": "Indiv008",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "proband",
     "attributeType": "Individual",
-    "lookupValue": "proband: \"Ind008\""
+    "lookupValue": "proband: { individual #008 }"
   },
   {
     "subjectId": "FamHist086",
@@ -3245,11 +3245,11 @@
   {
     "subjectId": "DeNovo087",
     "attributeId": "A023",
-    "value": "Ind007",
+    "value": "Indiv007",
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "individual",
     "attributeType": "Individual",
-    "lookupValue": "individual: \"Ind007\""
+    "lookupValue": "individual: { individual #007 }"
   },
   {
     "subjectId": "DeNovo087",
@@ -3281,11 +3281,11 @@
   {
     "subjectId": "DeNovo088",
     "attributeId": "A023",
-    "value": "Ind008",
+    "value": "Indiv008",
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "individual",
     "attributeType": "Individual",
-    "lookupValue": "individual: \"Ind008\""
+    "lookupValue": "individual: { individual #008 }"
   },
   {
     "subjectId": "DeNovo088",
@@ -3308,11 +3308,11 @@
   {
     "subjectId": "IndCond089",
     "attributeId": "A016",
-    "value": "Ind009",
+    "value": "Indiv009",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "individual",
     "attributeType": "Individual",
-    "lookupValue": "individual: \"Ind009\""
+    "lookupValue": "individual: { individual #009 }"
   },
   {
     "subjectId": "IndCond089",
@@ -3335,11 +3335,11 @@
   {
     "subjectId": "FamHist090",
     "attributeId": "A019",
-    "value": "Ind009",
+    "value": "Indiv009",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "proband",
     "attributeType": "Individual",
-    "lookupValue": "proband: \"Ind009\""
+    "lookupValue": "proband: { individual #009 }"
   },
   {
     "subjectId": "FamHist090",
@@ -3371,11 +3371,11 @@
   {
     "subjectId": "DeNovo091",
     "attributeId": "A023",
-    "value": "Ind009",
+    "value": "Indiv009",
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "individual",
     "attributeType": "Individual",
-    "lookupValue": "individual: \"Ind009\""
+    "lookupValue": "individual: { individual #009 }"
   },
   {
     "subjectId": "DeNovo091",
@@ -3398,11 +3398,11 @@
   {
     "subjectId": "IndCond092",
     "attributeId": "A016",
-    "value": "Ind010",
+    "value": "Indiv010",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "individual",
     "attributeType": "Individual",
-    "lookupValue": "individual: \"Ind010\""
+    "lookupValue": "individual: { individual #010 }"
   },
   {
     "subjectId": "IndCond092",
@@ -3425,11 +3425,11 @@
   {
     "subjectId": "FamHist093",
     "attributeId": "A019",
-    "value": "Ind010",
+    "value": "Indiv010",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "proband",
     "attributeType": "Individual",
-    "lookupValue": "proband: \"Ind010\""
+    "lookupValue": "proband: { individual #010 }"
   },
   {
     "subjectId": "FamHist093",
@@ -3461,11 +3461,11 @@
   {
     "subjectId": "DeNovo094",
     "attributeId": "A023",
-    "value": "Ind010",
+    "value": "Indiv010",
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "individual",
     "attributeType": "Individual",
-    "lookupValue": "individual: \"Ind010\""
+    "lookupValue": "individual: { individual #010 }"
   },
   {
     "subjectId": "DeNovo094",
@@ -3488,11 +3488,11 @@
   {
     "subjectId": "IndCond095",
     "attributeId": "A016",
-    "value": "Ind011",
+    "value": "Indiv011",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "individual",
     "attributeType": "Individual",
-    "lookupValue": "individual: \"Ind011\""
+    "lookupValue": "individual: { individual #011 }"
   },
   {
     "subjectId": "IndCond095",
@@ -3515,11 +3515,11 @@
   {
     "subjectId": "FamHist096",
     "attributeId": "A019",
-    "value": "Ind011",
+    "value": "Indiv011",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "proband",
     "attributeType": "Individual",
-    "lookupValue": "proband: \"Ind011\""
+    "lookupValue": "proband: { individual #011 }"
   },
   {
     "subjectId": "FamHist096",
@@ -3551,11 +3551,11 @@
   {
     "subjectId": "DeNovo097",
     "attributeId": "A023",
-    "value": "Ind011",
+    "value": "Indiv011",
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "individual",
     "attributeType": "Individual",
-    "lookupValue": "individual: \"Ind011\""
+    "lookupValue": "individual: { individual #011 }"
   },
   {
     "subjectId": "DeNovo097",
@@ -3578,11 +3578,11 @@
   {
     "subjectId": "IndCond098",
     "attributeId": "A016",
-    "value": "Ind012",
+    "value": "Indiv012",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "individual",
     "attributeType": "Individual",
-    "lookupValue": "individual: \"Ind012\""
+    "lookupValue": "individual: { individual #012 }"
   },
   {
     "subjectId": "IndCond098",
@@ -3605,11 +3605,11 @@
   {
     "subjectId": "FamHist099",
     "attributeId": "A019",
-    "value": "Ind012",
+    "value": "Indiv012",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "proband",
     "attributeType": "Individual",
-    "lookupValue": "proband: \"Ind012\""
+    "lookupValue": "proband: { individual #012 }"
   },
   {
     "subjectId": "FamHist099",
@@ -3641,11 +3641,11 @@
   {
     "subjectId": "DeNovo100",
     "attributeId": "A023",
-    "value": "Ind012",
+    "value": "Indiv012",
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "individual",
     "attributeType": "Individual",
-    "lookupValue": "individual: \"Ind012\""
+    "lookupValue": "individual: { individual #012 }"
   },
   {
     "subjectId": "DeNovo100",
@@ -3744,7 +3744,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hypertrophic cardiomyopathy, HP:0000006 }"
+    "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
   },
   {
     "subjectId": "FamSegData103",
@@ -3789,7 +3789,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib481: { agent: \"Stefan DiMarino\", onDate: \"9/13/16\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "FamSegData104",
@@ -3798,7 +3798,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hypertrophic cardiomyopathy, HP:0000006 }"
+    "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
   },
   {
     "subjectId": "FamSegData104",
@@ -3834,7 +3834,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib482: { agent: \"Harry Stevenson\", onDate: \"9/13/16\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "AggSegData105",
@@ -3843,7 +3843,7 @@
     "evidenceDataName": "AggregateSegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hypertrophic cardiomyopathy, HP:0000006 }"
+    "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
   },
   {
     "subjectId": "AggSegData105",
@@ -3893,11 +3893,11 @@
   {
     "subjectId": "DeNovo106",
     "attributeId": "A023",
-    "value": "Ind03",
+    "value": "Indiv03",
     "evidenceDataName": "DeNovoAllele",
     "attributeName": "individual",
     "attributeType": "Individual",
-    "lookupValue": "individual: \"Ind03\""
+    "lookupValue": "individual: \"Indiv03\""
   },
   {
     "subjectId": "DeNovo106",
@@ -3924,7 +3924,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Usher syndrome, HP:0000007 }"
+    "lookupValue": "condition: { Usher syndrome, Autosomal Recessive }"
   },
   {
     "subjectId": "FamSegData107",
@@ -3960,7 +3960,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Usher syndrome, HP:0000007 }"
+    "lookupValue": "condition: { Usher syndrome, Autosomal Recessive }"
   },
   {
     "subjectId": "FamSegData108",
@@ -3987,7 +3987,7 @@
     "evidenceDataName": "AggregateSegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Usher syndrome, HP:0000007 }"
+    "lookupValue": "condition: { Usher syndrome, Autosomal Recessive }"
   },
   {
     "subjectId": "AggSegData109",
@@ -4028,11 +4028,11 @@
   {
     "subjectId": "IndCond110",
     "attributeId": "A016",
-    "value": "Ind030",
+    "value": "Indiv030",
     "evidenceDataName": "IndividualCondition",
     "attributeName": "individual",
     "attributeType": "Individual",
-    "lookupValue": "individual: \"Ind030\""
+    "lookupValue": "individual: { individual #030 }"
   },
   {
     "subjectId": "IndCond110",
@@ -4091,11 +4091,11 @@
   {
     "subjectId": "FamHist112",
     "attributeId": "A019",
-    "value": "Ind030",
+    "value": "Indiv030",
     "evidenceDataName": "FamilyHistory",
     "attributeName": "proband",
     "attributeType": "Individual",
-    "lookupValue": "proband: \"Ind030\""
+    "lookupValue": "proband: { individual #030 }"
   },
   {
     "subjectId": "FamHist112",
@@ -4122,7 +4122,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { dilated cardiomyopathy, HP:0000006 }"
+    "lookupValue": "condition: { dilated cardiomyopathy, Autosomal Dominant }"
   },
   {
     "subjectId": "FamSegData113",
@@ -4203,7 +4203,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { dilated cardiomyopathy, HP:0000006 }"
+    "lookupValue": "condition: { dilated cardiomyopathy, Autosomal Dominant }"
   },
   {
     "subjectId": "FamSegData114",
@@ -4293,7 +4293,7 @@
     "evidenceDataName": "AggregateSegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { dilated cardiomyopathy, HP:0000006 }"
+    "lookupValue": "condition: { dilated cardiomyopathy, Autosomal Dominant }"
   },
   {
     "subjectId": "AggSegData115",
@@ -5661,7 +5661,7 @@
     "evidenceDataName": "ConditionEtiology",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hereditary hemorrhagic telangiectasia, HP:0000006 }"
+    "lookupValue": "condition: { hereditary hemorrhagic telangiectasia, Autosomal Dominant }"
   },
   {
     "subjectId": "CondEtiol148",
@@ -5724,7 +5724,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2, HP:0000006 }"
+    "lookupValue": "condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2, Autosomal Dominant }"
   },
   {
     "subjectId": "VarInterp150",
@@ -5751,7 +5751,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Myopathy, Distal, type 4, HP:0000006 }"
+    "lookupValue": "condition: { Myopathy, Distal, type 4, Autosomal Dominant }"
   },
   {
     "subjectId": "VarInterp151",
@@ -5778,7 +5778,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Cystic Fibrosis, HP:0000007 }"
+    "lookupValue": "condition: { Cystic Fibrosis, Autosomal Recessive }"
   },
   {
     "subjectId": "VarInterp152",
@@ -5931,7 +5931,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
-    "lookupValue": "population: { coding: [{ code: \"eas\", display: \"East Asian\", system: \"http://exac.broadinstitute.org/populations/\" }] }"
+    "lookupValue": "population: { coding: [{ code: \"eas\", display: \"East Asian\", system: \"http://broadinstitute.org/populations/\" }] }"
   },
   {
     "subjectId": "AllFreq155",
@@ -6021,7 +6021,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib519: { agent: \"ACME Molecular Lab\", onDate: \"7/2/2012 8:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "AllFreq157",
@@ -6156,7 +6156,7 @@
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Marfan Syndrome, HP:0000006 }"
+    "lookupValue": "condition: { Marfan Syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "CondPrev159",
@@ -6192,7 +6192,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Marfan Syndrome, HP:0000006 }"
+    "lookupValue": "condition: { Marfan Syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "CondPenet160",
@@ -6300,7 +6300,7 @@
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Mitochondrial complex 1 deficiency, HP:0001423 }"
+    "lookupValue": "condition: { Mitochondrial complex 1 deficiency, X-linked dominant inheritance }"
   },
   {
     "subjectId": "CondPrev163",
@@ -6327,7 +6327,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Mitochondrial complex 1 deficiency, HP:0001423 }"
+    "lookupValue": "condition: { Mitochondrial complex 1 deficiency, X-linked dominant inheritance }"
   },
   {
     "subjectId": "CondPenet164",
@@ -6435,7 +6435,7 @@
     "evidenceDataName": "ConditionPrevelance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Perrault Syndrome, HP:0000007 }"
+    "lookupValue": "condition: { Perrault Syndrome, Autosomal Recessive }"
   },
   {
     "subjectId": "CondPrev167",
@@ -6462,7 +6462,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Perrault Syndrome, HP:0000007 }"
+    "lookupValue": "condition: { Perrault Syndrome, Autosomal Recessive }"
   },
   {
     "subjectId": "CondPenet168",
@@ -6507,7 +6507,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Wiedemann-Steiner syndrome, HP:0000006 }"
+    "lookupValue": "condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "CondPenet170",
@@ -6588,7 +6588,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Wiedemann-Steiner syndrome, HP:0000006 }"
+    "lookupValue": "condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "IndCond174",
@@ -6615,7 +6615,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Wiedemann-Steiner syndrome, HP:0000006 }"
+    "lookupValue": "condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "IndCond175",
@@ -6633,7 +6633,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Familial Adenomatous Polyposis, HP:0000006 }"
+    "lookupValue": "condition: { Familial Adenomatous Polyposis, Autosomal Dominant }"
   },
   {
     "subjectId": "CondPenet176",
@@ -6768,7 +6768,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Familial Adenomatous Polyposis, HP:0000006 }"
+    "lookupValue": "condition: { Familial Adenomatous Polyposis, Autosomal Dominant }"
   },
   {
     "subjectId": "IndCond182",
@@ -6795,7 +6795,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Familial Adenomatous Polyposis, HP:0000006 }"
+    "lookupValue": "condition: { Familial Adenomatous Polyposis, Autosomal Dominant }"
   },
   {
     "subjectId": "IndCond183",
@@ -6822,7 +6822,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Familial Adenomatous Polyposis, HP:0000006 }"
+    "lookupValue": "condition: { Familial Adenomatous Polyposis, Autosomal Dominant }"
   },
   {
     "subjectId": "IndCond184",
@@ -6849,7 +6849,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Familial Adenomatous Polyposis, HP:0000006 }"
+    "lookupValue": "condition: { Familial Adenomatous Polyposis, Autosomal Dominant }"
   },
   {
     "subjectId": "IndCond185",
@@ -6867,7 +6867,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: \"MendCond072\""
+    "lookupValue": "condition: { Marfan Syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "CondPenet186",
@@ -6948,7 +6948,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: \"MendCond072\""
+    "lookupValue": "condition: { Marfan Syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "IndCond190",
@@ -6975,7 +6975,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: \"MendCond072\""
+    "lookupValue": "condition: { Marfan Syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "IndCond191",
@@ -7137,7 +7137,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Hypercholesterolemia, Familial, HP:0000006 }"
+    "lookupValue": "condition: { Hypercholesterolemia, Familial, Autosomal Dominant }"
   },
   {
     "subjectId": "FamSegData196",
@@ -7191,7 +7191,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hypertrophic cardiomyopathy, HP:0000006 }"
+    "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
   },
   {
     "subjectId": "FamSegData197",
@@ -7794,7 +7794,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { cardiomyopathy, HP:0000006 }"
+    "lookupValue": "condition: { cardiomyopathy, Autosomal Dominant }"
   },
   {
     "subjectId": "IndCond215",
@@ -7821,7 +7821,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { cardiomyopathy, HP:0000006 }"
+    "lookupValue": "condition: { cardiomyopathy, Autosomal Dominant }"
   },
   {
     "subjectId": "VarInterp216",
@@ -7839,7 +7839,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { cardiomyopathy, HP:0000006 }"
+    "lookupValue": "condition: { cardiomyopathy, Autosomal Dominant }"
   },
   {
     "subjectId": "CondPenet218",
@@ -7848,7 +7848,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "penetrance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "penetrance: { coding: [{ code: \"incomplete\", display: \"Incomplete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] }"
+    "lookupValue": "penetrance: { coding: [{ code: \"0003829\", display: \"Incomplete\", system: \"http://human-phenotype-ontology.github.io/\" }] }"
   },
   {
     "subjectId": "RegAnn220",
@@ -7884,7 +7884,7 @@
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
     "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001825\", display: \"Conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }] }"
+    "lookupValue": "consequence: { coding: [{ code: \"0001825\", display: \"conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
     "subjectId": "MolCon223",
@@ -7956,7 +7956,7 @@
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
     "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001823\", display: \"Conservative Inframe Insertion\", system: \"http://sequenceontology.org/\" }] }"
+    "lookupValue": "consequence: { coding: [{ code: \"0001823\", display: \"conservative Inframe Insertion\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
     "subjectId": "MolCon231",
@@ -8658,7 +8658,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Usher syndrome, HP:0000007 }"
+    "lookupValue": "condition: { Usher syndrome, Autosomal Recessive }"
   },
   {
     "subjectId": "IndCond250",
@@ -8685,7 +8685,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Usher syndrome, HP:0000007 }"
+    "lookupValue": "condition: { Usher syndrome, Autosomal Recessive }"
   },
   {
     "subjectId": "VarInterp251",
@@ -8793,7 +8793,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: \"MendCond073\""
+    "lookupValue": "condition: { hereditary breast and ovarian cancer }"
   },
   {
     "subjectId": "VarInterp255",
@@ -9270,7 +9270,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hypertrophic cardiomyopathy, HP:0000006 }"
+    "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
   },
   {
     "subjectId": "FamSegData271",
@@ -9396,7 +9396,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Primary ciliary dyskenisia, HP:0000007 }"
+    "lookupValue": "condition: { Primary ciliary dyskenisia, Autosomal Recessive }"
   },
   {
     "subjectId": "VarInterp274",
@@ -9450,7 +9450,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib433: { agent: \"Agent009\", onDate: \"6/26/2015 12:03 PM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess275",
@@ -9495,7 +9495,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib396: { agent: \"Harry Stevenson\", onDate: \"6/1/16 10:10 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess276",
@@ -9549,7 +9549,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib397: { agent: \"Harry Stevenson\", onDate: \"6/2/16 12:15 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess277",
@@ -9612,7 +9612,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib398: { agent: \"Harry Stevenson\", onDate: \"6/2/16 2:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess278",
@@ -9639,7 +9639,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { noonan syndrome, HP:0000006 }"
+    "lookupValue": "condition: { noonan syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "CritAssess278",
@@ -9666,7 +9666,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib399: { agent: \"Harry Stevenson\", onDate: \"6/2/16 3:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess279",
@@ -9720,7 +9720,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib400: { agent: \"Harry Stevenson\", onDate: \"6/2/16 4:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess280",
@@ -9747,7 +9747,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { costello syndrome, HP:0000006 }"
+    "lookupValue": "condition: { costello syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "CritAssess280",
@@ -9783,7 +9783,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib401: { agent: \"Harry Stevenson\", onDate: \"6/2/16 5:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess280",
@@ -9792,7 +9792,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib402: { agent: \"Noonan/Rasopathy WG (ClinGen)\", onDate: \"6/2/16 5:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess281",
@@ -9846,7 +9846,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib403: { agent: \"Harry Stevenson\", onDate: \"6/3/16 8:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess282",
@@ -9900,7 +9900,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib404: { agent: \"Harry Stevenson\", onDate: \"6/3/16 9:17 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess283",
@@ -9954,7 +9954,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib405: { agent: \"Harry Stevenson\", onDate: \"6/3/16 10:25 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess284",
@@ -10026,7 +10026,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib406: { agent: \"Sasha Rande\", onDate: \"6/3/16 2:50 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess284",
@@ -10035,7 +10035,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib407: { agent: \"CSER Bakeoff Project\", onDate: \"6/3/16 2:50 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess285",
@@ -10080,7 +10080,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib408: { agent: \"Sasha Rande\", onDate: \"6/3/16 6:09 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess285",
@@ -10089,7 +10089,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib409: { agent: \"CSER Bakeoff Project\", onDate: \"6/3/16 6:09 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess286",
@@ -10143,7 +10143,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib410: { agent: \"Harry Stevenson\", onDate: \"6/4/16 7:12 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess286",
@@ -10152,7 +10152,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib411: { agent: \"Noonan/Rasopathy WG (ClinGen)\", onDate: \"6/4/16 7:12 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess287",
@@ -10206,7 +10206,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib412: { agent: \"Harry Stevenson\", onDate: \"6/5/16 10:24 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess288",
@@ -10233,7 +10233,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Malignant hyperthermia, HP:0000006 }"
+    "lookupValue": "condition: { Malignant hyperthermia, Autosomal Dominant }"
   },
   {
     "subjectId": "CritAssess288",
@@ -10260,7 +10260,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib413: { agent: \"Harry Stevenson\", onDate: \"6/5/16 2:39 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess289",
@@ -10314,7 +10314,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib414: { agent: \"Harry Stevenson\", onDate: \"6/5/16 4:12 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess290",
@@ -10359,7 +10359,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib415: { agent: \"Sasha Rande\", onDate: \"6/6/16 8:12 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess291",
@@ -10404,7 +10404,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib416: { agent: \"Harry Stevenson\", onDate: \"6/6/16 10:53 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess291",
@@ -10413,7 +10413,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib417: { agent: \"Noonan/Rasopathy WG (ClinGen)\", onDate: \"6/6/16 10:53 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess292",
@@ -10458,7 +10458,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib418: { agent: \"Harry Stevenson\", onDate: \"6/3/16 7:24 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess293",
@@ -10512,7 +10512,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib419: { agent: \"Harry Stevenson\", onDate: \"6/4/16 9:08 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess294",
@@ -10557,7 +10557,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib420: { agent: \"Harry Stevenson\", onDate: \"6/5/16 3:13 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess295",
@@ -10602,7 +10602,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib421: { agent: \"Harry Stevenson\", onDate: \"6/6/16 11:28 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess296",
@@ -10629,7 +10629,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Primary ciliary dyskenisia, HP:0000007 }"
+    "lookupValue": "condition: { Primary ciliary dyskenisia, Autosomal Recessive }"
   },
   {
     "subjectId": "CritAssess296",
@@ -10656,7 +10656,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib422: { agent: \"Harry Stevenson\", onDate: \"6/2/16 8:01 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess297",
@@ -10683,7 +10683,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { nonsyndromic deafness, HP:0000007, GIPC3 }"
+    "lookupValue": "condition: { nonsyndromic deafness, Autosomal Recessive, GIPC3 }"
   },
   {
     "subjectId": "CritAssess297",
@@ -10710,7 +10710,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib423: { agent: \"Harry Stevenson\", onDate: \"6/10/16 9:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess298",
@@ -10737,7 +10737,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { neuronal ceroid lipofuscinosis, HP:0000007, TTP1 }"
+    "lookupValue": "condition: { neuronal ceroid lipofuscinosis, Autosomal Recessive, TTP1 }"
   },
   {
     "subjectId": "CritAssess298",
@@ -10764,7 +10764,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib424: { agent: \"Harry Stevenson\", onDate: \"6/10/16 9:15 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess299",
@@ -10809,7 +10809,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib425: { agent: \"Sasha Rande\", onDate: \"6/12/16 7:30 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess300",
@@ -10854,7 +10854,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib426: { agent: \"Sasha Rande\", onDate: \"6/12/16 8:31 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess301",
@@ -10899,7 +10899,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib427: { agent: \"Harry Stevenson\", onDate: \"6/12/16 9:32 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess302",
@@ -10971,7 +10971,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib428: { agent: \"G. Rajar\", onDate: \"6/12/16 10:48 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess303",
@@ -11025,7 +11025,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib429: { agent: \"G. Rajar\", onDate: \"6/12/16 11:03 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess304",
@@ -11079,7 +11079,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib430: { agent: \"Harry Stevenson\", onDate: \"7/1/16 9:23 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess305",
@@ -11124,7 +11124,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib431: { agent: \"Harry Stevenson\", onDate: \"7/1/16 10:53 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess305",
@@ -11133,7 +11133,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib432: { agent: \"CSER Bakeoff Project\", onDate: \"7/1/16 10:53 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess306",
@@ -11196,7 +11196,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib435: { agent: \"G. Rajar\", onDate: \"7/20/16 7:22 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess306",
@@ -11205,7 +11205,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib436: { agent: \"CSER Bakeoff Project\", onDate: \"7/20/16 7:22 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess307",
@@ -11259,7 +11259,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib437: { agent: \"Harry Stevenson\", onDate: \"7/20/16 7:49 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess308",
@@ -11331,7 +11331,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib438: { agent: \"Harry Stevenson\", onDate: \"7/20/16 8:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess309",
@@ -11358,7 +11358,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hypertrophic cardiomyopathy, HP:0000006 }"
+    "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
   },
   {
     "subjectId": "CritAssess309",
@@ -11385,7 +11385,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib439: { agent: \"Harry Stevenson\", onDate: \"7/21/16 6:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess310",
@@ -11412,7 +11412,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Usher syndrome, HP:0000007 }"
+    "lookupValue": "condition: { Usher syndrome, Autosomal Recessive }"
   },
   {
     "subjectId": "CritAssess310",
@@ -11439,7 +11439,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib440: { agent: \"Harry Stevenson\", onDate: \"7/21/16 7:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess311",
@@ -11493,7 +11493,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib441: { agent: \"Harry Stevenson\", onDate: \"7/21/16 7:39 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess312",
@@ -11520,7 +11520,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { dilated cardiomyopathy, HP:0000006 }"
+    "lookupValue": "condition: { dilated cardiomyopathy, Autosomal Dominant }"
   },
   {
     "subjectId": "CritAssess312",
@@ -11547,7 +11547,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib442: { agent: \"Agent002\", onDate: \"7/21/16 8:11 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess313",
@@ -11592,7 +11592,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib443: { agent: \"Harry Stevenson\", onDate: \"7/21/16 9:41 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess314",
@@ -11637,7 +11637,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib444: { agent: \"G. Rajar\", onDate: \"7/21/16 10:29 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess314",
@@ -11646,7 +11646,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib445: { agent: \"CSER Bakeoff Project\", onDate: \"7/21/16 10:29 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess315",
@@ -11691,7 +11691,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib446: { agent: \"G. Rajar\", onDate: \"7/21/16 12:15 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess316",
@@ -11736,7 +11736,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib447: { agent: \"Harry Stevenson\", onDate: \"7/21/16 2:46 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess318",
@@ -11763,7 +11763,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hereditary hemorrhagic telangiectasia, HP:0000006 }"
+    "lookupValue": "condition: { hereditary hemorrhagic telangiectasia, Autosomal Dominant }"
   },
   {
     "subjectId": "CritAssess318",
@@ -11790,7 +11790,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib449: { agent: \"Harry Stevenson\", onDate: \"8/28/16 2:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess318",
@@ -11799,7 +11799,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib450: { agent: \"CSER Bakeoff Project\", onDate: \"8/28/16 2:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess319",
@@ -11853,7 +11853,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib451: { agent: \"Harry Stevenson\", onDate: \"8/29/16 3:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess320",
@@ -11880,7 +11880,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2, HP:0000006 }"
+    "lookupValue": "condition: { Breast-Ovarian Cancer, Familial, Susceptibility To, 2, Autosomal Dominant }"
   },
   {
     "subjectId": "CritAssess320",
@@ -11907,7 +11907,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib452: { agent: \"Harry Stevenson\", onDate: \"8/29/16 4:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess321",
@@ -11934,7 +11934,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Myopathy, Distal, type 4, HP:0000006 }"
+    "lookupValue": "condition: { Myopathy, Distal, type 4, Autosomal Dominant }"
   },
   {
     "subjectId": "CritAssess321",
@@ -11961,7 +11961,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib453: { agent: \"Harry Stevenson\", onDate: \"8/29/16 5:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess322",
@@ -11988,7 +11988,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Cystic Fibrosis, HP:0000007 }"
+    "lookupValue": "condition: { Cystic Fibrosis, Autosomal Recessive }"
   },
   {
     "subjectId": "CritAssess322",
@@ -12015,7 +12015,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib454: { agent: \"Harry Stevenson\", onDate: \"8/29/16 6:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess323",
@@ -12060,7 +12060,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib455: { agent: \"Harry Stevenson\", onDate: \"8/29/16 7:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess324",
@@ -12114,7 +12114,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib456: { agent: \"Harry Stevenson\", onDate: \"8/29/16 8:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess325",
@@ -12141,7 +12141,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Primary ciliary dyskenisia, HP:0000007 }"
+    "lookupValue": "condition: { Primary ciliary dyskenisia, Autosomal Recessive }"
   },
   {
     "subjectId": "CritAssess325",
@@ -12168,7 +12168,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib457: { agent: \"Harry Stevenson\", onDate: \"8/29/16 9:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess326",
@@ -12195,7 +12195,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Marfan Syndrome, HP:0000006 }"
+    "lookupValue": "condition: { Marfan Syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "CritAssess326",
@@ -12222,7 +12222,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib458: { agent: \"G. Rajar\", onDate: \"8/29/16 10:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess327",
@@ -12249,7 +12249,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Mitochondrial complex 1 deficiency, HP:0001423 }"
+    "lookupValue": "condition: { Mitochondrial complex 1 deficiency, X-linked dominant inheritance }"
   },
   {
     "subjectId": "CritAssess327",
@@ -12276,7 +12276,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib459: { agent: \"G. Rajar\", onDate: \"8/29/16 11:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess327",
@@ -12285,7 +12285,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib460: { agent: \"CSER Bakeoff Project\", onDate: \"8/29/16 11:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess328",
@@ -12312,7 +12312,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Perrault Syndrome, HP:0000007 }"
+    "lookupValue": "condition: { Perrault Syndrome, Autosomal Recessive }"
   },
   {
     "subjectId": "CritAssess328",
@@ -12339,7 +12339,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib461: { agent: \"Stefan DiMarino\", onDate: \"8/30/16 6:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess329",
@@ -12366,7 +12366,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Wiedemann-Steiner syndrome, HP:0000006 }"
+    "lookupValue": "condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "CritAssess329",
@@ -12402,7 +12402,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib462: { agent: \"Harry Stevenson\", onDate: \"9/5/16 6:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess330",
@@ -12429,7 +12429,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Familial Adenomatous Polyposis, HP:0000006 }"
+    "lookupValue": "condition: { Familial Adenomatous Polyposis, Autosomal Dominant }"
   },
   {
     "subjectId": "CritAssess330",
@@ -12483,7 +12483,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib463: { agent: \"Stefan DiMarino\", onDate: \"9/5/16 6:30 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess330",
@@ -12492,7 +12492,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib464: { agent: \"CSER Bakeoff Project\", onDate: \"9/5/16 6:30 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess331",
@@ -12519,7 +12519,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: \"MendCond072\""
+    "lookupValue": "condition: { Marfan Syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "CritAssess331",
@@ -12555,7 +12555,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib465: { agent: \"Stefan DiMarino\", onDate: \"9/5/16 7:01 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess331",
@@ -12564,7 +12564,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib466: { agent: \"CSER Bakeoff Project\", onDate: \"9/5/16 7:01 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess333",
@@ -12618,7 +12618,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib468: { agent: \"Stefan DiMarino\", onDate: \"9/5/16 9:01 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess334",
@@ -12672,7 +12672,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib469: { agent: \"Stefan DiMarino\", onDate: \"9/5/16 9:31 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess335",
@@ -12699,7 +12699,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Hypercholesterolemia, Familial, HP:0000006 }"
+    "lookupValue": "condition: { Hypercholesterolemia, Familial, Autosomal Dominant }"
   },
   {
     "subjectId": "CritAssess335",
@@ -12726,7 +12726,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib470: { agent: \"Harry Stevenson\", onDate: \"9/5/16 9:51 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess336",
@@ -12753,7 +12753,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hypertrophic cardiomyopathy, HP:0000006 }"
+    "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
   },
   {
     "subjectId": "CritAssess336",
@@ -12780,7 +12780,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib471: { agent: \"Harry Stevenson\", onDate: \"9/5/16 10:51 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess337",
@@ -12807,7 +12807,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { hypertrophic cardiomyopathy, HP:0000006 }"
+    "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
   },
   {
     "subjectId": "CritAssess337",
@@ -12834,7 +12834,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib472: { agent: \"Harry Stevenson\", onDate: \"9/5/16 11:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess338",
@@ -12888,7 +12888,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib473: { agent: \"G. Rajar\", onDate: \"9/6/16 8:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess339",
@@ -12942,7 +12942,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib474: { agent: \"G. Rajar\", onDate: \"9/6/16 9:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess340",
@@ -12996,7 +12996,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib475: { agent: \"Stefan DiMarino\", onDate: \"9/6/16 10:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess341",
@@ -13050,7 +13050,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib476: { agent: \"Stefan DiMarino\", onDate: \"9/6/16 11:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess342",
@@ -13113,7 +13113,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib477: { agent: \"Stefan DiMarino\", onDate: \"9/6/16 12:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess343",
@@ -13167,7 +13167,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib478: { agent: \"Stefan DiMarino\", onDate: \"9/6/16 1:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess344",
@@ -13194,7 +13194,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { cardiomyopathy, HP:0000006 }"
+    "lookupValue": "condition: { cardiomyopathy, Autosomal Dominant }"
   },
   {
     "subjectId": "CritAssess344",
@@ -13221,7 +13221,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib479: { agent: \"Stefan DiMarino\", onDate: \"9/6/16 2:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess345",
@@ -13266,7 +13266,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib489: { agent: \"Stefan DiMarino\", onDate: \"9/15/16 8:12 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess346",
@@ -13311,7 +13311,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib490: { agent: \"Stefan DiMarino\", onDate: \"9/15/16 9:23 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess347",
@@ -13356,7 +13356,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib491: { agent: \"Stefan DiMarino\", onDate: \"9/15/16 10:40 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess348",
@@ -13401,7 +13401,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib492: { agent: \"G. Rajar\", onDate: \"10/4/16 8:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess350",
@@ -13446,7 +13446,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib494: { agent: \"Stefan DiMarino\", onDate: \"10/4/16 10:37 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess351",
@@ -13500,7 +13500,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib495: { agent: \"Stefan DiMarino\", onDate: \"10/4/16 11:42 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess352",
@@ -13554,7 +13554,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib496: { agent: \"Stefan DiMarino\", onDate: \"10/6/16 8:30 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess353",
@@ -13581,7 +13581,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { Usher syndrome, HP:0000007 }"
+    "lookupValue": "condition: { Usher syndrome, Autosomal Recessive }"
   },
   {
     "subjectId": "CritAssess353",
@@ -13608,7 +13608,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib497: { agent: \"Stefan DiMarino\", onDate: \"10/6/16 8:54 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess354",
@@ -13662,7 +13662,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib498: { agent: \"Stefan DiMarino\", onDate: \"10/6/16 9:09 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess355",
@@ -13689,7 +13689,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: \"MendCond073\""
+    "lookupValue": "condition: { hereditary breast and ovarian cancer }"
   },
   {
     "subjectId": "CritAssess355",
@@ -13716,7 +13716,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib499: { agent: \"Stefan DiMarino\", onDate: \"10/6/16 9:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess356",
@@ -13770,7 +13770,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib500: { agent: \"Stefan DiMarino\", onDate: \"10/10/16 8:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess357",
@@ -13824,7 +13824,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib501: { agent: \"Stefan DiMarino\", onDate: \"10/10/16 8:03 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess358",
@@ -13869,7 +13869,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib502: { agent: \"Stefan DiMarino\", onDate: \"10/10/16 8:04 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess359",
@@ -13914,7 +13914,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib503: { agent: \"Stefan DiMarino\", onDate: \"10/10/16 8:05 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess360",
@@ -13959,7 +13959,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib504: { agent: \"Stefan DiMarino\", onDate: \"10/10/16 8:06 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess361",
@@ -14013,7 +14013,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib505: { agent: \"Stefan DiMarino\", onDate: \"01/17/17 9:12 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "InSilicoPred362",
@@ -14103,7 +14103,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib506: { agent: \"Stefan DiMarino\", onDate: \"03/07/2017 4:30 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "VarInterp364",
@@ -14301,7 +14301,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib507: { agent: \"Harry Stevenson\", onDate: \"03/07/2017 5:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "AllFreq370",
@@ -14319,7 +14319,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "population",
     "attributeType": "CodeableConcept",
-    "lookupValue": "population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://exac.broadinstitute.org/populations/\" }] }"
+    "lookupValue": "population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://broadinstitute.org/populations/\" }] }"
   },
   {
     "subjectId": "AllFreq370",
@@ -14409,7 +14409,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib508: { agent: \"Stefan DiMarino\", onDate: \"03/08/2017 7:43 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess372",
@@ -14463,7 +14463,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib509: { agent: \"Stefan DiMarino\", onDate: \"03/08/2017 9:46 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess373",
@@ -14508,7 +14508,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib510: { agent: \"Stefan DiMarino\", onDate: \"03/08/2017 10:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess374",
@@ -14553,7 +14553,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib513: { agent: \"Stefan DiMarino\", onDate: \"3/14/2017 10:29 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess375",
@@ -14580,7 +14580,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
-    "lookupValue": "condition: { noonan syndrome, HP:0000006 }"
+    "lookupValue": "condition: { noonan syndrome, Autosomal Dominant }"
   },
   {
     "subjectId": "CritAssess375",
@@ -14607,7 +14607,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib514: { agent: \"Stefan DiMarino\", onDate: \"3/14/2017 10:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess376",
@@ -14652,7 +14652,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib515: { agent: \"ACME Molecular Lab\", onDate: \"6/11/2011 11:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess377",
@@ -14705,7 +14705,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib516: { agent: \"ACME Molecular Lab\", onDate: \"6/11/2011 12:45:00\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess378",
@@ -14759,7 +14759,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: {  }"
+    "lookupValue": "contribution: { Contrib517: { agent: \"ACME Molecular Lab\", onDate: \"6/10/2011 1:45 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "Loc379",
@@ -15100,11 +15100,11 @@
   {
     "subjectId": "Loc392",
     "attributeId": "A052",
-    "value": "RegSeq009",
+    "value": "RefSeq009",
     "evidenceDataName": "Locus",
     "attributeName": "referenceSequence",
     "attributeType": "ReferenceSequence",
-    "lookupValue": "referenceSequence: \"RegSeq009\""
+    "lookupValue": "referenceSequence: { NM_133378.4 }"
   },
   {
     "subjectId": "Loc392",
