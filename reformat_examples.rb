@@ -19,10 +19,6 @@ class DMWGExampleData
   end
 
   def by_type
-    unless @by_type
-      @by_type = {}
-      by_id.each { |k, v| (by_type[v['type']] ||= []).push v }
-    end
     @by_type
   end
 
@@ -112,6 +108,18 @@ class DMWGExampleData
         true
       else
         false
+      end
+    end
+
+    # generate @by_type
+    @by_type = {}
+    by_id.each { |k, v| (by_type[v['type']] ||= []).push v }
+
+    # check that all ids actually reference something
+    if @by_type.has_key? nil and not @by_type[nil].empty? then
+      STDERR.puts "!! WARNING: at least one id is used that does not reference an object:"
+      @by_type[nil].each do |ref|
+        STDERR.puts "!!   #{ref}"
       end
     end
 
