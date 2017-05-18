@@ -363,10 +363,12 @@
     "id": "A030",
     "entityId": "E23",
     "name": "ascertainment",
-    "dataType": "String",
+    "dataType": "CodeableConcept",
     "cardinality": "0..1",
     "defaultValue": "null",
-    "valueSetName": "",
+    "valueSetId": "VS023",
+    "restrictByValueSet": "No",
+    "valueSetName": "AscertainmentType",
     "precedence": 3.0,
     "description": "The criteria applied to create the dataset in which the frequency was measured",
     "fullyQualifiedName": "AlleleFrequency.ascertainment"
@@ -668,14 +670,14 @@
   "A055": {
     "id": "A055",
     "entityId": "E09",
-    "name": "hasEvidence",
+    "name": "evidence",
     "dataType": "EvidenceLine",
     "cardinality": "0..*",
     "externalIRI": "SEPIO:has_evidence",
     "valueSetName": "",
     "precedence": 1.0,
     "description": "supporting evidence",
-    "fullyQualifiedName": "CriterionAssessment.hasEvidence"
+    "fullyQualifiedName": "CriterionAssessment.evidence"
   },
   "A056": {
     "id": "A056",
@@ -742,13 +744,13 @@
   "A061": {
     "id": "A061",
     "entityId": "E35",
-    "name": "hasEvidence",
+    "name": "evidence",
     "dataType": "EvidenceLine",
     "cardinality": "0..*",
     "valueSetName": "",
     "precedence": 5.0,
     "description": "** TODO **",
-    "fullyQualifiedName": "VariantInterpretation.hasEvidence"
+    "fullyQualifiedName": "VariantInterpretation.evidence"
   },
   "A062": {
     "id": "A062",
@@ -1933,12 +1935,12 @@
   "A178": {
     "id": "A178",
     "entityId": "E56",
-    "name": "hasInformation",
+    "name": "information",
     "dataType": "Information",
     "cardinality": "0..*",
     "valueSetName": "",
     "precedence": 3.0,
-    "fullyQualifiedName": "EvidenceLine.hasInformation"
+    "fullyQualifiedName": "EvidenceLine.information"
   },
   "A179": {
     "id": "A179",

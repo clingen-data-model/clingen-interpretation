@@ -864,7 +864,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -900,7 +900,7 @@
     "value": "Across all published data (and LMM data) with hearing loss.",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"Across all published data (and LMM data) with hearing loss.\""
   },
   {
@@ -1008,7 +1008,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -1089,7 +1089,7 @@
     "value": "Case group is composed of cases from six cohorts from the GENIUS T2D consortium.  Case status is defined per-cohort.",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"Case group is composed of cases from six cohorts from the GENIUS T2D consortium.  Case status is defined per-cohort.\""
   },
   {
@@ -1161,7 +1161,7 @@
     "value": "Controls group is composed of controls from six cohorts from the GENIUS T2D consortium.  Controls status is defined per-cohort.",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"Controls group is composed of controls from six cohorts from the GENIUS T2D consortium.  Controls status is defined per-cohort.\""
   },
   {
@@ -1314,7 +1314,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -1368,7 +1368,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -1511,27 +1511,27 @@
     "attributeId": "A061",
     "value": "EvLn113",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn113 }"
+    "lookupValue": "evidence: { EvLn113 }"
   },
   {
     "subjectId": "VarInterp041",
     "attributeId": "A061",
     "value": "EvLn114",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn114 }"
+    "lookupValue": "evidence: { EvLn114 }"
   },
   {
     "subjectId": "VarInterp041",
     "attributeId": "A061",
     "value": "EvLn115",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn115 }"
+    "lookupValue": "evidence: { EvLn115 }"
   },
   {
     "subjectId": "VarInterp041",
@@ -1619,27 +1619,27 @@
     "attributeId": "A061",
     "value": "EvLn120",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn120 }"
+    "lookupValue": "evidence: { EvLn120 }"
   },
   {
     "subjectId": "VarInterp044",
     "attributeId": "A061",
     "value": "EvLn118",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn118 }"
+    "lookupValue": "evidence: { EvLn118 }"
   },
   {
     "subjectId": "VarInterp044",
     "attributeId": "A061",
     "value": "EvLn119",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn119 }"
+    "lookupValue": "evidence: { EvLn119 }"
   },
   {
     "subjectId": "VarInterp044",
@@ -1691,18 +1691,18 @@
     "attributeId": "A061",
     "value": "EvLn121",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn121 }"
+    "lookupValue": "evidence: { EvLn121 }"
   },
   {
     "subjectId": "VarInterp045",
     "attributeId": "A061",
     "value": "EvLn122",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn122 }"
+    "lookupValue": "evidence: { EvLn122 }"
   },
   {
     "subjectId": "VarInterp045",
@@ -1845,7 +1845,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -1908,7 +1908,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -1971,7 +1971,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -2043,7 +2043,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -2141,18 +2141,18 @@
     "attributeId": "A061",
     "value": "EvLn124",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn124 }"
+    "lookupValue": "evidence: { EvLn124 }"
   },
   {
     "subjectId": "VarInterp055",
     "attributeId": "A061",
     "value": "EvLn125",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn125 }"
+    "lookupValue": "evidence: { EvLn125 }"
   },
   {
     "subjectId": "VarInterp055",
@@ -2483,27 +2483,27 @@
     "attributeId": "A061",
     "value": "EvLn127",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn127 }"
+    "lookupValue": "evidence: { EvLn127 }"
   },
   {
     "subjectId": "VarInterp063",
     "attributeId": "A061",
     "value": "EvLn129",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn129 }"
+    "lookupValue": "evidence: { EvLn129 }"
   },
   {
     "subjectId": "VarInterp063",
     "attributeId": "A061",
     "value": "EvLn131",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn131 }"
+    "lookupValue": "evidence: { EvLn131 }"
   },
   {
     "subjectId": "VarInterp063",
@@ -3060,7 +3060,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -3671,7 +3671,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -5795,7 +5795,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -5858,7 +5858,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -5921,7 +5921,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -6010,9 +6010,9 @@
     "attributeId": "A055",
     "value": "EvLn132",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn132 }"
+    "lookupValue": "evidence: { EvLn132 }"
   },
   {
     "subjectId": "CritAssess156",
@@ -6029,7 +6029,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -6092,7 +6092,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -6227,7 +6227,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -6380,7 +6380,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -9421,27 +9421,27 @@
     "attributeId": "A061",
     "value": "EvLn110",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn110 }"
+    "lookupValue": "evidence: { EvLn110 }"
   },
   {
     "subjectId": "VarInterp274",
     "attributeId": "A061",
     "value": "EvLn111",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn111 }"
+    "lookupValue": "evidence: { EvLn111 }"
   },
   {
     "subjectId": "VarInterp274",
     "attributeId": "A061",
     "value": "EvLn112",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn112 }"
+    "lookupValue": "evidence: { EvLn112 }"
   },
   {
     "subjectId": "VarInterp274",
@@ -9484,9 +9484,9 @@
     "attributeId": "A055",
     "value": "EvLn001",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn001 }"
+    "lookupValue": "evidence: { EvLn001 }"
   },
   {
     "subjectId": "CritAssess275",
@@ -9538,9 +9538,9 @@
     "attributeId": "A055",
     "value": "EvLn002",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn002 }"
+    "lookupValue": "evidence: { EvLn002 }"
   },
   {
     "subjectId": "CritAssess276",
@@ -9592,18 +9592,18 @@
     "attributeId": "A055",
     "value": "EvLn003",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn003 }"
+    "lookupValue": "evidence: { EvLn003 }"
   },
   {
     "subjectId": "CritAssess277",
     "attributeId": "A055",
     "value": "EvLn004",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn004 }"
+    "lookupValue": "evidence: { EvLn004 }"
   },
   {
     "subjectId": "CritAssess277",
@@ -9655,9 +9655,9 @@
     "attributeId": "A055",
     "value": "EvLn005",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn005 }"
+    "lookupValue": "evidence: { EvLn005 }"
   },
   {
     "subjectId": "CritAssess278",
@@ -9709,9 +9709,9 @@
     "attributeId": "A055",
     "value": "EvLn006",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn006 }"
+    "lookupValue": "evidence: { EvLn006 }"
   },
   {
     "subjectId": "CritAssess279",
@@ -9772,9 +9772,9 @@
     "attributeId": "A055",
     "value": "EvLn008",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn008 }"
+    "lookupValue": "evidence: { EvLn008 }"
   },
   {
     "subjectId": "CritAssess280",
@@ -9835,9 +9835,9 @@
     "attributeId": "A055",
     "value": "EvLn009",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn009 }"
+    "lookupValue": "evidence: { EvLn009 }"
   },
   {
     "subjectId": "CritAssess281",
@@ -9889,9 +9889,9 @@
     "attributeId": "A055",
     "value": "EvLn010",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn010 }"
+    "lookupValue": "evidence: { EvLn010 }"
   },
   {
     "subjectId": "CritAssess282",
@@ -9988,36 +9988,36 @@
     "attributeId": "A055",
     "value": "EvLn012",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn012 }"
+    "lookupValue": "evidence: { EvLn012 }"
   },
   {
     "subjectId": "CritAssess284",
     "attributeId": "A055",
     "value": "EvLn013",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn013 }"
+    "lookupValue": "evidence: { EvLn013 }"
   },
   {
     "subjectId": "CritAssess284",
     "attributeId": "A055",
     "value": "EvLn014",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn014 }"
+    "lookupValue": "evidence: { EvLn014 }"
   },
   {
     "subjectId": "CritAssess284",
     "attributeId": "A055",
     "value": "EvLn015",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn015 }"
+    "lookupValue": "evidence: { EvLn015 }"
   },
   {
     "subjectId": "CritAssess284",
@@ -10069,9 +10069,9 @@
     "attributeId": "A055",
     "value": "EvLn016",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn016 }"
+    "lookupValue": "evidence: { EvLn016 }"
   },
   {
     "subjectId": "CritAssess285",
@@ -10123,18 +10123,18 @@
     "attributeId": "A055",
     "value": "EvLn017",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn017 }"
+    "lookupValue": "evidence: { EvLn017 }"
   },
   {
     "subjectId": "CritAssess286",
     "attributeId": "A055",
     "value": "EvLn018",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn018 }"
+    "lookupValue": "evidence: { EvLn018 }"
   },
   {
     "subjectId": "CritAssess286",
@@ -10195,9 +10195,9 @@
     "attributeId": "A055",
     "value": "EvLn019",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn019 }"
+    "lookupValue": "evidence: { EvLn019 }"
   },
   {
     "subjectId": "CritAssess287",
@@ -10249,9 +10249,9 @@
     "attributeId": "A055",
     "value": "EvLn020",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn020 }"
+    "lookupValue": "evidence: { EvLn020 }"
   },
   {
     "subjectId": "CritAssess288",
@@ -10303,9 +10303,9 @@
     "attributeId": "A055",
     "value": "EvLn021",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn021 }"
+    "lookupValue": "evidence: { EvLn021 }"
   },
   {
     "subjectId": "CritAssess289",
@@ -10348,9 +10348,9 @@
     "attributeId": "A055",
     "value": "EvLn022",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn022 }"
+    "lookupValue": "evidence: { EvLn022 }"
   },
   {
     "subjectId": "CritAssess290",
@@ -10393,9 +10393,9 @@
     "attributeId": "A055",
     "value": "EvLn023",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn023 }"
+    "lookupValue": "evidence: { EvLn023 }"
   },
   {
     "subjectId": "CritAssess291",
@@ -10447,9 +10447,9 @@
     "attributeId": "A055",
     "value": "EvLn024",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn024 }"
+    "lookupValue": "evidence: { EvLn024 }"
   },
   {
     "subjectId": "CritAssess292",
@@ -10492,18 +10492,18 @@
     "attributeId": "A055",
     "value": "EvLn025",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn025 }"
+    "lookupValue": "evidence: { EvLn025 }"
   },
   {
     "subjectId": "CritAssess293",
     "attributeId": "A055",
     "value": "EvLn026",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn026 }"
+    "lookupValue": "evidence: { EvLn026 }"
   },
   {
     "subjectId": "CritAssess293",
@@ -10546,9 +10546,9 @@
     "attributeId": "A055",
     "value": "EvLn027",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn027 }"
+    "lookupValue": "evidence: { EvLn027 }"
   },
   {
     "subjectId": "CritAssess294",
@@ -10591,9 +10591,9 @@
     "attributeId": "A055",
     "value": "EvLn028",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn028 }"
+    "lookupValue": "evidence: { EvLn028 }"
   },
   {
     "subjectId": "CritAssess295",
@@ -10645,9 +10645,9 @@
     "attributeId": "A055",
     "value": "EvLn029",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn029 }"
+    "lookupValue": "evidence: { EvLn029 }"
   },
   {
     "subjectId": "CritAssess296",
@@ -10699,9 +10699,9 @@
     "attributeId": "A055",
     "value": "EvLn030",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn030 }"
+    "lookupValue": "evidence: { EvLn030 }"
   },
   {
     "subjectId": "CritAssess297",
@@ -10753,9 +10753,9 @@
     "attributeId": "A055",
     "value": "EvLn031",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn031 }"
+    "lookupValue": "evidence: { EvLn031 }"
   },
   {
     "subjectId": "CritAssess298",
@@ -10798,9 +10798,9 @@
     "attributeId": "A055",
     "value": "EvLn032",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn032 }"
+    "lookupValue": "evidence: { EvLn032 }"
   },
   {
     "subjectId": "CritAssess299",
@@ -10843,9 +10843,9 @@
     "attributeId": "A055",
     "value": "EvLn033",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn033 }"
+    "lookupValue": "evidence: { EvLn033 }"
   },
   {
     "subjectId": "CritAssess300",
@@ -10888,9 +10888,9 @@
     "attributeId": "A055",
     "value": "EvLn034",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn034 }"
+    "lookupValue": "evidence: { EvLn034 }"
   },
   {
     "subjectId": "CritAssess301",
@@ -10942,27 +10942,27 @@
     "attributeId": "A055",
     "value": "EvLn035",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn035 }"
+    "lookupValue": "evidence: { EvLn035 }"
   },
   {
     "subjectId": "CritAssess302",
     "attributeId": "A055",
     "value": "EvLn036",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn036 }"
+    "lookupValue": "evidence: { EvLn036 }"
   },
   {
     "subjectId": "CritAssess302",
     "attributeId": "A055",
     "value": "EvLn037",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn037 }"
+    "lookupValue": "evidence: { EvLn037 }"
   },
   {
     "subjectId": "CritAssess302",
@@ -11014,9 +11014,9 @@
     "attributeId": "A055",
     "value": "EvLn038",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn038 }"
+    "lookupValue": "evidence: { EvLn038 }"
   },
   {
     "subjectId": "CritAssess303",
@@ -11068,9 +11068,9 @@
     "attributeId": "A055",
     "value": "EvLn039",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn039 }"
+    "lookupValue": "evidence: { EvLn039 }"
   },
   {
     "subjectId": "CritAssess304",
@@ -11113,9 +11113,9 @@
     "attributeId": "A055",
     "value": "EvLn040",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn040 }"
+    "lookupValue": "evidence: { EvLn040 }"
   },
   {
     "subjectId": "CritAssess305",
@@ -11176,18 +11176,18 @@
     "attributeId": "A055",
     "value": "EvLn041",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn041 }"
+    "lookupValue": "evidence: { EvLn041 }"
   },
   {
     "subjectId": "CritAssess306",
     "attributeId": "A055",
     "value": "EvLn042",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn042 }"
+    "lookupValue": "evidence: { EvLn042 }"
   },
   {
     "subjectId": "CritAssess306",
@@ -11248,9 +11248,9 @@
     "attributeId": "A055",
     "value": "EvLn043",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn043 }"
+    "lookupValue": "evidence: { EvLn043 }"
   },
   {
     "subjectId": "CritAssess307",
@@ -11302,27 +11302,27 @@
     "attributeId": "A055",
     "value": "EvLn044",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn044 }"
+    "lookupValue": "evidence: { EvLn044 }"
   },
   {
     "subjectId": "CritAssess308",
     "attributeId": "A055",
     "value": "EvLn045",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn045 }"
+    "lookupValue": "evidence: { EvLn045 }"
   },
   {
     "subjectId": "CritAssess308",
     "attributeId": "A055",
     "value": "EvLn046",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn046 }"
+    "lookupValue": "evidence: { EvLn046 }"
   },
   {
     "subjectId": "CritAssess308",
@@ -11374,9 +11374,9 @@
     "attributeId": "A055",
     "value": "EvLn047",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn047 }"
+    "lookupValue": "evidence: { EvLn047 }"
   },
   {
     "subjectId": "CritAssess309",
@@ -11428,9 +11428,9 @@
     "attributeId": "A055",
     "value": "EvLn048",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn048 }"
+    "lookupValue": "evidence: { EvLn048 }"
   },
   {
     "subjectId": "CritAssess310",
@@ -11482,9 +11482,9 @@
     "attributeId": "A055",
     "value": "EvLn049",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn049 }"
+    "lookupValue": "evidence: { EvLn049 }"
   },
   {
     "subjectId": "CritAssess311",
@@ -11536,9 +11536,9 @@
     "attributeId": "A055",
     "value": "EvLn050",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn050 }"
+    "lookupValue": "evidence: { EvLn050 }"
   },
   {
     "subjectId": "CritAssess312",
@@ -11581,9 +11581,9 @@
     "attributeId": "A055",
     "value": "EvLn051",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn051 }"
+    "lookupValue": "evidence: { EvLn051 }"
   },
   {
     "subjectId": "CritAssess313",
@@ -11626,9 +11626,9 @@
     "attributeId": "A055",
     "value": "EvLn052",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn052 }"
+    "lookupValue": "evidence: { EvLn052 }"
   },
   {
     "subjectId": "CritAssess314",
@@ -11680,9 +11680,9 @@
     "attributeId": "A055",
     "value": "EvLn053",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn053 }"
+    "lookupValue": "evidence: { EvLn053 }"
   },
   {
     "subjectId": "CritAssess315",
@@ -11725,9 +11725,9 @@
     "attributeId": "A055",
     "value": "EvLn054",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn054 }"
+    "lookupValue": "evidence: { EvLn054 }"
   },
   {
     "subjectId": "CritAssess316",
@@ -11779,9 +11779,9 @@
     "attributeId": "A055",
     "value": "EvLn055",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn055 }"
+    "lookupValue": "evidence: { EvLn055 }"
   },
   {
     "subjectId": "CritAssess318",
@@ -11842,9 +11842,9 @@
     "attributeId": "A055",
     "value": "EvLn056",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn056 }"
+    "lookupValue": "evidence: { EvLn056 }"
   },
   {
     "subjectId": "CritAssess319",
@@ -11896,9 +11896,9 @@
     "attributeId": "A055",
     "value": "EvLn057",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn057 }"
+    "lookupValue": "evidence: { EvLn057 }"
   },
   {
     "subjectId": "CritAssess320",
@@ -11950,9 +11950,9 @@
     "attributeId": "A055",
     "value": "EvLn058",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn058 }"
+    "lookupValue": "evidence: { EvLn058 }"
   },
   {
     "subjectId": "CritAssess321",
@@ -12004,9 +12004,9 @@
     "attributeId": "A055",
     "value": "EvLn059",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn059 }"
+    "lookupValue": "evidence: { EvLn059 }"
   },
   {
     "subjectId": "CritAssess322",
@@ -12049,9 +12049,9 @@
     "attributeId": "A055",
     "value": "EvLn060",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn060 }"
+    "lookupValue": "evidence: { EvLn060 }"
   },
   {
     "subjectId": "CritAssess323",
@@ -12094,18 +12094,18 @@
     "attributeId": "A055",
     "value": "EvLn061",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn061 }"
+    "lookupValue": "evidence: { EvLn061 }"
   },
   {
     "subjectId": "CritAssess324",
     "attributeId": "A055",
     "value": "EvLn062",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn062 }"
+    "lookupValue": "evidence: { EvLn062 }"
   },
   {
     "subjectId": "CritAssess324",
@@ -12157,9 +12157,9 @@
     "attributeId": "A055",
     "value": "EvLn063",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn063 }"
+    "lookupValue": "evidence: { EvLn063 }"
   },
   {
     "subjectId": "CritAssess325",
@@ -12211,9 +12211,9 @@
     "attributeId": "A055",
     "value": "EvLn064",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn064 }"
+    "lookupValue": "evidence: { EvLn064 }"
   },
   {
     "subjectId": "CritAssess326",
@@ -12265,9 +12265,9 @@
     "attributeId": "A055",
     "value": "EvLn065",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn065 }"
+    "lookupValue": "evidence: { EvLn065 }"
   },
   {
     "subjectId": "CritAssess327",
@@ -12328,9 +12328,9 @@
     "attributeId": "A055",
     "value": "EvLn066",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn066 }"
+    "lookupValue": "evidence: { EvLn066 }"
   },
   {
     "subjectId": "CritAssess328",
@@ -12382,18 +12382,18 @@
     "attributeId": "A055",
     "value": "EvLn067",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn067 }"
+    "lookupValue": "evidence: { EvLn067 }"
   },
   {
     "subjectId": "CritAssess329",
     "attributeId": "A055",
     "value": "EvLn068",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn068 }"
+    "lookupValue": "evidence: { EvLn068 }"
   },
   {
     "subjectId": "CritAssess329",
@@ -12445,36 +12445,36 @@
     "attributeId": "A055",
     "value": "EvLn069",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn069 }"
+    "lookupValue": "evidence: { EvLn069 }"
   },
   {
     "subjectId": "CritAssess330",
     "attributeId": "A055",
     "value": "EvLn070",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn070 }"
+    "lookupValue": "evidence: { EvLn070 }"
   },
   {
     "subjectId": "CritAssess330",
     "attributeId": "A055",
     "value": "EvLn071",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn071 }"
+    "lookupValue": "evidence: { EvLn071 }"
   },
   {
     "subjectId": "CritAssess330",
     "attributeId": "A055",
     "value": "EvLn072",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn072 }"
+    "lookupValue": "evidence: { EvLn072 }"
   },
   {
     "subjectId": "CritAssess330",
@@ -12535,18 +12535,18 @@
     "attributeId": "A055",
     "value": "EvLn073",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn073 }"
+    "lookupValue": "evidence: { EvLn073 }"
   },
   {
     "subjectId": "CritAssess331",
     "attributeId": "A055",
     "value": "EvLn074",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn074 }"
+    "lookupValue": "evidence: { EvLn074 }"
   },
   {
     "subjectId": "CritAssess331",
@@ -12598,18 +12598,18 @@
     "attributeId": "A055",
     "value": "EvLn075",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn075 }"
+    "lookupValue": "evidence: { EvLn075 }"
   },
   {
     "subjectId": "CritAssess333",
     "attributeId": "A055",
     "value": "EvLn076",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn076 }"
+    "lookupValue": "evidence: { EvLn076 }"
   },
   {
     "subjectId": "CritAssess333",
@@ -12652,18 +12652,18 @@
     "attributeId": "A055",
     "value": "EvLn077",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn077 }"
+    "lookupValue": "evidence: { EvLn077 }"
   },
   {
     "subjectId": "CritAssess334",
     "attributeId": "A055",
     "value": "EvLn078",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn078 }"
+    "lookupValue": "evidence: { EvLn078 }"
   },
   {
     "subjectId": "CritAssess334",
@@ -12715,9 +12715,9 @@
     "attributeId": "A055",
     "value": "EvLn079",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn079 }"
+    "lookupValue": "evidence: { EvLn079 }"
   },
   {
     "subjectId": "CritAssess335",
@@ -12769,9 +12769,9 @@
     "attributeId": "A055",
     "value": "EvLn080",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn080 }"
+    "lookupValue": "evidence: { EvLn080 }"
   },
   {
     "subjectId": "CritAssess336",
@@ -12823,9 +12823,9 @@
     "attributeId": "A055",
     "value": "EvLn104",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn104 }"
+    "lookupValue": "evidence: { EvLn104 }"
   },
   {
     "subjectId": "CritAssess337",
@@ -12877,9 +12877,9 @@
     "attributeId": "A055",
     "value": "EvLn081",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn081 }"
+    "lookupValue": "evidence: { EvLn081 }"
   },
   {
     "subjectId": "CritAssess338",
@@ -12931,9 +12931,9 @@
     "attributeId": "A055",
     "value": "EvLn082",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn082 }"
+    "lookupValue": "evidence: { EvLn082 }"
   },
   {
     "subjectId": "CritAssess339",
@@ -12985,9 +12985,9 @@
     "attributeId": "A055",
     "value": "EvLn083",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn083 }"
+    "lookupValue": "evidence: { EvLn083 }"
   },
   {
     "subjectId": "CritAssess340",
@@ -13039,9 +13039,9 @@
     "attributeId": "A055",
     "value": "EvLn084",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn084 }"
+    "lookupValue": "evidence: { EvLn084 }"
   },
   {
     "subjectId": "CritAssess341",
@@ -13093,18 +13093,18 @@
     "attributeId": "A055",
     "value": "EvLn085",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn085 }"
+    "lookupValue": "evidence: { EvLn085 }"
   },
   {
     "subjectId": "CritAssess342",
     "attributeId": "A055",
     "value": "EvLn086",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn086 }"
+    "lookupValue": "evidence: { EvLn086 }"
   },
   {
     "subjectId": "CritAssess342",
@@ -13156,9 +13156,9 @@
     "attributeId": "A055",
     "value": "EvLn087",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn087 }"
+    "lookupValue": "evidence: { EvLn087 }"
   },
   {
     "subjectId": "CritAssess343",
@@ -13210,9 +13210,9 @@
     "attributeId": "A055",
     "value": "EvLn088",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn088 }"
+    "lookupValue": "evidence: { EvLn088 }"
   },
   {
     "subjectId": "CritAssess344",
@@ -13255,9 +13255,9 @@
     "attributeId": "A055",
     "value": "EvLn089",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn089 }"
+    "lookupValue": "evidence: { EvLn089 }"
   },
   {
     "subjectId": "CritAssess345",
@@ -13300,9 +13300,9 @@
     "attributeId": "A055",
     "value": "EvLn090",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn090 }"
+    "lookupValue": "evidence: { EvLn090 }"
   },
   {
     "subjectId": "CritAssess346",
@@ -13345,9 +13345,9 @@
     "attributeId": "A055",
     "value": "EvLn091",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn091 }"
+    "lookupValue": "evidence: { EvLn091 }"
   },
   {
     "subjectId": "CritAssess347",
@@ -13390,9 +13390,9 @@
     "attributeId": "A055",
     "value": "EvLn092",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn092 }"
+    "lookupValue": "evidence: { EvLn092 }"
   },
   {
     "subjectId": "CritAssess348",
@@ -13435,9 +13435,9 @@
     "attributeId": "A055",
     "value": "EvLn105",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn105 }"
+    "lookupValue": "evidence: { EvLn105 }"
   },
   {
     "subjectId": "CritAssess350",
@@ -13489,9 +13489,9 @@
     "attributeId": "A055",
     "value": "EvLn093",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn093 }"
+    "lookupValue": "evidence: { EvLn093 }"
   },
   {
     "subjectId": "CritAssess351",
@@ -13543,9 +13543,9 @@
     "attributeId": "A055",
     "value": "EvLn094",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn094 }"
+    "lookupValue": "evidence: { EvLn094 }"
   },
   {
     "subjectId": "CritAssess352",
@@ -13597,9 +13597,9 @@
     "attributeId": "A055",
     "value": "EvLn095",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn095 }"
+    "lookupValue": "evidence: { EvLn095 }"
   },
   {
     "subjectId": "CritAssess353",
@@ -13651,9 +13651,9 @@
     "attributeId": "A055",
     "value": "EvLn096",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn096 }"
+    "lookupValue": "evidence: { EvLn096 }"
   },
   {
     "subjectId": "CritAssess354",
@@ -13705,9 +13705,9 @@
     "attributeId": "A055",
     "value": "EvLn097",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn097 }"
+    "lookupValue": "evidence: { EvLn097 }"
   },
   {
     "subjectId": "CritAssess355",
@@ -13759,9 +13759,9 @@
     "attributeId": "A055",
     "value": "EvLn098",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn098 }"
+    "lookupValue": "evidence: { EvLn098 }"
   },
   {
     "subjectId": "CritAssess356",
@@ -13813,9 +13813,9 @@
     "attributeId": "A055",
     "value": "EvLn099",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn099 }"
+    "lookupValue": "evidence: { EvLn099 }"
   },
   {
     "subjectId": "CritAssess357",
@@ -13858,9 +13858,9 @@
     "attributeId": "A055",
     "value": "EvLn100",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn100 }"
+    "lookupValue": "evidence: { EvLn100 }"
   },
   {
     "subjectId": "CritAssess358",
@@ -13903,9 +13903,9 @@
     "attributeId": "A055",
     "value": "EvLn101",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn101 }"
+    "lookupValue": "evidence: { EvLn101 }"
   },
   {
     "subjectId": "CritAssess359",
@@ -13948,9 +13948,9 @@
     "attributeId": "A055",
     "value": "EvLn102",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn102 }"
+    "lookupValue": "evidence: { EvLn102 }"
   },
   {
     "subjectId": "CritAssess360",
@@ -14002,9 +14002,9 @@
     "attributeId": "A055",
     "value": "EvLn103",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn103 }"
+    "lookupValue": "evidence: { EvLn103 }"
   },
   {
     "subjectId": "CritAssess361",
@@ -14092,9 +14092,9 @@
     "attributeId": "A055",
     "value": "EvLn106",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn106 }"
+    "lookupValue": "evidence: { EvLn106 }"
   },
   {
     "subjectId": "CritAssess363",
@@ -14290,9 +14290,9 @@
     "attributeId": "A055",
     "value": "EvLn107",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn107 }"
+    "lookupValue": "evidence: { EvLn107 }"
   },
   {
     "subjectId": "CritAssess369",
@@ -14309,7 +14309,7 @@
     "value": "ExAC",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
-    "attributeType": "String",
+    "attributeType": "CodeableConcept",
     "lookupValue": "ascertainment: \"ExAC\""
   },
   {
@@ -14398,9 +14398,9 @@
     "attributeId": "A055",
     "value": "EvLn108",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn108 }"
+    "lookupValue": "evidence: { EvLn108 }"
   },
   {
     "subjectId": "CritAssess371",
@@ -14452,9 +14452,9 @@
     "attributeId": "A055",
     "value": "EvLn109",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn109 }"
+    "lookupValue": "evidence: { EvLn109 }"
   },
   {
     "subjectId": "CritAssess372",
@@ -14497,9 +14497,9 @@
     "attributeId": "A055",
     "value": "EvLn117",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn117 }"
+    "lookupValue": "evidence: { EvLn117 }"
   },
   {
     "subjectId": "CritAssess373",
@@ -14542,9 +14542,9 @@
     "attributeId": "A055",
     "value": "EvLn116",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn116 }"
+    "lookupValue": "evidence: { EvLn116 }"
   },
   {
     "subjectId": "CritAssess374",
@@ -14596,9 +14596,9 @@
     "attributeId": "A055",
     "value": "EvLn123",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn123 }"
+    "lookupValue": "evidence: { EvLn123 }"
   },
   {
     "subjectId": "CritAssess375",
@@ -14641,9 +14641,9 @@
     "attributeId": "A055",
     "value": "EvLn126",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn126 }"
+    "lookupValue": "evidence: { EvLn126 }"
   },
   {
     "subjectId": "CritAssess376",
@@ -14694,9 +14694,9 @@
     "subjectId": "CritAssess377",
     "attributeId": "A055",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: \"\""
+    "lookupValue": "evidence: \"\""
   },
   {
     "subjectId": "CritAssess377",
@@ -14748,9 +14748,9 @@
     "attributeId": "A055",
     "value": "EvLn130",
     "evidenceDataName": "CriterionAssessment",
-    "attributeName": "hasEvidence",
+    "attributeName": "evidence",
     "attributeType": "EvidenceLine",
-    "lookupValue": "hasEvidence: { EvLn130 }"
+    "lookupValue": "evidence: { EvLn130 }"
   },
   {
     "subjectId": "CritAssess378",
