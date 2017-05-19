@@ -230,7 +230,7 @@
     "value": "CG-allelic-state:somatic"
   },
   {
-    "subjectId": "VS006",
+    "subjectId": "VS007",
     "attributeId": "A121",
     "value": "HP:0001423"
   },
@@ -483,6 +483,16 @@
     "subjectId": "VS013",
     "attributeId": "A121",
     "value": "CG-population-type:overall"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "ESP-population-type:EA"
+  },
+  {
+    "subjectId": "VS013",
+    "attributeId": "A121",
+    "value": "ESP-population-type:AA"
   },
   {
     "subjectId": "VS013",
@@ -1006,18 +1016,27 @@
   },
   {
     "subjectId": "VS023",
-    "attributeId": "A121"
+    "attributeId": "A121",
+    "value": "CG-ascertainment-type:1KG"
   },
   {
     "subjectId": "VS023",
-    "attributeId": "A121"
+    "attributeId": "A121",
+    "value": "CG-ascertainment-type:ExAC"
   },
   {
     "subjectId": "VS023",
-    "attributeId": "A121"
+    "attributeId": "A121",
+    "value": "CG-ascertainment-type:ESP"
   },
   {
     "subjectId": "VS023",
-    "attributeId": "A121"
+    "attributeId": "A121",
+    "value": "CG-ascertainment-type:1KG_ESP"
+  },
+  {
+    "subjectId": "VS023",
+    "attributeId": "A121",
+    "value": "CG-ascertainment-type:gnomAD"
   }
 ]

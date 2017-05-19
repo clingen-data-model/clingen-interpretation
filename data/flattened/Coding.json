@@ -148,6 +148,41 @@
     "definition": "A DNA marker is present at some level of somatic mosaicism.",
     "code system name": "allelic-state"
   },
+  "CG-ascertainment-type:ESP": {
+    "id": "CG-ascertainment-type:ESP",
+    "code": "ESP",
+    "display": "ESP",
+    "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
+    "code system name": "ascertainment-type"
+  },
+  "CG-ascertainment-type:ExAC": {
+    "id": "CG-ascertainment-type:ExAC",
+    "code": "ExAC",
+    "display": "ExAC",
+    "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
+    "code system name": "ascertainment-type"
+  },
+  "CG-ascertainment-type:1KG_ESP": {
+    "id": "CG-ascertainment-type:1KG_ESP",
+    "code": "1KG_ESP",
+    "display": "1KG_ESP",
+    "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
+    "code system name": "ascertainment-type"
+  },
+  "CG-ascertainment-type:1KG": {
+    "id": "CG-ascertainment-type:1KG",
+    "code": "1KG",
+    "display": "1KG",
+    "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
+    "code system name": "ascertainment-type"
+  },
+  "CG-ascertainment-type:gnomAD": {
+    "id": "CG-ascertainment-type:gnomAD",
+    "code": "gnomAD",
+    "display": "gnomAD",
+    "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
+    "code system name": "ascertainment-type"
+  },
   "CG-ben-missense-var-rate:high": {
     "id": "CG-ben-missense-var-rate:high",
     "code": "high",
@@ -488,6 +523,20 @@
     "display": "genetic disease",
     "system": "http://disease-ontology.org/",
     "code system name": "Disease Ontology"
+  },
+  "ESP-population-type:EA": {
+    "id": "ESP-population-type:EA",
+    "code": "EA",
+    "display": "European-American",
+    "system": "http://evs.gs.washington.edu/EVS/",
+    "code system name": "ESP"
+  },
+  "ESP-population-type:AA": {
+    "id": "ESP-population-type:AA",
+    "code": "AA",
+    "display": "African-American",
+    "system": "http://evs.gs.washington.edu/EVS/",
+    "code system name": "ESP"
   },
   "HP:0000006": {
     "id": "HP:0000006",

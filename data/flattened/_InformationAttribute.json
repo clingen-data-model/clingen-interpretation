@@ -409,6 +409,15 @@
     "lookupValue": "paternityConfirmed: true"
   },
   {
+    "subjectId": "DeNovo014",
+    "attributeId": "A074",
+    "value": "CG-allele-inheritance:denovo",
+    "evidenceDataName": "DeNovoAllele",
+    "attributeName": "alleleInheritance",
+    "attributeType": "Coding",
+    "lookupValue": "alleleInheritance: { code: \"denovo\", display: \"de novo\", system: \"http://clinicalgenome.org/datamodel/allele-inheritance/\" }"
+  },
+  {
     "subjectId": "IndCond015",
     "attributeId": "A016",
     "value": "Indiv002",
@@ -499,6 +508,15 @@
     "lookupValue": "paternityConfirmed: true"
   },
   {
+    "subjectId": "DeNovo017",
+    "attributeId": "A074",
+    "value": "CG-allele-inheritance:denovo",
+    "evidenceDataName": "DeNovoAllele",
+    "attributeName": "alleleInheritance",
+    "attributeType": "Coding",
+    "lookupValue": "alleleInheritance: { code: \"denovo\", display: \"de novo\", system: \"http://clinicalgenome.org/datamodel/allele-inheritance/\" }"
+  },
+  {
     "subjectId": "IndCond018",
     "attributeId": "A016",
     "value": "Indiv003",
@@ -587,6 +605,15 @@
     "attributeName": "paternityConfirmed",
     "attributeType": "boolean",
     "lookupValue": "paternityConfirmed: true"
+  },
+  {
+    "subjectId": "DeNovo020",
+    "attributeId": "A074",
+    "value": "CG-allele-inheritance:denovo",
+    "evidenceDataName": "DeNovoAllele",
+    "attributeName": "alleleInheritance",
+    "attributeType": "Coding",
+    "lookupValue": "alleleInheritance: { code: \"denovo\", display: \"de novo\", system: \"http://clinicalgenome.org/datamodel/allele-inheritance/\" }"
   },
   {
     "subjectId": "Func021",
@@ -861,11 +888,11 @@
   {
     "subjectId": "AllFreq028",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC009",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq028",
@@ -897,11 +924,11 @@
   {
     "subjectId": "AllFreq029",
     "attributeId": "A030",
-    "value": "Across all published data (and LMM data) with hearing loss.",
+    "value": "CC010",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"Across all published data (and LMM data) with hearing loss.\""
+    "lookupValue": "ascertainment: { text: \"Across all published data (and LMM data) with hearing loss.\" }"
   },
   {
     "subjectId": "AllFreq029",
@@ -1005,11 +1032,11 @@
   {
     "subjectId": "AllFreq031",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC011",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq031",
@@ -1086,11 +1113,11 @@
   {
     "subjectId": "AllFreq034",
     "attributeId": "A030",
-    "value": "Case group is composed of cases from six cohorts from the GENIUS T2D consortium.  Case status is defined per-cohort.",
+    "value": "CC012",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"Case group is composed of cases from six cohorts from the GENIUS T2D consortium.  Case status is defined per-cohort.\""
+    "lookupValue": "ascertainment: { text: \"Case group is composed of cases from six cohorts from the GENIUS T2D consortium.  Case status is defined per-cohort.\" }"
   },
   {
     "subjectId": "AllFreq034",
@@ -1158,11 +1185,11 @@
   {
     "subjectId": "AllFreq035",
     "attributeId": "A030",
-    "value": "Controls group is composed of controls from six cohorts from the GENIUS T2D consortium.  Controls status is defined per-cohort.",
+    "value": "CC013",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"Controls group is composed of controls from six cohorts from the GENIUS T2D consortium.  Controls status is defined per-cohort.\""
+    "lookupValue": "ascertainment: { text: \"Controls group is composed of controls from six cohorts from the GENIUS T2D consortium.  Controls status is defined per-cohort.\" }"
   },
   {
     "subjectId": "AllFreq035",
@@ -1311,11 +1338,11 @@
   {
     "subjectId": "AllFreq037",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC014",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq037",
@@ -1365,11 +1392,11 @@
   {
     "subjectId": "AllFreq038",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC027",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq038",
@@ -1842,11 +1869,11 @@
   {
     "subjectId": "AllFreq051",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC028",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq051",
@@ -1905,11 +1932,11 @@
   {
     "subjectId": "AllFreq052",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC029",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq052",
@@ -1968,11 +1995,11 @@
   {
     "subjectId": "AllFreq053",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC030",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq053",
@@ -2040,11 +2067,11 @@
   {
     "subjectId": "AllFreq054",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC031",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq054",
@@ -3057,11 +3084,11 @@
   {
     "subjectId": "AllFreq082",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC032",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq082",
@@ -3270,6 +3297,15 @@
     "lookupValue": "paternityConfirmed: false"
   },
   {
+    "subjectId": "DeNovo087",
+    "attributeId": "A074",
+    "value": "CG-allele-inheritance:denovo",
+    "evidenceDataName": "DeNovoAllele",
+    "attributeName": "alleleInheritance",
+    "attributeType": "Coding",
+    "lookupValue": "alleleInheritance: { code: \"denovo\", display: \"de novo\", system: \"http://clinicalgenome.org/datamodel/allele-inheritance/\" }"
+  },
+  {
     "subjectId": "DeNovo088",
     "attributeId": "A022",
     "value": "CanAll059",
@@ -3304,6 +3340,15 @@
     "attributeName": "paternityConfirmed",
     "attributeType": "boolean",
     "lookupValue": "paternityConfirmed: false"
+  },
+  {
+    "subjectId": "DeNovo088",
+    "attributeId": "A074",
+    "value": "CG-allele-inheritance:denovo",
+    "evidenceDataName": "DeNovoAllele",
+    "attributeName": "alleleInheritance",
+    "attributeType": "Coding",
+    "lookupValue": "alleleInheritance: { code: \"denovo\", display: \"de novo\", system: \"http://clinicalgenome.org/datamodel/allele-inheritance/\" }"
   },
   {
     "subjectId": "IndCond089",
@@ -3396,6 +3441,15 @@
     "lookupValue": "paternityConfirmed: false"
   },
   {
+    "subjectId": "DeNovo091",
+    "attributeId": "A074",
+    "value": "CG-allele-inheritance:denovo",
+    "evidenceDataName": "DeNovoAllele",
+    "attributeName": "alleleInheritance",
+    "attributeType": "Coding",
+    "lookupValue": "alleleInheritance: { code: \"denovo\", display: \"de novo\", system: \"http://clinicalgenome.org/datamodel/allele-inheritance/\" }"
+  },
+  {
     "subjectId": "IndCond092",
     "attributeId": "A016",
     "value": "Indiv010",
@@ -3484,6 +3538,15 @@
     "attributeName": "paternityConfirmed",
     "attributeType": "boolean",
     "lookupValue": "paternityConfirmed: false"
+  },
+  {
+    "subjectId": "DeNovo094",
+    "attributeId": "A074",
+    "value": "CG-allele-inheritance:denovo",
+    "evidenceDataName": "DeNovoAllele",
+    "attributeName": "alleleInheritance",
+    "attributeType": "Coding",
+    "lookupValue": "alleleInheritance: { code: \"denovo\", display: \"de novo\", system: \"http://clinicalgenome.org/datamodel/allele-inheritance/\" }"
   },
   {
     "subjectId": "IndCond095",
@@ -3576,6 +3639,15 @@
     "lookupValue": "paternityConfirmed: false"
   },
   {
+    "subjectId": "DeNovo097",
+    "attributeId": "A074",
+    "value": "CG-allele-inheritance:denovo",
+    "evidenceDataName": "DeNovoAllele",
+    "attributeName": "alleleInheritance",
+    "attributeType": "Coding",
+    "lookupValue": "alleleInheritance: { code: \"denovo\", display: \"de novo\", system: \"http://clinicalgenome.org/datamodel/allele-inheritance/\" }"
+  },
+  {
     "subjectId": "IndCond098",
     "attributeId": "A016",
     "value": "Indiv012",
@@ -3666,13 +3738,22 @@
     "lookupValue": "paternityConfirmed: false"
   },
   {
+    "subjectId": "DeNovo100",
+    "attributeId": "A074",
+    "value": "CG-allele-inheritance:denovo",
+    "evidenceDataName": "DeNovoAllele",
+    "attributeName": "alleleInheritance",
+    "attributeType": "Coding",
+    "lookupValue": "alleleInheritance: { code: \"denovo\", display: \"de novo\", system: \"http://clinicalgenome.org/datamodel/allele-inheritance/\" }"
+  },
+  {
     "subjectId": "AllFreq101",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC033",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq101",
@@ -3916,6 +3997,15 @@
     "attributeName": "paternityConfirmed",
     "attributeType": "boolean",
     "lookupValue": "paternityConfirmed: false"
+  },
+  {
+    "subjectId": "DeNovo106",
+    "attributeId": "A074",
+    "value": "CG-allele-inheritance:denovo",
+    "evidenceDataName": "DeNovoAllele",
+    "attributeName": "alleleInheritance",
+    "attributeType": "Coding",
+    "lookupValue": "alleleInheritance: { code: \"denovo\", display: \"de novo\", system: \"http://clinicalgenome.org/datamodel/allele-inheritance/\" }"
   },
   {
     "subjectId": "FamSegData107",
@@ -5792,11 +5882,11 @@
   {
     "subjectId": "AllFreq153",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC034",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq153",
@@ -5855,11 +5945,11 @@
   {
     "subjectId": "AllFreq154",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC035",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq154",
@@ -5918,11 +6008,11 @@
   {
     "subjectId": "AllFreq155",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC036",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq155",
@@ -6026,11 +6116,11 @@
   {
     "subjectId": "AllFreq157",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC037",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq157",
@@ -6089,11 +6179,11 @@
   {
     "subjectId": "AllFreq158",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC042",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq158",
@@ -6224,11 +6314,11 @@
   {
     "subjectId": "AllFreq162",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC043",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq162",
@@ -6377,11 +6467,11 @@
   {
     "subjectId": "AllFreq166",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC044",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq166",
@@ -14306,11 +14396,11 @@
   {
     "subjectId": "AllFreq370",
     "attributeId": "A030",
-    "value": "ExAC",
+    "value": "CC045",
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: \"ExAC\""
+    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
   },
   {
     "subjectId": "AllFreq370",

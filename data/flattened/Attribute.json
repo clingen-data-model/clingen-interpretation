@@ -1744,9 +1744,9 @@
     "name": "defaultStrength",
     "dataType": "CodeableConcept",
     "cardinality": "0..1",
-    "valueSetId": "VS011",
+    "valueSetId": "VS017",
     "restrictByValueSet": "Yes",
-    "valueSetName": "CriterionEvaluation",
+    "valueSetName": "EvidenceLineStrength",
     "precedence": 4.0,
     "fullyQualifiedName": "Criterion.defaultStrength"
   },

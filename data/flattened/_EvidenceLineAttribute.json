@@ -341,7 +341,7 @@
     "value": "AllFreq051",
     "attributeName": "information",
     "attributeType": "Information",
-    "derivedName": "AllFreq051: { ascertainment: \"ExAC\", population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://broadinstitute.org/populations/\" }] }, allele: { NM_000257.2(MYH7):c.5135G>A }, alleleFrequency: 0.00001499 }"
+    "derivedName": "AllFreq051: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://broadinstitute.org/populations/\" }] }, allele: { NM_000257.2(MYH7):c.5135G>A }, alleleFrequency: 0.00001499 }"
   },
   {
     "subjectId": "EvLn026",
@@ -349,7 +349,7 @@
     "value": "AllFreq052",
     "attributeName": "information",
     "attributeType": "Information",
-    "derivedName": "AllFreq052: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000257.2(MYH7):c.5135G>A }, alleleFrequency: 0.00000824 }"
+    "derivedName": "AllFreq052: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000257.2(MYH7):c.5135G>A }, alleleFrequency: 0.00000824 }"
   },
   {
     "subjectId": "EvLn027",
@@ -357,7 +357,7 @@
     "value": "AllFreq053",
     "attributeName": "information",
     "attributeType": "Information",
-    "derivedName": "AllFreq053: { ascertainment: \"ExAC\", population: { coding: [{ code: \"fin\", display: \"Finnish\", system: \"http://broadinstitute.org/populations/\" }] }, allele: { NM_001128425.1(MUTYH):c.64G>A (p.Val22Met) }, alleleFrequency: 0.07771 }"
+    "derivedName": "AllFreq053: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"fin\", display: \"Finnish\", system: \"http://broadinstitute.org/populations/\" }] }, allele: { NM_001128425.1(MUTYH):c.64G>A (p.Val22Met) }, alleleFrequency: 0.07771 }"
   },
   {
     "subjectId": "EvLn028",
@@ -365,7 +365,7 @@
     "value": "AllFreq054",
     "attributeName": "information",
     "attributeType": "Information",
-    "derivedName": "AllFreq054: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_001399.4(EDA): c.676C>T }, alleleFrequency: 0 }"
+    "derivedName": "AllFreq054: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_001399.4(EDA): c.676C>T }, alleleFrequency: 0 }"
   },
   {
     "subjectId": "EvLn029",
@@ -525,7 +525,7 @@
     "value": "AllFreq082",
     "attributeName": "information",
     "attributeType": "Information",
-    "derivedName": "AllFreq082: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_001369.2(DNAH5):c.7468_7488del }, alleleFrequency: 0 }"
+    "derivedName": "AllFreq082: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_001369.2(DNAH5):c.7468_7488del }, alleleFrequency: 0 }"
   },
   {
     "subjectId": "EvLn041",
@@ -997,7 +997,7 @@
     "value": "AllFreq153",
     "attributeName": "information",
     "attributeType": "Information",
-    "derivedName": "AllFreq153: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000057.2 (BLM):c.2603C>T }, alleleFrequency: 0.05591 }"
+    "derivedName": "AllFreq153: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000057.2 (BLM):c.2603C>T }, alleleFrequency: 0.05591 }"
   },
   {
     "subjectId": "EvLn061",
@@ -1005,7 +1005,7 @@
     "value": "AllFreq154",
     "attributeName": "information",
     "attributeType": "Information",
-    "derivedName": "AllFreq154: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_004004.5(GJB2):c.79G>A }, alleleFrequency: 0.04538 }"
+    "derivedName": "AllFreq154: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_004004.5(GJB2):c.79G>A }, alleleFrequency: 0.04538 }"
   },
   {
     "subjectId": "EvLn062",
@@ -1013,7 +1013,7 @@
     "value": "AllFreq155",
     "attributeName": "information",
     "attributeType": "Information",
-    "derivedName": "AllFreq155: { ascertainment: \"ExAC\", population: { coding: [{ code: \"eas\", display: \"East Asian\", system: \"http://broadinstitute.org/populations/\" }] }, allele: { NM_004004.5(GJB2):c.79G>A }, alleleFrequency: 0.2917 }"
+    "derivedName": "AllFreq155: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"eas\", display: \"East Asian\", system: \"http://broadinstitute.org/populations/\" }] }, allele: { NM_004004.5(GJB2):c.79G>A }, alleleFrequency: 0.2917 }"
   },
   {
     "subjectId": "EvLn063",
@@ -1021,7 +1021,7 @@
     "value": "AllFreq157",
     "attributeName": "information",
     "attributeType": "Information",
-    "derivedName": "AllFreq157: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_023036.4(DNAI2):c.1304G>A }, alleleFrequency: 0.0001158 }"
+    "derivedName": "AllFreq157: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_023036.4(DNAI2):c.1304G>A }, alleleFrequency: 0.0001158 }"
   },
   {
     "subjectId": "EvLn064",
@@ -1029,7 +1029,7 @@
     "value": "AllFreq158",
     "attributeName": "information",
     "attributeType": "Information",
-    "derivedName": "AllFreq158: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000138.4(FBN1):c.8176C>T }, alleleFrequency: 0.0007 }"
+    "derivedName": "AllFreq158: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000138.4(FBN1):c.8176C>T }, alleleFrequency: 0.0007 }"
   },
   {
     "subjectId": "EvLn064",
@@ -1053,7 +1053,7 @@
     "value": "AllFreq162",
     "attributeName": "information",
     "attributeType": "Information",
-    "derivedName": "AllFreq162: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_004541.3(NDUFA1):c.94G>C }, alleleFrequency: 0.00625 }"
+    "derivedName": "AllFreq162: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_004541.3(NDUFA1):c.94G>C }, alleleFrequency: 0.00625 }"
   },
   {
     "subjectId": "EvLn065",
@@ -1077,7 +1077,7 @@
     "value": "AllFreq166",
     "attributeName": "information",
     "attributeType": "Information",
-    "derivedName": "AllFreq166: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000414.3(HSD17B4):c.56C>G }, alleleFrequency: 0.000024 }"
+    "derivedName": "AllFreq166: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000414.3(HSD17B4):c.56C>G }, alleleFrequency: 0.000024 }"
   },
   {
     "subjectId": "EvLn066",
@@ -1973,7 +1973,7 @@
     "value": "AllFreq370",
     "attributeName": "information",
     "attributeType": "Information",
-    "derivedName": "AllFreq370: { ascertainment: \"ExAC\", population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://broadinstitute.org/populations/\" }] }, allele: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, alleleFrequency: 0.000015 }"
+    "derivedName": "AllFreq370: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://broadinstitute.org/populations/\" }] }, allele: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, alleleFrequency: 0.000015 }"
   },
   {
     "subjectId": "EvLn108",
@@ -1981,7 +1981,7 @@
     "value": "AllFreq037",
     "attributeName": "information",
     "attributeType": "Information",
-    "derivedName": "AllFreq037: { ascertainment: \"ExAC\", allele: { NM_000257.2(MYH7):c.327C>T }, alleleFrequency: 0.02, population: { coding: [{ code: \"sas\", display: \"South Asian\", system: \"http://broadinstitute.org/populations/\" }] } }"
+    "derivedName": "AllFreq037: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, allele: { NM_000257.2(MYH7):c.327C>T }, alleleFrequency: 0.02, population: { coding: [{ code: \"sas\", display: \"South Asian\", system: \"http://broadinstitute.org/populations/\" }] } }"
   },
   {
     "subjectId": "EvLn109",
@@ -1989,7 +1989,7 @@
     "value": "AllFreq038",
     "attributeName": "information",
     "attributeType": "Information",
-    "derivedName": "AllFreq038: { ascertainment: \"ExAC\", allele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, alleleFrequency: 0.02, population: { coding: [{ code: \"afr\", display: \"African/African American\", system: \"http://broadinstitute.org/populations/\" }] } }"
+    "derivedName": "AllFreq038: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, allele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, alleleFrequency: 0.02, population: { coding: [{ code: \"afr\", display: \"African/African American\", system: \"http://broadinstitute.org/populations/\" }] } }"
   },
   {
     "subjectId": "EvLn109",
@@ -2373,7 +2373,7 @@
     "value": "AllFreq101",
     "attributeName": "information",
     "attributeType": "Information",
-    "derivedName": "AllFreq101: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, alleleFrequency: 0 }"
+    "derivedName": "AllFreq101: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, alleleFrequency: 0 }"
   },
   {
     "subjectId": "EvLn127",
