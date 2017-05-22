@@ -50,7 +50,7 @@ class DMWGExampleData
       parent = e_rec['parentType']
       while !!parent
         if !@entity2attributes[e_id].any? { |i| i['entityId'] == parent } then
-          @entity2attributes[e_id].concat(@entity2attributes[parent])
+          @entity2attributes[e_id] = @entity2attributes[parent] + @entity2attributes[e_id]
         end
         parent = @flattened['Type'][parent]['parentType']
       end
