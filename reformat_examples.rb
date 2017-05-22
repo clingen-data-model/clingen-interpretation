@@ -26,9 +26,14 @@ class DMWGExampleData
     @entity2attributes
   end
 
+  def types
+    @types
+  end
+
   def initialize(data_dir)
     # an "auto hash" to hold all of the examples
     @id2example = {}
+    @types = {}
 
     # slurp in all the json files in the `data_dir`
     @flattened = Hash[Dir["#{data_dir}/*.json"].collect { |jsonfile|
@@ -46,6 +51,7 @@ class DMWGExampleData
 
     # Process the `Type` sheet
     @flattened['Type'].each do |e_id, e_rec|
+      @types[e_id] = e_rec.select { |k, v| ['id', 'name', 'parentType', 'link', 'externalIRI', 'description'].include? k }
       e_name = e_rec['name']
       parent = e_rec['parentType']
       while !!parent
@@ -54,6 +60,7 @@ class DMWGExampleData
         end
         parent = @flattened['Type'][parent]['parentType']
       end
+      @types[e_id]['attributes'] = @entity2attributes[e_id]
       if @flattened.key? e_name then
         # full fledged table for this entity (not a Information subtype)
         @flattened[e_name].each do |id, rec|
