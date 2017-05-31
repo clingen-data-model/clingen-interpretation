@@ -38,14 +38,15 @@ def add_to_context(cx, spec)
   class_name_idx = class_headers.find_index { |i| i == "name" }
   classes.reduce(cx) do |acc, i|
     if i[class_id_idx] && i[class_id_idx].strip.length > 0
-      acc.merge!({"cg:#{i[class_id_idx].strip}" => i[class_name_idx].strip})
+      acc.merge!({i[class_name_idx].strip =>
+                 "cg:#{i[class_id_idx].strip}"})
     else
       cx
     end
   end
 end
 
-cx = add_to_context(cx, CSV_DATA[:classes])
+# cx = add_to_context(cx, CSV_DATA[:classes])
 cx = add_to_context(cx, CSV_DATA[:properties])
 cx = {"@context" => cx}
 File.open("data/context.jsonld", 'wb') { |f| f << JSON.pretty_generate(cx) }
