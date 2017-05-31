@@ -150,12 +150,12 @@
   "AllFreq028": {
     "id": "AllFreq028",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq028: { ascertainment: \"ExAC\", allele: { NM_000441.1(SLC26A4):c.1003T>C } }"
+    "thumbnail": "AllFreq028: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, allele: { NM_000441.1(SLC26A4):c.1003T>C } }"
   },
   "AllFreq029": {
     "id": "AllFreq029",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq029: { ascertainment: \"Across all published data (and LMM data) with hearing loss.\", allele: { NM_000441.1(SLC26A4):c.1003T>C } }"
+    "thumbnail": "AllFreq029: { ascertainment: { text: \"Across all published data (and LMM data) with hearing loss.\" }, allele: { NM_000441.1(SLC26A4):c.1003T>C } }"
   },
   "CaseCtrl030": {
     "id": "CaseCtrl030",
@@ -166,7 +166,7 @@
   "AllFreq031": {
     "id": "AllFreq031",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq031: { ascertainment: \"ExAC\", allele: { NM_000540.2 (RYR1):c.1840C>T } }"
+    "thumbnail": "AllFreq031: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, allele: { NM_000540.2 (RYR1):c.1840C>T } }"
   },
   "AllFreq032": {
     "id": "AllFreq032",
@@ -183,12 +183,12 @@
   "AllFreq034": {
     "id": "AllFreq034",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq034: { ascertainment: \"Case group is composed of cases from six cohorts from the GENIUS T2D consortium.  Case status is defined per-cohort.\", allele: { NM_006208.2(ENPP1):c.517A>C }, population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://broadinstitute.org/populations/\" }] } }"
+    "thumbnail": "AllFreq034: { ascertainment: { text: \"Case group is composed of cases from six cohorts from the GENIUS T2D consortium.  Case status is defined per-cohort.\" }, allele: { NM_006208.2(ENPP1):c.517A>C }, population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://broadinstitute.org/populations/\" }] } }"
   },
   "AllFreq035": {
     "id": "AllFreq035",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq035: { ascertainment: \"Controls group is composed of controls from six cohorts from the GENIUS T2D consortium.  Controls status is defined per-cohort.\", allele: { NM_006208.2(ENPP1):c.517A>C }, population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://broadinstitute.org/populations/\" }] } }"
+    "thumbnail": "AllFreq035: { ascertainment: { text: \"Controls group is composed of controls from six cohorts from the GENIUS T2D consortium.  Controls status is defined per-cohort.\" }, allele: { NM_006208.2(ENPP1):c.517A>C }, population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://broadinstitute.org/populations/\" }] } }"
   },
   "CaseCtrl036": {
     "id": "CaseCtrl036",
@@ -199,12 +199,12 @@
   "AllFreq037": {
     "id": "AllFreq037",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq037: { ascertainment: \"ExAC\", allele: { NM_000257.2(MYH7):c.327C>T }, alleleFrequency: 0.02, population: { coding: [{ code: \"sas\", display: \"South Asian\", system: \"http://broadinstitute.org/populations/\" }] } }"
+    "thumbnail": "AllFreq037: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, allele: { NM_000257.2(MYH7):c.327C>T }, alleleFrequency: 0.02, population: { coding: [{ code: \"sas\", display: \"South Asian\", system: \"http://broadinstitute.org/populations/\" }] } }"
   },
   "AllFreq038": {
     "id": "AllFreq038",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq038: { ascertainment: \"ExAC\", allele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, alleleFrequency: 0.02, population: { coding: [{ code: \"afr\", display: \"African/African American\", system: \"http://broadinstitute.org/populations/\" }] } }"
+    "thumbnail": "AllFreq038: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, allele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, alleleFrequency: 0.02, population: { coding: [{ code: \"afr\", display: \"African/African American\", system: \"http://broadinstitute.org/populations/\" }] } }"
   },
   "CondPrev039": {
     "id": "CondPrev039",
@@ -276,22 +276,22 @@
   "AllFreq051": {
     "id": "AllFreq051",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq051: { ascertainment: \"ExAC\", population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://broadinstitute.org/populations/\" }] }, allele: { NM_000257.2(MYH7):c.5135G>A }, alleleFrequency: 0.00001499 }"
+    "thumbnail": "AllFreq051: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://broadinstitute.org/populations/\" }] }, allele: { NM_000257.2(MYH7):c.5135G>A }, alleleFrequency: 0.00001499 }"
   },
   "AllFreq052": {
     "id": "AllFreq052",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq052: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000257.2(MYH7):c.5135G>A }, alleleFrequency: 0.00000824 }"
+    "thumbnail": "AllFreq052: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000257.2(MYH7):c.5135G>A }, alleleFrequency: 0.00000824 }"
   },
   "AllFreq053": {
     "id": "AllFreq053",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq053: { ascertainment: \"ExAC\", population: { coding: [{ code: \"fin\", display: \"Finnish\", system: \"http://broadinstitute.org/populations/\" }] }, allele: { NM_001128425.1(MUTYH):c.64G>A (p.Val22Met) }, alleleFrequency: 0.07771 }"
+    "thumbnail": "AllFreq053: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"fin\", display: \"Finnish\", system: \"http://broadinstitute.org/populations/\" }] }, allele: { NM_001128425.1(MUTYH):c.64G>A (p.Val22Met) }, alleleFrequency: 0.07771 }"
   },
   "AllFreq054": {
     "id": "AllFreq054",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq054: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_001399.4(EDA): c.676C>T }, alleleFrequency: 0 }"
+    "thumbnail": "AllFreq054: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_001399.4(EDA): c.676C>T }, alleleFrequency: 0 }"
   },
   "VarInterp055": {
     "id": "VarInterp055",
@@ -441,7 +441,7 @@
   "AllFreq082": {
     "id": "AllFreq082",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq082: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_001369.2(DNAH5):c.7468_7488del }, alleleFrequency: 0 }"
+    "thumbnail": "AllFreq082: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_001369.2(DNAH5):c.7468_7488del }, alleleFrequency: 0 }"
   },
   "IndCond083": {
     "id": "IndCond083",
@@ -539,7 +539,7 @@
   "AllFreq101": {
     "id": "AllFreq101",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq101: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, alleleFrequency: 0 }"
+    "thumbnail": "AllFreq101: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, alleleFrequency: 0 }"
   },
   "BMVR102": {
     "id": "BMVR102",
@@ -806,17 +806,17 @@
   "AllFreq153": {
     "id": "AllFreq153",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq153: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000057.2 (BLM):c.2603C>T }, alleleFrequency: 0.05591 }"
+    "thumbnail": "AllFreq153: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000057.2 (BLM):c.2603C>T }, alleleFrequency: 0.05591 }"
   },
   "AllFreq154": {
     "id": "AllFreq154",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq154: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_004004.5(GJB2):c.79G>A }, alleleFrequency: 0.04538 }"
+    "thumbnail": "AllFreq154: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_004004.5(GJB2):c.79G>A }, alleleFrequency: 0.04538 }"
   },
   "AllFreq155": {
     "id": "AllFreq155",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq155: { ascertainment: \"ExAC\", population: { coding: [{ code: \"eas\", display: \"East Asian\", system: \"http://broadinstitute.org/populations/\" }] }, allele: { NM_004004.5(GJB2):c.79G>A }, alleleFrequency: 0.2917 }"
+    "thumbnail": "AllFreq155: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"eas\", display: \"East Asian\", system: \"http://broadinstitute.org/populations/\" }] }, allele: { NM_004004.5(GJB2):c.79G>A }, alleleFrequency: 0.2917 }"
   },
   "CritAssess156": {
     "id": "CritAssess156",
@@ -827,12 +827,12 @@
   "AllFreq157": {
     "id": "AllFreq157",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq157: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_023036.4(DNAI2):c.1304G>A }, alleleFrequency: 0.0001158 }"
+    "thumbnail": "AllFreq157: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_023036.4(DNAI2):c.1304G>A }, alleleFrequency: 0.0001158 }"
   },
   "AllFreq158": {
     "id": "AllFreq158",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq158: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000138.4(FBN1):c.8176C>T }, alleleFrequency: 0.0007 }"
+    "thumbnail": "AllFreq158: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000138.4(FBN1):c.8176C>T }, alleleFrequency: 0.0007 }"
   },
   "CondPrev159": {
     "id": "CondPrev159",
@@ -853,7 +853,7 @@
   "AllFreq162": {
     "id": "AllFreq162",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq162: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_004541.3(NDUFA1):c.94G>C }, alleleFrequency: 0.00625 }"
+    "thumbnail": "AllFreq162: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_004541.3(NDUFA1):c.94G>C }, alleleFrequency: 0.00625 }"
   },
   "CondPrev163": {
     "id": "CondPrev163",
@@ -874,7 +874,7 @@
   "AllFreq166": {
     "id": "AllFreq166",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq166: { ascertainment: \"ExAC\", population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000414.3(HSD17B4):c.56C>G }, alleleFrequency: 0.000024 }"
+    "thumbnail": "AllFreq166: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"combined\", display: \"Combined\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }, allele: { NM_000414.3(HSD17B4):c.56C>G }, alleleFrequency: 0.000024 }"
   },
   "CondPrev167": {
     "id": "CondPrev167",
@@ -1896,7 +1896,7 @@
   "AllFreq370": {
     "id": "AllFreq370",
     "entityTypeId": "E23",
-    "thumbnail": "AllFreq370: { ascertainment: \"ExAC\", population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://broadinstitute.org/populations/\" }] }, allele: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, alleleFrequency: 0.000015 }"
+    "thumbnail": "AllFreq370: { ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }, population: { coding: [{ code: \"nfe\", display: \"Non-Finnish European\", system: \"http://broadinstitute.org/populations/\" }] }, allele: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, alleleFrequency: 0.000015 }"
   },
   "CritAssess371": {
     "id": "CritAssess371",

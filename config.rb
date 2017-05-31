@@ -56,6 +56,8 @@ $dmwg_examples.by_id.each do |k,v|
   proxy "/json/#{k}", "/templates/entity.json", :locals => { :object => v },
     :ignore => true, :layout => false, :directory_indexes => true
 end
+proxy "/json/Types", "/templates/entity.json", :locals => { :object => $dmwg_examples.types },
+  :ignore => true, :layout => false, :directory_indexes => true
 ignore "/templates/"
 ignore "/json/" # not sure why this has to be here, but may work around a middleman bug...
 

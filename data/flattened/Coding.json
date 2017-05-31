@@ -148,6 +148,41 @@
     "definition": "A DNA marker is present at some level of somatic mosaicism.",
     "code system name": "allelic-state"
   },
+  "CG-ascertainment-type:ESP": {
+    "id": "CG-ascertainment-type:ESP",
+    "code": "ESP",
+    "display": "ESP",
+    "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
+    "code system name": "ascertainment-type"
+  },
+  "CG-ascertainment-type:ExAC": {
+    "id": "CG-ascertainment-type:ExAC",
+    "code": "ExAC",
+    "display": "ExAC",
+    "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
+    "code system name": "ascertainment-type"
+  },
+  "CG-ascertainment-type:1KG_ESP": {
+    "id": "CG-ascertainment-type:1KG_ESP",
+    "code": "1KG_ESP",
+    "display": "1KG_ESP",
+    "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
+    "code system name": "ascertainment-type"
+  },
+  "CG-ascertainment-type:1KG": {
+    "id": "CG-ascertainment-type:1KG",
+    "code": "1KG",
+    "display": "1KG",
+    "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
+    "code system name": "ascertainment-type"
+  },
+  "CG-ascertainment-type:gnomAD": {
+    "id": "CG-ascertainment-type:gnomAD",
+    "code": "gnomAD",
+    "display": "gnomAD",
+    "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
+    "code system name": "ascertainment-type"
+  },
   "CG-ben-missense-var-rate:high": {
     "id": "CG-ben-missense-var-rate:high",
     "code": "high",
@@ -236,30 +271,6 @@
     "display": "Not Met",
     "system": "http://clinicalgenome.org/datamodel/criterion-assertion-outcome/",
     "code system name": "criterion-outcome"
-  },
-  "CG-data-source:app": {
-    "id": "CG-data-source:app",
-    "code": "app",
-    "display": "application",
-    "system": "http://clinicalgenome.org/datamodel/data-source/",
-    "definition": "public, private, custom, ...",
-    "code system name": "data-source"
-  },
-  "CG-data-source:db": {
-    "id": "CG-data-source:db",
-    "code": "db",
-    "display": "database",
-    "system": "http://clinicalgenome.org/datamodel/data-source/",
-    "definition": "clinvar, EXEC, private, internal, commercial, ...",
-    "code system name": "data-source"
-  },
-  "CG-data-source:lit": {
-    "id": "CG-data-source:lit",
-    "code": "lit",
-    "display": "literature",
-    "system": "http://clinicalgenome.org/datamodel/data-source/",
-    "definition": "PMID, journals, urls, ...",
-    "code system name": "data-source"
   },
   "CG-evidence-strength:ba": {
     "id": "CG-evidence-strength:ba",
@@ -513,6 +524,20 @@
     "system": "http://disease-ontology.org/",
     "code system name": "Disease Ontology"
   },
+  "ESP-population-type:EA": {
+    "id": "ESP-population-type:EA",
+    "code": "EA",
+    "display": "European-American",
+    "system": "http://evs.gs.washington.edu/EVS/",
+    "code system name": "ESP"
+  },
+  "ESP-population-type:AA": {
+    "id": "ESP-population-type:AA",
+    "code": "AA",
+    "display": "African-American",
+    "system": "http://evs.gs.washington.edu/EVS/",
+    "code system name": "ESP"
+  },
   "HP:0000006": {
     "id": "HP:0000006",
     "code": "0000006",
@@ -674,218 +699,218 @@
     "system": "http://human-phenotype-ontology.github.io/",
     "code system name": "HumanPhenotypeOntology"
   },
-  "IGSR-popluation-type:acb": {
-    "id": "IGSR-popluation-type:acb",
+  "IGSR-population-type:acb": {
+    "id": "IGSR-population-type:acb",
     "code": "acb",
     "display": "African Caribbeans in Barbados",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:afr": {
-    "id": "IGSR-popluation-type:afr",
+  "IGSR-population-type:afr": {
+    "id": "IGSR-population-type:afr",
     "code": "afr",
     "display": "African",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:amr": {
-    "id": "IGSR-popluation-type:amr",
+  "IGSR-population-type:amr": {
+    "id": "IGSR-population-type:amr",
     "code": "amr",
     "display": "Ad Mixed American",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:asw": {
-    "id": "IGSR-popluation-type:asw",
+  "IGSR-population-type:asw": {
+    "id": "IGSR-population-type:asw",
     "code": "asw",
     "display": "Americans of African Ancestry in SW USA",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:beb": {
-    "id": "IGSR-popluation-type:beb",
+  "IGSR-population-type:beb": {
+    "id": "IGSR-population-type:beb",
     "code": "beb",
     "display": "Bengali from Bangladesh",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:cdx": {
-    "id": "IGSR-popluation-type:cdx",
+  "IGSR-population-type:cdx": {
+    "id": "IGSR-population-type:cdx",
     "code": "cdx",
     "display": "Chinese Dai in Xishuangbanna, China",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:ceu": {
-    "id": "IGSR-popluation-type:ceu",
+  "IGSR-population-type:ceu": {
+    "id": "IGSR-population-type:ceu",
     "code": "ceu",
     "display": "Utah Residents (CEPH) with Northern and Western European Ancestry",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:chb": {
-    "id": "IGSR-popluation-type:chb",
+  "IGSR-population-type:chb": {
+    "id": "IGSR-population-type:chb",
     "code": "chb",
     "display": "Han Chinese in Bejing, China",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:chs": {
-    "id": "IGSR-popluation-type:chs",
+  "IGSR-population-type:chs": {
+    "id": "IGSR-population-type:chs",
     "code": "chs",
     "display": "Southern Han Chinese",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:clm": {
-    "id": "IGSR-popluation-type:clm",
+  "IGSR-population-type:clm": {
+    "id": "IGSR-population-type:clm",
     "code": "clm",
     "display": "Colombians from Medellin, Colombia",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:eas": {
-    "id": "IGSR-popluation-type:eas",
+  "IGSR-population-type:eas": {
+    "id": "IGSR-population-type:eas",
     "code": "eas",
     "display": "East Asian",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:esn": {
-    "id": "IGSR-popluation-type:esn",
+  "IGSR-population-type:esn": {
+    "id": "IGSR-population-type:esn",
     "code": "esn",
     "display": "Esan in Nigeria",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:eur": {
-    "id": "IGSR-popluation-type:eur",
+  "IGSR-population-type:eur": {
+    "id": "IGSR-population-type:eur",
     "code": "eur",
     "display": "European",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:fin": {
-    "id": "IGSR-popluation-type:fin",
+  "IGSR-population-type:fin": {
+    "id": "IGSR-population-type:fin",
     "code": "fin",
     "display": "Finnish in Finland",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:gbr": {
-    "id": "IGSR-popluation-type:gbr",
+  "IGSR-population-type:gbr": {
+    "id": "IGSR-population-type:gbr",
     "code": "gbr",
     "display": "British in England and Scotland",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:gih": {
-    "id": "IGSR-popluation-type:gih",
+  "IGSR-population-type:gih": {
+    "id": "IGSR-population-type:gih",
     "code": "gih",
     "display": "Gujarati Indian from Houston, Texas",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:gwd": {
-    "id": "IGSR-popluation-type:gwd",
+  "IGSR-population-type:gwd": {
+    "id": "IGSR-population-type:gwd",
     "code": "gwd",
     "display": "Gambian in Western Divisions in the Gambia",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:ibs": {
-    "id": "IGSR-popluation-type:ibs",
+  "IGSR-population-type:ibs": {
+    "id": "IGSR-population-type:ibs",
     "code": "ibs",
     "display": "Iberian Population in Spain",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:itu": {
-    "id": "IGSR-popluation-type:itu",
+  "IGSR-population-type:itu": {
+    "id": "IGSR-population-type:itu",
     "code": "itu",
     "display": "Indian Telugu from the UK",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:jpt": {
-    "id": "IGSR-popluation-type:jpt",
+  "IGSR-population-type:jpt": {
+    "id": "IGSR-population-type:jpt",
     "code": "jpt",
     "display": "Japanese in Tokyo, Japan",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:khv": {
-    "id": "IGSR-popluation-type:khv",
+  "IGSR-population-type:khv": {
+    "id": "IGSR-population-type:khv",
     "code": "khv",
     "display": "Kinh in Ho Chi Minh City, Vietnam",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:lwk": {
-    "id": "IGSR-popluation-type:lwk",
+  "IGSR-population-type:lwk": {
+    "id": "IGSR-population-type:lwk",
     "code": "lwk",
     "display": "Luhya in Webuye, Kenya",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:msl": {
-    "id": "IGSR-popluation-type:msl",
+  "IGSR-population-type:msl": {
+    "id": "IGSR-population-type:msl",
     "code": "msl",
     "display": "Mende in Sierra Leone",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:mxl": {
-    "id": "IGSR-popluation-type:mxl",
+  "IGSR-population-type:mxl": {
+    "id": "IGSR-population-type:mxl",
     "code": "mxl",
     "display": "Mexican Ancestry from Los Angeles USA",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:pel": {
-    "id": "IGSR-popluation-type:pel",
+  "IGSR-population-type:pel": {
+    "id": "IGSR-population-type:pel",
     "code": "pel",
     "display": "Peruvians from Lima, Peru",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:pjl": {
-    "id": "IGSR-popluation-type:pjl",
+  "IGSR-population-type:pjl": {
+    "id": "IGSR-population-type:pjl",
     "code": "pjl",
     "display": "Punjabi from Lahore, Pakistan",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:pur": {
-    "id": "IGSR-popluation-type:pur",
+  "IGSR-population-type:pur": {
+    "id": "IGSR-population-type:pur",
     "code": "pur",
     "display": "Puerto Ricans from Puerto Rico",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:sas": {
-    "id": "IGSR-popluation-type:sas",
+  "IGSR-population-type:sas": {
+    "id": "IGSR-population-type:sas",
     "code": "sas",
     "display": "South Asian",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:stu": {
-    "id": "IGSR-popluation-type:stu",
+  "IGSR-population-type:stu": {
+    "id": "IGSR-population-type:stu",
     "code": "stu",
     "display": "Sri Lankan Tamil from the UK",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:tsi": {
-    "id": "IGSR-popluation-type:tsi",
+  "IGSR-population-type:tsi": {
+    "id": "IGSR-population-type:tsi",
     "code": "tsi",
     "display": "Toscani in Italia",
     "system": "http://www.internationalgenome.org/category/population/",
     "code system name": "Int'l Genome Sample Resource populations"
   },
-  "IGSR-popluation-type:yri": {
-    "id": "IGSR-popluation-type:yri",
+  "IGSR-population-type:yri": {
+    "id": "IGSR-population-type:yri",
     "code": "yri",
     "display": "Yoruba in Ibadan, Nigeria",
     "system": "http://www.internationalgenome.org/category/population/",

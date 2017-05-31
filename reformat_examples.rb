@@ -19,10 +19,6 @@ class DMWGExampleData
   end
 
   def by_type
-    unless @by_type
-      @by_type = {}
-      by_id.each { |k, v| (by_type[v['type']] ||= []).push v }
-    end
     @by_type
   end
 
@@ -30,9 +26,14 @@ class DMWGExampleData
     @entity2attributes
   end
 
+  def types
+    @types
+  end
+
   def initialize(data_dir)
     # an "auto hash" to hold all of the examples
     @id2example = {}
+    @types = {}
 
     # slurp in all the json files in the `data_dir`
     @flattened = Hash[Dir["#{data_dir}/*.json"].collect { |jsonfile|
@@ -50,14 +51,16 @@ class DMWGExampleData
 
     # Process the `Type` sheet
     @flattened['Type'].each do |e_id, e_rec|
+      @types[e_id] = e_rec.select { |k, v| ['id', 'name', 'parentType', 'link', 'externalIRI', 'description'].include? k }
       e_name = e_rec['name']
       parent = e_rec['parentType']
       while !!parent
         if !@entity2attributes[e_id].any? { |i| i['entityId'] == parent } then
-          @entity2attributes[e_id].concat(@entity2attributes[parent])
+          @entity2attributes[e_id] = @entity2attributes[parent] + @entity2attributes[e_id]
         end
         parent = @flattened['Type'][parent]['parentType']
       end
+      @types[e_id]['attributes'] = @entity2attributes[e_id]
       if @flattened.key? e_name then
         # full fledged table for this entity (not a Information subtype)
         @flattened[e_name].each do |id, rec|
@@ -112,6 +115,18 @@ class DMWGExampleData
         true
       else
         false
+      end
+    end
+
+    # generate @by_type
+    @by_type = {}
+    by_id.each { |k, v| (by_type[v['type']] ||= []).push v }
+
+    # check that all ids actually reference something
+    if @by_type.has_key? nil and not @by_type[nil].empty? then
+      STDERR.puts "!! WARNING: at least one id is used that does not reference an object:"
+      @by_type[nil].each do |ref|
+        STDERR.puts "!!   #{ref}"
       end
     end
 

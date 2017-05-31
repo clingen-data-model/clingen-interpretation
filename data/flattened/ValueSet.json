@@ -1,11 +1,4 @@
 {
-  "VS001": {
-    "id": "VS001",
-    "source": "internal",
-    "name": "DataSourceType",
-    "description": "When capturing supporting data or evidence data this list of concepts provides a category for the source of the supporting data.",
-    "finish": "larry ?"
-  },
   "VS002": {
     "id": "VS002",
     "source": "SequenceOntology",
@@ -136,5 +129,12 @@
     "source": "internal",
     "name": "AlleleInheritanceType",
     "description": "TODO"
+  },
+  "VS023": {
+    "id": "VS023",
+    "source": "internal",
+    "name": "AscertainmentType",
+    "description": "A coded or free-text term representing how people were chosen to be in the cohort in which the frequency is calculated.\nIt may be either because there are lots of ways that a cohort might be generated and our value set may not provide enough to allow for all cases.",
+    "finish": "chris x"
   }
 }
