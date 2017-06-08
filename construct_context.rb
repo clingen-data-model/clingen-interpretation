@@ -32,14 +32,22 @@ end
 
 # Add classes in spec ({iri: x, path: y}) to cx
 def add_to_context(cx, spec)
-  classes = fetch_csv(spec)
+  classes = fetch_csv(spec, false)
   class_headers = classes.shift
   class_id_idx = class_headers.find_index { |i| i == "id" }
   class_name_idx = class_headers.find_index { |i| i == "name" }
+  ref_idx = class_headers.find_index { |i| i == "isReference" } 
   classes.reduce(cx) do |acc, i|
     if i[class_id_idx] && i[class_id_idx].strip.length > 0
-      acc.merge!({i[class_name_idx].strip =>
-                 "cg:#{i[class_id_idx].strip}"})
+      if i[ref_idx] == "yes"
+        
+        acc.merge!({i[class_name_idx].strip =>
+                    {"@id" => "cg:#{i[class_id_idx].strip}",
+                    "@type" => "@id"}})
+      else
+        acc.merge!({i[class_name_idx].strip =>
+                    "cg:#{i[class_id_idx].strip}"})
+      end
     else
       cx
     end
