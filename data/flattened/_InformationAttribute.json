@@ -1336,6 +1336,15 @@
     "lookupValue": "contribution: { Contrib480: { agent: \"Harry Stevenson\", onDate: \"9/13/16\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
+    "subjectId": "CaseCtrl036",
+    "attributeId": "A127",
+    "value": "http://www.ncbi.nlm.nih.gov/pubmed/23633196",
+    "evidenceDataName": "CaseControl",
+    "attributeName": "source",
+    "attributeType": "String",
+    "lookupValue": "source: \"http://www.ncbi.nlm.nih.gov/pubmed/23633196\""
+  },
+  {
     "subjectId": "AllFreq037",
     "attributeId": "A030",
     "value": "CC014",
@@ -1595,6 +1604,15 @@
     "attributeName": "contribution",
     "attributeType": "Contribution",
     "lookupValue": "contribution: { Contrib434: { agent: \"Harry Stevenson\", onDate: \"7/13/16 8:46 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+  },
+  {
+    "subjectId": "VarInterp042",
+    "attributeId": "A127",
+    "value": "https://www.ncbi.nlm.nih.gov/clinvar/SCV000190642.1",
+    "evidenceDataName": "VariantInterpretation",
+    "attributeName": "source",
+    "attributeType": "String",
+    "lookupValue": "source: \"https://www.ncbi.nlm.nih.gov/clinvar/SCV000190642.1\""
   },
   {
     "subjectId": "RegAnn043",
@@ -2191,6 +2209,15 @@
     "lookupValue": "contribution: { Contrib511: { agent: \"Gene Geneticist\", onDate: \"8/14/2014 10:29 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
+    "subjectId": "VarInterp055",
+    "attributeId": "A127",
+    "value": "http://omim.org/entry/244400",
+    "evidenceDataName": "VariantInterpretation",
+    "attributeName": "source",
+    "attributeType": "String",
+    "lookupValue": "source: \"http://omim.org/entry/244400\""
+  },
+  {
     "subjectId": "IndCond056",
     "attributeId": "A016",
     "value": "Indiv004",
@@ -2227,6 +2254,15 @@
     "lookupValue": "contribution: { Contrib483: { agent: \"Stefan DiMarino\", onDate: \"5/31/16 8:46 AM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
+    "subjectId": "IndCond056",
+    "attributeId": "A127",
+    "value": "http://partners.org/ppm/lmm/gi/case/123",
+    "evidenceDataName": "IndividualCondition",
+    "attributeName": "source",
+    "attributeType": "String",
+    "lookupValue": "source: \"http://partners.org/ppm/lmm/gi/case/123\""
+  },
+  {
     "subjectId": "VarInterp057",
     "attributeId": "A122",
     "value": "CanAll036",
@@ -2261,6 +2297,15 @@
     "attributeName": "contribution",
     "attributeType": "Contribution",
     "lookupValue": "contribution: { Contrib485: { agent: \"Stefan DiMarino\", onDate: \"5/31/16 11:01 AM\", role: \"CG-contributory-role:interpreter\" } }"
+  },
+  {
+    "subjectId": "VarInterp057",
+    "attributeId": "A127",
+    "value": "https://www.ncbi.nlm.nih.gov/clinvar/SCV000205842.3",
+    "evidenceDataName": "VariantInterpretation",
+    "attributeName": "source",
+    "attributeType": "String",
+    "lookupValue": "source: \"https://www.ncbi.nlm.nih.gov/clinvar/SCV000205842.3\""
   },
   {
     "subjectId": "IndAll058",
@@ -2324,6 +2369,15 @@
     "attributeName": "contribution",
     "attributeType": "Contribution",
     "lookupValue": "contribution: { Contrib484: { agent: \"Harry Stevenson\", onDate: \"5/31/16 9:15 AM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+  },
+  {
+    "subjectId": "IndAll058",
+    "attributeId": "A127",
+    "value": "http://partners.org/ppm/lmm/gi/case/123",
+    "evidenceDataName": "IndividualAllele",
+    "attributeName": "source",
+    "attributeType": "String",
+    "lookupValue": "source: \"http://partners.org/ppm/lmm/gi/case/123\""
   },
   {
     "subjectId": "VarInterp059",
@@ -2623,6 +2677,15 @@
     "lookupValue": "contribution: { Contrib486: { agent: \"Harry Stevenson\", onDate: \"6/1/16 2:03 PM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
+    "subjectId": "MolCon066",
+    "attributeId": "A127",
+    "value": "https://geneinsight-lmm-test.partners.org",
+    "evidenceDataName": "MolecularConsequence",
+    "attributeName": "source",
+    "attributeType": "String",
+    "lookupValue": "source: \"https://geneinsight-lmm-test.partners.org\""
+  },
+  {
     "subjectId": "Func067",
     "attributeId": "A026",
     "value": "increased ERK activtation",
@@ -2729,6 +2792,15 @@
     "attributeName": "contribution",
     "attributeType": "Contribution",
     "lookupValue": "contribution: { Contrib487: { agent: \"Stefan DiMarino\", onDate: \"6/1/16 2:10 PM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+  },
+  {
+    "subjectId": "RegAnn069",
+    "attributeId": "A127",
+    "value": "https://pcpgm.partners.org/lmm/alamut",
+    "evidenceDataName": "RegionAnnotation",
+    "attributeName": "source",
+    "attributeType": "String",
+    "lookupValue": "source: \"https://pcpgm.partners.org/lmm/alamut\""
   },
   {
     "subjectId": "MolCon070",
@@ -2992,6 +3064,15 @@
     "lookupValue": "contribution: { Contrib520: { agent: \"Genetics Diagnostic Laboratory,Children's Hospital of Eastern Ontario\", onDate: \"6/1/2014 9:02 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
+    "subjectId": "VarInterp078",
+    "attributeId": "A127",
+    "value": "https://www.ncbi.nlm.nih.gov/clinvar/SCV000059953.4",
+    "evidenceDataName": "VariantInterpretation",
+    "attributeName": "source",
+    "attributeType": "String",
+    "lookupValue": "source: \"https://www.ncbi.nlm.nih.gov/clinvar/SCV000059953.4\""
+  },
+  {
     "subjectId": "VarInterp079",
     "attributeId": "A122",
     "value": "CanAll049",
@@ -3026,6 +3107,15 @@
     "attributeName": "contribution",
     "attributeType": "Contribution",
     "lookupValue": "contribution: { Contrib521: { agent: \"GeneDx\", onDate: \"6/20/2016 11:12 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+  },
+  {
+    "subjectId": "VarInterp079",
+    "attributeId": "A127",
+    "value": "https://www.ncbi.nlm.nih.gov/clinvar/SCV000203864.3",
+    "evidenceDataName": "VariantInterpretation",
+    "attributeName": "source",
+    "attributeType": "String",
+    "lookupValue": "source: \"https://www.ncbi.nlm.nih.gov/clinvar/SCV000203864.3\""
   },
   {
     "subjectId": "VarInterp080",
@@ -3151,6 +3241,15 @@
     "attributeName": "contribution",
     "attributeType": "Contribution",
     "lookupValue": "contribution: { Contrib488: { agent: \"Harry Stevenson\", onDate: \"6/1/16 2:15 PM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+  },
+  {
+    "subjectId": "AllFreq082",
+    "attributeId": "A127",
+    "value": "ftp://ftp.broadinstitute.org/pub/ExAC_release/release0.2/",
+    "evidenceDataName": "AlleleFrequency",
+    "attributeName": "source",
+    "attributeType": "String",
+    "lookupValue": "source: \"ftp://ftp.broadinstitute.org/pub/ExAC_release/release0.2/\""
   },
   {
     "subjectId": "IndCond083",
@@ -3873,6 +3972,15 @@
     "lookupValue": "contribution: { Contrib481: { agent: \"Stefan DiMarino\", onDate: \"9/13/16\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
+    "subjectId": "FamSegData103",
+    "attributeId": "A127",
+    "value": "http://www.ncbi.nlm.nih.gov/pubmed/17081393",
+    "evidenceDataName": "FamilySegregationData",
+    "attributeName": "source",
+    "attributeType": "String",
+    "lookupValue": "source: \"http://www.ncbi.nlm.nih.gov/pubmed/17081393\""
+  },
+  {
     "subjectId": "FamSegData104",
     "attributeId": "A081",
     "value": "MendCond020",
@@ -3916,6 +4024,15 @@
     "attributeName": "contribution",
     "attributeType": "Contribution",
     "lookupValue": "contribution: { Contrib482: { agent: \"Harry Stevenson\", onDate: \"9/13/16\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+  },
+  {
+    "subjectId": "FamSegData104",
+    "attributeId": "A127",
+    "value": "http://partners.org/ppm/lmm/gi/variant/12345",
+    "evidenceDataName": "FamilySegregationData",
+    "attributeName": "source",
+    "attributeType": "String",
+    "lookupValue": "source: \"http://partners.org/ppm/lmm/gi/variant/12345\""
   },
   {
     "subjectId": "AggSegData105",
