@@ -1,60 +1,25 @@
 require 'json'
-require 'net/http'
-require 'csv'
-require 'fileutils'
-require 'pathname'
-require 'yaml'
 
 DM_BASE_IRI = "http://datamodel.clinicalgenome.org/types/"
 AR_BASE_IRI = "http://schema.genome.network/"
 
-CSV_DATA = {classes: {url: "https://docs.google.com/spreadsheets/d/1yI60xriX7J4vk9h4eNK49YKfNnKuKDK6QkHe3OkV9oA/pub?gid=1184726012&single=true&output=csv",
-                      path: "docs/dmclasses.csv"},
-             properties: {url: "https://docs.google.com/spreadsheets/d/1yI60xriX7J4vk9h4eNK49YKfNnKuKDK6QkHe3OkV9oA/pub?gid=1228172421&single=true&output=csv",
-                          path: "docs/dmproperties.csv"}}
+types = JSON.parse(File.read('data/flattened/Type.json'))
+attributes = JSON.parse(File.read('data/flattened/Attribute.json'))
 
 cx = {
         cg: DM_BASE_IRI,
-        gns: AR_BASE_IRI
+        base: DM_BASE_IRI,
+        gns: AR_BASE_IRI,
+        id: "@id",
+        type: "@type"
       }
-                          
-# Grab CSV from URL if necessary, otherwise read from existing file
-def fetch_csv(spec, use_existing = true)
-  csv_data = nil
-  if use_existing && Pathname.new(spec[:path]).exist?
-    csv_data = File.open(spec[:path]) { |f| csv_data = f.read }
+
+attributes.each do |id, attrib|
+  if ['String', 'int', 'boolean', 'float'].include? attrib['dataType']
+    cx[attrib['name']] = "cg:#{attrib['name']}"
   else
-    csv_data = Net::HTTP.get(URI.parse(spec[:url]))
-    File.open(spec[:path], 'wb') { |f| f << csv_data }
-  end
-  CSV.parse(csv_data)
-end
-
-# Add classes in spec ({iri: x, path: y}) to cx
-def add_to_context(cx, spec)
-  classes = fetch_csv(spec, false)
-  class_headers = classes.shift
-  class_id_idx = class_headers.find_index { |i| i == "id" }
-  class_name_idx = class_headers.find_index { |i| i == "name" }
-  ref_idx = class_headers.find_index { |i| i == "isReference" } 
-  classes.reduce(cx) do |acc, i|
-    if i[class_id_idx] && i[class_id_idx].strip.length > 0
-      if i[ref_idx] == "yes"
-        
-        acc.merge!({i[class_name_idx].strip =>
-                    {"@id" => "cg:#{i[class_id_idx].strip}",
-                    "@type" => "@id"}})
-      else
-        acc.merge!({i[class_name_idx].strip =>
-                    "cg:#{i[class_id_idx].strip}"})
-      end
-    else
-      cx
-    end
+    cx[attrib['name']] = { "@id" => "cg:#{attrib['name']}", "@type" => "@id" }
   end
 end
 
-# cx = add_to_context(cx, CSV_DATA[:classes])
-cx = add_to_context(cx, CSV_DATA[:properties])
-cx = {"@context" => cx}
-File.open("data/context.jsonld", 'wb') { |f| f << JSON.pretty_generate(cx) }
+print JSON.pretty_generate({ "@context" => cx })
