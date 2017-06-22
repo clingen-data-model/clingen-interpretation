@@ -19,8 +19,8 @@ assessments_by_criterion.each do |crit, cas|
   end
   data_types = data_types.to_a.sort.join ", "
   puts [crit,
-        cas.select {|x| x['outcome'] == 'CG-criterion-outcome:met'}.length,
-        cas.select {|x| x['outcome'] == 'CG-criterion-outcome:met'}.length,
+        cas.select {|x| x['outcome']['id'] == 'CG-criterion-outcome:met'}.length,
+        cas.select {|x| x['outcome']['id'] == 'CG-criterion-outcome:met'}.length,
         cas.length,
         data_types
       ].join "\t"
