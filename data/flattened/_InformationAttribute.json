@@ -1333,7 +1333,7 @@
     "evidenceDataName": "CaseControl",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib480: { agent: \"Harry Stevenson\", onDate: \"9/13/16\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib480: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"9/13/16\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CaseCtrl036",
@@ -1576,7 +1576,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib448: { agent: \"CSER classifier #6\", onDate: \"6/26/2015 12:06 PM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib448: { agent: { Agent006: { name: \"CSER classifier #6\" } }, onDate: \"6/26/2015 12:06 PM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "VarInterp042",
@@ -1603,7 +1603,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib434: { agent: \"Harry Stevenson\", onDate: \"7/13/16 8:46 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib434: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"7/13/16 8:46 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "VarInterp042",
@@ -1693,7 +1693,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib467: { agent: \"CSER classifier #6\", onDate: \"6/26/2015 12:06 PM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib467: { agent: { Agent006: { name: \"CSER classifier #6\" } }, onDate: \"6/26/2015 12:06 PM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "VarInterp045",
@@ -1756,7 +1756,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib493: { agent: \"CSER classifier #6\", onDate: \"6/26/2015 12:06 PM\", role: \"CG-contributory-role:interpreter\" } }"
+    "lookupValue": "contribution: { Contrib493: { agent: { Agent006: { name: \"CSER classifier #6\" } }, onDate: \"6/26/2015 12:06 PM\", role: \"CG-contributory-role:interpreter\" } }"
   },
   {
     "subjectId": "RegAnn046",
@@ -2206,7 +2206,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib511: { agent: \"Gene Geneticist\", onDate: \"8/14/2014 10:29 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib511: { agent: { Agent008: { name: \"Gene Geneticist\" } }, onDate: \"8/14/2014 10:29 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "VarInterp055",
@@ -2251,7 +2251,7 @@
     "evidenceDataName": "IndividualCondition",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib483: { agent: \"Stefan DiMarino\", onDate: \"5/31/16 8:46 AM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib483: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"5/31/16 8:46 AM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "IndCond056",
@@ -2296,7 +2296,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib485: { agent: \"Stefan DiMarino\", onDate: \"5/31/16 11:01 AM\", role: \"CG-contributory-role:interpreter\" } }"
+    "lookupValue": "contribution: { Contrib485: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"5/31/16 11:01 AM\", role: \"CG-contributory-role:interpreter\" } }"
   },
   {
     "subjectId": "VarInterp057",
@@ -2368,7 +2368,7 @@
     "evidenceDataName": "IndividualAllele",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib484: { agent: \"Harry Stevenson\", onDate: \"5/31/16 9:15 AM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib484: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"5/31/16 9:15 AM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "IndAll058",
@@ -2440,7 +2440,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib518: { agent: \"ACME Molecular Lab\", onDate: \"6/12/2011 9:00 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib518: { agent: { Agent010: { name: \"ACME Molecular Lab\" } }, onDate: \"6/12/2011 9:00 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "IndCond061",
@@ -2593,7 +2593,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib512: { agent: \"George Geneticist\", onDate: \"8/14/2014 10:29 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib512: { agent: { Agent009: { name: \"George Geneticist\" } }, onDate: \"8/14/2014 10:29 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "IndCond064",
@@ -2674,7 +2674,7 @@
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib486: { agent: \"Harry Stevenson\", onDate: \"6/1/16 2:03 PM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib486: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/1/16 2:03 PM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "MolCon066",
@@ -2791,7 +2791,7 @@
     "evidenceDataName": "RegionAnnotation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib487: { agent: \"Stefan DiMarino\", onDate: \"6/1/16 2:10 PM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib487: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"6/1/16 2:10 PM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "RegAnn069",
@@ -3061,7 +3061,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib520: { agent: \"Genetics Diagnostic Laboratory,Children's Hospital of Eastern Ontario\", onDate: \"6/1/2014 9:02 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib520: { agent: { Agent011: { name: \"Genetics Diagnostic Laboratory,Children's Hospital of Eastern Ontario\" } }, onDate: \"6/1/2014 9:02 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "VarInterp078",
@@ -3106,7 +3106,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib521: { agent: \"GeneDx\", onDate: \"6/20/2016 11:12 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib521: { agent: { Agent012: { name: \"GeneDx\" } }, onDate: \"6/20/2016 11:12 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "VarInterp079",
@@ -3240,7 +3240,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib488: { agent: \"Harry Stevenson\", onDate: \"6/1/16 2:15 PM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib488: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/1/16 2:15 PM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "AllFreq082",
@@ -3969,7 +3969,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib481: { agent: \"Stefan DiMarino\", onDate: \"9/13/16\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib481: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"9/13/16\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "FamSegData103",
@@ -4023,7 +4023,7 @@
     "evidenceDataName": "FamilySegregationData",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib482: { agent: \"Harry Stevenson\", onDate: \"9/13/16\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib482: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"9/13/16\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "FamSegData104",
@@ -6228,7 +6228,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib519: { agent: \"ACME Molecular Lab\", onDate: \"7/2/2012 8:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib519: { agent: { Agent010: { name: \"ACME Molecular Lab\" } }, onDate: \"7/2/2012 8:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "AllFreq157",
@@ -9657,7 +9657,7 @@
     "evidenceDataName": "VariantInterpretation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib433: { agent: \"Agent009\", onDate: \"6/26/2015 12:03 PM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib433: { agent: { Agent009: { name: \"George Geneticist\" } }, onDate: \"6/26/2015 12:03 PM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess275",
@@ -9702,7 +9702,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib396: { agent: \"Harry Stevenson\", onDate: \"6/1/16 10:10 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib396: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/1/16 10:10 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess276",
@@ -9756,7 +9756,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib397: { agent: \"Harry Stevenson\", onDate: \"6/2/16 12:15 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib397: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/2/16 12:15 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess277",
@@ -9819,7 +9819,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib398: { agent: \"Harry Stevenson\", onDate: \"6/2/16 2:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib398: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/2/16 2:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess278",
@@ -9873,7 +9873,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib399: { agent: \"Harry Stevenson\", onDate: \"6/2/16 3:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib399: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/2/16 3:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess279",
@@ -9927,7 +9927,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib400: { agent: \"Harry Stevenson\", onDate: \"6/2/16 4:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib400: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/2/16 4:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess280",
@@ -9990,7 +9990,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib401: { agent: \"Harry Stevenson\", onDate: \"6/2/16 5:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib401: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/2/16 5:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess280",
@@ -9999,7 +9999,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib402: { agent: \"Noonan/Rasopathy WG (ClinGen)\", onDate: \"6/2/16 5:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib402: { agent: { Agent002: { name: \"Noonan/Rasopathy WG (ClinGen)\" } }, onDate: \"6/2/16 5:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess281",
@@ -10053,7 +10053,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib403: { agent: \"Harry Stevenson\", onDate: \"6/3/16 8:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib403: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/3/16 8:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess282",
@@ -10107,7 +10107,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib404: { agent: \"Harry Stevenson\", onDate: \"6/3/16 9:17 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib404: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/3/16 9:17 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess283",
@@ -10161,7 +10161,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib405: { agent: \"Harry Stevenson\", onDate: \"6/3/16 10:25 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib405: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/3/16 10:25 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess284",
@@ -10233,7 +10233,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib406: { agent: \"Sasha Rande\", onDate: \"6/3/16 2:50 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib406: { agent: { Agent003: { name: \"Sasha Rande\" } }, onDate: \"6/3/16 2:50 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess284",
@@ -10242,7 +10242,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib407: { agent: \"CSER Bakeoff Project\", onDate: \"6/3/16 2:50 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib407: { agent: { Agent004: { name: \"CSER Bakeoff Project\" } }, onDate: \"6/3/16 2:50 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess285",
@@ -10287,7 +10287,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib408: { agent: \"Sasha Rande\", onDate: \"6/3/16 6:09 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib408: { agent: { Agent003: { name: \"Sasha Rande\" } }, onDate: \"6/3/16 6:09 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess285",
@@ -10296,7 +10296,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib409: { agent: \"CSER Bakeoff Project\", onDate: \"6/3/16 6:09 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib409: { agent: { Agent004: { name: \"CSER Bakeoff Project\" } }, onDate: \"6/3/16 6:09 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess286",
@@ -10350,7 +10350,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib410: { agent: \"Harry Stevenson\", onDate: \"6/4/16 7:12 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib410: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/4/16 7:12 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess286",
@@ -10359,7 +10359,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib411: { agent: \"Noonan/Rasopathy WG (ClinGen)\", onDate: \"6/4/16 7:12 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib411: { agent: { Agent002: { name: \"Noonan/Rasopathy WG (ClinGen)\" } }, onDate: \"6/4/16 7:12 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess287",
@@ -10413,7 +10413,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib412: { agent: \"Harry Stevenson\", onDate: \"6/5/16 10:24 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib412: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/5/16 10:24 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess288",
@@ -10467,7 +10467,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib413: { agent: \"Harry Stevenson\", onDate: \"6/5/16 2:39 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib413: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/5/16 2:39 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess289",
@@ -10521,7 +10521,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib414: { agent: \"Harry Stevenson\", onDate: \"6/5/16 4:12 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib414: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/5/16 4:12 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess290",
@@ -10566,7 +10566,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib415: { agent: \"Sasha Rande\", onDate: \"6/6/16 8:12 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib415: { agent: { Agent003: { name: \"Sasha Rande\" } }, onDate: \"6/6/16 8:12 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess291",
@@ -10611,7 +10611,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib416: { agent: \"Harry Stevenson\", onDate: \"6/6/16 10:53 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib416: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/6/16 10:53 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess291",
@@ -10620,7 +10620,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib417: { agent: \"Noonan/Rasopathy WG (ClinGen)\", onDate: \"6/6/16 10:53 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib417: { agent: { Agent002: { name: \"Noonan/Rasopathy WG (ClinGen)\" } }, onDate: \"6/6/16 10:53 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess292",
@@ -10665,7 +10665,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib418: { agent: \"Harry Stevenson\", onDate: \"6/3/16 7:24 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib418: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/3/16 7:24 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess293",
@@ -10719,7 +10719,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib419: { agent: \"Harry Stevenson\", onDate: \"6/4/16 9:08 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib419: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/4/16 9:08 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess294",
@@ -10764,7 +10764,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib420: { agent: \"Harry Stevenson\", onDate: \"6/5/16 3:13 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib420: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/5/16 3:13 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess295",
@@ -10809,7 +10809,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib421: { agent: \"Harry Stevenson\", onDate: \"6/6/16 11:28 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib421: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/6/16 11:28 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess296",
@@ -10863,7 +10863,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib422: { agent: \"Harry Stevenson\", onDate: \"6/2/16 8:01 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib422: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/2/16 8:01 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess297",
@@ -10917,7 +10917,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib423: { agent: \"Harry Stevenson\", onDate: \"6/10/16 9:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib423: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/10/16 9:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess298",
@@ -10971,7 +10971,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib424: { agent: \"Harry Stevenson\", onDate: \"6/10/16 9:15 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib424: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/10/16 9:15 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess299",
@@ -11016,7 +11016,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib425: { agent: \"Sasha Rande\", onDate: \"6/12/16 7:30 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib425: { agent: { Agent003: { name: \"Sasha Rande\" } }, onDate: \"6/12/16 7:30 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess300",
@@ -11061,7 +11061,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib426: { agent: \"Sasha Rande\", onDate: \"6/12/16 8:31 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib426: { agent: { Agent003: { name: \"Sasha Rande\" } }, onDate: \"6/12/16 8:31 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess301",
@@ -11106,7 +11106,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib427: { agent: \"Harry Stevenson\", onDate: \"6/12/16 9:32 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib427: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/12/16 9:32 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess302",
@@ -11178,7 +11178,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib428: { agent: \"G. Rajar\", onDate: \"6/12/16 10:48 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib428: { agent: { Agent005: { name: \"G. Rajar\" } }, onDate: \"6/12/16 10:48 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess303",
@@ -11232,7 +11232,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib429: { agent: \"G. Rajar\", onDate: \"6/12/16 11:03 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib429: { agent: { Agent005: { name: \"G. Rajar\" } }, onDate: \"6/12/16 11:03 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess304",
@@ -11286,7 +11286,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib430: { agent: \"Harry Stevenson\", onDate: \"7/1/16 9:23 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib430: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"7/1/16 9:23 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess305",
@@ -11331,7 +11331,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib431: { agent: \"Harry Stevenson\", onDate: \"7/1/16 10:53 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib431: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"7/1/16 10:53 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess305",
@@ -11340,7 +11340,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib432: { agent: \"CSER Bakeoff Project\", onDate: \"7/1/16 10:53 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib432: { agent: { Agent004: { name: \"CSER Bakeoff Project\" } }, onDate: \"7/1/16 10:53 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess306",
@@ -11403,7 +11403,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib435: { agent: \"G. Rajar\", onDate: \"7/20/16 7:22 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib435: { agent: { Agent005: { name: \"G. Rajar\" } }, onDate: \"7/20/16 7:22 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess306",
@@ -11412,7 +11412,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib436: { agent: \"CSER Bakeoff Project\", onDate: \"7/20/16 7:22 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib436: { agent: { Agent004: { name: \"CSER Bakeoff Project\" } }, onDate: \"7/20/16 7:22 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess307",
@@ -11466,7 +11466,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib437: { agent: \"Harry Stevenson\", onDate: \"7/20/16 7:49 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib437: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"7/20/16 7:49 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess308",
@@ -11538,7 +11538,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib438: { agent: \"Harry Stevenson\", onDate: \"7/20/16 8:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib438: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"7/20/16 8:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess309",
@@ -11592,7 +11592,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib439: { agent: \"Harry Stevenson\", onDate: \"7/21/16 6:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib439: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"7/21/16 6:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess310",
@@ -11646,7 +11646,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib440: { agent: \"Harry Stevenson\", onDate: \"7/21/16 7:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib440: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"7/21/16 7:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess311",
@@ -11700,7 +11700,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib441: { agent: \"Harry Stevenson\", onDate: \"7/21/16 7:39 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib441: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"7/21/16 7:39 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess312",
@@ -11754,7 +11754,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib442: { agent: \"Agent002\", onDate: \"7/21/16 8:11 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib442: { agent: { Agent002: { name: \"Noonan/Rasopathy WG (ClinGen)\" } }, onDate: \"7/21/16 8:11 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess313",
@@ -11799,7 +11799,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib443: { agent: \"Harry Stevenson\", onDate: \"7/21/16 9:41 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib443: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"7/21/16 9:41 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess314",
@@ -11844,7 +11844,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib444: { agent: \"G. Rajar\", onDate: \"7/21/16 10:29 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib444: { agent: { Agent005: { name: \"G. Rajar\" } }, onDate: \"7/21/16 10:29 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess314",
@@ -11853,7 +11853,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib445: { agent: \"CSER Bakeoff Project\", onDate: \"7/21/16 10:29 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib445: { agent: { Agent004: { name: \"CSER Bakeoff Project\" } }, onDate: \"7/21/16 10:29 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess315",
@@ -11898,7 +11898,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib446: { agent: \"G. Rajar\", onDate: \"7/21/16 12:15 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib446: { agent: { Agent005: { name: \"G. Rajar\" } }, onDate: \"7/21/16 12:15 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess316",
@@ -11943,7 +11943,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib447: { agent: \"Harry Stevenson\", onDate: \"7/21/16 2:46 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib447: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"7/21/16 2:46 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess318",
@@ -11997,7 +11997,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib449: { agent: \"Harry Stevenson\", onDate: \"8/28/16 2:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib449: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"8/28/16 2:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess318",
@@ -12006,7 +12006,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib450: { agent: \"CSER Bakeoff Project\", onDate: \"8/28/16 2:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib450: { agent: { Agent004: { name: \"CSER Bakeoff Project\" } }, onDate: \"8/28/16 2:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess319",
@@ -12060,7 +12060,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib451: { agent: \"Harry Stevenson\", onDate: \"8/29/16 3:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib451: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"8/29/16 3:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess320",
@@ -12114,7 +12114,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib452: { agent: \"Harry Stevenson\", onDate: \"8/29/16 4:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib452: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"8/29/16 4:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess321",
@@ -12168,7 +12168,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib453: { agent: \"Harry Stevenson\", onDate: \"8/29/16 5:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib453: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"8/29/16 5:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess322",
@@ -12222,7 +12222,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib454: { agent: \"Harry Stevenson\", onDate: \"8/29/16 6:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib454: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"8/29/16 6:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess323",
@@ -12267,7 +12267,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib455: { agent: \"Harry Stevenson\", onDate: \"8/29/16 7:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib455: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"8/29/16 7:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess324",
@@ -12321,7 +12321,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib456: { agent: \"Harry Stevenson\", onDate: \"8/29/16 8:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib456: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"8/29/16 8:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess325",
@@ -12375,7 +12375,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib457: { agent: \"Harry Stevenson\", onDate: \"8/29/16 9:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib457: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"8/29/16 9:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess326",
@@ -12429,7 +12429,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib458: { agent: \"G. Rajar\", onDate: \"8/29/16 10:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib458: { agent: { Agent005: { name: \"G. Rajar\" } }, onDate: \"8/29/16 10:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess327",
@@ -12483,7 +12483,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib459: { agent: \"G. Rajar\", onDate: \"8/29/16 11:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib459: { agent: { Agent005: { name: \"G. Rajar\" } }, onDate: \"8/29/16 11:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess327",
@@ -12492,7 +12492,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib460: { agent: \"CSER Bakeoff Project\", onDate: \"8/29/16 11:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib460: { agent: { Agent004: { name: \"CSER Bakeoff Project\" } }, onDate: \"8/29/16 11:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess328",
@@ -12546,7 +12546,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib461: { agent: \"Stefan DiMarino\", onDate: \"8/30/16 6:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib461: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"8/30/16 6:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess329",
@@ -12609,7 +12609,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib462: { agent: \"Harry Stevenson\", onDate: \"9/5/16 6:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib462: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"9/5/16 6:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess330",
@@ -12690,7 +12690,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib463: { agent: \"Stefan DiMarino\", onDate: \"9/5/16 6:30 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib463: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"9/5/16 6:30 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess330",
@@ -12699,7 +12699,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib464: { agent: \"CSER Bakeoff Project\", onDate: \"9/5/16 6:30 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib464: { agent: { Agent004: { name: \"CSER Bakeoff Project\" } }, onDate: \"9/5/16 6:30 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess331",
@@ -12762,7 +12762,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib465: { agent: \"Stefan DiMarino\", onDate: \"9/5/16 7:01 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib465: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"9/5/16 7:01 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess331",
@@ -12771,7 +12771,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib466: { agent: \"CSER Bakeoff Project\", onDate: \"9/5/16 7:01 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib466: { agent: { Agent004: { name: \"CSER Bakeoff Project\" } }, onDate: \"9/5/16 7:01 AM\", role: { coding: [{ code: \"interpreter\", display: \"interpreter\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess333",
@@ -12825,7 +12825,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib468: { agent: \"Stefan DiMarino\", onDate: \"9/5/16 9:01 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib468: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"9/5/16 9:01 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess334",
@@ -12879,7 +12879,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib469: { agent: \"Stefan DiMarino\", onDate: \"9/5/16 9:31 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib469: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"9/5/16 9:31 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess335",
@@ -12933,7 +12933,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib470: { agent: \"Harry Stevenson\", onDate: \"9/5/16 9:51 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib470: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"9/5/16 9:51 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess336",
@@ -12987,7 +12987,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib471: { agent: \"Harry Stevenson\", onDate: \"9/5/16 10:51 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib471: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"9/5/16 10:51 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess337",
@@ -13041,7 +13041,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib472: { agent: \"Harry Stevenson\", onDate: \"9/5/16 11:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib472: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"9/5/16 11:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess338",
@@ -13095,7 +13095,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib473: { agent: \"G. Rajar\", onDate: \"9/6/16 8:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib473: { agent: { Agent005: { name: \"G. Rajar\" } }, onDate: \"9/6/16 8:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess339",
@@ -13149,7 +13149,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib474: { agent: \"G. Rajar\", onDate: \"9/6/16 9:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib474: { agent: { Agent005: { name: \"G. Rajar\" } }, onDate: \"9/6/16 9:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess340",
@@ -13203,7 +13203,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib475: { agent: \"Stefan DiMarino\", onDate: \"9/6/16 10:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib475: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"9/6/16 10:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess341",
@@ -13257,7 +13257,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib476: { agent: \"Stefan DiMarino\", onDate: \"9/6/16 11:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib476: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"9/6/16 11:00 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess342",
@@ -13320,7 +13320,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib477: { agent: \"Stefan DiMarino\", onDate: \"9/6/16 12:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib477: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"9/6/16 12:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess343",
@@ -13374,7 +13374,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib478: { agent: \"Stefan DiMarino\", onDate: \"9/6/16 1:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib478: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"9/6/16 1:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess344",
@@ -13428,7 +13428,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib479: { agent: \"Stefan DiMarino\", onDate: \"9/6/16 2:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib479: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"9/6/16 2:00 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess345",
@@ -13473,7 +13473,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib489: { agent: \"Stefan DiMarino\", onDate: \"9/15/16 8:12 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib489: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"9/15/16 8:12 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess346",
@@ -13518,7 +13518,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib490: { agent: \"Stefan DiMarino\", onDate: \"9/15/16 9:23 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib490: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"9/15/16 9:23 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess347",
@@ -13563,7 +13563,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib491: { agent: \"Stefan DiMarino\", onDate: \"9/15/16 10:40 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib491: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"9/15/16 10:40 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess348",
@@ -13608,7 +13608,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib492: { agent: \"G. Rajar\", onDate: \"10/4/16 8:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib492: { agent: { Agent005: { name: \"G. Rajar\" } }, onDate: \"10/4/16 8:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess350",
@@ -13653,7 +13653,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib494: { agent: \"Stefan DiMarino\", onDate: \"10/4/16 10:37 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib494: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"10/4/16 10:37 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess351",
@@ -13707,7 +13707,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib495: { agent: \"Stefan DiMarino\", onDate: \"10/4/16 11:42 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib495: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"10/4/16 11:42 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess352",
@@ -13761,7 +13761,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib496: { agent: \"Stefan DiMarino\", onDate: \"10/6/16 8:30 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib496: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"10/6/16 8:30 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess353",
@@ -13815,7 +13815,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib497: { agent: \"Stefan DiMarino\", onDate: \"10/6/16 8:54 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib497: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"10/6/16 8:54 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess354",
@@ -13869,7 +13869,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib498: { agent: \"Stefan DiMarino\", onDate: \"10/6/16 9:09 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib498: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"10/6/16 9:09 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess355",
@@ -13923,7 +13923,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib499: { agent: \"Stefan DiMarino\", onDate: \"10/6/16 9:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib499: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"10/6/16 9:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess356",
@@ -13977,7 +13977,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib500: { agent: \"Stefan DiMarino\", onDate: \"10/10/16 8:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib500: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"10/10/16 8:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess357",
@@ -14031,7 +14031,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib501: { agent: \"Stefan DiMarino\", onDate: \"10/10/16 8:03 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib501: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"10/10/16 8:03 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess358",
@@ -14076,7 +14076,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib502: { agent: \"Stefan DiMarino\", onDate: \"10/10/16 8:04 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib502: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"10/10/16 8:04 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess359",
@@ -14121,7 +14121,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib503: { agent: \"Stefan DiMarino\", onDate: \"10/10/16 8:05 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib503: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"10/10/16 8:05 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess360",
@@ -14166,7 +14166,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib504: { agent: \"Stefan DiMarino\", onDate: \"10/10/16 8:06 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib504: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"10/10/16 8:06 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess361",
@@ -14220,7 +14220,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib505: { agent: \"Stefan DiMarino\", onDate: \"01/17/17 9:12 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib505: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"01/17/17 9:12 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "InSilicoPred362",
@@ -14310,7 +14310,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib506: { agent: \"Stefan DiMarino\", onDate: \"03/07/2017 4:30 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib506: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"03/07/2017 4:30 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "VarInterp364",
@@ -14508,7 +14508,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib507: { agent: \"Harry Stevenson\", onDate: \"03/07/2017 5:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib507: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"03/07/2017 5:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "AllFreq370",
@@ -14616,7 +14616,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib508: { agent: \"Stefan DiMarino\", onDate: \"03/08/2017 7:43 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib508: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"03/08/2017 7:43 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess372",
@@ -14670,7 +14670,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib509: { agent: \"Stefan DiMarino\", onDate: \"03/08/2017 9:46 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib509: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"03/08/2017 9:46 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess373",
@@ -14715,7 +14715,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib510: { agent: \"Stefan DiMarino\", onDate: \"03/08/2017 10:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib510: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"03/08/2017 10:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess374",
@@ -14760,7 +14760,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib513: { agent: \"Stefan DiMarino\", onDate: \"3/14/2017 10:29 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib513: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"3/14/2017 10:29 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess375",
@@ -14814,7 +14814,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib514: { agent: \"Stefan DiMarino\", onDate: \"3/14/2017 10:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib514: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"3/14/2017 10:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess376",
@@ -14859,7 +14859,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib515: { agent: \"ACME Molecular Lab\", onDate: \"6/11/2011 11:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib515: { agent: { Agent010: { name: \"ACME Molecular Lab\" } }, onDate: \"6/11/2011 11:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess377",
@@ -14912,7 +14912,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib516: { agent: \"ACME Molecular Lab\", onDate: \"6/11/2011 12:45:00\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib516: { agent: { Agent010: { name: \"ACME Molecular Lab\" } }, onDate: \"6/11/2011 12:45:00\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "CritAssess378",
@@ -14966,7 +14966,7 @@
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "lookupValue": "contribution: { Contrib517: { agent: \"ACME Molecular Lab\", onDate: \"6/10/2011 1:45 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
+    "lookupValue": "contribution: { Contrib517: { agent: { Agent010: { name: \"ACME Molecular Lab\" } }, onDate: \"6/10/2011 1:45 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
     "subjectId": "Loc379",

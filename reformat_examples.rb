@@ -84,6 +84,7 @@ class DMWGExampleData
     # Now for the "join tables". Ugly hard-coding here
     ['_InformationAttribute',
      '_EvidenceLineAttribute',
+     '_AgentAttribute',
      '_MendelianConditionAttribute',
      '_CodeableConceptAttribute',
      '_ContributionAttribute',
