@@ -90,12 +90,13 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-4 col-md-3 sidebar">
-          <ul class="nav nav-sidebar">
-            <li class='nav-sidebar-title'>
+         <div class='nav-sidebar nav-sidebar-title'>
           	<% link_to "https://clinicalgenome.org" do %>
-            	<%= image_tag 'clingen-doc-logo.png', width: "90%", height: "90%", alt: "ClinGen Documentation", class: "img-responsive" %>
+            	<%= image_tag 'clingen-doc-logo.png', width: "80%", height: "80%", alt: "ClinGen Documentation", class: "img-responsive" %>
           	<% end %>
-        	</li>
+        	</div>
+          <ul class="nav nav-sidebar">
+            
             <li class="active">
               <%= link_to "Welcome", "/index.html", :relative => true %>
             </li>
