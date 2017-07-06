@@ -90,18 +90,20 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-4 col-md-3 sidebar">
-         	<div class='nav nav-sidebar nav-sidebar-title'>
-          		<% link_to "https://clinicalgenome.org" do %>
+          <ul class="nav nav-sidebar">
+            <li class='nav-sidebar-title'>
+          	<% link_to "https://clinicalgenome.org" do %>
             	<%= image_tag 'clingen-doc-logo.png', width: "90%", height: "90%", alt: "ClinGen Documentation", class: "img-responsive" %>
-          		<% end %>
-  	  	 	</div>
-          	<ul class="nav nav-sidebar">
-	            <%= link_with_local_index "Welcome", "master/index.html" %>	            
-	            <%= link_with_local_index "User Guide", "user/index.html" %>
-	            <%= link_with_local_index "Technical Reference", "tech/index.html" %>
-	            <!-- Old style.  We might still need the model here? -->
-	            <!--%= link_with_local_index "Entities", "/#{current_page.data.model}/vampi/entities/index.html" %-->
-          	</ul>
+          	<% end %>
+        	</li>
+            <li class="active">
+              <%= link_to "Welcome", "/index.html", :relative => true %>
+            </li>
+            <%= link_with_local_index "User Guide", "user/index.html" %>
+            <%= link_with_local_index "Technical Reference", "tech/index.html" %>
+            <!-- Old style.  We might still need the model here? -->
+            <!--%= link_with_local_index "Entities", "/#{current_page.data.model}/vampi/entities/index.html" %-->
+          </ul>
         </div>
         <div class="col-sm-8 col-sm-offset-4 col-md-9 col-md-offset-3 main">
           <article>
