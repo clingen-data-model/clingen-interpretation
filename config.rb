@@ -48,6 +48,8 @@
 # end
 
 require 'reformat_examples'
+require 'construct_context'
+require 'scoped_context'
 
 $dmwg_examples = DMWGExampleData.new('data/flattened')
 
@@ -57,6 +59,10 @@ $dmwg_examples.by_id.each do |k,v|
     :ignore => true, :layout => false, :directory_indexes => true
 end
 proxy "/json/Types", "/templates/entity.json", :locals => { :object => $dmwg_examples.types },
+  :ignore => true, :layout => false, :directory_indexes => true
+proxy "/json/context", "/templates/entity.json", :locals => { :object => construct_context() },
+  :ignore => true, :layout => false, :directory_indexes => true
+proxy "/json/scoped_context", "/templates/entity.json", :locals => { :object => construct_scoped_context() },
   :ignore => true, :layout => false, :directory_indexes => true
 ignore "/templates/"
 ignore "/json/" # not sure why this has to be here, but may work around a middleman bug...
