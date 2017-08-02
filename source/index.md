@@ -20,7 +20,7 @@ Benefits of the ClinGen Interpretation Model
     * How the explicitly defined criteria were applied to the evidence.
     * To what degree the interpretation builds upon previous interpretations
 * Aligns with related community models including:
-    * <a href="https://github.com/monarch-initiative/SEPIO-ontology/wiki" target="_blank">Monarch SEPIO</a>
+    * [Monarch SEPIO](https://github.com/monarch-initiative/SEPIO-ontology/wiki){:target="_blank"}
     * [ClinGen Allele Model](http://datamodel.clinicalgenome.org/allele/master/index.html)
 * Other features:
     * Flexible: Naturally able to represent a range of interpretation depth, from unsupported assertions to fully evidence-based interpretations, using whatever level of data has been captured.
