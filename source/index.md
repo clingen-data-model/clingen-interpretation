@@ -33,12 +33,12 @@ Development by Example
 ----------------------
 
 To ensure that the model supports its intended use case to represent clinical interpretation of
-variants, develoment has been guided by real-world examples of application of the [ACMG guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html). These examples are available in hierarchical form through the individual pages of the [Technical Reference](tech/), or in a "flattened" form in the [data/flattened](https://github.com/clingen-data-model/clingen-interpretation/tree/master/data/flattened) directory of our source code repository.
+variants, develoment has been guided by real-world examples of application of the [ACMG guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html){:target="_blank"}. These examples are available in hierarchical form through the individual pages of the [Technical Reference](tech/), or in a "flattened" form in the [data/flattened](https://github.com/clingen-data-model/clingen-interpretation/tree/master/data/flattened) directory of our source code repository.
 
 Status
 ------
 
-Version 1 of the interpretation model is planned for the first quarter of 2017, and will allow the description of variant pathogenicity interpretations based on the [ACMG guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html).   Version 2, incorporating interpretation across a broader set of entities and styles is currently in the scoping phase.
+Version 1 of the interpretation model is planned for the first quarter of 2017, and will allow the description of variant pathogenicity interpretations based on the [ACMG guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html){:target="_blank"}.   Version 2, incorporating interpretation across a broader set of entities and styles is currently in the scoping phase.
 
 Documentation
 -------------
