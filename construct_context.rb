@@ -19,14 +19,16 @@ def construct_context(data_dir = File.join('data', 'flattened'))
         }
 
   types.each do |id, type|
-    cx[type['name']] = { "@id" => "cg-types:#{type['name']}" }
+    ldid = type['iri'] && type['iri'].split("\n").length == 1 ? type['iri'] : "cg-types:#{type['name']}"
+    cx[type['name']] = { "@id" => ldid }
   end
 
   attributes.each do |id, attrib|
+    ldid = attrib['iri'] && attrib['iri'].split("\n").length == 1 ? attrib['iri'] : "cg-attributes:#{attrib['name']}"
     if ['String', 'int', 'boolean', 'float'].include? attrib['dataType']
-      cx[attrib['name']] = "cg-attributes:#{attrib['name']}"
+      cx[attrib['name']] = ldid
     else
-      cx[attrib['name']] = { "@id" => "cg-attributes:#{attrib['name']}", "@type" => "@id" }
+      cx[attrib['name']] = { "@id" => ldid, "@type" => "@id" }
     end
   end
 
