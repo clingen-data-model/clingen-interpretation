@@ -1,6 +1,8 @@
 require 'json'
 
-DM_BASE_IRI = "http://datamodel.clinicalgenome.org/types/"
+DM_BASE_IRI = "http://datamodel.clinicalgenome.org/"
+DM_TYPES_IRI = "http://datamodel.clinicalgenome.org/types/"
+DM_ATTRS_IRI = "http://datamodel.clinicalgenome.org/attributes/"
 AR_BASE_IRI = "http://schema.genome.network/"
 
 def construct_context(data_dir = File.join('data', 'flattened'))
@@ -8,18 +10,23 @@ def construct_context(data_dir = File.join('data', 'flattened'))
   attributes = JSON.parse(File.read(File.join(data_dir, "Attribute.json")))
 
   cx = {
-          cg: DM_BASE_IRI,
+          "cg-types": DM_TYPES_IRI,
+          "cg-attributes": DM_ATTRS_IRI,
           base: DM_BASE_IRI,
           gns: AR_BASE_IRI,
           id: "@id",
           type: "@type"
         }
 
+  types.each do |id, type|
+    cx[type['name']] = { "@id" => "cg-types:#{type['name']}" }
+  end
+
   attributes.each do |id, attrib|
     if ['String', 'int', 'boolean', 'float'].include? attrib['dataType']
-      cx[attrib['name']] = "cg:#{attrib['name']}"
+      cx[attrib['name']] = "cg-attributes:#{attrib['name']}"
     else
-      cx[attrib['name']] = { "@id" => "cg:#{attrib['name']}", "@type" => "@id" }
+      cx[attrib['name']] = { "@id" => "cg-attributes:#{attrib['name']}", "@type" => "@id" }
     end
   end
 
