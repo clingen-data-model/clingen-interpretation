@@ -33,6 +33,7 @@ end
 raw_examples = {}
 
 wb.worksheets.each do |ws|
+	next if ws.sheet_name.start_with? 'SEPIO' # ignore the temporary SEPIO sheets
 	headers = []
 	sheet_data = []
 	ws.each_with_index do |row, index|
