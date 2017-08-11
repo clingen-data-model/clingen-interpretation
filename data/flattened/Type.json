@@ -3,7 +3,9 @@
     "id": "E01",
     "name": "Information",
     "link": "Info",
-    "externalIRI": "iao:0000030",
+    "iri": "IAO:0000030?\n\n\nOBI:0302840?\n\n\nSEPIO:0000174?\n",
+    "iri-label": "informtion content entity?\n\ncurated information?\n\nstatement?",
+    "cg-label": "Information",
     "description": "The structured supporting data that can be used to assess criterion in the context of a given interpretation guideline.",
     "notes": "TODO: Re-write in reference to Evidence Lines. Consider merging with Entity and explaining the equivalence between Data in SEPIO and Entity in W3C-Prov."
   },
@@ -12,6 +14,9 @@
     "name": "MolecularConsequence",
     "parentType": "E01",
     "link": "MolCon",
+    "iri": "SEPIO:0000229",
+    "iri-label": "molecular consequence statement",
+    "cg-label": "MolecularConsequence",
     "description": "Classification of an Allele based on its effect on a product"
   },
   "E03": {
@@ -19,32 +24,45 @@
     "name": "ConditionMechanism",
     "parentType": "E01",
     "link": "CondMech",
+    "iri": "SEPIO:0000228",
+    "iri-label": "condition mechanism statement",
+    "cg-label": "ConditionMechanism",
     "description": "Qualitative information about the types of alleles that cause a condition"
   },
   "E04": {
     "id": "E04",
     "name": "Criterion",
     "link": "Crit",
+    "iri": "SEPIO:0000192",
+    "iri-label": "variant pathogenicity criterion",
+    "cg-label": "Criterion",
     "description": "A single rule for evaluating data in an interpretation."
   },
   "E05": {
     "id": "E05",
     "name": "CanonicalAllele",
     "link": "CanAll",
-    "externalIRI": "ar:allele",
+    "iri": "SEPIO:0000233",
+    "iri-label": "canonical allele",
+    "cg-label": "CanonicalAllele",
     "description": "Reference-independent allele that groups multiple ContextualAlleles"
   },
   "E06": {
     "id": "E06",
     "name": "ContextualAllele",
     "link": "CtxAll",
+    "iri": "SEPIO:0000234",
+    "iri-label": "contextual allele",
+    "cg-label": "ContextualAllele",
     "description": "Reference-dependent allele description"
   },
   "E07": {
     "id": "E07",
     "name": "Gene",
     "link": "G",
-    "externalIRI": "ar:gene",
+    "iri": "SO:0000704",
+    "iri-label": "gene",
+    "cg-label": "Gene",
     "description": "A collection of transcripts"
   },
   "E09": {
@@ -52,26 +70,36 @@
     "name": "CriterionAssessment",
     "parentType": "E01",
     "link": "CritAssess",
-    "externalIRI": "sepio:0000001",
+    "iri": "SEPIO:0000191",
+    "iri-label": "criterion assessment",
+    "cg-label": "CriterionAssessment",
     "description": "Intermediate interpretation of a line of evidence"
   },
   "E11": {
     "id": "E11",
     "name": "Contribution",
     "link": "Contrib",
+    "iri": "SEPIO:0000158",
+    "iri-label": "contribution",
+    "cg-label": "Contribution",
     "description": "(TODO:review this def)\nConceptual class to record provenance related to the creation of an item (e.g., who and when)"
   },
   "E12": {
     "id": "E12",
     "name": "Agent",
     "link": "Agent",
-    "externalIRI": "foaf:Agent",
+    "iri": "PROV:agent",
+    "iri-label": "Agent",
+    "cg-label": "Agent",
     "description": "A person, group of people, algorithm, or some other actor that could perform an activity."
   },
   "E13": {
     "id": "E13",
     "name": "Example",
     "link": "Ex",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "",
     "description": "An example selected to demonstrate a particular facet of the data model",
     "notes": "Is this really a \"Type\" in the model, or are these examples just listed in the spreadsheet for documentation purposes?"
   },
@@ -80,6 +108,9 @@
     "name": "MendelianCondition",
     "parentType": "E01",
     "link": "MendCond",
+    "iri": "SEPIO:0000219",
+    "iri-label": "mendelian condition",
+    "cg-label": "MendelianCondition",
     "description": "A condition with a specific mode of inheritance",
     "notes": "What specifically distinguishes a medellian condition? It's possible this could be stated as a set of axioms."
   },
@@ -87,7 +118,9 @@
     "id": "E16",
     "name": "Individual",
     "link": "Indiv",
-    "externalIRI": "foaf:Person",
+    "iri": "foaf:Person",
+    "iri-label": "foaf:Person",
+    "cg-label": "Individual",
     "description": "A particular person"
   },
   "E17": {
@@ -95,6 +128,9 @@
     "name": "IndividualCondition",
     "parentType": "E01",
     "link": "IndCond",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "IndividualCondition",
     "description": "Whether or not an Individual has a Condition"
   },
   "E18": {
@@ -102,6 +138,9 @@
     "name": "FamilyHistory",
     "parentType": "E01",
     "link": "FamHist",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "FamilyHistory",
     "description": "Whether or not a Condition occurs in a given Family"
   },
   "E19": {
@@ -109,6 +148,9 @@
     "name": "DeNovoAllele",
     "parentType": "E01",
     "link": "DeNovo",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "DeNovoAllele",
     "description": "Whether or not a particular Allele is DeNovo in an Individual"
   },
   "E20": {
@@ -116,6 +158,9 @@
     "name": "FunctionalData",
     "parentType": "E01",
     "link": "Func",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "FunctionalData",
     "description": "Data about the function of a gene product",
     "notes": "Subclass of Information?"
   },
@@ -124,13 +169,19 @@
     "name": "CaseControl",
     "parentType": "E01",
     "link": "CaseCtrl",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "CaseControl",
     "description": "Allele frequencies as a function of case-control status"
   },
   "E22": {
     "id": "E22",
-    "name": "Locus",
+    "name": "SequenceLocation",
     "parentType": "E01",
     "link": "Loc",
+    "iri": "",
+    "iri-label": "???",
+    "cg-label": "SequenceLocation",
     "description": "Location, position or interval on a given sequence"
   },
   "E23": {
@@ -138,7 +189,9 @@
     "name": "AlleleFrequency",
     "parentType": "E01",
     "link": "AllFreq",
-    "externalIRI": "http://purl.obolibrary.org/obo/STATO_0000254",
+    "iri": "SEPIO:0000227",
+    "iri-label": "allele frequency statement",
+    "cg-label": "AlleleFrequency",
     "description": "The frequency of an allele in a population or a defined group of individuals"
   },
   "E24": {
@@ -146,6 +199,9 @@
     "name": "RegionAnnotation",
     "parentType": "E01",
     "link": "RegAnn",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "RegionAnnotation",
     "description": "Whether or not a sequence region is of a certain type or types."
   },
   "E25": {
@@ -153,12 +209,18 @@
     "name": "RegionAlleles",
     "parentType": "E01",
     "link": "RegAll",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "RegionAlleles",
     "description": "Whether or not sequence region contains a given set of alleles."
   },
   "E26": {
     "id": "E26",
     "name": "ReferenceSequence",
     "link": "RefSeq",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "ReferenceSequence",
     "description": "*TODO* short description needed"
   },
   "E28": {
@@ -166,18 +228,27 @@
     "name": "IndividualAllele",
     "parentType": "E01",
     "link": "IndAll",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "IndividualAllele",
     "description": "Whether or not an Individual has an allele"
   },
   "E32": {
     "id": "E32",
     "name": "AssertionMethod",
     "link": "AssertMeth",
+    "iri": "SEPIO:0000193",
+    "iri-label": "variant pathogenicity interpretation guideline",
+    "cg-label": "AssertionMethod",
     "description": "The set of rules describing how to create an interpretation from a set of Data."
   },
   "E33": {
     "id": "E33",
     "name": "ScoringAlgorithm",
     "link": "ScorAlg",
+    "iri": "SEPIO:0000224",
+    "iri-label": "varriant pathogenicity criterion scoring algorithm",
+    "cg-label": "ScoringAlgorithm",
     "description": "The rules for combining CriterionAssessments into an Interpretation"
   },
   "E35": {
@@ -185,28 +256,36 @@
     "name": "VariantInterpretation",
     "parentType": "E01",
     "link": "VarInterp",
-    "externalIRI": "sepio:0000001",
+    "iri": "SEPIO:0000190",
+    "iri-label": "variant pathogenicity interpretation",
+    "cg-label": "VariantInterpretation",
     "description": "Evidence-based conclusion about the pathogenicity of a sequence variant"
   },
   "E40": {
     "id": "E40",
     "name": "CodeableConcept",
     "link": "CC",
-    "externalIRI": "fhir:CodableConcept",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "",
     "description": "(FHIR) defines the structure needed to support the use cases that allow for the flexibility of representing a concept by either a text name or a set of equivalent Codings or both."
   },
   "E41": {
     "id": "E41",
     "name": "CodeSystem",
     "link": "CS",
-    "externalIRI": "fhir:CodeSystem",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "",
     "description": "(FHIR) defines a set of codes with meanings (also known as enumeration, terminology, classification, and/or ontology)"
   },
   "E42": {
     "id": "E42",
     "name": "Coding",
     "link": "CD",
-    "externalIRI": "fhir:Coding",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "",
     "description": "(FHIR) Concepts that are in the code system. The concept definitions are inherently hierarchical, but the definitions must be consulted to determine what the meaning of the hierarchical relationships are."
   },
   "E43": {
@@ -214,6 +293,9 @@
     "name": "BenignMissenseVariationRate",
     "parentType": "E01",
     "link": "BMVR",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "BenignMissenseVariationRate",
     "description": "The amount of benign missense variation in a particular region"
   },
   "E44": {
@@ -221,6 +303,9 @@
     "name": "Family",
     "parentType": "E01",
     "link": "Fam",
+    "iri": "PCO:0000020",
+    "iri-label": "family",
+    "cg-label": "Family",
     "description": "A group of individuals related in a known manner."
   },
   "E45": {
@@ -228,6 +313,9 @@
     "name": "FamilySegregationData",
     "parentType": "E01",
     "link": "FamSegData",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "FamilySeqgregationData",
     "description": "Cosegregation of an allele and a condition in a single family"
   },
   "E46": {
@@ -235,6 +323,9 @@
     "name": "AggregateSegregationData",
     "parentType": "E01",
     "link": "AggSegData",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "AggregateSegregationData",
     "description": "Cosegregation of an allele and a condition aggregated across families"
   },
   "E47": {
@@ -242,6 +333,9 @@
     "name": "InSilicoPrediction",
     "parentType": "E01",
     "link": "InSilicoPred",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "InSilicoPrediction",
     "description": "Computationally predicted functional impact of an allele"
   },
   "E48": {
@@ -249,6 +343,9 @@
     "name": "ConditionEtiology",
     "parentType": "E01",
     "link": "CondEtiol",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "ConditionEtiology",
     "description": "Specificity of the condition to a gene."
   },
   "E49": {
@@ -256,6 +353,9 @@
     "name": "ConditionPrevelance",
     "parentType": "E01",
     "link": "CondPrev",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "ConditionPrevelance",
     "description": "Frequency of a condition in a population"
   },
   "E50": {
@@ -263,6 +363,9 @@
     "name": "ConditionPenetrance",
     "parentType": "E01",
     "link": "CondPenet",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "ConditionPenetrance",
     "description": "Qualitative characterization of a condition's penetrance"
   },
   "E51": {
@@ -270,19 +373,27 @@
     "name": "Conservation",
     "parentType": "E01",
     "link": "Conserv",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "Conservation",
     "description": "Characterizes whether the allele is fixed across species"
   },
   "E54": {
     "id": "E54",
     "name": "ValueSet",
     "link": "VS",
-    "externalIRI": "fhir:ValueSet",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "",
     "description": "(FHIR) A value set specifies a set of codes drawn from one or more code systems."
   },
   "E55": {
     "id": "E55",
     "name": "ValueSetCoding",
     "link": "VSC",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "",
     "description": "This maps to the use of codes in relationship to ValueSets in HL7 FHIR.  For details on understanding how Codes and ValueSets are defined see HL7 FHIR spec 4.1 Using Codes and its subsections (https://www.hl7.org/fhir/terminologies.html) .",
     "notes": "Should this be its own type, or is it just a mapping table?"
   },
@@ -290,7 +401,9 @@
     "id": "E56",
     "name": "EvidenceLine",
     "link": "EvLn",
-    "externalIRI": "sepio:0000002",
+    "iri": "SEPIO:0000002",
+    "iri-label": "evidence line",
+    "cg-label": "EvidenceLine",
     "description": "A reification of the underlying supporting data which may be one or more data points or assertions. Typically grouped in a specific manner for use in an owning assertion activity (either Variant Interpretation or CriterionAssessment. All evidence may optionally be given a strength by an agent."
   }
 }
