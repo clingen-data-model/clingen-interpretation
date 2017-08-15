@@ -8,11 +8,11 @@ def construct_scoped_context(data_dir = File.join('data', 'flattened'))
   attributes = JSON.parse(File.read(File.join(data_dir, "Attribute.json")))
 
   cx = {
-          cg: DM_BASE_IRI,
-          base: DM_BASE_IRI,
-          gns: AR_BASE_IRI,
-          id: "@id",
-          type: "@type"
+          "cg" => DM_BASE_IRI,
+          "base" => DM_BASE_IRI,
+          "gns" => AR_BASE_IRI,
+          "id" => "@id",
+          "type" => "@type"
         }
 
   attributes_by_entity = Hash.new { |hash, key| hash[key] = [] }

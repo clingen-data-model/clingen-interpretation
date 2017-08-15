@@ -10,12 +10,12 @@ def construct_context(data_dir = File.join('data', 'flattened'))
   attributes = JSON.parse(File.read(File.join(data_dir, "Attribute.json")))
 
   cx = {
-          "cg-types": DM_TYPES_IRI,
-          "cg-attributes": DM_ATTRS_IRI,
-          base: DM_BASE_IRI,
-          gns: AR_BASE_IRI,
-          id: "@id",
-          type: "@type"
+          "cg-types" => DM_TYPES_IRI,
+          "cg-attributes" => DM_ATTRS_IRI,
+          "base" => DM_BASE_IRI,
+          "gns" => AR_BASE_IRI,
+          "id" => "@id",
+          "type" => "@type"
         }
 
   types.each do |id, type|
