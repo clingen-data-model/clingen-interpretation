@@ -8,24 +8,25 @@ summary: Projects using the interpretation model
 Introduction
 ------------
 
-The interpretation model is ClinGen's way to send and receive information about variant pathogenicity.  Here are some tools that can help those implementing the model, and some tools that consume the model.
+The interpretation model is ClinGen's way to send and receive information about variant pathogenicity.  Here are some tools that can help those implementing the model, and some tools that use the model.
 
-interpretation_json
---------------------
+
+Interpretation Creator
+----------------------
 
 [Github Repository](http://github.com/clingen-data-model/interpretation_json)
 
 Interpretations in this model are encoded in JSON-LD.   This python package helps to correctly create such JSON-LD messages.  Users of the library can build interpretation objects in code, and then serialize correct JSON-LD.
 
-VCI-transformation
+VCI Transformation
 ------------------
 
 [Github Repository](http://github.com/clingen-data-model/VCI-transformation)
 
 The ClinGen Variant Curation Interface produces JSON-LD documents, but not in the ClinGen interpretation format.  This script, based on the interpretation_json library, converts interpretations from the native VCI format to the ClinGen format.
 
-clinvar-submitter
------------------
+Clinvar Submission
+------------------
 
 [Github Repository](http://github.com/clingen-data-model/clinvar-submitter)
 
