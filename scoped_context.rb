@@ -1,7 +1,13 @@
 require 'json'
 
-DM_BASE_IRI = "http://datamodel.clinicalgenome.org/types/"
+DM_BASE_IRI = "http://datamodel.clinicalgenome.org/"
 AR_BASE_IRI = "http://schema.genome.network/"
+
+def ldid_for_item(x)
+  # get linked_data id for an item, using iri if available and unambiguous
+  iri = x['iri']
+  return iri && !iri.include?("?") && iri.split("\n").length == 1 ? iri : "cg:#{x['name']}"
+end
 
 def construct_scoped_context(data_dir = File.join('data', 'flattened'))
   types = JSON.parse(File.read(File.join(data_dir, "Type.json")))
@@ -26,14 +32,16 @@ def construct_scoped_context(data_dir = File.join('data', 'flattened'))
   types.each do |id, type|
     subcontext = {}
     attributes_by_entity[id].each do |attrib|
+      attr_ldid = ldid_for_item(attrib)
       if ['String', 'int', 'boolean', 'float'].include? attrib['dataType']
-        subcontext[attrib['name']] = "cg:#{attrib['name']}"
+        subcontext[attrib['name']] = attr_ldid
       else
-        subcontext[attrib['name']] = { "@id" => "cg:#{attrib['name']}", "@type" => "@id" }
+        subcontext[attrib['name']] = { "@id" => attr_ldid, "@type" => "@id" }
       end
     end
+    type_ldid = ldid_for_item(type)
     cx[type['name']] = {
-      "@id" => type['externalIRI'] || ("cg:" + type['name']),
+      "@id" => type_ldid,
       "@context" => subcontext
     }
   end
