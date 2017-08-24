@@ -335,68 +335,68 @@
     "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
     "code system name": "evidence-strength"
   },
-  "CG-func-data-type:activation": {
-    "id": "CG-func-data-type:activation",
+  "CG-allele-func-impact-type:activation": {
+    "id": "CG-allele-func-impact-type:activation",
     "code": "activation",
     "display": "Activation Assay",
-    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
-    "code system name": "func-data-type"
+    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
+    "code system name": "allele-func-impact-type"
   },
-  "CG-func-data-type:atpase": {
-    "id": "CG-func-data-type:atpase",
+  "CG-allele-func-impact-type:atpase": {
+    "id": "CG-allele-func-impact-type:atpase",
     "code": "atpase",
     "display": "ATPase assay",
-    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
-    "code system name": "func-data-type"
+    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
+    "code system name": "allele-func-impact-type"
   },
-  "CG-func-data-type:binding": {
-    "id": "CG-func-data-type:binding",
+  "CG-allele-func-impact-type:binding": {
+    "id": "CG-allele-func-impact-type:binding",
     "code": "binding",
     "display": "Binding assay",
-    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
-    "code system name": "func-data-type"
+    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
+    "code system name": "allele-func-impact-type"
   },
-  "CG-func-data-type:celloc": {
-    "id": "CG-func-data-type:celloc",
+  "CG-allele-func-impact-type:celloc": {
+    "id": "CG-allele-func-impact-type:celloc",
     "code": "celloc",
     "display": "cellular localization",
-    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
-    "code system name": "func-data-type"
+    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
+    "code system name": "allele-func-impact-type"
   },
-  "CG-func-data-type:elk1phosvialucif": {
-    "id": "CG-func-data-type:elk1phosvialucif",
+  "CG-allele-func-impact-type:elk1phosvialucif": {
+    "id": "CG-allele-func-impact-type:elk1phosvialucif",
     "code": "elk1phosvialucif",
     "display": "Elk1 pohsphorylation via luciferase assay",
-    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
-    "code system name": "func-data-type"
+    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
+    "code system name": "allele-func-impact-type"
   },
-  "CG-func-data-type:iodeff": {
-    "id": "CG-func-data-type:iodeff",
+  "CG-allele-func-impact-type:iodeff": {
+    "id": "CG-allele-func-impact-type:iodeff",
     "code": "iodeff",
     "display": "iodide efflux",
-    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
-    "code system name": "func-data-type"
+    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
+    "code system name": "allele-func-impact-type"
   },
-  "CG-func-data-type:motility": {
-    "id": "CG-func-data-type:motility",
+  "CG-allele-func-impact-type:motility": {
+    "id": "CG-allele-func-impact-type:motility",
     "code": "motility",
     "display": "motility assay",
-    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
-    "code system name": "func-data-type"
+    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
+    "code system name": "allele-func-impact-type"
   },
-  "CG-func-data-type:neuritegrowth": {
-    "id": "CG-func-data-type:neuritegrowth",
+  "CG-allele-func-impact-type:neuritegrowth": {
+    "id": "CG-allele-func-impact-type:neuritegrowth",
     "code": "neuritegrowth",
     "display": "neurite outgrowth",
-    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
-    "code system name": "func-data-type"
+    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
+    "code system name": "allele-func-impact-type"
   },
-  "CG-func-data-type:yeastcomp": {
-    "id": "CG-func-data-type:yeastcomp",
+  "CG-allele-func-impact-type:yeastcomp": {
+    "id": "CG-allele-func-impact-type:yeastcomp",
     "code": "yeastcomp",
     "display": "Yeast complementation assay",
-    "system": "http://clinicalgenome.org/datamodel/functional-data-type/",
-    "code system name": "func-data-type"
+    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
+    "code system name": "allele-func-impact-type"
   },
   "CG-inheritance-mode:codominant": {
     "id": "CG-inheritance-mode:codominant",
@@ -496,26 +496,26 @@
     "system": "http://clinicalgenome.org/datamodel/prediction-type/",
     "code system name": "prediction-type"
   },
-  "CG-reg-anno-type:functional": {
-    "id": "CG-reg-anno-type:functional",
+  "CG-reg-type:functional": {
+    "id": "CG-reg-type:functional",
     "code": "functional",
     "display": "Functional",
-    "system": "http://clinicalgenome.org/datamodel/region-annotation-type/",
-    "code system name": "region-anno-type"
+    "system": "http://clinicalgenome.org/datamodel/region-type/",
+    "code system name": "region-type"
   },
-  "CG-reg-anno-type:hotspot": {
-    "id": "CG-reg-anno-type:hotspot",
+  "CG-reg-type:hotspot": {
+    "id": "CG-reg-type:hotspot",
     "code": "hotspot",
     "display": "Mutational Hotspot",
-    "system": "http://clinicalgenome.org/datamodel/region-annotation-type/",
-    "code system name": "region-anno-type"
+    "system": "http://clinicalgenome.org/datamodel/region-type/",
+    "code system name": "region-type"
   },
-  "CG-reg-anno-type:repeat": {
-    "id": "CG-reg-anno-type:repeat",
+  "CG-reg-type:repeat": {
+    "id": "CG-reg-type:repeat",
     "code": "repeat",
     "display": "Repeat",
-    "system": "http://clinicalgenome.org/datamodel/region-annotation-type/",
-    "code system name": "region-anno-type"
+    "system": "http://clinicalgenome.org/datamodel/region-type/",
+    "code system name": "region-type"
   },
   "DOID:630": {
     "id": "DOID:630",

@@ -619,7 +619,7 @@
     "subjectId": "Func021",
     "attributeId": "A026",
     "value": "the mutation lowered the Ca2+  affinity of the reconstituted thin filaments;",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "result",
     "attributeType": "String",
     "lookupValue": "result: \"the mutation lowered the Ca2+  affinity of the reconstituted thin filaments;\""
@@ -628,16 +628,16 @@
     "subjectId": "Func021",
     "attributeId": "A027",
     "value": "CC015",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"binding\", display: \"Binding assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
+    "lookupValue": "dataType: { coding: [{ code: \"binding\", display: \"Binding assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
   },
   {
     "subjectId": "Func021",
     "attributeId": "A028",
     "value": "CtxAll021",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "contextualAllele: { NP_001001431.1:p.Arg131Trp }"
@@ -646,7 +646,7 @@
     "subjectId": "Func021",
     "attributeId": "A029",
     "value": "hgnc:TNNT2",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "gene",
     "attributeType": "Gene",
     "lookupValue": "gene: { TNNT2 }"
@@ -655,7 +655,7 @@
     "subjectId": "Func022",
     "attributeId": "A026",
     "value": "reduced Ca2 sensitivity of activation",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "result",
     "attributeType": "String",
     "lookupValue": "result: \"reduced Ca2 sensitivity of activation\""
@@ -664,16 +664,16 @@
     "subjectId": "Func022",
     "attributeId": "A027",
     "value": "CC016",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"atpase\", display: \"ATPase assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
+    "lookupValue": "dataType: { coding: [{ code: \"atpase\", display: \"ATPase assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
   },
   {
     "subjectId": "Func022",
     "attributeId": "A028",
     "value": "CtxAll021",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "contextualAllele: { NP_001001431.1:p.Arg131Trp }"
@@ -682,7 +682,7 @@
     "subjectId": "Func022",
     "attributeId": "A029",
     "value": "hgnc:TNNT2",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "gene",
     "attributeType": "Gene",
     "lookupValue": "gene: { TNNT2 }"
@@ -691,7 +691,7 @@
     "subjectId": "Func023",
     "attributeId": "A026",
     "value": "reduced Ca2 sensitivity of activation",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "result",
     "attributeType": "String",
     "lookupValue": "result: \"reduced Ca2 sensitivity of activation\""
@@ -700,16 +700,16 @@
     "subjectId": "Func023",
     "attributeId": "A027",
     "value": "CC017",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"motility\", display: \"motility assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
+    "lookupValue": "dataType: { coding: [{ code: \"motility\", display: \"motility assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
   },
   {
     "subjectId": "Func023",
     "attributeId": "A028",
     "value": "CtxAll021",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "contextualAllele: { NP_001001431.1:p.Arg131Trp }"
@@ -718,7 +718,7 @@
     "subjectId": "Func023",
     "attributeId": "A029",
     "value": "hgnc:TNNT2",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "gene",
     "attributeType": "Gene",
     "lookupValue": "gene: { TNNT2 }"
@@ -727,7 +727,7 @@
     "subjectId": "Func024",
     "attributeId": "A026",
     "value": "desensitized Ca2+ binding to the thin filament.",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "result",
     "attributeType": "String",
     "lookupValue": "result: \"desensitized Ca2+ binding to the thin filament.\""
@@ -736,16 +736,16 @@
     "subjectId": "Func024",
     "attributeId": "A027",
     "value": "CC018",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"binding\", display: \"Binding assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
+    "lookupValue": "dataType: { coding: [{ code: \"binding\", display: \"Binding assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
   },
   {
     "subjectId": "Func024",
     "attributeId": "A028",
     "value": "CtxAll021",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "contextualAllele: { NP_001001431.1:p.Arg131Trp }"
@@ -754,7 +754,7 @@
     "subjectId": "Func024",
     "attributeId": "A029",
     "value": "hgnc:TNNT2",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "gene",
     "attributeType": "Gene",
     "lookupValue": "gene: { TNNT2 }"
@@ -763,7 +763,7 @@
     "subjectId": "Func025",
     "attributeId": "A026",
     "value": "Functionally Damaging",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "result",
     "attributeType": "String",
     "lookupValue": "result: \"Functionally Damaging\""
@@ -772,16 +772,16 @@
     "subjectId": "Func025",
     "attributeId": "A027",
     "value": "CC019",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"yeastcomp\", display: \"Yeast complementation assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
+    "lookupValue": "dataType: { coding: [{ code: \"yeastcomp\", display: \"Yeast complementation assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
   },
   {
     "subjectId": "Func025",
     "attributeId": "A028",
     "value": "CtxAll022",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "contextualAllele: { NM_003119.2 (SPG7):c.1529C>T }"
@@ -790,7 +790,7 @@
     "subjectId": "Func025",
     "attributeId": "A029",
     "value": "hgnc:SPG7",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "gene",
     "attributeType": "Gene",
     "lookupValue": "gene: { SPG7 }"
@@ -799,7 +799,7 @@
     "subjectId": "Func026",
     "attributeId": "A026",
     "value": "abnormal/deceased MEK activtation.",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "result",
     "attributeType": "String",
     "lookupValue": "result: \"abnormal/deceased MEK activtation.\""
@@ -808,16 +808,16 @@
     "subjectId": "Func026",
     "attributeId": "A027",
     "value": "CC020",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
+    "lookupValue": "dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
   },
   {
     "subjectId": "Func026",
     "attributeId": "A028",
     "value": "CtxAll024",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "contextualAllele: { NP_004324.2:p.Gly596Val }"
@@ -826,7 +826,7 @@
     "subjectId": "Func026",
     "attributeId": "A029",
     "value": "hgnc:BRAF",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "gene",
     "attributeType": "Gene",
     "lookupValue": "gene: { BRAF }"
@@ -835,7 +835,7 @@
     "subjectId": "Func026",
     "attributeId": "A029",
     "value": "hgnc:MEK",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "gene",
     "attributeType": "Gene",
     "lookupValue": "gene: { MEK }"
@@ -844,7 +844,7 @@
     "subjectId": "Func027",
     "attributeId": "A026",
     "value": "abnormal/deceased ERK activtation.",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "result",
     "attributeType": "String",
     "lookupValue": "result: \"abnormal/deceased ERK activtation.\""
@@ -853,16 +853,16 @@
     "subjectId": "Func027",
     "attributeId": "A027",
     "value": "CC021",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
+    "lookupValue": "dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
   },
   {
     "subjectId": "Func027",
     "attributeId": "A028",
     "value": "CtxAll024",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "contextualAllele: { NP_004324.2:p.Gly596Val }"
@@ -871,7 +871,7 @@
     "subjectId": "Func027",
     "attributeId": "A029",
     "value": "hgnc:BRAF",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "gene",
     "attributeType": "Gene",
     "lookupValue": "gene: { BRAF }"
@@ -880,7 +880,7 @@
     "subjectId": "Func027",
     "attributeId": "A029",
     "value": "hgnc:ERK",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "gene",
     "attributeType": "Gene",
     "lookupValue": "gene: { ERK }"
@@ -1489,22 +1489,22 @@
     "lookupValue": "population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] }"
   },
   {
-    "subjectId": "RegAnn040",
+    "subjectId": "RegTyp040",
     "attributeId": "A063",
     "value": "Loc379",
-    "evidenceDataName": "RegionAnnotation",
+    "evidenceDataName": "RegionType",
     "attributeName": "region",
-    "attributeType": "Locus",
+    "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc379\""
   },
   {
-    "subjectId": "RegAnn040",
+    "subjectId": "RegTyp040",
     "attributeId": "A057",
-    "value": "CG-reg-anno-type:functional",
-    "evidenceDataName": "RegionAnnotation",
+    "value": "CG-reg-type:functional",
+    "evidenceDataName": "RegionType",
     "attributeName": "includedTypes",
     "attributeType": "Coding",
-    "lookupValue": "includedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "includedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
   },
   {
     "subjectId": "VarInterp041",
@@ -1615,22 +1615,22 @@
     "lookupValue": "source: \"https://www.ncbi.nlm.nih.gov/clinvar/SCV000190642.1\""
   },
   {
-    "subjectId": "RegAnn043",
+    "subjectId": "RegTyp043",
     "attributeId": "A063",
     "value": "Loc381",
-    "evidenceDataName": "RegionAnnotation",
+    "evidenceDataName": "RegionType",
     "attributeName": "region",
-    "attributeType": "Locus",
+    "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc381\""
   },
   {
-    "subjectId": "RegAnn043",
+    "subjectId": "RegTyp043",
     "attributeId": "A057",
-    "value": "CG-reg-anno-type:functional",
-    "evidenceDataName": "RegionAnnotation",
+    "value": "CG-reg-type:functional",
+    "evidenceDataName": "RegionType",
     "attributeName": "includedTypes",
     "attributeType": "Coding",
-    "lookupValue": "includedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "includedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
   },
   {
     "subjectId": "VarInterp044",
@@ -1759,22 +1759,22 @@
     "lookupValue": "contribution: { Contrib493: { agent: { Agent006: { name: \"CSER classifier #6\" } }, onDate: \"6/26/2015 12:06 PM\", role: \"CG-contributory-role:interpreter\" } }"
   },
   {
-    "subjectId": "RegAnn046",
+    "subjectId": "RegTyp046",
     "attributeId": "A063",
     "value": "Loc383",
-    "evidenceDataName": "RegionAnnotation",
+    "evidenceDataName": "RegionType",
     "attributeName": "region",
-    "attributeType": "Locus",
+    "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc383\""
   },
   {
-    "subjectId": "RegAnn046",
+    "subjectId": "RegTyp046",
     "attributeId": "A057",
-    "value": "CG-reg-anno-type:hotspot",
-    "evidenceDataName": "RegionAnnotation",
+    "value": "CG-reg-type:hotspot",
+    "evidenceDataName": "RegionType",
     "attributeName": "includedTypes",
     "attributeType": "Coding",
-    "lookupValue": "includedTypes: { code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "includedTypes: { code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
   },
   {
     "subjectId": "VarInterp047",
@@ -2689,7 +2689,7 @@
     "subjectId": "Func067",
     "attributeId": "A026",
     "value": "increased ERK activtation",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "result",
     "attributeType": "String",
     "lookupValue": "result: \"increased ERK activtation\""
@@ -2698,16 +2698,16 @@
     "subjectId": "Func067",
     "attributeId": "A027",
     "value": "CC055",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
+    "lookupValue": "dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
   },
   {
     "subjectId": "Func067",
     "attributeId": "A028",
     "value": "CtxAll130",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "contextualAllele: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }"
@@ -2716,7 +2716,7 @@
     "subjectId": "Func067",
     "attributeId": "A029",
     "value": "hgnc:ERK",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "gene",
     "attributeType": "Gene",
     "lookupValue": "gene: { ERK }"
@@ -2725,7 +2725,7 @@
     "subjectId": "Func067",
     "attributeId": "A029",
     "value": "hgnc:SOS1",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "gene",
     "attributeType": "Gene",
     "lookupValue": "gene: { SOS1 }"
@@ -2767,37 +2767,37 @@
     "lookupValue": "categoricalPrediction: \"no impact\""
   },
   {
-    "subjectId": "RegAnn069",
+    "subjectId": "RegTyp069",
     "attributeId": "A063",
     "value": "Loc385",
-    "evidenceDataName": "RegionAnnotation",
+    "evidenceDataName": "RegionType",
     "attributeName": "region",
-    "attributeType": "Locus",
+    "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc385\""
   },
   {
-    "subjectId": "RegAnn069",
+    "subjectId": "RegTyp069",
     "attributeId": "A057",
-    "value": "CG-reg-anno-type:repeat",
-    "evidenceDataName": "RegionAnnotation",
+    "value": "CG-reg-type:repeat",
+    "evidenceDataName": "RegionType",
     "attributeName": "includedTypes",
     "attributeType": "Coding",
-    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
   },
   {
-    "subjectId": "RegAnn069",
+    "subjectId": "RegTyp069",
     "attributeId": "A119",
     "value": "Contrib487",
-    "evidenceDataName": "RegionAnnotation",
+    "evidenceDataName": "RegionType",
     "attributeName": "contribution",
     "attributeType": "Contribution",
     "lookupValue": "contribution: { Contrib487: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"6/1/16 2:10 PM\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
-    "subjectId": "RegAnn069",
+    "subjectId": "RegTyp069",
     "attributeId": "A127",
     "value": "https://pcpgm.partners.org/lmm/alamut",
-    "evidenceDataName": "RegionAnnotation",
+    "evidenceDataName": "RegionType",
     "attributeName": "source",
     "attributeType": "String",
     "lookupValue": "source: \"https://pcpgm.partners.org/lmm/alamut\""
@@ -2893,22 +2893,22 @@
     "lookupValue": "score: 0.63"
   },
   {
-    "subjectId": "RegAnn073",
+    "subjectId": "RegTyp073",
     "attributeId": "A063",
     "value": "Loc386",
-    "evidenceDataName": "RegionAnnotation",
+    "evidenceDataName": "RegionType",
     "attributeName": "region",
-    "attributeType": "Locus",
+    "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc386\""
   },
   {
-    "subjectId": "RegAnn073",
+    "subjectId": "RegTyp073",
     "attributeId": "A056",
-    "value": "CG-reg-anno-type:repeat",
-    "evidenceDataName": "RegionAnnotation",
+    "value": "CG-reg-type:repeat",
+    "evidenceDataName": "RegionType",
     "attributeName": "excludedTypes",
     "attributeType": "Coding",
-    "lookupValue": "excludedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "excludedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
   },
   {
     "subjectId": "MolCon074",
@@ -2947,85 +2947,85 @@
     "lookupValue": "contextualAllele: { NM_000257.2(MYH7):c.327C>T }"
   },
   {
-    "subjectId": "FamSegData076",
+    "subjectId": "FamSeg076",
     "attributeId": "A081",
     "value": "MendCond056",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
     "lookupValue": "condition: { noonan syndrome, Autosomal Dominant }"
   },
   {
-    "subjectId": "FamSegData076",
+    "subjectId": "FamSeg076",
     "attributeId": "A082",
     "value": "CanAll124",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
     "lookupValue": "canonicalAllele: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }"
   },
   {
-    "subjectId": "FamSegData076",
+    "subjectId": "FamSeg076",
     "attributeId": "A083",
     "value": "Fam011",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "family",
     "attributeType": "Family",
     "lookupValue": "family: { Family #011 }"
   },
   {
-    "subjectId": "FamSegData076",
+    "subjectId": "FamSeg076",
     "attributeId": "A084",
     "value": "0",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
     "lookupValue": "phenotypePositiveAllelePositive: 0"
   },
   {
-    "subjectId": "FamSegData076",
+    "subjectId": "FamSeg076",
     "attributeId": "A085",
     "value": "2",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypeNegativeAllelePositive",
     "attributeType": "int",
     "lookupValue": "phenotypeNegativeAllelePositive: 2"
   },
   {
-    "subjectId": "FamSegData076",
+    "subjectId": "FamSeg076",
     "attributeId": "A050",
     "value": "0",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypePositiveAlleleNegative",
     "attributeType": "int",
     "lookupValue": "phenotypePositiveAlleleNegative: 0"
   },
   {
-    "subjectId": "FamSegData076",
+    "subjectId": "FamSeg076",
     "attributeId": "A110",
     "value": "true",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "anyInconsistentSegregations",
     "attributeType": "boolean",
     "lookupValue": "anyInconsistentSegregations: true"
   },
   {
-    "subjectId": "RegAnn077",
+    "subjectId": "RegTyp077",
     "attributeId": "A063",
     "value": "Loc387",
-    "evidenceDataName": "RegionAnnotation",
+    "evidenceDataName": "RegionType",
     "attributeName": "region",
-    "attributeType": "Locus",
+    "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc387\""
   },
   {
-    "subjectId": "RegAnn077",
+    "subjectId": "RegTyp077",
     "attributeId": "A057",
-    "value": "CG-reg-anno-type:repeat",
-    "evidenceDataName": "RegionAnnotation",
+    "value": "CG-reg-type:repeat",
+    "evidenceDataName": "RegionType",
     "attributeName": "includedTypes",
     "attributeType": "Coding",
-    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
   },
   {
     "subjectId": "VarInterp078",
@@ -3905,7 +3905,7 @@
     "value": "Loc383",
     "evidenceDataName": "BenignMissenseVariationRate",
     "attributeName": "region",
-    "attributeType": "Locus",
+    "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc383\""
   },
   {
@@ -3918,163 +3918,163 @@
     "lookupValue": "value: { code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }"
   },
   {
-    "subjectId": "FamSegData103",
+    "subjectId": "FamSeg103",
     "attributeId": "A081",
     "value": "MendCond020",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
     "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
   },
   {
-    "subjectId": "FamSegData103",
+    "subjectId": "FamSeg103",
     "attributeId": "A082",
     "value": "CanAll063",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
     "lookupValue": "canonicalAllele: { NM_000256.3(MYBPC3)c.1351+1G>A }"
   },
   {
-    "subjectId": "FamSegData103",
+    "subjectId": "FamSeg103",
     "attributeId": "A083",
     "value": "Fam001",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "family",
     "attributeType": "Family",
     "lookupValue": "family: { Family #001 }"
   },
   {
-    "subjectId": "FamSegData103",
+    "subjectId": "FamSeg103",
     "attributeId": "A084",
     "value": 3.0,
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
     "lookupValue": "phenotypePositiveAllelePositive: 3"
   },
   {
-    "subjectId": "FamSegData103",
+    "subjectId": "FamSeg103",
     "attributeId": "A085",
     "value": 2.0,
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypeNegativeAllelePositive",
     "attributeType": "int",
     "lookupValue": "phenotypeNegativeAllelePositive: 2"
   },
   {
-    "subjectId": "FamSegData103",
+    "subjectId": "FamSeg103",
     "attributeId": "A119",
     "value": "Contrib481",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
     "lookupValue": "contribution: { Contrib481: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"9/13/16\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
-    "subjectId": "FamSegData103",
+    "subjectId": "FamSeg103",
     "attributeId": "A127",
     "value": "http://www.ncbi.nlm.nih.gov/pubmed/17081393",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "source",
     "attributeType": "String",
     "lookupValue": "source: \"http://www.ncbi.nlm.nih.gov/pubmed/17081393\""
   },
   {
-    "subjectId": "FamSegData104",
+    "subjectId": "FamSeg104",
     "attributeId": "A081",
     "value": "MendCond020",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
     "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
   },
   {
-    "subjectId": "FamSegData104",
+    "subjectId": "FamSeg104",
     "attributeId": "A082",
     "value": "CanAll063",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
     "lookupValue": "canonicalAllele: { NM_000256.3(MYBPC3)c.1351+1G>A }"
   },
   {
-    "subjectId": "FamSegData104",
+    "subjectId": "FamSeg104",
     "attributeId": "A083",
     "value": "Fam002",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "family",
     "attributeType": "Family",
     "lookupValue": "family: { Family #002 }"
   },
   {
-    "subjectId": "FamSegData104",
+    "subjectId": "FamSeg104",
     "attributeId": "A084",
     "value": 1.0,
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
     "lookupValue": "phenotypePositiveAllelePositive: 1"
   },
   {
-    "subjectId": "FamSegData104",
+    "subjectId": "FamSeg104",
     "attributeId": "A119",
     "value": "Contrib482",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "contribution",
     "attributeType": "Contribution",
     "lookupValue": "contribution: { Contrib482: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"9/13/16\", role: { coding: [{ code: \"curator\", display: \"curator\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } } }"
   },
   {
-    "subjectId": "FamSegData104",
+    "subjectId": "FamSeg104",
     "attributeId": "A127",
     "value": "http://partners.org/ppm/lmm/gi/variant/12345",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "source",
     "attributeType": "String",
     "lookupValue": "source: \"http://partners.org/ppm/lmm/gi/variant/12345\""
   },
   {
-    "subjectId": "AggSegData105",
+    "subjectId": "AggSeg105",
     "attributeId": "A087",
     "value": "MendCond020",
-    "evidenceDataName": "AggregateSegregationData",
+    "evidenceDataName": "AggregateSegregation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
     "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
   },
   {
-    "subjectId": "AggSegData105",
+    "subjectId": "AggSeg105",
     "attributeId": "A086",
     "value": "CanAll063",
-    "evidenceDataName": "AggregateSegregationData",
+    "evidenceDataName": "AggregateSegregation",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
     "lookupValue": "canonicalAllele: { NM_000256.3(MYBPC3)c.1351+1G>A }"
   },
   {
-    "subjectId": "AggSegData105",
+    "subjectId": "AggSeg105",
     "attributeId": "A089",
-    "value": "FamSegData103",
-    "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "familySegregationData",
-    "attributeType": "FamilySegregationData",
-    "lookupValue": "familySegregationData: \"FamSegData103\""
+    "value": "FamSeg103",
+    "evidenceDataName": "AggregateSegregation",
+    "attributeName": "familySegregation",
+    "attributeType": "FamilySegregation",
+    "lookupValue": "familySegregation: \"FamSeg103\""
   },
   {
-    "subjectId": "AggSegData105",
+    "subjectId": "AggSeg105",
     "attributeId": "A089",
-    "value": "FamSegData104",
-    "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "familySegregationData",
-    "attributeType": "FamilySegregationData",
-    "lookupValue": "familySegregationData: \"FamSegData104\""
+    "value": "FamSeg104",
+    "evidenceDataName": "AggregateSegregation",
+    "attributeName": "familySegregation",
+    "attributeType": "FamilySegregation",
+    "lookupValue": "familySegregation: \"FamSeg104\""
   },
   {
-    "subjectId": "AggSegData105",
+    "subjectId": "AggSeg105",
     "attributeId": "A088",
     "value": 4.0,
-    "evidenceDataName": "AggregateSegregationData",
+    "evidenceDataName": "AggregateSegregation",
     "attributeName": "totalNumberOfSegregations",
     "attributeType": "int",
     "lookupValue": "totalNumberOfSegregations: 4"
@@ -4125,109 +4125,109 @@
     "lookupValue": "alleleInheritance: { code: \"denovo\", display: \"de novo\", system: \"http://clinicalgenome.org/datamodel/allele-inheritance/\" }"
   },
   {
-    "subjectId": "FamSegData107",
+    "subjectId": "FamSeg107",
     "attributeId": "A081",
     "value": "MendCond021",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
     "lookupValue": "condition: { Usher syndrome, Autosomal Recessive }"
   },
   {
-    "subjectId": "FamSegData107",
+    "subjectId": "FamSeg107",
     "attributeId": "A082",
     "value": "CanAll062",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
     "lookupValue": "canonicalAllele: { NM_206933.2(USH2A):c.1000C>G (p.Arg334Gly) }"
   },
   {
-    "subjectId": "FamSegData107",
+    "subjectId": "FamSeg107",
     "attributeId": "A083",
     "value": "Fam003",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "family",
     "attributeType": "Family",
     "lookupValue": "family: { Family #003 }"
   },
   {
-    "subjectId": "FamSegData107",
+    "subjectId": "FamSeg107",
     "attributeId": "A084",
     "value": 5.0,
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
     "lookupValue": "phenotypePositiveAllelePositive: 5"
   },
   {
-    "subjectId": "FamSegData108",
+    "subjectId": "FamSeg108",
     "attributeId": "A081",
     "value": "MendCond021",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
     "lookupValue": "condition: { Usher syndrome, Autosomal Recessive }"
   },
   {
-    "subjectId": "FamSegData108",
+    "subjectId": "FamSeg108",
     "attributeId": "A082",
     "value": "CanAll062",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
     "lookupValue": "canonicalAllele: { NM_206933.2(USH2A):c.1000C>G (p.Arg334Gly) }"
   },
   {
-    "subjectId": "FamSegData108",
+    "subjectId": "FamSeg108",
     "attributeId": "A083",
     "value": "Fam004",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "family",
     "attributeType": "Family",
     "lookupValue": "family: { Family #004 }"
   },
   {
-    "subjectId": "AggSegData109",
+    "subjectId": "AggSeg109",
     "attributeId": "A087",
     "value": "MendCond021",
-    "evidenceDataName": "AggregateSegregationData",
+    "evidenceDataName": "AggregateSegregation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
     "lookupValue": "condition: { Usher syndrome, Autosomal Recessive }"
   },
   {
-    "subjectId": "AggSegData109",
+    "subjectId": "AggSeg109",
     "attributeId": "A086",
     "value": "CanAll062",
-    "evidenceDataName": "AggregateSegregationData",
+    "evidenceDataName": "AggregateSegregation",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
     "lookupValue": "canonicalAllele: { NM_206933.2(USH2A):c.1000C>G (p.Arg334Gly) }"
   },
   {
-    "subjectId": "AggSegData109",
+    "subjectId": "AggSeg109",
     "attributeId": "A089",
-    "value": "FamSegData107",
-    "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "familySegregationData",
-    "attributeType": "FamilySegregationData",
-    "lookupValue": "familySegregationData: \"FamSegData107\""
+    "value": "FamSeg107",
+    "evidenceDataName": "AggregateSegregation",
+    "attributeName": "familySegregation",
+    "attributeType": "FamilySegregation",
+    "lookupValue": "familySegregation: \"FamSeg107\""
   },
   {
-    "subjectId": "AggSegData109",
+    "subjectId": "AggSeg109",
     "attributeId": "A089",
-    "value": "FamSegData108",
-    "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "familySegregationData",
-    "attributeType": "FamilySegregationData",
-    "lookupValue": "familySegregationData: \"FamSegData108\""
+    "value": "FamSeg108",
+    "evidenceDataName": "AggregateSegregation",
+    "attributeName": "familySegregation",
+    "attributeType": "FamilySegregation",
+    "lookupValue": "familySegregation: \"FamSeg108\""
   },
   {
-    "subjectId": "AggSegData109",
+    "subjectId": "AggSeg109",
     "attributeId": "A088",
     "value": 8.0,
-    "evidenceDataName": "AggregateSegregationData",
+    "evidenceDataName": "AggregateSegregation",
     "attributeName": "totalNumberOfSegregations",
     "attributeType": "int",
     "lookupValue": "totalNumberOfSegregations: 8"
@@ -4260,37 +4260,37 @@
     "lookupValue": "hasCondition: true"
   },
   {
-    "subjectId": "FamSegData111",
+    "subjectId": "FamSeg111",
     "attributeId": "A081",
     "value": "MendCond051",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
     "lookupValue": "condition: { Breast Ovarian Cancer, Autosomal Dominant }"
   },
   {
-    "subjectId": "FamSegData111",
+    "subjectId": "FamSeg111",
     "attributeId": "A082",
     "value": "CanAll064",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
     "lookupValue": "canonicalAllele: { NM_000059.3(BRCA2):c.1832C>G }"
   },
   {
-    "subjectId": "FamSegData111",
+    "subjectId": "FamSeg111",
     "attributeId": "A083",
     "value": "Fam005",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "family",
     "attributeType": "Family",
     "lookupValue": "family: { Family #005 }"
   },
   {
-    "subjectId": "FamSegData111",
+    "subjectId": "FamSeg111",
     "attributeId": "A084",
     "value": 2.0,
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
     "lookupValue": "phenotypePositiveAllelePositive: 2"
@@ -4323,208 +4323,208 @@
     "lookupValue": "familyHasCondition: false"
   },
   {
-    "subjectId": "FamSegData113",
+    "subjectId": "FamSeg113",
     "attributeId": "A081",
     "value": "MendCond002",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
     "lookupValue": "condition: { dilated cardiomyopathy, Autosomal Dominant }"
   },
   {
-    "subjectId": "FamSegData113",
+    "subjectId": "FamSeg113",
     "attributeId": "A082",
     "value": "CanAll065",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
     "lookupValue": "canonicalAllele: { NM_001001430.2(TNNT2):c.629_631delAGA }"
   },
   {
-    "subjectId": "FamSegData113",
+    "subjectId": "FamSeg113",
     "attributeId": "A083",
     "value": "Fam006",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "family",
     "attributeType": "Family",
     "lookupValue": "family: { Family #006 }"
   },
   {
-    "subjectId": "FamSegData113",
+    "subjectId": "FamSeg113",
     "attributeId": "A084",
     "value": 1.0,
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
     "lookupValue": "phenotypePositiveAllelePositive: 1"
   },
   {
-    "subjectId": "FamSegData113",
+    "subjectId": "FamSeg113",
     "attributeId": "A085",
     "value": 1.0,
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypeNegativeAllelePositive",
     "attributeType": "int",
     "lookupValue": "phenotypeNegativeAllelePositive: 1"
   },
   {
-    "subjectId": "FamSegData113",
+    "subjectId": "FamSeg113",
     "attributeId": "A090",
     "value": "[“Family”,”Individual”,”Father”,”Mother”,”Sex”,”Affected”,”Genotype”]",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "columns",
     "attributeType": "String",
     "lookupValue": "columns: \"[“Family”,”Individual”,”Father”,”Mother”,”Sex”,”Affected”,”Genotype”]\""
   },
   {
-    "subjectId": "FamSegData113",
+    "subjectId": "FamSeg113",
     "attributeId": "A091",
     "value": "{1: “Unaffected”, 2: “Affected”, 3: “Any Cardiovascular Abnormality”}",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "affectedValues",
     "attributeType": "String",
     "lookupValue": "affectedValues: \"{1: “Unaffected”, 2: “Affected”, 3: “Any Cardiovascular Abnormality”}\""
   },
   {
-    "subjectId": "FamSegData113",
+    "subjectId": "FamSeg113",
     "attributeId": "A092",
     "value": "{0: “Unknown”,1:”Reference”, 2: CA65}",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "genotypeValues",
     "attributeType": "String",
     "lookupValue": "genotypeValues: \"{0: “Unknown”,1:”Reference”, 2: CA65}\""
   },
   {
-    "subjectId": "FamSegData113",
+    "subjectId": "FamSeg113",
     "attributeId": "A093",
     "value": "[[Fam006,Fam006.1,0,0,1,2,0/0],\n   [Fam006,Fam006.2,0,0,2,1,0/0],\n   [Fam006,Fam006.3,Fam006.1,Fam006.2,2,3,0/0],\n   [Fam006,Fam006.4,Fam006.1,Fam006.2,1,2,1/2],\n   [Fam006,Fam006.5,Fam006.1,Fam006.2,2,1,1/1],\n   [Fam006,Fam006.6,Fam006.1,Fam006.2,1,2,1/2]]",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "pedigree",
     "attributeType": "String",
     "lookupValue": "pedigree: \"[[Fam006,Fam006.1,0,0,1,2,0/0],\n   [Fam006,Fam006.2,0,0,2,1,0/0],\n   [Fam006,Fam006.3,Fam006.1,Fam006.2,2,3,0/0],\n   [Fam006,Fam006.4,Fam006.1,Fam006.2,1,2,1/2],\n   [Fam006,Fam006.5,Fam006.1,Fam006.2,2,1,1/1],\n   [Fam006,Fam006.6,Fam006.1,Fam006.2,1,2,1/2]]\""
   },
   {
-    "subjectId": "FamSegData114",
+    "subjectId": "FamSeg114",
     "attributeId": "A081",
     "value": "MendCond002",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
     "lookupValue": "condition: { dilated cardiomyopathy, Autosomal Dominant }"
   },
   {
-    "subjectId": "FamSegData114",
+    "subjectId": "FamSeg114",
     "attributeId": "A082",
     "value": "CanAll065",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
     "lookupValue": "canonicalAllele: { NM_001001430.2(TNNT2):c.629_631delAGA }"
   },
   {
-    "subjectId": "FamSegData114",
+    "subjectId": "FamSeg114",
     "attributeId": "A083",
     "value": "Fam007",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "family",
     "attributeType": "Family",
     "lookupValue": "family: { Family #007 }"
   },
   {
-    "subjectId": "FamSegData114",
+    "subjectId": "FamSeg114",
     "attributeId": "A084",
     "value": 2.0,
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
     "lookupValue": "phenotypePositiveAllelePositive: 2"
   },
   {
-    "subjectId": "FamSegData114",
+    "subjectId": "FamSeg114",
     "attributeId": "A085",
     "value": 3.0,
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypeNegativeAllelePositive",
     "attributeType": "int",
     "lookupValue": "phenotypeNegativeAllelePositive: 3"
   },
   {
-    "subjectId": "FamSegData114",
+    "subjectId": "FamSeg114",
     "attributeId": "A090",
     "value": "[“Family”,”Individual”,”Father”,”Mother”,”Sex”,”Affected”,”Genotype”,”ObligateGenotype”]",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "columns",
     "attributeType": "String",
     "lookupValue": "columns: \"[“Family”,”Individual”,”Father”,”Mother”,”Sex”,”Affected”,”Genotype”,”ObligateGenotype”]\""
   },
   {
-    "subjectId": "FamSegData114",
+    "subjectId": "FamSeg114",
     "attributeId": "A091",
     "value": "{1: “Unaffected”, 2: “Affected”, 3: “Any Cardiovascular Abnormality”}",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "affectedValues",
     "attributeType": "String",
     "lookupValue": "affectedValues: \"{1: “Unaffected”, 2: “Affected”, 3: “Any Cardiovascular Abnormality”}\""
   },
   {
-    "subjectId": "FamSegData114",
+    "subjectId": "FamSeg114",
     "attributeId": "A092",
     "value": "{0: “Unknown”,1:”Reference”, 2: CA65}",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "genotypeValues",
     "attributeType": "String",
     "lookupValue": "genotypeValues: \"{0: “Unknown”,1:”Reference”, 2: CA65}\""
   },
   {
-    "subjectId": "FamSegData114",
+    "subjectId": "FamSeg114",
     "attributeId": "A093",
     "value": "[[Fam007, Fam007.1, 0, 0, 1, 3, 0/0, 0],\n   [Fam007, Fam007.2, 0, 0, 2, 1, 0/0, 0],\n   [Fam007, Fam007.3, 0, 0, 1, 3, 0/0, 0],\n   [Fam007, Fam007.4, 0, 0, 2, 1, 0/0, 0],\n   [Fam007, Fam007.5, 0, 0, 1, 3, 0/0, 0],\n   [Fam007, Fam007.6, Fam007.1, Fam007.2, 2, 3, 1/2, 1],\n   [Fam007, Fam007.7,0, 0, 1, 1, 0/0, 0],\n   [Fam007, Fam007.8, Fam007.1, Fam007.2, 2, 1, 1/2, 1],\n   [Fam007, Fam007.9,Fam007.3, Fam007.4, 1, 1, 0/0, 0],\n   [Fam007, Fam007.10, 0, 0, 1, 1, 0/0, 0],\n   [Fam007, Fam007.11, Fam007.5, Fam007.6, 2, 2, 1/2, 0],\n   [Fam007, Fam007.12, Fam007.5, Fam007.6, 1,2, 0/0, 0],\n   [Fam007, Fam007.13, Fam007.5, Fam007.6, 2,1, 1/1,0],\n   [Fam007, Fam007.14, Fam007.5, Fam007.6, 1, 1, 1/1, 0],\n   [Fam007, Fam007.15, Fam007.7, Fam007.8, 1, 2, 1/2, 0],\n   [Fam007, Fam007.16, Fam007.8, Fam007.9, 1, 2, 1/2, 0],\n   [Fam007, Fam007.17, Fam007.8, Fam007.9, 1, 2, 0/0,0],\n   [Fam007, Fam007.18, Fam007.8, Fam007.9, 1, 2, 0/0, 0],\n   [Fam007, Fam007.19, Fam007.10, Fam007.11, 1, 2, 0/0,0],\n   [Fam007.20,Fam007.10, Fam007.11, 1,1,1/1,0]]",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "pedigree",
     "attributeType": "String",
     "lookupValue": "pedigree: \"[[Fam007, Fam007.1, 0, 0, 1, 3, 0/0, 0],\n   [Fam007, Fam007.2, 0, 0, 2, 1, 0/0, 0],\n   [Fam007, Fam007.3, 0, 0, 1, 3, 0/0, 0],\n   [Fam007, Fam007.4, 0, 0, 2, 1, 0/0, 0],\n   [Fam007, Fam007.5, 0, 0, 1, 3, 0/0, 0],\n   [Fam007, Fam007.6, Fam007.1, Fam007.2, 2, 3, 1/2, 1],\n   [Fam007, Fam007.7,0, 0, 1, 1, 0/0, 0],\n   [Fam007, Fam007.8, Fam007.1, Fam007.2, 2, 1, 1/2, 1],\n   [Fam007, Fam007.9,Fam007.3, Fam007.4, 1, 1, 0/0, 0],\n   [Fam007, Fam007.10, 0, 0, 1, 1, 0/0, 0],\n   [Fam007, Fam007.11, Fam007.5, Fam007.6, 2, 2, 1/2, 0],\n   [Fam007, Fam007.12, Fam007.5, Fam007.6, 1,2, 0/0, 0],\n   [Fam007, Fam007.13, Fam007.5, Fam007.6, 2,1, 1/1,0],\n   [Fam007, Fam007.14, Fam007.5, Fam007.6, 1, 1, 1/1, 0],\n   [Fam007, Fam007.15, Fam007.7, Fam007.8, 1, 2, 1/2, 0],\n   [Fam007, Fam007.16, Fam007.8, Fam007.9, 1, 2, 1/2, 0],\n   [Fam007, Fam007.17, Fam007.8, Fam007.9, 1, 2, 0/0,0],\n   [Fam007, Fam007.18, Fam007.8, Fam007.9, 1, 2, 0/0, 0],\n   [Fam007, Fam007.19, Fam007.10, Fam007.11, 1, 2, 0/0,0],\n   [Fam007.20,Fam007.10, Fam007.11, 1,1,1/1,0]]\""
   },
   {
-    "subjectId": "AggSegData115",
+    "subjectId": "AggSeg115",
     "attributeId": "A086",
     "value": "CanAll065",
-    "evidenceDataName": "AggregateSegregationData",
+    "evidenceDataName": "AggregateSegregation",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
     "lookupValue": "canonicalAllele: { NM_001001430.2(TNNT2):c.629_631delAGA }"
   },
   {
-    "subjectId": "AggSegData115",
+    "subjectId": "AggSeg115",
     "attributeId": "A087",
     "value": "MendCond002",
-    "evidenceDataName": "AggregateSegregationData",
+    "evidenceDataName": "AggregateSegregation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
     "lookupValue": "condition: { dilated cardiomyopathy, Autosomal Dominant }"
   },
   {
-    "subjectId": "AggSegData115",
+    "subjectId": "AggSeg115",
     "attributeId": "A089",
-    "value": "FamSegData113",
-    "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "familySegregationData",
-    "attributeType": "FamilySegregationData",
-    "lookupValue": "familySegregationData: \"FamSegData113\""
+    "value": "FamSeg113",
+    "evidenceDataName": "AggregateSegregation",
+    "attributeName": "familySegregation",
+    "attributeType": "FamilySegregation",
+    "lookupValue": "familySegregation: \"FamSeg113\""
   },
   {
-    "subjectId": "AggSegData115",
+    "subjectId": "AggSeg115",
     "attributeId": "A089",
-    "value": "FamSegData114",
-    "evidenceDataName": "AggregateSegregationData",
-    "attributeName": "familySegregationData",
-    "attributeType": "FamilySegregationData",
-    "lookupValue": "familySegregationData: \"FamSegData114\""
+    "value": "FamSeg114",
+    "evidenceDataName": "AggregateSegregation",
+    "attributeName": "familySegregation",
+    "attributeType": "FamilySegregation",
+    "lookupValue": "familySegregation: \"FamSeg114\""
   },
   {
-    "subjectId": "AggSegData115",
+    "subjectId": "AggSeg115",
     "attributeId": "A088",
     "value": 9.0,
-    "evidenceDataName": "AggregateSegregationData",
+    "evidenceDataName": "AggregateSegregation",
     "attributeName": "totalNumberOfSegregations",
     "attributeType": "int",
     "lookupValue": "totalNumberOfSegregations: 9"
@@ -7197,7 +7197,7 @@
     "subjectId": "Func192",
     "attributeId": "A026",
     "value": "Unchanged from reference",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "result",
     "attributeType": "String",
     "lookupValue": "result: \"Unchanged from reference\""
@@ -7206,16 +7206,16 @@
     "subjectId": "Func192",
     "attributeId": "A027",
     "value": "CC134",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"iodeff\", display: \"iodide efflux\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
+    "lookupValue": "dataType: { coding: [{ code: \"iodeff\", display: \"iodide efflux\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
   },
   {
     "subjectId": "Func192",
     "attributeId": "A028",
     "value": "CtxAll092",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "contextualAllele: { NP_000432..1:p.Leu117Phe }"
@@ -7224,7 +7224,7 @@
     "subjectId": "Func192",
     "attributeId": "A029",
     "value": "hgnc:SLC26A4",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "gene",
     "attributeType": "Gene",
     "lookupValue": "gene: { SLC26A4 }"
@@ -7233,7 +7233,7 @@
     "subjectId": "Func193",
     "attributeId": "A026",
     "value": "localized to apical membrane",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "result",
     "attributeType": "String",
     "lookupValue": "result: \"localized to apical membrane\""
@@ -7242,16 +7242,16 @@
     "subjectId": "Func193",
     "attributeId": "A027",
     "value": "CC135",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"celloc\", display: \"cellular localization\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
+    "lookupValue": "dataType: { coding: [{ code: \"celloc\", display: \"cellular localization\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
   },
   {
     "subjectId": "Func193",
     "attributeId": "A028",
     "value": "CtxAll092",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "contextualAllele: { NP_000432..1:p.Leu117Phe }"
@@ -7260,7 +7260,7 @@
     "subjectId": "Func193",
     "attributeId": "A029",
     "value": "hgnc:SLC26A4",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "gene",
     "attributeType": "Gene",
     "lookupValue": "gene: { SLC26A4 }"
@@ -7269,7 +7269,7 @@
     "subjectId": "Func194",
     "attributeId": "A026",
     "value": "Unchanged from reference",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "result",
     "attributeType": "String",
     "lookupValue": "result: \"Unchanged from reference\""
@@ -7278,16 +7278,16 @@
     "subjectId": "Func194",
     "attributeId": "A027",
     "value": "CC136",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"neuritegrowth\", display: \"neurite outgrowth\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
+    "lookupValue": "dataType: { coding: [{ code: \"neuritegrowth\", display: \"neurite outgrowth\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
   },
   {
     "subjectId": "Func194",
     "attributeId": "A028",
     "value": "CtxAll093",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "contextualAllele: { NM_152594.2(SPRED1): c.587C>T }"
@@ -7296,7 +7296,7 @@
     "subjectId": "Func194",
     "attributeId": "A029",
     "value": "hgnc:SPRED1",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "gene",
     "attributeType": "Gene",
     "lookupValue": "gene: { SPRED1 }"
@@ -7305,7 +7305,7 @@
     "subjectId": "Func195",
     "attributeId": "A026",
     "value": "localized to apical membrane",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "result",
     "attributeType": "String",
     "lookupValue": "result: \"localized to apical membrane\""
@@ -7314,16 +7314,16 @@
     "subjectId": "Func195",
     "attributeId": "A027",
     "value": "CC137",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "dataType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"elk1phosvialucif\", display: \"Elk1 pohsphorylation via luciferase assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }"
+    "lookupValue": "dataType: { coding: [{ code: \"elk1phosvialucif\", display: \"Elk1 pohsphorylation via luciferase assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
   },
   {
     "subjectId": "Func195",
     "attributeId": "A028",
     "value": "CtxAll093",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
     "lookupValue": "contextualAllele: { NM_152594.2(SPRED1): c.587C>T }"
@@ -7332,115 +7332,115 @@
     "subjectId": "Func195",
     "attributeId": "A029",
     "value": "hgnc:SPRED1",
-    "evidenceDataName": "FunctionalData",
+    "evidenceDataName": "AlleleFunctionalImpact",
     "attributeName": "gene",
     "attributeType": "Gene",
     "lookupValue": "gene: { SPRED1 }"
   },
   {
-    "subjectId": "FamSegData196",
+    "subjectId": "FamSeg196",
     "attributeId": "A081",
     "value": "MendCond035",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
     "lookupValue": "condition: { Hypercholesterolemia, Familial, Autosomal Dominant }"
   },
   {
-    "subjectId": "FamSegData196",
+    "subjectId": "FamSeg196",
     "attributeId": "A082",
     "value": "CanAll088",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
     "lookupValue": "canonicalAllele: { NM_000527.4(LDLR):c.313+2T>C }"
   },
   {
-    "subjectId": "FamSegData196",
+    "subjectId": "FamSeg196",
     "attributeId": "A083",
     "value": "Fam008",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "family",
     "attributeType": "Family",
     "lookupValue": "family: { Family #008 }"
   },
   {
-    "subjectId": "FamSegData196",
+    "subjectId": "FamSeg196",
     "attributeId": "A084",
     "value": 0.0,
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
     "lookupValue": "phenotypePositiveAllelePositive: 0"
   },
   {
-    "subjectId": "FamSegData196",
+    "subjectId": "FamSeg196",
     "attributeId": "A050",
     "value": 2.0,
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypePositiveAlleleNegative",
     "attributeType": "int",
     "lookupValue": "phenotypePositiveAlleleNegative: 2"
   },
   {
-    "subjectId": "FamSegData196",
+    "subjectId": "FamSeg196",
     "attributeId": "A110",
     "value": "true",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "anyInconsistentSegregations",
     "attributeType": "boolean",
     "lookupValue": "anyInconsistentSegregations: true"
   },
   {
-    "subjectId": "FamSegData197",
+    "subjectId": "FamSeg197",
     "attributeId": "A081",
     "value": "MendCond065",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
     "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
   },
   {
-    "subjectId": "FamSegData197",
+    "subjectId": "FamSeg197",
     "attributeId": "A082",
     "value": "CanAll089",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
     "lookupValue": "canonicalAllele: { NM_000256.3(MYBPC3):c.1624+4A>T }"
   },
   {
-    "subjectId": "FamSegData197",
+    "subjectId": "FamSeg197",
     "attributeId": "A083",
     "value": "Fam009",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "family",
     "attributeType": "Family",
     "lookupValue": "family: { Family #009 }"
   },
   {
-    "subjectId": "FamSegData197",
+    "subjectId": "FamSeg197",
     "attributeId": "A084",
     "value": 3.0,
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
     "lookupValue": "phenotypePositiveAllelePositive: 3"
   },
   {
-    "subjectId": "FamSegData197",
+    "subjectId": "FamSeg197",
     "attributeId": "A050",
     "value": 1.0,
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypePositiveAlleleNegative",
     "attributeType": "int",
     "lookupValue": "phenotypePositiveAlleleNegative: 1"
   },
   {
-    "subjectId": "FamSegData197",
+    "subjectId": "FamSeg197",
     "attributeId": "A110",
     "value": "true",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "anyInconsistentSegregations",
     "attributeType": "boolean",
     "lookupValue": "anyInconsistentSegregations: true"
@@ -8058,31 +8058,31 @@
     "lookupValue": "penetrance: { coding: [{ code: \"0003829\", display: \"Incomplete\", system: \"http://human-phenotype-ontology.github.io/\" }] }"
   },
   {
-    "subjectId": "RegAnn220",
+    "subjectId": "RegTyp220",
     "attributeId": "A063",
     "value": "Loc390",
-    "evidenceDataName": "RegionAnnotation",
+    "evidenceDataName": "RegionType",
     "attributeName": "region",
-    "attributeType": "Locus",
+    "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc390\""
   },
   {
-    "subjectId": "RegAnn220",
+    "subjectId": "RegTyp220",
     "attributeId": "A056",
-    "value": "CG-reg-anno-type:functional",
-    "evidenceDataName": "RegionAnnotation",
+    "value": "CG-reg-type:functional",
+    "evidenceDataName": "RegionType",
     "attributeName": "excludedTypes",
     "attributeType": "Coding",
-    "lookupValue": "excludedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "excludedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
   },
   {
-    "subjectId": "RegAnn220",
+    "subjectId": "RegTyp220",
     "attributeId": "A057",
-    "value": "CG-reg-anno-type:repeat",
-    "evidenceDataName": "RegionAnnotation",
+    "value": "CG-reg-type:repeat",
+    "evidenceDataName": "RegionType",
     "attributeName": "includedTypes",
     "attributeType": "Coding",
-    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
   },
   {
     "subjectId": "MolCon223",
@@ -8103,22 +8103,22 @@
     "lookupValue": "contextualAllele: { NM_001271208.1(NEB):c.169_183delCTGGCACAGCCAGCA }"
   },
   {
-    "subjectId": "RegAnn225",
+    "subjectId": "RegTyp225",
     "attributeId": "A063",
     "value": "Loc392",
-    "evidenceDataName": "RegionAnnotation",
+    "evidenceDataName": "RegionType",
     "attributeName": "region",
-    "attributeType": "Locus",
+    "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc392\""
   },
   {
-    "subjectId": "RegAnn225",
+    "subjectId": "RegTyp225",
     "attributeId": "A057",
-    "value": "CG-reg-anno-type:repeat",
-    "evidenceDataName": "RegionAnnotation",
+    "value": "CG-reg-type:repeat",
+    "evidenceDataName": "RegionType",
     "attributeName": "includedTypes",
     "attributeType": "Coding",
-    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
   },
   {
     "subjectId": "MolCon227",
@@ -8139,22 +8139,22 @@
     "lookupValue": "contextualAllele: { NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC }"
   },
   {
-    "subjectId": "RegAnn229",
+    "subjectId": "RegTyp229",
     "attributeId": "A063",
     "value": "Loc394",
-    "evidenceDataName": "RegionAnnotation",
+    "evidenceDataName": "RegionType",
     "attributeName": "region",
-    "attributeType": "Locus",
+    "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc394\""
   },
   {
-    "subjectId": "RegAnn229",
+    "subjectId": "RegTyp229",
     "attributeId": "A057",
-    "value": "CG-reg-anno-type:repeat",
-    "evidenceDataName": "RegionAnnotation",
+    "value": "CG-reg-type:repeat",
+    "evidenceDataName": "RegionType",
     "attributeName": "includedTypes",
     "attributeType": "Coding",
-    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" }"
+    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
   },
   {
     "subjectId": "MolCon231",
@@ -9471,55 +9471,55 @@
     "lookupValue": "clinicalSignificance: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }"
   },
   {
-    "subjectId": "FamSegData271",
+    "subjectId": "FamSeg271",
     "attributeId": "A081",
     "value": "MendCond066",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "condition",
     "attributeType": "MendelianCondition",
     "lookupValue": "condition: { hypertrophic cardiomyopathy, Autosomal Dominant }"
   },
   {
-    "subjectId": "FamSegData271",
+    "subjectId": "FamSeg271",
     "attributeId": "A082",
     "value": "CanAll090",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
     "lookupValue": "canonicalAllele: { NM_001103.3(ACTN2):c.1484C>T (p.Thr495Met) }"
   },
   {
-    "subjectId": "FamSegData271",
+    "subjectId": "FamSeg271",
     "attributeId": "A083",
     "value": "Fam010",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "family",
     "attributeType": "Family",
     "lookupValue": "family: { Family #010 }"
   },
   {
-    "subjectId": "FamSegData271",
+    "subjectId": "FamSeg271",
     "attributeId": "A084",
     "value": 0.0,
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypePositiveAllelePositive",
     "attributeType": "int",
     "lookupValue": "phenotypePositiveAllelePositive: 0"
   },
   {
-    "subjectId": "FamSegData271",
+    "subjectId": "FamSeg271",
     "attributeId": "A050",
     "value": 2.0,
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "phenotypePositiveAlleleNegative",
     "attributeType": "int",
     "lookupValue": "phenotypePositiveAlleleNegative: 2"
   },
   {
-    "subjectId": "FamSegData271",
+    "subjectId": "FamSeg271",
     "attributeId": "A110",
     "value": "true",
-    "evidenceDataName": "FamilySegregationData",
+    "evidenceDataName": "FamilySegregation",
     "attributeName": "anyInconsistentSegregations",
     "attributeType": "boolean",
     "lookupValue": "anyInconsistentSegregations: true"
@@ -15001,7 +15001,7 @@
     "value": "Loc379",
     "evidenceDataName": "RegionAlleles",
     "attributeName": "region",
-    "attributeType": "Locus",
+    "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc379\""
   },
   {
@@ -15046,7 +15046,7 @@
     "value": "Loc381",
     "evidenceDataName": "RegionAlleles",
     "attributeName": "region",
-    "attributeType": "Locus",
+    "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc381\""
   },
   {
@@ -15091,7 +15091,7 @@
     "value": "Loc383",
     "evidenceDataName": "RegionAlleles",
     "attributeName": "region",
-    "attributeType": "Locus",
+    "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc383\""
   },
   {
@@ -15292,7 +15292,7 @@
     "value": "Loc390",
     "evidenceDataName": "RegionAlleles",
     "attributeName": "region",
-    "attributeType": "Locus",
+    "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc390\""
   },
   {
@@ -15337,7 +15337,7 @@
     "value": "Loc392",
     "evidenceDataName": "RegionAlleles",
     "attributeName": "region",
-    "attributeType": "Locus",
+    "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc392\""
   },
   {
@@ -15382,7 +15382,7 @@
     "value": "Loc394",
     "evidenceDataName": "RegionAlleles",
     "attributeName": "region",
-    "attributeType": "Locus",
+    "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc394\""
   },
   {

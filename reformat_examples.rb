@@ -62,7 +62,7 @@ class DMWGExampleData
       end
       @types[e_id]['attributes'] = @entity2attributes[e_id]
       if @flattened.key? e_name then
-        # full fledged table for this entity (not a Information subtype)
+        # full fledged table for this entity (not a Statement subtype)
         @flattened[e_name].each do |id, rec|
           ex = @id2example[id] ||= {}
           ex['id'] = id
@@ -72,8 +72,8 @@ class DMWGExampleData
       end
     end
 
-    # need to fix the types for Information subclasses
-    @flattened['Information'].each do |d_id, d_rec|
+    # need to fix the types for Statement subclasses
+    @flattened['Statement'].each do |d_id, d_rec|
       begin
         @id2example[d_id]['type'] = @flattened['Type'][d_rec['entityTypeId']]['name']
       rescue
@@ -82,7 +82,7 @@ class DMWGExampleData
     end
 
     # Now for the "join tables". Ugly hard-coding here
-    ['_InformationAttribute',
+    ['_StatementAttribute',
      '_EvidenceLineAttribute',
      '_AgentAttribute',
      '_MendelianConditionAttribute',

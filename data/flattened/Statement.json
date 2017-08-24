@@ -114,38 +114,38 @@
   "Func021": {
     "id": "Func021",
     "entityTypeId": "E20",
-    "thumbnail": "Func021: { result: \"the mutation lowered the Ca2+  affinity of the reconstituted thin filaments;\", dataType: { coding: [{ code: \"binding\", display: \"Binding assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
+    "thumbnail": "Func021: { result: \"the mutation lowered the Ca2+  affinity of the reconstituted thin filaments;\", dataType: { coding: [{ code: \"binding\", display: \"Binding assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
   },
   "Func022": {
     "id": "Func022",
     "entityTypeId": "E20",
-    "thumbnail": "Func022: { result: \"reduced Ca2 sensitivity of activation\", dataType: { coding: [{ code: \"atpase\", display: \"ATPase assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
+    "thumbnail": "Func022: { result: \"reduced Ca2 sensitivity of activation\", dataType: { coding: [{ code: \"atpase\", display: \"ATPase assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
   },
   "Func023": {
     "id": "Func023",
     "entityTypeId": "E20",
-    "thumbnail": "Func023: { result: \"reduced Ca2 sensitivity of activation\", dataType: { coding: [{ code: \"motility\", display: \"motility assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
+    "thumbnail": "Func023: { result: \"reduced Ca2 sensitivity of activation\", dataType: { coding: [{ code: \"motility\", display: \"motility assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
   },
   "Func024": {
     "id": "Func024",
     "entityTypeId": "E20",
-    "thumbnail": "Func024: { result: \"desensitized Ca2+ binding to the thin filament.\", dataType: { coding: [{ code: \"binding\", display: \"Binding assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
+    "thumbnail": "Func024: { result: \"desensitized Ca2+ binding to the thin filament.\", dataType: { coding: [{ code: \"binding\", display: \"Binding assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }, contextualAllele: { NP_001001431.1:p.Arg131Trp }, gene: { TNNT2 } }"
   },
   "Func025": {
     "id": "Func025",
     "entityTypeId": "E20",
     "explanation": "Expression of human SPG7 (with this mutation) in yeast with damaged m-AAA protease did not restore respiratory growth or MrpL32 processing, if the function of AFG3L2 was impaired.",
-    "thumbnail": "Func025: { result: \"Functionally Damaging\", dataType: { coding: [{ code: \"yeastcomp\", display: \"Yeast complementation assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NM_003119.2 (SPG7):c.1529C>T }, gene: { SPG7 } }"
+    "thumbnail": "Func025: { result: \"Functionally Damaging\", dataType: { coding: [{ code: \"yeastcomp\", display: \"Yeast complementation assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }, contextualAllele: { NM_003119.2 (SPG7):c.1529C>T }, gene: { SPG7 } }"
   },
   "Func026": {
     "id": "Func026",
     "entityTypeId": "E20",
-    "thumbnail": "Func026: { result: \"abnormal/deceased MEK activtation.\", dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_004324.2:p.Gly596Val }, gene: { BRAF }, gene: { MEK } }"
+    "thumbnail": "Func026: { result: \"abnormal/deceased MEK activtation.\", dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }, contextualAllele: { NP_004324.2:p.Gly596Val }, gene: { BRAF }, gene: { MEK } }"
   },
   "Func027": {
     "id": "Func027",
     "entityTypeId": "E20",
-    "thumbnail": "Func027: { result: \"abnormal/deceased ERK activtation.\", dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_004324.2:p.Gly596Val }, gene: { BRAF }, gene: { ERK } }"
+    "thumbnail": "Func027: { result: \"abnormal/deceased ERK activtation.\", dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }, contextualAllele: { NP_004324.2:p.Gly596Val }, gene: { BRAF }, gene: { ERK } }"
   },
   "AllFreq028": {
     "id": "AllFreq028",
@@ -211,11 +211,11 @@
     "entityTypeId": "E49",
     "thumbnail": "CondPrev039: { condition: { Hearing Loss }, minimum: 1/500, maximum: 1/300, population: { coding: [{ code: \"overall\", display: \"Overall\", system: \"http://clinicalgenome.org/datamodel/population-type/\" }] } }"
   },
-  "RegAnn040": {
-    "id": "RegAnn040",
+  "RegTyp040": {
+    "id": "RegTyp040",
     "entityTypeId": "E24",
     "explanation": "This region is the catalytic (kinase) domain.",
-    "thumbnail": "RegAnn040: { region: \"Loc379\", includedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
+    "thumbnail": "RegTyp040: { region: \"Loc379\", includedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-type/\" } }"
   },
   "VarInterp041": {
     "id": "VarInterp041",
@@ -229,11 +229,11 @@
     "explanation": "Uncertain Sig(not specified) NM_000363.4(TNNI3):c.484C>T (p.Arg162Trp)",
     "thumbnail": "VarInterp042: { variant: { NM_000363.4(TNNI3):c.484C>T }, clinicalSignificance: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" } }"
   },
-  "RegAnn043": {
-    "id": "RegAnn043",
+  "RegTyp043": {
+    "id": "RegTyp043",
     "entityTypeId": "E24",
     "explanation": "This region is exon 15 in the transcript, and codes the serine-threonine-protein kinase catalytic domain.",
-    "thumbnail": "RegAnn043: { region: \"Loc381\", includedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
+    "thumbnail": "RegTyp043: { region: \"Loc381\", includedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-type/\" } }"
   },
   "VarInterp044": {
     "id": "VarInterp044",
@@ -247,11 +247,11 @@
     "explanation": "The c.631-2A>G variant in DSC2 has been reported in 1 Caucasian individual with ARVC (Heuser 2006). This variant has also been identified by our laboratory in 2 individuals (1 with ARVC and 1 with LVNC). This variant has been reported in 1/66564 European chromosomes by the Exome Aggregation Consortium (ExAC, http://exac.broadinstitute.org; dbSNP rs397514042). This variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006). Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/). In summary, although additional studies are required to fully establish its clinical significance, the c.631-2A>G variant is likely pathogenic.",
     "thumbnail": "VarInterp045: { variant: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, condition: { arrhythmogenic right ventricular cardiomyopathy, Autosomal Dominant }, clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" } }"
   },
-  "RegAnn046": {
-    "id": "RegAnn046",
+  "RegTyp046": {
+    "id": "RegTyp046",
     "entityTypeId": "E24",
     "explanation": "Region(NM_0001692[996..1012]) is a mutational hotspot.",
-    "thumbnail": "RegAnn046: { region: \"Loc383\", includedTypes: { code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
+    "thumbnail": "RegTyp046: { region: \"Loc383\", includedTypes: { code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-type/\" } }"
   },
   "VarInterp047": {
     "id": "VarInterp047",
@@ -362,7 +362,7 @@
     "id": "Func067",
     "entityTypeId": "E20",
     "explanation": "PMID: 23487764",
-    "thumbnail": "Func067: { result: \"increased ERK activtation\", dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, gene: { ERK }, gene: { SOS1 } }"
+    "thumbnail": "Func067: { result: \"increased ERK activtation\", dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }, contextualAllele: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, gene: { ERK }, gene: { SOS1 } }"
   },
   "InSilicoPred068": {
     "id": "InSilicoPred068",
@@ -370,11 +370,11 @@
     "explanation": "Provenance would show that this comes from Alamut",
     "thumbnail": "InSilicoPred068: { transcript: { NM_000257.2 }, predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] } }"
   },
-  "RegAnn069": {
-    "id": "RegAnn069",
+  "RegTyp069": {
+    "id": "RegTyp069",
     "entityTypeId": "E24",
     "explanation": "This is not a repreating region.",
-    "thumbnail": "RegAnn069: { region: \"Loc385\", includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
+    "thumbnail": "RegTyp069: { region: \"Loc385\", includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-type/\" } }"
   },
   "MolCon070": {
     "id": "MolCon070",
@@ -391,11 +391,11 @@
     "entityTypeId": "E51",
     "thumbnail": "Conserv072: { conserved: false, algorithm: \"PhastCons\", score: 0.63 }"
   },
-  "RegAnn073": {
-    "id": "RegAnn073",
+  "RegTyp073": {
+    "id": "RegTyp073",
     "entityTypeId": "E24",
     "explanation": "NP_056375.2[35..43] is not repeating.",
-    "thumbnail": "RegAnn073: { region: \"Loc386\" }"
+    "thumbnail": "RegTyp073: { region: \"Loc386\" }"
   },
   "MolCon074": {
     "id": "MolCon074",
@@ -407,16 +407,16 @@
     "entityTypeId": "E02",
     "thumbnail": "MolCon075: { consequence: { coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }] } }"
   },
-  "FamSegData076": {
-    "id": "FamSegData076",
+  "FamSeg076": {
+    "id": "FamSeg076",
     "entityTypeId": "E45",
-    "thumbnail": "FamSegData076: { condition: { noonan syndrome, Autosomal Dominant }, family: { Family #011 }, phenotypePositiveAllelePositive: 0, phenotypeNegativeAllelePositive: 2 }"
+    "thumbnail": "FamSeg076: { condition: { noonan syndrome, Autosomal Dominant }, family: { Family #011 }, phenotypePositiveAllelePositive: 0, phenotypeNegativeAllelePositive: 2 }"
   },
-  "RegAnn077": {
-    "id": "RegAnn077",
+  "RegTyp077": {
+    "id": "RegTyp077",
     "entityTypeId": "E24",
     "explanation": "NP_003915.2[241..260] is repeating.",
-    "thumbnail": "RegAnn077: { region: \"Loc387\", includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
+    "thumbnail": "RegTyp077: { region: \"Loc387\", includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-type/\" } }"
   },
   "VarInterp078": {
     "id": "VarInterp078",
@@ -547,74 +547,74 @@
     "explanation": "ClinVar shows no benign missense variants in (or near) this region.  The closest is NM_000169.2:c.8T>C",
     "thumbnail": "BMVR102: { region: \"Loc383\", value: { code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" } }"
   },
-  "FamSegData103": {
-    "id": "FamSegData103",
+  "FamSeg103": {
+    "id": "FamSeg103",
     "entityTypeId": "E45",
     "explanation": "identified in 1 individual with HCM. Segregation analysis determined 5 other members of the family also carried this variant. However, only 3 of those family members had HCM (aged 48-75). The 2 other family members were young and asymptomatic. So from this paper, only count 3 segregations. The two apparently refuting segregations can be ignored due to the age-dependent penetrance of HCM.",
-    "thumbnail": "FamSegData103: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, family: { Family #001 }, phenotypePositiveAllelePositive: 3, phenotypeNegativeAllelePositive: 2 }"
+    "thumbnail": "FamSeg103: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, family: { Family #001 }, phenotypePositiveAllelePositive: 3, phenotypeNegativeAllelePositive: 2 }"
   },
-  "FamSegData104": {
-    "id": "FamSegData104",
+  "FamSeg104": {
+    "id": "FamSeg104",
     "entityTypeId": "E45",
     "explanation": "In LMM internal family, c.1351+1G>A was identified in 1 individual with HCM. Variant also found in individual’s sister - who also had clinical dx of HCM.",
-    "thumbnail": "FamSegData104: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, family: { Family #002 }, phenotypePositiveAllelePositive: 1 }"
+    "thumbnail": "FamSeg104: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, family: { Family #002 }, phenotypePositiveAllelePositive: 1 }"
   },
-  "AggSegData105": {
-    "id": "AggSegData105",
+  "AggSeg105": {
+    "id": "AggSeg105",
     "entityTypeId": "E46",
-    "thumbnail": "AggSegData105: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, familySegregationData: \"FamSegData103\", familySegregationData: \"FamSegData104\", totalNumberOfSegregations: 4 }"
+    "thumbnail": "AggSeg105: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, familySegregation: \"FamSeg103\", familySegregation: \"FamSeg104\", totalNumberOfSegregations: 4 }"
   },
   "DeNovo106": {
     "id": "DeNovo106",
     "entityTypeId": "E19",
     "thumbnail": "DeNovo106: { individual: \"Indiv03\", maternityConfirmed: false, paternityConfirmed: false }"
   },
-  "FamSegData107": {
-    "id": "FamSegData107",
+  "FamSeg107": {
+    "id": "FamSeg107",
     "entityTypeId": "E45",
     "explanation": "proband and 5 affected family members all homozygous for NM_206933.2(USH2A):c.1000C>G (p.Arg334Gly).",
-    "thumbnail": "FamSegData107: { condition: { Usher syndrome, Autosomal Recessive }, family: { Family #003 }, phenotypePositiveAllelePositive: 5 }"
+    "thumbnail": "FamSeg107: { condition: { Usher syndrome, Autosomal Recessive }, family: { Family #003 }, phenotypePositiveAllelePositive: 5 }"
   },
-  "FamSegData108": {
-    "id": "FamSegData108",
+  "FamSeg108": {
+    "id": "FamSeg108",
     "entityTypeId": "E45",
     "explanation": "c.1000C>T identified in het state in 1 individual with Usher. Individual compound het with Gly1840Val USH2A variant - confirmed in trans. Gly1840Val called Pathogenic. Individual has 3 affected sibs all of whom are compound het with 1000C>T & Gly1840Val. One additional sib only carried 1000C>T and is unaffected.",
-    "thumbnail": "FamSegData108: { condition: { Usher syndrome, Autosomal Recessive }, family: { Family #004 } }"
+    "thumbnail": "FamSeg108: { condition: { Usher syndrome, Autosomal Recessive }, family: { Family #004 } }"
   },
-  "AggSegData109": {
-    "id": "AggSegData109",
+  "AggSeg109": {
+    "id": "AggSeg109",
     "entityTypeId": "E46",
-    "thumbnail": "AggSegData109: { condition: { Usher syndrome, Autosomal Recessive }, familySegregationData: \"FamSegData107\", familySegregationData: \"FamSegData108\", totalNumberOfSegregations: 8 }"
+    "thumbnail": "AggSeg109: { condition: { Usher syndrome, Autosomal Recessive }, familySegregation: \"FamSeg107\", familySegregation: \"FamSeg108\", totalNumberOfSegregations: 8 }"
   },
   "IndCond110": {
     "id": "IndCond110",
     "entityTypeId": "E17",
     "thumbnail": "IndCond110: { individual: { individual #030 }, condition: { cardiofaciocutaneous syndrome }, hasCondition: true }"
   },
-  "FamSegData111": {
-    "id": "FamSegData111",
+  "FamSeg111": {
+    "id": "FamSeg111",
     "entityTypeId": "E45",
-    "thumbnail": "FamSegData111: { condition: { Breast Ovarian Cancer, Autosomal Dominant }, family: { Family #005 }, phenotypePositiveAllelePositive: 2 }"
+    "thumbnail": "FamSeg111: { condition: { Breast Ovarian Cancer, Autosomal Dominant }, family: { Family #005 }, phenotypePositiveAllelePositive: 2 }"
   },
   "FamHist112": {
     "id": "FamHist112",
     "entityTypeId": "E18",
     "thumbnail": "FamHist112: { proband: { individual #030 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
   },
-  "FamSegData113": {
-    "id": "FamSegData113",
+  "FamSeg113": {
+    "id": "FamSeg113",
     "entityTypeId": "E45",
-    "thumbnail": "FamSegData113: { condition: { dilated cardiomyopathy, Autosomal Dominant }, family: { Family #006 }, phenotypePositiveAllelePositive: 1, phenotypeNegativeAllelePositive: 1 }"
+    "thumbnail": "FamSeg113: { condition: { dilated cardiomyopathy, Autosomal Dominant }, family: { Family #006 }, phenotypePositiveAllelePositive: 1, phenotypeNegativeAllelePositive: 1 }"
   },
-  "FamSegData114": {
-    "id": "FamSegData114",
+  "FamSeg114": {
+    "id": "FamSeg114",
     "entityTypeId": "E45",
-    "thumbnail": "FamSegData114: { condition: { dilated cardiomyopathy, Autosomal Dominant }, family: { Family #007 }, phenotypePositiveAllelePositive: 2, phenotypeNegativeAllelePositive: 3 }"
+    "thumbnail": "FamSeg114: { condition: { dilated cardiomyopathy, Autosomal Dominant }, family: { Family #007 }, phenotypePositiveAllelePositive: 2, phenotypeNegativeAllelePositive: 3 }"
   },
-  "AggSegData115": {
-    "id": "AggSegData115",
+  "AggSeg115": {
+    "id": "AggSeg115",
     "entityTypeId": "E46",
-    "thumbnail": "AggSegData115: { condition: { dilated cardiomyopathy, Autosomal Dominant }, familySegregationData: \"FamSegData113\", familySegregationData: \"FamSegData114\", totalNumberOfSegregations: 9 }"
+    "thumbnail": "AggSeg115: { condition: { dilated cardiomyopathy, Autosomal Dominant }, familySegregation: \"FamSeg113\", familySegregation: \"FamSeg114\", totalNumberOfSegregations: 9 }"
   },
   "MolCon117": {
     "id": "MolCon117",
@@ -992,35 +992,35 @@
   "Func192": {
     "id": "Func192",
     "entityTypeId": "E20",
-    "thumbnail": "Func192: { result: \"Unchanged from reference\", dataType: { coding: [{ code: \"iodeff\", display: \"iodide efflux\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_000432..1:p.Leu117Phe }, gene: { SLC26A4 } }"
+    "thumbnail": "Func192: { result: \"Unchanged from reference\", dataType: { coding: [{ code: \"iodeff\", display: \"iodide efflux\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }, contextualAllele: { NP_000432..1:p.Leu117Phe }, gene: { SLC26A4 } }"
   },
   "Func193": {
     "id": "Func193",
     "entityTypeId": "E20",
     "explanation": "Both wild type and NP_000432..1:p.Leu117Phe localize to the same location",
-    "thumbnail": "Func193: { result: \"localized to apical membrane\", dataType: { coding: [{ code: \"celloc\", display: \"cellular localization\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NP_000432..1:p.Leu117Phe }, gene: { SLC26A4 } }"
+    "thumbnail": "Func193: { result: \"localized to apical membrane\", dataType: { coding: [{ code: \"celloc\", display: \"cellular localization\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }, contextualAllele: { NP_000432..1:p.Leu117Phe }, gene: { SLC26A4 } }"
   },
   "Func194": {
     "id": "Func194",
     "entityTypeId": "E20",
-    "thumbnail": "Func194: { result: \"Unchanged from reference\", dataType: { coding: [{ code: \"neuritegrowth\", display: \"neurite outgrowth\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NM_152594.2(SPRED1): c.587C>T }, gene: { SPRED1 } }"
+    "thumbnail": "Func194: { result: \"Unchanged from reference\", dataType: { coding: [{ code: \"neuritegrowth\", display: \"neurite outgrowth\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }, contextualAllele: { NM_152594.2(SPRED1): c.587C>T }, gene: { SPRED1 } }"
   },
   "Func195": {
     "id": "Func195",
     "entityTypeId": "E20",
-    "thumbnail": "Func195: { result: \"localized to apical membrane\", dataType: { coding: [{ code: \"elk1phosvialucif\", display: \"Elk1 pohsphorylation via luciferase assay\", system: \"http://clinicalgenome.org/datamodel/functional-data-type/\" }] }, contextualAllele: { NM_152594.2(SPRED1): c.587C>T }, gene: { SPRED1 } }"
+    "thumbnail": "Func195: { result: \"localized to apical membrane\", dataType: { coding: [{ code: \"elk1phosvialucif\", display: \"Elk1 pohsphorylation via luciferase assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }, contextualAllele: { NM_152594.2(SPRED1): c.587C>T }, gene: { SPRED1 } }"
   },
-  "FamSegData196": {
-    "id": "FamSegData196",
+  "FamSeg196": {
+    "id": "FamSeg196",
     "entityTypeId": "E45",
     "explanation": "observed in one case diagnosed with Familial Hypercholesterolemia, characterized by elevated LDLC levels. Two siblings of the proband also have elevated LDLC levels but neither carry the 313+2T>C variant.",
-    "thumbnail": "FamSegData196: { condition: { Hypercholesterolemia, Familial, Autosomal Dominant }, family: { Family #008 }, phenotypePositiveAllelePositive: 0 }"
+    "thumbnail": "FamSeg196: { condition: { Hypercholesterolemia, Familial, Autosomal Dominant }, family: { Family #008 }, phenotypePositiveAllelePositive: 0 }"
   },
-  "FamSegData197": {
-    "id": "FamSegData197",
+  "FamSeg197": {
+    "id": "FamSeg197",
     "entityTypeId": "E45",
     "explanation": "The individual with HCM but without the allele is likely a phenocopy explained\nby environmental factors (obese, alcohol)",
-    "thumbnail": "FamSegData197: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, family: { Family #009 }, phenotypePositiveAllelePositive: 3 }"
+    "thumbnail": "FamSeg197: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, family: { Family #009 }, phenotypePositiveAllelePositive: 3 }"
   },
   "MolCon198": {
     "id": "MolCon198",
@@ -1126,32 +1126,32 @@
     "entityTypeId": "E50",
     "thumbnail": "CondPenet218: { condition: { cardiomyopathy, Autosomal Dominant }, penetrance: { coding: [{ code: \"0003829\", display: \"Incomplete\", system: \"http://human-phenotype-ontology.github.io/\" }] } }"
   },
-  "RegAnn220": {
-    "id": "RegAnn220",
+  "RegTyp220": {
+    "id": "RegTyp220",
     "entityTypeId": "E24",
     "explanation": "region is repeating but does not have a known function.",
-    "thumbnail": "RegAnn220: { region: \"Loc390\", includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
+    "thumbnail": "RegTyp220: { region: \"Loc390\", includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-type/\" } }"
   },
   "MolCon223": {
     "id": "MolCon223",
     "entityTypeId": "E02",
     "thumbnail": "MolCon223: { consequence: { coding: [{ code: \"0001825\", display: \"conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }] } }"
   },
-  "RegAnn225": {
-    "id": "RegAnn225",
+  "RegTyp225": {
+    "id": "RegTyp225",
     "entityTypeId": "E24",
     "explanation": "The I-Band is a large region of repetitive Igg domains. ",
-    "thumbnail": "RegAnn225: { region: \"Loc392\", includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
+    "thumbnail": "RegTyp225: { region: \"Loc392\", includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-type/\" } }"
   },
   "MolCon227": {
     "id": "MolCon227",
     "entityTypeId": "E02",
     "thumbnail": "MolCon227: { consequence: { coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }] } }"
   },
-  "RegAnn229": {
-    "id": "RegAnn229",
+  "RegTyp229": {
+    "id": "RegTyp229",
     "entityTypeId": "E24",
-    "thumbnail": "RegAnn229: { region: \"Loc394\", includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-annotation-type/\" } }"
+    "thumbnail": "RegTyp229: { region: \"Loc394\", includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-type/\" } }"
   },
   "MolCon231": {
     "id": "MolCon231",
@@ -1358,10 +1358,10 @@
     "explanation": "Pseudoachondroplastic spondyloepiphyseal dysplasia syndrome is caused by a combination of a pathogenic variant in COL2A1 and another in COMP.   So CA113 may be involved, but is not the sole cause.",
     "thumbnail": "VarInterp270: { variant: { NM_000095.2(COMP):c.1042T>C }, condition: { Pseudoachondroplastic spondyloepiphyseal dysplasia }, clinicalSignificance: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" } }"
   },
-  "FamSegData271": {
-    "id": "FamSegData271",
+  "FamSeg271": {
+    "id": "FamSeg271",
     "entityTypeId": "E45",
-    "thumbnail": "FamSegData271: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, family: { Family #010 }, phenotypePositiveAllelePositive: 0 }"
+    "thumbnail": "FamSeg271: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, family: { Family #010 }, phenotypePositiveAllelePositive: 0 }"
   },
   "MolCon272": {
     "id": "MolCon272",
