@@ -1,7 +1,7 @@
 require 'json'
 
-DM_BASE_IRI = "http://datamodel.clinicalgenome.org/"
-AR_BASE_IRI = "http://schema.genome.network/"
+SCOPED_DM_BASE_IRI = "http://datamodel.clinicalgenome.org/"
+SCOPED_AR_BASE_IRI = "http://schema.genome.network/"
 
 def ldid_for_item(x)
   # get linked_data id for an item, using iri if available and unambiguous
@@ -14,9 +14,9 @@ def construct_scoped_context(data_dir = File.join('data', 'flattened'))
   attributes = JSON.parse(File.read(File.join(data_dir, "Attribute.json")))
 
   cx = {
-          "cg" => DM_BASE_IRI,
-          "base" => DM_BASE_IRI,
-          "gns" => AR_BASE_IRI,
+          "cg" => SCOPED_DM_BASE_IRI,
+          "base" => SCOPED_DM_BASE_IRI,
+          "gns" => SCOPED_AR_BASE_IRI,
           "id" => "@id",
           "type" => "@type"
         }
