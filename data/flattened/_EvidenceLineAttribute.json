@@ -954,18 +954,18 @@
   {
     "subjectId": "EvLn055",
     "attributeId": "A178",
-    "value": "CondEtiol148",
+    "value": "LocHet148",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "#N/A"
+    "derivedName": "LocHet148: { condition: { hereditary hemorrhagic telangiectasia, Autosomal Dominant }, gene: { ENG }, specificity: \"complete\" }"
   },
   {
     "subjectId": "EvLn056",
     "attributeId": "A178",
-    "value": "CondEtiol149",
+    "value": "LocHet149",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "#N/A"
+    "derivedName": "LocHet149: { condition: { hypertrophic cardiomyopathy }, gene: { MYH7 }, specificity: \"low\" }"
   },
   {
     "subjectId": "EvLn057",
@@ -2405,7 +2405,7 @@
     "value": "IndAllInh106",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAllInh106: { individual: \"Indiv03\", maternityConfirmed: false, paternityConfirmed: false }"
+    "derivedName": "IndAllInh106: { individual: { individual #030 }, maternityConfirmed: false, paternityConfirmed: false }"
   },
   {
     "subjectId": "EvLn128",
