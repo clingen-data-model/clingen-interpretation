@@ -56,33 +56,40 @@
     "system": "http://broadinstitute.org/populations/",
     "code system name": "Broad-population-type"
   },
-  "CG-allele-inheritance:denovo": {
-    "id": "CG-allele-inheritance:denovo",
-    "code": "denovo",
+  "GENO-allele-inheritance-type:0000880": {
+    "id": "GENO-allele-inheritance-type:0000880",
+    "code": "0000880",
     "display": "de novo",
-    "system": "http://clinicalgenome.org/datamodel/allele-inheritance/",
-    "code system name": "allele-inheritance"
+    "system": "http://obofoundry.org/geno/",
+    "code system name": "GENO"
   },
-  "CG-allele-inheritance:maternal": {
-    "id": "CG-allele-inheritance:maternal",
-    "code": "maternal",
+  "GENO-allele-inheritance-type:0000878": {
+    "id": "GENO-allele-inheritance-type:0000878",
+    "code": "0000878",
     "display": "maternally inherited",
-    "system": "http://clinicalgenome.org/datamodel/allele-inheritance/",
-    "code system name": "allele-inheritance"
+    "system": "http://obofoundry.org/geno/",
+    "code system name": "GENO"
   },
-  "CG-allele-inheritance:paternal": {
-    "id": "CG-allele-inheritance:paternal",
-    "code": "paternal",
+  "GENO-allele-inheritance-type:0000879": {
+    "id": "GENO-allele-inheritance-type:0000879",
+    "code": "0000879",
     "display": "paternally inherited",
-    "system": "http://clinicalgenome.org/datamodel/allele-inheritance/",
-    "code system name": "allele-inheritance"
+    "system": "http://obofoundry.org/geno/",
+    "code system name": "GENO"
   },
-  "CG-allele-inheritance:unknown": {
-    "id": "CG-allele-inheritance:unknown",
-    "code": "unknown",
+  "GENO-allele-inheritance-type:0000881": {
+    "id": "GENO-allele-inheritance-type:0000881",
+    "code": "0000881",
     "display": "Unknown",
-    "system": "http://clinicalgenome.org/datamodel/allele-inheritance/",
-    "code system name": "allele-inheritance"
+    "system": "http://obofoundry.org/geno/",
+    "code system name": "GENO"
+  },
+  "GENO-allele-inheritance-type:0000888": {
+    "id": "GENO-allele-inheritance-type:0000888",
+    "code": "0000888",
+    "display": "parentally inherited",
+    "system": "http://obofoundry.org/geno/",
+    "code system name": "GENO"
   },
   "CG-allelic-state:absent": {
     "id": "CG-allelic-state:absent",

@@ -66,50 +66,50 @@
   "IndCond012": {
     "id": "IndCond012",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond012: { individual: { individual #001 }, condition: { dilated cardiomyopathy }, hasCondition: true }"
+    "thumbnail": "IndCond012: { individual: { individual #001 }, condition: \"GenCond052\", hasCondition: true }"
   },
-  "FamHist013": {
-    "id": "FamHist013",
+  "FamCond013": {
+    "id": "FamCond013",
     "entityTypeId": "E18",
-    "thumbnail": "FamHist013: { proband: { individual #001 }, condition: { dilated cardiomyopathy }, familyHasCondition: false }"
+    "thumbnail": "FamCond013: { proband: { individual #001 }, condition: { dilated cardiomyopathy }, familyHasCondition: false }"
   },
-  "DeNovo014": {
-    "id": "DeNovo014",
+  "IndAllInh014": {
+    "id": "IndAllInh014",
     "entityTypeId": "E19",
     "explanation": "parentage confirmed via haplotyping.",
-    "thumbnail": "DeNovo014: { individual: { individual #001 }, maternityConfirmed: true, paternityConfirmed: true }"
+    "thumbnail": "IndAllInh014: { individual: { individual #001 }, maternityConfirmed: true, paternityConfirmed: true }"
   },
   "IndCond015": {
     "id": "IndCond015",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond015: { individual: { individual #002 }, condition: { desmin related myopathy }, hasCondition: true }"
+    "thumbnail": "IndCond015: { individual: { individual #002 }, condition: \"GenCond008\", hasCondition: true }"
   },
-  "FamHist016": {
-    "id": "FamHist016",
+  "FamCond016": {
+    "id": "FamCond016",
     "entityTypeId": "E18",
-    "thumbnail": "FamHist016: { proband: { individual #002 }, condition: { desmin related myopathy }, familyHasCondition: false }"
+    "thumbnail": "FamCond016: { proband: { individual #002 }, condition: { desmin related myopathy }, familyHasCondition: false }"
   },
-  "DeNovo017": {
-    "id": "DeNovo017",
+  "IndAllInh017": {
+    "id": "IndAllInh017",
     "entityTypeId": "E19",
     "explanation": "Non-paternity was excluded by assessment with microsatellites",
-    "thumbnail": "DeNovo017: { individual: { individual #002 }, maternityConfirmed: false, paternityConfirmed: true }"
+    "thumbnail": "IndAllInh017: { individual: { individual #002 }, maternityConfirmed: false, paternityConfirmed: true }"
   },
   "IndCond018": {
     "id": "IndCond018",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond018: { individual: { individual #003 }, condition: { Epilepsy with Mental Retardation }, hasCondition: true }"
+    "thumbnail": "IndCond018: { individual: { individual #003 }, condition: \"GenCond009\", hasCondition: true }"
   },
-  "FamHist019": {
-    "id": "FamHist019",
+  "FamCond019": {
+    "id": "FamCond019",
     "entityTypeId": "E18",
-    "thumbnail": "FamHist019: { proband: { individual #003 }, condition: { Epilepsy with Mental Retardation }, familyHasCondition: false }"
+    "thumbnail": "FamCond019: { proband: { individual #003 }, condition: { Epilepsy with Mental Retardation }, familyHasCondition: false }"
   },
-  "DeNovo020": {
-    "id": "DeNovo020",
+  "IndAllInh020": {
+    "id": "IndAllInh020",
     "entityTypeId": "E19",
     "explanation": "Variant from trio WES, which confirmed parentage",
-    "thumbnail": "DeNovo020: { individual: { individual #003 }, maternityConfirmed: true, paternityConfirmed: true }"
+    "thumbnail": "IndAllInh020: { individual: { individual #003 }, maternityConfirmed: true, paternityConfirmed: true }"
   },
   "Func021": {
     "id": "Func021",
@@ -302,7 +302,7 @@
   "IndCond056": {
     "id": "IndCond056",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond056: { individual: { individual #004 }, condition: { PCD autosomal recessive w/ outer dynein arm (ODA) defects }, hasCondition: true }"
+    "thumbnail": "IndCond056: { individual: { individual #004 }, condition: \"GenCond014\", hasCondition: true }"
   },
   "VarInterp057": {
     "id": "VarInterp057",
@@ -329,7 +329,7 @@
   "IndCond061": {
     "id": "IndCond061",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond061: { individual: { individual #005 }, condition: { nonsyndromic deafness, Autosomal Recessive, GIPC3 }, hasCondition: true }"
+    "thumbnail": "IndCond061: { individual: { individual #005 }, condition: \"GenCond010\", hasCondition: true }"
   },
   "IndAll062": {
     "id": "IndAll062",
@@ -346,7 +346,7 @@
   "IndCond064": {
     "id": "IndCond064",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond064: { individual: { individual #006 }, condition: { neuronal ceroid lipofuscinosis, Autosomal Recessive, TTP1 }, hasCondition: true }"
+    "thumbnail": "IndCond064: { individual: { individual #006 }, condition: \"GenCond015\", hasCondition: true }"
   },
   "IndAll065": {
     "id": "IndAll065",
@@ -446,95 +446,95 @@
   "IndCond083": {
     "id": "IndCond083",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond083: { individual: { individual #007 }, condition: { Birt-Hogg-Dube Syndrome }, hasCondition: true }"
+    "thumbnail": "IndCond083: { individual: { individual #007 }, condition: \"GenCond018\", hasCondition: true }"
   },
   "IndCond084": {
     "id": "IndCond084",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond084: { individual: { individual #008 }, condition: { Birt-Hogg-Dube Syndrome }, hasCondition: true }"
+    "thumbnail": "IndCond084: { individual: { individual #008 }, condition: \"GenCond018\", hasCondition: true }"
   },
-  "FamHist085": {
-    "id": "FamHist085",
+  "FamCond085": {
+    "id": "FamCond085",
     "entityTypeId": "E18",
-    "thumbnail": "FamHist085: { proband: { individual #007 }, condition: { Birt-Hogg-Dube Syndrome }, familyHasCondition: false }"
+    "thumbnail": "FamCond085: { proband: { individual #007 }, condition: { Birt-Hogg-Dube Syndrome }, familyHasCondition: false }"
   },
-  "FamHist086": {
-    "id": "FamHist086",
+  "FamCond086": {
+    "id": "FamCond086",
     "entityTypeId": "E18",
-    "thumbnail": "FamHist086: { proband: { individual #008 }, condition: { Birt-Hogg-Dube Syndrome }, familyHasCondition: false }"
+    "thumbnail": "FamCond086: { proband: { individual #008 }, condition: { Birt-Hogg-Dube Syndrome }, familyHasCondition: false }"
   },
-  "DeNovo087": {
-    "id": "DeNovo087",
+  "IndAllInh087": {
+    "id": "IndAllInh087",
     "entityTypeId": "E19",
     "explanation": "parentage confirmation not mentioned in the source article",
-    "thumbnail": "DeNovo087: { individual: { individual #007 }, maternityConfirmed: false, paternityConfirmed: false }"
+    "thumbnail": "IndAllInh087: { individual: { individual #007 }, maternityConfirmed: false, paternityConfirmed: false }"
   },
-  "DeNovo088": {
-    "id": "DeNovo088",
+  "IndAllInh088": {
+    "id": "IndAllInh088",
     "entityTypeId": "E19",
     "explanation": "parentage confirmation not mentioned in the source article",
-    "thumbnail": "DeNovo088: { individual: { individual #008 }, maternityConfirmed: false, paternityConfirmed: false }"
+    "thumbnail": "IndAllInh088: { individual: { individual #008 }, maternityConfirmed: false, paternityConfirmed: false }"
   },
   "IndCond089": {
     "id": "IndCond089",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond089: { individual: { individual #009 }, condition: { cardiofaciocutaneous syndrome }, hasCondition: true }"
+    "thumbnail": "IndCond089: { individual: { individual #009 }, condition: \"GenCond019\", hasCondition: true }"
   },
-  "FamHist090": {
-    "id": "FamHist090",
+  "FamCond090": {
+    "id": "FamCond090",
     "entityTypeId": "E18",
-    "thumbnail": "FamHist090: { proband: { individual #009 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
+    "thumbnail": "FamCond090: { proband: { individual #009 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
   },
-  "DeNovo091": {
-    "id": "DeNovo091",
+  "IndAllInh091": {
+    "id": "IndAllInh091",
     "entityTypeId": "E19",
     "explanation": "parentage confirmation not mentioned in the source article",
-    "thumbnail": "DeNovo091: { individual: { individual #009 }, maternityConfirmed: false, paternityConfirmed: false }"
+    "thumbnail": "IndAllInh091: { individual: { individual #009 }, maternityConfirmed: false, paternityConfirmed: false }"
   },
   "IndCond092": {
     "id": "IndCond092",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond092: { individual: { individual #010 }, condition: { cardiofaciocutaneous syndrome }, hasCondition: true }"
+    "thumbnail": "IndCond092: { individual: { individual #010 }, condition: \"GenCond068\", hasCondition: true }"
   },
-  "FamHist093": {
-    "id": "FamHist093",
+  "FamCond093": {
+    "id": "FamCond093",
     "entityTypeId": "E18",
-    "thumbnail": "FamHist093: { proband: { individual #010 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
+    "thumbnail": "FamCond093: { proband: { individual #010 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
   },
-  "DeNovo094": {
-    "id": "DeNovo094",
+  "IndAllInh094": {
+    "id": "IndAllInh094",
     "entityTypeId": "E19",
-    "thumbnail": "DeNovo094: { individual: { individual #010 }, maternityConfirmed: false, paternityConfirmed: false }"
+    "thumbnail": "IndAllInh094: { individual: { individual #010 }, maternityConfirmed: false, paternityConfirmed: false }"
   },
   "IndCond095": {
     "id": "IndCond095",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond095: { individual: { individual #011 }, condition: { cardiofaciocutaneous syndrome }, hasCondition: true }"
+    "thumbnail": "IndCond095: { individual: { individual #011 }, condition: \"GenCond068\", hasCondition: true }"
   },
-  "FamHist096": {
-    "id": "FamHist096",
+  "FamCond096": {
+    "id": "FamCond096",
     "entityTypeId": "E18",
-    "thumbnail": "FamHist096: { proband: { individual #011 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
+    "thumbnail": "FamCond096: { proband: { individual #011 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
   },
-  "DeNovo097": {
-    "id": "DeNovo097",
+  "IndAllInh097": {
+    "id": "IndAllInh097",
     "entityTypeId": "E19",
-    "thumbnail": "DeNovo097: { individual: { individual #011 }, maternityConfirmed: false, paternityConfirmed: false }"
+    "thumbnail": "IndAllInh097: { individual: { individual #011 }, maternityConfirmed: false, paternityConfirmed: false }"
   },
   "IndCond098": {
     "id": "IndCond098",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond098: { individual: { individual #012 }, condition: { cardiofaciocutaneous syndrome }, hasCondition: true }"
+    "thumbnail": "IndCond098: { individual: { individual #012 }, condition: \"GenCond068\", hasCondition: true }"
   },
-  "FamHist099": {
-    "id": "FamHist099",
+  "FamCond099": {
+    "id": "FamCond099",
     "entityTypeId": "E18",
-    "thumbnail": "FamHist099: { proband: { individual #012 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
+    "thumbnail": "FamCond099: { proband: { individual #012 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
   },
-  "DeNovo100": {
-    "id": "DeNovo100",
+  "IndAllInh100": {
+    "id": "IndAllInh100",
     "entityTypeId": "E19",
-    "thumbnail": "DeNovo100: { individual: { individual #012 }, maternityConfirmed: false, paternityConfirmed: false }"
+    "thumbnail": "IndAllInh100: { individual: { individual #012 }, maternityConfirmed: false, paternityConfirmed: false }"
   },
   "AllFreq101": {
     "id": "AllFreq101",
@@ -564,10 +564,10 @@
     "entityTypeId": "E46",
     "thumbnail": "AggSeg105: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, familySegregation: \"FamSeg103\", familySegregation: \"FamSeg104\", totalNumberOfSegregations: 4 }"
   },
-  "DeNovo106": {
-    "id": "DeNovo106",
+  "IndAllInh106": {
+    "id": "IndAllInh106",
     "entityTypeId": "E19",
-    "thumbnail": "DeNovo106: { individual: \"Indiv03\", maternityConfirmed: false, paternityConfirmed: false }"
+    "thumbnail": "IndAllInh106: { individual: \"Indiv03\", maternityConfirmed: false, paternityConfirmed: false }"
   },
   "FamSeg107": {
     "id": "FamSeg107",
@@ -589,17 +589,17 @@
   "IndCond110": {
     "id": "IndCond110",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond110: { individual: { individual #030 }, condition: { cardiofaciocutaneous syndrome }, hasCondition: true }"
+    "thumbnail": "IndCond110: { individual: { individual #030 }, condition: \"GenCond069\", hasCondition: true }"
   },
   "FamSeg111": {
     "id": "FamSeg111",
     "entityTypeId": "E45",
     "thumbnail": "FamSeg111: { condition: { Breast Ovarian Cancer, Autosomal Dominant }, family: { Family #005 }, phenotypePositiveAllelePositive: 2 }"
   },
-  "FamHist112": {
-    "id": "FamHist112",
+  "FamCond112": {
+    "id": "FamCond112",
     "entityTypeId": "E18",
-    "thumbnail": "FamHist112: { proband: { individual #030 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
+    "thumbnail": "FamCond112: { proband: { individual #030 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
   },
   "FamSeg113": {
     "id": "FamSeg113",
@@ -773,17 +773,17 @@
     "entityTypeId": "E47",
     "thumbnail": "InSilicoPred147: { transcript: { NM_000363.4 }, predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }, algorithm: \"HSF\" }"
   },
-  "CondEtiol148": {
-    "id": "CondEtiol148",
+  "LocHet148": {
+    "id": "LocHet148",
     "entityTypeId": "E48",
     "explanation": "HHT type 1 is only known to be caused by variants in ENG -",
-    "thumbnail": "CondEtiol148: { condition: { hereditary hemorrhagic telangiectasia, Autosomal Dominant }, gene: { ENG }, specificity: \"complete\" }"
+    "thumbnail": "LocHet148: { condition: { hereditary hemorrhagic telangiectasia, Autosomal Dominant }, gene: { ENG }, specificity: \"complete\" }"
   },
-  "CondEtiol149": {
-    "id": "CondEtiol149",
+  "LocHet149": {
+    "id": "LocHet149",
     "entityTypeId": "E48",
     "explanation": "1.Only ~50% of HCM is genetic (can be caused by environment) \n2. More than 10 genes can cause HCM (specifically 9 sarcomere genes)",
-    "thumbnail": "CondEtiol149: { condition: { hypertrophic cardiomyopathy }, gene: { MYH7 }, specificity: \"low\" }"
+    "thumbnail": "LocHet149: { condition: { hypertrophic cardiomyopathy }, gene: { MYH7 }, specificity: \"low\" }"
   },
   "VarInterp150": {
     "id": "VarInterp150",
@@ -910,12 +910,12 @@
   "IndCond174": {
     "id": "IndCond174",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond174: { individual: { individual #013 }, condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }, hasCondition: false }"
+    "thumbnail": "IndCond174: { individual: { individual #013 }, condition: \"GenCond029\", hasCondition: false }"
   },
   "IndCond175": {
     "id": "IndCond175",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond175: { individual: { individual #014 }, condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }, hasCondition: false }"
+    "thumbnail": "IndCond175: { individual: { individual #014 }, condition: \"GenCond029\", hasCondition: false }"
   },
   "CondPenet176": {
     "id": "CondPenet176",
@@ -946,22 +946,22 @@
   "IndCond182": {
     "id": "IndCond182",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond182: { individual: { individual #015 }, condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, hasCondition: false }"
+    "thumbnail": "IndCond182: { individual: { individual #015 }, condition: \"GenCond030\", hasCondition: false }"
   },
   "IndCond183": {
     "id": "IndCond183",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond183: { individual: { individual #016 }, condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, hasCondition: false }"
+    "thumbnail": "IndCond183: { individual: { individual #016 }, condition: \"GenCond030\", hasCondition: false }"
   },
   "IndCond184": {
     "id": "IndCond184",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond184: { individual: { individual #017 }, condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, hasCondition: false }"
+    "thumbnail": "IndCond184: { individual: { individual #017 }, condition: \"GenCond030\", hasCondition: false }"
   },
   "IndCond185": {
     "id": "IndCond185",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond185: { individual: { individual #018 }, condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, hasCondition: false }"
+    "thumbnail": "IndCond185: { individual: { individual #018 }, condition: \"GenCond030\", hasCondition: false }"
   },
   "CondPenet186": {
     "id": "CondPenet186",
@@ -982,12 +982,12 @@
   "IndCond190": {
     "id": "IndCond190",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond190: { individual: { individual #019 }, condition: { Marfan Syndrome, Autosomal Dominant }, hasCondition: false }"
+    "thumbnail": "IndCond190: { individual: { individual #019 }, condition: \"GenCond072\", hasCondition: false }"
   },
   "IndCond191": {
     "id": "IndCond191",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond191: { individual: { individual #020 }, condition: { Marfan Syndrome, Autosomal Dominant }, hasCondition: false }"
+    "thumbnail": "IndCond191: { individual: { individual #020 }, condition: \"GenCond072\", hasCondition: false }"
   },
   "Func192": {
     "id": "Func192",
@@ -1079,12 +1079,12 @@
   "IndCond208": {
     "id": "IndCond208",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond208: { individual: { individual #021 }, condition: { Retinitis Pigmentosa }, hasCondition: true }"
+    "thumbnail": "IndCond208: { individual: { individual #021 }, condition: \"GenCond038\", hasCondition: true }"
   },
   "IndCond209": {
     "id": "IndCond209",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond209: { individual: { individual #022 }, condition: { Retinitis Pigmentosa }, hasCondition: true }"
+    "thumbnail": "IndCond209: { individual: { individual #022 }, condition: \"GenCond038\", hasCondition: true }"
   },
   "VarInterp210": {
     "id": "VarInterp210",
@@ -1099,7 +1099,7 @@
   "IndCond212": {
     "id": "IndCond212",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond212: { individual: { individual #023 }, condition: { Absent vas deferens }, hasCondition: true }"
+    "thumbnail": "IndCond212: { individual: { individual #023 }, condition: \"GenCond039\", hasCondition: true }"
   },
   "VarInterp213": {
     "id": "VarInterp213",
@@ -1114,7 +1114,7 @@
   "IndCond215": {
     "id": "IndCond215",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond215: { individual: { individual #024 }, condition: { cardiomyopathy, Autosomal Dominant }, hasCondition: true }"
+    "thumbnail": "IndCond215: { individual: { individual #024 }, condition: \"GenCond007\", hasCondition: true }"
   },
   "VarInterp216": {
     "id": "VarInterp216",
@@ -1211,7 +1211,7 @@
   "IndCond242": {
     "id": "IndCond242",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond242: { individual: { individual #025 }, condition: { hypertrophic cardiomyopathy }, hasCondition: true }"
+    "thumbnail": "IndCond242: { individual: { individual #025 }, condition: \"GenCond067\", hasCondition: true }"
   },
   "VarInterp243": {
     "id": "VarInterp243",
@@ -1231,7 +1231,7 @@
   "IndCond246": {
     "id": "IndCond246",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond246: { individual: { individual #026 }, condition: { nonsyndromic deafness }, hasCondition: true }"
+    "thumbnail": "IndCond246: { individual: { individual #026 }, condition: \"GenCond060\", hasCondition: true }"
   },
   "VarInterp247": {
     "id": "VarInterp247",
@@ -1251,7 +1251,7 @@
   "IndCond250": {
     "id": "IndCond250",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond250: { individual: { individual #027 }, condition: { Usher syndrome, Autosomal Recessive }, hasCondition: true }"
+    "thumbnail": "IndCond250: { individual: { individual #027 }, condition: \"GenCond071\", hasCondition: true }"
   },
   "VarInterp251": {
     "id": "VarInterp251",
@@ -1261,7 +1261,7 @@
   "IndCond252": {
     "id": "IndCond252",
     "entityTypeId": "E17",
-    "thumbnail": "IndCond252: { individual: { individual #028 }, condition: { Pseudoachondroplastic spondyloepiphyseal dysplasia }, hasCondition: true }"
+    "thumbnail": "IndCond252: { individual: { individual #028 }, condition: \"GenCond041\", hasCondition: true }"
   },
   "IndAll253": {
     "id": "IndAll253",
@@ -1885,7 +1885,7 @@
     "id": "IndCond368",
     "entityTypeId": "E17",
     "explanation": "This proband had mild to profound hearing loss with EVA, which is characteristic of Pendred Syndrome.",
-    "thumbnail": "IndCond368: { individual: { individual #029 }, condition: { Hearing Loss }, hasCondition: true }"
+    "thumbnail": "IndCond368: { individual: { individual #029 }, condition: \"GenCond058\", hasCondition: true }"
   },
   "CritAssess369": {
     "id": "CritAssess369",

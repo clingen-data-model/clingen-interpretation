@@ -101,23 +101,23 @@
     "value": "IndCond012",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond012: { individual: { individual #001 }, condition: { dilated cardiomyopathy }, hasCondition: true }"
+    "derivedName": "IndCond012: { individual: { individual #001 }, condition: \"GenCond052\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn009",
     "attributeId": "A178",
-    "value": "FamHist013",
+    "value": "FamCond013",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "FamHist013: { proband: { individual #001 }, condition: { dilated cardiomyopathy }, familyHasCondition: false }"
+    "derivedName": "FamCond013: { proband: { individual #001 }, condition: { dilated cardiomyopathy }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn009",
     "attributeId": "A178",
-    "value": "DeNovo014",
+    "value": "IndAllInh014",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "DeNovo014: { individual: { individual #001 }, maternityConfirmed: true, paternityConfirmed: true }"
+    "derivedName": "IndAllInh014: { individual: { individual #001 }, maternityConfirmed: true, paternityConfirmed: true }"
   },
   {
     "subjectId": "EvLn010",
@@ -125,23 +125,23 @@
     "value": "IndCond015",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond015: { individual: { individual #002 }, condition: { desmin related myopathy }, hasCondition: true }"
+    "derivedName": "IndCond015: { individual: { individual #002 }, condition: \"GenCond008\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn010",
     "attributeId": "A178",
-    "value": "FamHist016",
+    "value": "FamCond016",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "FamHist016: { proband: { individual #002 }, condition: { desmin related myopathy }, familyHasCondition: false }"
+    "derivedName": "FamCond016: { proband: { individual #002 }, condition: { desmin related myopathy }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn010",
     "attributeId": "A178",
-    "value": "DeNovo017",
+    "value": "IndAllInh017",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "DeNovo017: { individual: { individual #002 }, maternityConfirmed: false, paternityConfirmed: true }"
+    "derivedName": "IndAllInh017: { individual: { individual #002 }, maternityConfirmed: false, paternityConfirmed: true }"
   },
   {
     "subjectId": "EvLn011",
@@ -149,23 +149,23 @@
     "value": "IndCond018",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond018: { individual: { individual #003 }, condition: { Epilepsy with Mental Retardation }, hasCondition: true }"
+    "derivedName": "IndCond018: { individual: { individual #003 }, condition: \"GenCond009\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn011",
     "attributeId": "A178",
-    "value": "FamHist019",
+    "value": "FamCond019",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "FamHist019: { proband: { individual #003 }, condition: { Epilepsy with Mental Retardation }, familyHasCondition: false }"
+    "derivedName": "FamCond019: { proband: { individual #003 }, condition: { Epilepsy with Mental Retardation }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn011",
     "attributeId": "A178",
-    "value": "DeNovo020",
+    "value": "IndAllInh020",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "DeNovo020: { individual: { individual #003 }, maternityConfirmed: true, paternityConfirmed: true }"
+    "derivedName": "IndAllInh020: { individual: { individual #003 }, maternityConfirmed: true, paternityConfirmed: true }"
   },
   {
     "subjectId": "EvLn012",
@@ -373,7 +373,7 @@
     "value": "IndCond056",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond056: { individual: { individual #004 }, condition: { PCD autosomal recessive w/ outer dynein arm (ODA) defects }, hasCondition: true }"
+    "derivedName": "IndCond056: { individual: { individual #004 }, condition: \"GenCond014\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn029",
@@ -405,7 +405,7 @@
     "value": "IndCond061",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond061: { individual: { individual #005 }, condition: { nonsyndromic deafness, Autosomal Recessive, GIPC3 }, hasCondition: true }"
+    "derivedName": "IndCond061: { individual: { individual #005 }, condition: \"GenCond010\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn030",
@@ -421,7 +421,7 @@
     "value": "IndCond064",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond064: { individual: { individual #006 }, condition: { neuronal ceroid lipofuscinosis, Autosomal Recessive, TTP1 }, hasCondition: true }"
+    "derivedName": "IndCond064: { individual: { individual #006 }, condition: \"GenCond015\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn031",
@@ -533,23 +533,23 @@
     "value": "IndCond083",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond083: { individual: { individual #007 }, condition: { Birt-Hogg-Dube Syndrome }, hasCondition: true }"
+    "derivedName": "IndCond083: { individual: { individual #007 }, condition: \"GenCond018\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn041",
     "attributeId": "A178",
-    "value": "FamHist085",
+    "value": "FamCond085",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "FamHist085: { proband: { individual #007 }, condition: { Birt-Hogg-Dube Syndrome }, familyHasCondition: false }"
+    "derivedName": "FamCond085: { proband: { individual #007 }, condition: { Birt-Hogg-Dube Syndrome }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn041",
     "attributeId": "A178",
-    "value": "DeNovo087",
+    "value": "IndAllInh087",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "DeNovo087: { individual: { individual #007 }, maternityConfirmed: false, paternityConfirmed: false }"
+    "derivedName": "IndAllInh087: { individual: { individual #007 }, maternityConfirmed: false, paternityConfirmed: false }"
   },
   {
     "subjectId": "EvLn042",
@@ -557,23 +557,23 @@
     "value": "IndCond084",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond084: { individual: { individual #008 }, condition: { Birt-Hogg-Dube Syndrome }, hasCondition: true }"
+    "derivedName": "IndCond084: { individual: { individual #008 }, condition: \"GenCond018\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn042",
     "attributeId": "A178",
-    "value": "FamHist086",
+    "value": "FamCond086",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "FamHist086: { proband: { individual #008 }, condition: { Birt-Hogg-Dube Syndrome }, familyHasCondition: false }"
+    "derivedName": "FamCond086: { proband: { individual #008 }, condition: { Birt-Hogg-Dube Syndrome }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn042",
     "attributeId": "A178",
-    "value": "DeNovo088",
+    "value": "IndAllInh088",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "DeNovo088: { individual: { individual #008 }, maternityConfirmed: false, paternityConfirmed: false }"
+    "derivedName": "IndAllInh088: { individual: { individual #008 }, maternityConfirmed: false, paternityConfirmed: false }"
   },
   {
     "subjectId": "EvLn043",
@@ -581,23 +581,23 @@
     "value": "IndCond089",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond089: { individual: { individual #009 }, condition: { cardiofaciocutaneous syndrome }, hasCondition: true }"
+    "derivedName": "IndCond089: { individual: { individual #009 }, condition: \"GenCond019\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn043",
     "attributeId": "A178",
-    "value": "FamHist090",
+    "value": "FamCond090",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "FamHist090: { proband: { individual #009 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
+    "derivedName": "FamCond090: { proband: { individual #009 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn043",
     "attributeId": "A178",
-    "value": "DeNovo091",
+    "value": "IndAllInh091",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "DeNovo091: { individual: { individual #009 }, maternityConfirmed: false, paternityConfirmed: false }"
+    "derivedName": "IndAllInh091: { individual: { individual #009 }, maternityConfirmed: false, paternityConfirmed: false }"
   },
   {
     "subjectId": "EvLn044",
@@ -605,23 +605,23 @@
     "value": "IndCond092",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond092: { individual: { individual #010 }, condition: { cardiofaciocutaneous syndrome }, hasCondition: true }"
+    "derivedName": "IndCond092: { individual: { individual #010 }, condition: \"GenCond068\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn044",
     "attributeId": "A178",
-    "value": "FamHist093",
+    "value": "FamCond093",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "FamHist093: { proband: { individual #010 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
+    "derivedName": "FamCond093: { proband: { individual #010 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn044",
     "attributeId": "A178",
-    "value": "DeNovo094",
+    "value": "IndAllInh094",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "DeNovo094: { individual: { individual #010 }, maternityConfirmed: false, paternityConfirmed: false }"
+    "derivedName": "IndAllInh094: { individual: { individual #010 }, maternityConfirmed: false, paternityConfirmed: false }"
   },
   {
     "subjectId": "EvLn045",
@@ -629,23 +629,23 @@
     "value": "IndCond095",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond095: { individual: { individual #011 }, condition: { cardiofaciocutaneous syndrome }, hasCondition: true }"
+    "derivedName": "IndCond095: { individual: { individual #011 }, condition: \"GenCond068\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn045",
     "attributeId": "A178",
-    "value": "FamHist096",
+    "value": "FamCond096",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "FamHist096: { proband: { individual #011 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
+    "derivedName": "FamCond096: { proband: { individual #011 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn045",
     "attributeId": "A178",
-    "value": "DeNovo097",
+    "value": "IndAllInh097",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "DeNovo097: { individual: { individual #011 }, maternityConfirmed: false, paternityConfirmed: false }"
+    "derivedName": "IndAllInh097: { individual: { individual #011 }, maternityConfirmed: false, paternityConfirmed: false }"
   },
   {
     "subjectId": "EvLn046",
@@ -653,23 +653,23 @@
     "value": "IndCond098",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond098: { individual: { individual #012 }, condition: { cardiofaciocutaneous syndrome }, hasCondition: true }"
+    "derivedName": "IndCond098: { individual: { individual #012 }, condition: \"GenCond068\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn046",
     "attributeId": "A178",
-    "value": "FamHist099",
+    "value": "FamCond099",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "FamHist099: { proband: { individual #012 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
+    "derivedName": "FamCond099: { proband: { individual #012 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn046",
     "attributeId": "A178",
-    "value": "DeNovo100",
+    "value": "IndAllInh100",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "DeNovo100: { individual: { individual #012 }, maternityConfirmed: false, paternityConfirmed: false }"
+    "derivedName": "IndAllInh100: { individual: { individual #012 }, maternityConfirmed: false, paternityConfirmed: false }"
   },
   {
     "subjectId": "EvLn047",
@@ -957,7 +957,7 @@
     "value": "CondEtiol148",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CondEtiol148: { condition: { hereditary hemorrhagic telangiectasia, Autosomal Dominant }, gene: { ENG }, specificity: \"complete\" }"
+    "derivedName": "#N/A"
   },
   {
     "subjectId": "EvLn056",
@@ -965,7 +965,7 @@
     "value": "CondEtiol149",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CondEtiol149: { condition: { hypertrophic cardiomyopathy }, gene: { MYH7 }, specificity: \"low\" }"
+    "derivedName": "#N/A"
   },
   {
     "subjectId": "EvLn057",
@@ -1117,7 +1117,7 @@
     "value": "IndCond174",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond174: { individual: { individual #013 }, condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }, hasCondition: false }"
+    "derivedName": "IndCond174: { individual: { individual #013 }, condition: \"GenCond029\", hasCondition: false }"
   },
   {
     "subjectId": "EvLn068",
@@ -1141,7 +1141,7 @@
     "value": "IndCond175",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond175: { individual: { individual #014 }, condition: { Wiedemann-Steiner syndrome, Autosomal Dominant }, hasCondition: false }"
+    "derivedName": "IndCond175: { individual: { individual #014 }, condition: \"GenCond029\", hasCondition: false }"
   },
   {
     "subjectId": "EvLn069",
@@ -1165,7 +1165,7 @@
     "value": "IndCond182",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond182: { individual: { individual #015 }, condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, hasCondition: false }"
+    "derivedName": "IndCond182: { individual: { individual #015 }, condition: \"GenCond030\", hasCondition: false }"
   },
   {
     "subjectId": "EvLn070",
@@ -1189,7 +1189,7 @@
     "value": "IndCond183",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond183: { individual: { individual #016 }, condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, hasCondition: false }"
+    "derivedName": "IndCond183: { individual: { individual #016 }, condition: \"GenCond030\", hasCondition: false }"
   },
   {
     "subjectId": "EvLn071",
@@ -1213,7 +1213,7 @@
     "value": "IndCond184",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond184: { individual: { individual #017 }, condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, hasCondition: false }"
+    "derivedName": "IndCond184: { individual: { individual #017 }, condition: \"GenCond030\", hasCondition: false }"
   },
   {
     "subjectId": "EvLn072",
@@ -1237,7 +1237,7 @@
     "value": "IndCond185",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond185: { individual: { individual #018 }, condition: { Familial Adenomatous Polyposis, Autosomal Dominant }, hasCondition: false }"
+    "derivedName": "IndCond185: { individual: { individual #018 }, condition: \"GenCond030\", hasCondition: false }"
   },
   {
     "subjectId": "EvLn073",
@@ -1261,7 +1261,7 @@
     "value": "IndCond190",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond190: { individual: { individual #019 }, condition: { Marfan Syndrome, Autosomal Dominant }, hasCondition: false }"
+    "derivedName": "IndCond190: { individual: { individual #019 }, condition: \"GenCond072\", hasCondition: false }"
   },
   {
     "subjectId": "EvLn074",
@@ -1285,7 +1285,7 @@
     "value": "IndCond191",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond191: { individual: { individual #020 }, condition: { Marfan Syndrome, Autosomal Dominant }, hasCondition: false }"
+    "derivedName": "IndCond191: { individual: { individual #020 }, condition: \"GenCond072\", hasCondition: false }"
   },
   {
     "subjectId": "EvLn075",
@@ -1322,18 +1322,18 @@
   {
     "subjectId": "EvLn079",
     "attributeId": "A178",
-    "value": "FamSegData196",
+    "value": "FamSeg196",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "#N/A"
+    "derivedName": "FamSeg196: { condition: { Hypercholesterolemia, Familial, Autosomal Dominant }, family: { Family #008 }, phenotypePositiveAllelePositive: 0 }"
   },
   {
     "subjectId": "EvLn080",
     "attributeId": "A178",
-    "value": "FamSegData197",
+    "value": "FamSeg197",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "#N/A"
+    "derivedName": "FamSeg197: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, family: { Family #009 }, phenotypePositiveAllelePositive: 3 }"
   },
   {
     "subjectId": "EvLn081",
@@ -1421,7 +1421,7 @@
     "value": "IndCond208",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond208: { individual: { individual #021 }, condition: { Retinitis Pigmentosa }, hasCondition: true }"
+    "derivedName": "IndCond208: { individual: { individual #021 }, condition: \"GenCond038\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn085",
@@ -1445,7 +1445,7 @@
     "value": "IndCond209",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond209: { individual: { individual #022 }, condition: { Retinitis Pigmentosa }, hasCondition: true }"
+    "derivedName": "IndCond209: { individual: { individual #022 }, condition: \"GenCond038\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn086",
@@ -1469,7 +1469,7 @@
     "value": "IndCond212",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond212: { individual: { individual #023 }, condition: { Absent vas deferens }, hasCondition: true }"
+    "derivedName": "IndCond212: { individual: { individual #023 }, condition: \"GenCond039\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn087",
@@ -1493,7 +1493,7 @@
     "value": "IndCond215",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond215: { individual: { individual #024 }, condition: { cardiomyopathy, Autosomal Dominant }, hasCondition: true }"
+    "derivedName": "IndCond215: { individual: { individual #024 }, condition: \"GenCond007\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn088",
@@ -1669,7 +1669,7 @@
     "value": "IndCond242",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond242: { individual: { individual #025 }, condition: { hypertrophic cardiomyopathy }, hasCondition: true }"
+    "derivedName": "IndCond242: { individual: { individual #025 }, condition: \"GenCond067\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn093",
@@ -1701,7 +1701,7 @@
     "value": "IndCond246",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond246: { individual: { individual #026 }, condition: { nonsyndromic deafness }, hasCondition: true }"
+    "derivedName": "IndCond246: { individual: { individual #026 }, condition: \"GenCond060\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn094",
@@ -1733,7 +1733,7 @@
     "value": "IndCond250",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond250: { individual: { individual #027 }, condition: { Usher syndrome, Autosomal Recessive }, hasCondition: true }"
+    "derivedName": "IndCond250: { individual: { individual #027 }, condition: \"GenCond071\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn095",
@@ -1749,7 +1749,7 @@
     "value": "IndCond252",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond252: { individual: { individual #028 }, condition: { Pseudoachondroplastic spondyloepiphyseal dysplasia }, hasCondition: true }"
+    "derivedName": "IndCond252: { individual: { individual #028 }, condition: \"GenCond041\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn096",
@@ -1914,10 +1914,10 @@
   {
     "subjectId": "EvLn104",
     "attributeId": "A178",
-    "value": "FamSegData271",
+    "value": "FamSeg271",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "#N/A"
+    "derivedName": "FamSeg271: { condition: { hypertrophic cardiomyopathy, Autosomal Dominant }, family: { Family #010 }, phenotypePositiveAllelePositive: 0 }"
   },
   {
     "subjectId": "EvLn105",
@@ -1965,7 +1965,7 @@
     "value": "IndCond368",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond368: { individual: { individual #029 }, condition: { Hearing Loss }, hasCondition: true }"
+    "derivedName": "IndCond368: { individual: { individual #029 }, condition: \"GenCond058\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn107",
@@ -2021,7 +2021,7 @@
     "value": "Contrib522",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "#REF!"
+    "derivedName": "Contrib522: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"7/1/16 10:53 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
   },
   {
     "subjectId": "EvLn110",
@@ -2029,7 +2029,7 @@
     "value": "Contrib523",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "#REF!"
+    "derivedName": "Contrib523: { agent: { Agent004: { name: \"CSER Bakeoff Project\" } }, onDate: \"7/1/16 10:53 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
   },
   {
     "subjectId": "EvLn111",
@@ -2053,7 +2053,7 @@
     "value": "Contrib524",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "#REF!"
+    "derivedName": "Contrib524: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/2/16 8:01 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
   },
   {
     "subjectId": "EvLn112",
@@ -2077,7 +2077,7 @@
     "value": "Contrib525",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "#REF!"
+    "derivedName": "Contrib525: { agent: { Agent003: { name: \"Sasha Rande\" } }, onDate: \"6/12/16 7:30 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
   },
   {
     "subjectId": "EvLn113",
@@ -2101,7 +2101,7 @@
     "value": "Contrib526",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "#REF!"
+    "derivedName": "Contrib526: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"03/08/2017 9:46 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
   },
   {
     "subjectId": "EvLn114",
@@ -2125,7 +2125,7 @@
     "value": "Contrib527",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "#REF!"
+    "derivedName": "Contrib527: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"7/1/16 9:23 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
   },
   {
     "subjectId": "EvLn115",
@@ -2149,7 +2149,7 @@
     "value": "Contrib528",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "#REF!"
+    "derivedName": "Contrib528: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"03/07/2017 4:30 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
   },
   {
     "subjectId": "EvLn116",
@@ -2213,7 +2213,7 @@
     "value": "Contrib529",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "#REF!"
+    "derivedName": "Contrib529: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"03/08/2017 10:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
   },
   {
     "subjectId": "EvLn119",
@@ -2237,7 +2237,7 @@
     "value": "Contrib530",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "#REF!"
+    "derivedName": "Contrib530: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"10/10/16 8:05 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
   },
   {
     "subjectId": "EvLn120",
@@ -2261,7 +2261,7 @@
     "value": "Contrib531",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "#REF!"
+    "derivedName": "Contrib531: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"03/08/2017 7:43 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
   },
   {
     "subjectId": "EvLn121",
@@ -2285,7 +2285,7 @@
     "value": "Contrib532",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "#REF!"
+    "derivedName": "Contrib532: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"01/17/17 9:12 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
   },
   {
     "subjectId": "EvLn122",
@@ -2309,15 +2309,15 @@
     "value": "Contrib533",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "#REF!"
+    "derivedName": "Contrib533: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"03/07/2017 5:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
   },
   {
     "subjectId": "EvLn123",
     "attributeId": "A178",
-    "value": "FamSegData076",
+    "value": "FamSeg076",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "#N/A"
+    "derivedName": "FamSeg076: { condition: { noonan syndrome, Autosomal Dominant }, family: { Family #011 }, phenotypePositiveAllelePositive: 0, phenotypeNegativeAllelePositive: 2 }"
   },
   {
     "subjectId": "EvLn124",
@@ -2341,7 +2341,7 @@
     "value": "Contrib534",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "#REF!"
+    "derivedName": "Contrib534: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"3/14/2017 10:29 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
   },
   {
     "subjectId": "EvLn125",
@@ -2365,7 +2365,7 @@
     "value": "Contrib535",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "#REF!"
+    "derivedName": "Contrib535: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"3/14/2017 10:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
   },
   {
     "subjectId": "EvLn126",
@@ -2397,15 +2397,15 @@
     "value": "Contrib536",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "#REF!"
+    "derivedName": "Contrib536: { agent: { Agent010: { name: \"ACME Molecular Lab\" } }, onDate: \"6/11/2011 11:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
   },
   {
     "subjectId": "EvLn128",
     "attributeId": "A178",
-    "value": "DeNovo106",
+    "value": "IndAllInh106",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "DeNovo106: { individual: \"Indiv03\", maternityConfirmed: false, paternityConfirmed: false }"
+    "derivedName": "IndAllInh106: { individual: \"Indiv03\", maternityConfirmed: false, paternityConfirmed: false }"
   },
   {
     "subjectId": "EvLn128",
@@ -2413,15 +2413,15 @@
     "value": "IndCond110",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndCond110: { individual: { individual #030 }, condition: { cardiofaciocutaneous syndrome }, hasCondition: true }"
+    "derivedName": "IndCond110: { individual: { individual #030 }, condition: \"GenCond069\", hasCondition: true }"
   },
   {
     "subjectId": "EvLn128",
     "attributeId": "A178",
-    "value": "FamHist112",
+    "value": "FamCond112",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "FamHist112: { proband: { individual #030 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
+    "derivedName": "FamCond112: { proband: { individual #030 }, condition: { cardiofaciocutaneous syndrome }, familyHasCondition: false }"
   },
   {
     "subjectId": "EvLn129",
@@ -2445,7 +2445,7 @@
     "value": "Contrib537",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "#REF!"
+    "derivedName": "Contrib537: { agent: { Agent010: { name: \"ACME Molecular Lab\" } }, onDate: \"6/11/2011 12:45:00\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
   },
   {
     "subjectId": "EvLn130",
@@ -2477,7 +2477,7 @@
     "value": "Contrib538",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "#REF!"
+    "derivedName": "Contrib538: { agent: { Agent010: { name: \"ACME Molecular Lab\" } }, onDate: \"6/10/2011 1:45 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
   },
   {
     "subjectId": "EvLn132",

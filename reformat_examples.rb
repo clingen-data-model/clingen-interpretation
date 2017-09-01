@@ -85,7 +85,7 @@ class DMWGExampleData
     ['_StatementAttribute',
      '_EvidenceLineAttribute',
      '_AgentAttribute',
-     '_MendelianConditionAttribute',
+     '_GeneticConditionAttribute',
      '_CodeableConceptAttribute',
      '_ContributionAttribute',
      '_ValueSetCoding',
