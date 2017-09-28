@@ -8,7 +8,7 @@ summary: The relationship between ClinGen interpretation and SEPIO
 Introduction
 ------------
 
-The Monarch Initiative's [Scientific Evidence and provenance Information Ontology](https://github.com/monarch-initiative/SEPIO-ontology) (SEPIO) is an RDF ontology for the description of evidence and provenance that support scientific claims.  This ontology supports a number of use cases, but is mainly driven by the need to integrate evidence, and computationally assess the level of evidence for a scientific claim.
+The Monarch Initiative's [Scientific Evidence and provenance Information Ontology](https://github.com/monarch-initiative/SEPIO-ontology) (SEPIO) is an OWL ontology for the description of evidence and provenance that support scientific claims.  This ontology supports a number of use cases, but is mainly driven by the need to integrate evidence, and computationally assess the level of evidence for a scientific claim.
 
 
 ClinGen Interpretations are Modeled with SEPIO
@@ -16,18 +16,14 @@ ClinGen Interpretations are Modeled with SEPIO
 
 An interpretation is a statement about the pathogenicity of a variant, supported by a structured reasoning process applied to evidence; SEPIO's purpose is to capture exactly such structured data.   A ClinGen interpretation is equivalent to an assertion in SEPIO.  Furthermore, the ACMG Clinical Pathogenicty Guideline process, with evidence combined into conclusions at multiple reasoning levels can be naturally modeled using SEPIO's nested structure and Evidence Lines.
 
-Because of this natural alignment, the ClinGen interpretation model has been implemented in terms of the SEPIO ontology.  Version 1.0 of the ClinGen interpretation model is built using terms from the XX release of the SEPIO ontology.
+In order to combine the expertise of Monarch Initiative in creating ontologies describing scientific information and the expertise of ClinGen in variant interpretation and modelling, the ClinGen interpretation model has been implemented in terms of the SEPIO ontology.  Version 1.0 of the ClinGen interpretation model is built using terms from the XX release of the SEPIO ontology.
 
 Technical Implementation
 ------------------------
 
-SEPIO is an RDF ontology defined via OWL files.   The ClinGen interpretation model is expressed as [JSON-LD](https://json-ld.org) documents, developed in the class-based approach documented at this site.  RDF and class hierarchies are in no way incompatible -- [JSON-LD](https://json-ld.org) is a serialization of RDF -- but care must be taken to allow complete interchangeability.
+SEPIO is an OWL ontology.  The ClinGen interpretation model is expressed as [JSON-LD](https://json-ld.org) documents, developed in the class-based approach documented at this site.  RDF and class hierarchies are in no way incompatible -- [JSON-LD](https://json-ld.org) is a serialization of RDF -- but care must be taken to allow complete interchangeability. In [JSON-LD](https://json-ld.org), classes and properties are mapped to IRIs in SEPIO and related ontologies via the use of a [context file](http://datamodel.clinicalgenome.org/interpretation/json/context). 
 
-In [JSON-LD](https://json-ld.org), classes and properties are mapped to IRIs via the use of a context file.  The ClinGen interpretation [context file](http://datamodel.clinicalgenome.org/interpretation/json/context) maps classes and properties to SEPIO terms where available.  
-
-The structure of interpretations maps onto SEPIO such that many terms needed for interpretations were previously defined.  However, variant pathogenicity interpretations also require specialized data elements related to specific types of entities (Alleles, Genes) or evidence (Segregation, Allele Frequencies).   In addition, ClinGen interpretations define new subclasses on SEPIO classes, such as distinguishing VariantInterpretations from CriteriaAssessments.  Each is a SEPIO interpretation, but with different properties.
-
-These terms do not make sense to add to the core SEPIO product, but have been added to ClinGen-specific extensions within the SEPIO project which are jointly maintained by the Monarch and ClinGen projects.
+Many terms needed for variant pathogenicity interpretations were previously defined SEPIO. Variant pathogenicity interpretations also require specialized data elements related to specific types of entities (Alleles, Genes) or evidence (Segregation, Allele Frequencies).  In addition, ClinGen interpretations define new subclasses on SEPIO classes, such as distinguishing VariantInterpretations from CriteriaAssessments.  Each is a SEPIO interpretation, but with different properties. These terms do not make sense to add to the core SEPIO product, but have been added to ClinGen-specific extensions within the SEPIO project which are jointly maintained by the Monarch and ClinGen projects.
 
 For instance, the lines in the [ClinGen interpretation context](http://datamodel.clinicalgenome.org/interpretation/json/context) 
 
