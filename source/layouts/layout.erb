@@ -116,10 +116,15 @@
               <%- entity = data.flattened.Type[current_page.data.id] %>
               <%- title = data.flattened.Type[current_page.data.id].name %>
               <%- description = data.flattened.Type[current_page.data.id].description %>
+              <%- type_iri = data.flattened.Type[current_page.data.id].iri%>
             <% end %>
 
             <h1><%= title %></h1>
             <p><%= description %></p>
+
+            <% if type_iri != nil %>
+                <p><%= type_iri %></p>
+            <% end %>
 
             <% if !current_page.data.id.nil? %>
             <% parentid = data.flattened.Type[current_page.data.id].parentType %>

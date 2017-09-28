@@ -1,100 +1,100 @@
 {
   "VS002": {
     "id": "VS002",
-    "source": "SequenceOntology",
+    "source": "SO",
     "name": "MolecularConsequence",
     "finish": "chris x"
   },
   "VS003": {
     "id": "VS003",
-    "source": "LOINC",
+    "source": "LOINC/GENO",
     "name": "Significance",
     "finish": "done"
   },
   "VS004": {
     "id": "VS004",
-    "source": "internal",
-    "name": "RegionType",
+    "source": "SO",
+    "name": "RegionAnnotationType",
     "finish": "chris x"
   },
   "VS005": {
     "id": "VS005",
-    "source": "internal",
+    "source": "GENO",
     "name": "Phase",
     "finish": "done"
   },
   "VS006": {
     "id": "VS006",
-    "source": "internal",
+    "source": "GENO",
     "name": "AllelicState",
     "description": "The level of occurance of a single DNA marker within a set of chromosomes. Informed by LOINC 53034-5 but with additional codes for somatic mosaicism and asserted absence.",
     "finish": "bradford x"
   },
   "VS007": {
     "id": "VS007",
-    "source": "HPO",
+    "source": "HPO, GENO",
     "name": "ModeOfInheritance",
     "finish": "chris x"
   },
   "VS008": {
     "id": "VS008",
-    "source": "RelationsOntology",
+    "source": "RO",
     "name": "ReferenceSequenceRelatedType",
     "finish": "done"
   },
   "VS009": {
     "id": "VS009",
-    "source": "SequenceOntology",
+    "source": "SO",
     "name": "Mechanism",
     "finish": "chris x"
   },
   "VS010": {
     "id": "VS010",
-    "source": "internal",
+    "source": "SEPIO",
     "name": "PredictionType",
     "finish": "done"
   },
   "VS011": {
     "id": "VS011",
-    "source": "internal",
+    "source": "SEPIO",
     "name": "CriterionEvaluation",
     "finish": "done"
   },
   "VS012": {
     "id": "VS012",
-    "source": "internal",
+    "source": "OBI",
     "name": "AlleleFunctionalImpactType",
     "finish": "done"
   },
   "VS013": {
     "id": "VS013",
-    "source": "ExAC, 1SGR, internal, 1KG, gnomAD",
+    "source": "NCIT",
     "name": "PopulationType",
     "description": "From Exac http://exac.broadinstitute.org/faq",
     "finish": "larry x"
   },
   "VS014": {
     "id": "VS014",
-    "source": "internal",
+    "source": "SEPIO",
     "name": "BenignMissenseVariationRate",
     "finish": "chris x"
   },
   "VS015": {
     "id": "VS015",
-    "source": "internal",
+    "source": "HPO",
     "name": "PenetranceType",
     "finish": "chris x"
   },
   "VS016": {
     "id": "VS016",
-    "source": "internal",
+    "source": "SEPIO",
     "name": "ConditionMechanismStrength",
     "description": "The level of strength for which a class of variants is a known mechanism for a condition",
     "finish": "done"
   },
   "VS017": {
     "id": "VS017",
-    "source": "internal",
+    "source": "SEPIO",
     "name": "EvidenceLineStrength",
     "description": "The set of strengths needed for an evidence line.",
     "finish": "done"
@@ -126,15 +126,50 @@
   },
   "VS022": {
     "id": "VS022",
-    "source": "internal",
+    "source": "GENO",
     "name": "AlleleInheritanceType",
     "description": "TODO"
   },
   "VS023": {
     "id": "VS023",
-    "source": "internal",
+    "source": "SEPIO",
     "name": "AscertainmentType",
     "description": "A coded or free-text term representing how people were chosen to be in the cohort in which the frequency is calculated.\nIt may be either because there are lots of ways that a cohort might be generated and our value set may not provide enough to allow for all cases.",
     "finish": "chris x"
+  },
+  "VS024": {
+    "id": "VS024",
+    "source": "SEPIO",
+    "name": "LocusSpecificityType"
+  },
+  "VS025": {
+    "id": "VS025",
+    "source": "SEPIO",
+    "name": "Conservation"
+  },
+  "VS026": {
+    "id": "VS026",
+    "source": "SEPIO",
+    "name": "PaternalConfirmation"
+  },
+  "VS027": {
+    "id": "VS027",
+    "source": "SEPIO",
+    "name": "ConditionStatus"
+  },
+  "VS028": {
+    "id": "VS028",
+    "source": "SEPIO",
+    "name": "InconsistentSegregationObserved"
+  },
+  "VS029": {
+    "id": "VS029",
+    "source": "SEPIO",
+    "name": "NullAllele"
+  },
+  "VS030": {
+    "id": "VS030",
+    "source": "SEPIO",
+    "name": "InsilicoPrediction"
   }
 }

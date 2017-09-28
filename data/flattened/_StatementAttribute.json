@@ -15,17 +15,17 @@
     "value": "CC001",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC001\""
   },
   {
     "subjectId": "MolCon001",
     "attributeId": "A010",
     "value": "false",
     "evidenceDataName": "MolecularConsequence",
-    "attributeName": "lof",
-    "attributeType": "yes/no/maybe",
-    "lookupValue": "lof: \"false\""
+    "attributeName": "#N/A",
+    "attributeType": "#N/A",
+    "lookupValue": "#N/A"
   },
   {
     "subjectId": "CondMech002",
@@ -72,17 +72,17 @@
     "value": "CC004",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC004\""
   },
   {
     "subjectId": "MolCon003",
     "attributeId": "A010",
     "value": "true",
     "evidenceDataName": "MolecularConsequence",
-    "attributeName": "lof",
-    "attributeType": "yes/no/maybe",
-    "lookupValue": "lof: \"true\""
+    "attributeName": "#N/A",
+    "attributeType": "#N/A",
+    "lookupValue": "#N/A"
   },
   {
     "subjectId": "CondMech004",
@@ -135,17 +135,17 @@
     "value": "CC007",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC007\""
   },
   {
     "subjectId": "MolCon005",
     "attributeId": "A010",
     "value": "true",
     "evidenceDataName": "MolecularConsequence",
-    "attributeName": "lof",
-    "attributeType": "yes/no/maybe",
-    "lookupValue": "lof: \"true\""
+    "attributeName": "#N/A",
+    "attributeType": "#N/A",
+    "lookupValue": "#N/A"
   },
   {
     "subjectId": "MolCon006",
@@ -162,17 +162,17 @@
     "value": "CC008",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0000191\", display: \"interior intron\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC008\""
   },
   {
     "subjectId": "MolCon006",
     "attributeId": "A010",
     "value": "false",
     "evidenceDataName": "MolecularConsequence",
-    "attributeName": "lof",
-    "attributeType": "yes/no/maybe",
-    "lookupValue": "lof: \"false\""
+    "attributeName": "#N/A",
+    "attributeType": "#N/A",
+    "lookupValue": "#N/A"
   },
   {
     "subjectId": "CondMech007",
@@ -411,7 +411,7 @@
   {
     "subjectId": "IndAllInh014",
     "attributeId": "A074",
-    "value": "GENO-allele-inheritance-type:0000880",
+    "value": "GENO:0000880",
     "evidenceDataName": "IndividualAlleleInheritance",
     "attributeName": "alleleInheritance",
     "attributeType": "Coding",
@@ -510,7 +510,7 @@
   {
     "subjectId": "IndAllInh017",
     "attributeId": "A074",
-    "value": "GENO-allele-inheritance-type:0000880",
+    "value": "GENO:0000880",
     "evidenceDataName": "IndividualAlleleInheritance",
     "attributeName": "alleleInheritance",
     "attributeType": "Coding",
@@ -609,7 +609,7 @@
   {
     "subjectId": "IndAllInh020",
     "attributeId": "A074",
-    "value": "GENO-allele-inheritance-type:0000880",
+    "value": "GENO:0000880",
     "evidenceDataName": "IndividualAlleleInheritance",
     "attributeName": "alleleInheritance",
     "attributeType": "Coding",
@@ -2337,29 +2337,29 @@
   {
     "subjectId": "IndAll058",
     "attributeId": "A068",
-    "value": "CG-allelic-state:heterozygous",
+    "value": "GENO:0000135",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "Coding",
-    "lookupValue": "primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
+    "lookupValue": "primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndAll058",
     "attributeId": "A069",
-    "value": "CG-allelic-state:heterozygous",
+    "value": "GENO:0000135",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "secondaryZygosity",
     "attributeType": "Coding",
-    "lookupValue": "secondaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
+    "lookupValue": "secondaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndAll058",
     "attributeId": "A070",
-    "value": "CG-phase:trans",
+    "value": "GENO:0000132",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "Coding",
-    "lookupValue": "phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
+    "lookupValue": "phase: { code: \"0000132\", display: \"in trans\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndAll058",
@@ -2499,7 +2499,7 @@
   {
     "subjectId": "IndAll062",
     "attributeId": "A068",
-    "value": "CG-allelic-state:heterozygous",
+    "value": "GENO:0000135",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "Coding",
@@ -2508,7 +2508,7 @@
   {
     "subjectId": "IndAll062",
     "attributeId": "A069",
-    "value": "CG-allelic-state:heterozygous",
+    "value": "GENO:0000135",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "secondaryZygosity",
     "attributeType": "Coding",
@@ -2517,7 +2517,7 @@
   {
     "subjectId": "IndAll062",
     "attributeId": "A070",
-    "value": "CG-phase:trans",
+    "value": "GENO:0000132",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "Coding",
@@ -2643,7 +2643,7 @@
   {
     "subjectId": "IndAll065",
     "attributeId": "A068",
-    "value": "CG-allelic-state:homozygous",
+    "value": "GENO:0000136",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "Coding",
@@ -2664,8 +2664,8 @@
     "value": "CC054",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: \"SO:0001825\""
+    "attributeType": "Coding",
+    "lookupValue": "consequence: { code: \"0001825\", display: \"conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "MolCon066",
@@ -2817,8 +2817,8 @@
     "value": "CC058",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001825\", display: \"conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC058\""
   },
   {
     "subjectId": "Conserv071",
@@ -2925,8 +2925,8 @@
     "value": "CC060",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001823\", display: \"conservative Inframe Insertion\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC060\""
   },
   {
     "subjectId": "MolCon075",
@@ -2934,8 +2934,8 @@
     "value": "CC061",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC061\""
   },
   {
     "subjectId": "MolCon075",
@@ -3005,9 +3005,9 @@
     "attributeId": "A110",
     "value": "true",
     "evidenceDataName": "FamilySegregation",
-    "attributeName": "anyInconsistentSegregations",
-    "attributeType": "boolean",
-    "lookupValue": "anyInconsistentSegregations: true"
+    "attributeName": "inconsistentSegregationsObserved",
+    "attributeType": "Coding",
+    "lookupValue": "inconsistentSegregationsObserved: \"true\""
   },
   {
     "subjectId": "RegTyp077",
@@ -3398,7 +3398,7 @@
   {
     "subjectId": "IndAllInh087",
     "attributeId": "A074",
-    "value": "GENO-allele-inheritance-type:0000880",
+    "value": "GENO:0000880",
     "evidenceDataName": "IndividualAlleleInheritance",
     "attributeName": "alleleInheritance",
     "attributeType": "Coding",
@@ -3443,7 +3443,7 @@
   {
     "subjectId": "IndAllInh088",
     "attributeId": "A074",
-    "value": "GENO-allele-inheritance-type:0000880",
+    "value": "GENO:0000880",
     "evidenceDataName": "IndividualAlleleInheritance",
     "attributeName": "alleleInheritance",
     "attributeType": "Coding",
@@ -3542,7 +3542,7 @@
   {
     "subjectId": "IndAllInh091",
     "attributeId": "A074",
-    "value": "GENO-allele-inheritance-type:0000880",
+    "value": "GENO:0000880",
     "evidenceDataName": "IndividualAlleleInheritance",
     "attributeName": "alleleInheritance",
     "attributeType": "Coding",
@@ -3641,7 +3641,7 @@
   {
     "subjectId": "IndAllInh094",
     "attributeId": "A074",
-    "value": "GENO-allele-inheritance-type:0000880",
+    "value": "GENO:0000880",
     "evidenceDataName": "IndividualAlleleInheritance",
     "attributeName": "alleleInheritance",
     "attributeType": "Coding",
@@ -3740,7 +3740,7 @@
   {
     "subjectId": "IndAllInh097",
     "attributeId": "A074",
-    "value": "GENO-allele-inheritance-type:0000880",
+    "value": "GENO:0000880",
     "evidenceDataName": "IndividualAlleleInheritance",
     "attributeName": "alleleInheritance",
     "attributeType": "Coding",
@@ -3839,7 +3839,7 @@
   {
     "subjectId": "IndAllInh100",
     "attributeId": "A074",
-    "value": "GENO-allele-inheritance-type:0000880",
+    "value": "GENO:0000880",
     "evidenceDataName": "IndividualAlleleInheritance",
     "attributeName": "alleleInheritance",
     "attributeType": "Coding",
@@ -3911,11 +3911,11 @@
   {
     "subjectId": "BMVR102",
     "attributeId": "A080",
-    "value": "CG-ben-missense-var-rate:low",
+    "value": "SEPIO:0000266",
     "evidenceDataName": "BenignMissenseVariationRate",
     "attributeName": "value",
     "attributeType": "Coding",
-    "lookupValue": "value: { code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }"
+    "lookupValue": "value: { code: \"0000266\", display: \"Low\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "FamSeg103",
@@ -4118,7 +4118,7 @@
   {
     "subjectId": "IndAllInh106",
     "attributeId": "A074",
-    "value": "GENO-allele-inheritance-type:0000880",
+    "value": "GENO:0000880",
     "evidenceDataName": "IndividualAlleleInheritance",
     "attributeName": "alleleInheritance",
     "attributeType": "Coding",
@@ -4544,17 +4544,17 @@
     "value": "CC070",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC070\""
   },
   {
     "subjectId": "MolCon117",
     "attributeId": "A010",
     "value": "false",
     "evidenceDataName": "MolecularConsequence",
-    "attributeName": "lof",
-    "attributeType": "yes/no/maybe",
-    "lookupValue": "lof: \"false\""
+    "attributeName": "#N/A",
+    "attributeType": "#N/A",
+    "lookupValue": "#N/A"
   },
   {
     "subjectId": "CondMech118",
@@ -4595,11 +4595,11 @@
   {
     "subjectId": "BMVR119",
     "attributeId": "A080",
-    "value": "CG-ben-missense-var-rate:low",
+    "value": "SEPIO:0000266",
     "evidenceDataName": "BenignMissenseVariationRate",
     "attributeName": "value",
     "attributeType": "Coding",
-    "lookupValue": "value: { code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }"
+    "lookupValue": "value: { code: \"0000266\", display: \"Low\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "InSilicoPred120",
@@ -5885,7 +5885,7 @@
     "value": "complete",
     "evidenceDataName": "LocusHeterogeneity",
     "attributeName": "specificity",
-    "attributeType": "String",
+    "attributeType": "Coding",
     "lookupValue": "specificity: \"complete\""
   },
   {
@@ -5912,7 +5912,7 @@
     "value": "low",
     "evidenceDataName": "LocusHeterogeneity",
     "attributeName": "specificity",
-    "attributeType": "String",
+    "attributeType": "Coding",
     "lookupValue": "specificity: \"low\""
   },
   {
@@ -6206,11 +6206,11 @@
   {
     "subjectId": "CritAssess156",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess156",
@@ -6422,11 +6422,11 @@
   {
     "subjectId": "BMVR161",
     "attributeId": "A080",
-    "value": "CG-ben-missense-var-rate:high",
+    "value": "SEPIO:0000265",
     "evidenceDataName": "BenignMissenseVariationRate",
     "attributeName": "value",
     "attributeType": "Coding",
-    "lookupValue": "value: { code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" }"
+    "lookupValue": "value: { code: \"0000265\", display: \"High\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "AllFreq162",
@@ -6695,17 +6695,17 @@
     "value": "CC122",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC122\""
   },
   {
     "subjectId": "MolCon169",
     "attributeId": "A010",
     "value": "no",
     "evidenceDataName": "MolecularConsequence",
-    "attributeName": "lof",
-    "attributeType": "yes/no/maybe",
-    "lookupValue": "lof: \"no\""
+    "attributeName": "#N/A",
+    "attributeType": "#N/A",
+    "lookupValue": "#N/A"
   },
   {
     "subjectId": "CondPenet170",
@@ -6746,11 +6746,11 @@
   {
     "subjectId": "IndAll172",
     "attributeId": "A068",
-    "value": "CG-allelic-state:heterozygous",
+    "value": "GENO:0000135",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "Coding",
-    "lookupValue": "primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
+    "lookupValue": "primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndAll173",
@@ -6773,11 +6773,11 @@
   {
     "subjectId": "IndAll173",
     "attributeId": "A068",
-    "value": "CG-allelic-state:homozygous",
+    "value": "GENO:0000136",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "Coding",
-    "lookupValue": "primaryZygosity: { code: \"homozygous\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
+    "lookupValue": "primaryZygosity: { code: \"0000136\", display: \"homozygous\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndCond174",
@@ -6872,11 +6872,11 @@
   {
     "subjectId": "IndAll178",
     "attributeId": "A068",
-    "value": "CG-allelic-state:heterozygous",
+    "value": "GENO:0000135",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "Coding",
-    "lookupValue": "primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
+    "lookupValue": "primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndAll179",
@@ -6899,11 +6899,11 @@
   {
     "subjectId": "IndAll179",
     "attributeId": "A068",
-    "value": "CG-allelic-state:heterozygous",
+    "value": "GENO:0000135",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "Coding",
-    "lookupValue": "primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
+    "lookupValue": "primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndAll180",
@@ -6926,11 +6926,11 @@
   {
     "subjectId": "IndAll180",
     "attributeId": "A068",
-    "value": "CG-allelic-state:heterozygous",
+    "value": "GENO:0000135",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "Coding",
-    "lookupValue": "primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
+    "lookupValue": "primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndAll181",
@@ -6953,11 +6953,11 @@
   {
     "subjectId": "IndAll181",
     "attributeId": "A068",
-    "value": "CG-allelic-state:heterozygous",
+    "value": "GENO:0000135",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "Coding",
-    "lookupValue": "primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
+    "lookupValue": "primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndCond182",
@@ -7106,11 +7106,11 @@
   {
     "subjectId": "IndAll188",
     "attributeId": "A068",
-    "value": "CG-allelic-state:heterozygous",
+    "value": "GENO:0000135",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "Coding",
-    "lookupValue": "primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
+    "lookupValue": "primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndAll189",
@@ -7133,11 +7133,11 @@
   {
     "subjectId": "IndAll189",
     "attributeId": "A068",
-    "value": "CG-allelic-state:heterozygous",
+    "value": "GENO:0000135",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "Coding",
-    "lookupValue": "primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
+    "lookupValue": "primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndCond190",
@@ -7387,9 +7387,9 @@
     "attributeId": "A110",
     "value": "true",
     "evidenceDataName": "FamilySegregation",
-    "attributeName": "anyInconsistentSegregations",
-    "attributeType": "boolean",
-    "lookupValue": "anyInconsistentSegregations: true"
+    "attributeName": "inconsistentSegregationsObserved",
+    "attributeType": "Coding",
+    "lookupValue": "inconsistentSegregationsObserved: \"true\""
   },
   {
     "subjectId": "FamSeg197",
@@ -7441,9 +7441,9 @@
     "attributeId": "A110",
     "value": "true",
     "evidenceDataName": "FamilySegregation",
-    "attributeName": "anyInconsistentSegregations",
-    "attributeType": "boolean",
-    "lookupValue": "anyInconsistentSegregations: true"
+    "attributeName": "inconsistentSegregationsObserved",
+    "attributeType": "Coding",
+    "lookupValue": "inconsistentSegregationsObserved: \"true\""
   },
   {
     "subjectId": "MolCon198",
@@ -7460,17 +7460,17 @@
     "value": "CC138",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC138\""
   },
   {
     "subjectId": "MolCon198",
     "attributeId": "A010",
     "value": "no",
     "evidenceDataName": "MolecularConsequence",
-    "attributeName": "lof",
-    "attributeType": "yes/no/maybe",
-    "lookupValue": "lof: \"no\""
+    "attributeName": "#N/A",
+    "attributeType": "#N/A",
+    "lookupValue": "#N/A"
   },
   {
     "subjectId": "CondMech199",
@@ -7559,17 +7559,17 @@
     "value": "CC143",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC143\""
   },
   {
     "subjectId": "MolCon201",
     "attributeId": "A010",
     "value": "no",
     "evidenceDataName": "MolecularConsequence",
-    "attributeName": "lof",
-    "attributeType": "yes/no/maybe",
-    "lookupValue": "lof: \"no\""
+    "attributeName": "#N/A",
+    "attributeType": "#N/A",
+    "lookupValue": "#N/A"
   },
   {
     "subjectId": "CondMech202",
@@ -7622,17 +7622,17 @@
     "value": "CC146",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC146\""
   },
   {
     "subjectId": "MolCon203",
     "attributeId": "A010",
     "value": "no",
     "evidenceDataName": "MolecularConsequence",
-    "attributeName": "lof",
-    "attributeType": "yes/no/maybe",
-    "lookupValue": "lof: \"no\""
+    "attributeName": "#N/A",
+    "attributeType": "#N/A",
+    "lookupValue": "#N/A"
   },
   {
     "subjectId": "CondMech204",
@@ -7736,11 +7736,11 @@
   {
     "subjectId": "IndAll206",
     "attributeId": "A070",
-    "value": "CG-phase:cis",
+    "value": "GENO:0000131",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "Coding",
-    "lookupValue": "phase: { code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
+    "lookupValue": "phase: { code: \"0000131\", display: \"in cis\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndAll207",
@@ -7772,11 +7772,11 @@
   {
     "subjectId": "IndAll207",
     "attributeId": "A070",
-    "value": "CG-phase:cis",
+    "value": "GENO:0000131",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "Coding",
-    "lookupValue": "phase: { code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
+    "lookupValue": "phase: { code: \"0000131\", display: \"in cis\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndCond208",
@@ -7889,11 +7889,11 @@
   {
     "subjectId": "IndAll211",
     "attributeId": "A070",
-    "value": "CG-phase:cis",
+    "value": "GENO:0000131",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "Coding",
-    "lookupValue": "phase: { code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
+    "lookupValue": "phase: { code: \"0000131\", display: \"in cis\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndCond212",
@@ -7979,11 +7979,11 @@
   {
     "subjectId": "IndAll214",
     "attributeId": "A070",
-    "value": "CG-phase:trans",
+    "value": "GENO:0000132",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "Coding",
-    "lookupValue": "phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
+    "lookupValue": "phase: { code: \"0000132\", display: \"in trans\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndCond215",
@@ -8090,8 +8090,8 @@
     "value": "CC161",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001825\", display: \"conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC161\""
   },
   {
     "subjectId": "MolCon223",
@@ -8126,8 +8126,8 @@
     "value": "CC163",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC163\""
   },
   {
     "subjectId": "MolCon227",
@@ -8162,8 +8162,8 @@
     "value": "CC165",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001823\", display: \"conservative Inframe Insertion\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC165\""
   },
   {
     "subjectId": "MolCon231",
@@ -8708,29 +8708,29 @@
   {
     "subjectId": "IndAll245",
     "attributeId": "A068",
-    "value": "CG-allelic-state:heterozygous",
+    "value": "GENO:0000135",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "primaryZygosity",
     "attributeType": "Coding",
-    "lookupValue": "primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
+    "lookupValue": "primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndAll245",
     "attributeId": "A069",
-    "value": "CG-allelic-state:heterozygous",
+    "value": "GENO:0000135",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "secondaryZygosity",
     "attributeType": "Coding",
-    "lookupValue": "secondaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
+    "lookupValue": "secondaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndAll245",
     "attributeId": "A070",
-    "value": "CG-phase:trans",
+    "value": "GENO:0000132",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "Coding",
-    "lookupValue": "phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
+    "lookupValue": "phase: { code: \"0000132\", display: \"in trans\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndCond246",
@@ -8843,11 +8843,11 @@
   {
     "subjectId": "IndAll249",
     "attributeId": "A069",
-    "value": "CG-allelic-state:homozygous",
+    "value": "GENO:0000136",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "secondaryZygosity",
     "attributeType": "Coding",
-    "lookupValue": "secondaryZygosity: { code: \"homozygous\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }"
+    "lookupValue": "secondaryZygosity: { code: \"0000136\", display: \"homozygous\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndCond250",
@@ -9179,8 +9179,8 @@
     "value": "CC188",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC188\""
   },
   {
     "subjectId": "MolCon261",
@@ -9305,8 +9305,8 @@
     "value": "CC190",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC190\""
   },
   {
     "subjectId": "MolCon265",
@@ -9431,8 +9431,8 @@
     "value": "CC192",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC192\""
   },
   {
     "subjectId": "MolCon269",
@@ -9520,9 +9520,9 @@
     "attributeId": "A110",
     "value": "true",
     "evidenceDataName": "FamilySegregation",
-    "attributeName": "anyInconsistentSegregations",
-    "attributeType": "boolean",
-    "lookupValue": "anyInconsistentSegregations: true"
+    "attributeName": "inconsistentSegregationsObserved",
+    "attributeType": "Coding",
+    "lookupValue": "inconsistentSegregationsObserved: \"true\""
   },
   {
     "subjectId": "MolCon272",
@@ -9539,17 +9539,17 @@
     "value": "CC194",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "consequence: { coding: [{ code: \"0001629\", display: \"splice-site variant\", system: \"http://sequenceontology.org/\" }] }"
+    "attributeType": "Coding",
+    "lookupValue": "consequence: \"CC194\""
   },
   {
     "subjectId": "MolCon272",
     "attributeId": "A010",
     "value": "true",
     "evidenceDataName": "MolecularConsequence",
-    "attributeName": "lof",
-    "attributeType": "yes/no/maybe",
-    "lookupValue": "lof: \"true\""
+    "attributeName": "#N/A",
+    "attributeType": "#N/A",
+    "lookupValue": "#N/A"
   },
   {
     "subjectId": "CondMech273",
@@ -9680,11 +9680,11 @@
   {
     "subjectId": "CritAssess275",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess275",
@@ -9734,11 +9734,11 @@
   {
     "subjectId": "CritAssess276",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess276",
@@ -9788,11 +9788,11 @@
   {
     "subjectId": "CritAssess277",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess277",
@@ -9851,11 +9851,11 @@
   {
     "subjectId": "CritAssess278",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess278",
@@ -9905,11 +9905,11 @@
   {
     "subjectId": "CritAssess279",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess279",
@@ -9959,11 +9959,11 @@
   {
     "subjectId": "CritAssess280",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess280",
@@ -10031,11 +10031,11 @@
   {
     "subjectId": "CritAssess281",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess281",
@@ -10085,11 +10085,11 @@
   {
     "subjectId": "CritAssess282",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess282",
@@ -10139,11 +10139,11 @@
   {
     "subjectId": "CritAssess283",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess283",
@@ -10184,11 +10184,11 @@
   {
     "subjectId": "CritAssess284",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess284",
@@ -10265,11 +10265,11 @@
   {
     "subjectId": "CritAssess285",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess285",
@@ -10319,11 +10319,11 @@
   {
     "subjectId": "CritAssess286",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess286",
@@ -10391,11 +10391,11 @@
   {
     "subjectId": "CritAssess287",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess287",
@@ -10445,11 +10445,11 @@
   {
     "subjectId": "CritAssess288",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess288",
@@ -10499,11 +10499,11 @@
   {
     "subjectId": "CritAssess289",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess289",
@@ -10544,11 +10544,11 @@
   {
     "subjectId": "CritAssess290",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess290",
@@ -10589,11 +10589,11 @@
   {
     "subjectId": "CritAssess291",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess291",
@@ -10643,11 +10643,11 @@
   {
     "subjectId": "CritAssess292",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess292",
@@ -10688,11 +10688,11 @@
   {
     "subjectId": "CritAssess293",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess293",
@@ -10742,11 +10742,11 @@
   {
     "subjectId": "CritAssess294",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess294",
@@ -10787,11 +10787,11 @@
   {
     "subjectId": "CritAssess295",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess295",
@@ -10841,11 +10841,11 @@
   {
     "subjectId": "CritAssess296",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess296",
@@ -10895,11 +10895,11 @@
   {
     "subjectId": "CritAssess297",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess297",
@@ -10949,11 +10949,11 @@
   {
     "subjectId": "CritAssess298",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess298",
@@ -10994,11 +10994,11 @@
   {
     "subjectId": "CritAssess299",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess299",
@@ -11039,11 +11039,11 @@
   {
     "subjectId": "CritAssess300",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess300",
@@ -11084,11 +11084,11 @@
   {
     "subjectId": "CritAssess301",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess301",
@@ -11138,11 +11138,11 @@
   {
     "subjectId": "CritAssess302",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess302",
@@ -11210,11 +11210,11 @@
   {
     "subjectId": "CritAssess303",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess303",
@@ -11264,11 +11264,11 @@
   {
     "subjectId": "CritAssess304",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess304",
@@ -11309,11 +11309,11 @@
   {
     "subjectId": "CritAssess305",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess305",
@@ -11372,11 +11372,11 @@
   {
     "subjectId": "CritAssess306",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess306",
@@ -11444,11 +11444,11 @@
   {
     "subjectId": "CritAssess307",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess307",
@@ -11498,11 +11498,11 @@
   {
     "subjectId": "CritAssess308",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess308",
@@ -11570,11 +11570,11 @@
   {
     "subjectId": "CritAssess309",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess309",
@@ -11624,11 +11624,11 @@
   {
     "subjectId": "CritAssess310",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess310",
@@ -11678,11 +11678,11 @@
   {
     "subjectId": "CritAssess311",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess311",
@@ -11732,11 +11732,11 @@
   {
     "subjectId": "CritAssess312",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess312",
@@ -11777,11 +11777,11 @@
   {
     "subjectId": "CritAssess313",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess313",
@@ -11822,11 +11822,11 @@
   {
     "subjectId": "CritAssess314",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess314",
@@ -11876,11 +11876,11 @@
   {
     "subjectId": "CritAssess315",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess315",
@@ -11921,11 +11921,11 @@
   {
     "subjectId": "CritAssess316",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess316",
@@ -11975,11 +11975,11 @@
   {
     "subjectId": "CritAssess318",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess318",
@@ -12038,11 +12038,11 @@
   {
     "subjectId": "CritAssess319",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess319",
@@ -12092,11 +12092,11 @@
   {
     "subjectId": "CritAssess320",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess320",
@@ -12146,11 +12146,11 @@
   {
     "subjectId": "CritAssess321",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess321",
@@ -12200,11 +12200,11 @@
   {
     "subjectId": "CritAssess322",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess322",
@@ -12245,11 +12245,11 @@
   {
     "subjectId": "CritAssess323",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess323",
@@ -12290,11 +12290,11 @@
   {
     "subjectId": "CritAssess324",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess324",
@@ -12353,11 +12353,11 @@
   {
     "subjectId": "CritAssess325",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess325",
@@ -12407,11 +12407,11 @@
   {
     "subjectId": "CritAssess326",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess326",
@@ -12461,11 +12461,11 @@
   {
     "subjectId": "CritAssess327",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess327",
@@ -12524,11 +12524,11 @@
   {
     "subjectId": "CritAssess328",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess328",
@@ -12578,11 +12578,11 @@
   {
     "subjectId": "CritAssess329",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess329",
@@ -12641,11 +12641,11 @@
   {
     "subjectId": "CritAssess330",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess330",
@@ -12731,11 +12731,11 @@
   {
     "subjectId": "CritAssess331",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess331",
@@ -12794,11 +12794,11 @@
   {
     "subjectId": "CritAssess333",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess333",
@@ -12848,11 +12848,11 @@
   {
     "subjectId": "CritAssess334",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess334",
@@ -12911,11 +12911,11 @@
   {
     "subjectId": "CritAssess335",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess335",
@@ -12965,11 +12965,11 @@
   {
     "subjectId": "CritAssess336",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess336",
@@ -13019,11 +13019,11 @@
   {
     "subjectId": "CritAssess337",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess337",
@@ -13073,11 +13073,11 @@
   {
     "subjectId": "CritAssess338",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess338",
@@ -13127,11 +13127,11 @@
   {
     "subjectId": "CritAssess339",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess339",
@@ -13181,11 +13181,11 @@
   {
     "subjectId": "CritAssess340",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess340",
@@ -13235,11 +13235,11 @@
   {
     "subjectId": "CritAssess341",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess341",
@@ -13289,11 +13289,11 @@
   {
     "subjectId": "CritAssess342",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess342",
@@ -13352,11 +13352,11 @@
   {
     "subjectId": "CritAssess343",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess343",
@@ -13406,11 +13406,11 @@
   {
     "subjectId": "CritAssess344",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess344",
@@ -13451,11 +13451,11 @@
   {
     "subjectId": "CritAssess345",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess345",
@@ -13496,11 +13496,11 @@
   {
     "subjectId": "CritAssess346",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess346",
@@ -13541,11 +13541,11 @@
   {
     "subjectId": "CritAssess347",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess347",
@@ -13586,11 +13586,11 @@
   {
     "subjectId": "CritAssess348",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess348",
@@ -13631,11 +13631,11 @@
   {
     "subjectId": "CritAssess350",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess350",
@@ -13685,11 +13685,11 @@
   {
     "subjectId": "CritAssess351",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess351",
@@ -13739,11 +13739,11 @@
   {
     "subjectId": "CritAssess352",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess352",
@@ -13793,11 +13793,11 @@
   {
     "subjectId": "CritAssess353",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess353",
@@ -13847,11 +13847,11 @@
   {
     "subjectId": "CritAssess354",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess354",
@@ -13901,11 +13901,11 @@
   {
     "subjectId": "CritAssess355",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess355",
@@ -13955,11 +13955,11 @@
   {
     "subjectId": "CritAssess356",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess356",
@@ -14009,11 +14009,11 @@
   {
     "subjectId": "CritAssess357",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess357",
@@ -14054,11 +14054,11 @@
   {
     "subjectId": "CritAssess358",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess358",
@@ -14099,11 +14099,11 @@
   {
     "subjectId": "CritAssess359",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess359",
@@ -14144,11 +14144,11 @@
   {
     "subjectId": "CritAssess360",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:not-met",
+    "value": "SEPIO:0000224",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess360",
@@ -14198,11 +14198,11 @@
   {
     "subjectId": "CritAssess361",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess361",
@@ -14288,11 +14288,11 @@
   {
     "subjectId": "CritAssess363",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess363",
@@ -14396,11 +14396,11 @@
   {
     "subjectId": "IndAll366",
     "attributeId": "A070",
-    "value": "CG-phase:trans",
+    "value": "GENO:0000132",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "Coding",
-    "lookupValue": "phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
+    "lookupValue": "phase: { code: \"0000132\", display: \"in trans\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndAll367",
@@ -14432,11 +14432,11 @@
   {
     "subjectId": "IndAll367",
     "attributeId": "A070",
-    "value": "CG-phase:trans",
+    "value": "GENO:0000132",
     "evidenceDataName": "IndividualAllele",
     "attributeName": "phase",
     "attributeType": "Coding",
-    "lookupValue": "phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" }"
+    "lookupValue": "phase: { code: \"0000132\", display: \"in trans\", system: \"http://obofoundry.org/geno/\" }"
   },
   {
     "subjectId": "IndCond368",
@@ -14486,11 +14486,11 @@
   {
     "subjectId": "CritAssess369",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess369",
@@ -14594,11 +14594,11 @@
   {
     "subjectId": "CritAssess371",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess371",
@@ -14648,11 +14648,11 @@
   {
     "subjectId": "CritAssess372",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess372",
@@ -14693,11 +14693,11 @@
   {
     "subjectId": "CritAssess373",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess373",
@@ -14738,11 +14738,11 @@
   {
     "subjectId": "CritAssess374",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess374",
@@ -14792,11 +14792,11 @@
   {
     "subjectId": "CritAssess375",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess375",
@@ -14837,11 +14837,11 @@
   {
     "subjectId": "CritAssess376",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess376",
@@ -14891,11 +14891,11 @@
   {
     "subjectId": "CritAssess377",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess377",
@@ -14944,11 +14944,11 @@
   {
     "subjectId": "CritAssess378",
     "attributeId": "A116",
-    "value": "CG-criterion-outcome:met",
+    "value": "SEPIO:0000223",
     "evidenceDataName": "CriterionAssessment",
     "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" }"
+    "lookupValue": "outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CritAssess378",

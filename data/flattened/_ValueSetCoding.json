@@ -117,11 +117,6 @@
   {
     "subjectId": "VS002",
     "attributeId": "A121",
-    "value": "SO:0002054"
-  },
-  {
-    "subjectId": "VS002",
-    "attributeId": "A121",
     "value": "SO:0002073"
   },
   {
@@ -182,52 +177,47 @@
   {
     "subjectId": "VS005",
     "attributeId": "A121",
-    "value": "CG-phase:cis"
+    "value": "GENO:0000131"
   },
   {
     "subjectId": "VS005",
     "attributeId": "A121",
-    "value": "CG-phase:trans"
+    "value": "GENO:0000132"
   },
   {
     "subjectId": "VS006",
     "attributeId": "A121",
-    "value": "CG-allelic-state:absent"
+    "value": "GENO:0000137"
   },
   {
     "subjectId": "VS006",
     "attributeId": "A121",
-    "value": "CG-allelic-state:hemizygous"
+    "value": "GENO:0000134"
   },
   {
     "subjectId": "VS006",
     "attributeId": "A121",
-    "value": "CG-allelic-state:heteroplasmic"
+    "value": "GENO:0000603"
   },
   {
     "subjectId": "VS006",
     "attributeId": "A121",
-    "value": "CG-allelic-state:heterozygous"
+    "value": "GENO:0000135"
   },
   {
     "subjectId": "VS006",
     "attributeId": "A121",
-    "value": "CG-allelic-state:homoplasmic"
+    "value": "GENO:0000602"
   },
   {
     "subjectId": "VS006",
     "attributeId": "A121",
-    "value": "CG-allelic-state:homozygous"
+    "value": "GENO:0000136"
   },
   {
     "subjectId": "VS006",
     "attributeId": "A121",
-    "value": "CG-allelic-state:other"
-  },
-  {
-    "subjectId": "VS006",
-    "attributeId": "A121",
-    "value": "CG-allelic-state:somatic"
+    "value": "GENO:0000882"
   },
   {
     "subjectId": "VS007",
@@ -252,17 +242,12 @@
   {
     "subjectId": "VS007",
     "attributeId": "A121",
-    "value": "CG-inheritance-mode:other"
+    "value": "HP:0031362"
   },
   {
     "subjectId": "VS007",
     "attributeId": "A121",
-    "value": "CG-inheritance-mode:sex-limited-ar"
-  },
-  {
-    "subjectId": "VS007",
-    "attributeId": "A121",
-    "value": "CG-inheritance-mode:unknown"
+    "value": "GENO:0000889"
   },
   {
     "subjectId": "VS007",
@@ -382,12 +367,12 @@
   {
     "subjectId": "VS011",
     "attributeId": "A121",
-    "value": "CG-criterion-outcome:met"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "VS011",
     "attributeId": "A121",
-    "value": "CG-criterion-outcome:not-met"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "VS012",
@@ -652,12 +637,12 @@
   {
     "subjectId": "VS014",
     "attributeId": "A121",
-    "value": "CG-ben-missense-var-rate:high"
+    "value": "SEPIO:0000265"
   },
   {
     "subjectId": "VS014",
     "attributeId": "A121",
-    "value": "CG-ben-missense-var-rate:low"
+    "value": "SEPIO:0000266"
   },
   {
     "subjectId": "VS015",
@@ -997,32 +982,32 @@
   {
     "subjectId": "VS022",
     "attributeId": "A121",
-    "value": "GENO-allele-inheritance-type:0000880"
+    "value": "GENO:0000880"
   },
   {
     "subjectId": "VS022",
     "attributeId": "A121",
-    "value": "GENO-allele-inheritance-type:0000878"
+    "value": "GENO:0000878"
   },
   {
     "subjectId": "VS022",
     "attributeId": "A121",
-    "value": "GENO-allele-inheritance-type:0000879"
+    "value": "GENO:0000878"
   },
   {
     "subjectId": "VS022",
     "attributeId": "A121",
-    "value": "GENO-allele-inheritance-type:0000881"
+    "value": "GENO:0000881"
   },
   {
     "subjectId": "VS022",
     "attributeId": "A121",
-    "value": "GENO-allele-inheritance-type:0000888"
+    "value": "GENO:0000888"
   },
   {
     "subjectId": "VS023",
     "attributeId": "A121",
-    "value": "CG-ascertainment-type:1KG"
+    "value": "CG-ascertainment-type:1000G"
   },
   {
     "subjectId": "VS023",
@@ -1037,11 +1022,86 @@
   {
     "subjectId": "VS023",
     "attributeId": "A121",
-    "value": "CG-ascertainment-type:1KG_ESP"
+    "value": "CG-ascertainment-type:gnomAD"
   },
   {
-    "subjectId": "VS023",
+    "subjectId": "VS024",
     "attributeId": "A121",
-    "value": "CG-ascertainment-type:gnomAD"
+    "value": "SEPIO:0000273"
+  },
+  {
+    "subjectId": "VS024",
+    "attributeId": "A121",
+    "value": "SEPIO:99001"
+  },
+  {
+    "subjectId": "VS024",
+    "attributeId": "A121",
+    "value": "SEPIO:99002"
+  },
+  {
+    "subjectId": "VS025",
+    "attributeId": "A121",
+    "value": "SEPIO:99003"
+  },
+  {
+    "subjectId": "VS025",
+    "attributeId": "A121",
+    "value": "SEPIO:99004"
+  },
+  {
+    "subjectId": "VS026",
+    "attributeId": "A121",
+    "value": "SEPIO:99005"
+  },
+  {
+    "subjectId": "VS026",
+    "attributeId": "A121",
+    "value": "SEPIO:99006"
+  },
+  {
+    "subjectId": "VS026",
+    "attributeId": "A121",
+    "value": "SEPIO:99007"
+  },
+  {
+    "subjectId": "VS026",
+    "attributeId": "A121",
+    "value": "SEPIO:99008"
+  },
+  {
+    "subjectId": "VS027",
+    "attributeId": "A121",
+    "value": "SEPIO:99009"
+  },
+  {
+    "subjectId": "VS027",
+    "attributeId": "A121",
+    "value": "SEPIO:99010"
+  },
+  {
+    "subjectId": "VS028",
+    "attributeId": "A121",
+    "value": "SEPIO:99011"
+  },
+  {
+    "subjectId": "VS028",
+    "attributeId": "A121",
+    "value": "SEPIO:99012"
+  },
+  {
+    "subjectId": "VS028",
+    "attributeId": "A121",
+    "value": "SEPIO:99013"
+  },
+  {
+    "subjectId": "VS029",
+    "attributeId": "A121",
+    "value": "SEPIO:99014"
+  },
+  {
+    "subjectId": "VS029",
+    "attributeId": "A121",
+    "value": "SEPIO:99015"
   }
 ]

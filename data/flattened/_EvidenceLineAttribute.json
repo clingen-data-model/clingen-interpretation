@@ -5,7 +5,7 @@
     "value": "MolCon001",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon001: { consequence: { coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon001: { consequence: \"CC001\" }"
   },
   {
     "subjectId": "EvLn001",
@@ -21,7 +21,7 @@
     "value": "MolCon003",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon003: { consequence: { coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon003: { consequence: \"CC004\" }"
   },
   {
     "subjectId": "EvLn002",
@@ -37,7 +37,7 @@
     "value": "MolCon005",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon005: { consequence: { coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon005: { consequence: \"CC007\" }"
   },
   {
     "subjectId": "EvLn003",
@@ -53,7 +53,7 @@
     "value": "MolCon006",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon006: { consequence: { coding: [{ code: \"0000191\", display: \"interior intron\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon006: { consequence: \"CC008\" }"
   },
   {
     "subjectId": "EvLn004",
@@ -333,7 +333,7 @@
     "value": "BMVR102",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "BMVR102: { region: \"Loc383\", value: { code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" } }"
+    "derivedName": "BMVR102: { region: \"Loc383\", value: { code: \"0000266\", display: \"Low\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn025",
@@ -389,7 +389,7 @@
     "value": "IndAll058",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAll058: { individual: { individual #004 }, primaryAllele: { NM_001369.2(DNAH5):c.7468_7488del }, secondaryAllele: { NM_001369.2(DNAH5):c.9449delG }, primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, secondaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
+    "derivedName": "IndAll058: { individual: { individual #004 }, primaryAllele: { NM_001369.2(DNAH5):c.7468_7488del }, secondaryAllele: { NM_001369.2(DNAH5):c.9449delG }, primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" }, secondaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" }, phase: { code: \"0000132\", display: \"in trans\", system: \"http://obofoundry.org/geno/\" } }"
   },
   {
     "subjectId": "EvLn030",
@@ -437,7 +437,7 @@
     "value": "MolCon066",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon066: { consequence: \"SO:0001825\" }"
+    "derivedName": "MolCon066: { consequence: { code: \"0001825\", display: \"conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" } }"
   },
   {
     "subjectId": "EvLn032",
@@ -453,7 +453,7 @@
     "value": "MolCon070",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon070: { consequence: { coding: [{ code: \"0001825\", display: \"conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon070: { consequence: \"CC058\" }"
   },
   {
     "subjectId": "EvLn033",
@@ -469,7 +469,7 @@
     "value": "MolCon074",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon074: { consequence: { coding: [{ code: \"0001823\", display: \"conservative Inframe Insertion\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon074: { consequence: \"CC060\" }"
   },
   {
     "subjectId": "EvLn034",
@@ -709,7 +709,7 @@
     "value": "MolCon117",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon117: { consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon117: { consequence: \"CC070\" }"
   },
   {
     "subjectId": "EvLn051",
@@ -725,7 +725,7 @@
     "value": "BMVR119",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "BMVR119: { value: { code: \"low\", display: \"Low\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" } }"
+    "derivedName": "BMVR119: { value: { code: \"0000266\", display: \"Low\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn052",
@@ -1109,7 +1109,7 @@
     "value": "IndAll172",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAll172: { individual: { individual #013 }, primaryAllele: { NM_001197104.1(KMT2A):c.6572G>A }, primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
+    "derivedName": "IndAll172: { individual: { individual #013 }, primaryAllele: { NM_001197104.1(KMT2A):c.6572G>A }, primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" } }"
   },
   {
     "subjectId": "EvLn067",
@@ -1133,7 +1133,7 @@
     "value": "IndAll173",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAll173: { primaryZygosity: \"Indiv014\", primaryAllele: { NM_001197104.1(KMT2A):c.6572G>A }, primaryZygosity: { code: \"homozygous\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
+    "derivedName": "IndAll173: { primaryZygosity: \"Indiv014\", primaryAllele: { NM_001197104.1(KMT2A):c.6572G>A }, primaryZygosity: { code: \"0000136\", display: \"homozygous\", system: \"http://obofoundry.org/geno/\" } }"
   },
   {
     "subjectId": "EvLn068",
@@ -1157,7 +1157,7 @@
     "value": "IndAll178",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAll178: { individual: { individual #015 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
+    "derivedName": "IndAll178: { individual: { individual #015 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" } }"
   },
   {
     "subjectId": "EvLn069",
@@ -1181,7 +1181,7 @@
     "value": "IndAll179",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAll179: { individual: { individual #016 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
+    "derivedName": "IndAll179: { individual: { individual #016 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" } }"
   },
   {
     "subjectId": "EvLn070",
@@ -1205,7 +1205,7 @@
     "value": "IndAll180",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAll180: { individual: { individual #017 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
+    "derivedName": "IndAll180: { individual: { individual #017 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" } }"
   },
   {
     "subjectId": "EvLn071",
@@ -1229,7 +1229,7 @@
     "value": "IndAll181",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAll181: { individual: { individual #018 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
+    "derivedName": "IndAll181: { individual: { individual #018 }, primaryAllele: { NM_000038.5(APC ):c.3386T>C }, primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" } }"
   },
   {
     "subjectId": "EvLn072",
@@ -1253,7 +1253,7 @@
     "value": "IndAll188",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAll188: { individual: { individual #019 }, primaryAllele: { NM_000138.4(FBN1 ):c.2956G>A }, primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
+    "derivedName": "IndAll188: { individual: { individual #019 }, primaryAllele: { NM_000138.4(FBN1 ):c.2956G>A }, primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" } }"
   },
   {
     "subjectId": "EvLn073",
@@ -1277,7 +1277,7 @@
     "value": "IndAll189",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAll189: { individual: { individual #020 }, primaryAllele: { NM_000138.4(FBN1 ):c.2956G>A }, primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
+    "derivedName": "IndAll189: { individual: { individual #020 }, primaryAllele: { NM_000138.4(FBN1 ):c.2956G>A }, primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" } }"
   },
   {
     "subjectId": "EvLn074",
@@ -1341,7 +1341,7 @@
     "value": "MolCon198",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon198: { consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon198: { consequence: \"CC138\" }"
   },
   {
     "subjectId": "EvLn081",
@@ -1357,7 +1357,7 @@
     "value": "MolCon198",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon198: { consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon198: { consequence: \"CC138\" }"
   },
   {
     "subjectId": "EvLn082",
@@ -1373,7 +1373,7 @@
     "value": "MolCon201",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon201: { consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon201: { consequence: \"CC143\" }"
   },
   {
     "subjectId": "EvLn083",
@@ -1389,7 +1389,7 @@
     "value": "MolCon203",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon203: { consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon203: { consequence: \"CC146\" }"
   },
   {
     "subjectId": "EvLn084",
@@ -1413,7 +1413,7 @@
     "value": "IndAll206",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAll206: { individual: { individual #021 }, primaryAllele: { NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser) }, secondaryAllele: { NM_206933.2(USH2A):c.2276G>T }, phase: { code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
+    "derivedName": "IndAll206: { individual: { individual #021 }, primaryAllele: { NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser) }, secondaryAllele: { NM_206933.2(USH2A):c.2276G>T }, phase: { code: \"0000131\", display: \"in cis\", system: \"http://obofoundry.org/geno/\" } }"
   },
   {
     "subjectId": "EvLn085",
@@ -1437,7 +1437,7 @@
     "value": "IndAll207",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAll207: { individual: { individual #022 }, primaryAllele: { NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser) }, secondaryAllele: { NM_206933.2(USH2A):c.2276G>T }, phase: { code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
+    "derivedName": "IndAll207: { individual: { individual #022 }, primaryAllele: { NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser) }, secondaryAllele: { NM_206933.2(USH2A):c.2276G>T }, phase: { code: \"0000131\", display: \"in cis\", system: \"http://obofoundry.org/geno/\" } }"
   },
   {
     "subjectId": "EvLn086",
@@ -1461,7 +1461,7 @@
     "value": "IndAll211",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAll211: { individual: { individual #023 }, primaryAllele: { NM_000492.3(CFTR): c.2002C>T }, secondaryAllele: { NP_000483.3:p.Gly576Ala }, phase: { code: \"cis\", display: \"in cis\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
+    "derivedName": "IndAll211: { individual: { individual #023 }, primaryAllele: { NM_000492.3(CFTR): c.2002C>T }, secondaryAllele: { NP_000483.3:p.Gly576Ala }, phase: { code: \"0000131\", display: \"in cis\", system: \"http://obofoundry.org/geno/\" } }"
   },
   {
     "subjectId": "EvLn087",
@@ -1485,7 +1485,7 @@
     "value": "IndAll214",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAll214: { individual: { individual #024 }, primaryAllele: { NM_000257.2(MYH7): c.2559G>A }, secondaryAllele: { NM_000257.2(MYH7): c.2537A>G }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
+    "derivedName": "IndAll214: { individual: { individual #024 }, primaryAllele: { NM_000257.2(MYH7): c.2559G>A }, secondaryAllele: { NM_000257.2(MYH7): c.2537A>G }, phase: { code: \"0000132\", display: \"in trans\", system: \"http://obofoundry.org/geno/\" } }"
   },
   {
     "subjectId": "EvLn088",
@@ -1533,7 +1533,7 @@
     "value": "MolCon223",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon223: { consequence: { coding: [{ code: \"0001825\", display: \"conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon223: { consequence: \"CC161\" }"
   },
   {
     "subjectId": "EvLn090",
@@ -1557,7 +1557,7 @@
     "value": "MolCon227",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon227: { consequence: { coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon227: { consequence: \"CC163\" }"
   },
   {
     "subjectId": "EvLn091",
@@ -1581,7 +1581,7 @@
     "value": "MolCon231",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon231: { consequence: { coding: [{ code: \"0001823\", display: \"conservative Inframe Insertion\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon231: { consequence: \"CC165\" }"
   },
   {
     "subjectId": "EvLn092",
@@ -1693,7 +1693,7 @@
     "value": "IndAll245",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAll245: { individual: { individual #026 }, primaryAllele: { NM_004004.5(GJB2):c.71G>A }, secondaryAllele: { NM_004004.5(GJB2):c.230G>A }, primaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, secondaryZygosity: { code: \"heterozygous\", display: \"heterozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
+    "derivedName": "IndAll245: { individual: { individual #026 }, primaryAllele: { NM_004004.5(GJB2):c.71G>A }, secondaryAllele: { NM_004004.5(GJB2):c.230G>A }, primaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" }, secondaryZygosity: { code: \"0000135\", display: \"heterozygous\", system: \"http://obofoundry.org/geno/\" }, phase: { code: \"0000132\", display: \"in trans\", system: \"http://obofoundry.org/geno/\" } }"
   },
   {
     "subjectId": "EvLn094",
@@ -1725,7 +1725,7 @@
     "value": "IndAll249",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAll249: { individual: { individual #027 }, primaryAllele: { NM_022124.5(CDH23):c.5660C>T }, secondaryAllele: { NM_015404.3(WHRN):c.643delG }, secondaryZygosity: { code: \"homozygous\", display: \"homozygous\", system: \"http://clinicalgenome.org/datamodel/allelic-state/\" } }"
+    "derivedName": "IndAll249: { individual: { individual #027 }, primaryAllele: { NM_022124.5(CDH23):c.5660C>T }, secondaryAllele: { NM_015404.3(WHRN):c.643delG }, secondaryZygosity: { code: \"0000136\", display: \"homozygous\", system: \"http://obofoundry.org/geno/\" } }"
   },
   {
     "subjectId": "EvLn095",
@@ -1829,7 +1829,7 @@
     "value": "MolCon261",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon261: { consequence: { coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon261: { consequence: \"CC188\" }"
   },
   {
     "subjectId": "EvLn101",
@@ -1861,7 +1861,7 @@
     "value": "MolCon265",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon265: { consequence: { coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon265: { consequence: \"CC190\" }"
   },
   {
     "subjectId": "EvLn102",
@@ -1893,7 +1893,7 @@
     "value": "MolCon269",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon269: { consequence: { coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon269: { consequence: \"CC192\" }"
   },
   {
     "subjectId": "EvLn103",
@@ -1901,7 +1901,7 @@
     "value": "MolCon272",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon272: { consequence: { coding: [{ code: \"0001629\", display: \"splice-site variant\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon272: { consequence: \"CC194\" }"
   },
   {
     "subjectId": "EvLn103",
@@ -1949,7 +1949,7 @@
     "value": "IndAll366",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAll366: { individual: { individual #029 }, primaryAllele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, secondaryAllele: { NM_000441.1(SLC26A4): c.626G>T }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
+    "derivedName": "IndAll366: { individual: { individual #029 }, primaryAllele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, secondaryAllele: { NM_000441.1(SLC26A4): c.626G>T }, phase: { code: \"0000132\", display: \"in trans\", system: \"http://obofoundry.org/geno/\" } }"
   },
   {
     "subjectId": "EvLn106",
@@ -1957,7 +1957,7 @@
     "value": "IndAll367",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "IndAll367: { individual: { individual #029 }, primaryAllele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, secondaryAllele: { NM_000441.1(SLC26A4): c.1707+6T>C }, phase: { code: \"trans\", display: \"in trans\", system: \"http://clinicalgenome.org/datamodel/phase/\" } }"
+    "derivedName": "IndAll367: { individual: { individual #029 }, primaryAllele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, secondaryAllele: { NM_000441.1(SLC26A4): c.1707+6T>C }, phase: { code: \"0000132\", display: \"in trans\", system: \"http://obofoundry.org/geno/\" } }"
   },
   {
     "subjectId": "EvLn106",
@@ -2005,7 +2005,7 @@
     "value": "CritAssess305",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CritAssess305: { criterion: { Absent from controls }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: { code: \"not-met\", display: \"Not Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
+    "derivedName": "CritAssess305: { criterion: { Absent from controls }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: { code: \"0000224\", display: \"Not Met\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn110",
@@ -2021,7 +2021,7 @@
     "value": "Contrib522",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "Contrib522: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"7/1/16 10:53 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
+    "derivedName": "Contrib522: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"7/1/16 10:53 AM\", role: \"CC424\" }"
   },
   {
     "subjectId": "EvLn110",
@@ -2029,7 +2029,7 @@
     "value": "Contrib523",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "Contrib523: { agent: { Agent004: { name: \"CSER Bakeoff Project\" } }, onDate: \"7/1/16 10:53 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
+    "derivedName": "Contrib523: { agent: { Agent004: { name: \"CSER Bakeoff Project\" } }, onDate: \"7/1/16 10:53 AM\", role: \"CC425\" }"
   },
   {
     "subjectId": "EvLn111",
@@ -2037,7 +2037,7 @@
     "value": "CritAssess296",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CritAssess296: { criterion: { Recessive in trans with pathogenic variant }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
+    "derivedName": "CritAssess296: { criterion: { Recessive in trans with pathogenic variant }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn111",
@@ -2053,7 +2053,7 @@
     "value": "Contrib524",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "Contrib524: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/2/16 8:01 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
+    "derivedName": "Contrib524: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"6/2/16 8:01 AM\", role: \"CC426\" }"
   },
   {
     "subjectId": "EvLn112",
@@ -2061,7 +2061,7 @@
     "value": "CritAssess299",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CritAssess299: { criterion: { Protein length changes or stop-loss }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
+    "derivedName": "CritAssess299: { criterion: { Protein length changes or stop-loss }, variant: { NM_001369.2(DNAH5):c.7468_7488del }, outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn112",
@@ -2077,7 +2077,7 @@
     "value": "Contrib525",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "Contrib525: { agent: { Agent003: { name: \"Sasha Rande\" } }, onDate: \"6/12/16 7:30 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
+    "derivedName": "Contrib525: { agent: { Agent003: { name: \"Sasha Rande\" } }, onDate: \"6/12/16 7:30 AM\", role: \"CC427\" }"
   },
   {
     "subjectId": "EvLn113",
@@ -2085,7 +2085,7 @@
     "value": "CritAssess372",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CritAssess372: { criterion: { MAF too high for disorder }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
+    "derivedName": "CritAssess372: { criterion: { MAF too high for disorder }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn113",
@@ -2101,7 +2101,7 @@
     "value": "Contrib526",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "Contrib526: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"03/08/2017 9:46 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
+    "derivedName": "Contrib526: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"03/08/2017 9:46 AM\", role: \"CC428\" }"
   },
   {
     "subjectId": "EvLn114",
@@ -2109,7 +2109,7 @@
     "value": "CritAssess340",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CritAssess340: { criterion: { Missense variant when truncating is expected mechanism }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
+    "derivedName": "CritAssess340: { criterion: { Missense variant when truncating is expected mechanism }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn114",
@@ -2125,7 +2125,7 @@
     "value": "Contrib527",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "Contrib527: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"7/1/16 9:23 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
+    "derivedName": "Contrib527: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"7/1/16 9:23 AM\", role: \"CC429\" }"
   },
   {
     "subjectId": "EvLn115",
@@ -2133,7 +2133,7 @@
     "value": "CritAssess363",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CritAssess363: { criterion: { Variant found in case with alternate explanation }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
+    "derivedName": "CritAssess363: { criterion: { Variant found in case with alternate explanation }, variant: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }, outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn115",
@@ -2149,7 +2149,7 @@
     "value": "Contrib528",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "Contrib528: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"03/07/2017 4:30 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
+    "derivedName": "Contrib528: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"03/07/2017 4:30 PM\", role: \"CC430\" }"
   },
   {
     "subjectId": "EvLn116",
@@ -2189,7 +2189,7 @@
     "value": "MolCon075",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon075: { consequence: { coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon075: { consequence: \"CC061\" }"
   },
   {
     "subjectId": "EvLn118",
@@ -2197,7 +2197,7 @@
     "value": "CritAssess373",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CritAssess373: { criterion: { Computational evidence supports benign impact }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
+    "derivedName": "CritAssess373: { criterion: { Computational evidence supports benign impact }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn118",
@@ -2213,7 +2213,7 @@
     "value": "Contrib529",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "Contrib529: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"03/08/2017 10:02 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
+    "derivedName": "Contrib529: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"03/08/2017 10:02 AM\", role: \"CC431\" }"
   },
   {
     "subjectId": "EvLn119",
@@ -2221,7 +2221,7 @@
     "value": "CritAssess359",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CritAssess359: { criterion: { Synonymous variant without predicted splice effect in region with low conservation }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
+    "derivedName": "CritAssess359: { criterion: { Synonymous variant without predicted splice effect in region with low conservation }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn119",
@@ -2237,7 +2237,7 @@
     "value": "Contrib530",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "Contrib530: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"10/10/16 8:05 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
+    "derivedName": "Contrib530: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"10/10/16 8:05 AM\", role: \"CC432\" }"
   },
   {
     "subjectId": "EvLn120",
@@ -2245,7 +2245,7 @@
     "value": "CritAssess371",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CritAssess371: { criterion: { MAF too high for disorder }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
+    "derivedName": "CritAssess371: { criterion: { MAF too high for disorder }, variant: { NM_000257.2(MYH7):c.327C>T }, outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn120",
@@ -2261,7 +2261,7 @@
     "value": "Contrib531",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "Contrib531: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"03/08/2017 7:43 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
+    "derivedName": "Contrib531: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"03/08/2017 7:43 AM\", role: \"CC433\" }"
   },
   {
     "subjectId": "EvLn121",
@@ -2269,7 +2269,7 @@
     "value": "CritAssess361",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CritAssess361: { criterion: { Null variant in gene with known LOF mechanism }, variant: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
+    "derivedName": "CritAssess361: { criterion: { Null variant in gene with known LOF mechanism }, variant: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn121",
@@ -2285,7 +2285,7 @@
     "value": "Contrib532",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "Contrib532: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"01/17/17 9:12 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
+    "derivedName": "Contrib532: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"01/17/17 9:12 AM\", role: \"CC434\" }"
   },
   {
     "subjectId": "EvLn122",
@@ -2293,7 +2293,7 @@
     "value": "CritAssess369",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CritAssess369: { criterion: { Absent from controls }, variant: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
+    "derivedName": "CritAssess369: { criterion: { Absent from controls }, variant: { NM_024422.3(DSC2): c.631-2A>G (p.?) }, outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn122",
@@ -2309,7 +2309,7 @@
     "value": "Contrib533",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "Contrib533: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"03/07/2017 5:22 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
+    "derivedName": "Contrib533: { agent: { Agent001: { name: \"Harry Stevenson\" } }, onDate: \"03/07/2017 5:22 PM\", role: \"CC435\" }"
   },
   {
     "subjectId": "EvLn123",
@@ -2325,7 +2325,7 @@
     "value": "CritAssess374",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CritAssess374: { criterion: { Well-established functional studies showing damaging effect }, variant: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
+    "derivedName": "CritAssess374: { criterion: { Well-established functional studies showing damaging effect }, variant: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn124",
@@ -2341,7 +2341,7 @@
     "value": "Contrib534",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "Contrib534: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"3/14/2017 10:29 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
+    "derivedName": "Contrib534: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"3/14/2017 10:29 AM\", role: \"CC436\" }"
   },
   {
     "subjectId": "EvLn125",
@@ -2349,7 +2349,7 @@
     "value": "CritAssess375",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CritAssess375: { criterion: { Does not segregate with disease }, variant: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
+    "derivedName": "CritAssess375: { criterion: { Does not segregate with disease }, variant: { NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys) }, outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn125",
@@ -2365,7 +2365,7 @@
     "value": "Contrib535",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "Contrib535: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"3/14/2017 10:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
+    "derivedName": "Contrib535: { agent: { Agent007: { name: \"Stefan DiMarino\" } }, onDate: \"3/14/2017 10:45 AM\", role: \"CC437\" }"
   },
   {
     "subjectId": "EvLn126",
@@ -2381,7 +2381,7 @@
     "value": "CritAssess376",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CritAssess376: { criterion: { Absent from controls }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
+    "derivedName": "CritAssess376: { criterion: { Absent from controls }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn127",
@@ -2397,7 +2397,7 @@
     "value": "Contrib536",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "Contrib536: { agent: { Agent010: { name: \"ACME Molecular Lab\" } }, onDate: \"6/11/2011 11:45 AM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
+    "derivedName": "Contrib536: { agent: { Agent010: { name: \"ACME Molecular Lab\" } }, onDate: \"6/11/2011 11:45 AM\", role: \"CC438\" }"
   },
   {
     "subjectId": "EvLn128",
@@ -2429,7 +2429,7 @@
     "value": "CritAssess377",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CritAssess377: { criterion: { Assumed de novo (parental status not confirmed) }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
+    "derivedName": "CritAssess377: { criterion: { Assumed de novo (parental status not confirmed) }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn129",
@@ -2445,7 +2445,7 @@
     "value": "Contrib537",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "Contrib537: { agent: { Agent010: { name: \"ACME Molecular Lab\" } }, onDate: \"6/11/2011 12:45:00\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
+    "derivedName": "Contrib537: { agent: { Agent010: { name: \"ACME Molecular Lab\" } }, onDate: \"6/11/2011 12:45:00\", role: \"CC439\" }"
   },
   {
     "subjectId": "EvLn130",
@@ -2461,7 +2461,7 @@
     "value": "CritAssess378",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "CritAssess378: { criterion: { Novel missense at same amino acid as known pathogenic missense }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: { code: \"met\", display: \"Met\", system: \"http://clinicalgenome.org/datamodel/criterion-assertion-outcome/\" } }"
+    "derivedName": "CritAssess378: { criterion: { Novel missense at same amino acid as known pathogenic missense }, variant: { NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln) }, outcome: { code: \"0000223\", display: \"Met\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn131",
@@ -2477,7 +2477,7 @@
     "value": "Contrib538",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "derivedName": "Contrib538: { agent: { Agent010: { name: \"ACME Molecular Lab\" } }, onDate: \"6/10/2011 1:45 PM\", role: { coding: [{ code: \"assessor\", display: \"assessor\", system: \"http://clinicalgenome.org/datamodel/contributory-role/\" }] } }"
+    "derivedName": "Contrib538: { agent: { Agent010: { name: \"ACME Molecular Lab\" } }, onDate: \"6/10/2011 1:45 PM\", role: \"CC440\" }"
   },
   {
     "subjectId": "EvLn132",
@@ -2485,7 +2485,7 @@
     "value": "BMVR161",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "BMVR161: { value: { code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/benign-missense-variation-rate/\" } }"
+    "derivedName": "BMVR161: { value: { code: \"0000265\", display: \"High\", system: \"http://obofoundry.org/sepio/\" } }"
   },
   {
     "subjectId": "EvLn132",
@@ -2493,7 +2493,7 @@
     "value": "MolCon169",
     "attributeName": "evidenceItem",
     "attributeType": "Statement",
-    "derivedName": "MolCon169: { consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] } }"
+    "derivedName": "MolCon169: { consequence: \"CC122\" }"
   },
   {
     "subjectId": "EvLn132",

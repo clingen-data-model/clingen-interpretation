@@ -56,104 +56,96 @@
     "system": "http://broadinstitute.org/populations/",
     "code system name": "Broad-population-type"
   },
-  "GENO-allele-inheritance-type:0000880": {
-    "id": "GENO-allele-inheritance-type:0000880",
+  "GENO:0000880": {
+    "id": "GENO:0000880",
     "code": "0000880",
     "display": "de novo",
     "system": "http://obofoundry.org/geno/",
     "code system name": "GENO"
   },
-  "GENO-allele-inheritance-type:0000878": {
-    "id": "GENO-allele-inheritance-type:0000878",
+  "GENO:0000878": {
+    "id": "GENO:0000878",
     "code": "0000878",
     "display": "maternally inherited",
     "system": "http://obofoundry.org/geno/",
     "code system name": "GENO"
   },
-  "GENO-allele-inheritance-type:0000879": {
-    "id": "GENO-allele-inheritance-type:0000879",
+  "GENO:0000879": {
+    "id": "GENO:0000879",
     "code": "0000879",
     "display": "paternally inherited",
     "system": "http://obofoundry.org/geno/",
     "code system name": "GENO"
   },
-  "GENO-allele-inheritance-type:0000881": {
-    "id": "GENO-allele-inheritance-type:0000881",
+  "GENO:0000881": {
+    "id": "GENO:0000881",
     "code": "0000881",
     "display": "Unknown",
     "system": "http://obofoundry.org/geno/",
     "code system name": "GENO"
   },
-  "GENO-allele-inheritance-type:0000888": {
-    "id": "GENO-allele-inheritance-type:0000888",
+  "GENO:0000888": {
+    "id": "GENO:0000888",
     "code": "0000888",
     "display": "parentally inherited",
     "system": "http://obofoundry.org/geno/",
     "code system name": "GENO"
   },
-  "CG-allelic-state:absent": {
-    "id": "CG-allelic-state:absent",
-    "code": "absent",
-    "display": "absent",
-    "system": "http://clinicalgenome.org/datamodel/allelic-state/",
+  "GENO:0000137": {
+    "id": "GENO:0000137",
+    "code": "0000137",
+    "display": "unspecified zygosity",
+    "system": "http://obofoundry.org/geno/",
     "definition": "A DNA marker is asserted to be absent",
-    "code system name": "allelic-state"
+    "code system name": "GENO"
   },
-  "CG-allelic-state:hemizygous": {
-    "id": "CG-allelic-state:hemizygous",
-    "code": "hemizygous",
+  "GENO:0000134": {
+    "id": "GENO:0000134",
+    "code": "0000134",
     "display": "hemizygous",
-    "system": "http://clinicalgenome.org/datamodel/allelic-state/",
+    "system": "http://obofoundry.org/geno/",
     "definition": "A DNA marker is present on one copy of a chromosome without a homologous region (e.g., non-PAR portions of the X chromosomes in males; LA6067-9)",
-    "code system name": "allelic-state"
+    "code system name": "GENO"
   },
-  "CG-allelic-state:heteroplasmic": {
-    "id": "CG-allelic-state:heteroplasmic",
-    "code": "heteroplasmic",
+  "GENO:0000603": {
+    "id": "GENO:0000603",
+    "code": "0000603",
     "display": "heteroplasmic",
-    "system": "http://clinicalgenome.org/datamodel/allelic-state/",
+    "system": "http://obofoundry.org/geno/",
     "definition": "A DNA marker is present in some but not all copies of the mitochondrial DNA (LA6703-8)",
-    "code system name": "allelic-state"
+    "code system name": "GENO"
   },
-  "CG-allelic-state:heterozygous": {
-    "id": "CG-allelic-state:heterozygous",
-    "code": "heterozygous",
+  "GENO:0000135": {
+    "id": "GENO:0000135",
+    "code": "0000135",
     "display": "heterozygous",
-    "system": "http://clinicalgenome.org/datamodel/allelic-state/",
+    "system": "http://obofoundry.org/geno/",
     "definition": "A DNA marker is present in exactly one copy on two homologous chromosomes (LA6706-1)",
-    "code system name": "allelic-state"
+    "code system name": "GENO"
   },
-  "CG-allelic-state:homoplasmic": {
-    "id": "CG-allelic-state:homoplasmic",
-    "code": "homoplasmic",
+  "GENO:0000602": {
+    "id": "GENO:0000602",
+    "code": "0000602",
     "display": "homoplasmic",
-    "system": "http://clinicalgenome.org/datamodel/allelic-state/",
+    "system": "http://obofoundry.org/geno/",
     "definition": "A DNA marker is present in all copies of the mitochondrial DNA (LA6704-6)",
-    "code system name": "allelic-state"
+    "code system name": "GENO"
   },
-  "CG-allelic-state:homozygous": {
-    "id": "CG-allelic-state:homozygous",
-    "code": "homozygous",
+  "GENO:0000136": {
+    "id": "GENO:0000136",
+    "code": "0000136",
     "display": "homozygous",
-    "system": "http://clinicalgenome.org/datamodel/allelic-state/",
+    "system": "http://obofoundry.org/geno/",
     "definition": "A DNA marker is present in both copies of homologous chromosomes (LA6705-3)",
-    "code system name": "allelic-state"
+    "code system name": "GENO"
   },
-  "CG-allelic-state:other": {
-    "id": "CG-allelic-state:other",
-    "code": "other",
-    "display": "other",
-    "system": "http://clinicalgenome.org/datamodel/allelic-state/",
-    "definition": "A DNA marker is present in some pattern not reflected in other options of this code system (e.g., 2 of 3 copies of a duplicated region)",
-    "code system name": "allelic-state"
-  },
-  "CG-allelic-state:somatic": {
-    "id": "CG-allelic-state:somatic",
-    "code": "somatic",
+  "GENO:0000882": {
+    "id": "GENO:0000882",
+    "code": "0000882",
     "display": "somatic",
-    "system": "http://clinicalgenome.org/datamodel/allelic-state/",
+    "system": "http://obofoundry.org/geno/",
     "definition": "A DNA marker is present at some level of somatic mosaicism.",
-    "code system name": "allelic-state"
+    "code system name": "GENO"
   },
   "CG-ascertainment-type:ESP": {
     "id": "CG-ascertainment-type:ESP",
@@ -169,17 +161,10 @@
     "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
     "code system name": "ascertainment-type"
   },
-  "CG-ascertainment-type:1KG_ESP": {
-    "id": "CG-ascertainment-type:1KG_ESP",
-    "code": "1KG_ESP",
-    "display": "1KG_ESP",
-    "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
-    "code system name": "ascertainment-type"
-  },
-  "CG-ascertainment-type:1KG": {
-    "id": "CG-ascertainment-type:1KG",
-    "code": "1KG",
-    "display": "1KG",
+  "CG-ascertainment-type:1000G": {
+    "id": "CG-ascertainment-type:1000G",
+    "code": "1000G",
+    "display": "1000G",
     "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
     "code system name": "ascertainment-type"
   },
@@ -190,19 +175,19 @@
     "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
     "code system name": "ascertainment-type"
   },
-  "CG-ben-missense-var-rate:high": {
-    "id": "CG-ben-missense-var-rate:high",
-    "code": "high",
+  "SEPIO:0000265": {
+    "id": "SEPIO:0000265",
+    "code": "0000265",
     "display": "High",
-    "system": "http://clinicalgenome.org/datamodel/benign-missense-variation-rate/",
-    "code system name": "ben-missense-var-rate"
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-ben-missense-var-rate:low": {
-    "id": "CG-ben-missense-var-rate:low",
-    "code": "low",
+  "SEPIO:0000266": {
+    "id": "SEPIO:0000266",
+    "code": "0000266",
     "display": "Low",
-    "system": "http://clinicalgenome.org/datamodel/benign-missense-variation-rate/",
-    "code system name": "ben-missense-var-rate"
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
   "CG-cond-mech-strength:common": {
     "id": "CG-cond-mech-strength:common",
@@ -265,19 +250,19 @@
     "system": "http://clinicalgenome.org/datamodel/contributory-role/",
     "code system name": "contributory-role"
   },
-  "CG-criterion-outcome:met": {
-    "id": "CG-criterion-outcome:met",
-    "code": "met",
+  "SEPIO:0000223": {
+    "id": "SEPIO:0000223",
+    "code": "0000223",
     "display": "Met",
-    "system": "http://clinicalgenome.org/datamodel/criterion-assertion-outcome/",
-    "code system name": "criterion-outcome"
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-criterion-outcome:not-met": {
-    "id": "CG-criterion-outcome:not-met",
-    "code": "not-met",
+  "SEPIO:0000224": {
+    "id": "SEPIO:0000224",
+    "code": "0000224",
     "display": "Not Met",
-    "system": "http://clinicalgenome.org/datamodel/criterion-assertion-outcome/",
-    "code system name": "criterion-outcome"
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
   "CG-evidence-strength:ba": {
     "id": "CG-evidence-strength:ba",
@@ -426,24 +411,10 @@
     "system": "http://clinicalgenome.org/datamodel/inheritance-mode/",
     "code system name": "inheritance-mode"
   },
-  "CG-inheritance-mode:other": {
-    "id": "CG-inheritance-mode:other",
-    "code": "other",
-    "display": "Other",
-    "system": "http://clinicalgenome.org/datamodel/inheritance-mode/",
-    "code system name": "inheritance-mode"
-  },
   "CG-inheritance-mode:sex-limited-ar": {
     "id": "CG-inheritance-mode:sex-limited-ar",
     "code": "sex-limited-ar",
     "display": "Sex-limited autosomal recessive",
-    "system": "http://clinicalgenome.org/datamodel/inheritance-mode/",
-    "code system name": "inheritance-mode"
-  },
-  "CG-inheritance-mode:unknown": {
-    "id": "CG-inheritance-mode:unknown",
-    "code": "unknown",
-    "display": "Unknown",
     "system": "http://clinicalgenome.org/datamodel/inheritance-mode/",
     "code system name": "inheritance-mode"
   },
@@ -461,19 +432,26 @@
     "system": "http://clinicalgenome.org/datamodel/penetrance-type/",
     "code system name": "penetrance-type"
   },
-  "CG-phase:cis": {
-    "id": "CG-phase:cis",
-    "code": "cis",
-    "display": "in cis",
-    "system": "http://clinicalgenome.org/datamodel/phase/",
-    "code system name": "phase"
+  "GENO:0000889": {
+    "id": "GENO:0000889",
+    "code": "0000889",
+    "display": "unknown inheritance",
+    "system": "http://obofoundry.org/geno/",
+    "code system name": "GENO"
   },
-  "CG-phase:trans": {
-    "id": "CG-phase:trans",
-    "code": "trans",
+  "GENO:0000131": {
+    "id": "GENO:0000131",
+    "code": "0000131",
+    "display": "in cis",
+    "system": "http://obofoundry.org/geno/",
+    "code system name": "GENO"
+  },
+  "GENO:0000132": {
+    "id": "GENO:0000132",
+    "code": "0000132",
     "display": "in trans",
-    "system": "http://clinicalgenome.org/datamodel/phase/",
-    "code system name": "phase"
+    "system": "http://obofoundry.org/geno/",
+    "code system name": "GENO"
   },
   "CG-population-type:combined": {
     "id": "CG-population-type:combined",
@@ -544,6 +522,13 @@
     "display": "African-American",
     "system": "http://evs.gs.washington.edu/EVS/",
     "code system name": "ESP"
+  },
+  "HP:0031362": {
+    "id": "HP:0031362",
+    "code": "0031362",
+    "display": "Sex-limited autosomal recessive inheritance",
+    "system": "http://human-phenotype-ontology.github.io/",
+    "code system name": "HumanPhenotypeOntology"
   },
   "HP:0000006": {
     "id": "HP:0000006",
@@ -1429,5 +1414,101 @@
     "display": "inversion",
     "system": "http://sequenceontology.org/",
     "code system name": "SequenceOntology"
+  },
+  "SEPIO:0000273": {
+    "id": "SEPIO:0000273",
+    "code": "0000273",
+    "display": "low",
+    "system": "http://obofoundry.org/sepio/"
+  },
+  "SEPIO:99001": {
+    "id": "SEPIO:99001",
+    "code": "99001",
+    "display": "high",
+    "system": "http://obofoundry.org/sepio/"
+  },
+  "SEPIO:99002": {
+    "id": "SEPIO:99002",
+    "code": "99002",
+    "display": "complete",
+    "system": "http://obofoundry.org/sepio/"
+  },
+  "SEPIO:99003": {
+    "id": "SEPIO:99003",
+    "code": "99003",
+    "display": "conserved",
+    "system": "http://obofoundry.org/sepio/"
+  },
+  "SEPIO:99004": {
+    "id": "SEPIO:99004",
+    "code": "99004",
+    "display": "not conserved",
+    "system": "http://obofoundry.org/sepio/"
+  },
+  "SEPIO:99005": {
+    "id": "SEPIO:99005",
+    "code": "99005",
+    "display": "maternal confirmation",
+    "system": "http://obofoundry.org/sepio/"
+  },
+  "SEPIO:99006": {
+    "id": "SEPIO:99006",
+    "code": "99006",
+    "display": "paternal confirmation",
+    "system": "http://obofoundry.org/sepio/"
+  },
+  "SEPIO:99007": {
+    "id": "SEPIO:99007",
+    "code": "99007",
+    "display": "maternal and paternal confirmation",
+    "system": "http://obofoundry.org/sepio/"
+  },
+  "SEPIO:99008": {
+    "id": "SEPIO:99008",
+    "code": "99008",
+    "display": "no parental confirmation",
+    "system": "http://obofoundry.org/sepio/"
+  },
+  "SEPIO:99009": {
+    "id": "SEPIO:99009",
+    "code": "99009",
+    "display": "affected",
+    "system": "http://obofoundry.org/sepio/"
+  },
+  "SEPIO:99010": {
+    "id": "SEPIO:99010",
+    "code": "99010",
+    "display": "unaffected",
+    "system": "http://obofoundry.org/sepio/"
+  },
+  "SEPIO:99011": {
+    "id": "SEPIO:99011",
+    "code": "99011",
+    "display": "present",
+    "system": "http://obofoundry.org/sepio/"
+  },
+  "SEPIO:99012": {
+    "id": "SEPIO:99012",
+    "code": "99012",
+    "display": "absent",
+    "system": "http://obofoundry.org/sepio/"
+  },
+  "SEPIO:99013": {
+    "id": "SEPIO:99013",
+    "code": "99013",
+    "display": "unknown",
+    "system": "http://obofoundry.org/sepio/"
+  },
+  "SEPIO:99014": {
+    "id": "SEPIO:99014",
+    "code": "99014",
+    "display": "loss of function variant",
+    "system": "http://obofoundry.org/sepio/"
+  },
+  "SEPIO:99015": {
+    "id": "SEPIO:99015",
+    "code": "99015",
+    "display": "functionally inert variant",
+    "system": "http://obofoundry.org/sepio/"
   }
 }
