@@ -3,7 +3,7 @@
     "id": "A001",
     "entityId": "E02",
     "name": "consequence",
-    "dataType": "Coding",
+    "dataType": "CodeableConcept",
     "cardinality": "1..1",
     "defaultValue": "null",
     "iri": "SEPIO:0000197",
@@ -64,7 +64,6 @@
     "isReference": "yes",
     "iri": "",
     "iri-label": "",
-    "cg-label": "",
     "precedence": 1.0,
     "description": "a unique value within a system (or namespace) to represent or identify a concept",
     "fullyQualifiedName": "Coding.code"
@@ -101,7 +100,7 @@
   "A007": {
     "id": "A007",
     "entityId": "E11",
-    "name": "onDate",
+    "name": "contributionDate",
     "dataType": "Datetime",
     "cardinality": "0..1",
     "defaultValue": "null",
@@ -110,13 +109,13 @@
     "cg-label": "contributionDate",
     "valueSetName": "",
     "precedence": 2.0,
-    "fullyQualifiedName": "Contribution.onDate"
+    "fullyQualifiedName": "Contribution.contributionDate"
   },
   "A008": {
     "id": "A008",
     "entityId": "E11",
-    "name": "role",
-    "dataType": "Role",
+    "name": "contributionRole",
+    "dataType": "CodeableConcept",
     "cardinality": "1..1",
     "defaultValue": "null",
     "iri": "BFO:0000055",
@@ -126,7 +125,7 @@
     "restrictByValueSet": "No",
     "valueSetName": "ContributoryRole",
     "precedence": 3.0,
-    "fullyQualifiedName": "Contribution.role"
+    "fullyQualifiedName": "Contribution.contributionRole"
   },
   "A009": {
     "id": "A009",
@@ -251,17 +250,19 @@
   "A018": {
     "id": "A018",
     "entityId": "E17",
-    "name": "hasCondition",
-    "dataType": "boolean",
+    "name": "individualHasCondition",
+    "dataType": "Coding",
     "cardinality": "0..1",
     "defaultValue": "null",
     "iri": "SEPIO:0000197",
     "iri-label": "asserted_conclusion",
     "cg-label": "individualHasCondition",
-    "valueSetName": "",
+    "valueSetId": "VS027",
+    "restrictByValueSet": "Yes",
+    "valueSetName": "ConditionStatus",
     "precedence": 3.0,
     "description": "Whether or not the person has the condition",
-    "fullyQualifiedName": "IndividualCondition.hasCondition"
+    "fullyQualifiedName": "IndividualCondition.individualHasCondition"
   },
   "A019": {
     "id": "A019",
@@ -297,13 +298,15 @@
     "id": "A021",
     "entityId": "E18",
     "name": "familyHasCondition",
-    "dataType": "boolean",
-    "cardinality": "0..1",
+    "dataType": "Coding",
+    "cardinality": "1..1",
     "defaultValue": "null",
     "iri": "SEPIO:0000197",
     "iri-label": "asserted_conclusion",
     "cg-label": "familyHasCondition",
-    "valueSetName": "",
+    "valueSetId": "VS027",
+    "restrictByValueSet": "Yes",
+    "valueSetName": "ConditionStatus",
     "precedence": 3.0,
     "description": "Whether or not this family has the stated condition",
     "fullyQualifiedName": "FamilyCondition.familyHasCondition"
@@ -339,42 +342,24 @@
     "description": "The individual whose allele may be denovo",
     "fullyQualifiedName": "IndividualAlleleInheritance.individual"
   },
-  "A024": {
-    "id": "A024",
-    "entityId": "E19",
-    "name": "maternityConfirmed",
-    "dataType": "boolean",
-    "cardinality": "0..1",
-    "defaultValue": "null",
-    "iri": "",
-    "iri-label": "",
-    "cg-label": "",
-    "valueSetName": "",
-    "precedence": 3.0,
-    "notes": "FALSE means that we did not confirm maternity, not that the maternity was confirmed to be wrong. ",
-    "description": "Whether or not maternity was confirmed.  False indicates that maternity was not confirmed, not that maternity was found to be incorrect.",
-    "fullyQualifiedName": "IndividualAlleleInheritance.maternityConfirmed"
-  },
   "A025": {
     "id": "A025",
     "entityId": "E19",
-    "name": "paternityConfirmed",
-    "dataType": "boolean",
+    "name": "parentalConfirmation",
+    "dataType": "Coding",
     "cardinality": "0..1",
     "defaultValue": "null",
-    "iri": "",
-    "iri-label": "",
-    "cg-label": "",
+    "iri": "SEPIO:0000167",
+    "iri-label": "assertion_confidence_level",
+    "cg-label": "parentalConfirmation",
     "valueSetName": "",
     "precedence": 4.0,
-    "notes": "FALSE means that we did not confirm paternity, not that the paternity was confirmed to be wrong. ",
-    "description": "Whether or not paternity was confirmed.  False indicates  that paternity was not confirmed, not that paternity was found to be incorrect.",
-    "fullyQualifiedName": "IndividualAlleleInheritance.paternityConfirmed"
+    "fullyQualifiedName": "IndividualAlleleInheritance.parentalConfirmation"
   },
   "A026": {
     "id": "A026",
     "entityId": "E20",
-    "name": "result",
+    "name": "resultDescription",
     "dataType": "String",
     "cardinality": "0..1",
     "defaultValue": "null",
@@ -384,12 +369,12 @@
     "valueSetName": "",
     "precedence": 3.0,
     "description": "Result of the functional experiment",
-    "fullyQualifiedName": "AlleleFunctionalImpact.result"
+    "fullyQualifiedName": "AlleleFunctionalImpact.resultDescription"
   },
   "A027": {
     "id": "A027",
     "entityId": "E20",
-    "name": "dataType",
+    "name": "assayType",
     "dataType": "CodeableConcept",
     "cardinality": "0..1",
     "defaultValue": "null",
@@ -402,7 +387,7 @@
     "precedence": 4.0,
     "notes": "?",
     "description": "Specific type of functional data collected",
-    "fullyQualifiedName": "AlleleFunctionalImpact.dataType"
+    "fullyQualifiedName": "AlleleFunctionalImpact.assayType"
   },
   "A028": {
     "id": "A028",
@@ -509,7 +494,7 @@
     "iri-label": "is_about_transcript",
     "cg-label": "transcript",
     "valueSetName": "",
-    "precedence": 1.0,
+    "precedence": 2.0,
     "description": "The contextual allele on which the prediction is made",
     "fullyQualifiedName": "InSilicoPrediction.transcript"
   },
@@ -831,73 +816,73 @@
     "iri-label": "has_evidence_line",
     "cg-label": "evidenceLine",
     "valueSetName": "",
-    "precedence": 1.0,
+    "precedence": 5.0,
     "description": "supporting evidence",
     "fullyQualifiedName": "CriterionAssessment.evidenceLine"
   },
   "A056": {
     "id": "A056",
-    "entityId": "E24",
-    "name": "excludedTypes",
+    "entityId": "E29",
+    "name": "annotation",
     "dataType": "Coding",
     "cardinality": "0..*",
     "defaultValue": "null",
     "isReference": "yes",
     "iri": "SEPIO:0000197",
     "iri-label": "asserted_conclusion",
-    "cg-label": "RegionType.annotation",
+    "cg-label": "annotation",
     "valueSetId": "VS004",
     "restrictByValueSet": "Yes",
     "valueSetName": "RegionAnnotationType",
-    "precedence": 3.0,
-    "fullyQualifiedName": "RegionType.excludedTypes"
+    "precedence": 2.0,
+    "fullyQualifiedName": "ExcludedRegionType.annotation"
   },
   "A057": {
     "id": "A057",
     "entityId": "E24",
-    "name": "includedTypes",
+    "name": "annotation",
     "dataType": "Coding",
     "cardinality": "0..*",
     "defaultValue": "null",
     "isReference": "yes",
-    "iri": "",
-    "iri-label": "",
-    "cg-label": "",
+    "iri": "SEPIO:0000197",
+    "iri-label": "asserted_conclusion",
+    "cg-label": "annotation",
     "valueSetId": "VS004",
     "restrictByValueSet": "Yes",
     "valueSetName": "RegionAnnotationType",
     "precedence": 2.0,
-    "fullyQualifiedName": "RegionType.includedTypes"
+    "fullyQualifiedName": "RegionType.annotation"
   },
   "A058": {
     "id": "A058",
     "entityId": "E25",
-    "name": "includedAlleles",
-    "dataType": "ContextualAllele",
-    "cardinality": "0..*",
-    "defaultValue": "null",
-    "iri": "SEPIO:0000197",
-    "iri-label": "asserted_conclusion",
-    "cg-label": "RegionAlleles.outcome",
-    "valueSetName": "",
-    "precedence": 2.0,
-    "description": "Alleles that are within the region",
-    "fullyQualifiedName": "RegionAlleles.includedAlleles"
-  },
-  "A059": {
-    "id": "A059",
-    "entityId": "E25",
-    "name": "excludedAlleles",
+    "name": "allele",
     "dataType": "ContextualAllele",
     "cardinality": "0..*",
     "defaultValue": "null",
     "iri": "SEPIO:0000275",
     "iri-label": "is_about_allele",
-    "cg-label": "RegionAlleles.allele",
+    "cg-label": "allele",
+    "valueSetName": "",
+    "precedence": 2.0,
+    "description": "Alleles that are within the region",
+    "fullyQualifiedName": "RegionAlleles.allele"
+  },
+  "A059": {
+    "id": "A059",
+    "entityId": "E25",
+    "name": "outcome",
+    "dataType": "Coding",
+    "cardinality": "1..1",
+    "defaultValue": "null",
+    "iri": "SEPIO:0000197",
+    "iri-label": "asserted_conclusion",
+    "cg-label": "outcome",
     "valueSetName": "",
     "precedence": 3.0,
     "description": "Alleles that are NOT within the region",
-    "fullyQualifiedName": "RegionAlleles.excludedAlleles"
+    "fullyQualifiedName": "RegionAlleles.outcome"
   },
   "A060": {
     "id": "A060",
@@ -953,7 +938,7 @@
     "externalIRI": "SO:0000001",
     "iri": "SEPIO:0000279",
     "iri-label": "is_about_region",
-    "cg-label": "RegionType.region",
+    "cg-label": "region",
     "valueSetName": "",
     "precedence": 1.0,
     "description": "Region",
@@ -1086,7 +1071,7 @@
     "isReference": "yes",
     "iri": "SEPIO:0000279",
     "iri-label": "is_about_region",
-    "cg-label": "RegionAlleles.region",
+    "cg-label": "region",
     "valueSetName": "",
     "precedence": 1.0,
     "description": "Region within which alleles are being measured",
@@ -1136,6 +1121,7 @@
     "valueSetId": "VS022",
     "restrictByValueSet": "Yes",
     "valueSetName": "AlleleInheritanceType",
+    "precedence": 3.0,
     "fullyQualifiedName": "IndividualAlleleInheritance.alleleInheritance"
   },
   "A076": {
@@ -1191,7 +1177,8 @@
     "iri-label": "inconsistent segregation count",
     "cg-label": "inconsistentSegregationCount",
     "valueSetName": "",
-    "precedence": 13.0
+    "precedence": 13.0,
+    "fullyQualifiedName": "FamilySegregation.inconsistentSegregationCount"
   },
   "A080": {
     "id": "A080",
@@ -1427,7 +1414,7 @@
   "A095": {
     "id": "A095",
     "entityId": "E47",
-    "name": "quantitativePrediction",
+    "name": "score",
     "dataType": "float",
     "cardinality": "0..1",
     "defaultValue": "null",
@@ -1435,7 +1422,8 @@
     "iri-label": "assertion_confidence_score",
     "cg-label": "score",
     "valueSetName": "",
-    "fullyQualifiedName": "InSilicoPrediction.quantitativePrediction"
+    "precedence": 4.0,
+    "fullyQualifiedName": "InSilicoPrediction.score"
   },
   "A096": {
     "id": "A096",
@@ -1481,7 +1469,7 @@
     "iri-label": "asserted_by",
     "cg-label": "algorithm",
     "valueSetName": "",
-    "precedence": 2.0,
+    "precedence": 6.0,
     "description": "The computational tool or algorithm that makes the prediction",
     "fullyQualifiedName": "InSilicoPrediction.algorithm"
   },
@@ -1494,9 +1482,9 @@
     "defaultValue": "null",
     "iri": "SEPIO:0000197",
     "iri-label": "asserted_conclusion",
-    "cg-label": "categoricalPrediction ",
+    "cg-label": "categoricalPrediction",
     "valueSetName": "",
-    "precedence": 4.0,
+    "precedence": 5.0,
     "description": "The value of the prediction",
     "fullyQualifiedName": "InSilicoPrediction.categoricalPrediction"
   },
@@ -1692,17 +1680,19 @@
   "A112": {
     "id": "A112",
     "entityId": "E51",
-    "name": "conserved",
-    "dataType": "boolean",
+    "name": "outcome",
+    "dataType": "Coding",
     "cardinality": "0..1",
     "defaultValue": "null",
     "iri": "SEPIO:0000197",
     "iri-label": "asserted_conclusion",
     "cg-label": "outcome",
-    "valueSetName": "",
+    "valueSetId": "VS025",
+    "restrictByValueSet": "Yes",
+    "valueSetName": "Conservation",
     "precedence": 4.0,
     "description": "Whether the allele is conserved",
-    "fullyQualifiedName": "AlleleConservation.conserved"
+    "fullyQualifiedName": "AlleleConservation.outcome"
   },
   "A113": {
     "id": "A113",
@@ -1816,7 +1806,7 @@
   "A120": {
     "id": "A120",
     "entityId": "E01",
-    "name": "explanation",
+    "name": "description",
     "dataType": "String",
     "cardinality": "0..1",
     "defaultValue": "null",
@@ -1826,7 +1816,7 @@
     "valueSetName": "",
     "precedence": 90.0,
     "description": "A human-readable description of the entity",
-    "fullyQualifiedName": "Statement.explanation"
+    "fullyQualifiedName": "Statement.description"
   },
   "A121": {
     "id": "A121",
@@ -1874,7 +1864,7 @@
   "A124": {
     "id": "A124",
     "entityId": "E35",
-    "name": "clinicalSignificance",
+    "name": "outcome",
     "dataType": "Coding",
     "cardinality": "1..1",
     "defaultValue": "null",
@@ -1887,7 +1877,7 @@
     "valueSetName": "Significance",
     "precedence": 3.0,
     "description": "The coded pathogenicity of the variant for the condition",
-    "fullyQualifiedName": "VariantInterpretation.clinicalSignificance"
+    "fullyQualifiedName": "VariantInterpretation.outcome"
   },
   "A125": {
     "id": "A125",
@@ -1931,7 +1921,24 @@
     "iri": "DC:source",
     "iri-label": "source",
     "cg-label": "source",
+    "precedence": 92.0,
     "fullyQualifiedName": "Statement.source"
+  },
+  "A128": {
+    "id": "A128",
+    "entityId": "E29",
+    "name": "region",
+    "dataType": "SequenceLocation",
+    "cardinality": "1..1",
+    "isReference": "yes",
+    "externalIRI": "SO:0000001",
+    "iri": "SEPIO:0000279",
+    "iri-label": "is_about_region",
+    "cg-label": "region",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "description": "Region",
+    "fullyQualifiedName": "ExcludedRegionType.region"
   },
   "A132": {
     "id": "A132",
@@ -2028,7 +2035,7 @@
   "A140": {
     "id": "A140",
     "entityId": "E07",
-    "name": "symbol",
+    "name": "geneSymbol",
     "dataType": "String",
     "cardinality": "1..1",
     "iri": "ERO:0000574",
@@ -2036,7 +2043,7 @@
     "cg-label": "geneSymbol",
     "valueSetName": "",
     "precedence": 1.0,
-    "fullyQualifiedName": "Gene.symbol"
+    "fullyQualifiedName": "Gene.geneSymbol"
   },
   "A141": {
     "id": "A141",
@@ -2146,21 +2153,21 @@
     "iri-label": "description",
     "cg-label": "description",
     "valueSetName": "",
-    "precedence": 1.0,
+    "precedence": 2.0,
     "fullyQualifiedName": "Agent.description"
   },
   "A149": {
     "id": "A149",
     "entityId": "E12",
-    "name": "name",
+    "name": "label",
     "dataType": "String",
     "cardinality": "0..1",
     "iri": "RDFS:label",
     "iri-label": "label",
-    "cg-label": "name",
+    "cg-label": "label",
     "valueSetName": "",
-    "precedence": 2.0,
-    "fullyQualifiedName": "Agent.name"
+    "precedence": 1.0,
+    "fullyQualifiedName": "Agent.label"
   },
   "A150": {
     "id": "A150",
@@ -2172,21 +2179,21 @@
     "iri-label": "description",
     "cg-label": "description",
     "valueSetName": "",
-    "precedence": 1.0,
+    "precedence": 2.0,
     "fullyQualifiedName": "Criterion.description"
   },
   "A151": {
     "id": "A151",
     "entityId": "E04",
-    "name": "shortDescription",
+    "name": "label",
     "dataType": "String",
     "cardinality": "0..1",
     "iri": "RDFS:label",
     "iri-label": "label",
     "cg-label": "label",
     "valueSetName": "",
-    "precedence": 2.0,
-    "fullyQualifiedName": "Criterion.shortDescription"
+    "precedence": 1.0,
+    "fullyQualifiedName": "Criterion.label"
   },
   "A153": {
     "id": "A153",
@@ -2200,7 +2207,7 @@
     "valueSetId": "VS017",
     "restrictByValueSet": "Yes",
     "valueSetName": "EvidenceLineStrength",
-    "precedence": 4.0,
+    "precedence": 3.0,
     "fullyQualifiedName": "Criterion.defaultStrength"
   },
   "A155": {
@@ -2393,7 +2400,7 @@
     "iri-label": "version",
     "cg-label": "version",
     "valueSetName": "",
-    "precedence": 1.0,
+    "precedence": 3.0,
     "fullyQualifiedName": "AssertionMethod.version"
   },
   "A174": {
@@ -2406,7 +2413,7 @@
     "iri-label": "has part",
     "cg-label": "scoringAlgorithm",
     "valueSetName": "",
-    "precedence": 2.0,
+    "precedence": 4.0,
     "fullyQualifiedName": "AssertionMethod.scoringAlgorithm"
   },
   "A176": {
@@ -2419,12 +2426,13 @@
     "iri-label": "description",
     "cg-label": "description",
     "valueSetName": "",
+    "precedence": 1.0,
     "fullyQualifiedName": "ScoringAlgorithm.description"
   },
   "A177": {
     "id": "A177",
     "entityId": "E56",
-    "name": "explanation",
+    "name": "description",
     "dataType": "String",
     "cardinality": "1..1",
     "defaultValue": "not null",
@@ -2434,7 +2442,7 @@
     "valueSetName": "",
     "precedence": 1.0,
     "description": "A human-readable description of the entity",
-    "fullyQualifiedName": "EvidenceLine.explanation"
+    "fullyQualifiedName": "EvidenceLine.description"
   },
   "A178": {
     "id": "A178",

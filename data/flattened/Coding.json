@@ -147,33 +147,33 @@
     "definition": "A DNA marker is present at some level of somatic mosaicism.",
     "code system name": "GENO"
   },
-  "CG-ascertainment-type:ESP": {
-    "id": "CG-ascertainment-type:ESP",
-    "code": "ESP",
-    "display": "ESP",
-    "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
-    "code system name": "ascertainment-type"
+  "SEPIO:0000333": {
+    "id": "SEPIO:0000333",
+    "code": "0000333",
+    "display": "ESP ascertainment method",
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-ascertainment-type:ExAC": {
-    "id": "CG-ascertainment-type:ExAC",
-    "code": "ExAC",
-    "display": "ExAC",
-    "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
-    "code system name": "ascertainment-type"
+  "SEPIO:0000332": {
+    "id": "SEPIO:0000332",
+    "code": "0000332",
+    "display": "ExAc ascertainment method",
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-ascertainment-type:1000G": {
-    "id": "CG-ascertainment-type:1000G",
-    "code": "1000G",
-    "display": "1000G",
-    "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
-    "code system name": "ascertainment-type"
+  "SEPIO:0000262": {
+    "id": "SEPIO:0000262",
+    "code": "0000262",
+    "display": "1000 Genomes ascertainment method",
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-ascertainment-type:gnomAD": {
-    "id": "CG-ascertainment-type:gnomAD",
-    "code": "gnomAD",
-    "display": "gnomAD",
-    "system": "http://clinicalgenome.org/datamodel/ascertainment-type/",
-    "code system name": "ascertainment-type"
+  "SEPIO:0000334": {
+    "id": "SEPIO:0000334",
+    "code": "0000334",
+    "display": "gnomAD ascertainment method",
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
   "SEPIO:0000265": {
     "id": "SEPIO:0000265",
@@ -189,66 +189,73 @@
     "system": "http://obofoundry.org/sepio/",
     "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-cond-mech-strength:common": {
-    "id": "CG-cond-mech-strength:common",
-    "code": "common",
-    "display": "Common",
-    "system": "http://clinicalgenome.org/datamodel/condition-mechanism-strength/",
+  "SEPIO:0000268": {
+    "id": "SEPIO:0000268",
+    "code": "0000268",
+    "display": "common",
+    "system": "http://obofoundry.org/sepio/",
     "definition": "The class of variants are a common cause of the condition",
-    "code system name": "cond-mech-strength"
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-cond-mech-strength:established": {
-    "id": "CG-cond-mech-strength:established",
-    "code": "established",
-    "display": "Established",
-    "system": "http://clinicalgenome.org/datamodel/condition-mechanism-strength/",
+  "SEPIO:0000269": {
+    "id": "SEPIO:0000269",
+    "code": "0000269",
+    "display": "established",
+    "system": "http://obofoundry.org/sepio/",
     "definition": "The class of variants are known to cause the condition",
-    "code system name": "cond-mech-strength"
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-cond-mech-strength:primary": {
-    "id": "CG-cond-mech-strength:primary",
-    "code": "primary",
-    "display": "Primary",
-    "system": "http://clinicalgenome.org/datamodel/condition-mechanism-strength/",
+  "SEPIO:0000270": {
+    "id": "SEPIO:0000270",
+    "code": "0000270",
+    "display": "primary",
+    "system": "http://obofoundry.org/sepio/",
     "definition": "The class of variants are the main causes of the condition",
-    "code system name": "cond-mech-strength"
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-cond-mech-strength:suggested": {
-    "id": "CG-cond-mech-strength:suggested",
-    "code": "suggested",
-    "display": "Suggested",
-    "system": "http://clinicalgenome.org/datamodel/condition-mechanism-strength/",
+  "SEPIO:0000271": {
+    "id": "SEPIO:0000271",
+    "code": "0000271",
+    "display": "suggested",
+    "system": "http://obofoundry.org/sepio/",
     "definition": "The class of variants has been suggested to cause the condition",
-    "code system name": "cond-mech-strength"
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-cond-mech-strength:unknown": {
-    "id": "CG-cond-mech-strength:unknown",
-    "code": "unknown",
-    "display": "Unknown",
-    "system": "http://clinicalgenome.org/datamodel/condition-mechanism-strength/",
+  "SEPIO:0000272": {
+    "id": "SEPIO:0000272",
+    "code": "0000272",
+    "display": "unknown",
+    "system": "http://obofoundry.org/sepio/",
     "definition": "The class of variants are unknown to cause the condition",
-    "code system name": "cond-mech-strength"
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-contributory-role:assessor": {
-    "id": "CG-contributory-role:assessor",
-    "code": "assessor",
-    "display": "assessor",
-    "system": "http://clinicalgenome.org/datamodel/contributory-role/",
-    "code system name": "contributory-role"
+  "SEPIO:0000154": {
+    "id": "SEPIO:0000154",
+    "code": "0000154",
+    "display": "assessor role",
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-contributory-role:curator": {
-    "id": "CG-contributory-role:curator",
-    "code": "curator",
-    "display": "curator",
-    "system": "http://clinicalgenome.org/datamodel/contributory-role/",
-    "code system name": "contributory-role"
+  "SEPIO:0000156": {
+    "id": "SEPIO:0000156",
+    "code": "0000156",
+    "display": "curator role",
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-contributory-role:interpreter": {
-    "id": "CG-contributory-role:interpreter",
-    "code": "interpreter",
-    "display": "interpreter",
-    "system": "http://clinicalgenome.org/datamodel/contributory-role/",
-    "code system name": "contributory-role"
+  "SEPIO:0000155": {
+    "id": "SEPIO:0000155",
+    "code": "0000155",
+    "display": "approver role",
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
+  },
+  "SEPIO:0000331": {
+    "id": "SEPIO:0000331",
+    "code": "0000331",
+    "display": "interpreter role",
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
   "SEPIO:0000223": {
     "id": "SEPIO:0000223",
@@ -264,173 +271,103 @@
     "system": "http://obofoundry.org/sepio/",
     "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-evidence-strength:ba": {
-    "id": "CG-evidence-strength:ba",
-    "code": "ba",
+  "SEPIO:0000325": {
+    "id": "SEPIO:0000325",
+    "code": "0000325",
     "display": "Benign Stand Alone",
-    "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
-    "code system name": "evidence-strength"
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-evidence-strength:bm": {
-    "id": "CG-evidence-strength:bm",
-    "code": "bm",
+  "SEPIO:0000326": {
+    "id": "SEPIO:0000326",
+    "code": "0000326",
     "display": "Benign Moderate",
-    "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
-    "code system name": "evidence-strength"
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-evidence-strength:bp": {
-    "id": "CG-evidence-strength:bp",
-    "code": "bp",
+  "SEPIO:0000327": {
+    "id": "SEPIO:0000327",
+    "code": "0000327",
     "display": "Benign Supporting",
-    "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
-    "code system name": "evidence-strength"
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-evidence-strength:bs": {
-    "id": "CG-evidence-strength:bs",
-    "code": "bs",
+  "SEPIO:0000328": {
+    "id": "SEPIO:0000328",
+    "code": "0000328",
     "display": "Benign Strong",
-    "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
-    "code system name": "evidence-strength"
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-evidence-strength:na": {
-    "id": "CG-evidence-strength:na",
-    "code": "na",
+  "SEPIO:0000218": {
+    "id": "SEPIO:0000218",
+    "code": "0000218",
     "display": "None",
-    "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
-    "code system name": "evidence-strength"
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-evidence-strength:pm": {
-    "id": "CG-evidence-strength:pm",
-    "code": "pm",
+  "SEPIO:0000216": {
+    "id": "SEPIO:0000216",
+    "code": "0000216",
     "display": "Pathogenic Moderate",
-    "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
-    "code system name": "evidence-strength"
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-evidence-strength:pp": {
-    "id": "CG-evidence-strength:pp",
-    "code": "pp",
+  "SEPIO:0000329": {
+    "id": "SEPIO:0000329",
+    "code": "0000329",
     "display": "Pathogenic Supporting",
-    "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
-    "code system name": "evidence-strength"
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-evidence-strength:ps": {
-    "id": "CG-evidence-strength:ps",
-    "code": "ps",
+  "SEPIO:0000330": {
+    "id": "SEPIO:0000330",
+    "code": "0000330",
     "display": "Pathogenic Strong",
-    "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
-    "code system name": "evidence-strength"
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-evidence-strength:pvs": {
-    "id": "CG-evidence-strength:pvs",
-    "code": "pvs",
+  "SEPIO:0000220": {
+    "id": "SEPIO:0000220",
+    "code": "0000220",
     "display": "Pathogenic Very Strong",
-    "system": "http://clinicalgenome.org/datamodel/criterion-evidence-strength/",
-    "code system name": "evidence-strength"
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-allele-func-impact-type:activation": {
-    "id": "CG-allele-func-impact-type:activation",
-    "code": "activation",
-    "display": "Activation Assay",
-    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
-    "code system name": "allele-func-impact-type"
-  },
-  "CG-allele-func-impact-type:atpase": {
-    "id": "CG-allele-func-impact-type:atpase",
-    "code": "atpase",
-    "display": "ATPase assay",
-    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
-    "code system name": "allele-func-impact-type"
-  },
-  "CG-allele-func-impact-type:binding": {
-    "id": "CG-allele-func-impact-type:binding",
-    "code": "binding",
-    "display": "Binding assay",
-    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
-    "code system name": "allele-func-impact-type"
-  },
-  "CG-allele-func-impact-type:celloc": {
-    "id": "CG-allele-func-impact-type:celloc",
-    "code": "celloc",
-    "display": "cellular localization",
-    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
-    "code system name": "allele-func-impact-type"
-  },
-  "CG-allele-func-impact-type:elk1phosvialucif": {
-    "id": "CG-allele-func-impact-type:elk1phosvialucif",
-    "code": "elk1phosvialucif",
-    "display": "Elk1 pohsphorylation via luciferase assay",
-    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
-    "code system name": "allele-func-impact-type"
-  },
-  "CG-allele-func-impact-type:iodeff": {
-    "id": "CG-allele-func-impact-type:iodeff",
-    "code": "iodeff",
-    "display": "iodide efflux",
-    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
-    "code system name": "allele-func-impact-type"
-  },
-  "CG-allele-func-impact-type:motility": {
-    "id": "CG-allele-func-impact-type:motility",
-    "code": "motility",
-    "display": "motility assay",
-    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
-    "code system name": "allele-func-impact-type"
-  },
-  "CG-allele-func-impact-type:neuritegrowth": {
-    "id": "CG-allele-func-impact-type:neuritegrowth",
-    "code": "neuritegrowth",
-    "display": "neurite outgrowth",
-    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
-    "code system name": "allele-func-impact-type"
-  },
-  "CG-allele-func-impact-type:yeastcomp": {
-    "id": "CG-allele-func-impact-type:yeastcomp",
-    "code": "yeastcomp",
-    "display": "Yeast complementation assay",
-    "system": "http://clinicalgenome.org/datamodel/allele-func-impact-type/",
-    "code system name": "allele-func-impact-type"
-  },
-  "CG-inheritance-mode:codominant": {
-    "id": "CG-inheritance-mode:codominant",
-    "code": "codominant",
+  "GENO:0000143": {
+    "id": "GENO:0000143",
+    "code": "0000143",
     "display": "Codominant",
-    "system": "http://clinicalgenome.org/datamodel/inheritance-mode/",
-    "code system name": "inheritance-mode"
+    "system": "http://obofoundry.org/geno/",
+    "code system name": "GENO"
   },
-  "CG-inheritance-mode:het-plasmic-mito": {
-    "id": "CG-inheritance-mode:het-plasmic-mito",
-    "code": "het-plasmic-mito",
+  "GENO:0000892": {
+    "id": "GENO:0000892",
+    "code": "0000892",
     "display": "Heteroplasmic mitochondrial inheritance",
-    "system": "http://clinicalgenome.org/datamodel/inheritance-mode/",
-    "code system name": "inheritance-mode"
+    "system": "http://obofoundry.org/geno/",
+    "code system name": "GENO"
   },
-  "CG-inheritance-mode:hom-plasmic-mito": {
-    "id": "CG-inheritance-mode:hom-plasmic-mito",
-    "code": "hom-plasmic-mito",
+  "GENO:0000893": {
+    "id": "GENO:0000893",
+    "code": "0000893",
     "display": "Homoplasmic mitochondrial inheritance",
-    "system": "http://clinicalgenome.org/datamodel/inheritance-mode/",
-    "code system name": "inheritance-mode"
+    "system": "http://obofoundry.org/geno/",
+    "code system name": "GENO"
   },
-  "CG-inheritance-mode:sex-limited-ar": {
-    "id": "CG-inheritance-mode:sex-limited-ar",
-    "code": "sex-limited-ar",
-    "display": "Sex-limited autosomal recessive",
-    "system": "http://clinicalgenome.org/datamodel/inheritance-mode/",
-    "code system name": "inheritance-mode"
-  },
-  "CG-penetrance-type:complete": {
-    "id": "CG-penetrance-type:complete",
-    "code": "complete",
+  "HP:000XXX1": {
+    "id": "HP:000XXX1",
+    "code": "000XXX1",
     "display": "Complete",
-    "system": "http://clinicalgenome.org/datamodel/penetrance-type/",
-    "code system name": "penetrance-type"
+    "system": "http://human-phenotype-ontology.github.io/",
+    "code system name": "HumanPhenotypeOntology"
   },
-  "CG-penetrance-type:high": {
-    "id": "CG-penetrance-type:high",
-    "code": "high",
+  "HP:000XXX2": {
+    "id": "HP:000XXX2",
+    "code": "000XXX2",
     "display": "High",
-    "system": "http://clinicalgenome.org/datamodel/penetrance-type/",
-    "code system name": "penetrance-type"
+    "system": "http://human-phenotype-ontology.github.io/",
+    "code system name": "HumanPhenotypeOntology"
   },
   "GENO:0000889": {
     "id": "GENO:0000889",
@@ -467,40 +404,40 @@
     "system": "http://clinicalgenome.org/datamodel/population-type/",
     "code system name": "population-type"
   },
-  "CG-prediction-type:me": {
-    "id": "CG-prediction-type:me",
-    "code": "me",
+  "SEPIO:0000322": {
+    "id": "SEPIO:0000322",
+    "code": "0000322",
     "display": "missense effect",
-    "system": "http://clinicalgenome.org/datamodel/prediction-type/",
-    "code system name": "prediction-type"
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-prediction-type:sp": {
-    "id": "CG-prediction-type:sp",
-    "code": "sp",
+  "SEPIO:0000323": {
+    "id": "SEPIO:0000323",
+    "code": "0000323",
     "display": "splicing prediction",
-    "system": "http://clinicalgenome.org/datamodel/prediction-type/",
-    "code system name": "prediction-type"
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-reg-type:functional": {
-    "id": "CG-reg-type:functional",
-    "code": "functional",
-    "display": "Functional",
-    "system": "http://clinicalgenome.org/datamodel/region-type/",
-    "code system name": "region-type"
+  "SEPIO:0000320": {
+    "id": "SEPIO:0000320",
+    "code": "0000320",
+    "display": "functional region",
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-reg-type:hotspot": {
-    "id": "CG-reg-type:hotspot",
-    "code": "hotspot",
-    "display": "Mutational Hotspot",
-    "system": "http://clinicalgenome.org/datamodel/region-type/",
-    "code system name": "region-type"
+  "SEPIO:0000321": {
+    "id": "SEPIO:0000321",
+    "code": "0000321",
+    "display": "mutational hotspot",
+    "system": "http://obofoundry.org/sepio/",
+    "code system name": "Scientific Evidence Provenance Infromation Ontology"
   },
-  "CG-reg-type:repeat": {
-    "id": "CG-reg-type:repeat",
-    "code": "repeat",
-    "display": "Repeat",
-    "system": "http://clinicalgenome.org/datamodel/region-type/",
-    "code system name": "region-type"
+  "SO:0000657": {
+    "id": "SO:0000657",
+    "code": "0000657",
+    "display": "repeat region ",
+    "system": "http://sequenceontology.org/",
+    "code system name": "SequenceOntology"
   },
   "DOID:630": {
     "id": "DOID:630",
@@ -1421,94 +1358,163 @@
     "display": "low",
     "system": "http://obofoundry.org/sepio/"
   },
-  "SEPIO:99001": {
-    "id": "SEPIO:99001",
+  "SEPIO-CG:99001": {
+    "id": "SEPIO-CG:99001",
     "code": "99001",
     "display": "high",
-    "system": "http://obofoundry.org/sepio/"
+    "system": "http://obofoundry.org/sepio/clingen"
   },
-  "SEPIO:99002": {
-    "id": "SEPIO:99002",
+  "SEPIO-CG:99002": {
+    "id": "SEPIO-CG:99002",
     "code": "99002",
     "display": "complete",
-    "system": "http://obofoundry.org/sepio/"
+    "system": "http://obofoundry.org/sepio/clingen"
   },
-  "SEPIO:99003": {
-    "id": "SEPIO:99003",
-    "code": "99003",
-    "display": "conserved",
-    "system": "http://obofoundry.org/sepio/"
-  },
-  "SEPIO:99004": {
-    "id": "SEPIO:99004",
-    "code": "99004",
-    "display": "not conserved",
-    "system": "http://obofoundry.org/sepio/"
-  },
-  "SEPIO:99005": {
-    "id": "SEPIO:99005",
-    "code": "99005",
-    "display": "maternal confirmation",
-    "system": "http://obofoundry.org/sepio/"
-  },
-  "SEPIO:99006": {
-    "id": "SEPIO:99006",
-    "code": "99006",
-    "display": "paternal confirmation",
-    "system": "http://obofoundry.org/sepio/"
-  },
-  "SEPIO:99007": {
-    "id": "SEPIO:99007",
-    "code": "99007",
-    "display": "maternal and paternal confirmation",
-    "system": "http://obofoundry.org/sepio/"
-  },
-  "SEPIO:99008": {
-    "id": "SEPIO:99008",
-    "code": "99008",
-    "display": "no parental confirmation",
-    "system": "http://obofoundry.org/sepio/"
-  },
-  "SEPIO:99009": {
-    "id": "SEPIO:99009",
+  "SEPIO-CG:99009": {
+    "id": "SEPIO-CG:99009",
     "code": "99009",
     "display": "affected",
-    "system": "http://obofoundry.org/sepio/"
+    "system": "http://obofoundry.org/sepio/clingen"
   },
-  "SEPIO:99010": {
-    "id": "SEPIO:99010",
+  "SEPIO-CG:99010": {
+    "id": "SEPIO-CG:99010",
     "code": "99010",
     "display": "unaffected",
-    "system": "http://obofoundry.org/sepio/"
+    "system": "http://obofoundry.org/sepio/clingen"
   },
-  "SEPIO:99011": {
-    "id": "SEPIO:99011",
+  "SEPIO-CG:99011": {
+    "id": "SEPIO-CG:99011",
     "code": "99011",
     "display": "present",
-    "system": "http://obofoundry.org/sepio/"
+    "system": "http://obofoundry.org/sepio/clingen"
   },
-  "SEPIO:99012": {
-    "id": "SEPIO:99012",
+  "SEPIO-CG:99012": {
+    "id": "SEPIO-CG:99012",
     "code": "99012",
     "display": "absent",
-    "system": "http://obofoundry.org/sepio/"
+    "system": "http://obofoundry.org/sepio/clingen"
   },
-  "SEPIO:99013": {
-    "id": "SEPIO:99013",
+  "SEPIO-CG:99013": {
+    "id": "SEPIO-CG:99013",
     "code": "99013",
     "display": "unknown",
-    "system": "http://obofoundry.org/sepio/"
+    "system": "http://obofoundry.org/sepio/clingen"
   },
-  "SEPIO:99014": {
-    "id": "SEPIO:99014",
-    "code": "99014",
-    "display": "loss of function variant",
-    "system": "http://obofoundry.org/sepio/"
-  },
-  "SEPIO:99015": {
-    "id": "SEPIO:99015",
+  "SEPIO-CG:99015": {
+    "id": "SEPIO-CG:99015",
     "code": "99015",
-    "display": "functionally inert variant",
-    "system": "http://obofoundry.org/sepio/"
+    "display": "No",
+    "system": "http://obofoundry.org/sepio/clingen"
+  },
+  "SEPIO-CG:99003": {
+    "id": "SEPIO-CG:99003",
+    "code": "99003",
+    "display": "conserved",
+    "system": "http://obofoundry.org/sepio/clingen"
+  },
+  "SEPIO-CG:99004": {
+    "id": "SEPIO-CG:99004",
+    "code": "99004",
+    "display": "not conserved",
+    "system": "http://obofoundry.org/sepio/clingen"
+  },
+  "SEPIO-CG:99005": {
+    "id": "SEPIO-CG:99005",
+    "code": "99005",
+    "display": "maternal confirmation",
+    "system": "http://obofoundry.org/sepio/clingen"
+  },
+  "SEPIO-CG:99006": {
+    "id": "SEPIO-CG:99006",
+    "code": "99006",
+    "display": "paternal confirmation",
+    "system": "http://obofoundry.org/sepio/clingen"
+  },
+  "SEPIO-CG:99007": {
+    "id": "SEPIO-CG:99007",
+    "code": "99007",
+    "display": "maternal and paternal confirmation",
+    "system": "http://obofoundry.org/sepio/clingen"
+  },
+  "SEPIO-CG:99008": {
+    "id": "SEPIO-CG:99008",
+    "code": "99008",
+    "display": "no parental confirmation",
+    "system": "http://obofoundry.org/sepio/clingen"
+  },
+  "SEPIO-CG:99020": {
+    "id": "SEPIO-CG:99020",
+    "code": "99020",
+    "display": "included",
+    "system": "http://obofoundry.org/sepio/clingen"
+  },
+  "SEPIO-CG:99021": {
+    "id": "SEPIO-CG:99021",
+    "code": "99021",
+    "display": "excluded",
+    "system": "http://obofoundry.org/sepio/clingen"
+  },
+  "OBI:XXXXXX1": {
+    "id": "OBI:XXXXXX1",
+    "code": "XXXXXX1",
+    "display": "Activation Assay",
+    "system": "http://purl.obolibrary.org/obo/OBI_",
+    "code system name": ""
+  },
+  "OBI:XXXXXX2": {
+    "id": "OBI:XXXXXX2",
+    "code": "XXXXXX2",
+    "display": "ATPase assay",
+    "system": "http://purl.obolibrary.org/obo/OBI_",
+    "code system name": ""
+  },
+  "OBI:0001146": {
+    "id": "OBI:0001146",
+    "code": "0001146",
+    "display": "Binding assay",
+    "system": "http://purl.obolibrary.org/obo/OBI_",
+    "code system name": ""
+  },
+  "OBI:0002165": {
+    "id": "OBI:0002165",
+    "code": "0002165",
+    "display": "cellular localization",
+    "system": "http://purl.obolibrary.org/obo/OBI_",
+    "code system name": ""
+  },
+  "OBI:XXXXXX3": {
+    "id": "OBI:XXXXXX3",
+    "code": "XXXXXX3",
+    "display": "Elk1 pohsphorylation via luciferase assay",
+    "system": "http://purl.obolibrary.org/obo/OBI_",
+    "code system name": ""
+  },
+  "OBI:XXXXXX4": {
+    "id": "OBI:XXXXXX4",
+    "code": "XXXXXX4",
+    "display": "iodide efflux",
+    "system": "http://purl.obolibrary.org/obo/OBI_",
+    "code system name": ""
+  },
+  "OBI:XXXXXX5": {
+    "id": "OBI:XXXXXX5",
+    "code": "XXXXXX5",
+    "display": "motility assay",
+    "system": "http://purl.obolibrary.org/obo/OBI_",
+    "code system name": ""
+  },
+  "OBI:XXXXXX6": {
+    "id": "OBI:XXXXXX6",
+    "code": "XXXXXX6",
+    "display": "neurite outgrowth",
+    "system": "http://purl.obolibrary.org/obo/OBI_",
+    "code system name": ""
+  },
+  "OBI:XXXXXX7": {
+    "id": "OBI:XXXXXX7",
+    "code": "XXXXXX7",
+    "display": "Yeast complementation assay",
+    "system": "http://purl.obolibrary.org/obo/OBI_",
+    "code system name": ""
   }
 }

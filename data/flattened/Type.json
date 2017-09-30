@@ -125,7 +125,6 @@
   "E14": {
     "id": "E14",
     "name": "GeneticCondition",
-    "parentType": "E01",
     "link": "GenCond",
     "iri": "SEPIO:0000219",
     "iri-label": "genetic condition",
@@ -201,7 +200,6 @@
   "E22": {
     "id": "E22",
     "name": "SequenceLocation",
-    "parentType": "E01",
     "link": "Loc",
     "iri": "GENO:0000815",
     "iri-label": "sequence feature position",
@@ -261,6 +259,17 @@
     "iri-label": "individual allele statement",
     "cg-label": "IndividualAllele",
     "description": "A statement describing the allelic state of one or more alleles in the genome of an individual (e.g. zygosity information, or phase relative to a second allele).",
+    "comments": ""
+  },
+  "E29": {
+    "id": "E29",
+    "name": "ExcludedRegionType",
+    "parentType": "E01",
+    "link": "ExclRegTyp",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "ExcludedRegionType",
+    "description": "",
     "comments": ""
   },
   "E32": {
@@ -452,5 +461,15 @@
     "cg-label": "EvidenceLine",
     "description": "Preferred: An evidence line represents an independently meaningful argument for or against a particular proposition, that is based on the interpretation of one or more pieces of information as evidence.\n\nAn evidence line represents an agent's interpretation of one or more pieces of information as an independently meaningful argument relevant to the validity of a particular proposition\n\nAn information content entity that rerpresents an independently meaningful argument for or against a particular proposition, and that is based on the interpretation of one or more pieces of information as evidence.",
     "comments": "Evidence lines are organizational nodes in SEPIO used to group all 'evidence items' (pieces of information interpreted as evidence) that contribute to one independent argument relevant to the validity of a proposition. Most often, 'evidence items' are grouped under an evidence line in virtue of their having been generated in a single study or investigation. For example, primary measurement values and derived statistical scores from a study of blood glucose levels in wild-type vs. mutant  mice are all evidence items that would belong to the same Evidence Line. But sometimes information arising from completely separate lines of investigation is grouped under a single evidence line - in cases where two or more independent facts or findings must all be true in order for a meaningful argument for or against a proposition to exist.  For example, the ACMG \"PVS1\" criteria holds that very strong evidence for the pathogenicity of a variant allele exists when: (1) it represents a 'null mutation' that inactivates the resulting gene product, and (2) loss-of-function of the affected gene is a known mechanism of disease. An evidence line based on this criteria would group all evidence items pertinent to establishing either of these independent facts.\n\nAn evidence line is created through the interpretation of one or more pieces of information that collectively support a meaningful argument for or against a proposition. To qualify as an evidence line, this argument must be independently significant as evidence - i.e. it must be capable of affecting the probability of accepting the target proposition as true. This does not mean, however, that an evidence line must be independently sufficient to establish belief in the proposition, as additional evidence lines may be required to ultimately accept the proposition as true. For example, in the ACMG framework for variant interpretations establishes a variant's \"absence in population databases\" as a type of evidence line that can argue for the pathogenicty of the variant. But the ACMG Framework does not consider this argument alone as sufficient to establish a variant's pathogencity, as the additional lines of evidence are required to classify it as definitively pathogenic (e.g. a line of evidence demonstrating the variant to have a deleterious effect on protein function, or showing it to segregate with disease features in a family tree).\n\nEditor Note:\nIt may help to think of evidence lines as representing the relationship between a set of one or more 'evidence items' and a proposition, where the evidence items are interpreted together as supporting one argument  for or against a particular proposition. In SEPIO however, we define them as representing the argument itself, as this is the simplest and most pragmatic way to explain this concept to users. But we acknowledge that the precise ontological nature of an 'argument', and therefore an 'evidence line', in the context of the BFO remains ambiguous."
+  },
+  "E57": {
+    "id": "E57",
+    "name": "MolecularConsequence",
+    "parentType": "E55"
+  },
+  "E58": {
+    "id": "E58",
+    "name": "Mechanism",
+    "parentType": "E55"
   }
 }

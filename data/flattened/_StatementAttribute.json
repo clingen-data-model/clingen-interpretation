@@ -15,17 +15,26 @@
     "value": "CC001",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC001\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
-    "subjectId": "MolCon001",
-    "attributeId": "A010",
-    "value": "false",
-    "evidenceDataName": "MolecularConsequence",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "subjectId": "Null396",
+    "attributeId": "A077",
+    "value": "CtxAll001",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "contextualAllele",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "contextualAllele: { NM_031844.2(HNRNPU):c.2304_2305del (p.Gly769Glufs*83) }"
+  },
+  {
+    "subjectId": "Null396",
+    "attributeId": "A078",
+    "value": "SEPIO-CG:99015",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "annotation",
+    "attributeType": "Coding",
+    "lookupValue": "annotation: { code: \"99015\", display: \"No\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "CondMech002",
@@ -40,11 +49,11 @@
   {
     "subjectId": "CondMech002",
     "attributeId": "A003",
-    "value": "CG-cond-mech-strength:established",
+    "value": "SEPIO:0000269",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }",
+    "lookupValue": "mechanismConfidence: { code: \"0000269\", display: \"established\", system: \"http://obofoundry.org/sepio/\" }",
     "Source": "Steven's Gene Curation Process, Literature Review, NMDPredictor, GeneReviews, GeneDX - GeneratedFrom"
   },
   {
@@ -72,17 +81,26 @@
     "value": "CC004",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC004\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
-    "subjectId": "MolCon003",
-    "attributeId": "A010",
-    "value": "true",
-    "evidenceDataName": "MolecularConsequence",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "subjectId": "Null397",
+    "attributeId": "A077",
+    "value": "CtxAll002",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "contextualAllele",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "contextualAllele: { NM_000059.3(BRCA2):c.7762_7764delinsTT }"
+  },
+  {
+    "subjectId": "Null397",
+    "attributeId": "A078",
+    "value": "SO:0002054",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "annotation",
+    "attributeType": "Coding",
+    "lookupValue": "annotation: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "CondMech004",
@@ -96,11 +114,11 @@
   {
     "subjectId": "CondMech004",
     "attributeId": "A003",
-    "value": "CG-cond-mech-strength:established",
+    "value": "SEPIO:0000269",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"0000269\", display: \"established\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CondMech004",
@@ -135,17 +153,26 @@
     "value": "CC007",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC007\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
-    "subjectId": "MolCon005",
-    "attributeId": "A010",
-    "value": "true",
-    "evidenceDataName": "MolecularConsequence",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "subjectId": "Null398",
+    "attributeId": "A077",
+    "value": "CtxAll003",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "contextualAllele",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "contextualAllele: { NM_133437.4(TTN):c.10670dupG  }"
+  },
+  {
+    "subjectId": "Null398",
+    "attributeId": "A078",
+    "value": "SO:0002054",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "annotation",
+    "attributeType": "Coding",
+    "lookupValue": "annotation: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "MolCon006",
@@ -162,17 +189,26 @@
     "value": "CC008",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC008\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0000191\", display: \"interior intron\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
-    "subjectId": "MolCon006",
-    "attributeId": "A010",
-    "value": "false",
-    "evidenceDataName": "MolecularConsequence",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "subjectId": "Null399",
+    "attributeId": "A077",
+    "value": "CtxAll004",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "contextualAllele",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "contextualAllele: { LRG_391t2:c.10303+2691dupG }"
+  },
+  {
+    "subjectId": "Null399",
+    "attributeId": "A078",
+    "value": "SEPIO-CG:99015",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "annotation",
+    "attributeType": "Coding",
+    "lookupValue": "annotation: { code: \"99015\", display: \"No\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "CondMech007",
@@ -186,11 +222,11 @@
   {
     "subjectId": "CondMech007",
     "attributeId": "A003",
-    "value": "CG-cond-mech-strength:established",
+    "value": "SEPIO:0000269",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"0000269\", display: \"established\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CondMech007",
@@ -233,9 +269,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp009",
@@ -260,9 +296,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp010",
@@ -287,9 +323,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp011",
@@ -314,9 +350,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "IndCond012",
@@ -341,9 +377,9 @@
     "attributeId": "A018",
     "value": "true",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: \"true\""
   },
   {
     "subjectId": "FamCond013",
@@ -366,11 +402,11 @@
   {
     "subjectId": "FamCond013",
     "attributeId": "A021",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "FamilyCondition",
     "attributeName": "familyHasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "familyHasCondition: false"
+    "attributeType": "Coding",
+    "lookupValue": "familyHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh014",
@@ -392,21 +428,12 @@
   },
   {
     "subjectId": "IndAllInh014",
-    "attributeId": "A024",
-    "value": "true",
-    "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "maternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "maternityConfirmed: true"
-  },
-  {
-    "subjectId": "IndAllInh014",
     "attributeId": "A025",
-    "value": "true",
+    "value": "SEPIO-CG:99007",
     "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "paternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "paternityConfirmed: true"
+    "attributeName": "parentalConfirmation",
+    "attributeType": "Coding",
+    "lookupValue": "parentalConfirmation: { code: \"99007\", display: \"maternal and paternal confirmation\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh014",
@@ -438,11 +465,11 @@
   {
     "subjectId": "IndCond015",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "FamCond016",
@@ -465,11 +492,11 @@
   {
     "subjectId": "FamCond016",
     "attributeId": "A021",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "FamilyCondition",
     "attributeName": "familyHasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "familyHasCondition: false"
+    "attributeType": "Coding",
+    "lookupValue": "familyHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh017",
@@ -491,21 +518,12 @@
   },
   {
     "subjectId": "IndAllInh017",
-    "attributeId": "A024",
-    "value": "false",
-    "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "maternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "maternityConfirmed: false"
-  },
-  {
-    "subjectId": "IndAllInh017",
     "attributeId": "A025",
-    "value": "true",
+    "value": "SEPIO-CG:99006",
     "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "paternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "paternityConfirmed: true"
+    "attributeName": "parentalConfirmation",
+    "attributeType": "Coding",
+    "lookupValue": "parentalConfirmation: { code: \"99006\", display: \"paternal confirmation\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh017",
@@ -537,11 +555,11 @@
   {
     "subjectId": "IndCond018",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "FamCond019",
@@ -564,11 +582,11 @@
   {
     "subjectId": "FamCond019",
     "attributeId": "A021",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "FamilyCondition",
     "attributeName": "familyHasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "familyHasCondition: false"
+    "attributeType": "Coding",
+    "lookupValue": "familyHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh020",
@@ -590,21 +608,12 @@
   },
   {
     "subjectId": "IndAllInh020",
-    "attributeId": "A024",
-    "value": "true",
-    "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "maternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "maternityConfirmed: true"
-  },
-  {
-    "subjectId": "IndAllInh020",
     "attributeId": "A025",
-    "value": "true",
+    "value": "SEPIO-CG:99007",
     "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "paternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "paternityConfirmed: true"
+    "attributeName": "parentalConfirmation",
+    "attributeType": "Coding",
+    "lookupValue": "parentalConfirmation: { code: \"99007\", display: \"maternal and paternal confirmation\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh020",
@@ -620,18 +629,18 @@
     "attributeId": "A026",
     "value": "the mutation lowered the Ca2+  affinity of the reconstituted thin filaments;",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "result",
+    "attributeName": "resultDescription",
     "attributeType": "String",
-    "lookupValue": "result: \"the mutation lowered the Ca2+  affinity of the reconstituted thin filaments;\""
+    "lookupValue": "resultDescription: \"the mutation lowered the Ca2+  affinity of the reconstituted thin filaments;\""
   },
   {
     "subjectId": "Func021",
     "attributeId": "A027",
     "value": "CC015",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "dataType",
+    "attributeName": "assayType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"binding\", display: \"Binding assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
+    "lookupValue": "assayType: { coding: [{ code: \"0001146\", display: \"Binding assay\", system: \"http://purl.obolibrary.org/obo/OBI_\" }] }"
   },
   {
     "subjectId": "Func021",
@@ -656,18 +665,18 @@
     "attributeId": "A026",
     "value": "reduced Ca2 sensitivity of activation",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "result",
+    "attributeName": "resultDescription",
     "attributeType": "String",
-    "lookupValue": "result: \"reduced Ca2 sensitivity of activation\""
+    "lookupValue": "resultDescription: \"reduced Ca2 sensitivity of activation\""
   },
   {
     "subjectId": "Func022",
     "attributeId": "A027",
     "value": "CC016",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "dataType",
+    "attributeName": "assayType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"atpase\", display: \"ATPase assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
+    "lookupValue": "assayType: { coding: [{ code: \"XXXXXX2\", display: \"ATPase assay\", system: \"http://purl.obolibrary.org/obo/OBI_\" }] }"
   },
   {
     "subjectId": "Func022",
@@ -692,18 +701,18 @@
     "attributeId": "A026",
     "value": "reduced Ca2 sensitivity of activation",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "result",
+    "attributeName": "resultDescription",
     "attributeType": "String",
-    "lookupValue": "result: \"reduced Ca2 sensitivity of activation\""
+    "lookupValue": "resultDescription: \"reduced Ca2 sensitivity of activation\""
   },
   {
     "subjectId": "Func023",
     "attributeId": "A027",
     "value": "CC017",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "dataType",
+    "attributeName": "assayType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"motility\", display: \"motility assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
+    "lookupValue": "assayType: { coding: [{ code: \"XXXXXX5\", display: \"motility assay\", system: \"http://purl.obolibrary.org/obo/OBI_\" }] }"
   },
   {
     "subjectId": "Func023",
@@ -728,18 +737,18 @@
     "attributeId": "A026",
     "value": "desensitized Ca2+ binding to the thin filament.",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "result",
+    "attributeName": "resultDescription",
     "attributeType": "String",
-    "lookupValue": "result: \"desensitized Ca2+ binding to the thin filament.\""
+    "lookupValue": "resultDescription: \"desensitized Ca2+ binding to the thin filament.\""
   },
   {
     "subjectId": "Func024",
     "attributeId": "A027",
     "value": "CC018",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "dataType",
+    "attributeName": "assayType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"binding\", display: \"Binding assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
+    "lookupValue": "assayType: { coding: [{ code: \"0001146\", display: \"Binding assay\", system: \"http://purl.obolibrary.org/obo/OBI_\" }] }"
   },
   {
     "subjectId": "Func024",
@@ -764,18 +773,18 @@
     "attributeId": "A026",
     "value": "Functionally Damaging",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "result",
+    "attributeName": "resultDescription",
     "attributeType": "String",
-    "lookupValue": "result: \"Functionally Damaging\""
+    "lookupValue": "resultDescription: \"Functionally Damaging\""
   },
   {
     "subjectId": "Func025",
     "attributeId": "A027",
     "value": "CC019",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "dataType",
+    "attributeName": "assayType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"yeastcomp\", display: \"Yeast complementation assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
+    "lookupValue": "assayType: { coding: [{ code: \"XXXXXX7\", display: \"Yeast complementation assay\", system: \"http://purl.obolibrary.org/obo/OBI_\" }] }"
   },
   {
     "subjectId": "Func025",
@@ -800,18 +809,18 @@
     "attributeId": "A026",
     "value": "abnormal/deceased MEK activtation.",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "result",
+    "attributeName": "resultDescription",
     "attributeType": "String",
-    "lookupValue": "result: \"abnormal/deceased MEK activtation.\""
+    "lookupValue": "resultDescription: \"abnormal/deceased MEK activtation.\""
   },
   {
     "subjectId": "Func026",
     "attributeId": "A027",
     "value": "CC020",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "dataType",
+    "attributeName": "assayType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
+    "lookupValue": "assayType: { coding: [{ code: \"XXXXXX1\", display: \"Activation Assay\", system: \"http://purl.obolibrary.org/obo/OBI_\" }] }"
   },
   {
     "subjectId": "Func026",
@@ -845,18 +854,18 @@
     "attributeId": "A026",
     "value": "abnormal/deceased ERK activtation.",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "result",
+    "attributeName": "resultDescription",
     "attributeType": "String",
-    "lookupValue": "result: \"abnormal/deceased ERK activtation.\""
+    "lookupValue": "resultDescription: \"abnormal/deceased ERK activtation.\""
   },
   {
     "subjectId": "Func027",
     "attributeId": "A027",
     "value": "CC021",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "dataType",
+    "attributeName": "assayType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
+    "lookupValue": "assayType: { coding: [{ code: \"XXXXXX1\", display: \"Activation Assay\", system: \"http://purl.obolibrary.org/obo/OBI_\" }] }"
   },
   {
     "subjectId": "Func027",
@@ -892,7 +901,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq028",
@@ -1036,7 +1045,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq031",
@@ -1351,7 +1360,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq037",
@@ -1405,7 +1414,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq038",
@@ -1500,11 +1509,11 @@
   {
     "subjectId": "RegTyp040",
     "attributeId": "A057",
-    "value": "CG-reg-type:functional",
+    "value": "SEPIO:0000320",
     "evidenceDataName": "RegionType",
-    "attributeName": "includedTypes",
+    "attributeName": "annotation",
     "attributeType": "Coding",
-    "lookupValue": "includedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
+    "lookupValue": "annotation: { code: \"0000320\", display: \"functional region\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "VarInterp041",
@@ -1529,9 +1538,9 @@
     "attributeId": "A124",
     "value": "LN:LA6675-8",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp041",
@@ -1592,9 +1601,9 @@
     "attributeId": "A124",
     "value": "LN:LA26333-7",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp042",
@@ -1626,11 +1635,11 @@
   {
     "subjectId": "RegTyp043",
     "attributeId": "A057",
-    "value": "CG-reg-type:functional",
+    "value": "SEPIO:0000320",
     "evidenceDataName": "RegionType",
-    "attributeName": "includedTypes",
+    "attributeName": "annotation",
     "attributeType": "Coding",
-    "lookupValue": "includedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
+    "lookupValue": "annotation: { code: \"0000320\", display: \"functional region\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "VarInterp044",
@@ -1646,9 +1655,9 @@
     "attributeId": "A124",
     "value": "LN:LA26334-5",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA26334-5\", display: \"Likely Benign\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA26334-5\", display: \"Likely Benign\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp044",
@@ -1718,9 +1727,9 @@
     "attributeId": "A124",
     "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp045",
@@ -1770,11 +1779,11 @@
   {
     "subjectId": "RegTyp046",
     "attributeId": "A057",
-    "value": "CG-reg-type:hotspot",
+    "value": "SEPIO:0000321",
     "evidenceDataName": "RegionType",
-    "attributeName": "includedTypes",
+    "attributeName": "annotation",
     "attributeType": "Coding",
-    "lookupValue": "includedTypes: { code: \"hotspot\", display: \"Mutational Hotspot\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
+    "lookupValue": "annotation: { code: \"0000321\", display: \"mutational hotspot\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "VarInterp047",
@@ -1799,9 +1808,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp048",
@@ -1826,9 +1835,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp049",
@@ -1853,9 +1862,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp050",
@@ -1880,9 +1889,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "AllFreq051",
@@ -1891,7 +1900,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq051",
@@ -1954,7 +1963,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq052",
@@ -2017,7 +2026,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq053",
@@ -2089,7 +2098,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq054",
@@ -2168,9 +2177,9 @@
     "attributeId": "A124",
     "value": "LN:LA26333-7",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp055",
@@ -2238,11 +2247,11 @@
   {
     "subjectId": "IndCond056",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndCond056",
@@ -2285,9 +2294,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp057",
@@ -2402,9 +2411,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"\""
+    "lookupValue": "outcome: \"\""
   },
   {
     "subjectId": "VarInterp060",
@@ -2429,9 +2438,9 @@
     "attributeId": "A124",
     "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"\""
+    "lookupValue": "outcome: \"\""
   },
   {
     "subjectId": "VarInterp060",
@@ -2463,11 +2472,11 @@
   {
     "subjectId": "IndCond061",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAll062",
@@ -2546,9 +2555,9 @@
     "attributeId": "A124",
     "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: \"\""
+    "lookupValue": "outcome: \"\""
   },
   {
     "subjectId": "VarInterp063",
@@ -2616,11 +2625,11 @@
   {
     "subjectId": "IndCond064",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAll065",
@@ -2664,8 +2673,8 @@
     "value": "CC054",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: { code: \"0001825\", display: \"conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }"
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: \"SO:0001825\""
   },
   {
     "subjectId": "MolCon066",
@@ -2690,18 +2699,18 @@
     "attributeId": "A026",
     "value": "increased ERK activtation",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "result",
+    "attributeName": "resultDescription",
     "attributeType": "String",
-    "lookupValue": "result: \"increased ERK activtation\""
+    "lookupValue": "resultDescription: \"increased ERK activtation\""
   },
   {
     "subjectId": "Func067",
     "attributeId": "A027",
     "value": "CC055",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "dataType",
+    "attributeName": "assayType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"activation\", display: \"Activation Assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
+    "lookupValue": "assayType: { coding: [{ code: \"XXXXXX1\", display: \"Activation Assay\", system: \"http://purl.obolibrary.org/obo/OBI_\" }] }"
   },
   {
     "subjectId": "Func067",
@@ -2755,7 +2764,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000323\", display: \"splicing prediction\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred068",
@@ -2767,37 +2776,37 @@
     "lookupValue": "categoricalPrediction: \"no impact\""
   },
   {
-    "subjectId": "RegTyp069",
-    "attributeId": "A063",
+    "subjectId": "ExclRegTyp069",
+    "attributeId": "A128",
     "value": "Loc385",
-    "evidenceDataName": "RegionType",
+    "evidenceDataName": "ExcludedRegionType",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc385\""
   },
   {
-    "subjectId": "RegTyp069",
-    "attributeId": "A057",
-    "value": "CG-reg-type:repeat",
-    "evidenceDataName": "RegionType",
-    "attributeName": "includedTypes",
+    "subjectId": "ExclRegTyp069",
+    "attributeId": "A056",
+    "value": "SO:0000657",
+    "evidenceDataName": "ExcludedRegionType",
+    "attributeName": "annotation",
     "attributeType": "Coding",
-    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
+    "lookupValue": "annotation: { code: \"0000657\", display: \"repeat region \", system: \"http://sequenceontology.org/\" }"
   },
   {
-    "subjectId": "RegTyp069",
+    "subjectId": "ExclRegTyp069",
     "attributeId": "A119",
     "value": "Contrib487",
-    "evidenceDataName": "RegionType",
+    "evidenceDataName": "ExcludedRegionType",
     "attributeName": "contribution",
     "attributeType": "Contribution",
     "lookupValue": "contribution: {  }"
   },
   {
-    "subjectId": "RegTyp069",
+    "subjectId": "ExclRegTyp069",
     "attributeId": "A127",
     "value": "https://pcpgm.partners.org/lmm/alamut",
-    "evidenceDataName": "RegionType",
+    "evidenceDataName": "ExcludedRegionType",
     "attributeName": "source",
     "attributeType": "String",
     "lookupValue": "source: \"https://pcpgm.partners.org/lmm/alamut\""
@@ -2817,8 +2826,8 @@
     "value": "CC058",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC058\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001825\", display: \"conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
     "subjectId": "Conserv071",
@@ -2832,11 +2841,11 @@
   {
     "subjectId": "Conserv071",
     "attributeId": "A112",
-    "value": "false",
+    "value": "SEPIO-CG:99004",
     "evidenceDataName": "AlleleConservation",
-    "attributeName": "conserved",
-    "attributeType": "boolean",
-    "lookupValue": "conserved: false"
+    "attributeName": "outcome",
+    "attributeType": "Coding",
+    "lookupValue": "outcome: { code: \"99004\", display: \"not conserved\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "Conserv071",
@@ -2868,11 +2877,11 @@
   {
     "subjectId": "Conserv072",
     "attributeId": "A112",
-    "value": "false",
+    "value": "SEPIO-CG:99004",
     "evidenceDataName": "AlleleConservation",
-    "attributeName": "conserved",
-    "attributeType": "boolean",
-    "lookupValue": "conserved: false"
+    "attributeName": "outcome",
+    "attributeType": "Coding",
+    "lookupValue": "outcome: { code: \"99004\", display: \"not conserved\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "Conserv072",
@@ -2893,22 +2902,22 @@
     "lookupValue": "score: 0.63"
   },
   {
-    "subjectId": "RegTyp073",
-    "attributeId": "A063",
+    "subjectId": "ExclRegTyp073",
+    "attributeId": "A128",
     "value": "Loc386",
-    "evidenceDataName": "RegionType",
+    "evidenceDataName": "ExcludedRegionType",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "lookupValue": "region: \"Loc386\""
   },
   {
-    "subjectId": "RegTyp073",
+    "subjectId": "ExclRegTyp073",
     "attributeId": "A056",
-    "value": "CG-reg-type:repeat",
-    "evidenceDataName": "RegionType",
-    "attributeName": "excludedTypes",
+    "value": "SO:0000657",
+    "evidenceDataName": "ExcludedRegionType",
+    "attributeName": "annotation",
     "attributeType": "Coding",
-    "lookupValue": "excludedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
+    "lookupValue": "annotation: { code: \"0000657\", display: \"repeat region \", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "MolCon074",
@@ -2925,8 +2934,8 @@
     "value": "CC060",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC060\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001823\", display: \"conservative Inframe Insertion\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
     "subjectId": "MolCon075",
@@ -2934,8 +2943,8 @@
     "value": "CC061",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC061\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
     "subjectId": "MolCon075",
@@ -3003,11 +3012,11 @@
   {
     "subjectId": "FamSeg076",
     "attributeId": "A110",
-    "value": "true",
+    "value": "SEPIO-CG:99011",
     "evidenceDataName": "FamilySegregation",
     "attributeName": "inconsistentSegregationsObserved",
     "attributeType": "Coding",
-    "lookupValue": "inconsistentSegregationsObserved: \"true\""
+    "lookupValue": "inconsistentSegregationsObserved: { code: \"99011\", display: \"present\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "RegTyp077",
@@ -3021,11 +3030,11 @@
   {
     "subjectId": "RegTyp077",
     "attributeId": "A057",
-    "value": "CG-reg-type:repeat",
+    "value": "SO:0000657",
     "evidenceDataName": "RegionType",
-    "attributeName": "includedTypes",
+    "attributeName": "annotation",
     "attributeType": "Coding",
-    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
+    "lookupValue": "annotation: { code: \"0000657\", display: \"repeat region \", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "VarInterp078",
@@ -3050,9 +3059,9 @@
     "attributeId": "A124",
     "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp078",
@@ -3095,9 +3104,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp079",
@@ -3140,9 +3149,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp081",
@@ -3167,9 +3176,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "AllFreq082",
@@ -3178,7 +3187,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq082",
@@ -3272,11 +3281,11 @@
   {
     "subjectId": "IndCond083",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndCond084",
@@ -3299,11 +3308,11 @@
   {
     "subjectId": "IndCond084",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "FamCond085",
@@ -3326,11 +3335,11 @@
   {
     "subjectId": "FamCond085",
     "attributeId": "A021",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "FamilyCondition",
     "attributeName": "familyHasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "familyHasCondition: false"
+    "attributeType": "Coding",
+    "lookupValue": "familyHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "FamCond086",
@@ -3353,11 +3362,11 @@
   {
     "subjectId": "FamCond086",
     "attributeId": "A021",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "FamilyCondition",
     "attributeName": "familyHasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "familyHasCondition: false"
+    "attributeType": "Coding",
+    "lookupValue": "familyHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh087",
@@ -3379,21 +3388,12 @@
   },
   {
     "subjectId": "IndAllInh087",
-    "attributeId": "A024",
-    "value": "false",
-    "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "maternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "maternityConfirmed: false"
-  },
-  {
-    "subjectId": "IndAllInh087",
     "attributeId": "A025",
-    "value": "false",
+    "value": "SEPIO-CG:99008",
     "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "paternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "paternityConfirmed: false"
+    "attributeName": "parentalConfirmation",
+    "attributeType": "Coding",
+    "lookupValue": "parentalConfirmation: { code: \"99008\", display: \"no parental confirmation\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh087",
@@ -3424,21 +3424,12 @@
   },
   {
     "subjectId": "IndAllInh088",
-    "attributeId": "A024",
-    "value": "false",
-    "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "maternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "maternityConfirmed: false"
-  },
-  {
-    "subjectId": "IndAllInh088",
     "attributeId": "A025",
-    "value": "false",
+    "value": "SEPIO-CG:99008",
     "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "paternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "paternityConfirmed: false"
+    "attributeName": "parentalConfirmation",
+    "attributeType": "Coding",
+    "lookupValue": "parentalConfirmation: { code: \"99008\", display: \"no parental confirmation\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh088",
@@ -3470,11 +3461,11 @@
   {
     "subjectId": "IndCond089",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "FamCond090",
@@ -3497,11 +3488,11 @@
   {
     "subjectId": "FamCond090",
     "attributeId": "A021",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "FamilyCondition",
     "attributeName": "familyHasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "familyHasCondition: false"
+    "attributeType": "Coding",
+    "lookupValue": "familyHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh091",
@@ -3523,21 +3514,12 @@
   },
   {
     "subjectId": "IndAllInh091",
-    "attributeId": "A024",
-    "value": "false",
-    "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "maternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "maternityConfirmed: false"
-  },
-  {
-    "subjectId": "IndAllInh091",
     "attributeId": "A025",
-    "value": "false",
+    "value": "SEPIO-CG:99008",
     "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "paternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "paternityConfirmed: false"
+    "attributeName": "parentalConfirmation",
+    "attributeType": "Coding",
+    "lookupValue": "parentalConfirmation: { code: \"99008\", display: \"no parental confirmation\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh091",
@@ -3569,11 +3551,11 @@
   {
     "subjectId": "IndCond092",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "FamCond093",
@@ -3596,11 +3578,11 @@
   {
     "subjectId": "FamCond093",
     "attributeId": "A021",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "FamilyCondition",
     "attributeName": "familyHasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "familyHasCondition: false"
+    "attributeType": "Coding",
+    "lookupValue": "familyHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh094",
@@ -3622,21 +3604,12 @@
   },
   {
     "subjectId": "IndAllInh094",
-    "attributeId": "A024",
-    "value": "false",
-    "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "maternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "maternityConfirmed: false"
-  },
-  {
-    "subjectId": "IndAllInh094",
     "attributeId": "A025",
-    "value": "false",
+    "value": "SEPIO-CG:99008",
     "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "paternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "paternityConfirmed: false"
+    "attributeName": "parentalConfirmation",
+    "attributeType": "Coding",
+    "lookupValue": "parentalConfirmation: { code: \"99008\", display: \"no parental confirmation\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh094",
@@ -3668,11 +3641,11 @@
   {
     "subjectId": "IndCond095",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "FamCond096",
@@ -3695,11 +3668,11 @@
   {
     "subjectId": "FamCond096",
     "attributeId": "A021",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "FamilyCondition",
     "attributeName": "familyHasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "familyHasCondition: false"
+    "attributeType": "Coding",
+    "lookupValue": "familyHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh097",
@@ -3721,21 +3694,12 @@
   },
   {
     "subjectId": "IndAllInh097",
-    "attributeId": "A024",
-    "value": "false",
-    "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "maternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "maternityConfirmed: false"
-  },
-  {
-    "subjectId": "IndAllInh097",
     "attributeId": "A025",
-    "value": "false",
+    "value": "SEPIO-CG:99008",
     "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "paternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "paternityConfirmed: false"
+    "attributeName": "parentalConfirmation",
+    "attributeType": "Coding",
+    "lookupValue": "parentalConfirmation: { code: \"99008\", display: \"no parental confirmation\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh097",
@@ -3767,11 +3731,11 @@
   {
     "subjectId": "IndCond098",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "FamCond099",
@@ -3794,11 +3758,11 @@
   {
     "subjectId": "FamCond099",
     "attributeId": "A021",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "FamilyCondition",
     "attributeName": "familyHasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "familyHasCondition: false"
+    "attributeType": "Coding",
+    "lookupValue": "familyHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh100",
@@ -3820,21 +3784,12 @@
   },
   {
     "subjectId": "IndAllInh100",
-    "attributeId": "A024",
-    "value": "false",
-    "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "maternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "maternityConfirmed: false"
-  },
-  {
-    "subjectId": "IndAllInh100",
     "attributeId": "A025",
-    "value": "false",
+    "value": "SEPIO-CG:99008",
     "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "paternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "paternityConfirmed: false"
+    "attributeName": "parentalConfirmation",
+    "attributeType": "Coding",
+    "lookupValue": "parentalConfirmation: { code: \"99008\", display: \"no parental confirmation\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh100",
@@ -3852,7 +3807,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq101",
@@ -4099,21 +4054,12 @@
   },
   {
     "subjectId": "IndAllInh106",
-    "attributeId": "A024",
-    "value": "false",
-    "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "maternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "maternityConfirmed: false"
-  },
-  {
-    "subjectId": "IndAllInh106",
     "attributeId": "A025",
-    "value": "false",
+    "value": "SEPIO-CG:99008",
     "evidenceDataName": "IndividualAlleleInheritance",
-    "attributeName": "paternityConfirmed",
-    "attributeType": "boolean",
-    "lookupValue": "paternityConfirmed: false"
+    "attributeName": "parentalConfirmation",
+    "attributeType": "Coding",
+    "lookupValue": "parentalConfirmation: { code: \"99008\", display: \"no parental confirmation\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAllInh106",
@@ -4253,11 +4199,11 @@
   {
     "subjectId": "IndCond110",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "FamSeg111",
@@ -4316,11 +4262,11 @@
   {
     "subjectId": "FamCond112",
     "attributeId": "A021",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "FamilyCondition",
     "attributeName": "familyHasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "familyHasCondition: false"
+    "attributeType": "Coding",
+    "lookupValue": "familyHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "FamSeg113",
@@ -4544,17 +4490,26 @@
     "value": "CC070",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC070\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
-    "subjectId": "MolCon117",
-    "attributeId": "A010",
-    "value": "false",
-    "evidenceDataName": "MolecularConsequence",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "subjectId": "Null404",
+    "attributeId": "A077",
+    "value": "CtxAll070",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "contextualAllele",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "contextualAllele: { NM_000257.3(MYH7):c.5401G>A }"
+  },
+  {
+    "subjectId": "Null404",
+    "attributeId": "A078",
+    "value": "SEPIO-CG:99015",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "annotation",
+    "attributeType": "Coding",
+    "lookupValue": "annotation: { code: \"99015\", display: \"No\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "CondMech118",
@@ -4568,11 +4523,11 @@
   {
     "subjectId": "CondMech118",
     "attributeId": "A003",
-    "value": "CG-cond-mech-strength:common",
+    "value": "SEPIO:0000268",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "mechanismConfidence: { code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"0000268\", display: \"common\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CondMech118",
@@ -4626,7 +4581,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred120",
@@ -4671,7 +4626,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred121",
@@ -4716,7 +4671,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred122",
@@ -4761,7 +4716,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred123",
@@ -4806,7 +4761,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred124",
@@ -4851,7 +4806,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred125",
@@ -4896,7 +4851,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred126",
@@ -4941,7 +4896,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred127",
@@ -4986,7 +4941,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred128",
@@ -5031,7 +4986,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred129",
@@ -5076,7 +5031,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred130",
@@ -5121,7 +5076,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred131",
@@ -5166,7 +5121,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred132",
@@ -5211,7 +5166,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred133",
@@ -5256,7 +5211,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred134",
@@ -5301,7 +5256,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred135",
@@ -5346,7 +5301,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred136",
@@ -5391,7 +5346,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred137",
@@ -5436,7 +5391,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred138",
@@ -5481,7 +5436,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred139",
@@ -5526,7 +5481,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred140",
@@ -5571,7 +5526,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred141",
@@ -5616,7 +5571,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred142",
@@ -5661,7 +5616,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000323\", display: \"splicing prediction\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred143",
@@ -5706,7 +5661,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000323\", display: \"splicing prediction\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred144",
@@ -5751,7 +5706,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000323\", display: \"splicing prediction\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred145",
@@ -5796,7 +5751,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000323\", display: \"splicing prediction\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred146",
@@ -5841,7 +5796,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000323\", display: \"splicing prediction\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred147",
@@ -5938,9 +5893,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp151",
@@ -5965,9 +5920,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp152",
@@ -5992,9 +5947,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "AllFreq153",
@@ -6003,7 +5958,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq153",
@@ -6066,7 +6021,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq154",
@@ -6129,7 +6084,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq155",
@@ -6237,7 +6192,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq157",
@@ -6300,7 +6255,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq158",
@@ -6408,7 +6363,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "penetrance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] }"
+    "lookupValue": "penetrance: { coding: [{ code: \"000XXX2\", display: \"High\", system: \"http://human-phenotype-ontology.github.io/\" }] }"
   },
   {
     "subjectId": "BMVR161",
@@ -6435,7 +6390,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq162",
@@ -6543,7 +6498,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "penetrance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] }"
+    "lookupValue": "penetrance: { coding: [{ code: \"000XXX2\", display: \"High\", system: \"http://human-phenotype-ontology.github.io/\" }] }"
   },
   {
     "subjectId": "CondMech165",
@@ -6557,11 +6512,11 @@
   {
     "subjectId": "CondMech165",
     "attributeId": "A003",
-    "value": "CG-cond-mech-strength:common",
+    "value": "SEPIO:0000268",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "mechanismConfidence: { code: \"common\", display: \"Common\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"0000268\", display: \"common\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CondMech165",
@@ -6588,7 +6543,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq166",
@@ -6678,7 +6633,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "penetrance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "penetrance: { coding: [{ code: \"high\", display: \"High\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] }"
+    "lookupValue": "penetrance: { coding: [{ code: \"000XXX2\", display: \"High\", system: \"http://human-phenotype-ontology.github.io/\" }] }"
   },
   {
     "subjectId": "MolCon169",
@@ -6695,17 +6650,26 @@
     "value": "CC122",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC122\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
-    "subjectId": "MolCon169",
-    "attributeId": "A010",
-    "value": "no",
-    "evidenceDataName": "MolecularConsequence",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "subjectId": "Null405",
+    "attributeId": "A077",
+    "value": "CtxAll099",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "contextualAllele",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "contextualAllele: { NM_133378.4(TTN): c.2926T>C }"
+  },
+  {
+    "subjectId": "Null405",
+    "attributeId": "A078",
+    "value": "SEPIO-CG:99015",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "annotation",
+    "attributeType": "Coding",
+    "lookupValue": "annotation: { code: \"99015\", display: \"No\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "CondPenet170",
@@ -6723,7 +6687,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "penetrance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] }"
+    "lookupValue": "penetrance: { coding: [{ code: \"000XXX1\", display: \"Complete\", system: \"http://human-phenotype-ontology.github.io/\" }] }"
   },
   {
     "subjectId": "IndAll172",
@@ -6800,11 +6764,11 @@
   {
     "subjectId": "IndCond174",
     "attributeId": "A018",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: false"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndCond175",
@@ -6827,11 +6791,11 @@
   {
     "subjectId": "IndCond175",
     "attributeId": "A018",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: false"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "CondPenet176",
@@ -6849,7 +6813,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "penetrance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] }"
+    "lookupValue": "penetrance: { coding: [{ code: \"000XXX1\", display: \"Complete\", system: \"http://human-phenotype-ontology.github.io/\" }] }"
   },
   {
     "subjectId": "IndAll178",
@@ -6980,11 +6944,11 @@
   {
     "subjectId": "IndCond182",
     "attributeId": "A018",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: false"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndCond183",
@@ -7007,11 +6971,11 @@
   {
     "subjectId": "IndCond183",
     "attributeId": "A018",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: false"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndCond184",
@@ -7034,11 +6998,11 @@
   {
     "subjectId": "IndCond184",
     "attributeId": "A018",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: false"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndCond185",
@@ -7061,11 +7025,11 @@
   {
     "subjectId": "IndCond185",
     "attributeId": "A018",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: false"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "CondPenet186",
@@ -7083,7 +7047,7 @@
     "evidenceDataName": "ConditionPenetrance",
     "attributeName": "penetrance",
     "attributeType": "CodeableConcept",
-    "lookupValue": "penetrance: { coding: [{ code: \"complete\", display: \"Complete\", system: \"http://clinicalgenome.org/datamodel/penetrance-type/\" }] }"
+    "lookupValue": "penetrance: { coding: [{ code: \"000XXX1\", display: \"Complete\", system: \"http://human-phenotype-ontology.github.io/\" }] }"
   },
   {
     "subjectId": "IndAll188",
@@ -7160,11 +7124,11 @@
   {
     "subjectId": "IndCond190",
     "attributeId": "A018",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: false"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndCond191",
@@ -7187,29 +7151,29 @@
   {
     "subjectId": "IndCond191",
     "attributeId": "A018",
-    "value": "false",
+    "value": "SEPIO-CG:99010",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: false"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99010\", display: \"unaffected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "Func192",
     "attributeId": "A026",
     "value": "Unchanged from reference",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "result",
+    "attributeName": "resultDescription",
     "attributeType": "String",
-    "lookupValue": "result: \"Unchanged from reference\""
+    "lookupValue": "resultDescription: \"Unchanged from reference\""
   },
   {
     "subjectId": "Func192",
     "attributeId": "A027",
     "value": "CC134",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "dataType",
+    "attributeName": "assayType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"iodeff\", display: \"iodide efflux\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
+    "lookupValue": "assayType: { coding: [{ code: \"XXXXXX4\", display: \"iodide efflux\", system: \"http://purl.obolibrary.org/obo/OBI_\" }] }"
   },
   {
     "subjectId": "Func192",
@@ -7234,18 +7198,18 @@
     "attributeId": "A026",
     "value": "localized to apical membrane",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "result",
+    "attributeName": "resultDescription",
     "attributeType": "String",
-    "lookupValue": "result: \"localized to apical membrane\""
+    "lookupValue": "resultDescription: \"localized to apical membrane\""
   },
   {
     "subjectId": "Func193",
     "attributeId": "A027",
     "value": "CC135",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "dataType",
+    "attributeName": "assayType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"celloc\", display: \"cellular localization\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
+    "lookupValue": "assayType: { coding: [{ code: \"0002165\", display: \"cellular localization\", system: \"http://purl.obolibrary.org/obo/OBI_\" }] }"
   },
   {
     "subjectId": "Func193",
@@ -7270,18 +7234,18 @@
     "attributeId": "A026",
     "value": "Unchanged from reference",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "result",
+    "attributeName": "resultDescription",
     "attributeType": "String",
-    "lookupValue": "result: \"Unchanged from reference\""
+    "lookupValue": "resultDescription: \"Unchanged from reference\""
   },
   {
     "subjectId": "Func194",
     "attributeId": "A027",
     "value": "CC136",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "dataType",
+    "attributeName": "assayType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"neuritegrowth\", display: \"neurite outgrowth\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
+    "lookupValue": "assayType: { coding: [{ code: \"XXXXXX3\", display: \"Elk1 pohsphorylation via luciferase assay\", system: \"http://purl.obolibrary.org/obo/OBI_\" }] }"
   },
   {
     "subjectId": "Func194",
@@ -7306,18 +7270,18 @@
     "attributeId": "A026",
     "value": "localized to apical membrane",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "result",
+    "attributeName": "resultDescription",
     "attributeType": "String",
-    "lookupValue": "result: \"localized to apical membrane\""
+    "lookupValue": "resultDescription: \"localized to apical membrane\""
   },
   {
     "subjectId": "Func195",
     "attributeId": "A027",
     "value": "CC137",
     "evidenceDataName": "AlleleFunctionalImpact",
-    "attributeName": "dataType",
+    "attributeName": "assayType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "dataType: { coding: [{ code: \"elk1phosvialucif\", display: \"Elk1 pohsphorylation via luciferase assay\", system: \"http://clinicalgenome.org/datamodel/allele-func-impact-type/\" }] }"
+    "lookupValue": "assayType: { coding: [{ code: \"XXXXXX3\", display: \"Elk1 pohsphorylation via luciferase assay\", system: \"http://purl.obolibrary.org/obo/OBI_\" }] }"
   },
   {
     "subjectId": "Func195",
@@ -7385,11 +7349,11 @@
   {
     "subjectId": "FamSeg196",
     "attributeId": "A110",
-    "value": "true",
+    "value": "SEPIO-CG:99011",
     "evidenceDataName": "FamilySegregation",
     "attributeName": "inconsistentSegregationsObserved",
     "attributeType": "Coding",
-    "lookupValue": "inconsistentSegregationsObserved: \"true\""
+    "lookupValue": "inconsistentSegregationsObserved: { code: \"99011\", display: \"present\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "FamSeg197",
@@ -7439,11 +7403,11 @@
   {
     "subjectId": "FamSeg197",
     "attributeId": "A110",
-    "value": "true",
+    "value": "SEPIO-CG:99011",
     "evidenceDataName": "FamilySegregation",
     "attributeName": "inconsistentSegregationsObserved",
     "attributeType": "Coding",
-    "lookupValue": "inconsistentSegregationsObserved: \"true\""
+    "lookupValue": "inconsistentSegregationsObserved: { code: \"99011\", display: \"present\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "MolCon198",
@@ -7460,17 +7424,26 @@
     "value": "CC138",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC138\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
-    "subjectId": "MolCon198",
-    "attributeId": "A010",
-    "value": "no",
-    "evidenceDataName": "MolecularConsequence",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "subjectId": "Null406",
+    "attributeId": "A077",
+    "value": "CtxAll097",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "contextualAllele",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "contextualAllele: { NM_000059.3(BRCA2) :c.4779A>C }"
+  },
+  {
+    "subjectId": "Null406",
+    "attributeId": "A078",
+    "value": "SO:0002054",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "annotation",
+    "attributeType": "Coding",
+    "lookupValue": "annotation: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "CondMech199",
@@ -7484,11 +7457,11 @@
   {
     "subjectId": "CondMech199",
     "attributeId": "A003",
-    "value": "CG-cond-mech-strength:primary",
+    "value": "SEPIO:0000270",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "mechanismConfidence: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"0000270\", display: \"primary\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CondMech199",
@@ -7520,11 +7493,11 @@
   {
     "subjectId": "CondMech200",
     "attributeId": "A003",
-    "value": "CG-cond-mech-strength:primary",
+    "value": "SEPIO:0000270",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "mechanismConfidence: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"0000270\", display: \"primary\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CondMech200",
@@ -7559,17 +7532,26 @@
     "value": "CC143",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC143\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
-    "subjectId": "MolCon201",
-    "attributeId": "A010",
-    "value": "no",
-    "evidenceDataName": "MolecularConsequence",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "subjectId": "Null407",
+    "attributeId": "A077",
+    "value": "CtxAll098",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "contextualAllele",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "contextualAllele: { NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His) }"
+  },
+  {
+    "subjectId": "Null407",
+    "attributeId": "A078",
+    "value": "SEPIO-CG:99015",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "annotation",
+    "attributeType": "Coding",
+    "lookupValue": "annotation: { code: \"99015\", display: \"No\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "CondMech202",
@@ -7583,11 +7565,11 @@
   {
     "subjectId": "CondMech202",
     "attributeId": "A003",
-    "value": "CG-cond-mech-strength:primary",
+    "value": "SEPIO:0000270",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "mechanismConfidence: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"0000270\", display: \"primary\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CondMech202",
@@ -7622,17 +7604,26 @@
     "value": "CC146",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC146\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001583\", display: \"missense variant\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
-    "subjectId": "MolCon203",
-    "attributeId": "A010",
-    "value": "no",
-    "evidenceDataName": "MolecularConsequence",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "subjectId": "Null408",
+    "attributeId": "A077",
+    "value": "CtxAll099",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "contextualAllele",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "contextualAllele: { NM_133378.4(TTN): c.2926T>C }"
+  },
+  {
+    "subjectId": "Null408",
+    "attributeId": "A078",
+    "value": "SEPIO-CG:99015",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "annotation",
+    "attributeType": "Coding",
+    "lookupValue": "annotation: { code: \"99015\", display: \"No\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "CondMech204",
@@ -7646,11 +7637,11 @@
   {
     "subjectId": "CondMech204",
     "attributeId": "A003",
-    "value": "CG-cond-mech-strength:primary",
+    "value": "SEPIO:0000270",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "mechanismConfidence: { code: \"primary\", display: \"Primary\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"0000270\", display: \"primary\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CondMech204",
@@ -7682,11 +7673,11 @@
   {
     "subjectId": "CondMech205",
     "attributeId": "A003",
-    "value": "CG-cond-mech-strength:established",
+    "value": "SEPIO:0000269",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"0000269\", display: \"established\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CondMech205",
@@ -7799,11 +7790,11 @@
   {
     "subjectId": "IndCond208",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndCond209",
@@ -7826,11 +7817,11 @@
   {
     "subjectId": "IndCond209",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "VarInterp210",
@@ -7855,9 +7846,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "IndAll211",
@@ -7916,11 +7907,11 @@
   {
     "subjectId": "IndCond212",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "VarInterp213",
@@ -7945,9 +7936,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "IndAll214",
@@ -8006,11 +7997,11 @@
   {
     "subjectId": "IndCond215",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "VarInterp216",
@@ -8035,9 +8026,9 @@
     "attributeId": "A124",
     "value": "LN:LA26333-7",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "CondPenet218",
@@ -8058,7 +8049,25 @@
     "lookupValue": "penetrance: { coding: [{ code: \"0003829\", display: \"Incomplete\", system: \"http://human-phenotype-ontology.github.io/\" }] }"
   },
   {
-    "subjectId": "RegTyp220",
+    "subjectId": "ExclRegTyp220",
+    "attributeId": "A128",
+    "value": "Loc390",
+    "evidenceDataName": "ExcludedRegionType",
+    "attributeName": "region",
+    "attributeType": "SequenceLocation",
+    "lookupValue": "region: \"Loc390\""
+  },
+  {
+    "subjectId": "ExclRegTyp220",
+    "attributeId": "A056",
+    "value": "SEPIO:0000320",
+    "evidenceDataName": "ExcludedRegionType",
+    "attributeName": "annotation",
+    "attributeType": "Coding",
+    "lookupValue": "annotation: { code: \"0000320\", display: \"functional region\", system: \"http://obofoundry.org/sepio/\" }"
+  },
+  {
+    "subjectId": "RegTyp221",
     "attributeId": "A063",
     "value": "Loc390",
     "evidenceDataName": "RegionType",
@@ -8067,22 +8076,13 @@
     "lookupValue": "region: \"Loc390\""
   },
   {
-    "subjectId": "RegTyp220",
-    "attributeId": "A056",
-    "value": "CG-reg-type:functional",
-    "evidenceDataName": "RegionType",
-    "attributeName": "excludedTypes",
-    "attributeType": "Coding",
-    "lookupValue": "excludedTypes: { code: \"functional\", display: \"Functional\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
-  },
-  {
-    "subjectId": "RegTyp220",
+    "subjectId": "RegTyp221",
     "attributeId": "A057",
-    "value": "CG-reg-type:repeat",
+    "value": "SO:0000657",
     "evidenceDataName": "RegionType",
-    "attributeName": "includedTypes",
+    "attributeName": "annotation",
     "attributeType": "Coding",
-    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
+    "lookupValue": "annotation: { code: \"0000657\", display: \"repeat region \", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "MolCon223",
@@ -8090,8 +8090,8 @@
     "value": "CC161",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC161\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001825\", display: \"conservative Inframe Deletion\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
     "subjectId": "MolCon223",
@@ -8114,11 +8114,11 @@
   {
     "subjectId": "RegTyp225",
     "attributeId": "A057",
-    "value": "CG-reg-type:repeat",
+    "value": "SO:0000657",
     "evidenceDataName": "RegionType",
-    "attributeName": "includedTypes",
+    "attributeName": "annotation",
     "attributeType": "Coding",
-    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
+    "lookupValue": "annotation: { code: \"0000657\", display: \"repeat region \", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "MolCon227",
@@ -8126,8 +8126,8 @@
     "value": "CC163",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC163\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001589\", display: \"frameshift variant\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
     "subjectId": "MolCon227",
@@ -8150,11 +8150,11 @@
   {
     "subjectId": "RegTyp229",
     "attributeId": "A057",
-    "value": "CG-reg-type:repeat",
+    "value": "SO:0000657",
     "evidenceDataName": "RegionType",
-    "attributeName": "includedTypes",
+    "attributeName": "annotation",
     "attributeType": "Coding",
-    "lookupValue": "includedTypes: { code: \"repeat\", display: \"Repeat\", system: \"http://clinicalgenome.org/datamodel/region-type/\" }"
+    "lookupValue": "annotation: { code: \"0000657\", display: \"repeat region \", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "MolCon231",
@@ -8162,8 +8162,8 @@
     "value": "CC165",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC165\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001823\", display: \"conservative Inframe Insertion\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
     "subjectId": "MolCon231",
@@ -8199,7 +8199,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred232",
@@ -8244,7 +8244,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred233",
@@ -8289,7 +8289,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred234",
@@ -8334,7 +8334,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred235",
@@ -8379,7 +8379,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred236",
@@ -8424,7 +8424,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred237",
@@ -8469,7 +8469,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred238",
@@ -8514,7 +8514,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred239",
@@ -8559,7 +8559,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred240",
@@ -8629,9 +8629,9 @@
     "attributeId": "A018",
     "value": "true",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: \"true\""
   },
   {
     "subjectId": "VarInterp243",
@@ -8656,9 +8656,9 @@
     "attributeId": "A124",
     "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "IndAll244",
@@ -8753,11 +8753,11 @@
   {
     "subjectId": "IndCond246",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "VarInterp247",
@@ -8782,9 +8782,9 @@
     "attributeId": "A124",
     "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp248",
@@ -8809,9 +8809,9 @@
     "attributeId": "A124",
     "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "IndAll249",
@@ -8870,11 +8870,11 @@
   {
     "subjectId": "IndCond250",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "VarInterp251",
@@ -8899,9 +8899,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "IndCond252",
@@ -8924,11 +8924,11 @@
   {
     "subjectId": "IndCond252",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "IndAll253",
@@ -8980,9 +8980,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp255",
@@ -9007,9 +9007,9 @@
     "attributeId": "A124",
     "value": "LN:LA6675-8",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp256",
@@ -9034,9 +9034,9 @@
     "attributeId": "A124",
     "value": "LN:LA6675-8",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp257",
@@ -9061,9 +9061,9 @@
     "attributeId": "A124",
     "value": "LN:LA6675-8",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6675-8\", display: \"Benign\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "InSilicoPred258",
@@ -9090,7 +9090,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000323\", display: \"splicing prediction\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred258",
@@ -9113,11 +9113,11 @@
   {
     "subjectId": "Conserv259",
     "attributeId": "A112",
-    "value": "false",
+    "value": "SEPIO-CG:99004",
     "evidenceDataName": "AlleleConservation",
-    "attributeName": "conserved",
-    "attributeType": "boolean",
-    "lookupValue": "conserved: false"
+    "attributeName": "outcome",
+    "attributeType": "Coding",
+    "lookupValue": "outcome: { code: \"99004\", display: \"not conserved\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "Conserv259",
@@ -9149,11 +9149,11 @@
   {
     "subjectId": "Conserv260",
     "attributeId": "A112",
-    "value": "false",
+    "value": "SEPIO-CG:99004",
     "evidenceDataName": "AlleleConservation",
-    "attributeName": "conserved",
-    "attributeType": "boolean",
-    "lookupValue": "conserved: false"
+    "attributeName": "outcome",
+    "attributeType": "Coding",
+    "lookupValue": "outcome: { code: \"99004\", display: \"not conserved\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "Conserv260",
@@ -9179,8 +9179,8 @@
     "value": "CC188",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC188\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
     "subjectId": "MolCon261",
@@ -9216,7 +9216,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000323\", display: \"splicing prediction\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred262",
@@ -9239,11 +9239,11 @@
   {
     "subjectId": "Conserv263",
     "attributeId": "A112",
-    "value": "false",
+    "value": "SEPIO-CG:99004",
     "evidenceDataName": "AlleleConservation",
-    "attributeName": "conserved",
-    "attributeType": "boolean",
-    "lookupValue": "conserved: false"
+    "attributeName": "outcome",
+    "attributeType": "Coding",
+    "lookupValue": "outcome: { code: \"99004\", display: \"not conserved\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "Conserv263",
@@ -9275,11 +9275,11 @@
   {
     "subjectId": "Conserv264",
     "attributeId": "A112",
-    "value": "false",
+    "value": "SEPIO-CG:99004",
     "evidenceDataName": "AlleleConservation",
-    "attributeName": "conserved",
-    "attributeType": "boolean",
-    "lookupValue": "conserved: false"
+    "attributeName": "outcome",
+    "attributeType": "Coding",
+    "lookupValue": "outcome: { code: \"99004\", display: \"not conserved\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "Conserv264",
@@ -9305,8 +9305,8 @@
     "value": "CC190",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC190\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
     "subjectId": "MolCon265",
@@ -9342,7 +9342,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"sp\", display: \"splicing prediction\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000323\", display: \"splicing prediction\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred266",
@@ -9365,11 +9365,11 @@
   {
     "subjectId": "Conserv267",
     "attributeId": "A112",
-    "value": "false",
+    "value": "SEPIO-CG:99004",
     "evidenceDataName": "AlleleConservation",
-    "attributeName": "conserved",
-    "attributeType": "boolean",
-    "lookupValue": "conserved: false"
+    "attributeName": "outcome",
+    "attributeType": "Coding",
+    "lookupValue": "outcome: { code: \"99004\", display: \"not conserved\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "Conserv267",
@@ -9401,11 +9401,11 @@
   {
     "subjectId": "Conserv268",
     "attributeId": "A112",
-    "value": "false",
+    "value": "SEPIO-CG:99004",
     "evidenceDataName": "AlleleConservation",
-    "attributeName": "conserved",
-    "attributeType": "boolean",
-    "lookupValue": "conserved: false"
+    "attributeName": "outcome",
+    "attributeType": "Coding",
+    "lookupValue": "outcome: { code: \"99004\", display: \"not conserved\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "Conserv268",
@@ -9431,8 +9431,8 @@
     "value": "CC192",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC192\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001819\", display: \"synonymous variant\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
     "subjectId": "MolCon269",
@@ -9466,9 +9466,9 @@
     "attributeId": "A124",
     "value": "LN:LA26333-7",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA26333-7\", display: \"Uncertain Signficance\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "FamSeg271",
@@ -9518,11 +9518,11 @@
   {
     "subjectId": "FamSeg271",
     "attributeId": "A110",
-    "value": "true",
+    "value": "SEPIO-CG:99011",
     "evidenceDataName": "FamilySegregation",
     "attributeName": "inconsistentSegregationsObserved",
     "attributeType": "Coding",
-    "lookupValue": "inconsistentSegregationsObserved: \"true\""
+    "lookupValue": "inconsistentSegregationsObserved: { code: \"99011\", display: \"present\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "MolCon272",
@@ -9539,17 +9539,26 @@
     "value": "CC194",
     "evidenceDataName": "MolecularConsequence",
     "attributeName": "consequence",
-    "attributeType": "Coding",
-    "lookupValue": "consequence: \"CC194\""
+    "attributeType": "CodeableConcept",
+    "lookupValue": "consequence: { coding: [{ code: \"0001629\", display: \"splice-site variant\", system: \"http://sequenceontology.org/\" }] }"
   },
   {
-    "subjectId": "MolCon272",
-    "attributeId": "A010",
-    "value": "true",
-    "evidenceDataName": "MolecularConsequence",
-    "attributeName": "#N/A",
-    "attributeType": "#N/A",
-    "lookupValue": "#N/A"
+    "subjectId": "Null415",
+    "attributeId": "A077",
+    "value": "CtxAll127",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "contextualAllele",
+    "attributeType": "ContextualAllele",
+    "lookupValue": "contextualAllele: { NM_024422.3(DSC2): c.631-2A>G (p.?) }"
+  },
+  {
+    "subjectId": "Null415",
+    "attributeId": "A078",
+    "value": "SO:0002054",
+    "evidenceDataName": "NullAllele",
+    "attributeName": "annotation",
+    "attributeType": "Coding",
+    "lookupValue": "annotation: { code: \"0002054\", display: \"loss of function variant\", system: \"http://sequenceontology.org/\" }"
   },
   {
     "subjectId": "CondMech273",
@@ -9572,11 +9581,11 @@
   {
     "subjectId": "CondMech273",
     "attributeId": "A003",
-    "value": "CG-cond-mech-strength:established",
+    "value": "SEPIO:0000269",
     "evidenceDataName": "ConditionMechanism",
     "attributeName": "mechanismConfidence",
     "attributeType": "Coding",
-    "lookupValue": "mechanismConfidence: { code: \"established\", display: \"Established\", system: \"http://clinicalgenome.org/datamodel/condition-mechanism-strength/\" }"
+    "lookupValue": "mechanismConfidence: { code: \"0000269\", display: \"established\", system: \"http://obofoundry.org/sepio/\" }"
   },
   {
     "subjectId": "CondMech273",
@@ -9610,9 +9619,9 @@
     "attributeId": "A124",
     "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp274",
@@ -14238,7 +14247,7 @@
     "evidenceDataName": "InSilicoPrediction",
     "attributeName": "predictionType",
     "attributeType": "CodeableConcept",
-    "lookupValue": "predictionType: { coding: [{ code: \"me\", display: \"missense effect\", system: \"http://clinicalgenome.org/datamodel/prediction-type/\" }] }"
+    "lookupValue": "predictionType: { coding: [{ code: \"0000322\", display: \"missense effect\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "InSilicoPred362",
@@ -14335,9 +14344,9 @@
     "attributeId": "A124",
     "value": "LN:LA26332-9",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA26332-9\", display: \"Likely Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "VarInterp365",
@@ -14362,9 +14371,9 @@
     "attributeId": "A124",
     "value": "LN:LA6668-3",
     "evidenceDataName": "VariantInterpretation",
-    "attributeName": "clinicalSignificance",
+    "attributeName": "outcome",
     "attributeType": "Coding",
-    "lookupValue": "clinicalSignificance: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
+    "lookupValue": "outcome: { code: \"LA6668-3\", display: \"Pathogenic\", system: \"http://loinc.org/\" }"
   },
   {
     "subjectId": "IndAll366",
@@ -14459,11 +14468,11 @@
   {
     "subjectId": "IndCond368",
     "attributeId": "A018",
-    "value": "true",
+    "value": "SEPIO-CG:99009",
     "evidenceDataName": "IndividualCondition",
-    "attributeName": "hasCondition",
-    "attributeType": "boolean",
-    "lookupValue": "hasCondition: true"
+    "attributeName": "individualHasCondition",
+    "attributeType": "Coding",
+    "lookupValue": "individualHasCondition: { code: \"99009\", display: \"affected\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "CritAssess369",
@@ -14517,7 +14526,7 @@
     "evidenceDataName": "AlleleFrequency",
     "attributeName": "ascertainment",
     "attributeType": "CodeableConcept",
-    "lookupValue": "ascertainment: { coding: [{ code: \"ExAC\", display: \"ExAC\", system: \"http://clinicalgenome.org/datamodel/ascertainment-type/\" }] }"
+    "lookupValue": "ascertainment: { coding: [{ code: \"0000332\", display: \"ExAc ascertainment method\", system: \"http://obofoundry.org/sepio/\" }] }"
   },
   {
     "subjectId": "AllFreq370",
@@ -15009,9 +15018,18 @@
     "attributeId": "A058",
     "value": "CtxAll126",
     "evidenceDataName": "RegionAlleles",
-    "attributeName": "includedAlleles",
+    "attributeName": "allele",
     "attributeType": "ContextualAllele",
-    "lookupValue": "includedAlleles: { NP_005219.2:p.Thr790Met }"
+    "lookupValue": "allele: { NP_005219.2:p.Thr790Met }"
+  },
+  {
+    "subjectId": "RegAll380",
+    "attributeId": "A059",
+    "value": "SEPIO-CG:99020",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "outcome",
+    "attributeType": "Coding",
+    "lookupValue": "outcome: { code: \"99020\", display: \"included\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "Loc381",
@@ -15054,9 +15072,18 @@
     "attributeId": "A058",
     "value": "CtxAll029",
     "evidenceDataName": "RegionAlleles",
-    "attributeName": "includedAlleles",
+    "attributeName": "allele",
     "attributeType": "ContextualAllele",
-    "lookupValue": "includedAlleles: { NM_004333.4(BRAF):c.1789C>G }"
+    "lookupValue": "allele: { NM_004333.4(BRAF):c.1789C>G }"
+  },
+  {
+    "subjectId": "RegAll382",
+    "attributeId": "A059",
+    "value": "SEPIO-CG:99020",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "outcome",
+    "attributeType": "Coding",
+    "lookupValue": "outcome: { code: \"99020\", display: \"included\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "Loc383",
@@ -15099,36 +15126,45 @@
     "attributeId": "A058",
     "value": "CtxAll031",
     "evidenceDataName": "RegionAlleles",
-    "attributeName": "includedAlleles",
+    "attributeName": "allele",
     "attributeType": "ContextualAllele",
-    "lookupValue": "includedAlleles: { NM_000169.2(GLA): c.886A>G }"
+    "lookupValue": "allele: { NM_000169.2(GLA): c.886A>G }"
   },
   {
     "subjectId": "RegAll384",
     "attributeId": "A058",
     "value": "CtxAll032",
     "evidenceDataName": "RegionAlleles",
-    "attributeName": "includedAlleles",
+    "attributeName": "allele",
     "attributeType": "ContextualAllele",
-    "lookupValue": "includedAlleles: { NM_000169.2(GLA):c.890C>T }"
+    "lookupValue": "allele: { NM_000169.2(GLA):c.890C>T }"
   },
   {
     "subjectId": "RegAll384",
     "attributeId": "A058",
     "value": "CtxAll033",
     "evidenceDataName": "RegionAlleles",
-    "attributeName": "includedAlleles",
+    "attributeName": "allele",
     "attributeType": "ContextualAllele",
-    "lookupValue": "includedAlleles: { NM_000169.2(GLA):c.899T>C }"
+    "lookupValue": "allele: { NM_000169.2(GLA):c.899T>C }"
   },
   {
     "subjectId": "RegAll384",
     "attributeId": "A058",
     "value": "CtxAll034",
     "evidenceDataName": "RegionAlleles",
-    "attributeName": "includedAlleles",
+    "attributeName": "allele",
     "attributeType": "ContextualAllele",
-    "lookupValue": "includedAlleles: { NM_000169.2(GLA):c.902G>A }"
+    "lookupValue": "allele: { NM_000169.2(GLA):c.902G>A }"
+  },
+  {
+    "subjectId": "RegAll384",
+    "attributeId": "A059",
+    "value": "SEPIO-CG:99020",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "outcome",
+    "attributeType": "Coding",
+    "lookupValue": "outcome: { code: \"99020\", display: \"included\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "Loc385",
@@ -15300,9 +15336,18 @@
     "attributeId": "A058",
     "value": "CtxAll106",
     "evidenceDataName": "RegionAlleles",
-    "attributeName": "includedAlleles",
+    "attributeName": "allele",
     "attributeType": "ContextualAllele",
-    "lookupValue": "includedAlleles: { NM_001271208.1(NEB):c.169_183delCTGGCACAGCCAGCA }"
+    "lookupValue": "allele: { NM_001271208.1(NEB):c.169_183delCTGGCACAGCCAGCA }"
+  },
+  {
+    "subjectId": "RegAll391",
+    "attributeId": "A059",
+    "value": "SEPIO-CG:99020",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "outcome",
+    "attributeType": "Coding",
+    "lookupValue": "outcome: { code: \"99020\", display: \"included\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "Loc392",
@@ -15345,9 +15390,18 @@
     "attributeId": "A058",
     "value": "CtxAll107",
     "evidenceDataName": "RegionAlleles",
-    "attributeName": "includedAlleles",
+    "attributeName": "allele",
     "attributeType": "ContextualAllele",
-    "lookupValue": "includedAlleles: { NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC }"
+    "lookupValue": "allele: { NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC }"
+  },
+  {
+    "subjectId": "RegAll393",
+    "attributeId": "A059",
+    "value": "SEPIO-CG:99020",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "outcome",
+    "attributeType": "Coding",
+    "lookupValue": "outcome: { code: \"99020\", display: \"included\", system: \"http://obofoundry.org/sepio/clingen\" }"
   },
   {
     "subjectId": "Loc394",
@@ -15390,8 +15444,17 @@
     "attributeId": "A058",
     "value": "CtxAll108",
     "evidenceDataName": "RegionAlleles",
-    "attributeName": "includedAlleles",
+    "attributeName": "allele",
     "attributeType": "ContextualAllele",
-    "lookupValue": "includedAlleles: { NM_147196.2(TMIE):c.391_393dupAAG }"
+    "lookupValue": "allele: { NM_147196.2(TMIE):c.391_393dupAAG }"
+  },
+  {
+    "subjectId": "RegAll395",
+    "attributeId": "A059",
+    "value": "SEPIO-CG:99020",
+    "evidenceDataName": "RegionAlleles",
+    "attributeName": "outcome",
+    "attributeType": "Coding",
+    "lookupValue": "outcome: { code: \"99020\", display: \"included\", system: \"http://obofoundry.org/sepio/clingen\" }"
   }
 ]
