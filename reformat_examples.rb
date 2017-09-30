@@ -51,7 +51,7 @@ class DMWGExampleData
 
     # Process the `Type` sheet
     @flattened['Type'].each do |e_id, e_rec|
-      @types[e_id] = e_rec.select { |k, v| ['id', 'name', 'parentType', 'link', 'externalIRI', 'description'].include? k }
+      @types[e_id] = e_rec.select { |k, v| ['id', 'name', 'parentType', 'link', 'iri', 'description'].include? k }
       e_name = e_rec['name']
       parent = e_rec['parentType']
       while !!parent

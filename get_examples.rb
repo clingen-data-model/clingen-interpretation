@@ -44,7 +44,7 @@ wb.worksheets.each do |ws|
 		next if row.nil? || row.cells[0].nil? || row.cells[0].value.nil?
 		row_data = Hash[headers.zip(row.cells.map { |c| c && c.value })]
 			.delete_if { |k, v| k.nil? || k.empty? || k.start_with?("_") || v.nil? }
-		sheet_data << row_data if row_data.length > 1
+		sheet_data << row_data if row_data.length > 0
 	end
   # "join" tables start with '_', all others should be listed by primary key
 	if !ws.sheet_name.start_with? '_' then
