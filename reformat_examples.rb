@@ -89,6 +89,8 @@ class DMWGExampleData
      '_CodeableConceptAttribute',
      '_ContributionAttribute',
      '_ValueSetCoding',
+     '_RelatedReferenceSequence',
+     '_RelatedContextualAllele',
     ].each do |sheet|
       @flattened[sheet].each do |da|
         data_id = da['subjectId']
