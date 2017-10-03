@@ -195,7 +195,11 @@ article li:before {
     position: relative;
     line-height: normal !important;
 }
-
+article ul.pagination li:before {
+  content: inherit !important;
+  border:none !important;
+  display: inherit !important;
+}
 
 /*
  * Main content
