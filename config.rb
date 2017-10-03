@@ -91,7 +91,7 @@ helpers do
     # %(<li class="#{model}"><a href="/#{model}"><span class="glyphicon #{data.models[model].icon}"></span>#{model.capitalize}</a></li>)
     resource = sitemap.find_resource_by_path("#{model}/index.html")
     link = link_to("/#{model}") do
-      %(<span class="glyphicon #{data.models[model].icon}"></span>#{model.capitalize})
+      %(<span class="glyphicon #{data.models[model].icon}"></span> #{model.capitalize} Model)
     end
     %(<li class="#{model}">#{link}</li>)
   end
@@ -163,9 +163,9 @@ helpers do
     output = link_to(text, resource)
     if resource && current_page.url.include?(resource.url)
       index = local_index(current_page.url)
-      %(<li class="active">#{output}</li>#{index})
+      %(<li class="list-group-item"><h5>#{output}</h5>#{index}</li>)
     else
-      "<li>#{output}</li>"
+      "<li class='list-group-item'><h5>#{output}</h5></li>"
     end
   end
 
@@ -199,7 +199,7 @@ helpers do
         a << "<li>#{link_to_resource(e)}</li>"
       end
     end
-    "<ul>#{list}</ul>"
+    "<ul class='list-unstyled'>#{list}</ul>"
   end
 
   # Generate nested list of current element's children
@@ -212,7 +212,7 @@ helpers do
     list = children.reduce("") do |a, e|
       a << "<li>#{link_to_resource(e)}</li>\n"
     end
-    "<ul>#{list}</ul>"
+    "<ul class='list-unstyled'>#{list}</ul>"
   end
 
   def model_name

@@ -12,7 +12,7 @@
       <%= current_page.data.title || "ClinGen Data Model" %>
     </title>
 
-	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.13/fh-3.1.2/datatables.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.13/fh-3.1.2/datatables.min.css"/>
 
     <%= stylesheet_link_tag "bootstrap", "bootstrap-theme", "brand2", "jquery.jsonview" %>
     <% (current_page.data.append_css || []).each do |cssfile| %>
@@ -34,111 +34,99 @@
   </head>
 
   <body class="documentation">
-
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header col-sm-4 col-md-3">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand " href="#">ClinGen Documentation</a>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-left">
-            <li>
-              <%= link_to 'Home', '/' %>
-            </li>
-            <li>
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" >
-                Models
-                  ::
-                  <span class="glyphicon leaf"></span>Interpretation
-                <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu" role="menu">
+    
+      <div class="container-fluid hero-background">
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-default">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <% link_to "/", class:"navbar-brand" do %>
+                <%= image_tag 'clingen-doc-logo.png', width: "240px", alt: "ClinGen Data Model WG Documentation", class: "img-responsive" %>
+              <% end %>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <%= link_to '<i class="glyphicon glyphicon-home"></i> Home'.html_safe, '/'%>
+                </li>
                 <% data.models.each do |model, config| %>
-                  <li class="<%= model %>" >
-                    <%= model_link(model) %>
-                  </li>
+                    <li class="<%= model %>" >
+                      <%= model_link(model) %>
+                    </li>
                 <% end %>
+                <li>
+                    <%= link_to '<i class="glyphicon glyphicon-new-window"></i> About ClinGen'.html_safe, '/', target:"_blank" %>
+                </li>
               </ul>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" ><%= data.current_release %> release<span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <% data.versions.each do |v| %>
-                  <li><%= link_to v, "/#{v}#{current_page.url}" %></li>
-                <% end %>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+            </div>
+        </nav>
+          </div>
+    
 
-    <div class='container-fluid bg-lblue padding-left-none padding-right-none'>
-      <div class='col-sm-offset-4 col-md-offset-3'>
-        <ol class="breadcrumb bg-none margin-none">
-          <%= breadcrumb(current_page) %>
-        </ol>
+    <% if current_page.data.id.nil? %>
+      <%- title = current_page.data.title %>
+      <%- description = current_page.data.description %>
+    <% else %>
+      <%- entity = data.flattened.Type[current_page.data.id] %>
+      <%- title = data.flattened.Type[current_page.data.id].name %>
+      <%- description = data.flattened.Type[current_page.data.id].description %>
+      <%- type_iri = data.flattened.Type[current_page.data.id].iri%>
+    <% end %>
+
+    
+        <div class="row">
+          <div class="col-sm-12">
+              <h1><%= title %></h1>
+              <!--<ol class="breadcrumb bg-none margin-none">
+                <%= breadcrumb(current_page) %>
+              </ol>-->
+              <% if description != nil %>
+                <blockquote><p><%= description %></p>
+              <% end %>
+              <% if type_iri != nil %>
+                <STRONG>
+                  <div><%= type_iri %></div>
+                  <% if !current_page.data.id.nil? %>
+                  <% parentid = data.flattened.Type[current_page.data.id].parentType %>
+                  <% if parentid == nil %>
+                  <% else %>
+                      <i>Descended from <%= data.flattened.Type[parentid].name %></i>
+                  <% end %>
+                  <% end %>
+                </STRONG>
+              <% end %>
+              <% if description != nil %>
+                </blockquote>
+              <% end %>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
-        <div class="col-sm-4 col-md-3 sidebar">
-         <div class='nav-sidebar nav-sidebar-title'>
-          	<% link_to "https://clinicalgenome.org" do %>
-            	<%= image_tag 'clingen-doc-logo.png', width: "80%", height: "80%", alt: "ClinGen Documentation", class: "img-responsive" %>
-          	<% end %>
-        	</div>
-          <ul class="nav nav-sidebar">
-            
-            <li class="active">
-              <%= link_to "Welcome", "/index.html", :relative => true %>
-            </li>
-            <%= link_with_local_index "User Guide", "user/index.html" %>
-            <%= link_with_local_index "Technical Reference", "tech/index.html" %>
-            <!-- Old style.  We might still need the model here? -->
-            <!--%= link_with_local_index "Entities", "/#{current_page.data.model}/vampi/entities/index.html" %-->
-          </ul>
-        </div>
-        <div class="col-sm-8 col-sm-offset-4 col-md-9 col-md-offset-3 main">
+        <div class="col-sm-8 col-xs-12 col-md-9 col-lg-10">
           <article>
-
-		    <% if current_page.data.id.nil? %>
-              <%- title = current_page.data.title %>
-              <%- description = current_page.data.description %>
-            <% else %>
-              <%- entity = data.flattened.Type[current_page.data.id] %>
-              <%- title = data.flattened.Type[current_page.data.id].name %>
-              <%- description = data.flattened.Type[current_page.data.id].description %>
-              <%- type_iri = data.flattened.Type[current_page.data.id].iri%>
-            <% end %>
-
-            <h1><%= title %></h1>
-            <p><%= description %></p>
-
-            <% if type_iri != nil %>
-                <p><%= type_iri %></p>
-            <% end %>
-
-            <% if !current_page.data.id.nil? %>
-            <% parentid = data.flattened.Type[current_page.data.id].parentType %>
-            <% if parentid == nil %>
-            <% else %>
-                <p>Descended from <%= data.flattened.Type[parentid].name %></p>
-            <% end %>
-            <% end %>
-
-            <hr class='col-sm-12' />
-
-
             <%= yield %>
           </article>
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-2">
+          <div class="list-group sidenav">
+            <ul class="list-unstyled">
+              <li class="list-group-item">
+                <h5><%= link_to "Overview", "/index.html", :relative => true %></h5>
+              </li>
+              <%= link_with_local_index "User Guide", "user/index.html" %>
+              <%= link_with_local_index "Technical Reference", "tech/index.html" %>
+              <!-- Old style.  We might still need the model here? -->
+              <!--%= link_with_local_index "Entities", "/#{current_page.data.model}/vampi/entities/index.html" %-->
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -150,7 +138,7 @@
     <% (current_page.data.append_js || []).each do |jsfile| %>
       <%= javascript_include_tag jsfile %>
     <% end %>
-	<script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.13/fh-3.1.2/datatables.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/v/bs/dt-1.10.13/fh-3.1.2/datatables.min.js"></script>
 
   </body>
 </html>
