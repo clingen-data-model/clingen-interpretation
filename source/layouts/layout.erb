@@ -61,7 +61,7 @@
                     </li>
                 <% end %>
                 <li>
-                    <%= link_to '<i class="glyphicon glyphicon-new-window"></i> About ClinGen'.html_safe, '/', target:"_blank" %>
+                    <%= link_to '<i class="glyphicon glyphicon-new-window"></i> About ClinGen'.html_safe, 'http://www.clinicalgenome.org', target:"_blank" %>
                 </li>
               </ul>
             </div>
@@ -82,10 +82,10 @@
     
         <div class="row">
           <div class="col-sm-12">
-              <h1><%= title %></h1>
-              <!--<ol class="breadcrumb bg-none margin-none">
+              <h1 class="header"><%= title %></h1>
+              <ol class="breadcrumb bg-none margin-none">
                 <%= breadcrumb(current_page) %>
-              </ol>-->
+              </ol>
               <% if description != nil %>
                 <blockquote><p><%= description %></p>
               <% end %>
@@ -119,7 +119,7 @@
           <div class="list-group sidenav">
             <ul class="list-unstyled">
               <li class="list-group-item">
-                <h5><%= link_to "Overview", "/index.html", :relative => true %></h5>
+                <h5><%= link_to "Interpretation Overview", "/index.html", :relative => true %></h5>
               </li>
               <%= link_with_local_index "User Guide", "user/index.html" %>
               <%= link_with_local_index "Technical Reference", "tech/index.html" %>
@@ -129,6 +129,13 @@
           </div>
         </div>
       </div>
+    </div>
+    <div id="footer" class="container  background-trans padding-top-xl">
+      <div class="row">
+        <hr />
+        <div class="col-md-col-sm-12 text-center"> 
+          © 2017 <a href="/" title="ClinGen" class="">ClinGen</a> - All rights reserved
+        </div>
     </div>
 
     <!-- Bootstrap core JavaScript
