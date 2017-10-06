@@ -86,18 +86,15 @@ class DMWGExampleData
      '_EvidenceLineAttribute',
      '_AgentAttribute',
      '_GeneticConditionAttribute',
-     '_CodeableConceptAttribute',
      '_ContributionAttribute',
-     '_ValueSetCoding',
-     '_RelatedReferenceSequence',
-     '_RelatedContextualAllele',
+     '_ValueSetConcept',
     ].each do |sheet|
-      @flattened[sheet].each do |da|
+      @flattened[sheet].each_with_index do |da, i|
         data_id = da['subjectId']
         attribute_id = da['attributeId']
         attribute = @flattened['Attribute'][attribute_id]
         if attribute.nil? then
-          STDERR.puts "Attribute #{attribute_id} does not appear to exist!"
+          STDERR.puts "Attribute #{attribute_id} does not appear to exist in line #{i} of #{sheet}!"
           next
         end
         (@id2example[data_id] ||= {})['id'] = data_id
