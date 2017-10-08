@@ -62,7 +62,7 @@ class DMWGExampleData
       end
       @types[e_id]['attributes'] = @entity2attributes[e_id]
       if @flattened.key? e_name then
-        # full fledged table for this entity (not a Statement subtype)
+        # full fledged table for this entity (not a Statement or DomainEntity subtype)
         @flattened[e_name].each do |id, rec|
           ex = @id2example[id] ||= {}
           ex['id'] = id
@@ -72,21 +72,28 @@ class DMWGExampleData
       end
     end
 
-    # need to fix the types for Statement subclasses
-    @flattened['Statement'].each do |d_id, d_rec|
-      begin
-        @id2example[d_id]['type'] = @flattened['Type'][d_rec['entityTypeId']]['name']
-      rescue
-        STDERR.puts "Error associating data id #{d_id} with entity type"
+    # fix the types for Statement and DomainEntity subclasses
+    ['Statement', 'DomainEntity'].each do |superclass|
+      @flattened[superclass].each do |d_id, d_rec|
+        begin
+          @id2example[d_id]['type'] = @flattened['Type'][d_rec['entityTypeId']]['name']
+        rescue
+          STDERR.puts "Error associating data id #{d_id} with entity type"
+        end
       end
     end
 
     # Now for the "join tables". Ugly hard-coding here
-    ['_StatementAttribute',
-     '_EvidenceLineAttribute',
+    [
      '_AgentAttribute',
-     '_GeneticConditionAttribute',
+     '_CanonicalAlleleAttribute',
+     '_ContextualAlleleAttribute',
      '_ContributionAttribute',
+     '_DomainEntityAttribute',
+     '_EvidenceLineAttribute',
+     '_GeneticConditionAttribute',
+     '_StatementAttribute',
+     '_SynonymAttribute',
      '_ValueSetConcept',
     ].each do |sheet|
       @flattened[sheet].each_with_index do |da, i|
@@ -99,7 +106,10 @@ class DMWGExampleData
         end
         (@id2example[data_id] ||= {})['id'] = data_id
         if value_exists? da['value'] then
-          if attribute['cardinality'].end_with? '*' then
+          if ['A137', 'A169', 'A171'].include? attribute['id'] then
+            # special case relatedCanonicalAllele to avoid loop...
+            @id2example[data_id][attribute['name']] = da['value']
+          elsif attribute['cardinality'].end_with? '*' then
             (@id2example[data_id][attribute['name']] ||= []).push(convert_value(da['value'], attribute['dataType']))
           else
             @id2example[data_id][attribute['name']] = convert_value(da['value'], attribute['dataType'])
@@ -165,9 +175,13 @@ class DMWGExampleData
   # reading data from in_record and modifying out_record in place
   def apply_attributes(entity_id, in_record, out_record)
     @entity2attributes[entity_id].each do |attribute|
-      # gnarly special case to avoid loops
+      # gnarly special cases to avoid loops
       if attribute['name'] === 'preferredCtxAllele' then
         out_record['preferredCtxAllele'] = in_record['preferredCtxAllele']
+        next
+      end
+      if attribute['name'] === 'producedBy' then
+        out_record['producedBy'] = in_record['producedBy']
         next
       end
       if in_record.key?(attribute['name']) && value_exists?(in_record[attribute['name']]) then
@@ -185,6 +199,7 @@ if __FILE__ == $0
   examples = DMWGExampleData.new('data/flattened')
   if ARGV.empty?
     puts JSON.pretty_generate(examples.by_id)
+    #puts YAML.dump(examples.by_id)
   else
     by_id = examples.by_id
     by_type = examples.by_type
