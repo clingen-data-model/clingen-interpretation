@@ -180,7 +180,7 @@ class DMWGExampleData
         out_record['preferredCtxAllele'] = in_record['preferredCtxAllele']
         next
       end
-      if attribute['name'] === 'producedBy' then
+      if attribute['name'] === 'producedBy' and in_record.has_key? 'producedBy' then
         out_record['producedBy'] = in_record['producedBy']
         next
       end
