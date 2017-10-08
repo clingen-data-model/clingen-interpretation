@@ -1,0 +1,4050 @@
+[
+  {
+    "subjectId": "MCTID001",
+    "attributeId": "A072",
+    "value": "deletion",
+    "jsonMockup": "label: \"deletion\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID002",
+    "attributeId": "A072",
+    "value": "interior intron",
+    "jsonMockup": "label: \"interior intron\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID003",
+    "attributeId": "A072",
+    "value": "translocation",
+    "jsonMockup": "label: \"translocation\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID004",
+    "attributeId": "A072",
+    "value": "three prime UTR",
+    "jsonMockup": "label: \"three prime UTR\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID005",
+    "attributeId": "A072",
+    "value": "five prime UTR",
+    "jsonMockup": "label: \"five prime UTR\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID006",
+    "attributeId": "A072",
+    "value": "pseudogenic exon",
+    "jsonMockup": "label: \"pseudogenic exon\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID007",
+    "attributeId": "A072",
+    "value": "insertion",
+    "jsonMockup": "label: \"insertion\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID008",
+    "attributeId": "A072",
+    "value": "copy number variation",
+    "jsonMockup": "label: \"copy number variation\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID009",
+    "attributeId": "A072",
+    "value": "splicing variant",
+    "jsonMockup": "label: \"splicing variant\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID010",
+    "attributeId": "A072",
+    "value": "stop lost",
+    "jsonMockup": "label: \"stop lost\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID011",
+    "attributeId": "A072",
+    "value": "missense variant",
+    "jsonMockup": "label: \"missense variant\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID012",
+    "attributeId": "A072",
+    "value": "non conservative missense variant",
+    "jsonMockup": "label: \"non conservative missense variant\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID013",
+    "attributeId": "A072",
+    "value": "stop gained",
+    "jsonMockup": "label: \"stop gained\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID014",
+    "attributeId": "A072",
+    "value": "frameshift variant",
+    "jsonMockup": "label: \"frameshift variant\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID015",
+    "attributeId": "A072",
+    "value": "splice-site variant",
+    "jsonMockup": "label: \"splice-site variant\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID016",
+    "attributeId": "A072",
+    "value": "synonymous variant",
+    "jsonMockup": "label: \"synonymous variant\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID017",
+    "attributeId": "A072",
+    "value": "conservative Inframe Insertion",
+    "jsonMockup": "label: \"conservative Inframe Insertion\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID018",
+    "attributeId": "A072",
+    "value": "disruptive inframe insertion",
+    "jsonMockup": "label: \"disruptive inframe insertion\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID019",
+    "attributeId": "A072",
+    "value": "conservative Inframe Deletion",
+    "jsonMockup": "label: \"conservative Inframe Deletion\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID020",
+    "attributeId": "A072",
+    "value": "disruptive inframe deletion",
+    "jsonMockup": "label: \"disruptive inframe deletion\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID021",
+    "attributeId": "A072",
+    "value": "frameshift elongation",
+    "jsonMockup": "label: \"frameshift elongation\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID022",
+    "attributeId": "A072",
+    "value": "MNV",
+    "jsonMockup": "label: \"MNV\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID023",
+    "attributeId": "A072",
+    "value": "start lost",
+    "jsonMockup": "label: \"start lost\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID024",
+    "attributeId": "A072",
+    "value": "no sequence alteration",
+    "jsonMockup": "label: \"no sequence alteration\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID025",
+    "attributeId": "A072",
+    "value": "substitution",
+    "jsonMockup": "label: \"substitution\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID026",
+    "attributeId": "A072",
+    "value": "indel",
+    "jsonMockup": "label: \"indel\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "MCTID027",
+    "attributeId": "A072",
+    "value": "inversion",
+    "jsonMockup": "label: \"inversion\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MolecularConsequenceType"
+  },
+  {
+    "subjectId": "SIGID028",
+    "attributeId": "A072",
+    "value": "Likely Pathogenic",
+    "jsonMockup": "label: \"Likely Pathogenic\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Significance"
+  },
+  {
+    "subjectId": "SIGID029",
+    "attributeId": "A072",
+    "value": "Uncertain Signficance",
+    "jsonMockup": "label: \"Uncertain Signficance\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Significance"
+  },
+  {
+    "subjectId": "SIGID030",
+    "attributeId": "A072",
+    "value": "Likely Benign",
+    "jsonMockup": "label: \"Likely Benign\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Significance"
+  },
+  {
+    "subjectId": "SIGID031",
+    "attributeId": "A072",
+    "value": "Pathogenic",
+    "jsonMockup": "label: \"Pathogenic\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Significance"
+  },
+  {
+    "subjectId": "SIGID032",
+    "attributeId": "A072",
+    "value": "Benign",
+    "jsonMockup": "label: \"Benign\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Significance"
+  },
+  {
+    "subjectId": "RATID033",
+    "attributeId": "A072",
+    "value": "functional region",
+    "jsonMockup": "label: \"functional region\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "RegionAnnotationType"
+  },
+  {
+    "subjectId": "RATID034",
+    "attributeId": "A072",
+    "value": "mutational hotspot",
+    "jsonMockup": "label: \"mutational hotspot\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "RegionAnnotationType"
+  },
+  {
+    "subjectId": "RATID035",
+    "attributeId": "A072",
+    "value": "repeat region ",
+    "jsonMockup": "label: \"repeat region \"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "RegionAnnotationType"
+  },
+  {
+    "subjectId": "PHZID036",
+    "attributeId": "A072",
+    "value": "in cis",
+    "jsonMockup": "label: \"in cis\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Phase"
+  },
+  {
+    "subjectId": "PHZID037",
+    "attributeId": "A072",
+    "value": "in trans",
+    "jsonMockup": "label: \"in trans\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Phase"
+  },
+  {
+    "subjectId": "ASID038",
+    "attributeId": "A072",
+    "value": "unspecified zygosity",
+    "jsonMockup": "label: \"unspecified zygosity\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AllelicState"
+  },
+  {
+    "subjectId": "ASID039",
+    "attributeId": "A072",
+    "value": "hemizygous",
+    "jsonMockup": "label: \"hemizygous\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AllelicState"
+  },
+  {
+    "subjectId": "ASID040",
+    "attributeId": "A072",
+    "value": "heteroplasmic",
+    "jsonMockup": "label: \"heteroplasmic\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AllelicState"
+  },
+  {
+    "subjectId": "ASID041",
+    "attributeId": "A072",
+    "value": "heterozygous",
+    "jsonMockup": "label: \"heterozygous\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AllelicState"
+  },
+  {
+    "subjectId": "ASID042",
+    "attributeId": "A072",
+    "value": "homoplasmic",
+    "jsonMockup": "label: \"homoplasmic\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AllelicState"
+  },
+  {
+    "subjectId": "ASID043",
+    "attributeId": "A072",
+    "value": "homozygous",
+    "jsonMockup": "label: \"homozygous\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AllelicState"
+  },
+  {
+    "subjectId": "ASID044",
+    "attributeId": "A072",
+    "value": "somatic",
+    "jsonMockup": "label: \"somatic\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AllelicState"
+  },
+  {
+    "subjectId": "MOIID045",
+    "attributeId": "A072",
+    "value": "X-linked dominant inheritance",
+    "jsonMockup": "label: \"X-linked dominant inheritance\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID046",
+    "attributeId": "A072",
+    "value": "Codominant",
+    "jsonMockup": "label: \"Codominant\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID047",
+    "attributeId": "A072",
+    "value": "Heteroplasmic mitochondrial inheritance",
+    "jsonMockup": "label: \"Heteroplasmic mitochondrial inheritance\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID048",
+    "attributeId": "A072",
+    "value": "Homoplasmic mitochondrial inheritance",
+    "jsonMockup": "label: \"Homoplasmic mitochondrial inheritance\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID049",
+    "attributeId": "A072",
+    "value": "Sex-limited autosomal recessive inheritance",
+    "jsonMockup": "label: \"Sex-limited autosomal recessive inheritance\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID050",
+    "attributeId": "A072",
+    "value": "unknown inheritance",
+    "jsonMockup": "label: \"unknown inheritance\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID051",
+    "attributeId": "A072",
+    "value": "Autosomal Dominant",
+    "jsonMockup": "label: \"Autosomal Dominant\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID052",
+    "attributeId": "A072",
+    "value": "Autosomal Recessive",
+    "jsonMockup": "label: \"Autosomal Recessive\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID053",
+    "attributeId": "A072",
+    "value": "X linked inheritance",
+    "jsonMockup": "label: \"X linked inheritance\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID054",
+    "attributeId": "A072",
+    "value": "X linked recessive inheritance",
+    "jsonMockup": "label: \"X linked recessive inheritance\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID057",
+    "attributeId": "A072",
+    "value": "Multifactorial inheritance",
+    "jsonMockup": "label: \"Multifactorial inheritance\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID058",
+    "attributeId": "A072",
+    "value": "Mitochondrial inheritance",
+    "jsonMockup": "label: \"Mitochondrial inheritance\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID059",
+    "attributeId": "A072",
+    "value": "Somatic mutation",
+    "jsonMockup": "label: \"Somatic mutation\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID060",
+    "attributeId": "A072",
+    "value": "Y linked inheritance",
+    "jsonMockup": "label: \"Y linked inheritance\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID061",
+    "attributeId": "A072",
+    "value": "Sex-limited autosomal dominant",
+    "jsonMockup": "label: \"Sex-limited autosomal dominant\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID062",
+    "attributeId": "A072",
+    "value": "genetic anticipation",
+    "jsonMockup": "label: \"genetic anticipation\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID063",
+    "attributeId": "A072",
+    "value": "Sporadic",
+    "jsonMockup": "label: \"Sporadic\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID064",
+    "attributeId": "A072",
+    "value": "Oligogenic",
+    "jsonMockup": "label: \"Oligogenic\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID065",
+    "attributeId": "A072",
+    "value": "Autosomal dominant inheritance with paternal imprinting",
+    "jsonMockup": "label: \"Autosomal dominant inheritance with paternal imprinting\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID066",
+    "attributeId": "A072",
+    "value": "Autosomal dominant inheritance with maternal imprinting",
+    "jsonMockup": "label: \"Autosomal dominant inheritance with maternal imprinting\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "MOIID067",
+    "attributeId": "A072",
+    "value": "autosomal dominant germline de novo mutation",
+    "jsonMockup": "label: \"autosomal dominant germline de novo mutation\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ModeOfInheritance"
+  },
+  {
+    "subjectId": "RSRTID068",
+    "attributeId": "A072",
+    "value": "produces",
+    "jsonMockup": "label: \"produces\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequenceRelatedType"
+  },
+  {
+    "subjectId": "RSRTID069",
+    "attributeId": "A072",
+    "value": "produced-by",
+    "jsonMockup": "label: \"produced-by\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequenceRelatedType"
+  },
+  {
+    "subjectId": "MTID070",
+    "attributeId": "A072",
+    "value": "missense variant",
+    "jsonMockup": "label: \"missense variant\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MechanismType"
+  },
+  {
+    "subjectId": "MTID071",
+    "attributeId": "A072",
+    "value": "loss of function variant",
+    "jsonMockup": "label: \"loss of function variant\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "MechanismType"
+  },
+  {
+    "subjectId": "PredTID072",
+    "attributeId": "A072",
+    "value": "missense effect",
+    "jsonMockup": "label: \"missense effect\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PredictionType"
+  },
+  {
+    "subjectId": "PredTID073",
+    "attributeId": "A072",
+    "value": "splicing prediction",
+    "jsonMockup": "label: \"splicing prediction\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PredictionType"
+  },
+  {
+    "subjectId": "CEID074",
+    "attributeId": "A072",
+    "value": "Met",
+    "jsonMockup": "label: \"Met\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "CriterionEvaluation"
+  },
+  {
+    "subjectId": "CEID075",
+    "attributeId": "A072",
+    "value": "Not Met",
+    "jsonMockup": "label: \"Not Met\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "CriterionEvaluation"
+  },
+  {
+    "subjectId": "AFITID076",
+    "attributeId": "A072",
+    "value": "Activation Assay",
+    "jsonMockup": "label: \"Activation Assay\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AlleleFunctionalImpactType"
+  },
+  {
+    "subjectId": "AFITID077",
+    "attributeId": "A072",
+    "value": "ATPase assay",
+    "jsonMockup": "label: \"ATPase assay\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AlleleFunctionalImpactType"
+  },
+  {
+    "subjectId": "AFITID078",
+    "attributeId": "A072",
+    "value": "Binding assay",
+    "jsonMockup": "label: \"Binding assay\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AlleleFunctionalImpactType"
+  },
+  {
+    "subjectId": "AFITID079",
+    "attributeId": "A072",
+    "value": "cellular localization",
+    "jsonMockup": "label: \"cellular localization\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AlleleFunctionalImpactType"
+  },
+  {
+    "subjectId": "AFITID080",
+    "attributeId": "A072",
+    "value": "Elk1 pohsphorylation via luciferase assay",
+    "jsonMockup": "label: \"Elk1 pohsphorylation via luciferase assay\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AlleleFunctionalImpactType"
+  },
+  {
+    "subjectId": "AFITID081",
+    "attributeId": "A072",
+    "value": "iodide efflux",
+    "jsonMockup": "label: \"iodide efflux\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AlleleFunctionalImpactType"
+  },
+  {
+    "subjectId": "AFITID082",
+    "attributeId": "A072",
+    "value": "motility assay",
+    "jsonMockup": "label: \"motility assay\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AlleleFunctionalImpactType"
+  },
+  {
+    "subjectId": "AFITID083",
+    "attributeId": "A072",
+    "value": "neurite outgrowth",
+    "jsonMockup": "label: \"neurite outgrowth\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AlleleFunctionalImpactType"
+  },
+  {
+    "subjectId": "AFITID084",
+    "attributeId": "A072",
+    "value": "Yeast complementation assay",
+    "jsonMockup": "label: \"Yeast complementation assay\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AlleleFunctionalImpactType"
+  },
+  {
+    "subjectId": "PTID085",
+    "attributeId": "A072",
+    "value": "African/African American",
+    "jsonMockup": "label: \"African/African American\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID086",
+    "attributeId": "A072",
+    "value": "Latino",
+    "jsonMockup": "label: \"Latino\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID087",
+    "attributeId": "A072",
+    "value": "Ashkenazi Jewish",
+    "jsonMockup": "label: \"Ashkenazi Jewish\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID088",
+    "attributeId": "A072",
+    "value": "East Asian",
+    "jsonMockup": "label: \"East Asian\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID089",
+    "attributeId": "A072",
+    "value": "Finnish",
+    "jsonMockup": "label: \"Finnish\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID090",
+    "attributeId": "A072",
+    "value": "Non-Finnish European",
+    "jsonMockup": "label: \"Non-Finnish European\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID091",
+    "attributeId": "A072",
+    "value": "Other",
+    "jsonMockup": "label: \"Other\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID092",
+    "attributeId": "A072",
+    "value": "South Asian",
+    "jsonMockup": "label: \"South Asian\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID093",
+    "attributeId": "A072",
+    "value": "Combined",
+    "jsonMockup": "label: \"Combined\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID094",
+    "attributeId": "A072",
+    "value": "Overall",
+    "jsonMockup": "label: \"Overall\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID095",
+    "attributeId": "A072",
+    "value": "European-American",
+    "jsonMockup": "label: \"European-American\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID096",
+    "attributeId": "A072",
+    "value": "African-American",
+    "jsonMockup": "label: \"African-American\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID097",
+    "attributeId": "A072",
+    "value": "African Caribbeans in Barbados",
+    "jsonMockup": "label: \"African Caribbeans in Barbados\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID098",
+    "attributeId": "A072",
+    "value": "African",
+    "jsonMockup": "label: \"African\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID099",
+    "attributeId": "A072",
+    "value": "Ad Mixed American",
+    "jsonMockup": "label: \"Ad Mixed American\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID100",
+    "attributeId": "A072",
+    "value": "Americans of African Ancestry in SW USA",
+    "jsonMockup": "label: \"Americans of African Ancestry in SW USA\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID101",
+    "attributeId": "A072",
+    "value": "Bengali from Bangladesh",
+    "jsonMockup": "label: \"Bengali from Bangladesh\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID102",
+    "attributeId": "A072",
+    "value": "Chinese Dai in Xishuangbanna, China",
+    "jsonMockup": "label: \"Chinese Dai in Xishuangbanna, China\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID103",
+    "attributeId": "A072",
+    "value": "Utah Residents (CEPH) with Northern and Western European Ancestry",
+    "jsonMockup": "label: \"Utah Residents (CEPH) with Northern and Western European Ancestry\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID104",
+    "attributeId": "A072",
+    "value": "Han Chinese in Bejing, China",
+    "jsonMockup": "label: \"Han Chinese in Bejing, China\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID105",
+    "attributeId": "A072",
+    "value": "Southern Han Chinese",
+    "jsonMockup": "label: \"Southern Han Chinese\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID106",
+    "attributeId": "A072",
+    "value": "Colombians from Medellin, Colombia",
+    "jsonMockup": "label: \"Colombians from Medellin, Colombia\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID107",
+    "attributeId": "A072",
+    "value": "East Asian",
+    "jsonMockup": "label: \"East Asian\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID108",
+    "attributeId": "A072",
+    "value": "Esan in Nigeria",
+    "jsonMockup": "label: \"Esan in Nigeria\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID109",
+    "attributeId": "A072",
+    "value": "European",
+    "jsonMockup": "label: \"European\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID110",
+    "attributeId": "A072",
+    "value": "Finnish in Finland",
+    "jsonMockup": "label: \"Finnish in Finland\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID111",
+    "attributeId": "A072",
+    "value": "British in England and Scotland",
+    "jsonMockup": "label: \"British in England and Scotland\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID112",
+    "attributeId": "A072",
+    "value": "Gujarati Indian from Houston, Texas",
+    "jsonMockup": "label: \"Gujarati Indian from Houston, Texas\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID113",
+    "attributeId": "A072",
+    "value": "Gambian in Western Divisions in the Gambia",
+    "jsonMockup": "label: \"Gambian in Western Divisions in the Gambia\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID114",
+    "attributeId": "A072",
+    "value": "Iberian Population in Spain",
+    "jsonMockup": "label: \"Iberian Population in Spain\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID115",
+    "attributeId": "A072",
+    "value": "Indian Telugu from the UK",
+    "jsonMockup": "label: \"Indian Telugu from the UK\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID116",
+    "attributeId": "A072",
+    "value": "Japanese in Tokyo, Japan",
+    "jsonMockup": "label: \"Japanese in Tokyo, Japan\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID117",
+    "attributeId": "A072",
+    "value": "Kinh in Ho Chi Minh City, Vietnam",
+    "jsonMockup": "label: \"Kinh in Ho Chi Minh City, Vietnam\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID118",
+    "attributeId": "A072",
+    "value": "Luhya in Webuye, Kenya",
+    "jsonMockup": "label: \"Luhya in Webuye, Kenya\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID119",
+    "attributeId": "A072",
+    "value": "Mende in Sierra Leone",
+    "jsonMockup": "label: \"Mende in Sierra Leone\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID120",
+    "attributeId": "A072",
+    "value": "Mexican Ancestry from Los Angeles USA",
+    "jsonMockup": "label: \"Mexican Ancestry from Los Angeles USA\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID121",
+    "attributeId": "A072",
+    "value": "Peruvians from Lima, Peru",
+    "jsonMockup": "label: \"Peruvians from Lima, Peru\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID122",
+    "attributeId": "A072",
+    "value": "Punjabi from Lahore, Pakistan",
+    "jsonMockup": "label: \"Punjabi from Lahore, Pakistan\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID123",
+    "attributeId": "A072",
+    "value": "Puerto Ricans from Puerto Rico",
+    "jsonMockup": "label: \"Puerto Ricans from Puerto Rico\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID124",
+    "attributeId": "A072",
+    "value": "South Asian",
+    "jsonMockup": "label: \"South Asian\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID125",
+    "attributeId": "A072",
+    "value": "Sri Lankan Tamil from the UK",
+    "jsonMockup": "label: \"Sri Lankan Tamil from the UK\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID126",
+    "attributeId": "A072",
+    "value": "Toscani in Italia",
+    "jsonMockup": "label: \"Toscani in Italia\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "PTID127",
+    "attributeId": "A072",
+    "value": "Yoruba in Ibadan, Nigeria",
+    "jsonMockup": "label: \"Yoruba in Ibadan, Nigeria\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PopulationType"
+  },
+  {
+    "subjectId": "BMVRID128",
+    "attributeId": "A072",
+    "value": "High",
+    "jsonMockup": "label: \"High\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "BenignMissenseVariationRate"
+  },
+  {
+    "subjectId": "BMVRID129",
+    "attributeId": "A072",
+    "value": "Low",
+    "jsonMockup": "label: \"Low\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "BenignMissenseVariationRate"
+  },
+  {
+    "subjectId": "PenTID130",
+    "attributeId": "A072",
+    "value": "Complete",
+    "jsonMockup": "label: \"Complete\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PenetranceType"
+  },
+  {
+    "subjectId": "PenTID131",
+    "attributeId": "A072",
+    "value": "High",
+    "jsonMockup": "label: \"High\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PenetranceType"
+  },
+  {
+    "subjectId": "PenTID132",
+    "attributeId": "A072",
+    "value": "Incomplete",
+    "jsonMockup": "label: \"Incomplete\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "PenetranceType"
+  },
+  {
+    "subjectId": "CMSID133",
+    "attributeId": "A072",
+    "value": "common",
+    "jsonMockup": "label: \"common\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ConditionMechanismStrength"
+  },
+  {
+    "subjectId": "CMSID134",
+    "attributeId": "A072",
+    "value": "established",
+    "jsonMockup": "label: \"established\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ConditionMechanismStrength"
+  },
+  {
+    "subjectId": "CMSID135",
+    "attributeId": "A072",
+    "value": "primary",
+    "jsonMockup": "label: \"primary\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ConditionMechanismStrength"
+  },
+  {
+    "subjectId": "CMSID136",
+    "attributeId": "A072",
+    "value": "suggested",
+    "jsonMockup": "label: \"suggested\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ConditionMechanismStrength"
+  },
+  {
+    "subjectId": "CMSID137",
+    "attributeId": "A072",
+    "value": "unknown",
+    "jsonMockup": "label: \"unknown\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ConditionMechanismStrength"
+  },
+  {
+    "subjectId": "ELSID138",
+    "attributeId": "A072",
+    "value": "Benign Stand Alone",
+    "jsonMockup": "label: \"Benign Stand Alone\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "EvidenceLineStrength"
+  },
+  {
+    "subjectId": "ELSID139",
+    "attributeId": "A072",
+    "value": "Benign Moderate",
+    "jsonMockup": "label: \"Benign Moderate\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "EvidenceLineStrength"
+  },
+  {
+    "subjectId": "ELSID140",
+    "attributeId": "A072",
+    "value": "Benign Supporting",
+    "jsonMockup": "label: \"Benign Supporting\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "EvidenceLineStrength"
+  },
+  {
+    "subjectId": "ELSID141",
+    "attributeId": "A072",
+    "value": "Benign Strong",
+    "jsonMockup": "label: \"Benign Strong\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "EvidenceLineStrength"
+  },
+  {
+    "subjectId": "ELSID142",
+    "attributeId": "A072",
+    "value": "None",
+    "jsonMockup": "label: \"None\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "EvidenceLineStrength"
+  },
+  {
+    "subjectId": "ELSID143",
+    "attributeId": "A072",
+    "value": "Pathogenic Moderate",
+    "jsonMockup": "label: \"Pathogenic Moderate\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "EvidenceLineStrength"
+  },
+  {
+    "subjectId": "ELSID144",
+    "attributeId": "A072",
+    "value": "Pathogenic Supporting",
+    "jsonMockup": "label: \"Pathogenic Supporting\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "EvidenceLineStrength"
+  },
+  {
+    "subjectId": "ELSID145",
+    "attributeId": "A072",
+    "value": "Pathogenic Strong",
+    "jsonMockup": "label: \"Pathogenic Strong\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "EvidenceLineStrength"
+  },
+  {
+    "subjectId": "ELSID146",
+    "attributeId": "A072",
+    "value": "Pathogenic Very Strong",
+    "jsonMockup": "label: \"Pathogenic Very Strong\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "EvidenceLineStrength"
+  },
+  {
+    "subjectId": "DisID147",
+    "attributeId": "A072",
+    "value": "genetic disease",
+    "jsonMockup": "label: \"genetic disease\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID148",
+    "attributeId": "A072",
+    "value": "hereditary breast ovarian cancer",
+    "jsonMockup": "label: \"hereditary breast ovarian cancer\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID149",
+    "attributeId": "A072",
+    "value": "Breast Cancer",
+    "jsonMockup": "label: \"Breast Cancer\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID150",
+    "attributeId": "A072",
+    "value": "Hypercholesterolemia, Familial",
+    "jsonMockup": "label: \"Hypercholesterolemia, Familial\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID151",
+    "attributeId": "A072",
+    "value": "myofibrillar myopathy 1",
+    "jsonMockup": "label: \"myofibrillar myopathy 1\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID152",
+    "attributeId": "A072",
+    "value": "noonan syndrome 3",
+    "jsonMockup": "label: \"noonan syndrome 3\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID153",
+    "attributeId": "A072",
+    "value": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2",
+    "jsonMockup": "label: \"Breast-Ovarian Cancer, Familial, Susceptibility To, 2\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID154",
+    "attributeId": "A072",
+    "value": "Myopathy, Distal, type 4",
+    "jsonMockup": "label: \"Myopathy, Distal, type 4\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID155",
+    "attributeId": "A072",
+    "value": "Birt-Hogg-Dube Syndrome",
+    "jsonMockup": "label: \"Birt-Hogg-Dube Syndrome\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID156",
+    "attributeId": "A072",
+    "value": "cardiofaciocutaneous syndrome",
+    "jsonMockup": "label: \"cardiofaciocutaneous syndrome\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID157",
+    "attributeId": "A072",
+    "value": "hereditary breast and ovarian cancer syndrome",
+    "jsonMockup": "label: \"hereditary breast and ovarian cancer syndrome\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID158",
+    "attributeId": "A072",
+    "value": "cardiomyopathy",
+    "jsonMockup": "label: \"cardiomyopathy\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID159",
+    "attributeId": "A072",
+    "value": "neuronal ceroid lipofuscinosis",
+    "jsonMockup": "label: \"neuronal ceroid lipofuscinosis\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID160",
+    "attributeId": "A072",
+    "value": "hypertrophic cardiomyopathy",
+    "jsonMockup": "label: \"hypertrophic cardiomyopathy\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID162",
+    "attributeId": "A072",
+    "value": "dilated cardiomyopathy",
+    "jsonMockup": "label: \"dilated cardiomyopathy\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID163",
+    "attributeId": "A072",
+    "value": "Primary ciliary dyskenisia",
+    "jsonMockup": "label: \"Primary ciliary dyskenisia\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID164",
+    "attributeId": "A072",
+    "value": "arrhythmogenic right ventricular cardiomyopathy",
+    "jsonMockup": "label: \"arrhythmogenic right ventricular cardiomyopathy\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID165",
+    "attributeId": "A072",
+    "value": "Mitochondrial complex 1 deficiency",
+    "jsonMockup": "label: \"Mitochondrial complex 1 deficiency\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID166",
+    "attributeId": "A072",
+    "value": "Perrault Syndrome",
+    "jsonMockup": "label: \"Perrault Syndrome\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID167",
+    "attributeId": "A072",
+    "value": "costello syndrome",
+    "jsonMockup": "label: \"costello syndrome\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID168",
+    "attributeId": "A072",
+    "value": "Wiedemann-Steiner syndrome",
+    "jsonMockup": "label: \"Wiedemann-Steiner syndrome\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID169",
+    "attributeId": "A072",
+    "value": "Fabry disease",
+    "jsonMockup": "label: \"Fabry disease\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID170",
+    "attributeId": "A072",
+    "value": "Primary bone dysplasia",
+    "jsonMockup": "label: \"Primary bone dysplasia\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID171",
+    "attributeId": "A072",
+    "value": "Gyrate atrophy of choroid and retina",
+    "jsonMockup": "label: \"Gyrate atrophy of choroid and retina\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID172",
+    "attributeId": "A072",
+    "value": "Malignant hyperthermia",
+    "jsonMockup": "label: \"Malignant hyperthermia\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID173",
+    "attributeId": "A072",
+    "value": "Marfan Syndrome",
+    "jsonMockup": "label: \"Marfan Syndrome\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID174",
+    "attributeId": "A072",
+    "value": "Cystic Fibrosis",
+    "jsonMockup": "label: \"Cystic Fibrosis\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID175",
+    "attributeId": "A072",
+    "value": "noonan syndrome",
+    "jsonMockup": "label: \"noonan syndrome\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID176",
+    "attributeId": "A072",
+    "value": "Ornithine carbamoyltransferase deficiency",
+    "jsonMockup": "label: \"Ornithine carbamoyltransferase deficiency\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID177",
+    "attributeId": "A072",
+    "value": "Pendred syndrome",
+    "jsonMockup": "label: \"Pendred syndrome\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID178",
+    "attributeId": "A072",
+    "value": "Familial Adenomatous Polyposis",
+    "jsonMockup": "label: \"Familial Adenomatous Polyposis\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID179",
+    "attributeId": "A072",
+    "value": "pseudoachondroplasia",
+    "jsonMockup": "label: \"pseudoachondroplasia\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID180",
+    "attributeId": "A072",
+    "value": "hereditary hemorrhagic telangiectasia",
+    "jsonMockup": "label: \"hereditary hemorrhagic telangiectasia\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID181",
+    "attributeId": "A072",
+    "value": "Retinitis Pigmentosa",
+    "jsonMockup": "label: \"Retinitis Pigmentosa\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID182",
+    "attributeId": "A072",
+    "value": "Fanconi Anemia",
+    "jsonMockup": "label: \"Fanconi Anemia\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID183",
+    "attributeId": "A072",
+    "value": "nonsyndromic deafness",
+    "jsonMockup": "label: \"nonsyndromic deafness\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID184",
+    "attributeId": "A072",
+    "value": "Usher syndrome",
+    "jsonMockup": "label: \"Usher syndrome\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "DisID185",
+    "attributeId": "A072",
+    "value": "Noonan syndrome and noonan-related syndrom",
+    "jsonMockup": "label: \"Noonan syndrome and noonan-related syndrom\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Disease"
+  },
+  {
+    "subjectId": "PhenID186",
+    "attributeId": "A072",
+    "value": "macrocephaly",
+    "jsonMockup": "label: \"macrocephaly\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Phenotype"
+  },
+  {
+    "subjectId": "PhenID187",
+    "attributeId": "A072",
+    "value": "café au lait macules (CALMs)",
+    "jsonMockup": "label: \"café au lait macules (CALMs)\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Phenotype"
+  },
+  {
+    "subjectId": "PhenID188",
+    "attributeId": "A072",
+    "value": "axillary freckling",
+    "jsonMockup": "label: \"axillary freckling\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Phenotype"
+  },
+  {
+    "subjectId": "PhenID189",
+    "attributeId": "A072",
+    "value": "Abnormal Glucose Homeostasis",
+    "jsonMockup": "label: \"Abnormal Glucose Homeostasis\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Phenotype"
+  },
+  {
+    "subjectId": "PhenID190",
+    "attributeId": "A072",
+    "value": "Absent vas deferens",
+    "jsonMockup": "label: \"Absent vas deferens\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Phenotype"
+  },
+  {
+    "subjectId": "PhenID191",
+    "attributeId": "A072",
+    "value": "Absent/shortened dynein arms",
+    "jsonMockup": "label: \"Absent/shortened dynein arms\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Phenotype"
+  },
+  {
+    "subjectId": "RSeqID192",
+    "attributeId": "A072",
+    "jsonMockup": "label: \"\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "CRID193",
+    "attributeId": "A072",
+    "value": "assessor role",
+    "jsonMockup": "label: \"assessor role\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ContributoryRole"
+  },
+  {
+    "subjectId": "CRID194",
+    "attributeId": "A072",
+    "value": "curator role",
+    "jsonMockup": "label: \"curator role\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ContributoryRole"
+  },
+  {
+    "subjectId": "CRID195",
+    "attributeId": "A072",
+    "value": "approver role",
+    "jsonMockup": "label: \"approver role\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ContributoryRole"
+  },
+  {
+    "subjectId": "CRID196",
+    "attributeId": "A072",
+    "value": "interpreter role",
+    "jsonMockup": "label: \"interpreter role\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ContributoryRole"
+  },
+  {
+    "subjectId": "AITID197",
+    "attributeId": "A072",
+    "value": "de novo",
+    "jsonMockup": "label: \"de novo\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AlleleInheritanceType"
+  },
+  {
+    "subjectId": "AITID198",
+    "attributeId": "A072",
+    "value": "maternally inherited",
+    "jsonMockup": "label: \"maternally inherited\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AlleleInheritanceType"
+  },
+  {
+    "subjectId": "AITID199",
+    "attributeId": "A072",
+    "value": "paternally inherited",
+    "jsonMockup": "label: \"paternally inherited\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AlleleInheritanceType"
+  },
+  {
+    "subjectId": "AITID200",
+    "attributeId": "A072",
+    "value": "Unknown",
+    "jsonMockup": "label: \"Unknown\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AlleleInheritanceType"
+  },
+  {
+    "subjectId": "AITID201",
+    "attributeId": "A072",
+    "value": "parentally inherited",
+    "jsonMockup": "label: \"parentally inherited\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AlleleInheritanceType"
+  },
+  {
+    "subjectId": "AsctTID202",
+    "attributeId": "A072",
+    "value": "1000 Genomes ascertainment method",
+    "jsonMockup": "label: \"1000 Genomes ascertainment method\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AscertainmentType"
+  },
+  {
+    "subjectId": "AsctTID203",
+    "attributeId": "A072",
+    "value": "ExAc ascertainment method",
+    "jsonMockup": "label: \"ExAc ascertainment method\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AscertainmentType"
+  },
+  {
+    "subjectId": "AsctTID204",
+    "attributeId": "A072",
+    "value": "ESP ascertainment method",
+    "jsonMockup": "label: \"ESP ascertainment method\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AscertainmentType"
+  },
+  {
+    "subjectId": "AsctTID205",
+    "attributeId": "A072",
+    "value": "gnomAD ascertainment method",
+    "jsonMockup": "label: \"gnomAD ascertainment method\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "AscertainmentType"
+  },
+  {
+    "subjectId": "AsctTID206",
+    "attributeId": "A073",
+    "value": "Synm001",
+    "jsonMockup": "synonym: { @id : \"_b9100\", description: \"Across all published data (and LMM data) with hearing loss.\" }",
+    "attributeName": "synonym",
+    "attributeType": "Synonym",
+    "domainEntityType": "AscertainmentType"
+  },
+  {
+    "subjectId": "AsctTID207",
+    "attributeId": "A073",
+    "value": "Synm002",
+    "jsonMockup": "synonym: { @id : \"_b9101\", description: \"Case group is composed of cases from six cohorts from the GENIUS T2D consortium.  Case status is defined per-cohort.\" }",
+    "attributeName": "synonym",
+    "attributeType": "Synonym",
+    "domainEntityType": "AscertainmentType"
+  },
+  {
+    "subjectId": "AsctTID208",
+    "attributeId": "A073",
+    "value": "Synm003",
+    "jsonMockup": "synonym: { @id : \"_b9102\", description: \"Controls group is composed of controls from six cohorts from the GENIUS T2D consortium.  Controls status is defined per-cohort.\" }",
+    "attributeName": "synonym",
+    "attributeType": "Synonym",
+    "domainEntityType": "AscertainmentType"
+  },
+  {
+    "subjectId": "LSTID209",
+    "attributeId": "A072",
+    "value": "low",
+    "jsonMockup": "label: \"low\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "LocusSpecificityType"
+  },
+  {
+    "subjectId": "LSTID210",
+    "attributeId": "A072",
+    "value": "high",
+    "jsonMockup": "label: \"high\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "LocusSpecificityType"
+  },
+  {
+    "subjectId": "LSTID211",
+    "attributeId": "A072",
+    "value": "complete",
+    "jsonMockup": "label: \"complete\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "LocusSpecificityType"
+  },
+  {
+    "subjectId": "ConsrvID212",
+    "attributeId": "A072",
+    "value": "conserved",
+    "jsonMockup": "label: \"conserved\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Conservation"
+  },
+  {
+    "subjectId": "ConsrvID213",
+    "attributeId": "A072",
+    "value": "not conserved",
+    "jsonMockup": "label: \"not conserved\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Conservation"
+  },
+  {
+    "subjectId": "PCID214",
+    "attributeId": "A072",
+    "value": "maternal confirmation",
+    "jsonMockup": "label: \"maternal confirmation\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ParentalConfirmation"
+  },
+  {
+    "subjectId": "PCID215",
+    "attributeId": "A072",
+    "value": "paternal confirmation",
+    "jsonMockup": "label: \"paternal confirmation\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ParentalConfirmation"
+  },
+  {
+    "subjectId": "PCID216",
+    "attributeId": "A072",
+    "value": "maternal and paternal confirmation",
+    "jsonMockup": "label: \"maternal and paternal confirmation\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ParentalConfirmation"
+  },
+  {
+    "subjectId": "PCID217",
+    "attributeId": "A072",
+    "value": "no parental confirmation",
+    "jsonMockup": "label: \"no parental confirmation\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ParentalConfirmation"
+  },
+  {
+    "subjectId": "CondStID218",
+    "attributeId": "A072",
+    "value": "affected",
+    "jsonMockup": "label: \"affected\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ConditionStatus"
+  },
+  {
+    "subjectId": "CondStID219",
+    "attributeId": "A072",
+    "value": "unaffected",
+    "jsonMockup": "label: \"unaffected\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "ConditionStatus"
+  },
+  {
+    "subjectId": "ISegObsID220",
+    "attributeId": "A072",
+    "value": "present",
+    "jsonMockup": "label: \"present\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "InconsistentSegregationObserved"
+  },
+  {
+    "subjectId": "ISegObsID221",
+    "attributeId": "A072",
+    "value": "absent",
+    "jsonMockup": "label: \"absent\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "InconsistentSegregationObserved"
+  },
+  {
+    "subjectId": "ISegObsID222",
+    "attributeId": "A072",
+    "value": "unknown",
+    "jsonMockup": "label: \"unknown\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "InconsistentSegregationObserved"
+  },
+  {
+    "subjectId": "NullAID223",
+    "attributeId": "A072",
+    "value": "loss of function variant",
+    "jsonMockup": "label: \"loss of function variant\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "NullAllele"
+  },
+  {
+    "subjectId": "NullAID224",
+    "attributeId": "A072",
+    "value": "No",
+    "jsonMockup": "label: \"No\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "NullAllele"
+  },
+  {
+    "subjectId": "RegAID225",
+    "attributeId": "A072",
+    "value": "included",
+    "jsonMockup": "label: \"included\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "RegionAllelesOutcome"
+  },
+  {
+    "subjectId": "RegAID226",
+    "attributeId": "A072",
+    "value": "excluded",
+    "jsonMockup": "label: \"excluded\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "RegionAllelesOutcome"
+  },
+  {
+    "subjectId": "G227",
+    "attributeId": "A140",
+    "value": "HNRNPU",
+    "jsonMockup": "geneSymbol: \"HNRNPU\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G228",
+    "attributeId": "A140",
+    "value": "BRCA2",
+    "jsonMockup": "geneSymbol: \"BRCA2\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G229",
+    "attributeId": "A140",
+    "value": "TTN",
+    "jsonMockup": "geneSymbol: \"TTN\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G230",
+    "attributeId": "A140",
+    "value": "PTPN11",
+    "jsonMockup": "geneSymbol: \"PTPN11\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G231",
+    "attributeId": "A140",
+    "value": "DNAH5",
+    "jsonMockup": "geneSymbol: \"DNAH5\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G232",
+    "attributeId": "A140",
+    "value": "HRAS",
+    "jsonMockup": "geneSymbol: \"HRAS\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G233",
+    "attributeId": "A140",
+    "value": "KRAS",
+    "jsonMockup": "geneSymbol: \"KRAS\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G234",
+    "attributeId": "A140",
+    "value": "MYH7",
+    "jsonMockup": "geneSymbol: \"MYH7\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G235",
+    "attributeId": "A140",
+    "value": "DES",
+    "jsonMockup": "geneSymbol: \"DES\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G236",
+    "attributeId": "A140",
+    "value": "GRIN2A",
+    "jsonMockup": "geneSymbol: \"GRIN2A\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G237",
+    "attributeId": "A140",
+    "value": "TNNT2",
+    "jsonMockup": "geneSymbol: \"TNNT2\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G238",
+    "attributeId": "A140",
+    "value": "SPG7",
+    "jsonMockup": "geneSymbol: \"SPG7\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G239",
+    "attributeId": "A140",
+    "value": "BRAF",
+    "jsonMockup": "geneSymbol: \"BRAF\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G240",
+    "attributeId": "A140",
+    "value": "MEK",
+    "jsonMockup": "geneSymbol: \"MEK\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G241",
+    "attributeId": "A140",
+    "value": "ERK",
+    "jsonMockup": "geneSymbol: \"ERK\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G242",
+    "attributeId": "A140",
+    "value": "SLC26A4",
+    "jsonMockup": "geneSymbol: \"SLC26A4\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G243",
+    "attributeId": "A140",
+    "value": "RYR1",
+    "jsonMockup": "geneSymbol: \"RYR1\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G244",
+    "attributeId": "A140",
+    "value": "ENPP1",
+    "jsonMockup": "geneSymbol: \"ENPP1\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G245",
+    "attributeId": "A140",
+    "value": "EGFR",
+    "jsonMockup": "geneSymbol: \"EGFR\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G246",
+    "attributeId": "A140",
+    "value": "GLA",
+    "jsonMockup": "geneSymbol: \"GLA\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G247",
+    "attributeId": "A140",
+    "value": "MUTYH",
+    "jsonMockup": "geneSymbol: \"MUTYH\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G248",
+    "attributeId": "A140",
+    "value": "EDA",
+    "jsonMockup": "geneSymbol: \"EDA\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G249",
+    "attributeId": "A140",
+    "value": "RAF1",
+    "jsonMockup": "geneSymbol: \"RAF1\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G250",
+    "attributeId": "A140",
+    "value": "GIPC3",
+    "jsonMockup": "geneSymbol: \"GIPC3\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G251",
+    "attributeId": "A140",
+    "value": "TTP1",
+    "jsonMockup": "geneSymbol: \"TTP1\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G252",
+    "attributeId": "A140",
+    "value": "OPA1",
+    "jsonMockup": "geneSymbol: \"OPA1\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G253",
+    "attributeId": "A140",
+    "value": "PHOX2B",
+    "jsonMockup": "geneSymbol: \"PHOX2B\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G254",
+    "attributeId": "A140",
+    "value": "TNNI3",
+    "jsonMockup": "geneSymbol: \"TNNI3\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G255",
+    "attributeId": "A140",
+    "value": "OTC",
+    "jsonMockup": "geneSymbol: \"OTC\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G256",
+    "attributeId": "A140",
+    "value": "BRCA1",
+    "jsonMockup": "geneSymbol: \"BRCA1\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G257",
+    "attributeId": "A140",
+    "value": "FLCN",
+    "jsonMockup": "geneSymbol: \"FLCN\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G258",
+    "attributeId": "A140",
+    "value": "MAP2K1",
+    "jsonMockup": "geneSymbol: \"MAP2K1\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G259",
+    "attributeId": "A140",
+    "value": "USH2A",
+    "jsonMockup": "geneSymbol: \"USH2A\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G260",
+    "attributeId": "A140",
+    "value": "MYBPC3",
+    "jsonMockup": "geneSymbol: \"MYBPC3\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G261",
+    "attributeId": "A140",
+    "value": "ENG",
+    "jsonMockup": "geneSymbol: \"ENG\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G262",
+    "attributeId": "A140",
+    "value": "FLNC",
+    "jsonMockup": "geneSymbol: \"FLNC\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G263",
+    "attributeId": "A140",
+    "value": "BLM",
+    "jsonMockup": "geneSymbol: \"BLM\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G264",
+    "attributeId": "A140",
+    "value": "GJB2",
+    "jsonMockup": "geneSymbol: \"GJB2\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G265",
+    "attributeId": "A140",
+    "value": "DNAI2",
+    "jsonMockup": "geneSymbol: \"DNAI2\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G266",
+    "attributeId": "A140",
+    "value": "FBN1",
+    "jsonMockup": "geneSymbol: \"FBN1\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G267",
+    "attributeId": "A140",
+    "value": "NDUFA1",
+    "jsonMockup": "geneSymbol: \"NDUFA1\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G268",
+    "attributeId": "A140",
+    "value": "HSD17B4",
+    "jsonMockup": "geneSymbol: \"HSD17B4\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G269",
+    "attributeId": "A140",
+    "value": "KMT2A",
+    "jsonMockup": "geneSymbol: \"KMT2A\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G270",
+    "attributeId": "A140",
+    "value": "APC",
+    "jsonMockup": "geneSymbol: \"APC\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G271",
+    "attributeId": "A140",
+    "value": "SPRED1",
+    "jsonMockup": "geneSymbol: \"SPRED1\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G272",
+    "attributeId": "A140",
+    "value": "LDLR",
+    "jsonMockup": "geneSymbol: \"LDLR\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G273",
+    "attributeId": "A140",
+    "value": "ACTN2",
+    "jsonMockup": "geneSymbol: \"ACTN2\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G274",
+    "attributeId": "A140",
+    "value": "LOXHD1",
+    "jsonMockup": "geneSymbol: \"LOXHD1\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G275",
+    "attributeId": "A140",
+    "value": "CFTR",
+    "jsonMockup": "geneSymbol: \"CFTR\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G276",
+    "attributeId": "A140",
+    "value": "NEB",
+    "jsonMockup": "geneSymbol: \"NEB\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G277",
+    "attributeId": "A140",
+    "value": "TMIE",
+    "jsonMockup": "geneSymbol: \"TMIE\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G278",
+    "attributeId": "A140",
+    "value": "SOS1",
+    "jsonMockup": "geneSymbol: \"SOS1\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G279",
+    "attributeId": "A140",
+    "value": "CDH23",
+    "jsonMockup": "geneSymbol: \"CDH23\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G280",
+    "attributeId": "A140",
+    "value": "WHRN",
+    "jsonMockup": "geneSymbol: \"WHRN\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G281",
+    "attributeId": "A140",
+    "value": "COL2A1",
+    "jsonMockup": "geneSymbol: \"COL2A1\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G282",
+    "attributeId": "A140",
+    "value": "COMP",
+    "jsonMockup": "geneSymbol: \"COMP\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G283",
+    "attributeId": "A140",
+    "value": "OAT",
+    "jsonMockup": "geneSymbol: \"OAT\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G284",
+    "attributeId": "A140",
+    "value": "TMC1",
+    "jsonMockup": "geneSymbol: \"TMC1\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G285",
+    "attributeId": "A140",
+    "value": "KCNQ1",
+    "jsonMockup": "geneSymbol: \"KCNQ1\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "G286",
+    "attributeId": "A140",
+    "value": "DSC2",
+    "jsonMockup": "geneSymbol: \"DSC2\"",
+    "attributeName": "geneSymbol",
+    "attributeType": "String",
+    "domainEntityType": "Gene"
+  },
+  {
+    "subjectId": "RefSeq287",
+    "attributeId": "A144",
+    "value": "NM_005228.3",
+    "jsonMockup": "accession: \"NM_005228.3\"",
+    "attributeName": "accession",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "RefSeq287",
+    "attributeId": "A168",
+    "value": "RefSeq288",
+    "jsonMockup": "produces: { @id : \"REFSEQ:NP_005219.2\" }",
+    "attributeName": "produces",
+    "attributeType": "ReferenceSequence",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "RefSeq288",
+    "attributeId": "A144",
+    "value": "NP_005219.2",
+    "jsonMockup": "accession: \"NP_005219.2\"",
+    "attributeName": "accession",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "RefSeq288",
+    "attributeId": "A169",
+    "value": "RefSeq287",
+    "jsonMockup": "producedBy: { @id : \"REFSEQ:NM_005228.3\" }",
+    "attributeName": "producedBy",
+    "attributeType": "ReferenceSequence",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "RefSeq289",
+    "attributeId": "A144",
+    "value": "NM_004333.4",
+    "jsonMockup": "accession: \"NM_004333.4\"",
+    "attributeName": "accession",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "RefSeq290",
+    "attributeId": "A144",
+    "value": "NM_000169.2",
+    "jsonMockup": "accession: \"NM_000169.2\"",
+    "attributeName": "accession",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "RefSeq291",
+    "attributeId": "A144",
+    "value": "NP_001360.1",
+    "jsonMockup": "accession: \"NP_001360.1\"",
+    "attributeName": "accession",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "RefSeq292",
+    "attributeId": "A144",
+    "value": "NP_056375.2",
+    "jsonMockup": "accession: \"NP_056375.2\"",
+    "attributeName": "accession",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "RefSeq293",
+    "attributeId": "A144",
+    "value": "NP_003915.2",
+    "jsonMockup": "accession: \"NP_003915.2\"",
+    "attributeName": "accession",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "RefSeq294",
+    "attributeId": "A144",
+    "value": "NM_001271208.1",
+    "jsonMockup": "accession: \"NM_001271208.1\"",
+    "attributeName": "accession",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "RefSeq295",
+    "attributeId": "A144",
+    "value": "NM_133378.4",
+    "jsonMockup": "accession: \"NM_133378.4\"",
+    "attributeName": "accession",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "RefSeq296",
+    "attributeId": "A144",
+    "value": "NM_147196.2",
+    "jsonMockup": "accession: \"NM_147196.2\"",
+    "attributeName": "accession",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "RefSeq297",
+    "attributeId": "A144",
+    "value": "NM_000257.2",
+    "jsonMockup": "accession: \"NM_000257.2\"",
+    "attributeName": "accession",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "RefSeq298",
+    "attributeId": "A144",
+    "value": "ENST00000566221.5",
+    "jsonMockup": "accession: \"ENST00000566221.5\"",
+    "attributeName": "accession",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "RefSeq299",
+    "attributeId": "A144",
+    "value": "NM_000363.4",
+    "jsonMockup": "accession: \"NM_000363.4\"",
+    "attributeName": "accession",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "RefSeq300",
+    "attributeId": "A144",
+    "value": "NM_000059.3",
+    "jsonMockup": "accession: \"NM_000059.3\"",
+    "attributeName": "accession",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "RefSeq301",
+    "attributeId": "A144",
+    "value": "NM_138691.2",
+    "jsonMockup": "accession: \"NM_138691.2\"",
+    "attributeName": "accession",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "RefSeq302",
+    "attributeId": "A144",
+    "value": "NM_002880.3",
+    "jsonMockup": "accession: \"NM_002880.3\"",
+    "attributeName": "accession",
+    "attributeType": "String",
+    "domainEntityType": "ReferenceSequence"
+  },
+  {
+    "subjectId": "Crit303",
+    "attributeId": "A072",
+    "value": "PVS1",
+    "jsonMockup": "label: \"PVS1\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit303",
+    "attributeId": "A075",
+    "value": "null variant (nonsense, frameshift, canonical ±1 or 2 splice sites, initiation codon, single or multiexon deletion) in a gene where LOF is a known mechanism of disease",
+    "jsonMockup": "description: \"null variant (nonsense, frameshift, canonical ±1 or 2 splice sites, initiation codon, single or multiexon deletion) in a gene where LOF is a known mechanism of disease\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit303",
+    "attributeId": "A153",
+    "value": "ELSID146",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000220\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit303",
+    "attributeId": "A150",
+    "value": "The two main concerns for applying this rule is:\na. Is LOF an established disease mechanism?\nb. Is LOF actually occurring?",
+    "jsonMockup": "comments: \"The two main concerns for applying this rule is:\na. Is LOF an established disease mechanism?\nb. Is LOF actually occurring?\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit304",
+    "attributeId": "A072",
+    "value": "PS1",
+    "jsonMockup": "label: \"PS1\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit304",
+    "attributeId": "A075",
+    "value": "Same amino acid change as a previously established pathogenic variant regardless of nucleotide change",
+    "jsonMockup": "description: \"Same amino acid change as a previously established pathogenic variant regardless of nucleotide change\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit304",
+    "attributeId": "A153",
+    "value": "ELSID145",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000330\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit304",
+    "attributeId": "A150",
+    "value": "Beware of changes that impact splicing rather than at the amino acid/protein level\nFrom CSER paper: One site erroneously used this to apply prior publication of the same exact variant while this rule, as described in more depth on the ACMG/AMP guideline, only applies when the established pathogenic variant has a different nucleotide change than the variant being interpreted.",
+    "jsonMockup": "comments: \"Beware of changes that impact splicing rather than at the amino acid/protein level\nFrom CSER paper: One site erroneously used this to apply prior publication of the same exact variant while this rule, as described in more depth on the ACMG/AMP guideline, only applies when the established pathogenic variant has a different nucleotide change than the variant being interpreted.\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit305",
+    "attributeId": "A072",
+    "value": "PS2",
+    "jsonMockup": "label: \"PS2\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit305",
+    "attributeId": "A075",
+    "value": "De novo (both maternity and paternity confirmed) in a patient with the disease and no family history",
+    "jsonMockup": "description: \"De novo (both maternity and paternity confirmed) in a patient with the disease and no family history\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit305",
+    "attributeId": "A153",
+    "value": "ELSID145",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000330\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit305",
+    "attributeId": "A150",
+    "value": "MYH7 is adding specificity to this rule with\na. No family history = parents have had ECHO and ECG\nb. Only paternity confirmation required",
+    "jsonMockup": "comments: \"MYH7 is adding specificity to this rule with\na. No family history = parents have had ECHO and ECG\nb. Only paternity confirmation required\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit306",
+    "attributeId": "A072",
+    "value": "PS3",
+    "jsonMockup": "label: \"PS3\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit306",
+    "attributeId": "A075",
+    "value": "Well-established in vitro or in vivo functional studies supportive of a damaging effect on the gene or gene product",
+    "jsonMockup": "description: \"Well-established in vitro or in vivo functional studies supportive of a damaging effect on the gene or gene product\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit306",
+    "attributeId": "A153",
+    "value": "ELSID145",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000330\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit306",
+    "attributeId": "A150",
+    "value": "This particular rule will probably be downgraded often, given that there are not many “Functional studies that have been validated and shown to be reproducible and robust in a clinical diagnostic laboratory setting”",
+    "jsonMockup": "comments: \"This particular rule will probably be downgraded often, given that there are not many “Functional studies that have been validated and shown to be reproducible and robust in a clinical diagnostic laboratory setting”\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit307",
+    "attributeId": "A072",
+    "value": "PS4",
+    "jsonMockup": "label: \"PS4\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit307",
+    "attributeId": "A075",
+    "value": "The prevalence of the variant in affected individuals is significantly increased compared with the prevalence in controls",
+    "jsonMockup": "description: \"The prevalence of the variant in affected individuals is significantly increased compared with the prevalence in controls\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit307",
+    "attributeId": "A153",
+    "value": "ELSID145",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000330\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit308",
+    "attributeId": "A072",
+    "value": "PM1",
+    "jsonMockup": "label: \"PM1\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit308",
+    "attributeId": "A075",
+    "value": "Located in a mutational hot spot and/or critical and well-established functional domain (e.g., active site of an enzyme) without benign variation",
+    "jsonMockup": "description: \"Located in a mutational hot spot and/or critical and well-established functional domain (e.g., active site of an enzyme) without benign variation\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit308",
+    "attributeId": "A153",
+    "value": "ELSID143",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000216\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit308",
+    "attributeId": "A150",
+    "value": "Suggested that this rule is NOT appropriate for LOF variants.\nAlso, note that when the region of interest is a “well-established functional domain” then it’s not necessary to show through evidence that it is intolerant of benign missense variants.  However, when a mutational hotspot is being defined, then showing it does not have benign missense variants is important.",
+    "jsonMockup": "comments: \"Suggested that this rule is NOT appropriate for LOF variants.\nAlso, note that when the region of interest is a “well-established functional domain” then it’s not necessary to show through evidence that it is intolerant of benign missense variants.  However, when a mutational hotspot is being defined, then showing it does not have benign missense variants is important.\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit309",
+    "attributeId": "A072",
+    "value": "PM2",
+    "jsonMockup": "label: \"PM2\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit309",
+    "attributeId": "A075",
+    "value": "Absent from controls (or at extremely low frequency if recessive) (Table 6) in Exome Sequencing Project, 1000 Genomes Project, or Exome Aggregation Consortium",
+    "jsonMockup": "description: \"Absent from controls (or at extremely low frequency if recessive) (Table 6) in Exome Sequencing Project, 1000 Genomes Project, or Exome Aggregation Consortium\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit309",
+    "attributeId": "A153",
+    "value": "ELSID143",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000216\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit309",
+    "attributeId": "A150",
+    "value": "Some groups are allowing to rule to be used if even not 100% absent\nFor instance, Cardio has allowed PM2 to be used if MAF is <0.05% with 95% CI if\nCI lower is ~0.00% (at 2 decimal places) AND CI upper is below 0.05%\n Caveat: Population data for insertions/deletions may be poorly called by next-generation sequencing",
+    "jsonMockup": "comments: \"Some groups are allowing to rule to be used if even not 100% absent\nFor instance, Cardio has allowed PM2 to be used if MAF is <0.05% with 95% CI if\nCI lower is ~0.00% (at 2 decimal places) AND CI upper is below 0.05%\n Caveat: Population data for insertions/deletions may be poorly called by next-generation sequencing\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit310",
+    "attributeId": "A072",
+    "value": "PM3",
+    "jsonMockup": "label: \"PM3\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit310",
+    "attributeId": "A075",
+    "value": "For recessive disorders, detected in trans with a pathogenic variant",
+    "jsonMockup": "description: \"For recessive disorders, detected in trans with a pathogenic variant\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit310",
+    "attributeId": "A153",
+    "value": "ELSID143",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000216\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit310",
+    "attributeId": "A150",
+    "value": "CSER - Laboratories discussed when to modify the strength of PM3, the variant is seen in trans with a pathogenic variant for recessive disorders. Published literature may not always explicitly state the phase of variants found in affected individuals which raises a challenge for invoking PM3.\nWhen phase has not been established, some felt that PM3 could be invoked as supporting evidence. Also, if the variant is seen in trans with a pathogenic variant in more than one individual it was felt that PM3 can be upgraded to strong. However, sites did not agree on how many additional observations were necessary to call the evidence strong (2 vs. 3) but concluded that such guidance would be useful.\n \nLMM - INCREASES IN STRENGTH IF VARIANT SEEN IN MULTIPLE COMPOUND HETS WITH DIFFERENT LIKELY PATHOGENIC/PATHOGENIC VARIANTS",
+    "jsonMockup": "comments: \"CSER - Laboratories discussed when to modify the strength of PM3, the variant is seen in trans with a pathogenic variant for recessive disorders. Published literature may not always explicitly state the phase of variants found in affected individuals which raises a challenge for invoking PM3.\nWhen phase has not been established, some felt that PM3 could be invoked as supporting evidence. Also, if the variant is seen in trans with a pathogenic variant in more than one individual it was felt that PM3 can be upgraded to strong. However, sites did not agree on how many additional observations were necessary to call the evidence strong (2 vs. 3) but concluded that such guidance would be useful.\n \nLMM - INCREASES IN STRENGTH IF VARIANT SEEN IN MULTIPLE COMPOUND HETS WITH DIFFERENT LIKELY PATHOGENIC/PATHOGENIC VARIANTS\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit311",
+    "attributeId": "A072",
+    "value": "PM4",
+    "jsonMockup": "label: \"PM4\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit311",
+    "attributeId": "A075",
+    "value": "Protein length changes as a result of in-frame deletions/insertions in a nonrepeat region or stop-loss variants",
+    "jsonMockup": "description: \"Protein length changes as a result of in-frame deletions/insertions in a nonrepeat region or stop-loss variants\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit311",
+    "attributeId": "A153",
+    "value": "ELSID143",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000216\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit311",
+    "attributeId": "A150",
+    "value": "Need to ensure that variant is not located within a repeat region\n\nThis rule is also (likely) applicable for frameshift variants that result in extension of the protein as opposed to truncation (similar to stop loss).",
+    "jsonMockup": "comments: \"Need to ensure that variant is not located within a repeat region\n\nThis rule is also (likely) applicable for frameshift variants that result in extension of the protein as opposed to truncation (similar to stop loss).\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit312",
+    "attributeId": "A072",
+    "value": "PM5",
+    "jsonMockup": "label: \"PM5\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit312",
+    "attributeId": "A075",
+    "value": "Novel missense change at an amino acid residue where a different missense change determined to be pathogenic has been seen before",
+    "jsonMockup": "description: \"Novel missense change at an amino acid residue where a different missense change determined to be pathogenic has been seen before\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit312",
+    "attributeId": "A153",
+    "value": "ELSID143",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000216\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit312",
+    "attributeId": "A150",
+    "value": "Need to be sure that pathogenic variant exists at the residue in question. Sometimes discrepancy resolution may be required. Some thing like Variantexplorer.org may be useful.\nSometimes no assertion is provided in ClinVar ...may require curation by lit. search.",
+    "jsonMockup": "comments: \"Need to be sure that pathogenic variant exists at the residue in question. Sometimes discrepancy resolution may be required. Some thing like Variantexplorer.org may be useful.\nSometimes no assertion is provided in ClinVar ...may require curation by lit. search.\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit313",
+    "attributeId": "A072",
+    "value": "PM6",
+    "jsonMockup": "label: \"PM6\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit313",
+    "attributeId": "A075",
+    "value": "Assumed de novo, but without confirmation of paternity and maternity",
+    "jsonMockup": "description: \"Assumed de novo, but without confirmation of paternity and maternity\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit313",
+    "attributeId": "A153",
+    "value": "ELSID143",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000216\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit314",
+    "attributeId": "A072",
+    "value": "PP1",
+    "jsonMockup": "label: \"PP1\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit314",
+    "attributeId": "A075",
+    "value": "Cosegregation with disease in multiple affected family members in a gene definitively known to cause the disease",
+    "jsonMockup": "description: \"Cosegregation with disease in multiple affected family members in a gene definitively known to cause the disease\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit314",
+    "attributeId": "A153",
+    "value": "ELSID144",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000329\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit315",
+    "attributeId": "A072",
+    "value": "PP2",
+    "jsonMockup": "label: \"PP2\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit315",
+    "attributeId": "A075",
+    "value": "Missense variant in a gene that has a low rate of benign missense variation and in which missense variants are a common mechanism of disease",
+    "jsonMockup": "description: \"Missense variant in a gene that has a low rate of benign missense variation and in which missense variants are a common mechanism of disease\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit315",
+    "attributeId": "A153",
+    "value": "ELSID144",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000329\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit315",
+    "attributeId": "A150",
+    "value": "Seems no one has established firm rules for when this rule is applicable so not sure how great any examples will be\nAgree with the lack of firm rules. Seems like one criteria may be observed missense variants over 5% allele frequency in ExAC. If this seems reasonable then I could generate a couple of examples.",
+    "jsonMockup": "comments: \"Seems no one has established firm rules for when this rule is applicable so not sure how great any examples will be\nAgree with the lack of firm rules. Seems like one criteria may be observed missense variants over 5% allele frequency in ExAC. If this seems reasonable then I could generate a couple of examples.\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit316",
+    "attributeId": "A072",
+    "value": "PP3",
+    "jsonMockup": "label: \"PP3\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit316",
+    "attributeId": "A075",
+    "value": "Multiple lines of computational evidence support a deleterious effect on the gene or gene product (conservation, evolutionary, splicing impact, etc.)",
+    "jsonMockup": "description: \"Multiple lines of computational evidence support a deleterious effect on the gene or gene product (conservation, evolutionary, splicing impact, etc.)\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit316",
+    "attributeId": "A153",
+    "value": "ELSID144",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000329\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit316",
+    "attributeId": "A150",
+    "value": "Don’t know if there is a definition of “multiple” . If >1 then the algorithms chosen are at the discretion of the curator/lab.  There is a difference between lines of evidence and number of implementations.",
+    "jsonMockup": "comments: \"Don’t know if there is a definition of “multiple” . If >1 then the algorithms chosen are at the discretion of the curator/lab.  There is a difference between lines of evidence and number of implementations.\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit317",
+    "attributeId": "A072",
+    "value": "PP4",
+    "jsonMockup": "label: \"PP4\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit317",
+    "attributeId": "A075",
+    "value": "Patient’s phenotype or family history is highly specific for a disease with a single genetic etiology",
+    "jsonMockup": "description: \"Patient’s phenotype or family history is highly specific for a disease with a single genetic etiology\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit317",
+    "attributeId": "A153",
+    "value": "ELSID144",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000329\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit318",
+    "attributeId": "A072",
+    "value": "PP5",
+    "jsonMockup": "label: \"PP5\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit318",
+    "attributeId": "A075",
+    "value": "Reputable source recently reports variant as pathogenic, but the evidence is not available to the laboratory to perform an independent evaluation",
+    "jsonMockup": "description: \"Reputable source recently reports variant as pathogenic, but the evidence is not available to the laboratory to perform an independent evaluation\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit318",
+    "attributeId": "A153",
+    "value": "ELSID144",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000329\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit319",
+    "attributeId": "A072",
+    "value": "BA1",
+    "jsonMockup": "label: \"BA1\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit319",
+    "attributeId": "A075",
+    "value": "Allele frequency is >5% in Exome Sequencing Project, 1000 Genomes Project, or Exome Aggregation Consortium",
+    "jsonMockup": "description: \"Allele frequency is >5% in Exome Sequencing Project, 1000 Genomes Project, or Exome Aggregation Consortium\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit319",
+    "attributeId": "A153",
+    "value": "ELSID138",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000325\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit319",
+    "attributeId": "A150",
+    "value": "Several groups have lowered the BA1 threshold (e.g. PTEN-1%). Also the sequence variant interpretation group is working on a modified version of this guideline including the minimum # of alleles that need to be examined and the population stratification effects, if any.",
+    "jsonMockup": "comments: \"Several groups have lowered the BA1 threshold (e.g. PTEN-1%). Also the sequence variant interpretation group is working on a modified version of this guideline including the minimum # of alleles that need to be examined and the population stratification effects, if any.\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit320",
+    "attributeId": "A072",
+    "value": "BS1",
+    "jsonMockup": "label: \"BS1\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit320",
+    "attributeId": "A075",
+    "value": "Allele frequency is greater than expected for disorder",
+    "jsonMockup": "description: \"Allele frequency is greater than expected for disorder\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit320",
+    "attributeId": "A153",
+    "value": "ELSID141",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000328\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit320",
+    "attributeId": "A150",
+    "jsonMockup": "comments: \"\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit321",
+    "attributeId": "A072",
+    "value": "BS2",
+    "jsonMockup": "label: \"BS2\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit321",
+    "attributeId": "A153",
+    "value": "ELSID141",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000328\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit321",
+    "attributeId": "A075",
+    "value": "Observed in a healthy adult individual for a recessive (homozygous), dominant (heterozygous), or X-linked (hemizygous) disorder, with full penetrance expected at an early age",
+    "jsonMockup": "description: \"Observed in a healthy adult individual for a recessive (homozygous), dominant (heterozygous), or X-linked (hemizygous) disorder, with full penetrance expected at an early age\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit321",
+    "attributeId": "A150",
+    "value": "This rule should not be used for diseases with reduced penetrance or late/variable age of  onset (such as certain cardiomyopathies).",
+    "jsonMockup": "comments: \"This rule should not be used for diseases with reduced penetrance or late/variable age of  onset (such as certain cardiomyopathies).\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit322",
+    "attributeId": "A072",
+    "value": "BS3",
+    "jsonMockup": "label: \"BS3\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit322",
+    "attributeId": "A075",
+    "value": "Well-established in vitro or in vivo functional studies show no damaging effect on protein function or splicing",
+    "jsonMockup": "description: \"Well-established in vitro or in vivo functional studies show no damaging effect on protein function or splicing\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit322",
+    "attributeId": "A153",
+    "value": "ELSID141",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000328\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit322",
+    "attributeId": "A150",
+    "value": "\nThis will all depend on what is “established”, which could end up being defined by the different clinical domain working groups.\n",
+    "jsonMockup": "comments: \"\nThis will all depend on what is “established”, which could end up being defined by the different clinical domain working groups.\n\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit323",
+    "attributeId": "A072",
+    "value": "BS4",
+    "jsonMockup": "label: \"BS4\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit323",
+    "attributeId": "A075",
+    "value": "Lack of segregation in affected members of a family",
+    "jsonMockup": "description: \"Lack of segregation in affected members of a family\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit323",
+    "attributeId": "A153",
+    "value": "ELSID141",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000328\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit323",
+    "attributeId": "A150",
+    "value": "This rule is for “lack of segregation” meaning phenotype positive / genotype negative (and not pheno neg / geno pos). Also need to be careful of phenocopies. Also need rules for how many cases are needed in use this rule",
+    "jsonMockup": "comments: \"This rule is for “lack of segregation” meaning phenotype positive / genotype negative (and not pheno neg / geno pos). Also need to be careful of phenocopies. Also need rules for how many cases are needed in use this rule\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit324",
+    "attributeId": "A072",
+    "value": "BP1",
+    "jsonMockup": "label: \"BP1\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit324",
+    "attributeId": "A075",
+    "value": "Missense variant in a gene for which primarily truncating variants are known to cause disease",
+    "jsonMockup": "description: \"Missense variant in a gene for which primarily truncating variants are known to cause disease\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit324",
+    "attributeId": "A153",
+    "value": "ELSID140",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000327\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit324",
+    "attributeId": "A150",
+    "value": "Is there any guidance on the proportion of pathogenic variants that are LOF to apply this rule?  99%? 90%? 75%?",
+    "jsonMockup": "comments: \"Is there any guidance on the proportion of pathogenic variants that are LOF to apply this rule?  99%? 90%? 75%?\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit325",
+    "attributeId": "A072",
+    "value": "BP2",
+    "jsonMockup": "label: \"BP2\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit325",
+    "attributeId": "A075",
+    "value": "Observed in trans with a pathogenic variant for a fully penetrant dominant gene/disorder or observed in cis with a pathogenic variant in any inheritance pattern",
+    "jsonMockup": "description: \"Observed in trans with a pathogenic variant for a fully penetrant dominant gene/disorder or observed in cis with a pathogenic variant in any inheritance pattern\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit325",
+    "attributeId": "A153",
+    "value": "ELSID140",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000327\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit326",
+    "attributeId": "A072",
+    "value": "BP3",
+    "jsonMockup": "label: \"BP3\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit326",
+    "attributeId": "A075",
+    "value": "In-frame deletions/insertions in a repetitive region without a known function",
+    "jsonMockup": "description: \"In-frame deletions/insertions in a repetitive region without a known function\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit326",
+    "attributeId": "A153",
+    "value": "ELSID140",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000327\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit327",
+    "attributeId": "A072",
+    "value": "BP4",
+    "jsonMockup": "label: \"BP4\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit327",
+    "attributeId": "A075",
+    "value": "Multiple lines of computational evidence suggest no impact on gene or gene product (conservation, evolutionary, splicing impact, etc.)",
+    "jsonMockup": "description: \"Multiple lines of computational evidence suggest no impact on gene or gene product (conservation, evolutionary, splicing impact, etc.)\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit327",
+    "attributeId": "A153",
+    "value": "ELSID140",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000327\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit327",
+    "attributeId": "A150",
+    "value": "same issues as PP3.",
+    "jsonMockup": "comments: \"same issues as PP3.\"",
+    "attributeName": "comments",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit328",
+    "attributeId": "A072",
+    "value": "BP5",
+    "jsonMockup": "label: \"BP5\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit328",
+    "attributeId": "A075",
+    "value": "Variant found in a case with an alternate molecular basis for disease",
+    "jsonMockup": "description: \"Variant found in a case with an alternate molecular basis for disease\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit328",
+    "attributeId": "A153",
+    "value": "ELSID140",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000327\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit329",
+    "attributeId": "A072",
+    "value": "BP6",
+    "jsonMockup": "label: \"BP6\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit329",
+    "attributeId": "A075",
+    "value": "Reputable source recently reports variant as benign, but the evidence is not available to the laboratory to perform an independent evaluation",
+    "jsonMockup": "description: \"Reputable source recently reports variant as benign, but the evidence is not available to the laboratory to perform an independent evaluation\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit329",
+    "attributeId": "A153",
+    "value": "ELSID140",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000327\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit330",
+    "attributeId": "A072",
+    "value": "BP7",
+    "jsonMockup": "label: \"BP7\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit330",
+    "attributeId": "A075",
+    "value": "A synonymous (silent) variant for which splicing prediction algorithms predict no impact to the splice consensus sequence nor the creation of a new splice site AND the nucleotide is not highly conserved",
+    "jsonMockup": "description: \"A synonymous (silent) variant for which splicing prediction algorithms predict no impact to the splice consensus sequence nor the creation of a new splice site AND the nucleotide is not highly conserved\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "Crit330",
+    "attributeId": "A153",
+    "value": "ELSID140",
+    "jsonMockup": "defaultStrength: { @id : \"SEPIO:0000327\" }",
+    "attributeName": "defaultStrength",
+    "attributeType": "EvidenceLineStrength",
+    "domainEntityType": "Criterion"
+  },
+  {
+    "subjectId": "AssertMeth331",
+    "attributeId": "A075",
+    "value": "ACMG ISV guidelines 2015",
+    "jsonMockup": "description: \"ACMG ISV guidelines 2015\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "AssertionMethod"
+  },
+  {
+    "subjectId": "AssertMeth331",
+    "attributeId": "A156",
+    "value": "https://www.acmg.net/docs/Standards_Guidelines_for_the_Interpretation_of_Sequence_Variants.pdf",
+    "jsonMockup": "url: \"https://www.acmg.net/docs/Standards_Guidelines_for_the_Interpretation_of_Sequence_Variants.pdf\"",
+    "attributeName": "url",
+    "attributeType": "String",
+    "domainEntityType": "AssertionMethod"
+  },
+  {
+    "subjectId": "AssertMeth331",
+    "attributeId": "A173",
+    "value": "1.0",
+    "jsonMockup": "version: \"1.0\"",
+    "attributeName": "version",
+    "attributeType": "String",
+    "domainEntityType": "AssertionMethod"
+  },
+  {
+    "subjectId": "AssertMeth331",
+    "attributeId": "A174",
+    "value": "ScorAlg332",
+    "jsonMockup": "scoringAlgorithm: { @id:\"_blank\" }",
+    "attributeName": "scoringAlgorithm",
+    "attributeType": "ScoringAlgorithm",
+    "domainEntityType": "AssertionMethod"
+  },
+  {
+    "subjectId": "ScorAlg332",
+    "attributeId": "A075",
+    "value": "This is the description of how the weighting of the satisfied criterion are typically evaluated to arrive at a specific clinical significance.",
+    "jsonMockup": "description: \"This is the description of how the weighting of the satisfied criterion are typically evaluated to arrive at a specific clinical significance.\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "ScoringAlgorithm"
+  },
+  {
+    "subjectId": "Indiv333",
+    "attributeId": "A075",
+    "value": "individual #001",
+    "jsonMockup": "description: \"individual #001\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv334",
+    "attributeId": "A075",
+    "value": "individual #002",
+    "jsonMockup": "description: \"individual #002\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv335",
+    "attributeId": "A075",
+    "value": "individual #003",
+    "jsonMockup": "description: \"individual #003\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv336",
+    "attributeId": "A075",
+    "value": "individual #004",
+    "jsonMockup": "description: \"individual #004\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv337",
+    "attributeId": "A075",
+    "value": "individual #005",
+    "jsonMockup": "description: \"individual #005\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv338",
+    "attributeId": "A075",
+    "value": "individual #006",
+    "jsonMockup": "description: \"individual #006\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv339",
+    "attributeId": "A075",
+    "value": "individual #007",
+    "jsonMockup": "description: \"individual #007\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv340",
+    "attributeId": "A075",
+    "value": "individual #008",
+    "jsonMockup": "description: \"individual #008\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv341",
+    "attributeId": "A075",
+    "value": "individual #009",
+    "jsonMockup": "description: \"individual #009\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv342",
+    "attributeId": "A075",
+    "value": "individual #010",
+    "jsonMockup": "description: \"individual #010\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv343",
+    "attributeId": "A075",
+    "value": "individual #011",
+    "jsonMockup": "description: \"individual #011\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv344",
+    "attributeId": "A075",
+    "value": "individual #012",
+    "jsonMockup": "description: \"individual #012\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv345",
+    "attributeId": "A075",
+    "value": "individual #013",
+    "jsonMockup": "description: \"individual #013\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv346",
+    "attributeId": "A075",
+    "value": "individual #014",
+    "jsonMockup": "description: \"individual #014\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv347",
+    "attributeId": "A075",
+    "value": "individual #015",
+    "jsonMockup": "description: \"individual #015\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv348",
+    "attributeId": "A075",
+    "value": "individual #016",
+    "jsonMockup": "description: \"individual #016\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv349",
+    "attributeId": "A075",
+    "value": "individual #017",
+    "jsonMockup": "description: \"individual #017\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv350",
+    "attributeId": "A075",
+    "value": "individual #018",
+    "jsonMockup": "description: \"individual #018\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv351",
+    "attributeId": "A075",
+    "value": "individual #019",
+    "jsonMockup": "description: \"individual #019\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv352",
+    "attributeId": "A075",
+    "value": "individual #020",
+    "jsonMockup": "description: \"individual #020\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv353",
+    "attributeId": "A075",
+    "value": "individual #021",
+    "jsonMockup": "description: \"individual #021\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv354",
+    "attributeId": "A075",
+    "value": "individual #022",
+    "jsonMockup": "description: \"individual #022\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv355",
+    "attributeId": "A075",
+    "value": "individual #023",
+    "jsonMockup": "description: \"individual #023\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv356",
+    "attributeId": "A075",
+    "value": "individual #024",
+    "jsonMockup": "description: \"individual #024\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv357",
+    "attributeId": "A075",
+    "value": "individual #025",
+    "jsonMockup": "description: \"individual #025\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv358",
+    "attributeId": "A075",
+    "value": "individual #026",
+    "jsonMockup": "description: \"individual #026\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv359",
+    "attributeId": "A075",
+    "value": "individual #027",
+    "jsonMockup": "description: \"individual #027\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv360",
+    "attributeId": "A075",
+    "value": "individual #028",
+    "jsonMockup": "description: \"individual #028\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv361",
+    "attributeId": "A075",
+    "value": "individual #029",
+    "jsonMockup": "description: \"individual #029\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Indiv362",
+    "attributeId": "A075",
+    "value": "individual #030",
+    "jsonMockup": "description: \"individual #030\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Individual"
+  },
+  {
+    "subjectId": "Fam363",
+    "attributeId": "A072",
+    "value": "12A",
+    "jsonMockup": "label: \"12A\"",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "Family"
+  },
+  {
+    "subjectId": "Fam363",
+    "attributeId": "A075",
+    "value": "Family #001",
+    "jsonMockup": "description: \"Family #001\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Family"
+  },
+  {
+    "subjectId": "Fam364",
+    "attributeId": "A075",
+    "value": "Family #002",
+    "jsonMockup": "description: \"Family #002\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Family"
+  },
+  {
+    "subjectId": "Fam365",
+    "attributeId": "A075",
+    "value": "Family #003",
+    "jsonMockup": "description: \"Family #003\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Family"
+  },
+  {
+    "subjectId": "Fam366",
+    "attributeId": "A075",
+    "value": "Family #004",
+    "jsonMockup": "description: \"Family #004\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Family"
+  },
+  {
+    "subjectId": "Fam367",
+    "attributeId": "A075",
+    "value": "Family #005",
+    "jsonMockup": "description: \"Family #005\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Family"
+  },
+  {
+    "subjectId": "Fam368",
+    "attributeId": "A075",
+    "value": "Family #006",
+    "jsonMockup": "description: \"Family #006\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Family"
+  },
+  {
+    "subjectId": "Fam369",
+    "attributeId": "A075",
+    "value": "Family #007",
+    "jsonMockup": "description: \"Family #007\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Family"
+  },
+  {
+    "subjectId": "Fam370",
+    "attributeId": "A075",
+    "value": "Family #008",
+    "jsonMockup": "description: \"Family #008\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Family"
+  },
+  {
+    "subjectId": "Fam371",
+    "attributeId": "A075",
+    "value": "Family #009",
+    "jsonMockup": "description: \"Family #009\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Family"
+  },
+  {
+    "subjectId": "Fam372",
+    "attributeId": "A075",
+    "value": "Family #010",
+    "jsonMockup": "description: \"Family #010\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Family"
+  },
+  {
+    "subjectId": "Fam373",
+    "attributeId": "A075",
+    "value": "Family #011",
+    "jsonMockup": "description: \"Family #011\"",
+    "attributeName": "description",
+    "attributeType": "String",
+    "domainEntityType": "Family"
+  }
+]

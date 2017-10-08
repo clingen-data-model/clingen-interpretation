@@ -2,174 +2,213 @@
   "VS002": {
     "id": "VS002",
     "source": "SO",
-    "name": "MolecularConsequence",
-    "finish": "chris x"
+    "name": "MolecularConsequenceType",
+    "type": "extensible",
+    "referenced By": "MolecularConsequence.consequence"
   },
   "VS003": {
     "id": "VS003",
     "source": "LOINC/GENO",
     "name": "Significance",
-    "finish": "done"
+    "type": "restricted",
+    "referenced By": "VariantInterpretation.outcome"
   },
   "VS004": {
     "id": "VS004",
     "source": "SO",
     "name": "RegionAnnotationType",
-    "finish": "chris x"
+    "referenced By": "ExcludedRegionType.annotation, \nRegionType.annotation"
   },
   "VS005": {
     "id": "VS005",
     "source": "GENO",
     "name": "Phase",
-    "finish": "done"
+    "referenced By": "IndividualAllele.phase"
   },
   "VS006": {
     "id": "VS006",
     "source": "GENO",
     "name": "AllelicState",
     "description": "The level of occurance of a single DNA marker within a set of chromosomes. Informed by LOINC 53034-5 but with additional codes for somatic mosaicism and asserted absence.",
-    "finish": "bradford x"
+    "referenced By": "IndividualAllele.primaryZygosity"
   },
   "VS007": {
     "id": "VS007",
     "source": "HPO, GENO",
     "name": "ModeOfInheritance",
-    "finish": "chris x"
+    "referenced By": "IndividualAllele.secondaryZygosity, \nIndividualAllele.secondaryZygosity, \nGeneticCondition.modeOfInheritance, \nAggregateSegregation.modeOfInheritance"
   },
   "VS008": {
     "id": "VS008",
     "source": "RO",
-    "name": "ReferenceSequenceRelatedType",
-    "finish": "done"
+    "name": "Relationship"
   },
   "VS009": {
     "id": "VS009",
     "source": "SO",
-    "name": "Mechanism",
-    "finish": "chris x"
+    "name": "MechanismType",
+    "referenced By": "ConditionMechanism.mechanism"
   },
   "VS010": {
     "id": "VS010",
     "source": "SEPIO",
     "name": "PredictionType",
-    "finish": "done"
+    "referenced By": "InSilicoPrediction.predictionType"
   },
   "VS011": {
     "id": "VS011",
     "source": "SEPIO",
     "name": "CriterionEvaluation",
-    "finish": "done"
+    "referenced By": "CriterionAssessment.outcome"
   },
   "VS012": {
     "id": "VS012",
     "source": "OBI",
     "name": "AlleleFunctionalImpactType",
-    "finish": "done"
+    "referenced By": "AlleleFunctionalImpact.assayType"
   },
   "VS013": {
     "id": "VS013",
     "source": "NCIT",
     "name": "PopulationType",
     "description": "From Exac http://exac.broadinstitute.org/faq",
-    "finish": "larry x"
+    "referenced By": "AlleleFrequency.population, \nConditionPrevelance.population"
   },
   "VS014": {
     "id": "VS014",
     "source": "SEPIO",
     "name": "BenignMissenseVariationRate",
-    "finish": "chris x"
+    "referenced By": "BenignMissenseVariationRate.value"
   },
   "VS015": {
     "id": "VS015",
     "source": "HPO",
     "name": "PenetranceType",
-    "finish": "chris x"
+    "referenced By": "ConditionPenetrance.penetrance"
   },
   "VS016": {
     "id": "VS016",
     "source": "SEPIO",
     "name": "ConditionMechanismStrength",
     "description": "The level of strength for which a class of variants is a known mechanism for a condition",
-    "finish": "done"
+    "referenced By": "ConditionMechanism.mechanismConfidence"
   },
   "VS017": {
     "id": "VS017",
     "source": "SEPIO",
     "name": "EvidenceLineStrength",
     "description": "The set of strengths needed for an evidence line.",
-    "finish": "done"
+    "referenced By": "Criterion.defaultStrength, EvidenceLine.evidenceStrength"
   },
   "VS018": {
     "id": "VS018",
     "source": "OMIM, Orphanet, MeSH, UMLS, DOID",
     "name": "Disease",
-    "finish": "non-enumerable"
+    "referenced By": "GeneticCondition.disease"
   },
   "VS019": {
     "id": "VS019",
     "source": "HPO",
     "name": "Phenotype",
-    "finish": "non-enumerable"
+    "referenced By": "GeneticCondition.phenotype"
   },
   "VS020": {
     "id": "VS020",
     "source": "RefSeq, Ensembl, LRG",
     "name": "ReferenceSequence",
     "description": "Accessions of sequences used as reference to define Locus for Regions and ContextualAlleles (extensible)",
-    "finish": "non-enumerable"
+    "referenced By": "SequenceLocation.referenceSequence, \nReferenceSequence.produces, \nReferenceSequence.producedBy"
   },
   "VS021": {
     "id": "VS021",
     "source": "SEPIO",
     "name": "ContributoryRole",
-    "finish": "done"
+    "referenced By": "Contribution.contributionRole"
   },
   "VS022": {
     "id": "VS022",
     "source": "GENO",
     "name": "AlleleInheritanceType",
-    "description": "TODO"
+    "description": "TODO",
+    "referenced By": "IndividualAlleleInheritance.alleleInheritance"
   },
   "VS023": {
     "id": "VS023",
     "source": "SEPIO",
     "name": "AscertainmentType",
     "description": "A coded or free-text term representing how people were chosen to be in the cohort in which the frequency is calculated.\nIt may be either because there are lots of ways that a cohort might be generated and our value set may not provide enough to allow for all cases.",
-    "finish": "chris x"
+    "referenced By": "AlleleFrequency.ascertainment"
   },
   "VS024": {
     "id": "VS024",
     "source": "SEPIO",
-    "name": "LocusSpecificityType"
+    "name": "LocusSpecificityType",
+    "referenced By": "LocusHeterogeneity.specificity"
   },
   "VS025": {
     "id": "VS025",
     "source": "SEPIO",
-    "name": "Conservation"
+    "name": "Conservation",
+    "referenced By": "AlleleConservation.outcome"
   },
   "VS026": {
     "id": "VS026",
     "source": "SEPIO",
-    "name": "PaternalConfirmation"
+    "name": "ParentalConfirmation",
+    "referenced By": "IndividualAlleleInheritance.parentalConfirmation"
   },
   "VS027": {
     "id": "VS027",
     "source": "SEPIO",
-    "name": "ConditionStatus"
+    "name": "ConditionStatus",
+    "referenced By": "IndividualCondition.individualHasCondition, \nFamilyCondition.familyHasCondition"
   },
   "VS028": {
     "id": "VS028",
     "source": "SEPIO",
-    "name": "InconsistentSegregationObserved"
+    "name": "InconsistentSegregationObserved",
+    "referenced By": "FamilySegregation.inconsistentSegregationsObserved"
   },
   "VS029": {
     "id": "VS029",
     "source": "SEPIO",
-    "name": "NullAllele"
+    "name": "NullAllele",
+    "referenced By": "NullAllele.annotation"
   },
   "VS030": {
     "id": "VS030",
     "source": "SEPIO",
-    "name": "RegionAlleles"
+    "name": "RegionAllelesOutcome",
+    "referenced By": "RegionAlleles.outcome"
+  },
+  "VS033": {
+    "id": "VS033",
+    "source": "HGNC, ENTREZ-GENE",
+    "name": "Gene",
+    "referenced By": "Gene.geneSymbol"
+  },
+  "VS034": {
+    "id": "VS034",
+    "source": "IAO",
+    "name": "SynonymType",
+    "referenced By": "Synonym.synonymType"
+  },
+  "VS035": {
+    "id": "VS035",
+    "source": "SEPIO",
+    "name": "ACMGCriterion",
+    "referenced By": "CriterionAssessment.criterion"
+  },
+  "VS036": {
+    "id": "VS036",
+    "source": "SEPIO",
+    "name": "AssertionMethod",
+    "referenced By": "VariantInterpretation.assertionMethod"
+  },
+  "VS037": {
+    "id": "VS037",
+    "source": "SEPIO",
+    "name": "AssertionMethodScoringAlgorithm",
+    "referenced By": "AssertionMethod.scoringAlgorithm"
   }
 }

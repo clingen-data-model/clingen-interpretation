@@ -3,1024 +3,1024 @@
     "subjectId": "GenCond001",
     "attributeId": "A157",
     "value": "Breast Ovarian Cancer, Autosomal Dominant",
+    "jsonMockup": "name: \"Breast Ovarian Cancer, Autosomal Dominant\"",
     "attributeName": "name",
-    "attributeType": "String",
-    "codeDisplayOrNameValue": "Breast Ovarian Cancer, Autosomal Dominant"
+    "attributeType": "String"
   },
   {
     "subjectId": "GenCond001",
     "attributeId": "A158",
-    "value": "MESH:D061325",
+    "value": "DisID148",
+    "jsonMockup": "disease: { @id : \"MESH:D061325\", label: \"hereditary breast ovarian cancer\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "hereditary breast ovarian cancer"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond001",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond002",
     "attributeId": "A158",
-    "value": "Orphanet:217604",
+    "value": "DisID162",
+    "jsonMockup": "disease: { @id : \"Orphanet:217604\", label: \"dilated cardiomyopathy\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "dilated cardiomyopathy"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond002",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond003",
     "attributeId": "A158",
-    "value": "Orphanet:648",
+    "value": "DisID175",
+    "jsonMockup": "disease: { @id : \"Orphanet:648\", label: \"noonan syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "noonan syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond003",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond004",
     "attributeId": "A158",
-    "value": "Orphanet:244",
+    "value": "DisID163",
+    "jsonMockup": "disease: { @id : \"Orphanet:244\", label: \"Primary ciliary dyskenisia\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Primary ciliary dyskenisia"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond005",
     "attributeId": "A158",
-    "value": "Orphanet:3071",
+    "value": "DisID167",
+    "jsonMockup": "disease: { @id : \"Orphanet:3071\", label: \"costello syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "costello syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond005",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond006",
     "attributeId": "A158",
-    "value": "OMIM:609942",
+    "value": "DisID152",
+    "jsonMockup": "disease: { @id : \"OMIM:609942\", label: \"noonan syndrome 3\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "noonan syndrome 3"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond007",
     "attributeId": "A158",
-    "value": "Orphanet:167848",
+    "value": "DisID158",
+    "jsonMockup": "disease: { @id : \"Orphanet:167848\", label: \"cardiomyopathy\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "cardiomyopathy"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond007",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond008",
     "attributeId": "A158",
-    "value": "OMIM:601419",
+    "value": "DisID151",
+    "jsonMockup": "disease: { @id : \"OMIM:601419\", label: \"myofibrillar myopathy 1\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "myofibrillar myopathy 1"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond008",
     "attributeId": "A157",
     "value": "desmin related myopathy",
+    "jsonMockup": "name: \"desmin related myopathy\"",
     "attributeName": "name",
-    "attributeType": "String",
-    "codeDisplayOrNameValue": "desmin related myopathy"
+    "attributeType": "String"
   },
   {
     "subjectId": "GenCond009",
     "attributeId": "A157",
     "value": "Epilepsy with Mental Retardation",
+    "jsonMockup": "name: \"Epilepsy with Mental Retardation\"",
     "attributeName": "name",
-    "attributeType": "String",
-    "codeDisplayOrNameValue": "Epilepsy with Mental Retardation"
+    "attributeType": "String"
   },
   {
     "subjectId": "GenCond010",
     "attributeId": "A158",
-    "value": "Orphanet:87884",
+    "value": "DisID183",
+    "jsonMockup": "disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "nonsyndromic deafness"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond010",
     "attributeId": "A142",
-    "value": "HP:0000007",
+    "value": "MOIID052",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Recessive"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond010",
     "attributeId": "A143",
-    "value": "hgnc:GIPC3",
+    "value": "G250",
+    "jsonMockup": "gene: { @id : \"HGNC:18183\", geneSymbol: \"GIPC3\" }",
     "attributeName": "gene",
-    "attributeType": "Gene",
-    "codeDisplayOrNameValue": "GIPC3"
+    "attributeType": "Gene"
   },
   {
     "subjectId": "GenCond011",
     "attributeId": "A158",
-    "value": "Orphanet:423",
+    "value": "DisID172",
+    "jsonMockup": "disease: { @id : \"Orphanet:423\", label: \"Malignant hyperthermia\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Malignant hyperthermia"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond011",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond012",
     "attributeId": "A141",
-    "value": "HP:0011014",
+    "value": "PhenID189",
+    "jsonMockup": "phenotype: { @id : \"HP:0011014\", label: \"Abnormal Glucose Homeostasis\" }",
     "attributeName": "phenotype",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Abnormal Glucose Homeostasis"
+    "attributeType": "Phenotype"
   },
   {
     "subjectId": "GenCond013",
     "attributeId": "A158",
-    "value": "Orphanet:324",
+    "value": "DisID169",
+    "jsonMockup": "disease: { @id : \"Orphanet:324\", label: \"Fabry disease\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Fabry disease"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond013",
     "attributeId": "A142",
-    "value": "HP:0001419",
+    "value": "MOIID054",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0001419\", label: \"X linked recessive inheritance\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "X linked recessive inheritance"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond014",
     "attributeId": "A157",
     "value": "PCD autosomal recessive w/ outer dynein arm (ODA) defects",
+    "jsonMockup": "name: \"PCD autosomal recessive w/ outer dynein arm (ODA) defects\"",
     "attributeName": "name",
-    "attributeType": "String",
-    "codeDisplayOrNameValue": "PCD autosomal recessive w/ outer dynein arm (ODA) defects"
+    "attributeType": "String"
   },
   {
     "subjectId": "GenCond014",
     "attributeId": "A158",
-    "value": "Orphanet:244",
+    "value": "DisID163",
+    "jsonMockup": "disease: { @id : \"Orphanet:244\", label: \"Primary ciliary dyskenisia\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Primary ciliary dyskenisia"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond014",
     "attributeId": "A142",
-    "value": "HP:0000007",
+    "value": "MOIID052",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Recessive"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond014",
     "attributeId": "A141",
-    "value": "HP:0200106",
+    "value": "PhenID191",
+    "jsonMockup": "phenotype: { @id : \"HP:0200106\", label: \"Absent/shortened dynein arms\" }",
     "attributeName": "phenotype",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Absent/shortened dynein arms"
+    "attributeType": "Phenotype"
   },
   {
     "subjectId": "GenCond015",
     "attributeId": "A158",
-    "value": "Orphanet:216",
+    "value": "DisID159",
+    "jsonMockup": "disease: { @id : \"Orphanet:216\", label: \"neuronal ceroid lipofuscinosis\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "neuronal ceroid lipofuscinosis"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond015",
     "attributeId": "A142",
-    "value": "HP:0000007",
+    "value": "MOIID052",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Recessive"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond015",
     "attributeId": "A143",
-    "value": "hgnc:TTP1",
+    "value": "G251",
+    "jsonMockup": "gene: { @id : \"HGNC:12404\", geneSymbol: \"TTP1\" }",
     "attributeName": "gene",
-    "attributeType": "Gene",
-    "codeDisplayOrNameValue": "TTP1"
+    "attributeType": "Gene"
   },
   {
     "subjectId": "GenCond016",
     "attributeId": "A158",
-    "value": "Orphanet:217569",
+    "value": "DisID160",
+    "jsonMockup": "disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "hypertrophic cardiomyopathy"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond016",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond016",
     "attributeId": "A157",
     "value": "Primary familial hypertrophic cardiomyopathy, Autosomal Dominant",
+    "jsonMockup": "name: \"Primary familial hypertrophic cardiomyopathy, Autosomal Dominant\"",
     "attributeName": "name",
-    "attributeType": "String",
-    "codeDisplayOrNameValue": "Primary familial hypertrophic cardiomyopathy, Autosomal Dominant"
+    "attributeType": "String"
   },
   {
     "subjectId": "GenCond017",
     "attributeId": "A158",
-    "value": "Orphanet:664",
+    "value": "DisID176",
+    "jsonMockup": "disease: { @id : \"Orphanet:664\", label: \"Ornithine carbamoyltransferase deficiency\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Ornithine carbamoyltransferase deficiency"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond018",
     "attributeId": "A158",
-    "value": "Orphanet:122",
+    "value": "DisID155",
+    "jsonMockup": "disease: { @id : \"Orphanet:122\", label: \"Birt-Hogg-Dube Syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Birt-Hogg-Dube Syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond019",
     "attributeId": "A158",
-    "value": "Orphanet:1340",
+    "value": "DisID156",
+    "jsonMockup": "disease: { @id : \"Orphanet:1340\", label: \"cardiofaciocutaneous syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "cardiofaciocutaneous syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond020",
     "attributeId": "A158",
-    "value": "Orphanet:217569",
+    "value": "DisID160",
+    "jsonMockup": "disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "hypertrophic cardiomyopathy"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond020",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond021",
     "attributeId": "A158",
-    "value": "Orphanet:886",
+    "value": "DisID184",
+    "jsonMockup": "disease: { @id : \"Orphanet:886\", label: \"Usher syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Usher syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond021",
     "attributeId": "A142",
-    "value": "HP:0000007",
+    "value": "MOIID052",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Recessive"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond022",
     "attributeId": "A158",
-    "value": "Orphanet:774",
+    "value": "DisID180",
+    "jsonMockup": "disease: { @id : \"Orphanet:774\", label: \"hereditary hemorrhagic telangiectasia\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "hereditary hemorrhagic telangiectasia"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond022",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond023",
     "attributeId": "A158",
-    "value": "OMIM:612555",
+    "value": "DisID153",
+    "jsonMockup": "disease: { @id : \"OMIM:612555\", label: \"Breast-Ovarian Cancer, Familial, Susceptibility To, 2\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond023",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond024",
     "attributeId": "A158",
-    "value": "OMIM:614065",
+    "value": "DisID154",
+    "jsonMockup": "disease: { @id : \"OMIM:614065\", label: \"Myopathy, Distal, type 4\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Myopathy, Distal, type 4"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond024",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond025",
     "attributeId": "A158",
-    "value": "Orphanet:586",
+    "value": "DisID174",
+    "jsonMockup": "disease: { @id : \"Orphanet:586\", label: \"Cystic Fibrosis\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Cystic Fibrosis"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond025",
     "attributeId": "A142",
-    "value": "HP:0000007",
+    "value": "MOIID052",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Recessive"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond026",
     "attributeId": "A158",
-    "value": "Orphanet:558",
+    "value": "DisID173",
+    "jsonMockup": "disease: { @id : \"Orphanet:558\", label: \"Marfan Syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Marfan Syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond026",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond027",
     "attributeId": "A158",
-    "value": "Orphanet:2609",
+    "value": "DisID165",
+    "jsonMockup": "disease: { @id : \"Orphanet:2609\", label: \"Mitochondrial complex 1 deficiency\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Mitochondrial complex 1 deficiency"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond027",
     "attributeId": "A142",
-    "value": "HP:0001423",
+    "value": "MOIID045",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0001423\", label: \"X-linked dominant inheritance\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "X-linked dominant inheritance"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond028",
     "attributeId": "A158",
-    "value": "Orphanet:2855",
+    "value": "DisID166",
+    "jsonMockup": "disease: { @id : \"Orphanet:2855\", label: \"Perrault Syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Perrault Syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond028",
     "attributeId": "A142",
-    "value": "HP:0000007",
+    "value": "MOIID052",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Recessive"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond029",
     "attributeId": "A158",
-    "value": "Orphanet:319182",
+    "value": "DisID168",
+    "jsonMockup": "disease: { @id : \"Orphanet:319182\", label: \"Wiedemann-Steiner syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Wiedemann-Steiner syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond029",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond030",
     "attributeId": "A158",
-    "value": "Orphanet:733",
+    "value": "DisID178",
+    "jsonMockup": "disease: { @id : \"Orphanet:733\", label: \"Familial Adenomatous Polyposis\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Familial Adenomatous Polyposis"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond030",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond035",
     "attributeId": "A158",
-    "value": "OMIM:143890",
+    "value": "DisID150",
+    "jsonMockup": "disease: { @id : \"OMIM:143890\", label: \"Hypercholesterolemia, Familial\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Hypercholesterolemia, Familial"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond035",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond036",
     "attributeId": "A158",
-    "value": "Orphanet:145",
+    "value": "DisID157",
+    "jsonMockup": "disease: { @id : \"Orphanet:145\", label: \"hereditary breast and ovarian cancer syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "hereditary breast and ovarian cancer syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond036",
     "attributeId": "A157",
     "value": "hereditary breast and ovarian cancer",
+    "jsonMockup": "name: \"hereditary breast and ovarian cancer\"",
     "attributeName": "name",
-    "attributeType": "String",
-    "codeDisplayOrNameValue": "hereditary breast and ovarian cancer"
+    "attributeType": "String"
   },
   {
     "subjectId": "GenCond037",
     "attributeId": "A158",
-    "value": "Orphanet:84",
+    "value": "DisID182",
+    "jsonMockup": "disease: { @id : \"Orphanet:84\", label: \"Fanconi Anemia\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Fanconi Anemia"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond038",
     "attributeId": "A158",
-    "value": "Orphanet:791",
+    "value": "DisID181",
+    "jsonMockup": "disease: { @id : \"Orphanet:791\", label: \"Retinitis Pigmentosa\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Retinitis Pigmentosa"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond039",
     "attributeId": "A141",
-    "value": "HP:0012873",
+    "value": "PhenID190",
+    "jsonMockup": "phenotype: { @id : \"HP:0012873\", label: \"Absent vas deferens\" }",
     "attributeName": "phenotype",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Absent vas deferens"
+    "attributeType": "Phenotype"
   },
   {
     "subjectId": "GenCond040",
     "attributeId": "A158",
-    "value": "Orphanet:364526",
+    "value": "DisID170",
+    "jsonMockup": "disease: { @id : \"Orphanet:364526\", label: \"Primary bone dysplasia\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Primary bone dysplasia"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond041",
     "attributeId": "A158",
-    "value": "Orphanet:750",
+    "value": "DisID179",
+    "jsonMockup": "disease: { @id : \"Orphanet:750\", label: \"pseudoachondroplasia\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "pseudoachondroplasia"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond041",
     "attributeId": "A157",
     "value": "Pseudoachondroplastic spondyloepiphyseal dysplasia",
+    "jsonMockup": "name: \"Pseudoachondroplastic spondyloepiphyseal dysplasia\"",
     "attributeName": "name",
-    "attributeType": "String",
-    "codeDisplayOrNameValue": "Pseudoachondroplastic spondyloepiphyseal dysplasia"
+    "attributeType": "String"
   },
   {
     "subjectId": "GenCond042",
     "attributeId": "A158",
-    "value": "Orphanet:750",
+    "value": "DisID179",
+    "jsonMockup": "disease: { @id : \"Orphanet:750\", label: \"pseudoachondroplasia\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "pseudoachondroplasia"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond043",
     "attributeId": "A158",
-    "value": "OMIM:612555",
+    "value": "DisID153",
+    "jsonMockup": "disease: { @id : \"OMIM:612555\", label: \"Breast-Ovarian Cancer, Familial, Susceptibility To, 2\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond044",
     "attributeId": "A158",
-    "value": "Orphanet:414",
+    "value": "DisID171",
+    "jsonMockup": "disease: { @id : \"Orphanet:414\", label: \"Gyrate atrophy of choroid and retina\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Gyrate atrophy of choroid and retina"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond045",
     "attributeId": "A158",
-    "value": "Orphanet:244",
+    "value": "DisID163",
+    "jsonMockup": "disease: { @id : \"Orphanet:244\", label: \"Primary ciliary dyskenisia\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Primary ciliary dyskenisia"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond045",
     "attributeId": "A142",
-    "value": "HP:0000007",
+    "value": "MOIID052",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Recessive"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond046",
     "attributeId": "A158",
-    "value": "Orphanet:247",
+    "value": "DisID164",
+    "jsonMockup": "disease: { @id : \"Orphanet:247\", label: \"arrhythmogenic right ventricular cardiomyopathy\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "arrhythmogenic right ventricular cardiomyopathy"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond047",
     "attributeId": "A158",
-    "value": "Orphanet:217604",
+    "value": "DisID162",
+    "jsonMockup": "disease: { @id : \"Orphanet:217604\", label: \"dilated cardiomyopathy\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "dilated cardiomyopathy"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond048",
     "attributeId": "A158",
-    "value": "Orphanet:87884",
+    "value": "DisID183",
+    "jsonMockup": "disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "nonsyndromic deafness"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond048",
     "attributeId": "A157",
     "value": "Hearing Loss",
+    "jsonMockup": "name: \"Hearing Loss\"",
     "attributeName": "name",
-    "attributeType": "String",
-    "codeDisplayOrNameValue": "Hearing Loss"
+    "attributeType": "String"
   },
   {
     "subjectId": "GenCond049",
     "attributeId": "A158",
-    "value": "Orphanet:98733",
+    "value": "DisID185",
+    "jsonMockup": "disease: { @id : \"Orphanet:98733\", label: \"Noonan syndrome and noonan-related syndrom\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Noonan syndrome and noonan-related syndrom"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond049",
     "attributeId": "A157",
     "value": "Rasopathy",
+    "jsonMockup": "name: \"Rasopathy\"",
     "attributeName": "name",
-    "attributeType": "String",
-    "codeDisplayOrNameValue": "Rasopathy"
+    "attributeType": "String"
   },
   {
     "subjectId": "GenCond050",
     "attributeId": "A157",
     "value": "Breast Ovarian Cancer, Autosomal Dominant",
+    "jsonMockup": "name: \"Breast Ovarian Cancer, Autosomal Dominant\"",
     "attributeName": "name",
-    "attributeType": "String",
-    "codeDisplayOrNameValue": "Breast Ovarian Cancer, Autosomal Dominant"
+    "attributeType": "String"
   },
   {
     "subjectId": "GenCond050",
     "attributeId": "A158",
-    "value": "MESH:D061325",
+    "value": "DisID148",
+    "jsonMockup": "disease: { @id : \"MESH:D061325\", label: \"hereditary breast ovarian cancer\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "hereditary breast ovarian cancer"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond050",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond051",
     "attributeId": "A157",
     "value": "Breast Ovarian Cancer, Autosomal Dominant",
+    "jsonMockup": "name: \"Breast Ovarian Cancer, Autosomal Dominant\"",
     "attributeName": "name",
-    "attributeType": "String",
-    "codeDisplayOrNameValue": "Breast Ovarian Cancer, Autosomal Dominant"
+    "attributeType": "String"
   },
   {
     "subjectId": "GenCond051",
     "attributeId": "A158",
-    "value": "MESH:D061325",
+    "value": "DisID148",
+    "jsonMockup": "disease: { @id : \"MESH:D061325\", label: \"hereditary breast ovarian cancer\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "hereditary breast ovarian cancer"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond051",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond052",
     "attributeId": "A158",
-    "value": "Orphanet:217604",
+    "value": "DisID162",
+    "jsonMockup": "disease: { @id : \"Orphanet:217604\", label: \"dilated cardiomyopathy\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "dilated cardiomyopathy"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond053",
     "attributeId": "A158",
-    "value": "Orphanet:217604",
+    "value": "DisID162",
+    "jsonMockup": "disease: { @id : \"Orphanet:217604\", label: \"dilated cardiomyopathy\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "dilated cardiomyopathy"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond054",
     "attributeId": "A158",
-    "value": "Orphanet:247",
+    "value": "DisID164",
+    "jsonMockup": "disease: { @id : \"Orphanet:247\", label: \"arrhythmogenic right ventricular cardiomyopathy\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "arrhythmogenic right ventricular cardiomyopathy"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond055",
     "attributeId": "A158",
-    "value": "Orphanet:648",
+    "value": "DisID175",
+    "jsonMockup": "disease: { @id : \"Orphanet:648\", label: \"noonan syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "noonan syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond055",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond056",
     "attributeId": "A158",
-    "value": "Orphanet:648",
+    "value": "DisID175",
+    "jsonMockup": "disease: { @id : \"Orphanet:648\", label: \"noonan syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "noonan syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond056",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond057",
     "attributeId": "A158",
-    "value": "Orphanet:87884",
+    "value": "DisID183",
+    "jsonMockup": "disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "nonsyndromic deafness"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond057",
     "attributeId": "A157",
     "value": "Hearing Loss",
+    "jsonMockup": "name: \"Hearing Loss\"",
     "attributeName": "name",
-    "attributeType": "String",
-    "codeDisplayOrNameValue": "Hearing Loss"
+    "attributeType": "String"
   },
   {
     "subjectId": "GenCond058",
     "attributeId": "A158",
-    "value": "Orphanet:87884",
+    "value": "DisID183",
+    "jsonMockup": "disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "nonsyndromic deafness"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond058",
     "attributeId": "A157",
     "value": "Hearing Loss",
+    "jsonMockup": "name: \"Hearing Loss\"",
     "attributeName": "name",
-    "attributeType": "String",
-    "codeDisplayOrNameValue": "Hearing Loss"
+    "attributeType": "String"
   },
   {
     "subjectId": "GenCond059",
     "attributeId": "A158",
-    "value": "Orphanet:87884",
+    "value": "DisID183",
+    "jsonMockup": "disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "nonsyndromic deafness"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond059",
     "attributeId": "A157",
     "value": "Hearing Loss, Autosomal Recessive",
+    "jsonMockup": "name: \"Hearing Loss, Autosomal Recessive\"",
     "attributeName": "name",
-    "attributeType": "String",
-    "codeDisplayOrNameValue": "Hearing Loss, Autosomal Recessive"
+    "attributeType": "String"
   },
   {
     "subjectId": "GenCond059",
     "attributeId": "A142",
-    "value": "HP:0000007",
+    "value": "MOIID052",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Recessive"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond060",
     "attributeId": "A158",
-    "value": "Orphanet:87884",
+    "value": "DisID183",
+    "jsonMockup": "disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "nonsyndromic deafness"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond061",
     "attributeId": "A158",
-    "value": "Orphanet:87884",
+    "value": "DisID183",
+    "jsonMockup": "disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "nonsyndromic deafness"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond061",
     "attributeId": "A157",
     "value": "Hearing Loss, Autosomal Recessive",
+    "jsonMockup": "name: \"Hearing Loss, Autosomal Recessive\"",
     "attributeName": "name",
-    "attributeType": "String",
-    "codeDisplayOrNameValue": "Hearing Loss, Autosomal Recessive"
+    "attributeType": "String"
   },
   {
     "subjectId": "GenCond061",
     "attributeId": "A142",
-    "value": "HP:0000007",
+    "value": "MOIID052",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Recessive"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond062",
     "attributeId": "A158",
-    "value": "Orphanet:244",
+    "value": "DisID163",
+    "jsonMockup": "disease: { @id : \"Orphanet:244\", label: \"Primary ciliary dyskenisia\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Primary ciliary dyskenisia"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond062",
     "attributeId": "A142",
-    "value": "HP:0000007",
+    "value": "MOIID052",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Recessive"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond063",
     "attributeId": "A158",
-    "value": "Orphanet:244",
+    "value": "DisID163",
+    "jsonMockup": "disease: { @id : \"Orphanet:244\", label: \"Primary ciliary dyskenisia\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Primary ciliary dyskenisia"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond063",
     "attributeId": "A142",
-    "value": "HP:0000007",
+    "value": "MOIID052",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Recessive"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond064",
     "attributeId": "A158",
-    "value": "Orphanet:217569",
+    "value": "DisID160",
+    "jsonMockup": "disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "hypertrophic cardiomyopathy"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond065",
     "attributeId": "A158",
-    "value": "Orphanet:217569",
+    "value": "DisID160",
+    "jsonMockup": "disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "hypertrophic cardiomyopathy"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond065",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond066",
     "attributeId": "A158",
-    "value": "Orphanet:217569",
+    "value": "DisID160",
+    "jsonMockup": "disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "hypertrophic cardiomyopathy"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond066",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond067",
     "attributeId": "A158",
-    "value": "Orphanet:217569",
+    "value": "DisID160",
+    "jsonMockup": "disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "hypertrophic cardiomyopathy"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond068",
     "attributeId": "A158",
-    "value": "Orphanet:1340",
+    "value": "DisID156",
+    "jsonMockup": "disease: { @id : \"Orphanet:1340\", label: \"cardiofaciocutaneous syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "cardiofaciocutaneous syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond069",
     "attributeId": "A158",
-    "value": "Orphanet:1340",
+    "value": "DisID156",
+    "jsonMockup": "disease: { @id : \"Orphanet:1340\", label: \"cardiofaciocutaneous syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "cardiofaciocutaneous syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond070",
     "attributeId": "A158",
-    "value": "Orphanet:1340",
+    "value": "DisID156",
+    "jsonMockup": "disease: { @id : \"Orphanet:1340\", label: \"cardiofaciocutaneous syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "cardiofaciocutaneous syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond070",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond071",
     "attributeId": "A158",
-    "value": "Orphanet:886",
+    "value": "DisID184",
+    "jsonMockup": "disease: { @id : \"Orphanet:886\", label: \"Usher syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Usher syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond071",
     "attributeId": "A142",
-    "value": "HP:0000007",
+    "value": "MOIID052",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Recessive"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond072",
     "attributeId": "A158",
-    "value": "Orphanet:558",
+    "value": "DisID173",
+    "jsonMockup": "disease: { @id : \"Orphanet:558\", label: \"Marfan Syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "Marfan Syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond072",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond073",
     "attributeId": "A158",
-    "value": "Orphanet:145",
+    "value": "DisID157",
+    "jsonMockup": "disease: { @id : \"Orphanet:145\", label: \"hereditary breast and ovarian cancer syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "hereditary breast and ovarian cancer syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond073",
     "attributeId": "A157",
     "value": "hereditary breast and ovarian cancer",
+    "jsonMockup": "name: \"hereditary breast and ovarian cancer\"",
     "attributeName": "name",
-    "attributeType": "String",
-    "codeDisplayOrNameValue": "hereditary breast and ovarian cancer"
+    "attributeType": "String"
   },
   {
     "subjectId": "GenCond074",
     "attributeId": "A158",
-    "value": "Orphanet:247",
+    "value": "DisID164",
+    "jsonMockup": "disease: { @id : \"Orphanet:247\", label: \"arrhythmogenic right ventricular cardiomyopathy\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "arrhythmogenic right ventricular cardiomyopathy"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond074",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   },
   {
     "subjectId": "GenCond075",
     "attributeId": "A158",
-    "value": "Orphanet:648",
+    "value": "DisID175",
+    "jsonMockup": "disease: { @id : \"Orphanet:648\", label: \"noonan syndrome\" }",
     "attributeName": "disease",
-    "attributeType": "CodeableConcept",
-    "codeDisplayOrNameValue": "noonan syndrome"
+    "attributeType": "Disease"
   },
   {
     "subjectId": "GenCond075",
     "attributeId": "A142",
-    "value": "HP:0000006",
+    "value": "MOIID051",
+    "jsonMockup": "modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "attributeName": "modeOfInheritance",
-    "attributeType": "Coding",
-    "codeDisplayOrNameValue": "Autosomal Dominant"
+    "attributeType": "ModeOfInheritance"
   }
 ]

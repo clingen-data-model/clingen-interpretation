@@ -3,3432 +3,3432 @@
     "subjectId": "Contrib396",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib396",
     "attributeId": "A007",
     "value": "6/1/16 10:10 AM",
+    "jsonMockup": "contributionDate: \"6/1/16 10:10 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/1/16 10:10 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib396",
     "attributeId": "A008",
-    "value": "CC298",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib397",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib397",
     "attributeId": "A007",
     "value": "6/2/16 12:15 PM",
+    "jsonMockup": "contributionDate: \"6/2/16 12:15 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/2/16 12:15 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib397",
     "attributeId": "A008",
-    "value": "CC299",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib398",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib398",
     "attributeId": "A007",
     "value": "6/2/16 2:22 PM",
+    "jsonMockup": "contributionDate: \"6/2/16 2:22 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/2/16 2:22 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib398",
     "attributeId": "A008",
-    "value": "CC300",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib399",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib399",
     "attributeId": "A007",
     "value": "6/2/16 3:22 PM",
+    "jsonMockup": "contributionDate: \"6/2/16 3:22 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/2/16 3:22 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib399",
     "attributeId": "A008",
-    "value": "CC301",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib400",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib400",
     "attributeId": "A007",
     "value": "6/2/16 4:22 PM",
+    "jsonMockup": "contributionDate: \"6/2/16 4:22 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/2/16 4:22 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib400",
     "attributeId": "A008",
-    "value": "CC302",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib401",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib401",
     "attributeId": "A007",
     "value": "6/2/16 5:22 PM",
+    "jsonMockup": "contributionDate: \"6/2/16 5:22 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/2/16 5:22 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib401",
     "attributeId": "A008",
-    "value": "CC303",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib402",
     "attributeId": "A006",
     "value": "Agent002",
+    "jsonMockup": "agent: { label: \"Noonan/Rasopathy WG (ClinGen)\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent002: { label: \"Noonan/Rasopathy WG (ClinGen)\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib402",
     "attributeId": "A007",
     "value": "6/2/16 5:22 PM",
+    "jsonMockup": "contributionDate: \"6/2/16 5:22 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/2/16 5:22 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib402",
     "attributeId": "A008",
-    "value": "CC304",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib403",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib403",
     "attributeId": "A007",
     "value": "6/3/16 8:00 AM",
+    "jsonMockup": "contributionDate: \"6/3/16 8:00 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/3/16 8:00 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib403",
     "attributeId": "A008",
-    "value": "CC305",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib404",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib404",
     "attributeId": "A007",
     "value": "6/3/16 9:17 AM",
+    "jsonMockup": "contributionDate: \"6/3/16 9:17 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/3/16 9:17 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib404",
     "attributeId": "A008",
-    "value": "CC306",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib405",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib405",
     "attributeId": "A007",
     "value": "6/3/16 10:25 AM",
+    "jsonMockup": "contributionDate: \"6/3/16 10:25 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/3/16 10:25 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib405",
     "attributeId": "A008",
-    "value": "CC307",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib406",
     "attributeId": "A006",
     "value": "Agent003",
+    "jsonMockup": "agent: { label: \"Sasha Rande\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent003: { label: \"Sasha Rande\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib406",
     "attributeId": "A007",
     "value": "6/3/16 2:50 PM",
+    "jsonMockup": "contributionDate: \"6/3/16 2:50 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/3/16 2:50 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib406",
     "attributeId": "A008",
-    "value": "CC308",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib407",
     "attributeId": "A006",
     "value": "Agent004",
+    "jsonMockup": "agent: { label: \"CSER Bakeoff Project\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent004: { label: \"CSER Bakeoff Project\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib407",
     "attributeId": "A007",
     "value": "6/3/16 2:50 PM",
+    "jsonMockup": "contributionDate: \"6/3/16 2:50 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/3/16 2:50 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib407",
     "attributeId": "A008",
-    "value": "CC309",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib408",
     "attributeId": "A006",
     "value": "Agent003",
+    "jsonMockup": "agent: { label: \"Sasha Rande\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent003: { label: \"Sasha Rande\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib408",
     "attributeId": "A007",
     "value": "6/3/16 6:09 PM",
+    "jsonMockup": "contributionDate: \"6/3/16 6:09 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/3/16 6:09 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib408",
     "attributeId": "A008",
-    "value": "CC310",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib409",
     "attributeId": "A006",
     "value": "Agent004",
+    "jsonMockup": "agent: { label: \"CSER Bakeoff Project\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent004: { label: \"CSER Bakeoff Project\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib409",
     "attributeId": "A007",
     "value": "6/3/16 6:09 PM",
+    "jsonMockup": "contributionDate: \"6/3/16 6:09 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/3/16 6:09 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib409",
     "attributeId": "A008",
-    "value": "CC311",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib410",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib410",
     "attributeId": "A007",
     "value": "6/4/16 7:12 AM",
+    "jsonMockup": "contributionDate: \"6/4/16 7:12 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/4/16 7:12 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib410",
     "attributeId": "A008",
-    "value": "CC312",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib411",
     "attributeId": "A006",
     "value": "Agent002",
+    "jsonMockup": "agent: { label: \"Noonan/Rasopathy WG (ClinGen)\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent002: { label: \"Noonan/Rasopathy WG (ClinGen)\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib411",
     "attributeId": "A007",
     "value": "6/4/16 7:12 AM",
+    "jsonMockup": "contributionDate: \"6/4/16 7:12 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/4/16 7:12 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib411",
     "attributeId": "A008",
-    "value": "CC313",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib412",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib412",
     "attributeId": "A007",
     "value": "6/5/16 10:24 AM",
+    "jsonMockup": "contributionDate: \"6/5/16 10:24 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/5/16 10:24 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib412",
     "attributeId": "A008",
-    "value": "CC314",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib413",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib413",
     "attributeId": "A007",
     "value": "6/5/16 2:39 PM",
+    "jsonMockup": "contributionDate: \"6/5/16 2:39 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/5/16 2:39 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib413",
     "attributeId": "A008",
-    "value": "CC315",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib414",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib414",
     "attributeId": "A007",
     "value": "6/5/16 4:12 PM",
+    "jsonMockup": "contributionDate: \"6/5/16 4:12 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/5/16 4:12 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib414",
     "attributeId": "A008",
-    "value": "CC316",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib415",
     "attributeId": "A006",
     "value": "Agent003",
+    "jsonMockup": "agent: { label: \"Sasha Rande\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent003: { label: \"Sasha Rande\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib415",
     "attributeId": "A007",
     "value": "6/6/16 8:12 AM",
+    "jsonMockup": "contributionDate: \"6/6/16 8:12 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/6/16 8:12 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib415",
     "attributeId": "A008",
-    "value": "CC317",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib416",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib416",
     "attributeId": "A007",
     "value": "6/6/16 10:53 AM",
+    "jsonMockup": "contributionDate: \"6/6/16 10:53 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/6/16 10:53 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib416",
     "attributeId": "A008",
-    "value": "CC318",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib417",
     "attributeId": "A006",
     "value": "Agent002",
+    "jsonMockup": "agent: { label: \"Noonan/Rasopathy WG (ClinGen)\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent002: { label: \"Noonan/Rasopathy WG (ClinGen)\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib417",
     "attributeId": "A007",
     "value": "6/6/16 10:53 AM",
+    "jsonMockup": "contributionDate: \"6/6/16 10:53 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/6/16 10:53 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib417",
     "attributeId": "A008",
-    "value": "CC319",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib418",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib418",
     "attributeId": "A007",
     "value": "6/3/16 7:24 AM",
+    "jsonMockup": "contributionDate: \"6/3/16 7:24 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/3/16 7:24 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib418",
     "attributeId": "A008",
-    "value": "CC320",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib419",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib419",
     "attributeId": "A007",
     "value": "6/4/16 9:08 AM",
+    "jsonMockup": "contributionDate: \"6/4/16 9:08 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/4/16 9:08 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib419",
     "attributeId": "A008",
-    "value": "CC321",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib420",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib420",
     "attributeId": "A007",
     "value": "6/5/16 3:13 PM",
+    "jsonMockup": "contributionDate: \"6/5/16 3:13 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/5/16 3:13 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib420",
     "attributeId": "A008",
-    "value": "CC322",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib421",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib421",
     "attributeId": "A007",
     "value": "6/6/16 11:28 AM",
+    "jsonMockup": "contributionDate: \"6/6/16 11:28 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/6/16 11:28 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib421",
     "attributeId": "A008",
-    "value": "CC323",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib422",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib422",
     "attributeId": "A007",
     "value": "6/2/16 8:01 AM",
+    "jsonMockup": "contributionDate: \"6/2/16 8:01 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/2/16 8:01 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib422",
     "attributeId": "A008",
-    "value": "CC324",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib423",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib423",
     "attributeId": "A007",
     "value": "6/10/16 9:02 AM",
+    "jsonMockup": "contributionDate: \"6/10/16 9:02 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/10/16 9:02 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib423",
     "attributeId": "A008",
-    "value": "CC325",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib424",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib424",
     "attributeId": "A007",
     "value": "6/10/16 9:15 AM",
+    "jsonMockup": "contributionDate: \"6/10/16 9:15 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/10/16 9:15 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib424",
     "attributeId": "A008",
-    "value": "CC326",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib425",
     "attributeId": "A006",
     "value": "Agent003",
+    "jsonMockup": "agent: { label: \"Sasha Rande\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent003: { label: \"Sasha Rande\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib425",
     "attributeId": "A007",
     "value": "6/12/16 7:30 AM",
+    "jsonMockup": "contributionDate: \"6/12/16 7:30 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/12/16 7:30 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib425",
     "attributeId": "A008",
-    "value": "CC327",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib426",
     "attributeId": "A006",
     "value": "Agent003",
+    "jsonMockup": "agent: { label: \"Sasha Rande\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent003: { label: \"Sasha Rande\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib426",
     "attributeId": "A007",
     "value": "6/12/16 8:31 AM",
+    "jsonMockup": "contributionDate: \"6/12/16 8:31 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/12/16 8:31 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib426",
     "attributeId": "A008",
-    "value": "CC328",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib427",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib427",
     "attributeId": "A007",
     "value": "6/12/16 9:32 AM",
+    "jsonMockup": "contributionDate: \"6/12/16 9:32 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/12/16 9:32 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib427",
     "attributeId": "A008",
-    "value": "CC329",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib428",
     "attributeId": "A006",
     "value": "Agent005",
+    "jsonMockup": "agent: { label: \"G. Rajar\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent005: { label: \"G. Rajar\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib428",
     "attributeId": "A007",
     "value": "6/12/16 10:48 AM",
+    "jsonMockup": "contributionDate: \"6/12/16 10:48 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/12/16 10:48 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib428",
     "attributeId": "A008",
-    "value": "CC330",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib429",
     "attributeId": "A006",
     "value": "Agent005",
+    "jsonMockup": "agent: { label: \"G. Rajar\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent005: { label: \"G. Rajar\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib429",
     "attributeId": "A007",
     "value": "6/12/16 11:03 AM",
+    "jsonMockup": "contributionDate: \"6/12/16 11:03 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/12/16 11:03 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib429",
     "attributeId": "A008",
-    "value": "CC331",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib430",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib430",
     "attributeId": "A007",
     "value": "7/1/16 9:23 AM",
+    "jsonMockup": "contributionDate: \"7/1/16 9:23 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/1/16 9:23 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib430",
     "attributeId": "A008",
-    "value": "CC332",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib431",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib431",
     "attributeId": "A007",
     "value": "7/1/16 10:53 AM",
+    "jsonMockup": "contributionDate: \"7/1/16 10:53 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/1/16 10:53 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib431",
     "attributeId": "A008",
-    "value": "CC333",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib432",
     "attributeId": "A006",
     "value": "Agent004",
+    "jsonMockup": "agent: { label: \"CSER Bakeoff Project\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent004: { label: \"CSER Bakeoff Project\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib432",
     "attributeId": "A007",
     "value": "7/1/16 10:53 AM",
+    "jsonMockup": "contributionDate: \"7/1/16 10:53 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/1/16 10:53 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib432",
     "attributeId": "A008",
-    "value": "CC334",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib433",
     "attributeId": "A006",
     "value": "Agent009",
+    "jsonMockup": "agent: { label: \"George Geneticist\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent009: { label: \"George Geneticist\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib433",
     "attributeId": "A007",
     "value": "6/26/2015 12:03 PM",
+    "jsonMockup": "contributionDate: \"6/26/2015 12:03 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/26/2015 12:03 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib433",
     "attributeId": "A008",
-    "value": "CC335",
+    "value": "CRID196",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000331\", label: \"interpreter role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000331\", display: \"interpreter role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib434",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib434",
     "attributeId": "A007",
     "value": "7/13/16 8:46 AM",
+    "jsonMockup": "contributionDate: \"7/13/16 8:46 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/13/16 8:46 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib434",
     "attributeId": "A008",
-    "value": "CC336",
+    "value": "CRID196",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000331\", label: \"interpreter role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000331\", display: \"interpreter role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib435",
     "attributeId": "A006",
     "value": "Agent005",
+    "jsonMockup": "agent: { label: \"G. Rajar\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent005: { label: \"G. Rajar\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib435",
     "attributeId": "A007",
     "value": "7/20/16 7:22 AM",
+    "jsonMockup": "contributionDate: \"7/20/16 7:22 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/20/16 7:22 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib435",
     "attributeId": "A008",
-    "value": "CC337",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib436",
     "attributeId": "A006",
     "value": "Agent004",
+    "jsonMockup": "agent: { label: \"CSER Bakeoff Project\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent004: { label: \"CSER Bakeoff Project\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib436",
     "attributeId": "A007",
     "value": "7/20/16 7:22 AM",
+    "jsonMockup": "contributionDate: \"7/20/16 7:22 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/20/16 7:22 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib436",
     "attributeId": "A008",
-    "value": "CC338",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib437",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib437",
     "attributeId": "A007",
     "value": "7/20/16 7:49 AM",
+    "jsonMockup": "contributionDate: \"7/20/16 7:49 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/20/16 7:49 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib437",
     "attributeId": "A008",
-    "value": "CC339",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib438",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib438",
     "attributeId": "A007",
     "value": "7/20/16 8:02 AM",
+    "jsonMockup": "contributionDate: \"7/20/16 8:02 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/20/16 8:02 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib438",
     "attributeId": "A008",
-    "value": "CC340",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib439",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib439",
     "attributeId": "A007",
     "value": "7/21/16 6:45 AM",
+    "jsonMockup": "contributionDate: \"7/21/16 6:45 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/21/16 6:45 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib439",
     "attributeId": "A008",
-    "value": "CC341",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib440",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib440",
     "attributeId": "A007",
     "value": "7/21/16 7:02 AM",
+    "jsonMockup": "contributionDate: \"7/21/16 7:02 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/21/16 7:02 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib440",
     "attributeId": "A008",
-    "value": "CC342",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib441",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib441",
     "attributeId": "A007",
     "value": "7/21/16 7:39 AM",
+    "jsonMockup": "contributionDate: \"7/21/16 7:39 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/21/16 7:39 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib441",
     "attributeId": "A008",
-    "value": "CC343",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib442",
     "attributeId": "A006",
     "value": "Agent002",
+    "jsonMockup": "agent: { label: \"Noonan/Rasopathy WG (ClinGen)\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent002: { label: \"Noonan/Rasopathy WG (ClinGen)\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib442",
     "attributeId": "A007",
     "value": "7/21/16 8:11 AM",
+    "jsonMockup": "contributionDate: \"7/21/16 8:11 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/21/16 8:11 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib442",
     "attributeId": "A008",
-    "value": "CC344",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib443",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib443",
     "attributeId": "A007",
     "value": "7/21/16 9:41 AM",
+    "jsonMockup": "contributionDate: \"7/21/16 9:41 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/21/16 9:41 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib443",
     "attributeId": "A008",
-    "value": "CC345",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib444",
     "attributeId": "A006",
     "value": "Agent005",
+    "jsonMockup": "agent: { label: \"G. Rajar\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent005: { label: \"G. Rajar\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib444",
     "attributeId": "A007",
     "value": "7/21/16 10:29 AM",
+    "jsonMockup": "contributionDate: \"7/21/16 10:29 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/21/16 10:29 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib444",
     "attributeId": "A008",
-    "value": "CC346",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib445",
     "attributeId": "A006",
     "value": "Agent004",
+    "jsonMockup": "agent: { label: \"CSER Bakeoff Project\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent004: { label: \"CSER Bakeoff Project\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib445",
     "attributeId": "A007",
     "value": "7/21/16 10:29 AM",
+    "jsonMockup": "contributionDate: \"7/21/16 10:29 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/21/16 10:29 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib445",
     "attributeId": "A008",
-    "value": "CC347",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib446",
     "attributeId": "A006",
     "value": "Agent005",
+    "jsonMockup": "agent: { label: \"G. Rajar\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent005: { label: \"G. Rajar\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib446",
     "attributeId": "A007",
     "value": "7/21/16 12:15 PM",
+    "jsonMockup": "contributionDate: \"7/21/16 12:15 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/21/16 12:15 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib446",
     "attributeId": "A008",
-    "value": "CC348",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib447",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib447",
     "attributeId": "A007",
     "value": "7/21/16 2:46 PM",
+    "jsonMockup": "contributionDate: \"7/21/16 2:46 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/21/16 2:46 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib447",
     "attributeId": "A008",
-    "value": "CC349",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib448",
     "attributeId": "A006",
     "value": "Agent006",
+    "jsonMockup": "agent: { label: \"CSER classifier #6\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent006: { label: \"CSER classifier #6\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib448",
     "attributeId": "A007",
     "value": "6/26/2015 12:06 PM",
+    "jsonMockup": "contributionDate: \"6/26/2015 12:06 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/26/2015 12:06 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib448",
     "attributeId": "A008",
-    "value": "CC350",
+    "value": "CRID196",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000331\", label: \"interpreter role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000331\", display: \"interpreter role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib449",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib449",
     "attributeId": "A007",
     "value": "8/28/16 2:00 PM",
+    "jsonMockup": "contributionDate: \"8/28/16 2:00 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"8/28/16 2:00 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib449",
     "attributeId": "A008",
-    "value": "CC351",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib450",
     "attributeId": "A006",
     "value": "Agent004",
+    "jsonMockup": "agent: { label: \"CSER Bakeoff Project\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent004: { label: \"CSER Bakeoff Project\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib450",
     "attributeId": "A007",
     "value": "8/28/16 2:00 PM",
+    "jsonMockup": "contributionDate: \"8/28/16 2:00 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"8/28/16 2:00 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib450",
     "attributeId": "A008",
-    "value": "CC352",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib451",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib451",
     "attributeId": "A007",
     "value": "8/29/16 3:00 PM",
+    "jsonMockup": "contributionDate: \"8/29/16 3:00 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"8/29/16 3:00 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib451",
     "attributeId": "A008",
-    "value": "CC353",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib452",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib452",
     "attributeId": "A007",
     "value": "8/29/16 4:00 PM",
+    "jsonMockup": "contributionDate: \"8/29/16 4:00 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"8/29/16 4:00 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib452",
     "attributeId": "A008",
-    "value": "CC354",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib453",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib453",
     "attributeId": "A007",
     "value": "8/29/16 5:00 PM",
+    "jsonMockup": "contributionDate: \"8/29/16 5:00 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"8/29/16 5:00 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib453",
     "attributeId": "A008",
-    "value": "CC355",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib454",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib454",
     "attributeId": "A007",
     "value": "8/29/16 6:00 PM",
+    "jsonMockup": "contributionDate: \"8/29/16 6:00 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"8/29/16 6:00 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib454",
     "attributeId": "A008",
-    "value": "CC356",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib455",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib455",
     "attributeId": "A007",
     "value": "8/29/16 7:00 PM",
+    "jsonMockup": "contributionDate: \"8/29/16 7:00 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"8/29/16 7:00 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib455",
     "attributeId": "A008",
-    "value": "CC357",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib456",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib456",
     "attributeId": "A007",
     "value": "8/29/16 8:00 PM",
+    "jsonMockup": "contributionDate: \"8/29/16 8:00 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"8/29/16 8:00 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib456",
     "attributeId": "A008",
-    "value": "CC358",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib457",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib457",
     "attributeId": "A007",
     "value": "8/29/16 9:00 PM",
+    "jsonMockup": "contributionDate: \"8/29/16 9:00 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"8/29/16 9:00 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib457",
     "attributeId": "A008",
-    "value": "CC359",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib458",
     "attributeId": "A006",
     "value": "Agent005",
+    "jsonMockup": "agent: { label: \"G. Rajar\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent005: { label: \"G. Rajar\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib458",
     "attributeId": "A007",
     "value": "8/29/16 10:00 PM",
+    "jsonMockup": "contributionDate: \"8/29/16 10:00 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"8/29/16 10:00 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib458",
     "attributeId": "A008",
-    "value": "CC360",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib459",
     "attributeId": "A006",
     "value": "Agent005",
+    "jsonMockup": "agent: { label: \"G. Rajar\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent005: { label: \"G. Rajar\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib459",
     "attributeId": "A007",
     "value": "8/29/16 11:00 PM",
+    "jsonMockup": "contributionDate: \"8/29/16 11:00 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"8/29/16 11:00 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib459",
     "attributeId": "A008",
-    "value": "CC361",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib460",
     "attributeId": "A006",
     "value": "Agent004",
+    "jsonMockup": "agent: { label: \"CSER Bakeoff Project\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent004: { label: \"CSER Bakeoff Project\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib460",
     "attributeId": "A007",
     "value": "8/29/16 11:00 PM",
+    "jsonMockup": "contributionDate: \"8/29/16 11:00 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"8/29/16 11:00 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib460",
     "attributeId": "A008",
-    "value": "CC362",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib461",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib461",
     "attributeId": "A007",
     "value": "8/30/16 6:00 AM",
+    "jsonMockup": "contributionDate: \"8/30/16 6:00 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"8/30/16 6:00 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib461",
     "attributeId": "A008",
-    "value": "CC363",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib462",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib462",
     "attributeId": "A007",
     "value": "9/5/16 6:00 AM",
+    "jsonMockup": "contributionDate: \"9/5/16 6:00 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/5/16 6:00 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib462",
     "attributeId": "A008",
-    "value": "CC364",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib463",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib463",
     "attributeId": "A007",
     "value": "9/5/16 6:30 AM",
+    "jsonMockup": "contributionDate: \"9/5/16 6:30 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/5/16 6:30 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib463",
     "attributeId": "A008",
-    "value": "CC365",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib464",
     "attributeId": "A006",
     "value": "Agent004",
+    "jsonMockup": "agent: { label: \"CSER Bakeoff Project\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent004: { label: \"CSER Bakeoff Project\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib464",
     "attributeId": "A007",
     "value": "9/5/16 6:30 AM",
+    "jsonMockup": "contributionDate: \"9/5/16 6:30 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/5/16 6:30 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib464",
     "attributeId": "A008",
-    "value": "CC366",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib465",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib465",
     "attributeId": "A007",
     "value": "9/5/16 7:01 AM",
+    "jsonMockup": "contributionDate: \"9/5/16 7:01 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/5/16 7:01 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib465",
     "attributeId": "A008",
-    "value": "CC367",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib466",
     "attributeId": "A006",
     "value": "Agent004",
+    "jsonMockup": "agent: { label: \"CSER Bakeoff Project\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent004: { label: \"CSER Bakeoff Project\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib466",
     "attributeId": "A007",
     "value": "9/5/16 7:01 AM",
+    "jsonMockup": "contributionDate: \"9/5/16 7:01 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/5/16 7:01 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib466",
     "attributeId": "A008",
-    "value": "CC368",
+    "value": "CRID196",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000331\", label: \"interpreter role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000331\", display: \"interpreter role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib467",
     "attributeId": "A006",
     "value": "Agent006",
+    "jsonMockup": "agent: { label: \"CSER classifier #6\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent006: { label: \"CSER classifier #6\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib467",
     "attributeId": "A007",
     "value": "6/26/2015 12:06 PM",
+    "jsonMockup": "contributionDate: \"6/26/2015 12:06 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/26/2015 12:06 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib467",
     "attributeId": "A008",
-    "value": "CC369",
+    "value": "CRID196",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000331\", label: \"interpreter role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000331\", display: \"interpreter role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib468",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib468",
     "attributeId": "A007",
     "value": "9/5/16 9:01 AM",
+    "jsonMockup": "contributionDate: \"9/5/16 9:01 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/5/16 9:01 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib468",
     "attributeId": "A008",
-    "value": "CC370",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib469",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib469",
     "attributeId": "A007",
     "value": "9/5/16 9:31 AM",
+    "jsonMockup": "contributionDate: \"9/5/16 9:31 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/5/16 9:31 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib469",
     "attributeId": "A008",
-    "value": "CC371",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib470",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib470",
     "attributeId": "A007",
     "value": "9/5/16 9:51 AM",
+    "jsonMockup": "contributionDate: \"9/5/16 9:51 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/5/16 9:51 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib470",
     "attributeId": "A008",
-    "value": "CC372",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib471",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib471",
     "attributeId": "A007",
     "value": "9/5/16 10:51 AM",
+    "jsonMockup": "contributionDate: \"9/5/16 10:51 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/5/16 10:51 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib471",
     "attributeId": "A008",
-    "value": "CC373",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib472",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib472",
     "attributeId": "A007",
     "value": "9/5/16 11:00 AM",
+    "jsonMockup": "contributionDate: \"9/5/16 11:00 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/5/16 11:00 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib472",
     "attributeId": "A008",
-    "value": "CC374",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib473",
     "attributeId": "A006",
     "value": "Agent005",
+    "jsonMockup": "agent: { label: \"G. Rajar\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent005: { label: \"G. Rajar\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib473",
     "attributeId": "A007",
     "value": "9/6/16 8:00 AM",
+    "jsonMockup": "contributionDate: \"9/6/16 8:00 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/6/16 8:00 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib473",
     "attributeId": "A008",
-    "value": "CC375",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib474",
     "attributeId": "A006",
     "value": "Agent005",
+    "jsonMockup": "agent: { label: \"G. Rajar\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent005: { label: \"G. Rajar\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib474",
     "attributeId": "A007",
     "value": "9/6/16 9:00 AM",
+    "jsonMockup": "contributionDate: \"9/6/16 9:00 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/6/16 9:00 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib474",
     "attributeId": "A008",
-    "value": "CC376",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib475",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib475",
     "attributeId": "A007",
     "value": "9/6/16 10:00 AM",
+    "jsonMockup": "contributionDate: \"9/6/16 10:00 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/6/16 10:00 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib475",
     "attributeId": "A008",
-    "value": "CC377",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib476",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib476",
     "attributeId": "A007",
     "value": "9/6/16 11:00 AM",
+    "jsonMockup": "contributionDate: \"9/6/16 11:00 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/6/16 11:00 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib476",
     "attributeId": "A008",
-    "value": "CC378",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib477",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib477",
     "attributeId": "A007",
     "value": "9/6/16 12:00 PM",
+    "jsonMockup": "contributionDate: \"9/6/16 12:00 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/6/16 12:00 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib477",
     "attributeId": "A008",
-    "value": "CC379",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib478",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib478",
     "attributeId": "A007",
     "value": "9/6/16 1:00 PM",
+    "jsonMockup": "contributionDate: \"9/6/16 1:00 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/6/16 1:00 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib478",
     "attributeId": "A008",
-    "value": "CC380",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib479",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib479",
     "attributeId": "A007",
     "value": "9/6/16 2:00 PM",
+    "jsonMockup": "contributionDate: \"9/6/16 2:00 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/6/16 2:00 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib479",
     "attributeId": "A008",
-    "value": "CC381",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib480",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib480",
     "attributeId": "A007",
     "value": "9/13/16",
+    "jsonMockup": "contributionDate: \"9/13/16\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/13/16\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib480",
     "attributeId": "A008",
-    "value": "CC382",
+    "value": "CRID194",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000156\", label: \"curator role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000156\", display: \"curator role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib481",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib481",
     "attributeId": "A007",
     "value": "9/13/16",
+    "jsonMockup": "contributionDate: \"9/13/16\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/13/16\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib481",
     "attributeId": "A008",
-    "value": "CC383",
+    "value": "CRID194",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000156\", label: \"curator role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000156\", display: \"curator role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib482",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib482",
     "attributeId": "A007",
     "value": "9/13/16",
+    "jsonMockup": "contributionDate: \"9/13/16\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/13/16\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib482",
     "attributeId": "A008",
-    "value": "CC384",
+    "value": "CRID194",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000156\", label: \"curator role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000156\", display: \"curator role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib483",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib483",
     "attributeId": "A007",
     "value": "5/31/16 8:46 AM",
+    "jsonMockup": "contributionDate: \"5/31/16 8:46 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"5/31/16 8:46 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib483",
     "attributeId": "A008",
-    "value": "CC385",
+    "value": "CRID194",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000156\", label: \"curator role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000156\", display: \"curator role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib484",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib484",
     "attributeId": "A007",
     "value": "5/31/16 9:15 AM",
+    "jsonMockup": "contributionDate: \"5/31/16 9:15 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"5/31/16 9:15 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib484",
     "attributeId": "A008",
-    "value": "CC386",
+    "value": "CRID194",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000156\", label: \"curator role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000156\", display: \"curator role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib485",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib485",
     "attributeId": "A007",
     "value": "5/31/16 11:01 AM",
+    "jsonMockup": "contributionDate: \"5/31/16 11:01 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"5/31/16 11:01 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib485",
     "attributeId": "A008",
-    "value": "CC387",
+    "value": "CRID196",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000331\", label: \"interpreter role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: \"SEPIO:0000331\""
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib486",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib486",
     "attributeId": "A007",
     "value": "6/1/16 2:03 PM",
+    "jsonMockup": "contributionDate: \"6/1/16 2:03 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/1/16 2:03 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib486",
     "attributeId": "A008",
-    "value": "CC388",
+    "value": "CRID194",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000156\", label: \"curator role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000156\", display: \"curator role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib487",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib487",
     "attributeId": "A007",
     "value": "6/1/16 2:10 PM",
+    "jsonMockup": "contributionDate: \"6/1/16 2:10 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/1/16 2:10 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib487",
     "attributeId": "A008",
-    "value": "CC389",
+    "value": "CRID194",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000156\", label: \"curator role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000156\", display: \"curator role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib488",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib488",
     "attributeId": "A007",
     "value": "6/1/16 2:15 PM",
+    "jsonMockup": "contributionDate: \"6/1/16 2:15 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/1/16 2:15 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib488",
     "attributeId": "A008",
-    "value": "CC390",
+    "value": "CRID194",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000156\", label: \"curator role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000156\", display: \"curator role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib489",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib489",
     "attributeId": "A007",
     "value": "9/15/16 8:12 AM",
+    "jsonMockup": "contributionDate: \"9/15/16 8:12 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/15/16 8:12 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib489",
     "attributeId": "A008",
-    "value": "CC391",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib490",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib490",
     "attributeId": "A007",
     "value": "9/15/16 9:23 AM",
+    "jsonMockup": "contributionDate: \"9/15/16 9:23 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/15/16 9:23 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib490",
     "attributeId": "A008",
-    "value": "CC392",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib491",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib491",
     "attributeId": "A007",
     "value": "9/15/16 10:40 AM",
+    "jsonMockup": "contributionDate: \"9/15/16 10:40 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"9/15/16 10:40 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib491",
     "attributeId": "A008",
-    "value": "CC393",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib492",
     "attributeId": "A006",
     "value": "Agent005",
+    "jsonMockup": "agent: { label: \"G. Rajar\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent005: { label: \"G. Rajar\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib492",
     "attributeId": "A007",
     "value": "10/4/16 8:02 AM",
+    "jsonMockup": "contributionDate: \"10/4/16 8:02 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"10/4/16 8:02 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib492",
     "attributeId": "A008",
-    "value": "CC394",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib493",
     "attributeId": "A006",
     "value": "Agent006",
+    "jsonMockup": "agent: { label: \"CSER classifier #6\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent006: { label: \"CSER classifier #6\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib493",
     "attributeId": "A007",
     "value": "6/26/2015 12:06 PM",
+    "jsonMockup": "contributionDate: \"6/26/2015 12:06 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/26/2015 12:06 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib493",
     "attributeId": "A008",
-    "value": "CC395",
+    "value": "CRID196",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000331\", label: \"interpreter role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: \"SEPIO:0000331\""
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib494",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib494",
     "attributeId": "A007",
     "value": "10/4/16 10:37 AM",
+    "jsonMockup": "contributionDate: \"10/4/16 10:37 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"10/4/16 10:37 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib494",
     "attributeId": "A008",
-    "value": "CC396",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib495",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib495",
     "attributeId": "A007",
     "value": "10/4/16 11:42 AM",
+    "jsonMockup": "contributionDate: \"10/4/16 11:42 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"10/4/16 11:42 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib495",
     "attributeId": "A008",
-    "value": "CC397",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib496",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib496",
     "attributeId": "A007",
     "value": "10/6/16 8:30 AM",
+    "jsonMockup": "contributionDate: \"10/6/16 8:30 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"10/6/16 8:30 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib496",
     "attributeId": "A008",
-    "value": "CC398",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib497",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib497",
     "attributeId": "A007",
     "value": "10/6/16 8:54 AM",
+    "jsonMockup": "contributionDate: \"10/6/16 8:54 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"10/6/16 8:54 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib497",
     "attributeId": "A008",
-    "value": "CC399",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib498",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib498",
     "attributeId": "A007",
     "value": "10/6/16 9:09 AM",
+    "jsonMockup": "contributionDate: \"10/6/16 9:09 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"10/6/16 9:09 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib498",
     "attributeId": "A008",
-    "value": "CC400",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib499",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib499",
     "attributeId": "A007",
     "value": "10/6/16 9:45 AM",
+    "jsonMockup": "contributionDate: \"10/6/16 9:45 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"10/6/16 9:45 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib499",
     "attributeId": "A008",
-    "value": "CC401",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib500",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib500",
     "attributeId": "A007",
     "value": "10/10/16 8:02 AM",
+    "jsonMockup": "contributionDate: \"10/10/16 8:02 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"10/10/16 8:02 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib500",
     "attributeId": "A008",
-    "value": "CC402",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib501",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib501",
     "attributeId": "A007",
     "value": "10/10/16 8:03 AM",
+    "jsonMockup": "contributionDate: \"10/10/16 8:03 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"10/10/16 8:03 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib501",
     "attributeId": "A008",
-    "value": "CC403",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib502",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib502",
     "attributeId": "A007",
     "value": "10/10/16 8:04 AM",
+    "jsonMockup": "contributionDate: \"10/10/16 8:04 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"10/10/16 8:04 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib502",
     "attributeId": "A008",
-    "value": "CC404",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib503",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib503",
     "attributeId": "A007",
     "value": "10/10/16 8:05 AM",
+    "jsonMockup": "contributionDate: \"10/10/16 8:05 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"10/10/16 8:05 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib503",
     "attributeId": "A008",
-    "value": "CC405",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib504",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib504",
     "attributeId": "A007",
     "value": "10/10/16 8:06 AM",
+    "jsonMockup": "contributionDate: \"10/10/16 8:06 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"10/10/16 8:06 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib504",
     "attributeId": "A008",
-    "value": "CC406",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib505",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib505",
     "attributeId": "A007",
     "value": "01/17/17 9:12 AM",
+    "jsonMockup": "contributionDate: \"01/17/17 9:12 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"01/17/17 9:12 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib505",
     "attributeId": "A008",
-    "value": "CC407",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib506",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib506",
     "attributeId": "A007",
     "value": "03/07/2017 4:30 PM",
+    "jsonMockup": "contributionDate: \"03/07/2017 4:30 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"03/07/2017 4:30 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib506",
     "attributeId": "A008",
-    "value": "CC408",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib507",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib507",
     "attributeId": "A007",
     "value": "03/07/2017 5:22 PM",
+    "jsonMockup": "contributionDate: \"03/07/2017 5:22 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"03/07/2017 5:22 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib507",
     "attributeId": "A008",
-    "value": "CC409",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib508",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib508",
     "attributeId": "A007",
     "value": "03/08/2017 7:43 AM",
+    "jsonMockup": "contributionDate: \"03/08/2017 7:43 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"03/08/2017 7:43 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib508",
     "attributeId": "A008",
-    "value": "CC410",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib509",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib509",
     "attributeId": "A007",
     "value": "03/08/2017 9:46 AM",
+    "jsonMockup": "contributionDate: \"03/08/2017 9:46 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"03/08/2017 9:46 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib509",
     "attributeId": "A008",
-    "value": "CC411",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib510",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib510",
     "attributeId": "A007",
     "value": "03/08/2017 10:02 AM",
+    "jsonMockup": "contributionDate: \"03/08/2017 10:02 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"03/08/2017 10:02 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib510",
     "attributeId": "A008",
-    "value": "CC412",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib511",
     "attributeId": "A006",
     "value": "Agent008",
+    "jsonMockup": "agent: { label: \"Gene Geneticist\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent008: { label: \"Gene Geneticist\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib511",
     "attributeId": "A007",
     "value": "8/14/2014 10:29 AM",
+    "jsonMockup": "contributionDate: \"8/14/2014 10:29 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"8/14/2014 10:29 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib511",
     "attributeId": "A008",
-    "value": "CC413",
+    "value": "CRID196",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000331\", label: \"interpreter role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000331\", display: \"interpreter role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib512",
     "attributeId": "A006",
     "value": "Agent009",
+    "jsonMockup": "agent: { label: \"George Geneticist\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent009: { label: \"George Geneticist\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib512",
     "attributeId": "A007",
     "value": "8/14/2014 10:29 AM",
+    "jsonMockup": "contributionDate: \"8/14/2014 10:29 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"8/14/2014 10:29 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib512",
     "attributeId": "A008",
-    "value": "CC414",
+    "value": "CRID196",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000331\", label: \"interpreter role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000331\", display: \"interpreter role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib513",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib513",
     "attributeId": "A007",
     "value": "3/14/2017 10:29 AM",
+    "jsonMockup": "contributionDate: \"3/14/2017 10:29 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"3/14/2017 10:29 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib513",
     "attributeId": "A008",
-    "value": "CC415",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib514",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib514",
     "attributeId": "A007",
     "value": "3/14/2017 10:45 AM",
+    "jsonMockup": "contributionDate: \"3/14/2017 10:45 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"3/14/2017 10:45 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib514",
     "attributeId": "A008",
-    "value": "CC416",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib515",
     "attributeId": "A006",
     "value": "Agent010",
+    "jsonMockup": "agent: { label: \"ACME Molecular Lab\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent010: { label: \"ACME Molecular Lab\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib515",
     "attributeId": "A007",
     "value": "6/11/2011 11:45 AM",
+    "jsonMockup": "contributionDate: \"6/11/2011 11:45 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/11/2011 11:45 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib515",
     "attributeId": "A008",
-    "value": "CC417",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib516",
     "attributeId": "A006",
     "value": "Agent010",
+    "jsonMockup": "agent: { label: \"ACME Molecular Lab\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent010: { label: \"ACME Molecular Lab\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib516",
     "attributeId": "A007",
     "value": "6/11/2011 12:45:00",
+    "jsonMockup": "contributionDate: \"6/11/2011 12:45:00\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/11/2011 12:45:00\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib516",
     "attributeId": "A008",
-    "value": "CC418",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib517",
     "attributeId": "A006",
     "value": "Agent010",
+    "jsonMockup": "agent: { label: \"ACME Molecular Lab\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent010: { label: \"ACME Molecular Lab\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib517",
     "attributeId": "A007",
     "value": "6/10/2011 1:45 PM",
+    "jsonMockup": "contributionDate: \"6/10/2011 1:45 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/10/2011 1:45 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib517",
     "attributeId": "A008",
-    "value": "CC419",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib518",
     "attributeId": "A006",
     "value": "Agent010",
+    "jsonMockup": "agent: { label: \"ACME Molecular Lab\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent010: { label: \"ACME Molecular Lab\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib518",
     "attributeId": "A007",
     "value": "6/12/2011 9:00 AM",
+    "jsonMockup": "contributionDate: \"6/12/2011 9:00 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/12/2011 9:00 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib518",
     "attributeId": "A008",
-    "value": "CC420",
+    "value": "CRID196",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000331\", label: \"interpreter role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000331\", display: \"interpreter role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib519",
     "attributeId": "A006",
     "value": "Agent010",
+    "jsonMockup": "agent: { label: \"ACME Molecular Lab\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent010: { label: \"ACME Molecular Lab\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib519",
     "attributeId": "A007",
     "value": "7/2/2012 8:45 AM",
+    "jsonMockup": "contributionDate: \"7/2/2012 8:45 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/2/2012 8:45 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib519",
     "attributeId": "A008",
-    "value": "CC421",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib520",
     "attributeId": "A006",
     "value": "Agent011",
+    "jsonMockup": "agent: { label: \"Genetics Diagnostic Laboratory,Children's Hospital of Eastern Ontario\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent011: { label: \"Genetics Diagnostic Laboratory,Children's Hospital of Eastern Ontario\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib520",
     "attributeId": "A007",
     "value": "6/1/2014 9:02 AM",
+    "jsonMockup": "contributionDate: \"6/1/2014 9:02 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/1/2014 9:02 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib520",
     "attributeId": "A008",
-    "value": "CC422",
+    "value": "CRID196",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000331\", label: \"interpreter role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000331\", display: \"interpreter role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib521",
     "attributeId": "A006",
     "value": "Agent012",
+    "jsonMockup": "agent: { label: \"GeneDx\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent012: { label: \"GeneDx\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib521",
     "attributeId": "A007",
     "value": "6/20/2016 11:12 AM",
+    "jsonMockup": "contributionDate: \"6/20/2016 11:12 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/20/2016 11:12 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib521",
     "attributeId": "A008",
-    "value": "CC423",
+    "value": "CRID196",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000331\", label: \"interpreter role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000331\", display: \"interpreter role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib522",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib522",
     "attributeId": "A007",
     "value": "7/1/16 10:53 AM",
+    "jsonMockup": "contributionDate: \"7/1/16 10:53 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/1/16 10:53 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib522",
     "attributeId": "A008",
-    "value": "CC424",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib523",
     "attributeId": "A006",
     "value": "Agent004",
+    "jsonMockup": "agent: { label: \"CSER Bakeoff Project\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent004: { label: \"CSER Bakeoff Project\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib523",
     "attributeId": "A007",
     "value": "7/1/16 10:53 AM",
+    "jsonMockup": "contributionDate: \"7/1/16 10:53 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/1/16 10:53 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib523",
     "attributeId": "A008",
-    "value": "CC425",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib524",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib524",
     "attributeId": "A007",
     "value": "6/2/16 8:01 AM",
+    "jsonMockup": "contributionDate: \"6/2/16 8:01 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/2/16 8:01 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib524",
     "attributeId": "A008",
-    "value": "CC426",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib525",
     "attributeId": "A006",
     "value": "Agent003",
+    "jsonMockup": "agent: { label: \"Sasha Rande\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent003: { label: \"Sasha Rande\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib525",
     "attributeId": "A007",
     "value": "6/12/16 7:30 AM",
+    "jsonMockup": "contributionDate: \"6/12/16 7:30 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/12/16 7:30 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib525",
     "attributeId": "A008",
-    "value": "CC427",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib526",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib526",
     "attributeId": "A007",
     "value": "03/08/2017 9:46 AM",
+    "jsonMockup": "contributionDate: \"03/08/2017 9:46 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"03/08/2017 9:46 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib526",
     "attributeId": "A008",
-    "value": "CC428",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib527",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib527",
     "attributeId": "A007",
     "value": "7/1/16 9:23 AM",
+    "jsonMockup": "contributionDate: \"7/1/16 9:23 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"7/1/16 9:23 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib527",
     "attributeId": "A008",
-    "value": "CC429",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib528",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib528",
     "attributeId": "A007",
     "value": "03/07/2017 4:30 PM",
+    "jsonMockup": "contributionDate: \"03/07/2017 4:30 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"03/07/2017 4:30 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib528",
     "attributeId": "A008",
-    "value": "CC430",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib529",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib529",
     "attributeId": "A007",
     "value": "03/08/2017 10:02 AM",
+    "jsonMockup": "contributionDate: \"03/08/2017 10:02 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"03/08/2017 10:02 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib529",
     "attributeId": "A008",
-    "value": "CC431",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib530",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib530",
     "attributeId": "A007",
     "value": "10/10/16 8:05 AM",
+    "jsonMockup": "contributionDate: \"10/10/16 8:05 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"10/10/16 8:05 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib530",
     "attributeId": "A008",
-    "value": "CC432",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib531",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib531",
     "attributeId": "A007",
     "value": "03/08/2017 7:43 AM",
+    "jsonMockup": "contributionDate: \"03/08/2017 7:43 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"03/08/2017 7:43 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib531",
     "attributeId": "A008",
-    "value": "CC433",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib532",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib532",
     "attributeId": "A007",
     "value": "01/17/17 9:12 AM",
+    "jsonMockup": "contributionDate: \"01/17/17 9:12 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"01/17/17 9:12 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib532",
     "attributeId": "A008",
-    "value": "CC434",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib533",
     "attributeId": "A006",
     "value": "Agent001",
+    "jsonMockup": "agent: { label: \"Harry Stevenson\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent001: { label: \"Harry Stevenson\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib533",
     "attributeId": "A007",
     "value": "03/07/2017 5:22 PM",
+    "jsonMockup": "contributionDate: \"03/07/2017 5:22 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"03/07/2017 5:22 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib533",
     "attributeId": "A008",
-    "value": "CC435",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib534",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib534",
     "attributeId": "A007",
     "value": "3/14/2017 10:29 AM",
+    "jsonMockup": "contributionDate: \"3/14/2017 10:29 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"3/14/2017 10:29 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib534",
     "attributeId": "A008",
-    "value": "CC436",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib535",
     "attributeId": "A006",
     "value": "Agent007",
+    "jsonMockup": "agent: { label: \"Stefan DiMarino\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent007: { label: \"Stefan DiMarino\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib535",
     "attributeId": "A007",
     "value": "3/14/2017 10:45 AM",
+    "jsonMockup": "contributionDate: \"3/14/2017 10:45 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"3/14/2017 10:45 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib535",
     "attributeId": "A008",
-    "value": "CC437",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib536",
     "attributeId": "A006",
     "value": "Agent010",
+    "jsonMockup": "agent: { label: \"ACME Molecular Lab\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent010: { label: \"ACME Molecular Lab\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib536",
     "attributeId": "A007",
     "value": "6/11/2011 11:45 AM",
+    "jsonMockup": "contributionDate: \"6/11/2011 11:45 AM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/11/2011 11:45 AM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib536",
     "attributeId": "A008",
-    "value": "CC438",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib537",
     "attributeId": "A006",
     "value": "Agent010",
+    "jsonMockup": "agent: { label: \"ACME Molecular Lab\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent010: { label: \"ACME Molecular Lab\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib537",
     "attributeId": "A007",
     "value": "6/11/2011 12:45:00",
+    "jsonMockup": "contributionDate: \"6/11/2011 12:45:00\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/11/2011 12:45:00\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib537",
     "attributeId": "A008",
-    "value": "CC439",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   },
   {
     "subjectId": "Contrib538",
     "attributeId": "A006",
     "value": "Agent010",
+    "jsonMockup": "agent: { label: \"ACME Molecular Lab\" }",
     "attributeName": "agent",
-    "attributeType": "Agent",
-    "lookupValue": "agent: { Agent010: { label: \"ACME Molecular Lab\" } }"
+    "attributeType": "Agent"
   },
   {
     "subjectId": "Contrib538",
     "attributeId": "A007",
     "value": "6/10/2011 1:45 PM",
+    "jsonMockup": "contributionDate: \"6/10/2011 1:45 PM\"",
     "attributeName": "contributionDate",
-    "attributeType": "Datetime",
-    "lookupValue": "contributionDate: \"6/10/2011 1:45 PM\""
+    "attributeType": "Datetime"
   },
   {
     "subjectId": "Contrib538",
     "attributeId": "A008",
-    "value": "CC440",
+    "value": "CRID193",
+    "jsonMockup": "contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" }",
     "attributeName": "contributionRole",
-    "attributeType": "CodeableConcept",
-    "lookupValue": "contributionRole: { coding: [{ code: \"0000154\", display: \"assessor role\", system: \"http://obofoundry.org/sepio/\" }] }"
+    "attributeType": "ContributoryRole"
   }
 ]

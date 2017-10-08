@@ -34,6 +34,7 @@
   "E04": {
     "id": "E04",
     "name": "Criterion",
+    "parentType": "E40",
     "link": "Crit",
     "iri": "SEPIO:0000192",
     "iri-label": "variant pathogenicity criterion",
@@ -64,6 +65,7 @@
   "E07": {
     "id": "E07",
     "name": "Gene",
+    "parentType": "E40",
     "link": "G",
     "iri": "SO:0000704",
     "iri-label": "gene",
@@ -135,6 +137,7 @@
   "E16": {
     "id": "E16",
     "name": "Individual",
+    "parentType": "E40",
     "link": "Indiv",
     "iri": "foaf:Person",
     "iri-label": "foaf:Person",
@@ -243,6 +246,7 @@
   "E26": {
     "id": "E26",
     "name": "ReferenceSequence",
+    "parentType": "E40",
     "link": "RefSeq",
     "iri": "GENO:0000017",
     "iri-label": "reference sequence feature",
@@ -275,6 +279,7 @@
   "E32": {
     "id": "E32",
     "name": "AssertionMethod",
+    "parentType": "E40",
     "link": "AssertMeth",
     "iri": "SEPIO:0000193",
     "iri-label": "variant pathogenicity interpretation guideline",
@@ -285,6 +290,7 @@
   "E33": {
     "id": "E33",
     "name": "ScoringAlgorithm",
+    "parentType": "E40",
     "link": "ScorAlg",
     "iri": "SEPIO:0000224",
     "iri-label": "varriant pathogenicity criterion scoring algorithm",
@@ -303,34 +309,43 @@
     "description": "An assertion about the pathogenicity of a genetic sequence variant, based on evaluation of one or more lines of evidence.",
     "comments": "The generation of variant Interpretations typically follows specific guidelines that include a defined set of 'criteria' specifying how to interpret specific types of information as evidence, and a set of rules ('criterion scoring algorithms') for combining the outcomes of individual criterion assessments to make a final interpretation of a variant's pathogenicity.  "
   },
-  "E40": {
-    "id": "E40",
-    "name": "CodeableConcept",
-    "link": "CC",
+  "E39": {
+    "id": "E39",
+    "name": "Synonym",
+    "link": "Synm",
     "iri": "",
     "iri-label": "",
-    "cg-label": "CodeableConcept",
-    "description": "",
+    "cg-label": "Synonym",
+    "description": "LB: shared pattern from HPO Layperson synonym approach\nhttps://github.com/obophenotype/human-phenotype-ontology/wiki/Layperson-synonym-annotation",
+    "comments": ""
+  },
+  "E40": {
+    "id": "E40",
+    "name": "DomainEntity",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "DomainEntity",
+    "description": "Abstract model for all former codings and codeableconcepts.  This entity provides an id to any entity type needed and provides the label and exactSynonym atttributes for versatility",
     "comments": ""
   },
   "E41": {
     "id": "E41",
-    "name": "CodeSystem",
+    "name": "IdentiferSystem",
     "link": "CS",
     "iri": "",
     "iri-label": "",
-    "cg-label": "CodeSystem",
-    "description": "",
+    "cg-label": "IdentifierSystem",
+    "description": "(LB) this is not directly related to the model, but it is needed for our work in order to store the data for all the Systems and related meta data, URIs, prefixes, OIDs, etc. that provide externally referenced identifiers.  ",
     "comments": ""
   },
   "E42": {
     "id": "E42",
-    "name": "Coding",
-    "link": "CD",
+    "name": "IdentiferSystemConcept",
+    "link": "ISC",
     "iri": "",
     "iri-label": "",
     "cg-label": "Coding",
-    "description": "",
+    "description": "(LB) this is not directly related to the model, but it is needed to ",
     "comments": ""
   },
   "E43": {
@@ -347,7 +362,7 @@
   "E44": {
     "id": "E44",
     "name": "Family",
-    "parentType": "E01",
+    "parentType": "E40",
     "link": "Fam",
     "iri": "PCO:0000020",
     "iri-label": "family",
@@ -444,11 +459,11 @@
   },
   "E55": {
     "id": "E55",
-    "name": "ValueSetCoding",
+    "name": "ValueSetConcept",
     "link": "VSC",
     "iri": "",
     "iri-label": "",
-    "cg-label": "ValueSetCoding",
+    "cg-label": "ValueSetConcept",
     "description": "",
     "comments": ""
   },
@@ -464,12 +479,263 @@
   },
   "E57": {
     "id": "E57",
-    "name": "MolecularConsequence",
-    "parentType": "E55"
+    "name": "MolecularConsequenceType",
+    "parentType": "E40",
+    "link": "MCTID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
   },
   "E58": {
     "id": "E58",
-    "name": "Mechanism",
-    "parentType": "E55"
+    "name": "Significance",
+    "parentType": "E40",
+    "link": "SIGID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E59": {
+    "id": "E59",
+    "name": "RegionAnnotationType",
+    "parentType": "E40",
+    "link": "RATID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E60": {
+    "id": "E60",
+    "name": "Phase",
+    "parentType": "E40",
+    "link": "PHZID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E61": {
+    "id": "E61",
+    "name": "AllelicState",
+    "parentType": "E40",
+    "link": "ASID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E62": {
+    "id": "E62",
+    "name": "ModeOfInheritance",
+    "parentType": "E40",
+    "link": "MOIID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E63": {
+    "id": "E63",
+    "name": "ReferenceSequenceRelatedType",
+    "parentType": "E40",
+    "link": "RSRTID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E64": {
+    "id": "E64",
+    "name": "MechanismType",
+    "parentType": "E40",
+    "link": "MTID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E65": {
+    "id": "E65",
+    "name": "PredictionType",
+    "parentType": "E40",
+    "link": "PredTID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E66": {
+    "id": "E66",
+    "name": "CriterionEvaluation",
+    "parentType": "E40",
+    "link": "CEID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E67": {
+    "id": "E67",
+    "name": "AlleleFunctionalImpactType",
+    "parentType": "E40",
+    "link": "AFITID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E68": {
+    "id": "E68",
+    "name": "PopulationType",
+    "parentType": "E40",
+    "link": "PTID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E69": {
+    "id": "E69",
+    "name": "BenignMissenseVariationRate",
+    "parentType": "E40",
+    "link": "BMVRID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E70": {
+    "id": "E70",
+    "name": "PenetranceType",
+    "parentType": "E40",
+    "link": "PenTID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E71": {
+    "id": "E71",
+    "name": "ConditionMechanismStrength",
+    "parentType": "E40",
+    "link": "CMSID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E72": {
+    "id": "E72",
+    "name": "EvidenceLineStrength",
+    "parentType": "E40",
+    "link": "ELSID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E73": {
+    "id": "E73",
+    "name": "Disease",
+    "parentType": "E40",
+    "link": "DisID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E74": {
+    "id": "E74",
+    "name": "Phenotype",
+    "parentType": "E40",
+    "link": "PhenID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E75": {
+    "id": "E75",
+    "name": "ReferenceSequence",
+    "parentType": "E40",
+    "link": "RSeqID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E76": {
+    "id": "E76",
+    "name": "ContributoryRole",
+    "parentType": "E40",
+    "link": "CRID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E77": {
+    "id": "E77",
+    "name": "AlleleInheritanceType",
+    "parentType": "E40",
+    "link": "AITID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E78": {
+    "id": "E78",
+    "name": "AscertainmentType",
+    "parentType": "E40",
+    "link": "AsctTID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E79": {
+    "id": "E79",
+    "name": "LocusSpecificityType",
+    "parentType": "E40",
+    "link": "LSTID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E80": {
+    "id": "E80",
+    "name": "Conservation",
+    "parentType": "E40",
+    "link": "ConsrvID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E81": {
+    "id": "E81",
+    "name": "ParentalConfirmation",
+    "parentType": "E40",
+    "link": "PCID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E82": {
+    "id": "E82",
+    "name": "ConditionStatus",
+    "parentType": "E40",
+    "link": "CondStID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E83": {
+    "id": "E83",
+    "name": "InconsistentSegregationObserved",
+    "parentType": "E40",
+    "link": "ISegObsID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E84": {
+    "id": "E84",
+    "name": "NullAllele",
+    "parentType": "E40",
+    "link": "NullAID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
+  },
+  "E85": {
+    "id": "E85",
+    "name": "RegionAllelesOutcome",
+    "parentType": "E40",
+    "link": "RegAID",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": ""
   }
 }
