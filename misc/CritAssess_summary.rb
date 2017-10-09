@@ -6,7 +6,7 @@ $dmwg_examples = DMWGExampleData.new('../data/flattened')
 assessments_by_criterion =
   $dmwg_examples.by_type['CriterionAssessment'].select {
     |x| x.key?('criterion') && x.key?('outcome')
-  }.group_by { |x| x['criterion']['id'] }
+  }.group_by { |x| x['criterion']['label'] }
 
 puts "Criterion\tMet\tNot Met\tTotal"
 
