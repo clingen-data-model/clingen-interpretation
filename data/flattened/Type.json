@@ -50,7 +50,8 @@
     "iri-label": "canonical allele",
     "cg-label": "CanonicalAllele",
     "description": "One of a set of coexisting sequence variants at a defined genomic locus, or a set of such variants located in cis on the same copy of the chromosome.\n",
-    "comments": ""
+    "comments": "",
+    "toString": "identifier"
   },
   "E06": {
     "id": "E06",
@@ -60,7 +61,8 @@
     "iri-label": "contextual allele",
     "cg-label": "ContextualAllele",
     "description": "An informational artifact that describes an allele as defined on a particular reference sequence.",
-    "comments": ""
+    "comments": "",
+    "toString": "alleleName"
   },
   "E07": {
     "id": "E07",
@@ -71,7 +73,8 @@
     "iri-label": "gene",
     "cg-label": "Gene",
     "description": "From SO: A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.",
-    "comments": ""
+    "comments": "",
+    "toString": "geneSymbol"
   },
   "E08": {
     "id": "E08",
@@ -132,7 +135,8 @@
     "iri-label": "genetic condition",
     "cg-label": "GeneticCondition",
     "description": "A disease, or a set of one or more co-occurring phenotypes, typically controlled by a single locus with a defined inheritance pattern.",
-    "comments": "CB: It appears that most descriptions of mendelian conditions do emphasize the single-locus nature.  (Many say monogenic, but single-locus makes more sense to me for something like a large-deletion?)  The problem, perhapse is that we have allowed Mendelian Condition to contain terms that are not, strictly speaking, Mendelian conditions.  For instance, parent nodes in a disease ontology which is a parent to many different monogenic diseases that all share similary phenotypic features (like hearing loss).\n\nMB: I think the 'typically' accommodates this in the definition, but CG should add clarifying comments as noted above.\n\nTODO:CG to add clarifying coments here about monogenic nature of mendelian conditions "
+    "comments": "CB: It appears that most descriptions of mendelian conditions do emphasize the single-locus nature.  (Many say monogenic, but single-locus makes more sense to me for something like a large-deletion?)  The problem, perhapse is that we have allowed Mendelian Condition to contain terms that are not, strictly speaking, Mendelian conditions.  For instance, parent nodes in a disease ontology which is a parent to many different monogenic diseases that all share similary phenotypic features (like hearing loss).\n\nMB: I think the 'typically' accommodates this in the definition, but CG should add clarifying comments as noted above.\n\nTODO:CG to add clarifying coments here about monogenic nature of mendelian conditions ",
+    "toString": "label || disease&.label"
   },
   "E16": {
     "id": "E16",

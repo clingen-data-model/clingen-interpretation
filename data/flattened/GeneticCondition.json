@@ -2,427 +2,356 @@
   "GenCond001": {
     "id": "GenCond001",
     "@id": "_b4100",
-    "jsonMockupFull": "@id : \"_b4100\", name: \"Breast Ovarian Cancer, Autosomal Dominant\", disease: { @id : \"MESH:D061325\", label: \"hereditary breast ovarian cancer\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4100\""
   },
   "GenCond002": {
     "id": "GenCond002",
     "@id": "_b4101",
-    "jsonMockupFull": "@id : \"_b4101\", disease: { @id : \"Orphanet:217604\", label: \"dilated cardiomyopathy\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4101\""
   },
   "GenCond003": {
     "id": "GenCond003",
     "@id": "_b4102",
-    "jsonMockupFull": "@id : \"_b4102\", disease: { @id : \"Orphanet:648\", label: \"noonan syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4102\""
   },
   "GenCond004": {
     "id": "GenCond004",
     "@id": "_b4103",
-    "jsonMockupFull": "@id : \"_b4103\", disease: { @id : \"Orphanet:244\", label: \"Primary ciliary dyskenisia\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4103\""
   },
   "GenCond005": {
     "id": "GenCond005",
     "@id": "_b4104",
-    "jsonMockupFull": "@id : \"_b4104\", disease: { @id : \"Orphanet:3071\", label: \"costello syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4104\""
   },
   "GenCond006": {
     "id": "GenCond006",
     "@id": "_b4105",
-    "jsonMockupFull": "@id : \"_b4105\", disease: { @id : \"OMIM:609942\", label: \"noonan syndrome 3\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4105\""
   },
   "GenCond007": {
     "id": "GenCond007",
     "@id": "_b4106",
-    "jsonMockupFull": "@id : \"_b4106\", disease: { @id : \"Orphanet:167848\", label: \"cardiomyopathy\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4106\""
   },
   "GenCond008": {
     "id": "GenCond008",
     "@id": "_b4107",
-    "jsonMockupFull": "@id : \"_b4107\", disease: { @id : \"OMIM:601419\", label: \"myofibrillar myopathy 1\" }, name: \"desmin related myopathy\"",
     "jsonMockupIdentityOnly": "@id : \"_b4107\""
   },
   "GenCond009": {
     "id": "GenCond009",
     "@id": "_b4108",
-    "jsonMockupFull": "@id : \"_b4108\", name: \"Epilepsy with Mental Retardation\"",
     "jsonMockupIdentityOnly": "@id : \"_b4108\""
   },
   "GenCond010": {
     "id": "GenCond010",
     "@id": "_b4109",
-    "jsonMockupFull": "@id : \"_b4109\", disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }, modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }, gene: { @id : \"HGNC:18183\", geneSymbol: \"GIPC3\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4109\""
   },
   "GenCond011": {
     "id": "GenCond011",
     "@id": "_b4110",
-    "jsonMockupFull": "@id : \"_b4110\", disease: { @id : \"Orphanet:423\", label: \"Malignant hyperthermia\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4110\""
   },
   "GenCond012": {
     "id": "GenCond012",
     "@id": "_b4111",
-    "jsonMockupFull": "@id : \"_b4111\", phenotype: { @id : \"HP:0011014\", label: \"Abnormal Glucose Homeostasis\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4111\""
   },
   "GenCond013": {
     "id": "GenCond013",
     "@id": "_b4112",
-    "jsonMockupFull": "@id : \"_b4112\", disease: { @id : \"Orphanet:324\", label: \"Fabry disease\" }, modeOfInheritance: { @id : \"HP:0001419\", label: \"X linked recessive inheritance\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4112\""
   },
   "GenCond014": {
     "id": "GenCond014",
     "@id": "_b4113",
-    "jsonMockupFull": "@id : \"_b4113\", name: \"PCD autosomal recessive w/ outer dynein arm (ODA) defects\", disease: { @id : \"Orphanet:244\", label: \"Primary ciliary dyskenisia\" }, modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }, phenotype: { @id : \"HP:0200106\", label: \"Absent/shortened dynein arms\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4113\""
   },
   "GenCond015": {
     "id": "GenCond015",
     "@id": "_b4114",
-    "jsonMockupFull": "@id : \"_b4114\", disease: { @id : \"Orphanet:216\", label: \"neuronal ceroid lipofuscinosis\" }, modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }, gene: { @id : \"HGNC:12404\", geneSymbol: \"TTP1\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4114\""
   },
   "GenCond016": {
     "id": "GenCond016",
     "@id": "_b4115",
-    "jsonMockupFull": "@id : \"_b4115\", disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }, name: \"Primary familial hypertrophic cardiomyopathy, Autosomal Dominant\"",
     "jsonMockupIdentityOnly": "@id : \"_b4115\""
   },
   "GenCond017": {
     "id": "GenCond017",
     "@id": "_b4116",
-    "jsonMockupFull": "@id : \"_b4116\", disease: { @id : \"Orphanet:664\", label: \"Ornithine carbamoyltransferase deficiency\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4116\""
   },
   "GenCond018": {
     "id": "GenCond018",
     "@id": "_b4117",
-    "jsonMockupFull": "@id : \"_b4117\", disease: { @id : \"Orphanet:122\", label: \"Birt-Hogg-Dube Syndrome\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4117\""
   },
   "GenCond019": {
     "id": "GenCond019",
     "@id": "_b4118",
-    "jsonMockupFull": "@id : \"_b4118\", disease: { @id : \"Orphanet:1340\", label: \"cardiofaciocutaneous syndrome\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4118\""
   },
   "GenCond020": {
     "id": "GenCond020",
     "@id": "_b4119",
-    "jsonMockupFull": "@id : \"_b4119\", disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4119\""
   },
   "GenCond021": {
     "id": "GenCond021",
     "@id": "_b4120",
-    "jsonMockupFull": "@id : \"_b4120\", disease: { @id : \"Orphanet:886\", label: \"Usher syndrome\" }, modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4120\""
   },
   "GenCond022": {
     "id": "GenCond022",
     "@id": "_b4121",
-    "jsonMockupFull": "@id : \"_b4121\", disease: { @id : \"Orphanet:774\", label: \"hereditary hemorrhagic telangiectasia\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4121\""
   },
   "GenCond023": {
     "id": "GenCond023",
     "@id": "_b4122",
-    "jsonMockupFull": "@id : \"_b4122\", disease: { @id : \"OMIM:612555\", label: \"Breast-Ovarian Cancer, Familial, Susceptibility To, 2\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4122\""
   },
   "GenCond024": {
     "id": "GenCond024",
     "@id": "_b4123",
-    "jsonMockupFull": "@id : \"_b4123\", disease: { @id : \"OMIM:614065\", label: \"Myopathy, Distal, type 4\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4123\""
   },
   "GenCond025": {
     "id": "GenCond025",
     "@id": "_b4124",
-    "jsonMockupFull": "@id : \"_b4124\", disease: { @id : \"Orphanet:586\", label: \"Cystic Fibrosis\" }, modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4124\""
   },
   "GenCond026": {
     "id": "GenCond026",
     "@id": "_b4125",
-    "jsonMockupFull": "@id : \"_b4125\", disease: { @id : \"Orphanet:558\", label: \"Marfan Syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4125\""
   },
   "GenCond027": {
     "id": "GenCond027",
     "@id": "_b4126",
-    "jsonMockupFull": "@id : \"_b4126\", disease: { @id : \"Orphanet:2609\", label: \"Mitochondrial complex 1 deficiency\" }, modeOfInheritance: { @id : \"HP:0001423\", label: \"X-linked dominant inheritance\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4126\""
   },
   "GenCond028": {
     "id": "GenCond028",
     "@id": "_b4127",
-    "jsonMockupFull": "@id : \"_b4127\", disease: { @id : \"Orphanet:2855\", label: \"Perrault Syndrome\" }, modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4127\""
   },
   "GenCond029": {
     "id": "GenCond029",
     "@id": "_b4128",
-    "jsonMockupFull": "@id : \"_b4128\", disease: { @id : \"Orphanet:319182\", label: \"Wiedemann-Steiner syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4128\""
   },
   "GenCond030": {
     "id": "GenCond030",
     "@id": "_b4129",
-    "jsonMockupFull": "@id : \"_b4129\", disease: { @id : \"Orphanet:733\", label: \"Familial Adenomatous Polyposis\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4129\""
   },
   "GenCond035": {
     "id": "GenCond035",
     "@id": "_b4134",
-    "jsonMockupFull": "@id : \"_b4134\", disease: { @id : \"OMIM:143890\", label: \"Hypercholesterolemia, Familial\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4134\""
   },
   "GenCond036": {
     "id": "GenCond036",
     "@id": "_b4135",
-    "jsonMockupFull": "@id : \"_b4135\", disease: { @id : \"Orphanet:145\", label: \"hereditary breast and ovarian cancer syndrome\" }, name: \"hereditary breast and ovarian cancer\"",
     "jsonMockupIdentityOnly": "@id : \"_b4135\""
   },
   "GenCond037": {
     "id": "GenCond037",
     "@id": "_b4136",
-    "jsonMockupFull": "@id : \"_b4136\", disease: { @id : \"Orphanet:84\", label: \"Fanconi Anemia\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4136\""
   },
   "GenCond038": {
     "id": "GenCond038",
     "@id": "_b4137",
-    "jsonMockupFull": "@id : \"_b4137\", disease: { @id : \"Orphanet:791\", label: \"Retinitis Pigmentosa\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4137\""
   },
   "GenCond039": {
     "id": "GenCond039",
     "@id": "_b4138",
-    "jsonMockupFull": "@id : \"_b4138\", phenotype: { @id : \"HP:0012873\", label: \"Absent vas deferens\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4138\""
   },
   "GenCond040": {
     "id": "GenCond040",
     "@id": "_b4139",
-    "jsonMockupFull": "@id : \"_b4139\", disease: { @id : \"Orphanet:364526\", label: \"Primary bone dysplasia\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4139\""
   },
   "GenCond041": {
     "id": "GenCond041",
     "@id": "_b4140",
-    "jsonMockupFull": "@id : \"_b4140\", disease: { @id : \"Orphanet:750\", label: \"pseudoachondroplasia\" }, name: \"Pseudoachondroplastic spondyloepiphyseal dysplasia\"",
     "jsonMockupIdentityOnly": "@id : \"_b4140\""
   },
   "GenCond042": {
     "id": "GenCond042",
     "@id": "_b4141",
-    "jsonMockupFull": "@id : \"_b4141\", disease: { @id : \"Orphanet:750\", label: \"pseudoachondroplasia\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4141\""
   },
   "GenCond043": {
     "id": "GenCond043",
     "@id": "_b4142",
-    "jsonMockupFull": "@id : \"_b4142\", disease: { @id : \"OMIM:612555\", label: \"Breast-Ovarian Cancer, Familial, Susceptibility To, 2\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4142\""
   },
   "GenCond044": {
     "id": "GenCond044",
     "@id": "_b4143",
-    "jsonMockupFull": "@id : \"_b4143\", disease: { @id : \"Orphanet:414\", label: \"Gyrate atrophy of choroid and retina\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4143\""
   },
   "GenCond045": {
     "id": "GenCond045",
     "@id": "_b4144",
-    "jsonMockupFull": "@id : \"_b4144\", disease: { @id : \"Orphanet:244\", label: \"Primary ciliary dyskenisia\" }, modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4144\""
   },
   "GenCond046": {
     "id": "GenCond046",
     "@id": "_b4145",
-    "jsonMockupFull": "@id : \"_b4145\", disease: { @id : \"Orphanet:247\", label: \"arrhythmogenic right ventricular cardiomyopathy\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4145\""
   },
   "GenCond047": {
     "id": "GenCond047",
     "@id": "_b4146",
-    "jsonMockupFull": "@id : \"_b4146\", disease: { @id : \"Orphanet:217604\", label: \"dilated cardiomyopathy\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4146\""
   },
   "GenCond048": {
     "id": "GenCond048",
     "@id": "_b4147",
-    "jsonMockupFull": "@id : \"_b4147\", disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }, name: \"Hearing Loss\"",
     "jsonMockupIdentityOnly": "@id : \"_b4147\""
   },
   "GenCond049": {
     "id": "GenCond049",
     "@id": "_b4148",
-    "jsonMockupFull": "@id : \"_b4148\", disease: { @id : \"Orphanet:98733\", label: \"Noonan syndrome and noonan-related syndrom\" }, name: \"Rasopathy\"",
     "jsonMockupIdentityOnly": "@id : \"_b4148\""
   },
   "GenCond050": {
     "id": "GenCond050",
     "@id": "_b4149",
-    "jsonMockupFull": "@id : \"_b4149\", name: \"Breast Ovarian Cancer, Autosomal Dominant\", disease: { @id : \"MESH:D061325\", label: \"hereditary breast ovarian cancer\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4149\""
   },
   "GenCond051": {
     "id": "GenCond051",
     "@id": "_b4150",
-    "jsonMockupFull": "@id : \"_b4150\", name: \"Breast Ovarian Cancer, Autosomal Dominant\", disease: { @id : \"MESH:D061325\", label: \"hereditary breast ovarian cancer\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4150\""
   },
   "GenCond052": {
     "id": "GenCond052",
     "@id": "_b4151",
-    "jsonMockupFull": "@id : \"_b4151\", disease: { @id : \"Orphanet:217604\", label: \"dilated cardiomyopathy\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4151\""
   },
   "GenCond053": {
     "id": "GenCond053",
     "@id": "_b4152",
-    "jsonMockupFull": "@id : \"_b4152\", disease: { @id : \"Orphanet:217604\", label: \"dilated cardiomyopathy\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4152\""
   },
   "GenCond054": {
     "id": "GenCond054",
     "@id": "_b4153",
-    "jsonMockupFull": "@id : \"_b4153\", disease: { @id : \"Orphanet:247\", label: \"arrhythmogenic right ventricular cardiomyopathy\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4153\""
   },
   "GenCond055": {
     "id": "GenCond055",
     "@id": "_b4154",
-    "jsonMockupFull": "@id : \"_b4154\", disease: { @id : \"Orphanet:648\", label: \"noonan syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4154\""
   },
   "GenCond056": {
     "id": "GenCond056",
     "@id": "_b4155",
-    "jsonMockupFull": "@id : \"_b4155\", disease: { @id : \"Orphanet:648\", label: \"noonan syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4155\""
   },
   "GenCond057": {
     "id": "GenCond057",
     "@id": "_b4156",
-    "jsonMockupFull": "@id : \"_b4156\", disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }, name: \"Hearing Loss\"",
     "jsonMockupIdentityOnly": "@id : \"_b4156\""
   },
   "GenCond058": {
     "id": "GenCond058",
     "@id": "_b4157",
-    "jsonMockupFull": "@id : \"_b4157\", disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }, name: \"Hearing Loss\"",
     "jsonMockupIdentityOnly": "@id : \"_b4157\""
   },
   "GenCond059": {
     "id": "GenCond059",
     "@id": "_b4158",
-    "jsonMockupFull": "@id : \"_b4158\", disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }, name: \"Hearing Loss, Autosomal Recessive\", modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4158\""
   },
   "GenCond060": {
     "id": "GenCond060",
     "@id": "_b4159",
-    "jsonMockupFull": "@id : \"_b4159\", disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4159\""
   },
   "GenCond061": {
     "id": "GenCond061",
     "@id": "_b4160",
-    "jsonMockupFull": "@id : \"_b4160\", disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }, name: \"Hearing Loss, Autosomal Recessive\", modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4160\""
   },
   "GenCond062": {
     "id": "GenCond062",
     "@id": "_b4161",
-    "jsonMockupFull": "@id : \"_b4161\", disease: { @id : \"Orphanet:244\", label: \"Primary ciliary dyskenisia\" }, modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4161\""
   },
   "GenCond063": {
     "id": "GenCond063",
     "@id": "_b4162",
-    "jsonMockupFull": "@id : \"_b4162\", disease: { @id : \"Orphanet:244\", label: \"Primary ciliary dyskenisia\" }, modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4162\""
   },
   "GenCond064": {
     "id": "GenCond064",
     "@id": "_b4163",
-    "jsonMockupFull": "@id : \"_b4163\", disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4163\""
   },
   "GenCond065": {
     "id": "GenCond065",
     "@id": "_b4164",
-    "jsonMockupFull": "@id : \"_b4164\", disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4164\""
   },
   "GenCond066": {
     "id": "GenCond066",
     "@id": "_b4165",
-    "jsonMockupFull": "@id : \"_b4165\", disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4165\""
   },
   "GenCond067": {
     "id": "GenCond067",
     "@id": "_b4166",
-    "jsonMockupFull": "@id : \"_b4166\", disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4166\""
   },
   "GenCond068": {
     "id": "GenCond068",
     "@id": "_b4167",
-    "jsonMockupFull": "@id : \"_b4167\", disease: { @id : \"Orphanet:1340\", label: \"cardiofaciocutaneous syndrome\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4167\""
   },
   "GenCond069": {
     "id": "GenCond069",
     "@id": "_b4168",
-    "jsonMockupFull": "@id : \"_b4168\", disease: { @id : \"Orphanet:1340\", label: \"cardiofaciocutaneous syndrome\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4168\""
   },
   "GenCond070": {
     "id": "GenCond070",
     "@id": "_b4169",
-    "jsonMockupFull": "@id : \"_b4169\", disease: { @id : \"Orphanet:1340\", label: \"cardiofaciocutaneous syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4169\""
   },
   "GenCond071": {
     "id": "GenCond071",
     "@id": "_b4170",
-    "jsonMockupFull": "@id : \"_b4170\", disease: { @id : \"Orphanet:886\", label: \"Usher syndrome\" }, modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4170\""
   },
   "GenCond072": {
     "id": "GenCond072",
     "@id": "_b4171",
-    "jsonMockupFull": "@id : \"_b4171\", disease: { @id : \"Orphanet:558\", label: \"Marfan Syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4171\""
   },
   "GenCond073": {
     "id": "GenCond073",
     "@id": "_b4172",
-    "jsonMockupFull": "@id : \"_b4172\", disease: { @id : \"Orphanet:145\", label: \"hereditary breast and ovarian cancer syndrome\" }, name: \"hereditary breast and ovarian cancer\"",
     "jsonMockupIdentityOnly": "@id : \"_b4172\""
   },
   "GenCond074": {
     "id": "GenCond074",
     "@id": "_b4173",
-    "jsonMockupFull": "@id : \"_b4173\", disease: { @id : \"Orphanet:247\", label: \"arrhythmogenic right ventricular cardiomyopathy\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4173\""
   },
   "GenCond075": {
     "id": "GenCond075",
     "@id": "_b4174",
-    "jsonMockupFull": "@id : \"_b4174\", disease: { @id : \"Orphanet:648\", label: \"noonan syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }",
     "jsonMockupIdentityOnly": "@id : \"_b4174\""
   }
 }

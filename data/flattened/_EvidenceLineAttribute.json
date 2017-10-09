@@ -3,7 +3,6 @@
     "subjectId": "EvLn001",
     "attributeId": "A178",
     "value": "MolCon001",
-    "jsonMockup": "evidenceItem: { @id : \"_b3100\", consequence: { @id : \"SO:0001589\", label: \"frameshift variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -11,7 +10,6 @@
     "subjectId": "EvLn001",
     "attributeId": "A178",
     "value": "Null396",
-    "jsonMockup": "evidenceItem: { @id : \"_b3495\", annotation: { @id : \"SEPIO-CG:99015\", label: \"No\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -19,7 +17,6 @@
     "subjectId": "EvLn001",
     "attributeId": "A178",
     "value": "CondMech002",
-    "jsonMockup": "evidenceItem: { @id : \"_b3101\", mechanism: { @id : \"SO:0002054\", label: \"loss of function variant\" }, mechanismConfidence: { @id : \"SEPIO:0000269\", label: \"established\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -27,7 +24,6 @@
     "subjectId": "EvLn002",
     "attributeId": "A178",
     "value": "MolCon003",
-    "jsonMockup": "evidenceItem: { @id : \"_b3102\", consequence: { @id : \"SO:0001589\", label: \"frameshift variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -35,7 +31,6 @@
     "subjectId": "EvLn002",
     "attributeId": "A178",
     "value": "Null397",
-    "jsonMockup": "evidenceItem: { @id : \"_b3496\", annotation: { @id : \"SO:0002054\", label: \"loss of function variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -43,7 +38,6 @@
     "subjectId": "EvLn002",
     "attributeId": "A178",
     "value": "CondMech004",
-    "jsonMockup": "evidenceItem: { @id : \"_b3103\", mechanism: { @id : \"SO:0002054\", label: \"loss of function variant\" }, mechanismConfidence: { @id : \"SEPIO:0000269\", label: \"established\" }, condition: { @id : \"_b4100\", name: \"Breast Ovarian Cancer, Autosomal Dominant\", disease: { @id : \"MESH:D061325\", label: \"hereditary breast ovarian cancer\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -51,7 +45,6 @@
     "subjectId": "EvLn003",
     "attributeId": "A178",
     "value": "MolCon005",
-    "jsonMockup": "evidenceItem: { @id : \"_b3104\", consequence: { @id : \"SO:0001589\", label: \"frameshift variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -59,7 +52,6 @@
     "subjectId": "EvLn003",
     "attributeId": "A178",
     "value": "Null398",
-    "jsonMockup": "evidenceItem: { @id : \"_b3497\", annotation: { @id : \"SO:0002054\", label: \"loss of function variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -67,7 +59,6 @@
     "subjectId": "EvLn003",
     "attributeId": "A178",
     "value": "CondMech007",
-    "jsonMockup": "evidenceItem: { @id : \"_b3106\", mechanism: { @id : \"SO:0002054\", label: \"loss of function variant\" }, mechanismConfidence: { @id : \"SEPIO:0000269\", label: \"established\" }, condition: { @id : \"_b4146\", disease: { @id : \"Orphanet:217604\", label: \"dilated cardiomyopathy\" } } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -75,7 +66,6 @@
     "subjectId": "EvLn004",
     "attributeId": "A178",
     "value": "MolCon006",
-    "jsonMockup": "evidenceItem: { @id : \"_b3105\", consequence: { @id : \"SO:0000191\", label: \"interior intron\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -83,7 +73,6 @@
     "subjectId": "EvLn004",
     "attributeId": "A178",
     "value": "Null399",
-    "jsonMockup": "evidenceItem: { @id : \"_b3498\", annotation: { @id : \"SEPIO-CG:99015\", label: \"No\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -91,7 +80,6 @@
     "subjectId": "EvLn004",
     "attributeId": "A178",
     "value": "CondMech007",
-    "jsonMockup": "evidenceItem: { @id : \"_b3106\", mechanism: { @id : \"SO:0002054\", label: \"loss of function variant\" }, mechanismConfidence: { @id : \"SEPIO:0000269\", label: \"established\" }, condition: { @id : \"_b4146\", disease: { @id : \"Orphanet:217604\", label: \"dilated cardiomyopathy\" } } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -99,7 +87,6 @@
     "subjectId": "EvLn005",
     "attributeId": "A178",
     "value": "VarInterp008",
-    "jsonMockup": "evidenceItem: { @id : \"_b3107\", variant: { @id : \"CAR:CA220155\", preferredCtxAllele: { @id : \"_b105\", alleleName: \"NM_002834.3(PTPN11):c.853T>C (p.Phe285Leu)\", relatedCanonicalAllele : \"@id : \"CAR:CA220155\"\" } }, condition: { @id : \"_b4102\", disease: { @id : \"Orphanet:648\", label: \"noonan syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -107,7 +94,6 @@
     "subjectId": "EvLn006",
     "attributeId": "A178",
     "value": "VarInterp009",
-    "jsonMockup": "evidenceItem: { @id : \"_b3108\", variant: { @id : \"CAR:CA501221\", preferredCtxAllele: { @id : \"_b108\", alleleName: \"NM_001369.2(DNAH5):c.6249G>A (p.Met2083Ile)\", relatedCanonicalAllele : \"@id : \"CAR:CA501221\"\" } }, condition: { @id : \"_b4103\", disease: { @id : \"Orphanet:244\", label: \"Primary ciliary dyskenisia\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -115,7 +101,6 @@
     "subjectId": "EvLn007",
     "attributeId": "A178",
     "value": "VarInterp010",
-    "jsonMockup": "evidenceItem: { @id : \"_b3109\", variant: { @id : \"CAR:CA256480\", preferredCtxAllele: { @id : \"_b113\", alleleName: \"NM_004985.4(KRAS):c.173C>T (p.Thr58Ile)\", relatedCanonicalAllele : \"@id : \"CAR:CA256480\"\" } }, condition: { @id : \"_b4105\", disease: { @id : \"OMIM:609942\", label: \"noonan syndrome 3\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -123,7 +108,6 @@
     "subjectId": "EvLn008",
     "attributeId": "A178",
     "value": "VarInterp011",
-    "jsonMockup": "evidenceItem: { @id : \"_b3110\", variant: { @id : \"CAR:CA256480\", preferredCtxAllele: { @id : \"_b113\", alleleName: \"NM_004985.4(KRAS):c.173C>T (p.Thr58Ile)\", relatedCanonicalAllele : \"@id : \"CAR:CA256480\"\" } }, condition: { @id : \"_b4154\", disease: { @id : \"Orphanet:648\", label: \"noonan syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -131,7 +115,6 @@
     "subjectId": "EvLn009",
     "attributeId": "A178",
     "value": "IndCond012",
-    "jsonMockup": "evidenceItem: { @id : \"_b3111\", individual: { @id : \"_b8100\", description: \"individual #001\" }, condition: \"GenCond052\", individualHasCondition: \"true\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -139,7 +122,6 @@
     "subjectId": "EvLn009",
     "attributeId": "A178",
     "value": "FamCond013",
-    "jsonMockup": "evidenceItem: { @id : \"_b3112\", proband: { @id : \"_b8100\", description: \"individual #001\" }, condition: { @id : \"_b4151\", disease: { @id : \"Orphanet:217604\", label: \"dilated cardiomyopathy\" } }, familyHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -147,7 +129,6 @@
     "subjectId": "EvLn009",
     "attributeId": "A178",
     "value": "IndAllInh014",
-    "jsonMockup": "evidenceItem: { @id : \"_b3113\", individual: { @id : \"_b8100\", description: \"individual #001\" }, parentalConfirmation: { @id : \"SEPIO-CG:99007\", label: \"maternal and paternal confirmation\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -155,7 +136,6 @@
     "subjectId": "EvLn010",
     "attributeId": "A178",
     "value": "IndCond015",
-    "jsonMockup": "evidenceItem: { @id : \"_b3114\", individual: { @id : \"_b8101\", description: \"individual #002\" }, condition: \"GenCond008\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -163,7 +143,6 @@
     "subjectId": "EvLn010",
     "attributeId": "A178",
     "value": "FamCond016",
-    "jsonMockup": "evidenceItem: { @id : \"_b3115\", proband: { @id : \"_b8101\", description: \"individual #002\" }, condition: { @id : \"_b4107\", disease: { @id : \"OMIM:601419\", label: \"myofibrillar myopathy 1\" }, name: \"desmin related myopathy\" }, familyHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -171,7 +150,6 @@
     "subjectId": "EvLn010",
     "attributeId": "A178",
     "value": "IndAllInh017",
-    "jsonMockup": "evidenceItem: { @id : \"_b3116\", individual: { @id : \"_b8101\", description: \"individual #002\" }, parentalConfirmation: { @id : \"SEPIO-CG:99006\", label: \"paternal confirmation\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -179,7 +157,6 @@
     "subjectId": "EvLn011",
     "attributeId": "A178",
     "value": "IndCond018",
-    "jsonMockup": "evidenceItem: { @id : \"_b3117\", individual: { @id : \"_b8102\", description: \"individual #003\" }, condition: \"GenCond009\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -187,7 +164,6 @@
     "subjectId": "EvLn011",
     "attributeId": "A178",
     "value": "FamCond019",
-    "jsonMockup": "evidenceItem: { @id : \"_b3118\", proband: { @id : \"_b8102\", description: \"individual #003\" }, condition: { @id : \"_b4108\", name: \"Epilepsy with Mental Retardation\" }, familyHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -195,7 +171,6 @@
     "subjectId": "EvLn011",
     "attributeId": "A178",
     "value": "IndAllInh020",
-    "jsonMockup": "evidenceItem: { @id : \"_b3119\", individual: { @id : \"_b8102\", description: \"individual #003\" }, parentalConfirmation: { @id : \"SEPIO-CG:99007\", label: \"maternal and paternal confirmation\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -203,7 +178,6 @@
     "subjectId": "EvLn012",
     "attributeId": "A178",
     "value": "Func021",
-    "jsonMockup": "evidenceItem: { @id : \"_b3120\", resultDescription: \"the mutation lowered the Ca2+  affinity of the reconstituted thin filaments;\", assayType: { @id : \"OBI:0001146\", label: \"Binding assay\" }, contextualAllele: { @id : \"_b120\", alleleName: \"NP_001001431.1:p.Arg131Trp\", relatedCanonicalAllele : \"@id : \"CAR:CA501233\"\" }, gene: { @id : \"HGNC:11949\", geneSymbol: \"TNNT2\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -211,7 +185,6 @@
     "subjectId": "EvLn013",
     "attributeId": "A178",
     "value": "Func022",
-    "jsonMockup": "evidenceItem: { @id : \"_b3121\", resultDescription: \"reduced Ca2 sensitivity of activation\", assayType: { @id : \"OBI:XXXXXX2\", label: \"ATPase assay\" }, contextualAllele: { @id : \"_b120\", alleleName: \"NP_001001431.1:p.Arg131Trp\", relatedCanonicalAllele : \"@id : \"CAR:CA501233\"\" }, gene: { @id : \"HGNC:11949\", geneSymbol: \"TNNT2\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -219,7 +192,6 @@
     "subjectId": "EvLn014",
     "attributeId": "A178",
     "value": "Func023",
-    "jsonMockup": "evidenceItem: { @id : \"_b3122\", resultDescription: \"reduced Ca2 sensitivity of activation\", assayType: { @id : \"OBI:XXXXXX5\", label: \"motility assay\" }, contextualAllele: { @id : \"_b120\", alleleName: \"NP_001001431.1:p.Arg131Trp\", relatedCanonicalAllele : \"@id : \"CAR:CA501233\"\" }, gene: { @id : \"HGNC:11949\", geneSymbol: \"TNNT2\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -227,7 +199,6 @@
     "subjectId": "EvLn015",
     "attributeId": "A178",
     "value": "Func024",
-    "jsonMockup": "evidenceItem: { @id : \"_b3123\", resultDescription: \"desensitized Ca2+ binding to the thin filament.\", assayType: { @id : \"OBI:0001146\", label: \"Binding assay\" }, contextualAllele: { @id : \"_b120\", alleleName: \"NP_001001431.1:p.Arg131Trp\", relatedCanonicalAllele : \"@id : \"CAR:CA501233\"\" }, gene: { @id : \"HGNC:11949\", geneSymbol: \"TNNT2\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -235,7 +206,6 @@
     "subjectId": "EvLn016",
     "attributeId": "A178",
     "value": "Func025",
-    "jsonMockup": "evidenceItem: { @id : \"_b3124\", resultDescription: \"Functionally Damaging\", assayType: { @id : \"OBI:XXXXXX7\", label: \"Yeast complementation assay\" }, contextualAllele: { @id : \"_b121\", alleleName: \"NM_003119.2 (SPG7):c.1529C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA090884\"\" }, gene: { @id : \"HGNC:11237\", geneSymbol: \"SPG7\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -243,7 +213,6 @@
     "subjectId": "EvLn017",
     "attributeId": "A178",
     "value": "Func026",
-    "jsonMockup": "evidenceItem: { @id : \"_b3125\", resultDescription: \"abnormal/deceased MEK activtation.\", assayType: { @id : \"OBI:XXXXXX1\", label: \"Activation Assay\" }, contextualAllele: { @id : \"_b123\", alleleName: \"NP_004324.2:p.Gly596Val\", relatedCanonicalAllele : \"@id : \"CAR:CA093846\"\" }, gene: { @id : \"HGNC:1097\", geneSymbol: \"BRAF\" }, gene: { @id : \"HGNC:6847\", geneSymbol: \"MEK\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -251,7 +220,6 @@
     "subjectId": "EvLn018",
     "attributeId": "A178",
     "value": "Func027",
-    "jsonMockup": "evidenceItem: { @id : \"_b3126\", resultDescription: \"abnormal/deceased ERK activtation.\", assayType: { @id : \"OBI:XXXXXX1\", label: \"Activation Assay\" }, contextualAllele: { @id : \"_b123\", alleleName: \"NP_004324.2:p.Gly596Val\", relatedCanonicalAllele : \"@id : \"CAR:CA093846\"\" }, gene: { @id : \"HGNC:1097\", geneSymbol: \"BRAF\" }, gene: { @id : \"HGNC:6871\", geneSymbol: \"ERK\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -259,7 +227,6 @@
     "subjectId": "EvLn019",
     "attributeId": "A178",
     "value": "CaseCtrl030",
-    "jsonMockup": "evidenceItem: { @id : \"_b3129\", condition: { @id : \"_b4147\", disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }, name: \"Hearing Loss\" }, caseGroupFrequency: \"AllFreq029\", controlGroupFrequency: \"AllFreq028\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -267,7 +234,6 @@
     "subjectId": "EvLn020",
     "attributeId": "A178",
     "value": "CaseCtrl033",
-    "jsonMockup": "evidenceItem: { @id : \"_b3132\", condition: { @id : \"_b4110\", disease: { @id : \"Orphanet:423\", label: \"Malignant hyperthermia\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, caseGroupFrequency: \"AllFreq032\", controlGroupFrequency: \"AllFreq031\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -275,7 +241,6 @@
     "subjectId": "EvLn021",
     "attributeId": "A178",
     "value": "CaseCtrl036",
-    "jsonMockup": "evidenceItem: { @id : \"_b3135\", condition: { @id : \"_b4111\", phenotype: { @id : \"HP:0011014\", label: \"Abnormal Glucose Homeostasis\" } }, caseGroupFrequency: \"AllFreq034\", controlGroupFrequency: \"AllFreq035\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -283,7 +248,6 @@
     "subjectId": "EvLn022",
     "attributeId": "A178",
     "value": "RegTyp040",
-    "jsonMockup": "evidenceItem: { @id : \"_b3139\", region: \"Loc379\", annotation: { @id : \"SEPIO:0000320\", label: \"functional region\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -291,7 +255,6 @@
     "subjectId": "EvLn022",
     "attributeId": "A178",
     "value": "RegAll380",
-    "jsonMockup": "evidenceItem: { @id : \"_b3479\", region: \"Loc379\", allele: { @id : \"_b225\", alleleName: \"NP_005219.2:p.Thr790Met\", relatedCanonicalAllele : \"@id : \"CAR:CA126726\"\" }, outcome: { @id : \"SEPIO-CG:99020\", label: \"included\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -299,7 +262,6 @@
     "subjectId": "EvLn023",
     "attributeId": "A178",
     "value": "RegTyp043",
-    "jsonMockup": "evidenceItem: { @id : \"_b3142\", region: \"Loc381\", annotation: { @id : \"SEPIO:0000320\", label: \"functional region\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -307,7 +269,6 @@
     "subjectId": "EvLn023",
     "attributeId": "A178",
     "value": "RegAll382",
-    "jsonMockup": "evidenceItem: { @id : \"_b3481\", region: \"Loc381\", allele: { @id : \"_b128\", alleleName: \"NM_004333.4(BRAF):c.1789C>G\", relatedCanonicalAllele : \"@id : \"CAR:CA123651\"\" }, outcome: { @id : \"SEPIO-CG:99020\", label: \"included\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -315,7 +276,6 @@
     "subjectId": "EvLn024",
     "attributeId": "A178",
     "value": "RegTyp046",
-    "jsonMockup": "evidenceItem: { @id : \"_b3145\", region: \"Loc383\", annotation: { @id : \"SEPIO:0000321\", label: \"mutational hotspot\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -323,7 +283,6 @@
     "subjectId": "EvLn024",
     "attributeId": "A178",
     "value": "RegAll384",
-    "jsonMockup": "evidenceItem: { @id : \"_b3483\", region: \"Loc383\", allele: { @id : \"_b130\", alleleName: \"NM_000169.2(GLA): c.886A>G\", relatedCanonicalAllele : \"@id : \"CAR:CA022141\"\" }, allele: { @id : \"_b131\", alleleName: \"NM_000169.2(GLA):c.890C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA022153\"\" }, allele: { @id : \"_b132\", alleleName: \"NM_000169.2(GLA):c.899T>C\", relatedCanonicalAllele : \"@id : \"CAR:CA022159\"\" }, allele: { @id : \"_b133\", alleleName: \"NM_000169.2(GLA):c.902G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA022189\"\" }, outcome: { @id : \"SEPIO-CG:99020\", label: \"included\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -331,7 +290,6 @@
     "subjectId": "EvLn024",
     "attributeId": "A178",
     "value": "VarInterp047",
-    "jsonMockup": "evidenceItem: { @id : \"_b3146\", variant: { @id : \"CAR:CA022141\", preferredCtxAllele: { @id : \"_b130\", alleleName: \"NM_000169.2(GLA): c.886A>G\", relatedCanonicalAllele : \"@id : \"CAR:CA022141\"\" } }, condition: { @id : \"_b4112\", disease: { @id : \"Orphanet:324\", label: \"Fabry disease\" }, modeOfInheritance: { @id : \"HP:0001419\", label: \"X linked recessive inheritance\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -339,7 +297,6 @@
     "subjectId": "EvLn024",
     "attributeId": "A178",
     "value": "VarInterp048",
-    "jsonMockup": "evidenceItem: { @id : \"_b3147\", variant: { @id : \"CAR:CA022153\", preferredCtxAllele: { @id : \"_b131\", alleleName: \"NM_000169.2(GLA):c.890C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA022153\"\" } }, condition: { @id : \"_b4112\", disease: { @id : \"Orphanet:324\", label: \"Fabry disease\" }, modeOfInheritance: { @id : \"HP:0001419\", label: \"X linked recessive inheritance\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -347,7 +304,6 @@
     "subjectId": "EvLn024",
     "attributeId": "A178",
     "value": "VarInterp049",
-    "jsonMockup": "evidenceItem: { @id : \"_b3148\", variant: { @id : \"CAR:CA022159\", preferredCtxAllele: { @id : \"_b132\", alleleName: \"NM_000169.2(GLA):c.899T>C\", relatedCanonicalAllele : \"@id : \"CAR:CA022159\"\" } }, condition: { @id : \"_b4112\", disease: { @id : \"Orphanet:324\", label: \"Fabry disease\" }, modeOfInheritance: { @id : \"HP:0001419\", label: \"X linked recessive inheritance\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -355,7 +311,6 @@
     "subjectId": "EvLn024",
     "attributeId": "A178",
     "value": "VarInterp050",
-    "jsonMockup": "evidenceItem: { @id : \"_b3149\", variant: { @id : \"CAR:CA022189\", preferredCtxAllele: { @id : \"_b133\", alleleName: \"NM_000169.2(GLA):c.902G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA022189\"\" } }, condition: { @id : \"_b4112\", disease: { @id : \"Orphanet:324\", label: \"Fabry disease\" }, modeOfInheritance: { @id : \"HP:0001419\", label: \"X linked recessive inheritance\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -363,7 +318,6 @@
     "subjectId": "EvLn024",
     "attributeId": "A178",
     "value": "BMVR102",
-    "jsonMockup": "evidenceItem: { @id : \"_b3201\", region: \"Loc383\", value: { @id : \"SEPIO:0000266\", label: \"Low\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -371,7 +325,6 @@
     "subjectId": "EvLn025",
     "attributeId": "A178",
     "value": "AllFreq051",
-    "jsonMockup": "evidenceItem: { @id : \"_b3150\", ascertainment: { @id : \"SEPIO:0000332\", label: \"ExAc ascertainment method\" }, allele: { @id : \"CAR:CA011797\", preferredCtxAllele: { @id : \"_b134\", alleleName: \"NM_000257.2(MYH7):c.5135G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA011797\"\" } }, alleleCount: 66706, alleleNumber: 1 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -379,7 +332,6 @@
     "subjectId": "EvLn026",
     "attributeId": "A178",
     "value": "AllFreq052",
-    "jsonMockup": "evidenceItem: { @id : \"_b3151\", ascertainment: { @id : \"SEPIO:0000332\", label: \"ExAc ascertainment method\" }, allele: { @id : \"CAR:CA011797\", preferredCtxAllele: { @id : \"_b134\", alleleName: \"NM_000257.2(MYH7):c.5135G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA011797\"\" } }, alleleCount: 121366, alleleNumber: 1 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -387,7 +339,6 @@
     "subjectId": "EvLn027",
     "attributeId": "A178",
     "value": "AllFreq053",
-    "jsonMockup": "evidenceItem: { @id : \"_b3152\", ascertainment: { @id : \"SEPIO:0000332\", label: \"ExAc ascertainment method\" }, allele: { @id : \"CAR:CA011797\", preferredCtxAllele: { @id : \"_b136\", alleleName: \"NM_001128425.1(MUTYH):c.64G>A (p.Val22Met)\", relatedCanonicalAllele : \"@id : \"CAR:CA011797\"\" } }, alleleCount: 6614, alleleNumber: 514 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -395,7 +346,6 @@
     "subjectId": "EvLn028",
     "attributeId": "A178",
     "value": "AllFreq054",
-    "jsonMockup": "evidenceItem: { @id : \"_b3153\", ascertainment: { @id : \"SEPIO:0000332\", label: \"ExAc ascertainment method\" }, allele: { @id : \"CAR:CA273141\", preferredCtxAllele: { @id : \"_b137\", alleleName: \"NM_001399.4(EDA): c.676C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA273141\"\" } }, alleleCount: 0, alleleNumber: 0 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -403,7 +353,6 @@
     "subjectId": "EvLn029",
     "attributeId": "A178",
     "value": "IndCond056",
-    "jsonMockup": "evidenceItem: { @id : \"_b3155\", individual: { @id : \"_b8103\", description: \"individual #004\" }, condition: \"GenCond014\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -411,7 +360,6 @@
     "subjectId": "EvLn029",
     "attributeId": "A178",
     "value": "VarInterp057",
-    "jsonMockup": "evidenceItem: { @id : \"_b3156\", variant: { @id : \"CAR:CA273615\", preferredCtxAllele: { @id : \"_b139\", alleleName: \"NM_001369.2(DNAH5):c.9449delG\", relatedCanonicalAllele : \"@id : \"CAR:CA273615\"\" } }, condition: { @id : \"_b4161\", disease: { @id : \"Orphanet:244\", label: \"Primary ciliary dyskenisia\" }, modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -419,7 +367,6 @@
     "subjectId": "EvLn029",
     "attributeId": "A178",
     "value": "IndAll058",
-    "jsonMockup": "evidenceItem: { @id : \"_b3157\", individual: { @id : \"_b8103\", description: \"individual #004\" }, primaryAllele: { @id : \"CAR:CA090919\", preferredCtxAllele: { @id : \"_b138\", alleleName: \"NM_001369.2(DNAH5):c.7468_7488del\", relatedCanonicalAllele : \"@id : \"CAR:CA090919\"\" } }, secondaryAllele: { @id : \"CAR:CA273615\", preferredCtxAllele: { @id : \"_b139\", alleleName: \"NM_001369.2(DNAH5):c.9449delG\", relatedCanonicalAllele : \"@id : \"CAR:CA273615\"\" } }, primaryZygosity: { @id : \"GENO:0000135\", label: \"heterozygous\" }, secondaryZygosity: { @id : \"GENO:0000135\", label: \"heterozygous\" }, phase: { @id : \"GENO:0000132\", label: \"in trans\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -427,7 +374,6 @@
     "subjectId": "EvLn030",
     "attributeId": "A178",
     "value": "VarInterp059",
-    "jsonMockup": "evidenceItem: { @id : \"_b3158\", variant: { @id : \"CAR:CA501223\", preferredCtxAllele: { @id : \"_b141\", alleleName: \"NM_133261.2(GIPC3):c.411+1G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA501223\"\" } }, condition: { @id : \"_b4109\", disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }, modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" }, gene: { @id : \"HGNC:18183\", geneSymbol: \"GIPC3\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -435,7 +381,6 @@
     "subjectId": "EvLn030",
     "attributeId": "A178",
     "value": "IndCond061",
-    "jsonMockup": "evidenceItem: { @id : \"_b3160\", individual: { @id : \"_b8104\", description: \"individual #005\" }, condition: \"GenCond010\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -443,7 +388,6 @@
     "subjectId": "EvLn030",
     "attributeId": "A178",
     "value": "IndAll062",
-    "jsonMockup": "evidenceItem: { @id : \"_b3161\", individual: { @id : \"_b8104\", description: \"individual #005\" }, primaryAllele: { @id : \"CAR:CA176145\", preferredCtxAllele: { @id : \"_b140\", alleleName: \"NM_133261.2(GIPC3):c.298G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA176145\"\" } }, secondaryAllele: { @id : \"CAR:CA501223\", preferredCtxAllele: { @id : \"_b141\", alleleName: \"NM_133261.2(GIPC3):c.411+1G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA501223\"\" } }, primaryZygosity: { @id : \"GENO:0000135\", label: \"heterozygous\" }, secondaryZygosity: { @id : \"GENO:0000135\", label: \"heterozygous\" }, phase: { @id : \"GENO:0000132\", label: \"in trans\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -451,7 +395,6 @@
     "subjectId": "EvLn031",
     "attributeId": "A178",
     "value": "IndCond064",
-    "jsonMockup": "evidenceItem: { @id : \"_b3163\", individual: { @id : \"_b8105\", description: \"individual #006\" }, condition: \"GenCond015\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -459,7 +402,6 @@
     "subjectId": "EvLn031",
     "attributeId": "A178",
     "value": "IndAll065",
-    "jsonMockup": "evidenceItem: { @id : \"_b3164\", individual: { @id : \"_b8105\", description: \"individual #006\" }, primaryAllele: { @id : \"CAR:CA090904\", preferredCtxAllele: { @id : \"_b142\", alleleName: \"NM_000391.3(TTP1):c.1678_1679delCT\", relatedCanonicalAllele : \"@id : \"CAR:CA090904\"\" } }, primaryZygosity: { @id : \"GENO:0000136\", label: \"homozygous\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -467,7 +409,6 @@
     "subjectId": "EvLn032",
     "attributeId": "A178",
     "value": "MolCon066",
-    "jsonMockup": "evidenceItem: { @id : \"_b3165\", consequence: { @id : \"SO:0001825\", label: \"conservative Inframe Deletion\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -475,7 +416,6 @@
     "subjectId": "EvLn032",
     "attributeId": "A178",
     "value": "ExclRegTyp069",
-    "jsonMockup": "evidenceItem: { @id : \"_b3168\", region: \"Loc385\", annotation: { @id : \"SO:0000657\", label: \"repeat region \" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -483,7 +423,6 @@
     "subjectId": "EvLn033",
     "attributeId": "A178",
     "value": "MolCon070",
-    "jsonMockup": "evidenceItem: { @id : \"_b3169\", consequence: { @id : \"SO:0001825\", label: \"conservative Inframe Deletion\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -491,7 +430,6 @@
     "subjectId": "EvLn033",
     "attributeId": "A178",
     "value": "ExclRegTyp073",
-    "jsonMockup": "evidenceItem: { @id : \"_b3172\", region: \"Loc386\", annotation: { @id : \"SO:0000657\", label: \"repeat region \" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -499,7 +437,6 @@
     "subjectId": "EvLn034",
     "attributeId": "A178",
     "value": "MolCon074",
-    "jsonMockup": "evidenceItem: { @id : \"_b3173\", consequence: { @id : \"SO:0001823\", label: \"conservative Inframe Insertion\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -507,7 +444,6 @@
     "subjectId": "EvLn034",
     "attributeId": "A178",
     "value": "RegTyp077",
-    "jsonMockup": "evidenceItem: { @id : \"_b3176\", region: \"Loc387\", annotation: { @id : \"SO:0000657\", label: \"repeat region \" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -515,7 +451,6 @@
     "subjectId": "EvLn035",
     "attributeId": "A178",
     "value": "VarInterp078",
-    "jsonMockup": "evidenceItem: { @id : \"_b3177\", variant: { @id : \"CAR:CA021749\", preferredCtxAllele: { @id : \"_b150\", alleleName: \"NM_000363.4(TNNI3):c.485G>C\", relatedCanonicalAllele : \"@id : \"CAR:CA021749\"\" } }, condition: { @id : \"_b4115\", disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }, name: \"Primary familial hypertrophic cardiomyopathy, Autosomal Dominant\" }, outcome: { @id : \"LN:LA26332-9\", label: \"Likely Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -523,7 +458,6 @@
     "subjectId": "EvLn036",
     "attributeId": "A178",
     "value": "VarInterp079",
-    "jsonMockup": "evidenceItem: { @id : \"_b3178\", variant: { @id : \"CAR:CA021738\", preferredCtxAllele: { @id : \"_b152\", alleleName: \"NM_000363.4(TNNI3):c.484C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA021738\"\" } }, condition: { @id : \"_b4115\", disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" }, name: \"Primary familial hypertrophic cardiomyopathy, Autosomal Dominant\" }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -531,7 +465,6 @@
     "subjectId": "EvLn037",
     "attributeId": "A178",
     "value": "VarInterp042",
-    "jsonMockup": "evidenceItem: { @id : \"_b3141\", variant: { @id : \"CAR:CA021738\", preferredCtxAllele: { @id : \"_b152\", alleleName: \"NM_000363.4(TNNI3):c.484C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA021738\"\" } }, outcome: { @id : \"LN:LA26333-7\", label: \"Uncertain Signficance\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -539,7 +472,6 @@
     "subjectId": "EvLn038",
     "attributeId": "A178",
     "value": "VarInterp080",
-    "jsonMockup": "evidenceItem: { @id : \"_b3179\", variant: { @id : \"CAR:CA224454\", preferredCtxAllele: { @id : \"_b156\", alleleName: \"NM_000531.5(OTC):c.119G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA224454\"\" } }, condition: { @id : \"_b4116\", disease: { @id : \"Orphanet:664\", label: \"Ornithine carbamoyltransferase deficiency\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -547,7 +479,6 @@
     "subjectId": "EvLn039",
     "attributeId": "A178",
     "value": "VarInterp081",
-    "jsonMockup": "evidenceItem: { @id : \"_b3180\", variant: { @id : \"CAR:CA003449\", preferredCtxAllele: { @id : \"_b160\", alleleName: \"NM_007294.3(BRCA1):c.5291T>C\", relatedCanonicalAllele : \"@id : \"CAR:CA003449\"\" } }, condition: { @id : \"_b4149\", name: \"Breast Ovarian Cancer, Autosomal Dominant\", disease: { @id : \"MESH:D061325\", label: \"hereditary breast ovarian cancer\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -555,7 +486,6 @@
     "subjectId": "EvLn040",
     "attributeId": "A178",
     "value": "AllFreq082",
-    "jsonMockup": "evidenceItem: { @id : \"_b3181\", ascertainment: { @id : \"SEPIO:0000332\", label: \"ExAc ascertainment method\" }, allele: { @id : \"CAR:CA090919\", preferredCtxAllele: { @id : \"_b138\", alleleName: \"NM_001369.2(DNAH5):c.7468_7488del\", relatedCanonicalAllele : \"@id : \"CAR:CA090919\"\" } }, alleleCount: 0, alleleNumber:  }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -563,7 +493,6 @@
     "subjectId": "EvLn041",
     "attributeId": "A178",
     "value": "IndCond083",
-    "jsonMockup": "evidenceItem: { @id : \"_b3182\", individual: { @id : \"_b8106\", description: \"individual #007\" }, condition: \"GenCond018\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -571,7 +500,6 @@
     "subjectId": "EvLn041",
     "attributeId": "A178",
     "value": "FamCond085",
-    "jsonMockup": "evidenceItem: { @id : \"_b3184\", proband: { @id : \"_b8106\", description: \"individual #007\" }, condition: { @id : \"_b4117\", disease: { @id : \"Orphanet:122\", label: \"Birt-Hogg-Dube Syndrome\" } }, familyHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -579,7 +507,6 @@
     "subjectId": "EvLn041",
     "attributeId": "A178",
     "value": "IndAllInh087",
-    "jsonMockup": "evidenceItem: { @id : \"_b3186\", individual: { @id : \"_b8106\", description: \"individual #007\" }, parentalConfirmation: { @id : \"SEPIO-CG:99008\", label: \"no parental confirmation\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -587,7 +514,6 @@
     "subjectId": "EvLn042",
     "attributeId": "A178",
     "value": "IndCond084",
-    "jsonMockup": "evidenceItem: { @id : \"_b3183\", individual: { @id : \"_b8107\", description: \"individual #008\" }, condition: \"GenCond018\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -595,7 +521,6 @@
     "subjectId": "EvLn042",
     "attributeId": "A178",
     "value": "FamCond086",
-    "jsonMockup": "evidenceItem: { @id : \"_b3185\", proband: { @id : \"_b8107\", description: \"individual #008\" }, condition: { @id : \"_b4117\", disease: { @id : \"Orphanet:122\", label: \"Birt-Hogg-Dube Syndrome\" } }, familyHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -603,7 +528,6 @@
     "subjectId": "EvLn042",
     "attributeId": "A178",
     "value": "IndAllInh088",
-    "jsonMockup": "evidenceItem: { @id : \"_b3187\", individual: { @id : \"_b8107\", description: \"individual #008\" }, parentalConfirmation: { @id : \"SEPIO-CG:99008\", label: \"no parental confirmation\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -611,7 +535,6 @@
     "subjectId": "EvLn043",
     "attributeId": "A178",
     "value": "IndCond089",
-    "jsonMockup": "evidenceItem: { @id : \"_b3188\", individual: { @id : \"_b8108\", description: \"individual #009\" }, condition: \"GenCond019\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -619,7 +542,6 @@
     "subjectId": "EvLn043",
     "attributeId": "A178",
     "value": "FamCond090",
-    "jsonMockup": "evidenceItem: { @id : \"_b3189\", proband: { @id : \"_b8108\", description: \"individual #009\" }, condition: { @id : \"_b4118\", disease: { @id : \"Orphanet:1340\", label: \"cardiofaciocutaneous syndrome\" } }, familyHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -627,7 +549,6 @@
     "subjectId": "EvLn043",
     "attributeId": "A178",
     "value": "IndAllInh091",
-    "jsonMockup": "evidenceItem: { @id : \"_b3190\", individual: { @id : \"_b8108\", description: \"individual #009\" }, parentalConfirmation: { @id : \"SEPIO-CG:99008\", label: \"no parental confirmation\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -635,7 +556,6 @@
     "subjectId": "EvLn044",
     "attributeId": "A178",
     "value": "IndCond092",
-    "jsonMockup": "evidenceItem: { @id : \"_b3191\", individual: { @id : \"_b8109\", description: \"individual #010\" }, condition: \"GenCond068\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -643,7 +563,6 @@
     "subjectId": "EvLn044",
     "attributeId": "A178",
     "value": "FamCond093",
-    "jsonMockup": "evidenceItem: { @id : \"_b3192\", proband: { @id : \"_b8109\", description: \"individual #010\" }, condition: { @id : \"_b4167\", disease: { @id : \"Orphanet:1340\", label: \"cardiofaciocutaneous syndrome\" } }, familyHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -651,7 +570,6 @@
     "subjectId": "EvLn044",
     "attributeId": "A178",
     "value": "IndAllInh094",
-    "jsonMockup": "evidenceItem: { @id : \"_b3193\", individual: { @id : \"_b8109\", description: \"individual #010\" }, parentalConfirmation: { @id : \"SEPIO-CG:99008\", label: \"no parental confirmation\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -659,7 +577,6 @@
     "subjectId": "EvLn045",
     "attributeId": "A178",
     "value": "IndCond095",
-    "jsonMockup": "evidenceItem: { @id : \"_b3194\", individual: { @id : \"_b8110\", description: \"individual #011\" }, condition: \"GenCond068\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -667,7 +584,6 @@
     "subjectId": "EvLn045",
     "attributeId": "A178",
     "value": "FamCond096",
-    "jsonMockup": "evidenceItem: { @id : \"_b3195\", proband: { @id : \"_b8110\", description: \"individual #011\" }, condition: { @id : \"_b4167\", disease: { @id : \"Orphanet:1340\", label: \"cardiofaciocutaneous syndrome\" } }, familyHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -675,7 +591,6 @@
     "subjectId": "EvLn045",
     "attributeId": "A178",
     "value": "IndAllInh097",
-    "jsonMockup": "evidenceItem: { @id : \"_b3196\", individual: { @id : \"_b8110\", description: \"individual #011\" }, parentalConfirmation: { @id : \"SEPIO-CG:99008\", label: \"no parental confirmation\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -683,7 +598,6 @@
     "subjectId": "EvLn046",
     "attributeId": "A178",
     "value": "IndCond098",
-    "jsonMockup": "evidenceItem: { @id : \"_b3197\", individual: { @id : \"_b8111\", description: \"individual #012\" }, condition: \"GenCond068\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -691,7 +605,6 @@
     "subjectId": "EvLn046",
     "attributeId": "A178",
     "value": "FamCond099",
-    "jsonMockup": "evidenceItem: { @id : \"_b3198\", proband: { @id : \"_b8111\", description: \"individual #012\" }, condition: { @id : \"_b4167\", disease: { @id : \"Orphanet:1340\", label: \"cardiofaciocutaneous syndrome\" } }, familyHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -699,7 +612,6 @@
     "subjectId": "EvLn046",
     "attributeId": "A178",
     "value": "IndAllInh100",
-    "jsonMockup": "evidenceItem: { @id : \"_b3199\", individual: { @id : \"_b8111\", description: \"individual #012\" }, parentalConfirmation: { @id : \"SEPIO-CG:99008\", label: \"no parental confirmation\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -707,7 +619,6 @@
     "subjectId": "EvLn047",
     "attributeId": "A178",
     "value": "AggSeg105",
-    "jsonMockup": "evidenceItem: { @id : \"_b3204\", condition: { @id : \"_b4119\", disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, familySegregation: \"FamSeg103\", familySegregation: \"FamSeg104\", totalNumberOfSegregations: 4 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -715,7 +626,6 @@
     "subjectId": "EvLn048",
     "attributeId": "A178",
     "value": "AggSeg109",
-    "jsonMockup": "evidenceItem: { @id : \"_b3208\", condition: { @id : \"_b4120\", disease: { @id : \"Orphanet:886\", label: \"Usher syndrome\" }, modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" } }, familySegregation: \"FamSeg107\", familySegregation: \"FamSeg108\", totalNumberOfSegregations: 8 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -723,7 +633,6 @@
     "subjectId": "EvLn049",
     "attributeId": "A178",
     "value": "FamSeg111",
-    "jsonMockup": "evidenceItem: { @id : \"_b3210\", condition: { @id : \"_b4150\", name: \"Breast Ovarian Cancer, Autosomal Dominant\", disease: { @id : \"MESH:D061325\", label: \"hereditary breast ovarian cancer\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, family: { @id : \"_b8504\", description: \"Family #005\" }, phenotypePositiveAllelePositive: 2 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -731,7 +640,6 @@
     "subjectId": "EvLn050",
     "attributeId": "A178",
     "value": "AggSeg115",
-    "jsonMockup": "evidenceItem: { @id : \"_b3214\", condition: { @id : \"_b4101\", disease: { @id : \"Orphanet:217604\", label: \"dilated cardiomyopathy\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, familySegregation: \"FamSeg113\", familySegregation: \"FamSeg114\", totalNumberOfSegregations: 9 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -739,7 +647,6 @@
     "subjectId": "EvLn051",
     "attributeId": "A178",
     "value": "MolCon117",
-    "jsonMockup": "evidenceItem: { @id : \"_b3216\", consequence: { @id : \"SO:0001583\", label: \"missense variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -747,7 +654,6 @@
     "subjectId": "EvLn051",
     "attributeId": "A178",
     "value": "CondMech118",
-    "jsonMockup": "evidenceItem: { @id : \"_b3217\", mechanism: { @id : \"SO:0001583\", label: \"missense variant\" }, mechanismConfidence: { @id : \"SEPIO:0000268\", label: \"common\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -755,7 +661,6 @@
     "subjectId": "EvLn051",
     "attributeId": "A178",
     "value": "BMVR119",
-    "jsonMockup": "evidenceItem: { @id : \"_b3218\", gene: { @id : \"HGNC:7577\", geneSymbol: \"MYH7\" }, value: { @id : \"SEPIO:0000266\", label: \"Low\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -763,7 +668,6 @@
     "subjectId": "EvLn052",
     "attributeId": "A178",
     "value": "InSilicoPred120",
-    "jsonMockup": "evidenceItem: { @id : \"_b3219\", transcript: { @id : \"REFSEQ:NM_005228.3\", accession: \"NM_005228.3\", produces: { @id : \"REFSEQ:NP_005219.2\" } }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"SIFT\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -771,7 +675,6 @@
     "subjectId": "EvLn052",
     "attributeId": "A178",
     "value": "InSilicoPred121",
-    "jsonMockup": "evidenceItem: { @id : \"_b3220\", transcript: { @id : \"REFSEQ:NM_005228.3\", accession: \"NM_005228.3\", produces: { @id : \"REFSEQ:NP_005219.2\" } }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"Polyphen\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -779,7 +682,6 @@
     "subjectId": "EvLn052",
     "attributeId": "A178",
     "value": "InSilicoPred122",
-    "jsonMockup": "evidenceItem: { @id : \"_b3221\", transcript: { @id : \"REFSEQ:NM_005228.3\", accession: \"NM_005228.3\", produces: { @id : \"REFSEQ:NP_005219.2\" } }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"FATHMM\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -787,7 +689,6 @@
     "subjectId": "EvLn052",
     "attributeId": "A178",
     "value": "InSilicoPred123",
-    "jsonMockup": "evidenceItem: { @id : \"_b3222\", transcript: { @id : \"REFSEQ:NM_005228.3\", accession: \"NM_005228.3\", produces: { @id : \"REFSEQ:NP_005219.2\" } }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"LRT\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -795,7 +696,6 @@
     "subjectId": "EvLn052",
     "attributeId": "A178",
     "value": "InSilicoPred124",
-    "jsonMockup": "evidenceItem: { @id : \"_b3223\", transcript: { @id : \"REFSEQ:NM_005228.3\", accession: \"NM_005228.3\", produces: { @id : \"REFSEQ:NP_005219.2\" } }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"MetaSVM\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -803,7 +703,6 @@
     "subjectId": "EvLn052",
     "attributeId": "A178",
     "value": "InSilicoPred125",
-    "jsonMockup": "evidenceItem: { @id : \"_b3224\", transcript: { @id : \"REFSEQ:NM_005228.3\", accession: \"NM_005228.3\", produces: { @id : \"REFSEQ:NP_005219.2\" } }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"Mutation assessor\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -811,7 +710,6 @@
     "subjectId": "EvLn052",
     "attributeId": "A178",
     "value": "InSilicoPred126",
-    "jsonMockup": "evidenceItem: { @id : \"_b3225\", transcript: { @id : \"REFSEQ:NM_005228.3\", accession: \"NM_005228.3\", produces: { @id : \"REFSEQ:NP_005219.2\" } }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"Mutation taster\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -819,7 +717,6 @@
     "subjectId": "EvLn052",
     "attributeId": "A178",
     "value": "InSilicoPred127",
-    "jsonMockup": "evidenceItem: { @id : \"_b3226\", transcript: { @id : \"REFSEQ:NM_005228.3\", accession: \"NM_005228.3\", produces: { @id : \"REFSEQ:NP_005219.2\" } }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"Provean\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -827,7 +724,6 @@
     "subjectId": "EvLn052",
     "attributeId": "A178",
     "value": "InSilicoPred128",
-    "jsonMockup": "evidenceItem: { @id : \"_b3227\", transcript: { @id : \"REFSEQ:NM_005228.3\", accession: \"NM_005228.3\", produces: { @id : \"REFSEQ:NP_005219.2\" } }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"Condel\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -835,7 +731,6 @@
     "subjectId": "EvLn053",
     "attributeId": "A178",
     "value": "InSilicoPred129",
-    "jsonMockup": "evidenceItem: { @id : \"_b3228\", transcript: { @id : \"ENSEMBL:ENST00000566221.5\", accession: \"ENST00000566221.5\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"SIFT\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -843,7 +738,6 @@
     "subjectId": "EvLn053",
     "attributeId": "A178",
     "value": "InSilicoPred130",
-    "jsonMockup": "evidenceItem: { @id : \"_b3229\", transcript: { @id : \"ENSEMBL:ENST00000566221.5\", accession: \"ENST00000566221.5\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"Polyphen\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -851,7 +745,6 @@
     "subjectId": "EvLn053",
     "attributeId": "A178",
     "value": "InSilicoPred131",
-    "jsonMockup": "evidenceItem: { @id : \"_b3230\", transcript: { @id : \"ENSEMBL:ENST00000566221.5\", accession: \"ENST00000566221.5\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"FATHMM\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -859,7 +752,6 @@
     "subjectId": "EvLn053",
     "attributeId": "A178",
     "value": "InSilicoPred132",
-    "jsonMockup": "evidenceItem: { @id : \"_b3231\", transcript: { @id : \"ENSEMBL:ENST00000566221.5\", accession: \"ENST00000566221.5\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"LRT\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -867,7 +759,6 @@
     "subjectId": "EvLn053",
     "attributeId": "A178",
     "value": "InSilicoPred133",
-    "jsonMockup": "evidenceItem: { @id : \"_b3232\", transcript: { @id : \"ENSEMBL:ENST00000566221.5\", accession: \"ENST00000566221.5\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"MetaSVM\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -875,7 +766,6 @@
     "subjectId": "EvLn053",
     "attributeId": "A178",
     "value": "InSilicoPred134",
-    "jsonMockup": "evidenceItem: { @id : \"_b3233\", transcript: { @id : \"ENSEMBL:ENST00000566221.5\", accession: \"ENST00000566221.5\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"Mutation assessor\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -883,7 +773,6 @@
     "subjectId": "EvLn053",
     "attributeId": "A178",
     "value": "InSilicoPred135",
-    "jsonMockup": "evidenceItem: { @id : \"_b3234\", transcript: { @id : \"ENSEMBL:ENST00000566221.5\", accession: \"ENST00000566221.5\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"Mutation taster\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -891,7 +780,6 @@
     "subjectId": "EvLn053",
     "attributeId": "A178",
     "value": "InSilicoPred136",
-    "jsonMockup": "evidenceItem: { @id : \"_b3235\", transcript: { @id : \"ENSEMBL:ENST00000566221.5\", accession: \"ENST00000566221.5\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"Provean\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -899,7 +787,6 @@
     "subjectId": "EvLn053",
     "attributeId": "A178",
     "value": "InSilicoPred137",
-    "jsonMockup": "evidenceItem: { @id : \"_b3236\", transcript: { @id : \"ENSEMBL:ENST00000566221.5\", accession: \"ENST00000566221.5\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"Condel\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -907,7 +794,6 @@
     "subjectId": "EvLn054",
     "attributeId": "A178",
     "value": "InSilicoPred138",
-    "jsonMockup": "evidenceItem: { @id : \"_b3237\", transcript: { @id : \"REFSEQ:NM_000363.4\", accession: \"NM_000363.4\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"SIFT\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -915,7 +801,6 @@
     "subjectId": "EvLn054",
     "attributeId": "A178",
     "value": "InSilicoPred139",
-    "jsonMockup": "evidenceItem: { @id : \"_b3238\", transcript: { @id : \"REFSEQ:NM_000363.4\", accession: \"NM_000363.4\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"Polyphen2\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -923,7 +808,6 @@
     "subjectId": "EvLn054",
     "attributeId": "A178",
     "value": "InSilicoPred140",
-    "jsonMockup": "evidenceItem: { @id : \"_b3239\", transcript: { @id : \"REFSEQ:NM_000363.4\", accession: \"NM_000363.4\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"AlignGVGD\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -931,7 +815,6 @@
     "subjectId": "EvLn054",
     "attributeId": "A178",
     "value": "InSilicoPred141",
-    "jsonMockup": "evidenceItem: { @id : \"_b3240\", transcript: { @id : \"REFSEQ:NM_000363.4\", accession: \"NM_000363.4\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"MAPP\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -939,7 +822,6 @@
     "subjectId": "EvLn054",
     "attributeId": "A178",
     "value": "InSilicoPred142",
-    "jsonMockup": "evidenceItem: { @id : \"_b3241\", transcript: { @id : \"REFSEQ:NM_000363.4\", accession: \"NM_000363.4\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"MutationTaster\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -947,7 +829,6 @@
     "subjectId": "EvLn054",
     "attributeId": "A178",
     "value": "InSilicoPred143",
-    "jsonMockup": "evidenceItem: { @id : \"_b3242\", transcript: { @id : \"REFSEQ:NM_000363.4\", accession: \"NM_000363.4\" }, predictionType: { @id : \"SEPIO:0000323\", label: \"splicing prediction\" }, algorithm: \"SSF\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -955,7 +836,6 @@
     "subjectId": "EvLn054",
     "attributeId": "A178",
     "value": "InSilicoPred144",
-    "jsonMockup": "evidenceItem: { @id : \"_b3243\", transcript: { @id : \"REFSEQ:NM_000363.4\", accession: \"NM_000363.4\" }, predictionType: { @id : \"SEPIO:0000323\", label: \"splicing prediction\" }, algorithm: \"MaxEnt\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -963,7 +843,6 @@
     "subjectId": "EvLn054",
     "attributeId": "A178",
     "value": "InSilicoPred145",
-    "jsonMockup": "evidenceItem: { @id : \"_b3244\", transcript: { @id : \"REFSEQ:NM_000363.4\", accession: \"NM_000363.4\" }, predictionType: { @id : \"SEPIO:0000323\", label: \"splicing prediction\" }, algorithm: \"NNSPLICE\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -971,7 +850,6 @@
     "subjectId": "EvLn054",
     "attributeId": "A178",
     "value": "InSilicoPred146",
-    "jsonMockup": "evidenceItem: { @id : \"_b3245\", transcript: { @id : \"REFSEQ:NM_000363.4\", accession: \"NM_000363.4\" }, predictionType: { @id : \"SEPIO:0000323\", label: \"splicing prediction\" }, algorithm: \"GeneSplicer\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -979,7 +857,6 @@
     "subjectId": "EvLn054",
     "attributeId": "A178",
     "value": "InSilicoPred147",
-    "jsonMockup": "evidenceItem: { @id : \"_b3246\", transcript: { @id : \"REFSEQ:NM_000363.4\", accession: \"NM_000363.4\" }, predictionType: { @id : \"SEPIO:0000323\", label: \"splicing prediction\" }, algorithm: \"HSF\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -987,7 +864,6 @@
     "subjectId": "EvLn055",
     "attributeId": "A178",
     "value": "LocHet148",
-    "jsonMockup": "evidenceItem: { @id : \"_b3247\", condition: { @id : \"_b4121\", disease: { @id : \"Orphanet:774\", label: \"hereditary hemorrhagic telangiectasia\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, gene: { @id : \"HGNC:3349\", geneSymbol: \"ENG\" }, specificity: \"complete\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -995,7 +871,6 @@
     "subjectId": "EvLn056",
     "attributeId": "A178",
     "value": "LocHet149",
-    "jsonMockup": "evidenceItem: { @id : \"_b3248\", condition: { @id : \"_b4163\", disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" } }, gene: { @id : \"HGNC:7577\", geneSymbol: \"MYH7\" }, specificity: \"low\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1003,7 +878,6 @@
     "subjectId": "EvLn057",
     "attributeId": "A178",
     "value": "VarInterp150",
-    "jsonMockup": "evidenceItem: { @id : \"_b3249\", variant: { @id : \"CAR:CA019369\", preferredCtxAllele: { @id : \"_b177\", alleleName: \"NM_000059.3(BRCA2):c.3G>T\", relatedCanonicalAllele : \"@id : \"CAR:CA019369\"\" } }, condition: { @id : \"_b4122\", disease: { @id : \"OMIM:612555\", label: \"Breast-Ovarian Cancer, Familial, Susceptibility To, 2\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1011,7 +885,6 @@
     "subjectId": "EvLn058",
     "attributeId": "A178",
     "value": "VarInterp151",
-    "jsonMockup": "evidenceItem: { @id : \"_b3250\", variant: { @id : \"CAR:CA128479\", preferredCtxAllele: { @id : \"_b178\", alleleName: \"NM_001458.4(FLNC):c.577G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA128479\"\" } }, condition: { @id : \"_b4123\", disease: { @id : \"OMIM:614065\", label: \"Myopathy, Distal, type 4\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1019,7 +892,6 @@
     "subjectId": "EvLn059",
     "attributeId": "A178",
     "value": "VarInterp152",
-    "jsonMockup": "evidenceItem: { @id : \"_b3251\", variant: { @id : \"CAR:CA276116\", preferredCtxAllele: { @id : \"_b179\", alleleName: \"NM_000492.3(CFTR):c.2053dupC\", relatedCanonicalAllele : \"@id : \"CAR:CA276116\"\" } }, condition: { @id : \"_b4124\", disease: { @id : \"Orphanet:586\", label: \"Cystic Fibrosis\" }, modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1027,7 +899,6 @@
     "subjectId": "EvLn060",
     "attributeId": "A178",
     "value": "AllFreq153",
-    "jsonMockup": "evidenceItem: { @id : \"_b3252\", ascertainment: { @id : \"SEPIO:0000332\", label: \"ExAc ascertainment method\" }, allele: { @id : \"CAR:CA090891\", preferredCtxAllele: { @id : \"_b180\", alleleName: \"NM_000057.2 (BLM):c.2603C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA090891\"\" } }, alleleCount: 6732, alleleNumber: 120402 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1035,7 +906,6 @@
     "subjectId": "EvLn061",
     "attributeId": "A178",
     "value": "AllFreq154",
-    "jsonMockup": "evidenceItem: { @id : \"_b3253\", ascertainment: { @id : \"SEPIO:0000332\", label: \"ExAc ascertainment method\" }, allele: { @id : \"CAR:CA134997\", preferredCtxAllele: { @id : \"_b181\", alleleName: \"NM_004004.5(GJB2):c.79G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA134997\"\" } }, alleleCount: 5507, alleleNumber: 121350 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1043,7 +913,6 @@
     "subjectId": "EvLn062",
     "attributeId": "A178",
     "value": "AllFreq155",
-    "jsonMockup": "evidenceItem: { @id : \"_b3254\", ascertainment: { @id : \"SEPIO:0000332\", label: \"ExAc ascertainment method\" }, allele: { @id : \"CAR:CA134997\", preferredCtxAllele: { @id : \"_b181\", alleleName: \"NM_004004.5(GJB2):c.79G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA134997\"\" } }, alleleCount: 2518, alleleNumber: 8632 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1051,7 +920,6 @@
     "subjectId": "EvLn063",
     "attributeId": "A178",
     "value": "AllFreq157",
-    "jsonMockup": "evidenceItem: { @id : \"_b3256\", ascertainment: { @id : \"SEPIO:0000332\", label: \"ExAc ascertainment method\" }, allele: { @id : \"CAR:CA501229\", preferredCtxAllele: { @id : \"_b182\", alleleName: \"NM_023036.4(DNAI2):c.1304G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA501229\"\" } }, alleleCount: 14, alleleNumber: 121100 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1059,7 +927,6 @@
     "subjectId": "EvLn064",
     "attributeId": "A178",
     "value": "AllFreq158",
-    "jsonMockup": "evidenceItem: { @id : \"_b3257\", ascertainment: { @id : \"SEPIO:0000332\", label: \"ExAc ascertainment method\" }, allele: { @id : \"CAR:CA017597\", preferredCtxAllele: { @id : \"_b183\", alleleName: \"NM_000138.4(FBN1):c.8176C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA017597\"\" } }, alleleCount: 89, alleleNumber: 121410 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1067,7 +934,6 @@
     "subjectId": "EvLn064",
     "attributeId": "A178",
     "value": "CondPrev159",
-    "jsonMockup": "evidenceItem: { @id : \"_b3258\", condition: { @id : \"_b4125\", disease: { @id : \"Orphanet:558\", label: \"Marfan Syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, minimum: 0.0017, maximum: 0.0007, population: { @id : \"SEPIO-CG:99102\", label: \"Overall\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1075,7 +941,6 @@
     "subjectId": "EvLn064",
     "attributeId": "A178",
     "value": "CondPenet160",
-    "jsonMockup": "evidenceItem: { @id : \"_b3259\", condition: { @id : \"_b4125\", disease: { @id : \"Orphanet:558\", label: \"Marfan Syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, penetrance: { @id : \"HP:000XXX2\", label: \"High\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1083,7 +948,6 @@
     "subjectId": "EvLn065",
     "attributeId": "A178",
     "value": "AllFreq162",
-    "jsonMockup": "evidenceItem: { @id : \"_b3261\", ascertainment: { @id : \"SEPIO:0000332\", label: \"ExAc ascertainment method\" }, allele: { @id : \"CAR:CA090926\", preferredCtxAllele: { @id : \"_b184\", alleleName: \"NM_004541.3(NDUFA1):c.94G>C\", relatedCanonicalAllele : \"@id : \"CAR:CA090926\"\" } }, alleleCount: 545, alleleNumber: 87696 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1091,7 +955,6 @@
     "subjectId": "EvLn065",
     "attributeId": "A178",
     "value": "CondPrev163",
-    "jsonMockup": "evidenceItem: { @id : \"_b3262\", condition: { @id : \"_b4126\", disease: { @id : \"Orphanet:2609\", label: \"Mitochondrial complex 1 deficiency\" }, modeOfInheritance: { @id : \"HP:0001423\", label: \"X-linked dominant inheritance\" } }, prevelance: 0.00012, population: { @id : \"SEPIO-CG:99102\", label: \"Overall\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1099,7 +962,6 @@
     "subjectId": "EvLn065",
     "attributeId": "A178",
     "value": "CondPenet164",
-    "jsonMockup": "evidenceItem: { @id : \"_b3263\", condition: { @id : \"_b4126\", disease: { @id : \"Orphanet:2609\", label: \"Mitochondrial complex 1 deficiency\" }, modeOfInheritance: { @id : \"HP:0001423\", label: \"X-linked dominant inheritance\" } }, penetrance: { @id : \"HP:000XXX2\", label: \"High\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1107,7 +969,6 @@
     "subjectId": "EvLn066",
     "attributeId": "A178",
     "value": "AllFreq166",
-    "jsonMockup": "evidenceItem: { @id : \"_b3265\", ascertainment: { @id : \"SEPIO:0000332\", label: \"ExAc ascertainment method\" }, allele: { @id : \"CAR:CA501230\", preferredCtxAllele: { @id : \"_b185\", alleleName: \"NM_000414.3(HSD17B4):c.56C>G\", relatedCanonicalAllele : \"@id : \"CAR:CA501230\"\" } }, alleleCount: 3, alleleNumber: 120870 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1115,7 +976,6 @@
     "subjectId": "EvLn066",
     "attributeId": "A178",
     "value": "CondPrev167",
-    "jsonMockup": "evidenceItem: { @id : \"_b3266\", condition: { @id : \"_b4127\", disease: { @id : \"Orphanet:2855\", label: \"Perrault Syndrome\" }, modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" } }, maximum: 0.000001, population: { @id : \"SEPIO-CG:99102\", label: \"Overall\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1123,7 +983,6 @@
     "subjectId": "EvLn066",
     "attributeId": "A178",
     "value": "CondPenet168",
-    "jsonMockup": "evidenceItem: { @id : \"_b3267\", condition: { @id : \"_b4127\", disease: { @id : \"Orphanet:2855\", label: \"Perrault Syndrome\" }, modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" } }, penetrance: { @id : \"HP:000XXX2\", label: \"High\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1131,7 +990,6 @@
     "subjectId": "EvLn067",
     "attributeId": "A178",
     "value": "CondPenet170",
-    "jsonMockup": "evidenceItem: { @id : \"_b3269\", condition: { @id : \"_b4128\", disease: { @id : \"Orphanet:319182\", label: \"Wiedemann-Steiner syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, penetrance: { @id : \"HP:000XXX1\", label: \"Complete\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1139,7 +997,6 @@
     "subjectId": "EvLn067",
     "attributeId": "A178",
     "value": "IndAll172",
-    "jsonMockup": "evidenceItem: { @id : \"_b3271\", individual: { @id : \"_b8112\", description: \"individual #013\" }, primaryAllele: { @id : \"CAR:CA090918\", preferredCtxAllele: { @id : \"_b186\", alleleName: \"NM_001197104.1(KMT2A):c.6572G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA090918\"\" } }, primaryZygosity: { @id : \"GENO:0000135\", label: \"heterozygous\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1147,7 +1004,6 @@
     "subjectId": "EvLn067",
     "attributeId": "A178",
     "value": "IndCond174",
-    "jsonMockup": "evidenceItem: { @id : \"_b3273\", individual: { @id : \"_b8112\", description: \"individual #013\" }, condition: \"GenCond029\", individualHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1155,7 +1011,6 @@
     "subjectId": "EvLn068",
     "attributeId": "A178",
     "value": "CondPenet170",
-    "jsonMockup": "evidenceItem: { @id : \"_b3269\", condition: { @id : \"_b4128\", disease: { @id : \"Orphanet:319182\", label: \"Wiedemann-Steiner syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, penetrance: { @id : \"HP:000XXX1\", label: \"Complete\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1163,7 +1018,6 @@
     "subjectId": "EvLn068",
     "attributeId": "A178",
     "value": "IndAll173",
-    "jsonMockup": "evidenceItem: { @id : \"_b3272\", primaryZygosity: { @id : \"_b8113\", description: \"individual #014\" }, primaryAllele: { @id : \"CAR:CA090918\", preferredCtxAllele: { @id : \"_b186\", alleleName: \"NM_001197104.1(KMT2A):c.6572G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA090918\"\" } }, primaryZygosity: { @id : \"GENO:0000136\", label: \"homozygous\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1171,7 +1025,6 @@
     "subjectId": "EvLn068",
     "attributeId": "A178",
     "value": "IndCond175",
-    "jsonMockup": "evidenceItem: { @id : \"_b3274\", individual: { @id : \"_b8113\", description: \"individual #014\" }, condition: \"GenCond029\", individualHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1179,7 +1032,6 @@
     "subjectId": "EvLn069",
     "attributeId": "A178",
     "value": "CondPenet176",
-    "jsonMockup": "evidenceItem: { @id : \"_b3275\", condition: { @id : \"_b4129\", disease: { @id : \"Orphanet:733\", label: \"Familial Adenomatous Polyposis\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, penetrance: { @id : \"HP:000XXX1\", label: \"Complete\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1187,7 +1039,6 @@
     "subjectId": "EvLn069",
     "attributeId": "A178",
     "value": "IndAll178",
-    "jsonMockup": "evidenceItem: { @id : \"_b3277\", individual: { @id : \"_b8114\", description: \"individual #015\" }, primaryAllele: { @id : \"CAR:CA008351\", preferredCtxAllele: { @id : \"_b187\", alleleName: \"NM_000038.5(APC ):c.3386T>C\", relatedCanonicalAllele : \"@id : \"CAR:CA008351\"\" } }, primaryZygosity: { @id : \"GENO:0000135\", label: \"heterozygous\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1195,7 +1046,6 @@
     "subjectId": "EvLn069",
     "attributeId": "A178",
     "value": "IndCond182",
-    "jsonMockup": "evidenceItem: { @id : \"_b3281\", individual: { @id : \"_b8114\", description: \"individual #015\" }, condition: \"GenCond030\", individualHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1203,7 +1053,6 @@
     "subjectId": "EvLn070",
     "attributeId": "A178",
     "value": "CondPenet176",
-    "jsonMockup": "evidenceItem: { @id : \"_b3275\", condition: { @id : \"_b4129\", disease: { @id : \"Orphanet:733\", label: \"Familial Adenomatous Polyposis\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, penetrance: { @id : \"HP:000XXX1\", label: \"Complete\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1211,7 +1060,6 @@
     "subjectId": "EvLn070",
     "attributeId": "A178",
     "value": "IndAll179",
-    "jsonMockup": "evidenceItem: { @id : \"_b3278\", individual: { @id : \"_b8115\", description: \"individual #016\" }, primaryAllele: { @id : \"CAR:CA008351\", preferredCtxAllele: { @id : \"_b187\", alleleName: \"NM_000038.5(APC ):c.3386T>C\", relatedCanonicalAllele : \"@id : \"CAR:CA008351\"\" } }, primaryZygosity: { @id : \"GENO:0000135\", label: \"heterozygous\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1219,7 +1067,6 @@
     "subjectId": "EvLn070",
     "attributeId": "A178",
     "value": "IndCond183",
-    "jsonMockup": "evidenceItem: { @id : \"_b3282\", individual: { @id : \"_b8115\", description: \"individual #016\" }, condition: \"GenCond030\", individualHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1227,7 +1074,6 @@
     "subjectId": "EvLn071",
     "attributeId": "A178",
     "value": "CondPenet176",
-    "jsonMockup": "evidenceItem: { @id : \"_b3275\", condition: { @id : \"_b4129\", disease: { @id : \"Orphanet:733\", label: \"Familial Adenomatous Polyposis\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, penetrance: { @id : \"HP:000XXX1\", label: \"Complete\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1235,7 +1081,6 @@
     "subjectId": "EvLn071",
     "attributeId": "A178",
     "value": "IndAll180",
-    "jsonMockup": "evidenceItem: { @id : \"_b3279\", individual: { @id : \"_b8116\", description: \"individual #017\" }, primaryAllele: { @id : \"CAR:CA008351\", preferredCtxAllele: { @id : \"_b187\", alleleName: \"NM_000038.5(APC ):c.3386T>C\", relatedCanonicalAllele : \"@id : \"CAR:CA008351\"\" } }, primaryZygosity: { @id : \"GENO:0000135\", label: \"heterozygous\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1243,7 +1088,6 @@
     "subjectId": "EvLn071",
     "attributeId": "A178",
     "value": "IndCond184",
-    "jsonMockup": "evidenceItem: { @id : \"_b3283\", individual: { @id : \"_b8116\", description: \"individual #017\" }, condition: \"GenCond030\", individualHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1251,7 +1095,6 @@
     "subjectId": "EvLn072",
     "attributeId": "A178",
     "value": "CondPenet176",
-    "jsonMockup": "evidenceItem: { @id : \"_b3275\", condition: { @id : \"_b4129\", disease: { @id : \"Orphanet:733\", label: \"Familial Adenomatous Polyposis\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, penetrance: { @id : \"HP:000XXX1\", label: \"Complete\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1259,7 +1102,6 @@
     "subjectId": "EvLn072",
     "attributeId": "A178",
     "value": "IndAll181",
-    "jsonMockup": "evidenceItem: { @id : \"_b3280\", individual: { @id : \"_b8117\", description: \"individual #018\" }, primaryAllele: { @id : \"CAR:CA008351\", preferredCtxAllele: { @id : \"_b187\", alleleName: \"NM_000038.5(APC ):c.3386T>C\", relatedCanonicalAllele : \"@id : \"CAR:CA008351\"\" } }, primaryZygosity: { @id : \"GENO:0000135\", label: \"heterozygous\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1267,7 +1109,6 @@
     "subjectId": "EvLn072",
     "attributeId": "A178",
     "value": "IndCond185",
-    "jsonMockup": "evidenceItem: { @id : \"_b3284\", individual: { @id : \"_b8117\", description: \"individual #018\" }, condition: \"GenCond030\", individualHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1275,7 +1116,6 @@
     "subjectId": "EvLn073",
     "attributeId": "A178",
     "value": "CondPenet186",
-    "jsonMockup": "evidenceItem: { @id : \"_b3285\", condition: { @id : \"_b4171\", disease: { @id : \"Orphanet:558\", label: \"Marfan Syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, penetrance: { @id : \"HP:000XXX1\", label: \"Complete\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1283,7 +1123,6 @@
     "subjectId": "EvLn073",
     "attributeId": "A178",
     "value": "IndAll188",
-    "jsonMockup": "evidenceItem: { @id : \"_b3287\", individual: { @id : \"_b8118\", description: \"individual #019\" }, primaryAllele: { @id : \"CAR:CA013604\", preferredCtxAllele: { @id : \"_b188\", alleleName: \"NM_000138.4(FBN1 ):c.2956G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA013604\"\" } }, primaryZygosity: { @id : \"GENO:0000135\", label: \"heterozygous\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1291,7 +1130,6 @@
     "subjectId": "EvLn073",
     "attributeId": "A178",
     "value": "IndCond190",
-    "jsonMockup": "evidenceItem: { @id : \"_b3289\", individual: { @id : \"_b8118\", description: \"individual #019\" }, condition: \"GenCond072\", individualHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1299,7 +1137,6 @@
     "subjectId": "EvLn074",
     "attributeId": "A178",
     "value": "CondPenet186",
-    "jsonMockup": "evidenceItem: { @id : \"_b3285\", condition: { @id : \"_b4171\", disease: { @id : \"Orphanet:558\", label: \"Marfan Syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, penetrance: { @id : \"HP:000XXX1\", label: \"Complete\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1307,7 +1144,6 @@
     "subjectId": "EvLn074",
     "attributeId": "A178",
     "value": "IndAll189",
-    "jsonMockup": "evidenceItem: { @id : \"_b3288\", individual: { @id : \"_b8119\", description: \"individual #020\" }, primaryAllele: { @id : \"CAR:CA013604\", preferredCtxAllele: { @id : \"_b188\", alleleName: \"NM_000138.4(FBN1 ):c.2956G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA013604\"\" } }, primaryZygosity: { @id : \"GENO:0000135\", label: \"heterozygous\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1315,7 +1151,6 @@
     "subjectId": "EvLn074",
     "attributeId": "A178",
     "value": "IndCond191",
-    "jsonMockup": "evidenceItem: { @id : \"_b3290\", individual: { @id : \"_b8119\", description: \"individual #020\" }, condition: \"GenCond072\", individualHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1323,7 +1158,6 @@
     "subjectId": "EvLn075",
     "attributeId": "A178",
     "value": "Func192",
-    "jsonMockup": "evidenceItem: { @id : \"_b3291\", resultDescription: \"Unchanged from reference\", assayType: { @id : \"OBI:XXXXXX4\", label: \"iodide efflux\" }, contextualAllele: { @id : \"_b191\", alleleName: \"NP_000432..1:p.Leu117Phe\", relatedCanonicalAllele : \"@id : \"CAR:CA109417\"\" }, gene: { @id : \"HGNC:8818\", geneSymbol: \"SLC26A4\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1331,7 +1165,6 @@
     "subjectId": "EvLn076",
     "attributeId": "A178",
     "value": "Func193",
-    "jsonMockup": "evidenceItem: { @id : \"_b3292\", resultDescription: \"localized to apical membrane\", assayType: { @id : \"OBI:0002165\", label: \"cellular localization\" }, contextualAllele: { @id : \"_b191\", alleleName: \"NP_000432..1:p.Leu117Phe\", relatedCanonicalAllele : \"@id : \"CAR:CA109417\"\" }, gene: { @id : \"HGNC:8818\", geneSymbol: \"SLC26A4\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1339,7 +1172,6 @@
     "subjectId": "EvLn077",
     "attributeId": "A178",
     "value": "Func194",
-    "jsonMockup": "evidenceItem: { @id : \"_b3293\", resultDescription: \"Unchanged from reference\", assayType: { @id : \"OBI:XXXXXX3\", label: \"Elk1 pohsphorylation via luciferase assay\" }, contextualAllele: { @id : \"_b192\", alleleName: \"NM_152594.2(SPRED1): c.587C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA501231\"\" }, gene: { @id : \"HGNC:20249\", geneSymbol: \"SPRED1\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1347,7 +1179,6 @@
     "subjectId": "EvLn078",
     "attributeId": "A178",
     "value": "Func195",
-    "jsonMockup": "evidenceItem: { @id : \"_b3294\", resultDescription: \"localized to apical membrane\", assayType: { @id : \"OBI:XXXXXX3\", label: \"Elk1 pohsphorylation via luciferase assay\" }, contextualAllele: { @id : \"_b192\", alleleName: \"NM_152594.2(SPRED1): c.587C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA501231\"\" }, gene: { @id : \"HGNC:20249\", geneSymbol: \"SPRED1\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1355,7 +1186,6 @@
     "subjectId": "EvLn079",
     "attributeId": "A178",
     "value": "FamSeg196",
-    "jsonMockup": "evidenceItem: { @id : \"_b3295\", condition: { @id : \"_b4134\", disease: { @id : \"OMIM:143890\", label: \"Hypercholesterolemia, Familial\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, family: { @id : \"_b8507\", description: \"Family #008\" }, phenotypePositiveAllelePositive: 0 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1363,7 +1193,6 @@
     "subjectId": "EvLn080",
     "attributeId": "A178",
     "value": "FamSeg197",
-    "jsonMockup": "evidenceItem: { @id : \"_b3296\", condition: { @id : \"_b4164\", disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, family: { @id : \"_b8508\", description: \"Family #009\" }, phenotypePositiveAllelePositive: 3 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1371,7 +1200,6 @@
     "subjectId": "EvLn081",
     "attributeId": "A178",
     "value": "MolCon198",
-    "jsonMockup": "evidenceItem: { @id : \"_b3297\", consequence: { @id : \"SO:0001583\", label: \"missense variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1379,7 +1207,6 @@
     "subjectId": "EvLn081",
     "attributeId": "A178",
     "value": "Null404",
-    "jsonMockup": "evidenceItem: { @id : \"_b3503\", annotation: { @id : \"SEPIO-CG:99015\", label: \"No\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1387,7 +1214,6 @@
     "subjectId": "EvLn081",
     "attributeId": "A178",
     "value": "CondMech199",
-    "jsonMockup": "evidenceItem: { @id : \"_b3298\", mechanism: { @id : \"SO:0002054\", label: \"loss of function variant\" }, mechanismConfidence: { @id : \"SEPIO:0000270\", label: \"primary\" }, condition: { @id : \"_b4135\", disease: { @id : \"Orphanet:145\", label: \"hereditary breast and ovarian cancer syndrome\" }, name: \"hereditary breast and ovarian cancer\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1395,7 +1221,6 @@
     "subjectId": "EvLn082",
     "attributeId": "A178",
     "value": "MolCon198",
-    "jsonMockup": "evidenceItem: { @id : \"_b3297\", consequence: { @id : \"SO:0001583\", label: \"missense variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1403,7 +1228,6 @@
     "subjectId": "EvLn082",
     "attributeId": "A178",
     "value": "Null405",
-    "jsonMockup": "evidenceItem: { @id : \"_b3504\", annotation: { @id : \"SEPIO-CG:99015\", label: \"No\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1411,7 +1235,6 @@
     "subjectId": "EvLn082",
     "attributeId": "A178",
     "value": "CondMech200",
-    "jsonMockup": "evidenceItem: { @id : \"_b3299\", mechanism: { @id : \"SO:0002054\", label: \"loss of function variant\" }, mechanismConfidence: { @id : \"SEPIO:0000270\", label: \"primary\" }, condition: { @id : \"_b4136\", disease: { @id : \"Orphanet:84\", label: \"Fanconi Anemia\" } } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1419,7 +1242,6 @@
     "subjectId": "EvLn083",
     "attributeId": "A178",
     "value": "MolCon201",
-    "jsonMockup": "evidenceItem: { @id : \"_b3300\", consequence: { @id : \"SO:0001583\", label: \"missense variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1427,7 +1249,6 @@
     "subjectId": "EvLn083",
     "attributeId": "A178",
     "value": "Null406",
-    "jsonMockup": "evidenceItem: { @id : \"_b3505\", annotation: { @id : \"SO:0002054\", label: \"loss of function variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1435,7 +1256,6 @@
     "subjectId": "EvLn083",
     "attributeId": "A178",
     "value": "CondMech202",
-    "jsonMockup": "evidenceItem: { @id : \"_b3301\", mechanism: { @id : \"SO:0002054\", label: \"loss of function variant\" }, mechanismConfidence: { @id : \"SEPIO:0000270\", label: \"primary\" }, condition: { @id : \"_b4158\", disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }, name: \"Hearing Loss, Autosomal Recessive\", modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" } } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1443,7 +1263,6 @@
     "subjectId": "EvLn084",
     "attributeId": "A178",
     "value": "MolCon203",
-    "jsonMockup": "evidenceItem: { @id : \"_b3302\", consequence: { @id : \"SO:0001583\", label: \"missense variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1451,7 +1270,6 @@
     "subjectId": "EvLn084",
     "attributeId": "A178",
     "value": "Null407",
-    "jsonMockup": "evidenceItem: { @id : \"_b3506\", annotation: { @id : \"SEPIO-CG:99015\", label: \"No\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1459,7 +1277,6 @@
     "subjectId": "EvLn084",
     "attributeId": "A178",
     "value": "CondMech204",
-    "jsonMockup": "evidenceItem: { @id : \"_b3303\", mechanism: { @id : \"SO:0002054\", label: \"loss of function variant\" }, mechanismConfidence: { @id : \"SEPIO:0000270\", label: \"primary\" }, condition: { @id : \"_b4152\", disease: { @id : \"Orphanet:217604\", label: \"dilated cardiomyopathy\" } } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1467,7 +1284,6 @@
     "subjectId": "EvLn084",
     "attributeId": "A178",
     "value": "CondMech205",
-    "jsonMockup": "evidenceItem: { @id : \"_b3304\", mechanism: { @id : \"SO:0001583\", label: \"missense variant\" }, mechanismConfidence: { @id : \"SEPIO:0000269\", label: \"established\" }, condition: { @id : \"_b4152\", disease: { @id : \"Orphanet:217604\", label: \"dilated cardiomyopathy\" } } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1475,7 +1291,6 @@
     "subjectId": "EvLn085",
     "attributeId": "A178",
     "value": "IndAll206",
-    "jsonMockup": "evidenceItem: { @id : \"_b3305\", individual: { @id : \"_b8120\", description: \"individual #021\" }, primaryAllele: { @id : \"CAR:CA143572\", preferredCtxAllele: { @id : \"_b199\", alleleName: \"NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser)\", relatedCanonicalAllele : \"@id : \"CAR:CA143572\"\" } }, secondaryAllele: { @id : \"CAR:CA252233\", preferredCtxAllele: { @id : \"_b200\", alleleName: \"NM_206933.2(USH2A):c.2276G>T\", relatedCanonicalAllele : \"@id : \"CAR:CA252233\"\" } }, phase: { @id : \"GENO:0000131\", label: \"in cis\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1483,7 +1298,6 @@
     "subjectId": "EvLn085",
     "attributeId": "A178",
     "value": "IndCond208",
-    "jsonMockup": "evidenceItem: { @id : \"_b3307\", individual: { @id : \"_b8120\", description: \"individual #021\" }, condition: \"GenCond038\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1491,7 +1305,6 @@
     "subjectId": "EvLn085",
     "attributeId": "A178",
     "value": "VarInterp210",
-    "jsonMockup": "evidenceItem: { @id : \"_b3309\", variant: { @id : \"CAR:CA252233\", preferredCtxAllele: { @id : \"_b200\", alleleName: \"NM_206933.2(USH2A):c.2276G>T\", relatedCanonicalAllele : \"@id : \"CAR:CA252233\"\" } }, condition: { @id : \"_b4137\", disease: { @id : \"Orphanet:791\", label: \"Retinitis Pigmentosa\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1499,7 +1312,6 @@
     "subjectId": "EvLn086",
     "attributeId": "A178",
     "value": "IndAll207",
-    "jsonMockup": "evidenceItem: { @id : \"_b3306\", individual: { @id : \"_b8121\", description: \"individual #022\" }, primaryAllele: { @id : \"CAR:CA143572\", preferredCtxAllele: { @id : \"_b199\", alleleName: \"NM_206933.2 (USH2A): c.6721C>T (p.Pro2241Ser)\", relatedCanonicalAllele : \"@id : \"CAR:CA143572\"\" } }, secondaryAllele: { @id : \"CAR:CA252233\", preferredCtxAllele: { @id : \"_b200\", alleleName: \"NM_206933.2(USH2A):c.2276G>T\", relatedCanonicalAllele : \"@id : \"CAR:CA252233\"\" } }, phase: { @id : \"GENO:0000131\", label: \"in cis\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1507,7 +1319,6 @@
     "subjectId": "EvLn086",
     "attributeId": "A178",
     "value": "IndCond209",
-    "jsonMockup": "evidenceItem: { @id : \"_b3308\", individual: { @id : \"_b8121\", description: \"individual #022\" }, condition: \"GenCond038\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1515,7 +1326,6 @@
     "subjectId": "EvLn086",
     "attributeId": "A178",
     "value": "VarInterp210",
-    "jsonMockup": "evidenceItem: { @id : \"_b3309\", variant: { @id : \"CAR:CA252233\", preferredCtxAllele: { @id : \"_b200\", alleleName: \"NM_206933.2(USH2A):c.2276G>T\", relatedCanonicalAllele : \"@id : \"CAR:CA252233\"\" } }, condition: { @id : \"_b4137\", disease: { @id : \"Orphanet:791\", label: \"Retinitis Pigmentosa\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1523,7 +1333,6 @@
     "subjectId": "EvLn087",
     "attributeId": "A178",
     "value": "IndAll211",
-    "jsonMockup": "evidenceItem: { @id : \"_b3310\", individual: { @id : \"_b8122\", description: \"individual #023\" }, primaryAllele: { @id : \"CAR:CA182840\", preferredCtxAllele: { @id : \"_b201\", alleleName: \"NM_000492.3(CFTR): c.2002C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA182840\"\" } }, secondaryAllele: { @id : \"CAR:CA182839\", preferredCtxAllele: { @id : \"_b202\", alleleName: \"NP_000483.3:p.Gly576Ala\", relatedCanonicalAllele : \"@id : \"CAR:CA182839\"\" } }, phase: { @id : \"GENO:0000131\", label: \"in cis\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1531,7 +1340,6 @@
     "subjectId": "EvLn087",
     "attributeId": "A178",
     "value": "IndCond212",
-    "jsonMockup": "evidenceItem: { @id : \"_b3311\", individual: { @id : \"_b8122\", description: \"individual #023\" }, condition: \"GenCond039\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1539,7 +1347,6 @@
     "subjectId": "EvLn087",
     "attributeId": "A178",
     "value": "VarInterp213",
-    "jsonMockup": "evidenceItem: { @id : \"_b3312\", variant: { @id : \"CAR:CA182839\", preferredCtxAllele: { @id : \"_b202\", alleleName: \"NP_000483.3:p.Gly576Ala\", relatedCanonicalAllele : \"@id : \"CAR:CA182839\"\" } }, condition: { @id : \"_b4138\", phenotype: { @id : \"HP:0012873\", label: \"Absent vas deferens\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1547,7 +1354,6 @@
     "subjectId": "EvLn088",
     "attributeId": "A178",
     "value": "IndAll214",
-    "jsonMockup": "evidenceItem: { @id : \"_b3313\", individual: { @id : \"_b8123\", description: \"individual #024\" }, primaryAllele: { @id : \"CAR:CA501235\", preferredCtxAllele: { @id : \"_b203\", alleleName: \"NM_000257.2(MYH7): c.2559G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA501235\"\" } }, secondaryAllele: { @id : \"CAR:CA501236\", preferredCtxAllele: { @id : \"_b204\", alleleName: \"NM_000257.2(MYH7): c.2537A>G\", relatedCanonicalAllele : \"@id : \"CAR:CA501236\"\" } }, phase: { @id : \"GENO:0000132\", label: \"in trans\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1555,7 +1361,6 @@
     "subjectId": "EvLn088",
     "attributeId": "A178",
     "value": "IndCond215",
-    "jsonMockup": "evidenceItem: { @id : \"_b3314\", individual: { @id : \"_b8123\", description: \"individual #024\" }, condition: \"GenCond007\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1563,7 +1368,6 @@
     "subjectId": "EvLn088",
     "attributeId": "A178",
     "value": "VarInterp216",
-    "jsonMockup": "evidenceItem: { @id : \"_b3315\", variant: { @id : \"CAR:CA501236\", preferredCtxAllele: { @id : \"_b204\", alleleName: \"NM_000257.2(MYH7): c.2537A>G\", relatedCanonicalAllele : \"@id : \"CAR:CA501236\"\" } }, condition: { @id : \"_b4106\", disease: { @id : \"Orphanet:167848\", label: \"cardiomyopathy\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, outcome: { @id : \"LN:LA26333-7\", label: \"Uncertain Signficance\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1571,7 +1375,6 @@
     "subjectId": "EvLn088",
     "attributeId": "A178",
     "value": "CondPenet218",
-    "jsonMockup": "evidenceItem: { @id : \"_b3317\", condition: { @id : \"_b4106\", disease: { @id : \"Orphanet:167848\", label: \"cardiomyopathy\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, penetrance: { @id : \"HP:0003829\", label: \"Incomplete\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1579,7 +1382,6 @@
     "subjectId": "EvLn089",
     "attributeId": "A178",
     "value": "ExclRegTyp220",
-    "jsonMockup": "evidenceItem: { @id : \"_b3319\", region: \"Loc390\", annotation: { @id : \"SEPIO:0000320\", label: \"functional region\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1587,7 +1389,6 @@
     "subjectId": "EvLn089",
     "attributeId": "A178",
     "value": "RegTyp221",
-    "jsonMockup": "evidenceItem: { @id : \"_b3320\", region: \"Loc390\", annotation: { @id : \"SO:0000657\", label: \"repeat region \" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1595,7 +1396,6 @@
     "subjectId": "EvLn089",
     "attributeId": "A178",
     "value": "RegAll391",
-    "jsonMockup": "evidenceItem: { @id : \"_b3490\", region: \"Loc390\", allele: { @id : \"_b205\", alleleName: \"NM_001271208.1(NEB):c.169_183delCTGGCACAGCCAGCA\", relatedCanonicalAllele : \"@id : \"CAR:CA148212\"\" }, outcome: { @id : \"SEPIO-CG:99020\", label: \"included\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1603,7 +1403,6 @@
     "subjectId": "EvLn089",
     "attributeId": "A178",
     "value": "MolCon223",
-    "jsonMockup": "evidenceItem: { @id : \"_b3322\", consequence: { @id : \"SO:0001825\", label: \"conservative Inframe Deletion\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1611,7 +1410,6 @@
     "subjectId": "EvLn089",
     "attributeId": "A178",
     "value": "Null408",
-    "jsonMockup": "evidenceItem: { @id : \"_b3507\", annotation: { @id : \"SEPIO-CG:99015\", label: \"No\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1619,7 +1417,6 @@
     "subjectId": "EvLn090",
     "attributeId": "A178",
     "value": "RegTyp225",
-    "jsonMockup": "evidenceItem: { @id : \"_b3324\", region: \"Loc392\", annotation: { @id : \"SO:0000657\", label: \"repeat region \" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1627,7 +1424,6 @@
     "subjectId": "EvLn090",
     "attributeId": "A178",
     "value": "RegAll393",
-    "jsonMockup": "evidenceItem: { @id : \"_b3492\", region: \"Loc392\", allele: { @id : \"_b206\", alleleName: \"NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC\", relatedCanonicalAllele : \"@id : \"CAR:CA273551\"\" }, outcome: { @id : \"SEPIO-CG:99020\", label: \"included\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1635,7 +1431,6 @@
     "subjectId": "EvLn090",
     "attributeId": "A178",
     "value": "MolCon227",
-    "jsonMockup": "evidenceItem: { @id : \"_b3326\", consequence: { @id : \"SO:0001589\", label: \"frameshift variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1643,7 +1438,6 @@
     "subjectId": "EvLn091",
     "attributeId": "A178",
     "value": "RegTyp229",
-    "jsonMockup": "evidenceItem: { @id : \"_b3328\", region: \"Loc394\", annotation: { @id : \"SO:0000657\", label: \"repeat region \" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1651,7 +1445,6 @@
     "subjectId": "EvLn091",
     "attributeId": "A178",
     "value": "RegAll395",
-    "jsonMockup": "evidenceItem: { @id : \"_b3494\", region: \"Loc394\", allele: { @id : \"_b207\", alleleName: \"NM_147196.2(TMIE):c.391_393dupAAG\", relatedCanonicalAllele : \"@id : \"CAR:CA184168\"\" }, outcome: { @id : \"SEPIO-CG:99020\", label: \"included\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1659,7 +1452,6 @@
     "subjectId": "EvLn091",
     "attributeId": "A178",
     "value": "MolCon231",
-    "jsonMockup": "evidenceItem: { @id : \"_b3330\", consequence: { @id : \"SO:0001823\", label: \"conservative Inframe Insertion\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1667,7 +1459,6 @@
     "subjectId": "EvLn092",
     "attributeId": "A178",
     "value": "InSilicoPred232",
-    "jsonMockup": "evidenceItem: { @id : \"_b3331\", transcript: { @id : \"REFSEQ:NM_000059.3\", accession: \"NM_000059.3\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"SIFT\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1675,7 +1466,6 @@
     "subjectId": "EvLn092",
     "attributeId": "A178",
     "value": "InSilicoPred233",
-    "jsonMockup": "evidenceItem: { @id : \"_b3332\", transcript: { @id : \"REFSEQ:NM_000059.3\", accession: \"NM_000059.3\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"Polyphen\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1683,7 +1473,6 @@
     "subjectId": "EvLn092",
     "attributeId": "A178",
     "value": "InSilicoPred234",
-    "jsonMockup": "evidenceItem: { @id : \"_b3333\", transcript: { @id : \"REFSEQ:NM_000059.3\", accession: \"NM_000059.3\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"FATHMM\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1691,7 +1480,6 @@
     "subjectId": "EvLn092",
     "attributeId": "A178",
     "value": "InSilicoPred235",
-    "jsonMockup": "evidenceItem: { @id : \"_b3334\", transcript: { @id : \"REFSEQ:NM_000059.3\", accession: \"NM_000059.3\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"LRT\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1699,7 +1487,6 @@
     "subjectId": "EvLn092",
     "attributeId": "A178",
     "value": "InSilicoPred236",
-    "jsonMockup": "evidenceItem: { @id : \"_b3335\", transcript: { @id : \"REFSEQ:NM_000059.3\", accession: \"NM_000059.3\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"MetaSVM\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1707,7 +1494,6 @@
     "subjectId": "EvLn092",
     "attributeId": "A178",
     "value": "InSilicoPred237",
-    "jsonMockup": "evidenceItem: { @id : \"_b3336\", transcript: { @id : \"REFSEQ:NM_000059.3\", accession: \"NM_000059.3\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"Mutation assessor\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1715,7 +1501,6 @@
     "subjectId": "EvLn092",
     "attributeId": "A178",
     "value": "InSilicoPred238",
-    "jsonMockup": "evidenceItem: { @id : \"_b3337\", transcript: { @id : \"REFSEQ:NM_000059.3\", accession: \"NM_000059.3\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"Mutation taster\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1723,7 +1508,6 @@
     "subjectId": "EvLn092",
     "attributeId": "A178",
     "value": "InSilicoPred239",
-    "jsonMockup": "evidenceItem: { @id : \"_b3338\", transcript: { @id : \"REFSEQ:NM_000059.3\", accession: \"NM_000059.3\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"Provean\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1731,7 +1515,6 @@
     "subjectId": "EvLn092",
     "attributeId": "A178",
     "value": "InSilicoPred240",
-    "jsonMockup": "evidenceItem: { @id : \"_b3339\", transcript: { @id : \"REFSEQ:NM_000059.3\", accession: \"NM_000059.3\" }, predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"Condel\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1739,7 +1522,6 @@
     "subjectId": "EvLn093",
     "attributeId": "A178",
     "value": "IndAll241",
-    "jsonMockup": "evidenceItem: { @id : \"_b3340\", individual: { @id : \"_b8124\", description: \"individual #025\" }, primaryAllele: { @id : \"CAR:CA012381\", preferredCtxAllele: { @id : \"_b211\", alleleName: \"NM_000256.3(MYBPC3): c.2497G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA012381\"\" } }, secondaryAllele: { @id : \"CAR:CA005304\", preferredCtxAllele: { @id : \"_b212\", alleleName: \"NM_000364.3(TNNT2):c.878G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA005304\"\" } } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1747,7 +1529,6 @@
     "subjectId": "EvLn093",
     "attributeId": "A178",
     "value": "IndCond242",
-    "jsonMockup": "evidenceItem: { @id : \"_b3341\", individual: { @id : \"_b8124\", description: \"individual #025\" }, condition: \"GenCond067\", individualHasCondition: \"true\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1755,7 +1536,6 @@
     "subjectId": "EvLn093",
     "attributeId": "A178",
     "value": "VarInterp243",
-    "jsonMockup": "evidenceItem: { @id : \"_b3342\", variant: { @id : \"CAR:CA012381\", preferredCtxAllele: { @id : \"_b211\", alleleName: \"NM_000256.3(MYBPC3): c.2497G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA012381\"\" } }, condition: { @id : \"_b4166\", disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" } }, outcome: { @id : \"LN:LA26332-9\", label: \"Likely Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1763,7 +1543,6 @@
     "subjectId": "EvLn094",
     "attributeId": "A178",
     "value": "IndAll244",
-    "jsonMockup": "evidenceItem: { @id : \"_b3343\", individual: { @id : \"_b8125\", description: \"individual #026\" }, primaryAllele: { @id : \"CAR:CA137502\", preferredCtxAllele: { @id : \"_b213\", alleleName: \"NM_022124.5(CDH23):c.5660C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA137502\"\" } } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1771,7 +1550,6 @@
     "subjectId": "EvLn094",
     "attributeId": "A178",
     "value": "IndAll245",
-    "jsonMockup": "evidenceItem: { @id : \"_b3344\", individual: { @id : \"_b8125\", description: \"individual #026\" }, primaryAllele: { @id : \"CAR:CA172240\", preferredCtxAllele: { @id : \"_b214\", alleleName: \"NM_004004.5(GJB2):c.71G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA172240\"\" } }, secondaryAllele: { @id : \"CAR:CA274460\", preferredCtxAllele: { @id : \"_b215\", alleleName: \"NM_004004.5(GJB2):c.230G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA274460\"\" } }, primaryZygosity: { @id : \"GENO:0000135\", label: \"heterozygous\" }, secondaryZygosity: { @id : \"GENO:0000135\", label: \"heterozygous\" }, phase: { @id : \"GENO:0000132\", label: \"in trans\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1779,7 +1557,6 @@
     "subjectId": "EvLn094",
     "attributeId": "A178",
     "value": "IndCond246",
-    "jsonMockup": "evidenceItem: { @id : \"_b3345\", individual: { @id : \"_b8125\", description: \"individual #026\" }, condition: \"GenCond060\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1787,7 +1564,6 @@
     "subjectId": "EvLn094",
     "attributeId": "A178",
     "value": "VarInterp247",
-    "jsonMockup": "evidenceItem: { @id : \"_b3346\", variant: { @id : \"CAR:CA172240\", preferredCtxAllele: { @id : \"_b214\", alleleName: \"NM_004004.5(GJB2):c.71G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA172240\"\" } }, condition: { @id : \"_b4159\", disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" } }, outcome: { @id : \"LN:LA26332-9\", label: \"Likely Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1795,7 +1571,6 @@
     "subjectId": "EvLn094",
     "attributeId": "A178",
     "value": "VarInterp248",
-    "jsonMockup": "evidenceItem: { @id : \"_b3347\", variant: { @id : \"CAR:CA274460\", preferredCtxAllele: { @id : \"_b215\", alleleName: \"NM_004004.5(GJB2):c.230G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA274460\"\" } }, condition: { @id : \"_b4159\", disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" } }, outcome: { @id : \"LN:LA26332-9\", label: \"Likely Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1803,7 +1578,6 @@
     "subjectId": "EvLn095",
     "attributeId": "A178",
     "value": "IndAll249",
-    "jsonMockup": "evidenceItem: { @id : \"_b3348\", individual: { @id : \"_b8126\", description: \"individual #027\" }, primaryAllele: { @id : \"CAR:CA137502\", preferredCtxAllele: { @id : \"_b213\", alleleName: \"NM_022124.5(CDH23):c.5660C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA137502\"\" } }, secondaryAllele: { @id : \"CAR:CA277980\", preferredCtxAllele: { @id : \"_b216\", alleleName: \"NM_015404.3(WHRN):c.643delG\", relatedCanonicalAllele : \"@id : \"CAR:CA277980\"\" } }, secondaryZygosity: { @id : \"GENO:0000136\", label: \"homozygous\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1811,7 +1585,6 @@
     "subjectId": "EvLn095",
     "attributeId": "A178",
     "value": "IndCond250",
-    "jsonMockup": "evidenceItem: { @id : \"_b3349\", individual: { @id : \"_b8126\", description: \"individual #027\" }, condition: \"GenCond071\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1819,7 +1592,6 @@
     "subjectId": "EvLn095",
     "attributeId": "A178",
     "value": "VarInterp251",
-    "jsonMockup": "evidenceItem: { @id : \"_b3350\", variant: { @id : \"CAR:CA137502\", preferredCtxAllele: { @id : \"_b213\", alleleName: \"NM_022124.5(CDH23):c.5660C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA137502\"\" } }, condition: { @id : \"_b4170\", disease: { @id : \"Orphanet:886\", label: \"Usher syndrome\" }, modeOfInheritance: { @id : \"HP:0000007\", label: \"Autosomal Recessive\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1827,7 +1599,6 @@
     "subjectId": "EvLn096",
     "attributeId": "A178",
     "value": "IndCond252",
-    "jsonMockup": "evidenceItem: { @id : \"_b3351\", individual: { @id : \"_b8127\", description: \"individual #028\" }, condition: \"GenCond041\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1835,7 +1606,6 @@
     "subjectId": "EvLn096",
     "attributeId": "A178",
     "value": "IndAll253",
-    "jsonMockup": "evidenceItem: { @id : \"_b3352\", individual: { @id : \"_b8127\", description: \"individual #028\" }, primaryAllele: { @id : \"CAR:CA204551\", preferredCtxAllele: { @id : \"_b217\", alleleName: \"NM_001844.4(COL2A1):c.4316C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA204551\"\" } }, secondaryAllele: { @id : \"CAR:CA254703\", preferredCtxAllele: { @id : \"_b218\", alleleName: \"NM_000095.2(COMP):c.1042T>C\", relatedCanonicalAllele : \"@id : \"CAR:CA254703\"\" } } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1843,7 +1613,6 @@
     "subjectId": "EvLn096",
     "attributeId": "A178",
     "value": "VarInterp254",
-    "jsonMockup": "evidenceItem: { @id : \"_b3353\", variant: { @id : \"CAR:CA254703\", preferredCtxAllele: { @id : \"_b218\", alleleName: \"NM_000095.2(COMP):c.1042T>C\", relatedCanonicalAllele : \"@id : \"CAR:CA254703\"\" } }, condition: { @id : \"_b4141\", disease: { @id : \"Orphanet:750\", label: \"pseudoachondroplasia\" } }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1851,7 +1620,6 @@
     "subjectId": "EvLn096",
     "attributeId": "A178",
     "value": "VarInterp270",
-    "jsonMockup": "evidenceItem: { @id : \"_b3369\", variant: { @id : \"CAR:CA254703\", preferredCtxAllele: { @id : \"_b218\", alleleName: \"NM_000095.2(COMP):c.1042T>C\", relatedCanonicalAllele : \"@id : \"CAR:CA254703\"\" } }, condition: { @id : \"_b4140\", disease: { @id : \"Orphanet:750\", label: \"pseudoachondroplasia\" }, name: \"Pseudoachondroplastic spondyloepiphyseal dysplasia\" }, outcome: { @id : \"LN:LA26333-7\", label: \"Uncertain Signficance\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1859,7 +1627,6 @@
     "subjectId": "EvLn097",
     "attributeId": "A178",
     "value": "VarInterp255",
-    "jsonMockup": "evidenceItem: { @id : \"_b3354\", variant: { @id : \"CAR:CA276195\", preferredCtxAllele: { @id : \"_b219\", alleleName: \"NM_007294.3(BRCA1):c.*6207C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA276195\"\" } }, condition: { @id : \"_b4172\", disease: { @id : \"Orphanet:145\", label: \"hereditary breast and ovarian cancer syndrome\" }, name: \"hereditary breast and ovarian cancer\" }, outcome: { @id : \"LN:LA6675-8\", label: \"Benign\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1867,7 +1634,6 @@
     "subjectId": "EvLn098",
     "attributeId": "A178",
     "value": "VarInterp256",
-    "jsonMockup": "evidenceItem: { @id : \"_b3355\", variant: { @id : \"CAR:CA016113\", preferredCtxAllele: { @id : \"_b220\", alleleName: \"NM_000059.3(BRCA2):c.-26G>A\", relatedCanonicalAllele : \"@id : \"CAR:CA016113\"\" } }, condition: { @id : \"_b4142\", disease: { @id : \"OMIM:612555\", label: \"Breast-Ovarian Cancer, Familial, Susceptibility To, 2\" } }, outcome: { @id : \"LN:LA6675-8\", label: \"Benign\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1875,7 +1641,6 @@
     "subjectId": "EvLn099",
     "attributeId": "A178",
     "value": "VarInterp257",
-    "jsonMockup": "evidenceItem: { @id : \"_b3356\", variant: { @id : \"CAR:CA113946\", preferredCtxAllele: { @id : \"_b221\", alleleName: \"NM_000274.3(OAT):c.1311G>C\", relatedCanonicalAllele : \"@id : \"CAR:CA113946\"\" } }, condition: { @id : \"_b4143\", disease: { @id : \"Orphanet:414\", label: \"Gyrate atrophy of choroid and retina\" } }, outcome: { @id : \"LN:LA6675-8\", label: \"Benign\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1883,7 +1648,6 @@
     "subjectId": "EvLn100",
     "attributeId": "A178",
     "value": "InSilicoPred258",
-    "jsonMockup": "evidenceItem: { @id : \"_b3357\", transcript: { @id : \"REFSEQ:NM_138691.2\", accession: \"NM_138691.2\" }, predictionType: { @id : \"SEPIO:0000323\", label: \"splicing prediction\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1891,7 +1655,6 @@
     "subjectId": "EvLn100",
     "attributeId": "A178",
     "value": "Conserv259",
-    "jsonMockup": "evidenceItem: { @id : \"_b3358\", outcome: { @id : \"SEPIO-CG:99004\", label: \"not conserved\" }, algorithm: \"phyloP\", score: -2.297 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1899,7 +1662,6 @@
     "subjectId": "EvLn100",
     "attributeId": "A178",
     "value": "Conserv260",
-    "jsonMockup": "evidenceItem: { @id : \"_b3359\", outcome: { @id : \"SEPIO-CG:99004\", label: \"not conserved\" }, algorithm: \"PhastCons\", score: 0.039 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1907,7 +1669,6 @@
     "subjectId": "EvLn100",
     "attributeId": "A178",
     "value": "MolCon261",
-    "jsonMockup": "evidenceItem: { @id : \"_b3360\", consequence: { @id : \"SO:0001819\", label: \"synonymous variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1915,7 +1676,6 @@
     "subjectId": "EvLn101",
     "attributeId": "A178",
     "value": "InSilicoPred262",
-    "jsonMockup": "evidenceItem: { @id : \"_b3361\", transcript: { @id : \"REFSEQ:NM_000257.2\", accession: \"NM_000257.2\" }, predictionType: { @id : \"SEPIO:0000323\", label: \"splicing prediction\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1923,7 +1683,6 @@
     "subjectId": "EvLn101",
     "attributeId": "A178",
     "value": "Conserv263",
-    "jsonMockup": "evidenceItem: { @id : \"_b3362\", outcome: { @id : \"SEPIO-CG:99004\", label: \"not conserved\" }, algorithm: \"phyloP\", score: -0.76 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1931,7 +1690,6 @@
     "subjectId": "EvLn101",
     "attributeId": "A178",
     "value": "Conserv264",
-    "jsonMockup": "evidenceItem: { @id : \"_b3363\", outcome: { @id : \"SEPIO-CG:99004\", label: \"not conserved\" }, algorithm: \"PhastCons\", score: 0.63 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1939,7 +1697,6 @@
     "subjectId": "EvLn101",
     "attributeId": "A178",
     "value": "MolCon265",
-    "jsonMockup": "evidenceItem: { @id : \"_b3364\", consequence: { @id : \"SO:0001819\", label: \"synonymous variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1947,7 +1704,6 @@
     "subjectId": "EvLn102",
     "attributeId": "A178",
     "value": "InSilicoPred266",
-    "jsonMockup": "evidenceItem: { @id : \"_b3365\", transcript: { @id : \"REFSEQ:NM_002880.3\", accession: \"NM_002880.3\" }, predictionType: { @id : \"SEPIO:0000323\", label: \"splicing prediction\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1955,7 +1711,6 @@
     "subjectId": "EvLn102",
     "attributeId": "A178",
     "value": "Conserv267",
-    "jsonMockup": "evidenceItem: { @id : \"_b3366\", outcome: { @id : \"SEPIO-CG:99004\", label: \"not conserved\" }, algorithm: \"phyloP\", score: 0.45 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1963,7 +1718,6 @@
     "subjectId": "EvLn102",
     "attributeId": "A178",
     "value": "Conserv268",
-    "jsonMockup": "evidenceItem: { @id : \"_b3367\", outcome: { @id : \"SEPIO-CG:99004\", label: \"not conserved\" }, algorithm: \"PhastCons\", score: 1 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1971,7 +1725,6 @@
     "subjectId": "EvLn102",
     "attributeId": "A178",
     "value": "MolCon269",
-    "jsonMockup": "evidenceItem: { @id : \"_b3368\", consequence: { @id : \"SO:0001819\", label: \"synonymous variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1979,7 +1732,6 @@
     "subjectId": "EvLn103",
     "attributeId": "A178",
     "value": "MolCon272",
-    "jsonMockup": "evidenceItem: { @id : \"_b3371\", consequence: { @id : \"SO:0001629\", label: \"splice-site variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1987,7 +1739,6 @@
     "subjectId": "EvLn103",
     "attributeId": "A178",
     "value": "CondMech273",
-    "jsonMockup": "evidenceItem: { @id : \"_b3372\", mechanism: { @id : \"SO:0002054\", label: \"loss of function variant\" }, condition: { @id : \"_b4145\", disease: { @id : \"Orphanet:247\", label: \"arrhythmogenic right ventricular cardiomyopathy\" } }, mechanismConfidence: { @id : \"SEPIO:0000269\", label: \"established\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -1995,7 +1746,6 @@
     "subjectId": "EvLn104",
     "attributeId": "A178",
     "value": "FamSeg271",
-    "jsonMockup": "evidenceItem: { @id : \"_b3370\", condition: { @id : \"_b4165\", disease: { @id : \"DisID160\", label: \"hypertrophic cardiomyopathy\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, family: { @id : \"_b8509\", description: \"Family #010\" }, phenotypePositiveAllelePositive: 0 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2003,7 +1753,6 @@
     "subjectId": "EvLn105",
     "attributeId": "A178",
     "value": "InSilicoPred362",
-    "jsonMockup": "evidenceItem: { @id : \"_b3461\", predictionType: { @id : \"SEPIO:0000322\", label: \"missense effect\" }, algorithm: \"Polyphen-2 HumDiv\" }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2011,7 +1760,6 @@
     "subjectId": "EvLn106",
     "attributeId": "A178",
     "value": "VarInterp364",
-    "jsonMockup": "evidenceItem: { @id : \"_b3463\", variant: { @id : \"CAR:CA253304\", preferredCtxAllele: { @id : \"_b227\", alleleName: \"NM_000441.1(SLC26A4): c.626G>T\", relatedCanonicalAllele : \"@id : \"CAR:CA253304\"\" } }, condition: { @id : \"_b4157\", disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }, name: \"Hearing Loss\" }, outcome: { @id : \"LN:LA26332-9\", label: \"Likely Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2019,7 +1767,6 @@
     "subjectId": "EvLn106",
     "attributeId": "A178",
     "value": "VarInterp365",
-    "jsonMockup": "evidenceItem: { @id : \"_b3464\", variant: { @id : \"CAR:CA273665\", preferredCtxAllele: { @id : \"_b228\", alleleName: \"NM_000441.1(SLC26A4): c.1707+6T>C\", relatedCanonicalAllele : \"@id : \"CAR:CA273665\"\" } }, condition: { @id : \"_b4157\", disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }, name: \"Hearing Loss\" }, outcome: { @id : \"LN:LA6668-3\", label: \"Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2027,7 +1774,6 @@
     "subjectId": "EvLn106",
     "attributeId": "A178",
     "value": "IndAll366",
-    "jsonMockup": "evidenceItem: { @id : \"_b3465\", individual: { @id : \"_b8128\", description: \"individual #029\" }, primaryAllele: { @id : \"CAR:CA090950\", preferredCtxAllele: { @id : \"_b197\", alleleName: \"NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His)\", relatedCanonicalAllele : \"@id : \"CAR:CA090950\"\" } }, secondaryAllele: { @id : \"CAR:CA253304\", preferredCtxAllele: { @id : \"_b227\", alleleName: \"NM_000441.1(SLC26A4): c.626G>T\", relatedCanonicalAllele : \"@id : \"CAR:CA253304\"\" } }, phase: { @id : \"GENO:0000132\", label: \"in trans\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2035,7 +1781,6 @@
     "subjectId": "EvLn106",
     "attributeId": "A178",
     "value": "IndAll367",
-    "jsonMockup": "evidenceItem: { @id : \"_b3466\", individual: { @id : \"_b8128\", description: \"individual #029\" }, primaryAllele: { @id : \"CAR:CA090950\", preferredCtxAllele: { @id : \"_b197\", alleleName: \"NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His)\", relatedCanonicalAllele : \"@id : \"CAR:CA090950\"\" } }, secondaryAllele: { @id : \"CAR:CA273665\", preferredCtxAllele: { @id : \"_b228\", alleleName: \"NM_000441.1(SLC26A4): c.1707+6T>C\", relatedCanonicalAllele : \"@id : \"CAR:CA273665\"\" } }, phase: { @id : \"GENO:0000132\", label: \"in trans\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2043,7 +1788,6 @@
     "subjectId": "EvLn106",
     "attributeId": "A178",
     "value": "IndCond368",
-    "jsonMockup": "evidenceItem: { @id : \"_b3467\", individual: { @id : \"_b8128\", description: \"individual #029\" }, condition: \"GenCond058\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2051,7 +1795,6 @@
     "subjectId": "EvLn107",
     "attributeId": "A178",
     "value": "AllFreq370",
-    "jsonMockup": "evidenceItem: { @id : \"_b3469\", ascertainment: { @id : \"SEPIO:0000332\", label: \"ExAc ascertainment method\" }, allele: { @id : \"CAR:CA022880\", preferredCtxAllele: { @id : \"_b226\", alleleName: \"NM_024422.3(DSC2): c.631-2A>G (p.?)\", relatedCanonicalAllele : \"@id : \"CAR:CA022880\"\" } }, alleleCount: 1, alleleNumber: 66564 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2059,7 +1802,6 @@
     "subjectId": "EvLn108",
     "attributeId": "A178",
     "value": "AllFreq037",
-    "jsonMockup": "evidenceItem: { @id : \"_b3136\", ascertainment: { @id : \"SEPIO:0000332\", label: \"ExAc ascertainment method\" }, allele: { @id : \"CAR:CA013536\", preferredCtxAllele: { @id : \"_b223\", alleleName: \"NM_000257.2(MYH7):c.327C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA013536\"\" } }, alleleCount: 31, alleleNumber: 16512 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2067,7 +1809,6 @@
     "subjectId": "EvLn109",
     "attributeId": "A178",
     "value": "AllFreq038",
-    "jsonMockup": "evidenceItem: { @id : \"_b3137\", ascertainment: { @id : \"SEPIO:0000332\", label: \"ExAc ascertainment method\" }, allele: { @id : \"CAR:CA090950\", preferredCtxAllele: { @id : \"_b197\", alleleName: \"NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His)\", relatedCanonicalAllele : \"@id : \"CAR:CA090950\"\" } }, alleleCount: 27, alleleNumber: 1384 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2075,7 +1816,6 @@
     "subjectId": "EvLn109",
     "attributeId": "A178",
     "value": "CondPrev039",
-    "jsonMockup": "evidenceItem: { @id : \"_b3138\", condition: { @id : \"_b4156\", disease: { @id : \"Orphanet:87884\", label: \"nonsyndromic deafness\" }, name: \"Hearing Loss\" }, minimum: 1/500, maximum: 1/300, population: { @id : \"SEPIO-CG:99102\", label: \"Overall\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2083,7 +1823,6 @@
     "subjectId": "EvLn110",
     "attributeId": "A178",
     "value": "CritAssess305",
-    "jsonMockup": "evidenceItem: { @id : \"_b3404\", criterion: { @id : \"SEPIO-CG:99028\", label: \"PM2\" }, variant: { @id : \"CAR:CA090919\", preferredCtxAllele: { @id : \"_b138\", alleleName: \"NM_001369.2(DNAH5):c.7468_7488del\", relatedCanonicalAllele : \"@id : \"CAR:CA090919\"\" } }, outcome: { @id : \"SEPIO:0000224\", label: \"Not Met\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2091,7 +1830,6 @@
     "subjectId": "EvLn110",
     "attributeId": "A179",
     "value": "ELSID142",
-    "jsonMockup": "evidenceStrength: { @id : \"SEPIO:0000218\" }",
     "attributeName": "evidenceStrength",
     "attributeType": "EvidenceLineStrength"
   },
@@ -2099,7 +1837,6 @@
     "subjectId": "EvLn110",
     "attributeId": "A180",
     "value": "Contrib522",
-    "jsonMockup": "contribution: { agent: { label: \"Harry Stevenson\" }, contributionDate: \"7/1/16 10:53 AM\", contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" } }",
     "attributeName": "contribution",
     "attributeType": "Contribution"
   },
@@ -2107,7 +1844,6 @@
     "subjectId": "EvLn110",
     "attributeId": "A180",
     "value": "Contrib523",
-    "jsonMockup": "contribution: { agent: { label: \"CSER Bakeoff Project\" }, contributionDate: \"7/1/16 10:53 AM\", contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" } }",
     "attributeName": "contribution",
     "attributeType": "Contribution"
   },
@@ -2115,7 +1851,6 @@
     "subjectId": "EvLn111",
     "attributeId": "A178",
     "value": "CritAssess296",
-    "jsonMockup": "evidenceItem: { @id : \"_b3395\", criterion: { @id : \"SEPIO-CG:99029\", label: \"PM3\" }, variant: { @id : \"CAR:CA090919\", preferredCtxAllele: { @id : \"_b138\", alleleName: \"NM_001369.2(DNAH5):c.7468_7488del\", relatedCanonicalAllele : \"@id : \"CAR:CA090919\"\" } }, outcome: { @id : \"SEPIO:0000223\", label: \"Met\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2123,7 +1858,6 @@
     "subjectId": "EvLn111",
     "attributeId": "A179",
     "value": "ELSID143",
-    "jsonMockup": "evidenceStrength: { @id : \"SEPIO:0000216\" }",
     "attributeName": "evidenceStrength",
     "attributeType": "EvidenceLineStrength"
   },
@@ -2131,7 +1865,6 @@
     "subjectId": "EvLn111",
     "attributeId": "A180",
     "value": "Contrib524",
-    "jsonMockup": "contribution: { agent: { label: \"Harry Stevenson\" }, contributionDate: \"6/2/16 8:01 AM\", contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" } }",
     "attributeName": "contribution",
     "attributeType": "Contribution"
   },
@@ -2139,7 +1872,6 @@
     "subjectId": "EvLn112",
     "attributeId": "A178",
     "value": "CritAssess299",
-    "jsonMockup": "evidenceItem: { @id : \"_b3398\", criterion: { @id : \"SEPIO-CG:99030\", label: \"PM4\" }, variant: { @id : \"CAR:CA090919\", preferredCtxAllele: { @id : \"_b138\", alleleName: \"NM_001369.2(DNAH5):c.7468_7488del\", relatedCanonicalAllele : \"@id : \"CAR:CA090919\"\" } }, outcome: { @id : \"SEPIO:0000223\", label: \"Met\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2147,7 +1879,6 @@
     "subjectId": "EvLn112",
     "attributeId": "A179",
     "value": "ELSID143",
-    "jsonMockup": "evidenceStrength: { @id : \"SEPIO:0000216\" }",
     "attributeName": "evidenceStrength",
     "attributeType": "EvidenceLineStrength"
   },
@@ -2155,7 +1886,6 @@
     "subjectId": "EvLn112",
     "attributeId": "A180",
     "value": "Contrib525",
-    "jsonMockup": "contribution: { agent: { label: \"Sasha Rande\" }, contributionDate: \"6/12/16 7:30 AM\", contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" } }",
     "attributeName": "contribution",
     "attributeType": "Contribution"
   },
@@ -2163,7 +1893,6 @@
     "subjectId": "EvLn113",
     "attributeId": "A178",
     "value": "CritAssess372",
-    "jsonMockup": "evidenceItem: { @id : \"_b3471\", criterion: { @id : \"SEPIO-CG:99039\", label: \"BS1\" }, variant: { @id : \"CAR:CA090950\", preferredCtxAllele: { @id : \"_b197\", alleleName: \"NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His)\", relatedCanonicalAllele : \"@id : \"CAR:CA090950\"\" } }, outcome: { @id : \"SEPIO:0000223\", label: \"Met\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2171,7 +1900,6 @@
     "subjectId": "EvLn113",
     "attributeId": "A179",
     "value": "ELSID141",
-    "jsonMockup": "evidenceStrength: { @id : \"SEPIO:0000328\" }",
     "attributeName": "evidenceStrength",
     "attributeType": "EvidenceLineStrength"
   },
@@ -2179,7 +1907,6 @@
     "subjectId": "EvLn113",
     "attributeId": "A180",
     "value": "Contrib526",
-    "jsonMockup": "contribution: { agent: { label: \"Stefan DiMarino\" }, contributionDate: \"03/08/2017 9:46 AM\", contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" } }",
     "attributeName": "contribution",
     "attributeType": "Contribution"
   },
@@ -2187,7 +1914,6 @@
     "subjectId": "EvLn114",
     "attributeId": "A178",
     "value": "CritAssess340",
-    "jsonMockup": "evidenceItem: { @id : \"_b3439\", criterion: { @id : \"SEPIO-CG:99043\", label: \"BP1\" }, variant: { @id : \"CAR:CA090950\", preferredCtxAllele: { @id : \"_b197\", alleleName: \"NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His)\", relatedCanonicalAllele : \"@id : \"CAR:CA090950\"\" } }, outcome: { @id : \"SEPIO:0000223\", label: \"Met\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2195,7 +1921,6 @@
     "subjectId": "EvLn114",
     "attributeId": "A179",
     "value": "ELSID140",
-    "jsonMockup": "evidenceStrength: { @id : \"SEPIO:0000327\" }",
     "attributeName": "evidenceStrength",
     "attributeType": "EvidenceLineStrength"
   },
@@ -2203,7 +1928,6 @@
     "subjectId": "EvLn114",
     "attributeId": "A180",
     "value": "Contrib527",
-    "jsonMockup": "contribution: { agent: { label: \"Harry Stevenson\" }, contributionDate: \"7/1/16 9:23 AM\", contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" } }",
     "attributeName": "contribution",
     "attributeType": "Contribution"
   },
@@ -2211,7 +1935,6 @@
     "subjectId": "EvLn115",
     "attributeId": "A178",
     "value": "CritAssess363",
-    "jsonMockup": "evidenceItem: { @id : \"_b3462\", criterion: { @id : \"SEPIO-CG:99047\", label: \"BP5\" }, variant: { @id : \"CAR:CA090950\", preferredCtxAllele: { @id : \"_b197\", alleleName: \"NM_144612.6(LOXHD1 ): c.1028G>A (p.Arg343His)\", relatedCanonicalAllele : \"@id : \"CAR:CA090950\"\" } }, outcome: { @id : \"SEPIO:0000223\", label: \"Met\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2219,7 +1942,6 @@
     "subjectId": "EvLn115",
     "attributeId": "A179",
     "value": "ELSID140",
-    "jsonMockup": "evidenceStrength: { @id : \"SEPIO:0000327\" }",
     "attributeName": "evidenceStrength",
     "attributeType": "EvidenceLineStrength"
   },
@@ -2227,7 +1949,6 @@
     "subjectId": "EvLn115",
     "attributeId": "A180",
     "value": "Contrib528",
-    "jsonMockup": "contribution: { agent: { label: \"Stefan DiMarino\" }, contributionDate: \"03/07/2017 4:30 PM\", contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" } }",
     "attributeName": "contribution",
     "attributeType": "Contribution"
   },
@@ -2235,7 +1956,6 @@
     "subjectId": "EvLn116",
     "attributeId": "A178",
     "value": "Func067",
-    "jsonMockup": "evidenceItem: { @id : \"_b3166\", resultDescription: \"increased ERK activtation\", assayType: { @id : \"OBI:XXXXXX1\", label: \"Activation Assay\" }, contextualAllele: { @id : \"_b229\", alleleName: \"NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys)\", relatedCanonicalAllele : \"@id : \"CAR:CA090930\"\" }, gene: { @id : \"HGNC:6871\", geneSymbol: \"ERK\" }, gene: { @id : \"HGNC:11187\", geneSymbol: \"SOS1\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2243,7 +1963,6 @@
     "subjectId": "EvLn117",
     "attributeId": "A178",
     "value": "InSilicoPred068",
-    "jsonMockup": "evidenceItem: { @id : \"_b3167\", transcript: { @id : \"REFSEQ:NM_000257.2\", accession: \"NM_000257.2\" }, predictionType: { @id : \"SEPIO:0000323\", label: \"splicing prediction\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2251,7 +1970,6 @@
     "subjectId": "EvLn117",
     "attributeId": "A178",
     "value": "Conserv071",
-    "jsonMockup": "evidenceItem: { @id : \"_b3170\", outcome: { @id : \"SEPIO-CG:99004\", label: \"not conserved\" }, algorithm: \"phyloP\", score: -0.76 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2259,7 +1977,6 @@
     "subjectId": "EvLn117",
     "attributeId": "A178",
     "value": "Conserv072",
-    "jsonMockup": "evidenceItem: { @id : \"_b3171\", outcome: { @id : \"SEPIO-CG:99004\", label: \"not conserved\" }, algorithm: \"PhastCons\", score: 0.63 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2267,7 +1984,6 @@
     "subjectId": "EvLn117",
     "attributeId": "A178",
     "value": "MolCon075",
-    "jsonMockup": "evidenceItem: { @id : \"_b3174\", consequence: { @id : \"SO:0001819\", label: \"synonymous variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2275,7 +1991,6 @@
     "subjectId": "EvLn117",
     "attributeId": "A178",
     "value": "Null415",
-    "jsonMockup": "evidenceItem: { @id : \"_b3514\", annotation: { @id : \"SO:0002054\", label: \"loss of function variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2283,7 +1998,6 @@
     "subjectId": "EvLn118",
     "attributeId": "A178",
     "value": "CritAssess373",
-    "jsonMockup": "evidenceItem: { @id : \"_b3472\", criterion: { @id : \"SEPIO-CG:99046\", label: \"BP4\" }, variant: { @id : \"CAR:CA013536\", preferredCtxAllele: { @id : \"_b223\", alleleName: \"NM_000257.2(MYH7):c.327C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA013536\"\" } }, outcome: { @id : \"SEPIO:0000223\", label: \"Met\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2291,7 +2005,6 @@
     "subjectId": "EvLn118",
     "attributeId": "A179",
     "value": "ELSID140",
-    "jsonMockup": "evidenceStrength: { @id : \"SEPIO:0000327\" }",
     "attributeName": "evidenceStrength",
     "attributeType": "EvidenceLineStrength"
   },
@@ -2299,7 +2012,6 @@
     "subjectId": "EvLn118",
     "attributeId": "A180",
     "value": "Contrib529",
-    "jsonMockup": "contribution: { agent: { label: \"Stefan DiMarino\" }, contributionDate: \"03/08/2017 10:02 AM\", contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" } }",
     "attributeName": "contribution",
     "attributeType": "Contribution"
   },
@@ -2307,7 +2019,6 @@
     "subjectId": "EvLn119",
     "attributeId": "A178",
     "value": "CritAssess359",
-    "jsonMockup": "evidenceItem: { @id : \"_b3458\", criterion: { @id : \"SEPIO-CG:99049\", label: \"BP7\" }, variant: { @id : \"CAR:CA013536\", preferredCtxAllele: { @id : \"_b223\", alleleName: \"NM_000257.2(MYH7):c.327C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA013536\"\" } }, outcome: { @id : \"SEPIO:0000223\", label: \"Met\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2315,7 +2026,6 @@
     "subjectId": "EvLn119",
     "attributeId": "A179",
     "value": "ELSID140",
-    "jsonMockup": "evidenceStrength: { @id : \"SEPIO:0000327\" }",
     "attributeName": "evidenceStrength",
     "attributeType": "EvidenceLineStrength"
   },
@@ -2323,7 +2033,6 @@
     "subjectId": "EvLn119",
     "attributeId": "A180",
     "value": "Contrib530",
-    "jsonMockup": "contribution: { agent: { label: \"Stefan DiMarino\" }, contributionDate: \"10/10/16 8:05 AM\", contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" } }",
     "attributeName": "contribution",
     "attributeType": "Contribution"
   },
@@ -2331,7 +2040,6 @@
     "subjectId": "EvLn120",
     "attributeId": "A178",
     "value": "CritAssess371",
-    "jsonMockup": "evidenceItem: { @id : \"_b3470\", criterion: { @id : \"SEPIO-CG:99039\", label: \"BS1\" }, variant: { @id : \"CAR:CA013536\", preferredCtxAllele: { @id : \"_b223\", alleleName: \"NM_000257.2(MYH7):c.327C>T\", relatedCanonicalAllele : \"@id : \"CAR:CA013536\"\" } }, outcome: { @id : \"SEPIO:0000223\", label: \"Met\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2339,7 +2047,6 @@
     "subjectId": "EvLn120",
     "attributeId": "A179",
     "value": "ELSID141",
-    "jsonMockup": "evidenceStrength: { @id : \"SEPIO:0000328\" }",
     "attributeName": "evidenceStrength",
     "attributeType": "EvidenceLineStrength"
   },
@@ -2347,7 +2054,6 @@
     "subjectId": "EvLn120",
     "attributeId": "A180",
     "value": "Contrib531",
-    "jsonMockup": "contribution: { agent: { label: \"Stefan DiMarino\" }, contributionDate: \"03/08/2017 7:43 AM\", contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" } }",
     "attributeName": "contribution",
     "attributeType": "Contribution"
   },
@@ -2355,7 +2061,6 @@
     "subjectId": "EvLn121",
     "attributeId": "A178",
     "value": "CritAssess361",
-    "jsonMockup": "evidenceItem: { @id : \"_b3460\", criterion: { @id : \"SEPIO-CG:99022\", label: \"PVS1\" }, variant: { @id : \"CAR:CA022880\", preferredCtxAllele: { @id : \"_b226\", alleleName: \"NM_024422.3(DSC2): c.631-2A>G (p.?)\", relatedCanonicalAllele : \"@id : \"CAR:CA022880\"\" } }, outcome: { @id : \"SEPIO:0000223\", label: \"Met\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2363,7 +2068,6 @@
     "subjectId": "EvLn121",
     "attributeId": "A179",
     "value": "ELSID146",
-    "jsonMockup": "evidenceStrength: { @id : \"SEPIO:0000220\" }",
     "attributeName": "evidenceStrength",
     "attributeType": "EvidenceLineStrength"
   },
@@ -2371,7 +2075,6 @@
     "subjectId": "EvLn121",
     "attributeId": "A180",
     "value": "Contrib532",
-    "jsonMockup": "contribution: { agent: { label: \"Stefan DiMarino\" }, contributionDate: \"01/17/17 9:12 AM\", contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" } }",
     "attributeName": "contribution",
     "attributeType": "Contribution"
   },
@@ -2379,7 +2082,6 @@
     "subjectId": "EvLn122",
     "attributeId": "A178",
     "value": "CritAssess369",
-    "jsonMockup": "evidenceItem: { @id : \"_b3468\", criterion: { @id : \"SEPIO-CG:99028\", label: \"PM2\" }, variant: { @id : \"CAR:CA022880\", preferredCtxAllele: { @id : \"_b226\", alleleName: \"NM_024422.3(DSC2): c.631-2A>G (p.?)\", relatedCanonicalAllele : \"@id : \"CAR:CA022880\"\" } }, outcome: { @id : \"SEPIO:0000223\", label: \"Met\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2387,7 +2089,6 @@
     "subjectId": "EvLn122",
     "attributeId": "A179",
     "value": "ELSID143",
-    "jsonMockup": "evidenceStrength: { @id : \"SEPIO:0000216\" }",
     "attributeName": "evidenceStrength",
     "attributeType": "EvidenceLineStrength"
   },
@@ -2395,7 +2096,6 @@
     "subjectId": "EvLn122",
     "attributeId": "A180",
     "value": "Contrib533",
-    "jsonMockup": "contribution: { agent: { label: \"Harry Stevenson\" }, contributionDate: \"03/07/2017 5:22 PM\", contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" } }",
     "attributeName": "contribution",
     "attributeType": "Contribution"
   },
@@ -2403,7 +2103,6 @@
     "subjectId": "EvLn123",
     "attributeId": "A178",
     "value": "FamSeg076",
-    "jsonMockup": "evidenceItem: { @id : \"_b3175\", condition: { @id : \"_b4155\", disease: { @id : \"Orphanet:648\", label: \"noonan syndrome\" }, modeOfInheritance: { @id : \"HP:0000006\", label: \"Autosomal Dominant\" } }, family: { @id : \"_b8510\", description: \"Family #011\" }, phenotypePositiveAllelePositive: 0, phenotypeNegativeAllelePositive: 2 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2411,7 +2110,6 @@
     "subjectId": "EvLn124",
     "attributeId": "A178",
     "value": "CritAssess374",
-    "jsonMockup": "evidenceItem: { @id : \"_b3473\", criterion: { @id : \"SEPIO-CG:99025\", label: \"PS3\" }, variant: { @id : \"CAR:CA090930\", preferredCtxAllele: { @id : \"_b229\", alleleName: \"NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys)\", relatedCanonicalAllele : \"@id : \"CAR:CA090930\"\" } }, outcome: { @id : \"SEPIO:0000223\", label: \"Met\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2419,7 +2117,6 @@
     "subjectId": "EvLn124",
     "attributeId": "A179",
     "value": "ELSID145",
-    "jsonMockup": "evidenceStrength: { @id : \"SEPIO:0000330\" }",
     "attributeName": "evidenceStrength",
     "attributeType": "EvidenceLineStrength"
   },
@@ -2427,7 +2124,6 @@
     "subjectId": "EvLn124",
     "attributeId": "A180",
     "value": "Contrib534",
-    "jsonMockup": "contribution: { agent: { label: \"Stefan DiMarino\" }, contributionDate: \"3/14/2017 10:29 AM\", contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" } }",
     "attributeName": "contribution",
     "attributeType": "Contribution"
   },
@@ -2435,7 +2131,6 @@
     "subjectId": "EvLn125",
     "attributeId": "A178",
     "value": "CritAssess375",
-    "jsonMockup": "evidenceItem: { @id : \"_b3474\", criterion: { @id : \"SEPIO-CG:99042\", label: \"BS4\" }, variant: { @id : \"CAR:CA090930\", preferredCtxAllele: { @id : \"_b229\", alleleName: \"NM_005633.3(SOS1):c.1010A>G (p.Tyr337Cys)\", relatedCanonicalAllele : \"@id : \"CAR:CA090930\"\" } }, outcome: { @id : \"SEPIO:0000223\", label: \"Met\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2443,7 +2138,6 @@
     "subjectId": "EvLn125",
     "attributeId": "A179",
     "value": "ELSID141",
-    "jsonMockup": "evidenceStrength: { @id : \"SEPIO:0000328\" }",
     "attributeName": "evidenceStrength",
     "attributeType": "EvidenceLineStrength"
   },
@@ -2451,7 +2145,6 @@
     "subjectId": "EvLn125",
     "attributeId": "A180",
     "value": "Contrib535",
-    "jsonMockup": "contribution: { agent: { label: \"Stefan DiMarino\" }, contributionDate: \"3/14/2017 10:45 AM\", contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" } }",
     "attributeName": "contribution",
     "attributeType": "Contribution"
   },
@@ -2459,7 +2152,6 @@
     "subjectId": "EvLn126",
     "attributeId": "A178",
     "value": "AllFreq101",
-    "jsonMockup": "evidenceItem: { @id : \"_b3200\", ascertainment: { @id : \"SEPIO:0000332\", label: \"ExAc ascertainment method\" }, allele: { @id : \"CAR:CA280055\", preferredCtxAllele: { @id : \"_b230\", alleleName: \"NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln)\", relatedCanonicalAllele : \"@id : \"CAR:CA280055\"\" } }, alleleCount: 0 }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2467,7 +2159,6 @@
     "subjectId": "EvLn127",
     "attributeId": "A178",
     "value": "CritAssess376",
-    "jsonMockup": "evidenceItem: { @id : \"_b3475\", criterion: { @id : \"SEPIO-CG:99028\", label: \"PM2\" }, variant: { @id : \"CAR:CA280055\", preferredCtxAllele: { @id : \"_b230\", alleleName: \"NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln)\", relatedCanonicalAllele : \"@id : \"CAR:CA280055\"\" } }, outcome: { @id : \"SEPIO:0000223\", label: \"Met\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2475,7 +2166,6 @@
     "subjectId": "EvLn127",
     "attributeId": "A179",
     "value": "ELSID143",
-    "jsonMockup": "evidenceStrength: { @id : \"SEPIO:0000216\" }",
     "attributeName": "evidenceStrength",
     "attributeType": "EvidenceLineStrength"
   },
@@ -2483,7 +2173,6 @@
     "subjectId": "EvLn127",
     "attributeId": "A180",
     "value": "Contrib536",
-    "jsonMockup": "contribution: { agent: { label: \"ACME Molecular Lab\" }, contributionDate: \"6/11/2011 11:45 AM\", contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" } }",
     "attributeName": "contribution",
     "attributeType": "Contribution"
   },
@@ -2491,7 +2180,6 @@
     "subjectId": "EvLn128",
     "attributeId": "A178",
     "value": "IndAllInh106",
-    "jsonMockup": "evidenceItem: { @id : \"_b3205\", individual: { @id : \"_b8129\", description: \"individual #030\" }, parentalConfirmation: { @id : \"SEPIO-CG:99008\", label: \"no parental confirmation\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2499,7 +2187,6 @@
     "subjectId": "EvLn128",
     "attributeId": "A178",
     "value": "IndCond110",
-    "jsonMockup": "evidenceItem: { @id : \"_b3209\", individual: { @id : \"_b8129\", description: \"individual #030\" }, condition: \"GenCond069\", individualHasCondition: { @id : \"SEPIO-CG:99009\", label: \"affected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2507,7 +2194,6 @@
     "subjectId": "EvLn128",
     "attributeId": "A178",
     "value": "FamCond112",
-    "jsonMockup": "evidenceItem: { @id : \"_b3211\", proband: { @id : \"_b8129\", description: \"individual #030\" }, condition: { @id : \"_b4168\", disease: { @id : \"Orphanet:1340\", label: \"cardiofaciocutaneous syndrome\" } }, familyHasCondition: { @id : \"SEPIO-CG:99010\", label: \"unaffected\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2515,7 +2201,6 @@
     "subjectId": "EvLn129",
     "attributeId": "A178",
     "value": "CritAssess377",
-    "jsonMockup": "evidenceItem: { @id : \"_b3476\", criterion: { @id : \"SEPIO-CG:99032\", label: \"PM6\" }, variant: { @id : \"CAR:CA280055\", preferredCtxAllele: { @id : \"_b230\", alleleName: \"NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln)\", relatedCanonicalAllele : \"@id : \"CAR:CA280055\"\" } }, outcome: { @id : \"SEPIO:0000223\", label: \"Met\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2523,7 +2208,6 @@
     "subjectId": "EvLn129",
     "attributeId": "A179",
     "value": "ELSID143",
-    "jsonMockup": "evidenceStrength: { @id : \"SEPIO:0000216\" }",
     "attributeName": "evidenceStrength",
     "attributeType": "EvidenceLineStrength"
   },
@@ -2531,7 +2215,6 @@
     "subjectId": "EvLn129",
     "attributeId": "A180",
     "value": "Contrib537",
-    "jsonMockup": "contribution: { agent: { label: \"ACME Molecular Lab\" }, contributionDate: \"6/11/2011 12:45:00\", contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" } }",
     "attributeName": "contribution",
     "attributeType": "Contribution"
   },
@@ -2539,7 +2222,6 @@
     "subjectId": "EvLn130",
     "attributeId": "A178",
     "value": "VarInterp060",
-    "jsonMockup": "evidenceItem: { @id : \"_b3159\", variant: { @id : \"CAR:CA273507\", preferredCtxAllele: { @id : \"_b232\", alleleName: \"NM_004333.4(BRAF):c.1449A>C\", relatedCanonicalAllele : \"@id : \"CAR:CA273507\"\" } }, condition: { @id : \"_b4148\", disease: { @id : \"Orphanet:98733\", label: \"Noonan syndrome and noonan-related syndrom\" }, name: \"Rasopathy\" }, outcome: { @id : \"LN:LA26332-9\", label: \"Likely Pathogenic\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2547,7 +2229,6 @@
     "subjectId": "EvLn131",
     "attributeId": "A178",
     "value": "CritAssess378",
-    "jsonMockup": "evidenceItem: { @id : \"_b3477\", criterion: { @id : \"SEPIO-CG:99031\", label: \"PM5\" }, variant: { @id : \"CAR:CA280055\", preferredCtxAllele: { @id : \"_b230\", alleleName: \"NM_004333.4(BRAF):c.1447A>C (p.Lys483Gln)\", relatedCanonicalAllele : \"@id : \"CAR:CA280055\"\" } }, outcome: { @id : \"SEPIO:0000223\", label: \"Met\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2555,7 +2236,6 @@
     "subjectId": "EvLn131",
     "attributeId": "A179",
     "value": "ELSID143",
-    "jsonMockup": "evidenceStrength: { @id : \"SEPIO:0000216\" }",
     "attributeName": "evidenceStrength",
     "attributeType": "EvidenceLineStrength"
   },
@@ -2563,7 +2243,6 @@
     "subjectId": "EvLn131",
     "attributeId": "A180",
     "value": "Contrib538",
-    "jsonMockup": "contribution: { agent: { label: \"ACME Molecular Lab\" }, contributionDate: \"6/10/2011 1:45 PM\", contributionRole: { @id : \"SEPIO:0000154\", label: \"assessor role\" } }",
     "attributeName": "contribution",
     "attributeType": "Contribution"
   },
@@ -2571,7 +2250,6 @@
     "subjectId": "EvLn132",
     "attributeId": "A178",
     "value": "BMVR161",
-    "jsonMockup": "evidenceItem: { @id : \"_b3260\", gene: { @id : \"HGNC:12403\", geneSymbol: \"TTN\" }, value: { @id : \"SEPIO:0000265\", label: \"High\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2579,7 +2257,6 @@
     "subjectId": "EvLn132",
     "attributeId": "A178",
     "value": "MolCon169",
-    "jsonMockup": "evidenceItem: { @id : \"_b3268\", consequence: { @id : \"SO:0001583\", label: \"missense variant\" } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   },
@@ -2587,7 +2264,6 @@
     "subjectId": "EvLn132",
     "attributeId": "A178",
     "value": "CondMech165",
-    "jsonMockup": "evidenceItem: { @id : \"_b3264\", mechanism: { @id : \"SO:0001583\", label: \"missense variant\" }, mechanismConfidence: { @id : \"SEPIO:0000268\", label: \"common\" }, condition: { @id : \"_b4153\", disease: { @id : \"Orphanet:247\", label: \"arrhythmogenic right ventricular cardiomyopathy\" } } }",
     "attributeName": "evidenceItem",
     "attributeType": "Statement"
   }
