@@ -209,6 +209,7 @@ if (window.location.hash) {
     editor.setTheme('ace/theme/tomorrow');
     editor.setReadOnly(true);
     editor.resize();
+    editor.setOptions({maxLines: Infinity});
   });
 } else {
   // should somehow display an error here...
