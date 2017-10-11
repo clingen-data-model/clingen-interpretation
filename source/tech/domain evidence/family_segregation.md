@@ -5,7 +5,7 @@ id: E45
 ---
 
 Scope and Usage
----------------
+----------------
 
 The FamilySegregationData element represents co-segregation of an allele and a condition within a particular family.   The segregation can be characterized using a series of aggregate counts, such as the number of individuals that have both the allele and the condition, or those with the allele but not the condition.
 

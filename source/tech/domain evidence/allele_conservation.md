@@ -5,7 +5,7 @@ id: E51
 ---
 
 Scope and Usage
----------------
+----------------
 
 AlleleConservation represents the degree to which an allele is the same (conserved) across different species.   If an allele is the same in many species, it often represents an important functional portion of a gene; variations in the allele may therefore tend to be more pathogenic.
 

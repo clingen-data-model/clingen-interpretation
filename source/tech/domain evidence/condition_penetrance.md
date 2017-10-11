@@ -5,7 +5,7 @@ id: E50
 ---
 
 Scope and Usage
----------------
+----------------
 
 For many pathogenic variants, not everybody with the variant will be affected with the associated condition.  This is expressed in the quantity penetrance, which is defined as the ratio of the number of people with the disease and the variant to the total number of people with the variant.
 
