@@ -1,7 +1,5 @@
 ---
-layout: entity
-model: interpretation
-id: E01
+title: Domain Evidence
 ---
 
 Scope and Usage
