@@ -1,3 +1,3 @@
 ---
-title: provenance
+title: Provenance
 ---
