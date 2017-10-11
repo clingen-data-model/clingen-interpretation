@@ -1,4 +1,5 @@
 ---
-title: Reference Sequence
-
+layout: entity
+model: interpretation
+id: E75
 ---
