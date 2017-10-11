@@ -4,6 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Example Diagram</title>
+  <link href="../../stylesheets/bootstrap.css" rel="stylesheet">
+  <link href="../../stylesheets/brand2.css" rel="stylesheet">
+
 <style>
 .link path {
   stroke: #000;
@@ -77,18 +80,66 @@ td.rowheader {
   text-align: right;
   background-color: #ddd;
 }
-
+table.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+table.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+#diagram {
+ position: absolute; 
+ height: 100%; 
+ width: 100%; 
+ left: 0; 
+ top: 0;
+}
+.scaling-svg-container {
+ position: relative; 
+ height: 0; 
+ width: 100%; 
+ padding: 0;
+ padding-bottom: 100%; 
+ /* override this inline for aspect ratio other than square */
+}
 </style>
 <body>
-  <h1>Tabular View</h1>
-  <div id="jsontable"></div>
-  <h1>JSON message</h1>
-  <div id="jsonview"></div>
-  <h1>Diagram</h1>
-  <svg id="diagram" width="1600" height="800"></svg>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>ClinGen Data Model Working Group</h1>
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a data-target="#tabjsontable" aria-controls="tabjsontable" role="tab" data-toggle="tab">Tabular View</a></li>
+        <li role="presentation"><a data-target="#tabjsonview" aria-controls="tabjsonview" role="tab" data-toggle="tab">JSON message</a></li>
+        <li role="presentation"><a data-target="#tabdiagram" aria-controls="tabdiagram" role="tab" data-toggle="tab">Diagram</a></li>
+      </ul>
+       <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="tabjsontable"><div id="jsontable"></div></div>
+        <div role="tabpanel" class="tab-pane" id="tabjsonview"><div id="jsonview"></div></div>
+        <div role="tabpanel" class="tab-pane active scaling-svg-container "  id="tabdiagram"><h3>Interactive Diagram</h3><svg id="diagram" width="1000" height="600"></svg></div>
+      </div>
+    </div>
+  </div>
+</div>
+  
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
-  <script>window.d3 || document.write('<script src="../../javascripts/cache/d3.v4.min.js">\x3C/script><script src="../../javascripts/cache/d3-selection-multi.v1.min.js">\x3C/script>')</script>
+  <script src="../../javascripts/jquery.js"></script>
+  <script src="../../javascripts/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      // This code is needed to hide the SVG tab after the page loads so the SVG scales correctly. Temp fix.
+      setTimeout(function() {
+        $('#tabdiagram').removeClass('active');
+      }, 500);
+    });
+  </script>
+    <script>window.d3 || document.write('<script src="../../javascripts/cache/d3.v4.min.js">\x3C/script><script src="../../javascripts/cache/d3-selection-multi.v1.min.js">\x3C/script>')</script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.6/ace.js"></script>
   <script>window.ace || document.write('<script src="../../javascripts/cache/ace.js">\x3C/script>')</script>
   <script>
@@ -109,7 +160,7 @@ var json_table_recurse = function(sel) {
     } else if (typeof(d) === 'string') {
       table.append("tr").text(d)
     } else {
-      table.classed("object", true);
+      table.classed("object table", true);
       var thead = table.append("thead");
       var tbody = table.append("tbody");
       header = ''
