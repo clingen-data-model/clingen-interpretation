@@ -5,7 +5,7 @@ id: E44
 ---
 
 Scope and Usage
----------------
+----------------
 
 The Family identifies a group of related individuals.  The purpose of this grouping is to help describe groups of people that may share alleles by descent. 
 
