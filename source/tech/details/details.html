@@ -93,18 +93,18 @@ table.table {
     padding-left: 0px;
 }
 #diagram {
- position: absolute; 
- height: 100%; 
- width: 100%; 
- left: 0; 
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ left: 0;
  top: 0;
 }
 .scaling-svg-container {
- position: relative; 
- height: 0; 
- width: 100%; 
+ position: relative;
+ height: 0;
+ width: 100%;
  padding: 0;
- padding-bottom: 100%; 
+ padding-bottom: 100%;
  /* override this inline for aspect ratio other than square */
 }
 </style>
@@ -121,12 +121,12 @@ table.table {
        <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="tabjsontable"><div id="jsontable"></div></div>
         <div role="tabpanel" class="tab-pane" id="tabjsonview"><div id="jsonview"></div></div>
-        <div role="tabpanel" class="tab-pane active scaling-svg-container "  id="tabdiagram"><h3>Interactive Diagram</h3><svg id="diagram" width="1000" height="600"></svg></div>
+        <div role="tabpanel" class="tab-pane active scaling-svg-container "  id="tabdiagram"><svg id="diagram" width="1000" height="600"></svg></div>
       </div>
     </div>
   </div>
 </div>
-  
+
   <script src="https://d3js.org/d3.v4.min.js"></script>
   <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
   <script src="../../javascripts/jquery.js"></script>
@@ -252,8 +252,6 @@ function DmwgDiagram(tree) {
     .scaleExtent([1/4, 16])
     .on("zoom", zoomed);
   this.svg.call(zoom);
-
-  this.root = d3.hierarchy(generate_tree(tree));
 
   var node = nodeg.selectAll(".node")
     .data(nodedata)
