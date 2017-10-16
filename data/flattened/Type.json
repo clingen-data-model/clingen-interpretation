@@ -79,6 +79,7 @@
   "E08": {
     "id": "E08",
     "name": "NullAllele",
+    "parentType": "E01",
     "link": "Null",
     "iri": "SEPIO:0000274",
     "iri-label": "",
@@ -207,6 +208,7 @@
   "E22": {
     "id": "E22",
     "name": "SequenceLocation",
+    "parentType": "E01",
     "link": "Loc",
     "iri": "GENO:0000815",
     "iri-label": "sequence feature position",
@@ -315,11 +317,11 @@
   },
   "E39": {
     "id": "E39",
-    "name": "Synonym",
-    "link": "Synm",
+    "name": "UserLabel",
+    "link": "UseLab",
     "iri": "",
     "iri-label": "",
-    "cg-label": "Synonym",
+    "cg-label": "UserLabel",
     "description": "LB: shared pattern from HPO Layperson synonym approach\nhttps://github.com/obophenotype/human-phenotype-ontology/wiki/Layperson-synonym-annotation",
     "comments": ""
   },
@@ -348,7 +350,7 @@
     "link": "ISC",
     "iri": "",
     "iri-label": "",
-    "cg-label": "Coding",
+    "cg-label": "IdentifierSystemConcept",
     "description": "(LB) this is not directly related to the model, but it is needed to ",
     "comments": ""
   },

@@ -1454,7 +1454,7 @@
     "cardinality": "1..1",
     "defaultValue": "null",
     "iri": "SEPIO:0000255",
-    "iri-label": "has_supporting_method?",
+    "iri-label": "has_supporting_method",
     "cg-label": "predictionType",
     "valueSetId": "VS010",
     "restrictByValueSet": "No",
@@ -1948,21 +1948,6 @@
     "description": "Region",
     "fullyQualifiedName": "ExcludedRegionType.region"
   },
-  "A129": {
-    "id": "A129",
-    "entityId": "E39",
-    "name": "synonymType",
-    "dataType": "SynonymType",
-    "cardinality": "0..1",
-    "iri": "IAO:0000102",
-    "iri-label": "",
-    "cg-label": "",
-    "valueSetId": "VS034",
-    "restrictByValueSet": "Yes",
-    "valueSetName": "SynonymType",
-    "precedence": 3.0,
-    "fullyQualifiedName": "Synonym.synonymType"
-  },
   "A130": {
     "id": "A130",
     "entityId": "E39",
@@ -1973,7 +1958,7 @@
     "iri-label": "",
     "cg-label": "",
     "precedence": 1.0,
-    "fullyQualifiedName": "Synonym.label"
+    "fullyQualifiedName": "UserLabel.label"
   },
   "A131": {
     "id": "A131",
@@ -1986,7 +1971,7 @@
     "iri-label": "",
     "cg-label": "",
     "precedence": 4.0,
-    "fullyQualifiedName": "Synonym.contribution"
+    "fullyQualifiedName": "UserLabel.contribution"
   },
   "A132": {
     "id": "A132",
@@ -2020,7 +2005,7 @@
     "iri-label": "",
     "cg-label": "",
     "precedence": 2.0,
-    "fullyQualifiedName": "Synonym.description"
+    "fullyQualifiedName": "UserLabel.description"
   },
   "A135": {
     "id": "A135",
@@ -2035,20 +2020,6 @@
     "valueSetName": "",
     "precedence": 1.0,
     "fullyQualifiedName": "CanonicalAllele.preferredCtxAllele"
-  },
-  "A136": {
-    "id": "A136",
-    "entityId": "E05",
-    "name": "identifier",
-    "dataType": "String",
-    "cardinality": "1..1",
-    "defaultValue": "null",
-    "iri": "DC:identifier",
-    "iri-label": "identifier",
-    "cg-label": "identifier",
-    "valueSetName": "",
-    "precedence": 2.0,
-    "fullyQualifiedName": "CanonicalAllele.identifier"
   },
   "A137": {
     "id": "A137",
@@ -2237,7 +2208,7 @@
     "cardinality": "0..1",
     "defaultValue": "null",
     "precedence": 5.0,
-    "fullyQualifiedName": "Synonym.comments"
+    "fullyQualifiedName": "UserLabel.comments"
   },
   "A153": {
     "id": "A153",
@@ -2326,9 +2297,9 @@
     "name": "modeOfInheritance",
     "dataType": "ModeOfInheritance",
     "cardinality": "0..1",
-    "iri": "???",
-    "iri-label": "mode of inheritance",
-    "cg-label": "modeOfInheritance",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "",
     "valueSetId": "VS007",
     "restrictByValueSet": "Yes",
     "valueSetName": "ModeOfInheritance",

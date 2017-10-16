@@ -93,9 +93,13 @@ class DMWGExampleData
      '_EvidenceLineAttribute',
      '_GeneticConditionAttribute',
      '_StatementAttribute',
-     '_SynonymAttribute',
+     '_UserLabelAttribute',
      '_ValueSetConcept',
     ].each do |sheet|
+      if !@flattened.has_key? sheet
+         STDERR.puts "ERROR: expected sheet #{sheet}, but none found"
+	 next
+      end
       @flattened[sheet].each_with_index do |da, i|
         data_id = da['subjectId']
         attribute_id = da['attributeId']
