@@ -64,7 +64,7 @@
     "iri-label": "",
     "precedence": 1.0,
     "description": "a unique value within a system (or namespace) to represent or identify a concept",
-    "fullyQualifiedName": "IdentiferSystemConcept.code"
+    "fullyQualifiedName": "IdentifierSystemConcept.code"
   },
   "A005": {
     "id": "A005",
@@ -79,7 +79,7 @@
     "cg-label": "",
     "precedence": 2.0,
     "description": "a unique global value assigned to a coding system which acts as a namespace for the set of unique immutable and reliable codes it publishes",
-    "fullyQualifiedName": "IdentiferSystemConcept.system"
+    "fullyQualifiedName": "IdentifierSystemConcept.system"
   },
   "A006": {
     "id": "A006",
@@ -951,7 +951,7 @@
     "valueSetName": "",
     "precedence": 3.0,
     "description": "A human-readable representation of a coded concept. ",
-    "fullyQualifiedName": "IdentiferSystemConcept.display"
+    "fullyQualifiedName": "IdentifierSystemConcept.display"
   },
   "A065": {
     "id": "A065",
@@ -1830,7 +1830,7 @@
     "id": "A121",
     "entityId": "E54",
     "name": "includesConcept",
-    "dataType": "String",
+    "dataType": "IdentifierSystemContext",
     "cardinality": "0..*",
     "defaultValue": "null",
     "isReference": "yes",
