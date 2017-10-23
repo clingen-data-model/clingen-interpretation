@@ -1127,7 +1127,8 @@
     "iri": "",
     "iri-label": "",
     "cg-label": "",
-    "valueSetName": ""
+    "valueSetName": "",
+    "fullyQualifiedName": "DomainEntity.description"
   },
   "A076": {
     "id": "A076",
@@ -2297,9 +2298,9 @@
     "name": "modeOfInheritance",
     "dataType": "ModeOfInheritance",
     "cardinality": "0..1",
-    "iri": "",
-    "iri-label": "",
-    "cg-label": "",
+    "iri": "???",
+    "iri-label": "mode of inheritance",
+    "cg-label": "modeOfInheritance",
     "valueSetId": "VS007",
     "restrictByValueSet": "Yes",
     "valueSetName": "ModeOfInheritance",
