@@ -5,15 +5,15 @@
     "value": "CtxAll001",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon001",
     "attributeId": "A001",
-    "value": "MCTID014",
+    "value": "MolConID014",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon001",
@@ -21,7 +21,7 @@
     "value": "Protein ends at p.826 and this frameshift would create stop at p.852 (769+83) thus NMD would not occur. Instead an elongated protein",
     "attributeName": "description",
     "attributeType": "String",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "Null396",
@@ -34,23 +34,23 @@
   {
     "subjectId": "Null396",
     "attributeId": "A078",
-    "value": "NullAID224",
+    "value": "NullAllOutID224",
     "attributeName": "annotation",
-    "attributeType": "NullAllele",
+    "attributeType": "NullAlleleOutcome",
     "statementType": "NullAllele"
   },
   {
     "subjectId": "CondMech002",
     "attributeId": "A002",
-    "value": "MTID071",
+    "value": "MechID071",
     "attributeName": "mechanism",
-    "attributeType": "MechanismType",
+    "attributeType": "Mechanism",
     "statementType": "ConditionMechanism"
   },
   {
     "subjectId": "CondMech002",
     "attributeId": "A003",
-    "value": "CMSID134",
+    "value": "CondMechStrgID134",
     "attributeName": "mechanismConfidence",
     "attributeType": "ConditionMechanismStrength",
     "statementType": "ConditionMechanism"
@@ -77,15 +77,15 @@
     "value": "CtxAll002",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon003",
     "attributeId": "A001",
-    "value": "MCTID014",
+    "value": "MolConID014",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon003",
@@ -93,7 +93,7 @@
     "value": "LOF is predicted to occur as variant is >55bp from penultimate exon",
     "attributeName": "description",
     "attributeType": "String",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "Null397",
@@ -106,23 +106,23 @@
   {
     "subjectId": "Null397",
     "attributeId": "A078",
-    "value": "MTID071",
+    "value": "MechID071",
     "attributeName": "annotation",
-    "attributeType": "NullAllele",
+    "attributeType": "NullAlleleOutcome",
     "statementType": "NullAllele"
   },
   {
     "subjectId": "CondMech004",
     "attributeId": "A002",
-    "value": "MTID071",
+    "value": "MechID071",
     "attributeName": "mechanism",
-    "attributeType": "MechanismType",
+    "attributeType": "Mechanism",
     "statementType": "ConditionMechanism"
   },
   {
     "subjectId": "CondMech004",
     "attributeId": "A003",
-    "value": "CMSID134",
+    "value": "CondMechStrgID134",
     "attributeName": "mechanismConfidence",
     "attributeType": "ConditionMechanismStrength",
     "statementType": "ConditionMechanism"
@@ -157,15 +157,15 @@
     "value": "CtxAll003",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon005",
     "attributeId": "A001",
-    "value": "MCTID014",
+    "value": "MolConID014",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon005",
@@ -173,7 +173,7 @@
     "value": "LOF is predicted but this transcript is rare",
     "attributeName": "description",
     "attributeType": "String",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "Null398",
@@ -186,9 +186,9 @@
   {
     "subjectId": "Null398",
     "attributeId": "A078",
-    "value": "MTID071",
+    "value": "MechID071",
     "attributeName": "annotation",
-    "attributeType": "NullAllele",
+    "attributeType": "NullAlleleOutcome",
     "statementType": "NullAllele"
   },
   {
@@ -197,15 +197,15 @@
     "value": "CtxAll004",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon006",
     "attributeId": "A001",
-    "value": "MCTID002",
+    "value": "MolConID002",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "Null399",
@@ -218,23 +218,23 @@
   {
     "subjectId": "Null399",
     "attributeId": "A078",
-    "value": "NullAID224",
+    "value": "NullAllOutID224",
     "attributeName": "annotation",
-    "attributeType": "NullAllele",
+    "attributeType": "NullAlleleOutcome",
     "statementType": "NullAllele"
   },
   {
     "subjectId": "CondMech007",
     "attributeId": "A002",
-    "value": "MTID071",
+    "value": "MechID071",
     "attributeName": "mechanism",
-    "attributeType": "MechanismType",
+    "attributeType": "Mechanism",
     "statementType": "ConditionMechanism"
   },
   {
     "subjectId": "CondMech007",
     "attributeId": "A003",
-    "value": "CMSID134",
+    "value": "CondMechStrgID134",
     "attributeName": "mechanismConfidence",
     "attributeType": "ConditionMechanismStrength",
     "statementType": "ConditionMechanism"
@@ -274,7 +274,7 @@
   {
     "subjectId": "VarInterp008",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -306,7 +306,7 @@
   {
     "subjectId": "VarInterp009",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -338,7 +338,7 @@
   {
     "subjectId": "VarInterp010",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -370,7 +370,7 @@
   {
     "subjectId": "VarInterp011",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -402,7 +402,7 @@
   {
     "subjectId": "IndCond012",
     "attributeId": "A018",
-    "value": "SEPIO-CG:99009",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -426,7 +426,7 @@
   {
     "subjectId": "FamCond013",
     "attributeId": "A021",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "familyHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "FamilyCondition"
@@ -450,7 +450,7 @@
   {
     "subjectId": "IndAllInh014",
     "attributeId": "A025",
-    "value": "PCID216",
+    "value": "ParenConfID216",
     "attributeName": "parentalConfirmation",
     "attributeType": "ParentalConfirmation",
     "statementType": "IndividualAlleleInheritance"
@@ -458,9 +458,9 @@
   {
     "subjectId": "IndAllInh014",
     "attributeId": "A074",
-    "value": "AITID197",
+    "value": "AlleleInhID197",
     "attributeName": "alleleInheritance",
-    "attributeType": "AlleleInheritanceType",
+    "attributeType": "AlleleInheritance",
     "statementType": "IndividualAlleleInheritance"
   },
   {
@@ -490,7 +490,7 @@
   {
     "subjectId": "IndCond015",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -514,7 +514,7 @@
   {
     "subjectId": "FamCond016",
     "attributeId": "A021",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "familyHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "FamilyCondition"
@@ -538,7 +538,7 @@
   {
     "subjectId": "IndAllInh017",
     "attributeId": "A025",
-    "value": "PCID215",
+    "value": "ParenConfID215",
     "attributeName": "parentalConfirmation",
     "attributeType": "ParentalConfirmation",
     "statementType": "IndividualAlleleInheritance"
@@ -546,9 +546,9 @@
   {
     "subjectId": "IndAllInh017",
     "attributeId": "A074",
-    "value": "AITID197",
+    "value": "AlleleInhID197",
     "attributeName": "alleleInheritance",
-    "attributeType": "AlleleInheritanceType",
+    "attributeType": "AlleleInheritance",
     "statementType": "IndividualAlleleInheritance"
   },
   {
@@ -578,7 +578,7 @@
   {
     "subjectId": "IndCond018",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -602,7 +602,7 @@
   {
     "subjectId": "FamCond019",
     "attributeId": "A021",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "familyHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "FamilyCondition"
@@ -626,7 +626,7 @@
   {
     "subjectId": "IndAllInh020",
     "attributeId": "A025",
-    "value": "PCID216",
+    "value": "ParenConfID216",
     "attributeName": "parentalConfirmation",
     "attributeType": "ParentalConfirmation",
     "statementType": "IndividualAlleleInheritance"
@@ -634,9 +634,9 @@
   {
     "subjectId": "IndAllInh020",
     "attributeId": "A074",
-    "value": "AITID197",
+    "value": "AlleleInhID197",
     "attributeName": "alleleInheritance",
-    "attributeType": "AlleleInheritanceType",
+    "attributeType": "AlleleInheritance",
     "statementType": "IndividualAlleleInheritance"
   },
   {
@@ -658,9 +658,9 @@
   {
     "subjectId": "Func021",
     "attributeId": "A027",
-    "value": "AFITID078",
+    "value": "AFAMID078",
     "attributeName": "assayType",
-    "attributeType": "AlleleFunctionalImpactType",
+    "attributeType": "AlleleFunctionalAssayMethod",
     "statementType": "AlleleFunctionalImpact"
   },
   {
@@ -690,9 +690,9 @@
   {
     "subjectId": "Func022",
     "attributeId": "A027",
-    "value": "AFITID077",
+    "value": "AFAMID077",
     "attributeName": "assayType",
-    "attributeType": "AlleleFunctionalImpactType",
+    "attributeType": "AlleleFunctionalAssayMethod",
     "statementType": "AlleleFunctionalImpact"
   },
   {
@@ -722,9 +722,9 @@
   {
     "subjectId": "Func023",
     "attributeId": "A027",
-    "value": "AFITID082",
+    "value": "AFAMID082",
     "attributeName": "assayType",
-    "attributeType": "AlleleFunctionalImpactType",
+    "attributeType": "AlleleFunctionalAssayMethod",
     "statementType": "AlleleFunctionalImpact"
   },
   {
@@ -754,9 +754,9 @@
   {
     "subjectId": "Func024",
     "attributeId": "A027",
-    "value": "AFITID078",
+    "value": "AFAMID078",
     "attributeName": "assayType",
-    "attributeType": "AlleleFunctionalImpactType",
+    "attributeType": "AlleleFunctionalAssayMethod",
     "statementType": "AlleleFunctionalImpact"
   },
   {
@@ -786,9 +786,9 @@
   {
     "subjectId": "Func025",
     "attributeId": "A027",
-    "value": "AFITID084",
+    "value": "AFAMID084",
     "attributeName": "assayType",
-    "attributeType": "AlleleFunctionalImpactType",
+    "attributeType": "AlleleFunctionalAssayMethod",
     "statementType": "AlleleFunctionalImpact"
   },
   {
@@ -826,9 +826,9 @@
   {
     "subjectId": "Func026",
     "attributeId": "A027",
-    "value": "AFITID076",
+    "value": "AFAMID076",
     "attributeName": "assayType",
-    "attributeType": "AlleleFunctionalImpactType",
+    "attributeType": "AlleleFunctionalAssayMethod",
     "statementType": "AlleleFunctionalImpact"
   },
   {
@@ -866,9 +866,9 @@
   {
     "subjectId": "Func027",
     "attributeId": "A027",
-    "value": "AFITID076",
+    "value": "AFAMID076",
     "attributeName": "assayType",
-    "attributeType": "AlleleFunctionalImpactType",
+    "attributeType": "AlleleFunctionalAssayMethod",
     "statementType": "AlleleFunctionalImpact"
   },
   {
@@ -898,9 +898,9 @@
   {
     "subjectId": "AllFreq028",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
@@ -930,9 +930,9 @@
   {
     "subjectId": "AllFreq029",
     "attributeId": "A030",
-    "value": "AsctTID206",
+    "value": "AscrtID206",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
@@ -1034,9 +1034,9 @@
   {
     "subjectId": "AllFreq031",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
@@ -1122,9 +1122,9 @@
   {
     "subjectId": "AllFreq034",
     "attributeId": "A030",
-    "value": "AsctTID207",
+    "value": "AscrtID207",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
@@ -1178,17 +1178,17 @@
   {
     "subjectId": "AllFreq034",
     "attributeId": "A047",
-    "value": "PTID090",
+    "value": "PopID090",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
     "subjectId": "AllFreq035",
     "attributeId": "A030",
-    "value": "AsctTID208",
+    "value": "AscrtID208",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
@@ -1242,9 +1242,9 @@
   {
     "subjectId": "AllFreq035",
     "attributeId": "A047",
-    "value": "PTID090",
+    "value": "PopID090",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
@@ -1338,9 +1338,9 @@
   {
     "subjectId": "AllFreq037",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
@@ -1378,17 +1378,17 @@
   {
     "subjectId": "AllFreq037",
     "attributeId": "A047",
-    "value": "PTID092",
+    "value": "PopID092",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
     "subjectId": "AllFreq038",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
@@ -1426,9 +1426,9 @@
   {
     "subjectId": "AllFreq038",
     "attributeId": "A047",
-    "value": "PTID085",
+    "value": "PopID085",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
@@ -1458,9 +1458,9 @@
   {
     "subjectId": "CondPrev039",
     "attributeId": "A106",
-    "value": "PTID094",
+    "value": "PopID094",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "ConditionPrevelance"
   },
   {
@@ -1474,9 +1474,9 @@
   {
     "subjectId": "RegTyp040",
     "attributeId": "A057",
-    "value": "RATID033",
+    "value": "RegAnnID033",
     "attributeName": "annotation",
-    "attributeType": "RegionAnnotationType",
+    "attributeType": "RegionAnnotation",
     "statementType": "RegionType"
   },
   {
@@ -1506,7 +1506,7 @@
   {
     "subjectId": "VarInterp041",
     "attributeId": "A124",
-    "value": "SIGID032",
+    "value": "SigID032",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -1570,7 +1570,7 @@
   {
     "subjectId": "VarInterp042",
     "attributeId": "A124",
-    "value": "SIGID029",
+    "value": "SigID029",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -1610,9 +1610,9 @@
   {
     "subjectId": "RegTyp043",
     "attributeId": "A057",
-    "value": "RATID033",
+    "value": "RegAnnID033",
     "attributeName": "annotation",
-    "attributeType": "RegionAnnotationType",
+    "attributeType": "RegionAnnotation",
     "statementType": "RegionType"
   },
   {
@@ -1634,7 +1634,7 @@
   {
     "subjectId": "VarInterp044",
     "attributeId": "A124",
-    "value": "SIGID030",
+    "value": "SigID030",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -1706,7 +1706,7 @@
   {
     "subjectId": "VarInterp045",
     "attributeId": "A124",
-    "value": "SIGID028",
+    "value": "SigID028",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -1762,9 +1762,9 @@
   {
     "subjectId": "RegTyp046",
     "attributeId": "A057",
-    "value": "RATID034",
+    "value": "RegAnnID034",
     "attributeName": "annotation",
-    "attributeType": "RegionAnnotationType",
+    "attributeType": "RegionAnnotation",
     "statementType": "RegionType"
   },
   {
@@ -1794,7 +1794,7 @@
   {
     "subjectId": "VarInterp047",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -1818,7 +1818,7 @@
   {
     "subjectId": "VarInterp048",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -1842,7 +1842,7 @@
   {
     "subjectId": "VarInterp049",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -1866,7 +1866,7 @@
   {
     "subjectId": "VarInterp050",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -1874,17 +1874,17 @@
   {
     "subjectId": "AllFreq051",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
     "subjectId": "AllFreq051",
     "attributeId": "A047",
-    "value": "PTID090",
+    "value": "PopID090",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
@@ -1930,17 +1930,17 @@
   {
     "subjectId": "AllFreq052",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
     "subjectId": "AllFreq052",
     "attributeId": "A047",
-    "value": "PTID093",
+    "value": "PopID093",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
@@ -1986,17 +1986,17 @@
   {
     "subjectId": "AllFreq053",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
     "subjectId": "AllFreq053",
     "attributeId": "A047",
-    "value": "PTID089",
+    "value": "PopID089",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
@@ -2050,17 +2050,17 @@
   {
     "subjectId": "AllFreq054",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
     "subjectId": "AllFreq054",
     "attributeId": "A047",
-    "value": "PTID093",
+    "value": "PopID093",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
@@ -2122,7 +2122,7 @@
   {
     "subjectId": "VarInterp055",
     "attributeId": "A124",
-    "value": "SIGID029",
+    "value": "SigID029",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -2194,7 +2194,7 @@
   {
     "subjectId": "IndCond056",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -2234,7 +2234,7 @@
   {
     "subjectId": "VarInterp057",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -2282,7 +2282,7 @@
   {
     "subjectId": "IndAll058",
     "attributeId": "A068",
-    "value": "ASID041",
+    "value": "AllStateID041",
     "attributeName": "primaryZygosity",
     "attributeType": "AllelicState",
     "statementType": "IndividualAllele"
@@ -2290,7 +2290,7 @@
   {
     "subjectId": "IndAll058",
     "attributeId": "A069",
-    "value": "ASID041",
+    "value": "AllStateID041",
     "attributeName": "secondaryZygosity",
     "attributeType": "AllelicState",
     "statementType": "IndividualAllele"
@@ -2298,7 +2298,7 @@
   {
     "subjectId": "IndAll058",
     "attributeId": "A070",
-    "value": "PHZID037",
+    "value": "PhaseID037",
     "attributeName": "phase",
     "attributeType": "Phase",
     "statementType": "IndividualAllele"
@@ -2346,7 +2346,7 @@
   {
     "subjectId": "VarInterp059",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -2370,7 +2370,7 @@
   {
     "subjectId": "VarInterp060",
     "attributeId": "A124",
-    "value": "SIGID028",
+    "value": "SigID028",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -2410,7 +2410,7 @@
   {
     "subjectId": "IndCond061",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -2442,7 +2442,7 @@
   {
     "subjectId": "IndAll062",
     "attributeId": "A068",
-    "value": "ASID041",
+    "value": "AllStateID041",
     "attributeName": "primaryZygosity",
     "attributeType": "AllelicState",
     "statementType": "IndividualAllele"
@@ -2450,7 +2450,7 @@
   {
     "subjectId": "IndAll062",
     "attributeId": "A069",
-    "value": "ASID041",
+    "value": "AllStateID041",
     "attributeName": "secondaryZygosity",
     "attributeType": "AllelicState",
     "statementType": "IndividualAllele"
@@ -2458,7 +2458,7 @@
   {
     "subjectId": "IndAll062",
     "attributeId": "A070",
-    "value": "PHZID037",
+    "value": "PhaseID037",
     "attributeName": "phase",
     "attributeType": "Phase",
     "statementType": "IndividualAllele"
@@ -2490,7 +2490,7 @@
   {
     "subjectId": "VarInterp063",
     "attributeId": "A124",
-    "value": "SIGID028",
+    "value": "SigID028",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -2562,7 +2562,7 @@
   {
     "subjectId": "IndCond064",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -2586,7 +2586,7 @@
   {
     "subjectId": "IndAll065",
     "attributeId": "A068",
-    "value": "ASID043",
+    "value": "AllStateID043",
     "attributeName": "primaryZygosity",
     "attributeType": "AllelicState",
     "statementType": "IndividualAllele"
@@ -2597,15 +2597,15 @@
     "value": "CtxAll044",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon066",
     "attributeId": "A001",
-    "value": "MCTID019",
+    "value": "MolConID019",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon066",
@@ -2613,7 +2613,7 @@
     "value": "Contrib486",
     "attributeName": "contribution",
     "attributeType": "Contribution",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon066",
@@ -2621,7 +2621,7 @@
     "value": "https://geneinsight-lmm-test.partners.org",
     "attributeName": "source",
     "attributeType": "String",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "Func067",
@@ -2634,9 +2634,9 @@
   {
     "subjectId": "Func067",
     "attributeId": "A027",
-    "value": "AFITID076",
+    "value": "AFAMID076",
     "attributeName": "assayType",
-    "attributeType": "AlleleFunctionalImpactType",
+    "attributeType": "AlleleFunctionalAssayMethod",
     "statementType": "AlleleFunctionalImpact"
   },
   {
@@ -2672,44 +2672,44 @@
     "statementType": "AlleleFunctionalImpact"
   },
   {
-    "subjectId": "InSilicoPred068",
+    "subjectId": "CatInSilicoPred068",
     "attributeId": "A034",
     "value": "RefSeq297",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred068",
+    "subjectId": "CatInSilicoPred068",
     "attributeId": "A096",
     "value": "CanAll118",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred068",
+    "subjectId": "CatInSilicoPred068",
     "attributeId": "A097",
-    "value": "PredTID073",
+    "value": "PredID073",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred068",
+    "subjectId": "CatInSilicoPred068",
     "attributeId": "A099",
     "value": "no impact",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred068",
+    "subjectId": "CatInSilicoPred068",
     "attributeId": "A120",
     "value": "Provenance would show that this comes from Alamut",
     "attributeName": "description",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
     "subjectId": "ExclRegTyp069",
@@ -2722,9 +2722,9 @@
   {
     "subjectId": "ExclRegTyp069",
     "attributeId": "A056",
-    "value": "RATID035",
+    "value": "RegAnnID035",
     "attributeName": "annotation",
-    "attributeType": "RegionAnnotationType",
+    "attributeType": "RegionAnnotation",
     "statementType": "ExcludedRegionType"
   },
   {
@@ -2757,15 +2757,15 @@
     "value": "CtxAll046",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon070",
     "attributeId": "A001",
-    "value": "MCTID019",
+    "value": "MolConID019",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "Conserv071",
@@ -2842,9 +2842,9 @@
   {
     "subjectId": "ExclRegTyp073",
     "attributeId": "A056",
-    "value": "RATID035",
+    "value": "RegAnnID035",
     "attributeName": "annotation",
-    "attributeType": "RegionAnnotationType",
+    "attributeType": "RegionAnnotation",
     "statementType": "ExcludedRegionType"
   },
   {
@@ -2861,23 +2861,23 @@
     "value": "CtxAll048",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon074",
     "attributeId": "A001",
-    "value": "MCTID017",
+    "value": "MolConID017",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon075",
     "attributeId": "A001",
-    "value": "MCTID016",
+    "value": "MolConID016",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon075",
@@ -2885,7 +2885,7 @@
     "value": "CtxAll124",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "FamSeg076",
@@ -2938,7 +2938,7 @@
   {
     "subjectId": "FamSeg076",
     "attributeId": "A110",
-    "value": "ISegObsID220",
+    "value": "InconSegObsID220",
     "attributeName": "inconsistentSegregationsObserved",
     "attributeType": "InconsistentSegregationObserved",
     "statementType": "FamilySegregation"
@@ -2954,9 +2954,9 @@
   {
     "subjectId": "RegTyp077",
     "attributeId": "A057",
-    "value": "RATID035",
+    "value": "RegAnnID035",
     "attributeName": "annotation",
-    "attributeType": "RegionAnnotationType",
+    "attributeType": "RegionAnnotation",
     "statementType": "RegionType"
   },
   {
@@ -2986,7 +2986,7 @@
   {
     "subjectId": "VarInterp078",
     "attributeId": "A124",
-    "value": "SIGID028",
+    "value": "SigID028",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -3026,7 +3026,7 @@
   {
     "subjectId": "VarInterp079",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -3066,7 +3066,7 @@
   {
     "subjectId": "VarInterp080",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -3090,7 +3090,7 @@
   {
     "subjectId": "VarInterp081",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -3098,17 +3098,17 @@
   {
     "subjectId": "AllFreq082",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
     "subjectId": "AllFreq082",
     "attributeId": "A047",
-    "value": "PTID093",
+    "value": "PopID093",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
@@ -3185,7 +3185,7 @@
   {
     "subjectId": "IndCond083",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -3209,7 +3209,7 @@
   {
     "subjectId": "IndCond084",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -3233,7 +3233,7 @@
   {
     "subjectId": "FamCond085",
     "attributeId": "A021",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "familyHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "FamilyCondition"
@@ -3257,7 +3257,7 @@
   {
     "subjectId": "FamCond086",
     "attributeId": "A021",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "familyHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "FamilyCondition"
@@ -3281,7 +3281,7 @@
   {
     "subjectId": "IndAllInh087",
     "attributeId": "A025",
-    "value": "PCID217",
+    "value": "ParenConfID217",
     "attributeName": "parentalConfirmation",
     "attributeType": "ParentalConfirmation",
     "statementType": "IndividualAlleleInheritance"
@@ -3289,9 +3289,9 @@
   {
     "subjectId": "IndAllInh087",
     "attributeId": "A074",
-    "value": "AITID197",
+    "value": "AlleleInhID197",
     "attributeName": "alleleInheritance",
-    "attributeType": "AlleleInheritanceType",
+    "attributeType": "AlleleInheritance",
     "statementType": "IndividualAlleleInheritance"
   },
   {
@@ -3321,7 +3321,7 @@
   {
     "subjectId": "IndAllInh088",
     "attributeId": "A025",
-    "value": "PCID217",
+    "value": "ParenConfID217",
     "attributeName": "parentalConfirmation",
     "attributeType": "ParentalConfirmation",
     "statementType": "IndividualAlleleInheritance"
@@ -3329,9 +3329,9 @@
   {
     "subjectId": "IndAllInh088",
     "attributeId": "A074",
-    "value": "AITID197",
+    "value": "AlleleInhID197",
     "attributeName": "alleleInheritance",
-    "attributeType": "AlleleInheritanceType",
+    "attributeType": "AlleleInheritance",
     "statementType": "IndividualAlleleInheritance"
   },
   {
@@ -3361,7 +3361,7 @@
   {
     "subjectId": "IndCond089",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -3385,7 +3385,7 @@
   {
     "subjectId": "FamCond090",
     "attributeId": "A021",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "familyHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "FamilyCondition"
@@ -3409,7 +3409,7 @@
   {
     "subjectId": "IndAllInh091",
     "attributeId": "A025",
-    "value": "PCID217",
+    "value": "ParenConfID217",
     "attributeName": "parentalConfirmation",
     "attributeType": "ParentalConfirmation",
     "statementType": "IndividualAlleleInheritance"
@@ -3417,9 +3417,9 @@
   {
     "subjectId": "IndAllInh091",
     "attributeId": "A074",
-    "value": "AITID197",
+    "value": "AlleleInhID197",
     "attributeName": "alleleInheritance",
-    "attributeType": "AlleleInheritanceType",
+    "attributeType": "AlleleInheritance",
     "statementType": "IndividualAlleleInheritance"
   },
   {
@@ -3449,7 +3449,7 @@
   {
     "subjectId": "IndCond092",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -3473,7 +3473,7 @@
   {
     "subjectId": "FamCond093",
     "attributeId": "A021",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "familyHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "FamilyCondition"
@@ -3497,7 +3497,7 @@
   {
     "subjectId": "IndAllInh094",
     "attributeId": "A025",
-    "value": "PCID217",
+    "value": "ParenConfID217",
     "attributeName": "parentalConfirmation",
     "attributeType": "ParentalConfirmation",
     "statementType": "IndividualAlleleInheritance"
@@ -3505,9 +3505,9 @@
   {
     "subjectId": "IndAllInh094",
     "attributeId": "A074",
-    "value": "AITID197",
+    "value": "AlleleInhID197",
     "attributeName": "alleleInheritance",
-    "attributeType": "AlleleInheritanceType",
+    "attributeType": "AlleleInheritance",
     "statementType": "IndividualAlleleInheritance"
   },
   {
@@ -3529,7 +3529,7 @@
   {
     "subjectId": "IndCond095",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -3553,7 +3553,7 @@
   {
     "subjectId": "FamCond096",
     "attributeId": "A021",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "familyHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "FamilyCondition"
@@ -3577,7 +3577,7 @@
   {
     "subjectId": "IndAllInh097",
     "attributeId": "A025",
-    "value": "PCID217",
+    "value": "ParenConfID217",
     "attributeName": "parentalConfirmation",
     "attributeType": "ParentalConfirmation",
     "statementType": "IndividualAlleleInheritance"
@@ -3585,9 +3585,9 @@
   {
     "subjectId": "IndAllInh097",
     "attributeId": "A074",
-    "value": "AITID197",
+    "value": "AlleleInhID197",
     "attributeName": "alleleInheritance",
-    "attributeType": "AlleleInheritanceType",
+    "attributeType": "AlleleInheritance",
     "statementType": "IndividualAlleleInheritance"
   },
   {
@@ -3609,7 +3609,7 @@
   {
     "subjectId": "IndCond098",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -3633,7 +3633,7 @@
   {
     "subjectId": "FamCond099",
     "attributeId": "A021",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "familyHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "FamilyCondition"
@@ -3657,7 +3657,7 @@
   {
     "subjectId": "IndAllInh100",
     "attributeId": "A025",
-    "value": "PCID217",
+    "value": "ParenConfID217",
     "attributeName": "parentalConfirmation",
     "attributeType": "ParentalConfirmation",
     "statementType": "IndividualAlleleInheritance"
@@ -3665,25 +3665,25 @@
   {
     "subjectId": "IndAllInh100",
     "attributeId": "A074",
-    "value": "AITID197",
+    "value": "AlleleInhID197",
     "attributeName": "alleleInheritance",
-    "attributeType": "AlleleInheritanceType",
+    "attributeType": "AlleleInheritance",
     "statementType": "IndividualAlleleInheritance"
   },
   {
     "subjectId": "AllFreq101",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
     "subjectId": "AllFreq101",
     "attributeId": "A047",
-    "value": "PTID093",
+    "value": "PopID093",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
@@ -3729,9 +3729,9 @@
   {
     "subjectId": "BMVR102",
     "attributeId": "A080",
-    "value": "BMVRID129",
+    "value": "BMVROID129",
     "attributeName": "value",
-    "attributeType": "BenignMissenseVariationRate",
+    "attributeType": "BenignMissenseVariationRateOutcome",
     "statementType": "BenignMissenseVariationRate"
   },
   {
@@ -3921,7 +3921,7 @@
   {
     "subjectId": "IndAllInh106",
     "attributeId": "A025",
-    "value": "PCID217",
+    "value": "ParenConfID217",
     "attributeName": "parentalConfirmation",
     "attributeType": "ParentalConfirmation",
     "statementType": "IndividualAlleleInheritance"
@@ -3929,9 +3929,9 @@
   {
     "subjectId": "IndAllInh106",
     "attributeId": "A074",
-    "value": "AITID197",
+    "value": "AlleleInhID197",
     "attributeName": "alleleInheritance",
-    "attributeType": "AlleleInheritanceType",
+    "attributeType": "AlleleInheritance",
     "statementType": "IndividualAlleleInheritance"
   },
   {
@@ -4065,7 +4065,7 @@
   {
     "subjectId": "IndCond110",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -4121,7 +4121,7 @@
   {
     "subjectId": "FamCond112",
     "attributeId": "A021",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "familyHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "FamilyCondition"
@@ -4316,15 +4316,15 @@
     "value": "CtxAll070",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon117",
     "attributeId": "A001",
-    "value": "MCTID011",
+    "value": "MolConID011",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "Null404",
@@ -4337,23 +4337,23 @@
   {
     "subjectId": "Null404",
     "attributeId": "A078",
-    "value": "NullAID224",
+    "value": "NullAllOutID224",
     "attributeName": "annotation",
-    "attributeType": "NullAllele",
+    "attributeType": "NullAlleleOutcome",
     "statementType": "NullAllele"
   },
   {
     "subjectId": "CondMech118",
     "attributeId": "A002",
-    "value": "MCTID011",
+    "value": "MolConID011",
     "attributeName": "mechanism",
-    "attributeType": "MechanismType",
+    "attributeType": "Mechanism",
     "statementType": "ConditionMechanism"
   },
   {
     "subjectId": "CondMech118",
     "attributeId": "A003",
-    "value": "CMSID133",
+    "value": "CondMechStrgID133",
     "attributeName": "mechanismConfidence",
     "attributeType": "ConditionMechanismStrength",
     "statementType": "ConditionMechanism"
@@ -4385,9 +4385,9 @@
   {
     "subjectId": "BMVR119",
     "attributeId": "A080",
-    "value": "BMVRID129",
+    "value": "BMVROID129",
     "attributeName": "value",
-    "attributeType": "BenignMissenseVariationRate",
+    "attributeType": "BenignMissenseVariationRateOutcome",
     "statementType": "BenignMissenseVariationRate"
   },
   {
@@ -4399,1124 +4399,1124 @@
     "statementType": "BenignMissenseVariationRate"
   },
   {
-    "subjectId": "InSilicoPred120",
+    "subjectId": "CatInSilicoPred120",
     "attributeId": "A034",
     "value": "RefSeq287",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred120",
+    "subjectId": "CatInSilicoPred120",
     "attributeId": "A096",
     "value": "CanAll067",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred120",
+    "subjectId": "CatInSilicoPred120",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred120",
+    "subjectId": "CatInSilicoPred120",
     "attributeId": "A098",
     "value": "SIFT",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred120",
+    "subjectId": "CatInSilicoPred120",
     "attributeId": "A099",
     "value": "Damaging",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred121",
+    "subjectId": "CatInSilicoPred121",
     "attributeId": "A034",
     "value": "RefSeq287",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred121",
+    "subjectId": "CatInSilicoPred121",
     "attributeId": "A096",
     "value": "CanAll067",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred121",
+    "subjectId": "CatInSilicoPred121",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred121",
+    "subjectId": "CatInSilicoPred121",
     "attributeId": "A098",
     "value": "Polyphen",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred121",
+    "subjectId": "CatInSilicoPred121",
     "attributeId": "A099",
     "value": "Probably damaging",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred122",
+    "subjectId": "CatInSilicoPred122",
     "attributeId": "A034",
     "value": "RefSeq287",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred122",
+    "subjectId": "CatInSilicoPred122",
     "attributeId": "A096",
     "value": "CanAll067",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred122",
+    "subjectId": "CatInSilicoPred122",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred122",
+    "subjectId": "CatInSilicoPred122",
     "attributeId": "A098",
     "value": "FATHMM",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred122",
+    "subjectId": "CatInSilicoPred122",
     "attributeId": "A099",
     "value": "Tolerated",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred123",
+    "subjectId": "CatInSilicoPred123",
     "attributeId": "A034",
     "value": "RefSeq287",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred123",
+    "subjectId": "CatInSilicoPred123",
     "attributeId": "A096",
     "value": "CanAll067",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred123",
+    "subjectId": "CatInSilicoPred123",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred123",
+    "subjectId": "CatInSilicoPred123",
     "attributeId": "A098",
     "value": "LRT",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred123",
+    "subjectId": "CatInSilicoPred123",
     "attributeId": "A099",
     "value": "Damaging",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred124",
+    "subjectId": "CatInSilicoPred124",
     "attributeId": "A034",
     "value": "RefSeq287",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred124",
+    "subjectId": "CatInSilicoPred124",
     "attributeId": "A096",
     "value": "CanAll067",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred124",
+    "subjectId": "CatInSilicoPred124",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred124",
+    "subjectId": "CatInSilicoPred124",
     "attributeId": "A098",
     "value": "MetaSVM",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred124",
+    "subjectId": "CatInSilicoPred124",
     "attributeId": "A099",
     "value": "Tolerated",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred125",
+    "subjectId": "CatInSilicoPred125",
     "attributeId": "A034",
     "value": "RefSeq287",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred125",
+    "subjectId": "CatInSilicoPred125",
     "attributeId": "A096",
     "value": "CanAll067",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred125",
+    "subjectId": "CatInSilicoPred125",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred125",
+    "subjectId": "CatInSilicoPred125",
     "attributeId": "A098",
     "value": "Mutation assessor",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred125",
+    "subjectId": "CatInSilicoPred125",
     "attributeId": "A099",
     "value": "Tolerated",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred126",
+    "subjectId": "CatInSilicoPred126",
     "attributeId": "A034",
     "value": "RefSeq287",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred126",
+    "subjectId": "CatInSilicoPred126",
     "attributeId": "A096",
     "value": "CanAll067",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred126",
+    "subjectId": "CatInSilicoPred126",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred126",
+    "subjectId": "CatInSilicoPred126",
     "attributeId": "A098",
     "value": "Mutation taster",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred126",
+    "subjectId": "CatInSilicoPred126",
     "attributeId": "A099",
     "value": "Disease-causing",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred127",
+    "subjectId": "CatInSilicoPred127",
     "attributeId": "A034",
     "value": "RefSeq287",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred127",
+    "subjectId": "CatInSilicoPred127",
     "attributeId": "A096",
     "value": "CanAll067",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred127",
+    "subjectId": "CatInSilicoPred127",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred127",
+    "subjectId": "CatInSilicoPred127",
     "attributeId": "A098",
     "value": "Provean",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred127",
+    "subjectId": "CatInSilicoPred127",
     "attributeId": "A099",
     "value": "Damaging",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred128",
+    "subjectId": "CatInSilicoPred128",
     "attributeId": "A034",
     "value": "RefSeq287",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred128",
+    "subjectId": "CatInSilicoPred128",
     "attributeId": "A096",
     "value": "CanAll067",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred128",
+    "subjectId": "CatInSilicoPred128",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred128",
+    "subjectId": "CatInSilicoPred128",
     "attributeId": "A098",
     "value": "Condel",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred128",
+    "subjectId": "CatInSilicoPred128",
     "attributeId": "A099",
     "value": "deleterious",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred129",
+    "subjectId": "CatInSilicoPred129",
     "attributeId": "A034",
     "value": "RefSeq298",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred129",
+    "subjectId": "CatInSilicoPred129",
     "attributeId": "A096",
     "value": "CanAll068",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred129",
+    "subjectId": "CatInSilicoPred129",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred129",
+    "subjectId": "CatInSilicoPred129",
     "attributeId": "A098",
     "value": "SIFT",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred129",
+    "subjectId": "CatInSilicoPred129",
     "attributeId": "A099",
     "value": "deleterious",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred130",
+    "subjectId": "CatInSilicoPred130",
     "attributeId": "A034",
     "value": "RefSeq298",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred130",
+    "subjectId": "CatInSilicoPred130",
     "attributeId": "A096",
     "value": "CanAll068",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred130",
+    "subjectId": "CatInSilicoPred130",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred130",
+    "subjectId": "CatInSilicoPred130",
     "attributeId": "A098",
     "value": "Polyphen",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred130",
+    "subjectId": "CatInSilicoPred130",
     "attributeId": "A099",
     "value": "Probably damaging",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred131",
+    "subjectId": "CatInSilicoPred131",
     "attributeId": "A034",
     "value": "RefSeq298",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred131",
+    "subjectId": "CatInSilicoPred131",
     "attributeId": "A096",
     "value": "CanAll068",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred131",
+    "subjectId": "CatInSilicoPred131",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred131",
+    "subjectId": "CatInSilicoPred131",
     "attributeId": "A098",
     "value": "FATHMM",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred131",
+    "subjectId": "CatInSilicoPred131",
     "attributeId": "A099",
     "value": "Damaging",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred132",
+    "subjectId": "CatInSilicoPred132",
     "attributeId": "A034",
     "value": "RefSeq298",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred132",
+    "subjectId": "CatInSilicoPred132",
     "attributeId": "A096",
     "value": "CanAll068",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred132",
+    "subjectId": "CatInSilicoPred132",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred132",
+    "subjectId": "CatInSilicoPred132",
     "attributeId": "A098",
     "value": "LRT",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred132",
+    "subjectId": "CatInSilicoPred132",
     "attributeId": "A099",
     "value": "Damaging",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred133",
+    "subjectId": "CatInSilicoPred133",
     "attributeId": "A034",
     "value": "RefSeq298",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred133",
+    "subjectId": "CatInSilicoPred133",
     "attributeId": "A096",
     "value": "CanAll068",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred133",
+    "subjectId": "CatInSilicoPred133",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred133",
+    "subjectId": "CatInSilicoPred133",
     "attributeId": "A098",
     "value": "MetaSVM",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred133",
+    "subjectId": "CatInSilicoPred133",
     "attributeId": "A099",
     "value": "Tolerated",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred134",
+    "subjectId": "CatInSilicoPred134",
     "attributeId": "A034",
     "value": "RefSeq298",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred134",
+    "subjectId": "CatInSilicoPred134",
     "attributeId": "A096",
     "value": "CanAll068",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred134",
+    "subjectId": "CatInSilicoPred134",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred134",
+    "subjectId": "CatInSilicoPred134",
     "attributeId": "A098",
     "value": "Mutation assessor",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred134",
+    "subjectId": "CatInSilicoPred134",
     "attributeId": "A099",
     "value": "Medium functional impact",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred135",
+    "subjectId": "CatInSilicoPred135",
     "attributeId": "A034",
     "value": "RefSeq298",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred135",
+    "subjectId": "CatInSilicoPred135",
     "attributeId": "A096",
     "value": "CanAll068",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred135",
+    "subjectId": "CatInSilicoPred135",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred135",
+    "subjectId": "CatInSilicoPred135",
     "attributeId": "A098",
     "value": "Mutation taster",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred135",
+    "subjectId": "CatInSilicoPred135",
     "attributeId": "A099",
     "value": "Disease-causing",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred136",
+    "subjectId": "CatInSilicoPred136",
     "attributeId": "A034",
     "value": "RefSeq298",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred136",
+    "subjectId": "CatInSilicoPred136",
     "attributeId": "A096",
     "value": "CanAll068",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred136",
+    "subjectId": "CatInSilicoPred136",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred136",
+    "subjectId": "CatInSilicoPred136",
     "attributeId": "A098",
     "value": "Provean",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred136",
+    "subjectId": "CatInSilicoPred136",
     "attributeId": "A099",
     "value": "Damaging",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred137",
+    "subjectId": "CatInSilicoPred137",
     "attributeId": "A034",
     "value": "RefSeq298",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred137",
+    "subjectId": "CatInSilicoPred137",
     "attributeId": "A096",
     "value": "CanAll068",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred137",
+    "subjectId": "CatInSilicoPred137",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred137",
+    "subjectId": "CatInSilicoPred137",
     "attributeId": "A098",
     "value": "Condel",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred137",
+    "subjectId": "CatInSilicoPred137",
     "attributeId": "A099",
     "value": "deleterious",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred138",
+    "subjectId": "CatInSilicoPred138",
     "attributeId": "A034",
     "value": "RefSeq299",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred138",
+    "subjectId": "CatInSilicoPred138",
     "attributeId": "A096",
     "value": "CanAll069",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred138",
+    "subjectId": "CatInSilicoPred138",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred138",
+    "subjectId": "CatInSilicoPred138",
     "attributeId": "A098",
     "value": "SIFT",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred138",
+    "subjectId": "CatInSilicoPred138",
     "attributeId": "A099",
     "value": "Tolerated",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred139",
+    "subjectId": "CatInSilicoPred139",
     "attributeId": "A034",
     "value": "RefSeq299",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred139",
+    "subjectId": "CatInSilicoPred139",
     "attributeId": "A096",
     "value": "CanAll069",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred139",
+    "subjectId": "CatInSilicoPred139",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred139",
+    "subjectId": "CatInSilicoPred139",
     "attributeId": "A098",
     "value": "Polyphen2",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred139",
+    "subjectId": "CatInSilicoPred139",
     "attributeId": "A099",
     "value": "benign",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred140",
+    "subjectId": "CatInSilicoPred140",
     "attributeId": "A034",
     "value": "RefSeq299",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred140",
+    "subjectId": "CatInSilicoPred140",
     "attributeId": "A096",
     "value": "CanAll069",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred140",
+    "subjectId": "CatInSilicoPred140",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred140",
+    "subjectId": "CatInSilicoPred140",
     "attributeId": "A098",
     "value": "AlignGVGD",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred140",
+    "subjectId": "CatInSilicoPred140",
     "attributeId": "A099",
     "value": "C0 (benign)",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred141",
+    "subjectId": "CatInSilicoPred141",
     "attributeId": "A034",
     "value": "RefSeq299",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred141",
+    "subjectId": "CatInSilicoPred141",
     "attributeId": "A096",
     "value": "CanAll069",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred141",
+    "subjectId": "CatInSilicoPred141",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred141",
+    "subjectId": "CatInSilicoPred141",
     "attributeId": "A098",
     "value": "MAPP",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred141",
+    "subjectId": "CatInSilicoPred141",
     "attributeId": "A099",
     "value": "good (benign)",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred142",
+    "subjectId": "CatInSilicoPred142",
     "attributeId": "A034",
     "value": "RefSeq299",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred142",
+    "subjectId": "CatInSilicoPred142",
     "attributeId": "A096",
     "value": "CanAll069",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred142",
+    "subjectId": "CatInSilicoPred142",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred142",
+    "subjectId": "CatInSilicoPred142",
     "attributeId": "A098",
     "value": "MutationTaster",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred142",
+    "subjectId": "CatInSilicoPred142",
     "attributeId": "A099",
     "value": "disease-causing",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred143",
-    "attributeId": "A034",
+    "subjectId": "QntInSilicoPred143",
+    "attributeId": "A182",
     "value": "RefSeq299",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred143",
-    "attributeId": "A096",
+    "subjectId": "QntInSilicoPred143",
+    "attributeId": "A181",
     "value": "CanAll069",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred143",
-    "attributeId": "A097",
-    "value": "PredTID073",
+    "subjectId": "QntInSilicoPred143",
+    "attributeId": "A183",
+    "value": "PredID073",
     "attributeName": "predictionType",
     "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred143",
-    "attributeId": "A098",
+    "subjectId": "QntInSilicoPred143",
+    "attributeId": "A184",
     "value": "SSF",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred143",
-    "attributeId": "A099",
+    "subjectId": "QntInSilicoPred143",
+    "attributeId": "A095",
     "value": 71.53,
-    "attributeName": "categoricalPrediction",
-    "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "attributeName": "prediction",
+    "attributeType": "float",
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred144",
-    "attributeId": "A034",
+    "subjectId": "QntInSilicoPred144",
+    "attributeId": "A182",
     "value": "RefSeq299",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred144",
-    "attributeId": "A096",
+    "subjectId": "QntInSilicoPred144",
+    "attributeId": "A181",
     "value": "CanAll069",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred144",
-    "attributeId": "A097",
-    "value": "PredTID073",
+    "subjectId": "QntInSilicoPred144",
+    "attributeId": "A183",
+    "value": "PredID073",
     "attributeName": "predictionType",
     "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred144",
-    "attributeId": "A098",
+    "subjectId": "QntInSilicoPred144",
+    "attributeId": "A184",
     "value": "MaxEnt",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred144",
-    "attributeId": "A099",
+    "subjectId": "QntInSilicoPred144",
+    "attributeId": "A095",
     "value": 7.39,
-    "attributeName": "categoricalPrediction",
-    "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "attributeName": "prediction",
+    "attributeType": "float",
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred145",
-    "attributeId": "A034",
+    "subjectId": "QntInSilicoPred145",
+    "attributeId": "A182",
     "value": "RefSeq299",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred145",
-    "attributeId": "A096",
+    "subjectId": "QntInSilicoPred145",
+    "attributeId": "A181",
     "value": "CanAll069",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred145",
-    "attributeId": "A097",
-    "value": "PredTID073",
+    "subjectId": "QntInSilicoPred145",
+    "attributeId": "A183",
+    "value": "PredID073",
     "attributeName": "predictionType",
     "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred145",
-    "attributeId": "A098",
+    "subjectId": "QntInSilicoPred145",
+    "attributeId": "A184",
     "value": "NNSPLICE",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred145",
-    "attributeId": "A099",
+    "subjectId": "QntInSilicoPred145",
+    "attributeId": "A095",
     "value": 0.87,
-    "attributeName": "categoricalPrediction",
-    "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "attributeName": "prediction",
+    "attributeType": "float",
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred146",
-    "attributeId": "A034",
+    "subjectId": "QntInSilicoPred146",
+    "attributeId": "A182",
     "value": "RefSeq299",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred146",
-    "attributeId": "A096",
+    "subjectId": "QntInSilicoPred146",
+    "attributeId": "A181",
     "value": "CanAll069",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred146",
-    "attributeId": "A097",
-    "value": "PredTID073",
+    "subjectId": "QntInSilicoPred146",
+    "attributeId": "A183",
+    "value": "PredID073",
     "attributeName": "predictionType",
     "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred146",
-    "attributeId": "A098",
+    "subjectId": "QntInSilicoPred146",
+    "attributeId": "A184",
     "value": "GeneSplicer",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred146",
-    "attributeId": "A099",
+    "subjectId": "QntInSilicoPred146",
+    "attributeId": "A095",
     "value": 7.75,
-    "attributeName": "categoricalPrediction",
-    "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "attributeName": "prediction",
+    "attributeType": "float",
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred147",
-    "attributeId": "A034",
+    "subjectId": "QntInSilicoPred147",
+    "attributeId": "A182",
     "value": "RefSeq299",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred147",
-    "attributeId": "A096",
+    "subjectId": "QntInSilicoPred147",
+    "attributeId": "A181",
     "value": "CanAll069",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred147",
-    "attributeId": "A097",
-    "value": "PredTID073",
+    "subjectId": "QntInSilicoPred147",
+    "attributeId": "A183",
+    "value": "PredID073",
     "attributeName": "predictionType",
     "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred147",
-    "attributeId": "A098",
+    "subjectId": "QntInSilicoPred147",
+    "attributeId": "A184",
     "value": "HSF",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred147",
-    "attributeId": "A099",
+    "subjectId": "QntInSilicoPred147",
+    "attributeId": "A095",
     "value": 81.75,
-    "attributeName": "categoricalPrediction",
-    "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "attributeName": "prediction",
+    "attributeType": "float",
+    "statementType": "QuantitativeInSilicoPrediction"
   },
   {
     "subjectId": "LocHet148",
@@ -5537,9 +5537,9 @@
   {
     "subjectId": "LocHet148",
     "attributeId": "A102",
-    "value": "LSTID211",
+    "value": "LocSpecID211",
     "attributeName": "specificity",
-    "attributeType": "LocusSpecificityType",
+    "attributeType": "LocusSpecificity",
     "statementType": "LocusHeterogeneity"
   },
   {
@@ -5569,9 +5569,9 @@
   {
     "subjectId": "LocHet149",
     "attributeId": "A102",
-    "value": "LSTID209",
+    "value": "LocSpecID209",
     "attributeName": "specificity",
-    "attributeType": "LocusSpecificityType",
+    "attributeType": "LocusSpecificity",
     "statementType": "LocusHeterogeneity"
   },
   {
@@ -5601,7 +5601,7 @@
   {
     "subjectId": "VarInterp150",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -5633,7 +5633,7 @@
   {
     "subjectId": "VarInterp151",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -5665,7 +5665,7 @@
   {
     "subjectId": "VarInterp152",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -5681,17 +5681,17 @@
   {
     "subjectId": "AllFreq153",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
     "subjectId": "AllFreq153",
     "attributeId": "A047",
-    "value": "PTID093",
+    "value": "PopID093",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
@@ -5737,17 +5737,17 @@
   {
     "subjectId": "AllFreq154",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
     "subjectId": "AllFreq154",
     "attributeId": "A047",
-    "value": "PTID093",
+    "value": "PopID093",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
@@ -5793,17 +5793,17 @@
   {
     "subjectId": "AllFreq155",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
     "subjectId": "AllFreq155",
     "attributeId": "A047",
-    "value": "PTID088",
+    "value": "PopID088",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
@@ -5865,7 +5865,7 @@
   {
     "subjectId": "CritAssess156",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -5897,17 +5897,17 @@
   {
     "subjectId": "AllFreq157",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
     "subjectId": "AllFreq157",
     "attributeId": "A047",
-    "value": "PTID093",
+    "value": "PopID093",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
@@ -5953,17 +5953,17 @@
   {
     "subjectId": "AllFreq158",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
     "subjectId": "AllFreq158",
     "attributeId": "A047",
-    "value": "PTID093",
+    "value": "PopID093",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
@@ -6033,9 +6033,9 @@
   {
     "subjectId": "CondPrev159",
     "attributeId": "A106",
-    "value": "PTID094",
+    "value": "PopID094",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "ConditionPrevelance"
   },
   {
@@ -6049,9 +6049,9 @@
   {
     "subjectId": "CondPenet160",
     "attributeId": "A108",
-    "value": "PenTID131",
+    "value": "PenetID131",
     "attributeName": "penetrance",
-    "attributeType": "PenetranceType",
+    "attributeType": "Penetrance",
     "statementType": "ConditionPenetrance"
   },
   {
@@ -6065,9 +6065,9 @@
   {
     "subjectId": "BMVR161",
     "attributeId": "A080",
-    "value": "BMVRID128",
+    "value": "BMVROID128",
     "attributeName": "value",
-    "attributeType": "BenignMissenseVariationRate",
+    "attributeType": "BenignMissenseVariationRateOutcome",
     "statementType": "BenignMissenseVariationRate"
   },
   {
@@ -6081,17 +6081,17 @@
   {
     "subjectId": "AllFreq162",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
     "subjectId": "AllFreq162",
     "attributeId": "A047",
-    "value": "PTID093",
+    "value": "PopID093",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
@@ -6161,9 +6161,9 @@
   {
     "subjectId": "CondPrev163",
     "attributeId": "A106",
-    "value": "PTID094",
+    "value": "PopID094",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "ConditionPrevelance"
   },
   {
@@ -6177,23 +6177,23 @@
   {
     "subjectId": "CondPenet164",
     "attributeId": "A108",
-    "value": "PenTID131",
+    "value": "PenetID131",
     "attributeName": "penetrance",
-    "attributeType": "PenetranceType",
+    "attributeType": "Penetrance",
     "statementType": "ConditionPenetrance"
   },
   {
     "subjectId": "CondMech165",
     "attributeId": "A002",
-    "value": "MCTID011",
+    "value": "MolConID011",
     "attributeName": "mechanism",
-    "attributeType": "MechanismType",
+    "attributeType": "Mechanism",
     "statementType": "ConditionMechanism"
   },
   {
     "subjectId": "CondMech165",
     "attributeId": "A003",
-    "value": "CMSID133",
+    "value": "CondMechStrgID133",
     "attributeName": "mechanismConfidence",
     "attributeType": "ConditionMechanismStrength",
     "statementType": "ConditionMechanism"
@@ -6225,17 +6225,17 @@
   {
     "subjectId": "AllFreq166",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
     "subjectId": "AllFreq166",
     "attributeId": "A047",
-    "value": "PTID093",
+    "value": "PopID093",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
@@ -6289,9 +6289,9 @@
   {
     "subjectId": "CondPrev167",
     "attributeId": "A106",
-    "value": "PTID094",
+    "value": "PopID094",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "ConditionPrevelance"
   },
   {
@@ -6305,9 +6305,9 @@
   {
     "subjectId": "CondPenet168",
     "attributeId": "A108",
-    "value": "PenTID131",
+    "value": "PenetID131",
     "attributeName": "penetrance",
-    "attributeType": "PenetranceType",
+    "attributeType": "Penetrance",
     "statementType": "ConditionPenetrance"
   },
   {
@@ -6316,15 +6316,15 @@
     "value": "CtxAll099",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon169",
     "attributeId": "A001",
-    "value": "MCTID011",
+    "value": "MolConID011",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "Null405",
@@ -6337,9 +6337,9 @@
   {
     "subjectId": "Null405",
     "attributeId": "A078",
-    "value": "NullAID224",
+    "value": "NullAllOutID224",
     "attributeName": "annotation",
-    "attributeType": "NullAllele",
+    "attributeType": "NullAlleleOutcome",
     "statementType": "NullAllele"
   },
   {
@@ -6353,9 +6353,9 @@
   {
     "subjectId": "CondPenet170",
     "attributeId": "A108",
-    "value": "PenTID130",
+    "value": "PenetID130",
     "attributeName": "penetrance",
-    "attributeType": "PenetranceType",
+    "attributeType": "Penetrance",
     "statementType": "ConditionPenetrance"
   },
   {
@@ -6385,7 +6385,7 @@
   {
     "subjectId": "IndAll172",
     "attributeId": "A068",
-    "value": "ASID041",
+    "value": "AllStateID041",
     "attributeName": "primaryZygosity",
     "attributeType": "AllelicState",
     "statementType": "IndividualAllele"
@@ -6409,7 +6409,7 @@
   {
     "subjectId": "IndAll173",
     "attributeId": "A068",
-    "value": "ASID043",
+    "value": "AllStateID043",
     "attributeName": "primaryZygosity",
     "attributeType": "AllelicState",
     "statementType": "IndividualAllele"
@@ -6433,7 +6433,7 @@
   {
     "subjectId": "IndCond174",
     "attributeId": "A018",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -6457,7 +6457,7 @@
   {
     "subjectId": "IndCond175",
     "attributeId": "A018",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -6473,9 +6473,9 @@
   {
     "subjectId": "CondPenet176",
     "attributeId": "A108",
-    "value": "PenTID130",
+    "value": "PenetID130",
     "attributeName": "penetrance",
-    "attributeType": "PenetranceType",
+    "attributeType": "Penetrance",
     "statementType": "ConditionPenetrance"
   },
   {
@@ -6505,7 +6505,7 @@
   {
     "subjectId": "IndAll178",
     "attributeId": "A068",
-    "value": "ASID041",
+    "value": "AllStateID041",
     "attributeName": "primaryZygosity",
     "attributeType": "AllelicState",
     "statementType": "IndividualAllele"
@@ -6529,7 +6529,7 @@
   {
     "subjectId": "IndAll179",
     "attributeId": "A068",
-    "value": "ASID041",
+    "value": "AllStateID041",
     "attributeName": "primaryZygosity",
     "attributeType": "AllelicState",
     "statementType": "IndividualAllele"
@@ -6553,7 +6553,7 @@
   {
     "subjectId": "IndAll180",
     "attributeId": "A068",
-    "value": "ASID041",
+    "value": "AllStateID041",
     "attributeName": "primaryZygosity",
     "attributeType": "AllelicState",
     "statementType": "IndividualAllele"
@@ -6577,7 +6577,7 @@
   {
     "subjectId": "IndAll181",
     "attributeId": "A068",
-    "value": "ASID041",
+    "value": "AllStateID041",
     "attributeName": "primaryZygosity",
     "attributeType": "AllelicState",
     "statementType": "IndividualAllele"
@@ -6601,7 +6601,7 @@
   {
     "subjectId": "IndCond182",
     "attributeId": "A018",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -6625,7 +6625,7 @@
   {
     "subjectId": "IndCond183",
     "attributeId": "A018",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -6649,7 +6649,7 @@
   {
     "subjectId": "IndCond184",
     "attributeId": "A018",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -6673,7 +6673,7 @@
   {
     "subjectId": "IndCond185",
     "attributeId": "A018",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -6689,9 +6689,9 @@
   {
     "subjectId": "CondPenet186",
     "attributeId": "A108",
-    "value": "PenTID130",
+    "value": "PenetID130",
     "attributeName": "penetrance",
-    "attributeType": "PenetranceType",
+    "attributeType": "Penetrance",
     "statementType": "ConditionPenetrance"
   },
   {
@@ -6721,7 +6721,7 @@
   {
     "subjectId": "IndAll188",
     "attributeId": "A068",
-    "value": "ASID041",
+    "value": "AllStateID041",
     "attributeName": "primaryZygosity",
     "attributeType": "AllelicState",
     "statementType": "IndividualAllele"
@@ -6745,7 +6745,7 @@
   {
     "subjectId": "IndAll189",
     "attributeId": "A068",
-    "value": "ASID041",
+    "value": "AllStateID041",
     "attributeName": "primaryZygosity",
     "attributeType": "AllelicState",
     "statementType": "IndividualAllele"
@@ -6769,7 +6769,7 @@
   {
     "subjectId": "IndCond190",
     "attributeId": "A018",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -6793,7 +6793,7 @@
   {
     "subjectId": "IndCond191",
     "attributeId": "A018",
-    "value": "CondStID219",
+    "value": "CondStatID219",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -6809,9 +6809,9 @@
   {
     "subjectId": "Func192",
     "attributeId": "A027",
-    "value": "AFITID081",
+    "value": "AFAMID081",
     "attributeName": "assayType",
-    "attributeType": "AlleleFunctionalImpactType",
+    "attributeType": "AlleleFunctionalAssayMethod",
     "statementType": "AlleleFunctionalImpact"
   },
   {
@@ -6841,9 +6841,9 @@
   {
     "subjectId": "Func193",
     "attributeId": "A027",
-    "value": "AFITID079",
+    "value": "AFAMID079",
     "attributeName": "assayType",
-    "attributeType": "AlleleFunctionalImpactType",
+    "attributeType": "AlleleFunctionalAssayMethod",
     "statementType": "AlleleFunctionalImpact"
   },
   {
@@ -6881,9 +6881,9 @@
   {
     "subjectId": "Func194",
     "attributeId": "A027",
-    "value": "AFITID080",
+    "value": "AFAMID080",
     "attributeName": "assayType",
-    "attributeType": "AlleleFunctionalImpactType",
+    "attributeType": "AlleleFunctionalAssayMethod",
     "statementType": "AlleleFunctionalImpact"
   },
   {
@@ -6913,9 +6913,9 @@
   {
     "subjectId": "Func195",
     "attributeId": "A027",
-    "value": "AFITID080",
+    "value": "AFAMID080",
     "attributeName": "assayType",
-    "attributeType": "AlleleFunctionalImpactType",
+    "attributeType": "AlleleFunctionalAssayMethod",
     "statementType": "AlleleFunctionalImpact"
   },
   {
@@ -6977,7 +6977,7 @@
   {
     "subjectId": "FamSeg196",
     "attributeId": "A110",
-    "value": "ISegObsID220",
+    "value": "InconSegObsID220",
     "attributeName": "inconsistentSegregationsObserved",
     "attributeType": "InconsistentSegregationObserved",
     "statementType": "FamilySegregation"
@@ -7033,7 +7033,7 @@
   {
     "subjectId": "FamSeg197",
     "attributeId": "A110",
-    "value": "ISegObsID220",
+    "value": "InconSegObsID220",
     "attributeName": "inconsistentSegregationsObserved",
     "attributeType": "InconsistentSegregationObserved",
     "statementType": "FamilySegregation"
@@ -7052,15 +7052,15 @@
     "value": "CtxAll097",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon198",
     "attributeId": "A001",
-    "value": "MCTID011",
+    "value": "MolConID011",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "Null406",
@@ -7073,23 +7073,23 @@
   {
     "subjectId": "Null406",
     "attributeId": "A078",
-    "value": "MTID071",
+    "value": "MechID071",
     "attributeName": "annotation",
-    "attributeType": "NullAllele",
+    "attributeType": "NullAlleleOutcome",
     "statementType": "NullAllele"
   },
   {
     "subjectId": "CondMech199",
     "attributeId": "A002",
-    "value": "MTID071",
+    "value": "MechID071",
     "attributeName": "mechanism",
-    "attributeType": "MechanismType",
+    "attributeType": "Mechanism",
     "statementType": "ConditionMechanism"
   },
   {
     "subjectId": "CondMech199",
     "attributeId": "A003",
-    "value": "CMSID135",
+    "value": "CondMechStrgID135",
     "attributeName": "mechanismConfidence",
     "attributeType": "ConditionMechanismStrength",
     "statementType": "ConditionMechanism"
@@ -7121,15 +7121,15 @@
   {
     "subjectId": "CondMech200",
     "attributeId": "A002",
-    "value": "MTID071",
+    "value": "MechID071",
     "attributeName": "mechanism",
-    "attributeType": "MechanismType",
+    "attributeType": "Mechanism",
     "statementType": "ConditionMechanism"
   },
   {
     "subjectId": "CondMech200",
     "attributeId": "A003",
-    "value": "CMSID135",
+    "value": "CondMechStrgID135",
     "attributeName": "mechanismConfidence",
     "attributeType": "ConditionMechanismStrength",
     "statementType": "ConditionMechanism"
@@ -7164,15 +7164,15 @@
     "value": "CtxAll098",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon201",
     "attributeId": "A001",
-    "value": "MCTID011",
+    "value": "MolConID011",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "Null407",
@@ -7185,23 +7185,23 @@
   {
     "subjectId": "Null407",
     "attributeId": "A078",
-    "value": "NullAID224",
+    "value": "NullAllOutID224",
     "attributeName": "annotation",
-    "attributeType": "NullAllele",
+    "attributeType": "NullAlleleOutcome",
     "statementType": "NullAllele"
   },
   {
     "subjectId": "CondMech202",
     "attributeId": "A002",
-    "value": "MTID071",
+    "value": "MechID071",
     "attributeName": "mechanism",
-    "attributeType": "MechanismType",
+    "attributeType": "Mechanism",
     "statementType": "ConditionMechanism"
   },
   {
     "subjectId": "CondMech202",
     "attributeId": "A003",
-    "value": "CMSID135",
+    "value": "CondMechStrgID135",
     "attributeName": "mechanismConfidence",
     "attributeType": "ConditionMechanismStrength",
     "statementType": "ConditionMechanism"
@@ -7236,15 +7236,15 @@
     "value": "CtxAll099",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon203",
     "attributeId": "A001",
-    "value": "MCTID011",
+    "value": "MolConID011",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "Null408",
@@ -7257,23 +7257,23 @@
   {
     "subjectId": "Null408",
     "attributeId": "A078",
-    "value": "NullAID224",
+    "value": "NullAllOutID224",
     "attributeName": "annotation",
-    "attributeType": "NullAllele",
+    "attributeType": "NullAlleleOutcome",
     "statementType": "NullAllele"
   },
   {
     "subjectId": "CondMech204",
     "attributeId": "A002",
-    "value": "MTID071",
+    "value": "MechID071",
     "attributeName": "mechanism",
-    "attributeType": "MechanismType",
+    "attributeType": "Mechanism",
     "statementType": "ConditionMechanism"
   },
   {
     "subjectId": "CondMech204",
     "attributeId": "A003",
-    "value": "CMSID135",
+    "value": "CondMechStrgID135",
     "attributeName": "mechanismConfidence",
     "attributeType": "ConditionMechanismStrength",
     "statementType": "ConditionMechanism"
@@ -7297,15 +7297,15 @@
   {
     "subjectId": "CondMech205",
     "attributeId": "A002",
-    "value": "MCTID011",
+    "value": "MolConID011",
     "attributeName": "mechanism",
-    "attributeType": "MechanismType",
+    "attributeType": "Mechanism",
     "statementType": "ConditionMechanism"
   },
   {
     "subjectId": "CondMech205",
     "attributeId": "A003",
-    "value": "CMSID134",
+    "value": "CondMechStrgID134",
     "attributeName": "mechanismConfidence",
     "attributeType": "ConditionMechanismStrength",
     "statementType": "ConditionMechanism"
@@ -7361,7 +7361,7 @@
   {
     "subjectId": "IndAll206",
     "attributeId": "A070",
-    "value": "PHZID036",
+    "value": "PhaseID036",
     "attributeName": "phase",
     "attributeType": "Phase",
     "statementType": "IndividualAllele"
@@ -7393,7 +7393,7 @@
   {
     "subjectId": "IndAll207",
     "attributeId": "A070",
-    "value": "PHZID036",
+    "value": "PhaseID036",
     "attributeName": "phase",
     "attributeType": "Phase",
     "statementType": "IndividualAllele"
@@ -7417,7 +7417,7 @@
   {
     "subjectId": "IndCond208",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -7441,7 +7441,7 @@
   {
     "subjectId": "IndCond209",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -7465,7 +7465,7 @@
   {
     "subjectId": "VarInterp210",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -7497,7 +7497,7 @@
   {
     "subjectId": "IndAll211",
     "attributeId": "A070",
-    "value": "PHZID036",
+    "value": "PhaseID036",
     "attributeName": "phase",
     "attributeType": "Phase",
     "statementType": "IndividualAllele"
@@ -7521,7 +7521,7 @@
   {
     "subjectId": "IndCond212",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -7545,7 +7545,7 @@
   {
     "subjectId": "VarInterp213",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -7577,7 +7577,7 @@
   {
     "subjectId": "IndAll214",
     "attributeId": "A070",
-    "value": "PHZID037",
+    "value": "PhaseID037",
     "attributeName": "phase",
     "attributeType": "Phase",
     "statementType": "IndividualAllele"
@@ -7601,7 +7601,7 @@
   {
     "subjectId": "IndCond215",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -7625,7 +7625,7 @@
   {
     "subjectId": "VarInterp216",
     "attributeId": "A124",
-    "value": "SIGID029",
+    "value": "SigID029",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -7641,9 +7641,9 @@
   {
     "subjectId": "CondPenet218",
     "attributeId": "A108",
-    "value": "PenTID132",
+    "value": "PenetID132",
     "attributeName": "penetrance",
-    "attributeType": "PenetranceType",
+    "attributeType": "Penetrance",
     "statementType": "ConditionPenetrance"
   },
   {
@@ -7657,9 +7657,9 @@
   {
     "subjectId": "ExclRegTyp220",
     "attributeId": "A056",
-    "value": "RATID033",
+    "value": "RegAnnID033",
     "attributeName": "annotation",
-    "attributeType": "RegionAnnotationType",
+    "attributeType": "RegionAnnotation",
     "statementType": "ExcludedRegionType"
   },
   {
@@ -7681,9 +7681,9 @@
   {
     "subjectId": "RegTyp221",
     "attributeId": "A057",
-    "value": "RATID035",
+    "value": "RegAnnID035",
     "attributeName": "annotation",
-    "attributeType": "RegionAnnotationType",
+    "attributeType": "RegionAnnotation",
     "statementType": "RegionType"
   },
   {
@@ -7697,10 +7697,10 @@
   {
     "subjectId": "MolCon223",
     "attributeId": "A001",
-    "value": "MCTID019",
+    "value": "MolConID019",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon223",
@@ -7708,7 +7708,7 @@
     "value": "CtxAll106",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "RegTyp225",
@@ -7721,9 +7721,9 @@
   {
     "subjectId": "RegTyp225",
     "attributeId": "A057",
-    "value": "RATID035",
+    "value": "RegAnnID035",
     "attributeName": "annotation",
-    "attributeType": "RegionAnnotationType",
+    "attributeType": "RegionAnnotation",
     "statementType": "RegionType"
   },
   {
@@ -7737,10 +7737,10 @@
   {
     "subjectId": "MolCon227",
     "attributeId": "A001",
-    "value": "MCTID014",
+    "value": "MolConID014",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon227",
@@ -7748,7 +7748,7 @@
     "value": "CtxAll107",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "RegTyp229",
@@ -7761,18 +7761,18 @@
   {
     "subjectId": "RegTyp229",
     "attributeId": "A057",
-    "value": "RATID035",
+    "value": "RegAnnID035",
     "attributeName": "annotation",
-    "attributeType": "RegionAnnotationType",
+    "attributeType": "RegionAnnotation",
     "statementType": "RegionType"
   },
   {
     "subjectId": "MolCon231",
     "attributeId": "A001",
-    "value": "MCTID017",
+    "value": "MolConID017",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon231",
@@ -7780,367 +7780,367 @@
     "value": "CtxAll108",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
-    "subjectId": "InSilicoPred232",
+    "subjectId": "CatInSilicoPred232",
     "attributeId": "A034",
     "value": "RefSeq300",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred232",
+    "subjectId": "CatInSilicoPred232",
     "attributeId": "A096",
     "value": "CanAll103",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred232",
+    "subjectId": "CatInSilicoPred232",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred232",
+    "subjectId": "CatInSilicoPred232",
     "attributeId": "A098",
     "value": "SIFT",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred232",
+    "subjectId": "CatInSilicoPred232",
     "attributeId": "A099",
     "value": "Benign",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred233",
+    "subjectId": "CatInSilicoPred233",
     "attributeId": "A034",
     "value": "RefSeq300",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred233",
+    "subjectId": "CatInSilicoPred233",
     "attributeId": "A096",
     "value": "CanAll103",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred233",
+    "subjectId": "CatInSilicoPred233",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred233",
+    "subjectId": "CatInSilicoPred233",
     "attributeId": "A098",
     "value": "Polyphen",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred233",
+    "subjectId": "CatInSilicoPred233",
     "attributeId": "A099",
     "value": "Possibly damaging",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred234",
+    "subjectId": "CatInSilicoPred234",
     "attributeId": "A034",
     "value": "RefSeq300",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred234",
+    "subjectId": "CatInSilicoPred234",
     "attributeId": "A096",
     "value": "CanAll103",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred234",
+    "subjectId": "CatInSilicoPred234",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred234",
+    "subjectId": "CatInSilicoPred234",
     "attributeId": "A098",
     "value": "FATHMM",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred234",
+    "subjectId": "CatInSilicoPred234",
     "attributeId": "A099",
     "value": "Benign",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred235",
+    "subjectId": "CatInSilicoPred235",
     "attributeId": "A034",
     "value": "RefSeq300",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred235",
+    "subjectId": "CatInSilicoPred235",
     "attributeId": "A096",
     "value": "CanAll103",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred235",
+    "subjectId": "CatInSilicoPred235",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred235",
+    "subjectId": "CatInSilicoPred235",
     "attributeId": "A098",
     "value": "LRT",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred235",
+    "subjectId": "CatInSilicoPred235",
     "attributeId": "A099",
     "value": "Benign",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred236",
+    "subjectId": "CatInSilicoPred236",
     "attributeId": "A034",
     "value": "RefSeq300",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred236",
+    "subjectId": "CatInSilicoPred236",
     "attributeId": "A096",
     "value": "CanAll103",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred236",
+    "subjectId": "CatInSilicoPred236",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred236",
+    "subjectId": "CatInSilicoPred236",
     "attributeId": "A098",
     "value": "MetaSVM",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred236",
+    "subjectId": "CatInSilicoPred236",
     "attributeId": "A099",
     "value": "Benign",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred237",
+    "subjectId": "CatInSilicoPred237",
     "attributeId": "A034",
     "value": "RefSeq300",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred237",
+    "subjectId": "CatInSilicoPred237",
     "attributeId": "A096",
     "value": "CanAll103",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred237",
+    "subjectId": "CatInSilicoPred237",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred237",
+    "subjectId": "CatInSilicoPred237",
     "attributeId": "A098",
     "value": "Mutation assessor",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred237",
+    "subjectId": "CatInSilicoPred237",
     "attributeId": "A099",
     "value": "Benign",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred238",
+    "subjectId": "CatInSilicoPred238",
     "attributeId": "A034",
     "value": "RefSeq300",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred238",
+    "subjectId": "CatInSilicoPred238",
     "attributeId": "A096",
     "value": "CanAll103",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred238",
+    "subjectId": "CatInSilicoPred238",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred238",
+    "subjectId": "CatInSilicoPred238",
     "attributeId": "A098",
     "value": "Mutation taster",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred238",
+    "subjectId": "CatInSilicoPred238",
     "attributeId": "A099",
     "value": "Benign",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred239",
+    "subjectId": "CatInSilicoPred239",
     "attributeId": "A034",
     "value": "RefSeq300",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred239",
+    "subjectId": "CatInSilicoPred239",
     "attributeId": "A096",
     "value": "CanAll103",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred239",
+    "subjectId": "CatInSilicoPred239",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred239",
+    "subjectId": "CatInSilicoPred239",
     "attributeId": "A098",
     "value": "Provean",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred239",
+    "subjectId": "CatInSilicoPred239",
     "attributeId": "A099",
     "value": "Benign",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred240",
+    "subjectId": "CatInSilicoPred240",
     "attributeId": "A034",
     "value": "RefSeq300",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred240",
+    "subjectId": "CatInSilicoPred240",
     "attributeId": "A096",
     "value": "CanAll103",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred240",
+    "subjectId": "CatInSilicoPred240",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred240",
+    "subjectId": "CatInSilicoPred240",
     "attributeId": "A098",
     "value": "Condel",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred240",
+    "subjectId": "CatInSilicoPred240",
     "attributeId": "A099",
     "value": "deleterious",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
     "subjectId": "IndAll241",
@@ -8185,7 +8185,7 @@
   {
     "subjectId": "IndCond242",
     "attributeId": "A018",
-    "value": "SEPIO-CG:99009",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -8209,7 +8209,7 @@
   {
     "subjectId": "VarInterp243",
     "attributeId": "A124",
-    "value": "SIGID028",
+    "value": "SigID028",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -8257,7 +8257,7 @@
   {
     "subjectId": "IndAll245",
     "attributeId": "A068",
-    "value": "ASID041",
+    "value": "AllStateID041",
     "attributeName": "primaryZygosity",
     "attributeType": "AllelicState",
     "statementType": "IndividualAllele"
@@ -8265,7 +8265,7 @@
   {
     "subjectId": "IndAll245",
     "attributeId": "A069",
-    "value": "ASID041",
+    "value": "AllStateID041",
     "attributeName": "secondaryZygosity",
     "attributeType": "AllelicState",
     "statementType": "IndividualAllele"
@@ -8273,7 +8273,7 @@
   {
     "subjectId": "IndAll245",
     "attributeId": "A070",
-    "value": "PHZID037",
+    "value": "PhaseID037",
     "attributeName": "phase",
     "attributeType": "Phase",
     "statementType": "IndividualAllele"
@@ -8297,7 +8297,7 @@
   {
     "subjectId": "IndCond246",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -8321,7 +8321,7 @@
   {
     "subjectId": "VarInterp247",
     "attributeId": "A124",
-    "value": "SIGID028",
+    "value": "SigID028",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -8345,7 +8345,7 @@
   {
     "subjectId": "VarInterp248",
     "attributeId": "A124",
-    "value": "SIGID028",
+    "value": "SigID028",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -8377,7 +8377,7 @@
   {
     "subjectId": "IndAll249",
     "attributeId": "A069",
-    "value": "ASID043",
+    "value": "AllStateID043",
     "attributeName": "secondaryZygosity",
     "attributeType": "AllelicState",
     "statementType": "IndividualAllele"
@@ -8401,7 +8401,7 @@
   {
     "subjectId": "IndCond250",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -8425,7 +8425,7 @@
   {
     "subjectId": "VarInterp251",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -8449,7 +8449,7 @@
   {
     "subjectId": "IndCond252",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -8497,7 +8497,7 @@
   {
     "subjectId": "VarInterp254",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -8521,7 +8521,7 @@
   {
     "subjectId": "VarInterp255",
     "attributeId": "A124",
-    "value": "SIGID032",
+    "value": "SigID032",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -8553,7 +8553,7 @@
   {
     "subjectId": "VarInterp256",
     "attributeId": "A124",
-    "value": "SIGID032",
+    "value": "SigID032",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -8585,7 +8585,7 @@
   {
     "subjectId": "VarInterp257",
     "attributeId": "A124",
-    "value": "SIGID032",
+    "value": "SigID032",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -8599,36 +8599,36 @@
     "statementType": "VariantInterpretation"
   },
   {
-    "subjectId": "InSilicoPred258",
+    "subjectId": "CatInSilicoPred258",
     "attributeId": "A034",
     "value": "RefSeq301",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred258",
+    "subjectId": "CatInSilicoPred258",
     "attributeId": "A096",
     "value": "CanAll117",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred258",
+    "subjectId": "CatInSilicoPred258",
     "attributeId": "A097",
-    "value": "PredTID073",
+    "value": "PredID073",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred258",
+    "subjectId": "CatInSilicoPred258",
     "attributeId": "A099",
     "value": "no impact",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
     "subjectId": "Conserv259",
@@ -8697,10 +8697,10 @@
   {
     "subjectId": "MolCon261",
     "attributeId": "A001",
-    "value": "MCTID016",
+    "value": "MolConID016",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon261",
@@ -8708,47 +8708,47 @@
     "value": "CtxAll123",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
-    "subjectId": "InSilicoPred262",
+    "subjectId": "CatInSilicoPred262",
     "attributeId": "A034",
     "value": "RefSeq297",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred262",
+    "subjectId": "CatInSilicoPred262",
     "attributeId": "A096",
     "value": "CanAll118",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred262",
+    "subjectId": "CatInSilicoPred262",
     "attributeId": "A097",
-    "value": "PredTID073",
+    "value": "PredID073",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred262",
+    "subjectId": "CatInSilicoPred262",
     "attributeId": "A099",
     "value": "no impact",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred262",
+    "subjectId": "CatInSilicoPred262",
     "attributeId": "A120",
     "value": "Provenance would show that this comes from Alamut",
     "attributeName": "description",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
     "subjectId": "Conserv263",
@@ -8817,10 +8817,10 @@
   {
     "subjectId": "MolCon265",
     "attributeId": "A001",
-    "value": "MCTID016",
+    "value": "MolConID016",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon265",
@@ -8828,39 +8828,39 @@
     "value": "CtxAll124",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
-    "subjectId": "InSilicoPred266",
+    "subjectId": "CatInSilicoPred266",
     "attributeId": "A034",
     "value": "RefSeq302",
     "attributeName": "transcript",
     "attributeType": "ReferenceSequence",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred266",
+    "subjectId": "CatInSilicoPred266",
     "attributeId": "A096",
     "value": "CanAll119",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred266",
+    "subjectId": "CatInSilicoPred266",
     "attributeId": "A097",
-    "value": "PredTID073",
+    "value": "PredID073",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred266",
+    "subjectId": "CatInSilicoPred266",
     "attributeId": "A099",
     "value": "no impact",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
     "subjectId": "Conserv267",
@@ -8929,10 +8929,10 @@
   {
     "subjectId": "MolCon269",
     "attributeId": "A001",
-    "value": "MCTID016",
+    "value": "MolConID016",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon269",
@@ -8940,7 +8940,7 @@
     "value": "CtxAll125",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "VarInterp270",
@@ -8961,7 +8961,7 @@
   {
     "subjectId": "VarInterp270",
     "attributeId": "A124",
-    "value": "SIGID029",
+    "value": "SigID029",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -9017,7 +9017,7 @@
   {
     "subjectId": "FamSeg271",
     "attributeId": "A110",
-    "value": "ISegObsID220",
+    "value": "InconSegObsID220",
     "attributeName": "inconsistentSegregationsObserved",
     "attributeType": "InconsistentSegregationObserved",
     "statementType": "FamilySegregation"
@@ -9028,15 +9028,15 @@
     "value": "CtxAll127",
     "attributeName": "contextualAllele",
     "attributeType": "ContextualAllele",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon272",
     "attributeId": "A001",
-    "value": "MCTID015",
+    "value": "MolConID015",
     "attributeName": "consequence",
-    "attributeType": "MolecularConsequenceType",
-    "statementType": "MolecularConsequence"
+    "attributeType": "MolecularConsequence",
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "MolCon272",
@@ -9044,7 +9044,7 @@
     "value": "This variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006 PMID: 17186466).",
     "attributeName": "description",
     "attributeType": "String",
-    "statementType": "MolecularConsequence"
+    "statementType": "AlleleMolecularConsequence"
   },
   {
     "subjectId": "Null415",
@@ -9057,17 +9057,17 @@
   {
     "subjectId": "Null415",
     "attributeId": "A078",
-    "value": "MTID071",
+    "value": "MechID071",
     "attributeName": "annotation",
-    "attributeType": "NullAllele",
+    "attributeType": "NullAlleleOutcome",
     "statementType": "NullAllele"
   },
   {
     "subjectId": "CondMech273",
     "attributeId": "A002",
-    "value": "MTID071",
+    "value": "MechID071",
     "attributeName": "mechanism",
-    "attributeType": "MechanismType",
+    "attributeType": "Mechanism",
     "statementType": "ConditionMechanism"
   },
   {
@@ -9081,7 +9081,7 @@
   {
     "subjectId": "CondMech273",
     "attributeId": "A003",
-    "value": "CMSID134",
+    "value": "CondMechStrgID134",
     "attributeName": "mechanismConfidence",
     "attributeType": "ConditionMechanismStrength",
     "statementType": "ConditionMechanism"
@@ -9121,7 +9121,7 @@
   {
     "subjectId": "VarInterp274",
     "attributeId": "A124",
-    "value": "SIGID028",
+    "value": "SigID028",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -9193,7 +9193,7 @@
   {
     "subjectId": "CritAssess275",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -9249,7 +9249,7 @@
   {
     "subjectId": "CritAssess276",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -9297,7 +9297,7 @@
   {
     "subjectId": "CritAssess277",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -9361,7 +9361,7 @@
   {
     "subjectId": "CritAssess278",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -9417,7 +9417,7 @@
   {
     "subjectId": "CritAssess279",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -9473,7 +9473,7 @@
   {
     "subjectId": "CritAssess280",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -9545,7 +9545,7 @@
   {
     "subjectId": "CritAssess281",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -9601,7 +9601,7 @@
   {
     "subjectId": "CritAssess282",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -9657,7 +9657,7 @@
   {
     "subjectId": "CritAssess283",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -9697,7 +9697,7 @@
   {
     "subjectId": "CritAssess284",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -9769,7 +9769,7 @@
   {
     "subjectId": "CritAssess285",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -9817,7 +9817,7 @@
   {
     "subjectId": "CritAssess286",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -9889,7 +9889,7 @@
   {
     "subjectId": "CritAssess287",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -9945,7 +9945,7 @@
   {
     "subjectId": "CritAssess288",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10001,7 +10001,7 @@
   {
     "subjectId": "CritAssess289",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10041,7 +10041,7 @@
   {
     "subjectId": "CritAssess290",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10089,7 +10089,7 @@
   {
     "subjectId": "CritAssess291",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10145,7 +10145,7 @@
   {
     "subjectId": "CritAssess292",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10193,7 +10193,7 @@
   {
     "subjectId": "CritAssess293",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10249,7 +10249,7 @@
   {
     "subjectId": "CritAssess294",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10289,7 +10289,7 @@
   {
     "subjectId": "CritAssess295",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10345,7 +10345,7 @@
   {
     "subjectId": "CritAssess296",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10393,7 +10393,7 @@
   {
     "subjectId": "CritAssess297",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10441,7 +10441,7 @@
   {
     "subjectId": "CritAssess298",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10489,7 +10489,7 @@
   {
     "subjectId": "CritAssess299",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10537,7 +10537,7 @@
   {
     "subjectId": "CritAssess300",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10585,7 +10585,7 @@
   {
     "subjectId": "CritAssess301",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10641,7 +10641,7 @@
   {
     "subjectId": "CritAssess302",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10713,7 +10713,7 @@
   {
     "subjectId": "CritAssess303",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10769,7 +10769,7 @@
   {
     "subjectId": "CritAssess304",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10817,7 +10817,7 @@
   {
     "subjectId": "CritAssess305",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10881,7 +10881,7 @@
   {
     "subjectId": "CritAssess306",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -10953,7 +10953,7 @@
   {
     "subjectId": "CritAssess307",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11009,7 +11009,7 @@
   {
     "subjectId": "CritAssess308",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11081,7 +11081,7 @@
   {
     "subjectId": "CritAssess309",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11137,7 +11137,7 @@
   {
     "subjectId": "CritAssess310",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11193,7 +11193,7 @@
   {
     "subjectId": "CritAssess311",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11249,7 +11249,7 @@
   {
     "subjectId": "CritAssess312",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11289,7 +11289,7 @@
   {
     "subjectId": "CritAssess313",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11329,7 +11329,7 @@
   {
     "subjectId": "CritAssess314",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11377,7 +11377,7 @@
   {
     "subjectId": "CritAssess315",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11417,7 +11417,7 @@
   {
     "subjectId": "CritAssess316",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11473,7 +11473,7 @@
   {
     "subjectId": "CritAssess318",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11529,7 +11529,7 @@
   {
     "subjectId": "CritAssess319",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11577,7 +11577,7 @@
   {
     "subjectId": "CritAssess320",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11625,7 +11625,7 @@
   {
     "subjectId": "CritAssess321",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11681,7 +11681,7 @@
   {
     "subjectId": "CritAssess322",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11721,7 +11721,7 @@
   {
     "subjectId": "CritAssess323",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11761,7 +11761,7 @@
   {
     "subjectId": "CritAssess324",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11825,7 +11825,7 @@
   {
     "subjectId": "CritAssess325",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11881,7 +11881,7 @@
   {
     "subjectId": "CritAssess326",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11929,7 +11929,7 @@
   {
     "subjectId": "CritAssess327",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -11985,7 +11985,7 @@
   {
     "subjectId": "CritAssess328",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12041,7 +12041,7 @@
   {
     "subjectId": "CritAssess329",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12105,7 +12105,7 @@
   {
     "subjectId": "CritAssess330",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12193,7 +12193,7 @@
   {
     "subjectId": "CritAssess331",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12257,7 +12257,7 @@
   {
     "subjectId": "CritAssess333",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12305,7 +12305,7 @@
   {
     "subjectId": "CritAssess334",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12361,7 +12361,7 @@
   {
     "subjectId": "CritAssess335",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12409,7 +12409,7 @@
   {
     "subjectId": "CritAssess336",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12462,7 +12462,7 @@
   {
     "subjectId": "CritAssess337",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12515,7 +12515,7 @@
   {
     "subjectId": "CritAssess338",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12563,7 +12563,7 @@
   {
     "subjectId": "CritAssess339",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12611,7 +12611,7 @@
   {
     "subjectId": "CritAssess340",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12664,7 +12664,7 @@
   {
     "subjectId": "CritAssess341",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12717,7 +12717,7 @@
   {
     "subjectId": "CritAssess342",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12773,7 +12773,7 @@
   {
     "subjectId": "CritAssess343",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12821,7 +12821,7 @@
   {
     "subjectId": "CritAssess344",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12869,7 +12869,7 @@
   {
     "subjectId": "CritAssess345",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12909,7 +12909,7 @@
   {
     "subjectId": "CritAssess346",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12957,7 +12957,7 @@
   {
     "subjectId": "CritAssess347",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -12997,7 +12997,7 @@
   {
     "subjectId": "CritAssess348",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -13045,7 +13045,7 @@
   {
     "subjectId": "CritAssess350",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -13101,7 +13101,7 @@
   {
     "subjectId": "CritAssess351",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -13157,7 +13157,7 @@
   {
     "subjectId": "CritAssess352",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -13205,7 +13205,7 @@
   {
     "subjectId": "CritAssess353",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -13253,7 +13253,7 @@
   {
     "subjectId": "CritAssess354",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -13309,7 +13309,7 @@
   {
     "subjectId": "CritAssess355",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -13357,7 +13357,7 @@
   {
     "subjectId": "CritAssess356",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -13405,7 +13405,7 @@
   {
     "subjectId": "CritAssess357",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -13445,7 +13445,7 @@
   {
     "subjectId": "CritAssess358",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -13485,7 +13485,7 @@
   {
     "subjectId": "CritAssess359",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -13525,7 +13525,7 @@
   {
     "subjectId": "CritAssess360",
     "attributeId": "A116",
-    "value": "CEID075",
+    "value": "CritEvalID075",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -13581,7 +13581,7 @@
   {
     "subjectId": "CritAssess361",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -13611,36 +13611,36 @@
     "statementType": "CriterionAssessment"
   },
   {
-    "subjectId": "InSilicoPred362",
+    "subjectId": "CatInSilicoPred362",
     "attributeId": "A096",
     "value": "CtxAll111",
     "attributeName": "canonicalAllele",
     "attributeType": "CanonicalAllele",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred362",
+    "subjectId": "CatInSilicoPred362",
     "attributeId": "A097",
-    "value": "PredTID072",
+    "value": "PredID072",
     "attributeName": "predictionType",
-    "attributeType": "PredictionType",
-    "statementType": "InSilicoPrediction"
+    "attributeType": "Prediction",
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred362",
+    "subjectId": "CatInSilicoPred362",
     "attributeId": "A099",
     "value": "ProbablyDamaging",
-    "attributeName": "categoricalPrediction",
+    "attributeName": "prediction",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
-    "subjectId": "InSilicoPred362",
+    "subjectId": "CatInSilicoPred362",
     "attributeId": "A098",
     "value": "Polyphen-2 HumDiv",
     "attributeName": "algorithm",
     "attributeType": "String",
-    "statementType": "InSilicoPrediction"
+    "statementType": "CategoricalInSilicoPrediction"
   },
   {
     "subjectId": "CritAssess363",
@@ -13669,7 +13669,7 @@
   {
     "subjectId": "CritAssess363",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -13714,7 +13714,7 @@
   {
     "subjectId": "VarInterp364",
     "attributeId": "A124",
-    "value": "SIGID028",
+    "value": "SigID028",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -13738,7 +13738,7 @@
   {
     "subjectId": "VarInterp365",
     "attributeId": "A124",
-    "value": "SIGID031",
+    "value": "SigID031",
     "attributeName": "outcome",
     "attributeType": "Significance",
     "statementType": "VariantInterpretation"
@@ -13770,7 +13770,7 @@
   {
     "subjectId": "IndAll366",
     "attributeId": "A070",
-    "value": "PHZID037",
+    "value": "PhaseID037",
     "attributeName": "phase",
     "attributeType": "Phase",
     "statementType": "IndividualAllele"
@@ -13802,7 +13802,7 @@
   {
     "subjectId": "IndAll367",
     "attributeId": "A070",
-    "value": "PHZID037",
+    "value": "PhaseID037",
     "attributeName": "phase",
     "attributeType": "Phase",
     "statementType": "IndividualAllele"
@@ -13826,7 +13826,7 @@
   {
     "subjectId": "IndCond368",
     "attributeId": "A018",
-    "value": "CondStID218",
+    "value": "CondStatID218",
     "attributeName": "individualHasCondition",
     "attributeType": "ConditionStatus",
     "statementType": "IndividualCondition"
@@ -13858,7 +13858,7 @@
   {
     "subjectId": "CritAssess369",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -13890,17 +13890,17 @@
   {
     "subjectId": "AllFreq370",
     "attributeId": "A030",
-    "value": "AsctTID203",
+    "value": "AscrtID203",
     "attributeName": "ascertainment",
-    "attributeType": "AscertainmentType",
+    "attributeType": "Ascertainment",
     "statementType": "AlleleFrequency"
   },
   {
     "subjectId": "AllFreq370",
     "attributeId": "A047",
-    "value": "PTID090",
+    "value": "PopID090",
     "attributeName": "population",
-    "attributeType": "PopulationType",
+    "attributeType": "Population",
     "statementType": "AlleleFrequency"
   },
   {
@@ -13962,7 +13962,7 @@
   {
     "subjectId": "CritAssess371",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -14018,7 +14018,7 @@
   {
     "subjectId": "CritAssess372",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -14066,7 +14066,7 @@
   {
     "subjectId": "CritAssess373",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -14114,7 +14114,7 @@
   {
     "subjectId": "CritAssess374",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -14170,7 +14170,7 @@
   {
     "subjectId": "CritAssess375",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -14218,7 +14218,7 @@
   {
     "subjectId": "CritAssess376",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -14266,7 +14266,7 @@
   {
     "subjectId": "CritAssess377",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -14322,7 +14322,7 @@
   {
     "subjectId": "CritAssess378",
     "attributeId": "A116",
-    "value": "CEID074",
+    "value": "CritEvalID074",
     "attributeName": "outcome",
     "attributeType": "CriterionEvaluation",
     "statementType": "CriterionAssessment"
@@ -14394,7 +14394,7 @@
   {
     "subjectId": "RegAll380",
     "attributeId": "A059",
-    "value": "RegAID225",
+    "value": "RegAllOutID225",
     "attributeName": "outcome",
     "attributeType": "RegionAllelesOutcome",
     "statementType": "RegionAlleles"
@@ -14450,7 +14450,7 @@
   {
     "subjectId": "RegAll382",
     "attributeId": "A059",
-    "value": "RegAID225",
+    "value": "RegAllOutID225",
     "attributeName": "outcome",
     "attributeType": "RegionAllelesOutcome",
     "statementType": "RegionAlleles"
@@ -14530,7 +14530,7 @@
   {
     "subjectId": "RegAll384",
     "attributeId": "A059",
-    "value": "RegAID225",
+    "value": "RegAllOutID225",
     "attributeName": "outcome",
     "attributeType": "RegionAllelesOutcome",
     "statementType": "RegionAlleles"
@@ -14658,7 +14658,7 @@
   {
     "subjectId": "RegAll391",
     "attributeId": "A059",
-    "value": "RegAID225",
+    "value": "RegAllOutID225",
     "attributeName": "outcome",
     "attributeType": "RegionAllelesOutcome",
     "statementType": "RegionAlleles"
@@ -14711,7 +14711,7 @@
   {
     "subjectId": "RegAll393",
     "attributeId": "A059",
-    "value": "RegAID225",
+    "value": "RegAllOutID225",
     "attributeName": "outcome",
     "attributeType": "RegionAllelesOutcome",
     "statementType": "RegionAlleles"
@@ -14764,7 +14764,7 @@
   {
     "subjectId": "RegAll395",
     "attributeId": "A059",
-    "value": "RegAID225",
+    "value": "RegAllOutID225",
     "attributeName": "outcome",
     "attributeType": "RegionAllelesOutcome",
     "statementType": "RegionAlleles"

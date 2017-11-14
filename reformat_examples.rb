@@ -94,7 +94,7 @@ class DMWGExampleData
      '_GeneticConditionAttribute',
      '_StatementAttribute',
      '_UserLabelAttribute',
-     '_ValueSetConcept',
+     '_ValueSetAttribute',
     ].each do |sheet|
       if !@flattened.has_key? sheet
          STDERR.puts "ERROR: expected sheet #{sheet}, but none found"
