@@ -1,0 +1,722 @@
+[
+  {
+    "subjectId": "IdSys001",
+    "attributeId": "A146",
+    "value": "ClinGen Allele Registry",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys001",
+    "attributeId": "A154",
+    "value": "CAR",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys001",
+    "attributeId": "A152",
+    "value": "http://reg.genome.network/allele/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys002",
+    "attributeId": "A146",
+    "value": "LOINC",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys002",
+    "attributeId": "A154",
+    "value": "LN",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys002",
+    "attributeId": "A151",
+    "value": "2.16.840.1.113883.6.1",
+    "attributeName": "oid",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys002",
+    "attributeId": "A152",
+    "value": "http://loinc.org/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys003",
+    "attributeId": "A146",
+    "value": "hgnc",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys003",
+    "attributeId": "A154",
+    "value": "HGNC",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys003",
+    "attributeId": "A151",
+    "value": "2.16.840.1.113883.6.281",
+    "attributeName": "oid",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys003",
+    "attributeId": "A152",
+    "value": "http://www.genenames.org/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys004",
+    "attributeId": "A146",
+    "value": "RefSeq",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys004",
+    "attributeId": "A154",
+    "value": "REFSEQ",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys004",
+    "attributeId": "A151",
+    "value": "2.16.840.1.113883.6.280",
+    "attributeName": "oid",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys004",
+    "attributeId": "A152",
+    "value": "http://www.ncbi.nlm.nih.gov/nuccore/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys005",
+    "attributeId": "A146",
+    "value": "ClinVar",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys005",
+    "attributeId": "A154",
+    "value": "CLINVAR",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys005",
+    "attributeId": "A152",
+    "value": "http://www.ncbi.nlm.nih.gov/clinvar/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys006",
+    "attributeId": "A146",
+    "value": "Ensembl",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys006",
+    "attributeId": "A154",
+    "value": "ENSEMBL",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys006",
+    "attributeId": "A152",
+    "value": "http://www.ensembl.org/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys007",
+    "attributeId": "A146",
+    "value": "SequenceOntology",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys007",
+    "attributeId": "A154",
+    "value": "SO",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys007",
+    "attributeId": "A152",
+    "value": "http://sequenceontology.org/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys008",
+    "attributeId": "A146",
+    "value": "dbSNP",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys008",
+    "attributeId": "A154",
+    "value": "DBSNP",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys008",
+    "attributeId": "A151",
+    "value": "2.16.840.1.113883.6.284",
+    "attributeName": "oid",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys008",
+    "attributeId": "A152",
+    "value": "http://www.ncbi.nlm.nih.gov/projects/SNP/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys009",
+    "attributeId": "A146",
+    "value": "HGVS",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys009",
+    "attributeId": "A154",
+    "value": "HGVS",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys009",
+    "attributeId": "A151",
+    "value": "2.16.840.1.113883.6.282",
+    "attributeName": "oid",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys009",
+    "attributeId": "A152",
+    "value": "http://www.hgvs.org/mutnomen/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys010",
+    "attributeId": "A146",
+    "value": "LRG",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys010",
+    "attributeId": "A154",
+    "value": "LRG",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys010",
+    "attributeId": "A151",
+    "value": "2.16.840.1.113883.6.283",
+    "attributeName": "oid",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys010",
+    "attributeId": "A152",
+    "value": "http://www.lrg-sequence.org/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys011",
+    "attributeId": "A146",
+    "value": "OMIM",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys011",
+    "attributeId": "A154",
+    "value": "OMIM",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys011",
+    "attributeId": "A151",
+    "value": "2.16.840.1.113883.6.174",
+    "attributeName": "oid",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys011",
+    "attributeId": "A152",
+    "value": "http://www.omim.org/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys012",
+    "attributeId": "A146",
+    "value": "Pubmed",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys012",
+    "attributeId": "A154",
+    "value": "PUBMED",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys012",
+    "attributeId": "A151",
+    "value": "2.16.840.1.113883.13.191",
+    "attributeName": "oid",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys012",
+    "attributeId": "A152",
+    "value": "http://www.ncbi.nlm.nih.gov/pubmed/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys013",
+    "attributeId": "A146",
+    "value": "Orphanet",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys013",
+    "attributeId": "A154",
+    "value": "Orphanet",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys013",
+    "attributeId": "A152",
+    "value": "http://www.orpha.net/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys014",
+    "attributeId": "A146",
+    "value": "Broad-population-type",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys014",
+    "attributeId": "A154",
+    "value": "BROAD-population-type",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys014",
+    "attributeId": "A152",
+    "value": "http://broadinstitute.org/populations/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys015",
+    "attributeId": "A146",
+    "value": "medgen-dis",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys015",
+    "attributeId": "A154",
+    "value": "MEDGEN",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys015",
+    "attributeId": "A151",
+    "value": "2.16.840.1.113883.6.333",
+    "attributeName": "oid",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys015",
+    "attributeId": "A152",
+    "value": "https://www.ncbi.nlm.nih.gov/medgen/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys016",
+    "attributeId": "A146",
+    "value": "HumanPhenotypeOntology",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys016",
+    "attributeId": "A154",
+    "value": "HP",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys016",
+    "attributeId": "A152",
+    "value": "http://human-phenotype-ontology.github.io/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys017",
+    "attributeId": "A146",
+    "value": "RelationsOntology",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys017",
+    "attributeId": "A154",
+    "value": "RO",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys017",
+    "attributeId": "A152",
+    "value": "http://obofoundry.org/ro/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys018",
+    "attributeId": "A146",
+    "value": "Int'l Genome Sample Resource populations",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys018",
+    "attributeId": "A154",
+    "value": "IGSR-population-type",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys018",
+    "attributeId": "A152",
+    "value": "http://www.internationalgenome.org/category/population/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys019",
+    "attributeId": "A146",
+    "value": "Disease Ontology",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys019",
+    "attributeId": "A154",
+    "value": "DOID",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys019",
+    "attributeId": "A152",
+    "value": "http://disease-ontology.org/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys020",
+    "attributeId": "A146",
+    "value": "MeSH",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys020",
+    "attributeId": "A154",
+    "value": "MESH",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys020",
+    "attributeId": "A152",
+    "value": "https://meshb.nlm.nih.gov/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys021",
+    "attributeId": "A146",
+    "value": "ESP",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys021",
+    "attributeId": "A154",
+    "value": "ESP-population-type",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys021",
+    "attributeId": "A152",
+    "value": "http://evs.gs.washington.edu/EVS/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys022",
+    "attributeId": "A146",
+    "value": "GENO",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys022",
+    "attributeId": "A154",
+    "value": "GENO",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys022",
+    "attributeId": "A152",
+    "value": "http://obofoundry.org/geno/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys023",
+    "attributeId": "A146",
+    "value": "Scientific Evidence Provenance Information Ontology",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys023",
+    "attributeId": "A154",
+    "value": "SEPIO",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys023",
+    "attributeId": "A152",
+    "value": "http://obofoundry.org/sepio/",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys024",
+    "attributeId": "A146",
+    "value": "ClinGen extensions to SEPIO",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys024",
+    "attributeId": "A154",
+    "value": "SEPIO-CG",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys024",
+    "attributeId": "A152",
+    "value": "http://obofoundry.org/sepio/clingen",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys025",
+    "attributeId": "A146",
+    "value": "OBI",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys025",
+    "attributeId": "A154",
+    "value": "OBI",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys025",
+    "attributeId": "A152",
+    "value": "http://purl.obolibrary.org/obo/OBI_",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys026",
+    "attributeId": "A146",
+    "value": "Information Artifact Ontology",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys026",
+    "attributeId": "A154",
+    "value": "IAO",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys026",
+    "attributeId": "A152",
+    "value": "http://purl.obolibrary.org/obo/IAO_",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys027",
+    "attributeId": "A146",
+    "value": "NCI Thesarus",
+    "attributeName": "label",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys027",
+    "attributeId": "A154",
+    "value": "NCIT",
+    "attributeName": "prefix",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  },
+  {
+    "subjectId": "IdSys027",
+    "attributeId": "A152",
+    "value": "http://purl.bioontology.org/ontology/NCIT",
+    "attributeName": "uri",
+    "attributeType": "String",
+    "domainEntityType": "IdentifierSystem"
+  }
+]

@@ -11,12 +11,12 @@
   },
   "E02": {
     "id": "E02",
-    "name": "MolecularConsequence",
+    "name": "AlleleMolecularConsequence",
     "parentType": "E01",
     "link": "MolCon",
     "iri": "SEPIO:0000229",
-    "iri-label": "molecular consequence statement",
-    "cg-label": "MolecularConsequence",
+    "iri-label": "allele molecular consequence statement",
+    "cg-label": "AlleleMolecularConsequence",
     "description": "A statement that describes the expected effect of a variant allele at the level of genomic or transcript sequence",
     "comments": "Molecular consequence statements typically describe the type of variation the allele represents (e.g. a deletion or insertion or translocation), the type of genomic or transcript feature the allele affects (e.g. that it occurs in a 3' UTR, or an exon), or its impact on the structure or processing of a gene (e.g. that it generates a copy number variation, results in a lost stop codon,  disrupts a slice site, or causes a frameshift elongation). Molecular Consequence statements do not include predictions about the impact a variation might have on the function of an encoded gene product. \n\nExample of usage.  Molecular consequence statements are produced by software such as Annovar (http://annovar.openbioinformatics.org), SnpEff (http://snpeff.sourceforge.net) or Variant Effect Predictor (http://www.ensembl.org/vep), and often take the form of annotation of a variant with a term from the sequence ontology such as 'missense variant', 'frameshift variant', 'splice-site variant', 'frameshift elongation', 'substitution', 'inversion'."
   },
@@ -82,9 +82,9 @@
     "parentType": "E01",
     "link": "Null",
     "iri": "SEPIO:0000274",
-    "iri-label": "",
+    "iri-label": "null allele statement",
     "cg-label": "NullAllele",
-    "description": "A statement that asserts whether an allele causes commplete loss of function of a gene or gene  product. ",
+    "description": "A statement that asserts whether an allele causes complete loss of function of a gene or gene  product. ",
     "comments": ""
   },
   "E09": {
@@ -124,7 +124,7 @@
     "link": "Ex",
     "iri": "",
     "iri-label": "",
-    "cg-label": "Example",
+    "cg-label": "",
     "description": "",
     "comments": ""
   },
@@ -318,8 +318,8 @@
   "E39": {
     "id": "E39",
     "name": "UserLabel",
-    "link": "UseLab",
-    "iri": "",
+    "link": "UsrLabl",
+    "iri": "SEPIO-CG:03500",
     "iri-label": "",
     "cg-label": "UserLabel",
     "description": "TODO",
@@ -328,30 +328,21 @@
   "E40": {
     "id": "E40",
     "name": "DomainEntity",
-    "iri": "",
+    "iri": "SEPIO-CG:03000",
     "iri-label": "",
     "cg-label": "DomainEntity",
-    "description": "Abstract model for all former codings and codeableconcepts.  This entity provides an id to any entity type needed and provides the label and exactSynonym atttributes for versatility",
+    "description": "Parent class for all concepts that may fit the following uses: \n- referenced in a ValueSet\n- provide for an optional UserLabel in lieu of the registered id label\n- define a novel concept with only a UserLabel for a given subclass",
     "comments": ""
   },
   "E41": {
     "id": "E41",
     "name": "IdentifierSystem",
-    "link": "CS",
-    "iri": "",
+    "parentType": "E40",
+    "link": "IdSys",
+    "iri": "SEPIO-CG:01000",
     "iri-label": "",
     "cg-label": "IdentifierSystem",
     "description": "(LB) this is not directly related to the model, but it is needed for our work in order to store the data for all the Systems and related meta data, URIs, prefixes, OIDs, etc. that provide externally referenced identifiers.  ",
-    "comments": ""
-  },
-  "E42": {
-    "id": "E42",
-    "name": "IdentifierSystemConcept",
-    "link": "ISC",
-    "iri": "",
-    "iri-label": "",
-    "cg-label": "IdentifierSystemConcept",
-    "description": "(LB) this is not directly related to the model, but it is needed to ",
     "comments": ""
   },
   "E43": {
@@ -400,12 +391,12 @@
   },
   "E47": {
     "id": "E47",
-    "name": "InSilicoPrediction",
+    "name": "CategoricalInSilicoPrediction",
     "parentType": "E01",
-    "link": "InSilicoPred",
+    "link": "CatInSilicoPred",
     "iri": "SEPIO:0000249",
     "iri-label": "in silico prediction statement",
-    "cg-label": "InSilicoPrediction",
+    "cg-label": "CategoricalInSilicoPrediction",
     "description": "A statement based on the output of a computational algorithm that predicts the impact of a particular allele on the function of its resulting gene product (e.g. 'deleterious', 'damaging', 'tolerated').",
     "comments": ""
   },
@@ -453,23 +444,24 @@
     "description": "A statement about the degree of evolutionary conservation of an allele across a defined set of taxa/species. ",
     "comments": ""
   },
+  "E52": {
+    "id": "E52",
+    "name": "QuantitativeInSilicoPrediction",
+    "parentType": "E01",
+    "link": "QntInSilicoPred",
+    "iri": "???",
+    "iri-label": "",
+    "cg-label": "QuantitativeInSilicoPrediction",
+    "description": "",
+    "comments": ""
+  },
   "E54": {
     "id": "E54",
     "name": "ValueSet",
     "link": "VS",
-    "iri": "",
+    "iri": "SEPIO-CG:02000",
     "iri-label": "",
     "cg-label": "ValueSet",
-    "description": "",
-    "comments": ""
-  },
-  "E55": {
-    "id": "E55",
-    "name": "ValueSetConcept",
-    "link": "VSC",
-    "iri": "",
-    "iri-label": "",
-    "cg-label": "ValueSetConcept",
     "description": "",
     "comments": ""
   },
@@ -485,263 +477,263 @@
   },
   "E57": {
     "id": "E57",
-    "name": "MolecularConsequenceType",
+    "name": "MolecularConsequence",
     "parentType": "E40",
-    "link": "MCTID",
-    "iri": "",
+    "link": "MolConID",
+    "iri": "SEPIO-CG:55102",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "MolecularConsequence"
   },
   "E58": {
     "id": "E58",
     "name": "Significance",
     "parentType": "E40",
-    "link": "SIGID",
-    "iri": "",
+    "link": "SigID",
+    "iri": "SEPIO-CG:55101",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "Significance"
   },
   "E59": {
     "id": "E59",
-    "name": "RegionAnnotationType",
+    "name": "RegionAnnotation",
     "parentType": "E40",
-    "link": "RATID",
-    "iri": "",
+    "link": "RegAnnID",
+    "iri": "SEPIO-CG:55102",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "RegionAnnotation"
   },
   "E60": {
     "id": "E60",
     "name": "Phase",
     "parentType": "E40",
-    "link": "PHZID",
-    "iri": "",
+    "link": "PhaseID",
+    "iri": "SEPIO-CG:55103",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "Phase"
   },
   "E61": {
     "id": "E61",
     "name": "AllelicState",
     "parentType": "E40",
-    "link": "ASID",
-    "iri": "",
+    "link": "AllStateID",
+    "iri": "SEPIO-CG:55104",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "AllelicState"
   },
   "E62": {
     "id": "E62",
     "name": "ModeOfInheritance",
     "parentType": "E40",
-    "link": "MOIID",
-    "iri": "",
+    "link": "ModeOfInhID",
+    "iri": "SEPIO-CG:55105",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "ModeOfInheritance"
   },
   "E63": {
     "id": "E63",
-    "name": "ReferenceSequenceRelatedType",
+    "name": "ReferenceSequenceRelated",
     "parentType": "E40",
-    "link": "RSRTID",
-    "iri": "",
+    "link": "RefSeqRelID",
+    "iri": "SEPIO-CG:55106",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "ReferenceSequenceRelated"
   },
   "E64": {
     "id": "E64",
-    "name": "MechanismType",
+    "name": "Mechanism",
     "parentType": "E40",
-    "link": "MTID",
-    "iri": "",
+    "link": "MechID",
+    "iri": "SEPIO-CG:55107",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "Mechanism"
   },
   "E65": {
     "id": "E65",
-    "name": "PredictionType",
+    "name": "Prediction",
     "parentType": "E40",
-    "link": "PredTID",
-    "iri": "",
+    "link": "PredID",
+    "iri": "SEPIO-CG:55108",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "Prediction"
   },
   "E66": {
     "id": "E66",
     "name": "CriterionEvaluation",
     "parentType": "E40",
-    "link": "CEID",
-    "iri": "",
+    "link": "CritEvalID",
+    "iri": "SEPIO-CG:55109",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "CriterionEvaluation"
   },
   "E67": {
     "id": "E67",
-    "name": "AlleleFunctionalImpactType",
+    "name": "AlleleFunctionalAssayMethod",
     "parentType": "E40",
-    "link": "AFITID",
-    "iri": "",
+    "link": "AFAMID",
+    "iri": "SEPIO-CG:55110",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "AlleleFunctionalAssayMethod"
   },
   "E68": {
     "id": "E68",
-    "name": "PopulationType",
+    "name": "Population",
     "parentType": "E40",
-    "link": "PTID",
-    "iri": "",
+    "link": "PopID",
+    "iri": "SEPIO-CG:55111",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "Population"
   },
   "E69": {
     "id": "E69",
-    "name": "BenignMissenseVariationRate",
+    "name": "BenignMissenseVariationRateOutcome",
     "parentType": "E40",
-    "link": "BMVRID",
-    "iri": "",
+    "link": "BMVROID",
+    "iri": "SEPIO-CG:55112",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "BenignMissenseVariationRateOutcome"
   },
   "E70": {
     "id": "E70",
-    "name": "PenetranceType",
+    "name": "Penetrance",
     "parentType": "E40",
-    "link": "PenTID",
-    "iri": "",
+    "link": "PenetID",
+    "iri": "SEPIO-CG:55113",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "Penetrance"
   },
   "E71": {
     "id": "E71",
     "name": "ConditionMechanismStrength",
     "parentType": "E40",
-    "link": "CMSID",
-    "iri": "",
+    "link": "CondMechStrgID",
+    "iri": "SEPIO-CG:55114",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "ConditionMechanismStrength"
   },
   "E72": {
     "id": "E72",
     "name": "EvidenceLineStrength",
     "parentType": "E40",
-    "link": "ELSID",
-    "iri": "",
+    "link": "EvLnStrgID",
+    "iri": "SEPIO-CG:55115",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "EvidenceLineStrength"
   },
   "E73": {
     "id": "E73",
     "name": "Disease",
     "parentType": "E40",
     "link": "DisID",
-    "iri": "",
+    "iri": "SEPIO-CG:55116",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "Disease"
   },
   "E74": {
     "id": "E74",
     "name": "Phenotype",
     "parentType": "E40",
     "link": "PhenID",
-    "iri": "",
+    "iri": "SEPIO-CG:55117",
     "iri-label": "",
-    "cg-label": ""
-  },
-  "E75": {
-    "id": "E75",
-    "name": "ReferenceSequence",
-    "parentType": "E40",
-    "link": "RSeqID",
-    "iri": "",
-    "iri-label": "",
-    "cg-label": ""
+    "cg-label": "Phenotype"
   },
   "E76": {
     "id": "E76",
     "name": "ContributoryRole",
     "parentType": "E40",
-    "link": "CRID",
-    "iri": "",
+    "link": "ContribRoleID",
+    "iri": "SEPIO-CG:55118",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "ContributoryRole"
   },
   "E77": {
     "id": "E77",
-    "name": "AlleleInheritanceType",
+    "name": "AlleleInheritance",
     "parentType": "E40",
-    "link": "AITID",
-    "iri": "",
+    "link": "AlleleInhID",
+    "iri": "SEPIO-CG:55119",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "AlleleInheritance"
   },
   "E78": {
     "id": "E78",
-    "name": "AscertainmentType",
+    "name": "Ascertainment",
     "parentType": "E40",
-    "link": "AsctTID",
-    "iri": "",
+    "link": "AscrtID",
+    "iri": "SEPIO-CG:55120",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "Ascertainment"
   },
   "E79": {
     "id": "E79",
-    "name": "LocusSpecificityType",
+    "name": "LocusSpecificity",
     "parentType": "E40",
-    "link": "LSTID",
-    "iri": "",
+    "link": "LocSpecID",
+    "iri": "SEPIO-CG:55121",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "LocusSpecificity"
   },
   "E80": {
     "id": "E80",
     "name": "Conservation",
     "parentType": "E40",
     "link": "ConsrvID",
-    "iri": "",
+    "iri": "SEPIO-CG:55122",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "Conservation"
   },
   "E81": {
     "id": "E81",
     "name": "ParentalConfirmation",
     "parentType": "E40",
-    "link": "PCID",
-    "iri": "",
+    "link": "ParenConfID",
+    "iri": "SEPIO-CG:55123",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "ParentalConfirmation"
   },
   "E82": {
     "id": "E82",
     "name": "ConditionStatus",
     "parentType": "E40",
-    "link": "CondStID",
-    "iri": "",
+    "link": "CondStatID",
+    "iri": "SEPIO-CG:55124",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "ConditionStatus"
   },
   "E83": {
     "id": "E83",
     "name": "InconsistentSegregationObserved",
     "parentType": "E40",
-    "link": "ISegObsID",
-    "iri": "",
+    "link": "InconSegObsID",
+    "iri": "SEPIO-CG:55125",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "InconsistentSegregationObserved"
   },
   "E84": {
     "id": "E84",
-    "name": "NullAllele",
+    "name": "NullAlleleOutcome",
     "parentType": "E40",
-    "link": "NullAID",
-    "iri": "",
+    "link": "NullAllOutID",
+    "iri": "SEPIO-CG:55126",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "NullAlleleOutcome"
   },
   "E85": {
     "id": "E85",
     "name": "RegionAllelesOutcome",
     "parentType": "E40",
-    "link": "RegAID",
-    "iri": "",
+    "link": "RegAllOutID",
+    "iri": "SEPIO-CG:55127",
     "iri-label": "",
-    "cg-label": ""
+    "cg-label": "RegionAllelesOutcome"
+  },
+  "E86": {
+    "id": "E86",
+    "name": "ValueSetConceptListExtensibility",
+    "parentType": "E40",
+    "link": "VSCLExtnsID",
+    "iri": "SEPIO-CG:55128",
+    "iri-label": "",
+    "cg-label": "ValueSetConceptListExtensibility"
   }
 }
