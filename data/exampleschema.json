@@ -1,0 +1,147 @@
+{
+	"type": "object",
+	"properties": 
+	{
+		"condition": 
+		{
+			"type": "GeneticCondition",
+			"properties": 
+			{
+				"disease": 
+				{
+					"type": "Disease"
+				},
+				"modeOfInheritance": 
+				{
+					"type": "ModeOfInheritance"
+				}
+			}
+		},
+		"contribution": 
+		{
+			"type": "Contribution",
+			"properties": 
+			{
+				"agent": 
+				{
+					"type": "Agent",
+					"description": "A person, group of people, algorithm, or some other actor that could make a contribution"
+				},
+				"contributionDate": 
+				{
+					"type": "String"
+				},
+				"contributionRole": 
+				{
+					"type": "ModeOfInheritance"
+				}
+			}
+		},
+		"evidenceLine": 
+		{
+			"type": "EvidenceLine",
+			"properties": 
+			{
+				"evidenceItem": 
+				{
+					"type": "EvidenceLine",
+					"properties": 
+					{
+						"contribution": 
+						{
+							"type": "Contribution"
+						},
+						"criterion": 
+						{
+							"type": "criterion"
+						},
+						"description": 
+						{
+							"type": "String",
+							"description": "A human-readable description of the entity"
+						},
+						"evidenceLine": 
+						{
+							"type": "EvidenceLine",
+							"description": "An evidence line represents an independently meaningful argument for or against a particular proposition",
+							"properties": 
+							{
+								"evidenceItem": 
+								{
+									"type": "AlleleFrequency",
+									"properties": 
+									{
+										"allele": 
+										{
+											"type": "CanonicalAllele",
+											"description": "The variant for which the frequency is given"
+										},
+										"alleleCount": 
+										{
+											"type": "int",
+											"description": "Frequency numerator: number of times the allele was observed"
+										},
+										"alleleNumber": 
+										{
+											"type": "int",
+											"description": "Frequency denominator: number of observations"
+										},
+										"ascertainment": 
+										{
+											"type": "AscertainmentType"
+										},
+
+										"contribution": 
+										{
+											"type": "Contribution"
+										},
+
+										"population": 
+										{
+											"type": "PopulationType"
+										}
+									}
+								}
+							}
+						},
+						"id": 
+						{
+							"type": "String"
+						},
+
+						"outcome": 
+						{
+							"type": "CriterionEvaluation"
+						},
+
+						"type": 
+						{
+							"type": "String"
+						},
+
+						"variant": 
+						{
+							"type": "String"
+						}
+					}
+				}
+			}
+		},
+		"id": 
+		{
+			"type": "String"
+		},
+		"outcome": 
+		{
+			"type": "Significance"
+		},
+		"type": 
+		{
+			"type": "String"
+		},
+		"variant": 
+		{
+			"type": "String"
+		}
+	}
+}
