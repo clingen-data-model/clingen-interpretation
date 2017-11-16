@@ -25,7 +25,7 @@
         "properties": [
           {
             "agent": {
-              "type:": "1..1",
+              "type:": "object",
               "description": "A person, group of people, algorithm, or some other actor that could make a contribution",
               "default": "",
               "example": "",
@@ -33,14 +33,14 @@
               "properties": [
                 {
                   "description": {
-                    "type:": "0..1",
+                    "type:": "object",
                     "description": "",
                     "default": "",
                     "example": "",
                     "required": false
                   },
                   "label": {
-                    "type:": "0..1",
+                    "type:": "object",
                     "description": "",
                     "default": "",
                     "example": "",
@@ -50,7 +50,7 @@
               ]
             },
             "contributionDate": {
-              "type:": "0..1",
+              "type:": "object",
               "description": "",
               "default": "null",
               "example": "null",
@@ -60,7 +60,7 @@
               ]
             },
             "contributionRole": {
-              "type:": "1..1",
+              "type:": "object",
               "description": "",
               "default": "null",
               "example": "null",
@@ -113,7 +113,7 @@
         "properties": [
           {
             "description": {
-              "type:": "1..1",
+              "type:": "object",
               "description": "A human-readable description of the entity",
               "default": "not null",
               "example": "not null",
@@ -123,7 +123,7 @@
               ]
             },
             "evidenceItem": {
-              "type:": "0..*",
+              "type:": "array",
               "description": "",
               "default": "",
               "example": "",
@@ -131,35 +131,35 @@
               "properties": [
                 {
                   "qualifier": {
-                    "type:": "0..1",
+                    "type:": "object",
                     "description": "Use “NOT” as the value of this property to assert that the statement is negated.",
                     "default": "null",
                     "example": "null",
                     "required": false
                   },
                   "contribution": {
-                    "type:": "0..*",
+                    "type:": "array",
                     "description": "The contributions (agent, time and role) made to this entity",
                     "default": "null",
                     "example": "null",
                     "required": false
                   },
                   "description": {
-                    "type:": "0..1",
+                    "type:": "object",
                     "description": "A human-readable description of the entity",
                     "default": "null",
                     "example": "null",
                     "required": false
                   },
                   "source": {
-                    "type:": "0..*",
+                    "type:": "array",
                     "description": "",
                     "default": "null",
                     "example": "null",
                     "required": false
                   },
                   "assertionQualifier": {
-                    "type:": "0..1",
+                    "type:": "object",
                     "description": "NOT ",
                     "default": "",
                     "example": "",
@@ -169,7 +169,7 @@
               ]
             },
             "evidenceStrength": {
-              "type:": "0..1",
+              "type:": "object",
               "description": "",
               "default": "",
               "example": "",
@@ -179,7 +179,7 @@
               ]
             },
             "contribution": {
-              "type:": "0..*",
+              "type:": "array",
               "description": "The contributions (agent, time and role) made to this entity",
               "default": "",
               "example": "",
@@ -187,21 +187,21 @@
               "properties": [
                 {
                   "agent": {
-                    "type:": "1..1",
+                    "type:": "object",
                     "description": "A person, group of people, algorithm, or some other actor that could make a contribution",
                     "default": "",
                     "example": "",
                     "required": true
                   },
                   "contributionDate": {
-                    "type:": "0..1",
+                    "type:": "object",
                     "description": "",
                     "default": "null",
                     "example": "null",
                     "required": false
                   },
                   "contributionRole": {
-                    "type:": "1..1",
+                    "type:": "object",
                     "description": "",
                     "default": "null",
                     "example": "null",
@@ -222,7 +222,7 @@
         "properties": [
           {
             "preferredCtxAllele": {
-              "type:": "1..1",
+              "type:": "object",
               "description": "",
               "default": "null",
               "example": "null",
@@ -230,35 +230,35 @@
               "properties": [
                 {
                   "relatedCanonicalAllele": {
-                    "type:": "0..1",
+                    "type:": "object",
                     "description": "",
                     "default": "null",
                     "example": "null",
                     "required": false
                   },
                   "alleleName": {
-                    "type:": "0..1",
+                    "type:": "object",
                     "description": "",
                     "default": "null",
                     "example": "null",
                     "required": false
                   },
                   "legacyNames": {
-                    "type:": "0..*",
+                    "type:": "array",
                     "description": "",
                     "default": "null",
                     "example": "null",
                     "required": false
                   },
                   "produces": {
-                    "type:": "0..*",
+                    "type:": "array",
                     "description": "",
                     "default": "",
                     "example": "",
                     "required": false
                   },
                   "producedBy": {
-                    "type:": "0..*",
+                    "type:": "array",
                     "description": "",
                     "default": "",
                     "example": "",
@@ -279,7 +279,7 @@
         "properties": [
           {
             "phenotype": {
-              "type:": "0..*",
+              "type:": "array",
               "description": "",
               "default": "",
               "example": "",
@@ -289,7 +289,7 @@
               ]
             },
             "modeOfInheritance": {
-              "type:": "0..1",
+              "type:": "object",
               "description": "",
               "default": "",
               "example": "",
@@ -299,7 +299,7 @@
               ]
             },
             "gene": {
-              "type:": "0..1",
+              "type:": "object",
               "description": "",
               "default": "",
               "example": "",
@@ -307,7 +307,7 @@
               "properties": [
                 {
                   "geneSymbol": {
-                    "type:": "1..1",
+                    "type:": "object",
                     "description": "",
                     "default": "",
                     "example": "",
@@ -317,7 +317,7 @@
               ]
             },
             "name": {
-              "type:": "0..1",
+              "type:": "object",
               "description": "",
               "default": "",
               "example": "",
@@ -327,7 +327,7 @@
               ]
             },
             "disease": {
-              "type:": "0..*",
+              "type:": "array",
               "description": "",
               "default": "",
               "example": "",
@@ -358,7 +358,7 @@
         "properties": [
           {
             "url": {
-              "type:": "0..1",
+              "type:": "object",
               "description": "",
               "default": "",
               "example": "",
@@ -368,7 +368,7 @@
               ]
             },
             "version": {
-              "type:": "0..1",
+              "type:": "object",
               "description": "",
               "default": "",
               "example": "",
@@ -378,7 +378,7 @@
               ]
             },
             "scoringAlgorithm": {
-              "type:": "0..1",
+              "type:": "object",
               "description": "",
               "default": "",
               "example": "",
