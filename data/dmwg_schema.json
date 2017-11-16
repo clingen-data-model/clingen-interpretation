@@ -1,0 +1,395 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "VariantInterpretation",
+  "schemadescription": "DMWG VariantInterpretation Json Schema",
+  "type": "object",
+  "id": "http://datamodel.clinicalgenome.org/interpretation/schema/dmwg_schema.json",
+  "properties": [
+    {
+      "qualifier": {
+        "type": "object",
+        "description": "Use “NOT” as the value of this property to assert that the statement is negated.",
+        "default": "null",
+        "example": "null",
+        "required": false,
+        "properties": [
+
+        ]
+      },
+      "contribution": {
+        "type": "array",
+        "description": "The contributions (agent, time and role) made to this entity",
+        "default": "null",
+        "example": "null",
+        "required": false,
+        "properties": [
+          {
+            "agent": {
+              "type:": "1..1",
+              "description": "A person, group of people, algorithm, or some other actor that could make a contribution",
+              "default": "",
+              "example": "",
+              "required": true,
+              "properties": [
+                {
+                  "description": {
+                    "type:": "0..1",
+                    "description": "",
+                    "default": "",
+                    "example": "",
+                    "required": false
+                  },
+                  "label": {
+                    "type:": "0..1",
+                    "description": "",
+                    "default": "",
+                    "example": "",
+                    "required": false
+                  }
+                }
+              ]
+            },
+            "contributionDate": {
+              "type:": "0..1",
+              "description": "",
+              "default": "null",
+              "example": "null",
+              "required": false,
+              "properties": [
+
+              ]
+            },
+            "contributionRole": {
+              "type:": "1..1",
+              "description": "",
+              "default": "null",
+              "example": "null",
+              "required": true,
+              "properties": [
+
+              ]
+            }
+          }
+        ]
+      },
+      "description": {
+        "type": "object",
+        "description": "A human-readable description of the entity",
+        "default": "null",
+        "example": "null",
+        "required": false,
+        "properties": [
+
+        ]
+      },
+      "source": {
+        "type": "array",
+        "description": "",
+        "default": "null",
+        "example": "null",
+        "required": false,
+        "properties": [
+
+        ]
+      },
+      "assertionQualifier": {
+        "type": "object",
+        "description": "NOT ",
+        "default": "",
+        "example": "",
+        "required": false,
+        "properties": [
+
+        ]
+      }
+    },
+    {
+      "evidenceLine": {
+        "type": "array",
+        "description": "** TODO **",
+        "default": "",
+        "example": "",
+        "required": false,
+        "properties": [
+          {
+            "description": {
+              "type:": "1..1",
+              "description": "A human-readable description of the entity",
+              "default": "not null",
+              "example": "not null",
+              "required": true,
+              "properties": [
+
+              ]
+            },
+            "evidenceItem": {
+              "type:": "0..*",
+              "description": "",
+              "default": "",
+              "example": "",
+              "required": false,
+              "properties": [
+                {
+                  "qualifier": {
+                    "type:": "0..1",
+                    "description": "Use “NOT” as the value of this property to assert that the statement is negated.",
+                    "default": "null",
+                    "example": "null",
+                    "required": false
+                  },
+                  "contribution": {
+                    "type:": "0..*",
+                    "description": "The contributions (agent, time and role) made to this entity",
+                    "default": "null",
+                    "example": "null",
+                    "required": false
+                  },
+                  "description": {
+                    "type:": "0..1",
+                    "description": "A human-readable description of the entity",
+                    "default": "null",
+                    "example": "null",
+                    "required": false
+                  },
+                  "source": {
+                    "type:": "0..*",
+                    "description": "",
+                    "default": "null",
+                    "example": "null",
+                    "required": false
+                  },
+                  "assertionQualifier": {
+                    "type:": "0..1",
+                    "description": "NOT ",
+                    "default": "",
+                    "example": "",
+                    "required": false
+                  }
+                }
+              ]
+            },
+            "evidenceStrength": {
+              "type:": "0..1",
+              "description": "",
+              "default": "",
+              "example": "",
+              "required": false,
+              "properties": [
+
+              ]
+            },
+            "contribution": {
+              "type:": "0..*",
+              "description": "The contributions (agent, time and role) made to this entity",
+              "default": "",
+              "example": "",
+              "required": false,
+              "properties": [
+                {
+                  "agent": {
+                    "type:": "1..1",
+                    "description": "A person, group of people, algorithm, or some other actor that could make a contribution",
+                    "default": "",
+                    "example": "",
+                    "required": true
+                  },
+                  "contributionDate": {
+                    "type:": "0..1",
+                    "description": "",
+                    "default": "null",
+                    "example": "null",
+                    "required": false
+                  },
+                  "contributionRole": {
+                    "type:": "1..1",
+                    "description": "",
+                    "default": "null",
+                    "example": "null",
+                    "required": true
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "variant": {
+        "type": "object",
+        "description": "The variant whose pathogenicity is being described",
+        "default": "null",
+        "example": "null",
+        "required": true,
+        "properties": [
+          {
+            "preferredCtxAllele": {
+              "type:": "1..1",
+              "description": "",
+              "default": "null",
+              "example": "null",
+              "required": true,
+              "properties": [
+                {
+                  "relatedCanonicalAllele": {
+                    "type:": "0..1",
+                    "description": "",
+                    "default": "null",
+                    "example": "null",
+                    "required": false
+                  },
+                  "alleleName": {
+                    "type:": "0..1",
+                    "description": "",
+                    "default": "null",
+                    "example": "null",
+                    "required": false
+                  },
+                  "legacyNames": {
+                    "type:": "0..*",
+                    "description": "",
+                    "default": "null",
+                    "example": "null",
+                    "required": false
+                  },
+                  "produces": {
+                    "type:": "0..*",
+                    "description": "",
+                    "default": "",
+                    "example": "",
+                    "required": false
+                  },
+                  "producedBy": {
+                    "type:": "0..*",
+                    "description": "",
+                    "default": "",
+                    "example": "",
+                    "required": false
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "condition": {
+        "type": "array",
+        "description": "The condition for which the variant's pathogenicity is described",
+        "default": "null",
+        "example": "null",
+        "required": false,
+        "properties": [
+          {
+            "phenotype": {
+              "type:": "0..*",
+              "description": "",
+              "default": "",
+              "example": "",
+              "required": false,
+              "properties": [
+
+              ]
+            },
+            "modeOfInheritance": {
+              "type:": "0..1",
+              "description": "",
+              "default": "",
+              "example": "",
+              "required": false,
+              "properties": [
+
+              ]
+            },
+            "gene": {
+              "type:": "0..1",
+              "description": "",
+              "default": "",
+              "example": "",
+              "required": false,
+              "properties": [
+                {
+                  "geneSymbol": {
+                    "type:": "1..1",
+                    "description": "",
+                    "default": "",
+                    "example": "",
+                    "required": true
+                  }
+                }
+              ]
+            },
+            "name": {
+              "type:": "0..1",
+              "description": "",
+              "default": "",
+              "example": "",
+              "required": false,
+              "properties": [
+
+              ]
+            },
+            "disease": {
+              "type:": "0..*",
+              "description": "",
+              "default": "",
+              "example": "",
+              "required": false,
+              "properties": [
+
+              ]
+            }
+          }
+        ]
+      },
+      "outcome": {
+        "type": "object",
+        "description": "The coded pathogenicity of the variant for the condition",
+        "default": "null",
+        "example": "null",
+        "required": true,
+        "properties": [
+
+        ]
+      },
+      "assertionMethod": {
+        "type": "object",
+        "description": "The  framework that formally defines the methodology used in creating this interpretation.",
+        "default": "null",
+        "example": "null",
+        "required": false,
+        "properties": [
+          {
+            "url": {
+              "type:": "0..1",
+              "description": "",
+              "default": "",
+              "example": "",
+              "required": false,
+              "properties": [
+
+              ]
+            },
+            "version": {
+              "type:": "0..1",
+              "description": "",
+              "default": "",
+              "example": "",
+              "required": false,
+              "properties": [
+
+              ]
+            },
+            "scoringAlgorithm": {
+              "type:": "0..1",
+              "description": "",
+              "default": "",
+              "example": "",
+              "required": false,
+              "properties": [
+
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
