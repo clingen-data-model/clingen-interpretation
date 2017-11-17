@@ -2,58 +2,76 @@
 	"type": "object",
 	"properties": 
 	{
-		"condition": {
-        "type": "array",
-        "description": "The condition for which the variant's pathogenicity is described",
-        "default": "null",
-        "example": "null",
-        "required": false,
-        "properties": 
-          {
-            "phenotype": {
-              "type:": "array",
-              "description": ""
-            },
-            "modeOfInheritance": {
-              "type:": "object",
-              "description": ""
-            },
-            "gene": {
-              "type:": "object",
-              "description": ""
-            },
-            "name": {
-              "type:": "object",
-              "description": ""
-            },
-            "disease": {
-              "type:": "array",
-              "description": ""
-            }
-          }
-        },
-		"contribution": {
-        "type": "array",
-        "description": "The contributions (agent, time and role) made to this entity",
-        "default": "null",
-        "example": "null",
-        "required": false,
-        "properties": 
-          {
-            "agent": {
-              "type:": "object",
-              "description": "A person, group of people, algorithm, or some other actor that could make a contribution"
-            },
-            "contributionDate": {
-              "type:": "object",
-              "description": ""
-            },
-            "contributionRole": {
-              "type:": "object",
-              "description": ""
-            }
-          }       
-      	},
+		"condition": 
+		{
+			"type": "array",
+			"description": "The condition for which the variant's pathogenicity is described",
+			"default": "null",
+			"example": "null",
+			"required": false,
+			"properties": 
+			{
+				"phenotype": 
+				{
+					"type:": "array",
+					"description": ""
+				},
+
+				"modeOfInheritance": 
+				{
+					"type:": "object",
+					"description": ""
+				},
+
+				"gene": 
+				{
+					"type:": "object",
+					"description": ""
+				},
+
+				"name": 
+				{
+					"type:": "object",
+					"description": ""
+				},
+
+				"disease": 
+				{
+					"type:": "array",
+					"description": ""
+				}
+			}
+		},
+
+		"contribution": 
+		{
+			"type": "array",
+			"description": "The contributions (agent, time and role) made to this entity",
+			"default": "null",
+			"example": "null",
+			"required": false,
+			"properties": 
+			{
+				"agent": 
+				{
+					"type:": "object",
+					"description": "A person, group of people, algorithm, or some other actor that could make a contribution"
+				},
+
+				"contributionDate": 
+				{
+					"type:": "object",
+					"description": ""
+				},
+
+				"contributionRole": 
+				{
+					"type:": "object",
+					"description": ""
+				}
+			}
+		},
+
 		"evidenceLine": 
 		{
 			"type": "EvidenceLine",
@@ -68,15 +86,18 @@
 						{
 							"type": "Contribution"
 						},
+
 						"criterion": 
 						{
 							"type": "criterion"
 						},
+
 						"description": 
 						{
 							"type": "String",
 							"description": "A human-readable description of the entity"
 						},
+
 						"evidenceLine": 
 						{
 							"type": "EvidenceLine",
@@ -93,16 +114,19 @@
 											"type": "CanonicalAllele",
 											"description": "The variant for which the frequency is given"
 										},
+
 										"alleleCount": 
 										{
 											"type": "int",
 											"description": "Frequency numerator: number of times the allele was observed"
 										},
+
 										"alleleNumber": 
 										{
 											"type": "int",
 											"description": "Frequency denominator: number of observations"
 										},
+
 										"ascertainment": 
 										{
 											"type": "AscertainmentType"
@@ -121,6 +145,7 @@
 								}
 							}
 						},
+
 						"id": 
 						{
 							"type": "String"
@@ -142,91 +167,117 @@
 						}
 					}
 				},
-				"description": {
-              		"type:": "object",
-              		"description": "A human-readable description of the entity"
-            	},
-            	"evidenceStrength": {
-              		"type:": "object",
-              		"description": ""
-            	},
-            	"contribution": {
-              		"type:": "array",
-              		"description": "The contributions (agent, time and role) made to this entity"
-            	}
+
+				"description": 
+				{
+					"type:": "object",
+					"description": "A human-readable description of the entity"
+				},
+
+				"evidenceStrength": 
+				{
+					"type:": "object",
+					"description": ""
+				},
+
+				"contribution": 
+				{
+					"type:": "array",
+					"description": "The contributions (agent, time and role) made to this entity"
+				}
 			}
 		},
-		"description": {
-        "type": "object",
-        "description": "A human-readable description of the entity",
-        "default": "null",
-        "example": "null",
-        "required": false
-      	},
-      	"source": {
-        "type": "array",
-        "description": "",
-        "default": "null",
-        "example": "null",
-        "required": false  
-      	},
-        "assertionQualifier": {
-        "type": "object",
-        "description": "NOT ",
-        "default": "",
-        "example": "",
-        "required": false
-      	},
+
+		"description": 
+		{
+			"type": "object",
+			"description": "A human-readable description of the entity",
+			"default": "null",
+			"example": "null",
+			"required": false
+		},
+
+		"source": 
+		{
+			"type": "array",
+			"description": "",
+			"default": "null",
+			"example": "null",
+			"required": false
+		},
+
+		"assertionQualifier": 
+		{
+			"type": "object",
+			"description": "NOT ",
+			"default": "",
+			"example": "",
+			"required": false
+		},
+
 		"id": 
 		{
 			"type": "String"
 		},
-		"outcome": {
-        "type": "object",
-        "description": "The coded pathogenicity of the variant for the condition",
-        "default": "null",
-        "example": "null",
-        "required": true
-      	},
-      	"assertionMethod": {
-        "type": "object",
-        "description": "The  framework that formally defines the methodology used in creating this interpretation.",
-        "default": "null",
-        "example": "null",
-        "required": false,
-        "properties": 
-          {
-            "url": {
-              "type:": "object",
-              "description": ""
-            },
-            "version": {
-              "type:": "object",
-              "description": ""
-            },
-            "scoringAlgorithm": {
-              "type:": "object",
-              "description": ""
-            }
-          }
-      	},
+
+		"outcome": 
+		{
+			"type": "object",
+			"description": "The coded pathogenicity of the variant for the condition",
+			"default": "null",
+			"example": "null",
+			"required": true
+		},
+
+		"assertionMethod": 
+		{
+			"type": "object",
+			"description": "The  framework that formally defines the methodology used in creating this interpretation.",
+			"default": "null",
+			"example": "null",
+			"required": false,
+			"properties": 
+			{
+				"url": 
+				{
+					"type:": "object",
+					"description": ""
+				},
+
+				"version": 
+				{
+					"type:": "object",
+					"description": ""
+				},
+
+				"scoringAlgorithm": 
+				{
+					"type:": "object",
+					"description": ""
+				}
+			}
+		},
+
 		"type": 
 		{
 			"type": "String"
 		},
-		"variant": {
-        "type": "object",
-        "description": "The variant whose pathogenicity is being described",
-        "default": "null",
-        "example": "null",
-        "required": true,
-        "properties": 
-          {
-            "preferredCtxAllele": {
-              "type:": "object",
-              "description": ""
-            }
-          }       
-       }
+
+		"variant": 
+		{
+			"type": "object",
+			"description": "The variant whose pathogenicity is being described",
+			"default": "null",
+			"example": "null",
+			"required": true,
+			"properties": 
+			{
+				"preferredCtxAllele": 
+				{
+					"type:": "object",
+					"description": ""
+				}
+			}
+		}
 	}
 }
