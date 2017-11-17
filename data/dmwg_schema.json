@@ -1,20 +1,13 @@
 {
-  "$schema": "http://json-schema.org/draft-06/schema#",
-  "title": "VariantInterpretation",
-  "schemadescription": "DMWG VariantInterpretation Json Schema",
-  "type": "object",
-  "id": "http://datamodel.clinicalgenome.org/interpretation/schema/dmwg_schema.json",
-  "properties": [
+  "type": "object",  
+  "properties": 
     {
       "qualifier": {
         "type": "object",
         "description": "Use “NOT” as the value of this property to assert that the statement is negated.",
         "default": "null",
         "example": "null",
-        "required": false,
-        "properties": [
-
-        ]
+        "required": false      
       },
       "contribution": {
         "type": "array",
@@ -22,7 +15,7 @@
         "default": "null",
         "example": "null",
         "required": false,
-        "properties": [
+        "properties": 
           {
             "agent": {
               "type:": "object",
@@ -30,7 +23,7 @@
               "default": "",
               "example": "",
               "required": true,
-              "properties": [
+              "properties": 
                 {
                   "description": {
                     "type:": "object",
@@ -46,89 +39,67 @@
                     "example": "",
                     "required": false
                   }
-                }
-              ]
+                }              
             },
             "contributionDate": {
               "type:": "object",
               "description": "",
               "default": "null",
               "example": "null",
-              "required": false,
-              "properties": [
-
-              ]
+              "required": false  
             },
             "contributionRole": {
               "type:": "object",
               "description": "",
               "default": "null",
               "example": "null",
-              "required": true,
-              "properties": [
-
-              ]
+              "required": true            
             }
           }
-        ]
       },
       "description": {
         "type": "object",
         "description": "A human-readable description of the entity",
         "default": "null",
         "example": "null",
-        "required": false,
-        "properties": [
-
-        ]
+        "required": false        
       },
       "source": {
         "type": "array",
         "description": "",
         "default": "null",
         "example": "null",
-        "required": false,
-        "properties": [
-
-        ]
+        "required": false        
       },
       "assertionQualifier": {
         "type": "object",
         "description": "NOT ",
         "default": "",
         "example": "",
-        "required": false,
-        "properties": [
-
-        ]
-      }
-    },
-    {
+        "required": false
+       },  
       "evidenceLine": {
         "type": "array",
         "description": "** TODO **",
         "default": "",
         "example": "",
         "required": false,
-        "properties": [
+        "properties": 
           {
             "description": {
               "type:": "object",
               "description": "A human-readable description of the entity",
               "default": "not null",
               "example": "not null",
-              "required": true,
-              "properties": [
-
-              ]
-            },
+              "required": true
+             },
             "evidenceItem": {
               "type:": "array",
               "description": "",
               "default": "",
               "example": "",
               "required": false,
-              "properties": [
+              "properties":
                 {
                   "qualifier": {
                     "type:": "object",
@@ -166,25 +137,21 @@
                     "required": false
                   }
                 }
-              ]
             },
             "evidenceStrength": {
               "type:": "object",
               "description": "",
               "default": "",
               "example": "",
-              "required": false,
-              "properties": [
-
-              ]
-            },
+              "required": false
+             },
             "contribution": {
               "type:": "array",
               "description": "The contributions (agent, time and role) made to this entity",
               "default": "",
               "example": "",
               "required": false,
-              "properties": [
+              "properties": 
                 {
                   "agent": {
                     "type:": "object",
@@ -208,18 +175,16 @@
                     "required": true
                   }
                 }
-              ]
             }
           }
-        ]
       },
       "variant": {
-        "type": "object",
+        "type": "string",
         "description": "The variant whose pathogenicity is being described",
         "default": "null",
         "example": "null",
         "required": true,
-        "properties": [
+        "properties": 
           {
             "preferredCtxAllele": {
               "type:": "object",
@@ -227,7 +192,7 @@
               "default": "null",
               "example": "null",
               "required": true,
-              "properties": [
+              "properties": 
                 {
                   "relatedCanonicalAllele": {
                     "type:": "object",
@@ -264,11 +229,9 @@
                     "example": "",
                     "required": false
                   }
-                }
-              ]
+                }              
             }
           }
-        ]
       },
       "condition": {
         "type": "array",
@@ -276,27 +239,21 @@
         "default": "null",
         "example": "null",
         "required": false,
-        "properties": [
+        "properties": 
           {
             "phenotype": {
               "type:": "array",
               "description": "",
               "default": "",
               "example": "",
-              "required": false,
-              "properties": [
-
-              ]
+              "required": false             
             },
             "modeOfInheritance": {
               "type:": "object",
               "description": "",
               "default": "",
               "example": "",
-              "required": false,
-              "properties": [
-
-              ]
+              "required": false              
             },
             "gene": {
               "type:": "object",
@@ -304,7 +261,7 @@
               "default": "",
               "example": "",
               "required": false,
-              "properties": [
+              "properties": 
                 {
                   "geneSymbol": {
                     "type:": "object",
@@ -313,41 +270,31 @@
                     "example": "",
                     "required": true
                   }
-                }
-              ]
+                }             
             },
             "name": {
               "type:": "object",
               "description": "",
               "default": "",
               "example": "",
-              "required": false,
-              "properties": [
-
-              ]
-            },
+              "required": false              
+             },
             "disease": {
               "type:": "array",
               "description": "",
               "default": "",
               "example": "",
-              "required": false,
-              "properties": [
-
-              ]
+              "required": false
             }
-          }
-        ]
+          }        
       },
       "outcome": {
         "type": "object",
         "description": "The coded pathogenicity of the variant for the condition",
         "default": "null",
         "example": "null",
-        "required": true,
-        "properties": [
-
-        ]
+        "required": true
+        
       },
       "assertionMethod": {
         "type": "object",
@@ -355,41 +302,32 @@
         "default": "null",
         "example": "null",
         "required": false,
-        "properties": [
+        "properties": 
           {
             "url": {
               "type:": "object",
               "description": "",
               "default": "",
               "example": "",
-              "required": false,
-              "properties": [
-
-              ]
+              "required": false
             },
             "version": {
               "type:": "object",
               "description": "",
               "default": "",
               "example": "",
-              "required": false,
-              "properties": [
-
-              ]
+              "required": false
             },
             "scoringAlgorithm": {
               "type:": "object",
               "description": "",
               "default": "",
               "example": "",
-              "required": false,
-              "properties": [
-
-              ]
+              "required": false
             }
-          }
-        ]
+        }        
       }
-    }
-  ]
-}
+    },
+      "required":[]
+} 
+   
