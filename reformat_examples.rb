@@ -150,7 +150,7 @@ class DMWGExampleData
 
   def convert_value(value, type)
     case type
-    when 'String'
+    when 'string'
       value
     when 'Datetime'
       value
@@ -158,9 +158,9 @@ class DMWGExampleData
       value
     when 'Date'
       value
-    when 'int'
+    when 'integer'
       value.to_i
-    when 'float'
+    when 'number'
       value.to_f
     when 'boolean'
       !!value
