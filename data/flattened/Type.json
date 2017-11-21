@@ -262,23 +262,29 @@
   },
   "E28": {
     "id": "E28",
-    "name": "IndividualAllele",
+    "name": "IndividualGenotype",
     "parentType": "E01",
-    "link": "IndAll",
+    "link": "IndGeno",
     "iri": "SEPIO:0000245",
-    "iri-label": "individual allele statement",
-    "cg-label": "IndividualAllele",
+    "iri-label": "individual genotype statement",
+    "cg-label": "IndividualGenotype",
     "description": "A statement describing the allelic state of one or more alleles in the genome of an individual (e.g. zygosity information, or phase relative to a second allele).",
     "comments": ""
   },
   "E29": {
     "id": "E29",
-    "name": "ExcludedRegionType",
-    "parentType": "E01",
-    "link": "ExclRegTyp",
+    "name": "Haplotype",
+    "parentType": "E40",
+    "link": "Haplo"
+  },
+  "E30": {
+    "id": "E30",
+    "name": "Genotype",
+    "parentType": "E40",
+    "link": "Geno",
     "iri": "",
     "iri-label": "",
-    "cg-label": "ExcludedRegionType",
+    "cg-label": "Genotype",
     "description": "",
     "comments": ""
   },

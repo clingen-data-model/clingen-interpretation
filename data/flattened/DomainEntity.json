@@ -389,18 +389,6 @@
     "@id": "HP:0025352",
     "domainEntityType": "ModeOfInheritance"
   },
-  "RefSeqRelID068": {
-    "id": "RefSeqRelID068",
-    "entityTypeId": "E63",
-    "@id": "RO:0003000",
-    "domainEntityType": "ReferenceSequenceRelated"
-  },
-  "RefSeqRelID069": {
-    "id": "RefSeqRelID069",
-    "entityTypeId": "E63",
-    "@id": "RO:0003001",
-    "domainEntityType": "ReferenceSequenceRelated"
-  },
   "MechID070": {
     "id": "MechID070",
     "entityTypeId": "E64",
@@ -1244,13 +1232,7 @@
   "ConsrvID212": {
     "id": "ConsrvID212",
     "entityTypeId": "E80",
-    "@id": "SEPIO-CG:99003",
-    "domainEntityType": "Conservation"
-  },
-  "ConsrvID213": {
-    "id": "ConsrvID213",
-    "entityTypeId": "E80",
-    "@id": "SEPIO-CG:99004",
+    "@id": "SO:0000330",
     "domainEntityType": "Conservation"
   },
   "ParenConfID214": {
@@ -1310,25 +1292,19 @@
   "NullAllOutID223": {
     "id": "NullAllOutID223",
     "entityTypeId": "E84",
-    "@id": "SO:0002054",
-    "domainEntityType": "NullAlleleOutcome"
-  },
-  "NullAllOutID224": {
-    "id": "NullAllOutID224",
-    "entityTypeId": "E84",
-    "@id": "SEPIO-CG:99015",
+    "@id": "SO:0002055",
     "domainEntityType": "NullAlleleOutcome"
   },
   "RegAllOutID225": {
     "id": "RegAllOutID225",
     "entityTypeId": "E85",
-    "@id": "SEPIO-CG:99020",
+    "@id": "RO:0002656",
     "domainEntityType": "RegionAllelesOutcome"
   },
   "RegAllOutID226": {
     "id": "RegAllOutID226",
     "entityTypeId": "E85",
-    "@id": "SEPIO-CG:99021",
+    "@id": "RO:00002527",
     "domainEntityType": "RegionAllelesOutcome"
   },
   "G227": {
@@ -2224,5 +2200,341 @@
     "entityTypeId": "E86",
     "@id": "SEPIO-CG:02102",
     "domainEntityType": "ValueSetConceptListExtensibility"
+  },
+  "Haplo376": {
+    "id": "Haplo376",
+    "entityTypeId": "E29",
+    "@id": "_b4400",
+    "domainEntityType": "Haplotype"
+  },
+  "Haplo377": {
+    "id": "Haplo377",
+    "entityTypeId": "E29",
+    "@id": "_b4401",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno378": {
+    "id": "Geno378",
+    "entityTypeId": "E30",
+    "@id": "_b4402",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo379": {
+    "id": "Haplo379",
+    "entityTypeId": "E29",
+    "@id": "_b4403",
+    "domainEntityType": "Haplotype"
+  },
+  "Haplo380": {
+    "id": "Haplo380",
+    "entityTypeId": "E29",
+    "@id": "_b4404",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno381": {
+    "id": "Geno381",
+    "entityTypeId": "E30",
+    "@id": "_b4405",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo382": {
+    "id": "Haplo382",
+    "entityTypeId": "E29",
+    "@id": "_b4406",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno383": {
+    "id": "Geno383",
+    "entityTypeId": "E30",
+    "@id": "_b4407",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo384": {
+    "id": "Haplo384",
+    "entityTypeId": "E29",
+    "@id": "_b4408",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno385": {
+    "id": "Geno385",
+    "entityTypeId": "E30",
+    "@id": "_b4409",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo386": {
+    "id": "Haplo386",
+    "entityTypeId": "E29",
+    "@id": "_b4410",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno387": {
+    "id": "Geno387",
+    "entityTypeId": "E30",
+    "@id": "_b4411",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo388": {
+    "id": "Haplo388",
+    "entityTypeId": "E29",
+    "@id": "_b4412",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno389": {
+    "id": "Geno389",
+    "entityTypeId": "E30",
+    "@id": "_b4413",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo390": {
+    "id": "Haplo390",
+    "entityTypeId": "E29",
+    "@id": "_b4414",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno391": {
+    "id": "Geno391",
+    "entityTypeId": "E30",
+    "@id": "_b4415",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo392": {
+    "id": "Haplo392",
+    "entityTypeId": "E29",
+    "@id": "_b4416",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno393": {
+    "id": "Geno393",
+    "entityTypeId": "E30",
+    "@id": "_b4417",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo394": {
+    "id": "Haplo394",
+    "entityTypeId": "E29",
+    "@id": "_b4418",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno395": {
+    "id": "Geno395",
+    "entityTypeId": "E30",
+    "@id": "_b4419",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo396": {
+    "id": "Haplo396",
+    "entityTypeId": "E29",
+    "@id": "_b4420",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno397": {
+    "id": "Geno397",
+    "entityTypeId": "E30",
+    "@id": "_b4421",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo398": {
+    "id": "Haplo398",
+    "entityTypeId": "E29",
+    "@id": "_b4422",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno399": {
+    "id": "Geno399",
+    "entityTypeId": "E30",
+    "@id": "_b4423",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo400": {
+    "id": "Haplo400",
+    "entityTypeId": "E29",
+    "@id": "_b4424",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno401": {
+    "id": "Geno401",
+    "entityTypeId": "E30",
+    "@id": "_b4425",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo402": {
+    "id": "Haplo402",
+    "entityTypeId": "E29",
+    "@id": "_b4426",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno403": {
+    "id": "Geno403",
+    "entityTypeId": "E30",
+    "@id": "_b4427",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo404": {
+    "id": "Haplo404",
+    "entityTypeId": "E29",
+    "@id": "_b4428",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno405": {
+    "id": "Geno405",
+    "entityTypeId": "E30",
+    "@id": "_b4429",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo406": {
+    "id": "Haplo406",
+    "entityTypeId": "E29",
+    "@id": "_b4430",
+    "domainEntityType": "Haplotype"
+  },
+  "Haplo407": {
+    "id": "Haplo407",
+    "entityTypeId": "E29",
+    "@id": "_b4431",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno408": {
+    "id": "Geno408",
+    "entityTypeId": "E30",
+    "@id": "_b4432",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo409": {
+    "id": "Haplo409",
+    "entityTypeId": "E29",
+    "@id": "_b4433",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno410": {
+    "id": "Geno410",
+    "entityTypeId": "E30",
+    "@id": "_b4434",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo411": {
+    "id": "Haplo411",
+    "entityTypeId": "E29",
+    "@id": "_b4435",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno412": {
+    "id": "Geno412",
+    "entityTypeId": "E30",
+    "@id": "_b4436",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo413": {
+    "id": "Haplo413",
+    "entityTypeId": "E29",
+    "@id": "_b4437",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno414": {
+    "id": "Geno414",
+    "entityTypeId": "E30",
+    "@id": "_b4438",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo415": {
+    "id": "Haplo415",
+    "entityTypeId": "E29",
+    "@id": "_b4439",
+    "domainEntityType": "Haplotype"
+  },
+  "Haplo416": {
+    "id": "Haplo416",
+    "entityTypeId": "E29",
+    "@id": "_b4440",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno417": {
+    "id": "Geno417",
+    "entityTypeId": "E30",
+    "@id": "_b4441",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo418": {
+    "id": "Haplo418",
+    "entityTypeId": "E29",
+    "@id": "_b4442",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno419": {
+    "id": "Geno419",
+    "entityTypeId": "E30",
+    "@id": "_b4443",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo420": {
+    "id": "Haplo420",
+    "entityTypeId": "E29",
+    "@id": "_b4444",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno421": {
+    "id": "Geno421",
+    "entityTypeId": "E30",
+    "@id": "_b4445",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo422": {
+    "id": "Haplo422",
+    "entityTypeId": "E29",
+    "@id": "_b4446",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno423": {
+    "id": "Geno423",
+    "entityTypeId": "E30",
+    "@id": "_b4447",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo424": {
+    "id": "Haplo424",
+    "entityTypeId": "E29",
+    "@id": "_b4448",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno425": {
+    "id": "Geno425",
+    "entityTypeId": "E30",
+    "@id": "_b4449",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo426": {
+    "id": "Haplo426",
+    "entityTypeId": "E29",
+    "@id": "_b4450",
+    "domainEntityType": "Haplotype"
+  },
+  "Haplo427": {
+    "id": "Haplo427",
+    "entityTypeId": "E29",
+    "@id": "_b4451",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno428": {
+    "id": "Geno428",
+    "entityTypeId": "E30",
+    "@id": "_b4452",
+    "domainEntityType": "Genotype"
+  },
+  "Haplo429": {
+    "id": "Haplo429",
+    "entityTypeId": "E29",
+    "@id": "_b4453",
+    "domainEntityType": "Haplotype"
+  },
+  "Haplo430": {
+    "id": "Haplo430",
+    "entityTypeId": "E29",
+    "@id": "_b4454",
+    "domainEntityType": "Haplotype"
+  },
+  "Geno431": {
+    "id": "Geno431",
+    "entityTypeId": "E30",
+    "@id": "_b4455",
+    "domainEntityType": "Genotype"
   }
 }
