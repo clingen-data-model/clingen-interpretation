@@ -2720,41 +2720,68 @@
     "statementType": "AlleleMolecularConsequence"
   },
   {
-    "subjectId": "Conserv071",
+    "subjectId": "CatAllConserv071",
     "attributeId": "A111",
     "value": "CanAll118",
     "attributeName": "allele",
     "attributeType": "CanonicalAllele",
-    "statementType": "AlleleConservation"
+    "statementType": "CategoricalAlleleConservation"
   },
   {
-    "subjectId": "Conserv071",
+    "subjectId": "CatAllConserv071",
     "attributeId": "A112",
-    "value": "ConsrvID212"
+    "value": "ConsrvID212",
+    "attributeName": "conservationType",
+    "attributeType": "Conservation",
+    "statementType": "CategoricalAlleleConservation"
   },
   {
-    "subjectId": "Conserv071",
+    "subjectId": "CatAllConserv071",
     "attributeId": "A004",
     "value": "NOT",
     "attributeName": "qualifier",
     "attributeType": "string",
-    "statementType": "AlleleConservation"
+    "statementType": "CategoricalAlleleConservation"
   },
   {
-    "subjectId": "Conserv071",
+    "subjectId": "CatAllConserv071",
     "attributeId": "A113",
     "value": "phyloP",
     "attributeName": "algorithm",
     "attributeType": "string",
-    "statementType": "AlleleConservation"
+    "statementType": "CategoricalAlleleConservation"
   },
   {
-    "subjectId": "Conserv071",
+    "subjectId": "QntAllConserv116",
+    "attributeId": "A111",
+    "value": "CanAll118",
+    "attributeName": "allele",
+    "attributeType": "CanonicalAllele",
+    "statementType": "QuantitativeAlleleConservation"
+  },
+  {
+    "subjectId": "QntAllConserv116",
+    "attributeId": "A112",
+    "value": "ConsrvID212",
+    "attributeName": "conservationType",
+    "attributeType": "Conservation",
+    "statementType": "QuantitativeAlleleConservation"
+  },
+  {
+    "subjectId": "QntAllConserv116",
+    "attributeId": "A113",
+    "value": "phyloP",
+    "attributeName": "algorithm",
+    "attributeType": "string",
+    "statementType": "QuantitativeAlleleConservation"
+  },
+  {
+    "subjectId": "QntAllConserv116",
     "attributeId": "A114",
     "value": "-0.76",
     "attributeName": "score",
     "attributeType": "number",
-    "statementType": "AlleleConservation"
+    "statementType": "QuantitativeAlleleConservation"
   },
   {
     "subjectId": "Conserv072",
@@ -2762,12 +2789,15 @@
     "value": "CanAll118",
     "attributeName": "allele",
     "attributeType": "CanonicalAllele",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv072",
     "attributeId": "A112",
-    "value": "ConsrvID212"
+    "value": "ConsrvID212",
+    "attributeName": "conservationType",
+    "attributeType": "Conservation",
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv072",
@@ -2775,7 +2805,7 @@
     "value": "NOT",
     "attributeName": "qualifier",
     "attributeType": "string",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv072",
@@ -2783,7 +2813,7 @@
     "value": "PhastCons",
     "attributeName": "algorithm",
     "attributeType": "string",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv072",
@@ -2791,7 +2821,7 @@
     "value": "0.63",
     "attributeName": "score",
     "attributeType": "number",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "RegTyp073",
@@ -8470,15 +8500,15 @@
     "value": "CanAll117",
     "attributeName": "allele",
     "attributeType": "CanonicalAllele",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv259",
     "attributeId": "A112",
     "value": "ConsrvID212",
-    "attributeName": "outcome",
+    "attributeName": "conservationType",
     "attributeType": "Conservation",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv259",
@@ -8486,7 +8516,7 @@
     "value": "NOT",
     "attributeName": "qualifier",
     "attributeType": "string",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv259",
@@ -8494,7 +8524,7 @@
     "value": "phyloP",
     "attributeName": "algorithm",
     "attributeType": "string",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv259",
@@ -8502,7 +8532,7 @@
     "value": -2.297,
     "attributeName": "score",
     "attributeType": "number",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv260",
@@ -8510,15 +8540,15 @@
     "value": "CanAll117",
     "attributeName": "allele",
     "attributeType": "CanonicalAllele",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv260",
     "attributeId": "A112",
     "value": "ConsrvID212",
-    "attributeName": "outcome",
+    "attributeName": "conservationType",
     "attributeType": "Conservation",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv260",
@@ -8526,7 +8556,7 @@
     "value": "NOT",
     "attributeName": "qualifier",
     "attributeType": "string",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv260",
@@ -8534,7 +8564,7 @@
     "value": "PhastCons",
     "attributeName": "algorithm",
     "attributeType": "string",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv260",
@@ -8542,7 +8572,7 @@
     "value": 0.039,
     "attributeName": "score",
     "attributeType": "number",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "MolCon261",
@@ -8606,15 +8636,15 @@
     "value": "CanAll118",
     "attributeName": "allele",
     "attributeType": "CanonicalAllele",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv263",
     "attributeId": "A112",
     "value": "ConsrvID212",
-    "attributeName": "outcome",
+    "attributeName": "conservationType",
     "attributeType": "Conservation",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv263",
@@ -8622,7 +8652,7 @@
     "value": "NOT",
     "attributeName": "qualifier",
     "attributeType": "string",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv263",
@@ -8630,7 +8660,7 @@
     "value": "phyloP",
     "attributeName": "algorithm",
     "attributeType": "string",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv263",
@@ -8638,7 +8668,7 @@
     "value": -0.76,
     "attributeName": "score",
     "attributeType": "number",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv264",
@@ -8646,15 +8676,15 @@
     "value": "CanAll118",
     "attributeName": "allele",
     "attributeType": "CanonicalAllele",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv264",
     "attributeId": "A112",
     "value": "ConsrvID212",
-    "attributeName": "outcome",
+    "attributeName": "conservationType",
     "attributeType": "Conservation",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv264",
@@ -8662,7 +8692,7 @@
     "value": "NOT",
     "attributeName": "qualifier",
     "attributeType": "string",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv264",
@@ -8670,7 +8700,7 @@
     "value": "PhastCons",
     "attributeName": "algorithm",
     "attributeType": "string",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv264",
@@ -8678,7 +8708,7 @@
     "value": 0.63,
     "attributeName": "score",
     "attributeType": "number",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "MolCon265",
@@ -8734,15 +8764,15 @@
     "value": "CanAll119",
     "attributeName": "allele",
     "attributeType": "CanonicalAllele",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv267",
     "attributeId": "A112",
     "value": "ConsrvID212",
-    "attributeName": "outcome",
+    "attributeName": "conservationType",
     "attributeType": "Conservation",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv267",
@@ -8750,7 +8780,7 @@
     "value": "NOT",
     "attributeName": "qualifier",
     "attributeType": "string",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv267",
@@ -8758,7 +8788,7 @@
     "value": "phyloP",
     "attributeName": "algorithm",
     "attributeType": "string",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv267",
@@ -8766,7 +8796,7 @@
     "value": 0.45,
     "attributeName": "score",
     "attributeType": "number",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv268",
@@ -8774,15 +8804,15 @@
     "value": "CanAll119",
     "attributeName": "allele",
     "attributeType": "CanonicalAllele",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv268",
     "attributeId": "A112",
     "value": "ConsrvID212",
-    "attributeName": "outcome",
+    "attributeName": "conservationType",
     "attributeType": "Conservation",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv268",
@@ -8790,7 +8820,7 @@
     "value": "NOT",
     "attributeName": "qualifier",
     "attributeType": "string",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv268",
@@ -8798,7 +8828,7 @@
     "value": "PhastCons",
     "attributeName": "algorithm",
     "attributeType": "string",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "Conserv268",
@@ -8806,7 +8836,7 @@
     "value": 1.0,
     "attributeName": "score",
     "attributeType": "number",
-    "statementType": "AlleleConservation"
+    "statementType": "#N/A"
   },
   {
     "subjectId": "MolCon269",

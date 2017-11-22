@@ -91,6 +91,7 @@
     "cg-label": "contributionDate",
     "valueSetName": "",
     "precedence": 2.0,
+    "description": "TODO",
     "fullyQualifiedName": "Contribution.contributionDate"
   },
   "A008": {
@@ -107,6 +108,7 @@
     "restrictByValueSet": "No",
     "valueSetName": "@id : \"SEPIO-CG:65120\", label: \"Contribution Role\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
+    "description": "TODO",
     "fullyQualifiedName": "Contribution.contributionRole"
   },
   "A009": {
@@ -1595,20 +1597,20 @@
     "valueSetName": "",
     "precedence": 1.0,
     "description": "The allele for which conservation values are given",
-    "fullyQualifiedName": "AlleleConservation.allele"
+    "fullyQualifiedName": "CategoricalAlleleConservation.allele"
   },
   "A112": {
     "id": "A112",
     "entityId": "E51",
-    "name": "outcome",
+    "name": "conservationType",
     "dataType": "Conservation",
     "cardinality": "1..1",
     "iri": "SEPIO:0000197",
     "iri-label": "asserted_conclusion",
-    "cg-label": "outcome",
+    "cg-label": "conservationType",
     "precedence": 2.0,
     "description": "The conservation classification from sequence ontology.",
-    "fullyQualifiedName": "AlleleConservation.outcome"
+    "fullyQualifiedName": "CategoricalAlleleConservation.conservationType"
   },
   "A113": {
     "id": "A113",
@@ -1621,13 +1623,13 @@
     "iri-label": "asserted_by",
     "cg-label": "algorithm",
     "valueSetName": "",
-    "precedence": 2.0,
+    "precedence": 3.0,
     "description": "Method or program used to calculate conservation",
-    "fullyQualifiedName": "AlleleConservation.algorithm"
+    "fullyQualifiedName": "CategoricalAlleleConservation.algorithm"
   },
   "A114": {
     "id": "A114",
-    "entityId": "E51",
+    "entityId": "E53",
     "name": "score",
     "dataType": "number",
     "cardinality": "0..1",
@@ -1636,9 +1638,9 @@
     "iri-label": "assertion_confidence_score",
     "cg-label": "score",
     "valueSetName": "",
-    "precedence": 3.0,
+    "precedence": 4.0,
     "description": "Numerical score for the conservation of the allele",
-    "fullyQualifiedName": "AlleleConservation.score"
+    "fullyQualifiedName": "QuantitativeAlleleConservation.score"
   },
   "A115": {
     "id": "A115",
@@ -2545,5 +2547,49 @@
     "cg-label": "algorithm",
     "precedence": 4.0,
     "fullyQualifiedName": "QuantitativeInSilicoPrediction.algorithm"
+  },
+  "A185": {
+    "id": "A185",
+    "entityId": "E53",
+    "name": "allele",
+    "dataType": "CanonicalAllele",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "isReference": "yes",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "",
+    "valueSetName": "",
+    "precedence": 1.0,
+    "description": "The allele for which conservation values are given",
+    "fullyQualifiedName": "QuantitativeAlleleConservation.allele"
+  },
+  "A186": {
+    "id": "A186",
+    "entityId": "E53",
+    "name": "conservationType",
+    "dataType": "Conservation",
+    "cardinality": "1..1",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "",
+    "precedence": 2.0,
+    "description": "The conservation classification from sequence ontology.",
+    "fullyQualifiedName": "QuantitativeAlleleConservation.conservationType"
+  },
+  "A187": {
+    "id": "A187",
+    "entityId": "E53",
+    "name": "score",
+    "dataType": "number",
+    "cardinality": "0..1",
+    "defaultValue": "null",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "",
+    "valueSetName": "",
+    "precedence": 3.0,
+    "description": "Numerical score for the conservation of the allele",
+    "fullyQualifiedName": "QuantitativeAlleleConservation.score"
   }
 }

@@ -275,7 +275,8 @@
     "id": "E29",
     "name": "Haplotype",
     "parentType": "E40",
-    "link": "Haplo"
+    "link": "Haplo",
+    "description": ""
   },
   "E30": {
     "id": "E30",
@@ -328,7 +329,7 @@
     "iri": "SEPIO-CG:03500",
     "iri-label": "",
     "cg-label": "UserLabel",
-    "description": "TODO",
+    "description": "TODO\n(LB) this is the final name we agreed to use in place of Synonym with MBrush at the 10/10/17 mtg.",
     "comments": ""
   },
   "E40": {
@@ -441,12 +442,12 @@
   },
   "E51": {
     "id": "E51",
-    "name": "AlleleConservation",
+    "name": "CategoricalAlleleConservation",
     "parentType": "E01",
-    "link": "Conserv",
+    "link": "CatAllConserv",
     "iri": "SEPIO:0000253",
     "iri-label": "allele conservation statement",
-    "cg-label": "AlleleConservation",
+    "cg-label": "CategoricalAlleleConservation",
     "description": "A statement about the degree of evolutionary conservation of an allele across a defined set of taxa/species. ",
     "comments": ""
   },
@@ -458,6 +459,17 @@
     "iri": "???",
     "iri-label": "",
     "cg-label": "QuantitativeInSilicoPrediction",
+    "description": "",
+    "comments": ""
+  },
+  "E53": {
+    "id": "E53",
+    "name": "QuantitativeAlleleConservation",
+    "parentType": "E01",
+    "link": "QntAllConserv",
+    "iri": "???",
+    "iri-label": "",
+    "cg-label": "QuantitativeAlleleConservation",
     "description": "",
     "comments": ""
   },
@@ -488,7 +500,8 @@
     "link": "MolConID",
     "iri": "SEPIO-CG:55102",
     "iri-label": "",
-    "cg-label": "MolecularConsequence"
+    "cg-label": "MolecularConsequence",
+    "description": ""
   },
   "E58": {
     "id": "E58",
@@ -497,7 +510,8 @@
     "link": "SigID",
     "iri": "SEPIO-CG:55101",
     "iri-label": "",
-    "cg-label": "Significance"
+    "cg-label": "Significance",
+    "description": ""
   },
   "E59": {
     "id": "E59",
@@ -506,7 +520,8 @@
     "link": "RegAnnID",
     "iri": "SEPIO-CG:55102",
     "iri-label": "",
-    "cg-label": "RegionAnnotation"
+    "cg-label": "RegionAnnotation",
+    "description": ""
   },
   "E60": {
     "id": "E60",
@@ -515,7 +530,8 @@
     "link": "PhaseID",
     "iri": "SEPIO-CG:55103",
     "iri-label": "",
-    "cg-label": "Phase"
+    "cg-label": "Phase",
+    "description": ""
   },
   "E61": {
     "id": "E61",
@@ -524,7 +540,8 @@
     "link": "AllStateID",
     "iri": "SEPIO-CG:55104",
     "iri-label": "",
-    "cg-label": "AllelicState"
+    "cg-label": "AllelicState",
+    "description": ""
   },
   "E62": {
     "id": "E62",
@@ -533,7 +550,8 @@
     "link": "ModeOfInhID",
     "iri": "SEPIO-CG:55105",
     "iri-label": "",
-    "cg-label": "ModeOfInheritance"
+    "cg-label": "ModeOfInheritance",
+    "description": ""
   },
   "E63": {
     "id": "E63",
@@ -542,7 +560,8 @@
     "link": "RefSeqRelID",
     "iri": "SEPIO-CG:55106",
     "iri-label": "",
-    "cg-label": "ReferenceSequenceRelated"
+    "cg-label": "ReferenceSequenceRelated",
+    "description": ""
   },
   "E64": {
     "id": "E64",
@@ -551,7 +570,8 @@
     "link": "MechID",
     "iri": "SEPIO-CG:55107",
     "iri-label": "",
-    "cg-label": "Mechanism"
+    "cg-label": "Mechanism",
+    "description": ""
   },
   "E65": {
     "id": "E65",
@@ -560,7 +580,8 @@
     "link": "PredID",
     "iri": "SEPIO-CG:55108",
     "iri-label": "",
-    "cg-label": "Prediction"
+    "cg-label": "Prediction",
+    "description": ""
   },
   "E66": {
     "id": "E66",
@@ -569,7 +590,8 @@
     "link": "CritEvalID",
     "iri": "SEPIO-CG:55109",
     "iri-label": "",
-    "cg-label": "CriterionEvaluation"
+    "cg-label": "CriterionEvaluation",
+    "description": ""
   },
   "E67": {
     "id": "E67",
@@ -578,7 +600,8 @@
     "link": "AFAMID",
     "iri": "SEPIO-CG:55110",
     "iri-label": "",
-    "cg-label": "AlleleFunctionalAssayMethod"
+    "cg-label": "AlleleFunctionalAssayMethod",
+    "description": ""
   },
   "E68": {
     "id": "E68",
@@ -587,7 +610,8 @@
     "link": "PopID",
     "iri": "SEPIO-CG:55111",
     "iri-label": "",
-    "cg-label": "Population"
+    "cg-label": "Population",
+    "description": ""
   },
   "E69": {
     "id": "E69",
@@ -596,7 +620,8 @@
     "link": "BMVROID",
     "iri": "SEPIO-CG:55112",
     "iri-label": "",
-    "cg-label": "BenignMissenseVariationRateOutcome"
+    "cg-label": "BenignMissenseVariationRateOutcome",
+    "description": ""
   },
   "E70": {
     "id": "E70",
@@ -605,7 +630,8 @@
     "link": "PenetID",
     "iri": "SEPIO-CG:55113",
     "iri-label": "",
-    "cg-label": "Penetrance"
+    "cg-label": "Penetrance",
+    "description": ""
   },
   "E71": {
     "id": "E71",
@@ -614,7 +640,8 @@
     "link": "CondMechStrgID",
     "iri": "SEPIO-CG:55114",
     "iri-label": "",
-    "cg-label": "ConditionMechanismStrength"
+    "cg-label": "ConditionMechanismStrength",
+    "description": ""
   },
   "E72": {
     "id": "E72",
@@ -623,7 +650,8 @@
     "link": "EvLnStrgID",
     "iri": "SEPIO-CG:55115",
     "iri-label": "",
-    "cg-label": "EvidenceLineStrength"
+    "cg-label": "EvidenceLineStrength",
+    "description": ""
   },
   "E73": {
     "id": "E73",
@@ -632,7 +660,8 @@
     "link": "DisID",
     "iri": "SEPIO-CG:55116",
     "iri-label": "",
-    "cg-label": "Disease"
+    "cg-label": "Disease",
+    "description": ""
   },
   "E74": {
     "id": "E74",
@@ -641,7 +670,8 @@
     "link": "PhenID",
     "iri": "SEPIO-CG:55117",
     "iri-label": "",
-    "cg-label": "Phenotype"
+    "cg-label": "Phenotype",
+    "description": ""
   },
   "E76": {
     "id": "E76",
@@ -650,7 +680,8 @@
     "link": "ContribRoleID",
     "iri": "SEPIO-CG:55118",
     "iri-label": "",
-    "cg-label": "ContributoryRole"
+    "cg-label": "ContributoryRole",
+    "description": ""
   },
   "E77": {
     "id": "E77",
@@ -659,7 +690,8 @@
     "link": "AlleleInhID",
     "iri": "SEPIO-CG:55119",
     "iri-label": "",
-    "cg-label": "AlleleInheritance"
+    "cg-label": "AlleleInheritance",
+    "description": ""
   },
   "E78": {
     "id": "E78",
@@ -668,7 +700,8 @@
     "link": "AscrtID",
     "iri": "SEPIO-CG:55120",
     "iri-label": "",
-    "cg-label": "Ascertainment"
+    "cg-label": "Ascertainment",
+    "description": ""
   },
   "E79": {
     "id": "E79",
@@ -677,7 +710,8 @@
     "link": "LocSpecID",
     "iri": "SEPIO-CG:55121",
     "iri-label": "",
-    "cg-label": "LocusSpecificity"
+    "cg-label": "LocusSpecificity",
+    "description": ""
   },
   "E80": {
     "id": "E80",
@@ -686,7 +720,8 @@
     "link": "ConsrvID",
     "iri": "SEPIO-CG:55122",
     "iri-label": "",
-    "cg-label": "Conservation"
+    "cg-label": "Conservation",
+    "description": ""
   },
   "E81": {
     "id": "E81",
@@ -695,7 +730,8 @@
     "link": "ParenConfID",
     "iri": "SEPIO-CG:55123",
     "iri-label": "",
-    "cg-label": "ParentalConfirmation"
+    "cg-label": "ParentalConfirmation",
+    "description": ""
   },
   "E82": {
     "id": "E82",
@@ -704,7 +740,8 @@
     "link": "CondStatID",
     "iri": "SEPIO-CG:55124",
     "iri-label": "",
-    "cg-label": "ConditionStatus"
+    "cg-label": "ConditionStatus",
+    "description": ""
   },
   "E83": {
     "id": "E83",
@@ -713,7 +750,8 @@
     "link": "InconSegObsID",
     "iri": "SEPIO-CG:55125",
     "iri-label": "",
-    "cg-label": "InconsistentSegregationObserved"
+    "cg-label": "InconsistentSegregationObserved",
+    "description": ""
   },
   "E84": {
     "id": "E84",
@@ -722,7 +760,8 @@
     "link": "NullAllOutID",
     "iri": "SEPIO-CG:55126",
     "iri-label": "",
-    "cg-label": "NullAlleleOutcome"
+    "cg-label": "NullAlleleOutcome",
+    "description": ""
   },
   "E85": {
     "id": "E85",
@@ -731,7 +770,8 @@
     "link": "RegAllOutID",
     "iri": "SEPIO-CG:55127",
     "iri-label": "",
-    "cg-label": "RegionAllelesOutcome"
+    "cg-label": "RegionAllelesOutcome",
+    "description": ""
   },
   "E86": {
     "id": "E86",
@@ -740,6 +780,7 @@
     "link": "VSCLExtnsID",
     "iri": "SEPIO-CG:55128",
     "iri-label": "",
-    "cg-label": "ValueSetConceptListExtensibility"
+    "cg-label": "ValueSetConceptListExtensibility",
+    "description": ""
   }
 }
