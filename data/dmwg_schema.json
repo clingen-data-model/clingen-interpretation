@@ -6,7 +6,7 @@
   "id": "http://datamodel.clinicalgenome.org/interpretation/schema/dmwg_schema.json",
   "properties": 
    {		
-		"qualifier": {
+	"qualifier": {
         	"type": "object",
         	"description": "Use “NOT” as the value of this property to assert that the statement is negated."
         },
