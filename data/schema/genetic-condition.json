@@ -1,0 +1,62 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "GeneticCondition",
+    "description": "GeneticCondition",
+    "type": "object",
+    "properties": {
+        "phenotype": {
+            "type:": "array",
+            "description": "phenotype"
+        },
+        "modeOfInheritance": {
+            "type:": "object", 
+            "description": "modeOfInheritance",
+            "properties": {
+             	"id": {
+                	"type": "string",
+                	"description": "id"
+              	},
+              	"label": {
+                	"type": "string",                
+                	"description": "label."          
+              	},
+              	"type": {
+                	"type": "string",
+                	"description": "An explanation about the purpose of this instance."
+              	}
+            }
+        },
+        "gene": {
+            "type:": "object",
+            "description": "gene",
+            "properties": {
+            	"geneSymbol": {
+                  	"type:": "object",
+                    "description": "geneSymbol"
+                 }
+            }
+        },
+        "name": {
+            "description": "name",
+            "type": "string"
+        },
+        "disease": {
+            "type:": "array",
+            "description": "disease",
+             "items": {
+              	"type": "object", 
+              	"properties": {
+              		"id":{
+              			 "type": "string",
+                  		 "description": "The schema id"
+              		},
+              		"synonym": {
+                  		"type": "array",
+                  		"description": "synonym"
+                  	}
+              	}
+             }	
+        }
+    },
+    "required": ["phenotype"]
+}
