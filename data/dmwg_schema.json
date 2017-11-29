@@ -6,8 +6,8 @@
   "id": "http://datamodel.clinicalgenome.org/interpretation/schema/dmwg_schema.json",
   "properties": 
    {		
-	"qualifier": {
-		"$id": "/properties/qualifier",
+		"qualifier":{
+			"$id": "/properties/qualifier",
         	"type": "object",
         	"description": "Use “NOT” as the value of this property to assert that the statement is negated."
         },
@@ -41,8 +41,42 @@
                     				"description": "supporting evidence"
                   				},
                   				"contribution": {
+                  					"$id": "/properties/evidenceLine/items/properties/evidenceItem/items/properties/contribution",
                     				"type:": "array",
-                    				"description": "The contributions (agent, time and role) made to this entity"
+                    				"description": "The contributions (agent, time and role) made to this entity",
+                    				"items": {
+                    					"$id": "/properties/evidenceLine/items/properties/evidenceItem/items/properties/contribution/items",
+                    					"type": "object",
+                    					"properties": {
+                      						"agent": {
+                      							"$id": "/properties/evidenceLine/items/properties/evidenceItem/items/properties/contribution/items/properties/agent",
+                        						"type": "string",
+                      							"description": "A person, group of people, algorithm, or some other actor that could make a contribution"
+                      						},
+                      						"contributionDate": {
+                        						"$id": "/properties/evidenceLine/items/properties/evidenceItem/items/properties/contribution/items/properties/contributionDate",
+                        						"type": "string",                        
+                        						"description": "An explanation about the purpose of this instance."
+                        					},
+                        					"contributionRole": {
+            									"$id": "/properties/evidenceLine/items/properties/evidenceItem/items/properties/contribution/items/properties/contributionRole",
+              									"type:": "object",
+              									"description": "TODO",
+              									"properties": {
+              										"label": {
+                										"$id": "/properties/evidenceLine/items/properties/evidenceItem/items/properties/contribution/items/properties/contributionRole/properties/label",
+                										"type": "string",
+                										"description": "ToDo"
+              										},
+              										"type": {
+                										"$id": "/properties/evidenceLine/items/properties/evidenceItem/items/properties/contribution/items/properties/contributionRole/properties/type",
+                										"type": "string",
+                										"description": "ToDo"               
+              										}
+            									}
+            								}
+                      					}
+                      				}
                   				},
                   				"description": {
                     				"type:": "object",
@@ -65,17 +99,36 @@
               			"type:": "array",
               			"description": "The contributions (agent, time and role) made to this entity",
               			"items": {
-                  			"agent": {
-                    			"type:": "object",
-                    			"description": "A person, group of people, algorithm, or some other actor that could make a contribution"
-                 		 	},
-                  			"contributionDate": {
-                    			"type:": "object",
-                    			"description": "TODO"
-                  			},
-                  			"contributionRole": {
-                    			"type:": "object",
-                    			"description": "TODO"
+              				"$id": "/properties/evidenceLine/items/properties/contribution/items",
+              				"type:": "object",
+              				"properties": { 
+                  				"agent": {
+                  					"$id": "/properties/evidenceLine/items/properties/contribution/items/properties/agent",
+                    				"type:": "string",
+                    				"description": "A person, group of people, algorithm, or some other actor that could make a contribution"
+                 		 		},
+                  				"contributionDate": {
+                  					"$id": "/properties/evidenceLine/items/properties/contribution/items/properties/contributionDate",
+                    				"type:": "string",
+                    				"description": "TODO"
+                  				},
+                  				"contributionRole": {
+                  					"$id": "/properties/evidenceLine/items/properties/contribution/items/properties/contributionRole",
+                    				"type:": "object",
+                    				"description": "TODO",
+                    				"properties": {
+              							"label": {
+                							"$id": "/properties/evidenceLine/items/properties/contribution/items/properties/contributionRole/properties/label",
+                							"type": "string",
+                							"description": "ToDo"
+              							},
+              							"type": {
+                							"$id": "/properties/evidenceLine/items/properties/contribution/items/properties/contributionRole/properties/type",
+                							"type": "string",
+                							"description": "ToDo"               
+              							}
+            						}
+                  				}
                   			}
                 		}
              		}
