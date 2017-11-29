@@ -4,40 +4,30 @@
     "description": "The contributions (agent, time and role) made to this entity",
     "type": "object",
     "properties": {
-     	"item": { 
-        		"$id": "/properties/contribution/items",
-        		"type": "object",
-        		 "properties": {      	
-            		"agent": {
-            			"$id": "/properties/contribution/items/properties/agent",
-              			"type:": "object",
-              			"description": "A person, group of people, algorithm, or some other actor that could make a contribution",
-              			"$ref": "agent.json#"  
-            		},
-            		"contributionDate": {
-            			"$id": "/properties/contribution/items/properties/contributionDate",
-              			"type:": "string",
-              			"description": "TODO"             
-            		},
-            		"contributionRole": {
-            			"$id": "/properties/contribution/items/properties/contributionRole",
-              			"type:": "object",
-              			"description": "TODO",
-              			"properties": {
-              				"label": {
-                				"$id": "/properties/contribution/items/properties/contributionRole/properties/label",
-                				"type": "string",
-                				"description": "ToDo"
-              				},
-              				"type": {
-                				"$id": "/properties/contribution/items/properties/contributionRole/properties/type",
-                				"type": "string",
-                				"description": "An explanation about the purpose of this instance."               
-              				}
-            			}
-            		}
+    	"agent": {
+        	"type:": "object",
+            "description": "A person, group of people, algorithm, or some other actor that could make a contribution",
+            "$ref": "agent.json#"  
+         },
+         "contributionDate": {
+          	"$id": "/properties/contribution/items/properties/contributionDate",
+            "type:": "string",
+            "description": "TODO"             
+          },
+          "contributionRole": {
+              	"type:": "object",
+              	"description": "TODO",
+              	"properties": {
+              	"label": {
+                			"type": "string",
+                			"description": "ToDo"
+              			},
+              			"type": {
+                			"type": "string",
+                			"description": "An explanation about the purpose of this instance."               
+              			}
             	}
-          	}
+           }          	        	
     },
     "required": [
         "agent",

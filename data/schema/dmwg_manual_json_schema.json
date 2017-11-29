@@ -22,7 +22,9 @@
 		"contribution": {
 			"$id": "/properties/contribution",
         	"description": "The contributions (agent, time and role) made to this entity",
-        	"$ref": "contribution.json#"
+        	"items": {
+                "$ref": "contribution.json#"
+            }
         },
 		"description": {
 			"$id": "/properties/description",
