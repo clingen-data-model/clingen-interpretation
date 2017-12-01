@@ -15,7 +15,7 @@ require 'yaml'
 class DMWGExampleData
 
   def by_id
-    @id2example
+    @externalId2example
   end
 
   def by_type
