@@ -32,7 +32,12 @@ class DMWGExampleData
 
   def initialize(data_dir)
     # an "auto hash" to hold all of the examples
+    @externalId2example = {}
+
+    #this uses the internal ids (overwritten by @id when available)
+    # FIXME- should we just change 'id' in the sheets to contain '@id'?
     @id2example = {}
+
     @types = {}
 
     # slurp in all the json files in the `data_dir`
@@ -65,7 +70,8 @@ class DMWGExampleData
         # full fledged table for this entity (not a Statement or DomainEntity subtype)
         @flattened[e_name].each do |id, rec|
           ex = @id2example[id] ||= {}
-          ex['id'] = id
+          # FIXME-- this may be better fixed in the sheets document
+          ex['id'] = rec['@id'] || id
           ex['type'] = e_name
           apply_attributes(e_id, rec, ex)
         end
@@ -98,7 +104,7 @@ class DMWGExampleData
     ].each do |sheet|
       if !@flattened.has_key? sheet
          STDERR.puts "ERROR: expected sheet #{sheet}, but none found"
-	 next
+         next
       end
       @flattened[sheet].each_with_index do |da, i|
         data_id = da['subjectId']
@@ -108,7 +114,7 @@ class DMWGExampleData
           STDERR.puts "Attribute #{attribute_id} does not appear to exist in line #{i} of #{sheet}!"
           next
         end
-        (@id2example[data_id] ||= {})['id'] = data_id
+        (@id2example[data_id] ||= {})['id'] ||= data_id
         if value_exists? da['value'] then
           if ['A137', 'A169', 'A171'].include? attribute['id'] then
             # special case relatedCanonicalAllele to avoid loop...
@@ -121,6 +127,11 @@ class DMWGExampleData
         end # value exists
       end # each row in sheet
     end # each sheet
+
+    # FIXME - this is kludgy
+    @id2example.each do |id, ex|
+      @externalId2example[ex['id']] = ex
+    end
 
     # remove id from types that are only internal (not dereferenceable)
     @id2example.delete_if do |k, v|
