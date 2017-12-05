@@ -12,7 +12,7 @@
             "description": "ToDo",
             "type": "array",
             "items": {
-                "$ref": "evidence-item.json#"
+                "$ref": "statement.json#"
             }
         },
         "evidenceStrength": {
