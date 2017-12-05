@@ -55,7 +55,8 @@ $dmwg_examples = DMWGExampleData.new('data/flattened')
 
 # build raw json versions of the examples
 $dmwg_examples.by_id.each do |k,v|
-  proxy "/json/#{k}", "/templates/entity.json", :locals => { :object => v },
+  v_with_context = v.merge({'@context' => 'http://datamodel.clinicalgenome.org/interpretation/json/context'})
+  proxy "/json/#{k}", "/templates/entity.json", :locals => { :object => v_with_context },
     :ignore => true, :layout => false, :directory_indexes => true
 end
 proxy "/json/Types", "/templates/entity.json", :locals => { :object => $dmwg_examples.types },
