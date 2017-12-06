@@ -33,6 +33,14 @@
   },
   {
     "subjectId": "VS001",
+    "attributeId": "A155",
+    "value": "ValueSetConceptListExtensibility",
+    "attributeName": "conceptType",
+    "attributeType": "string",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS001",
     "attributeId": "A145",
     "value": "IdSys002",
     "attributeName": "sourceIdentifierSystems",
@@ -85,6 +93,14 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS002",
+    "attributeId": "A155",
+    "value": "MolecularConsequence",
+    "attributeName": "conceptType",
+    "attributeType": "string",
     "domainEntityType": "ValueSet"
   },
   {
@@ -337,6 +353,14 @@
   },
   {
     "subjectId": "VS003",
+    "attributeId": "A155",
+    "value": "Significance",
+    "attributeName": "conceptType",
+    "attributeType": "string",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS003",
     "attributeId": "A121",
     "value": "SigID028",
     "attributeName": "concept",
@@ -417,6 +441,14 @@
   },
   {
     "subjectId": "VS004",
+    "attributeId": "A155",
+    "value": "RegionAnnotation",
+    "attributeName": "conceptType",
+    "attributeType": "string",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS004",
     "attributeId": "A121",
     "value": "RegAnnID033",
     "attributeName": "concept",
@@ -473,6 +505,14 @@
   },
   {
     "subjectId": "VS005",
+    "attributeId": "A155",
+    "value": "Phase",
+    "attributeName": "conceptType",
+    "attributeType": "string",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS005",
     "attributeId": "A121",
     "value": "PhaseID036",
     "attributeName": "concept",
@@ -517,6 +557,14 @@
     "value": "IdSys022",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS006",
+    "attributeId": "A155",
+    "value": "AllelicState",
+    "attributeName": "conceptType",
+    "attributeType": "string",
     "domainEntityType": "ValueSet"
   },
   {
@@ -613,6 +661,14 @@
     "value": "IdSys022",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS007",
+    "attributeId": "A155",
+    "value": "ModeOfInheritance",
+    "attributeName": "conceptType",
+    "attributeType": "string",
     "domainEntityType": "ValueSet"
   },
   {
@@ -831,6 +887,14 @@
   },
   {
     "subjectId": "VS008",
+    "attributeId": "A155",
+    "value": "Mechanism",
+    "attributeName": "conceptType",
+    "attributeType": "string",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS008",
     "attributeId": "A121",
     "value": "MechID070",
     "attributeName": "concept",
@@ -875,6 +939,14 @@
     "value": "IdSys023",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS009",
+    "attributeId": "A155",
+    "value": "Prediction",
+    "attributeName": "conceptType",
+    "attributeType": "string",
     "domainEntityType": "ValueSet"
   },
   {
@@ -927,6 +999,14 @@
   },
   {
     "subjectId": "VS010",
+    "attributeId": "A155",
+    "value": "CriterionEvaluation",
+    "attributeName": "conceptType",
+    "attributeType": "string",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS010",
     "attributeId": "A121",
     "value": "CritEvalID074",
     "attributeName": "concept",
@@ -971,6 +1051,14 @@
     "value": "IdSys025",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS011",
+    "attributeId": "A155",
+    "value": "AlleleFunctionalAssayMethod",
+    "attributeName": "conceptType",
+    "attributeType": "string",
     "domainEntityType": "ValueSet"
   },
   {
@@ -1075,6 +1163,14 @@
     "value": "IdSys027",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS012",
+    "attributeId": "A155",
+    "value": "Population",
+    "attributeName": "conceptType",
+    "attributeType": "string",
     "domainEntityType": "ValueSet"
   },
   {
@@ -1455,6 +1551,14 @@
   },
   {
     "subjectId": "VS013",
+    "attributeId": "A155",
+    "value": "BenignMissenseVariationRateOutcome",
+    "attributeName": "conceptType",
+    "attributeType": "string",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS013",
     "attributeId": "A121",
     "value": "BMVROID128",
     "attributeName": "concept",
@@ -1499,6 +1603,14 @@
     "value": "IdSys016",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS014",
+    "attributeId": "A155",
+    "value": "Penetrance",
+    "attributeName": "conceptType",
+    "attributeType": "string",
     "domainEntityType": "ValueSet"
   },
   {
@@ -1555,6 +1667,14 @@
     "value": "IdSys023",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS015",
+    "attributeId": "A155",
+    "value": "ConditionMechanismStrength",
+    "attributeName": "conceptType",
+    "attributeType": "string",
     "domainEntityType": "ValueSet"
   },
   {
@@ -1627,6 +1747,14 @@
     "value": "IdSys023",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS016",
+    "attributeId": "A155",
+    "value": "EvidenceLineStrength",
+    "attributeName": "conceptType",
+    "attributeType": "string",
     "domainEntityType": "ValueSet"
   },
   {
@@ -1755,6 +1883,14 @@
     "value": "IdSys020",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS017",
+    "attributeId": "A155",
+    "value": "Disease",
+    "attributeName": "conceptType",
+    "attributeType": "string",
     "domainEntityType": "ValueSet"
   },
   {
@@ -2094,6 +2230,14 @@
   },
   {
     "subjectId": "VS018",
+    "attributeId": "A155",
+    "value": "Phenotype",
+    "attributeName": "conceptType",
+    "attributeType": "string",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS018",
     "attributeId": "A121",
     "value": "PhenID186",
     "attributeName": "concept",
@@ -2178,6 +2322,14 @@
     "value": "IdSys006",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS019",
+    "attributeId": "A155",
+    "value": "ReferenceSequence",
+    "attributeName": "conceptType",
+    "attributeType": "string",
     "domainEntityType": "ValueSet"
   },
   {
@@ -2342,6 +2494,14 @@
   },
   {
     "subjectId": "VS020",
+    "attributeId": "A155",
+    "value": "ContributoryRole",
+    "attributeName": "conceptType",
+    "attributeType": "string",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS020",
     "attributeId": "A121",
     "value": "ContribRoleID193",
     "attributeName": "concept",
@@ -2402,6 +2562,14 @@
     "value": "IdSys022",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS021",
+    "attributeId": "A155",
+    "value": "AlleleInheritance",
+    "attributeName": "conceptType",
+    "attributeType": "string",
     "domainEntityType": "ValueSet"
   },
   {
@@ -2478,6 +2646,14 @@
   },
   {
     "subjectId": "VS022",
+    "attributeId": "A155",
+    "value": "Ascertainment",
+    "attributeName": "conceptType",
+    "attributeType": "string",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS022",
     "attributeId": "A121",
     "value": "AscrtID202",
     "attributeName": "concept",
@@ -2550,6 +2726,14 @@
   },
   {
     "subjectId": "VS023",
+    "attributeId": "A155",
+    "value": "LocusSpecificity",
+    "attributeName": "conceptType",
+    "attributeType": "string",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS023",
     "attributeId": "A121",
     "value": "LocSpecID209",
     "attributeName": "concept",
@@ -2606,6 +2790,14 @@
   },
   {
     "subjectId": "VS024",
+    "attributeId": "A155",
+    "value": "Consertation",
+    "attributeName": "conceptType",
+    "attributeType": "string",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS024",
     "attributeId": "A121",
     "value": "ConsrvID212",
     "attributeName": "concept",
@@ -2642,6 +2834,14 @@
     "value": "IdSys024",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS025",
+    "attributeId": "A155",
+    "value": "ParentalConfirmation",
+    "attributeName": "conceptType",
+    "attributeType": "string",
     "domainEntityType": "ValueSet"
   },
   {
@@ -2710,6 +2910,14 @@
   },
   {
     "subjectId": "VS026",
+    "attributeId": "A155",
+    "value": "ConditionStatus",
+    "attributeName": "conceptType",
+    "attributeType": "string",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS026",
     "attributeId": "A121",
     "value": "CondStatID218",
     "attributeName": "concept",
@@ -2754,6 +2962,14 @@
     "value": "IdSys024",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS027",
+    "attributeId": "A155",
+    "value": "InconsistentSegregationObserved",
+    "attributeName": "conceptType",
+    "attributeType": "string",
     "domainEntityType": "ValueSet"
   },
   {
@@ -2814,6 +3030,14 @@
   },
   {
     "subjectId": "VS028",
+    "attributeId": "A155",
+    "value": "NullAlleleOutcome",
+    "attributeName": "conceptType",
+    "attributeType": "string",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS028",
     "attributeId": "A121",
     "value": "NullAllOutID223",
     "attributeName": "concept",
@@ -2850,6 +3074,14 @@
     "value": "IdSys024",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS029",
+    "attributeId": "A155",
+    "value": "RegionAllelesOutcome",
+    "attributeName": "conceptType",
+    "attributeType": "string",
     "domainEntityType": "ValueSet"
   },
   {
@@ -2898,6 +3130,14 @@
     "value": "IdSys003",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS030",
+    "attributeId": "A155",
+    "value": "Gene",
+    "attributeName": "conceptType",
+    "attributeType": "string",
     "domainEntityType": "ValueSet"
   },
   {
@@ -3414,6 +3654,14 @@
   },
   {
     "subjectId": "VS031",
+    "attributeId": "A155",
+    "value": "Criterion",
+    "attributeName": "conceptType",
+    "attributeType": "string",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS031",
     "attributeId": "A121",
     "value": "Crit303",
     "attributeName": "concept",
@@ -3670,6 +3918,14 @@
   },
   {
     "subjectId": "VS032",
+    "attributeId": "A155",
+    "value": "AssertionMethod",
+    "attributeName": "conceptType",
+    "attributeType": "string",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS032",
     "attributeId": "A121",
     "value": "AssertMeth331",
     "attributeName": "concept",
@@ -3706,6 +3962,14 @@
     "value": "IdSys024",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
+    "domainEntityType": "ValueSet"
+  },
+  {
+    "subjectId": "VS033",
+    "attributeId": "A155",
+    "value": "AssertionMethodAlgorithm",
+    "attributeName": "conceptType",
+    "attributeType": "string",
     "domainEntityType": "ValueSet"
   },
   {

@@ -208,7 +208,7 @@
   "E22": {
     "id": "E22",
     "name": "SequenceLocation",
-    "parentType": "E01",
+    "parentType": "E40",
     "link": "Loc",
     "iri": "GENO:0000815",
     "iri-label": "sequence feature position",
@@ -551,16 +551,6 @@
     "iri": "SEPIO-CG:55105",
     "iri-label": "",
     "cg-label": "ModeOfInheritance",
-    "description": ""
-  },
-  "E63": {
-    "id": "E63",
-    "name": "ReferenceSequenceRelated",
-    "parentType": "E40",
-    "link": "RefSeqRelID",
-    "iri": "SEPIO-CG:55106",
-    "iri-label": "",
-    "cg-label": "ReferenceSequenceRelated",
     "description": ""
   },
   "E64": {
