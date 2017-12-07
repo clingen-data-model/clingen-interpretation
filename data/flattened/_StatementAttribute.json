@@ -1402,7 +1402,7 @@
   {
     "subjectId": "RegTyp040",
     "attributeId": "A063",
-    "value": "Loc379",
+    "value": "Loc432",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "statementType": "RegionType"
@@ -1538,7 +1538,7 @@
   {
     "subjectId": "RegTyp043",
     "attributeId": "A063",
-    "value": "Loc381",
+    "value": "Loc433",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "statementType": "RegionType"
@@ -1690,7 +1690,7 @@
   {
     "subjectId": "RegTyp046",
     "attributeId": "A063",
-    "value": "Loc383",
+    "value": "Loc434",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "statementType": "RegionType"
@@ -2578,7 +2578,7 @@
   {
     "subjectId": "RegTyp069",
     "attributeId": "A063",
-    "value": "Loc385",
+    "value": "Loc435",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "statementType": "RegionType"
@@ -2722,7 +2722,7 @@
   {
     "subjectId": "RegTyp073",
     "attributeId": "A063",
-    "value": "Loc386",
+    "value": "Loc436",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "statementType": "RegionType"
@@ -2842,7 +2842,7 @@
   {
     "subjectId": "RegTyp077",
     "attributeId": "A063",
-    "value": "Loc387",
+    "value": "Loc437",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "statementType": "RegionType"
@@ -3617,7 +3617,7 @@
   {
     "subjectId": "BMVR102",
     "attributeId": "A076",
-    "value": "Loc383",
+    "value": "Loc434",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "statementType": "BenignMissenseVariationRate"
@@ -7401,7 +7401,7 @@
   {
     "subjectId": "RegTyp220",
     "attributeId": "A063",
-    "value": "Loc390",
+    "value": "Loc438",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "statementType": "RegionType"
@@ -7433,7 +7433,7 @@
   {
     "subjectId": "RegTyp221",
     "attributeId": "A063",
-    "value": "Loc390",
+    "value": "Loc438",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "statementType": "RegionType"
@@ -7537,7 +7537,7 @@
   {
     "subjectId": "RegTyp225",
     "attributeId": "A063",
-    "value": "Loc392",
+    "value": "Loc439",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "statementType": "RegionType"
@@ -7641,7 +7641,7 @@
   {
     "subjectId": "RegTyp229",
     "attributeId": "A063",
-    "value": "Loc394",
+    "value": "Loc440",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "statementType": "RegionType"
@@ -14248,33 +14248,9 @@
     "statementType": "CriterionAssessment"
   },
   {
-    "subjectId": "Loc379",
-    "attributeId": "A052",
-    "value": "RefSeq288",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc379",
-    "attributeId": "A053",
-    "value": 704.0,
-    "attributeName": "start",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc379",
-    "attributeId": "A054",
-    "value": 1016.0,
-    "attributeName": "stop",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
     "subjectId": "RegAll380",
     "attributeId": "A071",
-    "value": "Loc379",
+    "value": "Loc432",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "statementType": "RegionAlleles"
@@ -14304,33 +14280,9 @@
     "statementType": "RegionAlleles"
   },
   {
-    "subjectId": "Loc381",
-    "attributeId": "A052",
-    "value": "RefSeq289",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc381",
-    "attributeId": "A053",
-    "value": "1803",
-    "attributeName": "start",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc381",
-    "attributeId": "A054",
-    "value": "1921",
-    "attributeName": "stop",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
     "subjectId": "RegAll382",
     "attributeId": "A071",
-    "value": "Loc381",
+    "value": "Loc433",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "statementType": "RegionAlleles"
@@ -14360,33 +14312,9 @@
     "statementType": "RegionAlleles"
   },
   {
-    "subjectId": "Loc383",
-    "attributeId": "A052",
-    "value": "RefSeq290",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc383",
-    "attributeId": "A053",
-    "value": 996.0,
-    "attributeName": "start",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc383",
-    "attributeId": "A054",
-    "value": 1012.0,
-    "attributeName": "stop",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
     "subjectId": "RegAll384",
     "attributeId": "A071",
-    "value": "Loc383",
+    "value": "Loc434",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "statementType": "RegionAlleles"
@@ -14440,105 +14368,9 @@
     "statementType": "RegionAlleles"
   },
   {
-    "subjectId": "Loc385",
-    "attributeId": "A052",
-    "value": "RefSeq291",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc385",
-    "attributeId": "A053",
-    "value": 2490.0,
-    "attributeName": "start",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc385",
-    "attributeId": "A054",
-    "value": 2496.0,
-    "attributeName": "stop",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc386",
-    "attributeId": "A052",
-    "value": "RefSeq292",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc386",
-    "attributeId": "A053",
-    "value": 35.0,
-    "attributeName": "start",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc386",
-    "attributeId": "A054",
-    "value": 43.0,
-    "attributeName": "stop",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc387",
-    "attributeId": "A052",
-    "value": "RefSeq293",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc387",
-    "attributeId": "A053",
-    "value": 241.0,
-    "attributeName": "start",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc387",
-    "attributeId": "A054",
-    "value": 260.0,
-    "attributeName": "stop",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc390",
-    "attributeId": "A052",
-    "value": "RefSeq294",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc390",
-    "attributeId": "A053",
-    "value": 154.0,
-    "attributeName": "start",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc390",
-    "attributeId": "A054",
-    "value": 183.0,
-    "attributeName": "stop",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
     "subjectId": "RegAll391",
     "attributeId": "A071",
-    "value": "Loc390",
+    "value": "Loc438",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "statementType": "RegionAlleles"
@@ -14565,33 +14397,9 @@
     "value": "region is repeating but does not have a known function."
   },
   {
-    "subjectId": "Loc392",
-    "attributeId": "A052",
-    "value": "RefSeq295",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc392",
-    "attributeId": "A053",
-    "value": 6509.0,
-    "attributeName": "start",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc392",
-    "attributeId": "A054",
-    "value": 39262.0,
-    "attributeName": "stop",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
     "subjectId": "RegAll393",
     "attributeId": "A071",
-    "value": "Loc392",
+    "value": "Loc439",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "statementType": "RegionAlleles"
@@ -14618,33 +14426,9 @@
     "value": "Allele NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC is contained by this region."
   },
   {
-    "subjectId": "Loc394",
-    "attributeId": "A052",
-    "value": "RefSeq296",
-    "attributeName": "referenceSequence",
-    "attributeType": "ReferenceSequence",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc394",
-    "attributeId": "A053",
-    "value": 522.0,
-    "attributeName": "start",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
-    "subjectId": "Loc394",
-    "attributeId": "A054",
-    "value": 548.0,
-    "attributeName": "stop",
-    "attributeType": "integer",
-    "statementType": "SequenceLocation"
-  },
-  {
     "subjectId": "RegAll395",
     "attributeId": "A071",
-    "value": "Loc394",
+    "value": "Loc440",
     "attributeName": "region",
     "attributeType": "SequenceLocation",
     "statementType": "RegionAlleles"
@@ -14652,7 +14436,7 @@
   {
     "subjectId": "RegAll395",
     "attributeId": "A058",
-    "value": "CtxAll108",
+    "value": "3",
     "attributeName": "allele",
     "attributeType": "ContextualAllele",
     "statementType": "RegionAlleles"

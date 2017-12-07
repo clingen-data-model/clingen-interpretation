@@ -59,7 +59,8 @@
     "iri-label": "assertion_qualifier",
     "cg-label": "qualifier",
     "precedence": 90.0,
-    "description": "Use “NOT” as the value of this property to assert that the statement is negated."
+    "description": "Use “NOT” as the value of this property to assert that the statement is negated.",
+    "fullyQualifiedName": "Statement.qualifier"
   },
   "A006": {
     "id": "A006",
@@ -87,7 +88,7 @@
     "cg-label": "contributionDate",
     "valueSetName": "",
     "precedence": 2.0,
-    "description": "TODO",
+    "description": "The date on which a contribution was completed",
     "fullyQualifiedName": "Contribution.contributionDate"
   },
   "A008": {
@@ -103,7 +104,7 @@
     "restrictByValueSet": "No",
     "valueSetName": "@id : \"SEPIO-CG:65120\", label: \"Contributory Role\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
-    "description": "TODO",
+    "description": "The particular role in which an agent was acting while making the contribution",
     "fullyQualifiedName": "Contribution.contributionRole"
   },
   "A009": {
@@ -319,6 +320,7 @@
     "valueSetId": "VS025",
     "valueSetName": "@id : \"SEPIO-CG:65125\", label: \"Parental Confirmation\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 4.0,
+    "description": "Whether or not the parent-child relationship was independently confirmed",
     "fullyQualifiedName": "IndividualAlleleInheritance.parentalConfirmation"
   },
   "A026": {
@@ -464,6 +466,7 @@
     "cg-label": "",
     "valueSetName": "",
     "precedence": 4.0,
+    "description": "Person who created the example",
     "fullyQualifiedName": "Example.author"
   },
   "A036": {
@@ -477,6 +480,7 @@
     "cg-label": "",
     "valueSetName": "",
     "precedence": 5.0,
+    "description": "A freetext description of the example",
     "fullyQualifiedName": "Example.description"
   },
   "A037": {
@@ -490,6 +494,7 @@
     "cg-label": "",
     "valueSetName": "",
     "precedence": 6.0,
+    "description": "An image associated with the example",
     "fullyQualifiedName": "Example.image"
   },
   "A038": {
@@ -764,6 +769,7 @@
     "restrictByValueSet": "Yes",
     "valueSetName": "@id : \"SEPIO-CG:65104\", label: \"Region Annotation\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 2.0,
+    "description": "Annotation about the type or importance of a region",
     "fullyQualifiedName": "RegionType.annotation"
   },
   "A058": {
@@ -836,7 +842,7 @@
     "cg-label": "region",
     "valueSetName": "",
     "precedence": 1.0,
-    "description": "Region",
+    "description": "The region whose type is being defined",
     "fullyQualifiedName": "RegionType.region"
   },
   "A065": {
@@ -876,6 +882,7 @@
     "dataType": "CanonicalAllele",
     "cardinality": "1..*",
     "precedence": 1.0,
+    "description": "Individual Alleles that constitute the haplotype",
     "fullyQualifiedName": "Haplotype.allele"
   },
   "A068": {
@@ -885,6 +892,7 @@
     "dataType": "Haplotype",
     "cardinality": "1..*",
     "precedence": 1.0,
+    "description": "Individual Haplotypes that constitute the Genotype",
     "fullyQualifiedName": "Genotype.haplotype"
   },
   "A069": {
@@ -954,6 +962,7 @@
     "restrictByValueSet": "Yes",
     "valueSetName": "@id : \"SEPIO-CG:65121\", label: \"Allele Inheritance\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
+    "description": "Source of an allele in an individual",
     "fullyQualifiedName": "IndividualAlleleInheritance.alleleInheritance"
   },
   "A075": {
@@ -966,6 +975,7 @@
     "iri-label": "",
     "cg-label": "",
     "valueSetName": "",
+    "description": "A freetext description of the entity",
     "fullyQualifiedName": "DomainEntity.description"
   },
   "A076": {
@@ -994,6 +1004,7 @@
     "cg-label": "contextualAllele",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "The allele that is being described",
     "fullyQualifiedName": "NullAllele.contextualAllele"
   },
   "A078": {
@@ -1023,6 +1034,7 @@
     "cg-label": "inconsistentSegregationCount",
     "valueSetName": "",
     "precedence": 13.0,
+    "description": "The number of segregations inconsistent with allele pathogenicity",
     "fullyQualifiedName": "FamilySegregation.inconsistentSegregationCount"
   },
   "A080": {
@@ -1252,6 +1264,7 @@
     "cg-label": "prediction",
     "valueSetName": "",
     "precedence": 4.0,
+    "description": "The quantitative score ascribed by an InSilico predictor",
     "fullyQualifiedName": "InSilicoPredictionScore.prediction"
   },
   "A096": {
@@ -1633,6 +1646,7 @@
     "cg-label": "",
     "valueSetName": "",
     "precedence": 5.0,
+    "description": "An individual entry in a ValueSet",
     "fullyQualifiedName": "ValueSet.concept"
   },
   "A122": {
@@ -1723,6 +1737,7 @@
     "cg-label": "source",
     "valueSetName": "",
     "precedence": 94.0,
+    "description": "A string indicating the source of a Statement",
     "fullyQualifiedName": "Statement.source"
   },
   "A130": {
@@ -1736,6 +1751,7 @@
     "cg-label": "",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "User-created free text label for a concept",
     "fullyQualifiedName": "UserLabel.label"
   },
   "A131": {
@@ -1749,6 +1765,7 @@
     "cg-label": "",
     "valueSetName": "",
     "precedence": 4.0,
+    "description": "Provenance of the label, describing who created the label and when it was created",
     "fullyQualifiedName": "UserLabel.contribution"
   },
   "A132": {
@@ -1762,6 +1779,7 @@
     "cg-label": "",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "Freetext name of a ValueSet",
     "fullyQualifiedName": "ValueSet.label"
   },
   "A133": {
@@ -1775,6 +1793,7 @@
     "cg-label": "",
     "valueSetName": "",
     "precedence": 2.0,
+    "description": "Freetext description of a ValueSet",
     "fullyQualifiedName": "ValueSet.description"
   },
   "A134": {
@@ -1788,6 +1807,7 @@
     "cg-label": "",
     "valueSetName": "",
     "precedence": 2.0,
+    "description": "User-created free text description of a concept",
     "fullyQualifiedName": "UserLabel.description"
   },
   "A135": {
@@ -1867,6 +1887,7 @@
     "restrictByValueSet": "No",
     "valueSetName": "@id : \"SEPIO-CG:65130\", label: \"Gene\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 1.0,
+    "description": "Symbol for a gene provided by a naming system",
     "fullyQualifiedName": "Gene.geneSymbol"
   },
   "A141": {
@@ -1882,6 +1903,7 @@
     "restrictByValueSet": "No",
     "valueSetName": "@id : \"SEPIO-CG:65118\", label: \"Phenotype\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
+    "description": "Phenotypes used to define a particular GeneticCondition",
     "fullyQualifiedName": "GeneticCondition.phenotype"
   },
   "A142": {
@@ -1898,6 +1920,7 @@
     "restrictByValueSet": "Yes",
     "valueSetName": "@id : \"SEPIO-CG:65107\", label: \"Mode of Inheritance\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 4.0,
+    "description": "The manner in which a genetic condition is inherited",
     "fullyQualifiedName": "GeneticCondition.modeOfInheritance"
   },
   "A143": {
@@ -1911,6 +1934,7 @@
     "cg-label": "gene",
     "valueSetName": "",
     "precedence": 5.0,
+    "description": "The gene used to define a particular GeneticCondition",
     "fullyQualifiedName": "GeneticCondition.gene"
   },
   "A144": {
@@ -1924,6 +1948,7 @@
     "cg-label": "accession",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "Identifier ascribed to a reference sequence by a naming system, which can be used to retrieve the sequence",
     "fullyQualifiedName": "ReferenceSequence.accession"
   },
   "A145": {
@@ -1967,6 +1992,7 @@
     "cg-label": "description",
     "valueSetName": "",
     "precedence": 2.0,
+    "description": "Description of the agent",
     "fullyQualifiedName": "Agent.description"
   },
   "A149": {
@@ -1980,6 +2006,7 @@
     "cg-label": "label",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "Name of the agent",
     "fullyQualifiedName": "Agent.label"
   },
   "A150": {
@@ -1990,6 +2017,7 @@
     "cardinality": "0..1",
     "valueSetName": "",
     "precedence": 5.0,
+    "description": "Description of the need for this label and its use",
     "fullyQualifiedName": "UserLabel.comments"
   },
   "A151": {
@@ -2043,6 +2071,15 @@
     "precedence": 5.0,
     "fullyQualifiedName": "IdentifierSystem.prefix"
   },
+  "A155": {
+    "id": "A155",
+    "entityId": "E54",
+    "name": "conceptType",
+    "dataType": "string",
+    "cardinality": "1..1",
+    "precedence": 6.0,
+    "fullyQualifiedName": "ValueSet.conceptType"
+  },
   "A156": {
     "id": "A156",
     "entityId": "E32",
@@ -2054,6 +2091,7 @@
     "cg-label": "url",
     "valueSetName": "",
     "precedence": 2.0,
+    "description": "Location of a document that contains a description of this AssertionMethod",
     "fullyQualifiedName": "AssertionMethod.url"
   },
   "A157": {
@@ -2067,6 +2105,7 @@
     "cg-label": "name",
     "valueSetName": "",
     "precedence": 1.0,
+    "description": "Name of the GeneticCondition",
     "fullyQualifiedName": "GeneticCondition.name"
   },
   "A158": {
@@ -2082,6 +2121,7 @@
     "restrictByValueSet": "No",
     "valueSetName": "@id : \"SEPIO-CG:65117\", label: \"Disease\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 2.0,
+    "description": "The diseases that define the Genetic Condition",
     "fullyQualifiedName": "GeneticCondition.disease"
   },
   " ": {
@@ -2223,6 +2263,7 @@
     "restrictByValueSet": "No",
     "valueSetName": "@id : \"SEPIO-CG:65119\", label: \"Reference Sequence\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 2.0,
+    "description": "A protein sequence that is the result of translating this sequence",
     "fullyQualifiedName": "ReferenceSequence.produces"
   },
   "A169": {
@@ -2238,6 +2279,7 @@
     "restrictByValueSet": "No",
     "valueSetName": "@id : \"SEPIO-CG:65119\", label: \"Reference Sequence\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
+    "description": "The sequence whose translation produces this sequence",
     "fullyQualifiedName": "ReferenceSequence.producedBy"
   },
   "A170": {
@@ -2251,6 +2293,7 @@
     "cg-label": "produces",
     "valueSetName": "",
     "precedence": 4.0,
+    "description": "A protein allele caused by the translation of this nucleotide allele",
     "fullyQualifiedName": "ContextualAllele.produces"
   },
   "A171": {
@@ -2264,6 +2307,7 @@
     "cg-label": "producedBy",
     "valueSetName": "",
     "precedence": 5.0,
+    "description": "The nucleotide allele that led, via translation, to this protein allele",
     "fullyQualifiedName": "ContextualAllele.producedBy"
   },
   "A173": {
@@ -2277,6 +2321,7 @@
     "cg-label": "version",
     "valueSetName": "",
     "precedence": 3.0,
+    "description": "Version of this AssertionMethod",
     "fullyQualifiedName": "AssertionMethod.version"
   },
   "A174": {
@@ -2292,6 +2337,7 @@
     "restrictByValueSet": "No",
     "valueSetName": "@id : \"SEPIO-CG:65133\", label: \"Assertion Method Algorithm\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 4.0,
+    "description": "The algorithm used to combine AssertionCriteria into a final Interpretation using this Method",
     "fullyQualifiedName": "AssertionMethod.scoringAlgorithm"
   },
   "A177": {
@@ -2319,6 +2365,7 @@
     "cg-label": "evidenceItem",
     "valueSetName": "",
     "precedence": 3.0,
+    "description": "The individual pieces of evidence that constitute an EvidenceLine",
     "fullyQualifiedName": "EvidenceLine.evidenceItem"
   },
   "A179": {
@@ -2334,6 +2381,7 @@
     "restrictByValueSet": "No",
     "valueSetName": "@id : \"SEPIO-CG:65116\", label: \"Evidence Line Strength\", conceptListExtensibility: \"VSCLExtnsID374\"",
     "precedence": 2.0,
+    "description": "The strength of support given to the assertion by this line of evidence.",
     "fullyQualifiedName": "EvidenceLine.evidenceStrength"
   },
   "A180": {
