@@ -7,7 +7,7 @@
     	"agent": {
         	"type:": "object",
             "description": "A person, group of people, algorithm, or some other actor that could make a contribution",
-            "$ref": "agent.json#"  
+            "ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/agent.json"  
          },
          "contributionDate": {
           	"$id": "/properties/contribution/items/properties/contributionDate",

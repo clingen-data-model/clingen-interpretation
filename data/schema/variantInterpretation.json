@@ -16,13 +16,13 @@
             "description": "supporting evidence",
             "type": "array",
             "items": {
-                "$ref": "evidence-line.json#"
+                "$ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/evidence-line.json#"
             }           
         },
 		"contribution": {
 			"$id": "/properties/contribution",
         	"description": "The contributions (agent, time and role) made to this entity",
-        	"$ref": "contribution.json#"
+        	"$ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/contribution.json#"
         },
 		"description": {
 			"$id": "/properties/description",
@@ -43,7 +43,7 @@
             "description": "The condition for which the variant's pathogenicity is described",
             "type": "array",
             "items": {
-                "$ref": "genetic-condition.json#"
+                "$ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/genetic-condition.json#"
             }
         },
         "outcome": {

@@ -12,7 +12,7 @@
             "description": "ToDo",
             "type": "array",
             "items": {
-                "$ref": "statement.json#"
+                "ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/statement.json#"
             }
         },
         "evidenceStrength": {

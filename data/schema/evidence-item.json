@@ -16,7 +16,7 @@
           "contribution": {
           	  "type:": "object",
               "description": "The contributions (agent, time and role) made to this entity",
-              "$ref": "contribution.json#"
+              "ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/contribution.json"
           },
           "description": {
                "type:": "object",
