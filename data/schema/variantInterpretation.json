@@ -1,60 +1,319 @@
 {
-  "$schema": "http://json-schema.org/draft-06/schema#",
-  "title": "VariantInterpretation",
-  "description": "An assertion about the pathogenicity of a genetic sequence variant, based on evaluation of one or more lines of evidence",
-  "type": "object",
-  "id": "http://datamodel.clinicalgenome.org/interpretation/schema/dmwg_schema.json",
-  "properties": 
-   {		
-		"qualifier":{
-			"$id": "/properties/qualifier",
-        	"type": "object",
-        	"description": "Use “NOT” as the value of this property to assert that the statement is negated."
-        },
-        "evidenceLine": {
-        	"$id": "/properties/evidenceLine",
-            "description": "supporting evidence",
-            "type": "array",
-            "items": {
-                "$ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/evidence-line.json#"
-            }           
-        },
-		"contribution": {
-			"$id": "/properties/contribution",
-        	"description": "The contributions (agent, time and role) made to this entity",
-        	"$ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/contribution.json#"
-        },
-		"description": {
-			"$id": "/properties/description",
-        	"type": "object",
-        	"description": "A human-readable description of the entity"
-        },
-		"source": {
-			"$id": "/properties/source",
-        	"type": "array",
-        	"description": "source"        
-        },
-		"variant": {
-			"$id": "/properties/variant",
-        	"type": "object",
-        	"description": "The variant whose pathogenicity is being described"
-        },
-	  	"condition": {
-            "description": "The condition for which the variant's pathogenicity is described",
-            "type": "array",
-            "items": {
-                "$ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/genetic-condition.json#"
-            }
-        },
-        "outcome": {
-        "type:": "object",
-        "description": "The coded pathogenicity of the variant for the condition"
-      },
-      "assertionMethod": {
-        "type:": "object",
-        "description": "The  framework that formally defines the methodology used in creating this interpretation."
-      }
-	 },	 	 
-  	 "required": ["variant", "outcome"]	
-}
+	"$schema": "http://json-schema.org/draft-06/schema#",
+	"title": "VariantInterpretation",
+	"description": "An assertion about the pathogenicity of a genetic sequence variant, based on evaluation of one or more lines of evidence",
+	"type": "object",
+	"id": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json",
+	"definitions": 
+	{
+		"agent": 
+		{
+			"type": "object",
+			"properties": 
+			{
+				"description": 
+				{
+					"type": "String"
+				},
 
+				"label": 
+				{
+					"type": "String"
+				}
+			},
+			"required": []
+		},
+		"evidenceline": 
+		{
+			"type": "object",
+			"properties": 
+			{
+				"description": 
+				{
+					"description": "A human-readable description of the entity",
+					"type": "string"
+				},
+
+				"evidenceItem": 
+				{
+					"description": "ToDo",
+					"type": "array",
+					"items": 
+					{
+						"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/statement"
+					}
+				},
+
+				"evidenceStrength": 
+				{
+					"description": "ToDo",
+					"type": "string"
+				},
+
+				"contribution": 
+				{
+					"description": "ToDo",
+					"type": "array",
+					"items": 
+					{
+						"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/contribution"
+					}
+				}
+			},
+
+			"required": 
+			[
+				
+			]
+		},
+
+		"contribution": 
+		{
+			"type:": "object",
+			"properties": 
+			{
+				"agent": 
+				{
+					"type:": "object",
+					"description": "A person, group of people, algorithm, or some other actor that could make a contribution",
+					"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/agent"
+				},
+
+				"contributionDate": 
+				{
+					"$id": "/properties/contribution/items/properties/contributionDate",
+					"type:": "string",
+					"description": "TODO"
+				},
+
+				"contributionRole": 
+				{
+					"type:": "object",
+					"description": "TODO",
+					"properties": 
+					{
+						"label": 
+						{
+							"type": "string",
+							"description": "ToDo"
+						},
+
+						"type": 
+						{
+							"type": "string",
+							"description": "An explanation about the purpose of this instance."
+						}
+					}
+				}
+			},
+
+			"required": 
+			[
+				
+			]
+		},
+
+		"geneticcondition": 
+		{
+			"type:": "object",
+			"properties": 
+			{
+				"phenotype": 
+				{
+					"type:": "array",
+					"description": "phenotype"
+				},
+
+				"modeOfInheritance": 
+				{
+					"type:": "object",
+					"description": "modeOfInheritance",
+					"properties": 
+					{
+						"id": 
+						{
+							"type": "string",
+							"description": "id"
+						},
+
+						"label": 
+						{
+							"type": "string",
+							"description": "label."
+						},
+
+						"type": 
+						{
+							"type": "string",
+							"description": "An explanation about the purpose of this instance."
+						}
+					}
+				},
+
+				"gene": 
+				{
+					"type:": "object",
+					"description": "gene",
+					"properties": 
+					{
+						"geneSymbol": 
+						{
+							"type:": "object",
+							"description": "geneSymbol"
+						}
+					}
+				},
+
+				"name": 
+				{
+					"description": "name",
+					"type": "string"
+				},
+
+				"disease": 
+				{
+					"type:": "array",
+					"description": "disease",
+					"items": 
+					{
+						"type": "object",
+						"properties": 
+						{
+							"id": 
+							{
+								"type": "string",
+								"description": "The schema id"
+							},
+
+							"synonym": 
+							{
+								"type": "array",
+								"description": "synonym"
+							}
+						}
+					}
+				}
+			},
+			"required": 
+			[
+				
+			]
+		},
+
+		"statement": 
+		{
+			"type": "object",
+			"properties": 
+			{
+				"qualifier": 
+				{
+					"type": "object",
+					"description": "Use NOT as the value of this property to assert that the statement is negated."
+				},
+
+				"evidenceLine": 
+				{
+					"type": "array",
+					"description": "supporting evidence",
+					"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/evidenceline"
+				},
+
+				"contribution": 
+				{
+					"type": "object",
+					"description": "The contributions (agent, time and role) made to this entity",
+					"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/contribution"
+				},
+				"description": 
+				{
+					"type": "object",
+					"description": "A human-readable description of the entity"
+				},
+				"source": 
+				{
+					"type": "array",
+					"description": "source"
+				}
+			},
+
+			"required": []
+		}
+	},
+
+	"properties": 
+	{
+		"qualifier": 
+		{
+			"$id": "/properties/qualifier",
+			"type": "object",
+			"description": "Use “NOT” as the value of this property to assert that the statement is negated."
+		},
+
+		"evidenceLine": 
+		{
+			"$id": "/properties/evidenceLine",
+			"description": "supporting evidence",
+			"type": "array",
+			"items": 
+			{
+				"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/evidenceline"
+			}
+		},
+
+		"contribution": 
+		{
+			"$id": "/properties/contribution",
+			"description": "The contributions (agent, time and role) made to this entity",
+			"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/contribution"
+		},
+
+		"description": 
+		{
+			"$id": "/properties/description",
+			"type": "object",
+			"description": "A human-readable description of the entity"
+		},
+
+		"source": 
+		{
+			"$id": "/properties/source",
+			"type": "array",
+			"description": "source"
+		},
+
+		"variant": 
+		{
+			"$id": "/properties/variant",
+			"type": "string",
+			"description": "The variant whose pathogenicity is being described"
+		},
+
+		"condition": 
+		{
+			"description": "The condition for which the variant's pathogenicity is described",
+			"type": "array",
+			"items": 
+			{
+				"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/geneticcondition"
+			}
+		},
+
+		"outcome": 
+		{
+			"type:": "object",
+			"description": "The coded pathogenicity of the variant for the condition"
+		},
+
+		"assertionMethod": 
+		{
+			"type:": "object",
+			"description": "The  framework that formally defines the methodology used in creating this interpretation."
+		}
+	},
+
+	"required": 
+	[
+		"variant",
+		"outcome"
+	]
+}
