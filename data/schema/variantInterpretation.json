@@ -13,12 +13,12 @@
 			{
 				"description": 
 				{
-					"type": "String"
+					"type": "string"
 				},
 
 				"label": 
 				{
-					"type": "String"
+					"type": "string"
 				}
 			},
 			"required": []
@@ -27,92 +27,83 @@
 		{
 			"type": "object",
 			"properties": 
-			{
-				"description": 
-				{
-					"description": "A human-readable description of the entity",
-					"type": "string"
-				},
-
-				"evidenceItem": 
-				{
-					"description": "ToDo",
-					"type": "array",
-					"items": 
+			 {
+					"description": 
 					{
-						"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/statement"
-					}
-				},
-
-				"evidenceStrength": 
-				{
-					"description": "ToDo",
-					"type": "string"
-				},
-
-				"contribution": 
-				{
-					"description": "ToDo",
-					"type": "array",
-					"items": 
+						"description": "A human-readable description of the entity",
+						"type": "string"
+					},
+					"evidenceItem": 
 					{
-						"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/contribution"
+						"description": "ToDo",
+						"type": "array",
+						"items":
+						{
+							"type": "object",
+	                      "$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/statement"
+						}
+					},
+					"evidenceStrength": 
+					{
+						"description": "ToDo",
+						"type": "string"
+					},
+					"contribution": 
+					{
+						"description": "ToDo",
+						"type": "array",
+						"items": 
+						{
+							"type": "object",
+	                      	"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/contribution"
+						}
 					}
-				}
-			},
-
-			"required": 
-			[
-				
-			]
+				},						
+			"required": []
 		},
-
 		"contribution": 
 		{
-			"type:": "object",
-			"properties": 
-			{
-				"agent": 
+			"type:": "array",
+            "items":
+            {
+              "type": "object",
+				"properties": 
 				{
-					"type:": "object",
-					"description": "A person, group of people, algorithm, or some other actor that could make a contribution",
-					"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/agent"
-				},
-
-				"contributionDate": 
-				{
-					"$id": "/properties/contribution/items/properties/contributionDate",
-					"type:": "string",
-					"description": "TODO"
-				},
-
-				"contributionRole": 
-				{
-					"type:": "object",
-					"description": "TODO",
-					"properties": 
+					"agent": 
 					{
-						"label": 
+						"type:": "object",
+						"description": "A person, group of people, algorithm, or some other actor that could make a contribution",
+						"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/agent"
+					},
+					"contributionDate": 
+					{
+						"$id": "/properties/contribution/items/properties/contributionDate",
+						"type:": "string",
+						"description": "TODO"
+					},
+					"contributionRole": 
+					{
+						"type:": "object",
+						"description": "TODO",
+						"properties": 
 						{
-							"type": "string",
-							"description": "ToDo"
-						},
-
-						"type": 
-						{
-							"type": "string",
-							"description": "An explanation about the purpose of this instance."
+							"label": 
+							{
+								"type": "string",
+								"description": "ToDo"
+							},
+	
+							"type": 
+							{
+								"type": "string",
+								"description": "An explanation about the purpose of this instance."
+							}
 						}
 					}
 				}
-			},
-
-			"required": 
-			[
-				
-			]
+            },
+			"required": []
 		},
-
 		"geneticcondition": 
 		{
 			"type:": "object",
@@ -163,13 +154,11 @@
 						}
 					}
 				},
-
 				"name": 
 				{
 					"description": "name",
 					"type": "string"
 				},
-
 				"disease": 
 				{
 					"type:": "array",
@@ -194,12 +183,8 @@
 					}
 				}
 			},
-			"required": 
-			[
-				
-			]
+			"required": []
 		},
-
 		"statement": 
 		{
 			"type": "object",
@@ -210,23 +195,29 @@
 					"type": "object",
 					"description": "Use NOT as the value of this property to assert that the statement is negated."
 				},
-
 				"evidenceLine": 
 				{
 					"type": "array",
 					"description": "supporting evidence",
-					"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/evidenceline"
+					"items": 
+					{
+						"type": "object",
+						"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/evidenceline"
+					}
 				},
-
 				"contribution": 
 				{
-					"type": "object",
+					"type": "array",
 					"description": "The contributions (agent, time and role) made to this entity",
-					"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/contribution"
+					"items": 
+					{
+						"type": "object",
+						"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/contribution"
+					}
 				},
 				"description": 
 				{
-					"type": "object",
+					"type": "string",
 					"description": "A human-readable description of the entity"
 				},
 				"source": 
@@ -256,6 +247,7 @@
 			"type": "array",
 			"items": 
 			{
+				"type": "object",
 				"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/evidenceline"
 			}
 		},
@@ -263,6 +255,7 @@
 		"contribution": 
 		{
 			"$id": "/properties/contribution",
+			"type": "array",
 			"description": "The contributions (agent, time and role) made to this entity",
 			"$ref": "http://datamodel.clinicalgenome.org/interpretation/schema/variantInterpretation.json#/definitions/contribution"
 		},
