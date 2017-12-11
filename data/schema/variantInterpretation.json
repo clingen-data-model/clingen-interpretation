@@ -3,7 +3,7 @@
 	"title": "VariantInterpretation",
 	"description": "An assertion about the pathogenicity of a genetic sequence variant, based on evaluation of one or more lines of evidence",
 	"type": "object",
-	"id": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/variantInterpretation.json",
+	"id": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json",
 	"definitions": 
 	{
 		"agent": 
@@ -40,7 +40,7 @@
 						"items":
 						{
 							"type": "object",
-	                      "$ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/variantInterpretation.json#/definitions/statement"
+	                      "$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement"
 						}
 					},
 					"evidenceStrength": 
@@ -55,7 +55,7 @@
 						"items": 
 						{
 							"type": "object",
-	                      	"$ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/variantInterpretation.json#/definitions/contribution"
+	                      	"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/contribution"
 						}
 					}
 				},						
@@ -73,7 +73,7 @@
 					{
 						"type:": "object",
 						"description": "A person, group of people, algorithm, or some other actor that could make a contribution",
-						"$ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/variantInterpretation.json#/definitions/agent"
+						"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/agent"
 					},
 					"contributionDate": 
 					{
@@ -186,8 +186,6 @@
 			"required": []
 		},
 		"statement": {
-		"definitions": {
-    		"smt": {
       			"type": "object",	
 				"properties": 
 				{
@@ -203,7 +201,7 @@
 						"items": 
 						{
 							"type": "object",
-							"$ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/variantInterpretation.json#/definitions/evidenceline"
+							"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/evidenceline"
 						}
 					},
 					"contribution": 
@@ -213,7 +211,7 @@
 						"items": 
 						{
 							"type": "object",
-							"$ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/variantInterpretation.json#/definitions/contribution"
+							"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/contribution"
 						}
 					},
 					"description": 
@@ -228,12 +226,10 @@
 					}
 				},
 				"required": []
-				}
 			},
-			"properties": {
-		        "AlleleMolecularConsequence": {	
-		                "allOf":[{"$ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/variantInterpretation.json#/definitions/statement/definitions/smt"},	            
-		           		{"description": "A statement that describes the expected effect of a variant allele at the level of genomic or transcript sequence",
+			"AlleleMolecularConsequence": {	
+		    	"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},	            		        
+		        {"description": "A statement that describes the expected effect of a variant allele at the level of genomic or transcript sequence",
 		            	 "type": "object",
 		            	  "properties": {
 			        		"consequence": {
@@ -245,9 +241,10 @@
 					            "type": "object"
 					        }
 		    		}}]           
-		        },
-			   "ConditionMechanism": {
-		        	"description": "A statement about the mechanism underlying a genetic condition (e.g. if that LOF mutations in a particular gene are a known mechanism of disease).",
+		     },
+			 "ConditionMechanism": {
+			 		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+		        	{"description": "A statement about the mechanism underlying a genetic condition (e.g. if that LOF mutations in a particular gene are a known mechanism of disease).",
 		            "type": "object",
 		            "properties": {
 				        "mechanism": {
@@ -266,14 +263,18 @@
 				            "description": "The condition whose mechanism is being described",
 				            "type": "object"
 				        }
-				    }         
-		        },
-		        "NullAllele": {
-            		"description": "A statement that asserts whether an allele causes commplete loss of function of a gene or gene  product. ",
-            		"type": "object"        
+				    }
+				   }]         
+		       },
+		       "NullAllele": {
+		       		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+            		{"description": "A statement that asserts whether an allele causes commplete loss of function of a gene or gene  product. ",
+            		"type": "object" 
+            		}]       
         		},
         		"CriterionAssessment": {
-	            	"description": "Preferred: An assertion of whether sufficient evidence exists to satisfy some pre-defined 'variant interpretation criterion', which defines requirements for a particular type of argument relevant to the pathogenicity of a genetic variant.\\n\\nAn assertion of whether sufficient evidence exists about a particular variant to satisfy some pre-defined 'variant interpretation criterion'. \\n\\n------\\n\\n(then see clarifying comments to the right)\\n",
+        			"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},        			
+	            	{"description": "Preferred: An assertion of whether sufficient evidence exists to satisfy some pre-defined 'variant interpretation criterion', which defines requirements for a particular type of argument relevant to the pathogenicity of a genetic variant.\\n\\nAn assertion of whether sufficient evidence exists about a particular variant to satisfy some pre-defined 'variant interpretation criterion'. \\n\\n------\\n\\n(then see clarifying comments to the right)\\n",
 	            	 "type": "object",
 	            	 "properties": {
 				        "contextualAllele": {
@@ -285,9 +286,11 @@
 				            "type": "object"
 				        }
 				   }
+				   }]
 	        	},
-	        	"IndividualCondition": {        	
-		            "description": "A statement about whether a individual is affected by or exhibits a particular condition",
+	        	"IndividualCondition": {
+	        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},        	
+		            {"description": "A statement about whether a individual is affected by or exhibits a particular condition",
 		            "type": "object",
 		            "properties": {
 				        "individual": {
@@ -302,10 +305,12 @@
 				            "description": "Whether or not the person has the condition",
 				            "type": "object"
 				        }
-				    }			
+				    }
+				    }]			
         		},
         		"FamilyCondition": {
-		            "description": "A statement describing the presence of a particular disease appears in the history of a family.",
+        			"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+		            {"description": "A statement describing the presence of a particular disease appears in the history of a family.",
 		            "type": "object",
 		            "properties": {
 				        "proband": {
@@ -320,10 +325,12 @@
 				            "description": "Whether or not this family has the stated condition",
 				            "type": "object"
 				        }
-				    }			
+				    }
+				    }]			
         		},
-        		"IndividualAlleleInheritance": {       	
-		            "description": "A statement about the origin of a particular allele in an individual - i.e. whether it occurred  de novo in the individual as a result of a spontaneous mutation event, or whether it was inherited from a parent.",
+        		"IndividualAlleleInheritance": {  
+        			"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},     	
+		            {"description": "A statement about the origin of a particular allele in an individual - i.e. whether it occurred  de novo in the individual as a result of a spontaneous mutation event, or whether it was inherited from a parent.",
 		            "type": "object",
 		            "properties": {
 				        "canonicalAllele": {
@@ -342,10 +349,12 @@
 				            "description": "ToDo",
 				            "type": "object"		            
 				        }
-				    }		
+				    }
+				    }]		
         		},
         		"AlleleFunctionalImpact": {
-		            "description": "A statement describing a particular experimental result about the impact of an allele on gene product function (typically that of the directly affected gene).",
+        			"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+		            {"description": "A statement describing a particular experimental result about the impact of an allele on gene product function (typically that of the directly affected gene).",
 		            "type": "object",
 		            "properties": {
 				        "resultDescription": {
@@ -364,11 +373,12 @@
 				            "description": "Gene to which the functional data applies",
 				            "type": "object"
 				        }
-				    }			           
+				    }
+				    }]			           
         		},
         		"CaseControl": {
-        	
-		            "description": "A statement describing allele frequencies identified in a particular study group as a function of case-control status (i.e frequency in affected vs unaffected study groups",
+        			"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},		
+		            {"description": "A statement describing allele frequencies identified in a particular study group as a function of case-control status (i.e frequency in affected vs unaffected study groups",
 		            "type": "object",
 		            "properties": {
 				        "canonicalAllele": {
@@ -403,10 +413,12 @@
 				            "description": "Upper bound of the confidence interval for the odds ratio",
 				            "type": "float"		            
 				        }
-				    } 			    			         
+				    } 
+				    }]			    			         
         		},      		
 		        "SequenceLocation": {
-		            "description": "The location of a sequence feature as specified by  the coordinates of its starting and ending residues relative to some reference sequence.",
+		        	"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+		            {"description": "The location of a sequence feature as specified by  the coordinates of its starting and ending residues relative to some reference sequence.",
 		            "type": "object",
 		            "properties": {
 				        "referenceSequence": {
@@ -421,10 +433,12 @@
 				            "description": "End of the region in 0-based coordinates",
 				            "type": "int"
 				        }
-				    }           
+				    } 
+				    }]          
 		        },
-        		"AlleleFrequency": {       	
-	            "description": "A statement that describes the frequency of an allele as determined in a defined group of individuals (typically a representative sampling that serves as a proxy for some larger population of individuals",
+        		"AlleleFrequency": { 
+        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},      	
+	            {"description": "A statement that describes the frequency of an allele as determined in a defined group of individuals (typically a representative sampling that serves as a proxy for some larger population of individuals",
 	            "type": "object",
 	            "properties": {
 			        "ascertainment": {
@@ -471,10 +485,12 @@
 			            "description": "Median coverage at the allele site in the data set",
 			            "type": "float"		            
 			        }
-			    }           
+			    }
+			    }]           
         	},
-	        "RegionType": {     	
-		            "description": "A statement that classifies a particular region of biological sequence as being of a specified type or types  (e.g. using terms from the Sequence Ontology).",
+	        "RegionType": {  
+	        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},   	
+		            {"description": "A statement that classifies a particular region of biological sequence as being of a specified type or types  (e.g. using terms from the Sequence Ontology).",
 		            "type": "object",
 		            "properties": {
 				        "annotation": {
@@ -486,10 +502,11 @@
 				            "type": "SequenceLocation"
 				        }
 				    }
-				           
+				 }]          
 	        },
-	        "RegionAlleles": {       	
-		            "description": "A statement about whether a region of genomic sequence overlaps one or more particular alleles.",
+	        "RegionAlleles": { 
+	        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},      	
+		            {"description": "A statement about whether a region of genomic sequence overlaps one or more particular alleles.",
 		            "type": "object",
 		            "properties": {
 				        "allele": {
@@ -504,10 +521,12 @@
 				            "description": "Region within which alleles are being measured",
 				            "type": "SequenceLocation"
 				        }
-				   } 	          
+				   }
+				   }] 	          
 	        },
-        	"IndividualAllele": {           
-	            "description": "A statement describing the allelic state of one or more alleles in the genome of an individual (e.g. zygosity information, or phase relative to a second allele).",
+        	"IndividualAllele": { 
+        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},          
+	            {"description": "A statement describing the allelic state of one or more alleles in the genome of an individual (e.g. zygosity information, or phase relative to a second allele).",
 	            "type": "object",
 	            "properties": {
 			        "individual": {
@@ -534,10 +553,12 @@
 			            "description": "Phase of the primary and secondary individual",
 			            "type": "Phase"		            
 			        }
-			    }			         
+			    }
+			    }]			         
         	},
         	"ExcludedRegionType": {
-	            "description": "TODO",
+        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+	            {"description": "TODO",
 	            "type": "object",
 	            "properties": {
 			        "annotation": {
@@ -548,13 +569,16 @@
 			            "description": "Region",
 			            "type": "SequenceLocation"
 			        }
-			    } 			      
+			    }
+			    }] 			      
         	},
         	"VariantInterpretation": {
-        		"$ref": "variantInterpretation.json"         
+        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+        		{"$ref": "variantInterpretation.json"}]         
         	},
-        	"BenignMissenseVariationRate": {      	
-	            "description": "A statement about the frequency at which missense variants in a particular region are tolerated (i.e. do not cause a pathological condition)",
+        	"BenignMissenseVariationRate": { 
+        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},     	
+	            {"description": "A statement about the frequency at which missense variants in a particular region are tolerated (i.e. do not cause a pathological condition)",
 	            "type": "object",
 	            "properties": {
 			        "region": {
@@ -569,10 +593,12 @@
 			            "description": "Gene that contains the missense variants",
 			            "type": "Gene"
 			        }
-			    }        
+			    }  
+			    }]      
         	},
         	"FamilySegregation": {
-	            "description": "A statement describing the correlation between the presence of a particular allele and the manifestation of a mendelian condition, as inherited through a single family pedigree (i.e. co-segregation of an allele and condition in a single family).\r\n\r\n",
+        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+	            {"description": "A statement describing the correlation between the presence of a particular allele and the manifestation of a mendelian condition, as inherited through a single family pedigree (i.e. co-segregation of an allele and condition in a single family).\r\n\r\n",
 	            "type": "object",
 	            "properties": {
 			        "phenotypePositiveAlleleNegative": {
@@ -628,9 +654,11 @@
 			            "type": "int"
 			        }
 			    }
+			    }]
         	},
-        	"AggregateSegregation": {       	
-	            "description": "A statement describing the correlation between the presense of a particular allele and the manifestation of a disease or phenotypes, as determined by examining inheritance patterns across multiple families (i.e. co-segregation of an allele and condition, aggregated across multiple family pedigrees).",
+        	"AggregateSegregation": {
+        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},       	
+	            {"description": "A statement describing the correlation between the presense of a particular allele and the manifestation of a disease or phenotypes, as determined by examining inheritance patterns across multiple families (i.e. co-segregation of an allele and condition, aggregated across multiple family pedigrees).",
 	            "type": "object",
 	            "properties": {
 			        "canonicalAllele": {
@@ -681,10 +709,12 @@
 			            "description": "Number of families containing segregations that are inconsistent with the allele causing the condition",
 			            "type": "int"		            
 			        }
-			    } 			           
+			    } 
+			   }]			           
         	},
-        	"InSilicoPrediction": {        	
-	            "description": "A statement based on the output of a computational algorithm that predicts the impact of a particular allele on the function of its resulting gene product (e.g. 'deleterious', 'damaging', 'tolerated').",
+        	"InSilicoPrediction": {
+        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},        	
+	            {"description": "A statement based on the output of a computational algorithm that predicts the impact of a particular allele on the function of its resulting gene product (e.g. 'deleterious', 'damaging', 'tolerated').",
 	            "type": "object",
 	            "properties": {
 			        "transcript": {
@@ -711,10 +741,12 @@
 			            "description": "The value of the prediction",
 			            "type": "String"
 			        }
-			    }           
+			    }
+			  }]           
         	},
         	"LocusHeterogeneity": {
-	            "description": "A statement that reflects the specificity with which a genetic condition is caused by variants in a particular gene or locus (i.e. whether it is the only known gene associated with the condition, or one or more other genes have been linked to the condition).",
+        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+	            {"description": "A statement that reflects the specificity with which a genetic condition is caused by variants in a particular gene or locus (i.e. whether it is the only known gene associated with the condition, or one or more other genes have been linked to the condition).",
 	            "type": "object",
 	            "properties": {
 			        "condition": {
@@ -729,10 +761,12 @@
 			            "description": "Specificity of the Gene for the Condition",
 			            "type": "LocusSpecificity"
 			        }
-			    }        
+			    }
+			    }]       
         	},
         	"ConditionPrevelance": {
-	            "description": "A statement describing the frequency of a condition as determined for a particular population of persons (ascertained by factors  such as ethnicity, race, socio-economic  status, geographic residence, etc).",
+        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+	            {"description": "A statement describing the frequency of a condition as determined for a particular population of persons (ascertained by factors  such as ethnicity, race, socio-economic  status, geographic residence, etc).",
 	            "type": "object",
 	            "properties": {
 			        "condition": {
@@ -755,10 +789,12 @@
 			            "description": "Prevelance of the condition in the population",
 			            "type": "float"
 			        }
-			    }			          
+			    }
+			    }]			          
         	},
         	"ConditionPenetrance": {
-	            "description": "A statement describing the proportion of individuals carrying a causal allele who exhibit a particular disease or phenotype.",
+        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+	            {"description": "A statement describing the proportion of individuals carrying a causal allele who exhibit a particular disease or phenotype.",
 	            "type": "object",
 	            "properties": {
 			        "condition": {
@@ -769,10 +805,12 @@
 			            "description": "Qualitative penetrance value",
 			            "type": "Penetrance"
 			        }
-			    }          
+			    } 
+			    }]         
         	},
         	"AlleleConservation": {
-	            "description": "A statement about the degree of evolutionary conservation of an allele across a defined set of taxa/species. ",
+        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+	            {"description": "A statement about the degree of evolutionary conservation of an allele across a defined set of taxa/species. ",
 	            "type": "object",
 	            "properties": {
 			        "allele": {
@@ -792,9 +830,8 @@
 			            "type": "float"
 			        }
 			    }           	        
-	    	 }
-	      }    		  
-		}  
+	    	 }]
+	    }    		   
 	},
 	"properties": 
 	{
@@ -813,7 +850,7 @@
 			"items": 
 			{
 				"type": "object",
-				"$ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/variantInterpretation.json#/definitions/evidenceline"
+				"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/evidenceline"
 			}
 		},
 		"contribution": 
@@ -821,7 +858,7 @@
 			"$id": "/properties/contribution",
 			"type": "array",
 			"description": "The contributions (agent, time and role) made to this entity",
-			"$ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/variantInterpretation.json#/definitions/contribution"
+			"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/contribution"
 		},
 		"description": 
 		{
@@ -849,7 +886,7 @@
 			"type": "array",
 			"items": 
 			{
-				"$ref": "https://github.com/clingen-data-model/clingen-interpretation/blob/master/data/schema/variantInterpretation.json#/definitions/geneticcondition"
+				"$ref": "http://datamodel.clinicalgenome.org//schema/variantInterpretation.json#/definitions/geneticcondition"
 			}
 		},
 		"outcome": 
