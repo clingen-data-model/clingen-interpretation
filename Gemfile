@@ -16,4 +16,7 @@ gem "tzinfo-data", platforms: [:mswin, :mingw, :jruby]
 # To process xlsx files (like the examples spreadsheet)
 gem "rubyXL", "~>3.3.21"
 
+# To process owl files (e.g., from SEPIO)
+gem "rdf-rdfxml", "~>2.2.0"
+
 gem 'middleman-gh-pages'
