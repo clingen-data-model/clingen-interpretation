@@ -3,12 +3,14 @@
 	"title": "VariantInterpretation",
 	"description": "An assertion about the pathogenicity of a genetic sequence variant, based on evaluation of one or more lines of evidence",
 	"type": "object",
-	"id": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json",
 	"definitions": 
 	{
 		"agent": 
 		{
-			"type": "object",
+			"anyOf": [
+    			{ "type": "string"},
+    			{ "type": "object"}
+  			],
 			"properties": 
 			{
 				"description": 
@@ -20,8 +22,44 @@
 				{
 					"type": "string"
 				}
-			},
-			"required": []
+			}			
+		},
+		"contribution": 
+		{
+			"type": "object",
+            
+				"properties": 
+				{
+					"agent": 
+					{
+						"type": "object",
+						"description": "A person, group of people, algorithm, or some other actor that could make a contribution",
+						"$ref": "#/definitions/agent"
+					},
+					"contributionDate": 
+					{
+						"type": "string",
+						"description": "TODO"
+					},
+					"contributionRole": 
+					{						
+						"type": "object",
+						"description": "TODO",
+						"properties": 
+						{
+							"label": 
+							{
+								"type": "string",
+								"description": "ToDo"
+							},	
+							"type": 
+							{
+								"type": "string",
+								"description": "An explanation about the purpose of this instance."
+							}
+						}
+					}
+				}
 		},
 		"evidenceline": 
 		{
@@ -40,13 +78,16 @@
 						"items":
 						{
 							"type": "object",
-	                      "$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement"
+	                        "$ref": "#/definitions/statement"
 						}
 					},
 					"evidenceStrength": 
 					{
 						"description": "ToDo",
-						"type": "string"
+						"anyOf": [
+    						{ "type": "string"},
+    						{ "type": "object"}
+  						]
 					},
 					"contribution": 
 					{
@@ -55,69 +96,24 @@
 						"items": 
 						{
 							"type": "object",
-	                      	"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/contribution"
+	                      	"$ref": "#/definitions/contribution"
 						}
 					}
-				},						
-			"required": []
-		},
-		"contribution": 
-		{
-			"type:": "array",
-            "items":
-            {
-              "type": "object",
-				"properties": 
-				{
-					"agent": 
-					{
-						"type:": "object",
-						"description": "A person, group of people, algorithm, or some other actor that could make a contribution",
-						"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/agent"
-					},
-					"contributionDate": 
-					{
-						"$id": "/properties/contribution/items/properties/contributionDate",
-						"type:": "string",
-						"description": "TODO"
-					},
-					"contributionRole": 
-					{
-						"type:": "object",
-						"description": "TODO",
-						"properties": 
-						{
-							"label": 
-							{
-								"type": "string",
-								"description": "ToDo"
-							},
-	
-							"type": 
-							{
-								"type": "string",
-								"description": "An explanation about the purpose of this instance."
-							}
-						}
-					}
-				}
-            },
-			"required": []
+				}						
 		},
 		"geneticcondition": 
 		{
-			"type:": "object",
+			"type": "object",
 			"properties": 
 			{
 				"phenotype": 
 				{
-					"type:": "array",
+					"type": "object",
 					"description": "phenotype"
 				},
-
 				"modeOfInheritance": 
 				{
-					"type:": "object",
+					"type": "object",
 					"description": "modeOfInheritance",
 					"properties": 
 					{
@@ -140,16 +136,15 @@
 						}
 					}
 				},
-
 				"gene": 
 				{
-					"type:": "object",
+					"type": "object",
 					"description": "gene",
 					"properties": 
 					{
 						"geneSymbol": 
 						{
-							"type:": "object",
+							"type": "object",
 							"description": "geneSymbol"
 						}
 					}
@@ -161,7 +156,7 @@
 				},
 				"disease": 
 				{
-					"type:": "array",
+					"type": "array",
 					"description": "disease",
 					"items": 
 					{
@@ -182,8 +177,7 @@
 						}
 					}
 				}
-			},
-			"required": []
+			}
 		},
 		"statement": {
       			"type": "object",	
@@ -201,7 +195,7 @@
 						"items": 
 						{
 							"type": "object",
-							"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/evidenceline"
+							"$ref": "#/definitions/evidenceline"
 						}
 					},
 					"contribution": 
@@ -211,7 +205,7 @@
 						"items": 
 						{
 							"type": "object",
-							"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/contribution"
+							"$ref": "#/definitions/contribution"
 						}
 					},
 					"description": 
@@ -222,13 +216,16 @@
 					"source": 
 					{
 						"type": "array",
-						"description": "source"
+						"description": "source",
+						"items": 
+						{
+							"type": "string"
+						}
 					}
-				},
-				"required": []
+				}
 			},
 			"AlleleMolecularConsequence": {	
-		    	"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},	            		        
+		    	"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},	            		        
 		        {"description": "A statement that describes the expected effect of a variant allele at the level of genomic or transcript sequence",
 		            	 "type": "object",
 		            	  "properties": {
@@ -243,7 +240,7 @@
 		    		}}]           
 		     },
 			 "ConditionMechanism": {
-			 		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+			 		"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},
 		        	{"description": "A statement about the mechanism underlying a genetic condition (e.g. if that LOF mutations in a particular gene are a known mechanism of disease).",
 		            "type": "object",
 		            "properties": {
@@ -267,13 +264,13 @@
 				   }]         
 		       },
 		       "NullAllele": {
-		       		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+		       		"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},
             		{"description": "A statement that asserts whether an allele causes commplete loss of function of a gene or gene  product. ",
             		"type": "object" 
             		}]       
         		},
         		"CriterionAssessment": {
-        			"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},        			
+        			"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},        			
 	            	{"description": "Preferred: An assertion of whether sufficient evidence exists to satisfy some pre-defined 'variant interpretation criterion', which defines requirements for a particular type of argument relevant to the pathogenicity of a genetic variant.\\n\\nAn assertion of whether sufficient evidence exists about a particular variant to satisfy some pre-defined 'variant interpretation criterion'. \\n\\n------\\n\\n(then see clarifying comments to the right)\\n",
 	            	 "type": "object",
 	            	 "properties": {
@@ -289,7 +286,7 @@
 				   }]
 	        	},
 	        	"IndividualCondition": {
-	        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},        	
+	        		"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},        	
 		            {"description": "A statement about whether a individual is affected by or exhibits a particular condition",
 		            "type": "object",
 		            "properties": {
@@ -309,7 +306,7 @@
 				    }]			
         		},
         		"FamilyCondition": {
-        			"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+        			"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},
 		            {"description": "A statement describing the presence of a particular disease appears in the history of a family.",
 		            "type": "object",
 		            "properties": {
@@ -329,7 +326,7 @@
 				    }]			
         		},
         		"IndividualAlleleInheritance": {  
-        			"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},     	
+        			"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},     	
 		            {"description": "A statement about the origin of a particular allele in an individual - i.e. whether it occurred  de novo in the individual as a result of a spontaneous mutation event, or whether it was inherited from a parent.",
 		            "type": "object",
 		            "properties": {
@@ -353,7 +350,7 @@
 				    }]		
         		},
         		"AlleleFunctionalImpact": {
-        			"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+        			"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},
 		            {"description": "A statement describing a particular experimental result about the impact of an allele on gene product function (typically that of the directly affected gene).",
 		            "type": "object",
 		            "properties": {
@@ -377,457 +374,457 @@
 				    }]			           
         		},
         		"CaseControl": {
-        			"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},		
+        			"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},		
 		            {"description": "A statement describing allele frequencies identified in a particular study group as a function of case-control status (i.e frequency in affected vs unaffected study groups",
 		            "type": "object",
 		            "properties": {
 				        "canonicalAllele": {
 				            "description": "The allele studied in the case-control experiment",
-				            "type": "CanonicalAllele"
+				            "type": "object"
 				        },
 				        "condition": {
 				            "description": "The condition studied in the case-control experiment",
-				            "type": "GeneticCondition"
+				            "type": "object"
 				        },
 				        "oddsRatio": {
 				            "description": "Ratio of the probability of having the condition given the allele to the probability of the condition without the allele.",
-				            "type": "float"
+				            "type": "number"
 				        },
 				        "confidenceLevel": {
 				            "description": "Confidence level in percent",
-				            "type": "float"
+				            "type": "number"
 				        },
 				        "caseGroupFrequency": {
 				            "description": "The group of individuals with the condition",
-				            "type": "AlleleFrequency"		            
+				            "type": "object"		            
 				        },
 				        "controlGroupFrequency": {
 				            "description": "The group of individuals without the condition",
-				            "type": "AlleleFrequency"
+				            "type": "object"
 				        },
 				        "confidenceIntervalLower": {
 				            "description": "Lower bound of the confidence interval for the odds ratio",
-				            "type": "float"
+				            "type": "number"
 				        },
 				        "confidenceIntervalUpper": {
 				            "description": "Upper bound of the confidence interval for the odds ratio",
-				            "type": "float"		            
+				            "type": "number"		            
 				        }
 				    } 
 				    }]			    			         
         		},      		
 		        "SequenceLocation": {
-		        	"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+		        	"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},
 		            {"description": "The location of a sequence feature as specified by  the coordinates of its starting and ending residues relative to some reference sequence.",
 		            "type": "object",
 		            "properties": {
 				        "referenceSequence": {
 				            "description": "Sequence on which the region is defined",
-				            "type": "ReferenceSequence"
+				            "type": "object"
 				        },
 				        "start": {
 				            "description": "Start of the region in 0-based coordinates",
-				            "type": "int"
+				            "type": "number"
 				        },
 				        "stop": {
 				            "description": "End of the region in 0-based coordinates",
-				            "type": "int"
+				            "type": "number"
 				        }
 				    } 
 				    }]          
 		        },
         		"AlleleFrequency": { 
-        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},      	
+        		"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},      	
 	            {"description": "A statement that describes the frequency of an allele as determined in a defined group of individuals (typically a representative sampling that serves as a proxy for some larger population of individuals",
 	            "type": "object",
 	            "properties": {
 			        "ascertainment": {
 			            "description": "The criteria applied to create the dataset in which the frequency was measured",
-			            "type": "Ascertainment"		            
+			            "type": "object"		            
 			        },
 			        "allele": {
 			            "description": "The variant for which the frequency is given",
-			            "type": "CanonicalAllele"		            
+			            "type": "object"		            
 			        },
 			        "alleleCount": {
 			            "description": "Frequency numerator: number of times the allele was observed",
-			            "type": "int"		            
+			            "type": "number"		            
 			        },
 			        "alleleNumber": {
 			            "description": "Frequency denominator: number of observations",
-			            "type": "int"		            
+			            "type": "number"		            
 			        },
 			        "individualCount": {
 			            "description": "Number of individuals sampled",
-			            "type": "int"		            
+			            "type": "number"		            
 			        },
 			        "homozygousAlleleIndividualCount": {
 			            "description": "Number of individuals in the group that are homozygous for the allele",
-			            "type": "int"		            
+			            "type": "number"		            
 			        },
 			        "heterozygousAlleleIndividualCount": {
 			            "description": "Number of individuals in the group who are heterozygous for the allele.",
-			            "type": "int"		            
+			            "type": "number"		            
 			        },
 			        "population": {
 			            "description": "Ancestry of population or group over which the frequency was measured",
-			            "type": "Population"		            
+			            "type": "object"		            
 			        },
 			        "hemizygousAlleleIndividualCount": {
 			            "description": "Number of individuals in the group that are hemizygous for the allele",
-			            "type": "int"		            
+			            "type": "number"		            
 			        },
 			        "alleleFrequency": {
 			            "description": "Frequency of the named allele in the population",
-			            "type": "float"		            
+			            "type": "number"		            
 			        },
 			        "medianCoverage": {
 			            "description": "Median coverage at the allele site in the data set",
-			            "type": "float"		            
+			            "type": "number"		            
 			        }
 			    }
 			    }]           
         	},
 	        "RegionType": {  
-	        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},   	
+	        		"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},   	
 		            {"description": "A statement that classifies a particular region of biological sequence as being of a specified type or types  (e.g. using terms from the Sequence Ontology).",
 		            "type": "object",
 		            "properties": {
 				        "annotation": {
 				            "description": "ToDo",
-				            "type": "RegionAnnotation"
+				            "type": "object"
 				        },
 				        "region": {
 				            "description": "Region",
-				            "type": "SequenceLocation"
+				            "type": "object"
 				        }
 				    }
 				 }]          
 	        },
 	        "RegionAlleles": { 
-	        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},      	
+	        		"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},      	
 		            {"description": "A statement about whether a region of genomic sequence overlaps one or more particular alleles.",
 		            "type": "object",
 		            "properties": {
 				        "allele": {
 				            "description": "Alleles that are being explicited assessed as either included or excluded from the region.",
-				            "type": "ContextualAllele"
+				            "type": "object"
 				        },
 				        "outcome": {
 				            "description": "Assessed outcome of specified alleles as either included or excluded.",
-				            "type": "RegionAllelesOutcome"
+				            "type": "object"
 				        },
 				        "region": {
 				            "description": "Region within which alleles are being measured",
-				            "type": "SequenceLocation"
+				            "type": "object"
 				        }
 				   }
 				   }] 	          
 	        },
         	"IndividualAllele": { 
-        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},          
+        		"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},          
 	            {"description": "A statement describing the allelic state of one or more alleles in the genome of an individual (e.g. zygosity information, or phase relative to a second allele).",
 	            "type": "object",
 	            "properties": {
 			        "individual": {
 			            "description": "Person whose alleles the data represents",
-			            "type": "Individual"		            
+			            "type": "object"		            
 			        },
 			        "primaryAllele": {
 			            "description": "One allele that the person has",
-			            "type": "CanonicalAllele"		            
+			            "type": "object"		            
 			        },
 			        "secondaryAllele": {
 			            "description": "A second allele that the person has",
-			            "type": "CanonicalAllele"		            
+			            "type": "object"		            
 			        },
 			        "primaryZygosity": {
 			            "description": "Zygosity of the primary allele in the individual",
-			            "type": "AllelicState"		            
+			            "type": "object"		            
 			        },
 			        "secondaryZygosity": {
 			            "description": "Zygosity of the secondary allele in the individual",
-			            "type": "AllelicState"		            
+			            "type": "object"		            
 			        },
 			        "phase": {
 			            "description": "Phase of the primary and secondary individual",
-			            "type": "Phase"		            
+			            "type": "object"		            
 			        }
 			    }
 			    }]			         
         	},
         	"ExcludedRegionType": {
-        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+        		"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},
 	            {"description": "TODO",
 	            "type": "object",
 	            "properties": {
 			        "annotation": {
 			            "description": "ToDo",
-			            "type": "RegionAnnotation"
+			            "type": "object"
 			        },
 			        "region": {
 			            "description": "Region",
-			            "type": "SequenceLocation"
+			            "type": "object"
 			        }
 			    }
 			    }] 			      
         	},
         	"VariantInterpretation": {
-        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
-        		{"$ref": "variantInterpretation.json"}]         
+        		"allOf":[{"$ref": "#/definitions/statement/definitions/statement"}]
+        		     
         	},
         	"BenignMissenseVariationRate": { 
-        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},     	
+        		"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},     	
 	            {"description": "A statement about the frequency at which missense variants in a particular region are tolerated (i.e. do not cause a pathological condition)",
 	            "type": "object",
 	            "properties": {
 			        "region": {
 			            "description": "Sequence on which the region is defined",
-			            "type": "SequenceLocation"
+			            "type": "object"
 			        },
 			        "value": {
 			            "description": "The rate at which Benign missense variants occur within the region",
-			            "type": "BenignMissenseVariationRateOutcome"
+			            "type": "object"
 			        },
 			        "gene": {
 			            "description": "Gene that contains the missense variants",
-			            "type": "Gene"
+			            "type": "object"
 			        }
 			    }  
 			    }]      
         	},
         	"FamilySegregation": {
-        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+        		"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},
 	            {"description": "A statement describing the correlation between the presence of a particular allele and the manifestation of a mendelian condition, as inherited through a single family pedigree (i.e. co-segregation of an allele and condition in a single family).\r\n\r\n",
 	            "type": "object",
 	            "properties": {
 			        "phenotypePositiveAlleleNegative": {
 			            "description": "Number of (non-proband) individuals with the condition and without the allele",
-			            "type": "int"
+			            "type": "number"
 			        },
 			        "inconsistentSegregationCount": {
 			            "description": "ToDo",
-			            "type": "int"
+			            "type": "number"
 			        },
 			        "condition": {
 			            "description": "Condition being tested for cosegregation",
-			            "type": "GeneticCondition"
+			            "type": "object"
 			        },
 			        "canonicalAllele": {
 			            "description": "Allele being tested for cosegregation",
-			            "type": "CanonicalAllele"		            
+			            "type": "object"		            
 			        },
 			        "family": {
 			            "description": "Family in which segregation is being tested",
-			            "type": "Family"		            
+			            "type": "object"		            
 			        },
 			        "phenotypePositiveAllelePositive": {
 			            "description": "Number of (non-proband) individuals with both the condition and the allele",
-			            "type": "int"
+			            "type": "number"
 			        },
 			        "phenotypeNegativeAllelePositive": {
 			            "description": "Number of (non-proband) individuals without the condition and with the allele",
-			            "type": "int"
+			            "type": "number"
 			        },
 			        "columns": {
 			            "description": "Column names for the pedigree data element",
-			            "type": "String"
+			            "type": "string"
 			        },
 			        "affectedValues": {
 			            "description": "Map describing how affected status is represented in the pedigree",
-			            "type": "String"
+			            "type": "string"
 			        },
 			        "genotypeValues": {
 			            "description": "Map describing how genotypes are represented in the pedigree",
-			            "type": "String"
+			            "type": "string"
 			        },
 			        "pedigree": {
 			            "description": "Detailed information about the family structure, affected status, and genotypes in pedigree/linkage format.",
-			            "type": "String"
+			            "type": "string"
 			        },
 			        "inconsistentSegregationsObserved": {
 			            "description": "Whether phenotype positive/allele negative or phenotype negative/allele positive individuals are in the family",
-			            "type": "InconsistentSegregationObserved"
+			            "type": "object"
 			        },
 			        "phenotypeNegativeAlleleNegative": {
 			            "description": "The number of non-proband family members that have neither the allele nor the phenotype",
-			            "type": "int"
+			            "type": "number"
 			        }
 			    }
 			    }]
         	},
         	"AggregateSegregation": {
-        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},       	
+        		"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},       	
 	            {"description": "A statement describing the correlation between the presense of a particular allele and the manifestation of a disease or phenotypes, as determined by examining inheritance patterns across multiple families (i.e. co-segregation of an allele and condition, aggregated across multiple family pedigrees).",
 	            "type": "object",
 	            "properties": {
 			        "canonicalAllele": {
 			            "description": "Allele being tested for cosegregation",
-			            "type": "CanonicalAllele"		            
+			            "type": "object"		            
 			        },
 			        "condition": {
 			            "description": "Condition being tested for cosegregation",
-			            "type": "GeneticCondition"		            
+			            "type": "object"		            
 			        },
 			        "totalNumberOfSegregations": {
 			            "description": "Total number of segregations across families",
-			            "type": "int"	            
+			            "type": "number"	            
 			        },
 			        "familySegregation": {
 			            "description": "List of FamilySegregrationData that have been aggregated",
-			            "type": "FamilySegregation"		            
+			            "type": "object"		            
 			        },
 			        "modeOfInheritance": {
 			            "description": "Mode Of Inheritance used in evaluation of segregation",
-			            "type": "ModeOfInheritance"		            
+			            "type": "object"		            
 			        },
 			        "totalOfAllelePosConditionPosIndividuals": {
 			            "description": "Number of individuals across families that have the allele and the condition",
-			            "type": "int"		            
+			            "type": "number"		            
 			        },
 			        "totalOfAlleleNegConditionNegIndividuals": {
 			            "description": "Number of individuals across families that lack both the allele and the condition",
-			            "type": "int"		            
+			            "type": "number"		            
 			        },
 			        "totalOfAllelePosConditionNegIndividuals": {
 			            "description": "Number of individuals across families that have the allele but not the condition",
-			            "type": "int"		            
+			            "type": "number"		            
 			        },
 			        "totalOfAlleleNegConditionPosIndividuals": {
 			            "description": "Number of individuals across families that do not have the allele but do have the condition",
-			            "type": "int"		            
+			            "type": "number"		            
 			        },
 			        "totalOfUntestedConditionPosIndividuals": {
 			            "description": "Number of individuals across families that have the condition but whose allele is untested",
-			            "type": "int"		            
+			            "type": "number"		            
 			        },
 			        "totalOfUntestedConditionNegIndividuals": {
 			            "description": "Number of individuals across families that do not have the condition but whose allele is untested",
-			            "type": "int"		            
+			            "type": "number"		            
 			        },
 			        "totalOfFamiliesWithInconsistentSegregations": {
 			            "description": "Number of families containing segregations that are inconsistent with the allele causing the condition",
-			            "type": "int"		            
+			            "type": "number"		            
 			        }
 			    } 
 			   }]			           
         	},
         	"InSilicoPrediction": {
-        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},        	
+        		"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},        	
 	            {"description": "A statement based on the output of a computational algorithm that predicts the impact of a particular allele on the function of its resulting gene product (e.g. 'deleterious', 'damaging', 'tolerated').",
 	            "type": "object",
 	            "properties": {
 			        "transcript": {
 			            "description": "The contextual allele on which the prediction is made",
-			            "type": "ReferenceSequence"
+			            "type": "object"
 			        },
 			        "score": {
 			            "description": "ToDo",
-			            "type": "float"
+			            "type": "number"
 			        },
 			        "canonicalAllele": {
 			            "description": "The contextual allele on which the prediction is made",
-			            "type": "CanonicalAllele"
+			            "type": "object"
 			        },
 			        "predictionType": {
 			            "description": "The type of prediction being made",
-			            "type": "Prediction"
+			            "type": "object"
 			        },
 			        "algorithm": {
 			            "description": "The computational tool or algorithm that makes the prediction",
-			            "type": "String"
+			            "type": "string"
 			        },
 			        "categoricalPrediction": {
 			            "description": "The value of the prediction",
-			            "type": "String"
+			            "type": "string"
 			        }
 			    }
 			  }]           
         	},
         	"LocusHeterogeneity": {
-        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+        		"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},
 	            {"description": "A statement that reflects the specificity with which a genetic condition is caused by variants in a particular gene or locus (i.e. whether it is the only known gene associated with the condition, or one or more other genes have been linked to the condition).",
 	            "type": "object",
 	            "properties": {
 			        "condition": {
 			            "description": "The condition for which the eitiology is defined",
-			            "type": "GeneticCondition"
+			            "type": "object"
 			        },
 			        "gene": {
 			            "description": "Gene that causes the condition",
-			            "type": "Gene"
+			            "type": "object"
 			        },
 			        "specificity": {
 			            "description": "Specificity of the Gene for the Condition",
-			            "type": "LocusSpecificity"
+			            "type": "object"
 			        }
 			    }
 			    }]       
         	},
         	"ConditionPrevelance": {
-        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+        		"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},
 	            {"description": "A statement describing the frequency of a condition as determined for a particular population of persons (ascertained by factors  such as ethnicity, race, socio-economic  status, geographic residence, etc).",
 	            "type": "object",
 	            "properties": {
 			        "condition": {
 			            "description": "Condition for which the prevelance is described",
-			            "type": "GeneticCondition"
+			            "type": "object"
 			        },
 			        "minimum": {
 			            "description": "Minimum bound on the condition's prevelance",
-			            "type": "float"
+			            "type": "number"
 			        },
 			        "maximum": {
 			            "description": "Maximum bound on the condition's prevelance",
-			            "type": "float"
+			            "type": "number"
 			        },
 			        "population": {
 			            "description": "Population over which the prevelance is defined",
-			            "type": "Population"
+			            "type": "object"
 			        },
 			        "prevelance": {
 			            "description": "Prevelance of the condition in the population",
-			            "type": "float"
+			            "type": "number"
 			        }
 			    }
 			    }]			          
         	},
         	"ConditionPenetrance": {
-        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+        		"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},
 	            {"description": "A statement describing the proportion of individuals carrying a causal allele who exhibit a particular disease or phenotype.",
 	            "type": "object",
 	            "properties": {
 			        "condition": {
 			            "description": "Condition for which the penetrance is described",
-			            "type": "GeneticCondition"
+			            "type": "object"
 			        },
 			        "penetrance": {
 			            "description": "Qualitative penetrance value",
-			            "type": "Penetrance"
+			            "type": "object"
 			        }
 			    } 
 			    }]         
         	},
         	"AlleleConservation": {
-        		"allOf":[{"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/statement/definitions/statement"},
+        		"allOf":[{"$ref": "#/definitions/statement/definitions/statement"},
 	            {"description": "A statement about the degree of evolutionary conservation of an allele across a defined set of taxa/species. ",
 	            "type": "object",
 	            "properties": {
 			        "allele": {
 			            "description": "The allele for which conservation values are given",
-			            "type": "CanonicalAllele"
+			            "type": "object"
 			        },
 			        "outcome": {
 			            "description": "Whether the allele is conserved",
-			            "type": "Conservation"
+			            "type": "object"
 			        },
 			        "algorithm": {
 			            "description": "Method or program used to calculate conservation",
-			            "type": "String"
+			            "type": "string"
 			        },
 			        "score": {
 			            "description": "Numerical score for the conservation of the allele",
-			            "type": "float"
+			            "type": "number"
 			        }
 			    }           	        
 	    	 }]
@@ -837,45 +834,42 @@
 	{
 		"qualifier": 
 		{
-			"$id": "/properties/qualifier",
 			"type": "object",
 			"description": "Use “NOT” as the value of this property to assert that the statement is negated."
 		},
-
 		"evidenceLine": 
 		{
-			"$id": "/properties/evidenceLine",
 			"description": "supporting evidence",
 			"type": "array",
 			"items": 
 			{
 				"type": "object",
-				"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/evidenceline"
+				"$ref": "#/definitions/evidenceline"
 			}
 		},
 		"contribution": 
-		{
-			"$id": "/properties/contribution",
+		{			
 			"type": "array",
 			"description": "The contributions (agent, time and role) made to this entity",
-			"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/contribution"
+			"items": 
+			{
+				"type": "object",
+				"$ref": "#/definitions/contribution"
+			}
 		},
 		"description": 
 		{
-			"$id": "/properties/description",
 			"type": "object",
 			"description": "A human-readable description of the entity"
 		},
 
 		"source": 
 		{
-			"$id": "/properties/source",
 			"type": "array",
 			"description": "source"
 		},
 		"variant": 
 		{
-			"$id": "/properties/variant",
 			"type": "string",
 			"description": "The variant whose pathogenicity is being described"
 		},
@@ -886,18 +880,18 @@
 			"type": "array",
 			"items": 
 			{
-				"$ref": "http://datamodel.clinicalgenome.org/schema/variantInterpretation.json#/definitions/geneticcondition"
+				"$ref": "#/definitions/geneticcondition"
 			}
 		},
 		"outcome": 
 		{
-			"type:": "object",
+			"type": "object",
 			"description": "The coded pathogenicity of the variant for the condition"
 		},
 
 		"assertionMethod": 
 		{
-			"type:": "object",
+			"type": "object",
 			"description": "The  framework that formally defines the methodology used in creating this interpretation."
 		}
 	},
