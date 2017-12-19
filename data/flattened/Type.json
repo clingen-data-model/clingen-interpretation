@@ -39,7 +39,7 @@
     "iri": "SEPIO:0000192",
     "iri-label": "variant pathogenicity criterion",
     "cg-label": "Criterion",
-    "description": "A specification that describes how to interpret the direction and strength of evidence provided by a specific type of information, as relevant to the pathogenicity of a genetic variant.\n\nA specification that describes how to interpret the direction and strength of evidence provided by a specific type of information for the pathogenicity or benignancy of a genetic variant.",
+    "description": "A specification that describes how to interpret the direction and strength of evidence provided by a specific type of information, as relevant to the pathogenicity or benignancy of a genetic variant.\n\nA specification that describes how to interpret the direction and strength of evidence provided by a specific type of information for the pathogenicity or benignancy of a genetic variant.",
     "comments": "\tIn the process of generating a variant interpretation, criterion support the generation of intermediate assertions ('criterion assessments') that establish whether a variant meets the standards set forth in the criterion. Many criterion also define a default strength to a particular type of evidence it defines (e.g. the ACMG criteria for pathogenicity are categorized as very string, strong, moderate, and supporting). These strengths are ultimately used by rules that combine the outcomes of all satisfied criterion to make a final interpretation of the variant's pathogenicity."
   },
   "E05": {
@@ -276,7 +276,7 @@
     "name": "Haplotype",
     "parentType": "E40",
     "link": "Haplo",
-    "description": ""
+    "description": "A set of alleles on the same molecule (i.e. in cis)"
   },
   "E30": {
     "id": "E30",
@@ -286,7 +286,7 @@
     "iri": "",
     "iri-label": "",
     "cg-label": "Genotype",
-    "description": "",
+    "description": "A set of haplotypes on different molecules (i.e. in trans)",
     "comments": ""
   },
   "E32": {
@@ -459,7 +459,7 @@
     "iri": "???",
     "iri-label": "",
     "cg-label": "InSilicoPredictionScore",
-    "description": "",
+    "description": "A statement describing a quantitative score fron an InSilico Prediction",
     "comments": ""
   },
   "E53": {
@@ -470,7 +470,7 @@
     "iri": "???",
     "iri-label": "",
     "cg-label": "AlleleConservationScore",
-    "description": "",
+    "description": "A statement describing a quantitative score of the degree of evolutionary conservation of an allele across a defined set of taxa/species",
     "comments": ""
   },
   "E54": {
@@ -480,7 +480,7 @@
     "iri": "SEPIO-CG:02000",
     "iri-label": "",
     "cg-label": "ValueSet",
-    "description": "",
+    "description": "A set of identifiers that can be used as the values of specific properties",
     "comments": ""
   },
   "E56": {
@@ -501,7 +501,7 @@
     "iri": "SEPIO-CG:55102",
     "iri-label": "",
     "cg-label": "MolecularConsequence",
-    "description": ""
+    "description": "A classification of a genomic variant based on its effect on a transcript or its location with respect to the transcript."
   },
   "E58": {
     "id": "E58",
@@ -511,7 +511,7 @@
     "iri": "SEPIO-CG:55101",
     "iri-label": "",
     "cg-label": "Significance",
-    "description": ""
+    "description": "The role that a variant plays in the causing a genetic condition."
   },
   "E59": {
     "id": "E59",
@@ -521,7 +521,7 @@
     "iri": "SEPIO-CG:55102",
     "iri-label": "",
     "cg-label": "RegionAnnotation",
-    "description": ""
+    "description": "A label applied to a sequence region"
   },
   "E60": {
     "id": "E60",
@@ -531,7 +531,7 @@
     "iri": "SEPIO-CG:55103",
     "iri-label": "",
     "cg-label": "Phase",
-    "description": ""
+    "description": "Value denoting whether sequence features lie on the same or different molecules"
   },
   "E61": {
     "id": "E61",
@@ -541,7 +541,7 @@
     "iri": "SEPIO-CG:55104",
     "iri-label": "",
     "cg-label": "AllelicState",
-    "description": ""
+    "description": "Describes the existence of an allele across multiple copies of a chromosome."
   },
   "E62": {
     "id": "E62",
@@ -551,7 +551,7 @@
     "iri": "SEPIO-CG:55105",
     "iri-label": "",
     "cg-label": "ModeOfInheritance",
-    "description": ""
+    "description": "Classifies the transmission pattern of a condition in a pedigree."
   },
   "E64": {
     "id": "E64",
@@ -561,7 +561,7 @@
     "iri": "SEPIO-CG:55107",
     "iri-label": "",
     "cg-label": "Mechanism",
-    "description": ""
+    "description": "The particular type of allele that can lead to a condition"
   },
   "E65": {
     "id": "E65",
@@ -571,7 +571,7 @@
     "iri": "SEPIO-CG:55108",
     "iri-label": "",
     "cg-label": "Prediction",
-    "description": ""
+    "description": "The type of InSilico Predictor"
   },
   "E66": {
     "id": "E66",
@@ -581,7 +581,7 @@
     "iri": "SEPIO-CG:55109",
     "iri-label": "",
     "cg-label": "CriterionEvaluation",
-    "description": ""
+    "description": "Denotes whether the collected evidence is sufficient to meet a specified criteria or not"
   },
   "E67": {
     "id": "E67",
@@ -591,7 +591,7 @@
     "iri": "SEPIO-CG:55110",
     "iri-label": "",
     "cg-label": "AlleleFunctionalAssayMethod",
-    "description": ""
+    "description": "The method of a functional assay"
   },
   "E68": {
     "id": "E68",
@@ -601,7 +601,7 @@
     "iri": "SEPIO-CG:55111",
     "iri-label": "",
     "cg-label": "Population",
-    "description": ""
+    "description": "Label for a group of individuals with a shared genetic background"
   },
   "E69": {
     "id": "E69",
@@ -611,7 +611,7 @@
     "iri": "SEPIO-CG:55112",
     "iri-label": "",
     "cg-label": "BenignMissenseVariationRateOutcome",
-    "description": ""
+    "description": "The rate of missense variation in a transcript that do not lead to a genetic condition"
   },
   "E70": {
     "id": "E70",
@@ -621,7 +621,7 @@
     "iri": "SEPIO-CG:55113",
     "iri-label": "",
     "cg-label": "Penetrance",
-    "description": ""
+    "description": "The chance of having a particular genetic condition given the presence of a particular variant or damaged gene"
   },
   "E71": {
     "id": "E71",
@@ -631,7 +631,7 @@
     "iri": "SEPIO-CG:55114",
     "iri-label": "",
     "cg-label": "ConditionMechanismStrength",
-    "description": ""
+    "description": "The strength of association between a genetic mechanism and a condition"
   },
   "E72": {
     "id": "E72",
@@ -641,7 +641,7 @@
     "iri": "SEPIO-CG:55115",
     "iri-label": "",
     "cg-label": "EvidenceLineStrength",
-    "description": ""
+    "description": "Degree of support that a set of evidence lends to a subsequent statement"
   },
   "E73": {
     "id": "E73",
@@ -651,7 +651,7 @@
     "iri": "SEPIO-CG:55116",
     "iri-label": "",
     "cg-label": "Disease",
-    "description": ""
+    "description": "From MONDO: An alteration of health status resulting from a physiopathological mechanism, and having a homogeneous clinical presentation and evolution and homogeneous therapeutic possibilities."
   },
   "E74": {
     "id": "E74",
@@ -661,7 +661,7 @@
     "iri": "SEPIO-CG:55117",
     "iri-label": "",
     "cg-label": "Phenotype",
-    "description": ""
+    "description": "From NCIT: The assemblage of traits or outward appearance of an individual. It is the product of interactions between genes and between genes and the environment."
   },
   "E76": {
     "id": "E76",
@@ -671,7 +671,7 @@
     "iri": "SEPIO-CG:55118",
     "iri-label": "",
     "cg-label": "ContributoryRole",
-    "description": ""
+    "description": "The role played by an agent in the creation of an artifact"
   },
   "E77": {
     "id": "E77",
@@ -681,7 +681,7 @@
     "iri": "SEPIO-CG:55119",
     "iri-label": "",
     "cg-label": "AlleleInheritance",
-    "description": ""
+    "description": "The source of an allele in an individual"
   },
   "E78": {
     "id": "E78",
@@ -691,7 +691,7 @@
     "iri": "SEPIO-CG:55120",
     "iri-label": "",
     "cg-label": "Ascertainment",
-    "description": ""
+    "description": "The method by which a set of people was chosen to define a group"
   },
   "E79": {
     "id": "E79",
@@ -701,7 +701,7 @@
     "iri": "SEPIO-CG:55121",
     "iri-label": "",
     "cg-label": "LocusSpecificity",
-    "description": ""
+    "description": "The degree to which a condition implicates a specific genomic locus, such as a gene."
   },
   "E80": {
     "id": "E80",
@@ -711,7 +711,7 @@
     "iri": "SEPIO-CG:55122",
     "iri-label": "",
     "cg-label": "Conservation",
-    "description": ""
+    "description": "The degree to which an allele is preserved over evolutionary history"
   },
   "E81": {
     "id": "E81",
@@ -721,7 +721,7 @@
     "iri": "SEPIO-CG:55123",
     "iri-label": "",
     "cg-label": "ParentalConfirmation",
-    "description": ""
+    "description": "Whether or not parentage has been confirmed with a genetic test"
   },
   "E82": {
     "id": "E82",
@@ -731,7 +731,7 @@
     "iri": "SEPIO-CG:55124",
     "iri-label": "",
     "cg-label": "ConditionStatus",
-    "description": ""
+    "description": "Whether or not an individual is affected by a specific genetic condition"
   },
   "E83": {
     "id": "E83",
@@ -741,7 +741,7 @@
     "iri": "SEPIO-CG:55125",
     "iri-label": "",
     "cg-label": "InconsistentSegregationObserved",
-    "description": ""
+    "description": "Whether or not inconsistent segretations have been observed in a pedigree"
   },
   "E84": {
     "id": "E84",
@@ -751,7 +751,7 @@
     "iri": "SEPIO-CG:55126",
     "iri-label": "",
     "cg-label": "NullAlleleOutcome",
-    "description": ""
+    "description": "Denotes whether an allele leads to a non-functional transcript"
   },
   "E85": {
     "id": "E85",
@@ -761,7 +761,7 @@
     "iri": "SEPIO-CG:55127",
     "iri-label": "",
     "cg-label": "RegionAllelesOutcome",
-    "description": ""
+    "description": "Whether or not an allele overlaps a sequence region"
   },
   "E86": {
     "id": "E86",
@@ -771,6 +771,6 @@
     "iri": "SEPIO-CG:55128",
     "iri-label": "",
     "cg-label": "ValueSetConceptListExtensibility",
-    "description": ""
+    "description": "Whether or not a ValueSet can be extended by users"
   }
 }

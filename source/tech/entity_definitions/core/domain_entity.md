@@ -12,3 +12,5 @@ Interpretations require references to external objects such as genes or concepts
 In other cases, a concept or entity may not be derived from a naming system. Examples include Individuals and Families.  These are entities that will have a user-given label, but often no externally referenceable identifier.
 
 DomainEntity is a superclass for all such entities, which combines identifiers and labels from a naming system (where available) with a user-applied label (where desired).
+
+For further discussion of DomainEntities and their use, see the [discussion]() section of the User Guide.
