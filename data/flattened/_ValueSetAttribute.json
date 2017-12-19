@@ -5,7 +5,8 @@
     "value": "Value Set Concept List Exstensibility",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65101"
   },
   {
     "subjectId": "VS001",
@@ -13,7 +14,8 @@
     "value": "IdSys024",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65101"
   },
   {
     "subjectId": "VS001",
@@ -21,7 +23,8 @@
     "value": "TODO desc of concept list extensibility value set",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65101"
   },
   {
     "subjectId": "VS001",
@@ -29,7 +32,8 @@
     "value": "VSCLExtnsID374",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65101"
   },
   {
     "subjectId": "VS001",
@@ -37,7 +41,8 @@
     "value": "ValueSetConceptListExtensibility",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65101"
   },
   {
     "subjectId": "VS001",
@@ -45,7 +50,8 @@
     "value": "IdSys002",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65101"
   },
   {
     "subjectId": "VS001",
@@ -53,7 +59,8 @@
     "value": "VSCLExtnsID374",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65101"
   },
   {
     "subjectId": "VS001",
@@ -61,7 +68,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65101"
   },
   {
     "subjectId": "VS002",
@@ -69,7 +77,8 @@
     "value": "Molecular Consequence",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -77,7 +86,8 @@
     "value": "IdSys007",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -85,7 +95,8 @@
     "value": "TODO desc of molecular consequence value set",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -93,7 +104,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -101,7 +113,8 @@
     "value": "MolecularConsequence",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -109,7 +122,8 @@
     "value": "MolConID001",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -117,7 +131,8 @@
     "value": "MolConID002",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -125,7 +140,8 @@
     "value": "MolConID003",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -133,7 +149,8 @@
     "value": "MolConID004",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -141,7 +158,8 @@
     "value": "MolConID005",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -149,7 +167,8 @@
     "value": "MolConID006",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -157,7 +176,8 @@
     "value": "MolConID007",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -165,7 +185,8 @@
     "value": "MolConID008",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -173,7 +194,8 @@
     "value": "MolConID009",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -181,7 +203,8 @@
     "value": "MolConID010",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -189,7 +212,8 @@
     "value": "MolConID011",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -197,7 +221,8 @@
     "value": "MolConID012",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -205,7 +230,8 @@
     "value": "MolConID013",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -213,7 +239,8 @@
     "value": "MolConID014",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -221,7 +248,8 @@
     "value": "MolConID015",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -229,7 +257,8 @@
     "value": "MolConID016",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -237,7 +266,8 @@
     "value": "MolConID017",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -245,7 +275,8 @@
     "value": "MolConID018",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -253,7 +284,8 @@
     "value": "MolConID019",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -261,7 +293,8 @@
     "value": "MolConID020",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -269,7 +302,8 @@
     "value": "MolConID021",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -277,7 +311,8 @@
     "value": "MolConID022",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -285,7 +320,8 @@
     "value": "MolConID023",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -293,7 +329,8 @@
     "value": "MolConID024",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -301,7 +338,8 @@
     "value": "MolConID025",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -309,7 +347,8 @@
     "value": "MolConID026",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS002",
@@ -317,7 +356,8 @@
     "value": "MolConID027",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65102"
   },
   {
     "subjectId": "VS003",
@@ -325,7 +365,8 @@
     "value": "Clinical Signficance",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65103"
   },
   {
     "subjectId": "VS003",
@@ -333,7 +374,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65103"
   },
   {
     "subjectId": "VS003",
@@ -341,7 +383,8 @@
     "value": "VSCLExtnsID374",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65103"
   },
   {
     "subjectId": "VS003",
@@ -349,7 +392,8 @@
     "value": "IdSys002",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65103"
   },
   {
     "subjectId": "VS003",
@@ -357,7 +401,8 @@
     "value": "Significance",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65103"
   },
   {
     "subjectId": "VS003",
@@ -365,7 +410,8 @@
     "value": "SigID028",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65103"
   },
   {
     "subjectId": "VS003",
@@ -373,7 +419,8 @@
     "value": "SigID029",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65103"
   },
   {
     "subjectId": "VS003",
@@ -381,7 +428,8 @@
     "value": "SigID030",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65103"
   },
   {
     "subjectId": "VS003",
@@ -389,7 +437,8 @@
     "value": "SigID031",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65103"
   },
   {
     "subjectId": "VS003",
@@ -397,7 +446,8 @@
     "value": "SigID032",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65103"
   },
   {
     "subjectId": "VS004",
@@ -405,7 +455,8 @@
     "value": "Region Annotation",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65104"
   },
   {
     "subjectId": "VS004",
@@ -413,7 +464,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65104"
   },
   {
     "subjectId": "VS004",
@@ -421,7 +473,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65104"
   },
   {
     "subjectId": "VS004",
@@ -429,7 +482,8 @@
     "value": "IdSys007",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65104"
   },
   {
     "subjectId": "VS004",
@@ -437,7 +491,8 @@
     "value": "IdSys023",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65104"
   },
   {
     "subjectId": "VS004",
@@ -445,7 +500,8 @@
     "value": "RegionAnnotation",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65104"
   },
   {
     "subjectId": "VS004",
@@ -453,7 +509,8 @@
     "value": "RegAnnID033",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65104"
   },
   {
     "subjectId": "VS004",
@@ -461,7 +518,8 @@
     "value": "RegAnnID034",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65104"
   },
   {
     "subjectId": "VS004",
@@ -469,7 +527,8 @@
     "value": "RegAnnID035",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65104"
   },
   {
     "subjectId": "VS005",
@@ -477,7 +536,8 @@
     "value": "Phase",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65105"
   },
   {
     "subjectId": "VS005",
@@ -485,7 +545,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65105"
   },
   {
     "subjectId": "VS005",
@@ -493,7 +554,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65105"
   },
   {
     "subjectId": "VS005",
@@ -501,7 +563,8 @@
     "value": "IdSys022",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65105"
   },
   {
     "subjectId": "VS005",
@@ -509,7 +572,8 @@
     "value": "Phase",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65105"
   },
   {
     "subjectId": "VS005",
@@ -517,7 +581,8 @@
     "value": "PhaseID036",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65105"
   },
   {
     "subjectId": "VS005",
@@ -525,7 +590,8 @@
     "value": "PhaseID037",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65105"
   },
   {
     "subjectId": "VS006",
@@ -533,7 +599,8 @@
     "value": "Allelic State",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65106"
   },
   {
     "subjectId": "VS006",
@@ -541,7 +608,8 @@
     "value": "The level of occurance of a single DNA marker within a set of chromosomes. Informed by LOINC 53034-5 but with additional codes for somatic mosaicism and asserted absence.",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65106"
   },
   {
     "subjectId": "VS006",
@@ -549,7 +617,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65106"
   },
   {
     "subjectId": "VS006",
@@ -557,7 +626,8 @@
     "value": "IdSys022",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65106"
   },
   {
     "subjectId": "VS006",
@@ -565,7 +635,8 @@
     "value": "AllelicState",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65106"
   },
   {
     "subjectId": "VS006",
@@ -573,7 +644,8 @@
     "value": "AllStateID038",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65106"
   },
   {
     "subjectId": "VS006",
@@ -581,7 +653,8 @@
     "value": "AllStateID039",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65106"
   },
   {
     "subjectId": "VS006",
@@ -589,7 +662,8 @@
     "value": "AllStateID040",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65106"
   },
   {
     "subjectId": "VS006",
@@ -597,7 +671,8 @@
     "value": "AllStateID041",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65106"
   },
   {
     "subjectId": "VS006",
@@ -605,7 +680,8 @@
     "value": "AllStateID042",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65106"
   },
   {
     "subjectId": "VS006",
@@ -613,7 +689,8 @@
     "value": "AllStateID043",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65106"
   },
   {
     "subjectId": "VS006",
@@ -621,7 +698,8 @@
     "value": "AllStateID044",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65106"
   },
   {
     "subjectId": "VS007",
@@ -629,7 +707,8 @@
     "value": "Mode of Inheritance",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -637,7 +716,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -645,7 +725,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -653,7 +734,8 @@
     "value": "IdSys016",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -661,7 +743,8 @@
     "value": "IdSys022",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -669,7 +752,8 @@
     "value": "ModeOfInheritance",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -677,7 +761,8 @@
     "value": "ModeOfInhID045",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -685,7 +770,8 @@
     "value": "ModeOfInhID046",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -693,7 +779,8 @@
     "value": "ModeOfInhID047",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -701,7 +788,8 @@
     "value": "ModeOfInhID048",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -709,7 +797,8 @@
     "value": "ModeOfInhID049",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -717,7 +806,8 @@
     "value": "ModeOfInhID050",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -725,7 +815,8 @@
     "value": "ModeOfInhID051",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -733,7 +824,8 @@
     "value": "ModeOfInhID052",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -741,7 +833,8 @@
     "value": "ModeOfInhID053",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -749,21 +842,24 @@
     "value": "ModeOfInhID054",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
     "attributeId": "A121",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
     "attributeId": "A121",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -771,7 +867,8 @@
     "value": "ModeOfInhID057",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -779,7 +876,8 @@
     "value": "ModeOfInhID058",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -787,7 +885,8 @@
     "value": "ModeOfInhID059",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -795,7 +894,8 @@
     "value": "ModeOfInhID060",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -803,7 +903,8 @@
     "value": "ModeOfInhID061",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -811,7 +912,8 @@
     "value": "ModeOfInhID062",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -819,7 +921,8 @@
     "value": "ModeOfInhID063",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -827,7 +930,8 @@
     "value": "ModeOfInhID064",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -835,7 +939,8 @@
     "value": "ModeOfInhID065",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -843,7 +948,8 @@
     "value": "ModeOfInhID066",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS007",
@@ -851,7 +957,8 @@
     "value": "ModeOfInhID067",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65107"
   },
   {
     "subjectId": "VS008",
@@ -859,7 +966,8 @@
     "value": "Mechanism",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65108"
   },
   {
     "subjectId": "VS008",
@@ -867,7 +975,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65108"
   },
   {
     "subjectId": "VS008",
@@ -875,7 +984,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65108"
   },
   {
     "subjectId": "VS008",
@@ -883,7 +993,8 @@
     "value": "IdSys007",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65108"
   },
   {
     "subjectId": "VS008",
@@ -891,7 +1002,8 @@
     "value": "Mechanism",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65108"
   },
   {
     "subjectId": "VS008",
@@ -899,7 +1011,8 @@
     "value": "MechID070",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65108"
   },
   {
     "subjectId": "VS008",
@@ -907,7 +1020,8 @@
     "value": "MechID071",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65108"
   },
   {
     "subjectId": "VS009",
@@ -915,7 +1029,8 @@
     "value": "Prediction",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65109"
   },
   {
     "subjectId": "VS009",
@@ -923,7 +1038,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65109"
   },
   {
     "subjectId": "VS009",
@@ -931,7 +1047,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65109"
   },
   {
     "subjectId": "VS009",
@@ -939,7 +1056,8 @@
     "value": "IdSys023",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65109"
   },
   {
     "subjectId": "VS009",
@@ -947,7 +1065,8 @@
     "value": "Prediction",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65109"
   },
   {
     "subjectId": "VS009",
@@ -955,7 +1074,8 @@
     "value": "PredID072",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65109"
   },
   {
     "subjectId": "VS009",
@@ -963,7 +1083,8 @@
     "value": "PredID073",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65109"
   },
   {
     "subjectId": "VS010",
@@ -971,7 +1092,8 @@
     "value": "Criterion Evaluation",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65110"
   },
   {
     "subjectId": "VS010",
@@ -979,7 +1101,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65110"
   },
   {
     "subjectId": "VS010",
@@ -987,7 +1110,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65110"
   },
   {
     "subjectId": "VS010",
@@ -995,7 +1119,8 @@
     "value": "IdSys023",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65110"
   },
   {
     "subjectId": "VS010",
@@ -1003,7 +1128,8 @@
     "value": "CriterionEvaluation",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65110"
   },
   {
     "subjectId": "VS010",
@@ -1011,7 +1137,8 @@
     "value": "CritEvalID074",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65110"
   },
   {
     "subjectId": "VS010",
@@ -1019,7 +1146,8 @@
     "value": "CritEvalID075",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65110"
   },
   {
     "subjectId": "VS011",
@@ -1027,7 +1155,8 @@
     "value": "Allele Functional Assay Method",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65111"
   },
   {
     "subjectId": "VS011",
@@ -1035,7 +1164,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65111"
   },
   {
     "subjectId": "VS011",
@@ -1043,7 +1173,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65111"
   },
   {
     "subjectId": "VS011",
@@ -1051,7 +1182,8 @@
     "value": "IdSys025",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65111"
   },
   {
     "subjectId": "VS011",
@@ -1059,7 +1191,8 @@
     "value": "AlleleFunctionalAssayMethod",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65111"
   },
   {
     "subjectId": "VS011",
@@ -1067,7 +1200,8 @@
     "value": "AFAMID076",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65111"
   },
   {
     "subjectId": "VS011",
@@ -1075,7 +1209,8 @@
     "value": "AFAMID077",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65111"
   },
   {
     "subjectId": "VS011",
@@ -1083,7 +1218,8 @@
     "value": "AFAMID078",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65111"
   },
   {
     "subjectId": "VS011",
@@ -1091,7 +1227,8 @@
     "value": "AFAMID079",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65111"
   },
   {
     "subjectId": "VS011",
@@ -1099,7 +1236,8 @@
     "value": "AFAMID080",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65111"
   },
   {
     "subjectId": "VS011",
@@ -1107,7 +1245,8 @@
     "value": "AFAMID081",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65111"
   },
   {
     "subjectId": "VS011",
@@ -1115,7 +1254,8 @@
     "value": "AFAMID082",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65111"
   },
   {
     "subjectId": "VS011",
@@ -1123,7 +1263,8 @@
     "value": "AFAMID083",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65111"
   },
   {
     "subjectId": "VS011",
@@ -1131,7 +1272,8 @@
     "value": "AFAMID084",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65111"
   },
   {
     "subjectId": "VS012",
@@ -1139,7 +1281,8 @@
     "value": "Population",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1147,7 +1290,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1155,7 +1299,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1163,7 +1308,8 @@
     "value": "IdSys027",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1171,7 +1317,8 @@
     "value": "Population",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1179,7 +1326,8 @@
     "value": "PopID085",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1187,7 +1335,8 @@
     "value": "PopID086",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1195,7 +1344,8 @@
     "value": "PopID087",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1203,7 +1353,8 @@
     "value": "PopID088",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1211,7 +1362,8 @@
     "value": "PopID089",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1219,7 +1371,8 @@
     "value": "PopID090",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1227,7 +1380,8 @@
     "value": "PopID091",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1235,7 +1389,8 @@
     "value": "PopID092",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1243,7 +1398,8 @@
     "value": "PopID093",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1251,7 +1407,8 @@
     "value": "PopID094",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1259,7 +1416,8 @@
     "value": "PopID095",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1267,7 +1425,8 @@
     "value": "PopID096",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1275,7 +1434,8 @@
     "value": "PopID097",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1283,7 +1443,8 @@
     "value": "PopID098",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1291,7 +1452,8 @@
     "value": "PopID099",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1299,7 +1461,8 @@
     "value": "PopID100",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1307,7 +1470,8 @@
     "value": "PopID101",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1315,7 +1479,8 @@
     "value": "PopID102",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1323,7 +1488,8 @@
     "value": "PopID103",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1331,7 +1497,8 @@
     "value": "PopID104",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1339,7 +1506,8 @@
     "value": "PopID105",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1347,7 +1515,8 @@
     "value": "PopID106",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1355,7 +1524,8 @@
     "value": "PopID107",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1363,7 +1533,8 @@
     "value": "PopID108",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1371,7 +1542,8 @@
     "value": "PopID109",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1379,7 +1551,8 @@
     "value": "PopID110",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1387,7 +1560,8 @@
     "value": "PopID111",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1395,7 +1569,8 @@
     "value": "PopID112",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1403,7 +1578,8 @@
     "value": "PopID113",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1411,7 +1587,8 @@
     "value": "PopID114",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1419,7 +1596,8 @@
     "value": "PopID115",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1427,7 +1605,8 @@
     "value": "PopID116",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1435,7 +1614,8 @@
     "value": "PopID117",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1443,7 +1623,8 @@
     "value": "PopID118",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1451,7 +1632,8 @@
     "value": "PopID119",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1459,7 +1641,8 @@
     "value": "PopID120",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1467,7 +1650,8 @@
     "value": "PopID121",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1475,7 +1659,8 @@
     "value": "PopID122",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1483,7 +1668,8 @@
     "value": "PopID123",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1491,7 +1677,8 @@
     "value": "PopID124",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1499,7 +1686,8 @@
     "value": "PopID125",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1507,7 +1695,8 @@
     "value": "PopID126",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS012",
@@ -1515,7 +1704,8 @@
     "value": "PopID127",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65112"
   },
   {
     "subjectId": "VS013",
@@ -1523,7 +1713,8 @@
     "value": "Benign Missense Variation Rate Outcome",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65113"
   },
   {
     "subjectId": "VS013",
@@ -1531,7 +1722,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65113"
   },
   {
     "subjectId": "VS013",
@@ -1539,7 +1731,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65113"
   },
   {
     "subjectId": "VS013",
@@ -1547,7 +1740,8 @@
     "value": "IdSys023",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65113"
   },
   {
     "subjectId": "VS013",
@@ -1555,7 +1749,8 @@
     "value": "BenignMissenseVariationRateOutcome",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65113"
   },
   {
     "subjectId": "VS013",
@@ -1563,7 +1758,8 @@
     "value": "BMVROID128",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65113"
   },
   {
     "subjectId": "VS013",
@@ -1571,7 +1767,8 @@
     "value": "BMVROID129",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65113"
   },
   {
     "subjectId": "VS014",
@@ -1579,7 +1776,8 @@
     "value": "Penetrance",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65114"
   },
   {
     "subjectId": "VS014",
@@ -1587,7 +1785,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65114"
   },
   {
     "subjectId": "VS014",
@@ -1595,7 +1794,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65114"
   },
   {
     "subjectId": "VS014",
@@ -1603,7 +1803,8 @@
     "value": "IdSys016",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65114"
   },
   {
     "subjectId": "VS014",
@@ -1611,7 +1812,8 @@
     "value": "Penetrance",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65114"
   },
   {
     "subjectId": "VS014",
@@ -1619,7 +1821,8 @@
     "value": "PenetID130",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65114"
   },
   {
     "subjectId": "VS014",
@@ -1627,7 +1830,8 @@
     "value": "PenetID131",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65114"
   },
   {
     "subjectId": "VS014",
@@ -1635,7 +1839,8 @@
     "value": "PenetID132",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65114"
   },
   {
     "subjectId": "VS015",
@@ -1643,7 +1848,8 @@
     "value": "Condition Mechanism Strength",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65115"
   },
   {
     "subjectId": "VS015",
@@ -1651,7 +1857,8 @@
     "value": "The level of strength for which a class of variants is a known mechanism for a condition",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65115"
   },
   {
     "subjectId": "VS015",
@@ -1659,7 +1866,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65115"
   },
   {
     "subjectId": "VS015",
@@ -1667,7 +1875,8 @@
     "value": "IdSys023",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65115"
   },
   {
     "subjectId": "VS015",
@@ -1675,7 +1884,8 @@
     "value": "ConditionMechanismStrength",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65115"
   },
   {
     "subjectId": "VS015",
@@ -1683,7 +1893,8 @@
     "value": "CondMechStrgID133",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65115"
   },
   {
     "subjectId": "VS015",
@@ -1691,7 +1902,8 @@
     "value": "CondMechStrgID134",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65115"
   },
   {
     "subjectId": "VS015",
@@ -1699,7 +1911,8 @@
     "value": "CondMechStrgID135",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65115"
   },
   {
     "subjectId": "VS015",
@@ -1707,7 +1920,8 @@
     "value": "CondMechStrgID136",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65115"
   },
   {
     "subjectId": "VS015",
@@ -1715,7 +1929,8 @@
     "value": "CondMechStrgID137",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65115"
   },
   {
     "subjectId": "VS016",
@@ -1723,7 +1938,8 @@
     "value": "Evidence Line Strength",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65116"
   },
   {
     "subjectId": "VS016",
@@ -1731,7 +1947,8 @@
     "value": "The set of strengths needed for an evidence line.",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65116"
   },
   {
     "subjectId": "VS016",
@@ -1739,7 +1956,8 @@
     "value": "VSCLExtnsID374",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65116"
   },
   {
     "subjectId": "VS016",
@@ -1747,7 +1965,8 @@
     "value": "IdSys023",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65116"
   },
   {
     "subjectId": "VS016",
@@ -1755,7 +1974,8 @@
     "value": "EvidenceLineStrength",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65116"
   },
   {
     "subjectId": "VS016",
@@ -1763,7 +1983,8 @@
     "value": "EvLnStrgID138",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65116"
   },
   {
     "subjectId": "VS016",
@@ -1771,7 +1992,8 @@
     "value": "EvLnStrgID139",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65116"
   },
   {
     "subjectId": "VS016",
@@ -1779,7 +2001,8 @@
     "value": "EvLnStrgID140",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65116"
   },
   {
     "subjectId": "VS016",
@@ -1787,7 +2010,8 @@
     "value": "EvLnStrgID141",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65116"
   },
   {
     "subjectId": "VS016",
@@ -1795,7 +2019,8 @@
     "value": "EvLnStrgID142",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65116"
   },
   {
     "subjectId": "VS016",
@@ -1803,7 +2028,8 @@
     "value": "EvLnStrgID143",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65116"
   },
   {
     "subjectId": "VS016",
@@ -1811,7 +2037,8 @@
     "value": "EvLnStrgID144",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65116"
   },
   {
     "subjectId": "VS016",
@@ -1819,7 +2046,8 @@
     "value": "EvLnStrgID145",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65116"
   },
   {
     "subjectId": "VS016",
@@ -1827,7 +2055,8 @@
     "value": "EvLnStrgID146",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65116"
   },
   {
     "subjectId": "VS017",
@@ -1835,7 +2064,8 @@
     "value": "Disease",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1843,7 +2073,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1851,7 +2082,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1859,7 +2091,8 @@
     "value": "IdSys019",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1867,7 +2100,8 @@
     "value": "IdSys011",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1875,7 +2109,8 @@
     "value": "IdSys013",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1883,7 +2118,8 @@
     "value": "IdSys020",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1891,7 +2127,8 @@
     "value": "Disease",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1899,7 +2136,8 @@
     "value": "DisID147",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1907,7 +2145,8 @@
     "value": "DisID148",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1915,7 +2154,8 @@
     "value": "DisID149",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1923,7 +2163,8 @@
     "value": "DisID150",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1931,7 +2172,8 @@
     "value": "DisID151",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1939,7 +2181,8 @@
     "value": "DisID152",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1947,7 +2190,8 @@
     "value": "DisID153",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1955,7 +2199,8 @@
     "value": "DisID154",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1963,7 +2208,8 @@
     "value": "DisID156",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1971,7 +2217,8 @@
     "value": "DisID157",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1979,7 +2226,8 @@
     "value": "DisID158",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1987,7 +2235,8 @@
     "value": "DisID159",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -1995,14 +2244,16 @@
     "value": "DisID160",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
     "attributeId": "A121",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2010,7 +2261,8 @@
     "value": "DisID162",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2018,7 +2270,8 @@
     "value": "DisID163",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2026,7 +2279,8 @@
     "value": "DisID164",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2034,7 +2288,8 @@
     "value": "DisID165",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2042,7 +2297,8 @@
     "value": "DisID166",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2050,7 +2306,8 @@
     "value": "DisID167",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2058,7 +2315,8 @@
     "value": "DisID168",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2066,7 +2324,8 @@
     "value": "DisID169",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2074,7 +2333,8 @@
     "value": "DisID170",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2082,7 +2342,8 @@
     "value": "DisID171",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2090,7 +2351,8 @@
     "value": "DisID172",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2098,7 +2360,8 @@
     "value": "DisID173",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2106,7 +2369,8 @@
     "value": "DisID174",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2114,7 +2378,8 @@
     "value": "DisID175",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2122,7 +2387,8 @@
     "value": "DisID176",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2130,7 +2396,8 @@
     "value": "DisID177",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2138,7 +2405,8 @@
     "value": "DisID178",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2146,7 +2414,8 @@
     "value": "DisID179",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2154,7 +2423,8 @@
     "value": "DisID180",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2162,7 +2432,8 @@
     "value": "DisID181",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2170,7 +2441,8 @@
     "value": "DisID182",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2178,7 +2450,8 @@
     "value": "DisID183",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2186,7 +2459,8 @@
     "value": "DisID184",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS017",
@@ -2194,7 +2468,8 @@
     "value": "DisID185",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65117"
   },
   {
     "subjectId": "VS018",
@@ -2202,7 +2477,8 @@
     "value": "Phenotype",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65118"
   },
   {
     "subjectId": "VS018",
@@ -2210,7 +2486,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65118"
   },
   {
     "subjectId": "VS018",
@@ -2218,7 +2495,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65118"
   },
   {
     "subjectId": "VS018",
@@ -2226,7 +2504,8 @@
     "value": "IdSys016",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65118"
   },
   {
     "subjectId": "VS018",
@@ -2234,7 +2513,8 @@
     "value": "Phenotype",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65118"
   },
   {
     "subjectId": "VS018",
@@ -2242,7 +2522,8 @@
     "value": "PhenID186",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65118"
   },
   {
     "subjectId": "VS018",
@@ -2250,7 +2531,8 @@
     "value": "PhenID187",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65118"
   },
   {
     "subjectId": "VS018",
@@ -2258,7 +2540,8 @@
     "value": "PhenID188",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65118"
   },
   {
     "subjectId": "VS018",
@@ -2266,7 +2549,8 @@
     "value": "PhenID189",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65118"
   },
   {
     "subjectId": "VS018",
@@ -2274,7 +2558,8 @@
     "value": "PhenID190",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65118"
   },
   {
     "subjectId": "VS018",
@@ -2282,7 +2567,8 @@
     "value": "PhenID191",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65118"
   },
   {
     "subjectId": "VS019",
@@ -2290,7 +2576,8 @@
     "value": "Reference Sequence",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2298,7 +2585,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2306,7 +2594,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2314,7 +2603,8 @@
     "value": "IdSys004",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2322,7 +2612,8 @@
     "value": "IdSys006",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2330,7 +2621,8 @@
     "value": "ReferenceSequence",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2338,7 +2630,8 @@
     "value": "RefSeq287",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2346,7 +2639,8 @@
     "value": "RefSeq288",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2354,7 +2648,8 @@
     "value": "RefSeq289",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2362,7 +2657,8 @@
     "value": "RefSeq290",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2370,7 +2666,8 @@
     "value": "RefSeq291",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2378,7 +2675,8 @@
     "value": "RefSeq292",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2386,7 +2684,8 @@
     "value": "RefSeq293",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2394,7 +2693,8 @@
     "value": "RefSeq294",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2402,7 +2702,8 @@
     "value": "RefSeq295",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2410,7 +2711,8 @@
     "value": "RefSeq296",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2418,7 +2720,8 @@
     "value": "RefSeq297",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2426,7 +2729,8 @@
     "value": "RefSeq298",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2434,7 +2738,8 @@
     "value": "RefSeq299",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2442,7 +2747,8 @@
     "value": "RefSeq300",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2450,7 +2756,8 @@
     "value": "RefSeq301",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS019",
@@ -2458,7 +2765,8 @@
     "value": "RefSeq302",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65119"
   },
   {
     "subjectId": "VS020",
@@ -2466,7 +2774,8 @@
     "value": "Contributory Role",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65120"
   },
   {
     "subjectId": "VS020",
@@ -2474,7 +2783,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65120"
   },
   {
     "subjectId": "VS020",
@@ -2482,7 +2792,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65120"
   },
   {
     "subjectId": "VS020",
@@ -2490,7 +2801,8 @@
     "value": "IdSys023",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65120"
   },
   {
     "subjectId": "VS020",
@@ -2498,7 +2810,8 @@
     "value": "ContributoryRole",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65120"
   },
   {
     "subjectId": "VS020",
@@ -2506,7 +2819,8 @@
     "value": "ContribRoleID193",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65120"
   },
   {
     "subjectId": "VS020",
@@ -2514,7 +2828,8 @@
     "value": "ContribRoleID194",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65120"
   },
   {
     "subjectId": "VS020",
@@ -2522,7 +2837,8 @@
     "value": "ContribRoleID195",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65120"
   },
   {
     "subjectId": "VS020",
@@ -2530,7 +2846,8 @@
     "value": "ContribRoleID196",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65120"
   },
   {
     "subjectId": "VS021",
@@ -2538,7 +2855,8 @@
     "value": "Allele Inheritance",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65121"
   },
   {
     "subjectId": "VS021",
@@ -2546,7 +2864,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65121"
   },
   {
     "subjectId": "VS021",
@@ -2554,7 +2873,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65121"
   },
   {
     "subjectId": "VS021",
@@ -2562,7 +2882,8 @@
     "value": "IdSys022",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65121"
   },
   {
     "subjectId": "VS021",
@@ -2570,7 +2891,8 @@
     "value": "AlleleInheritance",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65121"
   },
   {
     "subjectId": "VS021",
@@ -2578,7 +2900,8 @@
     "value": "AlleleInhID197",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65121"
   },
   {
     "subjectId": "VS021",
@@ -2586,7 +2909,8 @@
     "value": "AlleleInhID198",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65121"
   },
   {
     "subjectId": "VS021",
@@ -2594,7 +2918,8 @@
     "value": "AlleleInhID199",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65121"
   },
   {
     "subjectId": "VS021",
@@ -2602,7 +2927,8 @@
     "value": "AlleleInhID200",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65121"
   },
   {
     "subjectId": "VS021",
@@ -2610,7 +2936,8 @@
     "value": "AlleleInhID201",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65121"
   },
   {
     "subjectId": "VS022",
@@ -2618,7 +2945,8 @@
     "value": "Ascertainment",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65122"
   },
   {
     "subjectId": "VS022",
@@ -2626,7 +2954,8 @@
     "value": "A coded or free-text term representing how people were chosen to be in the cohort in which the frequency is calculated.\nIt may be either because there are lots of ways that a cohort might be generated and our value set may not provide enough to allow for all cases.",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65122"
   },
   {
     "subjectId": "VS022",
@@ -2634,7 +2963,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65122"
   },
   {
     "subjectId": "VS022",
@@ -2642,7 +2972,8 @@
     "value": "IdSys023",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65122"
   },
   {
     "subjectId": "VS022",
@@ -2650,7 +2981,8 @@
     "value": "Ascertainment",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65122"
   },
   {
     "subjectId": "VS022",
@@ -2658,7 +2990,8 @@
     "value": "AscrtID202",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65122"
   },
   {
     "subjectId": "VS022",
@@ -2666,7 +2999,8 @@
     "value": "AscrtID203",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65122"
   },
   {
     "subjectId": "VS022",
@@ -2674,7 +3008,8 @@
     "value": "AscrtID204",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65122"
   },
   {
     "subjectId": "VS022",
@@ -2682,7 +3017,8 @@
     "value": "AscrtID205",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65122"
   },
   {
     "subjectId": "VS023",
@@ -2690,7 +3026,8 @@
     "value": "Locus Specificity",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65123"
   },
   {
     "subjectId": "VS023",
@@ -2698,7 +3035,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65123"
   },
   {
     "subjectId": "VS023",
@@ -2706,7 +3044,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65123"
   },
   {
     "subjectId": "VS023",
@@ -2714,7 +3053,8 @@
     "value": "IdSys023",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65123"
   },
   {
     "subjectId": "VS023",
@@ -2722,7 +3062,8 @@
     "value": "IdSys024",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65123"
   },
   {
     "subjectId": "VS023",
@@ -2730,7 +3071,8 @@
     "value": "LocusSpecificity",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65123"
   },
   {
     "subjectId": "VS023",
@@ -2738,7 +3080,8 @@
     "value": "LocSpecID209",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65123"
   },
   {
     "subjectId": "VS023",
@@ -2746,7 +3089,8 @@
     "value": "LocSpecID210",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65123"
   },
   {
     "subjectId": "VS023",
@@ -2754,7 +3098,8 @@
     "value": "LocSpecID211",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65123"
   },
   {
     "subjectId": "VS024",
@@ -2762,7 +3107,8 @@
     "value": "Conservation",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65124"
   },
   {
     "subjectId": "VS024",
@@ -2770,7 +3116,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65124"
   },
   {
     "subjectId": "VS024",
@@ -2778,7 +3125,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65124"
   },
   {
     "subjectId": "VS024",
@@ -2786,7 +3134,8 @@
     "value": "IdSys024",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65124"
   },
   {
     "subjectId": "VS024",
@@ -2794,7 +3143,8 @@
     "value": "Consertation",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65124"
   },
   {
     "subjectId": "VS024",
@@ -2802,7 +3152,8 @@
     "value": "ConsrvID212",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65124"
   },
   {
     "subjectId": "VS025",
@@ -2810,7 +3161,8 @@
     "value": "Parental Confirmation",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65125"
   },
   {
     "subjectId": "VS025",
@@ -2818,7 +3170,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65125"
   },
   {
     "subjectId": "VS025",
@@ -2826,7 +3179,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65125"
   },
   {
     "subjectId": "VS025",
@@ -2834,7 +3188,8 @@
     "value": "IdSys024",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65125"
   },
   {
     "subjectId": "VS025",
@@ -2842,7 +3197,8 @@
     "value": "ParentalConfirmation",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65125"
   },
   {
     "subjectId": "VS025",
@@ -2850,7 +3206,8 @@
     "value": "ParenConfID214",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65125"
   },
   {
     "subjectId": "VS025",
@@ -2858,7 +3215,8 @@
     "value": "ParenConfID215",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65125"
   },
   {
     "subjectId": "VS025",
@@ -2866,7 +3224,8 @@
     "value": "ParenConfID216",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65125"
   },
   {
     "subjectId": "VS025",
@@ -2874,7 +3233,8 @@
     "value": "ParenConfID217",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65125"
   },
   {
     "subjectId": "VS026",
@@ -2882,7 +3242,8 @@
     "value": "Condition Status",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65126"
   },
   {
     "subjectId": "VS026",
@@ -2890,7 +3251,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65126"
   },
   {
     "subjectId": "VS026",
@@ -2898,7 +3260,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65126"
   },
   {
     "subjectId": "VS026",
@@ -2906,7 +3269,8 @@
     "value": "IdSys024",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65126"
   },
   {
     "subjectId": "VS026",
@@ -2914,7 +3278,8 @@
     "value": "ConditionStatus",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65126"
   },
   {
     "subjectId": "VS026",
@@ -2922,7 +3287,8 @@
     "value": "CondStatID218",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65126"
   },
   {
     "subjectId": "VS026",
@@ -2930,7 +3296,8 @@
     "value": "CondStatID219",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65126"
   },
   {
     "subjectId": "VS027",
@@ -2938,7 +3305,8 @@
     "value": "Inconsistent Segregation Observed",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65127"
   },
   {
     "subjectId": "VS027",
@@ -2946,7 +3314,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65127"
   },
   {
     "subjectId": "VS027",
@@ -2954,7 +3323,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65127"
   },
   {
     "subjectId": "VS027",
@@ -2962,7 +3332,8 @@
     "value": "IdSys024",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65127"
   },
   {
     "subjectId": "VS027",
@@ -2970,7 +3341,8 @@
     "value": "InconsistentSegregationObserved",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65127"
   },
   {
     "subjectId": "VS027",
@@ -2978,7 +3350,8 @@
     "value": "InconSegObsID220",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65127"
   },
   {
     "subjectId": "VS027",
@@ -2986,7 +3359,8 @@
     "value": "InconSegObsID221",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65127"
   },
   {
     "subjectId": "VS027",
@@ -2994,7 +3368,8 @@
     "value": "InconSegObsID222",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65127"
   },
   {
     "subjectId": "VS028",
@@ -3002,7 +3377,8 @@
     "value": "Null Allele Outcome",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65128"
   },
   {
     "subjectId": "VS028",
@@ -3010,7 +3386,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65128"
   },
   {
     "subjectId": "VS028",
@@ -3018,7 +3395,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65128"
   },
   {
     "subjectId": "VS028",
@@ -3026,7 +3404,8 @@
     "value": "IdSys007",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65128"
   },
   {
     "subjectId": "VS028",
@@ -3034,7 +3413,8 @@
     "value": "NullAlleleOutcome",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65128"
   },
   {
     "subjectId": "VS028",
@@ -3042,7 +3422,8 @@
     "value": "NullAllOutID223",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65128"
   },
   {
     "subjectId": "VS029",
@@ -3050,7 +3431,8 @@
     "value": "Region Alleles Outcome",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65129"
   },
   {
     "subjectId": "VS029",
@@ -3058,7 +3440,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65129"
   },
   {
     "subjectId": "VS029",
@@ -3066,7 +3449,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65129"
   },
   {
     "subjectId": "VS029",
@@ -3074,7 +3458,8 @@
     "value": "IdSys024",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65129"
   },
   {
     "subjectId": "VS029",
@@ -3082,7 +3467,8 @@
     "value": "RegionAllelesOutcome",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65129"
   },
   {
     "subjectId": "VS029",
@@ -3090,7 +3476,8 @@
     "value": "RegAllOutID225",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65129"
   },
   {
     "subjectId": "VS029",
@@ -3098,7 +3485,8 @@
     "value": "RegAllOutID226",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65129"
   },
   {
     "subjectId": "VS030",
@@ -3106,7 +3494,8 @@
     "value": "Gene",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3114,7 +3503,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3122,7 +3512,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3130,7 +3521,8 @@
     "value": "IdSys003",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3138,7 +3530,8 @@
     "value": "Gene",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3146,7 +3539,8 @@
     "value": "G227",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3154,7 +3548,8 @@
     "value": "G228",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3162,7 +3557,8 @@
     "value": "G229",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3170,7 +3566,8 @@
     "value": "G230",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3178,7 +3575,8 @@
     "value": "G231",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3186,7 +3584,8 @@
     "value": "G232",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3194,7 +3593,8 @@
     "value": "G233",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3202,7 +3602,8 @@
     "value": "G234",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3210,7 +3611,8 @@
     "value": "G235",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3218,7 +3620,8 @@
     "value": "G236",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3226,7 +3629,8 @@
     "value": "G237",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3234,7 +3638,8 @@
     "value": "G238",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3242,7 +3647,8 @@
     "value": "G239",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3250,7 +3656,8 @@
     "value": "G240",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3258,7 +3665,8 @@
     "value": "G241",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3266,7 +3674,8 @@
     "value": "G242",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3274,7 +3683,8 @@
     "value": "G243",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3282,7 +3692,8 @@
     "value": "G244",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3290,7 +3701,8 @@
     "value": "G245",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3298,7 +3710,8 @@
     "value": "G246",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3306,7 +3719,8 @@
     "value": "G247",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3314,7 +3728,8 @@
     "value": "G248",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3322,7 +3737,8 @@
     "value": "G249",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3330,7 +3746,8 @@
     "value": "G250",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3338,7 +3755,8 @@
     "value": "G251",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3346,7 +3764,8 @@
     "value": "G252",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3354,7 +3773,8 @@
     "value": "G253",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3362,7 +3782,8 @@
     "value": "G254",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3370,7 +3791,8 @@
     "value": "G255",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3378,7 +3800,8 @@
     "value": "G256",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3386,7 +3809,8 @@
     "value": "G257",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3394,7 +3818,8 @@
     "value": "G258",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3402,7 +3827,8 @@
     "value": "G259",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3410,7 +3836,8 @@
     "value": "G260",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3418,7 +3845,8 @@
     "value": "G261",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3426,7 +3854,8 @@
     "value": "G262",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3434,7 +3863,8 @@
     "value": "G263",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3442,7 +3872,8 @@
     "value": "G264",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3450,7 +3881,8 @@
     "value": "G265",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3458,7 +3890,8 @@
     "value": "G266",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3466,7 +3899,8 @@
     "value": "G267",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3474,7 +3908,8 @@
     "value": "G268",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3482,7 +3917,8 @@
     "value": "G269",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3490,7 +3926,8 @@
     "value": "G270",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3498,7 +3935,8 @@
     "value": "G271",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3506,7 +3944,8 @@
     "value": "G272",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3514,7 +3953,8 @@
     "value": "G273",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3522,7 +3962,8 @@
     "value": "G274",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3530,7 +3971,8 @@
     "value": "G275",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3538,7 +3980,8 @@
     "value": "G276",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3546,7 +3989,8 @@
     "value": "G277",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3554,7 +3998,8 @@
     "value": "G278",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3562,7 +4007,8 @@
     "value": "G279",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3570,7 +4016,8 @@
     "value": "G280",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3578,7 +4025,8 @@
     "value": "G281",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3586,7 +4034,8 @@
     "value": "G282",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3594,7 +4043,8 @@
     "value": "G283",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3602,7 +4052,8 @@
     "value": "G284",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3610,7 +4061,8 @@
     "value": "G285",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS030",
@@ -3618,7 +4070,8 @@
     "value": "G286",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65130"
   },
   {
     "subjectId": "VS031",
@@ -3626,7 +4079,8 @@
     "value": "Criterion",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3634,7 +4088,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3642,7 +4097,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3650,7 +4106,8 @@
     "value": "IdSys024",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3658,7 +4115,8 @@
     "value": "Criterion",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3666,7 +4124,8 @@
     "value": "Crit303",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3674,7 +4133,8 @@
     "value": "Crit304",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3682,7 +4142,8 @@
     "value": "Crit305",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3690,7 +4151,8 @@
     "value": "Crit306",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3698,7 +4160,8 @@
     "value": "Crit307",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3706,7 +4169,8 @@
     "value": "Crit308",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3714,7 +4178,8 @@
     "value": "Crit309",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3722,7 +4187,8 @@
     "value": "Crit310",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3730,7 +4196,8 @@
     "value": "Crit311",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3738,7 +4205,8 @@
     "value": "Crit312",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3746,7 +4214,8 @@
     "value": "Crit313",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3754,7 +4223,8 @@
     "value": "Crit314",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3762,7 +4232,8 @@
     "value": "Crit315",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3770,7 +4241,8 @@
     "value": "Crit316",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3778,7 +4250,8 @@
     "value": "Crit317",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3786,7 +4259,8 @@
     "value": "Crit318",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3794,7 +4268,8 @@
     "value": "Crit319",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3802,7 +4277,8 @@
     "value": "Crit320",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3810,7 +4286,8 @@
     "value": "Crit321",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3818,7 +4295,8 @@
     "value": "Crit322",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3826,7 +4304,8 @@
     "value": "Crit323",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3834,7 +4313,8 @@
     "value": "Crit324",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3842,7 +4322,8 @@
     "value": "Crit325",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3850,7 +4331,8 @@
     "value": "Crit326",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3858,7 +4340,8 @@
     "value": "Crit327",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3866,7 +4349,8 @@
     "value": "Crit328",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3874,7 +4358,8 @@
     "value": "Crit329",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS031",
@@ -3882,7 +4367,8 @@
     "value": "Crit330",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65131"
   },
   {
     "subjectId": "VS032",
@@ -3890,7 +4376,8 @@
     "value": "Assertion Method",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65132"
   },
   {
     "subjectId": "VS032",
@@ -3898,7 +4385,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65132"
   },
   {
     "subjectId": "VS032",
@@ -3906,7 +4394,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65132"
   },
   {
     "subjectId": "VS032",
@@ -3914,7 +4403,8 @@
     "value": "IdSys024",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65132"
   },
   {
     "subjectId": "VS032",
@@ -3922,7 +4412,8 @@
     "value": "AssertionMethod",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65132"
   },
   {
     "subjectId": "VS032",
@@ -3930,7 +4421,8 @@
     "value": "AssertMeth331",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65132"
   },
   {
     "subjectId": "VS033",
@@ -3938,7 +4430,8 @@
     "value": "Assertion Method Algorithm",
     "attributeName": "label",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65133"
   },
   {
     "subjectId": "VS033",
@@ -3946,7 +4439,8 @@
     "value": "TODO",
     "attributeName": "description",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65133"
   },
   {
     "subjectId": "VS033",
@@ -3954,7 +4448,8 @@
     "value": "VSCLExtnsID375",
     "attributeName": "conceptListExtensibility",
     "attributeType": "ValueSetConceptListExstensibility",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65133"
   },
   {
     "subjectId": "VS033",
@@ -3962,7 +4457,8 @@
     "value": "IdSys024",
     "attributeName": "sourceIdentifierSystems",
     "attributeType": "IdentifierSystem",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65133"
   },
   {
     "subjectId": "VS033",
@@ -3970,7 +4466,8 @@
     "value": "AssertionMethodAlgorithm",
     "attributeName": "conceptType",
     "attributeType": "string",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65133"
   },
   {
     "subjectId": "VS033",
@@ -3978,6 +4475,7 @@
     "value": "ScorAlg332",
     "attributeName": "concept",
     "attributeType": "DomainEntity",
-    "domainEntityType": "ValueSet"
+    "domainEntityType": "ValueSet",
+    "@subjectId": "SEPIO-CG:65133"
   }
 ]
