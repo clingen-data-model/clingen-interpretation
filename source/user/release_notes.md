@@ -13,4 +13,4 @@ Version 1 (October 13, 2017)
 
 * Implemented via the SEPIO model.
 
-* Version 1 is used to translate interpretations from the VCI into ClinVar submissions (see [Projects](../projects.html).)
+* Version 1 is used to translate interpretations from the VCI into ClinVar submissions (see [Projects](projects.html).)
