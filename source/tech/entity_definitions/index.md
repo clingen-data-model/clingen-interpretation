@@ -13,5 +13,5 @@ Interpretations are modeled as SEPIO Assertions using SEPIO EvidenceLines that i
 To get a feel for the overall structure of an interpretation, the top-level
 object is [VariantInterpretation](./core/variant_interpretation.html). Particular
 examples that are illustrative include
-[VarInterp274](./details/details.html#VarInterp274) and
-[VarInterp063](./details/details.html#VarInterp063).
+[VarInterp274](../details/details.html#CG-EX:VarInterp274) and
+[VarInterp063](../details/details.html#CG-EX:VarInterp063).

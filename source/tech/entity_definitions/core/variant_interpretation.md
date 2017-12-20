@@ -19,6 +19,6 @@ VariantInterpretations are frequently updated when new information becomes avail
 Primary Examples
 ----------------
 
-[VarInterp274](./details/details.html#VarInterp274) and
-[VarInterp063](./details/details.html#VarInterp063) are fully-realized examples
+[VarInterp274](../details/details.html#CG-EX:VarInterp274) and
+[VarInterp063](../details/details.html#CG-EX:VarInterp063) are fully-realized examples
 and may serve as a starting point for exploring the model.
