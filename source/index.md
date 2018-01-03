@@ -20,8 +20,8 @@ Benefits of the ClinGen Interpretation Model
     * How the explicitly defined criteria were applied to the evidence
     * To what degree the interpretation builds upon previous interpretations
 * Aligns with related community models including:
-    * [Monarch SEPIO](https://github.com/monarch-initiative/SEPIO-ontology/wiki){:target="_blank"}
-    * [ClinGen Allele Model](http://datamodel.clinicalgenome.org/allele/master/index.html)
+    * [Monarch SEPIO](https://github.com/monarch-initiative/SEPIO-ontology/wiki){:target="sepio"}
+    * [ClinGen Allele Model](/allele/master/index.html)
 * Other features:
     * Flexibility: This model is naturally able to represent a range of interpretation depth, from unsupported assertions to fully evidence-based interpretations, using whatever level of data has been captured.
     * Contains an extensive set of data objects for representing frequently used information
@@ -33,12 +33,12 @@ Development by Example
 ----------------------
 
 To ensure that the model supports its intended use case to represent clinical interpretation of
-variants, development has been guided by real-world examples based on the application of the [ACMG guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html){:target="_blank"}. These examples are available in hierarchical form through the individual pages of the [Technical Reference](tech/), or in a "flattened" form in the [data/flattened](https://github.com/clingen-data-model/clingen-interpretation/tree/master/data/flattened) directory of our source code repository.
+variants, development has been guided by real-world examples based on the application of the [ACMG guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html){:target="acmgguidelines"}. These examples are available in hierarchical form through the individual pages of the [Technical Reference](tech/), or in a "flattened" form in the [data/flattened](https://github.com/clingen-data-model/clingen-interpretation/tree/master/data/flattened){:target="githubinterpdata"} directory of our source code repository.
 
 Status
 ------
 
-Version 1 of the interpretation model was [released](user/release_notes.html) October 13, 2017, and allows the description of variant pathogenicity interpretations based on the [ACMG guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html){:target="_blank"}.   Version 2 will incorporate variant interpretations across a broader set of entities and styles, and is currently in the scoping phase.
+Version 1 of the interpretation model was [released](user/release_notes.html) October 13, 2017, and allows the description of variant pathogenicity interpretations based on the [ACMG guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html){:target="acmgguidelines"}.   Version 2 will incorporate variant interpretations across a broader set of entities and styles, and is currently in the scoping phase.
 
 Documentation
 -------------

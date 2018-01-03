@@ -14,7 +14,7 @@ curating and interpreting variants.
 
 ##Introduction
 
-An interpretation is the outcome of structured reasoning applied to evidence.   Interpretations may be made about many kinds of entities using many kinds of evidence, and different formalized reasoning strategies.  Although the overall structure of an interpretation is the same for many cases, the initial version of the interpretation model is limited to interpretations on the pathogenicity of sequence variants made using the [ACMG Pathogenicity Guidelines]().   The discussion below will specifically use this context as an example, but the structure of the model is expected to remain largely unchanged as new interpretation contexts are added.
+An interpretation is the outcome of structured reasoning applied to evidence.   Interpretations may be made about many kinds of entities using many kinds of evidence, and different formalized reasoning strategies.  Although the overall structure of an interpretation is the same for many cases, the initial version of the interpretation model is limited to interpretations on the pathogenicity of sequence variants made using the [ACMG Pathogenicity Guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html){:target="acmgguidelines"}.   The discussion below will specifically use this context as an example, but the structure of the model is expected to remain largely unchanged as new interpretation contexts are added.
 
 ####The process of generating this type of interpretation is composed of three kinds of activities:
 
@@ -35,7 +35,7 @@ The tree structure of the model is collapsible.  If a user is interested only in
 
 ##SEPIO
 
-The interpretation model requires a structure describing the relationship between a conclusion and the evidence that led to this conclusion;  the Scientific Evidence and Provenance Information Ontology ([SEPIO](./sepio.html)) provides such a structure.  In SEPIO, an [assertion]() is the conclusion drawn from reasoning about [information](https://github.com/monarch-initiative/SEPIO-ontology/wiki/Evidence-Item).   This information can be either data, like an allele frequency, or a prior assertion.
+The interpretation model requires a structure describing the relationship between a conclusion and the evidence that led to this conclusion;  the Scientific Evidence and Provenance Information Ontology ([SEPIO](./sepio.html)) provides such a structure.  In SEPIO, an [assertion](https://github.com/monarch-initiative/SEPIO-ontology/wiki/Assertion){:target="sepioassertion"} is the conclusion drawn from reasoning about [information](https://github.com/monarch-initiative/SEPIO-ontology/wiki/Evidence-Item){:target="sepioevidenceitem"}.   This information can be either data, like an allele frequency, or a prior assertion.
 
 [comment]: # (Larry's SEPIO/ClinGen diagram here.   We can add more text once we see the figure, but the words below should be close.)
 
@@ -69,4 +69,4 @@ The [examples]() in the documentation are a large set of JSON-LD documents and s
 2. How the assessment of ACMG criteria may be expressed.
 3. How all of the entities fit together to create a complete interpretation document.
 
-The [SEPIO documentation](https://github.com/monarch-initiative/SEPIO-ontology/) describes the generic use of the SEPIO ontology.
+The [SEPIO documentation](https://github.com/monarch-initiative/SEPIO-ontology/wiki){:target="sepio"} describes the generic use of the SEPIO ontology.

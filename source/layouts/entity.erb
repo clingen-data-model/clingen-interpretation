@@ -38,7 +38,7 @@
         </table>
     <% end # if there are local attributes %>
 
-
+<!--
     <%- inherited_attributes = inherited_attributes_by_entity(current_page.data.id) %>
     <% if inherited_attributes.any? %>
     <h2>Inherited Attributes</h2>
@@ -66,6 +66,7 @@
             </tbody>
         </table>
     <% end # if there are inherited attributes %>
+-->
 
     <%- examples = examples_by_type(current_page.data.id) || [] %>
     <% if examples.any? %>

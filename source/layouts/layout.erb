@@ -141,7 +141,7 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <%= javascript_include_tag 'jquery', 'bootstrap', 'jquery.jsonview' %>
+    <%= javascript_include_tag 'jquery', 'bootstrap', 'jquery.jsonview', 'all' %>
     <% (current_page.data.append_js || []).each do |jsfile| %>
       <%= javascript_include_tag jsfile %>
     <% end %>

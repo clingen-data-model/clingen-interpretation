@@ -8,7 +8,7 @@ summary: The relationship between ClinGen interpretation and SEPIO
 Introduction
 ------------
 
-The Monarch Initiative's [Scientific Evidence and provenance Information Ontology](https://github.com/monarch-initiative/SEPIO-ontology) (SEPIO) is an OWL ontology for the description of evidence and provenance that support scientific claims.  This ontology supports a number of use cases, but is mainly driven by the need to integrate evidence, and computationally assess the level of evidence for a scientific claim.
+The Monarch Initiative's [Scientific Evidence and provenance Information Ontology](https://github.com/monarch-initiative/SEPIO-ontology/wiki) (SEPIO) is an OWL ontology for the description of evidence and provenance that support scientific claims.  This ontology supports a number of use cases, but is mainly driven by the need to integrate evidence, and computationally assess the level of evidence for a scientific claim.
 
 
 ClinGen Interpretations are Modeled with SEPIO
@@ -31,5 +31,5 @@ For instance, the lines in the [ClinGen interpretation context](http://datamodel
    "@id": "SEPIO:0000190"
 },
 ```
-indicate that a VariantInterpretation in a ClinGen JSON-LD document is the same entity as the type defined by the id SEPIO:0000190. That SEPIO id is defined in the [ClinGen-specific SEPIO extension here](https://raw.githubusercontent.com/monarch-initiative/SEPIO-ontology/master/src/ontology/extensions/domain/sepio-vi.owl) as a variant pathogenicity interpretation, which is a subclass of SEPIO:0000001.  SEPIO:0000001 can be found in the [main SEPIO OWL file](https://raw.githubusercontent.com/monarch-initiative/SEPIO-ontology/master/src/ontology/sepio.owl), where it is defined as an [Assertion](http://github.com/monarch-initiative/SEPIO-ontology/wiki/Assertion) in SEPIO.
+indicate that a VariantInterpretation in a ClinGen JSON-LD document is the same entity as the type defined by the id SEPIO:0000190. That SEPIO id is defined in the [ClinGen-specific SEPIO extension here](https://github.com/monarch-initiative/SEPIO-ontology/blob/master/src/ontology/extensions/sepio-clingen.owl) as a variant pathogenicity interpretation, which is a subclass of SEPIO:0000001.  SEPIO:0000001 can be found in the [main SEPIO OWL file](https://raw.githubusercontent.com/monarch-initiative/SEPIO-ontology/master/src/ontology/sepio.owl), where it is defined as an [Assertion](http://github.com/monarch-initiative/SEPIO-ontology/wiki/Assertion) in SEPIO.
 
