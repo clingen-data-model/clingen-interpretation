@@ -3,7 +3,7 @@
     "id": "E01",
     "name": "Statement",
     "link": "Stmt",
-    "iri": "SEPIO:0000174\n",
+    "iri": "SEPIO:0000174",
     "iri-label": "statement",
     "cg-label": "Statement",
     "description": "An information content entity expressing a declarative sentence that is either true or false.",
@@ -17,7 +17,7 @@
     "iri": "SEPIO:0000229",
     "iri-label": "allele molecular consequence statement",
     "cg-label": "AlleleMolecularConsequence",
-    "description": "A statement that describes the expected effect of a variant allele at the level of genomic or transcript sequence",
+    "description": "A statement about the expected effect of a variant allele at the level of genomic or transcript sequence (e.g. how it might affect splicing, truncate a gene product, etc.).",
     "comments": "Molecular consequence statements typically describe the type of variation the allele represents (e.g. a deletion or insertion or translocation), the type of genomic or transcript feature the allele affects (e.g. that it occurs in a 3' UTR, or an exon), or its impact on the structure or processing of a gene (e.g. that it generates a copy number variation, results in a lost stop codon,  disrupts a slice site, or causes a frameshift elongation). Molecular Consequence statements do not include predictions about the impact a variation might have on the function of an encoded gene product. \n\nExample of usage.  Molecular consequence statements are produced by software such as Annovar (http://annovar.openbioinformatics.org), SnpEff (http://snpeff.sourceforge.net) or Variant Effect Predictor (http://www.ensembl.org/vep), and often take the form of annotation of a variant with a term from the sequence ontology such as 'missense variant', 'frameshift variant', 'splice-site variant', 'frameshift elongation', 'substitution', 'inversion'."
   },
   "E03": {
@@ -169,7 +169,7 @@
     "iri": "SEPIO:0000239",
     "iri-label": "family condition statement",
     "cg-label": "FamilyCondition",
-    "description": "A statement describing the presence of a particular disease appears in the history of a family.",
+    "description": "A statement asserting the occurrence of a particular disease in the history of a family.",
     "comments": "Used  to indicate if there are other  individuals that are affected by or exhibit  a condition in the proband's family."
   },
   "E19": {
@@ -213,7 +213,7 @@
     "iri": "GENO:0000815",
     "iri-label": "sequence feature position",
     "cg-label": "SequenceLocation",
-    "description": "The location of a sequence feature as specified by  the coordinates of its starting and ending residues relative to some reference sequence.",
+    "description": "An attribute of a sequence feature related to the location of its starting and ending residues according to some reference coordinate system.",
     "comments": "TODO MB: add comment clarifying 'sequence feature' used in SO sense, and explain this"
   },
   "E23": {
@@ -224,7 +224,7 @@
     "iri": "SEPIO:0000227",
     "iri-label": "population allele frequency statement",
     "cg-label": "AlleleFrequency",
-    "description": "A statement that describes the frequency of an allele as determined in a defined group of individuals (typically a representative sampling that serves as a proxy for some larger population of individuals)\n",
+    "description": "A statement that describes the observed frequency of an allele as determined in a defined group of individuals (typically a representative sampling that serves as a proxy for some larger population of individuals).\n",
     "comments": "The population in which allele frequency is determined is defined based on features such as  ethnicity, nationality, geography, socio-economic status, etc.  "
   },
   "E24": {
@@ -246,7 +246,7 @@
     "iri": "SEPIO:0000244",
     "iri-label": "region alleles statement",
     "cg-label": "RegionAlleles",
-    "description": "A statement about whether a region of genomic sequence overlaps one or more particular alleles.",
+    "description": "A statement about the positional relationship between a region of genomic sequence and one or more alleles. (i.e. whether the region overlaps or is adjacent to the allele).",
     "comments": ""
   },
   "E26": {
@@ -268,7 +268,7 @@
     "iri": "SEPIO:0000245",
     "iri-label": "individual genotype statement",
     "cg-label": "IndividualGenotype",
-    "description": "A statement describing the allelic state of one or more alleles in the genome of an individual (e.g. zygosity information, or phase relative to a second allele).",
+    "description": "A statement about the allelic state of one or more alleles in the genome of an individual (e.g. zygosity information, or phase relative to a second allele).",
     "comments": ""
   },
   "E29": {
@@ -368,10 +368,10 @@
     "name": "Family",
     "parentType": "E40",
     "link": "Fam",
-    "iri": "PCO:0000020",
-    "iri-label": "family",
+    "iri": "PCO:0000032",
+    "iri-label": "biological family",
     "cg-label": "Family",
-    "description": "From PCO: A domestic group, or a number of domestic groups linked through descent (demonstrated or stipulated) from a common ancestor, marriage, or adoption.",
+    "description": "A collection of organisms of the same species whose members are all either genealogically related to each other or have mated with each other.",
     "comments": "TODO MB:make term request for PCO to subtype of family describing groups of individuals related by descent (biological family)\n\n\n"
   },
   "E45": {
@@ -382,7 +382,7 @@
     "iri": "SEPIO:0000247",
     "iri-label": "family co-segregation statement",
     "cg-label": "FamilySegregation",
-    "description": "A statement describing the correlation between the presence of a particular allele and the manifestation of a mendelian condition, as inherited through a single family pedigree (i.e. co-segregation of an allele and condition in a single family).\n\n",
+    "description": "A statement describing the observed correlation between transmission of a particular allele and a particular genetic condition, across a single family pedigree (i.e. the co-segregation of an allele and a condition as observed across a family pedigree).\n",
     "comments": "Co-segregatation' refers to the correlation between the presence of a particular allele and the manifestation of a condition in a family pedigree. When an allele and a condition are only found together in family members, they are said to co-segregate. \n\nWhen there are no individuals that have the allele without the condition or the condition without the allele, the allele and condition are said to co-segregate."
   },
   "E46": {
@@ -393,7 +393,7 @@
     "iri": "SEPIO:0000248",
     "iri-label": "aggregate co-segregation statement",
     "cg-label": "AggregateSegregation",
-    "description": "A statement describing the correlation between the presense of a particular allele and the manifestation of a disease or phenotypes, as determined by examining inheritance patterns across multiple families (i.e. co-segregation of an allele and condition, aggregated across multiple family pedigrees).",
+    "description": "A statement describing the observed correlation between transmission of a particular allele and a particular genetic condition, across multiple family pedigrees (i.e. the co-segregation of an allele and a condition as observed across multiple family pedigrees).",
     "comments": ""
   },
   "E47": {
@@ -404,7 +404,7 @@
     "iri": "SEPIO:0000249",
     "iri-label": "in silico prediction statement",
     "cg-label": "InSilicoPrediction",
-    "description": "A statement based on the output of a computational algorithm that predicts the impact of a particular allele on the function of its resulting gene product (e.g. 'deleterious', 'damaging', 'tolerated').",
+    "description": "A statement asserting the predicted impact of a particular allele on the function of its resulting gene product (e.g. that it is 'deleterious', 'damaging', 'tolerated', etc.). Such assertions are typically based on interpretation of the quantitative output of predictive computational algorithms.",
     "comments": ""
   },
   "E48": {
@@ -413,9 +413,9 @@
     "parentType": "E01",
     "link": "LocHet",
     "iri": "SEPIO:0000250",
-    "iri-label": "condition gene specificity?\n\ngenetic etiology?\n\nlocus heterogeneity?",
+    "iri-label": "\nlocus heterogeneity statement",
     "cg-label": "LocusHeterogeneity",
-    "description": "A statement that reflects the specificity with which a genetic condition is caused by variants in a particular gene or locus (i.e. whether it is the only known gene associated with the condition, or one or more other genes have been linked to the condition).",
+    "description": "A statement about the specificity with which a genetic condition is caused by variants in a particular gene or locus (i.e. whether it is the only known gene associated with the condition, or one or more other genes have been linked to the condition).",
     "comments": "The gene-specificity for a condition is low if the condition can be caused by other genes or factors, and high/complete if mutations in the gene are only known cause."
   },
   "E49": {
@@ -426,7 +426,7 @@
     "iri": "SEPIO:0000251",
     "iri-label": "condition prevalence statement",
     "cg-label": "ConditionPrevelance",
-    "description": "A statement describing the frequency of a condition as determined for a particular population of persons (ascertained by factors  such as ethnicity, race, socio-economic  status, geographic residence, etc).",
+    "description": "A statement describing the observed frequency of a condition as determined for a particular population of persons (ascertained by factors such as ethnicity, race, socio-economic  status, geographic residence, etc).",
     "comments": ""
   },
   "E50": {
@@ -437,7 +437,7 @@
     "iri": "SEPIO:0000252",
     "iri-label": "condition penetrance statement",
     "cg-label": "ConditionPenetrance",
-    "description": "A statement describing the proportion of individuals carrying a causal allele who exhibit a particular disease or phenotype.",
+    "description": "A statement about the proportion of individuals carrying a causal allele that exhibit a particular disease or phenotype.",
     "comments": ""
   },
   "E51": {
@@ -448,7 +448,7 @@
     "iri": "SEPIO:0000253",
     "iri-label": "allele conservation statement",
     "cg-label": "AlleleConservation",
-    "description": "A statement about the degree of evolutionary conservation of an allele across a defined set of taxa/species. ",
+    "description": "A statement asserting whether a particular allele is evolutionarily conserved.  Such assertions are typically based on interpretation of the quantitative output of computational algorithms (i.e. 'allele conservation scores').",
     "comments": ""
   },
   "E52": {
@@ -456,8 +456,8 @@
     "name": "InSilicoPredictionScore",
     "parentType": "E01",
     "link": "InSilicoPredScore",
-    "iri": "???",
-    "iri-label": "",
+    "iri": "SEPIO:0000368",
+    "iri-label": "in silico prediction score statement",
     "cg-label": "InSilicoPredictionScore",
     "description": "A statement describing a quantitative score fron an InSilico Prediction",
     "comments": ""
@@ -467,8 +467,8 @@
     "name": "AlleleConservationScore",
     "parentType": "E01",
     "link": "AllConservScore",
-    "iri": "???",
-    "iri-label": "",
+    "iri": "SEPIO:0000369",
+    "iri-label": "allele conservation score statement",
     "cg-label": "AlleleConservationScore",
     "description": "A statement describing a quantitative score of the degree of evolutionary conservation of an allele across a defined set of taxa/species",
     "comments": ""
@@ -500,7 +500,7 @@
     "link": "MolConID",
     "iri": "SEPIO-CG:55102",
     "iri-label": "",
-    "cg-label": "MolecularConsequence",
+    "cg-label": "Molecular Consequence",
     "description": "A classification of a genomic variant based on its effect on a transcript or its location with respect to the transcript."
   },
   "E58": {
@@ -508,9 +508,9 @@
     "name": "Significance",
     "parentType": "E40",
     "link": "SigID",
-    "iri": "SEPIO-CG:55101",
+    "iri": "SEPIO:0000371",
     "iri-label": "",
-    "cg-label": "Significance",
+    "cg-label": "Clinical Significance",
     "description": "The role that a variant plays in the causing a genetic condition."
   },
   "E59": {
@@ -518,9 +518,9 @@
     "name": "RegionAnnotation",
     "parentType": "E40",
     "link": "RegAnnID",
-    "iri": "SEPIO-CG:55102",
+    "iri": "SEPIO:0000343",
     "iri-label": "",
-    "cg-label": "RegionAnnotation",
+    "cg-label": "Region Annotation",
     "description": "A label applied to a sequence region"
   },
   "E60": {
@@ -528,9 +528,9 @@
     "name": "Phase",
     "parentType": "E40",
     "link": "PhaseID",
-    "iri": "SEPIO-CG:55103",
+    "iri": "SEPIO:0000344",
     "iri-label": "",
-    "cg-label": "Phase",
+    "cg-label": "Allelic Phase",
     "description": "Value denoting whether sequence features lie on the same or different molecules"
   },
   "E61": {
@@ -538,9 +538,9 @@
     "name": "AllelicState",
     "parentType": "E40",
     "link": "AllStateID",
-    "iri": "SEPIO-CG:55104",
+    "iri": "SEPIO:0000338",
     "iri-label": "",
-    "cg-label": "AllelicState",
+    "cg-label": "Allelic State",
     "description": "Describes the existence of an allele across multiple copies of a chromosome."
   },
   "E62": {
@@ -550,7 +550,7 @@
     "link": "ModeOfInhID",
     "iri": "SEPIO-CG:55105",
     "iri-label": "",
-    "cg-label": "ModeOfInheritance",
+    "cg-label": "Mode Of Inheritance",
     "description": "Classifies the transmission pattern of a condition in a pedigree."
   },
   "E64": {
@@ -560,7 +560,7 @@
     "link": "MechID",
     "iri": "SEPIO-CG:55107",
     "iri-label": "",
-    "cg-label": "Mechanism",
+    "cg-label": "Condition Mechanism",
     "description": "The particular type of allele that can lead to a condition"
   },
   "E65": {
@@ -568,9 +568,9 @@
     "name": "Prediction",
     "parentType": "E40",
     "link": "PredID",
-    "iri": "SEPIO-CG:55108",
+    "iri": "SEPIO:0000345",
     "iri-label": "",
-    "cg-label": "Prediction",
+    "cg-label": "In Silico Prediction Method",
     "description": "The type of InSilico Predictor"
   },
   "E66": {
@@ -578,9 +578,9 @@
     "name": "CriterionEvaluation",
     "parentType": "E40",
     "link": "CritEvalID",
-    "iri": "SEPIO-CG:55109",
+    "iri": "SEPIO:0000347",
     "iri-label": "",
-    "cg-label": "CriterionEvaluation",
+    "cg-label": "Criterion Evaluation",
     "description": "Denotes whether the collected evidence is sufficient to meet a specified criteria or not"
   },
   "E67": {
@@ -590,7 +590,7 @@
     "link": "AFAMID",
     "iri": "SEPIO-CG:55110",
     "iri-label": "",
-    "cg-label": "AlleleFunctionalAssayMethod",
+    "cg-label": "Allele Functional Assay Method",
     "description": "The functional measurement carried out in a given assay"
   },
   "E68": {
@@ -608,9 +608,9 @@
     "name": "BenignMissenseVariationRateOutcome",
     "parentType": "E40",
     "link": "BMVROID",
-    "iri": "SEPIO-CG:55112",
+    "iri": "SEPIO:0000349",
     "iri-label": "",
-    "cg-label": "BenignMissenseVariationRateOutcome",
+    "cg-label": "Benign Missense Variation Rate Outcome",
     "description": "The rate of missense variation in a transcript that do not lead to a genetic condition"
   },
   "E70": {
@@ -620,7 +620,7 @@
     "link": "PenetID",
     "iri": "SEPIO-CG:55113",
     "iri-label": "",
-    "cg-label": "Penetrance",
+    "cg-label": "Condition Penetrance",
     "description": "The chance of having a particular genetic condition given the presence of a particular variant or damaged gene"
   },
   "E71": {
@@ -628,9 +628,9 @@
     "name": "ConditionMechanismStrength",
     "parentType": "E40",
     "link": "CondMechStrgID",
-    "iri": "SEPIO-CG:55114",
+    "iri": "SEPIO:0000354",
     "iri-label": "",
-    "cg-label": "ConditionMechanismStrength",
+    "cg-label": "Condition Mechanism Strength",
     "description": "The strength of association between a genetic mechanism and a condition"
   },
   "E72": {
@@ -638,9 +638,9 @@
     "name": "EvidenceLineStrength",
     "parentType": "E40",
     "link": "EvLnStrgID",
-    "iri": "SEPIO-CG:55115",
+    "iri": "SEPIO:0000353",
     "iri-label": "",
-    "cg-label": "EvidenceLineStrength",
+    "cg-label": "ACMG Evidence Strength",
     "description": "Degree of support that a set of evidence lends to a subsequent statement"
   },
   "E73": {
@@ -670,7 +670,7 @@
     "link": "ContribRoleID",
     "iri": "SEPIO-CG:55118",
     "iri-label": "",
-    "cg-label": "ContributoryRole",
+    "cg-label": "Contributory Role",
     "description": "The role played by an agent in the creation of an artifact"
   },
   "E77": {
@@ -680,7 +680,7 @@
     "link": "AlleleInhID",
     "iri": "SEPIO-CG:55119",
     "iri-label": "",
-    "cg-label": "AlleleInheritance",
+    "cg-label": "Allele Inheritance",
     "description": "The source of an allele in an individual"
   },
   "E78": {
@@ -698,9 +698,9 @@
     "name": "LocusSpecificity",
     "parentType": "E40",
     "link": "LocSpecID",
-    "iri": "SEPIO-CG:55121",
+    "iri": "SEPIO:0000348",
     "iri-label": "",
-    "cg-label": "LocusSpecificity",
+    "cg-label": "Locus Specificity",
     "description": "The degree to which a condition implicates a specific genomic locus, such as a gene."
   },
   "E80": {
@@ -720,7 +720,7 @@
     "link": "ParenConfID",
     "iri": "SEPIO-CG:55123",
     "iri-label": "",
-    "cg-label": "ParentalConfirmation",
+    "cg-label": "Parental Confirmation",
     "description": "Whether or not parentage has been confirmed with a genetic test"
   },
   "E82": {
@@ -730,7 +730,7 @@
     "link": "CondStatID",
     "iri": "SEPIO-CG:55124",
     "iri-label": "",
-    "cg-label": "ConditionStatus",
+    "cg-label": "Condition Status",
     "description": "Whether or not an individual is affected by a specific genetic condition"
   },
   "E83": {
@@ -740,7 +740,7 @@
     "link": "InconSegObsID",
     "iri": "SEPIO-CG:55125",
     "iri-label": "",
-    "cg-label": "InconsistentSegregationObserved",
+    "cg-label": "Inconsistent Segregation Observed",
     "description": "Whether or not inconsistent segretations have been observed in a pedigree"
   },
   "E84": {
@@ -750,7 +750,7 @@
     "link": "NullAllOutID",
     "iri": "SEPIO-CG:55126",
     "iri-label": "",
-    "cg-label": "NullAlleleOutcome",
+    "cg-label": "Null Allele Outcome",
     "description": "Denotes whether an allele leads to a non-functional transcript"
   },
   "E85": {
@@ -758,9 +758,9 @@
     "name": "RegionAllelesOutcome",
     "parentType": "E40",
     "link": "RegAllOutID",
-    "iri": "SEPIO-CG:55127",
+    "iri": "",
     "iri-label": "",
-    "cg-label": "RegionAllelesOutcome",
+    "cg-label": "",
     "description": "Whether or not an allele overlaps a sequence region"
   },
   "E86": {
@@ -768,9 +768,9 @@
     "name": "ValueSetConceptListExtensibility",
     "parentType": "E40",
     "link": "VSCLExtnsID",
-    "iri": "SEPIO-CG:55128",
+    "iri": "SEPIO:0000363",
     "iri-label": "",
-    "cg-label": "ValueSetConceptListExtensibility",
+    "cg-label": "Value Set Extensibility",
     "description": "Whether or not a ValueSet can be extended by users"
   }
 }

@@ -11,7 +11,7 @@
     "valueSetId": "VS002",
     "@valueSetId": "SEPIO-CG:65102",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65102\", label: \"Molecular Consequence\", conceptListExtensibility: { @id : \"SEPIO-CG:02102\", label: \"extensible\" }",
+    "valueSetName": "@id : \"SEPIO-CG:65102\", label: \"Molecular Consequence\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
     "description": "Classification of allele based on the manner in which it alters the sequence",
     "fullyQualifiedName": "AlleleMolecularConsequence.consequence"
@@ -1806,7 +1806,7 @@
     "valueSetId": "VS003",
     "@valueSetId": "SEPIO-CG:65103",
     "restrictByValueSet": "Yes",
-    "valueSetName": "@id : \"SEPIO-CG:65103\", label: \"Clinical Signficance\", conceptListExtensibility: { @id : \"SEPIO-CG:02101\", label: \"fixed\" }",
+    "valueSetName": "@id : \"SEPIO-CG:65103\", label: \"Clinical Signficance\", conceptListExtensibility: \"VSCLExtnsID374\"",
     "precedence": 3.0,
     "description": "The coded pathogenicity of the variant for the condition",
     "fullyQualifiedName": "VariantInterpretation.outcome"
@@ -1957,7 +1957,7 @@
     "cardinality": "1..1",
     "valueSetId": "VS001",
     "@valueSetId": "SEPIO-CG:65101",
-    "valueSetName": "@id : \"SEPIO-CG:65101\", label: \"Value Set Concept List Exstensibility\", conceptListExtensibility: { @id : \"SEPIO-CG:02101\", label: \"fixed\" }",
+    "valueSetName": "@id : \"SEPIO-CG:65101\", label: \"Value Set Concept List Exstensibility\", conceptListExtensibility: \"VSCLExtnsID374\"",
     "precedence": 3.0,
     "description": "The type of valueset is either extendsible or fixed, which determines whether or not the list of concepts defined for the value set can be extended or not when bound to specific attributes.",
     "fullyQualifiedName": "ValueSet.conceptListExtensibility"

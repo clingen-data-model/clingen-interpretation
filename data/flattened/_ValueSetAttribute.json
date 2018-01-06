@@ -18,7 +18,7 @@
   {
     "subjectId": "VS001",
     "attributeId": "A133",
-    "value": "TODO desc of concept list extensibility value set",
+    "value": "Concepts to categorize the degree of extensibility of a given value set.",
     "attributeName": "description",
     "attributeType": "string",
     "domainEntityType": "ValueSet"
@@ -82,7 +82,7 @@
   {
     "subjectId": "VS002",
     "attributeId": "A133",
-    "value": "TODO desc of molecular consequence value set",
+    "value": "List of molecular consequence classifications.",
     "attributeName": "description",
     "attributeType": "string",
     "domainEntityType": "ValueSet"
@@ -330,7 +330,7 @@
   {
     "subjectId": "VS003",
     "attributeId": "A133",
-    "value": "TODO",
+    "value": "ACMG variant pathogenicity clinical significance concepts. Equivalent to LOINC answer list https://r.details.loinc.org/AnswerList/LL4034-6.html.",
     "attributeName": "description",
     "attributeType": "string",
     "domainEntityType": "ValueSet"
@@ -410,7 +410,7 @@
   {
     "subjectId": "VS004",
     "attributeId": "A133",
-    "value": "TODO",
+    "value": "Concepts to categorize the genetic sequence region types used to assess ACMG rules.",
     "attributeName": "description",
     "attributeType": "string",
     "domainEntityType": "ValueSet"
@@ -482,7 +482,7 @@
   {
     "subjectId": "VS005",
     "attributeId": "A133",
-    "value": "TODO",
+    "value": "Concepts to categorize the phase of variation between two alleles.",
     "attributeName": "description",
     "attributeType": "string",
     "domainEntityType": "ValueSet"
@@ -538,7 +538,7 @@
   {
     "subjectId": "VS006",
     "attributeId": "A133",
-    "value": "The level of occurance of a single DNA marker within a set of chromosomes. Informed by LOINC 53034-5 but with additional codes for somatic mosaicism and asserted absence.",
+    "value": "The level of occurance of a single DNA marker within a set of chromosomes. Informed by LOINC answer list https://r.details.loinc.org/AnswerList/LL381-5.html but with additional codes for somatic mosaicism and asserted absence.",
     "attributeName": "description",
     "attributeType": "string",
     "domainEntityType": "ValueSet"
