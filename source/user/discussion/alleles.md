@@ -52,5 +52,4 @@ For the application of certain ACMG Pathogenicity guidelines, it is important to
 Plans for the Future
 --------------------
 
-The VMC model incorporates many of the insights derived from work on the ClinGen Allele Model.  As a model with obvious merits, and one endorsed by the GA4GH, we anticipate widespread adoption of the VMC model. Over the coming months, the VMC will be adding notions of equivalence, a more granular version of the ClinGen model's canonicalization.  As this work proceeds, we anticipate transitioning from the ClinGen Allele Model, to the similar but more widely supported VMC model.
-
+The VMC model incorporates many of the insights derived from work on the ClinGen Allele Model.  As a model with obvious merits, and one endorsed by the GA4GH, we anticipate widespread adoption of the VMC model. There is ongoing work in the VMC to add notions of equivalence, a more granular version of the ClinGen model's canonicalization.  As this work proceeds, we anticipate transitioning from the ClinGen Allele Model to the similar but more widely supported VMC model.
