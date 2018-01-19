@@ -3,7 +3,6 @@ require 'json'
 DM_BASE_IRI = "http://datamodel.clinicalgenome.org/"
 DM_TYPES_IRI = "http://datamodel.clinicalgenome.org/types/"
 DM_ATTRS_IRI = "http://datamodel.clinicalgenome.org/attributes/"
-AR_BASE_IRI = "http://schema.genome.network/"
 
 def construct_context(data_dir = File.join('data', 'flattened'))
   types = JSON.parse(File.read(File.join(data_dir, "Type.json")))
@@ -13,7 +12,6 @@ def construct_context(data_dir = File.join('data', 'flattened'))
           "cg-types" => DM_TYPES_IRI,
           "cg-attributes" => DM_ATTRS_IRI,
           "base" => DM_BASE_IRI,
-          "gns" => AR_BASE_IRI,
           "id" => "@id",
           "type" => "@type"
         }
