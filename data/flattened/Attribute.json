@@ -11,10 +11,8 @@
     "valueSetId": "VS002",
     "@valueSetId": "SEPIO-CG:65102",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65102\", label: \"Molecular Consequence\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
-    "description": "Classification of allele based on the manner in which it alters the sequence",
-    "fullyQualifiedName": "AlleleMolecularConsequence.consequence"
+    "description": "Classification of allele based on the manner in which it alters the sequence"
   },
   "A002": {
     "id": "A002",
@@ -29,10 +27,8 @@
     "valueSetId": "VS008",
     "@valueSetId": "SEPIO-CG:65108",
     "restrictByValueSet": "Yes",
-    "valueSetName": "@id : \"SEPIO-CG:65108\", label: \"Mechanism\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
-    "description": "SO term for a class of variants",
-    "fullyQualifiedName": "ConditionMechanism.mechanism"
+    "description": "SO term for a class of variants"
   },
   "A003": {
     "id": "A003",
@@ -47,10 +43,8 @@
     "valueSetId": "VS015",
     "@valueSetId": "SEPIO-CG:65115",
     "restrictByValueSet": "Yes",
-    "valueSetName": "@id : \"SEPIO-CG:65115\", label: \"Condition Mechanism Strength\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 4.0,
-    "description": "Qualifier on the Condition/Mechanism pair",
-    "fullyQualifiedName": "ConditionMechanism.mechanismConfidence"
+    "description": "Qualifier on the Condition/Mechanism pair"
   },
   "A004": {
     "id": "A004",
@@ -63,8 +57,7 @@
     "cg-label": "qualifier",
     "@valueSetId": "",
     "precedence": 90.0,
-    "description": "Use “NOT” as the value of this property to assert that the statement is negated.",
-    "fullyQualifiedName": "Statement.qualifier"
+    "description": "Use “NOT” as the value of this property to assert that the statement is negated."
   },
   "A006": {
     "id": "A006",
@@ -77,10 +70,8 @@
     "iri-label": "has_agent",
     "cg-label": "agent",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "A person, group of people, algorithm, or some other actor that could make a contribution",
-    "fullyQualifiedName": "Contribution.agent"
+    "description": "A person, group of people, algorithm, or some other actor that could make a contribution"
   },
   "A007": {
     "id": "A007",
@@ -92,10 +83,8 @@
     "iri-label": "date_of_contribution",
     "cg-label": "contributionDate",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "The date on which a contribution was completed",
-    "fullyQualifiedName": "Contribution.contributionDate"
+    "description": "The date on which a contribution was completed"
   },
   "A008": {
     "id": "A008",
@@ -109,10 +98,8 @@
     "valueSetId": "VS020",
     "@valueSetId": "SEPIO-CG:65120",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65120\", label: \"Contributory Role\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
-    "description": "The particular role in which an agent was acting while making the contribution",
-    "fullyQualifiedName": "Contribution.contributionRole"
+    "description": "The particular role in which an agent was acting while making the contribution"
   },
   "A009": {
     "id": "A009",
@@ -125,10 +112,8 @@
     "iri-label": "is_about_allele",
     "cg-label": "contextualAllele",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "The contextual (reference-specific) allele that is being classified",
-    "fullyQualifiedName": "AlleleMolecularConsequence.contextualAllele"
+    "description": "The contextual (reference-specific) allele that is being classified"
   },
   "A011": {
     "id": "A011",
@@ -141,10 +126,8 @@
     "iri-label": "is_about_gene",
     "cg-label": "gene",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "Gene in which the given variants occur",
-    "fullyQualifiedName": "ConditionMechanism.gene"
+    "description": "Gene in which the given variants occur"
   },
   "A012": {
     "id": "A012",
@@ -156,10 +139,8 @@
     "iri-label": "is_about_condition",
     "cg-label": "condition",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "The condition whose mechanism is being described",
-    "fullyQualifiedName": "ConditionMechanism.condition"
+    "description": "The condition whose mechanism is being described"
   },
   "A013": {
     "id": "A013",
@@ -171,9 +152,7 @@
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
-    "precedence": 1.0,
-    "fullyQualifiedName": "Example.informationId"
+    "precedence": 1.0
   },
   "A014": {
     "id": "A014",
@@ -185,9 +164,7 @@
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
-    "precedence": 2.0,
-    "fullyQualifiedName": "Example.searchTags"
+    "precedence": 2.0
   },
   "A015": {
     "id": "A015",
@@ -199,9 +176,7 @@
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
-    "precedence": 3.0,
-    "fullyQualifiedName": "Example.index"
+    "precedence": 3.0
   },
   "A016": {
     "id": "A016",
@@ -214,10 +189,8 @@
     "iri-label": "is_about_individual",
     "cg-label": "individual",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "The person being assessed for the condition",
-    "fullyQualifiedName": "IndividualCondition.individual"
+    "description": "The person being assessed for the condition"
   },
   "A017": {
     "id": "A017",
@@ -229,10 +202,8 @@
     "iri-label": "is_about_condition",
     "cg-label": "condition",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "The condition that the person may have",
-    "fullyQualifiedName": "IndividualCondition.condition"
+    "description": "The condition that the person may have"
   },
   "A018": {
     "id": "A018",
@@ -246,10 +217,8 @@
     "valueSetId": "VS026",
     "@valueSetId": "SEPIO-CG:65126",
     "restrictByValueSet": "Yes",
-    "valueSetName": "@id : \"SEPIO-CG:65126\", label: \"Condition Status\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
-    "description": "Whether or not the person has the condition",
-    "fullyQualifiedName": "IndividualCondition.individualHasCondition"
+    "description": "Whether or not the person has the condition"
   },
   "A019": {
     "id": "A019",
@@ -261,10 +230,8 @@
     "iri-label": "is_about_proband",
     "cg-label": "proband",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "The person that was the original source of the condition in this family",
-    "fullyQualifiedName": "FamilyCondition.proband"
+    "description": "The person that was the original source of the condition in this family"
   },
   "A020": {
     "id": "A020",
@@ -276,10 +243,8 @@
     "iri-label": "is_about_condition",
     "cg-label": "condition",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "A condition that the family may or may not have",
-    "fullyQualifiedName": "FamilyCondition.condition"
+    "description": "A condition that the family may or may not have"
   },
   "A021": {
     "id": "A021",
@@ -293,10 +258,8 @@
     "valueSetId": "VS026",
     "@valueSetId": "SEPIO-CG:65126",
     "restrictByValueSet": "Yes",
-    "valueSetName": "@id : \"SEPIO-CG:65126\", label: \"Condition Status\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
-    "description": "Whether or not this family has the stated condition",
-    "fullyQualifiedName": "FamilyCondition.familyHasCondition"
+    "description": "Whether or not this family has the stated condition"
   },
   "A022": {
     "id": "A022",
@@ -309,10 +272,8 @@
     "iri-label": "is_about_allele ",
     "cg-label": "canonicalAllele",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "The allele whose denovo status is being described",
-    "fullyQualifiedName": "IndividualAlleleInheritance.canonicalAllele"
+    "description": "The allele whose denovo status is being described"
   },
   "A023": {
     "id": "A023",
@@ -324,10 +285,8 @@
     "iri-label": "is_about_individual",
     "cg-label": "individual",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "The individual whose allele may be denovo",
-    "fullyQualifiedName": "IndividualAlleleInheritance.individual"
+    "description": "The individual whose allele may be denovo"
   },
   "A025": {
     "id": "A025",
@@ -340,10 +299,8 @@
     "cg-label": "parentalConfirmation",
     "valueSetId": "VS025",
     "@valueSetId": "SEPIO-CG:65125",
-    "valueSetName": "@id : \"SEPIO-CG:65125\", label: \"Parental Confirmation\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 4.0,
-    "description": "Whether or not the parent-child relationship was independently confirmed",
-    "fullyQualifiedName": "IndividualAlleleInheritance.parentalConfirmation"
+    "description": "Whether or not the parent-child relationship was independently confirmed"
   },
   "A026": {
     "id": "A026",
@@ -355,10 +312,8 @@
     "iri-label": "description",
     "cg-label": "resultDescription",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 3.0,
-    "description": "Result of the functional experiment",
-    "fullyQualifiedName": "AlleleFunctionalImpact.resultDescription"
+    "description": "Result of the functional experiment"
   },
   "A027": {
     "id": "A027",
@@ -372,11 +327,9 @@
     "valueSetId": "VS011",
     "@valueSetId": "SEPIO-CG:65111",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65111\", label: \"Allele Functional Assay Method\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 4.0,
     "notes": "?",
-    "description": "Specific type of functional data collected",
-    "fullyQualifiedName": "AlleleFunctionalImpact.assayType"
+    "description": "Specific type of functional data collected"
   },
   "A028": {
     "id": "A028",
@@ -388,10 +341,8 @@
     "iri-label": "is_about_allele",
     "cg-label": "contextualAllele",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "Allele defined with respect to the measured transcript",
-    "fullyQualifiedName": "AlleleFunctionalImpact.contextualAllele"
+    "description": "Allele defined with respect to the measured transcript"
   },
   "A029": {
     "id": "A029",
@@ -403,10 +354,8 @@
     "iri-label": "is_about_gene",
     "cg-label": "gene",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "Gene to which the functional data applies",
-    "fullyQualifiedName": "AlleleFunctionalImpact.gene"
+    "description": "Gene to which the functional data applies"
   },
   "A030": {
     "id": "A030",
@@ -420,10 +369,8 @@
     "valueSetId": "VS022",
     "@valueSetId": "SEPIO-CG:65122",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65122\", label: \"Ascertainment\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
-    "description": "The criteria applied to create the dataset in which the frequency was measured",
-    "fullyQualifiedName": "AlleleFrequency.ascertainment"
+    "description": "The criteria applied to create the dataset in which the frequency was measured"
   },
   "A031": {
     "id": "A031",
@@ -436,10 +383,8 @@
     "iri-label": "is_about_allele",
     "cg-label": "allele",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "The variant for which the frequency is given",
-    "fullyQualifiedName": "AlleleFrequency.allele"
+    "description": "The variant for which the frequency is given"
   },
   "A032": {
     "id": "A032",
@@ -451,10 +396,8 @@
     "iri-label": "variant allele count",
     "cg-label": "alleleCount",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 5.0,
-    "description": "Frequency numerator: number of times the allele was observed",
-    "fullyQualifiedName": "AlleleFrequency.alleleCount"
+    "description": "Frequency numerator: number of times the allele was observed"
   },
   "A033": {
     "id": "A033",
@@ -466,10 +409,8 @@
     "iri-label": "total allele count",
     "cg-label": "alleleNumber",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 6.0,
-    "description": "Frequency denominator: number of observations",
-    "fullyQualifiedName": "AlleleFrequency.alleleNumber"
+    "description": "Frequency denominator: number of observations"
   },
   "A034": {
     "id": "A034",
@@ -481,10 +422,8 @@
     "iri-label": "is_about_transcript",
     "cg-label": "transcript",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "The transcript on which the prediction is made",
-    "fullyQualifiedName": "InSilicoPrediction.transcript"
+    "description": "The transcript on which the prediction is made"
   },
   "A035": {
     "id": "A035",
@@ -496,10 +435,8 @@
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 4.0,
-    "description": "Person who created the example",
-    "fullyQualifiedName": "Example.author"
+    "description": "Person who created the example"
   },
   "A036": {
     "id": "A036",
@@ -511,10 +448,8 @@
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 5.0,
-    "description": "A freetext description of the example",
-    "fullyQualifiedName": "Example.description"
+    "description": "A freetext description of the example"
   },
   "A037": {
     "id": "A037",
@@ -526,10 +461,8 @@
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 6.0,
-    "description": "An image associated with the example",
-    "fullyQualifiedName": "Example.image"
+    "description": "An image associated with the example"
   },
   "A038": {
     "id": "A038",
@@ -542,10 +475,8 @@
     "iri-label": "is_about_allele",
     "cg-label": "canonicalAllele",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "The allele studied in the case-control experiment",
-    "fullyQualifiedName": "CaseControl.canonicalAllele"
+    "description": "The allele studied in the case-control experiment"
   },
   "A039": {
     "id": "A039",
@@ -557,10 +488,8 @@
     "iri-label": "is_about_condition",
     "cg-label": "condition",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "The condition studied in the case-control experiment",
-    "fullyQualifiedName": "CaseControl.condition"
+    "description": "The condition studied in the case-control experiment"
   },
   "A040": {
     "id": "A040",
@@ -572,10 +501,8 @@
     "iri-label": "odds ratio",
     "cg-label": "oddsRatio",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 5.0,
-    "description": "Ratio of the probability of having the condition given the allele to the probability of the condition without the allele.",
-    "fullyQualifiedName": "CaseControl.oddsRatio"
+    "description": "Ratio of the probability of having the condition given the allele to the probability of the condition without the allele."
   },
   "A041": {
     "id": "A041",
@@ -587,10 +514,8 @@
     "iri-label": "confidence score",
     "cg-label": "confidenceLevel",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 6.0,
-    "description": "Confidence level in percent",
-    "fullyQualifiedName": "CaseControl.confidenceLevel"
+    "description": "Confidence level in percent"
   },
   "A042": {
     "id": "A042",
@@ -602,10 +527,8 @@
     "iri-label": "case allele frequency statement",
     "cg-label": "caseGroupFrequency",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 3.0,
-    "description": "The group of individuals with the condition",
-    "fullyQualifiedName": "CaseControl.caseGroupFrequency"
+    "description": "The group of individuals with the condition"
   },
   "A043": {
     "id": "A043",
@@ -617,10 +540,8 @@
     "iri-label": "control allele frequency statement",
     "cg-label": "controlGroupFrequency",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 4.0,
-    "description": "The group of individuals without the condition",
-    "fullyQualifiedName": "CaseControl.controlGroupFrequency"
+    "description": "The group of individuals without the condition"
   },
   "A044": {
     "id": "A044",
@@ -632,10 +553,8 @@
     "iri-label": "total individual count",
     "cg-label": "individualCount",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 7.0,
-    "description": "Number of individuals sampled",
-    "fullyQualifiedName": "AlleleFrequency.individualCount"
+    "description": "Number of individuals sampled"
   },
   "A045": {
     "id": "A045",
@@ -647,10 +566,8 @@
     "iri-label": "homozygous individual count",
     "cg-label": "homozygousAlleleIndividualCount",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 8.0,
-    "description": "Number of individuals in the group that are homozygous for the allele",
-    "fullyQualifiedName": "AlleleFrequency.homozygousAlleleIndividualCount"
+    "description": "Number of individuals in the group that are homozygous for the allele"
   },
   "A046": {
     "id": "A046",
@@ -662,10 +579,8 @@
     "iri-label": "heterozygous individual count",
     "cg-label": "heterozygousAlleleIndividualCount",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 9.0,
-    "description": "Number of individuals in the group who are heterozygous for the allele.",
-    "fullyQualifiedName": "AlleleFrequency.heterozygousAlleleIndividualCount"
+    "description": "Number of individuals in the group who are heterozygous for the allele."
   },
   "A047": {
     "id": "A047",
@@ -679,10 +594,8 @@
     "valueSetId": "VS012",
     "@valueSetId": "SEPIO-CG:65112",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65112\", label: \"Population\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 2.0,
-    "description": "Ancestry of population or group over which the frequency was measured",
-    "fullyQualifiedName": "AlleleFrequency.population"
+    "description": "Ancestry of population or group over which the frequency was measured"
   },
   "A048": {
     "id": "A048",
@@ -694,10 +607,8 @@
     "iri-label": "lower confidence limit",
     "cg-label": "confidenceIntervalLower",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 7.0,
-    "description": "Lower bound of the confidence interval for the odds ratio",
-    "fullyQualifiedName": "CaseControl.confidenceIntervalLower"
+    "description": "Lower bound of the confidence interval for the odds ratio"
   },
   "A049": {
     "id": "A049",
@@ -709,10 +620,8 @@
     "iri-label": "upper confidence limit",
     "cg-label": "confidenceIntervalUpper",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 8.0,
-    "description": "Upper bound of the confidence interval for the odds ratio",
-    "fullyQualifiedName": "CaseControl.confidenceIntervalUpper"
+    "description": "Upper bound of the confidence interval for the odds ratio"
   },
   "A050": {
     "id": "A050",
@@ -724,10 +633,8 @@
     "iri-label": "allele negative condition positive individual count",
     "cg-label": "phenotypePositiveAlleleNegative",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 5.0,
-    "description": "Number of (non-proband) individuals with the condition and without the allele",
-    "fullyQualifiedName": "FamilySegregation.phenotypePositiveAlleleNegative"
+    "description": "Number of (non-proband) individuals with the condition and without the allele"
   },
   "A051": {
     "id": "A051",
@@ -739,10 +646,8 @@
     "iri-label": "hemizygous individual count",
     "cg-label": "hemizygousAlleleIndividualCount",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 10.0,
-    "description": "Number of individuals in the group that are hemizygous for the allele",
-    "fullyQualifiedName": "AlleleFrequency.hemizygousAlleleIndividualCount"
+    "description": "Number of individuals in the group that are hemizygous for the allele"
   },
   "A052": {
     "id": "A052",
@@ -757,10 +662,8 @@
     "valueSetId": "VS019",
     "@valueSetId": "SEPIO-CG:65119",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65119\", label: \"Reference Sequence\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 1.0,
-    "description": "Sequence on which the region is defined",
-    "fullyQualifiedName": "SequenceLocation.referenceSequence"
+    "description": "Sequence on which the region is defined"
   },
   "A053": {
     "id": "A053",
@@ -772,10 +675,8 @@
     "iri-label": "start_position",
     "cg-label": "start",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "Start of the region in 0-based coordinates",
-    "fullyQualifiedName": "SequenceLocation.start"
+    "description": "Start of the region in 0-based coordinates"
   },
   "A054": {
     "id": "A054",
@@ -787,10 +688,8 @@
     "iri-label": "end_position",
     "cg-label": "stop",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 3.0,
-    "description": "End of the region in 0-based coordinates",
-    "fullyQualifiedName": "SequenceLocation.stop"
+    "description": "End of the region in 0-based coordinates"
   },
   "A055": {
     "id": "A055",
@@ -802,10 +701,8 @@
     "iri-label": "has_evidence_line",
     "cg-label": "evidenceLine",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 91.0,
-    "description": "supporting evidence",
-    "fullyQualifiedName": "Statement.evidenceLine"
+    "description": "supporting evidence"
   },
   "A057": {
     "id": "A057",
@@ -820,10 +717,8 @@
     "valueSetId": "VS004",
     "@valueSetId": "SEPIO-CG:65104",
     "restrictByValueSet": "Yes",
-    "valueSetName": "@id : \"SEPIO-CG:65104\", label: \"Region Annotation\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 2.0,
-    "description": "Annotation about the type or importance of a region",
-    "fullyQualifiedName": "RegionType.annotation"
+    "description": "Annotation about the type or importance of a region"
   },
   "A058": {
     "id": "A058",
@@ -835,10 +730,8 @@
     "iri-label": "is_about_allele",
     "cg-label": "allele",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "Alleles that are being explicited assessed as either included or excluded from the region.",
-    "fullyQualifiedName": "RegionAlleles.allele"
+    "description": "Alleles that are being explicited assessed as either included or excluded from the region."
   },
   "A059": {
     "id": "A059",
@@ -852,10 +745,8 @@
     "valueSetId": "VS029",
     "@valueSetId": "SEPIO-CG:65129",
     "restrictByValueSet": "Yes",
-    "valueSetName": "@id : \"SEPIO-CG:65129\", label: \"Region Alleles Outcome\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
-    "description": "Assessed outcome of specified alleles as either included or excluded.",
-    "fullyQualifiedName": "RegionAlleles.outcome"
+    "description": "Assessed outcome of specified alleles as either included or excluded."
   },
   "A060": {
     "id": "A060",
@@ -867,10 +758,8 @@
     "iri-label": "allele frequency",
     "cg-label": "alleleFrequency",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 4.0,
-    "description": "Frequency of the named allele in the population",
-    "fullyQualifiedName": "AlleleFrequency.alleleFrequency"
+    "description": "Frequency of the named allele in the population"
   },
   "A062": {
     "id": "A062",
@@ -882,10 +771,8 @@
     "iri-label": "median sequencing coverage",
     "cg-label": "medianCoverage",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 11.0,
-    "description": "Median coverage at the allele site in the data set",
-    "fullyQualifiedName": "AlleleFrequency.medianCoverage"
+    "description": "Median coverage at the allele site in the data set"
   },
   "A063": {
     "id": "A063",
@@ -898,10 +785,8 @@
     "iri-label": "is_about_region",
     "cg-label": "region",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "The region whose type is being defined",
-    "fullyQualifiedName": "RegionType.region"
+    "description": "The region whose type is being defined"
   },
   "A065": {
     "id": "A065",
@@ -914,10 +799,8 @@
     "iri-label": "is_about_individual",
     "cg-label": "individual",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "Person whose alleles the data represents",
-    "fullyQualifiedName": "IndividualGenotype.individual"
+    "description": "Person whose alleles the data represents"
   },
   "A066": {
     "id": "A066",
@@ -930,10 +813,8 @@
     "iri-label": "is_about_genotype?",
     "cg-label": "genotype",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "Genotype the individual has",
-    "fullyQualifiedName": "IndividualGenotype.genotype"
+    "description": "Genotype the individual has"
   },
   "A067": {
     "id": "A067",
@@ -941,10 +822,12 @@
     "name": "allele",
     "dataType": "CanonicalAllele",
     "cardinality": "1..*",
+    "iri": "",
+    "iri-label": "is_about_secondary_allele?",
+    "cg-label": "secondaryAllele",
     "@valueSetId": "",
     "precedence": 1.0,
-    "description": "Individual Alleles that constitute the haplotype",
-    "fullyQualifiedName": "Haplotype.allele"
+    "description": "Individual Alleles that constitute the haplotype"
   },
   "A068": {
     "id": "A068",
@@ -952,10 +835,12 @@
     "name": "haplotype",
     "dataType": "Haplotype",
     "cardinality": "1..*",
+    "iri": "???",
+    "iri-label": "asserted_conclusion",
+    "cg-label": "primaryZygosity",
     "@valueSetId": "",
     "precedence": 1.0,
-    "description": "Individual Haplotypes that constitute the Genotype",
-    "fullyQualifiedName": "Genotype.haplotype"
+    "description": "Individual Haplotypes that constitute the Genotype"
   },
   "A069": {
     "id": "A069",
@@ -963,9 +848,11 @@
     "name": "zygosity",
     "dataType": "AllelicState",
     "cardinality": "0..1",
+    "iri": "???",
+    "iri-label": "asserted_outcome\n(secondary_zygosity_outcome?)",
+    "cg-label": "secondaryZygosity",
     "@valueSetId": "",
-    "precedence": 2.0,
-    "fullyQualifiedName": "Genotype.zygosity"
+    "precedence": 2.0
   },
   "A071": {
     "id": "A071",
@@ -978,10 +865,8 @@
     "iri-label": "is_about_region",
     "cg-label": "region",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "Region within which alleles are being measured",
-    "fullyQualifiedName": "RegionAlleles.region"
+    "description": "Region within which alleles are being measured"
   },
   "A072": {
     "id": "A072",
@@ -993,10 +878,8 @@
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "A freeform text (preferred) representation used by the authoring system to identify a concept.",
-    "fullyQualifiedName": "DomainEntity.label"
+    "description": "A freeform text (preferred) representation used by the authoring system to identify a concept."
   },
   "A073": {
     "id": "A073",
@@ -1009,10 +892,8 @@
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "An optional label defined by the user. Used for custom entities or to clarify the preferred user label on existing entities with non-preferred labels.",
-    "fullyQualifiedName": "DomainEntity.userLabel"
+    "description": "An optional label defined by the user. Used for custom entities or to clarify the preferred user label on existing entities with non-preferred labels."
   },
   "A074": {
     "id": "A074",
@@ -1027,10 +908,8 @@
     "valueSetId": "VS021",
     "@valueSetId": "SEPIO-CG:65121",
     "restrictByValueSet": "Yes",
-    "valueSetName": "@id : \"SEPIO-CG:65121\", label: \"Allele Inheritance\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
-    "description": "Source of an allele in an individual",
-    "fullyQualifiedName": "IndividualAlleleInheritance.alleleInheritance"
+    "description": "Source of an allele in an individual"
   },
   "A075": {
     "id": "A075",
@@ -1042,9 +921,7 @@
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
-    "description": "A freetext description of the entity",
-    "fullyQualifiedName": "DomainEntity.description"
+    "description": "A freetext description of the entity"
   },
   "A076": {
     "id": "A076",
@@ -1057,10 +934,8 @@
     "iri-label": "is_about_region",
     "cg-label": "region",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "Sequence on which the region is defined",
-    "fullyQualifiedName": "BenignMissenseVariationRate.region"
+    "description": "Sequence on which the region is defined"
   },
   "A077": {
     "id": "A077",
@@ -1072,10 +947,8 @@
     "iri-label": "is_about_allele",
     "cg-label": "contextualAllele",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "The allele that is being described",
-    "fullyQualifiedName": "NullAllele.contextualAllele"
+    "description": "The allele that is being described"
   },
   "A078": {
     "id": "A078",
@@ -1089,10 +962,8 @@
     "valueSetId": "VS028",
     "@valueSetId": "SEPIO-CG:65128",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65128\", label: \"Null Allele Outcome\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 2.0,
-    "description": "The null mutation classification from sequence ontology.",
-    "fullyQualifiedName": "NullAllele.annotation"
+    "description": "The null mutation classification from sequence ontology."
   },
   "A079": {
     "id": "A079",
@@ -1104,10 +975,8 @@
     "iri-label": "inconsistent segregation count",
     "cg-label": "inconsistentSegregationCount",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 13.0,
-    "description": "The number of segregations inconsistent with allele pathogenicity",
-    "fullyQualifiedName": "FamilySegregation.inconsistentSegregationCount"
+    "description": "The number of segregations inconsistent with allele pathogenicity"
   },
   "A080": {
     "id": "A080",
@@ -1122,10 +991,8 @@
     "valueSetId": "VS013",
     "@valueSetId": "SEPIO-CG:65113",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65113\", label: \"Benign Missense Variation Rate Outcome\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 2.0,
-    "description": "The rate at which Benign missense variants occur within the region",
-    "fullyQualifiedName": "BenignMissenseVariationRate.value"
+    "description": "The rate at which Benign missense variants occur within the region"
   },
   "A081": {
     "id": "A081",
@@ -1137,10 +1004,8 @@
     "iri-label": "is_about_condition",
     "cg-label": "condition",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "Condition being tested for cosegregation",
-    "fullyQualifiedName": "FamilySegregation.condition"
+    "description": "Condition being tested for cosegregation"
   },
   "A082": {
     "id": "A082",
@@ -1153,10 +1018,8 @@
     "iri-label": "is_about_allele",
     "cg-label": "canonicalAllele",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "Allele being tested for cosegregation",
-    "fullyQualifiedName": "FamilySegregation.canonicalAllele"
+    "description": "Allele being tested for cosegregation"
   },
   "A083": {
     "id": "A083",
@@ -1168,10 +1031,8 @@
     "iri-label": "is_about_family",
     "cg-label": "family",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 3.0,
-    "description": "Family in which segregation is being tested",
-    "fullyQualifiedName": "FamilySegregation.family"
+    "description": "Family in which segregation is being tested"
   },
   "A084": {
     "id": "A084",
@@ -1183,10 +1044,8 @@
     "iri-label": "allele positive condition positive individual count",
     "cg-label": "phenotypePositiveAllelePositive",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 4.0,
-    "description": "Number of (non-proband) individuals with both the condition and the allele",
-    "fullyQualifiedName": "FamilySegregation.phenotypePositiveAllelePositive"
+    "description": "Number of (non-proband) individuals with both the condition and the allele"
   },
   "A085": {
     "id": "A085",
@@ -1198,10 +1057,8 @@
     "iri-label": "allele positive condition negative individual count",
     "cg-label": "phenotypeNegativeAllelePositive",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 6.0,
-    "description": "Number of (non-proband) individuals without the condition and with the allele",
-    "fullyQualifiedName": "FamilySegregation.phenotypeNegativeAllelePositive"
+    "description": "Number of (non-proband) individuals without the condition and with the allele"
   },
   "A086": {
     "id": "A086",
@@ -1214,10 +1071,8 @@
     "iri-label": "is_about_allele",
     "cg-label": "canonicalAllele",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "Allele being tested for cosegregation",
-    "fullyQualifiedName": "AggregateSegregation.canonicalAllele"
+    "description": "Allele being tested for cosegregation"
   },
   "A087": {
     "id": "A087",
@@ -1229,10 +1084,8 @@
     "iri-label": "is_about_condition",
     "cg-label": "condition",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "Condition being tested for cosegregation",
-    "fullyQualifiedName": "AggregateSegregation.condition"
+    "description": "Condition being tested for cosegregation"
   },
   "A088": {
     "id": "A088",
@@ -1244,10 +1097,8 @@
     "iri-label": "total segregation count",
     "cg-label": "totalNumberOfSegregations",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 3.0,
-    "description": "Total number of segregations across families",
-    "fullyQualifiedName": "AggregateSegregation.totalNumberOfSegregations"
+    "description": "Total number of segregations across families"
   },
   "A089": {
     "id": "A089",
@@ -1259,10 +1110,8 @@
     "iri-label": "family segregation data",
     "cg-label": "familySegregation",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 4.0,
-    "description": "List of FamilySegregrationData that have been aggregated",
-    "fullyQualifiedName": "AggregateSegregation.familySegregation"
+    "description": "List of FamilySegregrationData that have been aggregated"
   },
   "A090": {
     "id": "A090",
@@ -1274,10 +1123,8 @@
     "iri-label": "pedigree column names",
     "cg-label": "columns",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 9.0,
-    "description": "Column names for the pedigree data element",
-    "fullyQualifiedName": "FamilySegregation.columns"
+    "description": "Column names for the pedigree data element"
   },
   "A091": {
     "id": "A091",
@@ -1289,10 +1136,8 @@
     "iri-label": "pedigree_affected_values_map",
     "cg-label": "affectedValues",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 11.0,
-    "description": "Map describing how affected status is represented in the pedigree",
-    "fullyQualifiedName": "FamilySegregation.affectedValues"
+    "description": "Map describing how affected status is represented in the pedigree"
   },
   "A092": {
     "id": "A092",
@@ -1304,10 +1149,8 @@
     "iri-label": "pedigree genotype values map",
     "cg-label": "genotypeValues",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 10.0,
-    "description": "Map describing how genotypes are represented in the pedigree",
-    "fullyQualifiedName": "FamilySegregation.genotypeValues"
+    "description": "Map describing how genotypes are represented in the pedigree"
   },
   "A093": {
     "id": "A093",
@@ -1319,10 +1162,8 @@
     "iri-label": "pedigree data",
     "cg-label": "pedigree",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 8.0,
-    "description": "Detailed information about the family structure, affected status, and genotypes in pedigree/linkage format.",
-    "fullyQualifiedName": "FamilySegregation.pedigree"
+    "description": "Detailed information about the family structure, affected status, and genotypes in pedigree/linkage format."
   },
   "A094": {
     "id": "A094",
@@ -1335,10 +1176,8 @@
     "iri-label": "is_about_gene",
     "cg-label": "gene",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "Gene that contains the missense variants",
-    "fullyQualifiedName": "BenignMissenseVariationRate.gene"
+    "description": "Gene that contains the missense variants"
   },
   "A095": {
     "id": "A095",
@@ -1350,10 +1189,8 @@
     "iri-label": "assertion_confidence_score",
     "cg-label": "prediction",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 4.0,
-    "description": "The quantitative score ascribed by an InSilico predictor",
-    "fullyQualifiedName": "InSilicoPredictionScore.prediction"
+    "description": "The quantitative score ascribed by an InSilico predictor"
   },
   "A096": {
     "id": "A096",
@@ -1366,10 +1203,8 @@
     "iri-label": "is_about_allele",
     "cg-label": "canonicalAllele",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "The contextual allele on which the prediction is made",
-    "fullyQualifiedName": "InSilicoPrediction.canonicalAllele"
+    "description": "The contextual allele on which the prediction is made"
   },
   "A097": {
     "id": "A097",
@@ -1383,10 +1218,8 @@
     "valueSetId": "VS009",
     "@valueSetId": "SEPIO-CG:65109",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65109\", label: \"Prediction\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
-    "description": "The type of prediction being made",
-    "fullyQualifiedName": "InSilicoPrediction.predictionType"
+    "description": "The type of prediction being made"
   },
   "A098": {
     "id": "A098",
@@ -1398,10 +1231,8 @@
     "iri-label": "asserted_by",
     "cg-label": "algorithm",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 6.0,
-    "description": "The computational tool or algorithm that makes the prediction",
-    "fullyQualifiedName": "InSilicoPrediction.algorithm"
+    "description": "The computational tool or algorithm that makes the prediction"
   },
   "A099": {
     "id": "A099",
@@ -1413,10 +1244,8 @@
     "iri-label": "asserted_conclusion",
     "cg-label": "prediction",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 5.0,
-    "description": "The value of the prediction",
-    "fullyQualifiedName": "InSilicoPrediction.prediction"
+    "description": "The value of the prediction"
   },
   "A100": {
     "id": "A100",
@@ -1428,10 +1257,8 @@
     "iri-label": "is_about_condition",
     "cg-label": "condition",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "The condition for which the eitiology is defined",
-    "fullyQualifiedName": "LocusHeterogeneity.condition"
+    "description": "The condition for which the eitiology is defined"
   },
   "A101": {
     "id": "A101",
@@ -1443,10 +1270,8 @@
     "iri-label": "is_about_gene",
     "cg-label": "gene",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "Gene that causes the condition",
-    "fullyQualifiedName": "LocusHeterogeneity.gene"
+    "description": "Gene that causes the condition"
   },
   "A102": {
     "id": "A102",
@@ -1460,10 +1285,8 @@
     "valueSetId": "VS023",
     "@valueSetId": "SEPIO-CG:65123",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65123\", label: \"Locus Specificity\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
-    "description": "Specificity of the Gene for the Condition",
-    "fullyQualifiedName": "LocusHeterogeneity.specificity"
+    "description": "Specificity of the Gene for the Condition"
   },
   "A103": {
     "id": "A103",
@@ -1475,10 +1298,8 @@
     "iri-label": "is_about_condition",
     "cg-label": "condition",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "Condition for which the prevelance is described",
-    "fullyQualifiedName": "ConditionPrevelance.condition"
+    "description": "Condition for which the prevelance is described"
   },
   "A104": {
     "id": "A104",
@@ -1490,10 +1311,8 @@
     "iri-label": "condition prevalance lower bound",
     "cg-label": "minimum",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 3.0,
-    "description": "Minimum bound on the condition's prevelance",
-    "fullyQualifiedName": "ConditionPrevelance.minimum"
+    "description": "Minimum bound on the condition's prevelance"
   },
   "A105": {
     "id": "A105",
@@ -1505,10 +1324,8 @@
     "iri-label": "condition prevalance upper bound",
     "cg-label": "maximum",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 4.0,
-    "description": "Maximum bound on the condition's prevelance",
-    "fullyQualifiedName": "ConditionPrevelance.maximum"
+    "description": "Maximum bound on the condition's prevelance"
   },
   "A106": {
     "id": "A106",
@@ -1522,10 +1339,8 @@
     "valueSetId": "VS012",
     "@valueSetId": "SEPIO-CG:65112",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65112\", label: \"Population\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 2.0,
-    "description": "Population over which the prevelance is defined",
-    "fullyQualifiedName": "ConditionPrevelance.population"
+    "description": "Population over which the prevelance is defined"
   },
   "A107": {
     "id": "A107",
@@ -1537,10 +1352,8 @@
     "iri-label": "is_about_condition",
     "cg-label": "condition",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "Condition for which the penetrance is described",
-    "fullyQualifiedName": "ConditionPenetrance.condition"
+    "description": "Condition for which the penetrance is described"
   },
   "A108": {
     "id": "A108",
@@ -1554,10 +1367,8 @@
     "valueSetId": "VS014",
     "@valueSetId": "SEPIO-CG:65114",
     "restrictByValueSet": "Yes",
-    "valueSetName": "@id : \"SEPIO-CG:65114\", label: \"Penetrance\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 2.0,
-    "description": "Qualitative penetrance value",
-    "fullyQualifiedName": "ConditionPenetrance.penetrance"
+    "description": "Qualitative penetrance value"
   },
   "A109": {
     "id": "A109",
@@ -1569,10 +1380,8 @@
     "iri-label": "condition prevalance",
     "cg-label": "prevelance",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 5.0,
-    "description": "Prevelance of the condition in the population",
-    "fullyQualifiedName": "ConditionPrevelance.prevelance"
+    "description": "Prevelance of the condition in the population"
   },
   "A110": {
     "id": "A110",
@@ -1586,10 +1395,8 @@
     "valueSetId": "VS027",
     "@valueSetId": "SEPIO-CG:65127",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65127\", label: \"Inconsistent Segregation Observed\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 12.0,
-    "description": "Whether phenotype positive/allele negative or phenotype negative/allele positive individuals are in the family",
-    "fullyQualifiedName": "FamilySegregation.inconsistentSegregationsObserved"
+    "description": "Whether phenotype positive/allele negative or phenotype negative/allele positive individuals are in the family"
   },
   "A111": {
     "id": "A111",
@@ -1602,10 +1409,8 @@
     "iri-label": "is_about_allele",
     "cg-label": "allele",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "The allele for which conservation values are given",
-    "fullyQualifiedName": "AlleleConservation.allele"
+    "description": "The allele for which conservation values are given"
   },
   "A112": {
     "id": "A112",
@@ -1618,8 +1423,7 @@
     "cg-label": "conservationType",
     "@valueSetId": "",
     "precedence": 2.0,
-    "description": "The conservation classification from sequence ontology.",
-    "fullyQualifiedName": "AlleleConservation.conservationType"
+    "description": "The conservation classification from sequence ontology."
   },
   "A113": {
     "id": "A113",
@@ -1631,10 +1435,8 @@
     "iri-label": "asserted_by",
     "cg-label": "algorithm",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 3.0,
-    "description": "Method or program used to calculate conservation",
-    "fullyQualifiedName": "AlleleConservation.algorithm"
+    "description": "Method or program used to calculate conservation"
   },
   "A114": {
     "id": "A114",
@@ -1646,10 +1448,8 @@
     "iri-label": "assertion_confidence_score",
     "cg-label": "score",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 4.0,
-    "description": "Numerical score for the conservation of the allele",
-    "fullyQualifiedName": "AlleleConservationScore.score"
+    "description": "Numerical score for the conservation of the allele"
   },
   "A115": {
     "id": "A115",
@@ -1664,10 +1464,8 @@
     "valueSetId": "VS031",
     "@valueSetId": "SEPIO-CG:65131",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65131\", label: \"Criterion\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 1.0,
-    "description": "The rule describing how the data is being used",
-    "fullyQualifiedName": "CriterionAssessment.criterion"
+    "description": "The rule describing how the data is being used"
   },
   "A116": {
     "id": "A116",
@@ -1682,10 +1480,8 @@
     "valueSetId": "VS010",
     "@valueSetId": "SEPIO-CG:65110",
     "restrictByValueSet": "Yes",
-    "valueSetName": "@id : \"SEPIO-CG:65110\", label: \"Criterion Evaluation\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 4.0,
-    "description": "Result of assessing the data and criterion",
-    "fullyQualifiedName": "CriterionAssessment.outcome"
+    "description": "Result of assessing the data and criterion"
   },
   "A117": {
     "id": "A117",
@@ -1697,10 +1493,8 @@
     "iri-label": "is_about_allele",
     "cg-label": "variant",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "Variant about which the assemssment is made",
-    "fullyQualifiedName": "CriterionAssessment.variant"
+    "description": "Variant about which the assemssment is made"
   },
   "A118": {
     "id": "A118",
@@ -1712,10 +1506,8 @@
     "iri-label": "is_about_condition",
     "cg-label": "condition",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 3.0,
-    "description": "Condition for which the assessment is made",
-    "fullyQualifiedName": "CriterionAssessment.condition"
+    "description": "Condition for which the assessment is made"
   },
   "A119": {
     "id": "A119",
@@ -1727,10 +1519,8 @@
     "iri-label": "qualified_contribution",
     "cg-label": "contribution",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 93.0,
-    "description": "The contributions (agent, time and role) made to this entity",
-    "fullyQualifiedName": "Statement.contribution"
+    "description": "The contributions (agent, time and role) made to this entity"
   },
   "A120": {
     "id": "A120",
@@ -1742,10 +1532,8 @@
     "iri-label": "description",
     "cg-label": "description",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 92.0,
-    "description": "A human-readable description of the entity",
-    "fullyQualifiedName": "Statement.description"
+    "description": "A human-readable description of the entity"
   },
   "A121": {
     "id": "A121",
@@ -1758,10 +1546,8 @@
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 5.0,
-    "description": "An individual entry in a ValueSet",
-    "fullyQualifiedName": "ValueSet.concept"
+    "description": "An individual entry in a ValueSet"
   },
   "A122": {
     "id": "A122",
@@ -1773,10 +1559,8 @@
     "iri-label": "is_about_allele",
     "cg-label": "variant",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "The variant whose pathogenicity is being described",
-    "fullyQualifiedName": "VariantInterpretation.variant"
+    "description": "The variant whose pathogenicity is being described"
   },
   "A123": {
     "id": "A123",
@@ -1788,10 +1572,8 @@
     "iri-label": "is_about_condition",
     "cg-label": "condition",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "The condition for which the variant's pathogenicity is described",
-    "fullyQualifiedName": "VariantInterpretation.condition"
+    "description": "The condition for which the variant's pathogenicity is described"
   },
   "A124": {
     "id": "A124",
@@ -1806,10 +1588,8 @@
     "valueSetId": "VS003",
     "@valueSetId": "SEPIO-CG:65103",
     "restrictByValueSet": "Yes",
-    "valueSetName": "@id : \"SEPIO-CG:65103\", label: \"Clinical Signficance\", conceptListExtensibility: \"VSCLExtnsID374\"",
     "precedence": 3.0,
-    "description": "The coded pathogenicity of the variant for the condition",
-    "fullyQualifiedName": "VariantInterpretation.outcome"
+    "description": "The coded pathogenicity of the variant for the condition"
   },
   "A125": {
     "id": "A125",
@@ -1824,10 +1604,8 @@
     "valueSetId": "VS032",
     "@valueSetId": "SEPIO-CG:65132",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65132\", label: \"Assertion Method\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 4.0,
-    "description": "The  framework that formally defines the methodology used in creating this interpretation.",
-    "fullyQualifiedName": "VariantInterpretation.assertionMethod"
+    "description": "The  framework that formally defines the methodology used in creating this interpretation."
   },
   "A126": {
     "id": "A126",
@@ -1839,10 +1617,8 @@
     "iri-label": "allele negative condition negative individual count",
     "cg-label": "phenotypeNegativeAlleleNegative",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 7.0,
-    "description": "The number of non-proband family members that have neither the allele nor the phenotype",
-    "fullyQualifiedName": "FamilySegregation.phenotypeNegativeAlleleNegative"
+    "description": "The number of non-proband family members that have neither the allele nor the phenotype"
   },
   "A127": {
     "id": "A127",
@@ -1855,10 +1631,8 @@
     "iri-label": "source",
     "cg-label": "source",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 94.0,
-    "description": "A string indicating the source of a Statement",
-    "fullyQualifiedName": "Statement.source"
+    "description": "A string indicating the source of a Statement"
   },
   "A130": {
     "id": "A130",
@@ -1866,14 +1640,12 @@
     "name": "label",
     "dataType": "string",
     "cardinality": "1..1",
-    "iri": "RDFS:label",
+    "iri": "",
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "User-created free text label for a concept",
-    "fullyQualifiedName": "UserLabel.label"
+    "description": "User-created free text label for a concept"
   },
   "A131": {
     "id": "A131",
@@ -1881,14 +1653,12 @@
     "name": "contribution",
     "dataType": "Contribution",
     "cardinality": "0..*",
-    "iri": "SEPIO:0000159",
+    "iri": "",
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 4.0,
-    "description": "Provenance of the label, describing who created the label and when it was created",
-    "fullyQualifiedName": "UserLabel.contribution"
+    "description": "Provenance of the label, describing who created the label and when it was created"
   },
   "A132": {
     "id": "A132",
@@ -1896,14 +1666,12 @@
     "name": "label",
     "dataType": "string",
     "cardinality": "0..1",
-    "iri": "RDFS:label",
+    "iri": "",
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "Freetext name of a ValueSet",
-    "fullyQualifiedName": "ValueSet.label"
+    "description": "Freetext name of a ValueSet"
   },
   "A133": {
     "id": "A133",
@@ -1911,14 +1679,12 @@
     "name": "description",
     "dataType": "string",
     "cardinality": "0..1",
-    "iri": "DC:description",
+    "iri": "",
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "Freetext description of a ValueSet",
-    "fullyQualifiedName": "ValueSet.description"
+    "description": "Freetext description of a ValueSet"
   },
   "A134": {
     "id": "A134",
@@ -1926,14 +1692,12 @@
     "name": "description",
     "dataType": "string",
     "cardinality": "0..1",
-    "iri": "DC:description",
+    "iri": "",
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "User-created free text description of a concept",
-    "fullyQualifiedName": "UserLabel.description"
+    "description": "User-created free text description of a concept"
   },
   "A135": {
     "id": "A135",
@@ -1945,9 +1709,7 @@
     "iri-label": "preferred_contextual_allele",
     "cg-label": "preferredCtxAllele",
     "@valueSetId": "",
-    "valueSetName": "",
-    "precedence": 1.0,
-    "fullyQualifiedName": "CanonicalAllele.preferredCtxAllele"
+    "precedence": 1.0
   },
   "A136": {
     "id": "A136",
@@ -1955,12 +1717,13 @@
     "name": "conceptListExtensibility",
     "dataType": "ValueSetConceptListExtensibility",
     "cardinality": "1..1",
+    "iri": "DC:identifier",
+    "iri-label": "identifier",
+    "cg-label": "identifier",
     "valueSetId": "VS001",
     "@valueSetId": "SEPIO-CG:65101",
-    "valueSetName": "@id : \"SEPIO-CG:65101\", label: \"Value Set Concept List Exstensibility\", conceptListExtensibility: \"VSCLExtnsID374\"",
     "precedence": 3.0,
-    "description": "The type of valueset is either extendsible or fixed, which determines whether or not the list of concepts defined for the value set can be extended or not when bound to specific attributes.",
-    "fullyQualifiedName": "ValueSet.conceptListExtensibility"
+    "description": "The type of valueset is either extendsible or fixed, which determines whether or not the list of concepts defined for the value set can be extended or not when bound to specific attributes."
   },
   "A137": {
     "id": "A137",
@@ -1972,9 +1735,7 @@
     "iri-label": "related canonical  allele",
     "cg-label": "relatedCanonicalAllele",
     "@valueSetId": "",
-    "valueSetName": "",
-    "precedence": 1.0,
-    "fullyQualifiedName": "ContextualAllele.relatedCanonicalAllele"
+    "precedence": 1.0
   },
   "A138": {
     "id": "A138",
@@ -1986,9 +1747,7 @@
     "iri-label": "label",
     "cg-label": "alleleName",
     "@valueSetId": "",
-    "valueSetName": "",
-    "precedence": 2.0,
-    "fullyQualifiedName": "ContextualAllele.alleleName"
+    "precedence": 2.0
   },
   "A139": {
     "id": "A139",
@@ -2000,9 +1759,7 @@
     "iri-label": "alternative term",
     "cg-label": "legacyNames",
     "@valueSetId": "",
-    "valueSetName": "",
-    "precedence": 3.0,
-    "fullyQualifiedName": "ContextualAllele.legacyNames"
+    "precedence": 3.0
   },
   "A140": {
     "id": "A140",
@@ -2016,10 +1773,8 @@
     "valueSetId": "VS030",
     "@valueSetId": "SEPIO-CG:65130",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65130\", label: \"Gene\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 1.0,
-    "description": "Symbol for a gene provided by a naming system",
-    "fullyQualifiedName": "Gene.geneSymbol"
+    "description": "Symbol for a gene provided by a naming system"
   },
   "A141": {
     "id": "A141",
@@ -2033,10 +1788,8 @@
     "valueSetId": "VS018",
     "@valueSetId": "SEPIO-CG:65118",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65118\", label: \"Phenotype\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
-    "description": "Phenotypes used to define a particular GeneticCondition",
-    "fullyQualifiedName": "GeneticCondition.phenotype"
+    "description": "Phenotypes used to define a particular GeneticCondition"
   },
   "A142": {
     "id": "A142",
@@ -2051,10 +1804,8 @@
     "valueSetId": "VS007",
     "@valueSetId": "SEPIO-CG:65107",
     "restrictByValueSet": "Yes",
-    "valueSetName": "@id : \"SEPIO-CG:65107\", label: \"Mode of Inheritance\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 4.0,
-    "description": "The manner in which a genetic condition is inherited",
-    "fullyQualifiedName": "GeneticCondition.modeOfInheritance"
+    "description": "The manner in which a genetic condition is inherited"
   },
   "A143": {
     "id": "A143",
@@ -2066,10 +1817,8 @@
     "iri-label": "has participant",
     "cg-label": "gene",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 5.0,
-    "description": "The gene used to define a particular GeneticCondition",
-    "fullyQualifiedName": "GeneticCondition.gene"
+    "description": "The gene used to define a particular GeneticCondition"
   },
   "A144": {
     "id": "A144",
@@ -2081,10 +1830,8 @@
     "iri-label": "",
     "cg-label": "accession",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "Identifier ascribed to a reference sequence by a naming system, which can be used to retrieve the sequence",
-    "fullyQualifiedName": "ReferenceSequence.accession"
+    "description": "Identifier ascribed to a reference sequence by a naming system, which can be used to retrieve the sequence"
   },
   "A145": {
     "id": "A145",
@@ -2092,10 +1839,11 @@
     "name": "sourceIdentifierSystems",
     "dataType": "IdentifierSystem",
     "cardinality": "1..*",
+    "iri": "DC:description",
+    "iri-label": "description",
+    "cg-label": "description",
     "@valueSetId": "",
-    "valueSetName": "",
-    "precedence": 4.0,
-    "fullyQualifiedName": "ValueSet.sourceIdentifierSystems"
+    "precedence": 4.0
   },
   "A146": {
     "id": "A146",
@@ -2103,10 +1851,11 @@
     "name": "label",
     "dataType": "string",
     "cardinality": "0..1",
+    "iri": "RDFS:label",
+    "iri-label": "label",
+    "cg-label": "label",
     "@valueSetId": "",
-    "valueSetName": "",
-    "precedence": 1.0,
-    "fullyQualifiedName": "IdentifierSystem.label"
+    "precedence": 1.0
   },
   "A147": {
     "id": "A147",
@@ -2114,10 +1863,11 @@
     "name": "description",
     "dataType": "string",
     "cardinality": "0..1",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
-    "precedence": 2.0,
-    "fullyQualifiedName": "IdentifierSystem.description"
+    "precedence": 2.0
   },
   "A148": {
     "id": "A148",
@@ -2129,10 +1879,8 @@
     "iri-label": "description",
     "cg-label": "description",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "Description of the agent",
-    "fullyQualifiedName": "Agent.description"
+    "description": "Description of the agent"
   },
   "A149": {
     "id": "A149",
@@ -2144,10 +1892,8 @@
     "iri-label": "label",
     "cg-label": "label",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "Name of the agent",
-    "fullyQualifiedName": "Agent.label"
+    "description": "Name of the agent"
   },
   "A150": {
     "id": "A150",
@@ -2155,11 +1901,12 @@
     "name": "comments",
     "dataType": "string",
     "cardinality": "0..1",
+    "iri": "DC:description",
+    "iri-label": "description",
+    "cg-label": "description",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 5.0,
-    "description": "Description of the need for this label and its use",
-    "fullyQualifiedName": "UserLabel.comments"
+    "description": "Description of the need for this label and its use"
   },
   "A151": {
     "id": "A151",
@@ -2167,24 +1914,23 @@
     "name": "oid",
     "dataType": "string",
     "cardinality": "0..1",
+    "iri": "RDFS:label",
+    "iri-label": "label",
+    "cg-label": "label",
     "@valueSetId": "",
-    "valueSetName": "",
-    "precedence": 3.0,
-    "fullyQualifiedName": "IdentifierSystem.oid"
+    "precedence": 3.0
   },
   "A152": {
     "id": "A152",
     "entityId": "E41",
-    "name": "uri",
+    "name": "iri",
     "dataType": "string",
     "cardinality": "1..1",
     "iri": "",
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
-    "precedence": 4.0,
-    "fullyQualifiedName": "IdentifierSystem.uri"
+    "precedence": 4.0
   },
   "A153": {
     "id": "A153",
@@ -2198,9 +1944,7 @@
     "valueSetId": "VS016",
     "@valueSetId": "SEPIO-CG:65116",
     "restrictByValueSet": "Yes",
-    "valueSetName": "@id : \"SEPIO-CG:65116\", label: \"Evidence Line Strength\", conceptListExtensibility: \"VSCLExtnsID374\"",
-    "precedence": 3.0,
-    "fullyQualifiedName": "Criterion.defaultStrength"
+    "precedence": 3.0
   },
   "A154": {
     "id": "A154",
@@ -2212,9 +1956,7 @@
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
-    "precedence": 5.0,
-    "fullyQualifiedName": "IdentifierSystem.prefix"
+    "precedence": 5.0
   },
   "A155": {
     "id": "A155",
@@ -2222,9 +1964,11 @@
     "name": "conceptType",
     "dataType": "string",
     "cardinality": "1..1",
+    "iri": "DC:description",
+    "iri-label": "description",
+    "cg-label": "description",
     "@valueSetId": "",
-    "precedence": 6.0,
-    "fullyQualifiedName": "ValueSet.conceptType"
+    "precedence": 6.0
   },
   "A156": {
     "id": "A156",
@@ -2236,10 +1980,8 @@
     "iri-label": "has_url",
     "cg-label": "url",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "Location of a document that contains a description of this AssertionMethod",
-    "fullyQualifiedName": "AssertionMethod.url"
+    "description": "Location of a document that contains a description of this AssertionMethod"
   },
   "A157": {
     "id": "A157",
@@ -2251,10 +1993,8 @@
     "iri-label": "label",
     "cg-label": "name",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "Name of the GeneticCondition",
-    "fullyQualifiedName": "GeneticCondition.name"
+    "description": "Name of the GeneticCondition"
   },
   "A158": {
     "id": "A158",
@@ -2268,10 +2008,8 @@
     "valueSetId": "VS017",
     "@valueSetId": "SEPIO-CG:65117",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65117\", label: \"Disease\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 2.0,
-    "description": "The diseases that define the Genetic Condition",
-    "fullyQualifiedName": "GeneticCondition.disease"
+    "description": "The diseases that define the Genetic Condition"
   },
   " ": {
     "id": " ",
@@ -2283,7 +2021,6 @@
     "iri-label": "",
     "cg-label": "",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": " "
   },
   "A160": {
@@ -2298,10 +2035,8 @@
     "valueSetId": "VS007",
     "@valueSetId": "SEPIO-CG:65107",
     "restrictByValueSet": "Yes",
-    "valueSetName": "@id : \"SEPIO-CG:65107\", label: \"Mode of Inheritance\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 5.0,
-    "description": "Mode Of Inheritance used in evaluation of segregation",
-    "fullyQualifiedName": "AggregateSegregation.modeOfInheritance"
+    "description": "Mode Of Inheritance used in evaluation of segregation"
   },
   "A161": {
     "id": "A161",
@@ -2313,10 +2048,8 @@
     "iri-label": "allele positive condition positive individual count",
     "cg-label": "totalOfAllelePosConditionPosIndividuals",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 6.0,
-    "description": "Number of individuals across families that have the allele and the condition",
-    "fullyQualifiedName": "AggregateSegregation.totalOfAllelePosConditionPosIndividuals"
+    "description": "Number of individuals across families that have the allele and the condition"
   },
   "A162": {
     "id": "A162",
@@ -2328,10 +2061,8 @@
     "iri-label": "allele negative condition negative individual count",
     "cg-label": "totalOfAlleleNegConditionNegIndividuals",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 7.0,
-    "description": "Number of individuals across families that lack both the allele and the condition",
-    "fullyQualifiedName": "AggregateSegregation.totalOfAlleleNegConditionNegIndividuals"
+    "description": "Number of individuals across families that lack both the allele and the condition"
   },
   "A163": {
     "id": "A163",
@@ -2343,10 +2074,8 @@
     "iri-label": "allele positive condition negative individual count",
     "cg-label": "totalOfAllelePosConditionNegIndividuals",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 8.0,
-    "description": "Number of individuals across families that have the allele but not the condition",
-    "fullyQualifiedName": "AggregateSegregation.totalOfAllelePosConditionNegIndividuals"
+    "description": "Number of individuals across families that have the allele but not the condition"
   },
   "A164": {
     "id": "A164",
@@ -2358,10 +2087,8 @@
     "iri-label": "allele negative condition positive individual count",
     "cg-label": "totalOfAlleleNegConditionPosIndividuals",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 9.0,
-    "description": "Number of individuals across families that do not have the allele but do have the condition",
-    "fullyQualifiedName": "AggregateSegregation.totalOfAlleleNegConditionPosIndividuals"
+    "description": "Number of individuals across families that do not have the allele but do have the condition"
   },
   "A165": {
     "id": "A165",
@@ -2373,10 +2100,8 @@
     "iri-label": "untested condition positive individual count",
     "cg-label": "totalOfUntestedConditionPosIndividuals",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 10.0,
-    "description": "Number of individuals across families that have the condition but whose allele is untested",
-    "fullyQualifiedName": "AggregateSegregation.totalOfUntestedConditionPosIndividuals"
+    "description": "Number of individuals across families that have the condition but whose allele is untested"
   },
   "A166": {
     "id": "A166",
@@ -2388,10 +2113,8 @@
     "iri-label": "untested condition negative individual count",
     "cg-label": "totalOfUntestedConditionNegIndividuals",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 11.0,
-    "description": "Number of individuals across families that do not have the condition but whose allele is untested",
-    "fullyQualifiedName": "AggregateSegregation.totalOfUntestedConditionNegIndividuals"
+    "description": "Number of individuals across families that do not have the condition but whose allele is untested"
   },
   "A167": {
     "id": "A167",
@@ -2403,10 +2126,8 @@
     "iri-label": "families with inconsistent segregation count",
     "cg-label": "totalOfFamiliesWithInconsistentSegregations",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 12.0,
-    "description": "Number of families containing segregations that are inconsistent with the allele causing the condition",
-    "fullyQualifiedName": "AggregateSegregation.totalOfFamiliesWithInconsistentSegregations"
+    "description": "Number of families containing segregations that are inconsistent with the allele causing the condition"
   },
   "A168": {
     "id": "A168",
@@ -2420,10 +2141,8 @@
     "valueSetId": "VS019",
     "@valueSetId": "SEPIO-CG:65119",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65119\", label: \"Reference Sequence\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 2.0,
-    "description": "A protein sequence that is the result of translating this sequence",
-    "fullyQualifiedName": "ReferenceSequence.produces"
+    "description": "A protein sequence that is the result of translating this sequence"
   },
   "A169": {
     "id": "A169",
@@ -2437,10 +2156,8 @@
     "valueSetId": "VS019",
     "@valueSetId": "SEPIO-CG:65119",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65119\", label: \"Reference Sequence\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 3.0,
-    "description": "The sequence whose translation produces this sequence",
-    "fullyQualifiedName": "ReferenceSequence.producedBy"
+    "description": "The sequence whose translation produces this sequence"
   },
   "A170": {
     "id": "A170",
@@ -2452,10 +2169,8 @@
     "iri-label": "",
     "cg-label": "produces",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 4.0,
-    "description": "A protein allele caused by the translation of this nucleotide allele",
-    "fullyQualifiedName": "ContextualAllele.produces"
+    "description": "A protein allele caused by the translation of this nucleotide allele"
   },
   "A171": {
     "id": "A171",
@@ -2467,10 +2182,8 @@
     "iri-label": "",
     "cg-label": "producedBy",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 5.0,
-    "description": "The nucleotide allele that led, via translation, to this protein allele",
-    "fullyQualifiedName": "ContextualAllele.producedBy"
+    "description": "The nucleotide allele that led, via translation, to this protein allele"
   },
   "A173": {
     "id": "A173",
@@ -2482,10 +2195,8 @@
     "iri-label": "version",
     "cg-label": "version",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 3.0,
-    "description": "Version of this AssertionMethod",
-    "fullyQualifiedName": "AssertionMethod.version"
+    "description": "Version of this AssertionMethod"
   },
   "A174": {
     "id": "A174",
@@ -2499,10 +2210,8 @@
     "valueSetId": "VS033",
     "@valueSetId": "SEPIO-CG:65133",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65133\", label: \"Assertion Method Algorithm\", conceptListExtensibility: \"VSCLExtnsID375\"",
     "precedence": 4.0,
-    "description": "The algorithm used to combine AssertionCriteria into a final Interpretation using this Method",
-    "fullyQualifiedName": "AssertionMethod.scoringAlgorithm"
+    "description": "The algorithm used to combine AssertionCriteria into a final Interpretation using this Method"
   },
   "A177": {
     "id": "A177",
@@ -2514,10 +2223,8 @@
     "iri-label": "description",
     "cg-label": "description",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "A human-readable description of the entity",
-    "fullyQualifiedName": "EvidenceLine.description"
+    "description": "A human-readable description of the entity"
   },
   "A178": {
     "id": "A178",
@@ -2529,10 +2236,8 @@
     "iri-label": "has_evidence_item",
     "cg-label": "evidenceItem",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 3.0,
-    "description": "The individual pieces of evidence that constitute an EvidenceLine",
-    "fullyQualifiedName": "EvidenceLine.evidenceItem"
+    "description": "The individual pieces of evidence that constitute an EvidenceLine"
   },
   "A179": {
     "id": "A179",
@@ -2546,10 +2251,8 @@
     "valueSetId": "VS016",
     "@valueSetId": "SEPIO-CG:65116",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65116\", label: \"Evidence Line Strength\", conceptListExtensibility: \"VSCLExtnsID374\"",
     "precedence": 2.0,
-    "description": "The strength of support given to the assertion by this line of evidence.",
-    "fullyQualifiedName": "EvidenceLine.evidenceStrength"
+    "description": "The strength of support given to the assertion by this line of evidence."
   },
   "A180": {
     "id": "A180",
@@ -2561,10 +2264,8 @@
     "iri-label": "qualified_contribution",
     "cg-label": "contribution",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 4.0,
-    "description": "The contributions (agent, time and role) made to this entity",
-    "fullyQualifiedName": "EvidenceLine.contribution"
+    "description": "The contributions (agent, time and role) made to this entity"
   },
   "A181": {
     "id": "A181",
@@ -2575,9 +2276,7 @@
     "iri": "SEPIO:0000275",
     "iri-label": "is_about_allele",
     "@valueSetId": "",
-    "valueSetName": "",
-    "precedence": 1.0,
-    "fullyQualifiedName": "InSilicoPredictionScore.canonicalAllele"
+    "precedence": 1.0
   },
   "A182": {
     "id": "A182",
@@ -2589,10 +2288,8 @@
     "iri-label": "is_about_transcript",
     "cg-label": "transcript",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 2.0,
-    "description": "The transcript on which the prediction is made",
-    "fullyQualifiedName": "InSilicoPredictionScore.transcript"
+    "description": "The transcript on which the prediction is made"
   },
   "A183": {
     "id": "A183",
@@ -2606,9 +2303,7 @@
     "valueSetId": "VS009",
     "@valueSetId": "SEPIO-CG:65109",
     "restrictByValueSet": "No",
-    "valueSetName": "@id : \"SEPIO-CG:65109\", label: \"Prediction\", conceptListExtensibility: \"VSCLExtnsID375\"",
-    "precedence": 3.0,
-    "fullyQualifiedName": "InSilicoPredictionScore.predictionType"
+    "precedence": 3.0
   },
   "A184": {
     "id": "A184",
@@ -2620,8 +2315,7 @@
     "iri-label": "asserted_by",
     "cg-label": "algorithm",
     "@valueSetId": "",
-    "precedence": 4.0,
-    "fullyQualifiedName": "InSilicoPredictionScore.algorithm"
+    "precedence": 4.0
   },
   "A185": {
     "id": "A185",
@@ -2634,10 +2328,8 @@
     "iri-label": "is_about_allele",
     "cg-label": "allele",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 1.0,
-    "description": "The allele for which conservation values are given",
-    "fullyQualifiedName": "AlleleConservationScore.allele"
+    "description": "The allele for which conservation values are given"
   },
   "A186": {
     "id": "A186",
@@ -2650,8 +2342,7 @@
     "cg-label": "conservationType",
     "@valueSetId": "",
     "precedence": 2.0,
-    "description": "The conservation classification from sequence ontology.",
-    "fullyQualifiedName": "AlleleConservationScore.conservationType"
+    "description": "The conservation classification from sequence ontology."
   },
   "A187": {
     "id": "A187",
@@ -2663,9 +2354,7 @@
     "iri-label": "asserted_by",
     "cg-label": "algorithm",
     "@valueSetId": "",
-    "valueSetName": "",
     "precedence": 3.0,
-    "description": "Method or program used to calculate conservation",
-    "fullyQualifiedName": "AlleleConservationScore.algorithm"
+    "description": "Method or program used to calculate conservation"
   }
 }
