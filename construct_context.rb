@@ -1,12 +1,14 @@
 require 'json'
+require 'reformat_examples'
 
 DM_BASE_IRI = "http://datamodel.clinicalgenome.org/"
 DM_TYPES_IRI = "http://datamodel.clinicalgenome.org/types/"
 DM_ATTRS_IRI = "http://datamodel.clinicalgenome.org/attributes/"
 
 def construct_context(data_dir = File.join('data', 'flattened'))
-  types = JSON.parse(File.read(File.join(data_dir, "Type.json")))
-  attributes = JSON.parse(File.read(File.join(data_dir, "Attribute.json")))
+  dmwg_examples = DMWGExampleData.new('data/flattened')
+  types = dmwg_examples.types
+  identifier_systems = dmwg_examples.by_type['IdentifierSystem']
 
   cx = {
           "cg-types" => DM_TYPES_IRI,
@@ -16,17 +18,20 @@ def construct_context(data_dir = File.join('data', 'flattened'))
           "type" => "@type"
         }
 
+  identifier_systems.each do |is|
+    cx[is['prefix']] = is['iri']
+  end
+
   types.each do |id, type|
     ldid = type['iri'] && !type['iri'].include?('?') && type['iri'].split("\n").length == 1 ? type['iri'] : "cg-types:#{type['name']}"
     cx[type['name']] = { "@id" => ldid }
-  end
-
-  attributes.each do |id, attrib|
-    ldid = attrib['iri'] && !attrib['iri'].include?('?') && attrib['iri'].split("\n").length == 1 ? attrib['iri'] : "cg-attributes:#{attrib['name']}"
-    if ['String', 'int', 'boolean', 'float'].include? attrib['dataType']
-      cx[attrib['name']] = ldid
-    else
-      cx[attrib['name']] = { "@id" => ldid, "@type" => "@id" }
+    type['attributes'].each do |attrib|
+      ldid = attrib['iri'] && !attrib['iri'].include?('?') && attrib['iri'].split("\n").length == 1 ? attrib['iri'] : "cg-attributes:#{attrib['name']}"
+      if ['string', 'int', 'boolean', 'float'].include? attrib['dataType']
+        cx[attrib['name']] = ldid
+      else
+        cx[attrib['name']] = { "@id" => ldid, "@type" => "@id" }
+      end
     end
   end
 
