@@ -98,6 +98,7 @@ class DMWGExampleData
      '_DomainEntityAttribute',
      '_EvidenceLineAttribute',
      '_GeneticConditionAttribute',
+     '_IdentifierSystemAttribute',
      '_StatementAttribute',
      '_UserLabelAttribute',
      '_ValueSetAttribute',
