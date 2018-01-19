@@ -64,10 +64,11 @@ div.tooltip table {
 
 div.tooltip table, tr, td {
   border: 1px solid black;
+  padding: 4px;
 }
 
 div#jsonview {
-  height: 500px;
+  /* height: 500px; */
   border: 1px solid black;
 }
 
@@ -86,22 +87,14 @@ table.table {
     margin-bottom: 0px;
     padding-left: 0px;
 }
-table.table {
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 0px;
-    padding-left: 0px;
-}
 #diagram {
  position: absolute;
- height: 100%;
- width: 100%;
  left: 0;
  top: 0;
 }
 .scaling-svg-container {
  position: relative;
- height: 0;
+ height: auto;
  width: 100%;
  padding: 0;
  padding-bottom: 100%;
@@ -121,7 +114,7 @@ table.table {
        <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="tabjsontable"><div id="jsontable"></div></div>
         <div role="tabpanel" class="tab-pane" id="tabjsonview"><div id="jsonview"></div></div>
-        <div role="tabpanel" class="tab-pane active scaling-svg-container "  id="tabdiagram"><svg id="diagram" width="1000" height="600"></svg></div>
+        <div role="tabpanel" class="tab-pane active scaling-svg-container "  id="tabdiagram"><svg id="diagram"></svg></div>
       </div>
     </div>
   </div>
@@ -331,11 +324,14 @@ function DmwgDiagram(tree) {
     });
 
   var bbox = nodeg.node().getBBox(),
-      scale = 0.95 / Math.max(bbox.width / width, bbox.height / height),
-      translate = [width / 2 - scale * (bbox.x + bbox.width / 2),
-                   height / 2 - scale * (bbox.y + bbox.height / 2)];
-  zoom.scaleTo(this.svg, scale);
-  zoom.translateBy(this.svg, translate[0], translate[1]);
+      defaultView = "" + (bbox.x - bbox.width / 40) +
+                   " " + (bbox.y - bbox.height / 40) +
+                   " " + (bbox.width * 1.05) + " " + (bbox.height * 1.05);
+
+  this.svg
+    .attr('viewBox', defaultView)
+    .attr('preserveAspectRatio', 'xMidYMid meet')
+      .call(zoom);
 
 }
 
