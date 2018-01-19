@@ -9,7 +9,7 @@ IAO_PREFIX = OBO_PREFIX + "IAO_"
 OWL_FILES_PREFIX = "https://raw.githubusercontent.com/monarch-initiative/SEPIO-ontology/master/src/ontology/"
 
 sepio = RDF::Graph.load(OWL_FILES_PREFIX + "sepio.owl")
-sepio.load(OWL_FILES_PREFIX + "extensions/sepio-clingen.owl")
+sepio.load(OWL_FILES_PREFIX + "extensions/clingen/sepio-clingen.owl")
 
 terms2labels = Hash[[
 #  ["0000111", "editor_preferred_term"],
