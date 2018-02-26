@@ -1,134 +1,266 @@
 {
   "VS001": {
     "id": "VS001",
-    "@id": "SEPIO-CG:65101"
+    "@id": "SEPIO-CG:65101",
+    "label": "Value Set Concept List Exstensibility",
+    "description": "Concepts to categorize the degree of extensibility of a given value set.",
+    "conceptType": "ValueSetConceptListExtensibility",
+    "conceptListExtensibility": "SEPIO-CG:02101"
   },
   "VS002": {
     "id": "VS002",
-    "@id": "SEPIO-CG:65102"
+    "@id": "SEPIO-CG:65102",
+    "label": "Molecular Consequence",
+    "description": "List of molecular consequence classifications.",
+    "conceptType": "MolecularConsequence",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS003": {
     "id": "VS003",
-    "@id": "SEPIO-CG:65103"
+    "@id": "SEPIO-CG:65103",
+    "label": "Clinical Signficance",
+    "description": "ACMG variant pathogenicity clinical significance concepts. Equivalent to LOINC answer list https://r.details.loinc.org/AnswerList/LL4034-6.html.",
+    "conceptType": "Significance",
+    "conceptListExtensibility": "SEPIO-CG:02101"
   },
   "VS004": {
     "id": "VS004",
-    "@id": "SEPIO-CG:65104"
+    "@id": "SEPIO-CG:65104",
+    "label": "Region Annotation",
+    "description": "Concepts to categorize the genetic sequence region types used to assess ACMG rules.",
+    "conceptType": "RegionAnnotation",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS005": {
     "id": "VS005",
-    "@id": "SEPIO-CG:65105"
+    "@id": "SEPIO-CG:65105",
+    "label": "Phase",
+    "description": "Concepts to categorize the phase of variation between two alleles.",
+    "conceptType": "Phase",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS006": {
     "id": "VS006",
-    "@id": "SEPIO-CG:65106"
+    "@id": "SEPIO-CG:65106",
+    "label": "Allelic State",
+    "description": "The level of occurance of a single DNA marker within a set of chromosomes. Informed by LOINC answer list https://r.details.loinc.org/AnswerList/LL381-5.html but with additional codes for somatic mosaicism and asserted absence.",
+    "conceptType": "AllelicState",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS007": {
     "id": "VS007",
-    "@id": "SEPIO-CG:65107"
+    "@id": "SEPIO-CG:65107",
+    "label": "Mode of Inheritance",
+    "description": "TODO",
+    "conceptType": "ModeOfInheritance",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS008": {
     "id": "VS008",
-    "@id": "SEPIO-CG:65108"
+    "@id": "SEPIO-CG:65108",
+    "label": "Mechanism",
+    "description": "TODO",
+    "conceptType": "Mechanism",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS009": {
     "id": "VS009",
-    "@id": "SEPIO-CG:65109"
+    "@id": "SEPIO-CG:65109",
+    "label": "Prediction",
+    "description": "TODO",
+    "conceptType": "Prediction",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS010": {
     "id": "VS010",
-    "@id": "SEPIO-CG:65110"
+    "@id": "SEPIO-CG:65110",
+    "label": "Criterion Evaluation",
+    "description": "TODO",
+    "conceptType": "CriterionEvaluation",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS011": {
     "id": "VS011",
-    "@id": "SEPIO-CG:65111"
+    "@id": "SEPIO-CG:65111",
+    "label": "Allele Functional Assay Method",
+    "description": "TODO",
+    "conceptType": "AlleleFunctionalAssayMethod",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS012": {
     "id": "VS012",
-    "@id": "SEPIO-CG:65112"
+    "@id": "SEPIO-CG:65112",
+    "label": "Population",
+    "description": "TODO",
+    "conceptType": "Population",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS013": {
     "id": "VS013",
-    "@id": "SEPIO-CG:65113"
+    "@id": "SEPIO-CG:65113",
+    "label": "Benign Missense Variation Rate Outcome",
+    "description": "TODO",
+    "conceptType": "BenignMissenseVariationRateOutcome",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS014": {
     "id": "VS014",
-    "@id": "SEPIO-CG:65114"
+    "@id": "SEPIO-CG:65114",
+    "label": "Penetrance",
+    "description": "TODO",
+    "conceptType": "Penetrance",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS015": {
     "id": "VS015",
-    "@id": "SEPIO-CG:65115"
+    "@id": "SEPIO-CG:65115",
+    "label": "Condition Mechanism Strength",
+    "description": "The level of strength for which a class of variants is a known mechanism for a condition",
+    "conceptType": "ConditionMechanismStrength",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS016": {
     "id": "VS016",
-    "@id": "SEPIO-CG:65116"
+    "@id": "SEPIO-CG:65116",
+    "label": "Evidence Line Strength",
+    "description": "The set of strengths needed for an evidence line.",
+    "conceptType": "EvidenceLineStrength",
+    "conceptListExtensibility": "SEPIO-CG:02101"
   },
   "VS017": {
     "id": "VS017",
-    "@id": "SEPIO-CG:65117"
+    "@id": "SEPIO-CG:65117",
+    "label": "Disease",
+    "description": "TODO",
+    "conceptType": "Disease",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS018": {
     "id": "VS018",
-    "@id": "SEPIO-CG:65118"
+    "@id": "SEPIO-CG:65118",
+    "label": "Phenotype",
+    "description": "TODO",
+    "conceptType": "Phenotype",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS019": {
     "id": "VS019",
-    "@id": "SEPIO-CG:65119"
+    "@id": "SEPIO-CG:65119",
+    "label": "Reference Sequence",
+    "description": "TODO",
+    "conceptType": "ReferenceSequence",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS020": {
     "id": "VS020",
-    "@id": "SEPIO-CG:65120"
+    "@id": "SEPIO-CG:65120",
+    "label": "Contributory Role",
+    "description": "TODO",
+    "conceptType": "ContributoryRole",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS021": {
     "id": "VS021",
-    "@id": "SEPIO-CG:65121"
+    "@id": "SEPIO-CG:65121",
+    "label": "Allele Inheritance",
+    "description": "TODO",
+    "conceptType": "AlleleInheritance",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS022": {
     "id": "VS022",
-    "@id": "SEPIO-CG:65122"
+    "@id": "SEPIO-CG:65122",
+    "label": "Ascertainment",
+    "description": "A coded or free-text term representing how people were chosen to be in the cohort in which the frequency is calculated.\nIt may be either because there are lots of ways that a cohort might be generated and our value set may not provide enough to allow for all cases.",
+    "conceptType": "Ascertainment",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS023": {
     "id": "VS023",
-    "@id": "SEPIO-CG:65123"
+    "@id": "SEPIO-CG:65123",
+    "label": "Locus Specificity",
+    "description": "TODO",
+    "conceptType": "LocusSpecificity",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS024": {
     "id": "VS024",
-    "@id": "SEPIO-CG:65124"
+    "@id": "SEPIO-CG:65124",
+    "label": "Conservation",
+    "description": "TODO",
+    "conceptType": "Consertation",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS025": {
     "id": "VS025",
-    "@id": "SEPIO-CG:65125"
+    "@id": "SEPIO-CG:65125",
+    "label": "Parental Confirmation",
+    "description": "TODO",
+    "conceptType": "ParentalConfirmation",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS026": {
     "id": "VS026",
-    "@id": "SEPIO-CG:65126"
+    "@id": "SEPIO-CG:65126",
+    "label": "Condition Status",
+    "description": "TODO",
+    "conceptType": "ConditionStatus",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS027": {
     "id": "VS027",
-    "@id": "SEPIO-CG:65127"
+    "@id": "SEPIO-CG:65127",
+    "label": "Inconsistent Segregation Observed",
+    "description": "TODO",
+    "conceptType": "InconsistentSegregationObserved",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS028": {
     "id": "VS028",
-    "@id": "SEPIO-CG:65128"
+    "@id": "SEPIO-CG:65128",
+    "label": "Null Allele Outcome",
+    "description": "TODO",
+    "conceptType": "NullAlleleOutcome",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS029": {
     "id": "VS029",
-    "@id": "SEPIO-CG:65129"
+    "@id": "SEPIO-CG:65129",
+    "label": "Region Alleles Outcome",
+    "description": "TODO",
+    "conceptType": "RegionAllelesOutcome",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS030": {
     "id": "VS030",
-    "@id": "SEPIO-CG:65130"
+    "@id": "SEPIO-CG:65130",
+    "label": "Gene",
+    "description": "TODO",
+    "conceptType": "Gene",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS031": {
     "id": "VS031",
-    "@id": "SEPIO-CG:65131"
+    "@id": "SEPIO-CG:65131",
+    "label": "Criterion",
+    "description": "TODO",
+    "conceptType": "Criterion",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS032": {
     "id": "VS032",
-    "@id": "SEPIO-CG:65132"
+    "@id": "SEPIO-CG:65132",
+    "label": "Assertion Method",
+    "description": "TODO",
+    "conceptType": "AssertionMethod",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   },
   "VS033": {
     "id": "VS033",
-    "@id": "SEPIO-CG:65133"
+    "@id": "SEPIO-CG:65133",
+    "label": "Assertion Method Algorithm",
+    "description": "TODO",
+    "conceptType": "AssertionMethodAlgorithm",
+    "conceptListExtensibility": "SEPIO-CG:02102"
   }
 }

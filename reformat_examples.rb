@@ -91,13 +91,8 @@ class DMWGExampleData
 
     # Now for the "join tables". Ugly hard-coding here
     [
-     '_AgentAttribute',
-     '_CanonicalAlleleAttribute',
-     '_ContextualAlleleAttribute',
-     '_ContributionAttribute',
      '_DomainEntityAttribute',
      '_EvidenceLineAttribute',
-     '_GeneticConditionAttribute',
      '_IdentifierSystemAttribute',
      '_StatementAttribute',
      '_UserLabelAttribute',

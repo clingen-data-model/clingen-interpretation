@@ -2,12 +2,12 @@
   {
     "subjectId": "MolCon001",
     "attributeId": "A009",
-    "value": "CtxAll001"
+    "value": "CG-EX:CtxAll001"
   },
   {
     "subjectId": "MolCon001",
     "attributeId": "A001",
-    "value": "MolConID014"
+    "value": "SO:0001589"
   },
   {
     "subjectId": "MolCon001",
@@ -17,12 +17,12 @@
   {
     "subjectId": "CondMech002",
     "attributeId": "A002",
-    "value": "MechID071"
+    "value": "SO:0002054"
   },
   {
     "subjectId": "CondMech002",
     "attributeId": "A003",
-    "value": "CondMechStrgID134"
+    "value": "SEPIO:0000269"
   },
   {
     "subjectId": "CondMech002",
@@ -37,12 +37,12 @@
   {
     "subjectId": "MolCon003",
     "attributeId": "A009",
-    "value": "CtxAll002"
+    "value": "CG-EX:CtxAll002"
   },
   {
     "subjectId": "MolCon003",
     "attributeId": "A001",
-    "value": "MolConID014"
+    "value": "SO:0001589"
   },
   {
     "subjectId": "MolCon003",
@@ -52,12 +52,12 @@
   {
     "subjectId": "CondMech004",
     "attributeId": "A002",
-    "value": "MechID071"
+    "value": "SO:0002054"
   },
   {
     "subjectId": "CondMech004",
     "attributeId": "A003",
-    "value": "CondMechStrgID134"
+    "value": "SEPIO:0000269"
   },
   {
     "subjectId": "CondMech004",
@@ -77,12 +77,12 @@
   {
     "subjectId": "MolCon005",
     "attributeId": "A009",
-    "value": "CtxAll003"
+    "value": "CG-EX:CtxAll003"
   },
   {
     "subjectId": "MolCon005",
     "attributeId": "A001",
-    "value": "MolConID014"
+    "value": "SO:0001589"
   },
   {
     "subjectId": "MolCon005",
@@ -92,22 +92,22 @@
   {
     "subjectId": "MolCon006",
     "attributeId": "A009",
-    "value": "CtxAll004"
+    "value": "CG-EX:CtxAll004"
   },
   {
     "subjectId": "MolCon006",
     "attributeId": "A001",
-    "value": "MolConID002"
+    "value": "SO:0000191"
   },
   {
     "subjectId": "CondMech007",
     "attributeId": "A002",
-    "value": "MechID071"
+    "value": "SO:0002054"
   },
   {
     "subjectId": "CondMech007",
     "attributeId": "A003",
-    "value": "CondMechStrgID134"
+    "value": "SEPIO:0000269"
   },
   {
     "subjectId": "CondMech007",
@@ -122,7 +122,7 @@
   {
     "subjectId": "VarInterp008",
     "attributeId": "A122",
-    "value": "CanAll005"
+    "value": "CAR:CA220155"
   },
   {
     "subjectId": "VarInterp008",
@@ -132,7 +132,7 @@
   {
     "subjectId": "VarInterp008",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "VarInterp008",
@@ -142,7 +142,7 @@
   {
     "subjectId": "VarInterp009",
     "attributeId": "A122",
-    "value": "CanAll008"
+    "value": "CAR:CA501221"
   },
   {
     "subjectId": "VarInterp009",
@@ -152,7 +152,7 @@
   {
     "subjectId": "VarInterp009",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "VarInterp009",
@@ -162,7 +162,7 @@
   {
     "subjectId": "VarInterp010",
     "attributeId": "A122",
-    "value": "CanAll011"
+    "value": "CAR:CA256480"
   },
   {
     "subjectId": "VarInterp010",
@@ -172,7 +172,7 @@
   {
     "subjectId": "VarInterp010",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "VarInterp010",
@@ -182,7 +182,7 @@
   {
     "subjectId": "VarInterp011",
     "attributeId": "A122",
-    "value": "CanAll011"
+    "value": "CAR:CA256480"
   },
   {
     "subjectId": "VarInterp011",
@@ -192,7 +192,7 @@
   {
     "subjectId": "VarInterp011",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "VarInterp011",
@@ -202,7 +202,7 @@
   {
     "subjectId": "IndCond012",
     "attributeId": "A016",
-    "value": "Indiv333"
+    "value": "CG-EX:Indiv333"
   },
   {
     "subjectId": "IndCond012",
@@ -212,12 +212,12 @@
   {
     "subjectId": "IndCond012",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "FamCond013",
     "attributeId": "A019",
-    "value": "Indiv333"
+    "value": "CG-EX:Indiv333"
   },
   {
     "subjectId": "FamCond013",
@@ -227,27 +227,27 @@
   {
     "subjectId": "FamCond013",
     "attributeId": "A021",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "IndAllInh014",
     "attributeId": "A022",
-    "value": "CanAll014"
+    "value": "CAR:CA016441"
   },
   {
     "subjectId": "IndAllInh014",
     "attributeId": "A023",
-    "value": "Indiv333"
+    "value": "CG-EX:Indiv333"
   },
   {
     "subjectId": "IndAllInh014",
     "attributeId": "A025",
-    "value": "ParenConfID216"
+    "value": "SEPIO-CG:99007"
   },
   {
     "subjectId": "IndAllInh014",
     "attributeId": "A074",
-    "value": "AlleleInhID197"
+    "value": "GENO:0000880"
   },
   {
     "subjectId": "IndAllInh014",
@@ -257,7 +257,7 @@
   {
     "subjectId": "IndCond015",
     "attributeId": "A016",
-    "value": "Indiv334"
+    "value": "CG-EX:Indiv334"
   },
   {
     "subjectId": "IndCond015",
@@ -267,12 +267,12 @@
   {
     "subjectId": "IndCond015",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "FamCond016",
     "attributeId": "A019",
-    "value": "Indiv334"
+    "value": "CG-EX:Indiv334"
   },
   {
     "subjectId": "FamCond016",
@@ -282,27 +282,27 @@
   {
     "subjectId": "FamCond016",
     "attributeId": "A021",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "IndAllInh017",
     "attributeId": "A022",
-    "value": "CanAll015"
+    "value": "CAR:CA257646"
   },
   {
     "subjectId": "IndAllInh017",
     "attributeId": "A023",
-    "value": "Indiv334"
+    "value": "CG-EX:Indiv334"
   },
   {
     "subjectId": "IndAllInh017",
     "attributeId": "A025",
-    "value": "ParenConfID215"
+    "value": "SEPIO-CG:99006"
   },
   {
     "subjectId": "IndAllInh017",
     "attributeId": "A074",
-    "value": "AlleleInhID197"
+    "value": "GENO:0000880"
   },
   {
     "subjectId": "IndAllInh017",
@@ -312,7 +312,7 @@
   {
     "subjectId": "IndCond018",
     "attributeId": "A016",
-    "value": "Indiv335"
+    "value": "CG-EX:Indiv335"
   },
   {
     "subjectId": "IndCond018",
@@ -322,12 +322,12 @@
   {
     "subjectId": "IndCond018",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "FamCond019",
     "attributeId": "A019",
-    "value": "Indiv335"
+    "value": "CG-EX:Indiv335"
   },
   {
     "subjectId": "FamCond019",
@@ -337,27 +337,27 @@
   {
     "subjectId": "FamCond019",
     "attributeId": "A021",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "IndAllInh020",
     "attributeId": "A022",
-    "value": "CanAll016"
+    "value": "CAR:CA354186"
   },
   {
     "subjectId": "IndAllInh020",
     "attributeId": "A023",
-    "value": "Indiv335"
+    "value": "CG-EX:Indiv335"
   },
   {
     "subjectId": "IndAllInh020",
     "attributeId": "A025",
-    "value": "ParenConfID216"
+    "value": "SEPIO-CG:99007"
   },
   {
     "subjectId": "IndAllInh020",
     "attributeId": "A074",
-    "value": "AlleleInhID197"
+    "value": "GENO:0000880"
   },
   {
     "subjectId": "IndAllInh020",
@@ -377,7 +377,7 @@
   {
     "subjectId": "Func021",
     "attributeId": "A028",
-    "value": "CtxAll021"
+    "value": "CG-EX:CtxAll021"
   },
   {
     "subjectId": "Func021",
@@ -397,7 +397,7 @@
   {
     "subjectId": "Func022",
     "attributeId": "A028",
-    "value": "CtxAll021"
+    "value": "CG-EX:CtxAll021"
   },
   {
     "subjectId": "Func022",
@@ -417,7 +417,7 @@
   {
     "subjectId": "Func023",
     "attributeId": "A028",
-    "value": "CtxAll021"
+    "value": "CG-EX:CtxAll021"
   },
   {
     "subjectId": "Func023",
@@ -437,7 +437,7 @@
   {
     "subjectId": "Func024",
     "attributeId": "A028",
-    "value": "CtxAll021"
+    "value": "CG-EX:CtxAll021"
   },
   {
     "subjectId": "Func024",
@@ -457,7 +457,7 @@
   {
     "subjectId": "Func025",
     "attributeId": "A028",
-    "value": "CtxAll022"
+    "value": "CG-EX:CtxAll022"
   },
   {
     "subjectId": "Func025",
@@ -482,7 +482,7 @@
   {
     "subjectId": "Func026",
     "attributeId": "A028",
-    "value": "CtxAll024"
+    "value": "CG-EX:CtxAll024"
   },
   {
     "subjectId": "Func026",
@@ -507,7 +507,7 @@
   {
     "subjectId": "Func027",
     "attributeId": "A028",
-    "value": "CtxAll024"
+    "value": "CG-EX:CtxAll024"
   },
   {
     "subjectId": "Func027",
@@ -522,12 +522,12 @@
   {
     "subjectId": "AllFreq028",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq028",
     "attributeId": "A031",
-    "value": "CanAll022"
+    "value": "CAR:CA253316"
   },
   {
     "subjectId": "AllFreq028",
@@ -542,12 +542,12 @@
   {
     "subjectId": "AllFreq029",
     "attributeId": "A030",
-    "value": "AscrtID206"
+    "value": "CG-EXAMPLE:Ascrt0001"
   },
   {
     "subjectId": "AllFreq029",
     "attributeId": "A031",
-    "value": "CanAll022"
+    "value": "CAR:CA253316"
   },
   {
     "subjectId": "AllFreq029",
@@ -562,7 +562,7 @@
   {
     "subjectId": "CaseCtrl030",
     "attributeId": "A038",
-    "value": "CanAll022"
+    "value": "CAR:CA253316"
   },
   {
     "subjectId": "CaseCtrl030",
@@ -607,12 +607,12 @@
   {
     "subjectId": "AllFreq031",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq031",
     "attributeId": "A031",
-    "value": "CanAll023"
+    "value": "CAR:CA024311"
   },
   {
     "subjectId": "AllFreq031",
@@ -627,7 +627,7 @@
   {
     "subjectId": "AllFreq032",
     "attributeId": "A031",
-    "value": "CanAll023"
+    "value": "CAR:CA024311"
   },
   {
     "subjectId": "AllFreq032",
@@ -637,7 +637,7 @@
   {
     "subjectId": "CaseCtrl033",
     "attributeId": "A038",
-    "value": "CanAll023"
+    "value": "CAR:CA024311"
   },
   {
     "subjectId": "CaseCtrl033",
@@ -662,12 +662,12 @@
   {
     "subjectId": "AllFreq034",
     "attributeId": "A030",
-    "value": "AscrtID207"
+    "value": "CG-EXAMPLE:Ascrt0002"
   },
   {
     "subjectId": "AllFreq034",
     "attributeId": "A031",
-    "value": "CanAll024"
+    "value": "CAR:CA123287"
   },
   {
     "subjectId": "AllFreq034",
@@ -697,17 +697,17 @@
   {
     "subjectId": "AllFreq034",
     "attributeId": "A047",
-    "value": "PopID090"
+    "value": "BROAD-population-type:nfe"
   },
   {
     "subjectId": "AllFreq035",
     "attributeId": "A030",
-    "value": "AscrtID208"
+    "value": "CG-EXAMPLE:Ascrt0003"
   },
   {
     "subjectId": "AllFreq035",
     "attributeId": "A031",
-    "value": "CanAll024"
+    "value": "CAR:CA123287"
   },
   {
     "subjectId": "AllFreq035",
@@ -737,12 +737,12 @@
   {
     "subjectId": "AllFreq035",
     "attributeId": "A047",
-    "value": "PopID090"
+    "value": "BROAD-population-type:nfe"
   },
   {
     "subjectId": "CaseCtrl036",
     "attributeId": "A038",
-    "value": "CanAll024"
+    "value": "CAR:CA123287"
   },
   {
     "subjectId": "CaseCtrl036",
@@ -797,12 +797,12 @@
   {
     "subjectId": "AllFreq037",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq037",
     "attributeId": "A031",
-    "value": "CanAll118"
+    "value": "CAR:CA013536"
   },
   {
     "subjectId": "AllFreq037",
@@ -822,17 +822,17 @@
   {
     "subjectId": "AllFreq037",
     "attributeId": "A047",
-    "value": "PopID092"
+    "value": "BROAD-population-type:sas"
   },
   {
     "subjectId": "AllFreq038",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq038",
     "attributeId": "A031",
-    "value": "CanAll092"
+    "value": "CAR:CA090950"
   },
   {
     "subjectId": "AllFreq038",
@@ -852,7 +852,7 @@
   {
     "subjectId": "AllFreq038",
     "attributeId": "A047",
-    "value": "PopID085"
+    "value": "BROAD-population-type:afr"
   },
   {
     "subjectId": "CondPrev039",
@@ -872,17 +872,17 @@
   {
     "subjectId": "CondPrev039",
     "attributeId": "A106",
-    "value": "PopID094"
+    "value": "SEPIO-CG:98002"
   },
   {
     "subjectId": "RegTyp040",
     "attributeId": "A063",
-    "value": "Loc432"
+    "value": "CG-EX:Loc432"
   },
   {
     "subjectId": "RegTyp040",
     "attributeId": "A057",
-    "value": "RegAnnID033"
+    "value": "SEPIO:0000320"
   },
   {
     "subjectId": "RegTyp040",
@@ -892,7 +892,7 @@
   {
     "subjectId": "VarInterp041",
     "attributeId": "A122",
-    "value": "CanAll092"
+    "value": "CAR:CA090950"
   },
   {
     "subjectId": "VarInterp041",
@@ -902,7 +902,7 @@
   {
     "subjectId": "VarInterp041",
     "attributeId": "A124",
-    "value": "SigID032"
+    "value": "LN:LA6675-8"
   },
   {
     "subjectId": "VarInterp041",
@@ -937,12 +937,12 @@
   {
     "subjectId": "VarInterp042",
     "attributeId": "A122",
-    "value": "CanAll049"
+    "value": "CAR:CA021738"
   },
   {
     "subjectId": "VarInterp042",
     "attributeId": "A124",
-    "value": "SigID029"
+    "value": "LN:LA26333-7"
   },
   {
     "subjectId": "VarInterp042",
@@ -962,12 +962,12 @@
   {
     "subjectId": "RegTyp043",
     "attributeId": "A063",
-    "value": "Loc433"
+    "value": "CG-EX:Loc433"
   },
   {
     "subjectId": "RegTyp043",
     "attributeId": "A057",
-    "value": "RegAnnID033"
+    "value": "SEPIO:0000320"
   },
   {
     "subjectId": "RegTyp043",
@@ -977,12 +977,12 @@
   {
     "subjectId": "VarInterp044",
     "attributeId": "A122",
-    "value": "CanAll118"
+    "value": "CAR:CA013536"
   },
   {
     "subjectId": "VarInterp044",
     "attributeId": "A124",
-    "value": "SigID030"
+    "value": "LN:LA26334-5"
   },
   {
     "subjectId": "VarInterp044",
@@ -1017,7 +1017,7 @@
   {
     "subjectId": "VarInterp045",
     "attributeId": "A122",
-    "value": "CanAll121"
+    "value": "CAR:CA022880"
   },
   {
     "subjectId": "VarInterp045",
@@ -1027,7 +1027,7 @@
   {
     "subjectId": "VarInterp045",
     "attributeId": "A124",
-    "value": "SigID028"
+    "value": "LN:LA26332-9"
   },
   {
     "subjectId": "VarInterp045",
@@ -1057,12 +1057,12 @@
   {
     "subjectId": "RegTyp046",
     "attributeId": "A063",
-    "value": "Loc434"
+    "value": "CG-EX:Loc434"
   },
   {
     "subjectId": "RegTyp046",
     "attributeId": "A057",
-    "value": "RegAnnID034"
+    "value": "SEPIO:0000321"
   },
   {
     "subjectId": "RegTyp046",
@@ -1072,7 +1072,7 @@
   {
     "subjectId": "VarInterp047",
     "attributeId": "A122",
-    "value": "CanAll028"
+    "value": "CAR:CA022141"
   },
   {
     "subjectId": "VarInterp047",
@@ -1082,12 +1082,12 @@
   {
     "subjectId": "VarInterp047",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "VarInterp048",
     "attributeId": "A122",
-    "value": "CanAll029"
+    "value": "CAR:CA022153"
   },
   {
     "subjectId": "VarInterp048",
@@ -1097,12 +1097,12 @@
   {
     "subjectId": "VarInterp048",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "VarInterp049",
     "attributeId": "A122",
-    "value": "CanAll030"
+    "value": "CAR:CA022159"
   },
   {
     "subjectId": "VarInterp049",
@@ -1112,12 +1112,12 @@
   {
     "subjectId": "VarInterp049",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "VarInterp050",
     "attributeId": "A122",
-    "value": "CanAll031"
+    "value": "CAR:CA022189"
   },
   {
     "subjectId": "VarInterp050",
@@ -1127,22 +1127,22 @@
   {
     "subjectId": "VarInterp050",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "AllFreq051",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq051",
     "attributeId": "A047",
-    "value": "PopID090"
+    "value": "BROAD-population-type:nfe"
   },
   {
     "subjectId": "AllFreq051",
     "attributeId": "A031",
-    "value": "CanAll032"
+    "value": "CAR:CA011797"
   },
   {
     "subjectId": "AllFreq051",
@@ -1167,17 +1167,17 @@
   {
     "subjectId": "AllFreq052",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq052",
     "attributeId": "A047",
-    "value": "PopID093"
+    "value": "SEPIO-CG:98001"
   },
   {
     "subjectId": "AllFreq052",
     "attributeId": "A031",
-    "value": "CanAll032"
+    "value": "CAR:CA011797"
   },
   {
     "subjectId": "AllFreq052",
@@ -1202,17 +1202,17 @@
   {
     "subjectId": "AllFreq053",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq053",
     "attributeId": "A047",
-    "value": "PopID089"
+    "value": "BROAD-population-type:fin"
   },
   {
     "subjectId": "AllFreq053",
     "attributeId": "A031",
-    "value": "CanAll033"
+    "value": "CAR:CA011797"
   },
   {
     "subjectId": "AllFreq053",
@@ -1242,17 +1242,17 @@
   {
     "subjectId": "AllFreq054",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq054",
     "attributeId": "A047",
-    "value": "PopID093"
+    "value": "SEPIO-CG:98001"
   },
   {
     "subjectId": "AllFreq054",
     "attributeId": "A031",
-    "value": "CanAll034"
+    "value": "CAR:CA273141"
   },
   {
     "subjectId": "AllFreq054",
@@ -1277,7 +1277,7 @@
   {
     "subjectId": "VarInterp055",
     "attributeId": "A122",
-    "value": "CanAll124"
+    "value": "CAR:CA090930"
   },
   {
     "subjectId": "VarInterp055",
@@ -1287,7 +1287,7 @@
   {
     "subjectId": "VarInterp055",
     "attributeId": "A124",
-    "value": "SigID029"
+    "value": "LN:LA26333-7"
   },
   {
     "subjectId": "VarInterp055",
@@ -1322,7 +1322,7 @@
   {
     "subjectId": "IndCond056",
     "attributeId": "A016",
-    "value": "Indiv336"
+    "value": "CG-EX:Indiv336"
   },
   {
     "subjectId": "IndCond056",
@@ -1332,7 +1332,7 @@
   {
     "subjectId": "IndCond056",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "IndCond056",
@@ -1347,7 +1347,7 @@
   {
     "subjectId": "VarInterp057",
     "attributeId": "A122",
-    "value": "CanAll036"
+    "value": "CAR:CA273615"
   },
   {
     "subjectId": "VarInterp057",
@@ -1357,7 +1357,7 @@
   {
     "subjectId": "VarInterp057",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "VarInterp057",
@@ -1372,12 +1372,12 @@
   {
     "subjectId": "IndGeno058",
     "attributeId": "A065",
-    "value": "Indiv336"
+    "value": "CG-EX:Indiv336"
   },
   {
     "subjectId": "IndGeno058",
     "attributeId": "A066",
-    "value": "Geno378"
+    "value": "CG-EX:Geno378"
   },
   {
     "subjectId": "IndGeno058",
@@ -1397,7 +1397,7 @@
   {
     "subjectId": "VarInterp059",
     "attributeId": "A122",
-    "value": "CanAll038"
+    "value": "CAR:CA501223"
   },
   {
     "subjectId": "VarInterp059",
@@ -1407,12 +1407,12 @@
   {
     "subjectId": "VarInterp059",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "VarInterp060",
     "attributeId": "A122",
-    "value": "CanAll127"
+    "value": "CAR:CA273507"
   },
   {
     "subjectId": "VarInterp060",
@@ -1422,7 +1422,7 @@
   {
     "subjectId": "VarInterp060",
     "attributeId": "A124",
-    "value": "SigID028"
+    "value": "LN:LA26332-9"
   },
   {
     "subjectId": "VarInterp060",
@@ -1437,7 +1437,7 @@
   {
     "subjectId": "IndCond061",
     "attributeId": "A016",
-    "value": "Indiv337"
+    "value": "CG-EX:Indiv337"
   },
   {
     "subjectId": "IndCond061",
@@ -1447,17 +1447,17 @@
   {
     "subjectId": "IndCond061",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "IndGeno062",
     "attributeId": "A065",
-    "value": "Indiv337"
+    "value": "CG-EX:Indiv337"
   },
   {
     "subjectId": "IndGeno062",
     "attributeId": "A066",
-    "value": "Geno381"
+    "value": "CG-EX:Geno381"
   },
   {
     "subjectId": "IndGeno062",
@@ -1467,7 +1467,7 @@
   {
     "subjectId": "VarInterp063",
     "attributeId": "A122",
-    "value": "CanAll125"
+    "value": "CAR:CA280055"
   },
   {
     "subjectId": "VarInterp063",
@@ -1477,7 +1477,7 @@
   {
     "subjectId": "VarInterp063",
     "attributeId": "A124",
-    "value": "SigID028"
+    "value": "LN:LA26332-9"
   },
   {
     "subjectId": "VarInterp063",
@@ -1512,7 +1512,7 @@
   {
     "subjectId": "IndCond064",
     "attributeId": "A016",
-    "value": "Indiv338"
+    "value": "CG-EX:Indiv338"
   },
   {
     "subjectId": "IndCond064",
@@ -1522,27 +1522,27 @@
   {
     "subjectId": "IndCond064",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "IndGeno065",
     "attributeId": "A065",
-    "value": "Indiv338"
+    "value": "CG-EX:Indiv338"
   },
   {
     "subjectId": "IndGeno065",
     "attributeId": "A066",
-    "value": "Geno383"
+    "value": "CG-EX:Geno383"
   },
   {
     "subjectId": "MolCon066",
     "attributeId": "A009",
-    "value": "CtxAll044"
+    "value": "CG-EX:CtxAll044"
   },
   {
     "subjectId": "MolCon066",
     "attributeId": "A001",
-    "value": "MolConID019"
+    "value": "SO:0001825"
   },
   {
     "subjectId": "MolCon066",
@@ -1567,7 +1567,7 @@
   {
     "subjectId": "Func067",
     "attributeId": "A028",
-    "value": "CtxAll130"
+    "value": "CG-EX:CtxAll130"
   },
   {
     "subjectId": "Func067",
@@ -1592,12 +1592,12 @@
   {
     "subjectId": "InSilicoPred068",
     "attributeId": "A096",
-    "value": "CanAll118"
+    "value": "CAR:CA013536"
   },
   {
     "subjectId": "InSilicoPred068",
     "attributeId": "A097",
-    "value": "PredID073"
+    "value": "SEPIO:0000323"
   },
   {
     "subjectId": "InSilicoPred068",
@@ -1612,12 +1612,12 @@
   {
     "subjectId": "RegTyp069",
     "attributeId": "A063",
-    "value": "Loc435"
+    "value": "CG-EX:Loc435"
   },
   {
     "subjectId": "RegTyp069",
     "attributeId": "A057",
-    "value": "RegAnnID035"
+    "value": "SO:0000657"
   },
   {
     "subjectId": "RegTyp069",
@@ -1642,22 +1642,22 @@
   {
     "subjectId": "MolCon070",
     "attributeId": "A009",
-    "value": "CtxAll046"
+    "value": "CG-EX:CtxAll046"
   },
   {
     "subjectId": "MolCon070",
     "attributeId": "A001",
-    "value": "MolConID019"
+    "value": "SO:0001825"
   },
   {
     "subjectId": "AllConserv071",
     "attributeId": "A111",
-    "value": "CanAll118"
+    "value": "CAR:CA013536"
   },
   {
     "subjectId": "AllConserv071",
     "attributeId": "A112",
-    "value": "ConsrvID212"
+    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConserv071",
@@ -1677,12 +1677,12 @@
   {
     "subjectId": "AllConserv072",
     "attributeId": "A111",
-    "value": "CanAll118"
+    "value": "CAR:CA013536"
   },
   {
     "subjectId": "AllConserv072",
     "attributeId": "A112",
-    "value": "ConsrvID212"
+    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConserv072",
@@ -1702,12 +1702,12 @@
   {
     "subjectId": "RegTyp073",
     "attributeId": "A063",
-    "value": "Loc436"
+    "value": "CG-EX:Loc436"
   },
   {
     "subjectId": "RegTyp073",
     "attributeId": "A057",
-    "value": "RegAnnID035"
+    "value": "SO:0000657"
   },
   {
     "subjectId": "RegTyp073",
@@ -1722,22 +1722,22 @@
   {
     "subjectId": "MolCon074",
     "attributeId": "A009",
-    "value": "CtxAll048"
+    "value": "CG-EX:CtxAll048"
   },
   {
     "subjectId": "MolCon074",
     "attributeId": "A001",
-    "value": "MolConID017"
+    "value": "SO:0001823"
   },
   {
     "subjectId": "MolCon075",
     "attributeId": "A001",
-    "value": "MolConID016"
+    "value": "SO:0001819"
   },
   {
     "subjectId": "MolCon075",
     "attributeId": "A009",
-    "value": "CtxAll124"
+    "value": "CG-EX:CtxAll124"
   },
   {
     "subjectId": "FamSeg076",
@@ -1747,12 +1747,12 @@
   {
     "subjectId": "FamSeg076",
     "attributeId": "A082",
-    "value": "CanAll124"
+    "value": "CAR:CA090930"
   },
   {
     "subjectId": "FamSeg076",
     "attributeId": "A083",
-    "value": "Fam373"
+    "value": "CG-EX:Fam373"
   },
   {
     "subjectId": "FamSeg076",
@@ -1772,17 +1772,17 @@
   {
     "subjectId": "FamSeg076",
     "attributeId": "A110",
-    "value": "InconSegObsID220"
+    "value": "SEPIO-CG:99011"
   },
   {
     "subjectId": "RegTyp077",
     "attributeId": "A063",
-    "value": "Loc437"
+    "value": "CG-EX:Loc437"
   },
   {
     "subjectId": "RegTyp077",
     "attributeId": "A057",
-    "value": "RegAnnID035"
+    "value": "SO:0000657"
   },
   {
     "subjectId": "RegTyp077",
@@ -1792,7 +1792,7 @@
   {
     "subjectId": "VarInterp078",
     "attributeId": "A122",
-    "value": "CanAll047"
+    "value": "CAR:CA021749"
   },
   {
     "subjectId": "VarInterp078",
@@ -1802,7 +1802,7 @@
   {
     "subjectId": "VarInterp078",
     "attributeId": "A124",
-    "value": "SigID028"
+    "value": "LN:LA26332-9"
   },
   {
     "subjectId": "VarInterp078",
@@ -1817,7 +1817,7 @@
   {
     "subjectId": "VarInterp079",
     "attributeId": "A122",
-    "value": "CanAll049"
+    "value": "CAR:CA021738"
   },
   {
     "subjectId": "VarInterp079",
@@ -1827,7 +1827,7 @@
   {
     "subjectId": "VarInterp079",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "VarInterp079",
@@ -1842,7 +1842,7 @@
   {
     "subjectId": "VarInterp080",
     "attributeId": "A122",
-    "value": "CanAll053"
+    "value": "CAR:CA224454"
   },
   {
     "subjectId": "VarInterp080",
@@ -1852,12 +1852,12 @@
   {
     "subjectId": "VarInterp080",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "VarInterp081",
     "attributeId": "A122",
-    "value": "CanAll057"
+    "value": "CAR:CA003449"
   },
   {
     "subjectId": "VarInterp081",
@@ -1867,22 +1867,22 @@
   {
     "subjectId": "VarInterp081",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "AllFreq082",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq082",
     "attributeId": "A047",
-    "value": "PopID093"
+    "value": "SEPIO-CG:98001"
   },
   {
     "subjectId": "AllFreq082",
     "attributeId": "A031",
-    "value": "CanAll035"
+    "value": "CAR:CA090919"
   },
   {
     "subjectId": "AllFreq082",
@@ -1916,7 +1916,7 @@
   {
     "subjectId": "IndCond083",
     "attributeId": "A016",
-    "value": "Indiv339"
+    "value": "CG-EX:Indiv339"
   },
   {
     "subjectId": "IndCond083",
@@ -1926,12 +1926,12 @@
   {
     "subjectId": "IndCond083",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "IndCond084",
     "attributeId": "A016",
-    "value": "Indiv340"
+    "value": "CG-EX:Indiv340"
   },
   {
     "subjectId": "IndCond084",
@@ -1941,12 +1941,12 @@
   {
     "subjectId": "IndCond084",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "FamCond085",
     "attributeId": "A019",
-    "value": "Indiv339"
+    "value": "CG-EX:Indiv339"
   },
   {
     "subjectId": "FamCond085",
@@ -1956,12 +1956,12 @@
   {
     "subjectId": "FamCond085",
     "attributeId": "A021",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "FamCond086",
     "attributeId": "A019",
-    "value": "Indiv340"
+    "value": "CG-EX:Indiv340"
   },
   {
     "subjectId": "FamCond086",
@@ -1971,27 +1971,27 @@
   {
     "subjectId": "FamCond086",
     "attributeId": "A021",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "IndAllInh087",
     "attributeId": "A022",
-    "value": "CanAll059"
+    "value": "CAR:CA090951"
   },
   {
     "subjectId": "IndAllInh087",
     "attributeId": "A023",
-    "value": "Indiv339"
+    "value": "CG-EX:Indiv339"
   },
   {
     "subjectId": "IndAllInh087",
     "attributeId": "A025",
-    "value": "ParenConfID217"
+    "value": "SEPIO-CG:99008"
   },
   {
     "subjectId": "IndAllInh087",
     "attributeId": "A074",
-    "value": "AlleleInhID197"
+    "value": "GENO:0000880"
   },
   {
     "subjectId": "IndAllInh087",
@@ -2001,22 +2001,22 @@
   {
     "subjectId": "IndAllInh088",
     "attributeId": "A022",
-    "value": "CanAll059"
+    "value": "CAR:CA090951"
   },
   {
     "subjectId": "IndAllInh088",
     "attributeId": "A023",
-    "value": "Indiv340"
+    "value": "CG-EX:Indiv340"
   },
   {
     "subjectId": "IndAllInh088",
     "attributeId": "A025",
-    "value": "ParenConfID217"
+    "value": "SEPIO-CG:99008"
   },
   {
     "subjectId": "IndAllInh088",
     "attributeId": "A074",
-    "value": "AlleleInhID197"
+    "value": "GENO:0000880"
   },
   {
     "subjectId": "IndAllInh088",
@@ -2026,7 +2026,7 @@
   {
     "subjectId": "IndCond089",
     "attributeId": "A016",
-    "value": "Indiv341"
+    "value": "CG-EX:Indiv341"
   },
   {
     "subjectId": "IndCond089",
@@ -2036,12 +2036,12 @@
   {
     "subjectId": "IndCond089",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "FamCond090",
     "attributeId": "A019",
-    "value": "Indiv341"
+    "value": "CG-EX:Indiv341"
   },
   {
     "subjectId": "FamCond090",
@@ -2051,27 +2051,27 @@
   {
     "subjectId": "FamCond090",
     "attributeId": "A021",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "IndAllInh091",
     "attributeId": "A022",
-    "value": "CanAll060"
+    "value": "CAR:CA279966"
   },
   {
     "subjectId": "IndAllInh091",
     "attributeId": "A023",
-    "value": "Indiv341"
+    "value": "CG-EX:Indiv341"
   },
   {
     "subjectId": "IndAllInh091",
     "attributeId": "A025",
-    "value": "ParenConfID217"
+    "value": "SEPIO-CG:99008"
   },
   {
     "subjectId": "IndAllInh091",
     "attributeId": "A074",
-    "value": "AlleleInhID197"
+    "value": "GENO:0000880"
   },
   {
     "subjectId": "IndAllInh091",
@@ -2081,7 +2081,7 @@
   {
     "subjectId": "IndCond092",
     "attributeId": "A016",
-    "value": "Indiv342"
+    "value": "CG-EX:Indiv342"
   },
   {
     "subjectId": "IndCond092",
@@ -2091,12 +2091,12 @@
   {
     "subjectId": "IndCond092",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "FamCond093",
     "attributeId": "A019",
-    "value": "Indiv342"
+    "value": "CG-EX:Indiv342"
   },
   {
     "subjectId": "FamCond093",
@@ -2106,32 +2106,32 @@
   {
     "subjectId": "FamCond093",
     "attributeId": "A021",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "IndAllInh094",
     "attributeId": "A022",
-    "value": "CanAll061"
+    "value": "CAR:CA279976"
   },
   {
     "subjectId": "IndAllInh094",
     "attributeId": "A023",
-    "value": "Indiv342"
+    "value": "CG-EX:Indiv342"
   },
   {
     "subjectId": "IndAllInh094",
     "attributeId": "A025",
-    "value": "ParenConfID217"
+    "value": "SEPIO-CG:99008"
   },
   {
     "subjectId": "IndAllInh094",
     "attributeId": "A074",
-    "value": "AlleleInhID197"
+    "value": "GENO:0000880"
   },
   {
     "subjectId": "IndCond095",
     "attributeId": "A016",
-    "value": "Indiv343"
+    "value": "CG-EX:Indiv343"
   },
   {
     "subjectId": "IndCond095",
@@ -2141,12 +2141,12 @@
   {
     "subjectId": "IndCond095",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "FamCond096",
     "attributeId": "A019",
-    "value": "Indiv343"
+    "value": "CG-EX:Indiv343"
   },
   {
     "subjectId": "FamCond096",
@@ -2156,32 +2156,32 @@
   {
     "subjectId": "FamCond096",
     "attributeId": "A021",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "IndAllInh097",
     "attributeId": "A022",
-    "value": "CanAll061"
+    "value": "CAR:CA279976"
   },
   {
     "subjectId": "IndAllInh097",
     "attributeId": "A023",
-    "value": "Indiv343"
+    "value": "CG-EX:Indiv343"
   },
   {
     "subjectId": "IndAllInh097",
     "attributeId": "A025",
-    "value": "ParenConfID217"
+    "value": "SEPIO-CG:99008"
   },
   {
     "subjectId": "IndAllInh097",
     "attributeId": "A074",
-    "value": "AlleleInhID197"
+    "value": "GENO:0000880"
   },
   {
     "subjectId": "IndCond098",
     "attributeId": "A016",
-    "value": "Indiv344"
+    "value": "CG-EX:Indiv344"
   },
   {
     "subjectId": "IndCond098",
@@ -2191,12 +2191,12 @@
   {
     "subjectId": "IndCond098",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "FamCond099",
     "attributeId": "A019",
-    "value": "Indiv344"
+    "value": "CG-EX:Indiv344"
   },
   {
     "subjectId": "FamCond099",
@@ -2206,42 +2206,42 @@
   {
     "subjectId": "FamCond099",
     "attributeId": "A021",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "IndAllInh100",
     "attributeId": "A022",
-    "value": "CanAll061"
+    "value": "CAR:CA279976"
   },
   {
     "subjectId": "IndAllInh100",
     "attributeId": "A023",
-    "value": "Indiv344"
+    "value": "CG-EX:Indiv344"
   },
   {
     "subjectId": "IndAllInh100",
     "attributeId": "A025",
-    "value": "ParenConfID217"
+    "value": "SEPIO-CG:99008"
   },
   {
     "subjectId": "IndAllInh100",
     "attributeId": "A074",
-    "value": "AlleleInhID197"
+    "value": "GENO:0000880"
   },
   {
     "subjectId": "AllFreq101",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq101",
     "attributeId": "A047",
-    "value": "PopID093"
+    "value": "SEPIO-CG:98001"
   },
   {
     "subjectId": "AllFreq101",
     "attributeId": "A031",
-    "value": "CanAll125"
+    "value": "CAR:CA280055"
   },
   {
     "subjectId": "AllFreq101",
@@ -2261,12 +2261,12 @@
   {
     "subjectId": "BMVR102",
     "attributeId": "A076",
-    "value": "Loc434"
+    "value": "CG-EX:Loc434"
   },
   {
     "subjectId": "BMVR102",
     "attributeId": "A080",
-    "value": "BMVROID129"
+    "value": "SEPIO:0000266"
   },
   {
     "subjectId": "BMVR102",
@@ -2281,12 +2281,12 @@
   {
     "subjectId": "FamSeg103",
     "attributeId": "A082",
-    "value": "CanAll063"
+    "value": "CAR:CA010136"
   },
   {
     "subjectId": "FamSeg103",
     "attributeId": "A083",
-    "value": "Fam363"
+    "value": "CG-EX:Fam363"
   },
   {
     "subjectId": "FamSeg103",
@@ -2321,12 +2321,12 @@
   {
     "subjectId": "FamSeg104",
     "attributeId": "A082",
-    "value": "CanAll063"
+    "value": "CAR:CA010136"
   },
   {
     "subjectId": "FamSeg104",
     "attributeId": "A083",
-    "value": "Fam364"
+    "value": "CG-EX:Fam364"
   },
   {
     "subjectId": "FamSeg104",
@@ -2356,7 +2356,7 @@
   {
     "subjectId": "AggSeg105",
     "attributeId": "A086",
-    "value": "CanAll063"
+    "value": "CAR:CA010136"
   },
   {
     "subjectId": "AggSeg105",
@@ -2376,22 +2376,22 @@
   {
     "subjectId": "IndAllInh106",
     "attributeId": "A022",
-    "value": "CanAll125"
+    "value": "CAR:CA280055"
   },
   {
     "subjectId": "IndAllInh106",
     "attributeId": "A023",
-    "value": "Indiv362"
+    "value": "CG-EX:Indiv362"
   },
   {
     "subjectId": "IndAllInh106",
     "attributeId": "A025",
-    "value": "ParenConfID217"
+    "value": "SEPIO-CG:99008"
   },
   {
     "subjectId": "IndAllInh106",
     "attributeId": "A074",
-    "value": "AlleleInhID197"
+    "value": "GENO:0000880"
   },
   {
     "subjectId": "FamSeg107",
@@ -2401,12 +2401,12 @@
   {
     "subjectId": "FamSeg107",
     "attributeId": "A082",
-    "value": "CanAll062"
+    "value": "CAR:CA143213"
   },
   {
     "subjectId": "FamSeg107",
     "attributeId": "A083",
-    "value": "Fam365"
+    "value": "CG-EX:Fam365"
   },
   {
     "subjectId": "FamSeg107",
@@ -2426,12 +2426,12 @@
   {
     "subjectId": "FamSeg108",
     "attributeId": "A082",
-    "value": "CanAll062"
+    "value": "CAR:CA143213"
   },
   {
     "subjectId": "FamSeg108",
     "attributeId": "A083",
-    "value": "Fam366"
+    "value": "CG-EX:Fam366"
   },
   {
     "subjectId": "FamSeg108",
@@ -2446,7 +2446,7 @@
   {
     "subjectId": "AggSeg109",
     "attributeId": "A086",
-    "value": "CanAll062"
+    "value": "CAR:CA143213"
   },
   {
     "subjectId": "AggSeg109",
@@ -2466,7 +2466,7 @@
   {
     "subjectId": "IndCond110",
     "attributeId": "A016",
-    "value": "Indiv362"
+    "value": "CG-EX:Indiv362"
   },
   {
     "subjectId": "IndCond110",
@@ -2476,7 +2476,7 @@
   {
     "subjectId": "IndCond110",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "FamSeg111",
@@ -2486,12 +2486,12 @@
   {
     "subjectId": "FamSeg111",
     "attributeId": "A082",
-    "value": "CanAll064"
+    "value": "CAR:CA501226"
   },
   {
     "subjectId": "FamSeg111",
     "attributeId": "A083",
-    "value": "Fam367"
+    "value": "CG-EX:Fam367"
   },
   {
     "subjectId": "FamSeg111",
@@ -2501,7 +2501,7 @@
   {
     "subjectId": "FamCond112",
     "attributeId": "A019",
-    "value": "Indiv362"
+    "value": "CG-EX:Indiv362"
   },
   {
     "subjectId": "FamCond112",
@@ -2511,7 +2511,7 @@
   {
     "subjectId": "FamCond112",
     "attributeId": "A021",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "FamSeg113",
@@ -2521,12 +2521,12 @@
   {
     "subjectId": "FamSeg113",
     "attributeId": "A082",
-    "value": "CanAll065"
+    "value": "CAR:CA006429"
   },
   {
     "subjectId": "FamSeg113",
     "attributeId": "A083",
-    "value": "Fam368"
+    "value": "CG-EX:Fam368"
   },
   {
     "subjectId": "FamSeg113",
@@ -2566,12 +2566,12 @@
   {
     "subjectId": "FamSeg114",
     "attributeId": "A082",
-    "value": "CanAll065"
+    "value": "CAR:CA006429"
   },
   {
     "subjectId": "FamSeg114",
     "attributeId": "A083",
-    "value": "Fam369"
+    "value": "CG-EX:Fam369"
   },
   {
     "subjectId": "FamSeg114",
@@ -2606,7 +2606,7 @@
   {
     "subjectId": "AggSeg115",
     "attributeId": "A086",
-    "value": "CanAll065"
+    "value": "CAR:CA006429"
   },
   {
     "subjectId": "AggSeg115",
@@ -2631,12 +2631,12 @@
   {
     "subjectId": "AllConservScore116",
     "attributeId": "A185",
-    "value": "CanAll118"
+    "value": "CAR:CA013536"
   },
   {
     "subjectId": "AllConservScore116",
     "attributeId": "A186",
-    "value": "ConsrvID212"
+    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConservScore116",
@@ -2651,22 +2651,22 @@
   {
     "subjectId": "MolCon117",
     "attributeId": "A009",
-    "value": "CtxAll070"
+    "value": "CG-EX:CtxAll070"
   },
   {
     "subjectId": "MolCon117",
     "attributeId": "A001",
-    "value": "MolConID011"
+    "value": "SO:0001583"
   },
   {
     "subjectId": "CondMech118",
     "attributeId": "A002",
-    "value": "MolConID011"
+    "value": "SO:0001583"
   },
   {
     "subjectId": "CondMech118",
     "attributeId": "A003",
-    "value": "CondMechStrgID133"
+    "value": "SEPIO:0000268"
   },
   {
     "subjectId": "CondMech118",
@@ -2686,7 +2686,7 @@
   {
     "subjectId": "BMVR119",
     "attributeId": "A080",
-    "value": "BMVROID129"
+    "value": "SEPIO:0000266"
   },
   {
     "subjectId": "BMVR119",
@@ -2701,12 +2701,12 @@
   {
     "subjectId": "InSilicoPred120",
     "attributeId": "A096",
-    "value": "CanAll067"
+    "value": "CAR:CA090928"
   },
   {
     "subjectId": "InSilicoPred120",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred120",
@@ -2726,12 +2726,12 @@
   {
     "subjectId": "InSilicoPred121",
     "attributeId": "A096",
-    "value": "CanAll067"
+    "value": "CAR:CA090928"
   },
   {
     "subjectId": "InSilicoPred121",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred121",
@@ -2751,12 +2751,12 @@
   {
     "subjectId": "InSilicoPred122",
     "attributeId": "A096",
-    "value": "CanAll067"
+    "value": "CAR:CA090928"
   },
   {
     "subjectId": "InSilicoPred122",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred122",
@@ -2776,12 +2776,12 @@
   {
     "subjectId": "InSilicoPred123",
     "attributeId": "A096",
-    "value": "CanAll067"
+    "value": "CAR:CA090928"
   },
   {
     "subjectId": "InSilicoPred123",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred123",
@@ -2801,12 +2801,12 @@
   {
     "subjectId": "InSilicoPred124",
     "attributeId": "A096",
-    "value": "CanAll067"
+    "value": "CAR:CA090928"
   },
   {
     "subjectId": "InSilicoPred124",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred124",
@@ -2826,12 +2826,12 @@
   {
     "subjectId": "InSilicoPred125",
     "attributeId": "A096",
-    "value": "CanAll067"
+    "value": "CAR:CA090928"
   },
   {
     "subjectId": "InSilicoPred125",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred125",
@@ -2851,12 +2851,12 @@
   {
     "subjectId": "InSilicoPred126",
     "attributeId": "A096",
-    "value": "CanAll067"
+    "value": "CAR:CA090928"
   },
   {
     "subjectId": "InSilicoPred126",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred126",
@@ -2876,12 +2876,12 @@
   {
     "subjectId": "InSilicoPred127",
     "attributeId": "A096",
-    "value": "CanAll067"
+    "value": "CAR:CA090928"
   },
   {
     "subjectId": "InSilicoPred127",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred127",
@@ -2901,12 +2901,12 @@
   {
     "subjectId": "InSilicoPred128",
     "attributeId": "A096",
-    "value": "CanAll067"
+    "value": "CAR:CA090928"
   },
   {
     "subjectId": "InSilicoPred128",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred128",
@@ -2926,12 +2926,12 @@
   {
     "subjectId": "InSilicoPred129",
     "attributeId": "A096",
-    "value": "CanAll068"
+    "value": "CAR:CA090884"
   },
   {
     "subjectId": "InSilicoPred129",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred129",
@@ -2951,12 +2951,12 @@
   {
     "subjectId": "InSilicoPred130",
     "attributeId": "A096",
-    "value": "CanAll068"
+    "value": "CAR:CA090884"
   },
   {
     "subjectId": "InSilicoPred130",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred130",
@@ -2976,12 +2976,12 @@
   {
     "subjectId": "InSilicoPred131",
     "attributeId": "A096",
-    "value": "CanAll068"
+    "value": "CAR:CA090884"
   },
   {
     "subjectId": "InSilicoPred131",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred131",
@@ -3001,12 +3001,12 @@
   {
     "subjectId": "InSilicoPred132",
     "attributeId": "A096",
-    "value": "CanAll068"
+    "value": "CAR:CA090884"
   },
   {
     "subjectId": "InSilicoPred132",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred132",
@@ -3026,12 +3026,12 @@
   {
     "subjectId": "InSilicoPred133",
     "attributeId": "A096",
-    "value": "CanAll068"
+    "value": "CAR:CA090884"
   },
   {
     "subjectId": "InSilicoPred133",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred133",
@@ -3051,12 +3051,12 @@
   {
     "subjectId": "InSilicoPred134",
     "attributeId": "A096",
-    "value": "CanAll068"
+    "value": "CAR:CA090884"
   },
   {
     "subjectId": "InSilicoPred134",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred134",
@@ -3076,12 +3076,12 @@
   {
     "subjectId": "InSilicoPred135",
     "attributeId": "A096",
-    "value": "CanAll068"
+    "value": "CAR:CA090884"
   },
   {
     "subjectId": "InSilicoPred135",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred135",
@@ -3101,12 +3101,12 @@
   {
     "subjectId": "InSilicoPred136",
     "attributeId": "A096",
-    "value": "CanAll068"
+    "value": "CAR:CA090884"
   },
   {
     "subjectId": "InSilicoPred136",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred136",
@@ -3126,12 +3126,12 @@
   {
     "subjectId": "InSilicoPred137",
     "attributeId": "A096",
-    "value": "CanAll068"
+    "value": "CAR:CA090884"
   },
   {
     "subjectId": "InSilicoPred137",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred137",
@@ -3151,12 +3151,12 @@
   {
     "subjectId": "InSilicoPred138",
     "attributeId": "A096",
-    "value": "CanAll069"
+    "value": "CAR:CA022019"
   },
   {
     "subjectId": "InSilicoPred138",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred138",
@@ -3176,12 +3176,12 @@
   {
     "subjectId": "InSilicoPred139",
     "attributeId": "A096",
-    "value": "CanAll069"
+    "value": "CAR:CA022019"
   },
   {
     "subjectId": "InSilicoPred139",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred139",
@@ -3201,12 +3201,12 @@
   {
     "subjectId": "InSilicoPred140",
     "attributeId": "A096",
-    "value": "CanAll069"
+    "value": "CAR:CA022019"
   },
   {
     "subjectId": "InSilicoPred140",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred140",
@@ -3226,12 +3226,12 @@
   {
     "subjectId": "InSilicoPred141",
     "attributeId": "A096",
-    "value": "CanAll069"
+    "value": "CAR:CA022019"
   },
   {
     "subjectId": "InSilicoPred141",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred141",
@@ -3251,12 +3251,12 @@
   {
     "subjectId": "InSilicoPred142",
     "attributeId": "A096",
-    "value": "CanAll069"
+    "value": "CAR:CA022019"
   },
   {
     "subjectId": "InSilicoPred142",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred142",
@@ -3276,12 +3276,12 @@
   {
     "subjectId": "InSilicoPredScore143",
     "attributeId": "A181",
-    "value": "CanAll069"
+    "value": "CAR:CA022019"
   },
   {
     "subjectId": "InSilicoPredScore143",
     "attributeId": "A183",
-    "value": "PredID073"
+    "value": "SEPIO:0000323"
   },
   {
     "subjectId": "InSilicoPredScore143",
@@ -3301,12 +3301,12 @@
   {
     "subjectId": "InSilicoPredScore144",
     "attributeId": "A181",
-    "value": "CanAll069"
+    "value": "CAR:CA022019"
   },
   {
     "subjectId": "InSilicoPredScore144",
     "attributeId": "A183",
-    "value": "PredID073"
+    "value": "SEPIO:0000323"
   },
   {
     "subjectId": "InSilicoPredScore144",
@@ -3326,12 +3326,12 @@
   {
     "subjectId": "InSilicoPredScore145",
     "attributeId": "A181",
-    "value": "CanAll069"
+    "value": "CAR:CA022019"
   },
   {
     "subjectId": "InSilicoPredScore145",
     "attributeId": "A183",
-    "value": "PredID073"
+    "value": "SEPIO:0000323"
   },
   {
     "subjectId": "InSilicoPredScore145",
@@ -3351,12 +3351,12 @@
   {
     "subjectId": "InSilicoPredScore146",
     "attributeId": "A181",
-    "value": "CanAll069"
+    "value": "CAR:CA022019"
   },
   {
     "subjectId": "InSilicoPredScore146",
     "attributeId": "A183",
-    "value": "PredID073"
+    "value": "SEPIO:0000323"
   },
   {
     "subjectId": "InSilicoPredScore146",
@@ -3376,12 +3376,12 @@
   {
     "subjectId": "InSilicoPredScore147",
     "attributeId": "A181",
-    "value": "CanAll069"
+    "value": "CAR:CA022019"
   },
   {
     "subjectId": "InSilicoPredScore147",
     "attributeId": "A183",
-    "value": "PredID073"
+    "value": "SEPIO:0000323"
   },
   {
     "subjectId": "InSilicoPredScore147",
@@ -3406,7 +3406,7 @@
   {
     "subjectId": "LocHet148",
     "attributeId": "A102",
-    "value": "LocSpecID211"
+    "value": "SEPIO-CG:99002"
   },
   {
     "subjectId": "LocHet148",
@@ -3426,7 +3426,7 @@
   {
     "subjectId": "LocHet149",
     "attributeId": "A102",
-    "value": "LocSpecID209"
+    "value": "SEPIO:0000273"
   },
   {
     "subjectId": "LocHet149",
@@ -3436,7 +3436,7 @@
   {
     "subjectId": "VarInterp150",
     "attributeId": "A122",
-    "value": "CanAll072"
+    "value": "CAR:CA019369"
   },
   {
     "subjectId": "VarInterp150",
@@ -3446,7 +3446,7 @@
   {
     "subjectId": "VarInterp150",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "VarInterp150",
@@ -3456,7 +3456,7 @@
   {
     "subjectId": "VarInterp151",
     "attributeId": "A122",
-    "value": "CanAll073"
+    "value": "CAR:CA128479"
   },
   {
     "subjectId": "VarInterp151",
@@ -3466,7 +3466,7 @@
   {
     "subjectId": "VarInterp151",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "VarInterp151",
@@ -3476,7 +3476,7 @@
   {
     "subjectId": "VarInterp152",
     "attributeId": "A122",
-    "value": "CanAll074"
+    "value": "CAR:CA276116"
   },
   {
     "subjectId": "VarInterp152",
@@ -3486,7 +3486,7 @@
   {
     "subjectId": "VarInterp152",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "VarInterp152",
@@ -3496,17 +3496,17 @@
   {
     "subjectId": "AllFreq153",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq153",
     "attributeId": "A047",
-    "value": "PopID093"
+    "value": "SEPIO-CG:98001"
   },
   {
     "subjectId": "AllFreq153",
     "attributeId": "A031",
-    "value": "CanAll075"
+    "value": "CAR:CA090891"
   },
   {
     "subjectId": "AllFreq153",
@@ -3531,17 +3531,17 @@
   {
     "subjectId": "AllFreq154",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq154",
     "attributeId": "A047",
-    "value": "PopID093"
+    "value": "SEPIO-CG:98001"
   },
   {
     "subjectId": "AllFreq154",
     "attributeId": "A031",
-    "value": "CanAll076"
+    "value": "CAR:CA134997"
   },
   {
     "subjectId": "AllFreq154",
@@ -3566,17 +3566,17 @@
   {
     "subjectId": "AllFreq155",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq155",
     "attributeId": "A047",
-    "value": "PopID088"
+    "value": "BROAD-population-type:eas"
   },
   {
     "subjectId": "AllFreq155",
     "attributeId": "A031",
-    "value": "CanAll076"
+    "value": "CAR:CA134997"
   },
   {
     "subjectId": "AllFreq155",
@@ -3606,12 +3606,12 @@
   {
     "subjectId": "CritAssess156",
     "attributeId": "A117",
-    "value": "CanAll093"
+    "value": "CAR:CA256496"
   },
   {
     "subjectId": "CritAssess156",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess156",
@@ -3631,17 +3631,17 @@
   {
     "subjectId": "AllFreq157",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq157",
     "attributeId": "A047",
-    "value": "PopID093"
+    "value": "SEPIO-CG:98001"
   },
   {
     "subjectId": "AllFreq157",
     "attributeId": "A031",
-    "value": "CanAll077"
+    "value": "CAR:CA501229"
   },
   {
     "subjectId": "AllFreq157",
@@ -3666,17 +3666,17 @@
   {
     "subjectId": "AllFreq158",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq158",
     "attributeId": "A047",
-    "value": "PopID093"
+    "value": "SEPIO-CG:98001"
   },
   {
     "subjectId": "AllFreq158",
     "attributeId": "A031",
-    "value": "CanAll078"
+    "value": "CAR:CA017597"
   },
   {
     "subjectId": "AllFreq158",
@@ -3716,7 +3716,7 @@
   {
     "subjectId": "CondPrev159",
     "attributeId": "A106",
-    "value": "PopID094"
+    "value": "SEPIO-CG:98002"
   },
   {
     "subjectId": "CondPenet160",
@@ -3726,7 +3726,7 @@
   {
     "subjectId": "CondPenet160",
     "attributeId": "A108",
-    "value": "PenetID131"
+    "value": "HP:000XXX2"
   },
   {
     "subjectId": "BMVR161",
@@ -3736,7 +3736,7 @@
   {
     "subjectId": "BMVR161",
     "attributeId": "A080",
-    "value": "BMVROID128"
+    "value": "SEPIO:0000265"
   },
   {
     "subjectId": "BMVR161",
@@ -3746,17 +3746,17 @@
   {
     "subjectId": "AllFreq162",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq162",
     "attributeId": "A047",
-    "value": "PopID093"
+    "value": "SEPIO-CG:98001"
   },
   {
     "subjectId": "AllFreq162",
     "attributeId": "A031",
-    "value": "CanAll079"
+    "value": "CAR:CA090926"
   },
   {
     "subjectId": "AllFreq162",
@@ -3796,7 +3796,7 @@
   {
     "subjectId": "CondPrev163",
     "attributeId": "A106",
-    "value": "PopID094"
+    "value": "SEPIO-CG:98002"
   },
   {
     "subjectId": "CondPenet164",
@@ -3806,17 +3806,17 @@
   {
     "subjectId": "CondPenet164",
     "attributeId": "A108",
-    "value": "PenetID131"
+    "value": "HP:000XXX2"
   },
   {
     "subjectId": "CondMech165",
     "attributeId": "A002",
-    "value": "MolConID011"
+    "value": "SO:0001583"
   },
   {
     "subjectId": "CondMech165",
     "attributeId": "A003",
-    "value": "CondMechStrgID133"
+    "value": "SEPIO:0000268"
   },
   {
     "subjectId": "CondMech165",
@@ -3836,17 +3836,17 @@
   {
     "subjectId": "AllFreq166",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq166",
     "attributeId": "A047",
-    "value": "PopID093"
+    "value": "SEPIO-CG:98001"
   },
   {
     "subjectId": "AllFreq166",
     "attributeId": "A031",
-    "value": "CanAll080"
+    "value": "CAR:CA501230"
   },
   {
     "subjectId": "AllFreq166",
@@ -3876,7 +3876,7 @@
   {
     "subjectId": "CondPrev167",
     "attributeId": "A106",
-    "value": "PopID094"
+    "value": "SEPIO-CG:98002"
   },
   {
     "subjectId": "CondPenet168",
@@ -3886,17 +3886,17 @@
   {
     "subjectId": "CondPenet168",
     "attributeId": "A108",
-    "value": "PenetID131"
+    "value": "HP:000XXX2"
   },
   {
     "subjectId": "MolCon169",
     "attributeId": "A009",
-    "value": "CtxAll099"
+    "value": "CG-EX:CtxAll099"
   },
   {
     "subjectId": "MolCon169",
     "attributeId": "A001",
-    "value": "MolConID011"
+    "value": "SO:0001583"
   },
   {
     "subjectId": "CondPenet170",
@@ -3906,7 +3906,7 @@
   {
     "subjectId": "CondPenet170",
     "attributeId": "A108",
-    "value": "PenetID130"
+    "value": "HP:000XXX1"
   },
   {
     "subjectId": "CondPenet170",
@@ -3916,12 +3916,12 @@
   {
     "subjectId": "AllConservScore171",
     "attributeId": "A185",
-    "value": "CanAll118"
+    "value": "CAR:CA013536"
   },
   {
     "subjectId": "AllConservScore171",
     "attributeId": "A186",
-    "value": "ConsrvID212"
+    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConservScore171",
@@ -3936,27 +3936,27 @@
   {
     "subjectId": "IndGeno172",
     "attributeId": "A065",
-    "value": "Indiv345"
+    "value": "CG-EX:Indiv345"
   },
   {
     "subjectId": "IndGeno172",
     "attributeId": "A066",
-    "value": "Geno385"
+    "value": "CG-EX:Geno385"
   },
   {
     "subjectId": "IndGeno173",
     "attributeId": "A065",
-    "value": "Indiv346"
+    "value": "CG-EX:Indiv346"
   },
   {
     "subjectId": "IndGeno173",
     "attributeId": "A066",
-    "value": "Geno387"
+    "value": "CG-EX:Geno387"
   },
   {
     "subjectId": "IndCond174",
     "attributeId": "A016",
-    "value": "Indiv345"
+    "value": "CG-EX:Indiv345"
   },
   {
     "subjectId": "IndCond174",
@@ -3966,12 +3966,12 @@
   {
     "subjectId": "IndCond174",
     "attributeId": "A018",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "IndCond175",
     "attributeId": "A016",
-    "value": "Indiv346"
+    "value": "CG-EX:Indiv346"
   },
   {
     "subjectId": "IndCond175",
@@ -3981,7 +3981,7 @@
   {
     "subjectId": "IndCond175",
     "attributeId": "A018",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "CondPenet176",
@@ -3991,7 +3991,7 @@
   {
     "subjectId": "CondPenet176",
     "attributeId": "A108",
-    "value": "PenetID130"
+    "value": "HP:000XXX1"
   },
   {
     "subjectId": "CondPenet176",
@@ -4001,47 +4001,47 @@
   {
     "subjectId": "IndGeno178",
     "attributeId": "A065",
-    "value": "Indiv347"
+    "value": "CG-EX:Indiv347"
   },
   {
     "subjectId": "IndGeno178",
     "attributeId": "A066",
-    "value": "Geno389"
+    "value": "CG-EX:Geno389"
   },
   {
     "subjectId": "IndGeno179",
     "attributeId": "A065",
-    "value": "Indiv348"
+    "value": "CG-EX:Indiv348"
   },
   {
     "subjectId": "IndGeno179",
     "attributeId": "A066",
-    "value": "Geno391"
+    "value": "CG-EX:Geno391"
   },
   {
     "subjectId": "IndGeno180",
     "attributeId": "A065",
-    "value": "Indiv349"
+    "value": "CG-EX:Indiv349"
   },
   {
     "subjectId": "IndGeno180",
     "attributeId": "A066",
-    "value": "Geno393"
+    "value": "CG-EX:Geno393"
   },
   {
     "subjectId": "IndGeno181",
     "attributeId": "A065",
-    "value": "Indiv350"
+    "value": "CG-EX:Indiv350"
   },
   {
     "subjectId": "IndGeno181",
     "attributeId": "A066",
-    "value": "Geno395"
+    "value": "CG-EX:Geno395"
   },
   {
     "subjectId": "IndCond182",
     "attributeId": "A016",
-    "value": "Indiv347"
+    "value": "CG-EX:Indiv347"
   },
   {
     "subjectId": "IndCond182",
@@ -4051,12 +4051,12 @@
   {
     "subjectId": "IndCond182",
     "attributeId": "A018",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "IndCond183",
     "attributeId": "A016",
-    "value": "Indiv348"
+    "value": "CG-EX:Indiv348"
   },
   {
     "subjectId": "IndCond183",
@@ -4066,12 +4066,12 @@
   {
     "subjectId": "IndCond183",
     "attributeId": "A018",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "IndCond184",
     "attributeId": "A016",
-    "value": "Indiv349"
+    "value": "CG-EX:Indiv349"
   },
   {
     "subjectId": "IndCond184",
@@ -4081,12 +4081,12 @@
   {
     "subjectId": "IndCond184",
     "attributeId": "A018",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "IndCond185",
     "attributeId": "A016",
-    "value": "Indiv350"
+    "value": "CG-EX:Indiv350"
   },
   {
     "subjectId": "IndCond185",
@@ -4096,7 +4096,7 @@
   {
     "subjectId": "IndCond185",
     "attributeId": "A018",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "CondPenet186",
@@ -4106,7 +4106,7 @@
   {
     "subjectId": "CondPenet186",
     "attributeId": "A108",
-    "value": "PenetID130"
+    "value": "HP:000XXX1"
   },
   {
     "subjectId": "CondPenet186",
@@ -4116,27 +4116,27 @@
   {
     "subjectId": "IndGeno188",
     "attributeId": "A065",
-    "value": "Indiv351"
+    "value": "CG-EX:Indiv351"
   },
   {
     "subjectId": "IndGeno188",
     "attributeId": "A066",
-    "value": "Geno397"
+    "value": "CG-EX:Geno397"
   },
   {
     "subjectId": "IndGeno189",
     "attributeId": "A065",
-    "value": "Indiv352"
+    "value": "CG-EX:Indiv352"
   },
   {
     "subjectId": "IndGeno189",
     "attributeId": "A066",
-    "value": "Geno399"
+    "value": "CG-EX:Geno399"
   },
   {
     "subjectId": "IndCond190",
     "attributeId": "A016",
-    "value": "Indiv351"
+    "value": "CG-EX:Indiv351"
   },
   {
     "subjectId": "IndCond190",
@@ -4146,12 +4146,12 @@
   {
     "subjectId": "IndCond190",
     "attributeId": "A018",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "IndCond191",
     "attributeId": "A016",
-    "value": "Indiv352"
+    "value": "CG-EX:Indiv352"
   },
   {
     "subjectId": "IndCond191",
@@ -4161,7 +4161,7 @@
   {
     "subjectId": "IndCond191",
     "attributeId": "A018",
-    "value": "CondStatID219"
+    "value": "SEPIO-CG:99010"
   },
   {
     "subjectId": "Func192",
@@ -4176,7 +4176,7 @@
   {
     "subjectId": "Func192",
     "attributeId": "A028",
-    "value": "CtxAll092"
+    "value": "CG-EX:CtxAll092"
   },
   {
     "subjectId": "Func192",
@@ -4196,7 +4196,7 @@
   {
     "subjectId": "Func193",
     "attributeId": "A028",
-    "value": "CtxAll092"
+    "value": "CG-EX:CtxAll092"
   },
   {
     "subjectId": "Func193",
@@ -4221,7 +4221,7 @@
   {
     "subjectId": "Func194",
     "attributeId": "A028",
-    "value": "CtxAll093"
+    "value": "CG-EX:CtxAll093"
   },
   {
     "subjectId": "Func194",
@@ -4241,7 +4241,7 @@
   {
     "subjectId": "Func195",
     "attributeId": "A028",
-    "value": "CtxAll093"
+    "value": "CG-EX:CtxAll093"
   },
   {
     "subjectId": "Func195",
@@ -4256,12 +4256,12 @@
   {
     "subjectId": "FamSeg196",
     "attributeId": "A082",
-    "value": "CanAll088"
+    "value": "CAR:CA023690"
   },
   {
     "subjectId": "FamSeg196",
     "attributeId": "A083",
-    "value": "Fam370"
+    "value": "CG-EX:Fam370"
   },
   {
     "subjectId": "FamSeg196",
@@ -4276,7 +4276,7 @@
   {
     "subjectId": "FamSeg196",
     "attributeId": "A110",
-    "value": "InconSegObsID220"
+    "value": "SEPIO-CG:99011"
   },
   {
     "subjectId": "FamSeg196",
@@ -4291,12 +4291,12 @@
   {
     "subjectId": "FamSeg197",
     "attributeId": "A082",
-    "value": "CanAll089"
+    "value": "CAR:CA010777"
   },
   {
     "subjectId": "FamSeg197",
     "attributeId": "A083",
-    "value": "Fam371"
+    "value": "CG-EX:Fam371"
   },
   {
     "subjectId": "FamSeg197",
@@ -4311,7 +4311,7 @@
   {
     "subjectId": "FamSeg197",
     "attributeId": "A110",
-    "value": "InconSegObsID220"
+    "value": "SEPIO-CG:99011"
   },
   {
     "subjectId": "FamSeg197",
@@ -4321,22 +4321,22 @@
   {
     "subjectId": "MolCon198",
     "attributeId": "A009",
-    "value": "CtxAll097"
+    "value": "CG-EX:CtxAll097"
   },
   {
     "subjectId": "MolCon198",
     "attributeId": "A001",
-    "value": "MolConID011"
+    "value": "SO:0001583"
   },
   {
     "subjectId": "CondMech199",
     "attributeId": "A002",
-    "value": "MechID071"
+    "value": "SO:0002054"
   },
   {
     "subjectId": "CondMech199",
     "attributeId": "A003",
-    "value": "CondMechStrgID135"
+    "value": "SEPIO:0000270"
   },
   {
     "subjectId": "CondMech199",
@@ -4356,12 +4356,12 @@
   {
     "subjectId": "CondMech200",
     "attributeId": "A002",
-    "value": "MechID071"
+    "value": "SO:0002054"
   },
   {
     "subjectId": "CondMech200",
     "attributeId": "A003",
-    "value": "CondMechStrgID135"
+    "value": "SEPIO:0000270"
   },
   {
     "subjectId": "CondMech200",
@@ -4381,22 +4381,22 @@
   {
     "subjectId": "MolCon201",
     "attributeId": "A009",
-    "value": "CtxAll098"
+    "value": "CG-EX:CtxAll098"
   },
   {
     "subjectId": "MolCon201",
     "attributeId": "A001",
-    "value": "MolConID011"
+    "value": "SO:0001583"
   },
   {
     "subjectId": "CondMech202",
     "attributeId": "A002",
-    "value": "MechID071"
+    "value": "SO:0002054"
   },
   {
     "subjectId": "CondMech202",
     "attributeId": "A003",
-    "value": "CondMechStrgID135"
+    "value": "SEPIO:0000270"
   },
   {
     "subjectId": "CondMech202",
@@ -4416,22 +4416,22 @@
   {
     "subjectId": "MolCon203",
     "attributeId": "A009",
-    "value": "CtxAll099"
+    "value": "CG-EX:CtxAll099"
   },
   {
     "subjectId": "MolCon203",
     "attributeId": "A001",
-    "value": "MolConID011"
+    "value": "SO:0001583"
   },
   {
     "subjectId": "CondMech204",
     "attributeId": "A002",
-    "value": "MechID071"
+    "value": "SO:0002054"
   },
   {
     "subjectId": "CondMech204",
     "attributeId": "A003",
-    "value": "CondMechStrgID135"
+    "value": "SEPIO:0000270"
   },
   {
     "subjectId": "CondMech204",
@@ -4446,12 +4446,12 @@
   {
     "subjectId": "CondMech205",
     "attributeId": "A002",
-    "value": "MolConID011"
+    "value": "SO:0001583"
   },
   {
     "subjectId": "CondMech205",
     "attributeId": "A003",
-    "value": "CondMechStrgID134"
+    "value": "SEPIO:0000269"
   },
   {
     "subjectId": "CondMech205",
@@ -4471,27 +4471,27 @@
   {
     "subjectId": "IndGeno206",
     "attributeId": "A065",
-    "value": "Indiv353"
+    "value": "CG-EX:Indiv353"
   },
   {
     "subjectId": "IndGeno206",
     "attributeId": "A066",
-    "value": "Geno401"
+    "value": "CG-EX:Geno401"
   },
   {
     "subjectId": "IndGeno207",
     "attributeId": "A065",
-    "value": "Indiv354"
+    "value": "CG-EX:Indiv354"
   },
   {
     "subjectId": "IndGeno207",
     "attributeId": "A066",
-    "value": "Geno403"
+    "value": "CG-EX:Geno403"
   },
   {
     "subjectId": "IndCond208",
     "attributeId": "A016",
-    "value": "Indiv353"
+    "value": "CG-EX:Indiv353"
   },
   {
     "subjectId": "IndCond208",
@@ -4501,12 +4501,12 @@
   {
     "subjectId": "IndCond208",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "IndCond209",
     "attributeId": "A016",
-    "value": "Indiv354"
+    "value": "CG-EX:Indiv354"
   },
   {
     "subjectId": "IndCond209",
@@ -4516,12 +4516,12 @@
   {
     "subjectId": "IndCond209",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "VarInterp210",
     "attributeId": "A122",
-    "value": "CanAll095"
+    "value": "CAR:CA252233"
   },
   {
     "subjectId": "VarInterp210",
@@ -4531,22 +4531,22 @@
   {
     "subjectId": "VarInterp210",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "IndGeno211",
     "attributeId": "A065",
-    "value": "Indiv355"
+    "value": "CG-EX:Indiv355"
   },
   {
     "subjectId": "IndGeno211",
     "attributeId": "A066",
-    "value": "Geno405"
+    "value": "CG-EX:Geno405"
   },
   {
     "subjectId": "IndCond212",
     "attributeId": "A016",
-    "value": "Indiv355"
+    "value": "CG-EX:Indiv355"
   },
   {
     "subjectId": "IndCond212",
@@ -4556,12 +4556,12 @@
   {
     "subjectId": "IndCond212",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "VarInterp213",
     "attributeId": "A122",
-    "value": "CanAll097"
+    "value": "CAR:CA182839"
   },
   {
     "subjectId": "VarInterp213",
@@ -4571,22 +4571,22 @@
   {
     "subjectId": "VarInterp213",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "IndGeno214",
     "attributeId": "A065",
-    "value": "Indiv356"
+    "value": "CG-EX:Indiv356"
   },
   {
     "subjectId": "IndGeno214",
     "attributeId": "A066",
-    "value": "Geno408"
+    "value": "CG-EX:Geno408"
   },
   {
     "subjectId": "IndCond215",
     "attributeId": "A016",
-    "value": "Indiv356"
+    "value": "CG-EX:Indiv356"
   },
   {
     "subjectId": "IndCond215",
@@ -4596,12 +4596,12 @@
   {
     "subjectId": "IndCond215",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "VarInterp216",
     "attributeId": "A122",
-    "value": "CanAll099"
+    "value": "CAR:CA501236"
   },
   {
     "subjectId": "VarInterp216",
@@ -4611,7 +4611,7 @@
   {
     "subjectId": "VarInterp216",
     "attributeId": "A124",
-    "value": "SigID029"
+    "value": "LN:LA26333-7"
   },
   {
     "subjectId": "CondPenet218",
@@ -4621,17 +4621,17 @@
   {
     "subjectId": "CondPenet218",
     "attributeId": "A108",
-    "value": "PenetID132"
+    "value": "HP:0003829"
   },
   {
     "subjectId": "RegTyp220",
     "attributeId": "A063",
-    "value": "Loc438"
+    "value": "CG-EX:Loc438"
   },
   {
     "subjectId": "RegTyp220",
     "attributeId": "A057",
-    "value": "RegAnnID033"
+    "value": "SEPIO:0000320"
   },
   {
     "subjectId": "RegTyp220",
@@ -4646,12 +4646,12 @@
   {
     "subjectId": "RegTyp221",
     "attributeId": "A063",
-    "value": "Loc438"
+    "value": "CG-EX:Loc438"
   },
   {
     "subjectId": "RegTyp221",
     "attributeId": "A057",
-    "value": "RegAnnID035"
+    "value": "SO:0000657"
   },
   {
     "subjectId": "RegTyp221",
@@ -4661,12 +4661,12 @@
   {
     "subjectId": "AllConservScore222",
     "attributeId": "A185",
-    "value": "CanAll119"
+    "value": "CAR:CA177682"
   },
   {
     "subjectId": "AllConservScore222",
     "attributeId": "A186",
-    "value": "ConsrvID212"
+    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConservScore222",
@@ -4681,22 +4681,22 @@
   {
     "subjectId": "MolCon223",
     "attributeId": "A001",
-    "value": "MolConID019"
+    "value": "SO:0001825"
   },
   {
     "subjectId": "MolCon223",
     "attributeId": "A009",
-    "value": "CtxAll106"
+    "value": "CG-EX:CtxAll106"
   },
   {
     "subjectId": "AllConservScore224",
     "attributeId": "A185",
-    "value": "CanAll119"
+    "value": "CAR:CA177682"
   },
   {
     "subjectId": "AllConservScore224",
     "attributeId": "A186",
-    "value": "ConsrvID212"
+    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConservScore224",
@@ -4711,12 +4711,12 @@
   {
     "subjectId": "RegTyp225",
     "attributeId": "A063",
-    "value": "Loc439"
+    "value": "CG-EX:Loc439"
   },
   {
     "subjectId": "RegTyp225",
     "attributeId": "A057",
-    "value": "RegAnnID035"
+    "value": "SO:0000657"
   },
   {
     "subjectId": "RegTyp225",
@@ -4726,12 +4726,12 @@
   {
     "subjectId": "AllConservScore226",
     "attributeId": "A185",
-    "value": "CanAll118"
+    "value": "CAR:CA013536"
   },
   {
     "subjectId": "AllConservScore226",
     "attributeId": "A186",
-    "value": "ConsrvID212"
+    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConservScore226",
@@ -4746,22 +4746,22 @@
   {
     "subjectId": "MolCon227",
     "attributeId": "A001",
-    "value": "MolConID014"
+    "value": "SO:0001589"
   },
   {
     "subjectId": "MolCon227",
     "attributeId": "A009",
-    "value": "CtxAll107"
+    "value": "CG-EX:CtxAll107"
   },
   {
     "subjectId": "AllConservScore228",
     "attributeId": "A185",
-    "value": "CanAll117"
+    "value": "CAR:CA501232"
   },
   {
     "subjectId": "AllConservScore228",
     "attributeId": "A186",
-    "value": "ConsrvID212"
+    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConservScore228",
@@ -4776,22 +4776,22 @@
   {
     "subjectId": "RegTyp229",
     "attributeId": "A063",
-    "value": "Loc440"
+    "value": "CG-EX:Loc440"
   },
   {
     "subjectId": "RegTyp229",
     "attributeId": "A057",
-    "value": "RegAnnID035"
+    "value": "SO:0000657"
   },
   {
     "subjectId": "AllConservScore230",
     "attributeId": "A185",
-    "value": "CanAll118"
+    "value": "CAR:CA013536"
   },
   {
     "subjectId": "AllConservScore230",
     "attributeId": "A186",
-    "value": "ConsrvID212"
+    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConservScore230",
@@ -4806,12 +4806,12 @@
   {
     "subjectId": "MolCon231",
     "attributeId": "A001",
-    "value": "MolConID017"
+    "value": "SO:0001823"
   },
   {
     "subjectId": "MolCon231",
     "attributeId": "A009",
-    "value": "CtxAll108"
+    "value": "CG-EX:CtxAll108"
   },
   {
     "subjectId": "InSilicoPred232",
@@ -4821,12 +4821,12 @@
   {
     "subjectId": "InSilicoPred232",
     "attributeId": "A096",
-    "value": "CanAll103"
+    "value": "CAR:CA020822"
   },
   {
     "subjectId": "InSilicoPred232",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred232",
@@ -4846,12 +4846,12 @@
   {
     "subjectId": "InSilicoPred233",
     "attributeId": "A096",
-    "value": "CanAll103"
+    "value": "CAR:CA020822"
   },
   {
     "subjectId": "InSilicoPred233",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred233",
@@ -4871,12 +4871,12 @@
   {
     "subjectId": "InSilicoPred234",
     "attributeId": "A096",
-    "value": "CanAll103"
+    "value": "CAR:CA020822"
   },
   {
     "subjectId": "InSilicoPred234",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred234",
@@ -4896,12 +4896,12 @@
   {
     "subjectId": "InSilicoPred235",
     "attributeId": "A096",
-    "value": "CanAll103"
+    "value": "CAR:CA020822"
   },
   {
     "subjectId": "InSilicoPred235",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred235",
@@ -4921,12 +4921,12 @@
   {
     "subjectId": "InSilicoPred236",
     "attributeId": "A096",
-    "value": "CanAll103"
+    "value": "CAR:CA020822"
   },
   {
     "subjectId": "InSilicoPred236",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred236",
@@ -4946,12 +4946,12 @@
   {
     "subjectId": "InSilicoPred237",
     "attributeId": "A096",
-    "value": "CanAll103"
+    "value": "CAR:CA020822"
   },
   {
     "subjectId": "InSilicoPred237",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred237",
@@ -4971,12 +4971,12 @@
   {
     "subjectId": "InSilicoPred238",
     "attributeId": "A096",
-    "value": "CanAll103"
+    "value": "CAR:CA020822"
   },
   {
     "subjectId": "InSilicoPred238",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred238",
@@ -4996,12 +4996,12 @@
   {
     "subjectId": "InSilicoPred239",
     "attributeId": "A096",
-    "value": "CanAll103"
+    "value": "CAR:CA020822"
   },
   {
     "subjectId": "InSilicoPred239",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred239",
@@ -5021,12 +5021,12 @@
   {
     "subjectId": "InSilicoPred240",
     "attributeId": "A096",
-    "value": "CanAll103"
+    "value": "CAR:CA020822"
   },
   {
     "subjectId": "InSilicoPred240",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred240",
@@ -5041,22 +5041,22 @@
   {
     "subjectId": "IndGeno241",
     "attributeId": "A065",
-    "value": "Indiv357"
+    "value": "CG-EX:Indiv357"
   },
   {
     "subjectId": "IndGeno241",
     "attributeId": "A066",
-    "value": "Geno410"
+    "value": "CG-EX:Geno410"
   },
   {
     "subjectId": "IndGeno241",
     "attributeId": "A066",
-    "value": "Geno412"
+    "value": "CG-EX:Geno412"
   },
   {
     "subjectId": "IndCond242",
     "attributeId": "A016",
-    "value": "Indiv357"
+    "value": "CG-EX:Indiv357"
   },
   {
     "subjectId": "IndCond242",
@@ -5066,12 +5066,12 @@
   {
     "subjectId": "IndCond242",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "VarInterp243",
     "attributeId": "A122",
-    "value": "CanAll106"
+    "value": "CAR:CA012381"
   },
   {
     "subjectId": "VarInterp243",
@@ -5081,32 +5081,32 @@
   {
     "subjectId": "VarInterp243",
     "attributeId": "A124",
-    "value": "SigID028"
+    "value": "LN:LA26332-9"
   },
   {
     "subjectId": "IndGeno244",
     "attributeId": "A065",
-    "value": "Indiv358"
+    "value": "CG-EX:Indiv358"
   },
   {
     "subjectId": "IndGeno244",
     "attributeId": "A066",
-    "value": "Geno414"
+    "value": "CG-EX:Geno414"
   },
   {
     "subjectId": "IndGeno244",
     "attributeId": "A066",
-    "value": "Geno417"
+    "value": "CG-EX:Geno417"
   },
   {
     "subjectId": "AllConservScore245",
     "attributeId": "A185",
-    "value": "CanAll117"
+    "value": "CAR:CA501232"
   },
   {
     "subjectId": "AllConservScore245",
     "attributeId": "A186",
-    "value": "ConsrvID212"
+    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConservScore245",
@@ -5121,7 +5121,7 @@
   {
     "subjectId": "IndCond246",
     "attributeId": "A016",
-    "value": "Indiv358"
+    "value": "CG-EX:Indiv358"
   },
   {
     "subjectId": "IndCond246",
@@ -5131,12 +5131,12 @@
   {
     "subjectId": "IndCond246",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "VarInterp247",
     "attributeId": "A122",
-    "value": "CanAll109"
+    "value": "CAR:CA172240"
   },
   {
     "subjectId": "VarInterp247",
@@ -5146,12 +5146,12 @@
   {
     "subjectId": "VarInterp247",
     "attributeId": "A124",
-    "value": "SigID028"
+    "value": "LN:LA26332-9"
   },
   {
     "subjectId": "VarInterp248",
     "attributeId": "A122",
-    "value": "CanAll110"
+    "value": "CAR:CA274460"
   },
   {
     "subjectId": "VarInterp248",
@@ -5161,27 +5161,27 @@
   {
     "subjectId": "VarInterp248",
     "attributeId": "A124",
-    "value": "SigID028"
+    "value": "LN:LA26332-9"
   },
   {
     "subjectId": "IndGeno249",
     "attributeId": "A065",
-    "value": "Indiv359"
+    "value": "CG-EX:Indiv359"
   },
   {
     "subjectId": "IndGeno249",
     "attributeId": "A066",
-    "value": "Geno419"
+    "value": "CG-EX:Geno419"
   },
   {
     "subjectId": "IndGeno249",
     "attributeId": "A066",
-    "value": "Geno421"
+    "value": "CG-EX:Geno421"
   },
   {
     "subjectId": "IndCond250",
     "attributeId": "A016",
-    "value": "Indiv359"
+    "value": "CG-EX:Indiv359"
   },
   {
     "subjectId": "IndCond250",
@@ -5191,12 +5191,12 @@
   {
     "subjectId": "IndCond250",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "VarInterp251",
     "attributeId": "A122",
-    "value": "CanAll108"
+    "value": "CAR:CA137502"
   },
   {
     "subjectId": "VarInterp251",
@@ -5206,12 +5206,12 @@
   {
     "subjectId": "VarInterp251",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "IndCond252",
     "attributeId": "A016",
-    "value": "Indiv360"
+    "value": "CG-EX:Indiv360"
   },
   {
     "subjectId": "IndCond252",
@@ -5221,27 +5221,27 @@
   {
     "subjectId": "IndCond252",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "IndGeno253",
     "attributeId": "A065",
-    "value": "Indiv360"
+    "value": "CG-EX:Indiv360"
   },
   {
     "subjectId": "IndGeno253",
     "attributeId": "A066",
-    "value": "Geno423"
+    "value": "CG-EX:Geno423"
   },
   {
     "subjectId": "IndGeno253",
     "attributeId": "A066",
-    "value": "Geno425"
+    "value": "CG-EX:Geno425"
   },
   {
     "subjectId": "VarInterp254",
     "attributeId": "A122",
-    "value": "CanAll113"
+    "value": "CAR:CA254703"
   },
   {
     "subjectId": "VarInterp254",
@@ -5251,12 +5251,12 @@
   {
     "subjectId": "VarInterp254",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "VarInterp255",
     "attributeId": "A122",
-    "value": "CanAll114"
+    "value": "CAR:CA276195"
   },
   {
     "subjectId": "VarInterp255",
@@ -5266,7 +5266,7 @@
   {
     "subjectId": "VarInterp255",
     "attributeId": "A124",
-    "value": "SigID032"
+    "value": "LN:LA6675-8"
   },
   {
     "subjectId": "VarInterp255",
@@ -5276,7 +5276,7 @@
   {
     "subjectId": "VarInterp256",
     "attributeId": "A122",
-    "value": "CanAll115"
+    "value": "CAR:CA016113"
   },
   {
     "subjectId": "VarInterp256",
@@ -5286,7 +5286,7 @@
   {
     "subjectId": "VarInterp256",
     "attributeId": "A124",
-    "value": "SigID032"
+    "value": "LN:LA6675-8"
   },
   {
     "subjectId": "VarInterp256",
@@ -5296,7 +5296,7 @@
   {
     "subjectId": "VarInterp257",
     "attributeId": "A122",
-    "value": "CanAll116"
+    "value": "CAR:CA113946"
   },
   {
     "subjectId": "VarInterp257",
@@ -5306,7 +5306,7 @@
   {
     "subjectId": "VarInterp257",
     "attributeId": "A124",
-    "value": "SigID032"
+    "value": "LN:LA6675-8"
   },
   {
     "subjectId": "VarInterp257",
@@ -5321,12 +5321,12 @@
   {
     "subjectId": "InSilicoPred258",
     "attributeId": "A096",
-    "value": "CanAll117"
+    "value": "CAR:CA501232"
   },
   {
     "subjectId": "InSilicoPred258",
     "attributeId": "A097",
-    "value": "PredID073"
+    "value": "SEPIO:0000323"
   },
   {
     "subjectId": "InSilicoPred258",
@@ -5336,12 +5336,12 @@
   {
     "subjectId": "AllConserv259",
     "attributeId": "A111",
-    "value": "CanAll117"
+    "value": "CAR:CA501232"
   },
   {
     "subjectId": "AllConserv259",
     "attributeId": "A112",
-    "value": "ConsrvID212"
+    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConserv259",
@@ -5361,12 +5361,12 @@
   {
     "subjectId": "AllConserv260",
     "attributeId": "A111",
-    "value": "CanAll117"
+    "value": "CAR:CA501232"
   },
   {
     "subjectId": "AllConserv260",
     "attributeId": "A112",
-    "value": "ConsrvID212"
+    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConserv260",
@@ -5386,12 +5386,12 @@
   {
     "subjectId": "MolCon261",
     "attributeId": "A001",
-    "value": "MolConID016"
+    "value": "SO:0001819"
   },
   {
     "subjectId": "MolCon261",
     "attributeId": "A009",
-    "value": "CtxAll123"
+    "value": "CG-EX:CtxAll123"
   },
   {
     "subjectId": "InSilicoPred262",
@@ -5401,12 +5401,12 @@
   {
     "subjectId": "InSilicoPred262",
     "attributeId": "A096",
-    "value": "CanAll118"
+    "value": "CAR:CA013536"
   },
   {
     "subjectId": "InSilicoPred262",
     "attributeId": "A097",
-    "value": "PredID073"
+    "value": "SEPIO:0000323"
   },
   {
     "subjectId": "InSilicoPred262",
@@ -5421,12 +5421,12 @@
   {
     "subjectId": "AllConserv263",
     "attributeId": "A111",
-    "value": "CanAll118"
+    "value": "CAR:CA013536"
   },
   {
     "subjectId": "AllConserv263",
     "attributeId": "A112",
-    "value": "ConsrvID212"
+    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConserv263",
@@ -5446,12 +5446,12 @@
   {
     "subjectId": "AllConserv264",
     "attributeId": "A111",
-    "value": "CanAll118"
+    "value": "CAR:CA013536"
   },
   {
     "subjectId": "AllConserv264",
     "attributeId": "A112",
-    "value": "ConsrvID212"
+    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConserv264",
@@ -5471,12 +5471,12 @@
   {
     "subjectId": "MolCon265",
     "attributeId": "A001",
-    "value": "MolConID016"
+    "value": "SO:0001819"
   },
   {
     "subjectId": "MolCon265",
     "attributeId": "A009",
-    "value": "CtxAll124"
+    "value": "CG-EX:CtxAll124"
   },
   {
     "subjectId": "InSilicoPred266",
@@ -5486,12 +5486,12 @@
   {
     "subjectId": "InSilicoPred266",
     "attributeId": "A096",
-    "value": "CanAll119"
+    "value": "CAR:CA177682"
   },
   {
     "subjectId": "InSilicoPred266",
     "attributeId": "A097",
-    "value": "PredID073"
+    "value": "SEPIO:0000323"
   },
   {
     "subjectId": "InSilicoPred266",
@@ -5501,12 +5501,12 @@
   {
     "subjectId": "AllConserv267",
     "attributeId": "A111",
-    "value": "CanAll119"
+    "value": "CAR:CA177682"
   },
   {
     "subjectId": "AllConserv267",
     "attributeId": "A112",
-    "value": "ConsrvID212"
+    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConserv267",
@@ -5526,12 +5526,12 @@
   {
     "subjectId": "AllConserv268",
     "attributeId": "A111",
-    "value": "CanAll119"
+    "value": "CAR:CA177682"
   },
   {
     "subjectId": "AllConserv268",
     "attributeId": "A112",
-    "value": "ConsrvID212"
+    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConserv268",
@@ -5551,17 +5551,17 @@
   {
     "subjectId": "MolCon269",
     "attributeId": "A001",
-    "value": "MolConID016"
+    "value": "SO:0001819"
   },
   {
     "subjectId": "MolCon269",
     "attributeId": "A009",
-    "value": "CtxAll125"
+    "value": "CG-EX:CtxAll125"
   },
   {
     "subjectId": "VarInterp270",
     "attributeId": "A122",
-    "value": "CanAll113"
+    "value": "CAR:CA254703"
   },
   {
     "subjectId": "VarInterp270",
@@ -5571,7 +5571,7 @@
   {
     "subjectId": "VarInterp270",
     "attributeId": "A124",
-    "value": "SigID029"
+    "value": "LN:LA26333-7"
   },
   {
     "subjectId": "VarInterp270",
@@ -5586,12 +5586,12 @@
   {
     "subjectId": "FamSeg271",
     "attributeId": "A082",
-    "value": "CanAll090"
+    "value": "CAR:CA133141"
   },
   {
     "subjectId": "FamSeg271",
     "attributeId": "A083",
-    "value": "Fam372"
+    "value": "CG-EX:Fam372"
   },
   {
     "subjectId": "FamSeg271",
@@ -5606,17 +5606,17 @@
   {
     "subjectId": "FamSeg271",
     "attributeId": "A110",
-    "value": "InconSegObsID220"
+    "value": "SEPIO-CG:99011"
   },
   {
     "subjectId": "MolCon272",
     "attributeId": "A009",
-    "value": "CtxAll127"
+    "value": "CG-EX:CtxAll127"
   },
   {
     "subjectId": "MolCon272",
     "attributeId": "A001",
-    "value": "MolConID015"
+    "value": "SO:0001629"
   },
   {
     "subjectId": "MolCon272",
@@ -5626,7 +5626,7 @@
   {
     "subjectId": "CondMech273",
     "attributeId": "A002",
-    "value": "MechID071"
+    "value": "SO:0002054"
   },
   {
     "subjectId": "CondMech273",
@@ -5636,7 +5636,7 @@
   {
     "subjectId": "CondMech273",
     "attributeId": "A003",
-    "value": "CondMechStrgID134"
+    "value": "SEPIO:0000269"
   },
   {
     "subjectId": "CondMech273",
@@ -5651,7 +5651,7 @@
   {
     "subjectId": "VarInterp274",
     "attributeId": "A122",
-    "value": "CanAll035"
+    "value": "CAR:CA090919"
   },
   {
     "subjectId": "VarInterp274",
@@ -5661,7 +5661,7 @@
   {
     "subjectId": "VarInterp274",
     "attributeId": "A124",
-    "value": "SigID028"
+    "value": "LN:LA26332-9"
   },
   {
     "subjectId": "VarInterp274",
@@ -5701,12 +5701,12 @@
   {
     "subjectId": "CritAssess275",
     "attributeId": "A117",
-    "value": "CanAll001"
+    "value": "CAR:CA090943"
   },
   {
     "subjectId": "CritAssess275",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess275",
@@ -5731,7 +5731,7 @@
   {
     "subjectId": "CritAssess276",
     "attributeId": "A117",
-    "value": "CanAll002"
+    "value": "CAR:CA090898"
   },
   {
     "subjectId": "CritAssess276",
@@ -5741,7 +5741,7 @@
   {
     "subjectId": "CritAssess276",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess276",
@@ -5761,7 +5761,7 @@
   {
     "subjectId": "CritAssess277",
     "attributeId": "A117",
-    "value": "CanAll003"
+    "value": "CAR:CA238217"
   },
   {
     "subjectId": "CritAssess277",
@@ -5771,7 +5771,7 @@
   {
     "subjectId": "CritAssess277",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess277",
@@ -5801,7 +5801,7 @@
   {
     "subjectId": "CritAssess278",
     "attributeId": "A117",
-    "value": "CanAll004"
+    "value": "CAR:CA261606"
   },
   {
     "subjectId": "CritAssess278",
@@ -5811,7 +5811,7 @@
   {
     "subjectId": "CritAssess278",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess278",
@@ -5836,7 +5836,7 @@
   {
     "subjectId": "CritAssess279",
     "attributeId": "A117",
-    "value": "CanAll007"
+    "value": "CAR:CA501220"
   },
   {
     "subjectId": "CritAssess279",
@@ -5846,7 +5846,7 @@
   {
     "subjectId": "CritAssess279",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess279",
@@ -5871,7 +5871,7 @@
   {
     "subjectId": "CritAssess280",
     "attributeId": "A117",
-    "value": "CanAll010"
+    "value": "CAR:CA341206"
   },
   {
     "subjectId": "CritAssess280",
@@ -5881,7 +5881,7 @@
   {
     "subjectId": "CritAssess280",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess280",
@@ -5916,7 +5916,7 @@
   {
     "subjectId": "CritAssess281",
     "attributeId": "A117",
-    "value": "CanAll014"
+    "value": "CAR:CA016441"
   },
   {
     "subjectId": "CritAssess281",
@@ -5926,7 +5926,7 @@
   {
     "subjectId": "CritAssess281",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess281",
@@ -5951,7 +5951,7 @@
   {
     "subjectId": "CritAssess282",
     "attributeId": "A117",
-    "value": "CanAll015"
+    "value": "CAR:CA257646"
   },
   {
     "subjectId": "CritAssess282",
@@ -5961,7 +5961,7 @@
   {
     "subjectId": "CritAssess282",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess282",
@@ -5986,7 +5986,7 @@
   {
     "subjectId": "CritAssess283",
     "attributeId": "A117",
-    "value": "CanAll016"
+    "value": "CAR:CA354186"
   },
   {
     "subjectId": "CritAssess283",
@@ -5996,7 +5996,7 @@
   {
     "subjectId": "CritAssess283",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess283",
@@ -6016,12 +6016,12 @@
   {
     "subjectId": "CritAssess284",
     "attributeId": "A117",
-    "value": "CanAll017"
+    "value": "CAR:CA090410"
   },
   {
     "subjectId": "CritAssess284",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess284",
@@ -6061,12 +6061,12 @@
   {
     "subjectId": "CritAssess285",
     "attributeId": "A117",
-    "value": "CanAll019"
+    "value": "CAR:CA090884"
   },
   {
     "subjectId": "CritAssess285",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess285",
@@ -6091,12 +6091,12 @@
   {
     "subjectId": "CritAssess286",
     "attributeId": "A117",
-    "value": "CanAll020"
+    "value": "CAR:CA220161"
   },
   {
     "subjectId": "CritAssess286",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess286",
@@ -6131,7 +6131,7 @@
   {
     "subjectId": "CritAssess287",
     "attributeId": "A117",
-    "value": "CanAll022"
+    "value": "CAR:CA253316"
   },
   {
     "subjectId": "CritAssess287",
@@ -6141,7 +6141,7 @@
   {
     "subjectId": "CritAssess287",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess287",
@@ -6166,7 +6166,7 @@
   {
     "subjectId": "CritAssess288",
     "attributeId": "A117",
-    "value": "CanAll023"
+    "value": "CAR:CA024311"
   },
   {
     "subjectId": "CritAssess288",
@@ -6176,7 +6176,7 @@
   {
     "subjectId": "CritAssess288",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess288",
@@ -6201,7 +6201,7 @@
   {
     "subjectId": "CritAssess289",
     "attributeId": "A117",
-    "value": "CanAll024"
+    "value": "CAR:CA123287"
   },
   {
     "subjectId": "CritAssess289",
@@ -6211,7 +6211,7 @@
   {
     "subjectId": "CritAssess289",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess289",
@@ -6231,12 +6231,12 @@
   {
     "subjectId": "CritAssess290",
     "attributeId": "A117",
-    "value": "CanAll025"
+    "value": "CAR:CA090928"
   },
   {
     "subjectId": "CritAssess290",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess290",
@@ -6261,12 +6261,12 @@
   {
     "subjectId": "CritAssess291",
     "attributeId": "A117",
-    "value": "CanAll026"
+    "value": "CAR:CA123651"
   },
   {
     "subjectId": "CritAssess291",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess291",
@@ -6296,12 +6296,12 @@
   {
     "subjectId": "CritAssess292",
     "attributeId": "A117",
-    "value": "CanAll027"
+    "value": "CAR:CA352275"
   },
   {
     "subjectId": "CritAssess292",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess292",
@@ -6326,12 +6326,12 @@
   {
     "subjectId": "CritAssess293",
     "attributeId": "A117",
-    "value": "CanAll032"
+    "value": "CAR:CA011797"
   },
   {
     "subjectId": "CritAssess293",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess293",
@@ -6361,12 +6361,12 @@
   {
     "subjectId": "CritAssess294",
     "attributeId": "A117",
-    "value": "CanAll033"
+    "value": "CAR:CA011797"
   },
   {
     "subjectId": "CritAssess294",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess294",
@@ -6386,12 +6386,12 @@
   {
     "subjectId": "CritAssess295",
     "attributeId": "A117",
-    "value": "CanAll034"
+    "value": "CAR:CA273141"
   },
   {
     "subjectId": "CritAssess295",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess295",
@@ -6416,7 +6416,7 @@
   {
     "subjectId": "CritAssess296",
     "attributeId": "A117",
-    "value": "CanAll035"
+    "value": "CAR:CA090919"
   },
   {
     "subjectId": "CritAssess296",
@@ -6426,7 +6426,7 @@
   {
     "subjectId": "CritAssess296",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess296",
@@ -6446,7 +6446,7 @@
   {
     "subjectId": "CritAssess297",
     "attributeId": "A117",
-    "value": "CanAll037"
+    "value": "CAR:CA176145"
   },
   {
     "subjectId": "CritAssess297",
@@ -6456,7 +6456,7 @@
   {
     "subjectId": "CritAssess297",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess297",
@@ -6476,7 +6476,7 @@
   {
     "subjectId": "CritAssess298",
     "attributeId": "A117",
-    "value": "CanAll039"
+    "value": "CAR:CA090904"
   },
   {
     "subjectId": "CritAssess298",
@@ -6486,7 +6486,7 @@
   {
     "subjectId": "CritAssess298",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess298",
@@ -6511,12 +6511,12 @@
   {
     "subjectId": "CritAssess299",
     "attributeId": "A117",
-    "value": "CanAll035"
+    "value": "CAR:CA090919"
   },
   {
     "subjectId": "CritAssess299",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess299",
@@ -6541,12 +6541,12 @@
   {
     "subjectId": "CritAssess300",
     "attributeId": "A117",
-    "value": "CanAll041"
+    "value": "CAR:CA090938"
   },
   {
     "subjectId": "CritAssess300",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess300",
@@ -6571,12 +6571,12 @@
   {
     "subjectId": "CritAssess301",
     "attributeId": "A117",
-    "value": "CanAll043"
+    "value": "CAR:CA501224"
   },
   {
     "subjectId": "CritAssess301",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess301",
@@ -6601,7 +6601,7 @@
   {
     "subjectId": "CritAssess302",
     "attributeId": "A117",
-    "value": "CanAll045"
+    "value": "CAR:CA021744"
   },
   {
     "subjectId": "CritAssess302",
@@ -6611,7 +6611,7 @@
   {
     "subjectId": "CritAssess302",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess302",
@@ -6646,7 +6646,7 @@
   {
     "subjectId": "CritAssess303",
     "attributeId": "A117",
-    "value": "CanAll051"
+    "value": "CAR:CA090910"
   },
   {
     "subjectId": "CritAssess303",
@@ -6656,7 +6656,7 @@
   {
     "subjectId": "CritAssess303",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess303",
@@ -6681,7 +6681,7 @@
   {
     "subjectId": "CritAssess304",
     "attributeId": "A117",
-    "value": "CanAll055"
+    "value": "CAR:CA501227"
   },
   {
     "subjectId": "CritAssess304",
@@ -6691,7 +6691,7 @@
   {
     "subjectId": "CritAssess304",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess304",
@@ -6716,12 +6716,12 @@
   {
     "subjectId": "CritAssess305",
     "attributeId": "A117",
-    "value": "CanAll035"
+    "value": "CAR:CA090919"
   },
   {
     "subjectId": "CritAssess305",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess305",
@@ -6751,7 +6751,7 @@
   {
     "subjectId": "CritAssess306",
     "attributeId": "A117",
-    "value": "CanAll059"
+    "value": "CAR:CA090951"
   },
   {
     "subjectId": "CritAssess306",
@@ -6761,7 +6761,7 @@
   {
     "subjectId": "CritAssess306",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess306",
@@ -6796,7 +6796,7 @@
   {
     "subjectId": "CritAssess307",
     "attributeId": "A117",
-    "value": "CanAll060"
+    "value": "CAR:CA279966"
   },
   {
     "subjectId": "CritAssess307",
@@ -6806,7 +6806,7 @@
   {
     "subjectId": "CritAssess307",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess307",
@@ -6831,7 +6831,7 @@
   {
     "subjectId": "CritAssess308",
     "attributeId": "A117",
-    "value": "CanAll061"
+    "value": "CAR:CA279976"
   },
   {
     "subjectId": "CritAssess308",
@@ -6841,7 +6841,7 @@
   {
     "subjectId": "CritAssess308",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess308",
@@ -6876,7 +6876,7 @@
   {
     "subjectId": "CritAssess309",
     "attributeId": "A117",
-    "value": "CanAll063"
+    "value": "CAR:CA010136"
   },
   {
     "subjectId": "CritAssess309",
@@ -6886,7 +6886,7 @@
   {
     "subjectId": "CritAssess309",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess309",
@@ -6911,7 +6911,7 @@
   {
     "subjectId": "CritAssess310",
     "attributeId": "A117",
-    "value": "CanAll062"
+    "value": "CAR:CA143213"
   },
   {
     "subjectId": "CritAssess310",
@@ -6921,7 +6921,7 @@
   {
     "subjectId": "CritAssess310",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess310",
@@ -6946,7 +6946,7 @@
   {
     "subjectId": "CritAssess311",
     "attributeId": "A117",
-    "value": "CanAll064"
+    "value": "CAR:CA501226"
   },
   {
     "subjectId": "CritAssess311",
@@ -6956,7 +6956,7 @@
   {
     "subjectId": "CritAssess311",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess311",
@@ -6981,7 +6981,7 @@
   {
     "subjectId": "CritAssess312",
     "attributeId": "A117",
-    "value": "CanAll065"
+    "value": "CAR:CA006429"
   },
   {
     "subjectId": "CritAssess312",
@@ -6991,7 +6991,7 @@
   {
     "subjectId": "CritAssess312",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess312",
@@ -7011,12 +7011,12 @@
   {
     "subjectId": "CritAssess313",
     "attributeId": "A117",
-    "value": "CanAll066"
+    "value": "CAR:CA016087"
   },
   {
     "subjectId": "CritAssess313",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess313",
@@ -7036,12 +7036,12 @@
   {
     "subjectId": "CritAssess314",
     "attributeId": "A117",
-    "value": "CanAll067"
+    "value": "CAR:CA090928"
   },
   {
     "subjectId": "CritAssess314",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess314",
@@ -7066,12 +7066,12 @@
   {
     "subjectId": "CritAssess315",
     "attributeId": "A117",
-    "value": "CanAll068"
+    "value": "CAR:CA090884"
   },
   {
     "subjectId": "CritAssess315",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess315",
@@ -7091,12 +7091,12 @@
   {
     "subjectId": "CritAssess316",
     "attributeId": "A117",
-    "value": "CanAll069"
+    "value": "CAR:CA022019"
   },
   {
     "subjectId": "CritAssess316",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess316",
@@ -7121,7 +7121,7 @@
   {
     "subjectId": "CritAssess318",
     "attributeId": "A117",
-    "value": "CanAll070"
+    "value": "CAR:CA090915"
   },
   {
     "subjectId": "CritAssess318",
@@ -7131,7 +7131,7 @@
   {
     "subjectId": "CritAssess318",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess318",
@@ -7156,7 +7156,7 @@
   {
     "subjectId": "CritAssess319",
     "attributeId": "A117",
-    "value": "CanAll071"
+    "value": "CAR:CA501234"
   },
   {
     "subjectId": "CritAssess319",
@@ -7166,7 +7166,7 @@
   {
     "subjectId": "CritAssess319",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess319",
@@ -7186,7 +7186,7 @@
   {
     "subjectId": "CritAssess320",
     "attributeId": "A117",
-    "value": "CanAll072"
+    "value": "CAR:CA019369"
   },
   {
     "subjectId": "CritAssess320",
@@ -7196,7 +7196,7 @@
   {
     "subjectId": "CritAssess320",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess320",
@@ -7216,7 +7216,7 @@
   {
     "subjectId": "CritAssess321",
     "attributeId": "A117",
-    "value": "CanAll073"
+    "value": "CAR:CA128479"
   },
   {
     "subjectId": "CritAssess321",
@@ -7226,7 +7226,7 @@
   {
     "subjectId": "CritAssess321",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess321",
@@ -7251,7 +7251,7 @@
   {
     "subjectId": "CritAssess322",
     "attributeId": "A117",
-    "value": "CanAll074"
+    "value": "CAR:CA276116"
   },
   {
     "subjectId": "CritAssess322",
@@ -7261,7 +7261,7 @@
   {
     "subjectId": "CritAssess322",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess322",
@@ -7281,12 +7281,12 @@
   {
     "subjectId": "CritAssess323",
     "attributeId": "A117",
-    "value": "CanAll075"
+    "value": "CAR:CA090891"
   },
   {
     "subjectId": "CritAssess323",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess323",
@@ -7306,12 +7306,12 @@
   {
     "subjectId": "CritAssess324",
     "attributeId": "A117",
-    "value": "CanAll076"
+    "value": "CAR:CA134997"
   },
   {
     "subjectId": "CritAssess324",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess324",
@@ -7341,7 +7341,7 @@
   {
     "subjectId": "CritAssess325",
     "attributeId": "A117",
-    "value": "CanAll077"
+    "value": "CAR:CA501229"
   },
   {
     "subjectId": "CritAssess325",
@@ -7351,7 +7351,7 @@
   {
     "subjectId": "CritAssess325",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess325",
@@ -7376,7 +7376,7 @@
   {
     "subjectId": "CritAssess326",
     "attributeId": "A117",
-    "value": "CanAll078"
+    "value": "CAR:CA017597"
   },
   {
     "subjectId": "CritAssess326",
@@ -7386,7 +7386,7 @@
   {
     "subjectId": "CritAssess326",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess326",
@@ -7406,7 +7406,7 @@
   {
     "subjectId": "CritAssess327",
     "attributeId": "A117",
-    "value": "CanAll079"
+    "value": "CAR:CA090926"
   },
   {
     "subjectId": "CritAssess327",
@@ -7416,7 +7416,7 @@
   {
     "subjectId": "CritAssess327",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess327",
@@ -7441,7 +7441,7 @@
   {
     "subjectId": "CritAssess328",
     "attributeId": "A117",
-    "value": "CanAll080"
+    "value": "CAR:CA501230"
   },
   {
     "subjectId": "CritAssess328",
@@ -7451,7 +7451,7 @@
   {
     "subjectId": "CritAssess328",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess328",
@@ -7476,7 +7476,7 @@
   {
     "subjectId": "CritAssess329",
     "attributeId": "A117",
-    "value": "CanAll081"
+    "value": "CAR:CA090918"
   },
   {
     "subjectId": "CritAssess329",
@@ -7486,7 +7486,7 @@
   {
     "subjectId": "CritAssess329",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess329",
@@ -7516,7 +7516,7 @@
   {
     "subjectId": "CritAssess330",
     "attributeId": "A117",
-    "value": "CanAll082"
+    "value": "CAR:CA008351"
   },
   {
     "subjectId": "CritAssess330",
@@ -7526,7 +7526,7 @@
   {
     "subjectId": "CritAssess330",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess330",
@@ -7571,7 +7571,7 @@
   {
     "subjectId": "CritAssess331",
     "attributeId": "A117",
-    "value": "CanAll083"
+    "value": "CAR:CA013604"
   },
   {
     "subjectId": "CritAssess331",
@@ -7581,7 +7581,7 @@
   {
     "subjectId": "CritAssess331",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess331",
@@ -7616,12 +7616,12 @@
   {
     "subjectId": "CritAssess333",
     "attributeId": "A117",
-    "value": "CanAll085"
+    "value": "CAR:CA132727"
   },
   {
     "subjectId": "CritAssess333",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess333",
@@ -7646,12 +7646,12 @@
   {
     "subjectId": "CritAssess334",
     "attributeId": "A117",
-    "value": "CanAll087"
+    "value": "CAR:CA501231"
   },
   {
     "subjectId": "CritAssess334",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess334",
@@ -7676,7 +7676,7 @@
   {
     "subjectId": "CritAssess335",
     "attributeId": "A117",
-    "value": "CanAll088"
+    "value": "CAR:CA023690"
   },
   {
     "subjectId": "CritAssess335",
@@ -7686,7 +7686,7 @@
   {
     "subjectId": "CritAssess335",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess335",
@@ -7706,7 +7706,7 @@
   {
     "subjectId": "CritAssess336",
     "attributeId": "A117",
-    "value": "CanAll089"
+    "value": "CAR:CA010777"
   },
   {
     "subjectId": "CritAssess336",
@@ -7716,7 +7716,7 @@
   {
     "subjectId": "CritAssess336",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess336",
@@ -7741,7 +7741,7 @@
   {
     "subjectId": "CritAssess337",
     "attributeId": "A117",
-    "value": "CanAll090"
+    "value": "CAR:CA133141"
   },
   {
     "subjectId": "CritAssess337",
@@ -7751,7 +7751,7 @@
   {
     "subjectId": "CritAssess337",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess337",
@@ -7776,7 +7776,7 @@
   {
     "subjectId": "CritAssess338",
     "attributeId": "A117",
-    "value": "CanAll091"
+    "value": "CAR:CA020822"
   },
   {
     "subjectId": "CritAssess338",
@@ -7786,7 +7786,7 @@
   {
     "subjectId": "CritAssess338",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess338",
@@ -7806,7 +7806,7 @@
   {
     "subjectId": "CritAssess339",
     "attributeId": "A117",
-    "value": "CanAll091"
+    "value": "CAR:CA020822"
   },
   {
     "subjectId": "CritAssess339",
@@ -7816,7 +7816,7 @@
   {
     "subjectId": "CritAssess339",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess339",
@@ -7836,7 +7836,7 @@
   {
     "subjectId": "CritAssess340",
     "attributeId": "A117",
-    "value": "CanAll092"
+    "value": "CAR:CA090950"
   },
   {
     "subjectId": "CritAssess340",
@@ -7846,7 +7846,7 @@
   {
     "subjectId": "CritAssess340",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess340",
@@ -7871,7 +7871,7 @@
   {
     "subjectId": "CritAssess341",
     "attributeId": "A117",
-    "value": "CanAll093"
+    "value": "CAR:CA256496"
   },
   {
     "subjectId": "CritAssess341",
@@ -7881,7 +7881,7 @@
   {
     "subjectId": "CritAssess341",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess341",
@@ -7906,7 +7906,7 @@
   {
     "subjectId": "CritAssess342",
     "attributeId": "A117",
-    "value": "CanAll094"
+    "value": "CAR:CA143572"
   },
   {
     "subjectId": "CritAssess342",
@@ -7916,7 +7916,7 @@
   {
     "subjectId": "CritAssess342",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess342",
@@ -7941,7 +7941,7 @@
   {
     "subjectId": "CritAssess343",
     "attributeId": "A117",
-    "value": "CanAll096"
+    "value": "CAR:CA182840"
   },
   {
     "subjectId": "CritAssess343",
@@ -7951,7 +7951,7 @@
   {
     "subjectId": "CritAssess343",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess343",
@@ -7971,7 +7971,7 @@
   {
     "subjectId": "CritAssess344",
     "attributeId": "A117",
-    "value": "CanAll098"
+    "value": "CAR:CA501235"
   },
   {
     "subjectId": "CritAssess344",
@@ -7981,7 +7981,7 @@
   {
     "subjectId": "CritAssess344",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess344",
@@ -8006,12 +8006,12 @@
   {
     "subjectId": "CritAssess345",
     "attributeId": "A117",
-    "value": "CanAll100"
+    "value": "CAR:CA148212"
   },
   {
     "subjectId": "CritAssess345",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess345",
@@ -8031,12 +8031,12 @@
   {
     "subjectId": "CritAssess346",
     "attributeId": "A117",
-    "value": "CanAll101"
+    "value": "CAR:CA273551"
   },
   {
     "subjectId": "CritAssess346",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess346",
@@ -8061,12 +8061,12 @@
   {
     "subjectId": "CritAssess347",
     "attributeId": "A117",
-    "value": "CanAll102"
+    "value": "CAR:CA184168"
   },
   {
     "subjectId": "CritAssess347",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess347",
@@ -8086,12 +8086,12 @@
   {
     "subjectId": "CritAssess348",
     "attributeId": "A117",
-    "value": "CanAll103"
+    "value": "CAR:CA020822"
   },
   {
     "subjectId": "CritAssess348",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess348",
@@ -8116,12 +8116,12 @@
   {
     "subjectId": "CritAssess350",
     "attributeId": "A117",
-    "value": "CanAll105"
+    "value": "CAR:CA501237"
   },
   {
     "subjectId": "CritAssess350",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess350",
@@ -8146,7 +8146,7 @@
   {
     "subjectId": "CritAssess351",
     "attributeId": "A117",
-    "value": "CanAll106"
+    "value": "CAR:CA012381"
   },
   {
     "subjectId": "CritAssess351",
@@ -8156,7 +8156,7 @@
   {
     "subjectId": "CritAssess351",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess351",
@@ -8181,7 +8181,7 @@
   {
     "subjectId": "CritAssess352",
     "attributeId": "A117",
-    "value": "CanAll108"
+    "value": "CAR:CA137502"
   },
   {
     "subjectId": "CritAssess352",
@@ -8191,7 +8191,7 @@
   {
     "subjectId": "CritAssess352",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess352",
@@ -8211,7 +8211,7 @@
   {
     "subjectId": "CritAssess353",
     "attributeId": "A117",
-    "value": "CanAll108"
+    "value": "CAR:CA137502"
   },
   {
     "subjectId": "CritAssess353",
@@ -8221,7 +8221,7 @@
   {
     "subjectId": "CritAssess353",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess353",
@@ -8241,7 +8241,7 @@
   {
     "subjectId": "CritAssess354",
     "attributeId": "A117",
-    "value": "CanAll112"
+    "value": "CAR:CA204551"
   },
   {
     "subjectId": "CritAssess354",
@@ -8251,7 +8251,7 @@
   {
     "subjectId": "CritAssess354",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess354",
@@ -8276,7 +8276,7 @@
   {
     "subjectId": "CritAssess355",
     "attributeId": "A117",
-    "value": "CanAll114"
+    "value": "CAR:CA276195"
   },
   {
     "subjectId": "CritAssess355",
@@ -8286,7 +8286,7 @@
   {
     "subjectId": "CritAssess355",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess355",
@@ -8306,7 +8306,7 @@
   {
     "subjectId": "CritAssess356",
     "attributeId": "A117",
-    "value": "CanAll115"
+    "value": "CAR:CA016113"
   },
   {
     "subjectId": "CritAssess356",
@@ -8316,7 +8316,7 @@
   {
     "subjectId": "CritAssess356",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess356",
@@ -8336,7 +8336,7 @@
   {
     "subjectId": "CritAssess357",
     "attributeId": "A117",
-    "value": "CanAll116"
+    "value": "CAR:CA113946"
   },
   {
     "subjectId": "CritAssess357",
@@ -8346,7 +8346,7 @@
   {
     "subjectId": "CritAssess357",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess357",
@@ -8366,12 +8366,12 @@
   {
     "subjectId": "CritAssess358",
     "attributeId": "A117",
-    "value": "CanAll117"
+    "value": "CAR:CA501232"
   },
   {
     "subjectId": "CritAssess358",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess358",
@@ -8391,12 +8391,12 @@
   {
     "subjectId": "CritAssess359",
     "attributeId": "A117",
-    "value": "CanAll118"
+    "value": "CAR:CA013536"
   },
   {
     "subjectId": "CritAssess359",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess359",
@@ -8416,12 +8416,12 @@
   {
     "subjectId": "CritAssess360",
     "attributeId": "A117",
-    "value": "CanAll119"
+    "value": "CAR:CA177682"
   },
   {
     "subjectId": "CritAssess360",
     "attributeId": "A116",
-    "value": "CritEvalID075"
+    "value": "SEPIO:0000224"
   },
   {
     "subjectId": "CritAssess360",
@@ -8446,7 +8446,7 @@
   {
     "subjectId": "CritAssess361",
     "attributeId": "A117",
-    "value": "CanAll121"
+    "value": "CAR:CA022880"
   },
   {
     "subjectId": "CritAssess361",
@@ -8456,7 +8456,7 @@
   {
     "subjectId": "CritAssess361",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess361",
@@ -8476,12 +8476,12 @@
   {
     "subjectId": "InSilicoPred362",
     "attributeId": "A096",
-    "value": "CtxAll111"
+    "value": "CG-EX:CtxAll111"
   },
   {
     "subjectId": "InSilicoPred362",
     "attributeId": "A097",
-    "value": "PredID072"
+    "value": "SEPIO:0000322"
   },
   {
     "subjectId": "InSilicoPred362",
@@ -8501,7 +8501,7 @@
   {
     "subjectId": "CritAssess363",
     "attributeId": "A117",
-    "value": "CanAll092"
+    "value": "CAR:CA090950"
   },
   {
     "subjectId": "CritAssess363",
@@ -8511,7 +8511,7 @@
   {
     "subjectId": "CritAssess363",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess363",
@@ -8531,7 +8531,7 @@
   {
     "subjectId": "VarInterp364",
     "attributeId": "A122",
-    "value": "CanAll122"
+    "value": "CAR:CA253304"
   },
   {
     "subjectId": "VarInterp364",
@@ -8541,12 +8541,12 @@
   {
     "subjectId": "VarInterp364",
     "attributeId": "A124",
-    "value": "SigID028"
+    "value": "LN:LA26332-9"
   },
   {
     "subjectId": "VarInterp365",
     "attributeId": "A122",
-    "value": "CanAll123"
+    "value": "CAR:CA273665"
   },
   {
     "subjectId": "VarInterp365",
@@ -8556,27 +8556,27 @@
   {
     "subjectId": "VarInterp365",
     "attributeId": "A124",
-    "value": "SigID031"
+    "value": "LN:LA6668-3"
   },
   {
     "subjectId": "IndGeno366",
     "attributeId": "A065",
-    "value": "Indiv361"
+    "value": "CG-EX:Indiv361"
   },
   {
     "subjectId": "IndGeno366",
     "attributeId": "A066",
-    "value": "Geno428"
+    "value": "CG-EX:Geno428"
   },
   {
     "subjectId": "IndGeno366",
     "attributeId": "A066",
-    "value": "Geno431"
+    "value": "CG-EX:Geno431"
   },
   {
     "subjectId": "IndCond368",
     "attributeId": "A016",
-    "value": "Indiv361"
+    "value": "CG-EX:Indiv361"
   },
   {
     "subjectId": "IndCond368",
@@ -8586,7 +8586,7 @@
   {
     "subjectId": "IndCond368",
     "attributeId": "A018",
-    "value": "CondStatID218"
+    "value": "SEPIO-CG:99009"
   },
   {
     "subjectId": "IndCond368",
@@ -8601,12 +8601,12 @@
   {
     "subjectId": "CritAssess369",
     "attributeId": "A117",
-    "value": "CanAll121"
+    "value": "CAR:CA022880"
   },
   {
     "subjectId": "CritAssess369",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess369",
@@ -8626,17 +8626,17 @@
   {
     "subjectId": "AllFreq370",
     "attributeId": "A030",
-    "value": "AscrtID203"
+    "value": "SEPIO:0000332"
   },
   {
     "subjectId": "AllFreq370",
     "attributeId": "A047",
-    "value": "PopID090"
+    "value": "BROAD-population-type:nfe"
   },
   {
     "subjectId": "AllFreq370",
     "attributeId": "A031",
-    "value": "CanAll121"
+    "value": "CAR:CA022880"
   },
   {
     "subjectId": "AllFreq370",
@@ -8666,12 +8666,12 @@
   {
     "subjectId": "CritAssess371",
     "attributeId": "A117",
-    "value": "CanAll118"
+    "value": "CAR:CA013536"
   },
   {
     "subjectId": "CritAssess371",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess371",
@@ -8696,7 +8696,7 @@
   {
     "subjectId": "CritAssess372",
     "attributeId": "A117",
-    "value": "CanAll092"
+    "value": "CAR:CA090950"
   },
   {
     "subjectId": "CritAssess372",
@@ -8706,7 +8706,7 @@
   {
     "subjectId": "CritAssess372",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess372",
@@ -8731,12 +8731,12 @@
   {
     "subjectId": "CritAssess373",
     "attributeId": "A117",
-    "value": "CanAll118"
+    "value": "CAR:CA013536"
   },
   {
     "subjectId": "CritAssess373",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess373",
@@ -8761,12 +8761,12 @@
   {
     "subjectId": "CritAssess374",
     "attributeId": "A117",
-    "value": "CanAll124"
+    "value": "CAR:CA090930"
   },
   {
     "subjectId": "CritAssess374",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess374",
@@ -8791,7 +8791,7 @@
   {
     "subjectId": "CritAssess375",
     "attributeId": "A117",
-    "value": "CanAll124"
+    "value": "CAR:CA090930"
   },
   {
     "subjectId": "CritAssess375",
@@ -8801,7 +8801,7 @@
   {
     "subjectId": "CritAssess375",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess375",
@@ -8826,12 +8826,12 @@
   {
     "subjectId": "CritAssess376",
     "attributeId": "A117",
-    "value": "CanAll125"
+    "value": "CAR:CA280055"
   },
   {
     "subjectId": "CritAssess376",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess376",
@@ -8851,7 +8851,7 @@
   {
     "subjectId": "CritAssess377",
     "attributeId": "A117",
-    "value": "CanAll125"
+    "value": "CAR:CA280055"
   },
   {
     "subjectId": "CritAssess377",
@@ -8861,7 +8861,7 @@
   {
     "subjectId": "CritAssess377",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess377",
@@ -8886,7 +8886,7 @@
   {
     "subjectId": "CritAssess378",
     "attributeId": "A117",
-    "value": "CanAll125"
+    "value": "CAR:CA280055"
   },
   {
     "subjectId": "CritAssess378",
@@ -8896,7 +8896,7 @@
   {
     "subjectId": "CritAssess378",
     "attributeId": "A116",
-    "value": "CritEvalID074"
+    "value": "SEPIO:0000223"
   },
   {
     "subjectId": "CritAssess378",
@@ -8916,17 +8916,17 @@
   {
     "subjectId": "RegAll380",
     "attributeId": "A071",
-    "value": "Loc432"
+    "value": "CG-EX:Loc432"
   },
   {
     "subjectId": "RegAll380",
     "attributeId": "A058",
-    "value": "CtxAll126"
+    "value": "CG-EX:CtxAll126"
   },
   {
     "subjectId": "RegAll380",
     "attributeId": "A059",
-    "value": "RegAllOutID225"
+    "value": "RO:0002656"
   },
   {
     "subjectId": "RegAll380",
@@ -8936,17 +8936,17 @@
   {
     "subjectId": "RegAll382",
     "attributeId": "A071",
-    "value": "Loc433"
+    "value": "CG-EX:Loc433"
   },
   {
     "subjectId": "RegAll382",
     "attributeId": "A058",
-    "value": "CtxAll029"
+    "value": "CG-EX:CtxAll029"
   },
   {
     "subjectId": "RegAll382",
     "attributeId": "A059",
-    "value": "RegAllOutID225"
+    "value": "RO:0002656"
   },
   {
     "subjectId": "RegAll382",
@@ -8956,32 +8956,32 @@
   {
     "subjectId": "RegAll384",
     "attributeId": "A071",
-    "value": "Loc434"
+    "value": "CG-EX:Loc434"
   },
   {
     "subjectId": "RegAll384",
     "attributeId": "A058",
-    "value": "CtxAll031"
+    "value": "CG-EX:CtxAll031"
   },
   {
     "subjectId": "RegAll384",
     "attributeId": "A058",
-    "value": "CtxAll032"
+    "value": "CG-EX:CtxAll032"
   },
   {
     "subjectId": "RegAll384",
     "attributeId": "A058",
-    "value": "CtxAll033"
+    "value": "CG-EX:CtxAll033"
   },
   {
     "subjectId": "RegAll384",
     "attributeId": "A058",
-    "value": "CtxAll034"
+    "value": "CG-EX:CtxAll034"
   },
   {
     "subjectId": "RegAll384",
     "attributeId": "A059",
-    "value": "RegAllOutID225"
+    "value": "RO:0002656"
   },
   {
     "subjectId": "RegAll384",
@@ -8991,17 +8991,17 @@
   {
     "subjectId": "RegAll391",
     "attributeId": "A071",
-    "value": "Loc438"
+    "value": "CG-EX:Loc438"
   },
   {
     "subjectId": "RegAll391",
     "attributeId": "A058",
-    "value": "CtxAll106"
+    "value": "CG-EX:CtxAll106"
   },
   {
     "subjectId": "RegAll391",
     "attributeId": "A059",
-    "value": "RegAllOutID225"
+    "value": "RO:0002656"
   },
   {
     "subjectId": "RegAll391",
@@ -9011,17 +9011,17 @@
   {
     "subjectId": "RegAll393",
     "attributeId": "A071",
-    "value": "Loc439"
+    "value": "CG-EX:Loc439"
   },
   {
     "subjectId": "RegAll393",
     "attributeId": "A058",
-    "value": "CtxAll107"
+    "value": "CG-EX:CtxAll107"
   },
   {
     "subjectId": "RegAll393",
     "attributeId": "A059",
-    "value": "RegAllOutID225"
+    "value": "RO:0002656"
   },
   {
     "subjectId": "RegAll393",
@@ -9031,27 +9031,27 @@
   {
     "subjectId": "RegAll395",
     "attributeId": "A071",
-    "value": "Loc440"
+    "value": "CG-EX:Loc440"
   },
   {
     "subjectId": "RegAll395",
     "attributeId": "A058",
-    "value": "CtxAll108"
+    "value": "CG-EX:CtxAll108"
   },
   {
     "subjectId": "RegAll395",
     "attributeId": "A059",
-    "value": "RegAllOutID225"
+    "value": "RO:0002656"
   },
   {
     "subjectId": "Null396",
     "attributeId": "A077",
-    "value": "CtxAll001"
+    "value": "CG-EX:CtxAll001"
   },
   {
     "subjectId": "Null396",
     "attributeId": "A078",
-    "value": "NullAllOutID223"
+    "value": "SO:0002055"
   },
   {
     "subjectId": "Null396",
@@ -9061,32 +9061,32 @@
   {
     "subjectId": "Null397",
     "attributeId": "A077",
-    "value": "CtxAll002"
+    "value": "CG-EX:CtxAll002"
   },
   {
     "subjectId": "Null397",
     "attributeId": "A078",
-    "value": "NullAllOutID223"
+    "value": "SO:0002055"
   },
   {
     "subjectId": "Null398",
     "attributeId": "A077",
-    "value": "CtxAll003"
+    "value": "CG-EX:CtxAll003"
   },
   {
     "subjectId": "Null398",
     "attributeId": "A078",
-    "value": "NullAllOutID223"
+    "value": "SO:0002055"
   },
   {
     "subjectId": "Null399",
     "attributeId": "A077",
-    "value": "CtxAll004"
+    "value": "CG-EX:CtxAll004"
   },
   {
     "subjectId": "Null399",
     "attributeId": "A078",
-    "value": "NullAllOutID223"
+    "value": "SO:0002055"
   },
   {
     "subjectId": "Null399",
@@ -9096,12 +9096,12 @@
   {
     "subjectId": "Null404",
     "attributeId": "A077",
-    "value": "CtxAll070"
+    "value": "CG-EX:CtxAll070"
   },
   {
     "subjectId": "Null404",
     "attributeId": "A078",
-    "value": "NullAllOutID223"
+    "value": "SO:0002055"
   },
   {
     "subjectId": "Null404",
@@ -9111,12 +9111,12 @@
   {
     "subjectId": "Null405",
     "attributeId": "A077",
-    "value": "CtxAll099"
+    "value": "CG-EX:CtxAll099"
   },
   {
     "subjectId": "Null405",
     "attributeId": "A078",
-    "value": "NullAllOutID223"
+    "value": "SO:0002055"
   },
   {
     "subjectId": "Null405",
@@ -9126,22 +9126,22 @@
   {
     "subjectId": "Null406",
     "attributeId": "A077",
-    "value": "CtxAll097"
+    "value": "CG-EX:CtxAll097"
   },
   {
     "subjectId": "Null406",
     "attributeId": "A078",
-    "value": "NullAllOutID223"
+    "value": "SO:0002055"
   },
   {
     "subjectId": "Null407",
     "attributeId": "A077",
-    "value": "CtxAll098"
+    "value": "CG-EX:CtxAll098"
   },
   {
     "subjectId": "Null407",
     "attributeId": "A078",
-    "value": "NullAllOutID223"
+    "value": "SO:0002055"
   },
   {
     "subjectId": "Null407",
@@ -9151,12 +9151,12 @@
   {
     "subjectId": "Null408",
     "attributeId": "A077",
-    "value": "CtxAll099"
+    "value": "CG-EX:CtxAll099"
   },
   {
     "subjectId": "Null408",
     "attributeId": "A078",
-    "value": "NullAllOutID223"
+    "value": "SO:0002055"
   },
   {
     "subjectId": "Null408",
@@ -9166,11 +9166,11 @@
   {
     "subjectId": "Null415",
     "attributeId": "A077",
-    "value": "CtxAll127"
+    "value": "CG-EX:CtxAll127"
   },
   {
     "subjectId": "Null415",
     "attributeId": "A078",
-    "value": "NullAllOutID223"
+    "value": "SO:0002055"
   }
 ]

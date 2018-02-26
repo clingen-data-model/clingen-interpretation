@@ -1761,21 +1761,6 @@
     "@valueSetId": "",
     "precedence": 3.0
   },
-  "A140": {
-    "id": "A140",
-    "entityId": "E07",
-    "name": "geneSymbol",
-    "dataType": "string",
-    "cardinality": "1..1",
-    "iri": "ERO:0000574",
-    "iri-label": "has_gene_symbol",
-    "cg-label": "geneSymbol",
-    "valueSetId": "VS030",
-    "@valueSetId": "SEPIO-CG:65130",
-    "restrictByValueSet": "No",
-    "precedence": 1.0,
-    "description": "Symbol for a gene provided by a naming system"
-  },
   "A141": {
     "id": "A141",
     "entityId": "E14",

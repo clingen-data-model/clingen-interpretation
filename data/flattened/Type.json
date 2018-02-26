@@ -45,6 +45,7 @@
   "E05": {
     "id": "E05",
     "name": "CanonicalAllele",
+    "parentType": "E40",
     "link": "CanAll",
     "iri": "GENO:0000890",
     "iri-label": "canonical allele",
@@ -56,6 +57,7 @@
   "E06": {
     "id": "E06",
     "name": "ContextualAllele",
+    "parentType": "E40",
     "link": "CtxAll",
     "iri": "GENO:0000891",
     "iri-label": "contextual allele",
@@ -63,18 +65,6 @@
     "description": "An informational artifact that describes an allele as defined on a particular reference sequence.",
     "comments": "",
     "toString": "alleleName"
-  },
-  "E07": {
-    "id": "E07",
-    "name": "Gene",
-    "parentType": "E40",
-    "link": "G",
-    "iri": "SO:0000704",
-    "iri-label": "gene",
-    "cg-label": "Gene",
-    "description": "From SO: A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.",
-    "comments": "",
-    "toString": "geneSymbol"
   },
   "E08": {
     "id": "E08",
@@ -131,6 +121,7 @@
   "E14": {
     "id": "E14",
     "name": "GeneticCondition",
+    "parentType": "E40",
     "link": "GenCond",
     "iri": "SEPIO:0000219",
     "iri-label": "genetic condition",
@@ -138,17 +129,6 @@
     "description": "A disease, or a set of one or more co-occurring phenotypes, typically controlled by a single locus with a defined inheritance pattern.",
     "comments": "CB: It appears that most descriptions of mendelian conditions do emphasize the single-locus nature.  (Many say monogenic, but single-locus makes more sense to me for something like a large-deletion?)  The problem, perhapse is that we have allowed Mendelian Condition to contain terms that are not, strictly speaking, Mendelian conditions.  For instance, parent nodes in a disease ontology which is a parent to many different monogenic diseases that all share similary phenotypic features (like hearing loss).\n\nMB: I think the 'typically' accommodates this in the definition, but CG should add clarifying comments as noted above.\n\nTODO:CG to add clarifying coments here about monogenic nature of mendelian conditions ",
     "toString": "label || disease&.label"
-  },
-  "E16": {
-    "id": "E16",
-    "name": "Individual",
-    "parentType": "E40",
-    "link": "Indiv",
-    "iri": "foaf:Person",
-    "iri-label": "foaf:Person",
-    "cg-label": "Individual",
-    "description": "A human being regarded as an individual.",
-    "comments": ""
   },
   "E17": {
     "id": "E17",
@@ -300,17 +280,6 @@
     "description": "A specification that describes how to interpret information as evidence in order to make an  assertion about the pathogenicity of a genetic variant.",
     "comments": "Guidelines typically include specific 'variant interpretation criterion' that describe how to interpret the direction and strength of evidence provided by a particular type of information, and 'criterion scoring algorithms' which describe how to combine the outcomes of each criterion assessment to arrive at a final interpretation of a variant's pathogenicity.\n. . . "
   },
-  "E33": {
-    "id": "E33",
-    "name": "ScoringAlgorithm",
-    "parentType": "E40",
-    "link": "ScorAlg",
-    "iri": "SEPIO:0000224",
-    "iri-label": "varriant pathogenicity criterion scoring algorithm",
-    "cg-label": "ScoringAlgorithm",
-    "description": "A specification for how to collectively evaluate the outcomes of one or more variant pathogenicity criterion assessments as evidence, to make an assertion about the pathogenicity of a variant.",
-    "comments": "These rules consider both the direction (does it support a pathogenic or benign interpretation) and the asserted strength  (what level of support does it provide) of the evidence provided by each satisfied criteria, and define mappings from specific combinations of these outcomes to particular interpretations of the variant's pathogenicity."
-  },
   "E35": {
     "id": "E35",
     "name": "VariantInterpretation",
@@ -335,6 +304,7 @@
   "E40": {
     "id": "E40",
     "name": "DomainEntity",
+    "link": "DEnt",
     "iri": "SEPIO-CG:03000",
     "iri-label": "",
     "cg-label": "DomainEntity",
@@ -362,17 +332,6 @@
     "cg-label": "BenignMissenseVariationRate",
     "description": "A statement about the frequency at which missense variants in a particular region are tolerated (i.e. do not cause a pathological condition)",
     "comments": ""
-  },
-  "E44": {
-    "id": "E44",
-    "name": "Family",
-    "parentType": "E40",
-    "link": "Fam",
-    "iri": "PCO:0000032",
-    "iri-label": "biological family",
-    "cg-label": "Family",
-    "description": "A collection of organisms of the same species whose members are all either genealogically related to each other or have mated with each other.",
-    "comments": "TODO MB:make term request for PCO to subtype of family describing groups of individuals related by descent (biological family)\n\n\n"
   },
   "E45": {
     "id": "E45",
@@ -492,285 +451,5 @@
     "cg-label": "EvidenceLine",
     "description": "An evidence line represents an independent and meaningful argument for or against a particular proposition, that is based on the interpretation of one or more pieces of information as evidence.",
     "comments": "Evidence lines are organizational nodes in SEPIO used to group all 'evidence items' (pieces of information interpreted as evidence) that contribute to one independent argument relevant to the validity of a proposition. Most often, 'evidence items' are grouped under an evidence line in virtue of their having been generated in a single study or investigation. For example, primary measurement values and derived statistical scores from a study of blood glucose levels in wild-type vs. mutant  mice are all evidence items that would belong to the same Evidence Line. But sometimes information arising from completely separate lines of investigation is grouped under a single evidence line - in cases where two or more independent facts or findings must all be true in order for a meaningful argument for or against a proposition to exist.  For example, the ACMG \"PVS1\" criteria holds that very strong evidence for the pathogenicity of a variant allele exists when: (1) it represents a 'null mutation' that inactivates the resulting gene product, and (2) loss-of-function of the affected gene is a known mechanism of disease. An evidence line based on this criteria would group all evidence items pertinent to establishing either of these independent facts.\n\nAn evidence line is created through the interpretation of one or more pieces of information that collectively support a meaningful argument for or against a proposition. To qualify as an evidence line, this argument must be independently significant as evidence - i.e. it must be capable of affecting the probability of accepting the target proposition as true. This does not mean, however, that an evidence line must be independently sufficient to establish belief in the proposition, as additional evidence lines may be required to ultimately accept the proposition as true. For example, in the ACMG framework for variant interpretations establishes a variant's \"absence in population databases\" as a type of evidence line that can argue for the pathogenicty of the variant. But the ACMG Framework does not consider this argument alone as sufficient to establish a variant's pathogencity, as the additional lines of evidence are required to classify it as definitively pathogenic (e.g. a line of evidence demonstrating the variant to have a deleterious effect on protein function, or showing it to segregate with disease features in a family tree).\n\nEditor Note:\nIt may help to think of evidence lines as representing the relationship between a set of one or more 'evidence items' and a proposition, where the evidence items are interpreted together as supporting one argument  for or against a particular proposition. In SEPIO however, we define them as representing the argument itself, as this is the simplest and most pragmatic way to explain this concept to users. But we acknowledge that the precise ontological nature of an 'argument', and therefore an 'evidence line', in the context of the BFO remains ambiguous."
-  },
-  "E57": {
-    "id": "E57",
-    "name": "MolecularConsequence",
-    "parentType": "E40",
-    "link": "MolConID",
-    "iri": "SEPIO-CG:55102",
-    "iri-label": "",
-    "cg-label": "Molecular Consequence",
-    "description": "A classification of a genomic variant based on its effect on a transcript or its location with respect to the transcript."
-  },
-  "E58": {
-    "id": "E58",
-    "name": "Significance",
-    "parentType": "E40",
-    "link": "SigID",
-    "iri": "SEPIO:0000371",
-    "iri-label": "",
-    "cg-label": "Clinical Significance",
-    "description": "The role that a variant plays in the causing a genetic condition."
-  },
-  "E59": {
-    "id": "E59",
-    "name": "RegionAnnotation",
-    "parentType": "E40",
-    "link": "RegAnnID",
-    "iri": "SEPIO:0000343",
-    "iri-label": "",
-    "cg-label": "Region Annotation",
-    "description": "A label applied to a sequence region"
-  },
-  "E60": {
-    "id": "E60",
-    "name": "Phase",
-    "parentType": "E40",
-    "link": "PhaseID",
-    "iri": "SEPIO:0000344",
-    "iri-label": "",
-    "cg-label": "Allelic Phase",
-    "description": "Value denoting whether sequence features lie on the same or different molecules"
-  },
-  "E61": {
-    "id": "E61",
-    "name": "AllelicState",
-    "parentType": "E40",
-    "link": "AllStateID",
-    "iri": "SEPIO:0000338",
-    "iri-label": "",
-    "cg-label": "Allelic State",
-    "description": "Describes the existence of an allele across multiple copies of a chromosome."
-  },
-  "E62": {
-    "id": "E62",
-    "name": "ModeOfInheritance",
-    "parentType": "E40",
-    "link": "ModeOfInhID",
-    "iri": "SEPIO-CG:55105",
-    "iri-label": "",
-    "cg-label": "Mode Of Inheritance",
-    "description": "Classifies the transmission pattern of a condition in a pedigree."
-  },
-  "E64": {
-    "id": "E64",
-    "name": "Mechanism",
-    "parentType": "E40",
-    "link": "MechID",
-    "iri": "SEPIO-CG:55107",
-    "iri-label": "",
-    "cg-label": "Condition Mechanism",
-    "description": "The particular type of allele that can lead to a condition"
-  },
-  "E65": {
-    "id": "E65",
-    "name": "Prediction",
-    "parentType": "E40",
-    "link": "PredID",
-    "iri": "SEPIO:0000345",
-    "iri-label": "",
-    "cg-label": "In Silico Prediction Method",
-    "description": "The type of InSilico Predictor"
-  },
-  "E66": {
-    "id": "E66",
-    "name": "CriterionEvaluation",
-    "parentType": "E40",
-    "link": "CritEvalID",
-    "iri": "SEPIO:0000347",
-    "iri-label": "",
-    "cg-label": "Criterion Evaluation",
-    "description": "Denotes whether the collected evidence is sufficient to meet a specified criteria or not"
-  },
-  "E67": {
-    "id": "E67",
-    "name": "AlleleFunctionalAssayMethod",
-    "parentType": "E40",
-    "link": "AFAMID",
-    "iri": "SEPIO-CG:55110",
-    "iri-label": "",
-    "cg-label": "Allele Functional Assay Method",
-    "description": "The functional measurement carried out in a given assay"
-  },
-  "E68": {
-    "id": "E68",
-    "name": "Population",
-    "parentType": "E40",
-    "link": "PopID",
-    "iri": "SEPIO-CG:55111",
-    "iri-label": "",
-    "cg-label": "Population",
-    "description": "Label for a group of individuals with a shared genetic background"
-  },
-  "E69": {
-    "id": "E69",
-    "name": "BenignMissenseVariationRateOutcome",
-    "parentType": "E40",
-    "link": "BMVROID",
-    "iri": "SEPIO:0000349",
-    "iri-label": "",
-    "cg-label": "Benign Missense Variation Rate Outcome",
-    "description": "The rate of missense variation in a transcript that do not lead to a genetic condition"
-  },
-  "E70": {
-    "id": "E70",
-    "name": "Penetrance",
-    "parentType": "E40",
-    "link": "PenetID",
-    "iri": "SEPIO-CG:55113",
-    "iri-label": "",
-    "cg-label": "Condition Penetrance",
-    "description": "The chance of having a particular genetic condition given the presence of a particular variant or damaged gene"
-  },
-  "E71": {
-    "id": "E71",
-    "name": "ConditionMechanismStrength",
-    "parentType": "E40",
-    "link": "CondMechStrgID",
-    "iri": "SEPIO:0000354",
-    "iri-label": "",
-    "cg-label": "Condition Mechanism Strength",
-    "description": "The strength of association between a genetic mechanism and a condition"
-  },
-  "E72": {
-    "id": "E72",
-    "name": "EvidenceLineStrength",
-    "parentType": "E40",
-    "link": "EvLnStrgID",
-    "iri": "SEPIO:0000353",
-    "iri-label": "",
-    "cg-label": "ACMG Evidence Strength",
-    "description": "Degree of support that a set of evidence lends to a subsequent statement"
-  },
-  "E73": {
-    "id": "E73",
-    "name": "Disease",
-    "parentType": "E40",
-    "link": "DisID",
-    "iri": "SEPIO-CG:55116",
-    "iri-label": "",
-    "cg-label": "Disease",
-    "description": "From MONDO: An alteration of health status resulting from a physiopathological mechanism, and having a homogeneous clinical presentation and evolution and homogeneous therapeutic possibilities."
-  },
-  "E74": {
-    "id": "E74",
-    "name": "Phenotype",
-    "parentType": "E40",
-    "link": "PhenID",
-    "iri": "SEPIO-CG:55117",
-    "iri-label": "",
-    "cg-label": "Phenotype",
-    "description": "From NCIT: The assemblage of traits or outward appearance of an individual. It is the product of interactions between genes and between genes and the environment."
-  },
-  "E76": {
-    "id": "E76",
-    "name": "ContributoryRole",
-    "parentType": "E40",
-    "link": "ContribRoleID",
-    "iri": "SEPIO-CG:55118",
-    "iri-label": "",
-    "cg-label": "Contributory Role",
-    "description": "The role played by an agent in the creation of an artifact"
-  },
-  "E77": {
-    "id": "E77",
-    "name": "AlleleInheritance",
-    "parentType": "E40",
-    "link": "AlleleInhID",
-    "iri": "SEPIO-CG:55119",
-    "iri-label": "",
-    "cg-label": "Allele Inheritance",
-    "description": "The source of an allele in an individual"
-  },
-  "E78": {
-    "id": "E78",
-    "name": "Ascertainment",
-    "parentType": "E40",
-    "link": "AscrtID",
-    "iri": "SEPIO-CG:55120",
-    "iri-label": "",
-    "cg-label": "Ascertainment",
-    "description": "The method by which a set of people was chosen to define a group"
-  },
-  "E79": {
-    "id": "E79",
-    "name": "LocusSpecificity",
-    "parentType": "E40",
-    "link": "LocSpecID",
-    "iri": "SEPIO:0000348",
-    "iri-label": "",
-    "cg-label": "Locus Specificity",
-    "description": "The degree to which a condition implicates a specific genomic locus, such as a gene."
-  },
-  "E80": {
-    "id": "E80",
-    "name": "Conservation",
-    "parentType": "E40",
-    "link": "ConsrvID",
-    "iri": "SEPIO-CG:55122",
-    "iri-label": "",
-    "cg-label": "Conservation",
-    "description": "The degree to which an allele is preserved over evolutionary history"
-  },
-  "E81": {
-    "id": "E81",
-    "name": "ParentalConfirmation",
-    "parentType": "E40",
-    "link": "ParenConfID",
-    "iri": "SEPIO-CG:55123",
-    "iri-label": "",
-    "cg-label": "Parental Confirmation",
-    "description": "Whether or not parentage has been confirmed with a genetic test"
-  },
-  "E82": {
-    "id": "E82",
-    "name": "ConditionStatus",
-    "parentType": "E40",
-    "link": "CondStatID",
-    "iri": "SEPIO-CG:55124",
-    "iri-label": "",
-    "cg-label": "Condition Status",
-    "description": "Whether or not an individual is affected by a specific genetic condition"
-  },
-  "E83": {
-    "id": "E83",
-    "name": "InconsistentSegregationObserved",
-    "parentType": "E40",
-    "link": "InconSegObsID",
-    "iri": "SEPIO-CG:55125",
-    "iri-label": "",
-    "cg-label": "Inconsistent Segregation Observed",
-    "description": "Whether or not inconsistent segretations have been observed in a pedigree"
-  },
-  "E84": {
-    "id": "E84",
-    "name": "NullAlleleOutcome",
-    "parentType": "E40",
-    "link": "NullAllOutID",
-    "iri": "SEPIO-CG:55126",
-    "iri-label": "",
-    "cg-label": "Null Allele Outcome",
-    "description": "Denotes whether an allele leads to a non-functional transcript"
-  },
-  "E85": {
-    "id": "E85",
-    "name": "RegionAllelesOutcome",
-    "parentType": "E40",
-    "link": "RegAllOutID",
-    "iri": "",
-    "iri-label": "",
-    "cg-label": "",
-    "description": "Whether or not an allele overlaps a sequence region"
-  },
-  "E86": {
-    "id": "E86",
-    "name": "ValueSetConceptListExtensibility",
-    "parentType": "E40",
-    "link": "VSCLExtnsID",
-    "iri": "SEPIO:0000363",
-    "iri-label": "",
-    "cg-label": "Value Set Extensibility",
-    "description": "Whether or not a ValueSet can be extended by users"
   }
 }
