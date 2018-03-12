@@ -122,7 +122,25 @@ class DMWGExampleData
           end # value is list
         end # value exists
       end # each row in sheet
-    end # each sheet
+    end # each 'join-table' sheet
+
+    @flattened['__labels'].each do |subjectLabel|
+      sId = subjectLabel['subjectId']
+      label = subjectLabel['label']
+      if sId.empty? or label.empty?
+        STDERR.puts "blank value in __labels sheet: [#{sId}]: [#{label}]"
+        next
+      end
+      if !@id2example.has_key? sId
+        STDERR.puts "attempted to apply label '#{label}' to '#{sId}', but no such object exists"
+        next
+      end
+      subj = @id2example[sId]
+      if subj.has_key? 'label'
+        STDERR.puts "attempted to apply a label '#{label}' to '#{sId}', which already has label '#{subj['label']}'"
+      end
+      @id2example[sId]['label'] = label
+    end # each row of __labels sheet
 
     # FIXME - this is kludgy
     @id2example.each do |id, ex|
