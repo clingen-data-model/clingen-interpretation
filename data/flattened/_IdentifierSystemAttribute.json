@@ -1,28 +1,13 @@
 [
   {
     "subjectId": "IdSys001",
-    "attributeId": "A146",
-    "value": "ClinGen Allele Registry"
+    "attributeId": "A152",
+    "value": "http://reg.genome.network/allele/"
   },
   {
     "subjectId": "IdSys001",
     "attributeId": "A154",
     "value": "CAR"
-  },
-  {
-    "subjectId": "IdSys001",
-    "attributeId": "A152",
-    "value": "http://reg.genome.network/allele/"
-  },
-  {
-    "subjectId": "IdSys002",
-    "attributeId": "A146",
-    "value": "LOINC"
-  },
-  {
-    "subjectId": "IdSys002",
-    "attributeId": "A154",
-    "value": "LN"
   },
   {
     "subjectId": "IdSys002",
@@ -35,14 +20,9 @@
     "value": "http://loinc.org/"
   },
   {
-    "subjectId": "IdSys003",
-    "attributeId": "A146",
-    "value": "hgnc"
-  },
-  {
-    "subjectId": "IdSys003",
+    "subjectId": "IdSys002",
     "attributeId": "A154",
-    "value": "HGNC"
+    "value": "LN"
   },
   {
     "subjectId": "IdSys003",
@@ -55,14 +35,9 @@
     "value": "http://www.genenames.org/"
   },
   {
-    "subjectId": "IdSys004",
-    "attributeId": "A146",
-    "value": "RefSeq"
-  },
-  {
-    "subjectId": "IdSys004",
+    "subjectId": "IdSys003",
     "attributeId": "A154",
-    "value": "REFSEQ"
+    "value": "HGNC"
   },
   {
     "subjectId": "IdSys004",
@@ -75,14 +50,9 @@
     "value": "http://www.ncbi.nlm.nih.gov/nuccore/"
   },
   {
-    "subjectId": "IdSys005",
-    "attributeId": "A146",
-    "value": "ClinVar"
-  },
-  {
-    "subjectId": "IdSys005",
+    "subjectId": "IdSys004",
     "attributeId": "A154",
-    "value": "CLINVAR"
+    "value": "REFSEQ"
   },
   {
     "subjectId": "IdSys005",
@@ -90,14 +60,9 @@
     "value": "http://www.ncbi.nlm.nih.gov/clinvar/"
   },
   {
-    "subjectId": "IdSys006",
-    "attributeId": "A146",
-    "value": "Ensembl"
-  },
-  {
-    "subjectId": "IdSys006",
+    "subjectId": "IdSys005",
     "attributeId": "A154",
-    "value": "ENSEMBL"
+    "value": "CLINVAR"
   },
   {
     "subjectId": "IdSys006",
@@ -105,14 +70,9 @@
     "value": "http://www.ensembl.org/"
   },
   {
-    "subjectId": "IdSys007",
-    "attributeId": "A146",
-    "value": "SequenceOntology"
-  },
-  {
-    "subjectId": "IdSys007",
+    "subjectId": "IdSys006",
     "attributeId": "A154",
-    "value": "SO"
+    "value": "ENSEMBL"
   },
   {
     "subjectId": "IdSys007",
@@ -120,14 +80,9 @@
     "value": "http://sequenceontology.org/"
   },
   {
-    "subjectId": "IdSys008",
-    "attributeId": "A146",
-    "value": "dbSNP"
-  },
-  {
-    "subjectId": "IdSys008",
+    "subjectId": "IdSys007",
     "attributeId": "A154",
-    "value": "DBSNP"
+    "value": "SO"
   },
   {
     "subjectId": "IdSys008",
@@ -140,14 +95,9 @@
     "value": "http://www.ncbi.nlm.nih.gov/projects/SNP/"
   },
   {
-    "subjectId": "IdSys009",
-    "attributeId": "A146",
-    "value": "HGVS"
-  },
-  {
-    "subjectId": "IdSys009",
+    "subjectId": "IdSys008",
     "attributeId": "A154",
-    "value": "HGVS"
+    "value": "DBSNP"
   },
   {
     "subjectId": "IdSys009",
@@ -160,14 +110,9 @@
     "value": "http://www.hgvs.org/mutnomen/"
   },
   {
-    "subjectId": "IdSys010",
-    "attributeId": "A146",
-    "value": "LRG"
-  },
-  {
-    "subjectId": "IdSys010",
+    "subjectId": "IdSys009",
     "attributeId": "A154",
-    "value": "LRG"
+    "value": "HGVS"
   },
   {
     "subjectId": "IdSys010",
@@ -180,14 +125,9 @@
     "value": "http://www.lrg-sequence.org/"
   },
   {
-    "subjectId": "IdSys011",
-    "attributeId": "A146",
-    "value": "OMIM"
-  },
-  {
-    "subjectId": "IdSys011",
+    "subjectId": "IdSys010",
     "attributeId": "A154",
-    "value": "OMIM"
+    "value": "LRG"
   },
   {
     "subjectId": "IdSys011",
@@ -200,14 +140,9 @@
     "value": "http://www.omim.org/"
   },
   {
-    "subjectId": "IdSys012",
-    "attributeId": "A146",
-    "value": "Pubmed"
-  },
-  {
-    "subjectId": "IdSys012",
+    "subjectId": "IdSys011",
     "attributeId": "A154",
-    "value": "PUBMED"
+    "value": "OMIM"
   },
   {
     "subjectId": "IdSys012",
@@ -220,14 +155,9 @@
     "value": "http://www.ncbi.nlm.nih.gov/pubmed/"
   },
   {
-    "subjectId": "IdSys013",
-    "attributeId": "A146",
-    "value": "Orphanet"
-  },
-  {
-    "subjectId": "IdSys013",
+    "subjectId": "IdSys012",
     "attributeId": "A154",
-    "value": "Orphanet"
+    "value": "PUBMED"
   },
   {
     "subjectId": "IdSys013",
@@ -235,14 +165,9 @@
     "value": "http://www.orpha.net/"
   },
   {
-    "subjectId": "IdSys014",
-    "attributeId": "A146",
-    "value": "Broad-population-type"
-  },
-  {
-    "subjectId": "IdSys014",
+    "subjectId": "IdSys013",
     "attributeId": "A154",
-    "value": "BROAD-population-type"
+    "value": "Orphanet"
   },
   {
     "subjectId": "IdSys014",
@@ -250,14 +175,9 @@
     "value": "http://broadinstitute.org/populations/"
   },
   {
-    "subjectId": "IdSys015",
-    "attributeId": "A146",
-    "value": "medgen-dis"
-  },
-  {
-    "subjectId": "IdSys015",
+    "subjectId": "IdSys014",
     "attributeId": "A154",
-    "value": "MEDGEN"
+    "value": "BROAD-population-type"
   },
   {
     "subjectId": "IdSys015",
@@ -270,14 +190,9 @@
     "value": "https://www.ncbi.nlm.nih.gov/medgen/"
   },
   {
-    "subjectId": "IdSys016",
-    "attributeId": "A146",
-    "value": "HumanPhenotypeOntology"
-  },
-  {
-    "subjectId": "IdSys016",
+    "subjectId": "IdSys015",
     "attributeId": "A154",
-    "value": "HP"
+    "value": "MEDGEN"
   },
   {
     "subjectId": "IdSys016",
@@ -285,14 +200,9 @@
     "value": "http://human-phenotype-ontology.github.io/"
   },
   {
-    "subjectId": "IdSys017",
-    "attributeId": "A146",
-    "value": "RelationsOntology"
-  },
-  {
-    "subjectId": "IdSys017",
+    "subjectId": "IdSys016",
     "attributeId": "A154",
-    "value": "RO"
+    "value": "HP"
   },
   {
     "subjectId": "IdSys017",
@@ -300,14 +210,9 @@
     "value": "http://obofoundry.org/ro/"
   },
   {
-    "subjectId": "IdSys018",
-    "attributeId": "A146",
-    "value": "Int'l Genome Sample Resource populations"
-  },
-  {
-    "subjectId": "IdSys018",
+    "subjectId": "IdSys017",
     "attributeId": "A154",
-    "value": "IGSR-population-type"
+    "value": "RO"
   },
   {
     "subjectId": "IdSys018",
@@ -315,14 +220,9 @@
     "value": "http://www.internationalgenome.org/category/population/"
   },
   {
-    "subjectId": "IdSys019",
-    "attributeId": "A146",
-    "value": "Disease Ontology"
-  },
-  {
-    "subjectId": "IdSys019",
+    "subjectId": "IdSys018",
     "attributeId": "A154",
-    "value": "DOID"
+    "value": "IGSR-population-type"
   },
   {
     "subjectId": "IdSys019",
@@ -330,14 +230,9 @@
     "value": "http://disease-ontology.org/"
   },
   {
-    "subjectId": "IdSys020",
-    "attributeId": "A146",
-    "value": "MeSH"
-  },
-  {
-    "subjectId": "IdSys020",
+    "subjectId": "IdSys019",
     "attributeId": "A154",
-    "value": "MESH"
+    "value": "DOID"
   },
   {
     "subjectId": "IdSys020",
@@ -345,14 +240,9 @@
     "value": "https://meshb.nlm.nih.gov/"
   },
   {
-    "subjectId": "IdSys021",
-    "attributeId": "A146",
-    "value": "ESP"
-  },
-  {
-    "subjectId": "IdSys021",
+    "subjectId": "IdSys020",
     "attributeId": "A154",
-    "value": "ESP-population-type"
+    "value": "MESH"
   },
   {
     "subjectId": "IdSys021",
@@ -360,14 +250,9 @@
     "value": "http://evs.gs.washington.edu/EVS/"
   },
   {
-    "subjectId": "IdSys022",
-    "attributeId": "A146",
-    "value": "GENO"
-  },
-  {
-    "subjectId": "IdSys022",
+    "subjectId": "IdSys021",
     "attributeId": "A154",
-    "value": "GENO"
+    "value": "ESP-population-type"
   },
   {
     "subjectId": "IdSys022",
@@ -375,14 +260,9 @@
     "value": "http://obofoundry.org/geno/"
   },
   {
-    "subjectId": "IdSys023",
-    "attributeId": "A146",
-    "value": "Scientific Evidence Provenance Information Ontology"
-  },
-  {
-    "subjectId": "IdSys023",
+    "subjectId": "IdSys022",
     "attributeId": "A154",
-    "value": "SEPIO"
+    "value": "GENO"
   },
   {
     "subjectId": "IdSys023",
@@ -390,14 +270,9 @@
     "value": "http://obofoundry.org/sepio/"
   },
   {
-    "subjectId": "IdSys024",
-    "attributeId": "A146",
-    "value": "ClinGen extensions to SEPIO"
-  },
-  {
-    "subjectId": "IdSys024",
+    "subjectId": "IdSys023",
     "attributeId": "A154",
-    "value": "SEPIO-CG"
+    "value": "SEPIO"
   },
   {
     "subjectId": "IdSys024",
@@ -405,14 +280,9 @@
     "value": "http://obofoundry.org/sepio/clingen"
   },
   {
-    "subjectId": "IdSys025",
-    "attributeId": "A146",
-    "value": "OBI"
-  },
-  {
-    "subjectId": "IdSys025",
+    "subjectId": "IdSys024",
     "attributeId": "A154",
-    "value": "OBI"
+    "value": "SEPIO-CG"
   },
   {
     "subjectId": "IdSys025",
@@ -420,14 +290,9 @@
     "value": "http://purl.obolibrary.org/obo/OBI_"
   },
   {
-    "subjectId": "IdSys026",
-    "attributeId": "A146",
-    "value": "Information Artifact Ontology"
-  },
-  {
-    "subjectId": "IdSys026",
+    "subjectId": "IdSys025",
     "attributeId": "A154",
-    "value": "IAO"
+    "value": "OBI"
   },
   {
     "subjectId": "IdSys026",
@@ -435,18 +300,18 @@
     "value": "http://purl.obolibrary.org/obo/IAO_"
   },
   {
-    "subjectId": "IdSys027",
-    "attributeId": "A146",
-    "value": "NCI Thesarus"
-  },
-  {
-    "subjectId": "IdSys027",
+    "subjectId": "IdSys026",
     "attributeId": "A154",
-    "value": "NCIT"
+    "value": "IAO"
   },
   {
     "subjectId": "IdSys027",
     "attributeId": "A152",
     "value": "http://purl.bioontology.org/ontology/NCIT"
+  },
+  {
+    "subjectId": "IdSys027",
+    "attributeId": "A154",
+    "value": "NCIT"
   }
 ]
