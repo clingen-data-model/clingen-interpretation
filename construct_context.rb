@@ -1,5 +1,5 @@
 require 'json'
-require 'reformat_examples'
+require './reformat_examples'
 
 DM_BASE_IRI = "http://datamodel.clinicalgenome.org/"
 DM_TYPES_IRI = "http://datamodel.clinicalgenome.org/types/"
