@@ -542,7 +542,7 @@
   {
     "subjectId": "AllFreq029",
     "attributeId": "A030",
-    "value": "CG-EXAMPLE:Ascrt0001"
+    "value": "CG-EX:Ascrt0001"
   },
   {
     "subjectId": "AllFreq029",
@@ -662,7 +662,7 @@
   {
     "subjectId": "AllFreq034",
     "attributeId": "A030",
-    "value": "CG-EXAMPLE:Ascrt0002"
+    "value": "CG-EX:Ascrt0002"
   },
   {
     "subjectId": "AllFreq034",
@@ -702,7 +702,7 @@
   {
     "subjectId": "AllFreq035",
     "attributeId": "A030",
-    "value": "CG-EXAMPLE:Ascrt0003"
+    "value": "CG-EX:Ascrt0003"
   },
   {
     "subjectId": "AllFreq035",
@@ -9172,5 +9172,20 @@
     "subjectId": "Null415",
     "attributeId": "A078",
     "value": "SO:0002055"
+  },
+  {
+    "subjectId": "AllFreq029",
+    "attributeId": "A073",
+    "value": "UsrLabl001"
+  },
+  {
+    "subjectId": "AllFreq034",
+    "attributeId": "A073",
+    "value": "UsrLabl002"
+  },
+  {
+    "subjectId": "AllFreq035",
+    "attributeId": "A073",
+    "value": "UsrLabl003"
   }
 ]

@@ -870,10 +870,10 @@
   },
   "A073": {
     "id": "A073",
-    "entityId": "E40",
+    "entityId": "E01",
     "name": "userLabel",
     "dataType": "UserLabel",
-    "cardinality": "0..1",
+    "cardinality": "0..*",
     "isReference": "yes",
     "iri": "",
     "iri-label": "",
@@ -1620,6 +1620,19 @@
     "@valueSetId": "",
     "precedence": 94.0,
     "description": "A string indicating the source of a Statement"
+  },
+  "A130": {
+    "id": "A130",
+    "entityId": "E39",
+    "name": "labelFor",
+    "dataType": "@id",
+    "cardinality": "1..1",
+    "iri": "",
+    "iri-label": "",
+    "cg-label": "",
+    "@valueSetId": "",
+    "precedence": 1.0,
+    "description": "The object to which a user-assigned label applies"
   },
   "A131": {
     "id": "A131",
