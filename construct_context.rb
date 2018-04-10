@@ -7,8 +7,8 @@ DM_ATTRS_IRI = "http://datamodel.clinicalgenome.org/attributes/"
 
 def construct_context(data_dir = File.join('data', 'flattened'))
   dmwg_examples = DMWGExampleData.new('data/flattened')
-  types = dmwg_examples.types
-  identifier_systems = dmwg_examples.by_type['IdentifierSystem']
+  types = dmwg_examples.types_by_entity_id
+  identifier_systems = dmwg_examples.data_by_entity_type['IdentifierSystem']
 
   cx = {
           "cg-types" => DM_TYPES_IRI,

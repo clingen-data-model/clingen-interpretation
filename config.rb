@@ -54,12 +54,12 @@ require 'scoped_context'
 $dmwg_examples = DMWGExampleData.new('data/flattened')
 
 # build raw json versions of the examples
-$dmwg_examples.by_id.each do |k,v|
+$dmwg_examples.data_by_id.each do |k,v|
   v_with_context = v.merge({'@context' => 'http://datamodel.clinicalgenome.org/interpretation/json/context'})
   proxy "/json/#{k}", "/templates/entity.json", :locals => { :object => v_with_context },
     :ignore => true, :layout => false, :directory_indexes => true
 end
-proxy "/json/Types", "/templates/entity.json", :locals => { :object => $dmwg_examples.types },
+proxy "/json/Types", "/templates/entity.json", :locals => { :object => $dmwg_examples.types_by_entity_id },
   :ignore => true, :layout => false, :directory_indexes => true
 proxy "/json/context", "/templates/entity.json", :locals => { :object => construct_context() },
   :ignore => true, :layout => false, :directory_indexes => true
@@ -231,18 +231,18 @@ helpers do
   end
 
   def attributes_by_entity(entityId)
-    $dmwg_examples.attributes_by_entity[entityId].select { |i| i['entityId'] == entityId }
+    $dmwg_examples.attributes_by_entity_id[entityId].select { |i| i['entityId'] == entityId }
   end
 
   def inherited_attributes_by_entity(entityId)
-    $dmwg_examples.attributes_by_entity[entityId]
+    $dmwg_examples.attributes_by_entity_id[entityId]
       .select { |i| i['entityId'] != entityId }
       .each { |i| i.merge({'inherited_from' => data.flattened.Type[i['entityId']]})}
   end
 
   def examples_by_type(type)
     type_name = data.flattened.Type[type]['name']
-    $dmwg_examples.by_type[type_name]
+    $dmwg_examples.data_by_entity_type[type_name]
   end
 
   # def example_path(example_id)

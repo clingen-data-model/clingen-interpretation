@@ -229,17 +229,6 @@
     "description": "A statement about the positional relationship between a region of genomic sequence and one or more alleles. (i.e. whether the region overlaps or is adjacent to the allele).",
     "comments": ""
   },
-  "E26": {
-    "id": "E26",
-    "name": "ReferenceSequence",
-    "parentType": "E40",
-    "link": "RefSeq",
-    "iri": "GENO:0000017",
-    "iri-label": "reference sequence feature",
-    "cg-label": "ReferenceSequence",
-    "description": "A sequence feature that serves as a standard against which variant versions of the sequence feature are compared, or against which located sequence features within the reference region are aligned in order to assign position information.",
-    "comments": ""
-  },
   "E28": {
     "id": "E28",
     "name": "IndividualGenotype",

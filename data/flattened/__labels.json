@@ -1433,7 +1433,7 @@
   },
   {
     "subjectId": "VS001",
-    "label": "Value Set Concept List Exstensibility"
+    "label": "Value Set Extensibility"
   },
   {
     "subjectId": "VS002",
@@ -1441,7 +1441,7 @@
   },
   {
     "subjectId": "VS003",
-    "label": "Clinical Signficance"
+    "label": "Clinical Significance"
   },
   {
     "subjectId": "VS004",
@@ -1449,7 +1449,7 @@
   },
   {
     "subjectId": "VS005",
-    "label": "Phase"
+    "label": "Allelic Phase"
   },
   {
     "subjectId": "VS006",
@@ -1457,7 +1457,7 @@
   },
   {
     "subjectId": "VS007",
-    "label": "Mode of Inheritance"
+    "label": "Inheritance Pattern"
   },
   {
     "subjectId": "VS008",
@@ -1465,15 +1465,15 @@
   },
   {
     "subjectId": "VS009",
-    "label": "Prediction"
+    "label": "In Silico Prediction Method"
   },
   {
     "subjectId": "VS010",
-    "label": "Criterion Evaluation"
+    "label": "Criterion Assessment Outcome"
   },
   {
     "subjectId": "VS011",
-    "label": "Allele Functional Assay Method"
+    "label": "Functional Assay"
   },
   {
     "subjectId": "VS012",
@@ -1493,7 +1493,7 @@
   },
   {
     "subjectId": "VS016",
-    "label": "Evidence Line Strength"
+    "label": "ACMG Evidence Strength"
   },
   {
     "subjectId": "VS017",
@@ -1513,11 +1513,11 @@
   },
   {
     "subjectId": "VS021",
-    "label": "Allele Inheritance"
+    "label": "Allele Origin"
   },
   {
     "subjectId": "VS022",
-    "label": "Ascertainment"
+    "label": "Ascertainment Method"
   },
   {
     "subjectId": "VS023",
@@ -1738,5 +1738,69 @@
   {
     "subjectId": "CG-EX:Ascrt0003",
     "label": "GENIUS T2D Controls"
+  },
+  {
+    "subjectId": "REFSEQ:NM_005228.3",
+    "label": "NM_005228.3"
+  },
+  {
+    "subjectId": "REFSEQ:NP_005219.2",
+    "label": "NP_005219.2"
+  },
+  {
+    "subjectId": "REFSEQ:NM_004333.4",
+    "label": "NM_004333.4"
+  },
+  {
+    "subjectId": "REFSEQ:NM_000169.2",
+    "label": "NM_000169.2"
+  },
+  {
+    "subjectId": "REFSEQ:NP_001360.1",
+    "label": "NP_001360.1"
+  },
+  {
+    "subjectId": "REFSEQ:NP_056375.2",
+    "label": "NP_056375.2"
+  },
+  {
+    "subjectId": "REFSEQ:NP_003915.2",
+    "label": "NP_003915.2"
+  },
+  {
+    "subjectId": "REFSEQ:NM_001271208.1",
+    "label": "NM_001271208.1"
+  },
+  {
+    "subjectId": "REFSEQ:NM_133378.4",
+    "label": "NM_133378.4"
+  },
+  {
+    "subjectId": "REFSEQ:NM_147196.2",
+    "label": "NM_147196.2"
+  },
+  {
+    "subjectId": "REFSEQ:NM_000257.2",
+    "label": "NM_000257.2"
+  },
+  {
+    "subjectId": "ENSEMBL:ENST00000566221.5",
+    "label": "ENST00000566221.5"
+  },
+  {
+    "subjectId": "REFSEQ:NM_000363.4",
+    "label": "NM_000363.4"
+  },
+  {
+    "subjectId": "REFSEQ:NM_000059.3",
+    "label": "NM_000059.3"
+  },
+  {
+    "subjectId": "REFSEQ:NM_138691.2",
+    "label": "NM_138691.2"
+  },
+  {
+    "subjectId": "REFSEQ:NM_002880.3",
+    "label": "NM_002880.3"
   }
 ]

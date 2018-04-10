@@ -1,233 +1,200 @@
 {
   "VS001": {
     "id": "VS001",
-    "@id": "SEPIO-CG:65101",
-    "description": "Concepts to categorize the degree of extensibility of a given value set.",
-    "conceptType": "ValueSetConceptListExtensibility",
-    "conceptListExtensibility": "SEPIO-CG:02101"
+    "@id": "SEPIO:0000363",
+    "description": "Whether or not a ValueSet can be extended by users",
+    "conceptListExtensibility": "SEPIO:0000364"
   },
   "VS002": {
     "id": "VS002",
-    "@id": "SEPIO-CG:65102",
-    "description": "List of molecular consequence classifications.",
-    "conceptType": "MolecularConsequence",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "@id": "SEPIO:0000380",
+    "description": "A classification of a genomic variant based on its effect on a transcript or its location with respect to the transcript.",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS003": {
     "id": "VS003",
-    "@id": "SEPIO-CG:65103",
-    "description": "ACMG variant pathogenicity clinical significance concepts. Equivalent to LOINC answer list https://r.details.loinc.org/AnswerList/LL4034-6.html.",
-    "conceptType": "Significance",
-    "conceptListExtensibility": "SEPIO-CG:02101"
+    "@id": "SEPIO:0000371",
+    "description": "The role that a variant plays in the causing a genetic condition\n(see LOINC answer list https://r.details.loinc.org/AnswerList/LL4034-6.html)",
+    "conceptListExtensibility": "SEPIO:0000364"
   },
   "VS004": {
     "id": "VS004",
-    "@id": "SEPIO-CG:65104",
-    "description": "Concepts to categorize the genetic sequence region types used to assess ACMG rules.",
-    "conceptType": "RegionAnnotation",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "@id": "SEPIO:0000343",
+    "description": "A label applied to a sequence region",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS005": {
     "id": "VS005",
-    "@id": "SEPIO-CG:65105",
-    "description": "Concepts to categorize the phase of variation between two alleles.",
-    "conceptType": "Phase",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "@id": "SEPIO:0000344",
+    "description": "Value denoting whether sequence features lie on the same or different molecules",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS006": {
     "id": "VS006",
-    "@id": "SEPIO-CG:65106",
-    "description": "The level of occurance of a single DNA marker within a set of chromosomes. Informed by LOINC answer list https://r.details.loinc.org/AnswerList/LL381-5.html but with additional codes for somatic mosaicism and asserted absence.",
-    "conceptType": "AllelicState",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "@id": "SEPIO:0000338",
+    "description": "Describes the existence of an allele across multiple copies of a chromosome\n(Informed by LOINC answer list https://r.details.loinc.org/AnswerList/LL381-5.html but with additional codes for somatic mosaicism and asserted absence.)",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS007": {
     "id": "VS007",
     "@id": "SEPIO-CG:65107",
-    "description": "Classifies the transmission pattern of a condition in a pedigree.",
-    "conceptType": "ModeOfInheritance",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "description": "Classifies the transmission pattern of a condition in a pedigree.\n(see LOINC Answer List https://r.details.loinc.org/AnswerList/LL3731-8.html)",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS008": {
     "id": "VS008",
     "@id": "SEPIO-CG:65108",
-    "description": "Types of alleles that can lead to a condition",
-    "conceptType": "Mechanism",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "description": "The particular type of allele that can lead to a condition",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS009": {
     "id": "VS009",
-    "@id": "SEPIO-CG:65109",
-    "description": "Types of in silico predictions",
-    "conceptType": "Prediction",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "@id": "SEPIO:0000345",
+    "description": "The type of InSilico Predictor",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS010": {
     "id": "VS010",
-    "@id": "SEPIO-CG:65110",
+    "@id": "SEPIO:0000347",
     "description": "Denotes whether the collected evidence is sufficient to meet a specified criteria or not",
-    "conceptType": "CriterionEvaluation",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS011": {
     "id": "VS011",
-    "@id": "SEPIO-CG:65111",
-    "description": "Functional measurements carried out in a given assay",
-    "conceptType": "AlleleFunctionalAssayMethod",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "@id": "SEPIO:0000382",
+    "description": "The functional measurement carried out in a given assay",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS012": {
     "id": "VS012",
     "@id": "SEPIO-CG:65112",
-    "description": "Labels for a group of individuals with a shared genetic background",
-    "conceptType": "Population",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "description": "Label for a group of individuals with a shared genetic background",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS013": {
     "id": "VS013",
-    "@id": "SEPIO-CG:65113",
+    "@id": "SEPIO:0000349",
     "description": "The rate of missense variation in a transcript that do not lead to a genetic condition",
-    "conceptType": "BenignMissenseVariationRateOutcome",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS014": {
     "id": "VS014",
     "@id": "SEPIO-CG:65114",
     "description": "The chance of having a particular genetic condition given the presence of a particular variant or damaged gene",
-    "conceptType": "Penetrance",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS015": {
     "id": "VS015",
-    "@id": "SEPIO-CG:65115",
-    "description": "The level of strength for which a class of variants is a known mechanism for a condition",
-    "conceptType": "ConditionMechanismStrength",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "@id": "SEPIO:0000354",
+    "description": "The strength of association between a genetic mechanism and a condition",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS016": {
     "id": "VS016",
-    "@id": "SEPIO-CG:65116",
-    "description": "The set of strengths needed for an evidence line.",
-    "conceptType": "EvidenceLineStrength",
-    "conceptListExtensibility": "SEPIO-CG:02101"
+    "@id": "SEPIO:0000353",
+    "description": "Degree of support that a set of evidence lends to a subsequent statement",
+    "conceptListExtensibility": "SEPIO:0000364"
   },
   "VS017": {
     "id": "VS017",
-    "@id": "SEPIO-CG:65117",
-    "description": "Alteration of health status resulting from a physiopathological mechanism, and having a homogeneous clinical presentation and evolution and homogeneous therapeutic possibilities.",
-    "conceptType": "Disease",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "@id": "SEPIO:0000372",
+    "description": "An alteration of health status resulting from a physiopathological mechanism, and having a homogeneous clinical presentation and evolution and homogeneous therapeutic possibilities. (From MONDO)",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS018": {
     "id": "VS018",
-    "@id": "SEPIO-CG:65118",
-    "description": "TODO",
-    "conceptType": "Phenotype",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "@id": "SEPIO:0000375",
+    "description": "The assemblage of traits or outward appearance of an individual. It is the product of interactions between genes and between genes and the environment. (From NCIT)",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS019": {
     "id": "VS019",
     "@id": "SEPIO-CG:65119",
     "description": "TODO",
-    "conceptType": "ReferenceSequence",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS020": {
     "id": "VS020",
     "@id": "SEPIO-CG:65120",
-    "description": "TODO",
-    "conceptType": "ContributoryRole",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "description": "The role played by an agent in the creation of an artifact",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS021": {
     "id": "VS021",
-    "@id": "SEPIO-CG:65121",
-    "description": "TODO",
-    "conceptType": "AlleleInheritance",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "@id": "SEPIO:0000392",
+    "description": "The source of an allele in an individual",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS022": {
     "id": "VS022",
-    "@id": "SEPIO-CG:65122",
-    "description": "A coded or free-text term representing how people were chosen to be in the cohort in which the frequency is calculated.\nIt may be either because there are lots of ways that a cohort might be generated and our value set may not provide enough to allow for all cases.",
-    "conceptType": "Ascertainment",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "@id": "SEPIO:0000409",
+    "description": "The method by which a set of people was chosen to define a group",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS023": {
     "id": "VS023",
-    "@id": "SEPIO-CG:65123",
-    "description": "TODO",
-    "conceptType": "LocusSpecificity",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "@id": "SEPIO:0000348",
+    "description": "The degree to which a condition implicates a specific genomic locus, such as a gene.",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS024": {
     "id": "VS024",
     "@id": "SEPIO-CG:65124",
-    "description": "TODO",
-    "conceptType": "Consertation",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "description": "The degree to which an allele is preserved over evolutionary history",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS025": {
     "id": "VS025",
     "@id": "SEPIO-CG:65125",
-    "description": "TODO",
-    "conceptType": "ParentalConfirmation",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "description": "Whether or not parentage has been confirmed with a genetic test",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS026": {
     "id": "VS026",
     "@id": "SEPIO-CG:65126",
-    "description": "TODO",
-    "conceptType": "ConditionStatus",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "description": "Whether or not an individual is affected by a specific genetic condition",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS027": {
     "id": "VS027",
     "@id": "SEPIO-CG:65127",
-    "description": "TODO",
-    "conceptType": "InconsistentSegregationObserved",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "description": "Whether or not inconsistent segretations have been observed in a pedigree",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS028": {
     "id": "VS028",
     "@id": "SEPIO-CG:65128",
-    "description": "TODO",
-    "conceptType": "NullAlleleOutcome",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "description": "Denotes whether an allele leads to a non-functional transcript",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS029": {
     "id": "VS029",
     "@id": "SEPIO-CG:65129",
-    "description": "TODO",
-    "conceptType": "RegionAllelesOutcome",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "description": "Whether or not an allele overlaps a sequence region",
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS030": {
     "id": "VS030",
-    "@id": "SEPIO-CG:65130",
+    "@id": "SEPIO:0000396",
     "description": "TODO",
-    "conceptType": "Gene",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS031": {
     "id": "VS031",
     "@id": "SEPIO-CG:65131",
     "description": "TODO",
-    "conceptType": "Criterion",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS032": {
     "id": "VS032",
     "@id": "SEPIO-CG:65132",
     "description": "TODO",
-    "conceptType": "AssertionMethod",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "conceptListExtensibility": "SEPIO:0000365"
   },
   "VS033": {
     "id": "VS033",
     "@id": "SEPIO-CG:65133",
     "description": "TODO",
-    "conceptType": "AssertionMethodAlgorithm",
-    "conceptListExtensibility": "SEPIO-CG:02102"
+    "conceptListExtensibility": "SEPIO:0000365"
   }
 }
