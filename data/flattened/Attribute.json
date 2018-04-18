@@ -48,8 +48,8 @@
   },
   "A004": {
     "id": "A004",
-    "entityId": "E01",
-    "name": "qualifier",
+    "entityId": "E24",
+    "name": "outcomeQualifier",
     "dataType": "string",
     "cardinality": "0..1",
     "iri": "SEPIO:0000346",
@@ -208,7 +208,7 @@
   "A018": {
     "id": "A018",
     "entityId": "E17",
-    "name": "individualHasCondition",
+    "name": "affectedStatusOutcome",
     "dataType": "@id",
     "cardinality": "0..1",
     "iri": "SEPIO:0000197",
@@ -249,7 +249,7 @@
   "A021": {
     "id": "A021",
     "entityId": "E18",
-    "name": "familyHasCondition",
+    "name": "affectedStatusOutcome",
     "dataType": "@id",
     "cardinality": "1..1",
     "iri": "SEPIO:0000197",
@@ -707,7 +707,7 @@
   "A057": {
     "id": "A057",
     "entityId": "E24",
-    "name": "annotation",
+    "name": "annotationOutcome",
     "dataType": "@id",
     "cardinality": "0..*",
     "isReference": "yes",
@@ -940,7 +940,7 @@
   "A078": {
     "id": "A078",
     "entityId": "E08",
-    "name": "annotation",
+    "name": "annotationOutcome",
     "dataType": "@id",
     "cardinality": "1..1",
     "iri": "SEPIO:0000197",
@@ -1402,14 +1402,15 @@
   "A112": {
     "id": "A112",
     "entityId": "E51",
-    "name": "conservationType",
+    "name": "conservationOutcome",
     "dataType": "@id",
     "cardinality": "1..1",
     "iri": "SEPIO:0000197",
     "iri-label": "asserted_conclusion",
     "cg-label": "conservationType",
-    "@valueSetId": "",
-    "precedence": 2.0,
+    "valueSetId": "VS024",
+    "@valueSetId": "SEPIO-CG:65124",
+    "precedence": 3.0,
     "description": "The conservation classification from sequence ontology."
   },
   "A113": {
@@ -1422,7 +1423,7 @@
     "iri-label": "asserted_by",
     "cg-label": "algorithm",
     "@valueSetId": "",
-    "precedence": 3.0,
+    "precedence": 2.0,
     "description": "Method or program used to calculate conservation"
   },
   "A114": {
@@ -1435,7 +1436,7 @@
     "iri-label": "assertion_confidence_score",
     "cg-label": "score",
     "@valueSetId": "",
-    "precedence": 4.0,
+    "precedence": 3.0,
     "description": "Numerical score for the conservation of the allele"
   },
   "A115": {
@@ -1449,7 +1450,7 @@
     "iri-label": "is_specified_by",
     "cg-label": "criterion",
     "valueSetId": "VS031",
-    "@valueSetId": "SEPIO-CG:65131",
+    "@valueSetId": "SEPIO:0000395",
     "restrictByValueSet": "No",
     "precedence": 1.0,
     "description": "The rule describing how the data is being used"
@@ -1761,7 +1762,7 @@
     "iri-label": "has disposition",
     "cg-label": "inheritancePattern",
     "valueSetId": "VS007",
-    "@valueSetId": "SEPIO-CG:65107",
+    "@valueSetId": "SEPIO:0000416",
     "restrictByValueSet": "Yes",
     "precedence": 4.0,
     "description": "The manner in which a genetic condition is inherited"
@@ -1943,7 +1944,7 @@
     "iri-label": "",
     "cg-label": "",
     "valueSetId": "VS007",
-    "@valueSetId": "SEPIO-CG:65107",
+    "@valueSetId": "SEPIO:0000416",
     "restrictByValueSet": "Yes",
     "precedence": 5.0,
     "description": "Mode Of Inheritance used in evaluation of segregation"
@@ -2211,19 +2212,6 @@
     "precedence": 1.0,
     "description": "The allele for which conservation values are given"
   },
-  "A186": {
-    "id": "A186",
-    "entityId": "E53",
-    "name": "conservationType",
-    "dataType": "@id",
-    "cardinality": "1..1",
-    "iri": "SEPIO:0000197",
-    "iri-label": "asserted_conclusion",
-    "cg-label": "conservationType",
-    "@valueSetId": "",
-    "precedence": 2.0,
-    "description": "The conservation classification from sequence ontology."
-  },
   "A187": {
     "id": "A187",
     "entityId": "E53",
@@ -2234,7 +2222,7 @@
     "iri-label": "asserted_by",
     "cg-label": "algorithm",
     "@valueSetId": "",
-    "precedence": 3.0,
+    "precedence": 2.0,
     "description": "Method or program used to calculate conservation"
   }
 }

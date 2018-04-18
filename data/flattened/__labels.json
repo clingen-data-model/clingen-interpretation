@@ -849,7 +849,7 @@
   },
   {
     "subjectId": "LN:LA26333-7",
-    "label": "Uncertain Signficance"
+    "label": "Uncertain Significance"
   },
   {
     "subjectId": "LN:LA26334-5",
@@ -1068,6 +1068,10 @@
     "label": "unaffected"
   },
   {
+    "subjectId": "SEPIO-CG:99014",
+    "label": "status unknown"
+  },
+  {
     "subjectId": "SEPIO-CG:99011",
     "label": "present"
   },
@@ -1148,11 +1152,11 @@
     "label": "low"
   },
   {
-    "subjectId": "SEPIO:0000320",
+    "subjectId": "SO:0002188",
     "label": "functional region"
   },
   {
-    "subjectId": "SEPIO:0000321",
+    "subjectId": "SO:0002186",
     "label": "mutational hotspot"
   },
   {
@@ -1226,6 +1230,10 @@
   {
     "subjectId": "SO:0000330",
     "label": "conserved region"
+  },
+  {
+    "subjectId": "SEPIO-CG:99017",
+    "label": "not conserved region"
   },
   {
     "subjectId": "SO:0000507",
@@ -1310,6 +1318,14 @@
   {
     "subjectId": "SO:0002055",
     "label": "null mutation"
+  },
+  {
+    "subjectId": "SEPIO-CG:99015",
+    "label": "function not lost"
+  },
+  {
+    "subjectId": "SEPIO-CG:99016",
+    "label": "function unknown"
   },
   {
     "subjectId": "SO:0002073",

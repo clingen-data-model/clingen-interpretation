@@ -882,7 +882,7 @@
   {
     "subjectId": "RegTyp040",
     "attributeId": "A057",
-    "value": "SEPIO:0000320"
+    "value": "SO:0002188"
   },
   {
     "subjectId": "RegTyp040",
@@ -967,7 +967,7 @@
   {
     "subjectId": "RegTyp043",
     "attributeId": "A057",
-    "value": "SEPIO:0000320"
+    "value": "SO:0002188"
   },
   {
     "subjectId": "RegTyp043",
@@ -1062,7 +1062,7 @@
   {
     "subjectId": "RegTyp046",
     "attributeId": "A057",
-    "value": "SEPIO:0000321"
+    "value": "SO:0002186"
   },
   {
     "subjectId": "RegTyp046",
@@ -1581,7 +1581,7 @@
   },
   {
     "subjectId": "Func067",
-    "attributeId": "A120",
+    "attributeId": "A127",
     "value": "PMID: 23487764"
   },
   {
@@ -1657,12 +1657,7 @@
   {
     "subjectId": "AllConserv071",
     "attributeId": "A112",
-    "value": "SO:0000330"
-  },
-  {
-    "subjectId": "AllConserv071",
-    "attributeId": "A004",
-    "value": "NOT"
+    "value": "SEPIO-CG:99017"
   },
   {
     "subjectId": "AllConserv071",
@@ -1682,12 +1677,7 @@
   {
     "subjectId": "AllConserv072",
     "attributeId": "A112",
-    "value": "SO:0000330"
-  },
-  {
-    "subjectId": "AllConserv072",
-    "attributeId": "A004",
-    "value": "NOT"
+    "value": "SEPIO-CG:99017"
   },
   {
     "subjectId": "AllConserv072",
@@ -2632,11 +2622,6 @@
     "subjectId": "AllConservScore116",
     "attributeId": "A185",
     "value": "CAR:CA013536"
-  },
-  {
-    "subjectId": "AllConservScore116",
-    "attributeId": "A186",
-    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConservScore116",
@@ -3629,6 +3614,11 @@
     "value": "Most pathogenic variants in TTN are truncating. However, a small number of missense variants in TTN are associated with ARVC (Taylor 2011 PMID:21810661 ) Because TTN is such a large gene, the statistical expectation of benign missense variants is very high."
   },
   {
+    "subjectId": "CritAssess156",
+    "attributeId": "A127",
+    "value": "PMID:21810661"
+  },
+  {
     "subjectId": "AllFreq157",
     "attributeId": "A030",
     "value": "SEPIO:0000332"
@@ -3830,8 +3820,8 @@
   },
   {
     "subjectId": "CondMech165",
-    "attributeId": "A120",
-    "value": "Taylor 2011 PMID:21810661"
+    "attributeId": "A127",
+    "value": "PMID:21810661"
   },
   {
     "subjectId": "AllFreq166",
@@ -3917,11 +3907,6 @@
     "subjectId": "AllConservScore171",
     "attributeId": "A185",
     "value": "CAR:CA013536"
-  },
-  {
-    "subjectId": "AllConservScore171",
-    "attributeId": "A186",
-    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConservScore171",
@@ -4631,7 +4616,7 @@
   {
     "subjectId": "RegTyp220",
     "attributeId": "A057",
-    "value": "SEPIO:0000320"
+    "value": "SO:0002188"
   },
   {
     "subjectId": "RegTyp220",
@@ -4665,11 +4650,6 @@
   },
   {
     "subjectId": "AllConservScore222",
-    "attributeId": "A186",
-    "value": "SO:0000330"
-  },
-  {
-    "subjectId": "AllConservScore222",
     "attributeId": "A187",
     "value": "phyloP"
   },
@@ -4692,11 +4672,6 @@
     "subjectId": "AllConservScore224",
     "attributeId": "A185",
     "value": "CAR:CA177682"
-  },
-  {
-    "subjectId": "AllConservScore224",
-    "attributeId": "A186",
-    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConservScore224",
@@ -4730,11 +4705,6 @@
   },
   {
     "subjectId": "AllConservScore226",
-    "attributeId": "A186",
-    "value": "SO:0000330"
-  },
-  {
-    "subjectId": "AllConservScore226",
     "attributeId": "A187",
     "value": "PhastCons"
   },
@@ -4760,11 +4730,6 @@
   },
   {
     "subjectId": "AllConservScore228",
-    "attributeId": "A186",
-    "value": "SO:0000330"
-  },
-  {
-    "subjectId": "AllConservScore228",
     "attributeId": "A187",
     "value": "PhastCons"
   },
@@ -4787,11 +4752,6 @@
     "subjectId": "AllConservScore230",
     "attributeId": "A185",
     "value": "CAR:CA013536"
-  },
-  {
-    "subjectId": "AllConservScore230",
-    "attributeId": "A186",
-    "value": "SO:0000330"
   },
   {
     "subjectId": "AllConservScore230",
@@ -5105,11 +5065,6 @@
   },
   {
     "subjectId": "AllConservScore245",
-    "attributeId": "A186",
-    "value": "SO:0000330"
-  },
-  {
-    "subjectId": "AllConservScore245",
     "attributeId": "A187",
     "value": "phyloP"
   },
@@ -5341,12 +5296,7 @@
   {
     "subjectId": "AllConserv259",
     "attributeId": "A112",
-    "value": "SO:0000330"
-  },
-  {
-    "subjectId": "AllConserv259",
-    "attributeId": "A004",
-    "value": "NOT"
+    "value": "SEPIO-CG:99017"
   },
   {
     "subjectId": "AllConserv259",
@@ -5366,12 +5316,7 @@
   {
     "subjectId": "AllConserv260",
     "attributeId": "A112",
-    "value": "SO:0000330"
-  },
-  {
-    "subjectId": "AllConserv260",
-    "attributeId": "A004",
-    "value": "NOT"
+    "value": "SEPIO-CG:99017"
   },
   {
     "subjectId": "AllConserv260",
@@ -5426,12 +5371,7 @@
   {
     "subjectId": "AllConserv263",
     "attributeId": "A112",
-    "value": "SO:0000330"
-  },
-  {
-    "subjectId": "AllConserv263",
-    "attributeId": "A004",
-    "value": "NOT"
+    "value": "SEPIO-CG:99017"
   },
   {
     "subjectId": "AllConserv263",
@@ -5451,12 +5391,7 @@
   {
     "subjectId": "AllConserv264",
     "attributeId": "A112",
-    "value": "SO:0000330"
-  },
-  {
-    "subjectId": "AllConserv264",
-    "attributeId": "A004",
-    "value": "NOT"
+    "value": "SEPIO-CG:99017"
   },
   {
     "subjectId": "AllConserv264",
@@ -5506,12 +5441,7 @@
   {
     "subjectId": "AllConserv267",
     "attributeId": "A112",
-    "value": "SO:0000330"
-  },
-  {
-    "subjectId": "AllConserv267",
-    "attributeId": "A004",
-    "value": "NOT"
+    "value": "SEPIO-CG:99017"
   },
   {
     "subjectId": "AllConserv267",
@@ -5531,12 +5461,7 @@
   {
     "subjectId": "AllConserv268",
     "attributeId": "A112",
-    "value": "SO:0000330"
-  },
-  {
-    "subjectId": "AllConserv268",
-    "attributeId": "A004",
-    "value": "NOT"
+    "value": "SEPIO-CG:99017"
   },
   {
     "subjectId": "AllConserv268",
@@ -5622,6 +5547,11 @@
     "subjectId": "MolCon272",
     "attributeId": "A120",
     "value": "This variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006 PMID: 17186466)."
+  },
+  {
+    "subjectId": "MolCon272",
+    "attributeId": "A127",
+    "value": "PMID: 17186466"
   },
   {
     "subjectId": "CondMech273",
@@ -6639,6 +6569,21 @@
     "value": "From ClinVar: Doolan et al. (2005) (PMID:15698845) reported mutations at the same residue (R162P) in patients with HCM, supporting the functional importance of this residue in the protein. This rare R162P variant observed multiple times in is Likely Pathogenic in ClinVar with 1 star assertion.  Other variants in the same residue R162W has conflicting evidence of pathogenicity(Path by GeneDx : SCV000209174.2 and VUS by LMM:SCV000203864.2). Considered these two only as they have provided assertion criteria."
   },
   {
+    "subjectId": "CritAssess302",
+    "attributeId": "A127",
+    "value": "PMID:15698845"
+  },
+  {
+    "subjectId": "CritAssess302",
+    "attributeId": "A127",
+    "value": "ClinVar:SCV000209174.2"
+  },
+  {
+    "subjectId": "CritAssess302",
+    "attributeId": "A127",
+    "value": "ClinVar:SCV000203864.2"
+  },
+  {
     "subjectId": "CritAssess303",
     "attributeId": "A115",
     "value": "Crit312"
@@ -7244,6 +7189,11 @@
     "value": "OMIM is not considered an expert or reputable source for variant interpretations.\nFurther, OMIM’s evidence for this pathogenic call is available (the publication link - PMID:21620354 - and free text summary) so people should use the evidence from OMIM in their assessment NOT OMIM’s interpretation.  This is marked as Insufficient Evidence rather than refuted because the OMIM entry does not rule out a later application of PP5 based on eg. an expert panel."
   },
   {
+    "subjectId": "CritAssess321",
+    "attributeId": "A127",
+    "value": "PMID:21620354"
+  },
+  {
     "subjectId": "CritAssess322",
     "attributeId": "A115",
     "value": "Crit318"
@@ -7607,6 +7557,11 @@
     "subjectId": "CritAssess331",
     "attributeId": "A120",
     "value": "Although this variant was found in 5 individuals with Marfan Syndrome, it was identified in 2 unaffected relatives from two separate families. PMID: 12402346"
+  },
+  {
+    "subjectId": "CritAssess331",
+    "attributeId": "A127",
+    "value": "PMID: 12402346"
   },
   {
     "subjectId": "CritAssess333",
@@ -8474,6 +8429,11 @@
     "value": "This variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006 PMID: 17186466). Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/)."
   },
   {
+    "subjectId": "CritAssess361",
+    "attributeId": "A127",
+    "value": "PMID: 17186466"
+  },
+  {
     "subjectId": "InSilicoPred362",
     "attributeId": "A096",
     "value": "CG-EX:CtxAll111"
@@ -9051,12 +9011,7 @@
   {
     "subjectId": "Null396",
     "attributeId": "A078",
-    "value": "SO:0002055"
-  },
-  {
-    "subjectId": "Null396",
-    "attributeId": "A004",
-    "value": "NOT"
+    "value": "SEPIO-CG:99015"
   },
   {
     "subjectId": "Null397",
@@ -9086,90 +9041,75 @@
   {
     "subjectId": "Null399",
     "attributeId": "A078",
-    "value": "SO:0002055"
-  },
-  {
-    "subjectId": "Null399",
-    "attributeId": "A004",
-    "value": "NOT"
+    "value": "SEPIO-CG:99015"
   },
   {
     "subjectId": "Null404",
-    "attributeId": "A077",
-    "value": "CG-EX:CtxAll070"
-  },
-  {
-    "subjectId": "Null404",
-    "attributeId": "A078",
-    "value": "SO:0002055"
-  },
-  {
-    "subjectId": "Null404",
-    "attributeId": "A004",
-    "value": "NOT"
-  },
-  {
-    "subjectId": "Null405",
-    "attributeId": "A077",
-    "value": "CG-EX:CtxAll099"
-  },
-  {
-    "subjectId": "Null405",
-    "attributeId": "A078",
-    "value": "SO:0002055"
-  },
-  {
-    "subjectId": "Null405",
-    "attributeId": "A004",
-    "value": "NOT"
-  },
-  {
-    "subjectId": "Null406",
-    "attributeId": "A077",
-    "value": "CG-EX:CtxAll097"
-  },
-  {
-    "subjectId": "Null406",
-    "attributeId": "A078",
-    "value": "SO:0002055"
-  },
-  {
-    "subjectId": "Null407",
-    "attributeId": "A077",
-    "value": "CG-EX:CtxAll098"
-  },
-  {
-    "subjectId": "Null407",
-    "attributeId": "A078",
-    "value": "SO:0002055"
-  },
-  {
-    "subjectId": "Null407",
-    "attributeId": "A004",
-    "value": "NOT"
-  },
-  {
-    "subjectId": "Null408",
-    "attributeId": "A077",
-    "value": "CG-EX:CtxAll099"
-  },
-  {
-    "subjectId": "Null408",
-    "attributeId": "A078",
-    "value": "SO:0002055"
-  },
-  {
-    "subjectId": "Null408",
-    "attributeId": "A004",
-    "value": "NOT"
-  },
-  {
-    "subjectId": "Null415",
     "attributeId": "A077",
     "value": "CG-EX:CtxAll127"
   },
   {
+    "subjectId": "Null404",
+    "attributeId": "A078",
+    "value": "SO:0002055"
+  },
+  {
+    "subjectId": "Null405",
+    "attributeId": "A077",
+    "value": "CG-EX:CtxAll070"
+  },
+  {
+    "subjectId": "Null405",
+    "attributeId": "A078",
+    "value": "SEPIO-CG:99015"
+  },
+  {
+    "subjectId": "Null406",
+    "attributeId": "A077",
+    "value": "CG-EX:CtxAll099"
+  },
+  {
+    "subjectId": "Null406",
+    "attributeId": "A078",
+    "value": "SEPIO-CG:99015"
+  },
+  {
+    "subjectId": "Null407",
+    "attributeId": "A077",
+    "value": "CG-EX:CtxAll097"
+  },
+  {
+    "subjectId": "Null407",
+    "attributeId": "A078",
+    "value": "SEPIO-CG:99015"
+  },
+  {
+    "subjectId": "Null408",
+    "attributeId": "A077",
+    "value": "CG-EX:CtxAll097"
+  },
+  {
+    "subjectId": "Null408",
+    "attributeId": "A078",
+    "value": "SEPIO-CG:99015"
+  },
+  {
     "subjectId": "Null415",
+    "attributeId": "A077",
+    "value": "CG-EX:CtxAll098"
+  },
+  {
+    "subjectId": "Null415",
+    "attributeId": "A078",
+    "value": "SEPIO-CG:99015"
+  },
+  {
+    "subjectId": "Null416",
+    "attributeId": "A077",
+    "value": "CG-EX:CtxAll099"
+  },
+  {
+    "subjectId": "Null416",
     "attributeId": "A078",
     "value": "SO:0002055"
   },
