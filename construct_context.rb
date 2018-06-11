@@ -2,8 +2,6 @@ require 'json'
 require './reformat_examples'
 
 DM_BASE_IRI = "http://datamodel.clinicalgenome.org/"
-DM_TYPES_IRI = "http://datamodel.clinicalgenome.org/types/"
-DM_ATTRS_IRI = "http://datamodel.clinicalgenome.org/attributes/"
 
 def construct_context(data_dir = File.join('data', 'flattened'))
   dmwg_examples = DMWGExampleData.new('data/flattened')
@@ -11,8 +9,6 @@ def construct_context(data_dir = File.join('data', 'flattened'))
   identifier_systems = dmwg_examples.data_by_entity_type['IdentifierSystem']
 
   cx = {
-          "cg-types" => DM_TYPES_IRI,
-          "cg-attributes" => DM_ATTRS_IRI,
           "base" => DM_BASE_IRI,
           "id" => "@id",
           "type" => "@type"
@@ -23,8 +19,11 @@ def construct_context(data_dir = File.join('data', 'flattened'))
   end
 
   types.each do |id, type|
-    ldid = type['iri'] && !type['iri'].include?('?') && type['iri'].split("\n").length == 1 ? type['iri'] : "cg-types:#{type['name']}"
-    cx[type['name']] = { "@id" => ldid }
+    ldid = type['iri'] && !type['iri'].include?('?') && type['iri'].split("\n").length == 1 ? type['iri'] : ""
+    # only include types that have IRIs (DomainEntity, for example, is only used internally used for implementation)
+    if !ldid.empty? then
+      cx[type['name']] = { "@id" => ldid }
+    end
     type['attributes'].each do |attrib|
       ldid = attrib['iri'] && !attrib['iri'].include?('?') && attrib['iri'].split("\n").length == 1 ? attrib['iri'] : "cg-attributes:#{attrib['name']}"
       if ['string', 'int', 'boolean', 'float'].include? attrib['dataType']
