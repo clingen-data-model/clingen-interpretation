@@ -1923,8 +1923,8 @@
     "name": "relatedContextualAllele",
     "dataType": "ContextualAllele",
     "cardinality": "1..*",
-    "iri": "SEPIO:0000275",
-    "iri-label": "is_about_allele",
+    "iri": "CG:0001",
+    "iri-label": "related contextual allele",
     "cg-label": "relatedContextualAllele",
     "precedence": 1.0,
     "description": "HIDE from docs / USE in context"
@@ -2001,7 +2001,7 @@
     "name": "refAllele",
     "dataType": "string",
     "cardinality": "0..1",
-    "iri": "CG:008",
+    "iri": "CG:0008",
     "iri-label": "reference allele",
     "cg-label": "refAllele",
     "precedence": 4.0
@@ -2012,7 +2012,7 @@
     "name": "start",
     "dataType": "Position",
     "cardinality": "0..1",
-    "iri": "GENO:000894",
+    "iri": "CG:0009",
     "iri-label": "start_position",
     "cg-label": "start",
     "precedence": 2.0
@@ -2023,7 +2023,7 @@
     "name": "end",
     "dataType": "Position",
     "cardinality": "0..1",
-    "iri": "GENO:000895",
+    "iri": "CG:0010",
     "iri-label": "end_position",
     "cg-label": "end",
     "precedence": 3.0
@@ -2046,15 +2046,68 @@
     "name": "index",
     "dataType": "integer",
     "cardinality": "0..1",
-    "iri": "CG:012",
+    "iri": "CG:0012",
     "iri-label": "index",
     "cg-label": "index",
     "precedence": 1.0
   },
   "A941": {
     "id": "A941",
-    "name": "display",
-    "dataType": "string",
-    "cardinality": "0..1"
+    "entityId": "E05",
+    "name": "canonicalAlleleType",
+    "dataType": "@id",
+    "cardinality": "1..1",
+    "iri": "CG:0013",
+    "iri-label": "canonical allele type",
+    "cg-label": "canonicalAlleleType",
+    "@valueSetId": "???",
+    "precedence": 2.0
+  },
+  "A942": {
+    "id": "A942",
+    "entityId": "E05",
+    "name": "complexity",
+    "dataType": "@id",
+    "cardinality": "1..1",
+    "iri": "CG:0014",
+    "iri-label": "complexity",
+    "cg-label": "complexity",
+    "@valueSetId": "???",
+    "precedence": 3.0
+  },
+  "A943": {
+    "id": "A943",
+    "entityId": "E90",
+    "name": "nameType",
+    "dataType": "@id",
+    "cardinality": "1..1",
+    "iri": "CG:0015",
+    "iri-label": "name type",
+    "cg-label": "nameType",
+    "@valueSetId": "???",
+    "precedence": 2.0
+  },
+  "A944": {
+    "id": "A944",
+    "entityId": "E06",
+    "name": "contextualAlleleType",
+    "dataType": "@id",
+    "cardinality": "1..1",
+    "iri": "CG:0016",
+    "iri-label": "contextual allele type",
+    "cg-label": "contextualAlleleType",
+    "@valueSetId": "???",
+    "precedence": 6.0
+  },
+  "A945": {
+    "id": "A945",
+    "entityId": "E05",
+    "name": "relatedIdentifier",
+    "dataType": "@id",
+    "cardinality": "0..*",
+    "iri": "CG:0017",
+    "iri-label": "related identifier",
+    "cg-label": "relatedIdentifier",
+    "precedence": 4.0
   }
 }

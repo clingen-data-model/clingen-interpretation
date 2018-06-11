@@ -19,7 +19,7 @@ def construct_context(data_dir = File.join('data', 'flattened'))
         }
 
   identifier_systems.each do |is|
-    cx[is['prefix']] = is['iri']
+    cx[is['prefix']] = is['urlPattern']
   end
 
   types.each do |id, type|
