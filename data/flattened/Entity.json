@@ -2488,5 +2488,49 @@
   "CGEX:UsrLabl003": {
     "id": "CGEX:UsrLabl003",
     "description": "Controls group is composed of controls from six cohorts from the GENIUS T2D consortium.  Controls status is defined per-cohort."
+  },
+  "CGEX:PredOutcome001": {
+    "id": "CGEX:PredOutcome001",
+    "label": "Benign"
+  },
+  "CGEX:PredOutcome002": {
+    "id": "CGEX:PredOutcome002",
+    "label": "C0 (benign)"
+  },
+  "CGEX:PredOutcome003": {
+    "id": "CGEX:PredOutcome003",
+    "label": "Damaging"
+  },
+  "CGEX:PredOutcome004": {
+    "id": "CGEX:PredOutcome004",
+    "label": "Deleterious"
+  },
+  "CGEX:PredOutcome005": {
+    "id": "CGEX:PredOutcome005",
+    "label": "Disease-causing"
+  },
+  "CGEX:PredOutcome006": {
+    "id": "CGEX:PredOutcome006",
+    "label": "Good (benign)"
+  },
+  "CGEX:PredOutcome007": {
+    "id": "CGEX:PredOutcome007",
+    "label": "Medium functional impact"
+  },
+  "CGEX:PredOutcome008": {
+    "id": "CGEX:PredOutcome008",
+    "label": "No impact"
+  },
+  "CGEX:PredOutcome009": {
+    "id": "CGEX:PredOutcome009",
+    "label": "Possibly damaging"
+  },
+  "CGEX:PredOutcome010": {
+    "id": "CGEX:PredOutcome010",
+    "label": "Probably damaging"
+  },
+  "CGEX:PredOutcome011": {
+    "id": "CGEX:PredOutcome011",
+    "label": "Tolerated"
   }
 }
