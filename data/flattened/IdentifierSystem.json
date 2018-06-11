@@ -1,83 +1,192 @@
 {
-  "IdSys001": {
-    "id": "IdSys001"
+  "http://purl.obolibrary.org/obo/bfo#": {
+    "id": "http://purl.obolibrary.org/obo/bfo#",
+    "prefix": "BFO",
+    "URLPattern": "http://purl.obolibrary.org/obo/BFO_"
   },
-  "IdSys002": {
-    "id": "IdSys002"
+  "http://reg.genome.network/allele/": {
+    "id": "http://reg.genome.network/allele/",
+    "prefix": "CAR",
+    "URLPattern": "http://reg.genome.network/allele/"
   },
-  "IdSys003": {
-    "id": "IdSys003"
+  "http://datamodel.clinicalgenome.org/temp/": {
+    "id": "http://datamodel.clinicalgenome.org/temp/",
+    "prefix": "CG",
+    "URLPattern": "http://datamodel.clinicalgenome.org/CG_"
   },
-  "IdSys004": {
-    "id": "IdSys004"
+  "http://datamodel.clinicalgenome.org/examples/": {
+    "id": "http://datamodel.clinicalgenome.org/examples/",
+    "prefix": "CGEX",
+    "URLPattern": "http://datamodel.clinicalgenome.org/CGEX_"
   },
-  "IdSys005": {
-    "id": "IdSys005"
+  "http://www.ncbi.nlm.nih.gov/clinvar/": {
+    "id": "http://www.ncbi.nlm.nih.gov/clinvar/",
+    "prefix": "CLINVAR",
+    "URLPattern": "http://www.ncbi.nlm.nih.gov/clinvar/"
   },
-  "IdSys006": {
-    "id": "IdSys006"
+  "http://www.ncbi.nlm.nih.gov/projects/SNP/": {
+    "id": "http://www.ncbi.nlm.nih.gov/projects/SNP/",
+    "prefix": "DBSNP",
+    "URLPattern": "http://www.ncbi.nlm.nih.gov/projects/SNP/"
   },
-  "IdSys007": {
-    "id": "IdSys007"
+  "http://purl.org/dc/elements/1.1/": {
+    "id": "http://purl.org/dc/elements/1.1/",
+    "prefix": "DC",
+    "URLPattern": "http://purl.org/dc/elements/1.1/"
   },
-  "IdSys008": {
-    "id": "IdSys008"
+  "http://purl.obolibrary.org/obo/doid#": {
+    "id": "http://purl.obolibrary.org/obo/doid#",
+    "prefix": "DOID",
+    "URLPattern": "http://purl.obolibrary.org/obo/DOID_"
   },
-  "IdSys009": {
-    "id": "IdSys009"
+  "http://www.ensembl.org/": {
+    "id": "http://www.ensembl.org/",
+    "prefix": "ENSEMBL",
+    "URLPattern": "http://www.ensembl.org/"
   },
-  "IdSys010": {
-    "id": "IdSys010"
+  "http://purl.obolibrary.org/obo/ero#": {
+    "id": "http://purl.obolibrary.org/obo/ero#",
+    "prefix": "ERO",
+    "URLPattern": "http://purl.obolibrary.org/obo/ERO_"
   },
-  "IdSys011": {
-    "id": "IdSys011"
+  "http://evs.gs.washington.edu/EVS/": {
+    "id": "http://evs.gs.washington.edu/EVS/",
+    "prefix": "EVS",
+    "URLPattern": "http://evs.gs.washington.edu/EVS/"
   },
-  "IdSys012": {
-    "id": "IdSys012"
+  "http://biohackathon.org/resource/faldo#": {
+    "id": "http://biohackathon.org/resource/faldo#",
+    "prefix": "FALDO",
+    "URLPattern": "http://biohackathon.org/resource/faldo#"
   },
-  "IdSys013": {
-    "id": "IdSys013"
+  "http://xmlns.com/foaf/0.1/": {
+    "id": "http://xmlns.com/foaf/0.1/",
+    "prefix": "FOAF",
+    "URLPattern": "http://xmlns.com/foaf/0.1/"
   },
-  "IdSys014": {
-    "id": "IdSys014"
+  "http://purl.obolibrary.org/obo/geno#": {
+    "id": "http://purl.obolibrary.org/obo/geno#",
+    "prefix": "GENO",
+    "URLPattern": "http://purl.obolibrary.org/obo/GENO_"
   },
-  "IdSys015": {
-    "id": "IdSys015"
+  "http://gnomad.broadinstitute.org/": {
+    "id": "http://gnomad.broadinstitute.org/",
+    "prefix": "GNOMAD",
+    "URLPattern": "http://gnomad.broadinstitute.org/"
   },
-  "IdSys016": {
-    "id": "IdSys016"
+  "http://www.genenames.org/": {
+    "id": "http://www.genenames.org/",
+    "prefix": "HGNC",
+    "URLPattern": "http://www.genenames.org/"
   },
-  "IdSys017": {
-    "id": "IdSys017"
+  "http://www.hgvs.org/mutnomen/": {
+    "id": "http://www.hgvs.org/mutnomen/",
+    "prefix": "HGVS",
+    "URLPattern": "http://www.hgvs.org/mutnomen/"
   },
-  "IdSys018": {
-    "id": "IdSys018"
+  "http://purl.obolibrary.org/obo/hp#": {
+    "id": "http://purl.obolibrary.org/obo/hp#",
+    "prefix": "HP",
+    "URLPattern": "http://purl.obolibrary.org/obo/HP_"
   },
-  "IdSys019": {
-    "id": "IdSys019"
+  "http://purl.obolibrary.org/obo/iao#": {
+    "id": "http://purl.obolibrary.org/obo/iao#",
+    "prefix": "IAO",
+    "URLPattern": "http://purl.obolibrary.org/obo/IAO_"
   },
-  "IdSys020": {
-    "id": "IdSys020"
+  "http://www.internationalgenome.org/": {
+    "id": "http://www.internationalgenome.org/",
+    "prefix": "IGSR",
+    "URLPattern": "http://www.internationalgenome.org/"
   },
-  "IdSys021": {
-    "id": "IdSys021"
+  "http://loinc.org/": {
+    "id": "http://loinc.org/",
+    "prefix": "LOINC",
+    "URLPattern": "http://loinc.org/"
   },
-  "IdSys022": {
-    "id": "IdSys022"
+  "http://www.lrg-sequence.org/": {
+    "id": "http://www.lrg-sequence.org/",
+    "prefix": "LRG",
+    "URLPattern": "http://www.lrg-sequence.org/"
   },
-  "IdSys023": {
-    "id": "IdSys023"
+  "https://meshb.nlm.nih.gov/": {
+    "id": "https://meshb.nlm.nih.gov/",
+    "prefix": "MESH",
+    "URLPattern": "https://meshb.nlm.nih.gov/"
   },
-  "IdSys024": {
-    "id": "IdSys024"
+  "http://purl.obolibrary.org/obo/ncit#": {
+    "id": "http://purl.obolibrary.org/obo/ncit#",
+    "prefix": "NCIT",
+    "URLPattern": "http://purl.obolibrary.org/obo/NCIT_"
   },
-  "IdSys025": {
-    "id": "IdSys025"
+  "http://purl.obolibrary.org/obo/obi#": {
+    "id": "http://purl.obolibrary.org/obo/obi#",
+    "prefix": "OBI",
+    "URLPattern": "http://purl.obolibrary.org/obo/OBI_"
   },
-  "IdSys026": {
-    "id": "IdSys026"
+  "http://www.omim.org/": {
+    "id": "http://www.omim.org/",
+    "prefix": "OMIM",
+    "URLPattern": "http://www.omim.org/"
   },
-  "IdSys027": {
-    "id": "IdSys027"
+  "http://www.orpha.net/": {
+    "id": "http://www.orpha.net/",
+    "prefix": "Orphanet",
+    "URLPattern": "http://www.orpha.net/"
+  },
+  "http://purl.org/pav/": {
+    "id": "http://purl.org/pav/",
+    "prefix": "PAV",
+    "URLPattern": "http://purl.org/pav/"
+  },
+  "http://purl.obolibrary.org/obo/pco#": {
+    "id": "http://purl.obolibrary.org/obo/pco#",
+    "prefix": "PCO",
+    "URLPattern": "http://purl.obolibrary.org/obo/PCO_"
+  },
+  "http://www.w3.org/ns/prov#": {
+    "id": "http://www.w3.org/ns/prov#",
+    "prefix": "PROV",
+    "URLPattern": "http://www.w3.org/ns/prov#"
+  },
+  "http://www.ncbi.nlm.nih.gov/pubmed/": {
+    "id": "http://www.ncbi.nlm.nih.gov/pubmed/",
+    "prefix": "PMID",
+    "URLPattern": "http://www.ncbi.nlm.nih.gov/pubmed/"
+  },
+  "http://www.w3.org/2000/01/rdf-schema#": {
+    "id": "http://www.w3.org/2000/01/rdf-schema#",
+    "prefix": "RDFS",
+    "URLPattern": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "http://www.ncbi.nlm.nih.gov/nuccore/": {
+    "id": "http://www.ncbi.nlm.nih.gov/nuccore/",
+    "prefix": "REFSEQ",
+    "URLPattern": "http://www.ncbi.nlm.nih.gov/nuccore/"
+  },
+  "http://purl.obolibrary.org/obo/ro#": {
+    "id": "http://purl.obolibrary.org/obo/ro#",
+    "prefix": "RO",
+    "URLPattern": "http://purl.obolibrary.org/obo/RO_"
+  },
+  "http://purl.obolibrary.org/obo/sepio#": {
+    "id": "http://purl.obolibrary.org/obo/sepio#",
+    "prefix": "SEPIO",
+    "URLPattern": "http://purl.obolibrary.org/obo/SEPIO_"
+  },
+  "http://purl.obolibrary.org/obo/sepio-clingen#": {
+    "id": "http://purl.obolibrary.org/obo/sepio-clingen#",
+    "prefix": "SEPIO-CG",
+    "URLPattern": "http://purl.obolibrary.org/obo/SEPIO-CG_"
+  },
+  "http://purl.obolibrary.org/obo/so#": {
+    "id": "http://purl.obolibrary.org/obo/so#",
+    "prefix": "SO",
+    "URLPattern": "http://purl.obolibrary.org/obo/SO_"
+  },
+  "http://purl.obolibrary.org/obo/stato#": {
+    "id": "http://purl.obolibrary.org/obo/stato#",
+    "prefix": "STATO",
+    "URLPattern": "http://purl.obolibrary.org/obo/STATO_"
   }
 }

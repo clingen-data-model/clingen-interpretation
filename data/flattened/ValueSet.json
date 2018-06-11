@@ -1,200 +1,138 @@
 {
-  "VS001": {
-    "id": "VS001",
-    "@id": "SEPIO:0000363",
-    "description": "Whether or not a ValueSet can be extended by users",
+  "SEPIO:0000363": {
+    "id": "SEPIO:0000363",
     "conceptListExtensibility": "SEPIO:0000364"
   },
-  "VS002": {
-    "id": "VS002",
-    "@id": "SEPIO:0000380",
-    "description": "A classification of a genomic variant based on its effect on a transcript or its location with respect to the transcript.",
+  "SEPIO:0000380": {
+    "id": "SEPIO:0000380",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS003": {
-    "id": "VS003",
-    "@id": "SEPIO:0000371",
-    "description": "The role that a variant plays in the causing a genetic condition\n(see LOINC answer list https://r.details.loinc.org/AnswerList/LL4034-6.html)",
+  "SEPIO:0000371": {
+    "id": "SEPIO:0000371",
     "conceptListExtensibility": "SEPIO:0000364"
   },
-  "VS004": {
-    "id": "VS004",
-    "@id": "SEPIO:0000343",
-    "description": "A label applied to a sequence region",
+  "SEPIO:0000343": {
+    "id": "SEPIO:0000343",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS005": {
-    "id": "VS005",
-    "@id": "SEPIO:0000344",
-    "description": "Value denoting whether sequence features lie on the same or different molecules",
+  "SEPIO:0000344": {
+    "id": "SEPIO:0000344",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS006": {
-    "id": "VS006",
-    "@id": "SEPIO:0000338",
-    "description": "Describes the existence of an allele across multiple copies of a chromosome\n(Informed by LOINC answer list https://r.details.loinc.org/AnswerList/LL381-5.html but with additional codes for somatic mosaicism and asserted absence.)",
+  "SEPIO:0000338": {
+    "id": "SEPIO:0000338",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS007": {
-    "id": "VS007",
-    "@id": "SEPIO:0000416",
-    "description": "Classifies the transmission pattern of a condition in a pedigree.\n(see LOINC Answer List https://r.details.loinc.org/AnswerList/LL3731-8.html)",
+  "SEPIO:0000416": {
+    "id": "SEPIO:0000416",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS008": {
-    "id": "VS008",
-    "@id": "SEPIO-CG:65108",
-    "description": "The particular type of allele that can lead to a condition",
+  "SEPIO-CG:65108": {
+    "id": "SEPIO-CG:65108",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS009": {
-    "id": "VS009",
-    "@id": "SEPIO:0000345",
-    "description": "The type of InSilico Predictor",
+  "SEPIO:0000345": {
+    "id": "SEPIO:0000345",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS010": {
-    "id": "VS010",
-    "@id": "SEPIO:0000347",
-    "description": "Denotes whether the collected evidence is sufficient to meet a specified criteria or not",
+  "SEPIO:0000347": {
+    "id": "SEPIO:0000347",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS011": {
-    "id": "VS011",
-    "@id": "SEPIO:0000382",
-    "description": "The functional measurement carried out in a given assay",
+  "SEPIO:0000382": {
+    "id": "SEPIO:0000382",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS012": {
-    "id": "VS012",
-    "@id": "SEPIO-CG:65112",
-    "description": "Label for a group of individuals with a shared genetic background",
+  "SEPIO-CG:65112": {
+    "id": "SEPIO-CG:65112",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS013": {
-    "id": "VS013",
-    "@id": "SEPIO:0000349",
-    "description": "The rate of missense variation in a transcript that do not lead to a genetic condition",
+  "SEPIO:0000349": {
+    "id": "SEPIO:0000349",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS014": {
-    "id": "VS014",
-    "@id": "SEPIO-CG:65114",
-    "description": "The chance of having a particular genetic condition given the presence of a particular variant or damaged gene",
+  "SEPIO-CG:65114": {
+    "id": "SEPIO-CG:65114",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS015": {
-    "id": "VS015",
-    "@id": "SEPIO:0000354",
-    "description": "The strength of association between a genetic mechanism and a condition",
+  "SEPIO:0000354": {
+    "id": "SEPIO:0000354",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS016": {
-    "id": "VS016",
-    "@id": "SEPIO:0000353",
-    "description": "Degree of support that a set of evidence lends to a subsequent statement",
+  "SEPIO:0000353": {
+    "id": "SEPIO:0000353",
     "conceptListExtensibility": "SEPIO:0000364"
   },
-  "VS017": {
-    "id": "VS017",
-    "@id": "SEPIO:0000372",
-    "description": "An alteration of health status resulting from a physiopathological mechanism, and having a homogeneous clinical presentation and evolution and homogeneous therapeutic possibilities. (From MONDO)",
+  "SEPIO:0000372": {
+    "id": "SEPIO:0000372",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS018": {
-    "id": "VS018",
-    "@id": "SEPIO:0000375",
-    "description": "The assemblage of traits or outward appearance of an individual. It is the product of interactions between genes and between genes and the environment. (From NCIT)",
+  "SEPIO:0000375": {
+    "id": "SEPIO:0000375",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS019": {
-    "id": "VS019",
-    "@id": "SEPIO-CG:65119",
-    "description": "TODO",
+  "SEPIO-CG:65119": {
+    "id": "SEPIO-CG:65119",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS020": {
-    "id": "VS020",
-    "@id": "SEPIO-CG:65120",
-    "description": "The role played by an agent in the creation of an artifact",
+  "SEPIO-CG:65120": {
+    "id": "SEPIO-CG:65120",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS021": {
-    "id": "VS021",
-    "@id": "SEPIO:0000392",
-    "description": "The source of an allele in an individual",
+  "SEPIO:0000392": {
+    "id": "SEPIO:0000392",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS022": {
-    "id": "VS022",
-    "@id": "SEPIO:0000409",
-    "description": "The method by which a set of people was chosen to define a group",
+  "SEPIO:0000409": {
+    "id": "SEPIO:0000409",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS023": {
-    "id": "VS023",
-    "@id": "SEPIO:0000348",
-    "description": "The degree to which a condition implicates a specific genomic locus, such as a gene.",
+  "SEPIO:0000348": {
+    "id": "SEPIO:0000348",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS024": {
-    "id": "VS024",
-    "@id": "SEPIO-CG:65124",
-    "description": "The degree to which an allele is preserved over evolutionary history",
+  "SEPIO-CG:65124": {
+    "id": "SEPIO-CG:65124",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS025": {
-    "id": "VS025",
-    "@id": "SEPIO-CG:65125",
-    "description": "Whether or not parentage has been confirmed with a genetic test",
+  "SEPIO-CG:65125": {
+    "id": "SEPIO-CG:65125",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS026": {
-    "id": "VS026",
-    "@id": "SEPIO-CG:65126",
-    "description": "Whether or not an individual is affected by a specific genetic condition",
+  "SEPIO-CG:65126": {
+    "id": "SEPIO-CG:65126",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS027": {
-    "id": "VS027",
-    "@id": "SEPIO-CG:65127",
-    "description": "Whether or not inconsistent segretations have been observed in a pedigree",
+  "SEPIO-CG:65127": {
+    "id": "SEPIO-CG:65127",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS028": {
-    "id": "VS028",
-    "@id": "SEPIO-CG:65128",
-    "description": "Denotes whether an allele leads to a non-functional transcript",
+  "SEPIO-CG:65128": {
+    "id": "SEPIO-CG:65128",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS029": {
-    "id": "VS029",
-    "@id": "SEPIO-CG:65129",
-    "description": "Whether or not an allele overlaps a sequence region",
+  "SEPIO-CG:65129": {
+    "id": "SEPIO-CG:65129",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS030": {
-    "id": "VS030",
-    "@id": "SEPIO:0000396",
-    "description": "TODO",
+  "SEPIO:0000396": {
+    "id": "SEPIO:0000396",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS031": {
-    "id": "VS031",
-    "@id": "SEPIO:0000395",
-    "description": "TODO",
+  "SEPIO:0000395": {
+    "id": "SEPIO:0000395",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS032": {
-    "id": "VS032",
-    "@id": "SEPIO-CG:65132",
-    "description": "TODO",
+  "SEPIO-CG:65132": {
+    "id": "SEPIO-CG:65132",
     "conceptListExtensibility": "SEPIO:0000365"
   },
-  "VS033": {
-    "id": "VS033",
-    "@id": "SEPIO-CG:65133",
-    "description": "TODO",
+  "SEPIO-CG:65133": {
+    "id": "SEPIO-CG:65133",
+    "conceptListExtensibility": "SEPIO:0000365"
+  },
+  "SEPIO-CG:65140": {
+    "id": "SEPIO-CG:65140",
     "conceptListExtensibility": "SEPIO:0000365"
   }
 }

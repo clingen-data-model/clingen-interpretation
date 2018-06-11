@@ -1,0 +1,2488 @@
+{
+  "CGEX:AFAMID076": {
+    "id": "CGEX:AFAMID076",
+    "label": "Activation Assay"
+  },
+  "CGEX:AFAMID077": {
+    "id": "CGEX:AFAMID077",
+    "label": "ATPase assay"
+  },
+  "CGEX:AFAMID078": {
+    "id": "CGEX:AFAMID078",
+    "label": "Binding assay"
+  },
+  "CGEX:AFAMID079": {
+    "id": "CGEX:AFAMID079",
+    "label": "cellular localization"
+  },
+  "CGEX:AFAMID080": {
+    "id": "CGEX:AFAMID080",
+    "label": "Elk1 pohsphorylation via luciferase assay"
+  },
+  "CGEX:AFAMID081": {
+    "id": "CGEX:AFAMID081",
+    "label": "iodide efflux"
+  },
+  "CGEX:AFAMID082": {
+    "id": "CGEX:AFAMID082",
+    "label": "motility assay"
+  },
+  "CGEX:AFAMID083": {
+    "id": "CGEX:AFAMID083",
+    "label": "neurite outgrowth"
+  },
+  "CGEX:AFAMID084": {
+    "id": "CGEX:AFAMID084",
+    "label": "Yeast complementation assay"
+  },
+  "CGEX:Agent001": {
+    "id": "CGEX:Agent001",
+    "label": "Harry Stevenson"
+  },
+  "CGEX:Agent002": {
+    "id": "CGEX:Agent002",
+    "label": "Noonan/Rasopathy WG (ClinGen)"
+  },
+  "CGEX:Agent003": {
+    "id": "CGEX:Agent003",
+    "label": "Sasha Rande"
+  },
+  "CGEX:Agent004": {
+    "id": "CGEX:Agent004",
+    "label": "CSER Bakeoff Project"
+  },
+  "CGEX:Agent005": {
+    "id": "CGEX:Agent005",
+    "label": "G. Rajar"
+  },
+  "CGEX:Agent006": {
+    "id": "CGEX:Agent006",
+    "label": "CSER classifier #6"
+  },
+  "CGEX:Agent007": {
+    "id": "CGEX:Agent007",
+    "label": "Stefan DiMarino"
+  },
+  "CGEX:Agent008": {
+    "id": "CGEX:Agent008",
+    "label": "Gene Geneticist"
+  },
+  "CGEX:Agent009": {
+    "id": "CGEX:Agent009",
+    "label": "George Geneticist"
+  },
+  "CGEX:Agent010": {
+    "id": "CGEX:Agent010",
+    "label": "ACME Molecular Lab"
+  },
+  "CGEX:Agent011": {
+    "id": "CGEX:Agent011",
+    "label": "Genetics Diagnostic Laboratory,Children's Hospital of Eastern Ontario"
+  },
+  "CGEX:Agent012": {
+    "id": "CGEX:Agent012",
+    "label": "GeneDx"
+  },
+  "GNOMAD:afr": {
+    "id": "GNOMAD:afr",
+    "label": "African/African American"
+  },
+  "GNOMAD:amr": {
+    "id": "GNOMAD:amr",
+    "label": "Latino"
+  },
+  "GNOMAD:asj": {
+    "id": "GNOMAD:asj",
+    "label": "Ashkenazi Jewish"
+  },
+  "GNOMAD:eas": {
+    "id": "GNOMAD:eas",
+    "label": "East Asian"
+  },
+  "GNOMAD:fin": {
+    "id": "GNOMAD:fin",
+    "label": "Finnish"
+  },
+  "GNOMAD:nfe": {
+    "id": "GNOMAD:nfe",
+    "label": "Non-Finnish European"
+  },
+  "GNOMAD:oth": {
+    "id": "GNOMAD:oth",
+    "label": "Other"
+  },
+  "GNOMAD:sas": {
+    "id": "GNOMAD:sas",
+    "label": "South Asian"
+  },
+  "SEPIO-CG:99022": {
+    "id": "SEPIO-CG:99022",
+    "label": "PVS1",
+    "description": "null variant (nonsense, frameshift, canonical ±1 or 2 splice sites, initiation codon, single or multiexon deletion) in a gene where LOF is a known mechanism of disease"
+  },
+  "SEPIO-CG:99023": {
+    "id": "SEPIO-CG:99023",
+    "label": "PS1",
+    "description": "Same amino acid change as a previously established pathogenic variant regardless of nucleotide change"
+  },
+  "SEPIO-CG:99024": {
+    "id": "SEPIO-CG:99024",
+    "label": "PS2",
+    "description": "De novo (both maternity and paternity confirmed) in a patient with the disease and no family history"
+  },
+  "SEPIO-CG:99025": {
+    "id": "SEPIO-CG:99025",
+    "label": "PS3",
+    "description": "Well-established in vitro or in vivo functional studies supportive of a damaging effect on the gene or gene product"
+  },
+  "SEPIO-CG:99026": {
+    "id": "SEPIO-CG:99026",
+    "label": "PS4",
+    "description": "The prevalence of the variant in affected individuals is significantly increased compared with the prevalence in controls"
+  },
+  "SEPIO-CG:99027": {
+    "id": "SEPIO-CG:99027",
+    "label": "PM1",
+    "description": "Located in a mutational hot spot and/or critical and well-established functional domain (e.g., active site of an enzyme) without benign variation"
+  },
+  "SEPIO-CG:99028": {
+    "id": "SEPIO-CG:99028",
+    "label": "PM2",
+    "description": "Absent from controls (or at extremely low frequency if recessive) (Table 6) in Exome Sequencing Project, 1000 Genomes Project, or Exome Aggregation Consortium"
+  },
+  "SEPIO-CG:99029": {
+    "id": "SEPIO-CG:99029",
+    "label": "PM3",
+    "description": "For recessive disorders, detected in trans with a pathogenic variant"
+  },
+  "SEPIO-CG:99030": {
+    "id": "SEPIO-CG:99030",
+    "label": "PM4",
+    "description": "Protein length changes as a result of in-frame deletions/insertions in a nonrepeat region or stop-loss variants"
+  },
+  "SEPIO-CG:99031": {
+    "id": "SEPIO-CG:99031",
+    "label": "PM5",
+    "description": "Novel missense change at an amino acid residue where a different missense change determined to be pathogenic has been seen before"
+  },
+  "SEPIO-CG:99032": {
+    "id": "SEPIO-CG:99032",
+    "label": "PM6",
+    "description": "Assumed de novo, but without confirmation of paternity and maternity"
+  },
+  "SEPIO-CG:99033": {
+    "id": "SEPIO-CG:99033",
+    "label": "PP1",
+    "description": "Cosegregation with disease in multiple affected family members in a gene definitively known to cause the disease"
+  },
+  "SEPIO-CG:99034": {
+    "id": "SEPIO-CG:99034",
+    "label": "PP2",
+    "description": "Missense variant in a gene that has a low rate of benign missense variation and in which missense variants are a common mechanism of disease"
+  },
+  "SEPIO-CG:99035": {
+    "id": "SEPIO-CG:99035",
+    "label": "PP3",
+    "description": "Multiple lines of computational evidence support a deleterious effect on the gene or gene product (conservation, evolutionary, splicing impact, etc.)"
+  },
+  "SEPIO-CG:99036": {
+    "id": "SEPIO-CG:99036",
+    "label": "PP4",
+    "description": "Patient’s phenotype or family history is highly specific for a disease with a single genetic etiology"
+  },
+  "SEPIO-CG:99037": {
+    "id": "SEPIO-CG:99037",
+    "label": "PP5",
+    "description": "Reputable source recently reports variant as pathogenic, but the evidence is not available to the laboratory to perform an independent evaluation"
+  },
+  "SEPIO-CG:99038": {
+    "id": "SEPIO-CG:99038",
+    "label": "BA1",
+    "description": "Allele frequency is >5% in Exome Sequencing Project, 1000 Genomes Project, or Exome Aggregation Consortium"
+  },
+  "SEPIO-CG:99039": {
+    "id": "SEPIO-CG:99039",
+    "label": "BS1",
+    "description": "Allele frequency is greater than expected for disorder"
+  },
+  "SEPIO-CG:99040": {
+    "id": "SEPIO-CG:99040",
+    "label": "BS2",
+    "description": "Observed in a healthy adult individual for a recessive (homozygous), dominant (heterozygous), or X-linked (hemizygous) disorder, with full penetrance expected at an early age"
+  },
+  "SEPIO-CG:99041": {
+    "id": "SEPIO-CG:99041",
+    "label": "BS3",
+    "description": "Well-established in vitro or in vivo functional studies show no damaging effect on protein function or splicing"
+  },
+  "SEPIO-CG:99042": {
+    "id": "SEPIO-CG:99042",
+    "label": "BS4",
+    "description": "Lack of segregation in affected members of a family"
+  },
+  "SEPIO-CG:99043": {
+    "id": "SEPIO-CG:99043",
+    "label": "BP1",
+    "description": "Missense variant in a gene for which primarily truncating variants are known to cause disease"
+  },
+  "SEPIO-CG:99044": {
+    "id": "SEPIO-CG:99044",
+    "label": "BP2",
+    "description": "Observed in trans with a pathogenic variant for a fully penetrant dominant gene/disorder or observed in cis with a pathogenic variant in any inheritance pattern"
+  },
+  "SEPIO-CG:99045": {
+    "id": "SEPIO-CG:99045",
+    "label": "BP3",
+    "description": "In-frame deletions/insertions in a repetitive region without a known function"
+  },
+  "SEPIO-CG:99046": {
+    "id": "SEPIO-CG:99046",
+    "label": "BP4",
+    "description": "Multiple lines of computational evidence suggest no impact on gene or gene product (conservation, evolutionary, splicing impact, etc.)"
+  },
+  "SEPIO-CG:99047": {
+    "id": "SEPIO-CG:99047",
+    "label": "BP5",
+    "description": "Variant found in a case with an alternate molecular basis for disease"
+  },
+  "SEPIO-CG:99048": {
+    "id": "SEPIO-CG:99048",
+    "label": "BP6",
+    "description": "Reputable source recently reports variant as benign, but the evidence is not available to the laboratory to perform an independent evaluation"
+  },
+  "SEPIO-CG:99049": {
+    "id": "SEPIO-CG:99049",
+    "label": "BP7",
+    "description": "A synonymous (silent) variant for which splicing prediction algorithms predict no impact to the splice consensus sequence nor the creation of a new splice site AND the nucleotide is not highly conserved"
+  },
+  "DOID:630": {
+    "id": "DOID:630",
+    "label": "genetic disease"
+  },
+  "EVS:AA": {
+    "id": "EVS:AA",
+    "label": "African-American"
+  },
+  "EVS:EA": {
+    "id": "EVS:EA",
+    "label": "European-American"
+  },
+  "HGNC:5048": {
+    "id": "HGNC:5048",
+    "label": "HNRNPU"
+  },
+  "HGNC:1101": {
+    "id": "HGNC:1101",
+    "label": "BRCA2"
+  },
+  "HGNC:12403": {
+    "id": "HGNC:12403",
+    "label": "TTN"
+  },
+  "HGNC:9644": {
+    "id": "HGNC:9644",
+    "label": "PTPN11"
+  },
+  "HGNC:2950": {
+    "id": "HGNC:2950",
+    "label": "DNAH5"
+  },
+  "HGNC:5173": {
+    "id": "HGNC:5173",
+    "label": "HRAS"
+  },
+  "HGNC:6407": {
+    "id": "HGNC:6407",
+    "label": "KRAS"
+  },
+  "HGNC:7577": {
+    "id": "HGNC:7577",
+    "label": "MYH7"
+  },
+  "HGNC:2770": {
+    "id": "HGNC:2770",
+    "label": "DES"
+  },
+  "HGNC:4585": {
+    "id": "HGNC:4585",
+    "label": "GRIN2A"
+  },
+  "HGNC:11949": {
+    "id": "HGNC:11949",
+    "label": "TNNT2"
+  },
+  "HGNC:11237": {
+    "id": "HGNC:11237",
+    "label": "SPG7"
+  },
+  "HGNC:1097": {
+    "id": "HGNC:1097",
+    "label": "BRAF"
+  },
+  "HGNC:6847": {
+    "id": "HGNC:6847",
+    "label": "MEK"
+  },
+  "HGNC:6871": {
+    "id": "HGNC:6871",
+    "label": "ERK"
+  },
+  "HGNC:8818": {
+    "id": "HGNC:8818",
+    "label": "SLC26A4"
+  },
+  "HGNC:10483": {
+    "id": "HGNC:10483",
+    "label": "RYR1"
+  },
+  "HGNC:3356": {
+    "id": "HGNC:3356",
+    "label": "ENPP1"
+  },
+  "HGNC:3236": {
+    "id": "HGNC:3236",
+    "label": "EGFR"
+  },
+  "HGNC:4296": {
+    "id": "HGNC:4296",
+    "label": "GLA"
+  },
+  "HGNC:7527": {
+    "id": "HGNC:7527",
+    "label": "MUTYH"
+  },
+  "HGNC:3157": {
+    "id": "HGNC:3157",
+    "label": "EDA"
+  },
+  "HGNC:9829": {
+    "id": "HGNC:9829",
+    "label": "RAF1"
+  },
+  "HGNC:18183": {
+    "id": "HGNC:18183",
+    "label": "GIPC3"
+  },
+  "HGNC:28848": {
+    "id": "HGNC:28848",
+    "label": "TTP1"
+  },
+  "HGNC:8140": {
+    "id": "HGNC:8140",
+    "label": "OPA1"
+  },
+  "HGNC:9143": {
+    "id": "HGNC:9143",
+    "label": "PHOX2B"
+  },
+  "HGNC:11947": {
+    "id": "HGNC:11947",
+    "label": "TNNI3"
+  },
+  "HGNC:8512": {
+    "id": "HGNC:8512",
+    "label": "OTC"
+  },
+  "HGNC:1100": {
+    "id": "HGNC:1100",
+    "label": "BRCA1"
+  },
+  "HGNC:27310": {
+    "id": "HGNC:27310",
+    "label": "FLCN"
+  },
+  "HGNC:6840": {
+    "id": "HGNC:6840",
+    "label": "MAP2K1"
+  },
+  "HGNC:12601": {
+    "id": "HGNC:12601",
+    "label": "USH2A"
+  },
+  "HGNC:7551": {
+    "id": "HGNC:7551",
+    "label": "MYBPC3"
+  },
+  "HGNC:3349": {
+    "id": "HGNC:3349",
+    "label": "ENG"
+  },
+  "HGNC:3756": {
+    "id": "HGNC:3756",
+    "label": "FLNC"
+  },
+  "HGNC:1058": {
+    "id": "HGNC:1058",
+    "label": "BLM"
+  },
+  "HGNC:4284": {
+    "id": "HGNC:4284",
+    "label": "GJB2"
+  },
+  "HGNC:18744": {
+    "id": "HGNC:18744",
+    "label": "DNAI2"
+  },
+  "HGNC:3603": {
+    "id": "HGNC:3603",
+    "label": "FBN1"
+  },
+  "HGNC:7683": {
+    "id": "HGNC:7683",
+    "label": "NDUFA1"
+  },
+  "HGNC:5213": {
+    "id": "HGNC:5213",
+    "label": "HSD17B4"
+  },
+  "HGNC:7132": {
+    "id": "HGNC:7132",
+    "label": "KMT2A"
+  },
+  "HGNC:583": {
+    "id": "HGNC:583",
+    "label": "APC"
+  },
+  "HGNC:20249": {
+    "id": "HGNC:20249",
+    "label": "SPRED1"
+  },
+  "HGNC:6547": {
+    "id": "HGNC:6547",
+    "label": "LDLR"
+  },
+  "HGNC:164": {
+    "id": "HGNC:164",
+    "label": "ACTN2"
+  },
+  "HGNC:26521": {
+    "id": "HGNC:26521",
+    "label": "LOXHD1"
+  },
+  "HGNC:1884": {
+    "id": "HGNC:1884",
+    "label": "CFTR"
+  },
+  "HGNC:7720": {
+    "id": "HGNC:7720",
+    "label": "NEB"
+  },
+  "HGNC:30800": {
+    "id": "HGNC:30800",
+    "label": "TMIE"
+  },
+  "HGNC:11187": {
+    "id": "HGNC:11187",
+    "label": "SOS1"
+  },
+  "HGNC:13733": {
+    "id": "HGNC:13733",
+    "label": "CDH23"
+  },
+  "HGNC:16361": {
+    "id": "HGNC:16361",
+    "label": "WHRN"
+  },
+  "HGNC:2200": {
+    "id": "HGNC:2200",
+    "label": "COL2A1"
+  },
+  "HGNC:2227": {
+    "id": "HGNC:2227",
+    "label": "COMP"
+  },
+  "HGNC:8091": {
+    "id": "HGNC:8091",
+    "label": "OAT"
+  },
+  "HGNC:16513": {
+    "id": "HGNC:16513",
+    "label": "TMC1"
+  },
+  "HGNC:6294": {
+    "id": "HGNC:6294",
+    "label": "KCNQ1"
+  },
+  "HGNC:3036": {
+    "id": "HGNC:3036",
+    "label": "DSC2"
+  },
+  "CGEX:GenCond001": {
+    "id": "CGEX:GenCond001",
+    "description": "Breast Ovarian Cancer, Autosomal Dominant"
+  },
+  "CGEX:GenCond008": {
+    "id": "CGEX:GenCond008",
+    "description": "desmin related myopathy"
+  },
+  "CGEX:GenCond009": {
+    "id": "CGEX:GenCond009",
+    "description": "Epilepsy with Mental Retardation"
+  },
+  "CGEX:GenCond014": {
+    "id": "CGEX:GenCond014",
+    "description": "PCD autosomal recessive w/ outer dynein arm (ODA) defects"
+  },
+  "CGEX:GenCond016": {
+    "id": "CGEX:GenCond016",
+    "description": "Primary familial hypertrophic cardiomyopathy, Autosomal Dominant"
+  },
+  "CGEX:GenCond036": {
+    "id": "CGEX:GenCond036",
+    "description": "hereditary breast and ovarian cancer"
+  },
+  "CGEX:GenCond041": {
+    "id": "CGEX:GenCond041",
+    "description": "Pseudoachondroplastic spondyloepiphyseal dysplasia"
+  },
+  "CGEX:GenCond048": {
+    "id": "CGEX:GenCond048",
+    "description": "Hearing Loss"
+  },
+  "CGEX:GenCond049": {
+    "id": "CGEX:GenCond049",
+    "description": "Rasopathy"
+  },
+  "CGEX:GenCond050": {
+    "id": "CGEX:GenCond050",
+    "description": "Breast Ovarian Cancer, Autosomal Dominant"
+  },
+  "CGEX:GenCond051": {
+    "id": "CGEX:GenCond051",
+    "description": "Breast Ovarian Cancer, Autosomal Dominant"
+  },
+  "CGEX:GenCond057": {
+    "id": "CGEX:GenCond057",
+    "description": "Hearing Loss"
+  },
+  "CGEX:GenCond058": {
+    "id": "CGEX:GenCond058",
+    "description": "Hearing Loss"
+  },
+  "CGEX:GenCond059": {
+    "id": "CGEX:GenCond059",
+    "description": "Hearing Loss, Autosomal Recessive"
+  },
+  "CGEX:GenCond061": {
+    "id": "CGEX:GenCond061",
+    "description": "Hearing Loss, Autosomal Recessive"
+  },
+  "CGEX:GenCond073": {
+    "id": "CGEX:GenCond073",
+    "description": "hereditary breast and ovarian cancer"
+  },
+  "GENO:0000131": {
+    "id": "GENO:0000131",
+    "label": "in cis"
+  },
+  "GENO:0000132": {
+    "id": "GENO:0000132",
+    "label": "in trans"
+  },
+  "GENO:0000134": {
+    "id": "GENO:0000134",
+    "label": "hemizygous"
+  },
+  "GENO:0000135": {
+    "id": "GENO:0000135",
+    "label": "heterozygous"
+  },
+  "GENO:0000136": {
+    "id": "GENO:0000136",
+    "label": "homozygous"
+  },
+  "GENO:0000137": {
+    "id": "GENO:0000137",
+    "label": "unspecified zygosity"
+  },
+  "GENO:0000143": {
+    "id": "GENO:0000143",
+    "label": "Codominant"
+  },
+  "GENO:0000602": {
+    "id": "GENO:0000602",
+    "label": "homoplasmic"
+  },
+  "GENO:0000603": {
+    "id": "GENO:0000603",
+    "label": "heteroplasmic"
+  },
+  "GENO:0000878": {
+    "id": "GENO:0000878",
+    "label": "maternally inherited"
+  },
+  "GENO:0000879": {
+    "id": "GENO:0000879",
+    "label": "paternally inherited"
+  },
+  "GENO:0000880": {
+    "id": "GENO:0000880",
+    "label": "de novo"
+  },
+  "GENO:0000881": {
+    "id": "GENO:0000881",
+    "label": "Unknown"
+  },
+  "GENO:0000882": {
+    "id": "GENO:0000882",
+    "label": "somatic"
+  },
+  "GENO:0000888": {
+    "id": "GENO:0000888",
+    "label": "parentally inherited"
+  },
+  "GENO:0000889": {
+    "id": "GENO:0000889",
+    "label": "unknown inheritance"
+  },
+  "GENO:0000892": {
+    "id": "GENO:0000892",
+    "label": "Heteroplasmic mitochondrial inheritance"
+  },
+  "GENO:0000893": {
+    "id": "GENO:0000893",
+    "label": "Homoplasmic mitochondrial inheritance"
+  },
+  "HP:0000006": {
+    "id": "HP:0000006",
+    "label": "Autosomal Dominant"
+  },
+  "HP:0000007": {
+    "id": "HP:0000007",
+    "label": "Autosomal Recessive"
+  },
+  "HP:0000256": {
+    "id": "HP:0000256",
+    "label": "macrocephaly"
+  },
+  "HP:0000957": {
+    "id": "HP:0000957",
+    "label": "café au lait macules (CALMs)"
+  },
+  "HP:0000997": {
+    "id": "HP:0000997",
+    "label": "axillary freckling"
+  },
+  "HP:0001417": {
+    "id": "HP:0001417",
+    "label": "X linked inheritance"
+  },
+  "HP:0001419": {
+    "id": "HP:0001419",
+    "label": "X linked recessive inheritance"
+  },
+  "HP:0001423": {
+    "id": "HP:0001423",
+    "label": "X-linked dominant inheritance"
+  },
+  "HP:0001426": {
+    "id": "HP:0001426",
+    "label": "Multifactorial inheritance"
+  },
+  "HP:0001427": {
+    "id": "HP:0001427",
+    "label": "Mitochondrial inheritance"
+  },
+  "HP:0001428": {
+    "id": "HP:0001428",
+    "label": "Somatic mutation"
+  },
+  "HP:0001450": {
+    "id": "HP:0001450",
+    "label": "Y linked inheritance"
+  },
+  "HP:0001470": {
+    "id": "HP:0001470",
+    "label": "Sex-limited autosomal dominant"
+  },
+  "HP:0003743": {
+    "id": "HP:0003743",
+    "label": "genetic anticipation"
+  },
+  "HP:0003745": {
+    "id": "HP:0003745",
+    "label": "Sporadic"
+  },
+  "HP:0003829": {
+    "id": "HP:0003829",
+    "label": "Incomplete"
+  },
+  "HP:000XXX1": {
+    "id": "HP:000XXX1",
+    "label": "Complete"
+  },
+  "HP:000XXX2": {
+    "id": "HP:000XXX2",
+    "label": "High"
+  },
+  "HP:0010983": {
+    "id": "HP:0010983",
+    "label": "Oligogenic"
+  },
+  "HP:0011014": {
+    "id": "HP:0011014",
+    "label": "Abnormal Glucose Homeostasis"
+  },
+  "HP:0012274": {
+    "id": "HP:0012274",
+    "label": "Autosomal dominant inheritance with paternal imprinting"
+  },
+  "HP:0012275": {
+    "id": "HP:0012275",
+    "label": "Autosomal dominant inheritance with maternal imprinting"
+  },
+  "HP:0012873": {
+    "id": "HP:0012873",
+    "label": "Absent vas deferens"
+  },
+  "HP:0025352": {
+    "id": "HP:0025352",
+    "label": "autosomal dominant germline de novo mutation"
+  },
+  "HP:0031362": {
+    "id": "HP:0031362",
+    "label": "Sex-limited autosomal recessive inheritance"
+  },
+  "HP:0200106": {
+    "id": "HP:0200106",
+    "label": "Absent/shortened dynein arms"
+  },
+  "IGSR:acb": {
+    "id": "IGSR:acb",
+    "label": "African Caribbeans in Barbados"
+  },
+  "IGSR:afr": {
+    "id": "IGSR:afr",
+    "label": "African"
+  },
+  "IGSR:amr": {
+    "id": "IGSR:amr",
+    "label": "Ad Mixed American"
+  },
+  "IGSR:asw": {
+    "id": "IGSR:asw",
+    "label": "Americans of African Ancestry in SW USA"
+  },
+  "IGSR:beb": {
+    "id": "IGSR:beb",
+    "label": "Bengali from Bangladesh"
+  },
+  "IGSR:cdx": {
+    "id": "IGSR:cdx",
+    "label": "Chinese Dai in Xishuangbanna, China"
+  },
+  "IGSR:ceu": {
+    "id": "IGSR:ceu",
+    "label": "Utah Residents (CEPH) with Northern and Western European Ancestry"
+  },
+  "IGSR:chb": {
+    "id": "IGSR:chb",
+    "label": "Han Chinese in Bejing, China"
+  },
+  "IGSR:chs": {
+    "id": "IGSR:chs",
+    "label": "Southern Han Chinese"
+  },
+  "IGSR:clm": {
+    "id": "IGSR:clm",
+    "label": "Colombians from Medellin, Colombia"
+  },
+  "IGSR:eas": {
+    "id": "IGSR:eas",
+    "label": "East Asian"
+  },
+  "IGSR:esn": {
+    "id": "IGSR:esn",
+    "label": "Esan in Nigeria"
+  },
+  "IGSR:eur": {
+    "id": "IGSR:eur",
+    "label": "European"
+  },
+  "IGSR:fin": {
+    "id": "IGSR:fin",
+    "label": "Finnish in Finland"
+  },
+  "IGSR:gbr": {
+    "id": "IGSR:gbr",
+    "label": "British in England and Scotland"
+  },
+  "IGSR:gih": {
+    "id": "IGSR:gih",
+    "label": "Gujarati Indian from Houston, Texas"
+  },
+  "IGSR:gwd": {
+    "id": "IGSR:gwd",
+    "label": "Gambian in Western Divisions in the Gambia"
+  },
+  "IGSR:ibs": {
+    "id": "IGSR:ibs",
+    "label": "Iberian Population in Spain"
+  },
+  "IGSR:itu": {
+    "id": "IGSR:itu",
+    "label": "Indian Telugu from the UK"
+  },
+  "IGSR:jpt": {
+    "id": "IGSR:jpt",
+    "label": "Japanese in Tokyo, Japan"
+  },
+  "IGSR:khv": {
+    "id": "IGSR:khv",
+    "label": "Kinh in Ho Chi Minh City, Vietnam"
+  },
+  "IGSR:lwk": {
+    "id": "IGSR:lwk",
+    "label": "Luhya in Webuye, Kenya"
+  },
+  "IGSR:msl": {
+    "id": "IGSR:msl",
+    "label": "Mende in Sierra Leone"
+  },
+  "IGSR:mxl": {
+    "id": "IGSR:mxl",
+    "label": "Mexican Ancestry from Los Angeles USA"
+  },
+  "IGSR:pel": {
+    "id": "IGSR:pel",
+    "label": "Peruvians from Lima, Peru"
+  },
+  "IGSR:pjl": {
+    "id": "IGSR:pjl",
+    "label": "Punjabi from Lahore, Pakistan"
+  },
+  "IGSR:pur": {
+    "id": "IGSR:pur",
+    "label": "Puerto Ricans from Puerto Rico"
+  },
+  "IGSR:sas": {
+    "id": "IGSR:sas",
+    "label": "South Asian"
+  },
+  "IGSR:stu": {
+    "id": "IGSR:stu",
+    "label": "Sri Lankan Tamil from the UK"
+  },
+  "IGSR:tsi": {
+    "id": "IGSR:tsi",
+    "label": "Toscani in Italia"
+  },
+  "IGSR:yri": {
+    "id": "IGSR:yri",
+    "label": "Yoruba in Ibadan, Nigeria"
+  },
+  "LOINC:LA26332-9": {
+    "id": "LOINC:LA26332-9",
+    "label": "Likely Pathogenic"
+  },
+  "LOINC:LA26333-7": {
+    "id": "LOINC:LA26333-7",
+    "label": "Uncertain Significance"
+  },
+  "LOINC:LA26334-5": {
+    "id": "LOINC:LA26334-5",
+    "label": "Likely Benign"
+  },
+  "LOINC:LA6668-3": {
+    "id": "LOINC:LA6668-3",
+    "label": "Pathogenic"
+  },
+  "LOINC:LA6675-8": {
+    "id": "LOINC:LA6675-8",
+    "label": "Benign"
+  },
+  "MESH:D061325": {
+    "id": "MESH:D061325",
+    "label": "hereditary breast ovarian cancer"
+  },
+  "OMIM:114480": {
+    "id": "OMIM:114480",
+    "label": "Breast Cancer"
+  },
+  "OMIM:143890": {
+    "id": "OMIM:143890",
+    "label": "Hypercholesterolemia, Familial"
+  },
+  "OMIM:601419": {
+    "id": "OMIM:601419",
+    "label": "myofibrillar myopathy 1"
+  },
+  "OMIM:609942": {
+    "id": "OMIM:609942",
+    "label": "noonan syndrome 3"
+  },
+  "OMIM:612555": {
+    "id": "OMIM:612555",
+    "label": "Breast-Ovarian Cancer, Familial, Susceptibility To, 2"
+  },
+  "OMIM:614065": {
+    "id": "OMIM:614065",
+    "label": "Myopathy, Distal, type 4"
+  },
+  "Orphanet:122": {
+    "id": "Orphanet:122",
+    "label": "Birt-Hogg-Dube Syndrome"
+  },
+  "Orphanet:1340": {
+    "id": "Orphanet:1340",
+    "label": "cardiofaciocutaneous syndrome"
+  },
+  "Orphanet:145": {
+    "id": "Orphanet:145",
+    "label": "hereditary breast and ovarian cancer syndrome"
+  },
+  "Orphanet:167848": {
+    "id": "Orphanet:167848",
+    "label": "cardiomyopathy"
+  },
+  "Orphanet:216": {
+    "id": "Orphanet:216",
+    "label": "neuronal ceroid lipofuscinosis"
+  },
+  "Orphanet:217569": {
+    "id": "Orphanet:217569",
+    "label": "hypertrophic cardiomyopathy"
+  },
+  "Orphanet:217604": {
+    "id": "Orphanet:217604",
+    "label": "dilated cardiomyopathy"
+  },
+  "Orphanet:244": {
+    "id": "Orphanet:244",
+    "label": "Primary ciliary dyskenisia"
+  },
+  "Orphanet:247": {
+    "id": "Orphanet:247",
+    "label": "arrhythmogenic right ventricular cardiomyopathy"
+  },
+  "Orphanet:2609": {
+    "id": "Orphanet:2609",
+    "label": "Mitochondrial complex 1 deficiency"
+  },
+  "Orphanet:2855": {
+    "id": "Orphanet:2855",
+    "label": "Perrault Syndrome"
+  },
+  "Orphanet:3071": {
+    "id": "Orphanet:3071",
+    "label": "costello syndrome"
+  },
+  "Orphanet:319182": {
+    "id": "Orphanet:319182",
+    "label": "Wiedemann-Steiner syndrome"
+  },
+  "Orphanet:324": {
+    "id": "Orphanet:324",
+    "label": "Fabry disease"
+  },
+  "Orphanet:364526": {
+    "id": "Orphanet:364526",
+    "label": "Primary bone dysplasia"
+  },
+  "Orphanet:414": {
+    "id": "Orphanet:414",
+    "label": "Gyrate atrophy of choroid and retina"
+  },
+  "Orphanet:423": {
+    "id": "Orphanet:423",
+    "label": "Malignant hyperthermia"
+  },
+  "Orphanet:558": {
+    "id": "Orphanet:558",
+    "label": "Marfan Syndrome"
+  },
+  "Orphanet:586": {
+    "id": "Orphanet:586",
+    "label": "Cystic Fibrosis"
+  },
+  "Orphanet:648": {
+    "id": "Orphanet:648",
+    "label": "noonan syndrome"
+  },
+  "Orphanet:664": {
+    "id": "Orphanet:664",
+    "label": "Ornithine carbamoyltransferase deficiency"
+  },
+  "Orphanet:705": {
+    "id": "Orphanet:705",
+    "label": "Pendred syndrome"
+  },
+  "Orphanet:733": {
+    "id": "Orphanet:733",
+    "label": "Familial Adenomatous Polyposis"
+  },
+  "Orphanet:750": {
+    "id": "Orphanet:750",
+    "label": "pseudoachondroplasia"
+  },
+  "Orphanet:774": {
+    "id": "Orphanet:774",
+    "label": "hereditary hemorrhagic telangiectasia"
+  },
+  "Orphanet:791": {
+    "id": "Orphanet:791",
+    "label": "Retinitis Pigmentosa"
+  },
+  "Orphanet:84": {
+    "id": "Orphanet:84",
+    "label": "Fanconi Anemia"
+  },
+  "Orphanet:87884": {
+    "id": "Orphanet:87884",
+    "label": "nonsyndromic deafness"
+  },
+  "Orphanet:886": {
+    "id": "Orphanet:886",
+    "label": "Usher syndrome"
+  },
+  "Orphanet:98733": {
+    "id": "Orphanet:98733",
+    "label": "Noonan syndrome and noonan-related syndrom"
+  },
+  "RO:0002527": {
+    "id": "RO:0002527",
+    "label": "does not overlap region"
+  },
+  "RO:0002656": {
+    "id": "RO:0002656",
+    "label": "overlaps region"
+  },
+  "SEPIO:0000364": {
+    "id": "SEPIO:0000364",
+    "label": "fixed"
+  },
+  "SEPIO:0000365": {
+    "id": "SEPIO:0000365",
+    "label": "extensible"
+  },
+  "SEPIO:0003333": {
+    "id": "SEPIO:0003333",
+    "label": "external"
+  },
+  "SEPIO-CG:98001": {
+    "id": "SEPIO-CG:98001",
+    "label": "Combined"
+  },
+  "SEPIO-CG:98002": {
+    "id": "SEPIO-CG:98002",
+    "label": "Overall"
+  },
+  "SEPIO-CG:99001": {
+    "id": "SEPIO-CG:99001",
+    "label": "high"
+  },
+  "SEPIO-CG:99002": {
+    "id": "SEPIO-CG:99002",
+    "label": "complete"
+  },
+  "SEPIO-CG:99005": {
+    "id": "SEPIO-CG:99005",
+    "label": "maternal confirmation"
+  },
+  "SEPIO-CG:99006": {
+    "id": "SEPIO-CG:99006",
+    "label": "paternal confirmation"
+  },
+  "SEPIO-CG:99007": {
+    "id": "SEPIO-CG:99007",
+    "label": "maternal and paternal confirmation"
+  },
+  "SEPIO-CG:99008": {
+    "id": "SEPIO-CG:99008",
+    "label": "no parental confirmation"
+  },
+  "SEPIO-CG:99009": {
+    "id": "SEPIO-CG:99009",
+    "label": "affected"
+  },
+  "SEPIO-CG:99010": {
+    "id": "SEPIO-CG:99010",
+    "label": "unaffected"
+  },
+  "SEPIO-CG:99014": {
+    "id": "SEPIO-CG:99014",
+    "label": "status unknown"
+  },
+  "SEPIO-CG:99011": {
+    "id": "SEPIO-CG:99011",
+    "label": "present"
+  },
+  "SEPIO-CG:99012": {
+    "id": "SEPIO-CG:99012",
+    "label": "absent"
+  },
+  "SEPIO-CG:99013": {
+    "id": "SEPIO-CG:99013",
+    "label": "unknown"
+  },
+  "SEPIO:0000154": {
+    "id": "SEPIO:0000154",
+    "label": "assessor role"
+  },
+  "SEPIO:0000155": {
+    "id": "SEPIO:0000155",
+    "label": "approver role"
+  },
+  "SEPIO:0000156": {
+    "id": "SEPIO:0000156",
+    "label": "curator role"
+  },
+  "SEPIO:0000216": {
+    "id": "SEPIO:0000216",
+    "label": "Pathogenic Moderate"
+  },
+  "SEPIO:0000218": {
+    "id": "SEPIO:0000218",
+    "label": "None"
+  },
+  "SEPIO:0000220": {
+    "id": "SEPIO:0000220",
+    "label": "Pathogenic Very Strong"
+  },
+  "SEPIO:0000223": {
+    "id": "SEPIO:0000223",
+    "label": "Met"
+  },
+  "SEPIO:0000224": {
+    "id": "SEPIO:0000224",
+    "label": "Not Met"
+  },
+  "SEPIO:0000262": {
+    "id": "SEPIO:0000262",
+    "label": "1000 Genomes ascertainment method"
+  },
+  "SEPIO:0000265": {
+    "id": "SEPIO:0000265",
+    "label": "High"
+  },
+  "SEPIO:0000266": {
+    "id": "SEPIO:0000266",
+    "label": "Low"
+  },
+  "SEPIO:0000268": {
+    "id": "SEPIO:0000268",
+    "label": "common"
+  },
+  "SEPIO:0000269": {
+    "id": "SEPIO:0000269",
+    "label": "established"
+  },
+  "SEPIO:0000270": {
+    "id": "SEPIO:0000270",
+    "label": "primary"
+  },
+  "SEPIO:0000271": {
+    "id": "SEPIO:0000271",
+    "label": "suggested"
+  },
+  "SEPIO:0000272": {
+    "id": "SEPIO:0000272",
+    "label": "unknown"
+  },
+  "SEPIO:0000273": {
+    "id": "SEPIO:0000273",
+    "label": "low"
+  },
+  "SO:0002188": {
+    "id": "SO:0002188",
+    "label": "functional region"
+  },
+  "SO:0002186": {
+    "id": "SO:0002186",
+    "label": "mutational hotspot"
+  },
+  "SEPIO:0000322": {
+    "id": "SEPIO:0000322",
+    "label": "missense effect"
+  },
+  "SEPIO:0000323": {
+    "id": "SEPIO:0000323",
+    "label": "splicing prediction"
+  },
+  "SEPIO:0000325": {
+    "id": "SEPIO:0000325",
+    "label": "Benign Stand Alone"
+  },
+  "SEPIO:0000326": {
+    "id": "SEPIO:0000326",
+    "label": "Benign Moderate"
+  },
+  "SEPIO:0000327": {
+    "id": "SEPIO:0000327",
+    "label": "Benign Supporting"
+  },
+  "SEPIO:0000328": {
+    "id": "SEPIO:0000328",
+    "label": "Benign Strong"
+  },
+  "SEPIO:0000329": {
+    "id": "SEPIO:0000329",
+    "label": "Pathogenic Supporting"
+  },
+  "SEPIO:0000330": {
+    "id": "SEPIO:0000330",
+    "label": "Pathogenic Strong"
+  },
+  "SEPIO:0000331": {
+    "id": "SEPIO:0000331",
+    "label": "interpreter role"
+  },
+  "SEPIO:0000332": {
+    "id": "SEPIO:0000332",
+    "label": "ExAC ascertainment method"
+  },
+  "SEPIO:0000333": {
+    "id": "SEPIO:0000333",
+    "label": "ESP ascertainment method"
+  },
+  "SEPIO:0000334": {
+    "id": "SEPIO:0000334",
+    "label": "gnomAD ascertainment method"
+  },
+  "SO:0000159": {
+    "id": "SO:0000159",
+    "label": "deletion"
+  },
+  "SO:0000191": {
+    "id": "SO:0000191",
+    "label": "interior intron"
+  },
+  "SO:0000199": {
+    "id": "SO:0000199",
+    "label": "translocation"
+  },
+  "SO:0000203": {
+    "id": "SO:0000203",
+    "label": "three prime UTR"
+  },
+  "SO:0000204": {
+    "id": "SO:0000204",
+    "label": "five prime UTR"
+  },
+  "SO:0000330": {
+    "id": "SO:0000330",
+    "label": "conserved region"
+  },
+  "SEPIO-CG:99017": {
+    "id": "SEPIO-CG:99017",
+    "label": "not conserved region"
+  },
+  "SO:0000507": {
+    "id": "SO:0000507",
+    "label": "pseudogenic exon"
+  },
+  "SO:0000657": {
+    "id": "SO:0000657",
+    "label": "repeat region "
+  },
+  "SO:0000667": {
+    "id": "SO:0000667",
+    "label": "insertion"
+  },
+  "SO:0001019": {
+    "id": "SO:0001019",
+    "label": "copy number variation"
+  },
+  "SO:0001568": {
+    "id": "SO:0001568",
+    "label": "splicing variant"
+  },
+  "SO:0001578": {
+    "id": "SO:0001578",
+    "label": "stop lost"
+  },
+  "SO:0001583": {
+    "id": "SO:0001583",
+    "label": "missense variant"
+  },
+  "SO:0001586": {
+    "id": "SO:0001586",
+    "label": "non conservative missense variant"
+  },
+  "SO:0001587": {
+    "id": "SO:0001587",
+    "label": "stop gained"
+  },
+  "SO:0001589": {
+    "id": "SO:0001589",
+    "label": "frameshift variant"
+  },
+  "SO:0001629": {
+    "id": "SO:0001629",
+    "label": "splice-site variant"
+  },
+  "SO:0001819": {
+    "id": "SO:0001819",
+    "label": "synonymous variant"
+  },
+  "SO:0001823": {
+    "id": "SO:0001823",
+    "label": "conservative Inframe Insertion"
+  },
+  "SO:0001824": {
+    "id": "SO:0001824",
+    "label": "disruptive inframe insertion"
+  },
+  "SO:0001825": {
+    "id": "SO:0001825",
+    "label": "conservative Inframe Deletion"
+  },
+  "SO:0001826": {
+    "id": "SO:0001826",
+    "label": "disruptive inframe deletion"
+  },
+  "SO:0001909": {
+    "id": "SO:0001909",
+    "label": "frameshift elongation"
+  },
+  "SO:0002007": {
+    "id": "SO:0002007",
+    "label": "MNV"
+  },
+  "SO:0002012": {
+    "id": "SO:0002012",
+    "label": "start lost"
+  },
+  "SO:0002054": {
+    "id": "SO:0002054",
+    "label": "loss of function variant"
+  },
+  "SO:0002055": {
+    "id": "SO:0002055",
+    "label": "null mutation"
+  },
+  "SEPIO-CG:99015": {
+    "id": "SEPIO-CG:99015",
+    "label": "function not lost"
+  },
+  "SEPIO-CG:99016": {
+    "id": "SEPIO-CG:99016",
+    "label": "function unknown"
+  },
+  "SO:0002073": {
+    "id": "SO:0002073",
+    "label": "no sequence alteration"
+  },
+  "SO:1000002": {
+    "id": "SO:1000002",
+    "label": "substitution"
+  },
+  "SO:10000032": {
+    "id": "SO:10000032",
+    "label": "indel"
+  },
+  "SO:1000036": {
+    "id": "SO:1000036",
+    "label": "inversion"
+  },
+  "http://reg.genome.network/allele/": {
+    "id": "http://reg.genome.network/allele/",
+    "label": "ClinGen Allele Registry"
+  },
+  "http://loinc.org/": {
+    "id": "http://loinc.org/",
+    "label": "LOINC"
+  },
+  "http://www.genenames.org/": {
+    "id": "http://www.genenames.org/",
+    "label": "HGNC"
+  },
+  "http://www.ncbi.nlm.nih.gov/nuccore/": {
+    "id": "http://www.ncbi.nlm.nih.gov/nuccore/",
+    "label": "RefSeq"
+  },
+  "http://www.ncbi.nlm.nih.gov/clinvar/": {
+    "id": "http://www.ncbi.nlm.nih.gov/clinvar/",
+    "label": "ClinVar"
+  },
+  "http://www.ensembl.org/": {
+    "id": "http://www.ensembl.org/",
+    "label": "Ensembl"
+  },
+  "http://purl.obolibrary.org/obo/so#": {
+    "id": "http://purl.obolibrary.org/obo/so#",
+    "label": "Sequence Ontology"
+  },
+  "http://www.ncbi.nlm.nih.gov/projects/SNP/": {
+    "id": "http://www.ncbi.nlm.nih.gov/projects/SNP/",
+    "label": "dbSNP"
+  },
+  "http://www.hgvs.org/mutnomen/": {
+    "id": "http://www.hgvs.org/mutnomen/",
+    "label": "HGVS"
+  },
+  "http://www.lrg-sequence.org/": {
+    "id": "http://www.lrg-sequence.org/",
+    "label": "LRG"
+  },
+  "http://www.omim.org/": {
+    "id": "http://www.omim.org/",
+    "label": "OMIM"
+  },
+  "http://www.ncbi.nlm.nih.gov/pubmed/": {
+    "id": "http://www.ncbi.nlm.nih.gov/pubmed/",
+    "label": "Pubmed"
+  },
+  "http://www.orpha.net/": {
+    "id": "http://www.orpha.net/",
+    "label": "Orphanet"
+  },
+  "http://gnomad.broadinstitute.org/": {
+    "id": "http://gnomad.broadinstitute.org/",
+    "label": "ExAC/gnomad Populations"
+  },
+  "https://www.ncbi.nlm.nih.gov/medgen/": {
+    "id": "https://www.ncbi.nlm.nih.gov/medgen/",
+    "label": "MedGen"
+  },
+  "http://purl.obolibrary.org/obo/hp#": {
+    "id": "http://purl.obolibrary.org/obo/hp#",
+    "label": "Human Phenotype Ontology"
+  },
+  "http://purl.obolibrary.org/obo/ro#": {
+    "id": "http://purl.obolibrary.org/obo/ro#",
+    "label": "Relations Ontology"
+  },
+  "http://www.internationalgenome.org/": {
+    "id": "http://www.internationalgenome.org/",
+    "label": "Int'l Genome Sample Resource populations"
+  },
+  "http://purl.obolibrary.org/obo/doid#": {
+    "id": "http://purl.obolibrary.org/obo/doid#",
+    "label": "Disease Ontology"
+  },
+  "https://meshb.nlm.nih.gov/": {
+    "id": "https://meshb.nlm.nih.gov/",
+    "label": "MeSH"
+  },
+  "http://evs.gs.washington.edu/EVS/": {
+    "id": "http://evs.gs.washington.edu/EVS/",
+    "label": "Exome Variant Server/ESP populations"
+  },
+  "http://purl.obolibrary.org/obo/geno#": {
+    "id": "http://purl.obolibrary.org/obo/geno#",
+    "label": "GENO"
+  },
+  "http://purl.obolibrary.org/obo/sepio#": {
+    "id": "http://purl.obolibrary.org/obo/sepio#",
+    "label": "Scientific Evidence Provenance Information Ontology"
+  },
+  "http://purl.obolibrary.org/obo/sepio-clingen#": {
+    "id": "http://purl.obolibrary.org/obo/sepio-clingen#",
+    "label": "ClinGen extensions to SEPIO"
+  },
+  "http://purl.obolibrary.org/obo/obi#": {
+    "id": "http://purl.obolibrary.org/obo/obi#",
+    "label": "OBI"
+  },
+  "http://purl.obolibrary.org/obo/iao#": {
+    "id": "http://purl.obolibrary.org/obo/iao#",
+    "label": "Information Artifact Ontology"
+  },
+  "http://purl.obolibrary.org/obo/ncit#": {
+    "id": "http://purl.obolibrary.org/obo/ncit#",
+    "label": "NCI Thesarus"
+  },
+  "http://purl.obolibrary.org/obo/bfo#": {
+    "id": "http://purl.obolibrary.org/obo/bfo#",
+    "label": "BFO"
+  },
+  "http://purl.obolibrary.org/obo/pco#": {
+    "id": "http://purl.obolibrary.org/obo/pco#",
+    "label": "PCO"
+  },
+  "http://purl.obolibrary.org/obo/stato#": {
+    "id": "http://purl.obolibrary.org/obo/stato#",
+    "label": "STATO"
+  },
+  "http://purl.obolibrary.org/obo/ero#": {
+    "id": "http://purl.obolibrary.org/obo/ero#",
+    "label": "ERO"
+  },
+  "http://biohackathon.org/resource/faldo#": {
+    "id": "http://biohackathon.org/resource/faldo#",
+    "label": "FALDO"
+  },
+  "http://purl.org/dc/elements/1.1/": {
+    "id": "http://purl.org/dc/elements/1.1/",
+    "label": "DC"
+  },
+  "http://www.w3.org/2000/01/rdf-schema#": {
+    "id": "http://www.w3.org/2000/01/rdf-schema#",
+    "label": "RDF"
+  },
+  "http://www.w3.org/ns/prov#": {
+    "id": "http://www.w3.org/ns/prov#",
+    "label": "W3C Provenance"
+  },
+  "http://purl.org/pav/": {
+    "id": "http://purl.org/pav/",
+    "label": "PAV"
+  },
+  "SEPIO:0000363": {
+    "id": "SEPIO:0000363",
+    "label": "Value Set Extensibility Value Set",
+    "description": "Whether or not a ValueSet can be extended by users"
+  },
+  "SEPIO:0000380": {
+    "id": "SEPIO:0000380",
+    "label": "Molecular Consequence Value Set",
+    "description": "A classification of a genomic variant based on its effect on a transcript or its location with respect to the transcript."
+  },
+  "SEPIO:0000371": {
+    "id": "SEPIO:0000371",
+    "label": "Clinical Significance Value Set",
+    "description": "The role that a variant plays in the causing a genetic condition\n(see LOINC answer list https://r.details.loinc.org/AnswerList/LL4034-6.html)"
+  },
+  "SEPIO:0000343": {
+    "id": "SEPIO:0000343",
+    "label": "Region Annotation Value Set",
+    "description": "A label applied to a sequence region"
+  },
+  "SEPIO:0000344": {
+    "id": "SEPIO:0000344",
+    "label": "Allelic Phase Value Set",
+    "description": "Value denoting whether sequence features lie on the same or different molecules"
+  },
+  "SEPIO:0000338": {
+    "id": "SEPIO:0000338",
+    "label": "Allelic State Value Set",
+    "description": "Describes the existence of an allele across multiple copies of a chromosome\n(Informed by LOINC answer list https://r.details.loinc.org/AnswerList/LL381-5.html but with additional codes for somatic mosaicism and asserted absence.)"
+  },
+  "SEPIO:0000416": {
+    "id": "SEPIO:0000416",
+    "label": "Inheritance Pattern Value Set",
+    "description": "Classifies the transmission pattern of a condition in a pedigree.\n(see LOINC Answer List https://r.details.loinc.org/AnswerList/LL3731-8.html)"
+  },
+  "SEPIO-CG:65108": {
+    "id": "SEPIO-CG:65108",
+    "label": "Condition Mechanism Value Set",
+    "description": "The particular type of allele that can lead to a condition"
+  },
+  "SEPIO:0000345": {
+    "id": "SEPIO:0000345",
+    "label": "In Silico Prediction Method Value Set",
+    "description": "The type of InSilico Predictor"
+  },
+  "SEPIO:0000347": {
+    "id": "SEPIO:0000347",
+    "label": "Criterion Assessment Outcome Value Set",
+    "description": "Denotes whether the collected evidence is sufficient to meet a specified criteria or not"
+  },
+  "SEPIO:0000382": {
+    "id": "SEPIO:0000382",
+    "label": "Allele Functional Assay Value Set",
+    "description": "The functional measurement carried out in a given assay"
+  },
+  "SEPIO-CG:65112": {
+    "id": "SEPIO-CG:65112",
+    "label": "Population Value Set",
+    "description": "Label for a group of individuals with a shared genetic background"
+  },
+  "SEPIO:0000349": {
+    "id": "SEPIO:0000349",
+    "label": "Benign Missense Variation Rate Outcome Value Set",
+    "description": "The rate of missense variation in a transcript that do not lead to a genetic condition"
+  },
+  "SEPIO-CG:65114": {
+    "id": "SEPIO-CG:65114",
+    "label": "Condition Penetrance Value Set",
+    "description": "The chance of having a particular genetic condition given the presence of a particular variant or damaged gene"
+  },
+  "SEPIO:0000354": {
+    "id": "SEPIO:0000354",
+    "label": "Condition Mechanism Strength Value Set",
+    "description": "The strength of association between a genetic mechanism and a condition"
+  },
+  "SEPIO:0000353": {
+    "id": "SEPIO:0000353",
+    "label": "ACMG Evidence Strength Value Set",
+    "description": "Degree of support that a set of evidence lends to a subsequent statement"
+  },
+  "SEPIO:0000372": {
+    "id": "SEPIO:0000372",
+    "label": "Disease Value Set",
+    "description": "An alteration of health status resulting from a physiopathological mechanism, and having a homogeneous clinical presentation and evolution and homogeneous therapeutic possibilities. (From MONDO)"
+  },
+  "SEPIO:0000375": {
+    "id": "SEPIO:0000375",
+    "label": "Phenotype Value Set",
+    "description": "The assemblage of traits or outward appearance of an individual. It is the product of interactions between genes and between genes and the environment. (From NCIT)"
+  },
+  "SEPIO-CG:65119": {
+    "id": "SEPIO-CG:65119",
+    "label": "Reference Sequence Value Set",
+    "description": "TODO"
+  },
+  "SEPIO-CG:65120": {
+    "id": "SEPIO-CG:65120",
+    "label": "Contributory Role Value Set",
+    "description": "The role played by an agent in the creation of an artifact"
+  },
+  "SEPIO:0000392": {
+    "id": "SEPIO:0000392",
+    "label": "Allele Origin Value Set",
+    "description": "The source of an allele in an individual"
+  },
+  "SEPIO:0000409": {
+    "id": "SEPIO:0000409",
+    "label": "Ascertainment Method Value Set",
+    "description": "The method by which a set of people was chosen to define a group"
+  },
+  "SEPIO:0000348": {
+    "id": "SEPIO:0000348",
+    "label": "Locus Specificity Value Set",
+    "description": "The degree to which a condition implicates a specific genomic locus, such as a gene."
+  },
+  "SEPIO-CG:65124": {
+    "id": "SEPIO-CG:65124",
+    "label": "Allele Conservation Value Set",
+    "description": "The degree to which an allele is preserved over evolutionary history"
+  },
+  "SEPIO-CG:65125": {
+    "id": "SEPIO-CG:65125",
+    "label": "Parental Confirmation Value Set",
+    "description": "Whether or not parentage has been confirmed with a genetic test"
+  },
+  "SEPIO-CG:65126": {
+    "id": "SEPIO-CG:65126",
+    "label": "Condition Status Value Set",
+    "description": "Whether or not an individual is affected by a specific genetic condition"
+  },
+  "SEPIO-CG:65127": {
+    "id": "SEPIO-CG:65127",
+    "label": "Inconsistent Segregation Observed Value Set",
+    "description": "Whether or not inconsistent segretations have been observed in a pedigree"
+  },
+  "SEPIO-CG:65128": {
+    "id": "SEPIO-CG:65128",
+    "label": "Null Allele Outcome Value Set",
+    "description": "Denotes whether an allele leads to a non-functional transcript"
+  },
+  "SEPIO-CG:65129": {
+    "id": "SEPIO-CG:65129",
+    "label": "Region Alleles Outcome Value Set",
+    "description": "Whether or not an allele overlaps a sequence region"
+  },
+  "SEPIO:0000396": {
+    "id": "SEPIO:0000396",
+    "label": "Gene Value Set",
+    "description": "TODO"
+  },
+  "SEPIO:0000395": {
+    "id": "SEPIO:0000395",
+    "label": "ACMG Criterion Value Set",
+    "description": "TODO"
+  },
+  "SEPIO-CG:65132": {
+    "id": "SEPIO-CG:65132",
+    "label": "Variant Interpretation Guideline Value Set",
+    "description": "TODO"
+  },
+  "SEPIO-CG:65133": {
+    "id": "SEPIO-CG:65133",
+    "label": "Variant Interpretation Criterion Scoring Rules Value Set",
+    "description": "This is the description of how the weighting of the satisfied criterion are typically evaluated to arrive at a specific clinical significance."
+  },
+  "SEPIO-CG:65140": {
+    "id": "SEPIO-CG:65140",
+    "label": "Inconsistent Segregation Status Value Set",
+    "description": "TODO"
+  },
+  "CGEX:Fam363": {
+    "id": "CGEX:Fam363",
+    "label": "Family #001"
+  },
+  "CGEX:Fam364": {
+    "id": "CGEX:Fam364",
+    "label": "Family #002"
+  },
+  "CGEX:Fam365": {
+    "id": "CGEX:Fam365",
+    "label": "Family #003"
+  },
+  "CGEX:Fam366": {
+    "id": "CGEX:Fam366",
+    "label": "Family #004"
+  },
+  "CGEX:Fam367": {
+    "id": "CGEX:Fam367",
+    "label": "Family #005"
+  },
+  "CGEX:Fam368": {
+    "id": "CGEX:Fam368",
+    "label": "Family #006"
+  },
+  "CGEX:Fam369": {
+    "id": "CGEX:Fam369",
+    "label": "Family #007"
+  },
+  "CGEX:Fam370": {
+    "id": "CGEX:Fam370",
+    "label": "Family #008"
+  },
+  "CGEX:Fam371": {
+    "id": "CGEX:Fam371",
+    "label": "Family #009"
+  },
+  "CGEX:Fam372": {
+    "id": "CGEX:Fam372",
+    "label": "Family #010"
+  },
+  "CGEX:Fam373": {
+    "id": "CGEX:Fam373",
+    "label": "Family #011"
+  },
+  "CGEX:Indiv333": {
+    "id": "CGEX:Indiv333",
+    "label": "individual #001"
+  },
+  "CGEX:Indiv334": {
+    "id": "CGEX:Indiv334",
+    "label": "individual #002"
+  },
+  "CGEX:Indiv335": {
+    "id": "CGEX:Indiv335",
+    "label": "individual #003"
+  },
+  "CGEX:Indiv336": {
+    "id": "CGEX:Indiv336",
+    "label": "individual #004"
+  },
+  "CGEX:Indiv337": {
+    "id": "CGEX:Indiv337",
+    "label": "individual #005"
+  },
+  "CGEX:Indiv338": {
+    "id": "CGEX:Indiv338",
+    "label": "individual #006"
+  },
+  "CGEX:Indiv339": {
+    "id": "CGEX:Indiv339",
+    "label": "individual #007"
+  },
+  "CGEX:Indiv340": {
+    "id": "CGEX:Indiv340",
+    "label": "individual #008"
+  },
+  "CGEX:Indiv341": {
+    "id": "CGEX:Indiv341",
+    "label": "individual #009"
+  },
+  "CGEX:Indiv342": {
+    "id": "CGEX:Indiv342",
+    "label": "individual #010"
+  },
+  "CGEX:Indiv343": {
+    "id": "CGEX:Indiv343",
+    "label": "individual #011"
+  },
+  "CGEX:Indiv344": {
+    "id": "CGEX:Indiv344",
+    "label": "individual #012"
+  },
+  "CGEX:Indiv345": {
+    "id": "CGEX:Indiv345",
+    "label": "individual #013"
+  },
+  "CGEX:Indiv346": {
+    "id": "CGEX:Indiv346",
+    "label": "individual #014"
+  },
+  "CGEX:Indiv347": {
+    "id": "CGEX:Indiv347",
+    "label": "individual #015"
+  },
+  "CGEX:Indiv348": {
+    "id": "CGEX:Indiv348",
+    "label": "individual #016"
+  },
+  "CGEX:Indiv349": {
+    "id": "CGEX:Indiv349",
+    "label": "individual #017"
+  },
+  "CGEX:Indiv350": {
+    "id": "CGEX:Indiv350",
+    "label": "individual #018"
+  },
+  "CGEX:Indiv351": {
+    "id": "CGEX:Indiv351",
+    "label": "individual #019"
+  },
+  "CGEX:Indiv352": {
+    "id": "CGEX:Indiv352",
+    "label": "individual #020"
+  },
+  "CGEX:Indiv353": {
+    "id": "CGEX:Indiv353",
+    "label": "individual #021"
+  },
+  "CGEX:Indiv354": {
+    "id": "CGEX:Indiv354",
+    "label": "individual #022"
+  },
+  "CGEX:Indiv355": {
+    "id": "CGEX:Indiv355",
+    "label": "individual #023"
+  },
+  "CGEX:Indiv356": {
+    "id": "CGEX:Indiv356",
+    "label": "individual #024"
+  },
+  "CGEX:Indiv357": {
+    "id": "CGEX:Indiv357",
+    "label": "individual #025"
+  },
+  "CGEX:Indiv358": {
+    "id": "CGEX:Indiv358",
+    "label": "individual #026"
+  },
+  "CGEX:Indiv359": {
+    "id": "CGEX:Indiv359",
+    "label": "individual #027"
+  },
+  "CGEX:Indiv360": {
+    "id": "CGEX:Indiv360",
+    "label": "individual #028"
+  },
+  "CGEX:Indiv361": {
+    "id": "CGEX:Indiv361",
+    "label": "individual #029"
+  },
+  "CGEX:Indiv362": {
+    "id": "CGEX:Indiv362",
+    "label": "individual #030"
+  },
+  "CGEX:Ascrt0001": {
+    "id": "CGEX:Ascrt0001",
+    "label": "LMM Hearing Loss"
+  },
+  "CGEX:Ascrt0002": {
+    "id": "CGEX:Ascrt0002",
+    "label": "GENIUS T2D Cases"
+  },
+  "CGEX:Ascrt0003": {
+    "id": "CGEX:Ascrt0003",
+    "label": "GENIUS T2D Controls"
+  },
+  "REFSEQ:NM_005228.3": {
+    "id": "REFSEQ:NM_005228.3",
+    "label": "NM_005228.3"
+  },
+  "REFSEQ:NP_005219.2": {
+    "id": "REFSEQ:NP_005219.2",
+    "label": "NP_005219.2"
+  },
+  "REFSEQ:NM_004333.4": {
+    "id": "REFSEQ:NM_004333.4",
+    "label": "NM_004333.4"
+  },
+  "REFSEQ:NM_000169.2": {
+    "id": "REFSEQ:NM_000169.2",
+    "label": "NM_000169.2"
+  },
+  "REFSEQ:NP_001360.1": {
+    "id": "REFSEQ:NP_001360.1",
+    "label": "NP_001360.1"
+  },
+  "REFSEQ:NP_056375.2": {
+    "id": "REFSEQ:NP_056375.2",
+    "label": "NP_056375.2"
+  },
+  "REFSEQ:NP_003915.2": {
+    "id": "REFSEQ:NP_003915.2",
+    "label": "NP_003915.2"
+  },
+  "REFSEQ:NM_001271208.1": {
+    "id": "REFSEQ:NM_001271208.1",
+    "label": "NM_001271208.1"
+  },
+  "REFSEQ:NM_133378.4": {
+    "id": "REFSEQ:NM_133378.4",
+    "label": "NM_133378.4"
+  },
+  "REFSEQ:NM_147196.2": {
+    "id": "REFSEQ:NM_147196.2",
+    "label": "NM_147196.2"
+  },
+  "REFSEQ:NM_000257.2": {
+    "id": "REFSEQ:NM_000257.2",
+    "label": "NM_000257.2"
+  },
+  "ENSEMBL:ENST00000566221.5": {
+    "id": "ENSEMBL:ENST00000566221.5",
+    "label": "ENST00000566221.5"
+  },
+  "REFSEQ:NM_000363.4": {
+    "id": "REFSEQ:NM_000363.4",
+    "label": "NM_000363.4"
+  },
+  "REFSEQ:NM_000059.3": {
+    "id": "REFSEQ:NM_000059.3",
+    "label": "NM_000059.3"
+  },
+  "REFSEQ:NM_138691.2": {
+    "id": "REFSEQ:NM_138691.2",
+    "label": "NM_138691.2"
+  },
+  "REFSEQ:NM_002880.3": {
+    "id": "REFSEQ:NM_002880.3",
+    "label": "NM_002880.3"
+  },
+  "CGEX:Func025": {
+    "id": "CGEX:Func025",
+    "description": "Expression of human SPG7 (with this mutation) in yeast with damaged m-AAA protease did not restore respiratory growth or MrpL32 processing, if the function of AFG3L2 was impaired."
+  },
+  "CGEX:CaseCtrl030": {
+    "id": "CGEX:CaseCtrl030",
+    "description": "Treating ExAC data as controls"
+  },
+  "CGEX:CaseCtrl036": {
+    "id": "CGEX:CaseCtrl036",
+    "description": "Odds ratio is calculated by pooling samples from the six GENIUS T2D cohorts before calculation."
+  },
+  "CGEX:CritAssess156": {
+    "id": "CGEX:CritAssess156",
+    "description": "Most pathogenic variants in TTN are truncating. However, a small number of missense variants in TTN are associated with ARVC (Taylor 2011 PMID:21810661 ) Because TTN is such a large gene, the statistical expectation of benign missense variants is very high."
+  },
+  "CGEX:BMVR161": {
+    "id": "CGEX:BMVR161",
+    "description": "In LMM data alone, we have over 150 benign missense variants in TTN."
+  },
+  "CGEX:CondMech118": {
+    "id": "CGEX:CondMech118",
+    "description": "Of 178 pathogenic  alleles in ClinVar, 149 are missense."
+  },
+  "CGEX:BMVR119": {
+    "id": "CGEX:BMVR119",
+    "description": "Based on the gene size, ExAC expects 740 missense variants to be observed, but actually observes only 420, giving a z score of 6.5, which is in the top 0.02% of genes."
+  },
+  "CGEX:AllFreq032": {
+    "id": "CGEX:AllFreq032",
+    "description": "This allele is thought to account for between 2% and 10% of patients with Malignant hyperthermia."
+  },
+  "CGEX:CaseCtrl033": {
+    "id": "CGEX:CaseCtrl033",
+    "description": "Did not calculate formal odds ratio"
+  },
+  "CGEX:RegTyp220": {
+    "id": "CGEX:RegTyp220",
+    "description": "region does not have a known function."
+  },
+  "CGEX:RegTyp221": {
+    "id": "CGEX:RegTyp221",
+    "description": "region is repeating."
+  },
+  "CGEX:RegTyp225": {
+    "id": "CGEX:RegTyp225",
+    "description": "The I-Band is a large region of repetitive Igg domains. "
+  },
+  "CGEX:MolCon001": {
+    "id": "CGEX:MolCon001",
+    "description": "Protein ends at p.826 and this frameshift would create stop at p.852 (769+83) thus NMD would not occur. Instead an elongated protein"
+  },
+  "CGEX:CondMech002": {
+    "id": "CGEX:CondMech002",
+    "description": "HNRNPU is not associated with any conditions, and therefore LOF is not an established mechanism of any condition for this gene."
+  },
+  "CGEX:MolCon003": {
+    "id": "CGEX:MolCon003",
+    "description": "LOF is predicted to occur as variant is >55bp from penultimate exon"
+  },
+  "CGEX:CondMech004": {
+    "id": "CGEX:CondMech004",
+    "description": "This is so well-known that it does not require a citation."
+  },
+  "CGEX:MolCon005": {
+    "id": "CGEX:MolCon005",
+    "description": "LOF is predicted but this transcript is rare"
+  },
+  "CGEX:VarInterp008": {
+    "id": "CGEX:VarInterp008",
+    "description": "NM_002834.3:c.855T>G Pathogenic for Noonan Syndrome"
+  },
+  "CGEX:VarInterp009": {
+    "id": "CGEX:VarInterp009",
+    "description": "NM_001369.2:c.6249G>A Pathogenic for PCD"
+  },
+  "CGEX:VarInterp010": {
+    "id": "CGEX:VarInterp010",
+    "description": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) Pathogenic for Noonan Syndrome 3"
+  },
+  "CGEX:VarInterp011": {
+    "id": "CGEX:VarInterp011",
+    "description": "NM_004985.4(KRAS):c.173C>T (p.Thr58Ile) Pathogenic for Costello syndrome"
+  },
+  "CGEX:IndAllInh014": {
+    "id": "CGEX:IndAllInh014",
+    "description": "parentage confirmed via haplotyping."
+  },
+  "CGEX:IndAllInh017": {
+    "id": "CGEX:IndAllInh017",
+    "description": "Non-paternity was excluded by assessment with microsatellites"
+  },
+  "CGEX:IndAllInh020": {
+    "id": "CGEX:IndAllInh020",
+    "description": "Variant from trio WES, which confirmed parentage"
+  },
+  "CGEX:VarInterp055": {
+    "id": "CGEX:VarInterp055",
+    "description": "The Tyr337Cys variant in SOS1 has been reported in 1 individual with clinical features of Noonan syndrome (Roberts 2007), but has also been reported to be present in 2 unaffected individuals from one family (Personal Communication). This variant was absent from large population studies. Studies have shown that the Tyr337Cys variant may impact protein function by increasing its activity though these results are inconclusive and these in vitro assays may not accurately represent biological function (Smith 2013). Due to the conflicting data about this variant, the clinical significance of the Tyr337Cys variant is uncertain."
+  },
+  "CGEX:IndGeno058": {
+    "id": "CGEX:IndGeno058",
+    "description": "Father was het for c.9449delG variant and negative for c.7468_7488del variant. Mother was het for c.7468_7488del variant and negative for c.9449delG variant. Thus, variants are in trans in this proband."
+  },
+  "CGEX:VarInterp060": {
+    "id": "CGEX:VarInterp060",
+    "description": "The Lys483Asn variant in BRAF has not been previously reported in the literature, but has been identified as a de novo variant in one proband in our laboratory. In addition, this residue is highly conserved across evolutionarily distinct species and computational analyses (PolyPhen2, SIFT, AlignGVGD) predict that this variant will impact the normal function of BRAF. It should be noted that the sensitivity and specificity of these computational programs has not been determined by our laboratory. Therefore, this variant is likely to be pathogenic."
+  },
+  "CGEX:IndGeno062": {
+    "id": "CGEX:IndGeno062",
+    "description": "Based on the NGS data, we are able to determine that c.298G>A and c.411+1G>A are in trans as no NGS reads carry both variants."
+  },
+  "CGEX:VarInterp063": {
+    "id": "CGEX:VarInterp063",
+    "description": "The Lys483Gln variant in BRAF has been identified in one proband with clinical features of Cardio-facio-cutaneous syndrome, and was not identified in either of this individual's parents (LMM unpublished data). This variant has not been identified in large population studies. In addition, another variant at the same residue (Lys483Asn) was identified as a de novo variant in an individual with features of a Noonan spectrum disorder (LMM unpublished data). Computational analyses (biochemical amino acid properties, conservation, AlignGVGD, PolyPhen2, and SIFT) suggest that the Lys483Gln variant may impact the normal function of the protein. In summary, this variant is likely pathogenic, though additional studies are required to fully establish its clinical significance."
+  },
+  "CGEX:InSilicoPred068": {
+    "id": "CGEX:InSilicoPred068",
+    "description": "Provenance would show that this comes from Alamut"
+  },
+  "CGEX:RegTyp069": {
+    "id": "CGEX:RegTyp069",
+    "description": "This is not a repreating region."
+  },
+  "CGEX:RegTyp073": {
+    "id": "CGEX:RegTyp073",
+    "description": "NP_056375.2[35..43] is not repeating."
+  },
+  "CGEX:LocHet148": {
+    "id": "CGEX:LocHet148",
+    "description": "HHT type 1 is only known to be caused by variants in ENG -"
+  },
+  "CGEX:LocHet149": {
+    "id": "CGEX:LocHet149",
+    "description": "1.Only ~50% of HCM is genetic (can be caused by environment) \n2. More than 10 genes can cause HCM (specifically 9 sarcomere genes)"
+  },
+  "CGEX:VarInterp150": {
+    "id": "CGEX:VarInterp150",
+    "description": "Variant has been classified as “Pathogenic” by Sharing Clinical Reports Project (SCV000054057.3)"
+  },
+  "CGEX:VarInterp151": {
+    "id": "CGEX:VarInterp151",
+    "description": "Variant has been classified as “Pathogenic” by OMIM (SCV000043718.1)"
+  },
+  "CGEX:VarInterp152": {
+    "id": "CGEX:VarInterp152",
+    "description": "Variant has been classified as “Pathogenic” by Expert panel CFTR (SCV000245981.1)"
+  },
+  "CGEX:RegTyp077": {
+    "id": "CGEX:RegTyp077",
+    "description": "NP_003915.2[241..260] is repeating."
+  },
+  "CGEX:CondPenet170": {
+    "id": "CGEX:CondPenet170",
+    "description": "The evidence for full penetrance is not great, due to the rarity of the disease, but the fact that it's diagnosed at a young age and majority of cases are de novo is suggestive"
+  },
+  "CGEX:CondPenet176": {
+    "id": "CGEX:CondPenet176",
+    "description": "the disease manifests as hundreds of colorectal ademonas during adolescence. This can progress to colorectal cancer later in life, but the adenomas manifest early."
+  },
+  "CGEX:IndAllInh087": {
+    "id": "CGEX:IndAllInh087",
+    "description": "parentage confirmation not mentioned in the source article"
+  },
+  "CGEX:IndAllInh088": {
+    "id": "CGEX:IndAllInh088",
+    "description": "parentage confirmation not mentioned in the source article"
+  },
+  "CGEX:IndAllInh091": {
+    "id": "CGEX:IndAllInh091",
+    "description": "parentage confirmation not mentioned in the source article"
+  },
+  "CGEX:FamSeg103": {
+    "id": "CGEX:FamSeg103",
+    "description": "identified in 1 individual with HCM. Segregation analysis determined 5 other members of the family also carried this variant. However, only 3 of those family members had HCM (aged 48-75). The 2 other family members were young and asymptomatic. So from this paper, only count 3 segregations. The two apparently refuting segregations can be ignored due to the age-dependent penetrance of HCM."
+  },
+  "CGEX:FamSeg104": {
+    "id": "CGEX:FamSeg104",
+    "description": "In LMM internal family, c.1351+1G>A was identified in 1 individual with HCM. Variant also found in individual’s sister - who also had clinical dx of HCM."
+  },
+  "CGEX:FamSeg107": {
+    "id": "CGEX:FamSeg107",
+    "description": "proband and 5 affected family members all homozygous for NM_206933.2(USH2A):c.1000C>G (p.Arg334Gly)."
+  },
+  "CGEX:FamSeg108": {
+    "id": "CGEX:FamSeg108",
+    "description": "c.1000C>T identified in het state in 1 individual with Usher. Individual compound het with Gly1840Val USH2A variant - confirmed in trans. Gly1840Val called Pathogenic. Individual has 3 affected sibs all of whom are compound het with 1000C>T & Gly1840Val. One additional sib only carried 1000C>T and is unaffected."
+  },
+  "CGEX:CondPenet186": {
+    "id": "CGEX:CondPenet186",
+    "description": "Marfan syndrome involves a range of skeletal features that should be identifiable at birth, if not during adolescence. The ocular and cardiovascular aspects may manifest later. 1/4 of mutations are de novo."
+  },
+  "CGEX:Func193": {
+    "id": "CGEX:Func193",
+    "description": "Both wild type and NP_000432..1:p.Leu117Phe localize to the same location"
+  },
+  "CGEX:FamSeg196": {
+    "id": "CGEX:FamSeg196",
+    "description": "observed in one case diagnosed with Familial Hypercholesterolemia, characterized by elevated LDLC levels. Two siblings of the proband also have elevated LDLC levels but neither carry the 313+2T>C variant."
+  },
+  "CGEX:FamSeg197": {
+    "id": "CGEX:FamSeg197",
+    "description": "The individual with HCM but without the allele is likely a phenocopy explained\nby environmental factors (obese, alcohol)"
+  },
+  "CGEX:CondMech199": {
+    "id": "CGEX:CondMech199",
+    "description": "ClinVar shows 421 variants in BRCA2 that are pathogenic for HBOC. 402 of these (~95%) are frameshift, nonsense, or splice-site variants."
+  },
+  "CGEX:CondMech200": {
+    "id": "CGEX:CondMech200",
+    "description": "ClinVar shows 61 variants in BRCA2 that are pathogenic for Fanconi Anemia. 55 of these (~90%) are frameshift, nonsense, or splice-site variants."
+  },
+  "CGEX:CondMech202": {
+    "id": "CGEX:CondMech202",
+    "description": "shown in both humans and mouse models"
+  },
+  "CGEX:CondMech205": {
+    "id": "CGEX:CondMech205",
+    "description": "Truncating variants in TTN are associated with DCM. However, if missense variants are located in the A-band, impact the A-band, or are in a highly expressed region, they can also be associated with DCM."
+  },
+  "CGEX:BMVR102": {
+    "id": "CGEX:BMVR102",
+    "description": "ClinVar shows no benign missense variants in (or near) this region.  The closest is NM_000169.2:c.8T>C"
+  },
+  "CGEX:VarInterp255": {
+    "id": "CGEX:VarInterp255",
+    "description": "classified by ENIGMA."
+  },
+  "CGEX:VarInterp256": {
+    "id": "CGEX:VarInterp256",
+    "description": "classified by Sharing Clinical Reports Project."
+  },
+  "CGEX:VarInterp257": {
+    "id": "CGEX:VarInterp257",
+    "description": "classified by OMIM"
+  },
+  "CGEX:InSilicoPred262": {
+    "id": "CGEX:InSilicoPred262",
+    "description": "Provenance would show that this comes from Alamut"
+  },
+  "CGEX:VarInterp270": {
+    "id": "CGEX:VarInterp270",
+    "description": "Pseudoachondroplastic spondyloepiphyseal dysplasia syndrome is caused by a combination of a pathogenic variant in COL2A1 and another in COMP.   So CA113 may be involved, but is not the sole cause."
+  },
+  "CGEX:MolCon272": {
+    "id": "CGEX:MolCon272",
+    "description": "This variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006 PMID:17186466)."
+  },
+  "CGEX:CondMech273": {
+    "id": "CGEX:CondMech273",
+    "description": "Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/)."
+  },
+  "CGEX:VarInterp274": {
+    "id": "CGEX:VarInterp274",
+    "description": "The Trp2490_Leu2496del variant in DNAH5 leads to an in-frame deletion of 7 amino acids. This variant has been reported together with a second DNAH5 variant (Met2083Ile) in one individual with PCD and situs inversus (Berg 2011). In addition, this variant has been identified in trans configuration with a disease-causing variant in one affected proband (LMM unpublished data). Data from large population studies is insufficient to determine whether this variant is present in the general population. In summary, this variant is likely pathogenic, though additional studies are required to fully establish its clinical significance."
+  },
+  "CGEX:CritAssess275": {
+    "id": "CGEX:CritAssess275",
+    "description": "Variant is not LOF and LOF is not a known mechanism of disease associated with this gene for any condition."
+  },
+  "CGEX:CritAssess277": {
+    "id": "CGEX:CritAssess277",
+    "description": "This variant only occurs as LOF in an uncommon transcript (NM_133437.4).  For most transcripts, the variant is intronic."
+  },
+  "CGEX:CritAssess278": {
+    "id": "CGEX:CritAssess278",
+    "description": "The assessed variant produces the same amino acid change (p.Phe285Leu) as known pathogenic variant c.853T>C"
+  },
+  "CGEX:CritAssess279": {
+    "id": "CGEX:CritAssess279",
+    "description": "The assessed variant produces the same amino acid change (p.Met2083Ile) as known pathogenic variant c.6249G>A.  But that change is pathogenic because it has been shown to disrupt splicing and create a premature stop codon. Prediction tools do not suggest c.6249G>C disrupts splicing."
+  },
+  "CGEX:CritAssess280": {
+    "id": "CGEX:CritAssess280",
+    "description": "While the two amino acid changes are not identical, they are the same amino acid change in analagous residues of HRAS and KRAS."
+  },
+  "CGEX:CritAssess281": {
+    "id": "CGEX:CritAssess281",
+    "description": "IC1: Individual has condition, FH1: No family history, DNA1: variant is denovo (parentage confirmed)"
+  },
+  "CGEX:CritAssess282": {
+    "id": "CGEX:CritAssess282",
+    "description": "De novo variant occurred on haplotype inherited from the father. Maternity no explicitly confirmed - but if variant occurred on haplotype inherited from the father, then confirmation of maternity not required."
+  },
+  "CGEX:CritAssess286": {
+    "id": "CGEX:CritAssess286",
+    "description": "The RASopathy group considers MEK and ERK activation assays as well validated."
+  },
+  "CGEX:CritAssess287": {
+    "id": "CGEX:CritAssess287",
+    "description": "statistically significant difference between affects and unaffecteds"
+  },
+  "CGEX:CritAssess288": {
+    "id": "CGEX:CritAssess288",
+    "description": "Across publications, this variant is thought to account for 2%-10% of patients with Malignant hyperthermia. But variant is also only found in 9/66740 Europeans in ExAC (.01%). Based on these differences, groups applied PS4 to this variant classification (without a formal OR analysis)."
+  },
+  "CGEX:CritAssess290": {
+    "id": "CGEX:CritAssess290",
+    "description": "Variant is located within the kinase domain (where multiple other pathogenic variants are located)"
+  },
+  "CGEX:CritAssess291": {
+    "id": "CGEX:CritAssess291",
+    "description": "Variant is located in exon 15, which the RASopathy group has decided is an established functional domain for BRAF"
+  },
+  "CGEX:CritAssess292": {
+    "id": "CGEX:CritAssess292",
+    "description": "The variant is near 4 other pathogenic variants"
+  },
+  "CGEX:CritAssess293": {
+    "id": "CGEX:CritAssess293",
+    "description": "PM2 is applicable as even though variant is not 100% absent, it is practically absent (a 95% CI for the population goes from 0.00% to 0.01%)"
+  },
+  "CGEX:CritAssess295": {
+    "id": "CGEX:CritAssess295",
+    "description": "while the variant is absent from exac, mean coverage (11X) is insufficient to be sure that variant was fully assayed."
+  },
+  "CGEX:RegTyp040": {
+    "id": "CGEX:RegTyp040",
+    "description": "This region is the catalytic (kinase) domain."
+  },
+  "CGEX:VarInterp041": {
+    "id": "CGEX:VarInterp041",
+    "description": "Arg343His in Exon 08 of LOXHD1: This variant is not expected to have clinical significance because it has been identified in 2.0% (27/1384) of African American chromosomes by the NHLBI Exome Sequencing Project (http://evs.gs.washington.edu/EVS)."
+  },
+  "CGEX:VarInterp042": {
+    "id": "CGEX:VarInterp042",
+    "description": "Uncertain Sig(not specified) NM_000363.4(TNNI3):c.484C>T (p.Arg162Trp)"
+  },
+  "CGEX:RegTyp043": {
+    "id": "CGEX:RegTyp043",
+    "description": "This region is exon 15 in the transcript, and codes the serine-threonine-protein kinase catalytic domain."
+  },
+  "CGEX:VarInterp044": {
+    "id": "CGEX:VarInterp044",
+    "description": "p.Tyr109Tyr in exon 4 of MYH7: This variant is not expected to have clinical significance because it does not alter an amino acid residue and is not located near a splice junction. It has been identified in 0.2% (31/16512) of South Asian chromosomes by the Exome Aggregation Consortium (ExAC, http://exac.broadinstitute.org; dbSNP rs36211408)."
+  },
+  "CGEX:VarInterp045": {
+    "id": "CGEX:VarInterp045",
+    "description": "The c.631-2A>G variant in DSC2 has been reported in 1 Caucasian individual with ARVC (Heuser 2006). This variant has also been identified by our laboratory in 2 individuals (1 with ARVC and 1 with LVNC). This variant has been reported in 1/66564 European chromosomes by the Exome Aggregation Consortium (ExAC, http://exac.broadinstitute.org; dbSNP rs397514042). This variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006). Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/). In summary, although additional studies are required to fully establish its clinical significance, the c.631-2A>G variant is likely pathogenic."
+  },
+  "CGEX:RegTyp046": {
+    "id": "CGEX:RegTyp046",
+    "description": "Region(NM_0001692[996..1012]) is a mutational hotspot."
+  },
+  "CGEX:CritAssess298": {
+    "id": "CGEX:CritAssess298",
+    "description": "Application of PM3 is incorrect as the variant in trans is know known to be pathogenic (it is the same variant)."
+  },
+  "CGEX:CritAssess299": {
+    "id": "CGEX:CritAssess299",
+    "description": "leads to an in-frame deletion of 7 amino acids (not repeat region)."
+  },
+  "CGEX:CritAssess300": {
+    "id": "CGEX:CritAssess300",
+    "description": "leads to an in-frame deletion of 5 amino acids (not repeat region)."
+  },
+  "CGEX:CritAssess301": {
+    "id": "CGEX:CritAssess301",
+    "description": "This 15bp duplication variant results in an expansion of a 20 residue polyalanine tract to a 25 residue polyalanine tract."
+  },
+  "CGEX:CritAssess302": {
+    "id": "CGEX:CritAssess302",
+    "description": "From CLINVAR: Doolan et al. (2005) (PMID:15698845) reported mutations at the same residue (R162P) in patients with HCM, supporting the functional importance of this residue in the protein. This rare R162P variant observed multiple times in is Likely Pathogenic in ClinVar with 1 star assertion.  Other variants in the same residue R162W has conflicting evidence of pathogenicity(Path by GeneDx : SCV000209174.2 and VUS by LMM:SCV000203864.2). Considered these two only as they have provided assertion criteria."
+  },
+  "CGEX:CritAssess303": {
+    "id": "CGEX:CritAssess303",
+    "description": "Other pathogenic variants at the same residue per ClinVar : NM_000531.5(OTC):c.119G>A (p.Arg40His) However no assertion criteria is provided for these variants. So pathogenicity needs to be determined by literature search. \n\nSo PM5 is applicable when assessing p.Leu1764Il"
+  },
+  "CGEX:CritAssess304": {
+    "id": "CGEX:CritAssess304",
+    "description": "Another variant at this position, but different AA change, has been observed and called pathogenic for breast ovarian cancer by ENIGMA expert panel:"
+  },
+  "CGEX:CritAssess305": {
+    "id": "CGEX:CritAssess305",
+    "description": "while the variant is absent from exac, however\n1) very low coverage across this region (~5X) and usually 20X is used as a cut-off to say “absent”\n2) variant is 21 nt deletion - databases may not be able to call a variant of that size (I rarely see an indel of this size in ExAC)."
+  },
+  "CGEX:CritAssess306": {
+    "id": "CGEX:CritAssess306",
+    "description": "Two sporadic cases of BHD contain this allele"
+  },
+  "CGEX:CritAssess307": {
+    "id": "CGEX:CritAssess307",
+    "description": "affected child with CFC was found to carry c.158T>C. Both parents are unaffected and from Sanger seq neither parent was found to carry c.158T>C variant - so authors conclude variant occurred de novo. Since there was no mention of parental confirmation, PS2 cannot be used but PM6 is applicable"
+  },
+  "CGEX:CritAssess308": {
+    "id": "CGEX:CritAssess308",
+    "description": "3 unrelated probands with CFC were found to carry c.1741A>G variant. There is no family history of CFC in any family and all three sets of parents were confirmed to not have the variant. Since there was no mention of parental confirmation, PS2 cannot be used but PM6 is applicable. However, since there are 3 de novo observations, many groups (including Noonan and MYH7) would allow PM6 to be upgraded to Strong (PM6_S)"
+  },
+  "CGEX:CritAssess309": {
+    "id": "CGEX:CritAssess309",
+    "description": "In total, 4 segs from 2 families"
+  },
+  "CGEX:CritAssess310": {
+    "id": "CGEX:CritAssess310",
+    "description": "In total, 8 segs from 2 families (can combine hom segs and compound het segs). Most groups would allow this to be shifted up the Moderate (PP1_M)"
+  },
+  "CGEX:CritAssess311": {
+    "id": "CGEX:CritAssess311",
+    "description": "PP1 is for “Co-segregation with disease in multiple affected family members” PP1 is not applicable for this variant because it’s only a single segregation."
+  },
+  "CGEX:CritAssess316": {
+    "id": "CGEX:CritAssess316",
+    "description": "even though the computational tools for AA changes are NOT predicting an impact, splicing tools are predicting an impact - so PP3 is applicable"
+  },
+  "CGEX:CritAssess321": {
+    "id": "CGEX:CritAssess321",
+    "description": "OMIM is not considered an expert or reputable source for variant interpretations.\nFurther, OMIM’s evidence for this pathogenic call is available (the publication link - PMID:21620354 - and free text summary) so people should use the evidence from OMIM in their assessment NOT OMIM’s interpretation.  This is marked as Insufficient Evidence rather than refuted because the OMIM entry does not rule out a later application of PP5 based on eg. an expert panel."
+  },
+  "CGEX:CritAssess324": {
+    "id": "CGEX:CritAssess324",
+    "description": "Globally, this variant has a MAF of 0.0454 (4.5%) which would put it under the 5% rule and thus BA1 would not be applicable. However, variant is enriched in East Asian population - 29% MAF - so way over the 5% cut-off. So now BA1 is applicable"
+  },
+  "CGEX:CritAssess325": {
+    "id": "CGEX:CritAssess325",
+    "description": "Although this variant has been seen in the general population, its frequency is low enough to be consistent with a recessive carrier frequency."
+  },
+  "CGEX:CritAssess328": {
+    "id": "CGEX:CritAssess328",
+    "description": "Perrault syndrome may be underreported due to misdiagnosis.  If the prevalence estimates rise, this assessment may need to be revisited"
+  },
+  "CGEX:CritAssess329": {
+    "id": "CGEX:CritAssess329",
+    "description": "According to Baylor internal data on this variant, it has been observed multiple times in asymptomatic parents internally and in controls and observed once as a homozygotes internally in unaffected.  Although the evidence for full penetrance is weak, the fact that there are multiple asymptomatic occurrences helps the case."
+  },
+  "CGEX:CritAssess330": {
+    "id": "CGEX:CritAssess330",
+    "description": "This variant was observed in unaffected healthy control chromosomes. PMIDs: 15122587, 18199528, 22703879, 24728327"
+  },
+  "CGEX:CritAssess331": {
+    "id": "CGEX:CritAssess331",
+    "description": "Although this variant was found in 5 individuals with Marfan Syndrome, it was identified in 2 unaffected relatives from two separate families. PMID:12402346"
+  },
+  "CGEX:CritAssess336": {
+    "id": "CGEX:CritAssess336",
+    "description": "The inconsistent segregation data is reasonably explainable as a phenocopy, and therefore does not provide evidence for the benignity of this allele."
+  },
+  "CGEX:CritAssess337": {
+    "id": "CGEX:CritAssess337",
+    "description": "In a family tested by the LMM, the c.1484C>T variant was identified in a proband with clinical diagnosis of HCM. This proband has two relatives that also have clinical diagnosis of HCM however never relative carries the c.1484C>T variant."
+  },
+  "CGEX:CritAssess340": {
+    "id": "CGEX:CritAssess340",
+    "description": "Homozygous truncating variants in LOXHD1 are associated with autosomal recessive hearing loss. This was demonstrated by both identification in human patients and a mouse model. (I used the OMIM entry as a source, but you could also directly use the papers.)"
+  },
+  "CGEX:CritAssess341": {
+    "id": "CGEX:CritAssess341",
+    "description": "While truncations are usually the cause of TTN related DCM, missense variants in certain regions can also cause disease."
+  },
+  "CGEX:CritAssess344": {
+    "id": "CGEX:CritAssess344",
+    "description": "although this variant was found in trans with another variant in the same gene, that variant is VUS and not an established pathogenic variant and cardiomyopathies can be variable in penetrance. "
+  },
+  "CGEX:CritAssess346": {
+    "id": "CGEX:CritAssess346",
+    "description": "BP3 does not apply for this variant because it is not an in-frame deletion (it's a deletion of 10 bp) and, although the I Band is a repetitive region that contains tandem arrays of immunoglobulin domains, these folds may be an important component for TTN's elasticity."
+  },
+  "CGEX:CritAssess350": {
+    "id": "CGEX:CritAssess350",
+    "description": "While AI111 is considered probably damaging by at least one in silico predictor, the transcript for AI111 ( NM_133379.3 ) is not clinically relevant.  In clinically relevant transcripts, thisthis canonical allele is intronic."
+  },
+  "CGEX:CritAssess351": {
+    "id": "CGEX:CritAssess351",
+    "description": "The evidence here only explicitly describes a single individual with a likely pathogenic variant in TNNT2, but there are numerous other examples that have been observed in internal LMM data."
+  },
+  "CGEX:CritAssess354": {
+    "id": "CGEX:CritAssess354",
+    "description": "Variants in COL2A1 are associated with dominant spondyloepiphyseal dysplasia congenita (a primary bone dysplasia). CA112 was identified in a  proband with CA113, which is pathogenic for another primary bone dysplasia, dominant Pseudoachondroplasia. However, this does not provide supporting evidence for CA112 being benign because the combination of a COL2A1 and COMP variant are known to produce a more severe phenotype, Pseudoachondroplastic spondyloepiphyseal dysplasia syndrome, which is the phenotype of the proband.  Because the combination of alleles may produce a qualitatively different phenotype, the bone dysplasia caused by the COMP variant does not provide evidence that the COL2A1 variant is benign for any bone dysplasias in general.\n"
+  },
+  "CGEX:CritAssess348": {
+    "id": "CGEX:CritAssess348",
+    "description": "Seven of the nine predictions found this variant to be benign, which we consider sufficient to support."
+  },
+  "CGEX:CritAssess360": {
+    "id": "CGEX:CritAssess360",
+    "description": "This variant is a silent variant that does not result in an amino acid change. It is not very conserved and splicing tools suggest no change. However, BP7 does not apply because the variant is located in the first base of exon 4 of RAF1, which is part of the 3’ splice region of the exon. For that reason, we can’t fully trust computational tools. Functional assays would have to confirm that this variant truly does not alter splicing."
+  },
+  "CGEX:CritAssess361": {
+    "id": "CGEX:CritAssess361",
+    "description": "This variant occurs in the invariant region (+/- 1,2) of the splice consensus sequence and in vitro studies confirmed that it leads to aberrant splicing and reduced DSC2 protein levels (Heuser 2006 PMID:17186466). Splice and other loss-of-function variants in DSC2 have been reported in individuals with ARVC (http://arvcdatabase.info/)."
+  },
+  "CGEX:CritAssess363": {
+    "id": "CGEX:CritAssess363",
+    "description": "This variant was identified in one individual with pathogenic variants in another gene. Internal LMM data: The proband had one pathogenic and one likely pathogenic variant in (in trans) in SLC26A4. This proband had mild to profound hearing loss with EVA, which is characteristic of Pendred Syndrome. SLC26A4 is the only gene associated with Pendred Syndrome"
+  },
+  "CGEX:IndCond368": {
+    "id": "CGEX:IndCond368",
+    "description": "This proband had mild to profound hearing loss with EVA, which is characteristic of Pendred Syndrome."
+  },
+  "CGEX:CritAssess369": {
+    "id": "CGEX:CritAssess369",
+    "description": "This variant has been reported in 1/66564 European chromosomes by the Exome Aggregation Consortium (ExAC, http://exac.broadinstitute.org; dbSNP rs397514042)."
+  },
+  "CGEX:CritAssess371": {
+    "id": "CGEX:CritAssess371",
+    "description": "This variant is present in 0.2% (31/16512) of South Asian Chromosomes in ExAC."
+  },
+  "CGEX:CritAssess372": {
+    "id": "CGEX:CritAssess372",
+    "description": "This variant is present in 2% (27/1384) of African American Chromosomes in ESP."
+  },
+  "CGEX:CritAssess373": {
+    "id": "CGEX:CritAssess373",
+    "description": "This is a synonymous variant with little conservation and no predicted impact on splicing. AllConservation and splicing algorithm values are listed below."
+  },
+  "CGEX:CritAssess374": {
+    "id": "CGEX:CritAssess374",
+    "description": "Flag-tagged construct with the variant was transfected into HEK cells. As per the RASopathy working group’s approved assays (see example 3 above), Smith et al. showed that the Y337C mutation increased levels of pERK in starved HEK cells via western blotting."
+  },
+  "CGEX:CritAssess375": {
+    "id": "CGEX:CritAssess375",
+    "description": "A personal communication to our lab informed us of an individual and his son who both harbored the variant but with clinical workup did not appear to have Noonan Syndrome or symptoms indicative of Noonan Syndrome."
+  },
+  "CGEX:CritAssess377": {
+    "id": "CGEX:CritAssess377",
+    "description": "Parental testing in our lab confirmed this variant was present de novo in 1 proband with clinical features of CFC. (LMM internal Data)"
+  },
+  "CGEX:CritAssess378": {
+    "id": "CGEX:CritAssess378",
+    "description": "Another variant at the same residue (Lys483Asn) was identified as a de novo variant in an individual with features of a Noonan spectrum disorder (LMM unpublished data). The other variant: NM_004333.4(BRAF):c.1449A>C (p.Lys483Asn) is classified as likely pathogenic by LMM for Rasopathy."
+  },
+  "CGEX:RegAll380": {
+    "id": "CGEX:RegAll380",
+    "description": "This region is the catalytic (kinase) domain."
+  },
+  "CGEX:RegAll382": {
+    "id": "CGEX:RegAll382",
+    "description": "This region is exon 15 in the transcript, and codes the serine-threonine-protein kinase catalytic domain."
+  },
+  "CGEX:RegAll384": {
+    "id": "CGEX:RegAll384",
+    "description": "The region contains the following pathogenic variants: c.886A>G, c.890C>T, c.899T>C, & c.902G>A."
+  },
+  "CGEX:RegAll391": {
+    "id": "CGEX:RegAll391",
+    "description": "region is repeating but does not have a known function."
+  },
+  "CGEX:RegAll393": {
+    "id": "CGEX:RegAll393",
+    "description": "Allele NM_133378.4 (TTN): c.26752_26761delACGGCAGAGC is contained by this region."
+  },
+  "CGEX:AssertMeth331": {
+    "id": "CGEX:AssertMeth331",
+    "description": "ACMG ISV guidelines 2015"
+  },
+  "CGEX:UsrLabl001": {
+    "id": "CGEX:UsrLabl001",
+    "description": "Across all published data (and LMM data) with hearing loss."
+  },
+  "CGEX:UsrLabl002": {
+    "id": "CGEX:UsrLabl002",
+    "description": "Case group is composed of cases from six cohorts from the GENIUS T2D consortium.  Case status is defined per-cohort."
+  },
+  "CGEX:UsrLabl003": {
+    "id": "CGEX:UsrLabl003",
+    "description": "Controls group is composed of controls from six cohorts from the GENIUS T2D consortium.  Controls status is defined per-cohort."
+  }
+}

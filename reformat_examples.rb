@@ -114,7 +114,6 @@ class DMWGExampleData
     [
      '_DomainEntityAttribute',
      '_EvidenceLineAttribute',
-     '_IdentifierSystemAttribute',
      '_StatementAttribute',
      '_UserLabelAttribute',
      '_ValueSetAttribute',
@@ -133,7 +132,7 @@ class DMWGExampleData
         end
         (@id2example[data_id] ||= {})['id'] ||= data_id
         if value_exists? da['value'] then
-          if ['A137', 'A169', 'A171'].include? attribute['id'] then
+          if ['A900'].include? attribute['id'] then
             # special case relatedCanonicalAllele to avoid loop...
             @id2example[data_id][attribute['name']] = da['value']
           elsif attribute['cardinality'].end_with? '*' then
@@ -144,24 +143,6 @@ class DMWGExampleData
         end # value exists
       end # each row in sheet
     end # each 'join-table' sheet
-
-    @flattened['__labels'].each do |subjectLabel|
-      sId = subjectLabel['subjectId']
-      label = subjectLabel['label']
-      if sId.empty? or label.empty?
-        STDERR.puts "blank value in __labels sheet: [#{sId}]: [#{label}]"
-        next
-      end
-      if !@id2example.has_key? sId
-        STDERR.puts "attempted to apply label '#{label}' to '#{sId}', but no such object exists"
-        next
-      end
-      subj = @id2example[sId]
-      if subj.has_key? 'label'
-        STDERR.puts "attempted to apply a label '#{label}' to '#{sId}', which already has label '#{subj['label']}'"
-      end
-      @id2example[sId]['label'] = label
-    end # each row of __labels sheet
 
     # FIXME - this is kludgy
     @id2example.each do |id, ex|
@@ -226,15 +207,6 @@ class DMWGExampleData
   # reading data from in_record and modifying out_record in place
   def apply_attributes(entity_id, in_record, out_record)
     @attributes_by_entity_id[entity_id].each do |attribute|
-      # gnarly special cases to avoid loops
-      if attribute['name'] === 'preferredCtxAllele' then
-        out_record['preferredCtxAllele'] = in_record['preferredCtxAllele']
-        next
-      end
-      if attribute['name'] === 'producedBy' and in_record.has_key? 'producedBy' then
-        out_record['producedBy'] = in_record['producedBy']
-        next
-      end
       if in_record.key?(attribute['name']) && value_exists?(in_record[attribute['name']]) then
         out_record[attribute['name']] = convert_value(in_record[attribute['name']], attribute['dataType'])
       end

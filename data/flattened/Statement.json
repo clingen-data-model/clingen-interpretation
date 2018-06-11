@@ -1,1937 +1,1550 @@
 {
-  "MolCon001": {
-    "id": "MolCon001",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon001"
-  },
-  "CondMech002": {
-    "id": "CondMech002",
-    "entityTypeId": "E03",
-    "@id": "CG-EX:CondMech002"
-  },
-  "MolCon003": {
-    "id": "MolCon003",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon003"
-  },
-  "CondMech004": {
-    "id": "CondMech004",
-    "entityTypeId": "E03",
-    "@id": "CG-EX:CondMech004"
-  },
-  "MolCon005": {
-    "id": "MolCon005",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon005"
-  },
-  "MolCon006": {
-    "id": "MolCon006",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon006"
-  },
-  "CondMech007": {
-    "id": "CondMech007",
-    "entityTypeId": "E03",
-    "@id": "CG-EX:CondMech007"
-  },
-  "VarInterp008": {
-    "id": "VarInterp008",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp008"
-  },
-  "VarInterp009": {
-    "id": "VarInterp009",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp009"
-  },
-  "VarInterp010": {
-    "id": "VarInterp010",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp010"
-  },
-  "VarInterp011": {
-    "id": "VarInterp011",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp011"
-  },
-  "IndCond012": {
-    "id": "IndCond012",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond012"
-  },
-  "FamCond013": {
-    "id": "FamCond013",
-    "entityTypeId": "E18",
-    "@id": "CG-EX:FamCond013"
-  },
-  "IndAllInh014": {
-    "id": "IndAllInh014",
-    "entityTypeId": "E19",
-    "@id": "CG-EX:IndAllInh014"
-  },
-  "IndCond015": {
-    "id": "IndCond015",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond015"
-  },
-  "FamCond016": {
-    "id": "FamCond016",
-    "entityTypeId": "E18",
-    "@id": "CG-EX:FamCond016"
-  },
-  "IndAllInh017": {
-    "id": "IndAllInh017",
-    "entityTypeId": "E19",
-    "@id": "CG-EX:IndAllInh017"
-  },
-  "IndCond018": {
-    "id": "IndCond018",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond018"
-  },
-  "FamCond019": {
-    "id": "FamCond019",
-    "entityTypeId": "E18",
-    "@id": "CG-EX:FamCond019"
-  },
-  "IndAllInh020": {
-    "id": "IndAllInh020",
-    "entityTypeId": "E19",
-    "@id": "CG-EX:IndAllInh020"
-  },
-  "Func021": {
-    "id": "Func021",
-    "entityTypeId": "E20",
-    "@id": "CG-EX:Func021"
-  },
-  "Func022": {
-    "id": "Func022",
-    "entityTypeId": "E20",
-    "@id": "CG-EX:Func022"
-  },
-  "Func023": {
-    "id": "Func023",
-    "entityTypeId": "E20",
-    "@id": "CG-EX:Func023"
-  },
-  "Func024": {
-    "id": "Func024",
-    "entityTypeId": "E20",
-    "@id": "CG-EX:Func024"
-  },
-  "Func025": {
-    "id": "Func025",
-    "entityTypeId": "E20",
-    "@id": "CG-EX:Func025"
-  },
-  "Func026": {
-    "id": "Func026",
-    "entityTypeId": "E20",
-    "@id": "CG-EX:Func026"
-  },
-  "Func027": {
-    "id": "Func027",
-    "entityTypeId": "E20",
-    "@id": "CG-EX:Func027"
-  },
-  "AllFreq028": {
-    "id": "AllFreq028",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq028"
-  },
-  "AllFreq029": {
-    "id": "AllFreq029",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq029"
-  },
-  "CaseCtrl030": {
-    "id": "CaseCtrl030",
-    "entityTypeId": "E21",
-    "@id": "CG-EX:CaseCtrl030"
-  },
-  "AllFreq031": {
-    "id": "AllFreq031",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq031"
-  },
-  "AllFreq032": {
-    "id": "AllFreq032",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq032"
-  },
-  "CaseCtrl033": {
-    "id": "CaseCtrl033",
-    "entityTypeId": "E21",
-    "@id": "CG-EX:CaseCtrl033"
-  },
-  "AllFreq034": {
-    "id": "AllFreq034",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq034"
-  },
-  "AllFreq035": {
-    "id": "AllFreq035",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq035"
-  },
-  "CaseCtrl036": {
-    "id": "CaseCtrl036",
-    "entityTypeId": "E21",
-    "@id": "CG-EX:CaseCtrl036"
-  },
-  "AllFreq037": {
-    "id": "AllFreq037",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq037"
-  },
-  "AllFreq038": {
-    "id": "AllFreq038",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq038"
-  },
-  "CondPrev039": {
-    "id": "CondPrev039",
-    "entityTypeId": "E49",
-    "@id": "CG-EX:CondPrev039"
-  },
-  "RegTyp040": {
-    "id": "RegTyp040",
-    "entityTypeId": "E24",
-    "@id": "CG-EX:RegTyp040"
-  },
-  "VarInterp041": {
-    "id": "VarInterp041",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp041"
-  },
-  "VarInterp042": {
-    "id": "VarInterp042",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp042"
-  },
-  "RegTyp043": {
-    "id": "RegTyp043",
-    "entityTypeId": "E24",
-    "@id": "CG-EX:RegTyp043"
-  },
-  "VarInterp044": {
-    "id": "VarInterp044",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp044"
-  },
-  "VarInterp045": {
-    "id": "VarInterp045",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp045"
-  },
-  "RegTyp046": {
-    "id": "RegTyp046",
-    "entityTypeId": "E24",
-    "@id": "CG-EX:RegTyp046"
-  },
-  "VarInterp047": {
-    "id": "VarInterp047",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp047"
-  },
-  "VarInterp048": {
-    "id": "VarInterp048",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp048"
-  },
-  "VarInterp049": {
-    "id": "VarInterp049",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp049"
-  },
-  "VarInterp050": {
-    "id": "VarInterp050",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp050"
-  },
-  "AllFreq051": {
-    "id": "AllFreq051",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq051"
-  },
-  "AllFreq052": {
-    "id": "AllFreq052",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq052"
-  },
-  "AllFreq053": {
-    "id": "AllFreq053",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq053"
-  },
-  "AllFreq054": {
-    "id": "AllFreq054",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq054"
-  },
-  "VarInterp055": {
-    "id": "VarInterp055",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp055"
-  },
-  "IndCond056": {
-    "id": "IndCond056",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond056"
-  },
-  "VarInterp057": {
-    "id": "VarInterp057",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp057"
-  },
-  "IndGeno058": {
-    "id": "IndGeno058",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno058"
-  },
-  "VarInterp059": {
-    "id": "VarInterp059",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp059"
-  },
-  "VarInterp060": {
-    "id": "VarInterp060",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp060"
-  },
-  "IndCond061": {
-    "id": "IndCond061",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond061"
-  },
-  "IndGeno062": {
-    "id": "IndGeno062",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno062"
-  },
-  "VarInterp063": {
-    "id": "VarInterp063",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp063"
-  },
-  "IndCond064": {
-    "id": "IndCond064",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond064"
-  },
-  "IndGeno065": {
-    "id": "IndGeno065",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno065"
-  },
-  "MolCon066": {
-    "id": "MolCon066",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon066"
-  },
-  "Func067": {
-    "id": "Func067",
-    "entityTypeId": "E20",
-    "@id": "CG-EX:Func067"
-  },
-  "InSilicoPred068": {
-    "id": "InSilicoPred068",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred068"
-  },
-  "RegTyp069": {
-    "id": "RegTyp069",
-    "entityTypeId": "E24",
-    "@id": "CG-EX:RegTyp069"
-  },
-  "MolCon070": {
-    "id": "MolCon070",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon070"
-  },
-  "AllConserv071": {
-    "id": "AllConserv071",
-    "entityTypeId": "E51",
-    "@id": "CG-EX:AllConserv071"
-  },
-  "AllConserv072": {
-    "id": "AllConserv072",
-    "entityTypeId": "E51",
-    "@id": "CG-EX:AllConserv072"
-  },
-  "RegTyp073": {
-    "id": "RegTyp073",
-    "entityTypeId": "E24",
-    "@id": "CG-EX:RegTyp073"
-  },
-  "MolCon074": {
-    "id": "MolCon074",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon074"
-  },
-  "MolCon075": {
-    "id": "MolCon075",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon075"
-  },
-  "FamSeg076": {
-    "id": "FamSeg076",
-    "entityTypeId": "E45",
-    "@id": "CG-EX:FamSeg076"
-  },
-  "RegTyp077": {
-    "id": "RegTyp077",
-    "entityTypeId": "E24",
-    "@id": "CG-EX:RegTyp077"
-  },
-  "VarInterp078": {
-    "id": "VarInterp078",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp078"
-  },
-  "VarInterp079": {
-    "id": "VarInterp079",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp079"
-  },
-  "VarInterp080": {
-    "id": "VarInterp080",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp080"
-  },
-  "VarInterp081": {
-    "id": "VarInterp081",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp081"
-  },
-  "AllFreq082": {
-    "id": "AllFreq082",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq082"
-  },
-  "IndCond083": {
-    "id": "IndCond083",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond083"
-  },
-  "IndCond084": {
-    "id": "IndCond084",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond084"
-  },
-  "FamCond085": {
-    "id": "FamCond085",
-    "entityTypeId": "E18",
-    "@id": "CG-EX:FamCond085"
-  },
-  "FamCond086": {
-    "id": "FamCond086",
-    "entityTypeId": "E18",
-    "@id": "CG-EX:FamCond086"
-  },
-  "IndAllInh087": {
-    "id": "IndAllInh087",
-    "entityTypeId": "E19",
-    "@id": "CG-EX:IndAllInh087"
-  },
-  "IndAllInh088": {
-    "id": "IndAllInh088",
-    "entityTypeId": "E19",
-    "@id": "CG-EX:IndAllInh088"
-  },
-  "IndCond089": {
-    "id": "IndCond089",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond089"
-  },
-  "FamCond090": {
-    "id": "FamCond090",
-    "entityTypeId": "E18",
-    "@id": "CG-EX:FamCond090"
-  },
-  "IndAllInh091": {
-    "id": "IndAllInh091",
-    "entityTypeId": "E19",
-    "@id": "CG-EX:IndAllInh091"
-  },
-  "IndCond092": {
-    "id": "IndCond092",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond092"
-  },
-  "FamCond093": {
-    "id": "FamCond093",
-    "entityTypeId": "E18",
-    "@id": "CG-EX:FamCond093"
-  },
-  "IndAllInh094": {
-    "id": "IndAllInh094",
-    "entityTypeId": "E19",
-    "@id": "CG-EX:IndAllInh094"
-  },
-  "IndCond095": {
-    "id": "IndCond095",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond095"
-  },
-  "FamCond096": {
-    "id": "FamCond096",
-    "entityTypeId": "E18",
-    "@id": "CG-EX:FamCond096"
-  },
-  "IndAllInh097": {
-    "id": "IndAllInh097",
-    "entityTypeId": "E19",
-    "@id": "CG-EX:IndAllInh097"
-  },
-  "IndCond098": {
-    "id": "IndCond098",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond098"
-  },
-  "FamCond099": {
-    "id": "FamCond099",
-    "entityTypeId": "E18",
-    "@id": "CG-EX:FamCond099"
-  },
-  "IndAllInh100": {
-    "id": "IndAllInh100",
-    "entityTypeId": "E19",
-    "@id": "CG-EX:IndAllInh100"
-  },
-  "AllFreq101": {
-    "id": "AllFreq101",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq101"
-  },
-  "BMVR102": {
-    "id": "BMVR102",
-    "entityTypeId": "E43",
-    "@id": "CG-EX:BMVR102"
-  },
-  "FamSeg103": {
-    "id": "FamSeg103",
-    "entityTypeId": "E45",
-    "@id": "CG-EX:FamSeg103"
-  },
-  "FamSeg104": {
-    "id": "FamSeg104",
-    "entityTypeId": "E45",
-    "@id": "CG-EX:FamSeg104"
-  },
-  "AggSeg105": {
-    "id": "AggSeg105",
-    "entityTypeId": "E46",
-    "@id": "CG-EX:AggSeg105"
-  },
-  "IndAllInh106": {
-    "id": "IndAllInh106",
-    "entityTypeId": "E19",
-    "@id": "CG-EX:IndAllInh106"
-  },
-  "FamSeg107": {
-    "id": "FamSeg107",
-    "entityTypeId": "E45",
-    "@id": "CG-EX:FamSeg107"
-  },
-  "FamSeg108": {
-    "id": "FamSeg108",
-    "entityTypeId": "E45",
-    "@id": "CG-EX:FamSeg108"
-  },
-  "AggSeg109": {
-    "id": "AggSeg109",
-    "entityTypeId": "E46",
-    "@id": "CG-EX:AggSeg109"
-  },
-  "IndCond110": {
-    "id": "IndCond110",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond110"
-  },
-  "FamSeg111": {
-    "id": "FamSeg111",
-    "entityTypeId": "E45",
-    "@id": "CG-EX:FamSeg111"
-  },
-  "FamCond112": {
-    "id": "FamCond112",
-    "entityTypeId": "E18",
-    "@id": "CG-EX:FamCond112"
-  },
-  "FamSeg113": {
-    "id": "FamSeg113",
-    "entityTypeId": "E45",
-    "@id": "CG-EX:FamSeg113"
-  },
-  "FamSeg114": {
-    "id": "FamSeg114",
-    "entityTypeId": "E45",
-    "@id": "CG-EX:FamSeg114"
-  },
-  "AggSeg115": {
-    "id": "AggSeg115",
-    "entityTypeId": "E46",
-    "@id": "CG-EX:AggSeg115"
-  },
-  "AllConservScore116": {
-    "id": "AllConservScore116",
-    "entityTypeId": "E53",
-    "@id": "CG-EX:AllConservScore116"
-  },
-  "MolCon117": {
-    "id": "MolCon117",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon117"
-  },
-  "CondMech118": {
-    "id": "CondMech118",
-    "entityTypeId": "E03",
-    "@id": "CG-EX:CondMech118"
-  },
-  "BMVR119": {
-    "id": "BMVR119",
-    "entityTypeId": "E43",
-    "@id": "CG-EX:BMVR119"
-  },
-  "InSilicoPred120": {
-    "id": "InSilicoPred120",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred120"
-  },
-  "InSilicoPred121": {
-    "id": "InSilicoPred121",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred121"
-  },
-  "InSilicoPred122": {
-    "id": "InSilicoPred122",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred122"
-  },
-  "InSilicoPred123": {
-    "id": "InSilicoPred123",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred123"
-  },
-  "InSilicoPred124": {
-    "id": "InSilicoPred124",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred124"
-  },
-  "InSilicoPred125": {
-    "id": "InSilicoPred125",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred125"
-  },
-  "InSilicoPred126": {
-    "id": "InSilicoPred126",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred126"
-  },
-  "InSilicoPred127": {
-    "id": "InSilicoPred127",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred127"
-  },
-  "InSilicoPred128": {
-    "id": "InSilicoPred128",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred128"
-  },
-  "InSilicoPred129": {
-    "id": "InSilicoPred129",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred129"
-  },
-  "InSilicoPred130": {
-    "id": "InSilicoPred130",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred130"
-  },
-  "InSilicoPred131": {
-    "id": "InSilicoPred131",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred131"
-  },
-  "InSilicoPred132": {
-    "id": "InSilicoPred132",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred132"
-  },
-  "InSilicoPred133": {
-    "id": "InSilicoPred133",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred133"
-  },
-  "InSilicoPred134": {
-    "id": "InSilicoPred134",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred134"
-  },
-  "InSilicoPred135": {
-    "id": "InSilicoPred135",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred135"
-  },
-  "InSilicoPred136": {
-    "id": "InSilicoPred136",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred136"
-  },
-  "InSilicoPred137": {
-    "id": "InSilicoPred137",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred137"
-  },
-  "InSilicoPred138": {
-    "id": "InSilicoPred138",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred138"
-  },
-  "InSilicoPred139": {
-    "id": "InSilicoPred139",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred139"
-  },
-  "InSilicoPred140": {
-    "id": "InSilicoPred140",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred140"
-  },
-  "InSilicoPred141": {
-    "id": "InSilicoPred141",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred141"
-  },
-  "InSilicoPred142": {
-    "id": "InSilicoPred142",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred142"
-  },
-  "InSilicoPredScore143": {
-    "id": "InSilicoPredScore143",
-    "entityTypeId": "E52",
-    "@id": "CG-EX:InSilicoPredScore143"
-  },
-  "InSilicoPredScore144": {
-    "id": "InSilicoPredScore144",
-    "entityTypeId": "E52",
-    "@id": "CG-EX:InSilicoPredScore144"
-  },
-  "InSilicoPredScore145": {
-    "id": "InSilicoPredScore145",
-    "entityTypeId": "E52",
-    "@id": "CG-EX:InSilicoPredScore145"
-  },
-  "InSilicoPredScore146": {
-    "id": "InSilicoPredScore146",
-    "entityTypeId": "E52",
-    "@id": "CG-EX:InSilicoPredScore146"
-  },
-  "InSilicoPredScore147": {
-    "id": "InSilicoPredScore147",
-    "entityTypeId": "E52",
-    "@id": "CG-EX:InSilicoPredScore147"
-  },
-  "LocHet148": {
-    "id": "LocHet148",
-    "entityTypeId": "E48",
-    "@id": "CG-EX:LocHet148"
-  },
-  "LocHet149": {
-    "id": "LocHet149",
-    "entityTypeId": "E48",
-    "@id": "CG-EX:LocHet149"
-  },
-  "VarInterp150": {
-    "id": "VarInterp150",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp150"
-  },
-  "VarInterp151": {
-    "id": "VarInterp151",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp151"
-  },
-  "VarInterp152": {
-    "id": "VarInterp152",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp152"
-  },
-  "AllFreq153": {
-    "id": "AllFreq153",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq153"
-  },
-  "AllFreq154": {
-    "id": "AllFreq154",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq154"
-  },
-  "AllFreq155": {
-    "id": "AllFreq155",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq155"
-  },
-  "CritAssess156": {
-    "id": "CritAssess156",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess156"
-  },
-  "AllFreq157": {
-    "id": "AllFreq157",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq157"
-  },
-  "AllFreq158": {
-    "id": "AllFreq158",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq158"
-  },
-  "CondPrev159": {
-    "id": "CondPrev159",
-    "entityTypeId": "E49",
-    "@id": "CG-EX:CondPrev159"
-  },
-  "CondPenet160": {
-    "id": "CondPenet160",
-    "entityTypeId": "E50",
-    "@id": "CG-EX:CondPenet160"
-  },
-  "BMVR161": {
-    "id": "BMVR161",
-    "entityTypeId": "E43",
-    "@id": "CG-EX:BMVR161"
-  },
-  "AllFreq162": {
-    "id": "AllFreq162",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq162"
-  },
-  "CondPrev163": {
-    "id": "CondPrev163",
-    "entityTypeId": "E49",
-    "@id": "CG-EX:CondPrev163"
-  },
-  "CondPenet164": {
-    "id": "CondPenet164",
-    "entityTypeId": "E50",
-    "@id": "CG-EX:CondPenet164"
-  },
-  "CondMech165": {
-    "id": "CondMech165",
-    "entityTypeId": "E03",
-    "@id": "CG-EX:CondMech165"
-  },
-  "AllFreq166": {
-    "id": "AllFreq166",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq166"
-  },
-  "CondPrev167": {
-    "id": "CondPrev167",
-    "entityTypeId": "E49",
-    "@id": "CG-EX:CondPrev167"
-  },
-  "CondPenet168": {
-    "id": "CondPenet168",
-    "entityTypeId": "E50",
-    "@id": "CG-EX:CondPenet168"
-  },
-  "MolCon169": {
-    "id": "MolCon169",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon169"
-  },
-  "CondPenet170": {
-    "id": "CondPenet170",
-    "entityTypeId": "E50",
-    "@id": "CG-EX:CondPenet170"
-  },
-  "AllConservScore171": {
-    "id": "AllConservScore171",
-    "entityTypeId": "E53",
-    "@id": "CG-EX:AllConservScore171"
-  },
-  "IndGeno172": {
-    "id": "IndGeno172",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno172"
-  },
-  "IndGeno173": {
-    "id": "IndGeno173",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno173"
-  },
-  "IndCond174": {
-    "id": "IndCond174",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond174"
-  },
-  "IndCond175": {
-    "id": "IndCond175",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond175"
-  },
-  "CondPenet176": {
-    "id": "CondPenet176",
-    "entityTypeId": "E50",
-    "@id": "CG-EX:CondPenet176"
-  },
-  "IndGeno178": {
-    "id": "IndGeno178",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno178"
-  },
-  "IndGeno179": {
-    "id": "IndGeno179",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno179"
-  },
-  "IndGeno180": {
-    "id": "IndGeno180",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno180"
-  },
-  "IndGeno181": {
-    "id": "IndGeno181",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno181"
-  },
-  "IndCond182": {
-    "id": "IndCond182",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond182"
-  },
-  "IndCond183": {
-    "id": "IndCond183",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond183"
-  },
-  "IndCond184": {
-    "id": "IndCond184",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond184"
-  },
-  "IndCond185": {
-    "id": "IndCond185",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond185"
-  },
-  "CondPenet186": {
-    "id": "CondPenet186",
-    "entityTypeId": "E50",
-    "@id": "CG-EX:CondPenet186"
-  },
-  "IndGeno188": {
-    "id": "IndGeno188",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno188"
-  },
-  "IndGeno189": {
-    "id": "IndGeno189",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno189"
-  },
-  "IndCond190": {
-    "id": "IndCond190",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond190"
-  },
-  "IndCond191": {
-    "id": "IndCond191",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond191"
-  },
-  "Func192": {
-    "id": "Func192",
-    "entityTypeId": "E20",
-    "@id": "CG-EX:Func192"
-  },
-  "Func193": {
-    "id": "Func193",
-    "entityTypeId": "E20",
-    "@id": "CG-EX:Func193"
-  },
-  "Func194": {
-    "id": "Func194",
-    "entityTypeId": "E20",
-    "@id": "CG-EX:Func194"
-  },
-  "Func195": {
-    "id": "Func195",
-    "entityTypeId": "E20",
-    "@id": "CG-EX:Func195"
-  },
-  "FamSeg196": {
-    "id": "FamSeg196",
-    "entityTypeId": "E45",
-    "@id": "CG-EX:FamSeg196"
-  },
-  "FamSeg197": {
-    "id": "FamSeg197",
-    "entityTypeId": "E45",
-    "@id": "CG-EX:FamSeg197"
-  },
-  "MolCon198": {
-    "id": "MolCon198",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon198"
-  },
-  "CondMech199": {
-    "id": "CondMech199",
-    "entityTypeId": "E03",
-    "@id": "CG-EX:CondMech199"
-  },
-  "CondMech200": {
-    "id": "CondMech200",
-    "entityTypeId": "E03",
-    "@id": "CG-EX:CondMech200"
-  },
-  "MolCon201": {
-    "id": "MolCon201",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon201"
-  },
-  "CondMech202": {
-    "id": "CondMech202",
-    "entityTypeId": "E03",
-    "@id": "CG-EX:CondMech202"
-  },
-  "MolCon203": {
-    "id": "MolCon203",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon203"
-  },
-  "CondMech204": {
-    "id": "CondMech204",
-    "entityTypeId": "E03",
-    "@id": "CG-EX:CondMech204"
-  },
-  "CondMech205": {
-    "id": "CondMech205",
-    "entityTypeId": "E03",
-    "@id": "CG-EX:CondMech205"
-  },
-  "IndGeno206": {
-    "id": "IndGeno206",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno206"
-  },
-  "IndGeno207": {
-    "id": "IndGeno207",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno207"
-  },
-  "IndCond208": {
-    "id": "IndCond208",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond208"
-  },
-  "IndCond209": {
-    "id": "IndCond209",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond209"
-  },
-  "VarInterp210": {
-    "id": "VarInterp210",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp210"
-  },
-  "IndGeno211": {
-    "id": "IndGeno211",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno211"
-  },
-  "IndCond212": {
-    "id": "IndCond212",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond212"
-  },
-  "VarInterp213": {
-    "id": "VarInterp213",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp213"
-  },
-  "IndGeno214": {
-    "id": "IndGeno214",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno214"
-  },
-  "IndCond215": {
-    "id": "IndCond215",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond215"
-  },
-  "VarInterp216": {
-    "id": "VarInterp216",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp216"
-  },
-  "CondPenet218": {
-    "id": "CondPenet218",
-    "entityTypeId": "E50",
-    "@id": "CG-EX:CondPenet218"
-  },
-  "RegTyp220": {
-    "id": "RegTyp220",
-    "entityTypeId": "E24",
-    "@id": "CG-EX:RegTyp220"
-  },
-  "RegTyp221": {
-    "id": "RegTyp221",
-    "entityTypeId": "E24",
-    "@id": "CG-EX:RegTyp221"
-  },
-  "AllConservScore222": {
-    "id": "AllConservScore222",
-    "entityTypeId": "E53",
-    "@id": "CG-EX:AllConservScore222"
-  },
-  "MolCon223": {
-    "id": "MolCon223",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon223"
-  },
-  "AllConservScore224": {
-    "id": "AllConservScore224",
-    "entityTypeId": "E53",
-    "@id": "CG-EX:AllConservScore224"
-  },
-  "RegTyp225": {
-    "id": "RegTyp225",
-    "entityTypeId": "E24",
-    "@id": "CG-EX:RegTyp225"
-  },
-  "AllConservScore226": {
-    "id": "AllConservScore226",
-    "entityTypeId": "E53",
-    "@id": "CG-EX:AllConservScore226"
-  },
-  "MolCon227": {
-    "id": "MolCon227",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon227"
-  },
-  "AllConservScore228": {
-    "id": "AllConservScore228",
-    "entityTypeId": "E53",
-    "@id": "CG-EX:AllConservScore228"
-  },
-  "RegTyp229": {
-    "id": "RegTyp229",
-    "entityTypeId": "E24",
-    "@id": "CG-EX:RegTyp229"
-  },
-  "AllConservScore230": {
-    "id": "AllConservScore230",
-    "entityTypeId": "E53",
-    "@id": "CG-EX:AllConservScore230"
-  },
-  "MolCon231": {
-    "id": "MolCon231",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon231"
-  },
-  "InSilicoPred232": {
-    "id": "InSilicoPred232",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred232"
-  },
-  "InSilicoPred233": {
-    "id": "InSilicoPred233",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred233"
-  },
-  "InSilicoPred234": {
-    "id": "InSilicoPred234",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred234"
-  },
-  "InSilicoPred235": {
-    "id": "InSilicoPred235",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred235"
-  },
-  "InSilicoPred236": {
-    "id": "InSilicoPred236",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred236"
-  },
-  "InSilicoPred237": {
-    "id": "InSilicoPred237",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred237"
-  },
-  "InSilicoPred238": {
-    "id": "InSilicoPred238",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred238"
-  },
-  "InSilicoPred239": {
-    "id": "InSilicoPred239",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred239"
-  },
-  "InSilicoPred240": {
-    "id": "InSilicoPred240",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred240"
-  },
-  "IndGeno241": {
-    "id": "IndGeno241",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno241"
-  },
-  "IndCond242": {
-    "id": "IndCond242",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond242"
-  },
-  "VarInterp243": {
-    "id": "VarInterp243",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp243"
-  },
-  "IndGeno244": {
-    "id": "IndGeno244",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno244"
-  },
-  "AllConservScore245": {
-    "id": "AllConservScore245",
-    "entityTypeId": "E53",
-    "@id": "CG-EX:AllConservScore245"
-  },
-  "IndCond246": {
-    "id": "IndCond246",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond246"
-  },
-  "VarInterp247": {
-    "id": "VarInterp247",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp247"
-  },
-  "VarInterp248": {
-    "id": "VarInterp248",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp248"
-  },
-  "IndGeno249": {
-    "id": "IndGeno249",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno249"
-  },
-  "IndCond250": {
-    "id": "IndCond250",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond250"
-  },
-  "VarInterp251": {
-    "id": "VarInterp251",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp251"
-  },
-  "IndCond252": {
-    "id": "IndCond252",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond252"
-  },
-  "IndGeno253": {
-    "id": "IndGeno253",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno253"
-  },
-  "VarInterp254": {
-    "id": "VarInterp254",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp254"
-  },
-  "VarInterp255": {
-    "id": "VarInterp255",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp255"
-  },
-  "VarInterp256": {
-    "id": "VarInterp256",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp256"
-  },
-  "VarInterp257": {
-    "id": "VarInterp257",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp257"
-  },
-  "InSilicoPred258": {
-    "id": "InSilicoPred258",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred258"
-  },
-  "AllConserv259": {
-    "id": "AllConserv259",
-    "entityTypeId": "E51",
-    "@id": "CG-EX:AllConserv259"
-  },
-  "AllConserv260": {
-    "id": "AllConserv260",
-    "entityTypeId": "E51",
-    "@id": "CG-EX:AllConserv260"
-  },
-  "MolCon261": {
-    "id": "MolCon261",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon261"
-  },
-  "InSilicoPred262": {
-    "id": "InSilicoPred262",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred262"
-  },
-  "AllConserv263": {
-    "id": "AllConserv263",
-    "entityTypeId": "E51",
-    "@id": "CG-EX:AllConserv263"
-  },
-  "AllConserv264": {
-    "id": "AllConserv264",
-    "entityTypeId": "E51",
-    "@id": "CG-EX:AllConserv264"
-  },
-  "MolCon265": {
-    "id": "MolCon265",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon265"
-  },
-  "InSilicoPred266": {
-    "id": "InSilicoPred266",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred266"
-  },
-  "AllConserv267": {
-    "id": "AllConserv267",
-    "entityTypeId": "E51",
-    "@id": "CG-EX:AllConserv267"
-  },
-  "AllConserv268": {
-    "id": "AllConserv268",
-    "entityTypeId": "E51",
-    "@id": "CG-EX:AllConserv268"
-  },
-  "MolCon269": {
-    "id": "MolCon269",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon269"
-  },
-  "VarInterp270": {
-    "id": "VarInterp270",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp270"
-  },
-  "FamSeg271": {
-    "id": "FamSeg271",
-    "entityTypeId": "E45",
-    "@id": "CG-EX:FamSeg271"
-  },
-  "MolCon272": {
-    "id": "MolCon272",
-    "entityTypeId": "E02",
-    "@id": "CG-EX:MolCon272"
-  },
-  "CondMech273": {
-    "id": "CondMech273",
-    "entityTypeId": "E03",
-    "@id": "CG-EX:CondMech273"
-  },
-  "VarInterp274": {
-    "id": "VarInterp274",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp274"
-  },
-  "CritAssess275": {
-    "id": "CritAssess275",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess275"
-  },
-  "CritAssess276": {
-    "id": "CritAssess276",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess276"
-  },
-  "CritAssess277": {
-    "id": "CritAssess277",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess277"
-  },
-  "CritAssess278": {
-    "id": "CritAssess278",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess278"
-  },
-  "CritAssess279": {
-    "id": "CritAssess279",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess279"
-  },
-  "CritAssess280": {
-    "id": "CritAssess280",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess280"
-  },
-  "CritAssess281": {
-    "id": "CritAssess281",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess281"
-  },
-  "CritAssess282": {
-    "id": "CritAssess282",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess282"
-  },
-  "CritAssess283": {
-    "id": "CritAssess283",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess283"
-  },
-  "CritAssess284": {
-    "id": "CritAssess284",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess284"
-  },
-  "CritAssess285": {
-    "id": "CritAssess285",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess285"
-  },
-  "CritAssess286": {
-    "id": "CritAssess286",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess286"
-  },
-  "CritAssess287": {
-    "id": "CritAssess287",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess287"
-  },
-  "CritAssess288": {
-    "id": "CritAssess288",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess288"
-  },
-  "CritAssess289": {
-    "id": "CritAssess289",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess289"
-  },
-  "CritAssess290": {
-    "id": "CritAssess290",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess290"
-  },
-  "CritAssess291": {
-    "id": "CritAssess291",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess291"
-  },
-  "CritAssess292": {
-    "id": "CritAssess292",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess292"
-  },
-  "CritAssess293": {
-    "id": "CritAssess293",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess293"
-  },
-  "CritAssess294": {
-    "id": "CritAssess294",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess294"
-  },
-  "CritAssess295": {
-    "id": "CritAssess295",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess295"
-  },
-  "CritAssess296": {
-    "id": "CritAssess296",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess296"
-  },
-  "CritAssess297": {
-    "id": "CritAssess297",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess297"
-  },
-  "CritAssess298": {
-    "id": "CritAssess298",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess298"
-  },
-  "CritAssess299": {
-    "id": "CritAssess299",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess299"
-  },
-  "CritAssess300": {
-    "id": "CritAssess300",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess300"
-  },
-  "CritAssess301": {
-    "id": "CritAssess301",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess301"
-  },
-  "CritAssess302": {
-    "id": "CritAssess302",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess302"
-  },
-  "CritAssess303": {
-    "id": "CritAssess303",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess303"
-  },
-  "CritAssess304": {
-    "id": "CritAssess304",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess304"
-  },
-  "CritAssess305": {
-    "id": "CritAssess305",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess305"
-  },
-  "CritAssess306": {
-    "id": "CritAssess306",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess306"
-  },
-  "CritAssess307": {
-    "id": "CritAssess307",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess307"
-  },
-  "CritAssess308": {
-    "id": "CritAssess308",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess308"
-  },
-  "CritAssess309": {
-    "id": "CritAssess309",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess309"
-  },
-  "CritAssess310": {
-    "id": "CritAssess310",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess310"
-  },
-  "CritAssess311": {
-    "id": "CritAssess311",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess311"
-  },
-  "CritAssess312": {
-    "id": "CritAssess312",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess312"
-  },
-  "CritAssess313": {
-    "id": "CritAssess313",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess313"
-  },
-  "CritAssess314": {
-    "id": "CritAssess314",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess314"
-  },
-  "CritAssess315": {
-    "id": "CritAssess315",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess315"
-  },
-  "CritAssess316": {
-    "id": "CritAssess316",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess316"
-  },
-  "CritAssess318": {
-    "id": "CritAssess318",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess318"
-  },
-  "CritAssess319": {
-    "id": "CritAssess319",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess319"
-  },
-  "CritAssess320": {
-    "id": "CritAssess320",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess320"
-  },
-  "CritAssess321": {
-    "id": "CritAssess321",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess321"
-  },
-  "CritAssess322": {
-    "id": "CritAssess322",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess322"
-  },
-  "CritAssess323": {
-    "id": "CritAssess323",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess323"
-  },
-  "CritAssess324": {
-    "id": "CritAssess324",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess324"
-  },
-  "CritAssess325": {
-    "id": "CritAssess325",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess325"
-  },
-  "CritAssess326": {
-    "id": "CritAssess326",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess326"
-  },
-  "CritAssess327": {
-    "id": "CritAssess327",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess327"
-  },
-  "CritAssess328": {
-    "id": "CritAssess328",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess328"
-  },
-  "CritAssess329": {
-    "id": "CritAssess329",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess329"
-  },
-  "CritAssess330": {
-    "id": "CritAssess330",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess330"
-  },
-  "CritAssess331": {
-    "id": "CritAssess331",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess331"
-  },
-  "CritAssess333": {
-    "id": "CritAssess333",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess333"
-  },
-  "CritAssess334": {
-    "id": "CritAssess334",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess334"
-  },
-  "CritAssess335": {
-    "id": "CritAssess335",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess335"
-  },
-  "CritAssess336": {
-    "id": "CritAssess336",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess336"
-  },
-  "CritAssess337": {
-    "id": "CritAssess337",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess337"
-  },
-  "CritAssess338": {
-    "id": "CritAssess338",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess338"
-  },
-  "CritAssess339": {
-    "id": "CritAssess339",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess339"
-  },
-  "CritAssess340": {
-    "id": "CritAssess340",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess340"
-  },
-  "CritAssess341": {
-    "id": "CritAssess341",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess341"
-  },
-  "CritAssess342": {
-    "id": "CritAssess342",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess342"
-  },
-  "CritAssess343": {
-    "id": "CritAssess343",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess343"
-  },
-  "CritAssess344": {
-    "id": "CritAssess344",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess344"
-  },
-  "CritAssess345": {
-    "id": "CritAssess345",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess345"
-  },
-  "CritAssess346": {
-    "id": "CritAssess346",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess346"
-  },
-  "CritAssess347": {
-    "id": "CritAssess347",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess347"
-  },
-  "CritAssess348": {
-    "id": "CritAssess348",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess348"
-  },
-  "CritAssess350": {
-    "id": "CritAssess350",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess350"
-  },
-  "CritAssess351": {
-    "id": "CritAssess351",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess351"
-  },
-  "CritAssess352": {
-    "id": "CritAssess352",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess352"
-  },
-  "CritAssess353": {
-    "id": "CritAssess353",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess353"
-  },
-  "CritAssess354": {
-    "id": "CritAssess354",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess354"
-  },
-  "CritAssess355": {
-    "id": "CritAssess355",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess355"
-  },
-  "CritAssess356": {
-    "id": "CritAssess356",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess356"
-  },
-  "CritAssess357": {
-    "id": "CritAssess357",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess357"
-  },
-  "CritAssess358": {
-    "id": "CritAssess358",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess358"
-  },
-  "CritAssess359": {
-    "id": "CritAssess359",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess359"
-  },
-  "CritAssess360": {
-    "id": "CritAssess360",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess360"
-  },
-  "CritAssess361": {
-    "id": "CritAssess361",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess361"
-  },
-  "InSilicoPred362": {
-    "id": "InSilicoPred362",
-    "entityTypeId": "E47",
-    "@id": "CG-EX:InSilicoPred362"
-  },
-  "CritAssess363": {
-    "id": "CritAssess363",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess363"
-  },
-  "VarInterp364": {
-    "id": "VarInterp364",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp364"
-  },
-  "VarInterp365": {
-    "id": "VarInterp365",
-    "entityTypeId": "E35",
-    "@id": "CG-EX:VarInterp365"
-  },
-  "IndGeno366": {
-    "id": "IndGeno366",
-    "entityTypeId": "E28",
-    "@id": "CG-EX:IndGeno366"
-  },
-  "IndCond368": {
-    "id": "IndCond368",
-    "entityTypeId": "E17",
-    "@id": "CG-EX:IndCond368"
-  },
-  "CritAssess369": {
-    "id": "CritAssess369",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess369"
-  },
-  "AllFreq370": {
-    "id": "AllFreq370",
-    "entityTypeId": "E23",
-    "@id": "CG-EX:AllFreq370"
-  },
-  "CritAssess371": {
-    "id": "CritAssess371",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess371"
-  },
-  "CritAssess372": {
-    "id": "CritAssess372",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess372"
-  },
-  "CritAssess373": {
-    "id": "CritAssess373",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess373"
-  },
-  "CritAssess374": {
-    "id": "CritAssess374",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess374"
-  },
-  "CritAssess375": {
-    "id": "CritAssess375",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess375"
-  },
-  "CritAssess376": {
-    "id": "CritAssess376",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess376"
-  },
-  "CritAssess377": {
-    "id": "CritAssess377",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess377"
-  },
-  "CritAssess378": {
-    "id": "CritAssess378",
-    "entityTypeId": "E09",
-    "@id": "CG-EX:CritAssess378"
-  },
-  "RegAll380": {
-    "id": "RegAll380",
-    "entityTypeId": "E25",
-    "@id": "CG-EX:RegAll380"
-  },
-  "RegAll382": {
-    "id": "RegAll382",
-    "entityTypeId": "E25",
-    "@id": "CG-EX:RegAll382"
-  },
-  "RegAll384": {
-    "id": "RegAll384",
-    "entityTypeId": "E25",
-    "@id": "CG-EX:RegAll384"
-  },
-  "RegAll391": {
-    "id": "RegAll391",
-    "entityTypeId": "E25",
-    "@id": "CG-EX:RegAll391"
-  },
-  "RegAll393": {
-    "id": "RegAll393",
-    "entityTypeId": "E25",
-    "@id": "CG-EX:RegAll393"
-  },
-  "RegAll395": {
-    "id": "RegAll395",
-    "entityTypeId": "E25",
-    "@id": "CG-EX:RegAll395"
-  },
-  "Null396": {
-    "id": "Null396",
-    "entityTypeId": "E08",
-    "@id": "CG-EX:Null396"
-  },
-  "Null397": {
-    "id": "Null397",
-    "entityTypeId": "E08",
-    "@id": "CG-EX:Null397"
-  },
-  "Null398": {
-    "id": "Null398",
-    "entityTypeId": "E08",
-    "@id": "CG-EX:Null398"
-  },
-  "Null399": {
-    "id": "Null399",
-    "entityTypeId": "E08",
-    "@id": "CG-EX:Null399"
-  },
-  "Null404": {
-    "id": "Null404",
-    "entityTypeId": "E08",
-    "@id": "CG-EX:Null404"
-  },
-  "Null405": {
-    "id": "Null405",
-    "entityTypeId": "E08",
-    "@id": "CG-EX:Null405"
-  },
-  "Null406": {
-    "id": "Null406",
-    "entityTypeId": "E08",
-    "@id": "CG-EX:Null406"
-  },
-  "Null407": {
-    "id": "Null407",
-    "entityTypeId": "E08",
-    "@id": "CG-EX:Null407"
-  },
-  "Null408": {
-    "id": "Null408",
-    "entityTypeId": "E08",
-    "@id": "CG-EX:Null408"
-  },
-  "Null415": {
-    "id": "Null415",
-    "entityTypeId": "E08",
-    "@id": "CG-EX:Null415"
-  },
-  "Null416": {
-    "id": "Null416",
-    "entityTypeId": "E08",
-    "@id": "CG-EX:Null416"
+  "CGEX:MolCon001": {
+    "id": "CGEX:MolCon001",
+    "entityTypeId": "E02"
+  },
+  "CGEX:CondMech002": {
+    "id": "CGEX:CondMech002",
+    "entityTypeId": "E03"
+  },
+  "CGEX:MolCon003": {
+    "id": "CGEX:MolCon003",
+    "entityTypeId": "E02"
+  },
+  "CGEX:CondMech004": {
+    "id": "CGEX:CondMech004",
+    "entityTypeId": "E03"
+  },
+  "CGEX:MolCon005": {
+    "id": "CGEX:MolCon005",
+    "entityTypeId": "E02"
+  },
+  "CGEX:MolCon006": {
+    "id": "CGEX:MolCon006",
+    "entityTypeId": "E02"
+  },
+  "CGEX:CondMech007": {
+    "id": "CGEX:CondMech007",
+    "entityTypeId": "E03"
+  },
+  "CGEX:VarInterp008": {
+    "id": "CGEX:VarInterp008",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp009": {
+    "id": "CGEX:VarInterp009",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp010": {
+    "id": "CGEX:VarInterp010",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp011": {
+    "id": "CGEX:VarInterp011",
+    "entityTypeId": "E35"
+  },
+  "CGEX:IndCond012": {
+    "id": "CGEX:IndCond012",
+    "entityTypeId": "E17"
+  },
+  "CGEX:FamCond013": {
+    "id": "CGEX:FamCond013",
+    "entityTypeId": "E18"
+  },
+  "CGEX:IndAllInh014": {
+    "id": "CGEX:IndAllInh014",
+    "entityTypeId": "E19"
+  },
+  "CGEX:IndCond015": {
+    "id": "CGEX:IndCond015",
+    "entityTypeId": "E17"
+  },
+  "CGEX:FamCond016": {
+    "id": "CGEX:FamCond016",
+    "entityTypeId": "E18"
+  },
+  "CGEX:IndAllInh017": {
+    "id": "CGEX:IndAllInh017",
+    "entityTypeId": "E19"
+  },
+  "CGEX:IndCond018": {
+    "id": "CGEX:IndCond018",
+    "entityTypeId": "E17"
+  },
+  "CGEX:FamCond019": {
+    "id": "CGEX:FamCond019",
+    "entityTypeId": "E18"
+  },
+  "CGEX:IndAllInh020": {
+    "id": "CGEX:IndAllInh020",
+    "entityTypeId": "E19"
+  },
+  "CGEX:Func021": {
+    "id": "CGEX:Func021",
+    "entityTypeId": "E20"
+  },
+  "CGEX:Func022": {
+    "id": "CGEX:Func022",
+    "entityTypeId": "E20"
+  },
+  "CGEX:Func023": {
+    "id": "CGEX:Func023",
+    "entityTypeId": "E20"
+  },
+  "CGEX:Func024": {
+    "id": "CGEX:Func024",
+    "entityTypeId": "E20"
+  },
+  "CGEX:Func025": {
+    "id": "CGEX:Func025",
+    "entityTypeId": "E20"
+  },
+  "CGEX:Func026": {
+    "id": "CGEX:Func026",
+    "entityTypeId": "E20"
+  },
+  "CGEX:Func027": {
+    "id": "CGEX:Func027",
+    "entityTypeId": "E20"
+  },
+  "CGEX:AllFreq028": {
+    "id": "CGEX:AllFreq028",
+    "entityTypeId": "E23"
+  },
+  "CGEX:AllFreq029": {
+    "id": "CGEX:AllFreq029",
+    "entityTypeId": "E23"
+  },
+  "CGEX:CaseCtrl030": {
+    "id": "CGEX:CaseCtrl030",
+    "entityTypeId": "E21"
+  },
+  "CGEX:AllFreq031": {
+    "id": "CGEX:AllFreq031",
+    "entityTypeId": "E23"
+  },
+  "CGEX:AllFreq032": {
+    "id": "CGEX:AllFreq032",
+    "entityTypeId": "E23"
+  },
+  "CGEX:CaseCtrl033": {
+    "id": "CGEX:CaseCtrl033",
+    "entityTypeId": "E21"
+  },
+  "CGEX:AllFreq034": {
+    "id": "CGEX:AllFreq034",
+    "entityTypeId": "E23"
+  },
+  "CGEX:AllFreq035": {
+    "id": "CGEX:AllFreq035",
+    "entityTypeId": "E23"
+  },
+  "CGEX:CaseCtrl036": {
+    "id": "CGEX:CaseCtrl036",
+    "entityTypeId": "E21"
+  },
+  "CGEX:AllFreq037": {
+    "id": "CGEX:AllFreq037",
+    "entityTypeId": "E23"
+  },
+  "CGEX:AllFreq038": {
+    "id": "CGEX:AllFreq038",
+    "entityTypeId": "E23"
+  },
+  "CGEX:CondPrev039": {
+    "id": "CGEX:CondPrev039",
+    "entityTypeId": "E49"
+  },
+  "CGEX:RegTyp040": {
+    "id": "CGEX:RegTyp040",
+    "entityTypeId": "E24"
+  },
+  "CGEX:VarInterp041": {
+    "id": "CGEX:VarInterp041",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp042": {
+    "id": "CGEX:VarInterp042",
+    "entityTypeId": "E35"
+  },
+  "CGEX:RegTyp043": {
+    "id": "CGEX:RegTyp043",
+    "entityTypeId": "E24"
+  },
+  "CGEX:VarInterp044": {
+    "id": "CGEX:VarInterp044",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp045": {
+    "id": "CGEX:VarInterp045",
+    "entityTypeId": "E35"
+  },
+  "CGEX:RegTyp046": {
+    "id": "CGEX:RegTyp046",
+    "entityTypeId": "E24"
+  },
+  "CGEX:VarInterp047": {
+    "id": "CGEX:VarInterp047",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp048": {
+    "id": "CGEX:VarInterp048",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp049": {
+    "id": "CGEX:VarInterp049",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp050": {
+    "id": "CGEX:VarInterp050",
+    "entityTypeId": "E35"
+  },
+  "CGEX:AllFreq051": {
+    "id": "CGEX:AllFreq051",
+    "entityTypeId": "E23"
+  },
+  "CGEX:AllFreq052": {
+    "id": "CGEX:AllFreq052",
+    "entityTypeId": "E23"
+  },
+  "CGEX:AllFreq053": {
+    "id": "CGEX:AllFreq053",
+    "entityTypeId": "E23"
+  },
+  "CGEX:AllFreq054": {
+    "id": "CGEX:AllFreq054",
+    "entityTypeId": "E23"
+  },
+  "CGEX:VarInterp055": {
+    "id": "CGEX:VarInterp055",
+    "entityTypeId": "E35"
+  },
+  "CGEX:IndCond056": {
+    "id": "CGEX:IndCond056",
+    "entityTypeId": "E17"
+  },
+  "CGEX:VarInterp057": {
+    "id": "CGEX:VarInterp057",
+    "entityTypeId": "E35"
+  },
+  "CGEX:IndGeno058": {
+    "id": "CGEX:IndGeno058",
+    "entityTypeId": "E28"
+  },
+  "CGEX:VarInterp059": {
+    "id": "CGEX:VarInterp059",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp060": {
+    "id": "CGEX:VarInterp060",
+    "entityTypeId": "E35"
+  },
+  "CGEX:IndCond061": {
+    "id": "CGEX:IndCond061",
+    "entityTypeId": "E17"
+  },
+  "CGEX:IndGeno062": {
+    "id": "CGEX:IndGeno062",
+    "entityTypeId": "E28"
+  },
+  "CGEX:VarInterp063": {
+    "id": "CGEX:VarInterp063",
+    "entityTypeId": "E35"
+  },
+  "CGEX:IndCond064": {
+    "id": "CGEX:IndCond064",
+    "entityTypeId": "E17"
+  },
+  "CGEX:IndGeno065": {
+    "id": "CGEX:IndGeno065",
+    "entityTypeId": "E28"
+  },
+  "CGEX:MolCon066": {
+    "id": "CGEX:MolCon066",
+    "entityTypeId": "E02"
+  },
+  "CGEX:Func067": {
+    "id": "CGEX:Func067",
+    "entityTypeId": "E20"
+  },
+  "CGEX:InSilicoPred068": {
+    "id": "CGEX:InSilicoPred068",
+    "entityTypeId": "E47"
+  },
+  "CGEX:RegTyp069": {
+    "id": "CGEX:RegTyp069",
+    "entityTypeId": "E24"
+  },
+  "CGEX:MolCon070": {
+    "id": "CGEX:MolCon070",
+    "entityTypeId": "E02"
+  },
+  "CGEX:AllConserv071": {
+    "id": "CGEX:AllConserv071",
+    "entityTypeId": "E51"
+  },
+  "CGEX:AllConserv072": {
+    "id": "CGEX:AllConserv072",
+    "entityTypeId": "E51"
+  },
+  "CGEX:RegTyp073": {
+    "id": "CGEX:RegTyp073",
+    "entityTypeId": "E24"
+  },
+  "CGEX:MolCon074": {
+    "id": "CGEX:MolCon074",
+    "entityTypeId": "E02"
+  },
+  "CGEX:MolCon075": {
+    "id": "CGEX:MolCon075",
+    "entityTypeId": "E02"
+  },
+  "CGEX:FamSeg076": {
+    "id": "CGEX:FamSeg076",
+    "entityTypeId": "E45"
+  },
+  "CGEX:RegTyp077": {
+    "id": "CGEX:RegTyp077",
+    "entityTypeId": "E24"
+  },
+  "CGEX:VarInterp078": {
+    "id": "CGEX:VarInterp078",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp079": {
+    "id": "CGEX:VarInterp079",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp080": {
+    "id": "CGEX:VarInterp080",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp081": {
+    "id": "CGEX:VarInterp081",
+    "entityTypeId": "E35"
+  },
+  "CGEX:AllFreq082": {
+    "id": "CGEX:AllFreq082",
+    "entityTypeId": "E23"
+  },
+  "CGEX:IndCond083": {
+    "id": "CGEX:IndCond083",
+    "entityTypeId": "E17"
+  },
+  "CGEX:IndCond084": {
+    "id": "CGEX:IndCond084",
+    "entityTypeId": "E17"
+  },
+  "CGEX:FamCond085": {
+    "id": "CGEX:FamCond085",
+    "entityTypeId": "E18"
+  },
+  "CGEX:FamCond086": {
+    "id": "CGEX:FamCond086",
+    "entityTypeId": "E18"
+  },
+  "CGEX:IndAllInh087": {
+    "id": "CGEX:IndAllInh087",
+    "entityTypeId": "E19"
+  },
+  "CGEX:IndAllInh088": {
+    "id": "CGEX:IndAllInh088",
+    "entityTypeId": "E19"
+  },
+  "CGEX:IndCond089": {
+    "id": "CGEX:IndCond089",
+    "entityTypeId": "E17"
+  },
+  "CGEX:FamCond090": {
+    "id": "CGEX:FamCond090",
+    "entityTypeId": "E18"
+  },
+  "CGEX:IndAllInh091": {
+    "id": "CGEX:IndAllInh091",
+    "entityTypeId": "E19"
+  },
+  "CGEX:IndCond092": {
+    "id": "CGEX:IndCond092",
+    "entityTypeId": "E17"
+  },
+  "CGEX:FamCond093": {
+    "id": "CGEX:FamCond093",
+    "entityTypeId": "E18"
+  },
+  "CGEX:IndAllInh094": {
+    "id": "CGEX:IndAllInh094",
+    "entityTypeId": "E19"
+  },
+  "CGEX:IndCond095": {
+    "id": "CGEX:IndCond095",
+    "entityTypeId": "E17"
+  },
+  "CGEX:FamCond096": {
+    "id": "CGEX:FamCond096",
+    "entityTypeId": "E18"
+  },
+  "CGEX:IndAllInh097": {
+    "id": "CGEX:IndAllInh097",
+    "entityTypeId": "E19"
+  },
+  "CGEX:IndCond098": {
+    "id": "CGEX:IndCond098",
+    "entityTypeId": "E17"
+  },
+  "CGEX:FamCond099": {
+    "id": "CGEX:FamCond099",
+    "entityTypeId": "E18"
+  },
+  "CGEX:IndAllInh100": {
+    "id": "CGEX:IndAllInh100",
+    "entityTypeId": "E19"
+  },
+  "CGEX:AllFreq101": {
+    "id": "CGEX:AllFreq101",
+    "entityTypeId": "E23"
+  },
+  "CGEX:BMVR102": {
+    "id": "CGEX:BMVR102",
+    "entityTypeId": "E43"
+  },
+  "CGEX:FamSeg103": {
+    "id": "CGEX:FamSeg103",
+    "entityTypeId": "E45"
+  },
+  "CGEX:FamSeg104": {
+    "id": "CGEX:FamSeg104",
+    "entityTypeId": "E45"
+  },
+  "CGEX:AggSeg105": {
+    "id": "CGEX:AggSeg105",
+    "entityTypeId": "E46"
+  },
+  "CGEX:IndAllInh106": {
+    "id": "CGEX:IndAllInh106",
+    "entityTypeId": "E19"
+  },
+  "CGEX:FamSeg107": {
+    "id": "CGEX:FamSeg107",
+    "entityTypeId": "E45"
+  },
+  "CGEX:FamSeg108": {
+    "id": "CGEX:FamSeg108",
+    "entityTypeId": "E45"
+  },
+  "CGEX:AggSeg109": {
+    "id": "CGEX:AggSeg109",
+    "entityTypeId": "E46"
+  },
+  "CGEX:IndCond110": {
+    "id": "CGEX:IndCond110",
+    "entityTypeId": "E17"
+  },
+  "CGEX:FamSeg111": {
+    "id": "CGEX:FamSeg111",
+    "entityTypeId": "E45"
+  },
+  "CGEX:FamCond112": {
+    "id": "CGEX:FamCond112",
+    "entityTypeId": "E18"
+  },
+  "CGEX:FamSeg113": {
+    "id": "CGEX:FamSeg113",
+    "entityTypeId": "E45"
+  },
+  "CGEX:FamSeg114": {
+    "id": "CGEX:FamSeg114",
+    "entityTypeId": "E45"
+  },
+  "CGEX:AggSeg115": {
+    "id": "CGEX:AggSeg115",
+    "entityTypeId": "E46"
+  },
+  "CGEX:AllConservScore116": {
+    "id": "CGEX:AllConservScore116",
+    "entityTypeId": "E53"
+  },
+  "CGEX:MolCon117": {
+    "id": "CGEX:MolCon117",
+    "entityTypeId": "E02"
+  },
+  "CGEX:CondMech118": {
+    "id": "CGEX:CondMech118",
+    "entityTypeId": "E03"
+  },
+  "CGEX:BMVR119": {
+    "id": "CGEX:BMVR119",
+    "entityTypeId": "E43"
+  },
+  "CGEX:InSilicoPred120": {
+    "id": "CGEX:InSilicoPred120",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred121": {
+    "id": "CGEX:InSilicoPred121",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred122": {
+    "id": "CGEX:InSilicoPred122",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred123": {
+    "id": "CGEX:InSilicoPred123",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred124": {
+    "id": "CGEX:InSilicoPred124",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred125": {
+    "id": "CGEX:InSilicoPred125",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred126": {
+    "id": "CGEX:InSilicoPred126",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred127": {
+    "id": "CGEX:InSilicoPred127",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred128": {
+    "id": "CGEX:InSilicoPred128",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred129": {
+    "id": "CGEX:InSilicoPred129",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred130": {
+    "id": "CGEX:InSilicoPred130",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred131": {
+    "id": "CGEX:InSilicoPred131",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred132": {
+    "id": "CGEX:InSilicoPred132",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred133": {
+    "id": "CGEX:InSilicoPred133",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred134": {
+    "id": "CGEX:InSilicoPred134",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred135": {
+    "id": "CGEX:InSilicoPred135",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred136": {
+    "id": "CGEX:InSilicoPred136",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred137": {
+    "id": "CGEX:InSilicoPred137",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred138": {
+    "id": "CGEX:InSilicoPred138",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred139": {
+    "id": "CGEX:InSilicoPred139",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred140": {
+    "id": "CGEX:InSilicoPred140",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred141": {
+    "id": "CGEX:InSilicoPred141",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred142": {
+    "id": "CGEX:InSilicoPred142",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPredScore143": {
+    "id": "CGEX:InSilicoPredScore143",
+    "entityTypeId": "E52"
+  },
+  "CGEX:InSilicoPredScore144": {
+    "id": "CGEX:InSilicoPredScore144",
+    "entityTypeId": "E52"
+  },
+  "CGEX:InSilicoPredScore145": {
+    "id": "CGEX:InSilicoPredScore145",
+    "entityTypeId": "E52"
+  },
+  "CGEX:InSilicoPredScore146": {
+    "id": "CGEX:InSilicoPredScore146",
+    "entityTypeId": "E52"
+  },
+  "CGEX:InSilicoPredScore147": {
+    "id": "CGEX:InSilicoPredScore147",
+    "entityTypeId": "E52"
+  },
+  "CGEX:LocHet148": {
+    "id": "CGEX:LocHet148",
+    "entityTypeId": "E48"
+  },
+  "CGEX:LocHet149": {
+    "id": "CGEX:LocHet149",
+    "entityTypeId": "E48"
+  },
+  "CGEX:VarInterp150": {
+    "id": "CGEX:VarInterp150",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp151": {
+    "id": "CGEX:VarInterp151",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp152": {
+    "id": "CGEX:VarInterp152",
+    "entityTypeId": "E35"
+  },
+  "CGEX:AllFreq153": {
+    "id": "CGEX:AllFreq153",
+    "entityTypeId": "E23"
+  },
+  "CGEX:AllFreq154": {
+    "id": "CGEX:AllFreq154",
+    "entityTypeId": "E23"
+  },
+  "CGEX:AllFreq155": {
+    "id": "CGEX:AllFreq155",
+    "entityTypeId": "E23"
+  },
+  "CGEX:CritAssess156": {
+    "id": "CGEX:CritAssess156",
+    "entityTypeId": "E09"
+  },
+  "CGEX:AllFreq157": {
+    "id": "CGEX:AllFreq157",
+    "entityTypeId": "E23"
+  },
+  "CGEX:AllFreq158": {
+    "id": "CGEX:AllFreq158",
+    "entityTypeId": "E23"
+  },
+  "CGEX:CondPrev159": {
+    "id": "CGEX:CondPrev159",
+    "entityTypeId": "E49"
+  },
+  "CGEX:CondPenet160": {
+    "id": "CGEX:CondPenet160",
+    "entityTypeId": "E50"
+  },
+  "CGEX:BMVR161": {
+    "id": "CGEX:BMVR161",
+    "entityTypeId": "E43"
+  },
+  "CGEX:AllFreq162": {
+    "id": "CGEX:AllFreq162",
+    "entityTypeId": "E23"
+  },
+  "CGEX:CondPrev163": {
+    "id": "CGEX:CondPrev163",
+    "entityTypeId": "E49"
+  },
+  "CGEX:CondPenet164": {
+    "id": "CGEX:CondPenet164",
+    "entityTypeId": "E50"
+  },
+  "CGEX:CondMech165": {
+    "id": "CGEX:CondMech165",
+    "entityTypeId": "E03"
+  },
+  "CGEX:AllFreq166": {
+    "id": "CGEX:AllFreq166",
+    "entityTypeId": "E23"
+  },
+  "CGEX:CondPrev167": {
+    "id": "CGEX:CondPrev167",
+    "entityTypeId": "E49"
+  },
+  "CGEX:CondPenet168": {
+    "id": "CGEX:CondPenet168",
+    "entityTypeId": "E50"
+  },
+  "CGEX:MolCon169": {
+    "id": "CGEX:MolCon169",
+    "entityTypeId": "E02"
+  },
+  "CGEX:CondPenet170": {
+    "id": "CGEX:CondPenet170",
+    "entityTypeId": "E50"
+  },
+  "CGEX:AllConservScore171": {
+    "id": "CGEX:AllConservScore171",
+    "entityTypeId": "E53"
+  },
+  "CGEX:IndGeno172": {
+    "id": "CGEX:IndGeno172",
+    "entityTypeId": "E28"
+  },
+  "CGEX:IndGeno173": {
+    "id": "CGEX:IndGeno173",
+    "entityTypeId": "E28"
+  },
+  "CGEX:IndCond174": {
+    "id": "CGEX:IndCond174",
+    "entityTypeId": "E17"
+  },
+  "CGEX:IndCond175": {
+    "id": "CGEX:IndCond175",
+    "entityTypeId": "E17"
+  },
+  "CGEX:CondPenet176": {
+    "id": "CGEX:CondPenet176",
+    "entityTypeId": "E50"
+  },
+  "CGEX:IndGeno178": {
+    "id": "CGEX:IndGeno178",
+    "entityTypeId": "E28"
+  },
+  "CGEX:IndGeno179": {
+    "id": "CGEX:IndGeno179",
+    "entityTypeId": "E28"
+  },
+  "CGEX:IndGeno180": {
+    "id": "CGEX:IndGeno180",
+    "entityTypeId": "E28"
+  },
+  "CGEX:IndGeno181": {
+    "id": "CGEX:IndGeno181",
+    "entityTypeId": "E28"
+  },
+  "CGEX:IndCond182": {
+    "id": "CGEX:IndCond182",
+    "entityTypeId": "E17"
+  },
+  "CGEX:IndCond183": {
+    "id": "CGEX:IndCond183",
+    "entityTypeId": "E17"
+  },
+  "CGEX:IndCond184": {
+    "id": "CGEX:IndCond184",
+    "entityTypeId": "E17"
+  },
+  "CGEX:IndCond185": {
+    "id": "CGEX:IndCond185",
+    "entityTypeId": "E17"
+  },
+  "CGEX:CondPenet186": {
+    "id": "CGEX:CondPenet186",
+    "entityTypeId": "E50"
+  },
+  "CGEX:IndGeno188": {
+    "id": "CGEX:IndGeno188",
+    "entityTypeId": "E28"
+  },
+  "CGEX:IndGeno189": {
+    "id": "CGEX:IndGeno189",
+    "entityTypeId": "E28"
+  },
+  "CGEX:IndCond190": {
+    "id": "CGEX:IndCond190",
+    "entityTypeId": "E17"
+  },
+  "CGEX:IndCond191": {
+    "id": "CGEX:IndCond191",
+    "entityTypeId": "E17"
+  },
+  "CGEX:Func192": {
+    "id": "CGEX:Func192",
+    "entityTypeId": "E20"
+  },
+  "CGEX:Func193": {
+    "id": "CGEX:Func193",
+    "entityTypeId": "E20"
+  },
+  "CGEX:Func194": {
+    "id": "CGEX:Func194",
+    "entityTypeId": "E20"
+  },
+  "CGEX:Func195": {
+    "id": "CGEX:Func195",
+    "entityTypeId": "E20"
+  },
+  "CGEX:FamSeg196": {
+    "id": "CGEX:FamSeg196",
+    "entityTypeId": "E45"
+  },
+  "CGEX:FamSeg197": {
+    "id": "CGEX:FamSeg197",
+    "entityTypeId": "E45"
+  },
+  "CGEX:MolCon198": {
+    "id": "CGEX:MolCon198",
+    "entityTypeId": "E02"
+  },
+  "CGEX:CondMech199": {
+    "id": "CGEX:CondMech199",
+    "entityTypeId": "E03"
+  },
+  "CGEX:CondMech200": {
+    "id": "CGEX:CondMech200",
+    "entityTypeId": "E03"
+  },
+  "CGEX:MolCon201": {
+    "id": "CGEX:MolCon201",
+    "entityTypeId": "E02"
+  },
+  "CGEX:CondMech202": {
+    "id": "CGEX:CondMech202",
+    "entityTypeId": "E03"
+  },
+  "CGEX:MolCon203": {
+    "id": "CGEX:MolCon203",
+    "entityTypeId": "E02"
+  },
+  "CGEX:CondMech204": {
+    "id": "CGEX:CondMech204",
+    "entityTypeId": "E03"
+  },
+  "CGEX:CondMech205": {
+    "id": "CGEX:CondMech205",
+    "entityTypeId": "E03"
+  },
+  "CGEX:IndGeno206": {
+    "id": "CGEX:IndGeno206",
+    "entityTypeId": "E28"
+  },
+  "CGEX:IndGeno207": {
+    "id": "CGEX:IndGeno207",
+    "entityTypeId": "E28"
+  },
+  "CGEX:IndCond208": {
+    "id": "CGEX:IndCond208",
+    "entityTypeId": "E17"
+  },
+  "CGEX:IndCond209": {
+    "id": "CGEX:IndCond209",
+    "entityTypeId": "E17"
+  },
+  "CGEX:VarInterp210": {
+    "id": "CGEX:VarInterp210",
+    "entityTypeId": "E35"
+  },
+  "CGEX:IndGeno211": {
+    "id": "CGEX:IndGeno211",
+    "entityTypeId": "E28"
+  },
+  "CGEX:IndCond212": {
+    "id": "CGEX:IndCond212",
+    "entityTypeId": "E17"
+  },
+  "CGEX:VarInterp213": {
+    "id": "CGEX:VarInterp213",
+    "entityTypeId": "E35"
+  },
+  "CGEX:IndGeno214": {
+    "id": "CGEX:IndGeno214",
+    "entityTypeId": "E28"
+  },
+  "CGEX:IndCond215": {
+    "id": "CGEX:IndCond215",
+    "entityTypeId": "E17"
+  },
+  "CGEX:VarInterp216": {
+    "id": "CGEX:VarInterp216",
+    "entityTypeId": "E35"
+  },
+  "CGEX:CondPenet218": {
+    "id": "CGEX:CondPenet218",
+    "entityTypeId": "E50"
+  },
+  "CGEX:RegTyp220": {
+    "id": "CGEX:RegTyp220",
+    "entityTypeId": "E24"
+  },
+  "CGEX:RegTyp221": {
+    "id": "CGEX:RegTyp221",
+    "entityTypeId": "E24"
+  },
+  "CGEX:AllConservScore222": {
+    "id": "CGEX:AllConservScore222",
+    "entityTypeId": "E53"
+  },
+  "CGEX:MolCon223": {
+    "id": "CGEX:MolCon223",
+    "entityTypeId": "E02"
+  },
+  "CGEX:AllConservScore224": {
+    "id": "CGEX:AllConservScore224",
+    "entityTypeId": "E53"
+  },
+  "CGEX:RegTyp225": {
+    "id": "CGEX:RegTyp225",
+    "entityTypeId": "E24"
+  },
+  "CGEX:AllConservScore226": {
+    "id": "CGEX:AllConservScore226",
+    "entityTypeId": "E53"
+  },
+  "CGEX:MolCon227": {
+    "id": "CGEX:MolCon227",
+    "entityTypeId": "E02"
+  },
+  "CGEX:AllConservScore228": {
+    "id": "CGEX:AllConservScore228",
+    "entityTypeId": "E53"
+  },
+  "CGEX:RegTyp229": {
+    "id": "CGEX:RegTyp229",
+    "entityTypeId": "E24"
+  },
+  "CGEX:AllConservScore230": {
+    "id": "CGEX:AllConservScore230",
+    "entityTypeId": "E53"
+  },
+  "CGEX:MolCon231": {
+    "id": "CGEX:MolCon231",
+    "entityTypeId": "E02"
+  },
+  "CGEX:InSilicoPred232": {
+    "id": "CGEX:InSilicoPred232",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred233": {
+    "id": "CGEX:InSilicoPred233",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred234": {
+    "id": "CGEX:InSilicoPred234",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred235": {
+    "id": "CGEX:InSilicoPred235",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred236": {
+    "id": "CGEX:InSilicoPred236",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred237": {
+    "id": "CGEX:InSilicoPred237",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred238": {
+    "id": "CGEX:InSilicoPred238",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred239": {
+    "id": "CGEX:InSilicoPred239",
+    "entityTypeId": "E47"
+  },
+  "CGEX:InSilicoPred240": {
+    "id": "CGEX:InSilicoPred240",
+    "entityTypeId": "E47"
+  },
+  "CGEX:IndGeno241": {
+    "id": "CGEX:IndGeno241",
+    "entityTypeId": "E28"
+  },
+  "CGEX:IndCond242": {
+    "id": "CGEX:IndCond242",
+    "entityTypeId": "E17"
+  },
+  "CGEX:VarInterp243": {
+    "id": "CGEX:VarInterp243",
+    "entityTypeId": "E35"
+  },
+  "CGEX:IndGeno244": {
+    "id": "CGEX:IndGeno244",
+    "entityTypeId": "E28"
+  },
+  "CGEX:AllConservScore245": {
+    "id": "CGEX:AllConservScore245",
+    "entityTypeId": "E53"
+  },
+  "CGEX:IndCond246": {
+    "id": "CGEX:IndCond246",
+    "entityTypeId": "E17"
+  },
+  "CGEX:VarInterp247": {
+    "id": "CGEX:VarInterp247",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp248": {
+    "id": "CGEX:VarInterp248",
+    "entityTypeId": "E35"
+  },
+  "CGEX:IndGeno249": {
+    "id": "CGEX:IndGeno249",
+    "entityTypeId": "E28"
+  },
+  "CGEX:IndCond250": {
+    "id": "CGEX:IndCond250",
+    "entityTypeId": "E17"
+  },
+  "CGEX:VarInterp251": {
+    "id": "CGEX:VarInterp251",
+    "entityTypeId": "E35"
+  },
+  "CGEX:IndCond252": {
+    "id": "CGEX:IndCond252",
+    "entityTypeId": "E17"
+  },
+  "CGEX:IndGeno253": {
+    "id": "CGEX:IndGeno253",
+    "entityTypeId": "E28"
+  },
+  "CGEX:VarInterp254": {
+    "id": "CGEX:VarInterp254",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp255": {
+    "id": "CGEX:VarInterp255",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp256": {
+    "id": "CGEX:VarInterp256",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp257": {
+    "id": "CGEX:VarInterp257",
+    "entityTypeId": "E35"
+  },
+  "CGEX:InSilicoPred258": {
+    "id": "CGEX:InSilicoPred258",
+    "entityTypeId": "E47"
+  },
+  "CGEX:AllConserv259": {
+    "id": "CGEX:AllConserv259",
+    "entityTypeId": "E51"
+  },
+  "CGEX:AllConserv260": {
+    "id": "CGEX:AllConserv260",
+    "entityTypeId": "E51"
+  },
+  "CGEX:MolCon261": {
+    "id": "CGEX:MolCon261",
+    "entityTypeId": "E02"
+  },
+  "CGEX:InSilicoPred262": {
+    "id": "CGEX:InSilicoPred262",
+    "entityTypeId": "E47"
+  },
+  "CGEX:AllConserv263": {
+    "id": "CGEX:AllConserv263",
+    "entityTypeId": "E51"
+  },
+  "CGEX:AllConserv264": {
+    "id": "CGEX:AllConserv264",
+    "entityTypeId": "E51"
+  },
+  "CGEX:MolCon265": {
+    "id": "CGEX:MolCon265",
+    "entityTypeId": "E02"
+  },
+  "CGEX:InSilicoPred266": {
+    "id": "CGEX:InSilicoPred266",
+    "entityTypeId": "E47"
+  },
+  "CGEX:AllConserv267": {
+    "id": "CGEX:AllConserv267",
+    "entityTypeId": "E51"
+  },
+  "CGEX:AllConserv268": {
+    "id": "CGEX:AllConserv268",
+    "entityTypeId": "E51"
+  },
+  "CGEX:MolCon269": {
+    "id": "CGEX:MolCon269",
+    "entityTypeId": "E02"
+  },
+  "CGEX:VarInterp270": {
+    "id": "CGEX:VarInterp270",
+    "entityTypeId": "E35"
+  },
+  "CGEX:FamSeg271": {
+    "id": "CGEX:FamSeg271",
+    "entityTypeId": "E45"
+  },
+  "CGEX:MolCon272": {
+    "id": "CGEX:MolCon272",
+    "entityTypeId": "E02"
+  },
+  "CGEX:CondMech273": {
+    "id": "CGEX:CondMech273",
+    "entityTypeId": "E03"
+  },
+  "CGEX:VarInterp274": {
+    "id": "CGEX:VarInterp274",
+    "entityTypeId": "E35"
+  },
+  "CGEX:CritAssess275": {
+    "id": "CGEX:CritAssess275",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess276": {
+    "id": "CGEX:CritAssess276",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess277": {
+    "id": "CGEX:CritAssess277",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess278": {
+    "id": "CGEX:CritAssess278",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess279": {
+    "id": "CGEX:CritAssess279",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess280": {
+    "id": "CGEX:CritAssess280",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess281": {
+    "id": "CGEX:CritAssess281",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess282": {
+    "id": "CGEX:CritAssess282",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess283": {
+    "id": "CGEX:CritAssess283",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess284": {
+    "id": "CGEX:CritAssess284",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess285": {
+    "id": "CGEX:CritAssess285",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess286": {
+    "id": "CGEX:CritAssess286",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess287": {
+    "id": "CGEX:CritAssess287",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess288": {
+    "id": "CGEX:CritAssess288",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess289": {
+    "id": "CGEX:CritAssess289",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess290": {
+    "id": "CGEX:CritAssess290",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess291": {
+    "id": "CGEX:CritAssess291",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess292": {
+    "id": "CGEX:CritAssess292",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess293": {
+    "id": "CGEX:CritAssess293",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess294": {
+    "id": "CGEX:CritAssess294",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess295": {
+    "id": "CGEX:CritAssess295",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess296": {
+    "id": "CGEX:CritAssess296",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess297": {
+    "id": "CGEX:CritAssess297",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess298": {
+    "id": "CGEX:CritAssess298",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess299": {
+    "id": "CGEX:CritAssess299",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess300": {
+    "id": "CGEX:CritAssess300",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess301": {
+    "id": "CGEX:CritAssess301",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess302": {
+    "id": "CGEX:CritAssess302",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess303": {
+    "id": "CGEX:CritAssess303",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess304": {
+    "id": "CGEX:CritAssess304",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess305": {
+    "id": "CGEX:CritAssess305",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess306": {
+    "id": "CGEX:CritAssess306",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess307": {
+    "id": "CGEX:CritAssess307",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess308": {
+    "id": "CGEX:CritAssess308",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess309": {
+    "id": "CGEX:CritAssess309",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess310": {
+    "id": "CGEX:CritAssess310",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess311": {
+    "id": "CGEX:CritAssess311",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess312": {
+    "id": "CGEX:CritAssess312",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess313": {
+    "id": "CGEX:CritAssess313",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess314": {
+    "id": "CGEX:CritAssess314",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess315": {
+    "id": "CGEX:CritAssess315",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess316": {
+    "id": "CGEX:CritAssess316",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess318": {
+    "id": "CGEX:CritAssess318",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess319": {
+    "id": "CGEX:CritAssess319",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess320": {
+    "id": "CGEX:CritAssess320",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess321": {
+    "id": "CGEX:CritAssess321",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess322": {
+    "id": "CGEX:CritAssess322",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess323": {
+    "id": "CGEX:CritAssess323",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess324": {
+    "id": "CGEX:CritAssess324",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess325": {
+    "id": "CGEX:CritAssess325",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess326": {
+    "id": "CGEX:CritAssess326",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess327": {
+    "id": "CGEX:CritAssess327",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess328": {
+    "id": "CGEX:CritAssess328",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess329": {
+    "id": "CGEX:CritAssess329",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess330": {
+    "id": "CGEX:CritAssess330",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess331": {
+    "id": "CGEX:CritAssess331",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess333": {
+    "id": "CGEX:CritAssess333",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess334": {
+    "id": "CGEX:CritAssess334",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess335": {
+    "id": "CGEX:CritAssess335",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess336": {
+    "id": "CGEX:CritAssess336",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess337": {
+    "id": "CGEX:CritAssess337",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess338": {
+    "id": "CGEX:CritAssess338",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess339": {
+    "id": "CGEX:CritAssess339",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess340": {
+    "id": "CGEX:CritAssess340",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess341": {
+    "id": "CGEX:CritAssess341",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess342": {
+    "id": "CGEX:CritAssess342",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess343": {
+    "id": "CGEX:CritAssess343",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess344": {
+    "id": "CGEX:CritAssess344",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess345": {
+    "id": "CGEX:CritAssess345",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess346": {
+    "id": "CGEX:CritAssess346",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess347": {
+    "id": "CGEX:CritAssess347",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess348": {
+    "id": "CGEX:CritAssess348",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess350": {
+    "id": "CGEX:CritAssess350",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess351": {
+    "id": "CGEX:CritAssess351",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess352": {
+    "id": "CGEX:CritAssess352",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess353": {
+    "id": "CGEX:CritAssess353",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess354": {
+    "id": "CGEX:CritAssess354",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess355": {
+    "id": "CGEX:CritAssess355",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess356": {
+    "id": "CGEX:CritAssess356",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess357": {
+    "id": "CGEX:CritAssess357",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess358": {
+    "id": "CGEX:CritAssess358",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess359": {
+    "id": "CGEX:CritAssess359",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess360": {
+    "id": "CGEX:CritAssess360",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess361": {
+    "id": "CGEX:CritAssess361",
+    "entityTypeId": "E09"
+  },
+  "CGEX:InSilicoPred362": {
+    "id": "CGEX:InSilicoPred362",
+    "entityTypeId": "E47"
+  },
+  "CGEX:CritAssess363": {
+    "id": "CGEX:CritAssess363",
+    "entityTypeId": "E09"
+  },
+  "CGEX:VarInterp364": {
+    "id": "CGEX:VarInterp364",
+    "entityTypeId": "E35"
+  },
+  "CGEX:VarInterp365": {
+    "id": "CGEX:VarInterp365",
+    "entityTypeId": "E35"
+  },
+  "CGEX:IndGeno366": {
+    "id": "CGEX:IndGeno366",
+    "entityTypeId": "E28"
+  },
+  "CGEX:IndCond368": {
+    "id": "CGEX:IndCond368",
+    "entityTypeId": "E17"
+  },
+  "CGEX:CritAssess369": {
+    "id": "CGEX:CritAssess369",
+    "entityTypeId": "E09"
+  },
+  "CGEX:AllFreq370": {
+    "id": "CGEX:AllFreq370",
+    "entityTypeId": "E23"
+  },
+  "CGEX:CritAssess371": {
+    "id": "CGEX:CritAssess371",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess372": {
+    "id": "CGEX:CritAssess372",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess373": {
+    "id": "CGEX:CritAssess373",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess374": {
+    "id": "CGEX:CritAssess374",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess375": {
+    "id": "CGEX:CritAssess375",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess376": {
+    "id": "CGEX:CritAssess376",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess377": {
+    "id": "CGEX:CritAssess377",
+    "entityTypeId": "E09"
+  },
+  "CGEX:CritAssess378": {
+    "id": "CGEX:CritAssess378",
+    "entityTypeId": "E09"
+  },
+  "CGEX:RegAll380": {
+    "id": "CGEX:RegAll380",
+    "entityTypeId": "E25"
+  },
+  "CGEX:RegAll382": {
+    "id": "CGEX:RegAll382",
+    "entityTypeId": "E25"
+  },
+  "CGEX:RegAll384": {
+    "id": "CGEX:RegAll384",
+    "entityTypeId": "E25"
+  },
+  "CGEX:RegAll391": {
+    "id": "CGEX:RegAll391",
+    "entityTypeId": "E25"
+  },
+  "CGEX:RegAll393": {
+    "id": "CGEX:RegAll393",
+    "entityTypeId": "E25"
+  },
+  "CGEX:RegAll395": {
+    "id": "CGEX:RegAll395",
+    "entityTypeId": "E25"
+  },
+  "CGEX:Null396": {
+    "id": "CGEX:Null396",
+    "entityTypeId": "E08"
+  },
+  "CGEX:Null397": {
+    "id": "CGEX:Null397",
+    "entityTypeId": "E08"
+  },
+  "CGEX:Null398": {
+    "id": "CGEX:Null398",
+    "entityTypeId": "E08"
+  },
+  "CGEX:Null399": {
+    "id": "CGEX:Null399",
+    "entityTypeId": "E08"
+  },
+  "CGEX:Null404": {
+    "id": "CGEX:Null404",
+    "entityTypeId": "E08"
+  },
+  "CGEX:Null405": {
+    "id": "CGEX:Null405",
+    "entityTypeId": "E08"
+  },
+  "CGEX:Null406": {
+    "id": "CGEX:Null406",
+    "entityTypeId": "E08"
+  },
+  "CGEX:Null407": {
+    "id": "CGEX:Null407",
+    "entityTypeId": "E08"
+  },
+  "CGEX:Null408": {
+    "id": "CGEX:Null408",
+    "entityTypeId": "E08"
+  },
+  "CGEX:Null415": {
+    "id": "CGEX:Null415",
+    "entityTypeId": "E08"
+  },
+  "CGEX:Null416": {
+    "id": "CGEX:Null416",
+    "entityTypeId": "E08"
   }
 }
