@@ -1,0 +1,138 @@
+
+    <%- entity = data.flattened.Type[entity_id] %>
+
+    <!-- this is primarily the Scope and Usage section -->
+    <h2>Scope and Usage</h2>
+    <%= render_markdown(entity['comments'] || '') %>
+
+    <!-- image here if available -->
+    <% if entity.has_key?('imageFile') %>
+    <%= image_tag entity.imageFile  %>
+    <% end %>
+
+    <%- local_attributes = attributes_by_entity(entity_id) %>
+    <% if local_attributes.any? %>
+    <h2>Attributes</h2>
+
+        <table class="table table-striped table-bordered" cellspacing="0" width="100%">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Cardinality</th>
+                <th>Description</th>
+                <th>IRI</th>
+            </tr>
+            </thead>
+            <tbody>
+        <% local_attributes.each do |a| %>
+            <tr>
+                <td><%= a['name'] %></td>
+                <td><%= a['dataType'] %></td>
+                <td><%= a['cardinality'] %></td>
+                <td><%= a['description'] %></td>
+                <td><%= a['iri'] %></td>
+            </tr>
+        <% end %>
+            </tbody>
+        </table>
+    <% end # if there are local attributes %>
+
+<!--
+    <%- inherited_attributes = inherited_attributes_by_entity(entity_id) %>
+    <% if inherited_attributes.any? %>
+    <h2>Inherited Attributes</h2>
+
+        <table class="table table-striped table-bordered" cellspacing="0" width="100%">
+            <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Cardinality</th>
+                <th>Description</th>
+                <th>IRI</th>
+            </tr>
+            </thead>
+            <tbody>
+                <% inherited_attributes.each do |a| %>
+                <tr>
+                    <td><%= a['name'] %></td>
+                    <td><%= a['dataType'] %></td>
+                    <td><%= a['cardinality'] %></td>
+                    <td><%= a['description'] %></td>
+                    <td><%= a['iri'] %></td>
+                </tr>
+                <% end %>
+            </tbody>
+        </table>
+    <% end # if there are inherited attributes %>
+-->
+
+    <%- examples = examples_by_type(entity_id) || [] %>
+    <% if examples.any? %>
+    <h2>Examples</h2>
+    <table class="datatables table table-striped table-bordered" cellspacing=0 width="100%">
+      <thead><tr>
+        <th>ID</th>
+        <% inherited_attributes.each do |attrib| %>
+        <% next if ['contribution', 'source'].include? attrib['name'] %>
+        <th><%= attrib['name'] %></th>
+        <% end %>
+        <% local_attributes.each do |attrib| %>
+        <th><%= attrib['name'] %></th>
+        <% end %>
+      </tr></thead>
+      <tbody>
+      <% examples.each do |ex| %>
+        <tr>
+          <td><%= example_table_item(ex) %></td>
+          <% inherited_attributes.each do |attrib| %>
+          <% next if ['contribution', 'source'].include? attrib['name'] %>
+          <td>
+              <%= example_table_item(ex[attrib['name']]) %>
+         </td>
+          <% end %>
+          <% local_attributes.each do |attrib| %>
+          <td>
+              <%= example_table_item(ex[attrib['name']]) %>
+         </td>
+          <% end %>
+          <!--
+          <td><div class="example_view" id="<%= ex['id'] %>"><pre><code><%= JSON.pretty_generate(ex) %>
+          </code></pre></div></td>
+          -->
+        </tr>
+
+      <% end # each example %>
+      </tbody>
+    </table>
+    <script>
+window.addEventListener('load', function() {
+    $('.datatables').DataTable();
+});
+    </script>
+    <!--
+    <script>
+var fix_ellipses = function ($view) {
+    $view.find('ul.obj li a:contains("id")').parent().parent().parent().children('.ellipsis').each(function () {
+        $(this).html('<em>' + $(this).next('ul').find('a:contains("id")').next('.string')[0].innerText + ', …</em>')
+    })
+    $view.find('ul.array').each(function () {
+        $(this).parent().children('.ellipsis').html('<em>… [' + $(this).children('li').size() + ']</em>')
+    })
+}
+
+window.addEventListener('load', function () {
+    $('.example_view').each(function() {
+        var $view = $(this);
+        $view.JSONView($(this).text(), {collapsed: true})
+        fix_ellipses($view)
+        $view.find('.collapser').click(function (e) { fix_ellipses($view); })
+        $view.next('a.prop').click(function (e) { fix_ellipses($view); })
+    })
+
+})
+    </script>
+    -->
+    <% end # if there are examples %>
+
