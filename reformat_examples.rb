@@ -171,6 +171,13 @@ class DMWGExampleData
       end
     end
 
+    # remove 'type' attribute from things that are just of type 'Entity'
+    @data_by_id.each do |id, d|
+      if d['type'] === 'Entity' then
+        d.delete 'type'
+      end
+    end
+
   end # initialize
 
   private
