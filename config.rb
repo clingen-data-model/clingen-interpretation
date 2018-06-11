@@ -59,6 +59,10 @@ $dmwg_examples.data_by_id.each do |k,v|
   proxy "/json/#{k}", "/templates/entity.json", :locals => { :object => v_with_context },
     :ignore => true, :layout => false, :directory_indexes => true
 end
+$dmwg_examples.types_by_entity_id.each do |e_id, type|
+  proxy "/generated/#{type['name']}.html", 'templates/entity.html', :locals => { :entity_id => e_id },
+    :layout => "layout.erb", :ignore => true, :directory_indexes => true
+end
 proxy "/json/Types", "/templates/entity.json", :locals => { :object => $dmwg_examples.types_by_entity_id },
   :ignore => true, :layout => false, :directory_indexes => true
 proxy "/json/context", "/templates/entity.json", :locals => { :object => construct_context() },
