@@ -1,5 +1,5 @@
 ---
-title: Interpretation Model
+title: Variant Pathogenicity Interpretation Model
 model: interpretation
 
 ---
@@ -25,9 +25,9 @@ Benefits of the ClinGen Interpretation Model
 * Other features:
     * Flexibility: This model is naturally able to represent a range of interpretation depth, from unsupported assertions to fully evidence-based interpretations, using whatever level of data has been captured.
     * Contains an extensive set of data objects for representing frequently used information
-    * Defines a message structure using industry-standard JSON
+    * Defines a message structure using industry-standard JSON-LD
     * Extensible: Easily transferable to other types of interpretations other interpretation methods
-    * Well-documented, including many examples of using the model to encode variant interpretations using all of the ACMG guidelines
+    * Well-documented, including many examples of using the model to encode variant interpretations using all of the ACMG/AMP guidelines
 
 Development by Example
 ----------------------
@@ -38,9 +38,4 @@ variants, development has been guided by real-world examples based on the applic
 Status
 ------
 
-Version 1 of the interpretation model was [released](user/release_notes.html) October 13, 2017, and allows the description of variant pathogenicity interpretations based on the [ACMG guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html){:target="acmgguidelines"}.   Version 2 will incorporate variant interpretations across a broader set of entities and styles, and is currently in the scoping phase.
-
-Documentation
--------------
-
-The documentation for the Interpretation Model is divided into two sections.  The [User Guide](user/) is meant for those new to the model, and for those seeking a non-technical explanation describes the structure of the model and its relationships to Monarch SEPIO and W3C-Prov.  The [Technical Reference](tech/) is for technical users and implementers of the model who are already familiar with the overall structure of the model.  The [Technical Reference](tech/) includes detailed information about the data types and attributes used in the data model, as well as numerous examples that show how these types are expressed in a JSON format.
+Version 1 of the interpretation model was [released](user/release_notes.html) June 27, 2018, and allows the description of variant pathogenicity interpretations based on the [ACMG/AMP guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html){:target="acmgguidelines"}.   Version 2 will incorporate variant interpretations across a broader set of entities and styles, and is currently in the scoping phase.
