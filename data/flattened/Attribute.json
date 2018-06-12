@@ -1935,8 +1935,8 @@
     "name": "canonicalAllele",
     "dataType": "CanonicalAllele",
     "cardinality": "0..1",
-    "iri": "CG:0100",
-    "iri-label": "related canonical allele",
+    "iri": "SEPIO:0000275",
+    "iri-label": "is_about_allele",
     "cg-label": "canonicalAllele",
     "precedence": 1.0
   },
@@ -1958,8 +1958,8 @@
     "dataType": "string",
     "cardinality": "0..1",
     "iri": "CG:0004",
-    "iri-label": "allele",
-    "cg-label": "allele",
+    "iri-label": "state",
+    "cg-label": "state",
     "precedence": 3.0
   },
   "A913": {
@@ -2002,8 +2002,8 @@
     "dataType": "string",
     "cardinality": "0..1",
     "iri": "CG:0008",
-    "iri-label": "reference allele",
-    "cg-label": "refAllele",
+    "iri-label": "reference state",
+    "cg-label": "refState",
     "precedence": 4.0
   },
   "A931": {
