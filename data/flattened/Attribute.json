@@ -1932,11 +1932,11 @@
   "A910": {
     "id": "A910",
     "entityId": "E06",
-    "name": "canonicalAllele",
+    "name": "relatedCanonicalAllele",
     "dataType": "CanonicalAllele",
     "cardinality": "0..1",
-    "iri": "SEPIO:0000275",
-    "iri-label": "is_about_allele",
+    "iri": "CG:0100",
+    "iri-label": "related canonical allele",
     "cg-label": "canonicalAllele",
     "precedence": 1.0
   },
@@ -2012,7 +2012,7 @@
     "name": "start",
     "dataType": "Position",
     "cardinality": "0..1",
-    "iri": "CG:0009",
+    "iri": "GENO:0000894",
     "iri-label": "start_position",
     "cg-label": "start",
     "precedence": 2.0
@@ -2023,9 +2023,9 @@
     "name": "end",
     "dataType": "Position",
     "cardinality": "0..1",
-    "iri": "CG:0010",
+    "iri": "GENO:0000895",
     "iri-label": "end_position",
-    "cg-label": "end",
+    "cg-label": "stop",
     "precedence": 3.0
   },
   "A933": {
