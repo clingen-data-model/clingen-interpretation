@@ -121,8 +121,20 @@
               <li class="list-group-item">
                 <h5><%= link_to "Interpretation Overview", "/index.html", :relative => true %></h5>
               </li>
-              <%= link_with_local_index "User Guide", "user/index.html" %>
-              <%= link_with_local_index "Technical Reference", "tech/index.html" %>
+              <li class="list-group-item">
+                <h5><%= link_to "Getting Started", "/getting_started.html", :relative => true %></h5>
+              </li>
+              <li class="list-group-item">
+                <h5><%= link_to "A Deeper Dive", "/deeper_dive.html", :relative => true %></h5>
+              </li>
+              <li class="list-group-item">
+                <h5><%= link_to "FAQ", "/faq.html", :relative => true %></h5>
+              </li>
+              <%= link_with_local_index "Entities", "tech/index.html" %>
+              <%= link_with_local_index "Terminology", "terminology/index.html" %>
+              <li class="list-group-item">
+                <h5><%= link_to "Projects and Tools", "/projects.html", :relative => true %></h5>
+              </li>
               <!-- Old style.  We might still need the model here? -->
               <!--%= link_with_local_index "Entities", "/#{current_page.data.model}/vampi/entities/index.html" %-->
             </ul>
