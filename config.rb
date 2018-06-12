@@ -75,6 +75,9 @@ proxy "/json/Types", "/templates/entity.json", :locals => { :object => $dmwg_exa
 # generates the json-ld context (v1.0 context)
 proxy "/json/context", "/templates/entity.json", :locals => { :object => construct_context() },
   :ignore => true, :layout => false, :directory_indexes => true
+# generates the json-ld SEPIO version of context (v1.0 sepio context)
+proxy "/json/sepio_context", "/templates/entity.json", :locals => { :object => construct_context('sepio') },
+  :ignore => true, :layout => false, :directory_indexes => true
 # generates the json-ld context (v1.1 scoped context)
 proxy "/json/scoped_context", "/templates/entity.json", :locals => { :object => construct_scoped_context() },
   :ignore => true, :layout => false, :directory_indexes => true
