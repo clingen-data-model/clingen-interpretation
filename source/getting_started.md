@@ -1,72 +1,183 @@
 ---
-title: User Guide
-description: The overall structure of ClinGen interpretations, and the use of SEPIO.
+title: Getting Started with the Variant Pathogenicity Interpretation Model
+description: A Gentle Introduction
 model: interpretation
-TODO: go through here and link to e.g. Entity, EvidenceSTatementSource, ...
 
 ---
 
-This guide provides background, use cases, examples, future planning and
-collaborations surrounding ClinGen's Variant Interpretation Model. This portion
-of the documentation is targeted at the health care providers, scientists,
-geneticists, counselors, and researchers that work in or are interested in
-curating and interpreting variants.
-
 ##Introduction
 
-An interpretation is the outcome of structured reasoning applied to evidence.   Interpretations may be made about many kinds of entities using many kinds of evidence, and different formalized reasoning strategies.  Although the overall structure of an interpretation is the same for many cases, the initial version of the interpretation model is limited to interpretations on the pathogenicity of sequence variants made using the [ACMG Pathogenicity Guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html){:target="acmgguidelines"}.   The discussion below will specifically use this context as an example, but the structure of the model is expected to remain largely unchanged as new interpretation contexts are added.
+So you've got a variant pathogenicity interpretation, and you want to share it with the world.  Great, but how do you do that?  The answer is simple - you write your interpretation in a well-defined, machine-readable message and you send it to somebody. Because the message is well structured, following a particular set of rules, that person will be able to understand your message unambiguously.  This page will show you the basics of creating one of these messages.
 
-####The process of generating this type of interpretation is composed of three kinds of activities:
+##The Interpretation
 
-1. Collection of **evidence** from potentially many sources such as literature or databases.
-2. Application of individual **ACMG Guideline Criteria** to the gathered evidence to produce **assessments** about whether individual criteria are satisfied by the evidence.
-3. Combination of these assertions to create an overall **interpretation** of the evidence: a statement about the pathogenicity of a given allele.
+Suppose that are interested in the variant NC_000017.11:g.43092919G>A, which is a missense variant in the BRCA1 gene, and you've determined that this variant is benign.  This assertion is expressed by creating a [VariantPathogenicityInterpretation]() object, expressed in JSON-LD:
+
+(Here, I think I'd like 2 columns.  On the right is the following JSON code box:
+
+```
+{
+  "@context": "http://datamodel.clinicalgenome.org/interpretation/json/context"
+  "id": "EXAMPLE:001",
+  "type": "VariantPathogenicityInterpretation",
+  "variant":  "CAR:CA001721",
+  "statementOutcome": {
+    "id": "LOINC:LA6675-8",
+    "label": "Benign"
+  },
+  "description": "NC_000017.11:g.43092919G>A is benign (because it has a high population frequency)"
+}
+```
+ 
+On the left, this list, either lined up with the JSON rows, or pointing to them or something?
+
+1. A JSON-LD context, which maps attribute names to identifiers 
+2. An identifier for the interpretation
+3. The type in the interpretation model that this JSON node represents.  
+4. A variant identifier: This is the variant that we are interpreting.  
+5. The outcome of the interpretation
+6. A human readable description of the interpretation
+
+-- Now back to normal text ---
+
+Even this simple statement shows off a few features of the model: 
+
+1. We use identifiers for many objects, including interpretations.  This lets you refer to this interpretation later.
+2. It is valid to include either an identifier for an object, or a full representation of the object.  For instance, we represent the variant with an identifier from the [ClinGen Allele Registry](), which we could dereference to obtain a fuller representation.  We could also have included that representation inline - it's up to you and the receiver of the message to decide what you prefer.
+3. We use controlled vocabularies, defined in [ValueSets]() for many terms, such as "Benign". 
+4. Objects in the model can always have a human readable description.
+5. The model is serialized in [JSON-LD](), so we have a [context file]().  Unless you are interested in transforming a message to RDF, you can can probably ignore this, but it will be helpful in integrating these interpretations with messages from other sources.
 
 
-The outcome of this process is visualized as a tree.  The root node of the tree (the root of the JSON document) is the **interpretation**, and it draws upon the conclusions or **assessments** of individual ACMG criteria, and those in turn depend on the **evidence** (the leaves of the tree).
+##Show Your Work: The CriterionAssessment
 
+Our example interpretation does a pretty good job of getting across the what of an interpretation: this variant is benign.  It's not very good, though, at explaining why we think so.  We've added a little note to our description field, but it's just that - some text a human can read, but not something that they're guaranteed to understand, and certainly not something that a machine can process.
+
+An interpretation is the outcome of structured reasoning applied to evidence.   In this example, the interpretation of benign was generated with the process described in the [ACMG/AMP Pathogenicity Guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html){:target="acmgguidelines"}.   This guideline, and others like it, lay out a set of criteria that can be applied.   Each criterion can be satisfied or not, and each satisfied criteria provides support for or against an interpretation.  
+
+Specifically, the variant in our example satisfied criteria BA1: "Allele frequency is >5% in Exome Sequencing Project, 1000 Genomes Project, or Exome Aggregation Consortium", and we now want to express that in JSON-LD:
+
+--back to the two columns--
+right:
+```
+{
+  "id": "EXAMPLE:002",
+  "type": "CriterionAssessment",
+  "variant": "CAR:CA001721",
+  "criterion": {
+    "id": "SEPIO-CG:99038",
+    "type": "VariantPathogenicityInterpretationCriterion",
+    "label": "BA1",
+    "description": "Allele frequency is >5% in Exome Sequencing Project, 1000 Genomes Project, or Exome Aggregation Consortium",
+    "usageNotes": "Several groups have lowered the BA1 threshold (e.g. PTEN-1%). Also the sequence variant interpretation group is working on a modified version of this guideline including the minimum # of alleles that need to be examined and the population stratification effects, if any.",
+    "defaultStrength": {
+      "id": "SEPIO:0000325",
+      "label": "Benign Stand Alone"
+    }
+  },
+  "statementOutcome": {
+    "id": "SEPIO:0000223",
+    "label": "Met"
+  }
+}
+```
+left:
+1. The identifier of this CriterionAssessment
+2. The type of this object
+3. The identifier of the variant being assessed
+4. The criterion being used to assess the variant
+5. the outcome of the assessment
+--back to the regular--
+
+In this JSON-LD snippet, we are expressing the idea that variant "CAR:CA001721" met the criteria in "SEPIO-CG:99038", which is the identifier for the rule labeled "BA1".  Here, we have included a full JSON-LD representation of the criterion, but this could also be replaced with just the id "SEPIO-CG:99038" for conciseness.   Note that unlike the CriterionAssessment or criterion, the values for defaultStrength and statementOutcome do not contain a "type".   These are examples of values that lack any structure, but are simply identifiers. 
+
+
+##Show Your Work 2: The Evidence
+
+We now know that our Variant Pathogenicity Interpretation is supported by a Criterion Assessment.  But the Criterion Assessment is just another assertion; how do we know that it is true?  What Evidence supports it?  The Variant Pathogenicity Interpretation model contains a wide variety of evidence types that can be used to support assessments.  For instance, meeting BA1 requires a high allele frequency.  So the measured allele frequency is evidence that BA1 is met:
+
+----- Two columns:
+Left:
+1. The identifier of this frequency statement
+2. The method used to create the sample in which the frequency was measured
+3. The ancestral background of the people in the sample
+4. The allele 
+5. The frequency of the allele in the sample
+
+Right:
+```
+{
+  "id": "EXAMPLE:003",
+  "type": "PopulationAlleleFrequencyStatement",
+  "ascertainment": {
+    "id": "SEPIO:0000409",
+    "label": "gnomAD ascertainment method"
+  },
+  "population": {
+    "id": "SEPIO-CG:98001",
+    "label": "Combined"
+  },
+  "allele":  "id": "CAR:001721",
+  "alleleFrequency": 0.41,
+}
+```
+------ One column
+
+
+In English, the allele has a 41% allele frequency in the combined gnomAD population.   The PopulationAlleleFrequencyStatement has many optional attributes, like the number of chromosomes sampled, the number that have the allele, number of homozygotes, and so on.  These are useful attributes, but we have omitted them for this section.
+
+
+##Putting it all together
+
+Some users may want to include only a subset of this information, but the true power of this model lies in its ability to encompass the entire evidence chain in a flexible and extensible way.  Typically, we envision sending a message that combines all of this information as depicted here:
+
+--- two columns
+
+Left:
 ![Interpretation Figure 1](../images/interp-f1.svg)
 
-An interpretation without the supporting evidence and reasoning is merely an assertion.  Inclusion of the evidence and reasoning allows the receiver to draw their own conclusions, and to reasonably build upon the work carried out by an interpretations original creators.
 
-The model is loosely coupled; individual entities (assertions or primary data elements) have at least a conceptual existence outside a given interpretation, so that the same piece of evidence that is generated for one interpretation may be retained, along with its provenance, and used in later interpretations.  
+Right:
+```
+{
+  "@context": "http://datamodel.clinicalgenome.org/interpretation/json/context"
+  "id": "EXAMPLE:001",
+  "type": "VariantPathogenicityInterpretation",
+  ...
+  "evidenceLine":[
+  {
+    "evidenceStrength": {
+       "id": "SEPIO:0000325"
+       "label": "Benign Stand Alone"
+    }
+    "evidenceItem": [
+    {
+      "id": "EXAMPLE:002",
+      "type": "CriterionAssessment",
+      ...
+      "evidenceLine":[
+      {
+        "evidenceItem":[
+        {
+           "id": "EXAMPLE:003"
+           "type": "PopulationAlleleFrequencyStatement",
+           ...
+        }
+        ]
+      }
+      ]
+    }
+    ]
+  }
+  ]
+}
+```
+------ one column
 
-The tree structure of the model is collapsible.  If a user is interested only in the final interpretation, they need to simply access the root node of the structure.  Suppose however, that a user has a discrepant interpretation.  The initial question in such a case would be "which ACMG criteria were used to generate the interpretation?"  The user can answer this question by moving one level in the graph to see which lines of evidence were used by the interpretation.  Suppose further that most of these assessments concur with the users' but that one is not.  Then the user may inspect the branch of the tree corresponding to that conflicting assessment, allowing inspection of the particular evidence and where that evidence came from.
+The structure of this message is pretty simple: Our interpretation (EXAMPLE:001) is the root of the message.  It contains an EvidenceLine, which in turn contains, as an evidenceItem, the CriterionAssessment (EXAMPLE:002).  Through the same EvidenceLine mechanism, the assessment contains the evidence item that supports it, namely the allele frequency (EXAMPLE:003).
 
-##SEPIO
+The important part here is that supporting evidence is not directly connected to the supported statement, but is attached via an EvidenceLine. The reason for this is discussed later, but you can get a hint by noticing that the strength of the assessment in supporting the interpretation is not part of the interpretation or the assessment, but of the evidence line.
 
-The interpretation model requires a structure describing the relationship between a conclusion and the evidence that led to this conclusion;  the Scientific Evidence and Provenance Information Ontology ([SEPIO](./sepio.html)) provides such a structure.  In SEPIO, an [assertion](https://github.com/monarch-initiative/SEPIO-ontology/wiki/Assertion){:target="sepioassertion"} is the conclusion drawn from reasoning about [information](https://github.com/monarch-initiative/SEPIO-ontology/wiki/Evidence-Item){:target="sepioevidenceitem"}.   This information can be either data, like an allele frequency, or a prior assertion.
+##Next Steps
 
-[comment]: # (Larry's SEPIO/ClinGen diagram here.   We can add more text once we see the figure, but the words below should be close.)
-
-The ability for one SEPIO assertion to support another is the key in how we use SEPIO to structure our interpretation documents.   A VariantInterpretation is a SEPIO assertion, and it is supported by a CriteriaAssessment, which is also a ClinVar assertion. This CriteriaAssessment is, in turn, supported by measured data.  In other words, the data is used to create an intermediate assertion: a CriteriaAssessment saying that, for example, BA1 is satisfied for this variant.   This CriteriaAssessment (and potentially other such CriteriaAssessments) are then used to create the final VariantInterpretation in a second cycle of the basic SEPIO model.
-
-##Evidence Lines
-
-In the ClinGen interpretation model, as well as in SEPIO, assertions are not directly linked to their underlying evidence.  Rather, this link is mediated by an EvidenceLine node.  These nodes serve two purposes: First, they are structural nodes used as an umbrella to combine multiple individually-coded evidence statements that should be considered together.  Second, properties of EvidenceLines can be used for values that are not specific to the assertion or the supporting data, but to the relationship between them.
-
-In the ClinGen interpretation model,  one such property is the strength with which a CriteriaAssessment supports an Interpretation.  When an expert applies a criteria, they may find that a particular criteria is satisfied by a given set of data.   The particular criteria (such as PS1 or BP2) has a default strength describing how much weight should be given to this finding in creating the overall interpretation.  However, the expert analyst may override the default and find that in the case of this interpretation, this assessment may be judged to have increased or decreased strength.  This strength, then, is a property of the EvidenceLine, because it is a property of how much the assessment is used in the context of this specific interpretation.
-
-##Contributions
-
-In addition to capturing the structure of interpretation arguments, the model captures granular statements about the provenance of particular entities.   Interpretations, Assessments, EvidenceLines, and Statements can each be tagged with a Contribution, defining **when** the entity was created it and **who** created it, along with the **role** in which they were acting.
-
-With this approach, multiple agents, both human and computational, can be noted as contributing to a specific element in a document, and different agents can be assigned as contributing to different precisely defined aspects of creating an interpretation.
-
-##JSON-LD
-
-The native encoding of ClinGen interpretations is JSON-LD.  In particular, instances of classes in the interpretation model are expressed as JSON objects with types matching the name of the class.  Property names in the model appear in the JSON-LD serialization as keys.  
-
-##Further Reading
-
-The user guide for the ClinGen model contains information about [SEPIO](sepio.html) and [Projects](projects.html) that either aid authoring of the ClinGen interpretation model or depend on the model.
-
-The [technical reference](../tech) contains specifications of the classes and properties in which the model is expressed.
-
-The [examples]() in the documentation are a large set of JSON-LD documents and snippets that explain
-
-1. How each class is used.
-2. How the assessment of ACMG criteria may be expressed.
-3. How all of the entities fit together to create a complete interpretation document.
-
-The [SEPIO documentation](https://github.com/monarch-initiative/SEPIO-ontology/wiki){:target="sepio"} describes the generic use of the SEPIO ontology.
+By now, you should have a pretty good idea about the main classes in the interpretation model and how they fit together.  But there's still lots of exciting details to plumb!  To learn about tracking provenance, value sets, alleles, SEPIO, and many other topics, you can continue on to the [more detailed documentation]() and the [FAQ]().  Alternately, you can browse the [class hierarchy](), the [examples](), or some of the [projects]() based on the model.  
