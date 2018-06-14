@@ -11,7 +11,7 @@ So you've got a variant pathogenicity interpretation, and you want to share it w
 
 ##The Interpretation
 
-Suppose that are interested in the variant NC_000017.11:g.43092919G>A, which is a missense variant in the BRCA1 gene, and you've determined that this variant is benign.  This assertion is expressed by creating a [VariantPathogenicityInterpretation]() object, expressed in JSON-LD:
+Suppose that we are interested in the variant NC_000017.11:g.43092919G>A, which is a missense variant in the BRCA1 gene, and you've determined that this variant is benign.  This assertion is expressed by creating a [VariantPathogenicityInterpretation]() object, expressed in JSON-LD:
 
 (Here, I think I'd like 2 columns.  On the right is the following JSON code box:
 
@@ -82,6 +82,7 @@ right:
 }
 ```
 left:
+
 1. The identifier of this CriterionAssessment
 2. The type of this object
 3. The identifier of the variant being assessed
@@ -98,6 +99,7 @@ We now know that our Variant Pathogenicity Interpretation is supported by a Crit
 
 ----- Two columns:
 Left:
+
 1. The identifier of this frequency statement
 2. The method used to create the sample in which the frequency was measured
 3. The ancestral background of the people in the sample
