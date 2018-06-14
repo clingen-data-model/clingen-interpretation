@@ -1384,8 +1384,8 @@
     "cardinality": "0..*",
     "isReference": "yes",
     "iri": "SEPIO-CG:70004",
-    "iri-label": "",
-    "cg-label": "",
+    "iri-label": "concept",
+    "cg-label": "concept",
     "@valueSetId": "",
     "precedence": 5.0,
     "description": "An individual entry in a ValueSet"
@@ -2025,7 +2025,7 @@
     "cardinality": "0..1",
     "iri": "GENO:0000895",
     "iri-label": "end_position",
-    "cg-label": "stop",
+    "cg-label": "end",
     "precedence": 3.0
   },
   "A933": {

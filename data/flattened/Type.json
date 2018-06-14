@@ -88,8 +88,8 @@
     "link": "VS",
     "level1": "Foundation",
     "level2": "Terminology",
-    "iri": "SEPIO-CG:02000",
-    "iri-label": "",
+    "iri": "SEPIO-CG:0200",
+    "iri-label": "value set",
     "cg-label": "ValueSet",
     "description": "A set of identifiers that can be used as the values of specific properties",
     "comments": "TODO"
@@ -502,7 +502,8 @@
     "level1": "Domain Entity",
     "level2": "Allele",
     "iri": "CG:0022",
-    "iri-label": "contextual allele coordinate position"
+    "iri-label": "contextual allele coordinate position",
+    "cg-label": "Position"
   },
   "E91": {
     "id": "E91",
@@ -512,7 +513,8 @@
     "level1": "Domain Entity",
     "level2": "Allele",
     "iri": "CG:0021",
-    "iri-label": "contextual allele coordinate"
+    "iri-label": "contextual allele coordinate",
+    "cg-label": "ReferenceCoordinate"
   },
   "E22": {
     "id": "E22",
