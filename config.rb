@@ -59,14 +59,26 @@ $dmwg_examples.data_by_id.each do |k,v|
   proxy "/json/#{k}", "/templates/entity.json", :locals => { :object => v_with_context },
     :ignore => true, :layout => false, :directory_indexes => true
 end
+# generating entity pages 
 $dmwg_examples.types_by_entity_id.each do |e_id, type|
   proxy "/generated/#{type['name']}.html", 'templates/entity.html', :locals => { :entity_id => e_id },
     :layout => "layout.erb", :ignore => true, :directory_indexes => true
 end
+# generating value set pages 
+#$dmwg_examples.valuesets_by_entity_id.each do |e_id, type|
+#  proxy "/generated/#{type['name']}.html", 'templates/valueset.html', :locals => { :entity_id => e_id },
+#    :layout => "layout.erb", :ignore => true, :directory_indexes => true
+#end
+# generates Types.json file
 proxy "/json/Types", "/templates/entity.json", :locals => { :object => $dmwg_examples.types_by_entity_id },
   :ignore => true, :layout => false, :directory_indexes => true
+# generates the json-ld context (v1.0 context)
 proxy "/json/context", "/templates/entity.json", :locals => { :object => construct_context() },
   :ignore => true, :layout => false, :directory_indexes => true
+# generates the json-ld SEPIO version of context (v1.0 sepio context)
+proxy "/json/sepio_context", "/templates/entity.json", :locals => { :object => construct_context('sepio') },
+  :ignore => true, :layout => false, :directory_indexes => true
+# generates the json-ld context (v1.1 scoped context)
 proxy "/json/scoped_context", "/templates/entity.json", :locals => { :object => construct_scoped_context() },
   :ignore => true, :layout => false, :directory_indexes => true
 ignore "/templates/"
