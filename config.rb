@@ -247,13 +247,15 @@ helpers do
   end
 
   def attributes_by_entity(entityId)
-    $dmwg_examples.attributes_by_entity_id[entityId].select { |i| i['entityId'] == entityId }
+    $dmwg_examples.attributes_by_entity_id[entityId]
+      .select { |i| i['entityId'] == entityId }
+      .collect { |i| i.merge({'defined_in' => $dmwg_examples.types_by_entity_id[i['entityId']]['name']})}
   end
 
   def inherited_attributes_by_entity(entityId)
     $dmwg_examples.attributes_by_entity_id[entityId]
       .select { |i| i['entityId'] != entityId }
-      .each { |i| i.merge({'inherited_from' => data.flattened.Type[i['entityId']]})}
+      .collect { |i| i.merge({'defined_in' => $dmwg_examples.types_by_entity_id[i['entityId']]['name']})}
   end
 
   def examples_by_type(type)
