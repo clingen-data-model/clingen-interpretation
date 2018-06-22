@@ -54,27 +54,33 @@ The basic structure of non-pathogenicity interpretations, such as somatic interp
 
 Users will notice that there is no class in the data model for Gene. There is also no Disease or Phenotype.  These are not oversights, but intentional decisions based on the following principle: If a data element consists solely of an identifier and a label, then we do not define a class for it.  In these cases, the identifiers will frequently be managed by outside resources such as HGNC, and those resources should be the source of non-identity information about the entity.   Instead of classes, these items are represented simply as identifiers.  Note that in JSON-LD, extra attributes such as "label" can be added to any entry and still validate, reflecting JSON-LD's open-world approach.  Users can therefore attach whatever extra information fits their use case, even to an entry that the model does not specifically create classes for.  In this case, the sender and receiver need to come to agreement on how these extra attributes are meant to be used.
 
-9. How can I relabel an entity?
+9. How are Values constrained?
+
+We want to provide constraints on what values can or should be chosen for certain attributes.   Since many of our values are simply values without a type (see question #8), we cannot use type constraints.  Instead, for properties that use values from a value set, we associate the property with that value set in the documentation.  This indicates that only values from that value set can be attached to the given property.  Note, however,  that some value sets are extensible.  In this case, using a value that is not explicitly part of the value set as defined on the model may still be allowed.
+
+10. How can I relabel an entity?
 
 Terms in ontologies, such as disease ontology, consist of both an identifier and a label.  The identifier is the specific stable string that allows users to understand that they are both talking about the same entity, even if they use different names for it.  However, particular users may have their own set of terms that they use locally for those entities, and which they would like to use in their interpretation messages. For this reason, we have provided the [User Label]() object, which can be attached to any term.   Attaching a user label does not change the label of a term, which is provided by the source that creates the term, but it is an extra piece of information that says "User X calls this thing Y".
 
-10. Can I add extra attributes to an object?
+11. Can I add extra attributes to an object?
 
 Yes.  The interpretation model does not constrain users from adding extra attributes to an object or a term, as long as the attribute does not conflict with some other part of the model.  For instance, it would be illegal to add an attribute "region" unless it means the same thing as the "region" attribute that has already been defined.  Furthermore, for this to be useful, senders and receivers need to agree on both the meaning and use of these attributes.   In principle, the meaning of new attributes should be defined in an extra JSON-LD context element mapping the name of the attribute to an IRI.
 
-11. How are messages validated?
+12. How are messages validated?
 
-There are two kinds of validation that can be performed on JSON-LD pathogenicity interpretation messages.   First, the structure of the messages can be checked to be sure that it conforms to the model. This is accomplished using a json schema.
+There are two kinds of validation that can be performed on JSON-LD pathogenicity interpretation messages.   First, the structure of the messages can be checked to be sure that it conforms to the model. This is accomplished using a JSON schema.  Validation by schema checks to see that elements have the correct type, and the properties of the elements have the correct cardinality.  However, validation by schema does not check values to ensure that they are correct.    Instead, the validator code checks the value set associated with the property to determine whether the value is a member of the value set.  If the value is not a member of the value set, then the validator will either produce a validation error (if the value set is not extensible) or a warning (if the value set is extensible).   The JSON schema and the validator are found in the [interpretation_json]() library.
 
-11. What kinds of things can go into value sets?
+13. What kinds of things can go into value sets?
 
+Most value sets simply contain IRIs with labels.  These IRIs are not represented by classes in our model (see question #8).  However, value sets are not limited to simple IRIs.   A value set can also contain instances of model classes. For instance, one value set contains [Criteria]() instances corresponding to the criteria in the ACMG/AMP guidelines.   Value sets can conceivably also be composed of heterogeneous types, though none of the stock value sets are so constructed.  Finally, some value sets are dynamically constructed meaning that they outsource the values contained to one or more external resources.  For instance, the gene value set points to HGNC, and declares that any gene defined by HGNC is a valid member of the value set.
 
+14. Do elements have to be represented inline?
 
-11. Do elements have to be represented inline?
+No, the LD in JSON-LD stands for Linked Data.  One idea behind linked data is that an identifier (IRI) can stand in for an object, and that this IRI can be dereferenced to return details of the object if the receiver of the message wants them.   Note however, that the representation of the object may not conform to that specified in the interpretation model.  For instance, alleles in the interpretation model can be canonicalized and given an identifier by the ClinGen Allele Registry.   A sender of messages could either include a representation of the allele as defined in the model, or it could simply include the identifier that the ClinGen Allele Registry produces.  In this latter case, if the receiver uses the identifier to retrieve details from the Allele Registry, it will receive a representation that differs slightly from the representation used in the model.
 
+The approach taken in the [interpretation_json]() library is to write an inline version of an entity the first time it is serialized, following the specification of the interpretation model, with subsequent references to that same object simply writing the IRI of the object.  This reduces the burden on the receiver, since they will have the details in a format that are consistent, and it keeps the message as simple as possible by not repeating large chunks of JSON-LD.
 
+15. Does ClinVar accept messages in this format?
 
-12. Does ClinVar accept messages in this format?
-
-
+At present, ClinVar only accepts submissions via their spreadsheet interface.  However, we have provided a method for creating a ClinVar submission spreadsheet from a ClinGen Pathogenicity Interpretation message.  The method can be accessed via the [ClinGen Data Exchange]().
 
