@@ -5,9 +5,9 @@ model: interpretation
 
 ---
 
-1. Are variants represented with the [ClinGen Allele Model](), the [GA4GH VMC Model](), [HGVS]() or something else?
+1. Are variants represented with the [ClinGen Allele Model](http://datamodel.clinicalgenome.org/allele/master/index.html), the [GA4GH VMC Model](https://github.com/ga4gh/vmc), [HGVS](http://varnomen.hgvs.org/) or something else?
 
-Prior to the creation of the Pathogenicity Interpretation Model, The ClinGen Data Model Working Group created an Allele Model that specified a representation of alleles. Subsequently, GA4GH proposed the VMC model.  In later versions, we will bring these two models into alignment, but currently, alleles in interpretations are represented using a slightly modified version of the ClinGen Allele Model.  To show these differences, [ContextualAllele]() and  [CanonicalAllele]() have pages in the Interpretation Model documentation.  The changes are very minor - several attribute names have been slightly changed.  
+Prior to the creation of the Pathogenicity Interpretation Model, The ClinGen Data Model Working Group created an Allele Model that specified a representation of alleles. Subsequently, GA4GH proposed the VMC model.  In later versions, we will bring these two models into alignment, but currently, alleles in interpretations are represented using a slightly modified version of the ClinGen Allele Model.  To show these differences, [ContextualAllele](http://datamodel.clinicalgenome.org/allele/resource/contextual_allele/) and  [CanonicalAllele](http://datamodel.clinicalgenome.org/allele/resource/canonical_allele/) have pages in the Interpretation Model documentation.  The changes are very minor - several attribute names have been slightly changed.  
 
 Genotypes and Haplotypes are not elements of the ClinGen Allele Model.  Here they are represented using a simple format inspired by the VMC model.  In later versions, these variant representations will all converge.
 
@@ -17,7 +17,7 @@ A Contextual Allele is an allele that occurs on a specific sequence.  That seque
 
 A Canonical Allele is a collection of Contextual Alleles that are considered to be equivalent.  It provides an entity that can have a stable identifier applied to it, so that as new Contextual Alleles are discovered, they can be added to existing Canonical Alleles.
 
-See [this discussion]() for more information.
+See [this discussion](http://datamodel.clinicalgenome.org/allele/discussion/canonicalization.html) for more information.
 
 3. Why do some places in the model use Canonical Alleles and others use Contextual Alleles?
 
@@ -25,9 +25,9 @@ If an allele annotation depends on the sequence on which the allele occurs, then
 
 On the other hand, if the annotation is independent of the specific sequence, or if the annotation would be the same no matter which contextual allele was chosen, then the annotation is represented using a Canonical Allele.  This allows the annotation to be uniformly applied to all of the contextual alleles that make up the canonical allele, including those that have not yet been associated with the canonical allele.
 
-4. Is the representation of alleles from the [Allele Registry]() the same as the representation in the Interpretation Model?
+4. Is the representation of alleles from the [Allele Registry](https://reg.clinicalgenome.org/redmine/projects/registry/genboree_registry/landing) the same as the representation in the Interpretation Model?
 
-The Allele Registry is a tool that takes Contextual Alleles as HGVS strings, and returns stable Canonical Allele identifiers, as well as the other Contextual Alleles that comprise the Canonical Allele.  The exact representation of the Canonical Alleles is slightly different from that specified in the Interpretation or Allele models, though it is conceptually similar.  If you are using the Allele Registry to canonicalize your alleles, which is a great idea, you can either simply include the Canonical Allele identifier in the message, or transform the message format into the interpretation model.  There is an Allele class in the interpreation_json software package that can perform this translation for you.
+The Allele Registry is a tool that takes Contextual Alleles as HGVS strings, and returns stable Canonical Allele identifiers, as well as the other Contextual Alleles that comprise the Canonical Allele.  The exact representation of the Canonical Alleles is slightly different from that specified in the Interpretation or Allele models, though it is conceptually similar.  If you are using the Allele Registry to canonicalize your alleles, which is a great idea, you can either simply include the Canonical Allele identifier in the message, or transform the message format into the interpretation model.  There is an Allele class in the [interpretation_json](https://github.com/clingen-data-model/interpretation_json) software package that can perform this translation for you.
 
 5. What if I don't want to use Canonical Alleles?
 
@@ -60,7 +60,7 @@ We want to provide constraints on what values can or should be chosen for certai
 
 10. How can I relabel an entity?
 
-Terms in ontologies, such as disease ontology, consist of both an identifier and a label.  The identifier is the specific stable string that allows users to understand that they are both talking about the same entity, even if they use different names for it.  However, particular users may have their own set of terms that they use locally for those entities, and which they would like to use in their interpretation messages. For this reason, we have provided the [User Label]() object, which can be attached to any term.   Attaching a user label does not change the label of a term, which is provided by the source that creates the term, but it is an extra piece of information that says "User X calls this thing Y".
+Terms in ontologies, such as disease ontology, consist of both an identifier and a label.  The identifier is the specific stable string that allows users to understand that they are both talking about the same entity, even if they use different names for it.  However, particular users may have their own set of terms that they use locally for those entities, and which they would like to use in their interpretation messages. For this reason, we have provided the [User Label](/tech/entity_definitions/terminology/user_label.html) object, which can be attached to any term.   Attaching a user label does not change the label of a term, which is provided by the source that creates the term, but it is an extra piece of information that says "User X calls this thing Y".
 
 11. Can I add extra attributes to an object?
 
@@ -68,7 +68,7 @@ Yes.  The interpretation model does not constrain users from adding extra attrib
 
 12. How are messages validated?
 
-There are two kinds of validation that can be performed on JSON-LD pathogenicity interpretation messages.   First, the structure of the messages can be checked to be sure that it conforms to the model. This is accomplished using a JSON schema.  Validation by schema checks to see that elements have the correct type, and the properties of the elements have the correct cardinality.  However, validation by schema does not check values to ensure that they are correct.    Instead, the validator code checks the value set associated with the property to determine whether the value is a member of the value set.  If the value is not a member of the value set, then the validator will either produce a validation error (if the value set is not extensible) or a warning (if the value set is extensible).   The JSON schema and the validator are found in the [interpretation_json]() library.
+There are two kinds of validation that can be performed on JSON-LD pathogenicity interpretation messages.   First, the structure of the messages can be checked to be sure that it conforms to the model. This is accomplished using a JSON schema.  Validation by schema checks to see that elements have the correct type, and the properties of the elements have the correct cardinality.  However, validation by schema does not check values to ensure that they are correct.    Instead, the validator code checks the value set associated with the property to determine whether the value is a member of the value set.  If the value is not a member of the value set, then the validator will either produce a validation error (if the value set is not extensible) or a warning (if the value set is extensible).   The JSON schema and the validator are found in the [interpretation_json](https://github.com/clingen-data-model/interpretation_json) library.
 
 13. What kinds of things can go into value sets?
 
@@ -78,9 +78,12 @@ Most value sets simply contain IRIs with labels.  These IRIs are not represented
 
 No, the LD in JSON-LD stands for Linked Data.  One idea behind linked data is that an identifier (IRI) can stand in for an object, and that this IRI can be dereferenced to return details of the object if the receiver of the message wants them.   Note however, that the representation of the object may not conform to that specified in the interpretation model.  For instance, alleles in the interpretation model can be canonicalized and given an identifier by the ClinGen Allele Registry.   A sender of messages could either include a representation of the allele as defined in the model, or it could simply include the identifier that the ClinGen Allele Registry produces.  In this latter case, if the receiver uses the identifier to retrieve details from the Allele Registry, it will receive a representation that differs slightly from the representation used in the model.
 
-The approach taken in the [interpretation_json]() library is to write an inline version of an entity the first time it is serialized, following the specification of the interpretation model, with subsequent references to that same object simply writing the IRI of the object.  This reduces the burden on the receiver, since they will have the details in a format that are consistent, and it keeps the message as simple as possible by not repeating large chunks of JSON-LD.
+The approach taken in the [interpretation_json](https://github.com/clingen-data-model/interpretation_json) library is to write an inline version of an entity the first time it is serialized, following the specification of the interpretation model, with subsequent references to that same object simply writing the IRI of the object.  This reduces the burden on the receiver, since they will have the details in a format that are consistent, and it keeps the message as simple as possible by not repeating large chunks of JSON-LD.
 
 15. Does ClinVar accept messages in this format?
 
 At present, ClinVar only accepts submissions via their spreadsheet interface.  However, we have provided a method for creating a ClinVar submission spreadsheet from a ClinGen Pathogenicity Interpretation message.  The method can be accessed via the [ClinGen Data Exchange]().
 
+16. What do I do if I find a problem with the ClinGen Pathogenicity Interpretation Model?
+
+Post an issue at our [github]().

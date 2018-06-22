@@ -7,7 +7,7 @@ model: interpretation
 
 ##Introduction
 
-An interpretation is the outcome of structured reasoning applied to evidence.   Interpretations may be made about many kinds of entities using many kinds of evidence, and different formalized reasoning strategies.  We've seen in [Getting Started]() how a variant pathogenicity interpretation can be structured as a chain of conclusions based on evidence, including possibly other supported conclusions.  We believe that this is a general structure for the interpretation of evidence, and we want our model to reflect this generality, so that we will be able to apply the same basic model to a wide variety of situations such as gene-disease curation, gene actionability, interpretation of somatic variants, and so on.
+An interpretation is the outcome of structured reasoning applied to evidence.   Interpretations may be made about many kinds of entities using many kinds of evidence, and different formalized reasoning strategies.  We've seen in [Getting Started](getting_started.html) how a variant pathogenicity interpretation can be structured as a chain of conclusions based on evidence, including possibly other supported conclusions.  We believe that this is a general structure for the interpretation of evidence, and we want our model to reflect this generality, so that we will be able to apply the same basic model to a wide variety of situations such as gene-disease curation, gene actionability, interpretation of somatic variants, and so on.
 
 ##SEPIO
 
@@ -56,4 +56,4 @@ indicate that a VariantInterpretation in a ClinGen JSON-LD document is the same 
 
 ##Further Information
 
-This document has described the connection to the SEPIO model and the detailed structure of a message.   For details of the individual classes see the [Class Documentation]().  For implementation topics, see the [FAQ](faq.html).
+This document has described the connection to the SEPIO model and the detailed structure of a message.   For details of the individual classes see the [Class Documentation](/tech).  For implementation topics, see the [FAQ](faq.html).

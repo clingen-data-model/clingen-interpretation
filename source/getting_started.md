@@ -11,7 +11,7 @@ So you've got a variant pathogenicity interpretation, and you want to share it w
 
 ##The Interpretation
 
-Suppose that we are interested in the variant NC_000017.11:g.43092919G>A, which is a missense variant in the BRCA1 gene, and you've determined that this variant is benign.  This assertion is expressed by creating a [VariantPathogenicityInterpretation]() object, expressed in JSON-LD:
+Suppose that we are interested in the variant NC_000017.11:g.43092919G>A, which is a missense variant in the BRCA1 gene, and you've determined that this variant is benign.  This assertion is expressed by creating a [VariantPathogenicityInterpretation](/tech/entity_definitions/core/variant_interpretation.html) object, expressed in JSON-LD:
 
 (Here, I think I'd like 2 columns.  On the right is the following JSON code box:
 
@@ -43,10 +43,10 @@ On the left, this list, either lined up with the JSON rows, or pointing to them 
 Even this simple statement shows off a few features of the model: 
 
 1. We use identifiers for many objects, including interpretations.  This lets you refer to this interpretation later.
-2. It is valid to include either an identifier for an object, or a full representation of the object.  For instance, we represent the variant with an identifier from the [ClinGen Allele Registry](), which we could dereference to obtain a fuller representation.  We could also have included that representation inline - it's up to you and the receiver of the message to decide what you prefer.
+2. It is valid to include either an identifier for an object, or a full representation of the object.  For instance, we represent the variant with an identifier from the [ClinGen Allele Registry](https://reg.clinicalgenome.org/redmine/projects/registry/genboree_registry/landing), which we could dereference to obtain a fuller representation.  We could also have included that representation inline - it's up to you and the receiver of the message to decide what you prefer.
 3. We use controlled vocabularies, defined in [ValueSets]() for many terms, such as "Benign". 
 4. Objects in the model can always have a human readable description.
-5. The model is serialized in [JSON-LD](), so we have a [context file]().  Unless you are interested in transforming a message to RDF, you can can probably ignore this, but it will be helpful in integrating these interpretations with messages from other sources.
+5. The model is serialized in [JSON-LD](https://json-ld.org/), so we have a [context file](http://datamodel.clinicalgenome.org/interpretation/json/context).  Unless you are interested in transforming a message to RDF, you can can probably ignore this, but it will be helpful in integrating these interpretations with messages from other sources.
 
 
 ##Show Your Work: The CriterionAssessment
@@ -182,4 +182,4 @@ The important part here is that supporting evidence is not directly connected to
 
 ##Next Steps
 
-By now, you should have a pretty good idea about the main classes in the interpretation model and how they fit together.  But there's still lots of exciting details to plumb!  To learn about tracking provenance, value sets, alleles, SEPIO, and many other topics, you can continue on to the [more detailed documentation]() and the [FAQ]().  Alternately, you can browse the [class hierarchy](), the [examples](), or some of the [projects]() based on the model.  
+By now, you should have a pretty good idea about the main classes in the interpretation model and how they fit together.  But there's still lots of exciting details to plumb!  To learn about tracking provenance, value sets, alleles, SEPIO, and many other topics, you can continue on to the [more detailed documentation](deeper_dive.html) and the [FAQ](faq.html).  Alternately, you can browse the [class hierarchy](../tech), the [examples](../tech), or some of the [projects](projects.html) based on the model.  
