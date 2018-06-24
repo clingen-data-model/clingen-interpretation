@@ -84,6 +84,10 @@ proxy "/json/scoped_context", "/templates/entity.json", :locals => { :object => 
 ignore "/templates/"
 ignore "/json/" # not sure why this has to be here, but may work around a middleman bug...
 
+after_build do |builder|
+  FileUtils.cp_r 'json/.', 'build/json'
+end
+
 helpers do
 
   # Generate a link to a specific resource with text based on title

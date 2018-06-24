@@ -1,0 +1,2189 @@
+{
+    "definitions": {
+        "Genotype": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "hasPart"
+                    ], 
+                    "type": "object", 
+                    "description": "A set of haplotypes on different molecules (i.e. in trans)", 
+                    "properties": {
+                        "hasPart": {
+                            "items": {
+                                "$ref": "#/definitions/Haplotype"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "zygosity": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "AlleleConservationScoreStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "allele"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement describing a quantitative score of the degree of evolutionary conservation of an allele across a defined set of taxa/species", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "algorithm": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "score": {
+                            "$ref": "#/definitions/number"
+                        }, 
+                        "allele": {
+                            "$ref": "#/definitions/CanonicalAllele"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "ConditionPrevelanceStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "type": "object", 
+                    "description": "A statement describing the observed frequency of a condition as determined for a particular population of persons (ascertained by factors such as ethnicity, race, socio-economic  status, geographic residence, etc).", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "prevelance": {
+                            "$ref": "#/definitions/number"
+                        }, 
+                        "maximum": {
+                            "$ref": "#/definitions/number"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "minimum": {
+                            "$ref": "#/definitions/number"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "condition": {
+                            "items": {
+                                "$ref": "#/definitions/GeneticCondition"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "population": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "ContextualAlleleName": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "preferred", 
+                        "nameType"
+                    ], 
+                    "type": "object", 
+                    "properties": {
+                        "nameType": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "preferred": {
+                            "$ref": "#/definitions/boolean"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "name": {
+                            "type": "string"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "SequenceLocation": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "type": "object", 
+                    "description": "An attribute of a sequence feature related to the location of its starting and ending residues according to some reference coordinate system.", 
+                    "properties": {
+                        "referenceSequence": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "stop": {
+                            "type": "integer"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "start": {
+                            "type": "integer"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "NullAlleleStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "contextualAllele", 
+                        "statementOutcome"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement that asserts whether an allele causes complete loss of function of a gene or gene  product. ", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "statementOutcome": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "contextualAllele": {
+                            "$ref": "#/definitions/ContextualAllele"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "IdentifierSystem": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "urlPattern"
+                    ], 
+                    "type": "object", 
+                    "description": "(LB) this is not directly related to the model, but it is needed for our work in order to store the data for all the Systems and related meta data, URIs, prefixes, OIDs, etc. that provide externally referenced identifiers.  ", 
+                    "properties": {
+                        "urlPattern": {
+                            "type": "string"
+                        }, 
+                        "prefix": {
+                            "type": "string"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "Statement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "type": "object", 
+                    "description": "An information content entity expressing a declarative sentence that is either true or false.", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "Position": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "type": "object", 
+                    "properties": {
+                        "index": {
+                            "type": "integer"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "AlleleMolecularConsequenceStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "contextualAllele", 
+                        "statementOutcome"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement about the expected effect of a variant allele at the level of genomic or transcript sequence (e.g. how it might affect splicing, truncate a gene product, etc.).", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "statementOutcome": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "contextualAllele": {
+                            "$ref": "#/definitions/ContextualAllele"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "InSilicoPredictionStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "canonicalAllele", 
+                        "predictionType", 
+                        "statementOutcome"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement asserting the predicted impact of a particular allele on the function of its resulting gene product (e.g. that it is 'deleterious', 'damaging', 'tolerated', etc.). Such assertions are typically based on interpretation of the quantitative output of predictive computational algorithms.", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "algorithm": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "statementOutcome": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "canonicalAllele": {
+                            "$ref": "#/definitions/CanonicalAllele"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "predictionType": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "transcript": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "IndividualAlleleInheritanceStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "statementOutcome"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement about the origin of a particular allele in an individual - i.e. whether it occurred  de novo in the individual as a result of a spontaneous mutation event, or whether it was inherited from a parent.", 
+                    "properties": {
+                        "parentalConfirmation": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "statementOutcome": {
+                            "items": {
+                                "$ref": "#/definitions/LabeledIRI"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "canonicalAllele": {
+                            "$ref": "#/definitions/CanonicalAllele"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "individual": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "ReferenceCoordinate": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "type": "object", 
+                    "properties": {
+                        "referenceSequence": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "refState": {
+                            "type": "string"
+                        }, 
+                        "end": {
+                            "$ref": "#/definitions/Position"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "start": {
+                            "$ref": "#/definitions/Position"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "ValueSet": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "valueSetExtensibility", 
+                        "valueSetIdentifierSystems"
+                    ], 
+                    "type": "object", 
+                    "description": "A set of identifiers that can be used as the values of specific properties", 
+                    "properties": {
+                        "concept": {
+                            "items": {
+                                "$ref": "#/definitions/LabeledIRI"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "valueSetExtensibility": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "valueSetIdentifierSystems": {
+                            "items": {
+                                "$ref": "#/definitions/IdentifierSystem"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "BenignMissenseVariationRateStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "statementOutcome"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement about the frequency at which missense variants in a particular region are tolerated (i.e. do not cause a pathological condition)", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "statementOutcome": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "region": {
+                            "$ref": "#/definitions/SequenceLocation"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "gene": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "DomainEntity": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "type": "object", 
+                    "description": "Parent class for all concepts that may fit the following uses: \n- referenced in a ValueSet\n- provide for an optional UserLabel in lieu of the registered id label\n- define a novel concept with only a UserLabel for a given subclass", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "GeneticCondition": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "type": "object", 
+                    "description": "A disease, or a set of one or more co-occurring phenotypes, typically controlled by a single locus with a defined inheritance pattern.", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "disease": {
+                            "items": {
+                                "$ref": "#/definitions/LabeledIRI"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "inheritancePattern": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "phenotype": {
+                            "items": {
+                                "$ref": "#/definitions/LabeledIRI"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "gene": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "VariantPathogenicityInterpretationCriterion": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "type": "object", 
+                    "description": "A specification that describes how to interpret the direction and strength of evidence provided by a specific type of information, as relevant to the pathogenicity or benignancy of a genetic variant.\n\nA specification that describes how to interpret the direction and strength of evidence provided by a specific type of information for the pathogenicity or benignancy of a genetic variant.", 
+                    "properties": {
+                        "defaultStrength": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "usageNotes": {
+                            "type": "string"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "CanonicalAllele": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "relatedContextualAllele", 
+                        "canonicalAlleleType", 
+                        "complexity"
+                    ], 
+                    "type": "object", 
+                    "description": "One of a set of coexisting sequence variants at a defined genomic locus, or a set of such variants located in cis on the same copy of the chromosome.\n", 
+                    "properties": {
+                        "relatedIdentifier": {
+                            "items": {
+                                "$ref": "#/definitions/LabeledIRI"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "complexity": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "canonicalAlleleType": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "relatedContextualAllele": {
+                            "items": {
+                                "$ref": "#/definitions/ContextualAllele"
+                            }, 
+                            "type": "array"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "IndividualGenotypeStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "genotype", 
+                        "statementOutcome"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement about the allelic state of one or more alleles in the genome of an individual (e.g. zygosity information, or phase relative to a second allele).", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "statementOutcome": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "individual": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "genotype": {
+                            "items": {
+                                "$ref": "#/definitions/Genotype"
+                            }, 
+                            "type": "array"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "VariantPathogenicityInterpretationGuideline": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "type": "object", 
+                    "description": "A specification that describes how to interpret information as evidence in order to make an  assertion about the pathogenicity of a genetic variant.", 
+                    "properties": {
+                        "url": {
+                            "type": "string"
+                        }, 
+                        "version": {
+                            "type": "string"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "scoringAlgorithm": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "AlleleFunctionalImpactStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "type": "object", 
+                    "description": "A statement describing a particular experimental result about the impact of an allele on gene product function (typically that of the directly affected gene).", 
+                    "properties": {
+                        "assayType": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "resultDescription": {
+                            "type": "string"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "contextualAllele": {
+                            "$ref": "#/definitions/ContextualAllele"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "gene": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "LocusHeterogeneityStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "condition", 
+                        "gene", 
+                        "statementOutcome"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement about the specificity with which a genetic condition is caused by variants in a particular gene or locus (i.e. whether it is the only known gene associated with the condition, or one or more other genes have been linked to the condition).", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "statementOutcome": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "gene": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "condition": {
+                            "$ref": "#/definitions/GeneticCondition"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "ContextualAllele": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "contextualAlleleType"
+                    ], 
+                    "type": "object", 
+                    "description": "An informational artifact that describes an allele as defined on a particular reference sequence.", 
+                    "properties": {
+                        "alleleName": {
+                            "$ref": "#/definitions/ContextualAlleleName"
+                        }, 
+                        "referenceCoordinate": {
+                            "$ref": "#/definitions/ReferenceCoordinate"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "relatedCanonicalAllele": {
+                            "$ref": "#/definitions/CanonicalAllele"
+                        }, 
+                        "contextualAlleleType": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "state": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "IndividualConditionStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "condition"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement about whether a individual is affected by or exhibits a particular condition.", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "statementOutcome": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "individual": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "condition": {
+                            "items": {
+                                "$ref": "#/definitions/GeneticCondition"
+                            }, 
+                            "type": "array"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "CriterionAssessment": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "variant", 
+                        "statementOutcome"
+                    ], 
+                    "type": "object", 
+                    "description": "An assertion of whether sufficient evidence exists to satisfy some pre-defined 'variant interpretation criterion', which defines requirements for a particular type of argument relevant to the pathogenicity of a genetic variant.", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "statementOutcome": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "variant": {
+                            "$ref": "#/definitions/CanonicalAllele"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "criterion": {
+                            "$ref": "#/definitions/Criterion"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "condition": {
+                            "items": {
+                                "$ref": "#/definitions/GeneticCondition"
+                            }, 
+                            "type": "array"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "UserLabel": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "labelFor"
+                    ], 
+                    "type": "object", 
+                    "description": "An alternative label for a term that a curator specifies to provide a custom label in the context of a particular message/data set.", 
+                    "properties": {
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "labelFor": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "EvidenceLine": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "type": "object", 
+                    "description": "An evidence line represents an independent and meaningful argument for or against a particular proposition, that is based on the interpretation of one or more pieces of information as evidence.", 
+                    "properties": {
+                        "evidenceStrength": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "evidenceItem": {
+                            "items": {
+                                "$ref": "#/definitions/Statement"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "LabeledIRI": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "id"
+                    ], 
+                    "type": "object", 
+                    "properties": {
+                        "id": {
+                            "type": "string"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "PopulationAlleleFrequencyStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "type": "object", 
+                    "description": "A statement that describes the observed frequency of an allele as determined in a defined group of individuals (typically a representative sampling that serves as a proxy for some larger population of individuals).\n", 
+                    "properties": {
+                        "individualCount": {
+                            "type": "integer"
+                        }, 
+                        "homozygousAlleleIndividualCount": {
+                            "type": "integer"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "hemizygousAlleleIndividualCount": {
+                            "type": "integer"
+                        }, 
+                        "alleleFrequency": {
+                            "$ref": "#/definitions/number"
+                        }, 
+                        "heterozygousAlleleIndividualCount": {
+                            "type": "integer"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "ascertainment": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "alleleNumber": {
+                            "type": "integer"
+                        }, 
+                        "medianCoverage": {
+                            "$ref": "#/definitions/number"
+                        }, 
+                        "allele": {
+                            "$ref": "#/definitions/CanonicalAllele"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "alleleCount": {
+                            "type": "integer"
+                        }, 
+                        "population": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "Contribution": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "agent", 
+                        "contributionRole"
+                    ], 
+                    "type": "object", 
+                    "description": "The actions taken by a particular agent in the creation, modification, assessment, or destruction of an artifact.", 
+                    "properties": {
+                        "contributionRole": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "contributionDate": {
+                            "type": "string"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "agent": {
+                            "$ref": "#/definitions/Agent"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "ConditionMechanismStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "condition", 
+                        "gene", 
+                        "statementOutcome"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement about the mechanism underlying a genetic condition (e.g. if that LOF mutations in a particular gene are a known mechanism of disease).", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "statementOutcome": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "mechanismConfidence": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "gene": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "condition": {
+                            "$ref": "#/definitions/GeneticCondition"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "RegionTypeStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "region"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement that classifies a particular region of biological sequence as being of a specified type or types  (e.g. using terms from the Sequence Ontology).", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "statementOutcome": {
+                            "items": {
+                                "$ref": "#/definitions/LabeledIRI"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "region": {
+                            "$ref": "#/definitions/SequenceLocation"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "AggregateCosegregationStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "canonicalAllele", 
+                        "condition"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement describing the observed correlation between transmission of a particular allele and a particular genetic condition, across multiple family pedigrees (i.e. the co-segregation of an allele and a condition as observed across multiple family pedigrees).", 
+                    "properties": {
+                        "inheritancePatternParameter": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "totalOfFamiliesWithInconsistentSegregations": {
+                            "type": "integer"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "totalOfUntestedConditionNegIndividuals": {
+                            "type": "integer"
+                        }, 
+                        "totalNumberOfSegregations": {
+                            "type": "integer"
+                        }, 
+                        "canonicalAllele": {
+                            "$ref": "#/definitions/CanonicalAllele"
+                        }, 
+                        "totalOfAlleleNegConditionPosIndividuals": {
+                            "type": "integer"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "totalOfUntestedConditionPosIndividuals": {
+                            "type": "integer"
+                        }, 
+                        "totalOfAlleleNegConditionNegIndividuals": {
+                            "type": "integer"
+                        }, 
+                        "totalOfAllelePosConditionNegIndividuals": {
+                            "type": "integer"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "familySegregation": {
+                            "items": {
+                                "$ref": "#/definitions/FamilySegregation"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "totalOfAllelePosConditionPosIndividuals": {
+                            "type": "integer"
+                        }, 
+                        "condition": {
+                            "$ref": "#/definitions/GeneticCondition"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "FamilyCosegregationStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "canonicalAllele", 
+                        "condition", 
+                        "family"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement describing the observed correlation between transmission of a particular allele and a particular genetic condition, across a single family pedigree (i.e. the co-segregation of an allele and a condition as observed across a family pedigree).\n", 
+                    "properties": {
+                        "phenotypePositiveAlleleNegative": {
+                            "type": "integer"
+                        }, 
+                        "genotypeValues": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "inconsistentSegregationsObserved": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "affectedValues": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "family": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "inconsistentSegregationCount": {
+                            "type": "integer"
+                        }, 
+                        "canonicalAllele": {
+                            "$ref": "#/definitions/CanonicalAllele"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "phenotypePositiveAllelePositive": {
+                            "type": "integer"
+                        }, 
+                        "columns": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "phenotypeNegativeAllelePositive": {
+                            "type": "integer"
+                        }, 
+                        "phenotypeNegativeAlleleNegative": {
+                            "type": "integer"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "condition": {
+                            "$ref": "#/definitions/GeneticCondition"
+                        }, 
+                        "pedigree": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "Haplotype": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "hasPart"
+                    ], 
+                    "type": "object", 
+                    "description": "A set of alleles on the same molecule (i.e. in cis)", 
+                    "properties": {
+                        "hasPart": {
+                            "items": {
+                                "$ref": "#/definitions/CanonicalAllele"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "Agent": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "type": "object", 
+                    "description": "An agent is something that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent's activity (from PROV).", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "Entity": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "type": "object", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "InSilicoPredictionScoreStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "canonicalAllele", 
+                        "predictionType", 
+                        "prediction"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement describing a quantitative score fron an InSilico Prediction", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "algorithm": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "canonicalAllele": {
+                            "$ref": "#/definitions/CanonicalAllele"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "prediction": {
+                            "$ref": "#/definitions/number"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "predictionType": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "transcript": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "CaseControlAlleleFrequencyStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "canonicalAllele", 
+                        "condition"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement describing allele frequencies identified in a particular study group as a function of case-control status (i.e frequency in affected vs unaffected study groups)", 
+                    "properties": {
+                        "confidenceIntervalLower": {
+                            "$ref": "#/definitions/number"
+                        }, 
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "oddsRatio": {
+                            "$ref": "#/definitions/number"
+                        }, 
+                        "canonicalAllele": {
+                            "$ref": "#/definitions/CanonicalAllele"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "confidenceLevel": {
+                            "$ref": "#/definitions/number"
+                        }, 
+                        "confidenceIntervalUpper": {
+                            "$ref": "#/definitions/number"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "controlGroupFrequency": {
+                            "$ref": "#/definitions/AlleleFrequency"
+                        }, 
+                        "condition": {
+                            "$ref": "#/definitions/GeneticCondition"
+                        }, 
+                        "caseGroupFrequency": {
+                            "$ref": "#/definitions/AlleleFrequency"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "FamilyConditionStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "statementOutcome"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement asserting the occurrence of a particular disease in the history of a family.", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "statementOutcome": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "proband": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "condition": {
+                            "items": {
+                                "$ref": "#/definitions/GeneticCondition"
+                            }, 
+                            "type": "array"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "RegionAllelesStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "region", 
+                        "statementOutcome"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement about the positional relationship between a region of genomic sequence and one or more alleles. (i.e. whether the region overlaps or is adjacent to the allele).", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "statementOutcome": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "region": {
+                            "$ref": "#/definitions/SequenceLocation"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "allele": {
+                            "items": {
+                                "$ref": "#/definitions/ContextualAllele"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "AlleleConservationStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "required": [
+                        "allele", 
+                        "statementOutcome"
+                    ], 
+                    "type": "object", 
+                    "description": "A statement describing the observed correlation between transmission of a particular allele and a particular genetic condition, across multiple family pedigrees (i.e. the co-segregation of an allele and a condition as observed across multiple family pedigrees).", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "algorithm": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "statementOutcome": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "allele": {
+                            "$ref": "#/definitions/CanonicalAllele"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }
+                    }
+                }
+            ]
+        }, 
+        "ConditionPenetranceStatement": {
+            "anyOf": [
+                {
+                    "type": "string"
+                }, 
+                {
+                    "type": "object", 
+                    "description": "A statement about the proportion of individuals carrying a causal allele that exhibit a particular disease or phenotype.", 
+                    "properties": {
+                        "description": {
+                            "type": "string"
+                        }, 
+                        "source": {
+                            "items": {
+                                "type": "string"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "statementOutcome": {
+                            "$ref": "#/definitions/LabeledIRI"
+                        }, 
+                        "label": {
+                            "type": "string"
+                        }, 
+                        "outcomeQualifier": {
+                            "type": "string"
+                        }, 
+                        "evidenceLine": {
+                            "items": {
+                                "$ref": "#/definitions/EvidenceLine"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "userLabelDictionary": {
+                            "items": {
+                                "$ref": "#/definitions/UserLabel"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "contribution": {
+                            "items": {
+                                "$ref": "#/definitions/Contribution"
+                            }, 
+                            "type": "array"
+                        }, 
+                        "condition": {
+                            "items": {
+                                "$ref": "#/definitions/GeneticCondition"
+                            }, 
+                            "type": "array"
+                        }
+                    }
+                }
+            ]
+        }
+    }, 
+    "$schema": "http://json-schema.org/schema#", 
+    "anyOf": [
+        {
+            "type": "string"
+        }, 
+        {
+            "required": [
+                "variant", 
+                "statementOutcome"
+            ], 
+            "type": "object", 
+            "description": "An assertion about the pathogenicity of a genetic sequence variant, based on evaluation of one or more lines of evidence.", 
+            "properties": {
+                "description": {
+                    "type": "string"
+                }, 
+                "source": {
+                    "items": {
+                        "type": "string"
+                    }, 
+                    "type": "array"
+                }, 
+                "assertionMethod": {
+                    "$ref": "#/definitions/AssertionMethod"
+                }, 
+                "statementOutcome": {
+                    "$ref": "#/definitions/LabeledIRI"
+                }, 
+                "variant": {
+                    "$ref": "#/definitions/CanonicalAllele"
+                }, 
+                "label": {
+                    "type": "string"
+                }, 
+                "outcomeQualifier": {
+                    "type": "string"
+                }, 
+                "evidenceLine": {
+                    "items": {
+                        "$ref": "#/definitions/EvidenceLine"
+                    }, 
+                    "type": "array"
+                }, 
+                "userLabelDictionary": {
+                    "items": {
+                        "$ref": "#/definitions/UserLabel"
+                    }, 
+                    "type": "array"
+                }, 
+                "contribution": {
+                    "items": {
+                        "$ref": "#/definitions/Contribution"
+                    }, 
+                    "type": "array"
+                }, 
+                "condition": {
+                    "items": {
+                        "$ref": "#/definitions/GeneticCondition"
+                    }, 
+                    "type": "array"
+                }
+            }
+        }
+    ], 
+    "title": "VariantPathogenicityInterpretation"
+}
