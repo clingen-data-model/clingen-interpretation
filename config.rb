@@ -267,6 +267,31 @@ helpers do
     $dmwg_examples.types_by_entity_id
   end
 
+  def type_list_by_hierarchy()
+    def list_with_children(item)
+      output = "#{link_to item['name'], '/generated/' + item['name'] + '.html'}"
+      if not item['children'].empty?
+        output << "<ul>"
+        item['children'].sort_by { |e| e['name'] }.each { |child| output << "<li>#{list_with_children(child)}</li>" }
+        output << "</ul>"
+      end
+      output
+    end
+
+    # clone the values, since 'children' attribute will be added
+    types = $dmwg_examples.types_by_entity_id.map { |k, v| [k, v.clone.merge!({ "children" => [] })] }.to_h
+    types.values.select { |e| not e['parentType'].nil? }.each { |e| types[e['parentType']]['children'] << e }
+
+    output = "<ul>"
+    types.values.select { |e| e['parentType'].nil? }.sort_by { |e| e['name'] }.each do |top_level|
+      output << "<li>#{list_with_children(top_level)}</li>"
+    end
+    output << "</ul>"
+    output
+  end
+
+
+
   def render_markdown(content)
     Tilt['markdown'].new { content }.render
   end
