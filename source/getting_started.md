@@ -17,7 +17,7 @@ Suppose that we are interested in the variant NC_000017.11:g.43092919G>A, which 
   <div class="panel-body">
     <div class="row">
       <div class="col-sm-12">
-      <span class="text-muted">JSON Message</span>
+      <span class="text-muted">JSON Message (See below explanation)</span>
       <pre>
 {
   "@context": "http://datamodel.clinicalgenome.org/interpretation/json/context"
@@ -37,7 +37,7 @@ Suppose that we are interested in the variant NC_000017.11:g.43092919G>A, which 
         <dl class="dl-horizontal">
           <dt>"@context":</dt>
           <dd>A JSON-LD context, which maps attribute names to identifiers</dd>
-          <dt>"id:</dt>
+          <dt>"id":</dt>
           <dd>An identifier for the interpretation</dd>
           <dt>"variant":</dt>
           <dd>A variant identifier: This is the variant that we are interpreting</dd>
@@ -68,23 +68,9 @@ Suppose that we are interested in the variant NC_000017.11:g.43092919G>A, which 
   <div class="panel panel-default">
     <div class="panel-body">
       <div class="row">
-        <div class="col-sm-6">
-          <span class="text-muted">JSON Explanation</span>
-          <dl class="dl-horizontal">
-            <dt>"id:</dt>
-            <dd>The identifier of this CriterionAssessment</dd>
-            <dt>"type":</dt>
-            <dd>The type of this object</dd>
-            <dt>"variant":</dt>
-            <dd>The identifier of the variant being assessed</dd>
-            <dt>"criterion":</dt>
-            <dd>The criterion being used to assess the variant</dd>
-            <dt>"statementOutcome":</dt>
-            <dd>the outcome of the assessment</dd>
-          </dl>
-        </div>
-        <div class="col-sm-6">
-          <span class="text-muted">JSON Message</span>
+        
+        <div class="col-sm-12">
+      <span class="text-muted">JSON Message (See below explanation)</span>
           <pre>
 {
   "id": "EXAMPLE:002",
@@ -108,6 +94,21 @@ Suppose that we are interested in the variant NC_000017.11:g.43092919G>A, which 
 }
     </pre>
   </div>
+  <div class="col-sm-12">
+          <span class="text-muted">JSON Explanation</span>
+          <dl class="dl-horizontal">
+            <dt>"id":</dt>
+            <dd>The identifier of this CriterionAssessment</dd>
+            <dt>"type":</dt>
+            <dd>The type of this object</dd>
+            <dt>"variant":</dt>
+            <dd>The identifier of the variant being assessed</dd>
+            <dt>"criterion":</dt>
+            <dd>The criterion being used to assess the variant</dd>
+            <dt>"statementOutcome":</dt>
+            <dd>the outcome of the assessment</dd>
+          </dl>
+        </div>
 </div>
 </div>
 </div>
@@ -120,17 +121,9 @@ We now know that our Variant Pathogenicity Interpretation is supported by a Crit
 <div class="panel panel-default">
   <div class="panel-body">
     <div class="row">
-      <div class="col-sm-6">
-        <ol>
-          <li>The identifier of this frequency statement</li>
-          <li>The method used to create the sample in which the frequency was measured</li>
-          <li>The ancestral background of the people in the sample</li>
-          <li>The allele </li>
-          <li>The frequency of the allele in the sample</li>
-        </ol>
-      </div>
-      <div class="col-sm-6">
-        <pre>
+    <div class="col-sm-12">
+      <span class="text-muted">JSON Message (See below explanation)</span>
+    <pre>
 {
   "id": "EXAMPLE:003",
   "type": "PopulationAlleleFrequencyStatement",
@@ -147,6 +140,21 @@ We now know that our Variant Pathogenicity Interpretation is supported by a Crit
 }
     </pre>
   </div>
+  <div class="col-sm-12">
+          <span class="text-muted">JSON Explanation</span>
+          <dl class="dl-horizontal">
+            <dt>"id":</dt>
+            <dd>The identifier of this frequency statement</dd>
+            <dt>"ascertainment":</dt>
+            <dd>The method used to create the sample in which the frequency was measured</dd>
+            <dt>"type":</dt>
+            <dd>The ancestral background of the people in the sample</dd>
+            <dt>"allele":</dt>
+            <dd>The allele</dd>
+            <dt>"alleleFrequency":</dt>
+            <dd>The frequency of the allele in the sample</dd>
+          </dl>
+        </div>
 </div>
 </div>
 </div>
