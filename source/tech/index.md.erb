@@ -1,0 +1,31 @@
+---
+title: Technical Reference 
+
+---
+
+This section of the documentation section targets readers that wish to understand the technical details of the interpretation model.   Developers trying to implement producers or consumers of interpretations will find here information about the entity definitions and the JSON Schema that can be used to validate messages.
+
+<div id="types_by_concepts">
+    <h3>Types by concepts</h3>
+    <ul class="level1list">
+        <% types_by_concepts().each do |level1, level2group| %>
+        <li><p><%= level1 %></p><ul>
+            <% level2group.each do |level2, entities| %>
+            <li><p><%= level2 %></p><ul>
+                <% entities.each do |entity_name| %>
+                <li><%= link_to entity_name, "/generated/#{entity_name}.html"%></li>
+                <% end %>
+            </ul></li>
+            <% end %>
+        </ul></li>
+        <% end %>
+    </ul>
+</div>
+
+<div id="types_alphabetical">
+    <h3>Types by name</h3>
+    <ul>
+        <% types_by_entity_id.values.collect { |e| e['name'] }.sort.each do |entity_name| %>
+        <li><%= link_to entity_name, "/generated/#{entity_name}.html"%></li>
+        <% end %>
+    </ul></div>

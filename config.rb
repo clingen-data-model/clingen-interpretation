@@ -113,14 +113,6 @@ helpers do
     %(<li class="#{model}">#{link}</li>)
   end
 
-  def local_link(text, path)
-    if path == current_page.url
-      %(<li class="active">#{link_to text, path}</li>)
-    else
-      "<li>#{link_to text, path}</li>"
-    end
-  end
-
   def example_table_item(data)
     if data.nil?
       return ''
@@ -267,8 +259,12 @@ helpers do
     types = $dmwg_examples.types_by_entity_id.values
     # .map { |k, v| [k, v.group_by{ |x| x['level2'] }] } # gives the entire object
     types.group_by { |x| x['level1'] }
-      .map { |k, v| [k, v.group_by{ |x| x['level2'] }.map { |k2, v2| [k2, v2.collect { |e| e['name'] }] }] } # gives just the name
+      .map { |k, v| [k || "", v.group_by{ |x| x['level2'] }.map { |k2, v2| [k2 || "", v2.collect { |e| e['name'] }] }] } # gives just the name
       .to_h
+  end
+
+  def types_by_entity_id()
+    $dmwg_examples.types_by_entity_id
   end
 
   def render_markdown(content)
