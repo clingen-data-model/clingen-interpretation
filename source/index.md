@@ -9,6 +9,17 @@ Introduction
 
 ClinGen members are generating an incredible amount of richly curated interpretations of the clinical effect of genetic variants.   The ClinGen Interpretation Model provides a structure and format for exchanging this information, which retains the contextual and supporting information related to the interpretation of the variant.
 
+<div class="row">
+    <hr class="col-sm-12" />
+    <div class="col-sm-4"><a href="#" class="btn btn-default btn-block btn-lg">Getting Started</a>
+    </div>
+    <div class="col-sm-4"><a href="#" class="btn btn-default btn-block btn-lg">A Deeper Dive</a>
+    </div>
+    <div class="col-sm-4"><a href="#" class="btn btn-default btn-block btn-lg">FAQ</a>
+    </div>
+    <hr class="col-sm-12" />
+</div>
+
 Benefits of the ClinGen Interpretation Model
 --------------------------------------------
 
