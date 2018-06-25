@@ -60,7 +60,7 @@ class DMWGExampleData
     @flattened['Type'].each do |e_id, e_rec|
 
       # add the type for the current 'Type' record being processed, select a subset of the Type's attributes.
-      @types_by_entity_id[e_id] = e_rec.select { |k, v| ['id', 'name', 'parentType', 'link', 'iri', 'iri-label', 'description', 'comments'].include? k }
+      @types_by_entity_id[e_id] = e_rec.select { |k, v| ['id', 'name', 'parentType', 'link', 'iri', 'iri-label', 'description', 'comments', 'level1', 'level2'].include? k }
       
       #entity name
       e_name = e_rec['name']
