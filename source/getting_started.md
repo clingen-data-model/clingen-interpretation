@@ -170,7 +170,7 @@ Some users may want to include only a subset of this information, but the true p
 
 <div class="col-sm-6">
   <span class="text-muted">Diagram</span>
-  ![Interpretation Figure 1](../images/interp-f1.svg)
+  <img alt="Interpretation Figure 1" src="/images/getting_started_UML.jpg">
 </div>
 <div class="col-sm-6">
   <span class="text-muted">JSON Message</span>

@@ -13,7 +13,7 @@ An interpretation is the outcome of structured reasoning applied to evidence.   
 
 The interpretation model requires a structure describing the relationship between a conclusion and the evidence that led to this conclusion;  the Scientific Evidence and Provenance Information Ontology ([SEPIO](./sepio.html)) provides such a structure.  In SEPIO, an [assertion](https://github.com/monarch-initiative/SEPIO-ontology/wiki/Assertion){:target="sepioassertion"} is the conclusion drawn from reasoning about [Evidence Items](https://github.com/monarch-initiative/SEPIO-ontology/wiki/Evidence-Item){:target="sepioevidenceitem"}.   This information can be either data, like an allele frequency, or a prior assertion.
 
-![Interpretation Figure 1](images/SEPIO_UML.png)
+![Interpretation Figure 1](images/SEPIO_UML.jpg)
 
 This ability for one SEPIO assertion to support another is integral to our use of SEPIO.   A VariantInterpretation is a SEPIO assertion, and it is supported by a CriteriaAssessment, which is also a ClinVar assertion. This CriteriaAssessment is, in turn, supported by measured data.  In other words, the data is used to create an intermediate assertion: a CriteriaAssessment saying that, for example, BA1 is satisfied for this variant.   This CriteriaAssessment (and potentially other such CriteriaAssessments) are then used to create the final VariantInterpretation in a second cycle of the basic SEPIO model.
 
@@ -34,7 +34,7 @@ With this approach, multiple agents, both human and computational, can be noted 
 
 The following diagram displays the structure of a variant interpretation message.  An interpretation is essentially two cycles of the base SEPIO model.  First, an interpretation is supported by Criteria Assessments. Second, each Criteria Assessment is supported by Statements (usually Evidence Items).
 
-![Interpretation Figure 2](images/CG_UML.png)
+![Interpretation Figure 2](images/CG_UML.jpg)
 
 At each stage, the conclusions and evidence lines can be tagged with Contributions tracking provenance.  Furthermore, each assertion (the interpretation and the assessment) can both indicate the pre-specified rule by which they were created.  Information about the strength of support that evidence lends to a conclusion is attached to the evidence line between them.
 
