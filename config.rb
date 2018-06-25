@@ -24,10 +24,6 @@
 #   page "/admin/*"
 # end
 
-# Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
-# proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
-#  :which_fake_page => "Rendering a fake page with a local variable" }
-
 ###
 # Helpers
 ###
@@ -266,44 +262,6 @@ helpers do
     type_name = data.flattened.Type[type]['name']
     $dmwg_examples.data_by_entity_type[type_name]
   end
-
-  # def example_path(example_id)
-  #   "/allele/implementation/examples/#{example_id}.html"
-  # end
-
-  # def examples_index
-  #   output = data.examples.sort_by{ |e| e['title'] }.reduce("<ul>\n") do |acc, e|
-  #     acc + "<li>" + link_to(e['title'], example_path(e['id']))
-  #   end
-  #   return output + "</ul>"
-  # end
-
-  # def link_with_examples_index(text, path)
-  #   output = link_to(text, path)
-  #   if current_page.url.include?(path)
-  #     "<strong>#{output}</strong>#{examples_index}"
-  #   else
-  #     output
-  #   end
-  # end
-
-  # def examples_table(resource_name)
-  #   examples = data.examples.select do |example|
-  #     example.resource == resource_name
-  #   end
-  #   header = '<table class="table"><thead><tr><th>id</th><th>name</th></tr></thead><tbody>'
-  #   output = examples.reduce(header) do |acc, example|
-  #     acc << '<tr>'
-  #     acc << "<td>#{example['id']}</td>"
-  #     acc << "<td>#{link_to example['title'], example_path(example['id']) }</td>"
-  #     if example['jsonld']
-  #       acc << "<td>#{link_to 'json-ld', example['jsonld']}</td>"
-  #     end
-  #     acc << "<td>#{link_to 'xml', example['xml']}</td>"
-  #     acc << "<td>#{link_to 'json', example['json']}</td>"
-  #   end
-  #   output + "</tbody></table>"
-  # end
 
   def render_markdown(content)
     Tilt['markdown'].new { content }.render
