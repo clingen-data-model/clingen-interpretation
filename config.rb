@@ -263,6 +263,14 @@ helpers do
     $dmwg_examples.data_by_entity_type[type_name]
   end
 
+  def types_by_concepts()
+    types = $dmwg_examples.types_by_entity_id.values
+    # .map { |k, v| [k, v.group_by{ |x| x['level2'] }] } # gives the entire object
+    types.group_by { |x| x['level1'] }
+      .map { |k, v| [k, v.group_by{ |x| x['level2'] }.map { |k2, v2| [k2, v2.collect { |e| e['name'] }] }] } # gives just the name
+      .to_h
+  end
+
   def render_markdown(content)
     Tilt['markdown'].new { content }.render
   end
