@@ -59,7 +59,7 @@ end
 
 # generating entity pages 
 $dmwg_examples.types_by_entity_id.each do |e_id, type|
-  proxy "/generated/#{type['name']}.html", 'templates/entity.html', 
+  proxy "/entities/#{type['name']}.html", 'templates/entity.html', 
     :locals => { :entity_id => e_id, :vs => nil? },
     :layout => "layout.erb", 
     :ignore => true, 
@@ -68,7 +68,7 @@ end
 
 # generating value set pages
 $dmwg_examples.data_by_entity_type['ValueSet'].each do |vs|
-  proxy "/generated/#{vs['label'].delete(' ')}.html", 'templates/valueset.html', 
+  proxy "/terminologies/#{vs['label'].delete(' ')}.html", 'templates/valueset.html', 
     :locals => { :entity_id => nil, :vs => vs },
     :layout => "layout.erb", :ignore => true, :directory_indexes => true
 end
@@ -284,7 +284,7 @@ helpers do
 
   def type_list_by_hierarchy()
     def list_with_children(item)
-      output = "#{link_to item['name'], '/generated/' + item['name'] + '.html'}"
+      output = "#{link_to item['name'], '/entities/' + item['name'] + '.html'}"
       if not item['children'].empty?
         output << "<ul>"
         item['children'].sort_by { |e| e['name'] }.each { |child| output << "<li>#{list_with_children(child)}</li>" }

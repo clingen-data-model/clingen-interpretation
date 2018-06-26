@@ -5,16 +5,17 @@ model: variant pathogenicity interpretation
 
 ---
 ### Topics
-- [Are variants represented with the ClinGen Allele Model, the GA4GH VMC Model, HGVS or something else?](#are-variants-represented-with-the-clingen-allele-modelhttpdataexchangeclinicalgenomeorgallelemasterindexhtml-the-ga4gh-vmc-modelhttpsgithubcomga4ghvmc-hgvshttpvarnomenhgvsorg-or-something-else)
+- [Topics](#topics)
+- [Are variants represented with the ClinGen Allele Model, the GA4GH VMC Model, HGVS or something else?](#are-variants-represented-with-the-clingen-allele-model-the-ga4gh-vmc-model-hgvs-or-something-else)
 - [What's the difference between a Canonical Allele and a Contextual Allele?](#whats-the-difference-between-a-canonical-allele-and-a-contextual-allele)
 - [Why do some places in the model use Canonical Alleles and others use Contextual Alleles?](#why-do-some-places-in-the-model-use-canonical-alleles-and-others-use-contextual-alleles)
-- [Is the representation of alleles from the Allele Registry the same as the representation in the Interpretation Model?](#is-the-representation-of-alleles-from-the-allele-registryhttpsregclinicalgenomeorgredmineprojectsregistrygenboreeregistrylanding-the-same-as-the-representation-in-the-interpretation-model)
+- [Is the representation of alleles from the Allele Registry the same as the representation in the Interpretation Model?](#is-the-representation-of-alleles-from-the-allele-registry-the-same-as-the-representation-in-the-interpretation-model)
 - [What if I don't want to use Canonical Alleles?](#what-if-i-dont-want-to-use-canonical-alleles)
 - [What's a Genetic Condition?](#whats-a-genetic-condition)
-- [What is the condition for a benign allele?](#pookie)
-- [Can I use the interpretation model for non-ACMG/AMP pathogenicity interpretation?](#what-is-the-condition-for-a-benign-allele)
-- [Can I use the interpretation model for non-pathogenicity interpretations?](#can-i-use-the-interpretation-model-for-non-acmgamp-pathogenicity-interpretation)
-- [Why isn't there a Gene (or other) data element?](#can-i-use-the-interpretation-model-for-non-pathogenicity-interpretations)
+- [What is the condition for a benign allele?](#what-is-the-condition-for-a-benign-allele)
+- [Can I use the interpretation model for non-ACMG/AMP pathogenicity interpretation?](#can-i-use-the-interpretation-model-for-non-acmgamp-pathogenicity-interpretation)
+- [Can I use the interpretation model for non-pathogenicity interpretations?](#can-i-use-the-interpretation-model-for-non-pathogenicity-interpretations)
+- [Why isn't there a Gene (or other) data element?](#why-isnt-there-a-gene-or-other-data-element)
 - [How are Values constrained?](#how-are-values-constrained)
 - [How can I relabel an entity?](#how-can-i-relabel-an-entity)
 - [Can I add extra attributes to an object?](#can-i-add-extra-attributes-to-an-object)
@@ -22,6 +23,7 @@ model: variant pathogenicity interpretation
 - [What kinds of things can go into value sets?](#what-kinds-of-things-can-go-into-value-sets)
 - [Do elements have to be represented inline?](#do-elements-have-to-be-represented-inline)
 - [Does ClinVar accept messages in this format?](#does-clinvar-accept-messages-in-this-format)
+- [What do I do if I find a problem with the ClinGen Pathogenicity Interpretation Model?](#what-do-i-do-if-i-find-a-problem-with-the-clingen-pathogenicity-interpretation-model)
 
     <hr class="col-sm-12" />
 
@@ -98,7 +100,7 @@ We want to provide constraints on what values can or should be chosen for certai
 
 ### How can I relabel an entity?
 
-Terms in ontologies, such as disease ontology, consist of both an identifier and a label.  The identifier is the specific stable string that allows users to understand that they are both talking about the same entity, even if they use different names for it.  However, particular users may have their own set of terms that they use locally for those entities, and which they would like to use in their interpretation messages. For this reason, we have provided the [User Label](/entities/generated/UserLabel.html) object, which can be attached to any term.   Attaching a user label does not change the label of a term, which is provided by the source that creates the term, but it is an extra piece of information that says "User X calls this thing Y".
+Terms in ontologies, such as disease ontology, consist of both an identifier and a label.  The identifier is the specific stable string that allows users to understand that they are both talking about the same entity, even if they use different names for it.  However, particular users may have their own set of terms that they use locally for those entities, and which they would like to use in their interpretation messages. For this reason, we have provided the [User Label](/entities/UserLabel.html) object, which can be attached to any term.   Attaching a user label does not change the label of a term, which is provided by the source that creates the term, but it is an extra piece of information that says "User X calls this thing Y".
 
 <div class="text-right"><a href="#topics">[Top]</a></div>
 
