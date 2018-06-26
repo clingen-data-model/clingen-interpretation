@@ -1,7 +1,7 @@
 ---
-title: The Interpretation Model
-description: A more detailed look
-model: interpretation
+title: Deeper Dive into the Model
+description: A more detailed look at how the Variant Pathogenicity Interpretation Model is designed on top of the SEPIO model.
+model: variant pathogenicity interpretation
 
 ---
 
@@ -44,7 +44,7 @@ The native encoding of ClinGen interpretations is JSON-LD.  In particular, insta
 
 Many terms needed for variant pathogenicity interpretations were previously defined SEPIO. Variant pathogenicity interpretations also require specialized data elements related to specific types of entities (Alleles, Genes) or evidence (Segregation, Allele Frequencies).  In addition, ClinGen interpretations define new subclasses on SEPIO classes, such as distinguishing VariantInterpretations from CriteriaAssessments.  Each is a SEPIO interpretation, but with different properties. These terms do not make sense to add to the core SEPIO product, but have been added to ClinGen-specific extensions within the SEPIO project which are jointly maintained by the Monarch and ClinGen projects.
 
-For instance, the lines in the [ClinGen interpretation context](http://datamodel.clinicalgenome.org/interpretation/json/context)
+For instance, the lines in the [ClinGen interpretation context](http://dataexchange.clinicalgenome.org/interpretation/json/context)
 
 ``` "VariantInterpretation": {
    "@id": "SEPIO:0000190"
@@ -56,4 +56,4 @@ indicate that a VariantInterpretation in a ClinGen JSON-LD document is the same 
 
 ##Further Information
 
-This document has described the connection to the SEPIO model and the detailed structure of a message.   For details of the individual classes see the [Class Documentation](/tech).  For implementation topics, see the [FAQ](faq.html).
+This document has described the connection to the SEPIO model and the detailed structure of a message.   For details of the individual classes see the [Entities](/entities).  For implementation topics, see the [FAQ](faq.html).

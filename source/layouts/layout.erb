@@ -9,7 +9,7 @@
     <link rel="icon" href="#######">
 
     <title>
-      <%= current_page.data.title || "ClinGen Data Model" %>
+      <%= current_page.data.title || "ClinGen DataExchange Model" %>
     </title>
 
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs/dt-1.10.13/fh-3.1.2/datatables.min.css"/>
@@ -67,19 +67,20 @@
             </div>
         </nav>
           </div>
-    
-
-    <% if current_page.data.id.nil? %>
+    <% if defined? entity_id and entity_id != nil %>
+      <%- entity = data.flattened.Type[entity_id] %>
+      <%- title = data.flattened.Type[entity_id].name %>
+      <%- description = data.flattened.Type[entity_id].description %>
+      <%- type_iri = data.flattened.Type[entity_id].iri%>
+    <% elsif defined? vs and vs != nil %>
+      <%- title = vs['label'] %>
+      <%- description = vs['description'] %>
+      <%- type_iri = vs['id'] %>
+    <% else %>
       <%- title = current_page.data.title %>
       <%- description = current_page.data.description %>
-    <% else %>
-      <%- entity = data.flattened.Type[current_page.data.id] %>
-      <%- title = data.flattened.Type[current_page.data.id].name %>
-      <%- description = data.flattened.Type[current_page.data.id].description %>
-      <%- type_iri = data.flattened.Type[current_page.data.id].iri%>
     <% end %>
 
-    
         <div class="row">
           <div class="col-sm-12">
               <h1 class="header"><%= title %></h1>
@@ -92,10 +93,9 @@
               <% if type_iri != nil %>
                 <STRONG>
                   <div><%= type_iri %></div>
-                  <% if !current_page.data.id.nil? %>
-                  <% parentid = data.flattened.Type[current_page.data.id].parentType %>
-                  <% if parentid == nil %>
-                  <% else %>
+                  <% if defined? entity_id and entity_id != nil %>
+                  <% parentid = data.flattened.Type[entity_id].parentType %>
+                  <% if parentid != nil %>
                       <i>Descended from <%= data.flattened.Type[parentid].name %></i>
                   <% end %>
                   <% end %>
@@ -119,7 +119,7 @@
           <div class="list-group sidenav">
             <ul class="list-unstyled">
               <li class="list-group-item">
-                <h5><%= link_to "Interpretation Overview", "/index.html", :relative => true %></h5>
+                <h5><%= link_to "Model Overview", "/index.html", :relative => true %></h5>
               </li>
               <li class="list-group-item">
                 <h5><%= link_to "Getting Started", "/getting_started.html", :relative => true %></h5>
@@ -130,10 +130,10 @@
               <li class="list-group-item">
                 <h5><%= link_to "FAQ", "/faq.html", :relative => true %></h5>
               </li>
-              <%= link_with_local_index "Entities", "tech/index.html" %>
-              <%= link_with_local_index "Terminology", "terminology/index.html" %>
+              <%= link_with_local_index "Entities", "entities/index.html" %>
+              <%= link_with_local_index "Terminologies", "terminologies/index.html" %>
               <li class="list-group-item">
-                <h5><%= link_to "Projects and Tools", "/projects.html", :relative => true %></h5>
+                <h5><%= link_to "Projects & Tools", "/projects.html", :relative => true %></h5>
               </li>
               <!-- Old style.  We might still need the model here? -->
               <!--%= link_with_local_index "Entities", "/#{current_page.data.model}/vampi/entities/index.html" %-->
@@ -146,7 +146,7 @@
       <div class="row">
         <hr />
         <div class="col-md-col-sm-12 text-center"> 
-          © 2017 <a href="/" title="ClinGen" class="">ClinGen</a> - All rights reserved
+          © 2018 <a href="/" title="ClinGen" class="">ClinGen</a> - All rights reserved
         </div>
     </div>
 

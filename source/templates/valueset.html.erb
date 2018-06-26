@@ -1,0 +1,17 @@
+
+    <!-- this is the top level description of the value set -->
+    <h2>Description</h2>
+    <%= render_markdown(vs['description'] || '') %>
+
+    <!-- list the high level attributes here -->
+
+
+    <!-- build the expanded table if any concepts exist -->
+    <h3>Expanded Concept List</h3>
+    <table>
+      <tr>
+        <th>id</td>
+        <td>label</td>
+        <td>description</td>
+      </tr>
+    </table>

@@ -51,31 +51,46 @@ $dmwg_examples = DMWGExampleData.new('data/flattened')
 
 # build raw json versions of the examples
 $dmwg_examples.data_by_id.each do |k,v|
-  v_with_context = v.merge({'@context' => 'http://datamodel.clinicalgenome.org/interpretation/json/context'})
-  proxy "/json/#{k}", "/templates/entity.json", :locals => { :object => v_with_context },
+  v_with_context = v.merge({'@context' => 'http://dataexchange.clinicalgenome.org/interpretation/json/context'})
+  proxy "/json/#{k}", "/templates/entity.json", 
+    :locals => { :object => v_with_context },
     :ignore => true, :layout => false, :directory_indexes => true
 end
+
 # generating entity pages 
 $dmwg_examples.types_by_entity_id.each do |e_id, type|
-  proxy "/generated/#{type['name']}.html", 'templates/entity.html', :locals => { :entity_id => e_id },
+  proxy "/generated/#{type['name']}.html", 'templates/entity.html', 
+    :locals => { :entity_id => e_id, :vs => nil? },
+    :layout => "layout.erb", 
+    :ignore => true, 
+    :directory_indexes => true
+end
+
+# generating value set pages
+$dmwg_examples.data_by_entity_type['ValueSet'].each do |vs|
+  proxy "/generated/#{vs['label'].delete(' ')}.html", 'templates/valueset.html', 
+    :locals => { :entity_id => nil, :vs => vs },
     :layout => "layout.erb", :ignore => true, :directory_indexes => true
 end
-# generating value set pages 
-#$dmwg_examples.valuesets_by_entity_id.each do |e_id, type|
-#  proxy "/generated/#{type['name']}.html", 'templates/valueset.html', :locals => { :entity_id => e_id },
-#    :layout => "layout.erb", :ignore => true, :directory_indexes => true
-#end
+
 # generates Types.json file
-proxy "/json/Types", "/templates/entity.json", :locals => { :object => $dmwg_examples.types_by_entity_id },
+proxy "/json/Types", "/templates/entity.json", 
+  :locals => { :object => $dmwg_examples.types_by_entity_id },
   :ignore => true, :layout => false, :directory_indexes => true
+
 # generates the json-ld context (v1.0 context)
-proxy "/json/context", "/templates/entity.json", :locals => { :object => construct_context() },
+proxy "/json/context", "/templates/entity.json", 
+  :locals => { :object => construct_context() },
   :ignore => true, :layout => false, :directory_indexes => true
+
 # generates the json-ld SEPIO version of context (v1.0 sepio context)
-proxy "/json/sepio_context", "/templates/entity.json", :locals => { :object => construct_context('sepio') },
+proxy "/json/sepio_context", "/templates/entity.json", 
+  :locals => { :object => construct_context('sepio') },
   :ignore => true, :layout => false, :directory_indexes => true
+
 # generates the json-ld context (v1.1 scoped context)
-proxy "/json/scoped_context", "/templates/entity.json", :locals => { :object => construct_scoped_context() },
+proxy "/json/scoped_context", "/templates/entity.json", 
+  :locals => { :object => construct_scoped_context() },
   :ignore => true, :layout => false, :directory_indexes => true
 ignore "/templates/"
 ignore "/json/" # not sure why this has to be here, but may work around a middleman bug...
@@ -123,7 +138,7 @@ helpers do
     end
     data.each do |item|
       if (item.kind_of?(Hash) && item['id'])
-        output << %(<p>#{link_to item['id'], "/tech/details/details.html", :fragment => item['id'], :relative => true}</p>)
+        output << %(<p>#{link_to item['id'], "/entities/details/details.html", :fragment => item['id'], :relative => true}</p>)
 	if item['label']
           output << " (#{item['label']})"
         end

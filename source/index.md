@@ -1,21 +1,22 @@
 ---
-title: Variant Pathogenicity Interpretation Model
-model: interpretation
+title: Interpretation Model
+descrption: Variant Pathogenicity Interpreation model background and benefits, as well as, some insights into the development approach.
+model: variant pathogenicity interpretation
 
 ---
 
 Introduction
 ------------
 
-ClinGen members are generating an incredible amount of richly curated interpretations of the clinical effect of genetic variants.   The ClinGen Interpretation Model provides a structure and format for exchanging this information, which retains the contextual and supporting information related to the interpretation of the variant.
+ClinGen members are generating an incredible amount of richly curated interpretations of the clinical effect of genetic variants. The ClinGen Interpretation Model provides a structure and format for exchanging this information, which retains the contextual and supporting information related to the interpretation of the variant.
 
 <div class="row">
     <hr class="col-sm-12" />
-    <div class="col-sm-4"><a href="#" class="btn btn-default btn-block btn-lg">Getting Started</a>
+    <div class="col-sm-4"><a href="/getting_started.html" class="btn btn-default btn-block btn-lg">Getting Started</a>
     </div>
-    <div class="col-sm-4"><a href="#" class="btn btn-default btn-block btn-lg">A Deeper Dive</a>
+    <div class="col-sm-4"><a href="/deeper_dive.html" class="btn btn-default btn-block btn-lg">A Deeper Dive</a>
     </div>
-    <div class="col-sm-4"><a href="#" class="btn btn-default btn-block btn-lg">FAQ</a>
+    <div class="col-sm-4"><a href="/faq.html" class="btn btn-default btn-block btn-lg">FAQ</a>
     </div>
     <hr class="col-sm-12" />
 </div>
@@ -44,7 +45,7 @@ Development by Example
 ----------------------
 
 To ensure that the model supports its intended use case to represent clinical interpretation of
-variants, development has been guided by real-world examples based on the application of the [ACMG guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html){:target="acmgguidelines"}. These examples are available in hierarchical form through the individual pages of the [Technical Reference](tech/), or in a "flattened" form in the [data/flattened](https://github.com/clingen-data-model/clingen-interpretation/tree/master/data/flattened){:target="githubinterpdata"} directory of our source code repository.
+variants, development has been guided by real-world examples based on the application of the [ACMG guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html){:target="acmgguidelines"}. These examples are available in hierarchical form through the individual [Entities](entities/) pages, or in a "flattened" form in the [data/flattened](https://github.com/clingen-data-model/clingen-interpretation/tree/master/data/flattened){:target="githubinterpdata"} directory of our source code repository.
 
 Status
 ------

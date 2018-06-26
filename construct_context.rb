@@ -1,7 +1,7 @@
 require 'json'
 require './reformat_examples'
 
-DM_BASE_IRI = "http://datamodel.clinicalgenome.org/"
+DM_BASE_IRI = "http://dataexchange.clinicalgenome.org/"
 
 def construct_context(target = 'clingen', data_dir = File.join('data', 'flattened'))
   dmwg_examples = DMWGExampleData.new('data/flattened')

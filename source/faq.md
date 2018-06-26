@@ -1,11 +1,11 @@
 ---
-title: Discussion
-description: Finer points on the use of the interpretation model
-model: interpretation
+title: Frequently Asked Questions
+description: Questions and answers, common topics of discussion and finer points on the use of the variant pathogenicity interpretation model.
+model: variant pathogenicity interpretation
 
 ---
 ### Topics
-- [Are variants represented with the ClinGen Allele Model, the GA4GH VMC Model, HGVS or something else?](#are-variants-represented-with-the-clingen-allele-modelhttpdatamodelclinicalgenomeorgallelemasterindexhtml-the-ga4gh-vmc-modelhttpsgithubcomga4ghvmc-hgvshttpvarnomenhgvsorg-or-something-else)
+- [Are variants represented with the ClinGen Allele Model, the GA4GH VMC Model, HGVS or something else?](#are-variants-represented-with-the-clingen-allele-modelhttpdataexchangeclinicalgenomeorgallelemasterindexhtml-the-ga4gh-vmc-modelhttpsgithubcomga4ghvmc-hgvshttpvarnomenhgvsorg-or-something-else)
 - [What's the difference between a Canonical Allele and a Contextual Allele?](#whats-the-difference-between-a-canonical-allele-and-a-contextual-allele)
 - [Why do some places in the model use Canonical Alleles and others use Contextual Alleles?](#why-do-some-places-in-the-model-use-canonical-alleles-and-others-use-contextual-alleles)
 - [Is the representation of alleles from the Allele Registry the same as the representation in the Interpretation Model?](#is-the-representation-of-alleles-from-the-allele-registryhttpsregclinicalgenomeorgredmineprojectsregistrygenboreeregistrylanding-the-same-as-the-representation-in-the-interpretation-model)
@@ -25,9 +25,9 @@ model: interpretation
 
     <hr class="col-sm-12" />
 
-### Are variants represented with the [ClinGen Allele Model](http://datamodel.clinicalgenome.org/allele/master/index.html), the [GA4GH VMC Model](https://github.com/ga4gh/vmc), [HGVS](http://varnomen.hgvs.org/) or something else?
+### Are variants represented with the [ClinGen Allele Model](http://dataexchange.clinicalgenome.org/allele/master/index.html), the [GA4GH VMC Model](https://github.com/ga4gh/vmc), [HGVS](http://varnomen.hgvs.org/) or something else?
 
-Prior to the creation of the Pathogenicity Interpretation Model, The ClinGen Data Model Working Group created an Allele Model that specified a representation of alleles. Subsequently, GA4GH proposed the VMC model.  In later versions, we will bring these two models into alignment, but currently, alleles in interpretations are represented using a slightly modified version of the ClinGen Allele Model.  To show these differences, [ContextualAllele](http://datamodel.clinicalgenome.org/allele/resource/contextual_allele/) and  [CanonicalAllele](http://datamodel.clinicalgenome.org/allele/resource/canonical_allele/) have pages in the Interpretation Model documentation.  The changes are very minor - several attribute names have been slightly changed.  
+Prior to the creation of the Pathogenicity Interpretation Model, The ClinGen Data Model Working Group created an Allele Model that specified a representation of alleles. Subsequently, GA4GH proposed the VMC model.  In later versions, we will bring these two models into alignment, but currently, alleles in interpretations are represented using a slightly modified version of the ClinGen Allele Model.  To show these differences, [ContextualAllele](http://dataexchange.clinicalgenome.org/allele/resource/contextual_allele/) and  [CanonicalAllele](http://dataexchange.clinicalgenome.org/allele/resource/canonical_allele/) have pages in the Interpretation Model documentation.  The changes are very minor - several attribute names have been slightly changed.  
 
 Genotypes and Haplotypes are not elements of the ClinGen Allele Model.  Here they are represented using a simple format inspired by the VMC model.  In later versions, these variant representations will all converge.
 
@@ -39,7 +39,7 @@ A Contextual Allele is an allele that occurs on a specific sequence.  That seque
 
 A Canonical Allele is a collection of Contextual Alleles that are considered to be equivalent.  It provides an entity that can have a stable identifier applied to it, so that as new Contextual Alleles are discovered, they can be added to existing Canonical Alleles.
 
-See [this discussion](http://datamodel.clinicalgenome.org/allele/discussion/canonicalization.html) for more information.
+See [this discussion](http://dataexchange.clinicalgenome.org/allele/discussion/canonicalization.html) for more information.
 <div class="text-right"><a href="#topics">[Top]</a></div>
 
 ### Why do some places in the model use Canonical Alleles and others use Contextual Alleles?
@@ -98,7 +98,7 @@ We want to provide constraints on what values can or should be chosen for certai
 
 ### How can I relabel an entity?
 
-Terms in ontologies, such as disease ontology, consist of both an identifier and a label.  The identifier is the specific stable string that allows users to understand that they are both talking about the same entity, even if they use different names for it.  However, particular users may have their own set of terms that they use locally for those entities, and which they would like to use in their interpretation messages. For this reason, we have provided the [User Label](/tech/entity_definitions/terminology/user_label.html) object, which can be attached to any term.   Attaching a user label does not change the label of a term, which is provided by the source that creates the term, but it is an extra piece of information that says "User X calls this thing Y".
+Terms in ontologies, such as disease ontology, consist of both an identifier and a label.  The identifier is the specific stable string that allows users to understand that they are both talking about the same entity, even if they use different names for it.  However, particular users may have their own set of terms that they use locally for those entities, and which they would like to use in their interpretation messages. For this reason, we have provided the [User Label](/entities/generated/UserLabel.html) object, which can be attached to any term.   Attaching a user label does not change the label of a term, which is provided by the source that creates the term, but it is an extra piece of information that says "User X calls this thing Y".
 
 <div class="text-right"><a href="#topics">[Top]</a></div>
 
