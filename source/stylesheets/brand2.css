@@ -154,6 +154,11 @@ blockquote {
  * Global add-ons
  */
 
+.border-bottom {
+  margin-bottom: .5rem;
+  border-bottom: 1px solid #ccc;
+}
+
 .sub-header {
   padding-bottom: 10px;
   border-bottom: 1px solid #eee;
@@ -177,7 +182,6 @@ blockquote {
   border-radius: 0;
   border:none;
   padding-bottom: 0;
-  border-left: 1px solid #ccc;
 }
 .sidenav li.list-group-item h5 {
   padding-bottom: 10px;
@@ -205,10 +209,17 @@ article ul li:before {
     position: relative;
     line-height: normal !important;
 }
-article ul.pagination li:before {
+article ul.pagination li:before, article ul.nav li:before , article ul.none li:before {
   content: inherit !important;
   border:none !important;
   display: inherit !important;
+}
+
+.entity-display {
+  padding-bottom: 2rem;
+}
+.entity-display:nth-child(4n) {
+  clear: left;
 }
 
 /*
