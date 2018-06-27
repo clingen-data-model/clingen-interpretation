@@ -3,41 +3,57 @@ title: Terminologies
 description: The description of the controlled sets of terms also known as Value Sets and their sources - Identifer Systems. These value sets and their controlled concept list are required to support the bindings to various attributes for entities used throughout the model.
 
 ---
-
-<div id="identifier-systems">
-  <h3>Identifier Systems</h3>
-  <p>This table contains a list of all the Identifier Systems referenced by the Value Sets and by the model entity and attributes themselves.</p>
-  <table>
-    <th>Name</th>
-    <th><a href="https://en.wikipedia.org/wiki/CURIE" target="_blank">CURIE</a></th>
-    <th><a href="https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier" target="_blank">IRI</a></th>
-    <th>Description</th>
-    <% identifier_systems().each do |idsys| %>
-    <tr>
-      <td><%= idsys['label'] %></td>
-      <td><%= idsys['prefix'] %></td>
-      <td><%= link_to(idsys['id'], idsys['id'], target: "_blank") %></td>
-      <td><%= idsys['description']%></td>
-    </tr>
-    <% end %>
-  </table>
-</div>
-
-<div id="value-sets">
-  <h3>Value Sets</h3>
-  <p>This table contains a list of all the value sets defined as part of the Variant Pathogenicity Interpretation specification. Some of these value sets include concepts defined elsewhere, some contain their own inline identifier system definitions, and some do both. </p>
-  <table>
-    <th>Name</th>
-    <th>IRI</th>
-    <th>Description</th>
-    <th>Source</th>
-    <% value_sets().each do |vs| %>
-    <tr>
-      <td><%= link_to( vs['label'], "/terminologies/#{vs['label'].delete(' ')}.html", target: "_blank") %></td>
-      <td><%= vs['id'] %></td>
-      <td><%= vs['description']%></td>
-      <td><%= (vs['valueSetIdentifierSystems'].map {|r| r['prefix']}).join('<br/>') %></td>
-    </tr>
-    <% end %>
-  </table>
+<ul class="nav nav-tabs" id="myTabs" role="tablist">
+  <li role="presentation" class="active">
+    <a href="#identifier_systems" id="identifier_systems-tab" role="tab" data-toggle="tab" aria-controls="identifier_systems" aria-expanded="true">Identifier Systems</a>
+  </li>
+  <li role="presentation" class="">
+    <a href="#value_sets" role="tab" id="value_sets-tab" data-toggle="tab" aria-controls="value_sets" aria-expanded="false">Value Sets</a>
+  </li> 
+</ul> 
+<div class="tab-content" id="">
+  <div class="tab-pane fade active in" role="tabpanel" id="identifier_systems" aria-labelledby="identifier_systems-tab">
+    <div class="col-sm-12">
+      <h3>Identifier Systems</h3>
+      <p>This table contains a list of all the Identifier Systems referenced by the Value Sets and by the model entity and attributes themselves.</p>
+      <table class="table table-hover table-striped table-bordered">
+        <thead>
+          <th>Name</th>
+          <th><a href="https://en.wikipedia.org/wiki/CURIE" target="_blank">CURIE</a></th>
+          <th><a href="https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier" target="_blank">IRI</a></th>
+          <th>Description</th>
+        </thead>
+        <% identifier_systems().each do |idsys| %>
+        <tr>
+          <td><%= idsys['label'] %></td>
+          <td><%= idsys['prefix'] %></td>
+          <td><%= link_to(idsys['id'], idsys['id'], target: "_blank") %></td>
+          <td><%= idsys['description']%></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+  </div>
+  <div class="tab-pane fade active in" role="tabpanel" id="value_sets" aria-labelledby="value_sets-tab">
+    <div class="col-sm-12">
+      <h3>Value Sets</h3>
+      <p>This table contains a list of all the value sets defined as part of the Variant Pathogenicity Interpretation specification. Some of these value sets include concepts defined elsewhere, some contain their own inline identifier system definitions, and some do both. </p>
+      <table class="table table-hover table-striped table-bordered">
+        <thead>
+          <th>Name</th>
+          <th>IRI</th>
+          <th>Description</th>
+          <th>Source</th>
+        </thead>
+        <% value_sets().each do |vs| %>
+        <tr>
+          <td><%= link_to( vs['label'], "/terminologies/#{vs['label'].delete(' ')}.html", target: "_blank") %></td>
+          <td><%= vs['id'] %></td>
+          <td><%= vs['description']%></td>
+          <td><%= (vs['valueSetIdentifierSystems'].map {|r| r['prefix']}).join('<br/>') %></td>
+        </tr>
+        <% end %>
+      </table>
+    </div>
+  </div>
 </div>
