@@ -1,34 +1,27 @@
  
    
     <!-- list the high level attributes here -->
-    <b>Summary</b>
-    <table>
-        <tr>
-            <th>IRI</th>
-            <td><%= vs['id'] %></td>
-        </tr>
-        <tr>
-            <th>Name</th>
-            <td><%= vs['label'] %></td>
-        </tr>
-        <% if vs['description'].empty? == false %>
-        <tr>
-            <th>Description</th>
-            <td><%= vs['description'] %></td>
-        </tr>
-        <% end %>
-    </table>
-
-    <br/>
-    <div>
-    This value set includes codes from the following identifier systems:
-    <ul>
+    <h3>Summary</h3>
+    <dl class="dl-horizontal">
+      <dt>IRI</dt>
+      <dd><%= vs['id'] %></dd>
+      <dt>Name</dt>
+      <dd><%= vs['label'] %></dd>
+      <% if vs['description'].empty? == false %>
+        <dt>Description</dt>
+        <dd><%= vs['description'] %></dd>
+      <% end %>
+    </dl>
+    
+    <hr />
+    <h3>Included Codes</h3>
+    <p>This value set includes codes from the following identifier systems:</p>
+    <ul class="list-unstyled none">
     <% vs['valueSetIdentifierSystems'].each do |idsys| %>
         <li>Include any concept from <code><%= idsys['id'] %></code> ( <%= idsys['label'] %> )</li>
     <% end %>
     </ul>
-    </div>
-
+    <hr />
     <!-- build the expanded table if any concepts exist -->
     <h3>Expansion</h3>
     <p>This value set is <em><%= vs['valueSetExtensibility']['label'] %></em> and therefore 
@@ -43,10 +36,12 @@
     <p>NOTE: This value set contains no predefined concepts. Concepts can be chosen from the source identifier systems and if no viable option exists custom concepts may be used.</p>
     <% else %>
     <p>This value set contains <%= vs['concept'].size %> concepts. </p>
-    <table>
-        <th>IRI</td>
+    <table class="table table-hover table-striped table-bordered">
+        <thead>
+        <th>IRI</th>
         <th>Label</th>
         <th>Description</th>
+        </thead>
         <% vs['concept'].each do |concept| %>
         <tr>
             <td><%= concept['id']%></td>
