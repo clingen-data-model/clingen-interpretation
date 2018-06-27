@@ -51,6 +51,8 @@
         </table>
     <% end # if there are attributes %>
 
+    <% if !['ValueSet','IdentifierSystem'].include? entity['name']  # no examples section for VS or IDSys %>
+
     <%- examples = examples_by_type(entity_id) || [] %>
     <% if examples.any? %>
     <h2>Examples</h2>
@@ -89,6 +91,7 @@
       <% end # each example %>
       </tbody>
     </table>
+     <% end  # no examples section for VS or IDSys %>
     <script>
 window.addEventListener('load', function() {
     $('.datatables').DataTable();

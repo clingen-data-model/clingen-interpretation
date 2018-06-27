@@ -9,15 +9,15 @@
     "prefix": "CAR",
     "urlPattern": "http://reg.genome.network/allele/"
   },
-  "http://datamodel.clinicalgenome.org/temp/": {
-    "id": "http://datamodel.clinicalgenome.org/temp/",
+  "http://dataexchange.clinicalgenome.org/temp/": {
+    "id": "http://dataexchange.clinicalgenome.org/temp/",
     "prefix": "CG",
-    "urlPattern": "http://datamodel.clinicalgenome.org/CG_"
+    "urlPattern": "http://dataexchange.clinicalgenome.org/CG_"
   },
-  "http://datamodel.clinicalgenome.org/examples/": {
-    "id": "http://datamodel.clinicalgenome.org/examples/",
+  "http://dataexchange.clinicalgenome.org/examples/": {
+    "id": "http://dataexchange.clinicalgenome.org/examples/",
     "prefix": "CGEX",
-    "urlPattern": "http://datamodel.clinicalgenome.org/CGEX_"
+    "urlPattern": "http://dataexchange.clinicalgenome.org/CGEX_"
   },
   "http://www.ncbi.nlm.nih.gov/clinvar/": {
     "id": "http://www.ncbi.nlm.nih.gov/clinvar/",

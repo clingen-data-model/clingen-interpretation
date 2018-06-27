@@ -3,6 +3,8 @@
     "id": "E00",
     "name": "Entity",
     "link": "E",
+    "level1": "Foundation",
+    "level2": "Framework",
     "iri": "BFO:0000001",
     "iri-label": "entity",
     "cg-label": "entity",
@@ -38,9 +40,11 @@
     "id": "E40",
     "name": "DomainEntity",
     "parentType": "E00",
+    "level1": "Foundation",
+    "level2": "Framework",
     "iri-label": "",
     "description": "Parent class for all concepts that may fit the following uses: \n- referenced in a ValueSet\n- provide for an optional UserLabel in lieu of the registered id label\n- define a novel concept with only a UserLabel for a given subclass",
-    "comments": "These types represent base domain-related classes needed to describe variant pathogenicity data, such as alleles and conditions.  Several of these entities are more fully described in the [ClinGen allele model](http://datamodel.clinicalgenome.org/allele/master/index.html), but are included here for convenience."
+    "comments": "These types represent base domain-related classes needed to describe variant pathogenicity data, such as alleles and conditions.  Several of these entities are more fully described in the [ClinGen allele model](http://dataexchange.clinicalgenome.org/allele/master/index.html), but are included here for convenience."
   },
   "E56": {
     "id": "E56",

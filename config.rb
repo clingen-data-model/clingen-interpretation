@@ -278,6 +278,14 @@ helpers do
       .to_h
   end
 
+  def value_sets()
+    $dmwg_examples.data_by_entity_type['ValueSet']
+  end
+
+  def identifier_systems()
+    $dmwg_examples.data_by_entity_type['IdentifierSystem']
+  end
+
   def types_by_entity_id()
     $dmwg_examples.types_by_entity_id
   end

@@ -1,7 +1,7 @@
 require 'json'
 require './reformat_examples'
 
-DM_BASE_IRI = "http://datamodel.clinicalgenome.org/types/"
+DM_BASE_IRI = "http://dataexchange.clinicalgenome.org/types/"
 
 
 # builds the jsonld context file using the DMWG Example Data types and identifiers

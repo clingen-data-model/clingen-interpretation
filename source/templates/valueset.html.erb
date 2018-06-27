@@ -1,17 +1,58 @@
-
-    <!-- this is the top level description of the value set -->
-    <h2>Description</h2>
-    <%= render_markdown(vs['description'] || '') %>
-
+ 
+   
     <!-- list the high level attributes here -->
+    <b>Summary</b>
+    <table>
+        <tr>
+            <th>IRI</th>
+            <td><%= vs['id'] %></td>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <td><%= vs['label'] %></td>
+        </tr>
+        <% if vs['description'].empty? == false %>
+        <tr>
+            <th>Description</th>
+            <td><%= vs['description'] %></td>
+        </tr>
+        <% end %>
+    </table>
 
+    <br/>
+    <div>
+    This value set includes codes from the following identifier systems:
+    <ul>
+    <% vs['valueSetIdentifierSystems'].each do |idsys| %>
+        <li>Include any concept from <code><%= idsys['id'] %></code> ( <%= idsys['label'] %> )</li>
+    <% end %>
+    </ul>
+    </div>
 
     <!-- build the expanded table if any concepts exist -->
-    <h3>Expanded Concept List</h3>
+    <h3>Expansion</h3>
+    <p>This value set is <em><%= vs['valueSetExtensibility']['label'] %></em> and therefore 
+    <% if vs['valueSetExtensibility']['label'] == 'fixed' %>
+    cannot be extended to include concepts not explicitly listed.
+    <% else %>
+    can be extended to include concepts from the listed identifier systems by adding on the fly concepts defined by a sending system if no viable option from any of the identifier systems is acceptable.
+    <% end %>
+    </p> 
+
+    <% if vs['concept'] == nil or vs['concept'].empty? %>
+    <p>NOTE: This value set contains no predefined concepts. Concepts can be chosen from the source identifier systems and if no viable option exists custom concepts may be used.</p>
+    <% else %>
+    <p>This value set contains <%= vs['concept'].size %> concepts. </p>
     <table>
-      <tr>
-        <th>id</td>
-        <td>label</td>
-        <td>description</td>
-      </tr>
+        <th>IRI</td>
+        <th>Label</th>
+        <th>Description</th>
+        <% vs['concept'].each do |concept| %>
+        <tr>
+            <td><%= concept['id']%></td>
+            <td><%= concept['label']%></td>
+            <td><%= concept['description']%></td>
+        </tr>
+        <% end %>
     </table>
+    <% end %>

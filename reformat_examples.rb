@@ -149,15 +149,16 @@ class DMWGExampleData
       @data_by_id[ex['id']] = ex
     end
 
-    # remove id from types_by_entity_id that are only internal (not dereferenceable)
-    @id2example.delete_if do |k, v|
-      if ['Contribution'].include? v['type'] then
-        v.delete('id')
-        true
-      else
-        false
-      end
-    end
+# TODO delete the commented block below after confirming with bpowell that it is no longer relevant
+    # # remove id from types_by_entity_id that are only internal (not dereferenceable)
+    # @id2example.delete_if do |k, v|
+    #   if ['Contribution'].include? v['type'] then
+    #     v.delete('id')
+    #     true
+    #   else
+    #     false
+    #   end
+    # end
 
     # generate @data_by_entity_type
     @data_by_entity_type = {}

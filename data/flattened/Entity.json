@@ -1453,7 +1453,7 @@
   },
   "https://meshb.nlm.nih.gov/": {
     "id": "https://meshb.nlm.nih.gov/",
-    "label": "MeSH"
+    "label": "Medical Subject Headers"
   },
   "http://evs.gs.washington.edu/EVS/": {
     "id": "http://evs.gs.washington.edu/EVS/",
@@ -1522,6 +1522,18 @@
   "http://purl.org/pav/": {
     "id": "http://purl.org/pav/",
     "label": "PAV"
+  },
+  "http://dataexchange.clinicalgenome.org/temp/": {
+    "id": "http://dataexchange.clinicalgenome.org/temp/",
+    "label": "ClinGen Modeling Temporary Namespace"
+  },
+  "http://dataexchange.clinicalgenome.org/examples/": {
+    "id": "http://dataexchange.clinicalgenome.org/examples/",
+    "label": "ClinGen Modeling Example Namespace"
+  },
+  "http://xmlns.com/foaf/0.1/": {
+    "id": "http://xmlns.com/foaf/0.1/",
+    "label": "FOAF Ontology"
   },
   "SEPIO:0000363": {
     "id": "SEPIO:0000363",

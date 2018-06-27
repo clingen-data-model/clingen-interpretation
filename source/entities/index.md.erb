@@ -14,13 +14,13 @@ The entire list of Entities that comprise the Variant Pathogenicity Interpretati
       <a href="#types_alphabetical" role="tab" id="types_alphabetical-tab" data-toggle="tab" aria-controls="types_alphabetical" aria-expanded="false">Alphabetical</a>
   </li> 
   <li role="presentation" class="">
-      <a href="#types_hierarchy" role="tab" id="types_hierarchy-tab" data-toggle="tab" aria-controls="types_hierarchy" aria-expanded="false">Hierarchy</a>
+      <a href="#types_hierarchy" role="tab" id="types_hierarchy-tab" data-toggle="tab" aria-controls="types_hierarchy" aria-expanded="false">Hierarchical</a>
   </li> 
 </ul> 
 <div class="tab-content" id="">
     <div class="tab-pane fade active in" role="tabpanel" id="types_by_concepts" aria-labelledby="types_by_concepts-tab">   <br />
         <div class="col-sm-12">
-            <h2>Types by concepts</h2>
+            <h2>Categorized</h2>
             <ul class="list-unstyled row none">
                 <% types_by_concepts().each do |level1, level2group| %>
                 <li class="col-sm-12"><div class="panel panel-default"><div class="panel-heading h4 margin-none padding-none"><%= level1 %> </div>
@@ -40,7 +40,7 @@ The entire list of Entities that comprise the Variant Pathogenicity Interpretati
 </div>
 <div class="tab-pane fade in" role="tabpanel" id="types_alphabetical" aria-labelledby="types_alphabetical-tab">
     <br />
-    <div class="col-sm-12"><h2>Types by name</h2>
+    <div class="col-sm-12"><h2>Alphabetic</h2>
         <ul class="list-unstyled">
             <% types_by_entity_id.values.collect { |e| e['name'] }.sort.each do |entity_name| %>
             <li><%= link_to entity_name, "/entities/#{entity_name}.html"%></li>
@@ -50,7 +50,7 @@ The entire list of Entities that comprise the Variant Pathogenicity Interpretati
 </div>
 <div class="tab-pane fade in" role="tabpanel" id="types_hierarchy" aria-labelledby="types_hierarchy-tab">
     <br />
-    <div class="col-sm-12"><h2>Types by hierarchy</h2>
+    <div class="col-sm-12"><h2>Hierarchical</h2>
         <%= type_list_by_hierarchy %>
     </div>
 </div>

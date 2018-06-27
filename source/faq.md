@@ -5,7 +5,6 @@ model: variant pathogenicity interpretation
 
 ---
 ### Topics
-- [Topics](#topics)
 - [Are variants represented with the ClinGen Allele Model, the GA4GH VMC Model, HGVS or something else?](#are-variants-represented-with-the-clingen-allele-model-the-ga4gh-vmc-model-hgvs-or-something-else)
 - [What's the difference between a Canonical Allele and a Contextual Allele?](#whats-the-difference-between-a-canonical-allele-and-a-contextual-allele)
 - [Why do some places in the model use Canonical Alleles and others use Contextual Alleles?](#why-do-some-places-in-the-model-use-canonical-alleles-and-others-use-contextual-alleles)
