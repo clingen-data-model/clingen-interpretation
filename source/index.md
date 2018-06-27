@@ -5,10 +5,6 @@ model: variant pathogenicity interpretation
 
 ---
 
-Introduction
-------------
-
-ClinGen members are generating an incredible amount of richly curated interpretations of the clinical effect of genetic variants. The ClinGen Interpretation Model provides a structure and format for exchanging this information, which retains the contextual and supporting information related to the interpretation of the variant.
 
 
 <div class="btn-group btn-group-justified" role="group" aria-label="...">
@@ -17,6 +13,12 @@ ClinGen members are generating an incredible amount of richly curated interpreta
     <a href="/faq.html" class="btn btn-primary btn-block btn-lg">FAQ</a>
     <a href="#" class="btn btn-primary btn-block btn-lg">SEPIO Information</a>
 </div>
+
+ClinGen members are generating an incredible amount of richly curated interpretations of the clinical effect of genetic variants. The ClinGen Interpretation Model provides a structure and format for exchanging this information, which retains the contextual and supporting information related to the interpretation of the variant.
+
+ClinGen's interpretation model is a profiles of the Monarch Initiative's [Scientific Evidence and provenance Information Ontology](https://github.com/monarch-initiative/SEPIO-ontology/wiki){:target="sepio"} (SEPIO), an OWL ontology for the description of evidence and provenance that support scientific claims.  This ontology supports a number of use cases, but is mainly driven by the need to integrate evidence, and computationally assess the level of evidence for a scientific claim.  
+An interpretation is a statement about the pathogenicity of a variant, supported by a structured reasoning process applied to evidence; SEPIO's purpose is to capture exactly such structured data.   
+
 
 
 Benefits of the ClinGen Interpretation Model
