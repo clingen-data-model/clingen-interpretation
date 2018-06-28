@@ -8,10 +8,10 @@ model: variant pathogenicity interpretation
 
 
 <div class="btn-group btn-group-justified" role="group" aria-label="...">
-    <a href="/getting_started.html" class="btn btn-primary btn-block btn-lg">Getting Started</a>
-    <a href="/deeper_dive.html" class="btn btn-primary btn-block btn-lg">A Deeper Dive</a>
-    <a href="/faq.html" class="btn btn-primary btn-block btn-lg">FAQ</a>
-    <a href="#" class="btn btn-primary btn-block btn-lg">SEPIO Information</a>
+    <a href="/interpretation/getting_started.html" class="btn btn-primary btn-block btn-lg">Getting Started</a>
+    <a href="/interpretation/deeper_dive.html" class="btn btn-primary btn-block btn-lg">A Deeper Dive</a>
+    <a href="/interpretation/faq.html" class="btn btn-primary btn-block btn-lg">FAQ</a>
+    <a href="https://github.com/monarch-initiative/SEPIO-ontology/wiki/The-ClinGen-ACMG-Variant-Interpretation-Profile" class="btn btn-primary btn-block btn-lg">ClinGen SEPIO Profile</a>
 </div>
 
 ClinGen members are generating an incredible amount of richly curated interpretations of the clinical effect of genetic variants. The ClinGen Interpretation Model provides a structure and format for exchanging this information, which retains the contextual and supporting information related to the interpretation of the variant.
