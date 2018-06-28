@@ -216,4 +216,4 @@ The important part here is that supporting evidence is not directly connected to
 <hr class="col-sm-12" />
 ##Next Steps
 
-By now, you should have a pretty good idea about the main classes in the interpretation model and how they fit together.  But there's still lots of exciting details to plumb!  To learn about tracking provenance, value sets, alleles, SEPIO, and many other topics, you can continue on to the [more detailed documentation](deeper_dive.html) and the [FAQ](faq.html).  Alternately, you can browse the [entities and their examples](../entities) or some of the [projects](projects.html) associated with the model.  
+By now, you should have a pretty good idea about the main classes in the interpretation model and how they fit together.  But there's still lots of exciting details to plumb!  To learn about tracking provenance, value sets, alleles, SEPIO, and many other topics, you can continue on to the [more detailed documentation](deeper_dive.html) and the [FAQ](faq.html).  Alternately, you can browse the [entities and their examples](../entities) or some of the [tools](tools.html) associated with the model.  

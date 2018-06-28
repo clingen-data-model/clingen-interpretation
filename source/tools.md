@@ -1,11 +1,10 @@
 ---
-title: Projects & Tools
+title: Tools
 model: variant pathogenicity interpretation
-description: Projects using the variant pathogenicity interpretation model
+description: Tools and utilities that enable the use of the variant pathogenicity interpretation model
 
 ---
 
-## Introduction
 The interpretation model is ClinGen's way to send and receive information about variant pathogenicity.  Here are some tools that can help those implementing the model, and some tools that use the model.
 
 ##Interpretation Creator
@@ -23,6 +22,3 @@ The ClinGen Variant Curation Interface produces JSON-LD documents, but not in th
 [Github Repository](http://github.com/clingen-data-model/clinvar-submitter)
 
 ClinVar accepts interpretation submissions using its own spreadsheet-based format.  This tool consumes JSON-LD files in the ClinGen interpretation format, and converts them into valid ClinVar spreadsheets, which can then be manually submitted to ClinVar.
-
-##ClinGen Data Exchange
-The ClinGen Data Exchange is an in-development project that can be used to transmit data throughout the ClinGen ecosystem.   The ClinGen interpretation model will be the native format for transmitting interpretations in the Data Exchange.
