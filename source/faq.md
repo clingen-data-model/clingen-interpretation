@@ -135,6 +135,6 @@ At present, ClinVar only accepts submissions via their spreadsheet interface.  H
 
 <div class="text-right"><a href="#topics">[Top]</a></div>
 
-### What do I do if I find a problem with the ClinGen Pathogenicity Interpretation Model?
+### What do I do if I find a problem with the ClinGen Variant Pathogenicity Interpretation Model?
 
-Post an issue at our [github]().
+Post an issue at our [github](https://github.com/clingen-data-model/clingen-interpretation/issues).

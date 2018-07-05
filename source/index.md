@@ -50,4 +50,4 @@ variants, development has been guided by real-world examples based on the applic
 Status
 ------
 
-Version 1 of the interpretation model was [released](user/release_notes.html) June 27, 2018, and allows the description of variant pathogenicity interpretations based on the [ACMG/AMP guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html){:target="acmgguidelines"}.   Version 2 will incorporate variant interpretations across a broader set of entities and styles, and is currently in the scoping phase.
+Version 1 of the interpretation model was released June 27, 2018, and allows the description of variant pathogenicity interpretations based on the [ACMG/AMP guidelines](http://www.nature.com/gim/journal/v17/n5/full/gim201530a.html){:target="acmgguidelines"}.   Version 2 will incorporate variant interpretations across a broader set of entities and styles, and is currently in the scoping phase.
