@@ -50,10 +50,10 @@ For instance, the lines in the [ClinGen interpretation context](http://dataexcha
    "@id": "SEPIO:0000190"
 },
 ```
-indicate that a VariantInterpretation in a ClinGen JSON-LD document is the same entity as the type defined by the id SEPIO:0000190. That SEPIO id is defined in the [ClinGen-specific SEPIO extension here](https://github.com/monarch-initiative/SEPIO-ontology/blob/master/src/ontology/extensions/sepio-clingen.owl){:target="sepio"} as a variant pathogenicity interpretation, which is a subclass of SEPIO:0000001.  SEPIO:0000001 can be found in the [main SEPIO OWL file](https://raw.githubusercontent.com/monarch-initiative/SEPIO-ontology/master/src/ontology/sepio.owl){:target="sepio"}, where it is defined as an [Assertion](http://github.com/monarch-initiative/SEPIO-ontology/wiki/Assertion){:target="sepio"} in SEPIO.
+indicate that a VariantInterpretation in a ClinGen JSON-LD document is the same entity as the type defined by the id SEPIO:0000190. That SEPIO id is defined in the [ClinGen-specific SEPIO extension here](https://github.com/monarch-initiative/SEPIO-ontology/blob/master/src/ontology/extensions/clingen/sepio-clingen.owl){:target="sepio"} as a variant pathogenicity interpretation, which is a subclass of SEPIO:0000001.  SEPIO:0000001 can be found in the [main SEPIO OWL file](https://raw.githubusercontent.com/monarch-initiative/SEPIO-ontology/master/src/ontology/sepio.owl){:target="sepio"}, where it is defined as an [Assertion](http://github.com/monarch-initiative/SEPIO-ontology/wiki/Assertion){:target="sepio"} in SEPIO.
 
 
 
 ##Further Information
 
-This document has described the connection to the SEPIO model and the detailed structure of a message.   For details of the individual classes see the [Entities](/entities).  For implementation topics, see the [FAQ](faq.html).
+This document has described the connection to the SEPIO model and the detailed structure of a message.   For details of the individual classes see the [Entities](entities/index.html).  For implementation topics, see the [FAQ](faq.html).
