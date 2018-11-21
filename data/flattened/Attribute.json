@@ -1440,7 +1440,6 @@
     "iri": "SEPIO:0000041",
     "iri-label": "is_specified_by",
     "cg-label": "assertionMethod",
-    "@valueSetId": "SEPIO-CG:65132",
     "precedence": 4.0,
     "description": "The  framework that formally defines the methodology used in creating this interpretation."
   },
@@ -1761,7 +1760,6 @@
     "iri": "BFO:0000051",
     "iri-label": "has part",
     "cg-label": "scoringAlgorithm",
-    "@valueSetId": "SEPIO-CG:65133",
     "precedence": 4.0,
     "description": "The algorithm used to combine AssertionCriteria into a final Interpretation using this Method"
   },
