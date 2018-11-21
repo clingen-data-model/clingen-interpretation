@@ -597,7 +597,7 @@
   },
   "GENO:0000143": {
     "id": "GENO:0000143",
-    "label": "Codominant"
+    "label": "Codominant inheritance"
   },
   "GENO:0000602": {
     "id": "GENO:0000602",
@@ -621,35 +621,51 @@
   },
   "GENO:0000881": {
     "id": "GENO:0000881",
-    "label": "Unknown"
+    "label": "Unknown inheritance"
   },
   "GENO:0000882": {
     "id": "GENO:0000882",
-    "label": "somatic"
+    "label": "Somatic"
   },
   "GENO:0000888": {
     "id": "GENO:0000888",
-    "label": "parentally inherited"
+    "label": "Parentally inherited"
   },
   "GENO:0000889": {
     "id": "GENO:0000889",
-    "label": "unknown inheritance"
+    "label": "Unknown inheritance"
   },
   "GENO:0000892": {
     "id": "GENO:0000892",
-    "label": "Heteroplasmic mitochondrial inheritance"
+    "label": "Mitochondrial inheritance (primarily or exclusively heteroplasmic)"
   },
   "GENO:0000893": {
     "id": "GENO:0000893",
-    "label": "Homoplasmic mitochondrial inheritance"
+    "label": "Mitochondrial inheritance (primarily or exclusively homoplasmic)"
+  },
+  "SEPIO-CG:97020": {
+    "id": "SEPIO-CG:97020",
+    "label": "Semidominant inheritance"
+  },
+  "SEPIO-CG:97021": {
+    "id": "SEPIO-CG:97021",
+    "label": "X-linked inheritance (primarily recessive with milder female expression)"
+  },
+  "SEPIO-CG:97022": {
+    "id": "SEPIO-CG:97022",
+    "label": "Autosomal dominant inheritance (with genetic anticipation)"
+  },
+  "SEPIO-CG:97023": {
+    "id": "SEPIO-CG:97023",
+    "label": "Autosomal recessive inheritance (with genetic anticipation)"
   },
   "HP:0000006": {
     "id": "HP:0000006",
-    "label": "Autosomal Dominant"
+    "label": "Autosomal dominant inheritance"
   },
   "HP:0000007": {
     "id": "HP:0000007",
-    "label": "Autosomal Recessive"
+    "label": "Autosomal recessive inheritance"
   },
   "HP:0000256": {
     "id": "HP:0000256",
@@ -665,15 +681,15 @@
   },
   "HP:0001417": {
     "id": "HP:0001417",
-    "label": "X linked inheritance"
+    "label": "X-linked inheritance"
   },
   "HP:0001419": {
     "id": "HP:0001419",
-    "label": "X linked recessive inheritance"
+    "label": "X-linked inheritance (recessive)"
   },
   "HP:0001423": {
     "id": "HP:0001423",
-    "label": "X-linked dominant inheritance"
+    "label": "X-linked inheritance (dominant)"
   },
   "HP:0001426": {
     "id": "HP:0001426",
@@ -689,15 +705,15 @@
   },
   "HP:0001450": {
     "id": "HP:0001450",
-    "label": "Y linked inheritance"
+    "label": "Y-linked inheritance"
   },
   "HP:0001470": {
     "id": "HP:0001470",
-    "label": "Sex-limited autosomal dominant"
+    "label": "Autosomal dominant inheritance (sex-limited)"
   },
   "HP:0003743": {
     "id": "HP:0003743",
-    "label": "genetic anticipation"
+    "label": "Genetic anticipation"
   },
   "HP:0003745": {
     "id": "HP:0003745",
@@ -725,11 +741,11 @@
   },
   "HP:0012274": {
     "id": "HP:0012274",
-    "label": "Autosomal dominant inheritance with paternal imprinting"
+    "label": "Autosomal dominant inheritance (with paternal imprinting)"
   },
   "HP:0012275": {
     "id": "HP:0012275",
-    "label": "Autosomal dominant inheritance with maternal imprinting"
+    "label": "Autosomal dominant inheritance (with maternal imprinting)"
   },
   "HP:0012873": {
     "id": "HP:0012873",
@@ -737,11 +753,11 @@
   },
   "HP:0025352": {
     "id": "HP:0025352",
-    "label": "autosomal dominant germline de novo mutation"
+    "label": "Autosomal dominant inheritance (primarily or exclusively de novo)"
   },
   "HP:0031362": {
     "id": "HP:0031362",
-    "label": "Sex-limited autosomal recessive inheritance"
+    "label": "Autosomal recessive inheritance (sex-limited)"
   },
   "HP:0200106": {
     "id": "HP:0200106",
