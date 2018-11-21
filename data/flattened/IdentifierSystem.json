@@ -4,15 +4,75 @@
     "prefix": "BFO",
     "urlPattern": "http://purl.obolibrary.org/obo/BFO_"
   },
-  "http://reg.genome.network/allele/": {
-    "id": "http://reg.genome.network/allele/",
-    "prefix": "CAR",
-    "urlPattern": "http://reg.genome.network/allele/"
-  },
   "http://dataexchange.clinicalgenome.org/temp/": {
     "id": "http://dataexchange.clinicalgenome.org/temp/",
     "prefix": "CG",
     "urlPattern": "http://dataexchange.clinicalgenome.org/CG_"
+  },
+  "http://purl.org/dc/elements/1.1/": {
+    "id": "http://purl.org/dc/elements/1.1/",
+    "prefix": "DC",
+    "urlPattern": "http://purl.org/dc/elements/1.1/"
+  },
+  "http://purl.obolibrary.org/obo/ero#": {
+    "id": "http://purl.obolibrary.org/obo/ero#",
+    "prefix": "ERO",
+    "urlPattern": "http://purl.obolibrary.org/obo/ERO_"
+  },
+  "http://biohackathon.org/resource/faldo#": {
+    "id": "http://biohackathon.org/resource/faldo#",
+    "prefix": "FALDO",
+    "urlPattern": "http://biohackathon.org/resource/faldo#"
+  },
+  "http://purl.obolibrary.org/obo/geno#": {
+    "id": "http://purl.obolibrary.org/obo/geno#",
+    "prefix": "GENO",
+    "urlPattern": "http://purl.obolibrary.org/obo/GENO_"
+  },
+  "http://purl.obolibrary.org/obo/obi#": {
+    "id": "http://purl.obolibrary.org/obo/obi#",
+    "prefix": "OBI",
+    "urlPattern": "http://purl.obolibrary.org/obo/OBI_"
+  },
+  "http://purl.org/pav/": {
+    "id": "http://purl.org/pav/",
+    "prefix": "PAV",
+    "urlPattern": "http://purl.org/pav/"
+  },
+  "http://purl.obolibrary.org/obo/pco#": {
+    "id": "http://purl.obolibrary.org/obo/pco#",
+    "prefix": "PCO",
+    "urlPattern": "http://purl.obolibrary.org/obo/PCO_"
+  },
+  "http://www.w3.org/ns/prov#": {
+    "id": "http://www.w3.org/ns/prov#",
+    "prefix": "PROV",
+    "urlPattern": "http://www.w3.org/ns/prov#"
+  },
+  "http://www.w3.org/2000/01/rdf-schema#": {
+    "id": "http://www.w3.org/2000/01/rdf-schema#",
+    "prefix": "RDFS",
+    "urlPattern": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "http://purl.obolibrary.org/obo/ro#": {
+    "id": "http://purl.obolibrary.org/obo/ro#",
+    "prefix": "RO",
+    "urlPattern": "http://purl.obolibrary.org/obo/RO_"
+  },
+  "http://purl.obolibrary.org/obo/sepio#": {
+    "id": "http://purl.obolibrary.org/obo/sepio#",
+    "prefix": "SEPIO",
+    "urlPattern": "http://purl.obolibrary.org/obo/SEPIO_"
+  },
+  "http://purl.obolibrary.org/obo/sepio-clingen#": {
+    "id": "http://purl.obolibrary.org/obo/sepio-clingen#",
+    "prefix": "SEPIO-CG",
+    "urlPattern": "http://purl.obolibrary.org/obo/SEPIO-CG_"
+  },
+  "http://reg.genome.network/allele/": {
+    "id": "http://reg.genome.network/allele/",
+    "prefix": "CAR",
+    "urlPattern": "http://reg.genome.network/allele/"
   },
   "http://dataexchange.clinicalgenome.org/examples/": {
     "id": "http://dataexchange.clinicalgenome.org/examples/",
@@ -29,11 +89,6 @@
     "prefix": "DBSNP",
     "urlPattern": "http://www.ncbi.nlm.nih.gov/projects/SNP/"
   },
-  "http://purl.org/dc/elements/1.1/": {
-    "id": "http://purl.org/dc/elements/1.1/",
-    "prefix": "DC",
-    "urlPattern": "http://purl.org/dc/elements/1.1/"
-  },
   "http://purl.obolibrary.org/obo/doid#": {
     "id": "http://purl.obolibrary.org/obo/doid#",
     "prefix": "DOID",
@@ -44,30 +99,15 @@
     "prefix": "ENSEMBL",
     "urlPattern": "http://www.ensembl.org/"
   },
-  "http://purl.obolibrary.org/obo/ero#": {
-    "id": "http://purl.obolibrary.org/obo/ero#",
-    "prefix": "ERO",
-    "urlPattern": "http://purl.obolibrary.org/obo/ERO_"
-  },
   "http://evs.gs.washington.edu/EVS/": {
     "id": "http://evs.gs.washington.edu/EVS/",
     "prefix": "EVS",
     "urlPattern": "http://evs.gs.washington.edu/EVS/"
   },
-  "http://biohackathon.org/resource/faldo#": {
-    "id": "http://biohackathon.org/resource/faldo#",
-    "prefix": "FALDO",
-    "urlPattern": "http://biohackathon.org/resource/faldo#"
-  },
-  "http://xmlns.com/foaf/0.1/": {
-    "id": "http://xmlns.com/foaf/0.1/",
-    "prefix": "FOAF",
-    "urlPattern": "http://xmlns.com/foaf/0.1/"
-  },
-  "http://purl.obolibrary.org/obo/geno#": {
-    "id": "http://purl.obolibrary.org/obo/geno#",
-    "prefix": "GENO",
-    "urlPattern": "http://purl.obolibrary.org/obo/GENO_"
+  "https://www.ncbi.nlm.nih.gov/gene#": {
+    "id": "https://www.ncbi.nlm.nih.gov/gene#",
+    "prefix": "GENE",
+    "urlPattern": "https://www.ncbi.nlm.nih.gov/gene/"
   },
   "http://gnomad.broadinstitute.org/": {
     "id": "http://gnomad.broadinstitute.org/",
@@ -79,20 +119,10 @@
     "prefix": "HGNC",
     "urlPattern": "http://www.genenames.org/"
   },
-  "http://www.hgvs.org/mutnomen/": {
-    "id": "http://www.hgvs.org/mutnomen/",
-    "prefix": "HGVS",
-    "urlPattern": "http://www.hgvs.org/mutnomen/"
-  },
   "http://purl.obolibrary.org/obo/hp#": {
     "id": "http://purl.obolibrary.org/obo/hp#",
     "prefix": "HP",
     "urlPattern": "http://purl.obolibrary.org/obo/HP_"
-  },
-  "http://purl.obolibrary.org/obo/iao#": {
-    "id": "http://purl.obolibrary.org/obo/iao#",
-    "prefix": "IAO",
-    "urlPattern": "http://purl.obolibrary.org/obo/IAO_"
   },
   "http://www.internationalgenome.org/": {
     "id": "http://www.internationalgenome.org/",
@@ -114,15 +144,15 @@
     "prefix": "MESH",
     "urlPattern": "https://meshb.nlm.nih.gov/"
   },
+  "http://purl.obolibrary.org/obo/mondo#": {
+    "id": "http://purl.obolibrary.org/obo/mondo#",
+    "prefix": "MONDO",
+    "urlPattern": "http://purl.obolibrary.org/obo/MONDO_"
+  },
   "http://purl.obolibrary.org/obo/ncit#": {
     "id": "http://purl.obolibrary.org/obo/ncit#",
     "prefix": "NCIT",
     "urlPattern": "http://purl.obolibrary.org/obo/NCIT_"
-  },
-  "http://purl.obolibrary.org/obo/obi#": {
-    "id": "http://purl.obolibrary.org/obo/obi#",
-    "prefix": "OBI",
-    "urlPattern": "http://purl.obolibrary.org/obo/OBI_"
   },
   "http://www.omim.org/": {
     "id": "http://www.omim.org/",
@@ -134,64 +164,19 @@
     "prefix": "Orphanet",
     "urlPattern": "http://www.orpha.net/"
   },
-  "http://purl.org/pav/": {
-    "id": "http://purl.org/pav/",
-    "prefix": "PAV",
-    "urlPattern": "http://purl.org/pav/"
-  },
-  "http://purl.obolibrary.org/obo/pco#": {
-    "id": "http://purl.obolibrary.org/obo/pco#",
-    "prefix": "PCO",
-    "urlPattern": "http://purl.obolibrary.org/obo/PCO_"
-  },
-  "http://www.w3.org/ns/prov#": {
-    "id": "http://www.w3.org/ns/prov#",
-    "prefix": "PROV",
-    "urlPattern": "http://www.w3.org/ns/prov#"
-  },
   "http://www.ncbi.nlm.nih.gov/pubmed/": {
     "id": "http://www.ncbi.nlm.nih.gov/pubmed/",
     "prefix": "PMID",
     "urlPattern": "http://www.ncbi.nlm.nih.gov/pubmed/"
-  },
-  "http://www.w3.org/2000/01/rdf-schema#": {
-    "id": "http://www.w3.org/2000/01/rdf-schema#",
-    "prefix": "RDFS",
-    "urlPattern": "http://www.w3.org/2000/01/rdf-schema#"
   },
   "http://www.ncbi.nlm.nih.gov/nuccore/": {
     "id": "http://www.ncbi.nlm.nih.gov/nuccore/",
     "prefix": "REFSEQ",
     "urlPattern": "http://www.ncbi.nlm.nih.gov/nuccore/"
   },
-  "http://purl.obolibrary.org/obo/ro#": {
-    "id": "http://purl.obolibrary.org/obo/ro#",
-    "prefix": "RO",
-    "urlPattern": "http://purl.obolibrary.org/obo/RO_"
-  },
-  "http://purl.obolibrary.org/obo/sepio#": {
-    "id": "http://purl.obolibrary.org/obo/sepio#",
-    "prefix": "SEPIO",
-    "urlPattern": "http://purl.obolibrary.org/obo/SEPIO_"
-  },
-  "http://purl.obolibrary.org/obo/sepio-clingen#": {
-    "id": "http://purl.obolibrary.org/obo/sepio-clingen#",
-    "prefix": "SEPIO-CG",
-    "urlPattern": "http://purl.obolibrary.org/obo/SEPIO-CG_"
-  },
   "http://purl.obolibrary.org/obo/so#": {
     "id": "http://purl.obolibrary.org/obo/so#",
     "prefix": "SO",
     "urlPattern": "http://purl.obolibrary.org/obo/SO_"
-  },
-  "http://purl.obolibrary.org/obo/stato#": {
-    "id": "http://purl.obolibrary.org/obo/stato#",
-    "prefix": "STATO",
-    "urlPattern": "http://purl.obolibrary.org/obo/STATO_"
-  },
-  "http://purl.obolibrary.org/obo/mondo#": {
-    "id": "http://purl.obolibrary.org/obo/mondo#",
-    "prefix": "MONDO",
-    "urlPattern": "http://purl.obolibrary.org/obo/MONDO_"
   }
 }

@@ -1395,129 +1395,17 @@
     "id": "SO:1000036",
     "label": "inversion"
   },
-  "http://reg.genome.network/allele/": {
-    "id": "http://reg.genome.network/allele/",
-    "label": "ClinGen Allele Registry"
-  },
-  "http://loinc.org/": {
-    "id": "http://loinc.org/",
-    "label": "LOINC"
-  },
-  "http://www.genenames.org/": {
-    "id": "http://www.genenames.org/",
-    "label": "HGNC"
-  },
-  "http://www.ncbi.nlm.nih.gov/nuccore/": {
-    "id": "http://www.ncbi.nlm.nih.gov/nuccore/",
-    "label": "RefSeq"
-  },
-  "http://www.ncbi.nlm.nih.gov/clinvar/": {
-    "id": "http://www.ncbi.nlm.nih.gov/clinvar/",
-    "label": "ClinVar"
-  },
-  "http://www.ensembl.org/": {
-    "id": "http://www.ensembl.org/",
-    "label": "Ensembl"
-  },
-  "http://purl.obolibrary.org/obo/so#": {
-    "id": "http://purl.obolibrary.org/obo/so#",
-    "label": "Sequence Ontology"
-  },
-  "http://www.ncbi.nlm.nih.gov/projects/SNP/": {
-    "id": "http://www.ncbi.nlm.nih.gov/projects/SNP/",
-    "label": "dbSNP"
-  },
-  "http://www.hgvs.org/mutnomen/": {
-    "id": "http://www.hgvs.org/mutnomen/",
-    "label": "HGVS"
-  },
-  "http://www.lrg-sequence.org/": {
-    "id": "http://www.lrg-sequence.org/",
-    "label": "LRG"
-  },
-  "http://www.omim.org/": {
-    "id": "http://www.omim.org/",
-    "label": "OMIM"
-  },
-  "http://www.ncbi.nlm.nih.gov/pubmed/": {
-    "id": "http://www.ncbi.nlm.nih.gov/pubmed/",
-    "label": "Pubmed"
-  },
-  "http://www.orpha.net/": {
-    "id": "http://www.orpha.net/",
-    "label": "Orphanet"
-  },
-  "http://gnomad.broadinstitute.org/": {
-    "id": "http://gnomad.broadinstitute.org/",
-    "label": "ExAC/gnomad Populations"
-  },
-  "https://www.ncbi.nlm.nih.gov/medgen/": {
-    "id": "https://www.ncbi.nlm.nih.gov/medgen/",
-    "label": "MedGen"
-  },
-  "http://purl.obolibrary.org/obo/hp#": {
-    "id": "http://purl.obolibrary.org/obo/hp#",
-    "label": "Human Phenotype Ontology"
-  },
-  "http://purl.obolibrary.org/obo/ro#": {
-    "id": "http://purl.obolibrary.org/obo/ro#",
-    "label": "Relations Ontology"
-  },
-  "http://www.internationalgenome.org/": {
-    "id": "http://www.internationalgenome.org/",
-    "label": "Int'l Genome Sample Resource populations"
-  },
-  "http://purl.obolibrary.org/obo/doid#": {
-    "id": "http://purl.obolibrary.org/obo/doid#",
-    "label": "Disease Ontology"
-  },
-  "https://meshb.nlm.nih.gov/": {
-    "id": "https://meshb.nlm.nih.gov/",
-    "label": "Medical Subject Headers"
-  },
-  "http://evs.gs.washington.edu/EVS/": {
-    "id": "http://evs.gs.washington.edu/EVS/",
-    "label": "Exome Variant Server/ESP populations"
-  },
-  "http://purl.obolibrary.org/obo/geno#": {
-    "id": "http://purl.obolibrary.org/obo/geno#",
-    "label": "GENO"
-  },
-  "http://purl.obolibrary.org/obo/sepio#": {
-    "id": "http://purl.obolibrary.org/obo/sepio#",
-    "label": "Scientific Evidence Provenance Information Ontology"
-  },
-  "http://purl.obolibrary.org/obo/mondo#": {
-    "id": "http://purl.obolibrary.org/obo/mondo#",
-    "label": "Monarch Initiative Disease Ontology"
-  },
-  "http://purl.obolibrary.org/obo/sepio-clingen#": {
-    "id": "http://purl.obolibrary.org/obo/sepio-clingen#",
-    "label": "ClinGen extensions to SEPIO"
-  },
-  "http://purl.obolibrary.org/obo/obi#": {
-    "id": "http://purl.obolibrary.org/obo/obi#",
-    "label": "OBI"
-  },
-  "http://purl.obolibrary.org/obo/iao#": {
-    "id": "http://purl.obolibrary.org/obo/iao#",
-    "label": "Information Artifact Ontology"
-  },
-  "http://purl.obolibrary.org/obo/ncit#": {
-    "id": "http://purl.obolibrary.org/obo/ncit#",
-    "label": "NCI Thesarus"
-  },
   "http://purl.obolibrary.org/obo/bfo#": {
     "id": "http://purl.obolibrary.org/obo/bfo#",
     "label": "BFO"
   },
-  "http://purl.obolibrary.org/obo/pco#": {
-    "id": "http://purl.obolibrary.org/obo/pco#",
-    "label": "PCO"
+  "http://dataexchange.clinicalgenome.org/temp/": {
+    "id": "http://dataexchange.clinicalgenome.org/temp/",
+    "label": "ClinGen Modeling Temporary Namespace"
   },
-  "http://purl.obolibrary.org/obo/stato#": {
-    "id": "http://purl.obolibrary.org/obo/stato#",
-    "label": "STATO"
+  "http://purl.org/dc/elements/1.1/": {
+    "id": "http://purl.org/dc/elements/1.1/",
+    "label": "Dublin Core"
   },
   "http://purl.obolibrary.org/obo/ero#": {
     "id": "http://purl.obolibrary.org/obo/ero#",
@@ -1527,33 +1415,125 @@
     "id": "http://biohackathon.org/resource/faldo#",
     "label": "FALDO"
   },
-  "http://purl.org/dc/elements/1.1/": {
-    "id": "http://purl.org/dc/elements/1.1/",
-    "label": "DC"
+  "http://purl.obolibrary.org/obo/geno#": {
+    "id": "http://purl.obolibrary.org/obo/geno#",
+    "label": "GENO"
   },
-  "http://www.w3.org/2000/01/rdf-schema#": {
-    "id": "http://www.w3.org/2000/01/rdf-schema#",
-    "label": "RDF"
-  },
-  "http://www.w3.org/ns/prov#": {
-    "id": "http://www.w3.org/ns/prov#",
-    "label": "W3C Provenance"
+  "http://purl.obolibrary.org/obo/obi#": {
+    "id": "http://purl.obolibrary.org/obo/obi#",
+    "label": "OBI"
   },
   "http://purl.org/pav/": {
     "id": "http://purl.org/pav/",
     "label": "PAV"
   },
-  "http://dataexchange.clinicalgenome.org/temp/": {
-    "id": "http://dataexchange.clinicalgenome.org/temp/",
-    "label": "ClinGen Modeling Temporary Namespace"
+  "http://purl.obolibrary.org/obo/pco#": {
+    "id": "http://purl.obolibrary.org/obo/pco#",
+    "label": "PCO"
   },
-  "http://dataexchange.clinicalgenome.org/examples/": {
-    "id": "http://dataexchange.clinicalgenome.org/examples/",
-    "label": "ClinGen Modeling Example Namespace"
+  "http://www.w3.org/ns/prov#": {
+    "id": "http://www.w3.org/ns/prov#",
+    "label": "W3C Provenance"
   },
-  "http://xmlns.com/foaf/0.1/": {
-    "id": "http://xmlns.com/foaf/0.1/",
-    "label": "FOAF Ontology"
+  "http://www.w3.org/2000/01/rdf-schema#": {
+    "id": "http://www.w3.org/2000/01/rdf-schema#",
+    "label": "RDF"
+  },
+  "http://purl.obolibrary.org/obo/ro#": {
+    "id": "http://purl.obolibrary.org/obo/ro#",
+    "label": "Relations Ontology"
+  },
+  "http://purl.obolibrary.org/obo/sepio#": {
+    "id": "http://purl.obolibrary.org/obo/sepio#",
+    "label": "Scientific Evidence Provenance Information Ontology"
+  },
+  "http://purl.obolibrary.org/obo/sepio-clingen#": {
+    "id": "http://purl.obolibrary.org/obo/sepio-clingen#",
+    "label": "ClinGen extensions to SEPIO"
+  },
+  "http://reg.genome.network/allele/": {
+    "id": "http://reg.genome.network/allele/",
+    "label": "ClinGen Allele Registry"
+  },
+  "http://www.ncbi.nlm.nih.gov/clinvar/": {
+    "id": "http://www.ncbi.nlm.nih.gov/clinvar/",
+    "label": "ClinVar"
+  },
+  "http://www.ncbi.nlm.nih.gov/projects/SNP/": {
+    "id": "http://www.ncbi.nlm.nih.gov/projects/SNP/",
+    "label": "dbSNP"
+  },
+  "http://purl.obolibrary.org/obo/doid#": {
+    "id": "http://purl.obolibrary.org/obo/doid#",
+    "label": "Disease Ontology"
+  },
+  "http://www.ensembl.org/": {
+    "id": "http://www.ensembl.org/",
+    "label": "Ensembl"
+  },
+  "http://evs.gs.washington.edu/EVS/": {
+    "id": "http://evs.gs.washington.edu/EVS/",
+    "label": "Exome Variant Server/ESP populations"
+  },
+  "https://www.ncbi.nlm.nih.gov/gene#": {
+    "id": "https://www.ncbi.nlm.nih.gov/gene#",
+    "label": "NCBI Gene"
+  },
+  "http://gnomad.broadinstitute.org/": {
+    "id": "http://gnomad.broadinstitute.org/",
+    "label": "ExAC/gnomad Populations"
+  },
+  "http://www.genenames.org/": {
+    "id": "http://www.genenames.org/",
+    "label": "Human Gene Nomenclature Committee"
+  },
+  "http://purl.obolibrary.org/obo/hp#": {
+    "id": "http://purl.obolibrary.org/obo/hp#",
+    "label": "Human Phenotype Ontology"
+  },
+  "http://www.internationalgenome.org/": {
+    "id": "http://www.internationalgenome.org/",
+    "label": "Int'l Genome Sample Resource populations"
+  },
+  "http://loinc.org/": {
+    "id": "http://loinc.org/",
+    "label": "LOINC"
+  },
+  "http://www.lrg-sequence.org/": {
+    "id": "http://www.lrg-sequence.org/",
+    "label": "Locus Reference Genomic"
+  },
+  "https://meshb.nlm.nih.gov/": {
+    "id": "https://meshb.nlm.nih.gov/",
+    "label": "Medical Subject Headers"
+  },
+  "http://purl.obolibrary.org/obo/mondo#": {
+    "id": "http://purl.obolibrary.org/obo/mondo#",
+    "label": "Monarch Initiative Disease Ontology"
+  },
+  "http://purl.obolibrary.org/obo/ncit#": {
+    "id": "http://purl.obolibrary.org/obo/ncit#",
+    "label": "NCI Thesarus"
+  },
+  "http://www.omim.org/": {
+    "id": "http://www.omim.org/",
+    "label": "OMIM"
+  },
+  "http://www.orpha.net/": {
+    "id": "http://www.orpha.net/",
+    "label": "Orphanet"
+  },
+  "http://www.ncbi.nlm.nih.gov/pubmed/": {
+    "id": "http://www.ncbi.nlm.nih.gov/pubmed/",
+    "label": "Pubmed"
+  },
+  "http://www.ncbi.nlm.nih.gov/nuccore/": {
+    "id": "http://www.ncbi.nlm.nih.gov/nuccore/",
+    "label": "RefSeq"
+  },
+  "http://purl.obolibrary.org/obo/so#": {
+    "id": "http://purl.obolibrary.org/obo/so#",
+    "label": "Sequence Ontology"
   },
   "SEPIO:0000363": {
     "id": "SEPIO:0000363",
