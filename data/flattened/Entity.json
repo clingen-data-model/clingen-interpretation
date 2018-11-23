@@ -1628,7 +1628,7 @@
   "SEPIO-CG:65119": {
     "id": "SEPIO-CG:65119",
     "label": "Reference Sequence Value Set",
-    "description": "TODO"
+    "description": "Any public, immutable, accessioned DNA, RNA or amino acid sequences."
   },
   "SEPIO-CG:65120": {
     "id": "SEPIO-CG:65120",
@@ -1683,12 +1683,22 @@
   "SEPIO:0000396": {
     "id": "SEPIO:0000396",
     "label": "Gene Value Set",
-    "description": "TODO"
+    "description": "The genes in the the genome."
   },
   "SEPIO:0000395": {
     "id": "SEPIO:0000395",
     "label": "ACMG Criterion Value Set",
-    "description": "TODO"
+    "description": "The ACMG-AMP IVS variant pathogenicity rule or criterion codes including extended codes used in domain specific derivatives of the original guideline. (e.g. BA1, PS2, PM3, PVS1, ...)"
+  },
+  "SEPIO-CG:65132": {
+    "id": "SEPIO-CG:65132",
+    "label": "Variant Interpretation Guideline Value Set",
+    "description": "The assertion method guidelines for variant pathogenicity interpretation. ACMG-AMP IVS guidelines 2015 is a typical case, but there may be alternative or derivative guidelines as well."
+  },
+  "SEPIO-CG:65133": {
+    "id": "SEPIO-CG:65133",
+    "label": "Variant Interpretation Criterion Scoring Rules Value Set",
+    "description": "This is the description of how the weighting of the satisfied criterion are typically evaluated to arrive at a specific clinical significance."
   },
   "SEPIO-CG:65140": {
     "id": "SEPIO-CG:65140",
