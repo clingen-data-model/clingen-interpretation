@@ -302,12 +302,12 @@
   "A950": {
     "id": "A950",
     "entityId": "E06",
-    "name": "chromosome",
+    "name": "relatedChromosome",
     "dataType": "@id",
     "cardinality": "0..1",
     "iri": "CG:0102",
     "iri-label": "related chromosome",
-    "cg-label": "chromosome",
+    "cg-label": "relatedChromosome",
     "@valueSetId": "SEPIO-CG:65905",
     "precedence": 31.0,
     "description": "The chromosome with which the contextual allele is associated."
@@ -315,12 +315,12 @@
   "A951": {
     "id": "A951",
     "entityId": "E06",
-    "name": "gene",
+    "name": "relatedGene",
     "dataType": "@id",
     "cardinality": "0..1",
     "iri": "CG:0103",
     "iri-label": "related gene",
-    "cg-label": "gene",
+    "cg-label": "relatedGene",
     "@valueSetId": "SEPIO:0000396",
     "precedence": 32.0,
     "description": "The gene with with the contextual allele is primarily associated."
