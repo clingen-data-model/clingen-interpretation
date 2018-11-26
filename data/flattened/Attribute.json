@@ -299,6 +299,32 @@
     "cg-label": "canonicalAllele",
     "precedence": 30.0
   },
+  "A950": {
+    "id": "A950",
+    "entityId": "E06",
+    "name": "chromosome",
+    "dataType": "@id",
+    "cardinality": "0..1",
+    "iri": "CG:0102",
+    "iri-label": "related chromosome",
+    "cg-label": "chromosome",
+    "@valueSetId": "SEPIO-CG:65905",
+    "precedence": 31.0,
+    "description": "The chromosome with which the contextual allele is associated."
+  },
+  "A951": {
+    "id": "A951",
+    "entityId": "E06",
+    "name": "gene",
+    "dataType": "@id",
+    "cardinality": "0..1",
+    "iri": "CG:0103",
+    "iri-label": "related gene",
+    "cg-label": "gene",
+    "@valueSetId": "SEPIO:0000396",
+    "precedence": 32.0,
+    "description": "The gene with with the contextual allele is primarily associated."
+  },
   "A077": {
     "id": "A077",
     "entityId": "E08",
