@@ -1735,6 +1735,11 @@
     "label": "Chromosome Value Set",
     "description": "TODO"
   },
+  "SEPIO-CG:65906": {
+    "id": "SEPIO-CG:65906",
+    "label": "Reference Genome Build Value Set",
+    "description": "TODO"
+  },
   "CGEX:Fam363": {
     "id": "CGEX:Fam363",
     "label": "Family #001"
@@ -2678,5 +2683,20 @@
   "SEPIO-CG:98125": {
     "id": "SEPIO-CG:98125",
     "label": "M"
+  },
+  "SEPIO-CG:98201": {
+    "id": "SEPIO-CG:98201",
+    "label": "NCBI36",
+    "description": "hg18"
+  },
+  "SEPIO-CG:98202": {
+    "id": "SEPIO-CG:98202",
+    "label": "GRCh37",
+    "description": "hg19"
+  },
+  "SEPIO-CG:98203": {
+    "id": "SEPIO-CG:98203",
+    "label": "GRCh38",
+    "description": "hg38"
   }
 }
