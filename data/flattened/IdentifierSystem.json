@@ -141,8 +141,8 @@
   },
   "https://meshb.nlm.nih.gov/": {
     "id": "https://meshb.nlm.nih.gov/",
-    "prefix": "MESH",
-    "urlPattern": "https://meshb.nlm.nih.gov/"
+    "prefix": "MeSH",
+    "urlPattern": "http://identifiers.org/mesh/"
   },
   "http://purl.obolibrary.org/obo/mondo#": {
     "id": "http://purl.obolibrary.org/obo/mondo#",
@@ -157,12 +157,12 @@
   "http://www.omim.org/": {
     "id": "http://www.omim.org/",
     "prefix": "OMIM",
-    "urlPattern": "http://www.omim.org/"
+    "urlPattern": "http://identifiers.org/omim/"
   },
   "http://www.orpha.net/": {
     "id": "http://www.orpha.net/",
     "prefix": "Orphanet",
-    "urlPattern": "http://www.orpha.net/"
+    "urlPattern": "http://purl.obolibrary.org/obo/Orphanet_"
   },
   "http://www.ncbi.nlm.nih.gov/pubmed/": {
     "id": "http://www.ncbi.nlm.nih.gov/pubmed/",
@@ -178,5 +178,10 @@
     "id": "http://purl.obolibrary.org/obo/so#",
     "prefix": "SO",
     "urlPattern": "http://purl.obolibrary.org/obo/SO_"
+  },
+  "http://umlsks.nlm.nih.gov/": {
+    "id": "http://umlsks.nlm.nih.gov/",
+    "prefix": "UMLS",
+    "urlPattern": "http://linkedlifedata.com/resource/umls/id/"
   }
 }
